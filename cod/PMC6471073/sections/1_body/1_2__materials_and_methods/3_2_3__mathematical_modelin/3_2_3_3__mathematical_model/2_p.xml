@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Herein, 
+ <bold>M</bold>
+ <sub>0
+  <italic>i</italic>
+ </sub>, 
+ <bold>K</bold>
+ <sub>0
+  <italic>i</italic>
+ </sub>, and 
+ <bold>P</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> are the uncoupled mass matrix, stiffness matrix, and generalized coordinate of the level-1 substructure 
+ <italic>i</italic>, respectively. Therefore, 
+ <disp-formula id="FD31-micromachines-10-00181">
+  <label>(31)</label>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>M</mi>
+          </mstyle>
+          <mrow>
+           <mn>0</mn>
+           <mi>i</mi>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mi>d</mi>
+         <mi>i</mi>
+         <mi>a</mi>
+         <mi>g</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>m</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>m</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>m</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>A</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>m</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>B</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>,</mo>
+         <msub>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>K</mi>
+          </mstyle>
+          <mrow>
+           <mn>0</mn>
+           <mi>i</mi>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mi>d</mi>
+         <mi>i</mi>
+         <mi>a</mi>
+         <mi>g</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>k</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>k</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>k</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>A</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+           <mo>,</mo>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>k</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>B</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>P</mi>
+          </mstyle>
+          <mi>i</mi>
+         </msub>
+         <mo>=</mo>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <mtable>
+              <mtr>
+               <mtd>
+                <mrow>
+                 <msubsup>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>p</mi>
+                  </mstyle>
+                  <mi>i</mi>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>r</mi>
+                  </mstyle>
+                 </msubsup>
+                </mrow>
+               </mtd>
+               <mtd>
+                <mrow>
+                 <msubsup>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>p</mi>
+                  </mstyle>
+                  <mrow>
+                   <mi>i</mi>
+                   <mo>+</mo>
+                   <mn>1</mn>
+                  </mrow>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>r</mi>
+                  </mstyle>
+                 </msubsup>
+                </mrow>
+               </mtd>
+               <mtd>
+                <mrow>
+                 <msubsup>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>p</mi>
+                  </mstyle>
+                  <mrow>
+                   <mi>i</mi>
+                   <mi>A</mi>
+                  </mrow>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>s</mi>
+                  </mstyle>
+                 </msubsup>
+                </mrow>
+               </mtd>
+               <mtd>
+                <mrow>
+                 <msubsup>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>p</mi>
+                  </mstyle>
+                  <mrow>
+                   <mi>i</mi>
+                   <mi>B</mi>
+                  </mrow>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>s</mi>
+                  </mstyle>
+                 </msubsup>
+                </mrow>
+               </mtd>
+              </mtr>
+             </mtable>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+          <mi>T</mi>
+         </msup>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

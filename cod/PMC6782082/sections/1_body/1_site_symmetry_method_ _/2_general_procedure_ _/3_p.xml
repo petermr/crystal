@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The subduction procedure relates the representations of a group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> to those of its subgroups 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi22.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. Consider an irrep 
+ <bold>D</bold>
+ <sub>γ</sub> = 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi23.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> of a group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. The subduction of 
+ <bold>D</bold>
+ <sub>γ</sub> to the subgroup 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi25.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> results in a representation of the subgroup, known as the ‘subduced representation’ 
+ <bold>D</bold>
+ <sup>Sub</sup>, formed by the matrices of those elements of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> that also belong to the subgroup 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, 
+ <italic>i.e.</italic>
+ <bold>D</bold>
+ <sup>Sub</sup> = 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi28.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> = 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi29.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. This subduced representation 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi30.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> is in general reducible and is decomposable into irreps 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi31.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>:
+ <disp-formula id="fd1">
+  <graphic xlink:href="j-52-01214-efd1.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>The multiplicities 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi33.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> of the irreps 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi31.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> in the subduced representation 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi36.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> can be calculated by the reduction formula (known also as the ‘magic’ formula):
+ <disp-formula id="fd2">
+  <graphic xlink:href="j-52-01214-efd2.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where χ
+ <sup>Sub</sup>(
+ <italic>s</italic>) is the character of the subduced representation and χ
+ <sub>σ</sub>(
+ <italic>s</italic>) is the character of the irrep 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi31.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> for the same element 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi38.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>.
+</p>

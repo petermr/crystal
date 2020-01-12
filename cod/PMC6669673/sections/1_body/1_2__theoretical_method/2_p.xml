@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PF of the canonical ensemble for 2D materials can be expressed as: 
+ <disp-formula id="FD2-nanomaterials-09-00978">
+  <label>(2)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>Z</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mi>N</mi>
+       <mo>!</mo>
+      </mrow>
+     </mfrac>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <mi>π</mi>
+           <mi>m</mi>
+          </mrow>
+          <mrow>
+           <mi>β</mi>
+           <msup>
+            <mi>h</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+     </msup>
+     <mi>Q</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>β</italic> = 1/
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>k</mi>
+      <mi>B</mi>
+     </msub>
+     <mi>T</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> with 
+ <italic>k
+  <sub>B</sub>
+ </italic> the Boltzmann factor and 
+ <italic>Q</italic> is the configurational integral: 
+ <disp-formula id="FD3-nanomaterials-09-00978">
+  <label>(3)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>Q</mi>
+     <mo>=</mo>
+     <mo mathsize="small">∫</mo>
+     <mi mathvariant="normal">d</mi>
+     <msup>
+      <mi>x</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msup>
+     <mi>exp</mi>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msup>
+          <mi>x</mi>
+          <mrow>
+           <mn>3</mn>
+           <mi>N</mi>
+          </mrow>
+         </msup>
+         <mo>,</mo>
+         <msup>
+          <mi>X</mi>
+          <mrow>
+           <mn>3</mn>
+           <mi>M</mi>
+          </mrow>
+         </msup>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par2">Phosphor-converted white light-emitting diodes (pc-WLEDs) have emerged as next-generation solid-state lighting technology and is a potential substitute for traditional lighting sources such as incandescent lamps, fluorescent lamps, halogen lamps, and backlights for liquid crystal displays
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>–
+  <xref ref-type="bibr" rid="CR3">3</xref>
+ </sup>. The low power consumption, high luminous efficacy, and environment-friendly characteristics make the pc-WLEDs attractive. The most commonly accepted and commercially available pc-WLEDs are based on the combination of a blue-chip and yellow phosphor or blue-chip, green, and red phosphors. Our group and others have studied various phosphors and utilized the phosphors for fabricating highly efficient and reliable WLEDs
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>–
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. Several strategies have been proposed to enhance the luminous efficacy and stability of the pc-WLEDs
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>–
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. However, apart from the high luminous efficacy, accurate color reproduction is also a major requirement when the WLEDs are used as an artificial light source, especially when WLEDs are used for photography and videography. The color rendering index (CRI)– defined by Commission Internationale de l'éclairage (CIE, International Commission on Illumination) is a quantitative measure that provides the ability of a light source to reproduce the color of the object it illuminates accurately
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>,
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The standard CRI points, namely 
+ <italic>R</italic>
+ <sub>1</sub> − 
+ <italic>R</italic>
+ <sub>8,</sub> are derived from CIE 1974 test color samples and usually arithmetical mean of these values – 
+ <italic>R</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> is used to report the ability to reproduce the color accurately. The special CRI points (
+ <italic>R</italic>
+ <sub>9</sub>
+ <italic>- R</italic>
+ <sub>15</sub>) that were derived from realistic colors are also used as a color rendering marker. The recommended 
+ <italic>R</italic>a values depend on the application environment; nevertheless, 
+ <italic>R</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> of &gt; 80 is recommended for most applications. For lighting in stadiums, most of the athletic committees recommend 
+ <italic>R</italic>
+ <sub>a</sub> &gt; 90. Even though 
+ <italic>R</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> is used to evaluate the light sources, saturated colors cannot be evaluated accurately in terms of 
+ <italic>R</italic>
+ <sub>
+  <italic>a</italic>,
+ </sub> and numerous new methods for color rendition evaluation have been proposed. Among the new methods, technical memorandum (TM-30) developed by Illuminating Engineering Society (IES) uses 99 color samples, including saturated colors
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>. In the TM-30 standard, fidelity index (
+ <italic>R</italic>
+ <sub>f</sub>), gamut index (
+ <italic>R</italic>
+ <sub>g</sub>), color vector/saturation graphics, hue fidelity indices (
+ <italic>R</italic>
+ <sub>f,h
+  <italic>j</italic>
+ </sub>, j = 1 to 16), chroma change by hue indices (
+ <italic>R</italic>
+ <sub>cs,h
+  <italic>j</italic>
+ </sub>, j = 1 to 16), skin fidelity index (
+ <italic>R</italic>
+ <sub>f,skin</sub>) and sample fidelity index (
+ <italic>R</italic>
+ <sub>f,CES
+  <italic>i</italic>
+ </sub>, i = 1–99) are used to evaluate a light source. Depending on the application environment, these values vary and are evaluated as per the specific requirements. It is crucial to have a decent color quality with reasonable efficacy suitable for intended applications. Unlike incandescent and fluorescent lamps, the light-emitting diodes (LEDs) emit light in a narrow range of wavelengths in the visible spectrum. This unique optical characteristic has offered big potential for LEDs to produce high-quality white light with reasonable luminous efficacy by combining proper inorganic phosphors. The LEDs as a light source are now far beyond from being a promising technology, and the market share of the LEDs in the field of general illumination is dramatically increasing due to the low manufacturing cost. Also, applications of LEDs are extended to new fields such as horticulture, biologically-driven lighting, and lighting for the art exhibition
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>–
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. For each application, the requirement varies, and the LEDs must be properly evaluated to find the suitability as per the requirement. Concerning the application environment, rather than fabricating LEDs with CRI 
+ <italic>R</italic>
+ <sub>a</sub> &gt;80 or 90, individual CRI points (
+ <italic>R</italic>
+ <sub>1</sub>- 
+ <italic>R</italic>
+ <sub>15</sub>) should be evaluated in detail. In this aspect, recently, a combination of two CRI points such as 
+ <italic>R</italic>
+ <sub>a</sub> and 
+ <italic>R</italic>
+ <sub>9</sub> of light sources are evaluated, and most of the LED manufacturers label 
+ <italic>R</italic>
+ <sub>a</sub> and 
+ <italic>R</italic>
+ <sub>9</sub> on the product specifications. Even if 
+ <italic>R</italic>
+ <sub>a</sub> &gt;80, the 
+ <italic>R</italic>
+ <sub>9</sub> values will be low (&lt;10) for conventional WLEDs consisting of a blue-chip and yellow phosphor. Because 
+ <italic>R</italic>
+ <sub>9</sub> corresponds to the red component and the blue LED -yellow phosphor combination in WLEDs lack red component. Moreover, for ultra-high-definition television (UHDTV) production, high CRI points (&gt;95) of the light source is required. Therefore, conventional WLEDs consisting of a blue LED and yellow phosphor should be replaced with a high CRI LED for such specific applications. However, it is challenging to enhance CRI points and luminous efficacy simultaneously as there is a trade-off between them
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. In this work, we have re-designed and optimized the LED package design parameters with high luminous efficacy and all the CRI points above 95 by introducing a combination of two blue LEDs and a UV LED along with green and red phosphors. Through properly optimizing the current through each LED and the phosphor ratio, we achieved all the CRI 
+ <italic>R</italic>
+ <sub>1</sub> – 
+ <italic>R</italic>
+ <sub>15</sub> values above 95 and luminous efficacy around 100 lm/W. The LEDs were compared with the conventional blue LED - yellow phosphor, blue LED - green &amp; red phosphors, and blue LED - blue, yellow, and red phosphors based LEDs. All the LEDs were evaluated using the TM-30-18 standard and compared.
+</p>

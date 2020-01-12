@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par66">The use of more accurate block geometry is computationally more intensive as the number of symmetries in the block geometry is smaller than the cylindrical geometry. This means that more calculations are required for the system matrix elements in each forward/backward projection in the iterative reconstruction (Fig. 
+ <xref rid="Fig15" ref-type="fig">15</xref>). In the new implementation, the block geometry only utilizes symmetries in an axial direction. It would be useful to also implement symmetries in the transaxial direction to accelerate the computation.
+</p>

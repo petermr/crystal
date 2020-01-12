@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">All calculations presented in this work are performed with the exciting code
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. The muffin-tin (MT) radii of all the atomic species involved (Cs, K, and Sb) are set to 1.65 bohr and a plane-wave basis-set cutoff 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M65">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${R}_{{\rm{MT}}}{G}_{{\rm{\max }}}=8.0$$\end{document}</tex-math>
+   <math id="M66">
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">MT</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">max</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>8.0</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is employed. For ground-state calculations the Brillouin zone (BZ) is sampled using a homogeneous cubic 
+ <bold>k</bold>-mesh with 8 points in each direction, corresponding to overall 29 points considering the symmetry operations. The optimised volume of each unit cell is obtained by fitting DFT results obtained at varying lattice parameters with the Birch-Murnaghan equation of state
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>,
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup>. To calculate the quasi-particle band-structure within the 
+ <italic>G</italic>
+ <sub>0</sub>
+ <italic>W</italic>
+ <sub>0</sub> approximation, a 4 × 4 × 4 
+ <bold>k</bold>-mesh is adopted without exploiting symmetries, for a total of 64 
+ <bold>k</bold>-points. Unit cells and BZs are visualised with the XCrysDen software
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>.
+</p>

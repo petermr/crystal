@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the last section of this paper, the sensing performance of the wind speed sensor is investigated by measuring the efficiency of converting wind energy into the electric signals. 
+ <bold>Figure</bold>
+ <xref rid="advs1381-fig-0006" ref-type="fig">
+  <bold>6</bold>
+ </xref>a shows the 
+ <italic>I–V</italic> output characteristics of the PD from 0 to 2.5 V under a range of wind speed from 5 to 14 m s
+ <sup>−1</sup>. As shown in Figure 
+ <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>b, the change of the current amplitude under four bias voltages (1.0, 1.5, 2.0, and 2.5 V) are plotted as a function of wind speeds and the average sensitivity values are determined to be 0.35, 1.72, 3.92, and 5.87 mA/(m/s), respectively, by the linear fitting. In terms of the signal intensity, it is three orders higher than the signals of recently reported TENGs‐based wind speed sensors. In addition, the response time, representing a significant parameter of a wind speed sensor, is quantitatively analyzed as shown Figure 
+ <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>c, which records the photocurrent of the wind speed sensor during repetitive switching of wind flow (14 m s
+ <sup>−1</sup>) within 0–5 s. Here, the rise time and decay time are defined as the time spent for the initial current increases to 90% of the peak value, and vice versa. As shown in Figure 
+ <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>d,e, it is clear that both the rise time and decay time are both less than 0.3 s. Therefore, this highly stable and rapidly responsive device is promising to be utilized as a wind speed sensor, which is superior to TENGs. In addition, the sensing performance of the system was further characterized in a mimetic environment that simulates the flow of natural wind. The real‐time current was obtained from the electrical output of the perovskite‐based PD part as shown in Figure 
+ <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>f. The wind speed was analyzed based on the correlation between the current and the wind speed at the inlet. In addition, a commercial hot‐wire anemometer was also tested for comparison. It is shown that the wind speed obtained by the current value agrees well with the result of hot‐wire anemometer, suggesting that the wind sensor system enable the instantaneous and stable detection of wind speed, which is expected to be applicable in the development of the IoT and climate monitoring.
+</p>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Step 1: Based on the input measured acceleration 
+ <italic>u</italic>(
+ <italic>k</italic>) and the output pressure 
+ <italic>y</italic>(
+ <italic>k</italic>), the least square estimation forms the initial values, i.e., 
+ <disp-formula id="FD13-sensors-19-01052">
+  <label>(13)</label>
+  <math id="mm112">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>a</mi>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msup>
+     <mo>=</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover>
+         <mi>a</mi>
+         <mo>^</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+        <mi>S</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>,</mo>
+     <mo> </mo>
+     <mrow>
+      <msup>
+       <mover>
+        <mi>b</mi>
+        <mo>^</mo>
+       </mover>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mn>1</mn>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mover>
+          <mi>b</mi>
+          <mo>^</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>L</mi>
+         <mi>S</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>,</mo>
+      <mo> </mo>
+      <mrow>
+       <msup>
+        <mover>
+         <mi>c</mi>
+         <mo>^</mo>
+        </mover>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mn>1</mn>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>=</mo>
+      <msub>
+       <mrow>
+        <mover>
+         <mi>c</mi>
+         <mo>^</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+        <mi>S</mi>
+        <mo>.</mo>
+       </mrow>
+      </msub>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

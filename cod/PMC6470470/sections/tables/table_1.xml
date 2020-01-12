@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-12-00948-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-12-00948-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>List of input data for cubic crystals used in the calculation of the drag coefficient; all elastic constants are given in units of GPa. The references we used to compile these data are: Ref. [
+   <xref rid="B35-materials-12-00948" ref-type="bibr">35</xref>] (Section 12) (lattice parameters 
+   <italic>a</italic> and densities 
+   <inline-formula>
+    <math id="mm194">
+     <mrow>
+      <mi>ρ</mi>
+     </mrow>
+    </math>
+   </inline-formula>), Refs. [
+   <xref rid="B36-materials-12-00948" ref-type="bibr">36</xref>] (p. 10) and [
+   <xref rid="B37-materials-12-00948" ref-type="bibr">37</xref>] (effective Lamé constants of the polycrystal except for Mo), Ref. [
+   <xref rid="B35-materials-12-00948" ref-type="bibr">35</xref>] (Section 12) (single crystal SOEC and Zener anisotropy ratio 
+   <inline-formula>
+    <math id="mm195">
+     <mrow>
+      <mrow>
+       <mi>A</mi>
+       <mo> </mo>
+       <mo>:</mo>
+       <mo>=</mo>
+       <mn>2</mn>
+       <msub>
+        <mi>c</mi>
+        <mn>44</mn>
+       </msub>
+       <mo>/</mo>
+       <mrow>
+        <mo>(</mo>
+        <msub>
+         <mi>c</mi>
+         <mn>11</mn>
+        </msub>
+        <mo>−</mo>
+        <msub>
+         <mi>c</mi>
+         <mn>12</mn>
+        </msub>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula>), and Refs. [
+   <xref rid="B38-materials-12-00948" ref-type="bibr">38</xref>,
+   <xref rid="B39-materials-12-00948" ref-type="bibr">39</xref>,
+   <xref rid="B40-materials-12-00948" ref-type="bibr">40</xref>,
+   <xref rid="B41-materials-12-00948" ref-type="bibr">41</xref>,
+   <xref rid="B42-materials-12-00948" ref-type="bibr">42</xref>,
+   <xref rid="B43-materials-12-00948" ref-type="bibr">43</xref>] (TOEC). The Lamé constants of Mo (marked with *) are analytical averages of the single crystal SOEC (see, e.g., [
+   <xref rid="B34-materials-12-00948" ref-type="bibr">34</xref>]). The conventions for the single crystal elastic constants are those of Brugger [
+   <xref rid="B44-materials-12-00948" ref-type="bibr">44</xref>].
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1"> </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Ag
+     <inline-formula>
+      <math id="mm196">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">fcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Al
+     <inline-formula>
+      <math id="mm197">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">fcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Au
+     <inline-formula>
+      <math id="mm198">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">fcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Cu
+     <inline-formula>
+      <math id="mm199">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">fcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Fe
+     <inline-formula>
+      <math id="mm200">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">bcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Mo
+     <inline-formula>
+      <math id="mm201">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">bcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Nb
+     <inline-formula>
+      <math id="mm202">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">bcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin;border-top:solid thin" rowspan="1" colspan="1">Ni
+     <inline-formula>
+      <math id="mm203">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mo>(</mo>
+           <mi mathvariant="bold">fcc</mi>
+           <mo>)</mo>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>a</italic> (Å)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.09</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.05</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">4.08</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.61</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.87</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.15</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.30</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.52</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm204">
+       <mrow>
+        <mi>ρ</mi>
+       </mrow>
+      </math>
+     </inline-formula> (g/ccm)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10.50</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.70</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">19.30</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.96</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">7.87</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">10.20</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.57</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.90</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm205">
+       <mrow>
+        <mi>λ</mi>
+       </mrow>
+      </math>
+     </inline-formula> (GPa)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">83.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">58.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">198.0</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">105.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">115.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">176.4 *</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">144.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">126.1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm206">
+       <mrow>
+        <mi>μ</mi>
+       </mrow>
+      </math>
+     </inline-formula> (GPa)
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">30.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">26.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">27.0</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">48.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">81.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">125.0 *</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">37.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">76.0</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm207">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>11</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">123.99</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">106.75</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">192.44</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">168.30</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">226.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">463.70</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">246.50</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">248.10</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm208">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>12</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">93.67</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">60.41</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">162.98</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">121.20</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">140.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">157.80</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">134.50</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">154.90</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm209">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>44</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">46.12</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28.34</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">42.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">75.70</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">116.00</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">109.20</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28.73</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">124.20</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>A</italic>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.04</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.22</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.85</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.21</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.70</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.71</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.51</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.67</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm210">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>111</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm211">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>843</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm212">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1076</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm213">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1729</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm214">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1271</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm215">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>2720</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm216">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>3557</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm217">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>2564</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm218">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>2040</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm219">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>112</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm220">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>529</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm221">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>315</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm222">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>922</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm223">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>814</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm224">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>608</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm225">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1333</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm226">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1140</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm227">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>1030</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm228">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>123</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">189</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">36</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm229">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>233</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm230">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>50</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm231">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>578</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm232">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>617</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm233">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>467</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm234">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>210</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm235">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>144</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">56</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm236">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>23</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm237">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>13</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm238">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>3</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm239">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>836</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm240">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>269</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm241">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>343</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm242">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>140</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm243">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>166</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm244">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>637</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm245">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>340</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm246">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>648</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm247">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>780</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm248">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>530</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm249">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>893</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm250">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>168</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm251">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>920</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm252">
+       <mrow>
+        <msub>
+         <mi>c</mi>
+         <mn>456</mn>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">83</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm253">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>30</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm254">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>12</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm255">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>95</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm256">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>720</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm257">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>555</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">137</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm258">
+       <mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>70</mn>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

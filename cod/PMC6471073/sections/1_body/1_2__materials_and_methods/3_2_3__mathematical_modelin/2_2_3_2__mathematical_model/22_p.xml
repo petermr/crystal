@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A schematic of the single spoke is shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f004">Figure 4</xref>a, where 
+ <italic>b</italic> and 
+ <italic>L</italic> are the width and length of the spoke, respectively. As for the free vibration of the Euler–Bernoulli beam structure, the x-axis displacement mainly includes the rigid displacement while neglecting the elastic displacement. The y-axis displacement can be expressed as the superposition of the rigid mode, rotating mode, and a series of normal flexural vibration modes. It can be expressed as 
+ <disp-formula id="FD22-micromachines-10-00181">
+  <label>(22)</label>
+  <math id="mm24">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>d</mi>
+        <mi>x</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>1</mn>
+        <mi>s</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>⋅</mo>
+       <mn>1</mn>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>d</mi>
+        <mi>y</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>2</mn>
+        <mi>s</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>⋅</mo>
+       <mn>1</mn>
+       <mo>+</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>3</mn>
+        <mi>s</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>⋅</mo>
+       <mfrac>
+        <mi>x</mi>
+        <mi>L</mi>
+       </mfrac>
+       <mo>+</mo>
+       <msup>
+        <mstyle displaystyle="true">
+         <munderover>
+          <mo>∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>4</mn>
+          </mrow>
+          <mo>∞</mo>
+         </munderover>
+         <mrow>
+          <msubsup>
+           <mi>p</mi>
+           <mi>i</mi>
+           <mi>s</mi>
+          </msubsup>
+          <mo stretchy="false">(</mo>
+          <mi>t</mi>
+          <mo stretchy="false">)</mo>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mfrac>
+             <mi>x</mi>
+             <mi>L</mi>
+            </mfrac>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mstyle>
+        <mrow>
+         <mi>i</mi>
+         <mo>−</mo>
+         <mn>2</mn>
+        </mrow>
+       </msup>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

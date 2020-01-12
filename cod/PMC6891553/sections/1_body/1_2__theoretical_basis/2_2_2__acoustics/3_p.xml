@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to obtain the impulse response in all the situations under analysis, the recorded signals have to be convolved with a filter that returns the impulse response. This is equivalent to a deconvolution. The filter is just a time reversal version of the excitation signal. We also considered the fact that the test signal does not have a white (flat) spectrum: Given that the instantaneous frequency sweeps slowly at low frequencies and much faster at high frequencies, the resulting spectrum is pink (falling down by −3 dB/octave). To compensate this coloration of the signal, a filter was used, applying a proper amplitude envelope to the reversed sweep signal so that its amplitude now increases by +3 dB/octave. 
+ <xref ref-type="fig" rid="sensors-19-04881-f003">Figure 3</xref>b illustrates the impulse-response spectra obtained in two representative cases. 
+</p>

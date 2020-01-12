@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To search for the energetically stable composition and relevant atomic configurations of disordered α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub>, the cluster expansion (CE) method was employed. According to the CE formalism,
+ <sup>
+  <xref ref-type="bibr" rid="ref61">61</xref>
+ </sup> the total energy (
+ <italic>E</italic>) of any crystalline solid that is strictly a function of the atomic arrangement on a lattice [i.e., a so-called atomic configuration (σ)] can be formally expanded into a sum over correlation functions ζ
+ <italic>
+  <sub>f</sub>
+ </italic>
+ <sup>(
+  <italic>n</italic>)
+ </sup>(σ) of specific 
+ <italic>n</italic>-site figures 
+ <italic>f</italic> with the corresponding effective cluster interactions (ECIs) 
+ <italic>V
+  <sub>f</sub>
+ </italic>
+ <sup>(
+  <italic>n</italic>)
+ </sup>
+ <disp-formula id="eq1">
+  <graphic xlink:href="ao9b02727_m001" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>1</label>
+ </disp-formula>The factor 
+ <italic>m
+  <sub>f</sub>
+ </italic>
+ <sup>(
+  <italic>n</italic>)
+ </sup> is defined as the multiplicity of specific 
+ <italic>n</italic>-site figures 
+ <italic>f</italic>, normalized to the number of atom sites 
+ <italic>N</italic> within the corresponding atomic configuration σ. To describe any atom configuration σ of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub>, the spin variable σ
+ <italic>
+  <sub>i</sub>
+ </italic> is assigned to take on a value of +1 or of −1, if the lattice site i is occupied by a B or by a Si atom, respectively. As a result, any atomic configuration σ of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub> can be uniquely specified by a set of spin variables {σ
+ <italic>
+  <sub>i</sub>
+ </italic>}, and the correlation function ζ
+ <italic>
+  <sub>f</sub>
+ </italic>
+ <sup>(
+  <italic>n</italic>)
+ </sup> can subsequently be determined by the products of the spin variables σ
+ <italic>
+  <sub>i</sub>
+ </italic>
+ <disp-formula id="eq2">
+  <graphic xlink:href="ao9b02727_m002" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>2</label>
+ </disp-formula>where the sum of the products in the parentheses runs over all symmetrically equivalent clusters, α ∈ 
+ <italic>f</italic>. Although the expansion, expressed in 
+ <xref rid="eq1" ref-type="disp-formula">eq 
+  <xref rid="eq1" ref-type="disp-formula">1</xref>
+ </xref>, is analytically exact in the limit of inclusion of all possible figures 
+ <italic>f</italic>, it must be truncated for practical purposes. To perform the CE, the MIT Ab initio Phase Stability (MAPS) code,
+ <sup>
+  <xref ref-type="bibr" rid="ref62">62</xref>
+ </sup> as implemented in the alloy-theoretical automated toolkit,
+ <sup>
+  <xref ref-type="bibr" rid="ref63">63</xref>
+ </sup> was used to truncate the expansion in 
+ <xref rid="eq1" ref-type="disp-formula">eq 
+  <xref rid="eq1" ref-type="disp-formula">1</xref>
+ </xref> and to determine the ECIs in such a way that 
+ <xref rid="eq1" ref-type="disp-formula">eq 
+  <xref rid="eq1" ref-type="disp-formula">1</xref>
+ </xref> returns the total energies 
+ <italic>E</italic>(σ) of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub> as close to those obtained from first-principles calculations as possible for all σ included in the expansion. In the present investigation, the CE method was employed to determine the ground-state atomic configurations of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub> of different compositions, in particular α-SiB
+ <sub>2.5</sub> and α-SiB
+ <sub>3</sub>. Because of strong experimental evidence,
+ <sup>
+  <xref ref-type="bibr" rid="ref24">24</xref>
+ </sup> only atoms on the polar site were considered in the CE.
+</p>

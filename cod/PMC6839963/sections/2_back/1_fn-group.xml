@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group>
+ <fn id="FN1">
+  <p id="P16">Alexey A. Popov: 
+   <ext-link ext-link-type="uri" xlink:href="http://orcid.org/0000-0002-7596-0378" xmlns:xlink="http://www.w3.org/1999/xlink">0000-0002-7596-0378</ext-link>
+  </p>
+  <p id="P17">Stanislav M. Avdoshenko: 
+   <ext-link ext-link-type="uri" xlink:href="http://orcid.org/0000-0001-5839-3079" xmlns:xlink="http://www.w3.org/1999/xlink">0000-0001-5839-3079</ext-link>
+  </p>
+ </fn>
+ <fn fn-type="COI-statement" id="FN2">
+  <p id="P18">
+   <bold>Conflicts of interest</bold>
+  </p>
+  <p id="P19">There are no conflicts to declare.</p>
+ </fn>
+ <fn id="FN3">
+  <label>‡</label>
+  <p id="P20">Each system was optimized to a residual force of 0.005 Å eV
+   <sup>−1</sup>. All optimizations for crystal and molecular systems were performed at the 
+   <italic>Γ</italic>-point. The molecular systems were put in a cubic unit cell with a side of 25 Å, which ensures no impact due to interactions with periodic images. The results were analyzed and visualized with in-house Python scripts.
+   <sup>
+    <xref rid="R17" ref-type="bibr">17</xref>
+   </sup> Molecular structures are visualized with the VMD package.
+   <sup>
+    <xref rid="R18" ref-type="bibr">18</xref>
+   </sup>
+  </p>
+ </fn>
+</fn-group>

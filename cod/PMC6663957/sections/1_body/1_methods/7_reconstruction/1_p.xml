@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">Emission data were reconstructed using fully 3D-OSEM (ordered subsets expectation maximization) algorithm [
+ <xref ref-type="bibr" rid="CR22">22</xref>]. The number of subsets was set to six for the Scanners B and C and to five for the 
+ <italic>Scanner A</italic>. The number of subiterations was 24 for all reconstructions. STIR is able to compute the Poisson log-likelihood and its gradient on distributed computing platforms using the Message Passing Interface (MPI). We ran the reconstruction on 16 Intel cores on one compute node (2 × Intel® Xeon® EP E5-2660 v2 (Ivy Bridge) at 2.2 GHz (10 cores/socket)) from Mönch cluster at the Swiss National Supercomputing Centre. The compute node had 32 GB of 1600 MHz DDR3 RAM. The nominal frequency of the CPU was 2.2 GHz.
+</p>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0385">In the solution 
+ <xref rid="fd57" ref-type="disp-formula">(57)</xref>, however, the fact of the “start” of the electron from the donor 1 is not yet reflected. This fact is taken by substituting the wave function in the adiabatic approximation 
+ <xref rid="fd42" ref-type="disp-formula">(42)</xref> into account in the right-hand side of 
+ <xref rid="fd57" ref-type="disp-formula">Eq. (57)</xref>, which corresponds to the presence of interaction of the electron with the vibrations of the nuclei, instead of the wave function 
+ <xref rid="fd56" ref-type="disp-formula">(56)</xref>, which corresponds to the lack of this interaction. Formally, this reduces only to a shift in the normal phonon coordinates by an amount 
+ <inline-formula>
+  <math id="M185" altimg="si158.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>p</mi>
+     <mo>˜</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> in the phonon part of the wave function. As a result, the constants 
+ <inline-formula>
+  <math id="M186" altimg="si94.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> introduced above (
+ <xref rid="fd25a" ref-type="disp-formula">Eq. (25a)</xref>) acquire the physical meaning of the shifts of the normal phonon coordinates, which correspond to the shifts in the equilibrium positions of the nuclei, caused by the presence of an electron in the medium. In other words, the quantities 
+ <inline-formula>
+  <math id="M187" altimg="si94.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> in the method of Green's functions have the same physical meaning as in the Born-Oppenheimer method. Thus, the state of electron transfer at its “start” from the donor 1 is described by the wave function [
+ <xref rid="bib79" ref-type="bibr">79</xref>].
+ <disp-formula id="fd58">
+  <label>(58)</label>
+  <math id="M188" altimg="si159.svg" alttext="Equation 58.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mtext> </mtext>
+    <msubsup>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mtext>BO</mtext>
+     </mrow>
+    </msubsup>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

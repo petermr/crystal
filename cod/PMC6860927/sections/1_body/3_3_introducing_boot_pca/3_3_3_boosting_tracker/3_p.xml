@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Initially, all weights are set equally as 1/
+ <italic>m</italic>. During the training period, the weights of incorrectly classified examples are constantly updated at each round, such that the weak learner is forced to focus on the hard examples in the training set. The weak learner’s job is to find an appropriate weak classifier 
+ <italic>h</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>: 
+ <italic>X</italic> → {−1, +1} for the distribution 
+ <italic>D</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>. The goodness of a weak classifier is measured by its error: 
+ <disp-formula id="pone.0225041.e002">
+  <alternatives>
+   <graphic xlink:href="pone.0225041.e002.jpg" id="pone.0225041.e002g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M2">
+    <mrow>
+     <mi>ϵ</mi>
+     <mo>=</mo>
+     <mi>P</mi>
+     <msub>
+      <mi>r</mi>
+      <mrow>
+       <mi>i</mi>
+       <mo>∼</mo>
+       <msub>
+        <mi>D</mi>
+        <mi>t</mi>
+       </msub>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>[</mo>
+      <msub>
+       <mi>h</mi>
+       <mi>t</mi>
+      </msub>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi>x</mi>
+        <mi>t</mi>
+       </msub>
+       <mo>)</mo>
+      </mrow>
+      <mo>≠</mo>
+      <msub>
+       <mi>y</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <munder>
+      <mo>∑</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>:</mo>
+       <msub>
+        <mi>h</mi>
+        <mi>t</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <msub>
+         <mi>x</mi>
+         <mi>i</mi>
+        </msub>
+        <mo>)</mo>
+       </mrow>
+       <mo>≠</mo>
+       <msub>
+        <mi>y</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </munder>
+     <msub>
+      <mi>D</mi>
+      <mi>t</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>i</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(2)</label>
+ </disp-formula>
+</p>

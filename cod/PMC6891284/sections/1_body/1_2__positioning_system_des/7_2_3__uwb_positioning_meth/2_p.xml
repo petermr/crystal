@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The fixed nodes are installed on the ceiling of the dining room to reduce isolation. The bi-directional ranging method is used to convert the distance 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>l</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>l</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>l</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> between the fixed nodes and the mobile node into a two-dimensional distance 
+ <inline-formula>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>d</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>d</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>d</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Then, the trilateral positioning algorithm is used to calculate the robot location coordinates [
+ <xref rid="B9-sensors-19-04980" ref-type="bibr">9</xref>].
+</p>

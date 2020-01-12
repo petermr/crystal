@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Theoretical estimates for the hopping mobility have been calculated using Gaussian 09
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>, by employing ground state energy calculations on pentacene monomer and dimers using a B3LYP (Becke, three-parameter, Lee-Yang-Parr) functional
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> and 631-G (d, p) basis set
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup>. Transfer integrals are calculated using versatile Object-oriented Toolkit for Coarse-graining Applications (VOTCA) package
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>,
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>. We take into account the non-orthonormality of frontier orbitals of monomers and estimate the transfer integrals by projecting monomer orbitals on the dimer orbitals
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. We estimate the band mobility using periodic DFT calculations using Quantum Espresso package
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup>, within the generalized gradient approximation with Perdew-Burke-Ernzerhol (PBE)
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> exchange correlation function and ultrasoft pseudopotentials. Dispersion interactions between organic molecules are taken into account by using London type pairwise empirical atomic interactions as implemented by DFT-D2 method
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>,
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>.
+</p>

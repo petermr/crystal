@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In our second approach, a finite compressibility is allowed by taking the continuum description of a copolymer system. Then, a proper equation of state (EOS) is required [
+ <xref rid="B25-polymers-11-01081" ref-type="bibr">25</xref>]. For such purpose, a perturbed hard sphere chain model suggested by the present author and Sanchez (Cho–Sanchez) is chosen [
+ <xref rid="B31-polymers-11-01081" ref-type="bibr">31</xref>]. The free energy is given as 
+ <inline-formula>
+  <math id="mm42">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>d</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>E</mi>
+       <mi>V</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm43">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>d</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mi>ln</mi>
+     <msub>
+      <mi>Z</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>=</mo>
+     <mi>n</mi>
+     <mo>⋅</mo>
+     <mi>ln</mi>
+     <mi>η</mi>
+     <mo>+</mo>
+     <mi>constant</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for the Gaussian chains. The remaining terms, 
+ <inline-formula>
+  <math id="mm44">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>E</mi>
+       <mi>V</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm45">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, respectively give the perturbation contribution by excluded volume (EV) to EOS [
+ <xref rid="B32-polymers-11-01081" ref-type="bibr">32</xref>] and a Bethe–Peierls-type mean-field energy between nonbonded monomers as [
+ <xref rid="B33-polymers-11-01081" ref-type="bibr">33</xref>]:
+ <disp-formula id="FD7-polymers-11-01081">
+  <label>(7a)</label>
+  <math id="mm46">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mi>β</mi>
+       <msub>
+        <mi>A</mi>
+        <mrow>
+         <mi>E</mi>
+         <mi>V</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mi>N</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mfrac>
+        <mn>3</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mn>1</mn>
+               <mo>−</mo>
+               <mi>η</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+         <mo>−</mo>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mn>1</mn>
+           <mo>−</mo>
+           <mfrac>
+            <mn>1</mn>
+            <mi>N</mi>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <mn>1</mn>
+           <mo>−</mo>
+           <mi>η</mi>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mi>N</mi>
+       </mfrac>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mi>ln</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mn>1</mn>
+           <mo>−</mo>
+           <mi>η</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>+</mo>
+         <mfrac>
+          <mn>3</mn>
+          <mn>2</mn>
+         </mfrac>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mo>}</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-polymers-11-01081">
+  <label>(7b)</label>
+  <math id="mm47">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mi>β</mi>
+       <msub>
+        <mi>A</mi>
+        <mrow>
+         <mi>n</mi>
+         <mi>b</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mi>N</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mo>⋅</mo>
+     <mi>β</mi>
+     <mo>⋅</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>i</mi>
+       </msub>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>j</mi>
+       </msub>
+       <msub>
+        <mover accent="true">
+         <mi>ε</mi>
+         <mo>¯</mo>
+        </mover>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mstyle>
+     <mo>⋅</mo>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mi>η</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> implies the characteristic i,j-contact interactions. The 
+ <inline-formula>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mi>η</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represents the density dependence of the Bethe-Peierls energy as 
+ <inline-formula>
+  <math id="mm50">
+   <mrow>
+    <mrow>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mi>η</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msub>
+      <mi>f</mi>
+      <mi>p</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>γ</mi>
+       <mo>/</mo>
+       <mi>C</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <mo>/</mo>
+       <mn>3</mn>
+      </mrow>
+     </msup>
+     <msup>
+      <mi>η</mi>
+      <mrow>
+       <mi>p</mi>
+       <mo>/</mo>
+       <mn>3</mn>
+      </mrow>
+     </msup>
+     <mo>−</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>γ</mi>
+       <mo>/</mo>
+       <mi>C</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <msup>
+      <mi>η</mi>
+      <mn>2</mn>
+     </msup>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where γ and 
+ <italic>C</italic> are respectively 
+ <inline-formula>
+  <math id="mm51">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>/</mo>
+     <msqrt>
+      <mn>2</mn>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and π/6. For the widely used Lennard–Jones potential, 
+ <italic>p</italic> and 
+ <italic>f
+  <sub>p</sub>
+ </italic> are 12 and 4, respectively. This Bethe–Peierls mean-field energy is an improvement over Bragg–Williams (van der Waals) mean-field energy by taking the local packing of nearest neighbors into account [
+ <xref rid="B33-polymers-11-01081" ref-type="bibr">33</xref>]. The Cho–Sanchez model necessitates three homopolymer parameters such as 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>j</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for self-interactions, 
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. It is well known that a homopolymer with larger 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>j</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is denser and less compressible than one with smaller 
+ <inline-formula>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>j</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. There is an additional parameter 
+ <inline-formula>
+  <math id="mm57">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for cross i,j-interactions to describe mixture phase behaviors. Using the given EOS model, it was suggested that 
+ <inline-formula>
+  <math id="mm58">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <mi>W</mi>
+     <mo stretchy="false">{</mo>
+     <msub>
+      <mover accent="true">
+       <mi>r</mi>
+       <mo stretchy="false">→</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">}</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <mo>∫</mo>
+       <mrow>
+        <mi>d</mi>
+        <mover accent="true">
+         <mi>r</mi>
+         <mo stretchy="false">→</mo>
+        </mover>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mi>β</mi>
+     <msup>
+      <mi>f</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>i</mi>
+      </mrow>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>η</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm59">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>f</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>i</mi>
+      </mrow>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>η</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the localized non-Gaussian free energy (
+ <inline-formula>
+  <math id="mm60">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>f</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>i</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> 
+ <inline-formula>
+  <math id="mm61">
+   <mrow>
+    <mrow>
+     <mo>≡</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>A</mi>
+        <mrow>
+         <mi>E</mi>
+         <mi>V</mi>
+        </mrow>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>A</mi>
+        <mrow>
+         <mi>n</mi>
+         <mi>b</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>/</mo>
+     <mi>V</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) per unit volume [
+ <xref rid="B25-polymers-11-01081" ref-type="bibr">25</xref>].
+</p>

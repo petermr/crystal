@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Among the various non-linear filtering techniques, the EKF fusion algorithm is the simplest algorithm that locally linearizes the Kalman filter fusion algorithm and is suitable for weakly nonlinear [
+ <xref rid="B27-sensors-19-04980" ref-type="bibr">27</xref>,
+ <xref rid="B28-sensors-19-04980" ref-type="bibr">28</xref>], non-Gaussian white noise environments. The EKF fusion algorithm performs a first-order Taylor expansion of the nonlinear function of the system and obtains a linearized system formula to complete the filtering estimation of the target [
+ <xref rid="B29-sensors-19-04980" ref-type="bibr">29</xref>].
+</p>

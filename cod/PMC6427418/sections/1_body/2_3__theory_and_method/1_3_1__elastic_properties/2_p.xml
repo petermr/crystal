@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The knowledge of all the 21 independent elastic compliance tensor components allows one for the complete description of elastic properties and for calculation of Poisson’s ratio (
+ <inline-formula>
+  <math id="mm41">
+   <mrow>
+    <mi>ν</mi>
+   </mrow>
+  </math>
+ </inline-formula>) in arbitrary direction for crystals of arbitrary symmetry. In the general case, Poisson’s ratio depends on the pair of directions 
+ <inline-formula>
+  <math id="mm42">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">n</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm43">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">m</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>. The former is the one in which the external stress is applied. The latter is the direction in which the Poisson’s ratio is measured. One should note that the 
+ <inline-formula>
+  <math id="mm44">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">m</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>-direction is located on the plane perpendicular to the 
+ <inline-formula>
+  <math id="mm45">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">n</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>-direction (
+ <inline-formula>
+  <math id="mm46">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi mathvariant="bold">n</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>·</mo>
+     <mover accent="true">
+      <mi mathvariant="bold">m</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>). The examples of these directions have been illustrated in 
+ <xref ref-type="fig" rid="materials-12-00700-f002">Figure 2</xref>. The following formula [
+ <xref rid="B94-materials-12-00700" ref-type="bibr">94</xref>] has been used to calculate the Poisson’s ratio for selected pair of directions 
+ <inline-formula>
+  <math id="mm47">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">n</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">m</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>:
+ <disp-formula id="FD4-materials-12-00700">
+  <label>(4)</label>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ν</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>m</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>m</mi>
+        <mi>α</mi>
+       </msub>
+       <msub>
+        <mi>m</mi>
+        <mi>β</mi>
+       </msub>
+       <msub>
+        <mi>S</mi>
+        <mrow>
+         <mi>α</mi>
+         <mi>β</mi>
+         <mi>γ</mi>
+         <mi>δ</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>n</mi>
+        <mi>γ</mi>
+       </msub>
+       <msub>
+        <mi>n</mi>
+        <mi>δ</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>n</mi>
+        <mi>ζ</mi>
+       </msub>
+       <msub>
+        <mi>n</mi>
+        <mi>η</mi>
+       </msub>
+       <msub>
+        <mi>S</mi>
+        <mrow>
+         <mi>ζ</mi>
+         <mi>η</mi>
+         <mi>κ</mi>
+         <mi>λ</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>n</mi>
+        <mi>κ</mi>
+       </msub>
+       <msub>
+        <mi>n</mi>
+        <mi>λ</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm50">
+   <mrow>
+    <mrow>
+     <mi>n</mi>
+     <mo>,</mo>
+     <mi>m</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are indexes corresponding to 
+ <inline-formula>
+  <math id="mm51">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">n</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">m</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> vectors respectively, and 
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>n</mi>
+      <mi>α</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>m</mi>
+      <mi>β</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are their respective direction cosines. Further in the work we replace the 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mrow>
+      <mi>α</mi>
+      <mi>β</mi>
+      <mi>γ</mi>
+      <mi>δ</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> tensor with a symmetric square matrix 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mi mathvariant="bold">S</mi>
+   </mrow>
+  </math>
+ </inline-formula> of the dimension six, using Voigt representation [
+ <xref rid="B95-materials-12-00700" ref-type="bibr">95</xref>]. Thus, 
+ <inline-formula>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>j</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> indexes for 
+ <inline-formula>
+  <math id="mm57">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> elements take the values 
+ <inline-formula>
+  <math id="mm58">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>,</mo>
+     <mi>j</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mo>…</mo>
+     <mo>,</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. By convention, Einstein summation is used on Greek indexes. It should be also added that in this work we determine Poisson’s ratio only for infinitesimally small strains. The case of a large deformations will be the subject of the future studies with the use of the method described in [
+ <xref rid="B24-materials-12-00700" ref-type="bibr">24</xref>].
+</p>

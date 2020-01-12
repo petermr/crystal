@@ -1,0 +1,611 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Appl Mater Interfaces</journal-id><journal-id journal-id-type="iso-abbrev">ACS Appl Mater Interfaces</journal-id><journal-id journal-id-type="publisher-id">am</journal-id><journal-id journal-id-type="coden">aamick</journal-id><journal-title-group><journal-title>ACS Applied Materials &#x00026; Interfaces</journal-title></journal-title-group><issn pub-type="ppub">1944-8244</issn><issn pub-type="epub">1944-8252</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6523997</article-id><article-id pub-id-type="doi">10.1021/acsami.9b03810</article-id><article-categories><subj-group><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Air-Stable
+and Oriented Mixed Lead Halide Perovskite
+(FA/MA) by the One-Step Deposition Method Using Zinc Iodide and an
+Alkylammonium Additive</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Muscarella</surname><given-names>Loreta
+A.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Petrova</surname><given-names>Dina</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Jorge Cervasio</surname><given-names>Rebecca</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Farawar</surname><given-names>Aram</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Lugier</surname><given-names>Olivier</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>McLure</surname><given-names>Charlotte</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Slaman</surname><given-names>Martin J.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Wang</surname><given-names>Junke</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Ehrler</surname><given-names>Bruno</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>von Hauff</surname><given-names>Elizabeth</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath11"><name><surname>Williams</surname><given-names>Ren&#x000e9; M.</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Molecular
+Photonics Group, Van&#x02019;t Hoff Institute for Molecular Sciences
+(HIMS), <institution>Universiteit van Amsterdam</institution>, Science Park 904, 1098 XH Amsterdam, <country>Netherlands</country></aff><aff id="aff2"><label>&#x02021;</label>Department
+of Physics and Astronomy, <institution>Vrije Universiteit</institution>, de Boelelaan 1081, 1081 HV Amsterdam, <country>Netherlands</country></aff><aff id="aff3"><label>&#x000a7;</label>Molecular
+Materials and Nanosystems, <institution>Eindhoven University
+of Technology</institution>, P.O. Box 513, 5600 MB Eindhoven, <country>Netherlands</country></aff><aff id="aff4"><label>&#x02225;</label>Center
+for Nanophotonics, <institution>Institute AMOLF</institution>, Science Park 104, 1098 XG Amsterdam, <country>Netherlands</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>R.M.Williams@uva.nl</email>.</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>04</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>15</day><month>05</month><year>2019</year></pub-date><volume>11</volume><issue>19</issue><fpage>17555</fpage><lpage>17562</lpage><history><date date-type="received"><day>01</day><month>03</month><year>2019</year></date><date date-type="accepted"><day>16</day><month>04</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under a Creative Commons Non-Commercial No Derivative Works (CC-BY-NC-ND) Attribution <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article, and creation of adaptations, all for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0007" id="ab-tgr1"/></p><p>We
+present a one-step method to produce air-stable, large-grain
+mixed cationic lead perovskite films and powders under ambient conditions.
+The introduction of 2.5 % of Zn(II), confirmed by X-ray diffraction
+(XRD), results in stable thin films which show the same absorption
+and crystal structure after 2 weeks of storage under ambient conditions.
+Next to prolonged stability, the introduction of Zn(II) affects photophysical
+properties, reducing the bulk defect density, enhancing the photoluminescence
+(PL), and extending the charge carrier lifetime. Furthermore, 3-chloropropylamine
+hydrochloride is applied as the film-forming agent. The presence of
+this amine hydrochloride additive results in highly oriented and large
+crystal domains showing an ulterior improvement of PL intensity and
+lifetime. The material can also be prepared as black precursor powder
+by a solid&#x02013;solid reaction under ambient conditions and can
+be pressed into a perovskite pellet. The prolonged stability and the
+easy fabrication in air makes this material suitable for large-scale,
+low-cost processing for optoelectronic applications.</p></abstract><kwd-group><kwd>photovoltaics</kwd><kwd>hybrid perovskite</kwd><kwd>formamidinium</kwd><kwd>methylammonium</kwd><kwd>3-chloropropylamine chloride</kwd><kwd>zinc iodide</kwd><kwd>chloride additive</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>am9b03810</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>am-2019-03810n</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>The rise of the power conversion efficiency
+(PCE) of perovskite
+solar cells from 3.8<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> to 24.2% in 10 years
+has shaken up the scientific photovoltaic community. Breakthroughs
+in efficiency have largely come from new strategies to fabricate perovskite
+thin films. Currently, improving the stability of perovskite films
+is a major challenge in the field.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> Comprehensive
+understanding and control of the inherent photochemical properties
+affecting stability of these intriguing materials are therefore paramount
+for further progress.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup></p><p>The chemical
+landscape of perovskites for solar cells is limited
+to basically eight main components: methylammonium (MA), formamidinium
+(FA), and cesium (Cs) as monovalent cations, Pb(II) and Sn(II) as
+divalent species and chloride, bromide, and iodide as anions. The
+intrinsic properties of MAPbI<sub>3</sub> and FAPbI<sub>3</sub> prohibit
+their use as pure materials for industrial applications such as solar
+cells, as they do not have suitable chemical stability due to their
+phase behavior.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> MAPbI<sub>3</sub> displays
+a cubic to tetragonal phase transition at approximately 57 &#x000b0;C,
+and slowly turns white (MAPbI<sub>3</sub>&#x000b7;H<sub>2</sub>O) or
+yellow (MA<sub>4</sub>PbI<sub>6</sub>&#x000b7;2H<sub>2</sub>O) when exposed
+to a humid atmosphere. The FAPbI<sub>3</sub> cubic black &#x003b1;-phase
+interconverts to the nonperovskite, hexagonal yellow &#x003b4;-phase
+in a couple of weeks in dry air at RT.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup></p><p>Significant improvements have been observed by mixing anions
+or
+cations. Incorporation of a small amount of bromide (or chloride)
+influences the phase changes, while the band gap remains unchanged,
+as already reported for MAPbI<sub>2.66</sub>Br<sub>0.34</sub> by Weber
+in 1978.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> However, chloride components
+in the precursor solutions tend to be mainly eliminated as HCl vapor
+(or as CH<sub>3</sub>NH<sub>3</sub>Cl) during the annealing step through
+an intermediate phase, if excess iodide is present (less than 1% chloride
+in the final phase).<sup><xref ref-type="bibr" rid="ref7">7</xref></sup></p><p>The most recent
+PCE records were obtained with (FA/MA) double (22.1
+and 20.2%),<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> (FA/MA/Cs) triple (21.1%),<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> and (FA/MA/Cs/Rb) quadruple (21.6%)<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> mixed monocationic lead iodide materials.</p><p>So far, Sn(II) is the only divalent metal cation that can result
+in semiconductors of a similar band gap and electron and hole transport
+properties as Pb(II) equivalent, but it suffers from rapid degradation
+due to its chemical instability in air.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup></p><p>Doping of traditional semiconductors is quintessential for
+their
+application in optoelectronics devices; therefore, it is tempting
+to dope Pb(II) perovskite thin films with various other ions. Monovalent
+cations Cu(I), Na(I), and Ag(I)<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> as well
+as Au(III), In(III), Al(III),<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> and Sr(II)<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> have been applied as dopants, and more recently
+Zn(II).<sup><xref ref-type="bibr" rid="ref14">14</xref>&#x02212;<xref ref-type="bibr" rid="ref16">16</xref></sup> It has been found that for these materials, small
+doping levels with respect to Pb give maximum enhancement of optoelectronic
+properties with minimal structural modification. Furthermore, the
+use of additives that influence film formation<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> is of great importance. Additives with alkyl ammonium groups
+have been shown to influence stability of perovskite materials<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> by interacting with the perovskite crystal surface.</p><p>Here, we study the effect of Zn(II) on the photophysical properties
+of the mixed cations and mixed halide (FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>) perovskite thin films made
+by one-step deposition in air. In addition, we apply an amine hydrochloride
+additive to our perovskite, and its effect on film formation and morphology
+is studied. The introduction of Zn(II) results in a prolonged film
+stability under ambient conditions, enhanced photoluminescence (PL)
+and extended PL&#x000a0;lifetime, without affecting the band gap. The
+main challenge for producing perovskite films from a solution is to
+obtain a uniform, continuous, and compact layer. For this purpose,
+a common and straightforward method is to apply chloride-based additives.
+In this study, we apply 3-chloropropylamine hydrochloride (3-CPACl)
+which allows to produce highly crystalline,&#x000a0;oriented, smooth,
+dense, and pinhole-free layers. Furthermore, the perovskite can also
+be prepared from our precursors as pellet-able black powder by a solid&#x02013;solid
+reaction under ambient conditions.</p></sec><sec id="sec2"><title>Experimental
+Section</title><sec id="sec2.1"><title>Materials</title><p>Patterned indium tin oxide (ITO, 3 &#x000d7;
+3 cm<sup>2</sup>) with a sheet resistance of 13&#x02013;15 &#x003a9;/sq
+was purchased from Ossila. PbI<sub>2</sub> (99%), ZnI<sub>2</sub> (98%),
+and 3-CPACl (98%) were purchased from Sigma-Aldrich. Methylamine hydrobromide
+(MABr, 98%) and Formamidine hydroiodide (FAI, 98%) were purchased
+from TCI. <italic>N</italic>,<italic>N</italic>-Dimethylformamide
+(DMF) was purchased from Biosolvie Chimie SARL.</p></sec><sec id="sec2.2"><title>Preparation
+of (FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>)-Based Solutions</title><p>MABr (&#x000a0;0.18&#x000a0;M),
+FAI (1.02 M) and PbI<sub>2</sub> (1 M) were dissolved in DMF. In order
+to study the effect of Zn(II), 2.5&#x000a0;% of ZnI<sub>2</sub> was also
+added&#x000a0;(0.025 M). A third precursor solution was prepared including
+2.5% of ZnI<sub>2</sub> and 2% of 3-CPACl (0.008 M)&#x000a0;to study
+the effect of the amine hydrochloride additive in combination with
+Zn(II).</p></sec><sec id="sec2.3"><title>Fabrication and Characterization of Thin Films</title><p>(FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>)
+films with doping&#x000a0;were fabricated on ITO and quartz substrates,
+and pure (FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>)<sub>3</sub>was used as a comparison. ITO and glass were
+cleaned by ultrasonication in water, acetone, and 2-propanol sequentially,
+dried with air flow, and UV&#x02013;ozone treated for 30 min. Before
+spin coating, a N<sub>2</sub> flow is blown over the surface to remove
+dust or particles. Without the 3-CPACl additive, the precursor solution
+results in a yellow milky solution due to the low solubility of PbI<sub>2</sub> in DMF. To remove PbI<sub>2</sub> particles, the solution
+has to be filtered using a 0.2 &#x003bc;m syringe filter. Filtration
+is not necessary in the presence of the additive. Each of the solutions
+was spin-coated on the substrates with a speed of 4000 rpm for 30
+s under ambient conditions (no acceleration factor was applied). The
+one-step deposition method with sprayed antisolvent (diethylether,
+DEE) was used. After 15 s from the start of the spin-coating programme,
+0.4 mL of DEE was sprayed within &#x0223c;0.5 s over the precursor
+perovskite layer at a fixed height of 3 cm between the needle tip
+and the surface. A metal gasket from an high-performance liquid chromatography
+setup was used as a height fixation. After spin-coating, thin films
+were annealed at 100 &#x000b0;C for 1 h.</p><p>The stability in time
+of the perovskite layers was measured by monitoring UV&#x02013;vis
+spectra and X-ray diffraction (XRD) after two weeks under ambient
+conditions and without encapsulation. XRD measurements were performed
+to investigate the introduction of Zn(II) in the perovskite lattice.
+The morphology and energy-dispersive system spectra of the films were
+characterized by using scanning electron microscopy (SEM). Steady-state
+PL was measured with a home-built setup equipped with a 485 nm continuous-wave
+laser as the source of excitation (Pico Quant LDH-D-C-640) at a power
+output of 1 mW. Time-correlated single-photon counting measurements
+were performed with a home-built setup equipped with a 485 nm pulsed
+laser (PicoQuant LDH-D-C-640) with a repetition rate of 0.1 MHz.</p></sec></sec><sec id="sec3"><title>Results and Discussions</title><p>The enhanced stability of the mixed
+cationic (FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>) perovskite
+compared to its single-cation and iodide-based counterparts fabricated
+under inert conditions was already studied before.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> In the text, we refer to (FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>) as the pristine material.
+Here, we study the effect of the introduction of a small amount (2.5%)
+of the divalent transition metal Zn(II) in the abovementioned perovskite
+fabricated under ambient conditions. The theoretical Goldsmith tolerance
+factor (<italic>t</italic>) for a generic ABX<sub>3</sub> perovskite
+is calculated as shown in <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>.<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_m001" position="anchor"/><label>1</label></disp-formula>Here, <italic>r</italic><sub>A</sub>, <italic>r</italic><sub>B</sub>, and <italic>r</italic><sub>X</sub> are the
+ionic radii for the cation (A), metal (B), and halide (X) sites, respectively.
+If the tolerance factor is in the range of 0.813&#x02013;1.107, perovskites
+do form.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Weighing the contribution of
+the two A<sup>+</sup> cations and X<sup>&#x02013;</sup> anions (15:85
+MA<sup>+</sup>/FA<sup>+</sup> and Br<sup>&#x02013;</sup>/I<sup>&#x02013;</sup> ratio) and the two B<sup>2+</sup> cations (0.025:0.975 Zn<sup>2+</sup>/Pb<sup>2+</sup> ratio), the resulting Goldsmith tolerance factor
+for the perovskite containing 2.5% Zn(II) is 0.981 compared to 0.978
+for the full Pb perovskite, in agreement with the smaller ionic radius
+shown by Zn(II) (74 pm) compared to Pb(II) (119 pm).</p><p>The introduction
+of Zn (II) does not affect significantly the typical
+XRD pattern shown by the pristine material which results in a pseudocubic
+crystal structure (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a) as reported before for this material.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> To corroborate the presence of Zn(II) in the perovskite
+lattice, which presumably occupies Pb<sup>2+</sup> sites, the magnification
+of the two highest diffraction peaks is shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b. Both peaks show a 0.05&#x000b0;
+2&#x003b8; shift to higher values, indicating a contraction of the elementary
+cell in agreement with the smaller ionic radius of Zn(II). The (110)
+peak shifts from 13.89&#x000b0; to 13.94&#x000b0;, while the (220) peak
+shifts from 28.09&#x000b0; to 28.13&#x000b0;. As result, the pseudocubic
+lattice parameter is reduced from 6.3710 to 6.3474 &#x000c5;. With Zn(II)
+introduction, the material shows improved crystallinity supported
+by the full width at half-maximum (fwhm) value reduction from 0.2799
+to 0.1877.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a) XRD patterns of the pristine perovskite compared to the pristine
+containing Zn(II). (b) Magnification of the two highest diffraction
+peaks corresponding to (110) and (220) planes. The shift to higher
+2&#x003b8; indicates the incorporation of Zn(II).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0001" id="gr1" position="float"/></fig><p>For higher&#x000a0;concentration of ZnI<sub>2</sub> (5%), UV&#x02013;vis
+absorption measurements indicate no change in the band gap, but the
+XRD pattern (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S1</ext-link>) shows a stronger
+PbI<sub>2</sub> peak at 12.55&#x000b0; in addition to extra diffraction
+peaks which suggest less-oriented crystal domains and the presence
+of more FAPbI<sub>3</sub> &#x003b4;-phase (11.47&#x000b0;, 21.13&#x000b0;,
+and 30.17&#x000b0;).<sup><xref ref-type="bibr" rid="ref19">19</xref></sup></p><p>ZnI<sub>2</sub> is a very hygroscopic salt, but it leads to higher
+stability against environmental moisture when introduced in our perovskite
+as Zn(II).</p><p>One of the causes of perovskite degradation is attributed
+to the
+oxidation of I<sup>&#x02013;</sup> to I<sub>2</sub> in aprotic solvent
+which introduces deficiency not only in I/Pb stoichiometry as reported
+for MAPbI<sub>3</sub> but also for other iodide-based perovskites.<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> For this process, moisture is essential, and the degradation is
+accelerated under various stresses, such as oxygen presence, light
+illumination, or applied bias. This degradation starts with uncontrolled
+incorporation of moisture during the fabrication, and for this reason,
+it is advisable to fabricate devices in low humidity environment.
+The use of a reducing agent to prevent I<sub>2</sub> formation was
+shown by Zhang et al. using hypophosphorous acid (HPA) as the additive.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> ZnI<sub>2</sub>, which is present in the precursor
+solution as Zn<sup>2+</sup> and I<sup>&#x02013;</sup>, is a stronger
+reducing agent compared to HPA and reacts with the I<sub>2</sub> formed
+in solution during fabrication reducing defects in the stoichiometry
+and leading to a more stable perovskite. The reduced defect density
+is also reflected in the enhanced PL shown later in this work.</p><p>The stability of thin films is monitored by comparing UV&#x02013;vis
+absorption spectra and XRD patterns of freshly made and aged films.
+The aged ones were measured after 14 days of storage in a Petri dish
+under ambient conditions of our chemical laboratory where the ambient
+temperature is (21.0 &#x000b1; 2) &#x000b0;C and the relative humidity (%
+RH) is 40 &#x000b1; 4. The pristine material starts to degrade within
+the first week showing a progressive color change from black (perovskite
+&#x003b1;-phase) to a complete light yellow color after 30 days (PbI<sub>2</sub>). This degradation is confirmed by the enhancement of the
+PbI<sub>2</sub> absorption peak in the UV&#x02013;vis range (&#x0223c;550
+nm) and the increase of the diffraction feature related to the (001)
+plane of lead iodide at 12&#x000b0; (2&#x003b8;). The XRD pattern related
+to the aged pristine material also shows broader peaks and the presence
+of new diffraction peaks due to the reduced crystallinity and less
+oriented crystal domains (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S2a,b</ext-link>).
+The degradation is not reversible, and the perovskite &#x003b1;-phase
+is not recovered after reannealing. As shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a, the aged perovskite containing Zn(II)
+shows the same XRD pattern as the freshly made and a slight reduction
+in crystallinity, visible by the widening of the fwhm diffraction
+peak, which is presumably due to the interaction of the perovskite
+layer (not encapsulated) with the environmental humidity.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>(a) XRD patterns
+of freshly made and aged pristine perovskite containing
+Zn(II). Inset, photographs of the fresh and aged sample are reported.
+(b) UV&#x02013;vis absorption spectrum of the freshly made and aged
+pristine perovskite containing Zn(II).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0002" id="gr2" position="float"/></fig><p>The absorption, shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b, does not show significant changes compared
+to the
+freshly made film. Combining these results with the visual degradation
+of thin films over time (inset in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a), we conclude that Zn(II) incorporation
+stabilizes our perovskite against environmental moisture.</p><p>A
+major challenge in the perovskite field is to obtain uniform,
+continuous, and reproducible films by spin-coating deposition with
+the use of antisolvents. A large number of pinholes are generated
+during the film formation, and long optimization processes dependent
+on substrates, precursor solutions, and deposition conditions are
+necessary before obtaining appreciable results. In recent years, many
+works were focused on finding tricks to circumvent this issue, and
+most of the time, chloride-based additives<sup><xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> are applied.
+Despite the stability improvement, our thin films suffer of pinholes
+and inhomogeneity as shown in the SEM image in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S3</ext-link>. As the deposition occurs under ambient conditions
+without control of parameters as temperature, humidity, or air-flow,
+it was necessary finding a straightforward method to obtain reproducible
+and pinhole-free layers.</p><p>We found excellent film formation with
+3-CPACl, characterized by
+a propylic chain at whose ends an amine group and a chlorine are present.
+Thus, we introduce 2% of 3-CPACl in the solution of the pristine perovskite
+containing Zn(II). The acidic part of 3-CPACl improves solubility
+of PbI<sub>2</sub> in DMF, as also observed for other additives as
+HI,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> HPA,<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> and formic acid,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> while the chlorine
+bound to the propylic chain (acting as a soft Lewis base) chelates
+temporarily the Pb<sup>2+</sup> atom (acting as a soft Lewis acid)
+in solution (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a), thus aiding crystals growth. We propose that a gradual change
+of the ratio of (FA/MA) relative to CPACl during spin-coating and
+annealing (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b,c) induces crystal orientation, while the additive is removed by
+thermal annealing, resulting in a compact and oriented layer (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d). A controlled
+ratio change of similar components was reported by Mitzi and co-workers
+with Sn(II) and <italic>n</italic>-butylammonium.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup></p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Proposed mechanism for additive-assisted film formation. Decreasing
+of the additive/perovskite ratio during spin-coating and annealing
+(a&#x02013;c) leads to stacking of preformed crystalline units coordinated
+by 3-CPACl through the Pb&#x02013;Cl bond resulting in an organized
+and compact final perovskite layer (d). The green structure represents
+the additive which coordinates Pb<sup>2+</sup> in the perovskite unit
+cell.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0003" id="gr3" position="float"/></fig><p>Deposition of precursor solution
+containing Zn(II) and 3-CPACl
+results in dark brownish films immediately after spin-coating, as
+indicated in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S4</ext-link> which displays a
+highly smooth and reflective film with full surface coverage. It is
+worthwhile to mention that pure MA/FA&#x02013;Pb&#x02013;I<sub><italic>x</italic></sub>Br<sub><italic>y</italic></sub> only turns black
+upon thermal annealing.</p><p>As shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a, the 3-CPACl additive induces crystal orientation
+and a highly
+oriented and stable pseudocubic structure as only the specific diffractions
+corresponding to (100) and (200), at 14.04&#x000b0; and 28.24&#x000b0;,
+remain. To estimate the crystallite sizes, the Scherrer equation was
+applied to the most intense peak (100) in the XRD pattern. The average
+crystallite size in the pristine perovskite in the perovskite containing
+Zn(II) and in the one containing Zn(II) and treated with 3-CPACl was
+found to be 36, 54, and 114 nm, respectively, indicating enlargement
+in size of the perovskite crystallites.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(a) XRD patterns of freshly
+made and aged perovskite containing
+Zn(II) and 3-CPACl. Inset: picture films before and after aging. (b)
+Low-magnification (20&#x02009;000<italic>x</italic>) SEM image of perovskite
+containing Zn(II) and 3-CPACl showing a homogeneous, dense, and pinhole-free
+layer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0004" id="gr4" position="float"/></fig><p>To support the role of 3-CPACl
+in the crystal growth, the pristine
+material containing only the film-forming agent reveals an average
+crystallite size of 87 nm, which is almost three times&#x000a0;the crystallite
+size of the pristine material. A detailed summary of the calculated
+fwhm and crystallite size for the different materials is reported
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Table S1</ext-link>. It is important to note that
+the Scherrer equation gives a rough estimation of crystallite size
+and is only valid for particles smaller than 0.1 &#x003bc;m.</p><p>To
+strengthen the role of 3-CPACl as a film-forming agent, <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b shows the SEM image
+of a typical layer containing Zn(II) and treated with 3-CPACl deposited
+on ITO. The SEM image indicates a dense, homogeneous, and pinhole-free
+layer. High-resolution images of our films show &#x0223c;500 nm perovskite
+grains (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S5</ext-link>). We note that apparent
+grain boundaries in the SEM do not necessarily represent crystal grain
+boundaries but could be purely morphological. The SEM images are thus
+not contradicting the grain size extracted from XRD.</p><p>To verify
+if the prolonged stability shown by the pristine perovskite
+containing Zn(II) is also maintained in the presence of 3-CPACl, UV&#x02013;vis
+absorption spectra (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S6</ext-link>) and XRD
+(<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a) patterns
+of freshly made and aged films are collected. The aged samples were
+measured after 60 days of storage in a Petri dish under ambient conditions
+of our chemical laboratory where the ambient temperature is (21.0
+&#x000b1; 2) &#x000b0;C and the relative humidity (% RH) is 40 &#x000b1; 4.</p><p>Also, our Zn(II)-doped spin-coated films made with the 3-CPACl
+additive remain in its &#x003b1;-phase even after 60 days under ambient
+conditions. We correlate the prolonged stability under ambient conditions
+to the combined action of the two additives: the preferential orientation
+and the grain enlargement induced by the film-forming agent reduces
+the amount of dangling bonds usually present at the grain boundaries,
+while the presence of Zn(II) can passivate Pb<sup>2+</sup> vacancies
+and reduce the amount of I<sup>&#x02013;</sup> vacancies by striking
+the conversion of I<sup>&#x02013;</sup> to I<sub>2</sub> in the precursor
+solution.</p><p>After 60 days, the fwhm is slightly increased from
+0.09315&#x000b0;
+&#x000b1; 0.0004&#x000b0; to 0.1956&#x000b0; &#x000b1; 0.0004&#x000b0;, while the
+ratio between the (100) and (200) diffraction peaks in the freshly
+made and in the aged sample is maintained. The &#x00394;(fwhm) between
+the fresh and the aged sample is 0.1612&#x000b0; in the case of the pristine
+material containing only Zn(II), and it is reduced to 0.10245&#x000b0;
+when 2% of 3-CPACl is also&#x000a0;applied.</p><p>As result of these
+findings, we can confirm that the prolonged
+stability is preserved and improved when ZnI<sub>2</sub> is used in
+combination with 3-CPACl.</p><p>Although energy-dispersive X-ray (EDX)
+analysis clearly shows the
+presence of Zn, Br, Pb, and I (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S7</ext-link>), we find no evidence of Cl. If the chloride not bound to the propylic
+chain of the additive is introduced in the material, its amount is
+below the detection limit of the EDX. As reported also by other works,
+the chloride introduced to perovskite as the additive or dopant often
+disappears during perovskite formation as HCl or MACl.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup></p><p>However, a magnification of pristine and
+the material containing
+Zn(II) and 3-CPACl diffraction patterns (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a) show a shift toward higher 2&#x003b8; values
+(14.04&#x000b0;), indicating a contraction of the primitive cell to 6.3027
+&#x000c5; which can be related to the incorporation of chloride in I<sup>&#x02013;</sup> sites. A summary of the lattice parameters reported
+in the text is shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Table S2</ext-link>.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>(a) XRD pattern
+magnification for the (100) and (200) of the pristine
+material, pristine containing Zn(II) and 3-CPACl, and the one containing
+Zn(II) and 3-BPABr. (b) UV&#x02013;vis of the pristine material, the
+perovskite containing Zn(II) and treated with 3-BPABr and 3-CPACl.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0005" id="gr5" position="float"/></fig><p>The use of a very similar amine
+hydrobromide additive (3-BPABr
+= 3-bromopropylamine hydrobromide) results in a highly oriented film
+which shows the same preferential orientation along the (100) and
+the (200) plane shown using 3-CPACl. This corroborates the role of
+the propylic chain bound to a halide atom into the crystal growth.
+Diffraction peaks show a shift to higher 2&#x003b8; values for the perovskite
+treated with 3-BPABr. In particular, (100) diffraction shifts from
+13.89&#x000b0; to 14.09&#x000b0;, and (200) diffraction shifts from 28.09&#x000b0;
+to 28.29&#x000b0;, and the lattice parameter decreases to 6.2783 &#x000c5;
+(<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a). This finding
+is also confirmed by the strong shift of the band gap to higher energy,
+indicating the incorporation of the bromide in the lattice as shown
+in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>b. The absorption
+edge of our perovskite containing Zn(II) and 3-CPACl is around 830
+nm, in agreement with FA/MA Pb-based perovskite mostly containing
+FA and iodide. The absorption in the 750&#x02013;830 nm region shows
+a significant enhancement, and we assume that the perovskite surface
+morphology and coverage induced by the presence of the film-forming
+agent play an important role in it.</p><p>For completeness, in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S8</ext-link>, we report
+UV&#x02013;vis and XRD measurements of freshly made and aged pristine
+perovskites treated with only the film-forming agent 3-CPACl. As shown,
+the resulting film is highly oriented along the (100) and (200) plane
+and 6.3027 &#x000c5; as the lattice parameter which implies a contraction
+of the unit cell. In terms of stability, the material containing only
+3-CPACl is stable after 60 days of exposure at ambient conditions,
+but it is only with a combination of the two additives that better
+results are achieved.</p><p>The stable, doped perovskite containing
+Zn(II) and 3-CPACl can
+alternatively be fabricated by a solid&#x02013;solid reaction. The
+solid&#x02013;solid reaction by grinding also works for other perovskite
+materials<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> (without additives or dopants)
+and pressing these materials into pellets<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> (or perovskite wafers)<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> has been applied
+before. Mixing the precursor components (PbI<sub>2</sub>, FAI, MABr,
+ZnI<sub>2</sub>, and CPACl) in a vial by shaking induces the reaction
+turning the material partly brown/black. The reaction can be completed
+by grinding in a marble mortar under ambient conditions, yielding
+a black material (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Figure S9</ext-link>). This indicates
+that the perovskite &#x003b1;-phase is thermodynamically favorable for
+this composition, also in agreement with the phase stability that
+we observe for the final perovskite. By using a simple KBr press,
+the material can be turned into a perovskite pellet (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">SI</ext-link> for procedure)&#x000a0;that can undergo the same
+annealing procedure as the thin films.</p><p>We use the steady-state
+PL intensity to study the optical quality
+of our films and correlate the introduction of Zn(II) and 3-CPACl
+with photophysical properties of the film. PL data are normalized
+for the fraction of absorbed photons at 485 nm (excitation wavelength)
+to account for any differences in the absorption of the materials
+at that excitation wavelength. Relative to spin-coated layers of pristine
+perovskite made and measured under the same conditions, the emission
+intensity of the films containing Zn(II) incorporation is dramatically
+enhanced by an order of magnitude and including 2% of 3-CPACl, the
+intensity is even more boosted (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">Table S2</ext-link> for details).
+This implies that nonradiative recombination in the perovskite layer
+has been significantly suppressed.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>(a) Steady-state PL of the three compositions
+explored. The excitation
+wavelength used is 485 nm. (b). Time-resolved PL decay of&#x000a0;the
+three compositions used with a excitation wavelength at 485 nm and
+0.1 MHz excitation frequency.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_0006" id="gr6" position="float"/></fig><p>In addition, the PL peak position set at 1.55 eV does not
+show
+a substantial shift for all the compositions except for the one containing
+only the film-forming agent 3-CPACl which shows a peak at 1.56 eV.
+Although it is not a significant shift, this might be due to the presence
+of a small amount of chloride in the crystal lattice. The improved
+stability, as a result of noteworthy improvement of the quality of
+the films obtained, is reflected in the photophysical properties as
+well.</p><p>Time-resolved PL (TRPL) was carried out to elucidate how
+the charge
+carrier dynamics of the pristine material changes with the introduction
+of Zn(II) and 3-CPACl. The samples were excited with a 485 nm pulsed
+laser with a repetition rate of 0.1 MHz. TRPL decay traces are fitted
+using a stretched monoexponential function <inline-formula id="d30e863"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am-2019-03810n_m002.gif"/></inline-formula> where <italic>A</italic><sub>i</sub> is
+the amplitude, &#x003c4;<sub>1</sub> is the time constant, and &#x003b2;
+is the stretch factor ranging between 0 and 1. Our motivation to apply
+a stretched monoexponential function to these decays is that this
+model is appropriate to describe the decay in heterogeneous materials,
+showing monomolecular recombination distributions which have already
+been observed not only in spatially resolved PL works for MAPbI<sub>3</sub> films<sup><xref ref-type="bibr" rid="ref34">34</xref>&#x02212;<xref ref-type="bibr" rid="ref36">36</xref></sup> but also for MAPbBr<sub>3</sub>.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> Such effects can be induced by differences in local material
+properties. Although the origin of these heterogeneities and their
+effects on charge dynamics are still unknown, this is beyond the scope
+of our work.</p><p>The lifetime is found to be 588 ns for the pristine
+material, 634
+ns when only Zn(II) is incorporated, and 1547 ns when the film-forming
+3-CPACl is applied in addition to Zn(II). This behavior is in agreement
+with the passivation mechanism of defects.</p><p>Point defects such
+as vacancies (V<sub>B<sup>2+</sup></sub>, V<sub>A<sup>+</sup></sub>, and V<sub>X<sup>&#x02013;</sup></sub>) and interstitials
+are dominant defects in ABX<sub>3</sub> perovskite.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> Zinc(II) has a smaller ionic radius compared to Pb(II)
+and, as it is incorporated in the crystal lattice, fits in V<sub>Pb</sub> or interstitial sites to passivate defects. It might also be possible
+that the decreases in the bulk defect density is a consequence of
+the increase of the formation energy of defects. Furthermore, the
+reduction of grain boundaries due to grain enlargement induced by
+3-CPACl reduce the amount of dangling bonds, which are usually present
+in those regions, improving the overall quality of the film.</p></sec><sec id="sec4"><title>Summary</title><p>We have shown that mixed FA/MA cations and mixed halide (Br/I)
+lead perovskite for solar cells, fabricated under ambient conditions,
+can be stabilized by the introduction of 2.5% of ZnI<sub>2</sub>.
+By XRD, Zn(II) is proven to be incorporated in the perovskite structure
+despite its smaller ionic radius compared to Pb(II). UV&#x02013;vis
+and XRD comparison of freshly made and aged samples containing Zn(II)
+show the same behavior after 14 days of storage under ambient conditions&#x000a0;(60
+days with CPACl). The incorporation of Zn(II) affects also photophysical
+properties of the perovskite as the PL emission is enhanced&#x000a0;one
+order of magnitude in agreement with the passivation mechanism of
+defects and the lifetime is prolonged from 588 ns (for the pristine
+material) to 634 ns. In addition, to obtain dense, pinhole-free layers,
+we applied an&#x000a0;amine hydrochloride additive, 3-CPACl. The introduction
+of this alkylammonium&#x000a0;additive in the precursor solution results
+in a straightforward method to obtain reproducible and highly crystalline-oriented
+layers along the (100) and (200) crystallographic direction. Larger
+grains, homogeneous, and more compact layers are also observed in
+SEM images. Using Zn(II) and 3-CPACl in combination, the PL is enhanced
+with respect to the composition containing only Zn(II) and the lifetime
+extended to 1547 ns. Zn(II) is an effective isovalent dopant. The
+lattice contraction induced by the smaller zinc ion reduces the amount
+of point defects (atomic vacancies) by strain release and thereby
+enhances the PL lifetime. The combined effects of the alkylammonium
+additive and Zn(II) ions strongly reduce the amount of defect states
+(trap states that induce PL quenching and non-raditive charge loss
+in devices).&#x000a0;We want to highlight the intriguing effect of including
+a transition metal as Zn(II) in the perovskite lattice also for perovskite
+fabricated under ambient conditions. Further work is needed to optimize
+the device interfaces and architecture to obtain more efficient solar
+cells under ambient conditions. We are optimistic that the one-step
+fabrication in air, together with the excellent stability enhanced
+by incorporation of Zn(II) and 3-CPACl, will spark these optimization
+efforts.&#x000a0;A review on the effects of Zn(II) in perovskites is
+now available.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup></p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The
+Supporting Information is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsami.9b03810">10.1021/acsami.9b03810</ext-link>.<list id="silist" list-type="simple"><list-item><p>Images of the
+sample containing Zn(II) and 3-CPACl during
+spin-coating deposition; UV&#x02013;vis and XRD measurements of pure
+(FA<sub>0.85</sub>MA<sub>0.15</sub>)Pb(I<sub>2.85</sub>Br<sub>0.15</sub>) and the same material containing only the hydrochloride additive;
+XRD of the film containing 5% of Zn(II); solid&#x02013;solid reaction
+completed by ambient grinding; EDX spectrum of the film containing
+Zn(II) and 3-CPACl; XRD of the film containing Zn(II) and 3-CPACl
+on PEDOT:PSS; SEM image for the pristine material and the one containing
+only Zn(II)<sub>3</sub>; table with crystallite sizes for each composition;
+and table with PL data for each composition (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsami.9b03810/suppl_file/am9b03810_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="am9b03810_si_001.pdf"><caption><p>am9b03810_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e1118-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>We thank the Erasmus + exchange program for supporting
+L.A.M., R.J.C., O.L., and C.M. We thank Prof. Dr. Ir. R. A. J. Janssen
+for solar cell research facilities, Universiteit van Amsterdam for
+structural support, and Hysen Drogu for graphical design in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>. This work is part
+of the research program of the Netherlands Organisation for Scientific
+Research (NWO).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Kojima</surname><given-names>A.</given-names></name>; <name><surname>Teshima</surname><given-names>K.</given-names></name>; <name><surname>Shirai</surname><given-names>Y.</given-names></name>; <name><surname>Miyasaka</surname><given-names>T.</given-names></name>
+<article-title>Organometal Halide
+Perovskites as Visible-Light Sensitizers for Photovoltaic Cells</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2009</year>, <volume>131</volume>, <fpage>6050</fpage>&#x02013;<lpage>6051</lpage>. <pub-id pub-id-type="doi">10.1021/ja809598r</pub-id>.<pub-id pub-id-type="pmid">19366264</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Polman</surname><given-names>A.</given-names></name>; <name><surname>Knight</surname><given-names>M.</given-names></name>; <name><surname>Garnett</surname><given-names>E. C.</given-names></name>; <name><surname>Ehrler</surname><given-names>B.</given-names></name>; <name><surname>Sinke</surname><given-names>W. C.</given-names></name>
+<article-title>Photovoltaic
+Materials: Present Efficiencies and Future Challenges</article-title>. <source>Science</source>
+<year>2016</year>, <volume>352</volume>, <fpage>aad4424</fpage><pub-id pub-id-type="doi">10.1126/science.aad4424</pub-id>.<pub-id pub-id-type="pmid">27081076</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Stoumpos</surname><given-names>C. C.</given-names></name>; <name><surname>Malliakas</surname><given-names>C. D.</given-names></name>; <name><surname>Kanatzidis</surname><given-names>M. G.</given-names></name>
+<article-title>Semiconducting Tin and Lead Iodide
+Perovskites with Organic Cations: Phase Transitions, High Mobilities,
+and Near-Infrared Photoluminescent Properties</article-title>. <source>Inorg. Chem.</source>
+<year>2013</year>, <volume>52</volume>, <fpage>9019</fpage>&#x02013;<lpage>9038</lpage>. <pub-id pub-id-type="doi">10.1021/ic401215x</pub-id>.<pub-id pub-id-type="pmid">23834108</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Baikie</surname><given-names>T.</given-names></name>; <name><surname>Fang</surname><given-names>Y.</given-names></name>; <name><surname>Kadro</surname><given-names>J. M.</given-names></name>; <name><surname>Schreyer</surname><given-names>M.</given-names></name>; <name><surname>Wei</surname><given-names>F.</given-names></name>; <name><surname>Mhaisalkar</surname><given-names>S. G.</given-names></name>; <name><surname>Graetzel</surname><given-names>M.</given-names></name>; <name><surname>White</surname><given-names>T. J.</given-names></name>
+<article-title>Synthesis and Crystal
+Chemistry of the Hybrid Perovskite (CH3NH3)PbI3 for Solid-State Sensitised
+Solar Cell Applications</article-title>. <source>J. Mater. Chem. A</source>
+<year>2013</year>, <volume>1</volume>, <fpage>5628</fpage>&#x02013;<lpage>5641</lpage>. <pub-id pub-id-type="doi">10.1039/c3ta10518k</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>G&#x000e9;lvez-Rueda</surname><given-names>M. C.</given-names></name>; <name><surname>Renaud</surname><given-names>N.</given-names></name>; <name><surname>Grozema</surname><given-names>F. C.</given-names></name>
+<article-title>Temperature Dependent Charge Carrier
+Dynamics in Formamidinium Lead Iodide Perovskite</article-title>. <source>J. Phys. Chem. C</source>
+<year>2017</year>, <volume>121</volume>, <fpage>23392</fpage>&#x02013;<lpage>23397</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.7b09303</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Weber</surname><given-names>D.</given-names></name>
+<article-title>CH3NH3PbX3,
+a Pb(II)-System with Cubic Perovskite Structure</article-title>. <source>Z. Naturforsch., B: J. Chem. Sci.</source>
+<year>1978</year>, <volume>1445</volume>, <fpage>1443</fpage>&#x02013;<lpage>1445</lpage>. <pub-id pub-id-type="doi">10.1515/znb-1978-1214</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Yu</surname><given-names>H.</given-names></name>; <name><surname>Feng</surname><given-names>W.</given-names></name>; <name><surname>Fangyan</surname><given-names>X.</given-names></name>; <name><surname>Wenwu</surname><given-names>L.</given-names></name>; <name><surname>Jian</surname><given-names>C.</given-names></name>; <name><surname>Ni</surname><given-names>Z.</given-names></name>
+<article-title>The Role of Chlorine in the Formation Process of &#x0201c;CH3NH3PbI3-xClx&#x0201d;
+Perovskite</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2014</year>, <volume>24</volume>, <fpage>7102</fpage>&#x02013;<lpage>7108</lpage>. <pub-id pub-id-type="doi">10.1002/adfm.201401872</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Yang</surname><given-names>W. S.</given-names></name>; <name><surname>Noh</surname><given-names>J. H.</given-names></name>; <name><surname>Jeon</surname><given-names>N. J.</given-names></name>; <name><surname>Kim</surname><given-names>Y. C.</given-names></name>; <name><surname>Ryu</surname><given-names>S.</given-names></name>; <name><surname>Seo</surname><given-names>J.</given-names></name>; <name><surname>Seok</surname><given-names>S. I.</given-names></name>
+<article-title>High-performance photovoltaic perovskite
+layers fabricated
+through intramolecular exchange</article-title>. <source>Science</source>
+<year>2015</year>, <volume>348</volume>, <fpage>1234</fpage>&#x02013;<lpage>1237</lpage>. <pub-id pub-id-type="doi">10.1126/science.aaa9272</pub-id>.<pub-id pub-id-type="pmid">25999372</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Saliba</surname><given-names>M.</given-names></name>; <name><surname>Matsui</surname><given-names>T.</given-names></name>; <name><surname>Seo</surname><given-names>J.-Y.</given-names></name>; <name><surname>Domanski</surname><given-names>K.</given-names></name>; <name><surname>Correa-Baena</surname><given-names>J.-P.</given-names></name>; <name><surname>Nazeeruddin</surname><given-names>M. K.</given-names></name>; <name><surname>Zakeeruddin</surname><given-names>S. M.</given-names></name>; <name><surname>Tress</surname><given-names>W.</given-names></name>; <name><surname>Abate</surname><given-names>A.</given-names></name>; <name><surname>Hagfeldt</surname><given-names>A.</given-names></name>; <name><surname>Gr&#x000e4;tzel</surname><given-names>M.</given-names></name>
+<article-title>Cesium-Containing
+Triple Cation Perovskite
+Solar Cells: Improved Stability, Reproducibility and High Efficiency</article-title>. <source>Energy Environ. Sci.</source>
+<year>2016</year>, <volume>9</volume>, <fpage>1989</fpage>&#x02013;<lpage>1997</lpage>. <pub-id pub-id-type="doi">10.1039/c5ee03874j</pub-id>.<pub-id pub-id-type="pmid">27478500</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Saliba</surname><given-names>M.</given-names></name>; <name><surname>Matsui</surname><given-names>T.</given-names></name>; <name><surname>Domanski</surname><given-names>K.</given-names></name>; <name><surname>Seo</surname><given-names>J.-Y.</given-names></name>; <name><surname>Ummadisingu</surname><given-names>A.</given-names></name>; <name><surname>Zakeeruddin</surname><given-names>S. M.</given-names></name>; <name><surname>Correa-Baena</surname><given-names>J.-P.</given-names></name>; <name><surname>Tress</surname><given-names>W. R.</given-names></name>; <name><surname>Abate</surname><given-names>A.</given-names></name>; <name><surname>Hagfeldt</surname><given-names>A.</given-names></name>; <name><surname>Gratzel</surname><given-names>M.</given-names></name>
+<article-title>Incorporation of Rubidium Cations
+into Perovskite Solar Cells Improves Photovoltaic Performance</article-title>. <source>Science</source>
+<year>2016</year>, <volume>354</volume>, <fpage>206</fpage>&#x02013;<lpage>209</lpage>. <pub-id pub-id-type="doi">10.1126/science.aah5557</pub-id>.<pub-id pub-id-type="pmid">27708053</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Abdi-Jalebi</surname><given-names>M.</given-names></name>; <name><surname>Dar</surname><given-names>M. I.</given-names></name>; <name><surname>Sadhanala</surname><given-names>A.</given-names></name>; <name><surname>Senanayak</surname><given-names>S. P.</given-names></name>; <name><surname>Franckevi&#x0010d;ius</surname><given-names>M.</given-names></name>; <name><surname>Arora</surname><given-names>N.</given-names></name>; <name><surname>Hu</surname><given-names>Y.</given-names></name>; <name><surname>Nazeeruddin</surname><given-names>M. K.</given-names></name>; <name><surname>Zakeeruddin</surname><given-names>S. M.</given-names></name>; <name><surname>Gr&#x000e4;tzel</surname><given-names>M.</given-names></name>; <name><surname>Friend</surname><given-names>R. H.</given-names></name>
+<article-title>Impact of Monovalent
+Cation Halide Additives on the Structural and Optoelectronic Properties
+of CH3NH3PbI3 Perovskite</article-title>. <source>Adv. Energy Mater.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>1502472</fpage><pub-id pub-id-type="doi">10.1002/aenm.201502472</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Wang</surname><given-names>J. T.-W.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Pathak</surname><given-names>S.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>deQuilettes</surname><given-names>D. W.</given-names></name>; <name><surname>Wisnivesky-Rocca-Rivarola</surname><given-names>F.</given-names></name>; <name><surname>Huang</surname><given-names>J.</given-names></name>; <name><surname>Nayak</surname><given-names>P. K.</given-names></name>; <name><surname>Patel</surname><given-names>J. B.</given-names></name>; <name><surname>Mohd Yusof</surname><given-names>H. A.</given-names></name>; <name><surname>Vaynzof</surname><given-names>Y.</given-names></name>; <name><surname>Zhu</surname><given-names>R.</given-names></name>; <name><surname>Ramirez</surname><given-names>I.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Ducati</surname><given-names>C.</given-names></name>; <name><surname>Grovenor</surname><given-names>C.</given-names></name>; <name><surname>Johnston</surname><given-names>M. B.</given-names></name>; <name><surname>Ginger</surname><given-names>D. S.</given-names></name>; <name><surname>Nicholas</surname><given-names>R. J.</given-names></name>; <name><surname>Snaith</surname><given-names>H. J.</given-names></name>
+<article-title>Efficient
+Perovskite Solar Cells by Metal Ion Doping</article-title>. <source>Energy Environ. Sci.</source>
+<year>2016</year>, <volume>9</volume>, <fpage>2892</fpage>&#x02013;<lpage>2901</lpage>. <pub-id pub-id-type="doi">10.1039/c6ee01969b</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>P&#x000e9;rez-del-Rey</surname><given-names>D.</given-names></name>; <name><surname>Forg&#x000e1;cs</surname><given-names>D.</given-names></name>; <name><surname>Hutter</surname><given-names>E. M.</given-names></name>; <name><surname>Savenije</surname><given-names>T. J.</given-names></name>; <name><surname>Nordlund</surname><given-names>D.</given-names></name>; <name><surname>Schulz</surname><given-names>P.</given-names></name>; <name><surname>Berry</surname><given-names>J. J.</given-names></name>; <name><surname>Sessolo</surname><given-names>M.</given-names></name>; <name><surname>Bolink</surname><given-names>H. J.</given-names></name>
+<article-title>Strontium
+Insertion in Methylammonium Lead Iodide: Long Charge Carrier Lifetime
+and High Fill-Factor Solar Cells</article-title>. <source>Adv. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>9839</fpage>&#x02013;<lpage>9845</lpage>. <pub-id pub-id-type="doi">10.1002/adma.201603016</pub-id>.<pub-id pub-id-type="pmid">27717027</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Klug</surname><given-names>M. T.</given-names></name>; <name><surname>Osherov</surname><given-names>A.</given-names></name>; <name><surname>Haghighirad</surname><given-names>A. A.</given-names></name>; <name><surname>Stranks</surname><given-names>S. D.</given-names></name>; <name><surname>Brown</surname><given-names>P. R.</given-names></name>; <name><surname>Bai</surname><given-names>S.</given-names></name>; <name><surname>Wang</surname><given-names>J. T.-W.</given-names></name>; <name><surname>Dang</surname><given-names>X.</given-names></name>; <name><surname>Bulovi&#x00107;</surname><given-names>V.</given-names></name>; <name><surname>Snaith</surname><given-names>H. J.</given-names></name>; <name><surname>Belcher</surname><given-names>A. M.</given-names></name>
+<article-title>Tailoring
+Metal Halide Perovskites
+through Metal Substitution: Influence on Photovoltaic and Material
+Properties</article-title>. <source>Energy Environ. Sci.</source>
+<year>2017</year>, <volume>10</volume>, <fpage>236</fpage>&#x02013;<lpage>246</lpage>. <pub-id pub-id-type="doi">10.1039/c6ee03201j</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>van
+der Stam</surname><given-names>W.</given-names></name>; <name><surname>Geuchies</surname><given-names>J. J.</given-names></name>; <name><surname>Altantzis</surname><given-names>T.</given-names></name>; <name><surname>van den Bos</surname><given-names>K. H. W.</given-names></name>; <name><surname>Meeldijk</surname><given-names>J. D.</given-names></name>; <name><surname>Van Aert</surname><given-names>S.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>Vanmaekelbergh</surname><given-names>D.</given-names></name>; <name><surname>de Mello Donega</surname><given-names>C.</given-names></name>
+<article-title>Highly Emissive Divalent-Ion-Doped
+Colloidal CsPb1&#x02013;xMxBr3 Perovskite Nanocrystals through Cation
+Exchange</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>4087</fpage>&#x02013;<lpage>4097</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b13079</pub-id>.<pub-id pub-id-type="pmid">28260380</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Jin</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Zhang</surname><given-names>B.</given-names></name>; <name><surname>Xu</surname><given-names>L.</given-names></name>; <name><surname>Dong</surname><given-names>B.</given-names></name>; <name><surname>Song</surname><given-names>H.</given-names></name>; <name><surname>Dai</surname><given-names>Q.</given-names></name>
+<article-title>Enhanced Performance of Perovskite
+Solar Cells with Zinc Chloride Additives</article-title>. <source>ACS
+Appl. Mater. Interfaces</source>
+<year>2017</year>, <volume>9</volume>, <fpage>42875</fpage>&#x02013;<lpage>42882</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.7b15310</pub-id>.<pub-id pub-id-type="pmid">29168634</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Song</surname><given-names>N.</given-names></name>; <name><surname>Feng</surname><given-names>L.</given-names></name>; <name><surname>Deng</surname><given-names>X.</given-names></name>
+<article-title>Effects of Organic
+Cation Additives on the Fast Growth of Perovskite Thin Films for Efficient
+Planar Heterojunction Solar Cells</article-title>. <source>ACS Appl.
+Mater. Interfaces</source>
+<year>2016</year>, <volume>8</volume>, <fpage>24703</fpage>&#x02013;<lpage>24711</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.6b06633</pub-id>.<pub-id pub-id-type="pmid">27581325</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Geng</surname><given-names>W.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Fang</surname><given-names>H.-H.</given-names></name>; <name><surname>Tong</surname><given-names>C.-J.</given-names></name>; <name><surname>Loi</surname><given-names>M. A.</given-names></name>; <name><surname>Liu</surname><given-names>L.-M.</given-names></name>; <name><surname>Zhao</surname><given-names>N.</given-names></name>
+<article-title>Phenylalkylamine Passivation
+of Organolead Halide Perovskites Enabling High-Efficiency and Air-Stable
+Photovoltaic Cells</article-title>. <source>Adv. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>9986</fpage>&#x02013;<lpage>9992</lpage>. <pub-id pub-id-type="doi">10.1002/adma.201603062</pub-id>.<pub-id pub-id-type="pmid">27677653</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Jeon</surname><given-names>N. J.</given-names></name>; <name><surname>Noh</surname><given-names>J. H.</given-names></name>; <name><surname>Yang</surname><given-names>W. S.</given-names></name>; <name><surname>Kim</surname><given-names>Y. C.</given-names></name>; <name><surname>Ryu</surname><given-names>S.</given-names></name>; <name><surname>Seo</surname><given-names>J.</given-names></name>; <name><surname>Seok</surname><given-names>S. I.</given-names></name>
+<article-title>Il. Compositional Engineering of
+Perovskite Materials
+for High-Performance Solar Cells</article-title>. <source>Nature</source>
+<year>2015</year>, <volume>517</volume>, <fpage>476</fpage>&#x02013;<lpage>480</lpage>. <pub-id pub-id-type="doi">10.1038/nature14133</pub-id>.<pub-id pub-id-type="pmid">25561177</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Li</surname><given-names>C.</given-names></name>; <name><surname>Lu</surname><given-names>X.</given-names></name>; <name><surname>Ding</surname><given-names>W.</given-names></name>; <name><surname>Feng</surname><given-names>L.</given-names></name>; <name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Guo</surname><given-names>Z.</given-names></name>
+<article-title>Formability
+of ABX3 (X = F, Cl, Br, I) halide perovskites</article-title>. <source>Acta Crystallogr., Sect. B: Struct. Sci.</source>
+<year>2008</year>, <volume>64</volume>, <fpage>702</fpage>&#x02013;<lpage>707</lpage>. <pub-id pub-id-type="doi">10.1107/s0108768108032734</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Wang</surname><given-names>S.</given-names></name>; <name><surname>Jiang</surname><given-names>Y.</given-names></name>; <name><surname>Juarez-Perez</surname><given-names>E. J.</given-names></name>; <name><surname>Ono</surname><given-names>L. K.</given-names></name>; <name><surname>Qi</surname><given-names>Y.</given-names></name>
+<article-title>Accelerated
+Degradation of Methylammonium Lead Iodide Perovskites Induced by Exposure
+to Iodine Vapour</article-title>. <source>Nat. Energy</source>
+<year>2016</year>, <volume>2</volume>, <fpage>16195</fpage><pub-id pub-id-type="doi">10.1038/nenergy.2016.195</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Niu</surname><given-names>G.</given-names></name>; <name><surname>Li</surname><given-names>W.</given-names></name>; <name><surname>Meng</surname><given-names>F.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Dong</surname><given-names>H.</given-names></name>; <name><surname>Qiu</surname><given-names>Y.</given-names></name>
+<article-title>Study on the
+Stability of CH3NH3PbI3 Films and the Effect of Post-Modification
+by Aluminum Oxide in All-Solid-State Hybrid Solar Cells</article-title>. <source>J. Mater. Chem. A</source>
+<year>2014</year>, <volume>2</volume>, <fpage>705</fpage>&#x02013;<lpage>710</lpage>. <pub-id pub-id-type="doi">10.1039/c3ta13606j</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>Pathak</surname><given-names>S.</given-names></name>; <name><surname>Sakai</surname><given-names>N.</given-names></name>; <name><surname>Stergiopoulos</surname><given-names>T.</given-names></name>; <name><surname>Nayak</surname><given-names>P. K.</given-names></name>; <name><surname>Noel</surname><given-names>N. K.</given-names></name>; <name><surname>Haghighirad</surname><given-names>A. A.</given-names></name>; <name><surname>Burlakov</surname><given-names>V. M.</given-names></name>; <name><surname>deQuilettes</surname><given-names>D. W.</given-names></name>; <name><surname>Sadhanala</surname><given-names>A.</given-names></name>; <name><surname>Li</surname><given-names>W.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Ginger</surname><given-names>D. S.</given-names></name>; <name><surname>Friend</surname><given-names>R. H.</given-names></name>; <name><surname>Snaith</surname><given-names>H. J.</given-names></name>
+<article-title>Enhanced
+Optoelectronic Quality of Perovskite Thin Films with Hypophosphorous
+Acid for Planar Heterojunction Solar Cells</article-title>. <source>Nat. Commun.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/ncomms10030</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Williams</surname><given-names>S. T.</given-names></name>; <name><surname>Zuo</surname><given-names>F.</given-names></name>; <name><surname>Chueh</surname><given-names>C.-C.</given-names></name>; <name><surname>Liao</surname><given-names>C.-Y.</given-names></name>; <name><surname>Liang</surname><given-names>P.-W.</given-names></name>; <name><surname>Jen</surname><given-names>A. K.-Y.</given-names></name>
+<article-title>Role
+of Chloride in the Morphological Evolution of Organo-Lead Halide Perovskite
+Thin Films</article-title>. <source>ACS Nano</source>
+<year>2014</year>, <volume>8</volume>, <fpage>10640</fpage>&#x02013;<lpage>10654</lpage>. <pub-id pub-id-type="doi">10.1021/nn5041922</pub-id>.<pub-id pub-id-type="pmid">25299303</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Chueh</surname><given-names>C.-C.</given-names></name>; <name><surname>Liao</surname><given-names>C.-Y.</given-names></name>; <name><surname>Zuo</surname><given-names>F.</given-names></name>; <name><surname>Williams</surname><given-names>S. T.</given-names></name>; <name><surname>Liang</surname><given-names>P.-W.</given-names></name>; <name><surname>Jen</surname><given-names>A. K.-Y.</given-names></name>
+<article-title>The Roles of Alkyl Halide Additives in Enhancing Perovskite
+Solar Cell Performance</article-title>. <source>J. Mater. Chem. A</source>
+<year>2015</year>, <volume>3</volume>, <fpage>9058</fpage>&#x02013;<lpage>9062</lpage>. <pub-id pub-id-type="doi">10.1039/c4ta05012f</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Chen</surname><given-names>Y.</given-names></name>; <name><surname>Zhao</surname><given-names>Y.</given-names></name>; <name><surname>Liang</surname><given-names>Z.</given-names></name>
+<article-title>Non-Thermal Annealing Fabrication
+of Efficient Planar Perovskite Solar Cells with Inclusion of NH4Cl</article-title>. <source>Chem. Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>1448</fpage>&#x02013;<lpage>1451</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.5b00041</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Yu</surname><given-names>H.</given-names></name>; <name><surname>Xu</surname><given-names>H.</given-names></name>; <name><surname>Zhao</surname><given-names>N.</given-names></name>
+<article-title>HPbI3: A New Precursor Compound for
+Highly Efficient Solution-Processed Perovskite Solar Cells</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2015</year>, <volume>25</volume>, <fpage>1120</fpage>&#x02013;<lpage>1126</lpage>. <pub-id pub-id-type="doi">10.1002/adfm.201404007</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Noel</surname><given-names>N. K.</given-names></name>; <name><surname>Congiu</surname><given-names>M.</given-names></name>; <name><surname>Ramadan</surname><given-names>A. J.</given-names></name>; <name><surname>Fearn</surname><given-names>S.</given-names></name>; <name><surname>McMeekin</surname><given-names>D. P.</given-names></name>; <name><surname>Patel</surname><given-names>J. B.</given-names></name>; <name><surname>Johnston</surname><given-names>M. B.</given-names></name>; <name><surname>Wenger</surname><given-names>B.</given-names></name>; <name><surname>Snaith</surname><given-names>H. J.</given-names></name>
+<article-title>Unveiling
+the Influence of PH on the Crystallization of Hybrid Perovskites,
+Delivering Low Voltage Loss Photovoltaics</article-title>. <source>Joule</source>
+<year>2017</year>, <volume>1</volume>, <fpage>328</fpage>&#x02013;<lpage>343</lpage>. <pub-id pub-id-type="doi">10.1016/j.joule.2017.09.009</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Mitzi</surname><given-names>D. B.</given-names></name>; <name><surname>Feild</surname><given-names>C. A.</given-names></name>; <name><surname>Harrison</surname><given-names>W. T. A.</given-names></name>; <name><surname>Guloy</surname><given-names>A. M.</given-names></name>
+<article-title>Conducting Tin Halides
+with a Layered Organic-Based Perovskite Structure</article-title>. <source>Nature</source>
+<year>1994</year>, <volume>369</volume>, <fpage>467</fpage><pub-id pub-id-type="doi">10.1038/369467a0</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Chen</surname><given-names>Q.</given-names></name>; <name><surname>Zhou</surname><given-names>H.</given-names></name>; <name><surname>Fang</surname><given-names>Y.</given-names></name>; <name><surname>Stieg</surname><given-names>A. Z.</given-names></name>; <name><surname>Song</surname><given-names>T.-B.</given-names></name>; <name><surname>Wang</surname><given-names>H.-H.</given-names></name>; <name><surname>Xu</surname><given-names>X.</given-names></name>; <name><surname>Liu</surname><given-names>Y.</given-names></name>; <name><surname>Lu</surname><given-names>S.</given-names></name>; <name><surname>You</surname><given-names>J.</given-names></name>; <name><surname>Sun</surname><given-names>P.</given-names></name>; <name><surname>McKay</surname><given-names>J.</given-names></name>; <name><surname>Goorsky</surname><given-names>M. S.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>
+<article-title>The Optoelectronic
+Role of Chlorine in CH3NH3PbI3(Cl)-Based Perovskite Solar Cells</article-title>. <source>Nat. Commun.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>7269</fpage><pub-id pub-id-type="doi">10.1038/ncomms8269</pub-id>.<pub-id pub-id-type="pmid">26068804</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Zhu</surname><given-names>Z.-Y.</given-names></name>; <name><surname>Yang</surname><given-names>Q.-Q.</given-names></name>; <name><surname>Gao</surname><given-names>L.-F.</given-names></name>; <name><surname>Zhang</surname><given-names>L.</given-names></name>; <name><surname>Shi</surname><given-names>A.-Y.</given-names></name>; <name><surname>Sun</surname><given-names>C.-L.</given-names></name>; <name><surname>Wang</surname><given-names>Q.</given-names></name>; <name><surname>Zhang</surname><given-names>H.-L.</given-names></name>
+<article-title>Solvent-Free Mechanosynthesis
+of Composition-Tunable Cesium Lead Halide Perovskite Quantum Dots</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>1610</fpage>&#x02013;<lpage>1614</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.7b00431</pub-id>.<pub-id pub-id-type="pmid">28326786</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Guerrero</surname><given-names>A.</given-names></name>; <name><surname>Garcia-Belmonte</surname><given-names>G.</given-names></name>; <name><surname>Mora-Sero</surname><given-names>I.</given-names></name>; <name><surname>Bisquert</surname><given-names>J.</given-names></name>; <name><surname>Kang</surname><given-names>Y. S.</given-names></name>; <name><surname>Jacobsson</surname><given-names>T. J.</given-names></name>; <name><surname>Correa-Baena</surname><given-names>J.-P.</given-names></name>; <name><surname>Hagfeldt</surname><given-names>A.</given-names></name>
+<article-title>Properties of Contact
+and Bulk Impedances in Hybrid Lead Halide Perovskite Solar Cells Including
+Inductive Loop Elements</article-title>. <source>J. Phys. Chem. C</source>
+<year>2016</year>, <volume>120</volume>, <fpage>8023</fpage>&#x02013;<lpage>8032</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.6b01728</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Shrestha</surname><given-names>S.</given-names></name>; <name><surname>Fischer</surname><given-names>R.</given-names></name>; <name><surname>Matt</surname><given-names>G. J.</given-names></name>; <name><surname>Feldner</surname><given-names>P.</given-names></name>; <name><surname>Michel</surname><given-names>T.</given-names></name>; <name><surname>Osvet</surname><given-names>A.</given-names></name>; <name><surname>Levchuk</surname><given-names>I.</given-names></name>; <name><surname>Merle</surname><given-names>B.</given-names></name>; <name><surname>Golkar</surname><given-names>S.</given-names></name>; <name><surname>Chen</surname><given-names>H.</given-names></name>; <name><surname>Tedde</surname><given-names>S. F.</given-names></name>; <name><surname>Hock</surname><given-names>R.</given-names></name>; <name><surname>R&#x000fc;hrig</surname><given-names>M.</given-names></name>; <name><surname>G&#x000f6;ken</surname><given-names>M.</given-names></name>; <name><surname>Heiss</surname><given-names>W.</given-names></name>; <name><surname>Anton</surname><given-names>G.</given-names></name>; <name><surname>Brabec</surname><given-names>C. J.</given-names></name>
+<article-title>HIGH-Performance
+Direct Conversion X-Ray Detectors Based on Sintered Hybrid Lead Triiodide
+Perovskite Wafers</article-title>. <source>Nat. Photonics</source>
+<year>2017</year>, <volume>11</volume>, <fpage>436</fpage><pub-id pub-id-type="doi">10.1038/nphoton.2017.94</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Nie</surname><given-names>W.</given-names></name>; <name><surname>Tsai</surname><given-names>H.</given-names></name>; <name><surname>Asadpour</surname><given-names>R.</given-names></name>; <name><surname>Blancon</surname><given-names>J.-C.</given-names></name>; <name><surname>Neukirch</surname><given-names>A. J.</given-names></name>; <name><surname>Gupta</surname><given-names>G.</given-names></name>; <name><surname>Crochet</surname><given-names>J. J.</given-names></name>; <name><surname>Chhowalla</surname><given-names>M.</given-names></name>; <name><surname>Tretiak</surname><given-names>S.</given-names></name>; <name><surname>Alam</surname><given-names>M. A.</given-names></name>; <name><surname>Wang</surname><given-names>H.-L.</given-names></name>; <name><surname>Mohite</surname><given-names>A. D.</given-names></name>
+<article-title>High-Efficiency
+Solution-Processed Perovskite Solar Cells with Millimeter-Scale Grains</article-title>. <source>Science</source>
+<year>2015</year>, <volume>347</volume>, <fpage>522</fpage>&#x02013;<lpage>525</lpage>. <pub-id pub-id-type="doi">10.1126/science.aaa0472</pub-id>.<pub-id pub-id-type="pmid">25635093</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Vinet</surname><given-names>L.</given-names></name>; <name><surname>Zhedanov</surname><given-names>A.</given-names></name>
+<article-title>A &#x0201c;missing&#x000f6;
+family of classical orthogonal
+polynomials</article-title>. <source>J. Phys. A: Math. Theor.</source>
+<year>2011</year>, <volume>44</volume>, <fpage>085201</fpage><pub-id pub-id-type="doi">10.1088/1751-8113/44/8/085201</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Draguta</surname><given-names>S.</given-names></name>; <name><surname>Thakur</surname><given-names>S.</given-names></name>; <name><surname>Morozov</surname><given-names>Y. V.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Manser</surname><given-names>J. S.</given-names></name>; <name><surname>Kamat</surname><given-names>P. V.</given-names></name>; <name><surname>Kuno</surname><given-names>M.</given-names></name>
+<article-title>Spatially Non-Uniform
+Trap State
+Densities in Solution-Processed Hybrid Perovskite Thin Films</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>715</fpage>&#x02013;<lpage>721</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.5b02888</pub-id>.<pub-id pub-id-type="pmid">26840877</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Vru&#x00107;ini&#x00107;</surname><given-names>M.</given-names></name>; <name><surname>Matthiesen</surname><given-names>C.</given-names></name>; <name><surname>Sadhanala</surname><given-names>A.</given-names></name>; <name><surname>Divitini</surname><given-names>G.</given-names></name>; <name><surname>Cacovich</surname><given-names>S.</given-names></name>; <name><surname>Dutton</surname><given-names>S. E.</given-names></name>; <name><surname>Ducati</surname><given-names>C.</given-names></name>; <name><surname>Atat&#x000fc;re</surname><given-names>M.</given-names></name>; <name><surname>Snaith</surname><given-names>H.</given-names></name>; <name><surname>Friend</surname><given-names>R. H.</given-names></name>; <name><surname>Sirringhaus</surname><given-names>H.</given-names></name>; <name><surname>Deschler</surname><given-names>F.</given-names></name>
+<article-title>Local Versus Long-Range Diffusion
+Effects of Photoexcited
+States on Radiative Recombination in Organic-Inorganic Lead Halide
+Perovskites</article-title>. <source>Adv. Sci.</source>
+<year>2015</year>, <volume>2</volume>, <fpage>1500136</fpage><pub-id pub-id-type="doi">10.1002/advs.201500136</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Buin</surname><given-names>A.</given-names></name>; <name><surname>Pietsch</surname><given-names>P.</given-names></name>; <name><surname>Xu</surname><given-names>J.</given-names></name>; <name><surname>Voznyy</surname><given-names>O.</given-names></name>; <name><surname>Ip</surname><given-names>A. H.</given-names></name>; <name><surname>Comin</surname><given-names>R.</given-names></name>; <name><surname>Sargent</surname><given-names>E. H.</given-names></name>
+<article-title>Materials Processing Routes to Trap-Free
+Halide Perovskites</article-title>. <source>Nano Lett.</source>
+<year>2014</year>, <volume>14</volume>, <fpage>6281</fpage>&#x02013;<lpage>6286</lpage>. <pub-id pub-id-type="doi">10.1021/nl502612m</pub-id>.<pub-id pub-id-type="pmid">25296282</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Kooijman</surname><given-names>A.</given-names></name>; <name><surname>Muscarella</surname><given-names>L. A.</given-names></name>; <name><surname>Williams</surname><given-names>R. M.</given-names></name>
+<article-title>Perovskite Thin Film Materials Stabilized
+and Enhanced by Zinc(II) Doping.</article-title>. <source>Appl. Sci.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>1678</fpage><pub-id pub-id-type="doi">10.3390/app9081678</pub-id>.</mixed-citation></ref></ref-list></back></article>

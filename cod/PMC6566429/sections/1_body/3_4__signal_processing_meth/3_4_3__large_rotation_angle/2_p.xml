@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We have illustrated that a corner reflector located at coordinate origin is adapt as a reference target to compensate the signal frequency nonlinearity and phase inconsistency. Under the geometry in 
+ <xref ref-type="fig" rid="sensors-19-02330-f003">Figure 3</xref>, the echo signal with a large angle of a complex target can be expressed as: 
+ <disp-formula id="FD24-sensors-19-02330">
+  <label>(24)</label>
+  <math id="mm93">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>A</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mo mathsize="140%">∬</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo>,</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>k</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mtext> </mtext>
+       <mi>c</mi>
+       <mi>o</mi>
+       <mi>s</mi>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mi>y</mi>
+     <mtext> </mtext>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi>L</mi>
+       <mi>z</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mi>d</mi>
+     <mi>x</mi>
+     <mi>d</mi>
+     <mi>y</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD25-sensors-19-02330">
+  <label>(25)</label>
+  <math id="mm94">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>B</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mo mathsize="140%">∬</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo>,</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>k</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mtext> </mtext>
+       <mi>c</mi>
+       <mi>o</mi>
+       <mi>s</mi>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mi>y</mi>
+     <mtext> </mtext>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mi>d</mi>
+     <mi>x</mi>
+     <mi>d</mi>
+     <mi>y</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <mi>k</mi>
+     <mo>=</mo>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>γ</mi>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>+</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>/</mo>
+     <mi>c</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is wavenumber, 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <mi>θ</mi>
+     <mo>=</mo>
+     <mi>w</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is sample angle. The imaging process is expressed as: 
+ <disp-formula id="FD26-sensors-19-02330">
+  <label>(26)</label>
+  <math id="mm97">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>F</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo>,</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="140%">∫</mo>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mrow>
+         <mi>m</mi>
+         <mi>i</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mrow>
+         <mi>m</mi>
+         <mi>a</mi>
+         <mi>x</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </msubsup>
+     <msubsup>
+      <mo mathsize="140%">∫</mo>
+      <mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>θ</mi>
+        <mi>t</mi>
+       </msub>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mi>t</mi>
+       </msub>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msubsup>
+     <mi>k</mi>
+     <msub>
+      <mi>s</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>k</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mtext> </mtext>
+       <mi>c</mi>
+       <mi>o</mi>
+       <mi>s</mi>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mi>y</mi>
+     <mtext> </mtext>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mi>d</mi>
+     <mi>x</mi>
+     <mi>d</mi>
+     <mi>y</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mi>A</mi>
+       <mo>,</mo>
+       <mi>B</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where: 
+ <disp-formula id="FD27-sensors-19-02330">
+  <label>(27)</label>
+  <math id="mm98">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>F</mi>
+      <mi>A</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo>,</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>/</mo>
+     <msub>
+      <mi>F</mi>
+      <mi>B</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo>,</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mfrac>
+      <mrow>
+       <mi>L</mi>
+       <mi>z</mi>
+      </mrow>
+      <mrow>
+       <mi>λ</mi>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

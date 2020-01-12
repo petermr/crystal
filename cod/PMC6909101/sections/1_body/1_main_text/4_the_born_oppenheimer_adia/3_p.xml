@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0185">The Hamiltonian 
+ <inline-formula>
+  <math id="M55" altimg="si45.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>H</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> of a molecule is written as the sum of the kinetic energy of electrons 
+ <inline-formula>
+  <math id="M56" altimg="si46.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>T</mi>
+       <mo>ˆ</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and nuclei 
+ <inline-formula>
+  <math id="M57" altimg="si47.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>T</mi>
+       <mo>ˆ</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and the total potential energy 
+ <inline-formula>
+  <math id="M58" altimg="si48.svg">
+   <mi>U</mi>
+   <mspace width="1em"/>
+   <mfenced>
+    <mrow>
+     <mi>q</mi>
+     <mo>,</mo>
+     <mi>p</mi>
+    </mrow>
+   </mfenced>
+  </math>
+ </inline-formula> of the molecule:
+ <disp-formula id="fd6">
+  <label>(6)</label>
+  <math id="M59" altimg="si49.svg" alttext="Equation 6.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>H</mi>
+      <mo>ˆ</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>T</mi>
+        <mo>ˆ</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>e</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>T</mi>
+        <mo>ˆ</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>N</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mi>U</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M60" altimg="si50.svg">
+   <mrow>
+    <mi>q</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M61" altimg="si51.svg">
+   <mrow>
+    <mi>p</mi>
+   </mrow>
+  </math>
+ </inline-formula> are the set of electronic and nuclear coordinates. In the adiabatic approximation the wave function 
+ <inline-formula>
+  <math id="M62" altimg="si52.svg">
+   <mi>Ψ</mi>
+   <mfenced>
+    <mrow>
+     <mi>q</mi>
+     <mo>,</mo>
+     <mi>p</mi>
+    </mrow>
+   </mfenced>
+  </math>
+ </inline-formula> of the molecule is searched in the form
+ <disp-formula id="fd7">
+  <label>(7)</label>
+  <math id="M63" altimg="si53.svg" alttext="Equation 7.">
+   <mrow>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mtext> </mtext>
+    <mi>ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <mi>ϕ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

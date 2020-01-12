@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="table2" orientation="portrait" position="float">
+ <label>Table 2</label>
+ <caption>
+  <title>Optimized structure parameters of α-SiO
+   <sub>2</sub>
+  </title>
+  <p>Average bond lengths 
+   <italic>d</italic> given in Å. 
+   <italic>E</italic> is the total free energy. Reference labels: (N) Cline (2017
+   <xref ref-type="bibr" rid="bb20"> ▸</xref>), (O) O’Connor &amp; Raven (1988
+   <xref ref-type="bibr" rid="bb52"> ▸</xref>), (H) Hay 
+   <italic>et al.</italic> (2015
+   <xref ref-type="bibr" rid="bb32"> ▸</xref>).
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead valign="bottom">
+   <tr>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">Reference/functional</th>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">
+     <italic>a</italic> (Å)
+    </th>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">
+     <italic>c</italic> (Å)
+    </th>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">
+     <italic>V</italic> (Å
+     <sup>3</sup>)
+    </th>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">
+     <italic>d</italic>(Si
+     <sup>IV</sup>—O)
+    </th>
+    <th style="border-bottom:1px solid black;" rowspan="1" colspan="1" align="left" valign="bottom">
+     <italic>E</italic> (eV)
+    </th>
+   </tr>
+  </thead>
+  <tbody valign="top">
+   <tr>
+    <td rowspan="1" colspan="6" align="left" valign="top">Calculations of this study:</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">PBE</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.0203</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.5084</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">120.23</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.6274</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">−71.14</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">PBE-D</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.9509</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.4581</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">115.86</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.6264</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">−71.99</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">PBEsol</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.9489</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.4441</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">115.47</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.6229</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">−74.01</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">PBEsol-D</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.8956</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.4027</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">112.14</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.6222</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">−74.69</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="6" align="left" valign="top">Experimental powder XRD reference:</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">(N) NIST 1878b</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.91378 (30)</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.40536 (30)</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">113.03</td>
+    <td rowspan="1" colspan="1" align="left" valign="top"> </td>
+    <td rowspan="1" colspan="1" align="left" valign="top"> </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">(O)</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.9070 (6)</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.3997 (4)</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">112.60</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.5999</td>
+    <td rowspan="1" colspan="1" align="left" valign="top"> </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="6" align="left" valign="top">Calculation references:</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">(H) PBE</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.031</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.514</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">120.84</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.616</td>
+    <td rowspan="1" colspan="1" align="left" valign="top"> </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1" align="left" valign="top">(H) TS</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">4.928</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">5.428</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">114.15</td>
+    <td rowspan="1" colspan="1" align="left" valign="top">1.616</td>
+    <td rowspan="1" colspan="1" align="left" valign="top"> </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

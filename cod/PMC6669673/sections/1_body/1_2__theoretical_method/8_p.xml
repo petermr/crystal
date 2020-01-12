@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If 
+ <inline-formula>
+  <math id="mm42">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> has a minimum at the origin (
+ <italic>x</italic> = 0, 
+ <italic>y</italic> = 0), i.e., 
+ <inline-formula>
+  <math id="mm43">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mn>0</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 0, then 
+ <inline-formula>
+  <math id="mm44">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mn>0</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm45">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo stretchy="false">|</mo>
+      <mn>0</mn>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>Y</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo stretchy="false">|</mo>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 0, and thus, the value of 
+ <inline-formula>
+  <math id="mm46">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>Y</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is close to zero in the neighborhood of (0, 0). Since 
+ <inline-formula>
+  <math id="mm47">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mtext> </mtext>
+       <mi>y</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is positive definite, 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <msup>
+     <mi>a</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm49">
+   <mrow>
+    <msup>
+     <mi>b</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> are small, and the integral domain of Equation (9) is a small area around the origin, we obtain that: 
+ <disp-formula id="FD14-nanomaterials-09-00978">
+  <label>(12)</label>
+  <math id="mm50">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>≃</mo>
+     <msup>
+      <mi>a</mi>
+      <mo>′</mo>
+     </msup>
+     <msup>
+      <mi>b</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

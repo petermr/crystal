@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For calculations of FEZ and FEA, the system was optimized firstly with the bottom layer of the Ag substrate fixed, and then, the adhered Si atom (and one of the Si atoms denoted by a square in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f007">Figure 7</xref>a,b in the center of the silicene) was moved along the X, Y, and Z direction step by step with an interval of 0.1 Å to produce 
+ <inline-formula>
+  <math id="mm125">
+   <mrow>
+    <msup>
+     <mi>U</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> for calculating the effective length 
+ <inline-formula>
+  <math id="mm126">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>l</mi>
+      <mi>x</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm127">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>l</mi>
+      <mi>y</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm128">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>l</mi>
+      <mi>z</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (or the 
+ <inline-formula>
+  <math id="mm129">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>x</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm130">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>y</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm131">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>z</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) via Equation (9), and finally, the configurational integral was obtained by: 
+ <disp-formula id="FD23-nanomaterials-09-00978">
+  <label>(21)</label>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>l</mi>
+        <mi>x</mi>
+       </msub>
+       <msub>
+        <mi>l</mi>
+        <mi>y</mi>
+       </msub>
+       <msub>
+        <mi>l</mi>
+        <mi>z</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>L</mi>
+        <mi>x</mi>
+       </msub>
+       <msub>
+        <mi>L</mi>
+        <mi>y</mi>
+       </msub>
+       <msub>
+        <mi>L</mi>
+        <mi>z</mi>
+       </msub>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 35, the number of Si atoms except for the adhered Si atom.
+</p>

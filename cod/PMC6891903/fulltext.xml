@@ -1,0 +1,793 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2198-3844</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6891903</article-id><article-id pub-id-type="doi">10.1002/advs.201901980</article-id><article-id pub-id-type="publisher-id">ADVS1381</article-id><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Papers</subject></subj-group></article-categories><title-group><article-title>Low Detection Limit and High Sensitivity Wind Speed Sensor Based on Triboelectrification&#x02010;Induced Electroluminescence</article-title></title-group><contrib-group><contrib id="advs1381-cr-0001" contrib-type="author" corresp="yes"><name><surname>Su</surname><given-names>Li</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3187-1824</contrib-id><xref ref-type="aff" rid="advs1381-aff-0001">
+<sup>1</sup>
+</xref><address><email>suli@hbu.edu.cn</email></address></contrib><contrib id="advs1381-cr-0002" contrib-type="author"><name><surname>Wang</surname><given-names>Hailu</given-names></name><xref ref-type="aff" rid="advs1381-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs1381-cr-0003" contrib-type="author"><name><surname>Tian</surname><given-names>Zhen</given-names></name><xref ref-type="aff" rid="advs1381-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="advs1381-cr-0004" contrib-type="author"><name><surname>Wang</surname><given-names>Haojie</given-names></name><xref ref-type="aff" rid="advs1381-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="advs1381-cr-0005" contrib-type="author"><name><surname>Cheng</surname><given-names>Qian</given-names></name><xref ref-type="aff" rid="advs1381-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="advs1381-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs1381-cr-0006" contrib-type="author" corresp="yes"><name><surname>Yu</surname><given-names>Wei</given-names></name><xref ref-type="aff" rid="advs1381-aff-0001">
+<sup>1</sup>
+</xref><address><email>yuwei@hbu.edu.cn</email></address></contrib></contrib-group><aff id="advs1381-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Hebei Key Laboratory of Optic&#x02010;electronic Information and Materials</named-content>
+<named-content content-type="organisation-division">National&#x02010;Local Joint Engineering Laboratory of New Energy Photoelectric Devices</named-content>
+<named-content content-type="organisation-division">College of Physics Science and Technology</named-content>
+<institution>Hebei University</institution>
+<city>Baoding City</city>
+<postal-code>071002</postal-code>
+<named-content content-type="country-part">Hebei Province</named-content>
+<country country="CN">China</country>
+</aff><aff id="advs1381-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">CAS Center for Excellence in Nanoscience</named-content>
+<named-content content-type="organisation-division">Beijing Key Laboratory of Micro&#x02010;Nano Energy and Sensor</named-content>
+<named-content content-type="organisation-division">Beijing Institute of Nanoenergy and Nanosystems</named-content>
+<institution>Chinese Academy of Sciences</institution>
+<city>Beijing</city>
+<postal-code>100083</postal-code>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>E&#x02010;mail: <email>suli@hbu.edu.cn</email>, <email>yuwei@hbu.edu.cn</email></corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>9</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2019</year></pub-date><volume>6</volume><issue>23</issue><issue-id pub-id-type="doi">10.1002/advs.v6.23</issue-id><elocation-id>1901980</elocation-id><history><date date-type="received"><day>30</day><month>7</month><year>2019</year></date><date date-type="rev-recd"><day>06</day><month>9</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 WILEY&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by WILEY&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA, Weinheim</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ADVS-6-1901980.pdf"/><abstract><title>Abstract</title><p>The rapid development of the Internet of Things (IoT) has tremendously increased the demands for wind speed sensors in various applications, such as weather forecasting and environmental monitoring. To date, many wind speed sensors are developed based on triboelectric nanogenerators (TENGs). However, the low output current leads to a poor sensing precision, which greatly limits their practical applications. Here, a wind speed sensor is proposed by integrating a wind&#x02010;driven triboelectrification&#x02010;induced electroluminescence (TIEL) component with a perovskite&#x02010;based photodetector (PD) for enlarged electric current output. Compared with mechanoluminescence (ML), TIEL displays significantly higher signal intensity even under gentle breezes. In addition, the emission peak of TIEL matches with the absorption band of perovskite materials. Thus, TIEL materials are promising candidates for generating distinct electrical signals in real&#x02010;time to facilitate the detection of wind speed. With a comparable detection limit (5 m s<sup>&#x02212;1</sup>) to a conventional TENG&#x02010;based wind speed sensor, the sensitivity of this hybrid sensor is three magnitudes higher at low bias voltages and, the response time is extremely short (&#x0003c;0.3 s). Moreover, it shows a favorable correlation with a commercial sensor. This research provides important progress toward environmentally&#x02010;friendly light sources and TIEL&#x02010;related sensor systems.</p></abstract><abstract id="advs1381-abs-0001" abstract-type="graphical"><p>A type of wind speed sensor system is designed and fabricated for wind speed detection by integrating a wind&#x02010;driven triboelectrification&#x02010;induced electroluminescence (TIEL) component with a perovskite&#x02010;based photodetector (PD). This research not only provides essential progress toward an environmentally friendly light source but also demonstrates a practical application of TIEL&#x02010;related sensor systems.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ADVS-6-1901980-g007.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs1381-kwd-0001">high sensitivity</kwd><kwd id="advs1381-kwd-0002">low detection limits</kwd><kwd id="advs1381-kwd-0003">triboelectrification&#x02010;induced electroluminescence</kwd><kwd id="advs1381-kwd-0004">wind speed sensors</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Natural Science Foundation for Young Scientists of China</funding-source><award-id>61804042</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Natural Science Foundation of Hebei Province </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100003787</institution-id></institution-wrap></funding-source><award-id>F2018201058</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="9"/><word-count count="6282"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 4, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.2 mode:remove_FC converted:04.12.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="advs1381-cit-0033">
+<string-name>
+<given-names>L.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Q.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Yu</surname>
+</string-name>, <article-title>Low Detection Limit and High Sensitivity Wind Speed Sensor Based on Triboelectrification&#x02010;Induced Electroluminescence</article-title>. <source xml:lang="en">Adv. Sci.</source>
+<year>2019</year>, <volume>6</volume>, <elocation-id>1901980</elocation-id>
+<pub-id pub-id-type="doi">10.1002/advs.201901980</pub-id>
+</mixed-citation>
+</p></notes></front><body id="advs1381-body-0001"><sec id="advs1381-sec-0010"><label>1</label><title>Introduction</title><p>With the rapid development of the Internet of Things (IoT), there is an increasing number of decentralized sensors that are widely applied in daily activities and industrial productions.<xref rid="advs1381-bib-0001" ref-type="ref">1</xref>, <xref rid="advs1381-bib-0002" ref-type="ref">2</xref>, <xref rid="advs1381-bib-0003" ref-type="ref">3</xref>, <xref rid="advs1381-bib-0004" ref-type="ref">4</xref>, <xref rid="advs1381-bib-0005" ref-type="ref">5</xref> Among these applications, wind speed sensor plays an essential role in environmental sensing, such as weather forecast and environment monitoring.<xref rid="advs1381-bib-0006" ref-type="ref">6</xref>, <xref rid="advs1381-bib-0007" ref-type="ref">7</xref>, <xref rid="advs1381-bib-0008" ref-type="ref">8</xref> A number of sensors have been developed based on triboelectric nanogenerators (TENGs), which is known for the portability, facile fabrication, and low cost. These TENG&#x02010;based sensors have been considered as one of the most effective mechanical energy conversion technologies as they enable the generation of high open&#x02010;circuit voltage at a low frequency.<xref rid="advs1381-bib-0009" ref-type="ref">9</xref>, <xref rid="advs1381-bib-0010" ref-type="ref">10</xref>, <xref rid="advs1381-bib-0011" ref-type="ref">11</xref> Particularly, TENG&#x02010;based wind speed sensors have been tremendously developed by varying sensing principles, including the wind&#x02010;induced rotation,<xref rid="advs1381-bib-0012" ref-type="ref">12</xref> vertical contact&#x02010;separation motions,<xref rid="advs1381-bib-0013" ref-type="ref">13</xref> and fluttering behavior.<xref rid="advs1381-bib-0014" ref-type="ref">14</xref> Y. Yang et al.<xref rid="advs1381-bib-0015" ref-type="ref">15</xref> reported a TENG&#x02010;based wind speed sensing system, which displays a sensitivity of 0.09 &#x000b5;A/(m/s) and a detection limit 6 m s<sup>&#x02212;1</sup> by utilizing the wind&#x02010;induced vibration. Based on an anemometer TENG and a wind vane TENG, J. Y. Wang et al.<xref rid="advs1381-bib-0016" ref-type="ref">16</xref> presented a wind sensor with a sensing range from 2.7 to 8.0 m s<sup>&#x02212;1</sup>, which generates an output short&#x02010;circuit current of 6.3 &#x000b5;A at wind speed of 6 m s<sup>&#x02212;1</sup>. In another work, P. H. Wang et al.<xref rid="advs1381-bib-0017" ref-type="ref">17</xref> demonstrated a triboelectric&#x02010;electromagnetic hybrid wind speed sensor with a maximal loading current of 6 &#x000b5;A and a lower detection limit of 3.5 m s<sup>&#x02212;1</sup>. However, the applications of these traditional TENG&#x02010;based wind speed sensors are limited by the extremely low output current at the level of &#x000b5;A. Therefore, strategies for enhancing the output current are in great demand when designing an efficient wind speed sensor.</p><p>In this context, we propose a novel wind speed sensor based on a wind&#x02010;driven luminescence device and a photodetector (PD), so as to utilize the high output current of the PD. Mechanoluminescence (ML) is the emission of luminescence that is activated by mechanical stress. Due to the low critical wind speed and large amplitude, ML has been induced by wind&#x02010;induced flutter vibration on the elastic ZnS:Cu+PDMS (polydimethylsiloxane).<xref rid="advs1381-bib-0018" ref-type="ref">18</xref>, <xref rid="advs1381-bib-0019" ref-type="ref">19</xref> However, the application of ML in wind speed sensor is limited by the requirement for high excitation stress, which is at the scale of MPa. S. M. Jeong et al.<xref rid="advs1381-bib-0020" ref-type="ref">20</xref> reported that the bright white wind&#x02010;driven ML could only be observed at speeds higher than 30 m s<sup>&#x02212;1</sup>, which is at the level of a hurricane or typhoon.</p><p>Triboelectrification&#x02010;induced electroluminescence (TIEL) has been considered as a novel luminescent which is capable to convert the dynamic motions to luminescent signals by extremely gentle mechanical interactions. It relies on the coupling of triboelectrification and electroluminescence (EL). During the process, tribocharges are generated through the dynamic interactions between two different materials, which further alter the surrounding electric potential (up to hundreds of volts) within milliseconds. This dramatic variation in electric potential excites the EL of the embedded phosphors. TIEL displays significant advantages over ML, such as the low&#x02010;stress threshold value, high&#x02010;stress responsivity, and the nondestructive property.<xref rid="advs1381-bib-0021" ref-type="ref">21</xref>, <xref rid="advs1381-bib-0022" ref-type="ref">22</xref>, <xref rid="advs1381-bib-0023" ref-type="ref">23</xref> Driven by these advantages, the fabrication of TIEL device has been extensively studied, mainly through metal ion&#x02013;doped (Cu<sup>+</sup>, Mn<sup>2+</sup>, and others) ZnS particles combing with PDMS elastomeric matrix. By now, TIEL device has been widely applied in real&#x02010;time sensing, anticounterfeiting, self&#x02010;powered illumination, and human/machine interactive display.<xref rid="advs1381-bib-0024" ref-type="ref">24</xref>, <xref rid="advs1381-bib-0025" ref-type="ref">25</xref>, <xref rid="advs1381-bib-0026" ref-type="ref">26</xref>, <xref rid="advs1381-bib-0027" ref-type="ref">27</xref>
+</p><p>Considering the stress responsivity of TIEL is nearly three orders higher than ML in the low&#x02010;stress region,<xref rid="advs1381-bib-0026" ref-type="ref">26</xref> the wind&#x02010;driven TIEL in elastic ZnS:Cu+PDMS should display a significantly improved luminescent property than ML. In addition, wind&#x02010;driven TIEL can be integrated with a PD to generate real&#x02010;time electrical signals for wind speed detection with an enhanced output current than TENG&#x02010;based sensor. Therefore, the proposed hybrid wind speed sensor would not only present a lower detection limit but also present significantly higher output current.</p><p>Herein, an effective and robust wind speed sensor based on the wind&#x02010;driven TIEL is demonstrated for the first time. First, a multilayered material was constructed with a luminescent layer (ZnS:Cu+PDMS) and two electrification layers (TPU, thermoplastic polyurethane). Under the wind&#x02010;induced flutter vibration, the layers repeatedly contacted and separated with each other. Second, the tribocharges caused by the mechanical movement of the layers could generate alternating electric potential, which excited the EL of underlying phosphors in the luminescent layer. In this step, wind energy was converted into TIEL. Next, wind&#x02010;driven TIEL was integrated with a perovskite&#x02010;based PD to enable the conversion of varying TIEL intensities into real&#x02010;time electric signals under adjustable wind speed. This novel wind speed sensor exhibited a low detection limit (5 m s<sup>&#x02212;1</sup>), an excellent responsivity of 1.72 mA/(m/s) at 1.5 V bias voltage, as well as a rapid response time (&#x0003c;0.3 s). It is also worth noting that, the sensing performance of the sensor present in this work is comparable with a commercial sensor as it is capable to detect wind speed from 5 to 14 m s<sup>&#x02212;1</sup>. This work presents a key step toward practical application of new environmental&#x02010;friendly light source and the TIEL&#x02010;related sensor systems.</p></sec><sec id="advs1381-sec-0020"><label>2</label><title>Results and Discussion</title><p>The schematic structure of the TIEL material is shown in <bold>Figure</bold>
+<xref rid="advs1381-fig-0001" ref-type="fig">
+<bold>1</bold>
+</xref>a. The multilayered material is partially sliced and composed of a luminescent layer prepared with PDMS, ZnS:Cu phosphor particles and two TPU electrification layers. The fabrication procedure is illustrated in the Experimental Section. A piece of the as&#x02010;fabricated bent ZnS:Cu+PDMS film is shown in Figure <xref rid="advs1381-fig-0001" ref-type="fig">1</xref>b. Figure <xref rid="advs1381-fig-0001" ref-type="fig">1</xref>c,d displays the surface and cross&#x02010;sectional views of the luminescent layer recorded by a scanning electron microscope (SEM). The result suggests that the ZnS:Cu phosphor particles homogeneously dispersed in the PDMS substrate with an estimated average diameter of 20 &#x000b5;m. The energy dispersive spectroscopy (EDS) was conducted to analyze the elemental compositions of particles within the defined regions as shown in Figure <xref rid="advs1381-fig-0001" ref-type="fig">1</xref>d. The results (displayed in the inset) reveal the characteristic peaks of ZnS:Cu. Figure <xref rid="advs1381-fig-0001" ref-type="fig">1</xref>e displays the X&#x02010;ray diffraction (XRD) pattern of the ZnS:Cu powders. It is clear that three major peaks at 28.82&#x000b0;, 48.31&#x000b0;, and 56.0&#x000b0; are detected, indicating the (111), (220), and (311) lattice planes of the zinc&#x02010;blended structure, respectively. The wind&#x02010;driven TIEL spectrum of the composite material was detected at the light&#x02010;emitting section by a spectrometer. The coordinates corresponding to Commission Internationale de L'Eclairage (CIE) are displayed in Figure <xref rid="advs1381-fig-0001" ref-type="fig">1</xref>f. The result shows that a green emission is detected at 510 nm, corresponding to the CIE coordinates (0.22, 0.49). Based on the energy level diagram shown (Figure S1, Supporting Information), electrons in the shallow electron trap states of ZnS: Cu would fall into the states of Cu impurity, which emits a green luminescence through recombination under the mechanical activation.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Structure of the TIEL composite material. a) Schematic of the layer&#x02010;by&#x02010;layer composite material. b) Photograph of a bent luminescence layer (ZnS:Cu+PDMS). c) Surface and d) cross&#x02010;sectional SEM images of the luminescent layer displaying the ZnS:Cu particles embedded in a PDMS matrix. Inset: EDS of the phosphor. e) XRD pattern of the phosphors. f) The wind&#x02010;driven TIEL spectrum obtained from the composite material. Inset: CIE coordinates (<italic>x</italic>, <italic>y</italic>) corresponding to the TIEL spectrum.</p></caption><graphic id="nlm-graphic-3" xlink:href="ADVS-6-1901980-g001"/></fig><p>The fabrication of the wind speed sensor is illustrated in <bold>Figure</bold>
+<xref rid="advs1381-fig-0002" ref-type="fig">
+<bold>2</bold>
+</xref>. First, the composite materials were sequentially stacked layer by layer on a glass substrate (5 &#x000d7; 10 cm<sup>2</sup>). The ZnS:Cu+PDMS and TPU film respectively serve as the luminescent layer and the electrification layer, respectively (Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>a). Second, the film was sliced into two parts, where the ratio of sliced to unsliced is 4:1 along the width direction (Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>b). The sliced section was cut into strips with a width of 3 mm to increase the contact area (Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>c, the photograph is shown in Figure S2, Supporting Information). The wind speed sensor is composed of four major parts as shown in Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>d and was fabricated by the process described in the Experimental Section. A cylinder was used to support the whole device, which not only enclosed the entire structure within a confined channel to conduct the wind but also concentrated the TIEL. A hollow ring with four cross&#x02010;shaped ridges was used to adhere to the TIEL materials, which were then inserted into the four grooves of the cylinder. The as&#x02010;prepared film was rolled and fixed into the uncut part (upstream side). The rest of the sliced part was isolated from layers and maintained flexible at the downstream, which was followed by a perovskite&#x02010;based PD and a round base. Two lead wires were connected to the PD for electrical measurement. Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>f,g respectively shows the front and side views of a typical as&#x02010;fabricated wind speed sensor. Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>h shows the wind speed sensor with a size of 3 &#x000d7; 5 &#x000d7; 3 cm<sup>3</sup> without TIEL material, which was fabricated by 3D printing techniques.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Schematic of the fabrication process of the wind speed sensor. a) The dimension of the TIEL material is 5 &#x000d7; 10 cm<sup>2</sup>. b) The TIEL material is cut into slices with a cut to uncut ratio of 4:1. c) The width of the sliced TIEL material is 3 mm. d) The wind speed sensor consists of four components: 1) a cylinder with four grooves; 2) a hollow ring with four cross&#x02010;shaped ridges for adhesion with the TIEL material; 3) a perovskite&#x02010;based PD; 4) a round base. e) The front view and f) side view of the wind speed sensor. g) Photograph of the wind speed sensor without the TIEL material.</p></caption><graphic id="nlm-graphic-5" xlink:href="ADVS-6-1901980-g002"/></fig><p>As shown in <bold>Figure</bold>
+<xref rid="advs1381-fig-0003" ref-type="fig">
+<bold>3</bold>
+</xref>, the working principle of the wind&#x02010;driven TIEL involves the coupling of contact electrification and EL. Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>a illustrates the process of electricity generation via the TIEL material in a working cycle, including four typical states. For the simplification of demonstration, the ZnS:Cu+PDMS film can be regarded as a flat surface with a vertical motion, while the TPU films are relatively static. At the original position I, the difference between the triboelectric polarizations of PDMS and TPU leads to the generation of opposite charges on their surfaces when the two TPU films and the ZnS:Cu+PDMS film fully contact with each other, followed by the balance of the charges. Under the vibration effect caused by wind flutter, the ZnS:Cu+PDMS film bends up and down, which dynamically changes the electric potential. The potential reaches the maximum value at the largest displacement point (states II and IV) and rapidly drops back to the minimum value in the balance position (states I and III). Thus, a series of voltages can be generated on the surface of the ZnS:Cu+PDMS film which excites TIEL. The oscillatory behaviors of the ZnS:Cu+PDMS film at wind speed of 10 m s<sup>&#x02212;1</sup> were captured by a high&#x02010;speed camera as shown in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>b (the overall procedure refers to Movie S1, Supporting Information). The frequency of the oscillation is examined to be 16 Hz without adhesion in the oscillation, suggesting that ZnS:Cu+PDMS film displays excellent mechanical behavior. ANSYS software was used to simulate the natural frequencies and modes of the first four order vibration modes. As shown in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>c, the first&#x02010;order mode bends at the frequency of 51, which is consistent with the actual vibrations of the ZnS:Cu+PDMS film. To examine the effect of wind flutter vibration, we qualitatively predicted the interaction between wind and the ZnS:Cu+PDMS film under the first&#x02010;order mode by COMSOL software. In the simulation, the inlet wind speed was set as 5, 10, and 15 m s<sup>&#x02212;1</sup>, respectively, with zero pressure at the outlet. The density <italic>F</italic> and the dynamic viscosity &#x003b7; of the airflow were set as 1.225 kg m<sup>&#x02212;3</sup> and 1.983 &#x000d7; 10<sup>5</sup> Pa, respectively. The density <italic>F</italic> of the ZnS:Cu+PDMS film was set at 1420 kg m<sup>&#x02212;3</sup> with Young's modulus <italic>E</italic> of 2 M Pa and a Poisson's ratio &#x003bd; of 0.49.<xref rid="advs1381-bib-0028" ref-type="ref">28</xref> The model was composed of two parts, including a fluid part (incompressible flow and Newtonian) computed by the Navier&#x02013;Stokes equations in the flow channel and a solid mechanical part (compressible and elastic). Moreover, an elastic formulation and a linear geometry formulation were used to solve the deformation of the ZnS:Cu film to allow for large deformation. In the solid mechanical part, one edge of the film was set in the middle of the fluid channel wall, which is vertical to the fluid flow streamline. The flowing fluid is borne by all the boundaries of the belt structure. Meanwhile, there was no pressure at the outlet and the rest four surfaces of the fluid channel were set as nonslip, indicating that the surfaces work as walls to restrain the flow. As shown in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>d, the deformation of the ZnS:Cu+PDMS film was simulated under three wind speeds at the inlet, which suggests that the film functions majorly in a bent mode. Consistent with other reports,<xref rid="advs1381-bib-0029" ref-type="ref">29</xref> the degrees of film deformation are similar to each other as the wind speed increases over 10 m s<sup>&#x02212;1</sup>, indicating that the ZnS:Cu+PDMS film is stable when wind speed at the inlet reaches a certain value. In addition, under different wind speeds, various deformations result in the changes of electric potentials by wind&#x02010;induced vibration effect. COMSOL was then utilized to simulate the distributions of electric potential of the two TPU films and the ZnS:Cu+PDMS film at the wind speed of 0, 5, 10, and 15 m s<sup>&#x02212;1</sup>, respectively, without external electron flow (an ideal condition). In the process of triboelectrification, TPU is positively charged while PDMS is negatively charged. In order to validate the proposed simulation, the charge density &#x003c3; on the surface of TPU was set at 100 &#x000b5;C m<sup>&#x02212;2</sup>, which was measured by an electrostatic voltmeter (model 279, Monroe Electrostatics). The lateral distribution of electric potential is illustrated in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>e. The electric potential and electric field within the luminescent layer are respectively depicted in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>f,g. These results indicate that the electric potential and electric field of ZnS:Cu+PDMS film increase with the displacement, followed by the tendency to maintain stable, which is consistent with the actual deformations as shown in Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>d. These results suggest that the displacement determines the effective contact area between the TPU and ZnS:Cu+PDMS surfaces. Meanwhile, the distributions of electric potential between the TPU films and ZnS:Cu+PDMS film are also simulated within a full contact&#x02010;separation cycle in the four states at wind speed of 10 m s<sup>&#x02212;1</sup> (Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>h). Figure <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>i shows the recorded potentials with dashed lines indicating the potential difference of repeat changes. It is noteworthy that the potential reaches the maximum value when the displacement reaches the upper limit, while the potential drops to the minimum value at the balance position. Consequently, this ac&#x02010;like dynamic variation (&#x00394;<italic>V</italic> = 567 V) excites the luminescence of the phosphors, which further induces the wind&#x02010;driven TIEL.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Emission mechanism of the wind&#x02010;driven TIEL. a) Schematic diagrams displaying the generation of electricity by the TIEL material resulted from the wind flutter vibration. b) Serial photos showing four vibration states of an oscillating ZnS:Cu film. c) Variant vibration modes of the ZnS:Cu film simulated by ANSYS. d) COMSOL simulation of displacement distribution of the ZnS:Cu film at wind speeds of 5, 10, and 15 m s<sup>&#x02212;1</sup>. e) Lateral electric potential distribution simulated by COMSOL at wind speeds of 0, 5, 10, and 15 m s<sup>&#x02212;1</sup>. f) Corresponding electrical potential distribution and g) electric field on the ZnS:Cu film along the dashed line defined in inset (f) at wind speeds of 0, 5, 10, and 15 m s<sup>&#x02212;1</sup>. h) Lateral electric potential distribution in an intact contact&#x02010;separation cycle under four states at a wind speed of 10 m s<sup>&#x02212;1</sup>. i) Corresponding electric potential distribution along the dashed lines defined in the inset that shows the electric potential difference.</p></caption><graphic id="nlm-graphic-7" xlink:href="ADVS-6-1901980-g003"/></fig><p>The luminescent properties of the wind&#x02010;driven TIEL (Movie S2, Supporting Information) are studied in <bold>Figure</bold>
+<xref rid="advs1381-fig-0004" ref-type="fig">
+<bold>4</bold>
+</xref>. The compressed air is used to generate the wind with an adjustable speed by a pressure regulator in order to simulate natural wind. First, material chosen of the electrification layer is a primary factor, which is fabricated by different polymer films, including fluorinated ethylene propylene (FEP), polytetrafluoroethylene (PTFE), polyethylene glycol terephthalate (PET), Nylon, and TPU. As shown in Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>a, the TPU sample has the highest luminescence intensity, followed by the Nylon&#x02010;based sample, which can be attributed to different electric polarities of these materials.<xref rid="advs1381-bib-0030" ref-type="ref">30</xref> The triboelectric polarity of FEP is similar to that of the PDMS&#x02010;based material, resulting in the weakest luminescence. The Scanning Kelvin probe microscope (SKPM) has been employed to characterize the surface charge density of the luminescence layer after rubbing with these materials (Figure S3, Supporting Information). The instantaneously increment of the surface charge density is in good agreement with the experimental results (Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>a). Thus, in this case, the TPU is selected as the electrification layer because of its positive electricity and excellent mechanical stability. The TIEL mechanism is further proposed by the dependence of above materials on the luminescence intensity, and other mechanism is excluded, such as ML. Second, the impact on the film thickness is discussed in Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>b. It is found that if the phosphor layer is excessively thick, the light emission would be blocked, resulting in the decrease of light intensity. The strongest luminescence intensity is obtained with an optimal thickness of 600 &#x000b5;m. Third, durability test was also conducted in Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>c. After exposure for 5 h, the intensity of the TIEL basically remains the same, which shows the excellent stability and repeatability of TIEL. Fourthly, the length&#x02013;width ratio of the material in the slicing process (Figure <xref rid="advs1381-fig-0002" ref-type="fig">2</xref>b) is also an important factor to determine the TIEL intensity. On the one hand, if the length&#x02013;width ratio of the material is too small, the contact areas of strips between the layers are small. On the other hand, a larger length&#x02013;width ratio would make the system in a complex vibration state and induce the adhesion of the system, thus resulting in a lower TIEL intensity. In this case, the width of the phosphor layer is 3 mm, and the optimal length of the material is 5 cm, which leads to the strongest TIEL intensity (Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>d). Furthermore, the photographs of the wind&#x02010;driven TIEL under different wind speed (5&#x02013;14 m s<sup>&#x02212;1</sup>) are displayed in Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>e, which are taken along the direction vertical to cylinder bottom and the luminescence intensity mapping is obtained after image processing by MatLab (Figure S4, Supporting Information). The corresponding TIEL spectra show that the luminescence intensity increases with wind speed increasing, whereas the positions of the emission peaks are almost unchanged (Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>f). In addition, materials without the electrification layers (TPU) are prepared under the same condition to study the effect of ML. By comparison, it is found that the lowest excitation wind speed of ML is 15 m s<sup>&#x02212;1</sup> (Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>g), which is much higher than that of the TIEL (1 m s<sup>&#x02212;1</sup>) (Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>h). This indicates that the ML could be only obtained under a moderate wind, but the TIEL could be successfully obtained under a light wind. Specific values of TIEL and ML under different wind speed are shown in Figure <xref rid="advs1381-fig-0004" ref-type="fig">4</xref>i, and a three&#x02010;section behavior of the luminescence intensity can be observed (top curve). According to previous reports,<xref rid="advs1381-bib-0024" ref-type="ref">24</xref> the amplitude and the frequency of the electric potential variation play key roles in the TIEL intensity. In section I, under a low wind speed, the effect of contact electrification plays a decisive role, leading to the enlargement of the electric potential amplitude and the increment of TIEL intensity. In section II, TIEL intensity increasing slows down due to the saturation of the tribocharge density. In this part, the amplitude no longer increases with the increase of wind speed, TIEL intensity is only related to the frequency. In section III, TIEL intensity further increases, which is attributed to the superposition of TIEL and ML. The ML of the phosphors appears as the wind speed exceeds 15 m s<sup>&#x02212;1</sup> (bottom curve), which is consistent with previous reports on the threshold stress of ZnS&#x02010;based materials.<xref rid="advs1381-bib-0022" ref-type="ref">22</xref> Nevertheless, although TIEL can be emitted at a speed of 1 m s<sup>&#x02212;1</sup>, only efficient TIEL excited with a speed more than 5 m s<sup>&#x02212;1</sup> can be effectively converted into electrical signals by the perovskite&#x02010;based PD. The research orientation is to further improve the TIEL intensity and obtain the stronger luminescence at a lower wind speed.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Experimental measurement results of the wind&#x02010;driven TIEL. Dependence of wavelength spectra on a) the materials of the electrification layer, b) thickness of the luminescent layer, c) wind blowing time, and d) length&#x02013;width ratio of the material at a wind speed of 10 m s<sup>&#x02212;1</sup>. e) Wind&#x02010;driven TIEL photographs vertically taken from the bottom of the device under the tunable wind speed from 5 to 14 m s<sup>&#x02212;1</sup>. f) Corresponding TIEL intensity under the tunable wind speed from 5 to 14m s<sup>&#x02212;1</sup>. g) ML and h) TIEL intensity at different wind speeds from 1 to 21 m s<sup>&#x02212;1</sup>. i) Corresponding intensity of ML and TIEL in distinct regions.</p></caption><graphic id="nlm-graphic-9" xlink:href="ADVS-6-1901980-g004"/></fig><p>Apart from the TIEL intensity, the performance of perovskite&#x02010;based PD is also critical to the wind speed sensor. <bold>Figure</bold>
+<xref rid="advs1381-fig-0005" ref-type="fig">
+<bold>5</bold>
+</xref>a shows that the solution&#x02010;processed MAPbI<sub>3</sub> perovskite thin film that was used in the PD as the light&#x02010;absorbing material. The fabrication procedure is illustrated in the Experimental Section. Figure <xref rid="advs1381-fig-0005" ref-type="fig">5</xref>b,c respectively displays the surface and cross&#x02010;sectional images taken by SEM. It is shown that the TiO<sub>2</sub> layer (300 nm in thickness) on the TiO<sub>2</sub> hole blocking layer (25 nm in thickness) is filled with crystalline MAPbI<sub>3</sub> and covered by a layer of MAPbI<sub>3</sub> nanoparticles with a diameter of 200 nm. The average surface of roughness is 28 nm, which is determined by the atomic force microscopy (AFM) measurement (Figure S5a, Supporting Information). The XRD pattern is according with those reported in the previous tetragonal perovskite structure (Figure S5b, Supporting Information).<xref rid="advs1381-bib-0031" ref-type="ref">31</xref> From the UV&#x02013;vis absorption spectrum in Figure <xref rid="advs1381-fig-0005" ref-type="fig">5</xref>d, the absorption edge of the MAPbI<sub>3</sub>&#x02010;TiO<sub>2</sub> composite film (Curve I) is at 760 nm, which also agrees with previous reports.<xref rid="advs1381-bib-0032" ref-type="ref">32</xref> Compared with the compact TiO<sub>2</sub> (Curve II), there is a broad range for the absorption of the MAPbI<sub>3</sub>&#x02010;TiO<sub>2</sub> composite film. Furthermore, as shown in Figure <xref rid="advs1381-fig-0005" ref-type="fig">5</xref>e, the absorption band of the perovskite material largely overlaps with the emission band of ZnS:Cu, indicating that the PD is able to absorb the TIEL and convert it into electric signals and enable the detection of the wind speed. Lastly, conductive atomic force microscopy (CAFM) in a contact mode is employed to illustrate the photoresponse property of the perovskite&#x02010;based PD. Figure <xref rid="advs1381-fig-0005" ref-type="fig">5</xref>f shows the current distribution mapping under the illumination of 50 mW cm<sup>&#x02212;2</sup>. Clearly, the current through the illuminated sample is considerably higher than that in dark environment. The quantitative analysis in Figure <xref rid="advs1381-fig-0005" ref-type="fig">5</xref>g indicates that the excited sample with a bias voltage of 8 V shows a photocurrent of 813 pA, which is 2.5&#x02010;fold higher than it is in a dark environment (325 pA). Therefore, these results suggest that the perovskite&#x02010;based PD displays an excellent photoresponse property for rapid detections of various light signals.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Structure and characterization of the perovskite&#x02010;based PD. a) Structure of the device. Inset shows the 3D schematic of the crystal structure of MAPbI<sub>3</sub>. SEM images of b) surface and c) cross&#x02010;sectional view of the MAPbI<sub>3</sub>&#x02010;based film. d) Absorption spectra of the MAPbI<sub>3</sub>&#x02010;based composite film (Curve I) and the mesoporous TiO<sub>2</sub> film (Curve II). e) Absorption spectrum of MAPbI<sub>3</sub>&#x02010;based composite film and its overlapping wavelength with the wind&#x02010;driven TIEL emission. f) Current distribution mapping of the PD with bias voltages from &#x02212;4 to +8 V and increments of 4 V in a dark environment or upon illumination (power density of 50 mW cm<sup>&#x02212;2</sup>). g) Corresponding <italic>I&#x02013;V</italic> characteristics of the PD.</p></caption><graphic id="nlm-graphic-11" xlink:href="ADVS-6-1901980-g005"/></fig><p>In the last section of this paper, the sensing performance of the wind speed sensor is investigated by measuring the efficiency of converting wind energy into the electric signals. <bold>Figure</bold>
+<xref rid="advs1381-fig-0006" ref-type="fig">
+<bold>6</bold>
+</xref>a shows the <italic>I&#x02013;V</italic> output characteristics of the PD from 0 to 2.5 V under a range of wind speed from 5 to 14 m s<sup>&#x02212;1</sup>. As shown in Figure <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>b, the change of the current amplitude under four bias voltages (1.0, 1.5, 2.0, and 2.5 V) are plotted as a function of wind speeds and the average sensitivity values are determined to be 0.35, 1.72, 3.92, and 5.87 mA/(m/s), respectively, by the linear fitting. In terms of the signal intensity, it is three orders higher than the signals of recently reported TENGs&#x02010;based wind speed sensors. In addition, the response time, representing a significant parameter of a wind speed sensor, is quantitatively analyzed as shown Figure <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>c, which records the photocurrent of the wind speed sensor during repetitive switching of wind flow (14 m s<sup>&#x02212;1</sup>) within 0&#x02013;5 s. Here, the rise time and decay time are defined as the time spent for the initial current increases to 90% of the peak value, and vice versa. As shown in Figure <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>d,e, it is clear that both the rise time and decay time are both less than 0.3 s. Therefore, this highly stable and rapidly responsive device is promising to be utilized as a wind speed sensor, which is superior to TENGs. In addition, the sensing performance of the system was further characterized in a mimetic environment that simulates the flow of natural wind. The real&#x02010;time current was obtained from the electrical output of the perovskite&#x02010;based PD part as shown in Figure <xref rid="advs1381-fig-0006" ref-type="fig">6</xref>f. The wind speed was analyzed based on the correlation between the current and the wind speed at the inlet. In addition, a commercial hot&#x02010;wire anemometer was also tested for comparison. It is shown that the wind speed obtained by the current value agrees well with the result of hot&#x02010;wire anemometer, suggesting that the wind sensor system enable the instantaneous and stable detection of wind speed, which is expected to be applicable in the development of the IoT and climate monitoring.</p><fig fig-type="Figure" xml:lang="en" id="advs1381-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Performance of the wind speed sensor. a) <italic>I&#x02013;V</italic> characteristics of the wind speed sensor under tunable wind speed. b) Current dependence of the wind speed changes and the corresponding linear fitting curves. c) Changes of current upon repeated wind&#x02010;driven TIEL (14 m s<sup>&#x02212;1</sup>) with different bias voltages. d) Photocurrent increase and e) decrease of the wind speed sensor measured with a bias of 2 V at a wind speed of 14 m s<sup>&#x02212;1</sup>. f) Real&#x02010;time wind speed curves detected by a commercial wind speed sensor and a fabricated wind sensor system.</p></caption><graphic id="nlm-graphic-13" xlink:href="ADVS-6-1901980-g006"/></fig></sec><sec id="advs1381-sec-0030"><label>3</label><title>Conclusions</title><p>In summary, an effective and robust wind speed sensor is fabricated by integrating a wind&#x02010;driven TIEL component and a perovskite&#x02010;based PD for the first time. It shows a low detection limit (5 m s<sup>&#x02212;1</sup>), high output current (&#x02248;mA), and rapid response (&#x0003c;0.3 s). Moreover, the sensing performance of this device is significantly superior to the existing TENG&#x02010;based wind speed sensor and is also comparable with a commercial sensor. Therefore, this study presents a key step for the practical application of new environmental&#x02010;friendly light source and the sensor systems related to TIEL.</p></sec><sec id="advs1381-sec-0040"><label>4</label><title>Experimental Section</title><p>
+<italic>Fabrication of TIEL Material</italic>: The EL ZnS: Cu was purchased from Ke Yan Company. TPU film was purchased and had a thickness of 100 &#x000b5;m. Acrylic substrates with a size of 10 &#x000d7; 5 &#x000d7; 0.6 cm<sup>3</sup> were prepared by laser cutting. The ZnS:Cu particles were mixed with PDMS at a ratio of 1:5 to form a homogenized paste, which was then coated on the acrylic substrate. The coated substrate was dried at 80 &#x000b0;C for 3 h, after which the PDMS layer was peeled off from the substrate. Two identical layers of TPU were pasted on the front and back of the as&#x02010;prepared ZnS:Cu+PDMS film before being sliced.</p><p>
+<italic>Fabrication of the Wind Speed Sensor</italic>: The wind speed sensor was composed of four parts, including a cylinder, a hollow ring with four cross&#x02010;shaped ridges for adhesion, a perovskite&#x02010;based PD, and a round base. Except for the TIEL material, the other parts were all fabricated by 3D printing technology with resin material. The sizes of the cylinder, four cross&#x02010;shaped ridges, and the hollow ring were 5 &#x000d7; 3 &#x000d7; 0.2 cm<sup>3</sup>, 1 &#x000d7; 0.75 &#x000d7; 0.4 cm<sup>3</sup>, and 1 &#x000d7; 1.5 &#x000d7; 0.2 cm<sup>3</sup>, respectively. The inlet and outlet for the wind to flow through the device were 6.3 and 4.4 cm<sup>2</sup>, respectively. The area of perovskite&#x02010;based PD was 1.2 &#x000d7; 1.2 cm<sup>2</sup>, which was fixed onto the round base with four channels for wind convection.</p><p>
+<italic>Fabrication of Perovskite&#x02010;Based PD</italic>: The perovskite&#x02010;based PD was composed of SnO<sub>2</sub>:F (FTO) conductive glass, compact TiO<sub>2</sub>, mesoporous TiO<sub>2</sub>, MAPbI<sub>3</sub> light absorption layer, MAPbI<sub>3</sub> crystalline capping layer, hole transport layer (HTL), and gold electrode in sequence. First, FTO conductive glass was cleaned by detergent, followed by ultrasonic wave with acetone and ethanol. Then, a compact TiO<sub>2</sub> layer (25 nm in thickness) was coated onto the cleaned FTO substrate by 500 cycles of atomic layer deposition at a temperature of 200 &#x000b0;C (Picosun Sunaler&#x02010;100). TiCl<sub>4</sub> and N<sub>2</sub> were respectively utilized as the Ti source and purging gas. TiO<sub>2</sub> paste (Dyesol&#x02010;18NRT) was diluted by ethanol with a weight ratio of 2:7 and the mixture was spin&#x02010;coated onto the compact TiO<sub>2</sub> layer at 5500 rpm. The coated TiO<sub>2</sub> layer was sintered at 500 &#x000b0;C for 30 min during which a mesoporous TiO<sub>2</sub> layer was formed with a thickness of 300 nm. Pbl<sub>2</sub> in <italic>N</italic>,<italic>N</italic>&#x02010;dimethylformamide solution (462 mg mL<sup>&#x02212;1</sup>) was infiltrated into the mesoporous TiO<sub>2</sub> layer by spin coating at 6500 rpm, followed by drying at 70 &#x000b0;C. The dried TiO<sub>2</sub> layer was then dipped into an MAPbI<sub>3</sub> solution (9 mg mL<sup>&#x02212;1</sup> in 2&#x02010;propanol) for 30 s and sintered at 70 &#x000b0;C for 30 min. The concentration of the CH<sub>3</sub>NH<sub>3</sub>I in the solution was adjusted to control the crystal size of the MAPbI<sub>3</sub> capping layer. The HTL was deposited by spin&#x02010;coating at 3000 rpm for 30 s with Spiro&#x02010;OMeTAD solution. This solution was obtained by dissolving 73.5 mg Spiro&#x02010;OMeTAD powders in 1 mL chlorobenzene with 28.8 &#x000b5;L tBP and 17.5 &#x000b5;L Li&#x02010;TFSI in acetonitrile (520 mg L<sup>&#x02212;1</sup>). Lastly, the gold electrode layer was deposited by e&#x02010;beam evaporation.</p><p>
+<italic>Measurements</italic>: The crystal structure was characterized by XRD (x pert 3). All SEM and EDS images were recorded with the SU8020 camera. The absorption properties were analyzed by the UV&#x02013;vis&#x02013;NIR light source (Shimazu UV&#x02010;3600). Optical emission was recorded by a spectrometer and optical fibers arranged perpendicularly with collimating lenses (NOVA). All the electrical measurements were performed with the Keithley 2400 system electrometer. The surface morphology investigation, the SKPM, and CAFM measurements were carried out with the MFP&#x02010;3D AFM in an ambient environment (Park Systems NX&#x02010;10). The Ir&#x02010;based probe with Pt coating was obtained from Nanoworld (product no. EFM&#x02010;10).</p></sec><sec sec-type="COI-statement" id="advs1381-sec-0060"><title>Conflict of Interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ADVS-6-1901980-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ADVS-6-1901980-s001.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ADVS-6-1901980-s003.mp4"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="advs1381-sec-0050"><title>Acknowledgements</title><p>L.S. and H.L.W. contributed equally to this work. This work was supported by the Natural Science Foundation for Young Scientists of China (Grant No. 61804042) and the Natural Science Foundation of Hebei Province (Grant No. F2018201058).</p></ack><ref-list id="advs1381-bibl-0001"><ref id="advs1381-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="advs1381-cit-0001">
+<string-name>
+<given-names>P.</given-names>
+<surname>Kamalinejad</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Mahapatra</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Sheng</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Mirabbasi</surname>
+</string-name>, <string-name>
+<given-names>V. C. M.</given-names>
+<surname>Leung</surname>
+</string-name>, <string-name>
+<given-names>Y. L.</given-names>
+<surname>Guan</surname>
+</string-name>, <source xml:lang="en">IEEE Commun. Mag.</source>
+<year>2015</year>, <volume>53</volume>, <fpage>102</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs1381-cit-0002">
+<string-name>
+<given-names>J.</given-names>
+<surname>Gubbi</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Buyya</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Marusic</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Palaniswami</surname>
+</string-name>, <source xml:lang="en">Future Gener. Comput. Syst.</source>
+<year>2013</year>, <volume>29</volume>, <fpage>1645</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="advs1381-cit-0003">
+<string-name>
+<given-names>F.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Zhao</surname>
+</string-name>, <source xml:lang="en">IETE Tech. Rev.</source>
+<year>2017</year>, <volume>34</volume>, <fpage>122</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs1381-cit-0004">
+<string-name>
+<given-names>I.</given-names>
+<surname>Khan</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Belqasmi</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Glitho</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Crespi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Morrow</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Polakos</surname>
+</string-name>, <source xml:lang="en">IEEE Commun. Surv. Tutorials</source>
+<year>2016</year>, <volume>18</volume>, <fpage>553</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs1381-cit-0005">
+<string-name>
+<given-names>J.</given-names>
+<surname>Bayo&#x02010;Monton</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Martinez&#x02010;Millana</surname>
+</string-name>, <string-name>
+<given-names>W. S.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Fernandez&#x02010;Llatas</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Traver</surname>
+</string-name>, <source xml:lang="en">Sensors</source>
+<year>2018</year>, <volume>18</volume>, <fpage>1851</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="advs1381-cit-0006">
+<string-name>
+<given-names>K. S.</given-names>
+<surname>Shin</surname>
+</string-name>, <string-name>
+<given-names>D. S.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>S. W.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Jung</surname>
+</string-name>, <source xml:lang="en">Sensors</source>
+<year>2017</year>, <volume>17</volume>, <fpage>2152</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs1381-cit-0007">
+<string-name>
+<given-names>W. L.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>H. Y.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Xi</surname>
+</string-name>, <string-name>
+<given-names>C. S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Javed</surname>
+</string-name>, <string-name>
+<given-names>X. N.</given-names>
+<surname>Xia</surname>
+</string-name>, <string-name>
+<given-names>C. G.</given-names>
+<surname>Hu</surname>
+</string-name>, <source xml:lang="en">RSC Adv.</source>
+<year>2017</year>, <volume>7</volume>, <elocation-id>23208</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="advs1381-cit-0008">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Xi</surname>
+</string-name>, <string-name>
+<given-names>H. Y.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name>
+<given-names>Y. L.</given-names>
+<surname>Zi</surname>
+</string-name>, <string-name>
+<given-names>X. G.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>J. N.</given-names>
+<surname>Deng</surname>
+</string-name>, <string-name>
+<given-names>S. M.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>C. G.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Cao</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Adv. Energy Mater.</source>
+<year>2017</year>, <volume>7</volume>, <elocation-id>1602397</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs1381-cit-0009">
+<string-name>
+<given-names>S. H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Nano Energy</source>
+<year>2015</year>, <volume>11</volume>, <fpage>436</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs1381-cit-0010">
+<string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Lin</surname>
+</string-name>, <source xml:lang="en">Energy Environ. Sci.</source>
+<year>2015</year>, <volume>8</volume>, <fpage>2250</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs1381-cit-0011">
+<string-name>
+<given-names>R.</given-names>
+<surname>Hinchet</surname>
+</string-name>, <string-name>
+<given-names>H. J.</given-names>
+<surname>Yoon</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Ryu</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>E. K.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name>
+<given-names>D. S.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>S. W.</given-names>
+<surname>Kim</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2019</year>, <volume>365</volume>, <fpage>491</fpage>.<pub-id pub-id-type="pmid">31371614</pub-id></mixed-citation></ref><ref id="advs1381-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs1381-cit-0012">
+<string-name>
+<given-names>H.</given-names>
+<surname>Yong</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chung</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Choi</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Jung</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Cho</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Lee</surname>
+</string-name>, <source xml:lang="en">Sci. Rep.</source>
+<year>2016</year>, <volume>6</volume>, <elocation-id>33977</elocation-id>.<pub-id pub-id-type="pmid">27653976</pub-id></mixed-citation></ref><ref id="advs1381-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs1381-cit-0013">
+<string-name>
+<given-names>Y. J.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>G. Z.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>F. B.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>Q. P.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>H. F.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name>
+<given-names>X. S.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name>
+<given-names>Y. D.</given-names>
+<surname>Jiang</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>2016</year>, <volume>653</volume>, <fpage>96</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs1381-cit-0014">
+<string-name>
+<given-names>Y. J.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>G. Z.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>Z. B.</given-names>
+<surname>Ye</surname>
+</string-name>, <string-name>
+<given-names>Q. S.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Tai</surname>
+</string-name>, <string-name>
+<given-names>X. S.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name>
+<given-names>Y. D.</given-names>
+<surname>Jiang</surname>
+</string-name>, <source xml:lang="en">J. Phys. D: Appl. Phys.</source>
+<year>2016</year>, <volume>49</volume>, <elocation-id>215601</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="advs1381-cit-0015">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>X. D.</given-names>
+<surname>Zhong</surname>
+</string-name>, <string-name>
+<given-names>Z. H.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name>
+<given-names>Y. J.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Bai</surname>
+</string-name>, <string-name>
+<given-names>X. N.</given-names>
+<surname>Wen</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2013</year>, <volume>7</volume>, <fpage>9461</fpage>.<pub-id pub-id-type="pmid">24044652</pub-id></mixed-citation></ref><ref id="advs1381-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="advs1381-cit-0016">
+<string-name>
+<given-names>J. Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>W. B.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>C. S.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>L. J.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Liao</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2018</year>, <volume>12</volume>, <fpage>3954</fpage>.<pub-id pub-id-type="pmid">29595963</pub-id></mixed-citation></ref><ref id="advs1381-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="advs1381-cit-0017">
+<string-name>
+<given-names>P. H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>J. Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>M. Y.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name>
+<given-names>G. Z.</given-names>
+<surname>Dai</surname>
+</string-name>, <string-name>
+<given-names>H. Y.</given-names>
+<surname>Zou</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2018</year>, <volume>12</volume>, <fpage>9433</fpage>.<pub-id pub-id-type="pmid">30205007</pub-id></mixed-citation></ref><ref id="advs1381-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="advs1381-cit-0018">
+<string-name>
+<given-names>S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Lipson</surname>
+</string-name>, <source xml:lang="en">J. Appl. Phys.</source>
+<year>2011</year>, <volume>109</volume>, <elocation-id>026104</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="advs1381-cit-0019">
+<string-name>
+<given-names>D. K.</given-names>
+<surname>Patel</surname>
+</string-name>, <string-name>
+<given-names>B. E.</given-names>
+<surname>Cohen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Etgar</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Magdassi</surname>
+</string-name>, <source xml:lang="en">Mater. Horiz.</source>
+<year>2018</year>, <volume>5</volume>, <fpage>708</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="advs1381-cit-0020">
+<string-name>
+<given-names>S. M.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Joo</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>S. H.</given-names>
+<surname>Hwang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Kim</surname>
+</string-name>, <source xml:lang="en">Energy Environ. Sci.</source>
+<year>2014</year>, <volume>7</volume>, <fpage>3338</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="advs1381-cit-0021">
+<string-name>
+<given-names>S. M.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>K.&#x02010;I.</given-names>
+<surname>Joo</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Takezoe</surname>
+</string-name>, <source xml:lang="en">Adv. Funct. Mater.</source>
+<year>2016</year>, <volume>26</volume>, <fpage>4848</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="advs1381-cit-0022">
+<string-name>
+<given-names>X. D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>R. M.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name>
+<given-names>A. H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>2324</fpage>.<pub-id pub-id-type="pmid">25711141</pub-id></mixed-citation></ref><ref id="advs1381-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="advs1381-cit-0023">
+<string-name>
+<given-names>S. M.</given-names>
+<surname>Jeong</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Song</surname>
+</string-name>, <string-name>
+<given-names>S. K.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>N. Y.</given-names>
+<surname>Ha</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>6194</fpage>.<pub-id pub-id-type="pmid">23963771</pub-id></mixed-citation></ref><ref id="advs1381-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="advs1381-cit-0024">
+<string-name>
+<given-names>X. Y.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name>
+<given-names>L. P.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>S. Y.</given-names>
+<surname>Kuang</surname>
+</string-name>, <string-name>
+<given-names>X. X.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y. H.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <source xml:lang="en">Adv. Mater. Interfaces</source>
+<year>2018</year>, <volume>5</volume>, <elocation-id>1701063</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="advs1381-cit-0025">
+<string-name>
+<given-names>Q.</given-names>
+<surname>Cheng</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>H. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Yu</surname>
+</string-name>, <source xml:lang="en">J. Mater. Chem. C</source>
+<year>2019</year>, <volume>7</volume>, <fpage>4567</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="advs1381-cit-0026">
+<string-name>
+<given-names>X. Y.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name>
+<given-names>X. D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>S. Y.</given-names>
+<surname>Kuang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>H. Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>6656</fpage>.<pub-id pub-id-type="pmid">27213998</pub-id></mixed-citation></ref><ref id="advs1381-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="advs1381-cit-0027">
+<string-name>
+<given-names>H. J.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>S. M.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>H. T.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Seung</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Son</surname>
+</string-name>, <string-name>
+<given-names>T. Y.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Khan</surname>
+</string-name>, <string-name>
+<given-names>N. M.</given-names>
+<surname>Park</surname>
+</string-name>, <string-name>
+<given-names>S. W.</given-names>
+<surname>Kim</surname>
+</string-name>, <source xml:lang="en">ACS Appl. Mater. Interfaces</source>
+<year>2019</year>, <volume>11</volume>, <fpage>5200</fpage>.<pub-id pub-id-type="pmid">30608128</pub-id></mixed-citation></ref><ref id="advs1381-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="advs1381-cit-0028">
+<string-name>
+<given-names>X.</given-names>
+<surname>Qian</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Cai</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>F. Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Fang</surname>
+</string-name>, <string-name>
+<given-names>Y. D.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name>
+<given-names>Q. Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>X. Q.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name>
+<given-names>W. B.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>X. T.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>X. D.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>Y. L.</given-names>
+<surname>Song</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <elocation-id>1800291</elocation-id>.</mixed-citation></ref><ref id="advs1381-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="advs1381-cit-0029">
+<string-name>
+<given-names>S. H.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>X. J.</given-names>
+<surname>Mu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>A. Y. D.</given-names>
+<surname>Gu</surname>
+</string-name>, <string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Yang</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <fpage>9554</fpage>.<pub-id pub-id-type="pmid">26343789</pub-id></mixed-citation></ref><ref id="advs1381-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="advs1381-cit-0030">
+<string-name>
+<given-names>Z. L.</given-names>
+<surname>Wang</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2013</year>, <volume>7</volume>, <fpage>9533</fpage>.<pub-id pub-id-type="pmid">24079963</pub-id></mixed-citation></ref><ref id="advs1381-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="advs1381-cit-0031">
+<string-name>
+<given-names>J. H.</given-names>
+<surname>Heo</surname>
+</string-name>, <string-name>
+<given-names>S. H.</given-names>
+<surname>Im</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Noh</surname>
+</string-name>, <string-name>
+<given-names>T. N.</given-names>
+<surname>Mandal</surname>
+</string-name>, <string-name>
+<given-names>C. S.</given-names>
+<surname>Lim</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name>
+<given-names>Y. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>H. j.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Sarkar</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Nazeeruddin</surname>
+</string-name>, <source xml:lang="en">Nat. Photonics</source>
+<year>2013</year>, <volume>7</volume>, <fpage>486</fpage>.</mixed-citation></ref><ref id="advs1381-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="advs1381-cit-0032">
+<string-name>
+<given-names>C.</given-names>
+<surname>Bi</surname>
+</string-name>, <string-name>
+<given-names>Y. C.</given-names>
+<surname>Shao</surname>
+</string-name>, <string-name>
+<given-names>Y. B.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name>
+<given-names>Z. G.</given-names>
+<surname>Xiao</surname>
+</string-name>, <string-name>
+<given-names>C. G.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y. L.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Huang</surname>
+</string-name>, <source xml:lang="en">J. Mater. Chem. A</source>
+<year>2014</year>, <volume>2</volume>, <elocation-id>18508</elocation-id>.</mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DFT has been applied with the PBE (Perdew et al., 
+ <xref rid="B40" ref-type="bibr">1996a</xref>), PBE0 (Perdew et al., 
+ <xref rid="B41" ref-type="bibr">1996b</xref>), B3LYP (Becke, 
+ <xref rid="B6" ref-type="bibr">1988</xref>), and HSE (Heyd et al., 
+ <xref rid="B21" ref-type="bibr">2003</xref>) functionals. The main numerical approximation in these calculations is the choice of the basis set (BS). In order to systematically approach the BS limit, a hierarchy of all-electron basis sets, labeled as BS1, BS2, and BS3 (see 
+ <xref rid="T1" ref-type="table">Table 1</xref>), has been selected for O, Ti. The most complete basis set (BS3), which includes extended polarization 
+ <italic>d</italic> orbitals for both the Ti and O atoms, has been used for the calculations reported below if not indicated. Apart from the obvious consequences on the structural and electronic properties, the subtle effect of the basis set on the description of the gap states will be discussed at the end of section 3.3. For the H
+ <sub>2</sub>Pc molecule, we used BS4 in order to reduce the BS superposition error. In the H
+ <sub>2</sub>Pc-anatase analysis we perform only AE–LCAO calculations with the HSE functional by adding the D3 dispersion correction (Grimme and Krieg, 
+ <xref rid="B18" ref-type="bibr">2010</xref>), which is crucial for this kind of interactions.
+</p>

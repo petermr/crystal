@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">This equation is used as the forward model in the well-known expectation maximization algorithm [
+ <xref ref-type="bibr" rid="CR1">1</xref>, 
+ <xref ref-type="bibr" rid="CR11">11</xref>]. It describes the mean of the measured data, vector 
+ <bold>
+  <italic>q</italic>
+ </bold>, as a function of the radiotracer’s distribution, vector 
+ <bold>
+  <italic>f</italic>
+ </bold>. Diagonal matrices of 
+ <italic>N</italic> and 
+ <italic>L</italic> represent normalization and attenuation correction, respectively. Vectors of 
+ <bold>
+  <italic>s</italic>
+ </bold> and 
+ <bold>
+  <italic>r</italic>
+ </bold> are estimates of the mean of scatter and random events, respectively. Matrix 
+ <italic>X</italic> is the geometric model that relates the projection space to the image space. This geometric element is directly dependent on the model of the scanner geometry. In this study, we concentrate on this key component of the system matrix and in particular its implementation in STIR (Software for Tomographic Image Reconstruction) [
+ <xref ref-type="bibr" rid="CR12">12</xref>]. STIR is an open-source library for PET and SPECT image reconstruction, implementing analytical as well as iterative reconstruction. Within STIR, the system matrix is calculated based on the analytical method with the Siddon raytracing algorithm [
+ <xref ref-type="bibr" rid="CR13">13</xref>]. The geometrical representation of a scanner provided by STIR is a cylinder made of rings of individual crystals equally distributed in axial and transaxial directions. The data of realistic scanners are projected onto such virtual scanners prior to image reconstruction. Whereas, typical scanners, clinical as well as pre-clinical ones, use a block-type geometry. Several rectangular blocks of crystals are arranged into regular polygons. Multiple of such polygons are arranged, with equal spacing, along the scanner axis. Gaps between individual crystals within a block are typically different from the gaps between the blocks in axial and transaxial directions. The difference between these two models, in a transaxial direction, is schematically shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>.
+</p>

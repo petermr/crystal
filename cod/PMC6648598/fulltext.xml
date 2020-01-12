@@ -1,0 +1,343 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6648598</article-id><article-id pub-id-type="pmid">31459851</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b00555</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Synthesis and Color Evaluation of Ta<sup>5+</sup>-Doped
+Bi<sub>2</sub>O<sub>3</sub></article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Oka</surname><given-names>Ryohei</given-names></name></contrib><contrib contrib-type="author" id="ath2"><name><surname>Shobu</surname><given-names>Yusuke</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><name><surname>Masui</surname><given-names>Toshiyuki</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">Center for Research on Green
+Sustainable Chemistry, Department of Chemistry, Biotechnology, Graduate
+School of Engineering, <institution>Tottori University</institution>, 4-101, Koyama-cho Minami, Tottori 680-8552, <country>Japan</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>masui@tottori-u.ac.jp</email>. Phone/Fax: <phone>+81&#x02212;857&#x02212;31&#x02212;5264</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>04</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>30</day><month>04</month><year>2019</year></pub-date><volume>4</volume><issue>4</issue><fpage>7581</fpage><lpage>7585</lpage><history><date date-type="received"><day>27</day><month>02</month><year>2019</year></date><date date-type="accepted"><day>15</day><month>04</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0006" id="ab-tgr1"/></p><p>Ta<sup>5+</sup>-doped Bi<sub>2</sub>O<sub>3</sub> solid solutions,
+(Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264; 0.20), were synthesized by a conventional solid-state
+reaction method. The crystal structure, optical properties, and color
+of the pigments were characterized. The (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04, 0.20) samples
+were obtained in a single-phase form, and the crystal structure depended
+on the Ta content; they were monoclinic &#x003b1;-phase (<italic>x</italic> = 0), tetragonal &#x003b2;-phase (<italic>x</italic> = 0.03, 0.04),
+and cubic &#x003b4;-phase (<italic>x</italic> = 0.20). Among them, (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> strongly
+absorbed visible light at the wavelength shorter than 480 nm and exhibited
+the most vivid orange color. The redness value (<italic>a</italic>*) was comparable to that of commercial orange pigments, and the
+yellowness value (<italic>b</italic>*) was slightly larger. Although
+it is necessary to improve chemical stability, the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment has potential
+for an environmentally friendly inorganic orange pigment.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b00555</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-00555b</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Inorganic pigments composed
+of metal oxides are applied in a broad
+range of fields, such as ceramics, glasses, plastics, and paints,
+because they have high hiding power, thermal stability, and weather
+resistance. In the case of inorganic orange pigments, cadmium orange
+(CdS&#x000b7;CdSe) and molybdate orange (PbCrO<sub>4</sub>&#x000b7;PbMoO<sub>4</sub>&#x000b7;PbSO<sub>4</sub>) were conventionally used. However,
+application of these orange pigments containing toxic elements, such
+as Cd, Pb, Cr, has been forbidden or restricted, because they have
+harmful effects on the human body and the environment. Therefore,
+development of inorganic orange pigments without toxic elements is
+required and several studies have been reported.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup></p><p>Because of this situation, we focused on bismuth sesquioxide
+(Bi<sub>2</sub>O<sub>3</sub>) because it has been confirmed as virtually
+nontoxic in medical references.<sup><xref ref-type="bibr" rid="ref11">11</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref></sup> Bi<sub>2</sub>O<sub>3</sub> has
+several polymorphs, such as &#x003b1;-phase (monoclinic structure),
+&#x003b2;-phase (tetragonal structure), &#x003b3;-phase (body-centered
+cubic structure), and &#x003b4;-phase (cubic fluorite structure).<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> The band structure of Bi<sub>2</sub>O<sub>3</sub> is constituted by a valence band composed of a hybrid Bi 6s and
+O 2p orbital and a conduction band of Bi 6p.<sup><xref ref-type="bibr" rid="ref15">15</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref></sup> A pale yellowish &#x003b1; phase stably exists at room
+temperature and is stable up to 730 &#x000b0;C. At 730 &#x000b0;C and above,
+the &#x003b1; phase is transferred to the orange &#x003b4; phase. &#x003b4;-Bi<sub>2</sub>O<sub>3</sub> has been suggested as a good electrolyte material
+for solid oxide fuel cells and gas sensors, because this compound
+is stable at high temperatures and exhibits high oxide ion conductivity.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref20">20</xref>&#x02212;<xref ref-type="bibr" rid="ref24">24</xref></sup></p><p>When &#x003b4;-Bi<sub>2</sub>O<sub>3</sub> is cooled from a
+high
+temperature, a phase transition to the &#x003b2; phase takes place at
+650 &#x000b0;C. Also, the metastable &#x003b3;-Bi<sub>2</sub>O<sub>3</sub> is formed below 650 &#x000b0;C on cooling &#x003b4;-Bi<sub>2</sub>O<sub>3</sub>. The structure of &#x003b2;-Bi<sub>2</sub>O<sub>3</sub> is
+a fluorite-based structure, but 25% of the oxide anion is regularly
+deficient.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> Although the &#x003b2; and &#x003b4;
+phases are unstainable at room temperature, they can be stabilized
+at room temperature when other cations are introduced into the Bi<sup>3+</sup> site to form solid solutions. In fact, niobium- and tantalum-doped
+(Bi<sub>1&#x02013;<italic>x</italic></sub>M<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (M = Nb or Ta) solid
+solutions adopt &#x003b2; phase and &#x003b4; phase at room temperature,
+respectively, to exhibit high oxide anion conductivity.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Although Nb<sup>5+</sup>-doped Bi<sub>2</sub>O<sub>3</sub> has been reported as an inorganic reddish-yellow pigment,<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> there is no report on the color evaluation of
+Ta<sup>5+</sup>-doped Bi<sub>2</sub>O<sub>3</sub> as an inorganic
+pigment.</p><p>In this study, therefore, Ta<sup>5+</sup>-doped Bi<sub>2</sub>O<sub>3</sub> solid solutions, (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264; 0.20), were
+synthesized
+by a conventional solid-state reaction and their color properties
+were evaluated as environmentally friendly inorganic orange pigments.</p></sec><sec id="sec2"><label>2</label><title>Results and Discussion</title><sec id="sec2.1"><label>2.1</label><title>X-ray Powder Diffraction
+(XRD) and Field-Emission-Type
+Scanning Electron Microscopic (FE-SEM) Image</title><p><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> shows the XRD patterns of
+the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264; 0.20) samples. The XRD patterns of &#x003b1;-,
+&#x003b2;-, and &#x003b4;-Bi<sub>2</sub>O<sub>3</sub> from the inorganic
+crystal structure database are also shown in this figure as references.
+The crystal structure depended on the Ta content in (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04,
+0.20); the monoclinic &#x003b1;-Bi<sub>2</sub>O<sub>3</sub> structure
+(<italic>x</italic> = 0), the tetragonal &#x003b2;-Bi<sub>2</sub>O<sub>3</sub> structure (<italic>x</italic> = 0.03, 0.04), and the cubic
+&#x003b4;-Bi<sub>2</sub>O<sub>3</sub> structure (<italic>x</italic> =
+0.20) were obtained in a single-phase form, respectively. However,
+a mixture of multiple phases was observed in the samples with <italic>x</italic> = 0.02 and 0.10 because the Ta concentration is near the
+boundary of the phase transition.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>XRD patterns of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264;
+0.20) samples.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0001" id="gr1" position="float"/></fig><p>The lattice volumes of
+tetragonal (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>2+<italic>x</italic></sub> (<italic>x</italic> = 0.03 and 0.04) and cubic (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> were calculated
+from the XRD angles, and the results are summarized in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. The lattice volumes of the
+pure (Ta-free) tetragonal &#x003b2;-Bi<sub>2</sub>O<sub>3</sub> and
+cubic &#x003b4;-Bi<sub>2</sub>O<sub>3</sub><sup><xref ref-type="bibr" rid="ref27">27</xref></sup> are also listed as references, where the numbers in parentheses
+indicate standard deviation. The cell volumes of the tetragonal (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> and the
+cubic (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> samples were smaller than those of the Ta-free tetragonal and cubic
+Bi<sub>2</sub>O<sub>3</sub>, respectively. The lattice volumes decreased
+with increasing the Ta<sup>5+</sup> content, indicating that Bi<sup>3+</sup> (ionic radius: 0.103 nm)<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> ions
+were partially substituted with Ta<sup>5+</sup> (ionic radius: 0.078
+nm)<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> ions. The cell volume of the tetragonal
+(Bi<sub>0.96</sub>Ta<sub>0.04</sub>)<sub>2</sub>O<sub>3.08</sub> sample
+was also smaller than that of the Ta-free tetragonal Bi<sub>2</sub>O<sub>3</sub>. However, the lattice volume of the tetragonal (Bi<sub>0.96</sub>Ta<sub>0.04</sub>)<sub>2</sub>O<sub>3.08</sub> and (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> samples
+was equal. These results indicate that the solubility limit of Ta<sup>5+</sup> in the tetragonal &#x003b2;-phase was <italic>x</italic> =
+0.03 for (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>2+<italic>x</italic></sub>.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Lattice Volumes of (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0.03, 0.04, and
+0.20) and Ta-Free Bi<sub>2</sub>O<sub>3</sub></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="("/></colgroup><thead><tr><th style="border:none;" align="center">composition</th><th style="border:none;" align="center">crystal system</th><th style="border:none;" align="center" char="(">lattice&#x000a0;volume/nm<sup>3</sup></th></tr></thead><tbody><tr><td style="border:none;" align="left">(Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub></td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="char" char="(">0.33566(4)</td></tr><tr><td style="border:none;" align="left">(Bi<sub>0.96</sub>Ta<sub>0.04</sub>)<sub>2</sub>O<sub>3.08</sub></td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="char" char="(">0.33565(3)</td></tr><tr><td style="border:none;" align="left">Bi<sub>2</sub>O<sub>3</sub><xref rid="t1fn1" ref-type="table-fn">a</xref></td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="char" char="(">0.33754(3)</td></tr><tr><td style="border:none;" align="left">(Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub></td><td style="border:none;" align="left">cubic</td><td style="border:none;" align="char" char="(">0.16402(1)</td></tr><tr><td style="border:none;" align="left">Bi<sub>2</sub>O<sub>3</sub><xref rid="t1fn1" ref-type="table-fn">a</xref></td><td style="border:none;" align="left">cubic</td><td style="border:none;" align="char" char="(">0.18139(4)</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Cited from ref (<xref ref-type="bibr" rid="ref27">27</xref>).</p></fn></table-wrap-foot></table-wrap><p><xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> shows the
+FE-SEM images of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04, and 0.20) samples obtained
+in a single-phase form. Although aggregated coarse particles were
+observed in all samples, it was found that only (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> was composed of small
+granular particles of about 1 &#x003bc;m somewhat thermally fused.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>FE-SEM
+images of the synthesized Bi<sub>2</sub>O<sub>3</sub> (a),
+(Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> (b),
+(Bi<sub>0.96</sub>Ta<sub>0.04</sub>)<sub>2</sub>O<sub>3.08</sub> (c),
+and (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> (d).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0002" id="gr2" position="float"/></fig></sec><sec id="sec2.2"><label>2.2</label><title>Reflectance
+Spectra</title><p><xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> depicts the UV&#x02013;vis
+reflectance spectra of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04, and 0.20) samples obtained
+in a single-phase form. In all samples, optical absorption was observed
+by the energy transition from the valence band composed of the hybrid
+Bi 6s and O 2p orbitals to the conduction band composed of the Bi
+6p orbital.<sup><xref ref-type="bibr" rid="ref15">15</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> The tetragonal &#x003b2;-phase samples (<italic>x</italic> = 0.03
+and 0.04) exhibited strong absorption at 480 nm or shorter, whereas
+the gradual spectral curve was observed for the cubic &#x003b4;-phase
+sample (<italic>x</italic> = 0.20). The absorption wavelengths of
+the tetragonal (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0.03 and 0.04) and cubic (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> samples were obviously observed on
+the longer wavelength side compared with the monoclinic Bi<sub>2</sub>O<sub>3</sub> sample. This behavior was attributed to the fact that
+the band gap energy of the formers was smaller than that of the latter.
+The average Bi&#x02013;O bond distance in each (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, and 0.20)
+sample, which was calculated with reference to the literature,<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> is summarized in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>, where the numbers in parentheses indicate the standard deviation.
+The average Bi&#x02013;O bond length in the crystal lattice was short
+on the order of the tetragonal (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub>, the cubic (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub>, and the monoclinic Bi<sub>2</sub>O<sub>3</sub> samples. Since the hybrid effect of the Bi 6s
+and O 2p orbitals in the valence band increases as the Bi&#x02013;O
+bond distance decreases,<sup><xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> the width of the valence
+band also increases as the Bi&#x02013;O bond distance becomes shorter.
+As a result, the band gap energy between the valence and the conduction
+bands decreases on decreasing the Bi&#x02013;O bond distance.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>UV&#x02013;vis
+reflectance spectra of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04,
+and 0.20) samples.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0003" id="gr3" position="float"/></fig><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Average
+Bi&#x02013;O Bond Distance
+in the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, and 0.20) Samples</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="("/></colgroup><thead><tr><th style="border:none;" align="center"><italic>x</italic></th><th style="border:none;" align="center">crystal
+system</th><th style="border:none;" align="center" char="(">average&#x000a0;Bi&#x02013;O&#x000a0;bond&#x000a0;distance/nm</th></tr></thead><tbody><tr><td style="border:none;" align="left">0</td><td style="border:none;" align="left">monoclinic</td><td style="border:none;" align="char" char="(">0.24636(3)</td></tr><tr><td style="border:none;" align="left">0.03</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="char" char="(">0.23265(4)</td></tr><tr><td style="border:none;" align="left">0.20</td><td style="border:none;" align="left">cubic</td><td style="border:none;" align="char" char="(">0.23703(4)</td></tr></tbody></table></table-wrap><p>Accordingly, the band
+gap energy of each sample became small on
+the order of the tetragonal (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub>, the cubic (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub>, and the monoclinic Bi<sub>2</sub>O<sub>3</sub> samples, corresponding to the short of the average bond length.
+Therefore, the optical absorption wavelength of the tetragonal (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> sample was
+located on the lowest energy (i.e., longer wavelength) side. The slope
+of the reflectance spectrum became moderate in the case of the cubic
+(Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> sample,
+because of the reduction of the hybrid effect due to the decrease
+in the Bi<sup>3+</sup> content. Among the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> samples synthesized in this study, the
+(Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> sample
+exhibited the strongest absorption in the green-blue light region
+(480&#x02013;490 nm), which is the complementary color of orange.</p><p>The UV&#x02013;vis reflectance spectrum of the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment was compared
+with those for the commercially available orange pigments such as
+Bayferrox 960 and Bayferrox 4960 (Fe<sub>2</sub>O<sub>3</sub>&#x02013;FeOOH,
+Ozeki Co., Ltd.), as shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. The present (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment showed higher reflectance in the
+wavelength region of 580&#x02013;850 nm corresponding to the yellow-red
+light as compared with the commercially available orange pigments.
+But unfortunately, the reflectance in the green light region (520&#x02013;570
+nm) was also higher than those of the commercial ones.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>UV&#x02013;vis reflectance
+spectra for (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub>, Bayferrox 960, and Bayferrox
+4960 pigments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0004" id="gr4" position="float"/></fig></sec><sec id="sec2.3"><label>2.3</label><title>Chromatic
+Properties</title><p>The <italic>L</italic>*<italic>a</italic>*<italic>b</italic>*<italic>Ch</italic>&#x000b0; color coordinate data and band
+gap energies (<italic>E</italic><sub>g</sub>) for (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04,
+and 0.20) and commercial orange
+Bayferrox 960 and Bayferrox 4960 pigments are summarized in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>. The photographs
+of these pigments are also displayed in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>. It is obvious that both <italic>a</italic>* and <italic>b</italic>* values increased in a positive direction
+by the introduction of Ta<sup>5+</sup> in the host Bi<sub>2</sub>O<sub>3</sub> lattice. Among them, the tetragonal (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> sample strongly absorbed
+green and blue (complementary color of orange) lights and exhibited
+the most vivid orange color with the highest <italic>a</italic>* value.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Photographs
+of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04, and 0.20), Bayferrox 960, and
+Bayferrox 4960 pigments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00555b_0005" id="gr5" position="float"/></fig><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title><italic>L</italic>*<italic>a</italic>*<italic>b</italic>*<italic>Ch</italic>&#x000b0; Color Coordinate Data
+and Band gap Energies (<italic>E</italic><sub>g</sub>) for (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0,
+0.03, 0.04, and 0.20), Bayferrox 960, and Bayferrox 4960 Pigments</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">samples</th><th style="border:none;" align="center" char="."><italic>L</italic>*</th><th style="border:none;" align="center"><italic>a</italic>*</th><th style="border:none;" align="center" char="."><italic>b</italic>*</th><th style="border:none;" align="center" char="."><italic>C</italic></th><th style="border:none;" align="center" char="."><italic>h</italic>&#x000b0;</th><th style="border:none;" align="center" char="."><italic>E</italic><sub>g</sub>/eV</th></tr></thead><tbody><tr><td style="border:none;" align="left">Bi<sub>2</sub>O<sub>3</sub></td><td style="border:none;" align="char" char=".">94.0</td><td style="border:none;" align="left">&#x02013;9.64</td><td style="border:none;" align="char" char=".">+31.5</td><td style="border:none;" align="char" char=".">32.9</td><td style="border:none;" align="char" char=".">107</td><td style="border:none;" align="char" char=".">2.85</td></tr><tr><td style="border:none;" align="left">(Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub></td><td style="border:none;" align="char" char=".">63.2</td><td style="border:none;" align="left">+17.3</td><td style="border:none;" align="char" char=".">+56.3</td><td style="border:none;" align="char" char=".">58.9</td><td style="border:none;" align="char" char=".">72.9</td><td style="border:none;" align="char" char=".">2.27</td></tr><tr><td style="border:none;" align="left">(Bi<sub>0.96</sub>Ta<sub>0.04</sub>)<sub>2</sub>O<sub>3.08</sub></td><td style="border:none;" align="char" char=".">66.1</td><td style="border:none;" align="left">+15.2</td><td style="border:none;" align="char" char=".">+60.6</td><td style="border:none;" align="char" char=".">62.5</td><td style="border:none;" align="char" char=".">75.9</td><td style="border:none;" align="char" char=".">2.29</td></tr><tr><td style="border:none;" align="left">(Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub></td><td style="border:none;" align="char" char=".">82.7</td><td style="border:none;" align="left">+4.70</td><td style="border:none;" align="char" char=".">+46.3</td><td style="border:none;" align="char" char=".">46.5</td><td style="border:none;" align="char" char=".">84.2</td><td style="border:none;" align="char" char=".">2.74</td></tr><tr><td style="border:none;" align="left">Bayferrox 960</td><td style="border:none;" align="char" char=".">59.0</td><td style="border:none;" align="left">+21.0</td><td style="border:none;" align="char" char=".">+47.5</td><td style="border:none;" align="char" char=".">51.9</td><td style="border:none;" align="char" char=".">66.1</td><td style="border:none;" align="char" char=".">2.13</td></tr><tr><td style="border:none;" align="left">Bayferrox 4960</td><td style="border:none;" align="char" char=".">55.9</td><td style="border:none;" align="left">+23.5</td><td style="border:none;" align="char" char=".">+47.3</td><td style="border:none;" align="char" char=".">52.8</td><td style="border:none;" align="char" char=".">63.6</td><td style="border:none;" align="char" char=".">2.12</td></tr></tbody></table></table-wrap><p>The color
+of materials can be affected by a combination of factors,
+such as particle size, packing density, crystal structure, and chemical
+composition. As the particle size of the pigment decreases, the color
+tends to be brighter or lighter.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> As shown
+in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, there
+was no difference in the particle size of monoclinic Bi<sub>2</sub>O<sub>3</sub> and tetragonal (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+<italic>x</italic></sub> (<italic>x</italic> = 0.03 and 0.04). Therefore, the color
+of these pigments depends on the crystal system. In contrast, the
+particle size of (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> was smaller than those of other samples and the color
+of (Bi<sub>0.80</sub>Ta<sub>0.20</sub>)<sub>2</sub>O<sub>3.40</sub> was relatively light. The pale coloration can be attributed not
+only to the change of the crystal structure but also the reduction
+of the particle size.</p><p>As seen in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>, the redness value (<italic>a</italic>*)
+for the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment was slightly
+small compared to that of the commercial orange pigments. On the other
+hand, the yellowness value (<italic>b</italic>*) was larger than that
+of the commercially available orange pigments. As a result, it appeared
+yellowish orange.</p></sec><sec id="sec2.4"><label>2.4</label><title>Chemical Stability Test</title><p>The chemical
+stability of the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment was also evaluated. The powder sample was dispersed
+into 4% acetic acid and 4% ammonium bicarbonate aqueous solutions.
+After leaving them at room temperature for 6 h, the samples were washed
+with deionized water and ethanol and then dried at room temperature.
+The color of the samples after the chemical stability test was evaluated
+using the colorimeter. Unfortunately, slight color degradation was
+observed after the soaking test, as summarized in <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>, so it is necessary to cover
+the surface using an inert substance such as silica to suppress the
+color degradation.</p><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title><italic>L</italic>*<italic>a</italic>*<italic>b</italic>*<italic>Ch</italic>&#x000b0; Color Coordinates of
+(Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> before
+and after the Chemical Stability Test</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">treatment</th><th style="border:none;" align="center" char="."><italic>L</italic>*</th><th style="border:none;" align="center" char="."><italic>a</italic>*</th><th style="border:none;" align="center" char="."><italic>b</italic>*</th><th style="border:none;" align="center" char="."><italic>C</italic></th><th style="border:none;" align="center" char="."><italic>h</italic>&#x000b0;</th></tr></thead><tbody><tr><td style="border:none;" align="left">nontreatment</td><td style="border:none;" align="char" char=".">63.2</td><td style="border:none;" align="char" char=".">+17.3</td><td style="border:none;" align="char" char=".">+56.3</td><td style="border:none;" align="char" char=".">58.9</td><td style="border:none;" align="char" char=".">72.9</td></tr><tr><td style="border:none;" align="left">4% CH<sub>3</sub>COOH</td><td style="border:none;" align="char" char=".">68.3</td><td style="border:none;" align="char" char=".">+13.8</td><td style="border:none;" align="char" char=".">+51.4</td><td style="border:none;" align="char" char=".">53.2</td><td style="border:none;" align="char" char=".">75.0</td></tr><tr><td style="border:none;" align="left">4% NH<sub>4</sub>HCO<sub>3</sub></td><td style="border:none;" align="char" char=".">67.2</td><td style="border:none;" align="char" char=".">+14.6</td><td style="border:none;" align="char" char=".">+50.0</td><td style="border:none;" align="char" char=".">52.1</td><td style="border:none;" align="char" char=".">73.7</td></tr></tbody></table></table-wrap></sec></sec><sec id="sec3"><label>3</label><title>Conclusions</title><p>(Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264; 0.20) solid solutions were synthesized by a conventional
+solid-state reaction method. The crystal structure of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0,
+0.03, 0.04, 0.20) samples depended on the composition, and monoclinic
+&#x003b1;-phase (<italic>x</italic> = 0), tetragonal &#x003b2;-phase (<italic>x</italic> = 0.03, 0.04), and cubic &#x003b4;-phase (<italic>x</italic> = 0.20) were obtained in a single-phase form. Among these samples,
+the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment strongly absorbed the green-blue light and the band gap
+energy was 2.27 eV. This pigment presented a vivid yellowish orange
+color, because the redness value (<italic>a</italic>*) of this pigment
+was slightly smaller and the yellowness value (<italic>b</italic>*)
+was larger than those of commercial orange pigments. Although it is
+necessary to improve chemical stability, the (Bi<sub>0.97</sub>Ta<sub>0.03</sub>)<sub>2</sub>O<sub>3.06</sub> pigment has potential to
+be one of the environmentally friendly inorganic orange pigments.</p></sec><sec id="sec4"><label>4</label><title>Experimental Section</title><sec id="sec4.1"><label>4.1</label><title>Materials and Methods</title><p>The (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (0 &#x02264; <italic>x</italic> &#x02264; 0.20) samples were synthesized using a conventional
+solid-state
+reaction technique. Stoichiometric amounts of Bi<sub>2</sub>O<sub>3</sub> (Kishida Chemical Co., Ltd., 99.9%) and Ta<sub>2</sub>O<sub>5</sub> (Wako Pure Chemical Industries, Ltd., 99.9%) were mixed in
+an agate mortar. The homogenous mixtures were calcined in an aluminum
+silicate (mullite) crucible at 800 &#x000b0;C for 6 h in air. Finally,
+the samples were ground in an agate mortar before characterization.</p></sec><sec id="sec4.2"><label>4.2</label><title>Characterization</title><p>The crystal structures
+were identified by X-ray powder diffraction (XRD, Rigaku Ultima IV)
+using Cu K&#x003b1; radiation (40 kV, 40 mA). The sampling width and
+scan speed were 0.02 and 6.0&#x000b0; min<sup>&#x02013;1</sup>, respectively.
+The lattice parameters and volumes were calculated from the peak angles,
+which were refined using &#x003b1;-Al<sub>2</sub>O<sub>3</sub> as a
+standard and using CellCalc Ver. 2.20 software. The sample compositions
+analyzed using X-ray fluorescence spectroscopy (Rigaku, ZSX Primus)
+were in good agreement with the nominal stoichiometric compositions
+of the starting mixtures. The morphology of the (Bi<sub>1&#x02013;<italic>x</italic></sub>Ta<sub><italic>x</italic></sub>)<sub>2</sub>O<sub>3+2<italic>x</italic></sub> (<italic>x</italic> = 0, 0.03, 0.04,
+and 0.20) particles was investigated by using field-emission-type
+scanning electron microscopy (FE-SEM; JEOL, JSM-6701F).</p><p>The
+optical reflectance spectra were measured with an ultraviolet&#x02013;visible
+(UV&#x02013;vis) spectrometer (Shimadzu, UV-2550) with barium sulfate
+as a reference. The band gap energies of the samples were calculated
+from the absorption edge of the absorbance spectrum represented by
+the Kubelka&#x02013;Munk function, <italic>f</italic>(<italic>R</italic>) = (1 &#x02013; <italic>R</italic>)<sup>2</sup>/2<italic>R</italic>, where <italic>R</italic> is reflectance.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> The color property was evaluated in terms of the Commission Internationale
+de l&#x02019;&#x000c9;clairage <italic>L</italic>*<italic>a</italic>*<italic>b</italic>*<italic>Ch</italic>&#x000b0; system using a colorimeter
+(Konica-Minolta, CR-300). The <italic>L</italic>* parameter indicates
+the brightness or darkness of a color on relation to a neutral gray
+scale, and the <italic>a</italic>* (the red-green axis) and the <italic>b</italic>* (the yellow-blue axis) parameters express the color qualitatively.
+Chroma parameter (<italic>C</italic>) represents the color saturation
+of the pigments and is calculated according to the following formula: <italic>C</italic> = [(<italic>a</italic>*)<sup>2</sup> + (<italic>b</italic>*)<sup>2</sup>]<sup>1/2</sup>. The parameter <italic>h</italic>&#x000b0;
+ranges from 0 to 360&#x000b0;, and is calculated with the formula, <italic>h</italic>&#x000b0; = tan<sup>&#x02013;1</sup>(<italic>b</italic>*/<italic>a</italic>*).</p></sec></sec></body><back><notes notes-type="COI-statement" id="NOTES-d7e2235-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work was partially
+supported by the Grant-in-Aid for
+JSPS Research Fellow (R.O.).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Trojan</surname><given-names>M.</given-names></name>
+<article-title>Thermal synthesis
+and properties of the (Bi<sub>2</sub>O<sub>3</sub>)<sub>1-<italic>x</italic></sub>(Ho<sub>2</sub>O<sub>3</sub>)<sub><italic>x</italic></sub> pigments</article-title>. <source>J. Therm. Anal. Calorim.</source>
+<year>2006</year>, <volume>83</volume>, <fpage>557</fpage>&#x02013;<lpage>559</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-005-7392-2</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Trojan</surname><given-names>M.</given-names></name>
+<article-title>Thermal analysis
+of pigments based on Bi<sub>2</sub>O<sub>3</sub></article-title>. <source>J. Therm. Anal. Calorim.</source>
+<year>2006</year>, <volume>84</volume>, <fpage>737</fpage>&#x02013;<lpage>740</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-005-7544-4</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Trojan</surname><given-names>M.</given-names></name>
+<article-title>Thermal synthesis
+of the (Bi<sub>2</sub>O<sub>3</sub>)<sub>1-<italic>x</italic></sub>(Er<sub>2</sub>O<sub>3</sub>)<sub><italic>x</italic></sub> pigments</article-title>. <source>J.
+Therm. Anal. Calorim.</source>
+<year>2007</year>, <volume>88</volume>, <fpage>111</fpage>&#x02013;<lpage>113</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-006-8101-5</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Trojan</surname><given-names>M.</given-names></name>
+<article-title>Thermal analysis
+of the (Bi<sub>2</sub>O<sub>3</sub>)<sub>1-<italic>x</italic></sub>(Y<sub>2</sub>O<sub>3</sub>)<sub><italic>x</italic></sub> pigments</article-title>. <source>J.
+Therm. Anal. Calorim.</source>
+<year>2008</year>, <volume>91</volume>, <fpage>151</fpage>&#x02013;<lpage>154</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-007-8311-5</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Gonzalvo</surname><given-names>B.</given-names></name>; <name><surname>Romero</surname><given-names>J.</given-names></name>; <name><surname>Fern&#x000e1;ndez</surname><given-names>F.</given-names></name>; <name><surname>Torralvo</surname><given-names>M. J.</given-names></name>
+<article-title>(Bi,R)<sub>2</sub>O<sub>3</sub> (R: Nd, Sm and Dy)
+oxides as potential pigments</article-title>. <source>J. Alloys Compd.</source>
+<year>2001</year>, <volume>323&#x02013;324</volume>, <fpage>372</fpage>&#x02013;<lpage>375</lpage>. <pub-id pub-id-type="doi">10.1016/S0925-8388(01)01056-8</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Strnadlov&#x000e1;</surname><given-names>L.</given-names></name>; <name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Llusar</surname><given-names>M.</given-names></name>
+<article-title>Thermal study of the
+Ce<sub>0.9</sub>Tb<sub>0.1</sub>O<sub>2</sub> pigment prepared by
+different synthesis</article-title>. <source>J. Therm. Anal. Calorim.</source>
+<year>2010</year>, <volume>102</volume>, <fpage>661</fpage>&#x02013;<lpage>665</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-009-0644-9</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Str&#x000e1;nsk&#x000e1;</surname><given-names>L.</given-names></name>; <name><surname>&#x00160;ulcov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Vl&#x0010d;ek</surname><given-names>M.</given-names></name>
+<article-title>Synthesis
+and properties of inorganic pigments based on pyrochlore compounds
+with different lanthanides</article-title>. <source>J. Therm. Anal.
+Calorim.</source>
+<year>2013</year>, <volume>113</volume>, <fpage>127</fpage>&#x02013;<lpage>135</lpage>. <pub-id pub-id-type="doi">10.1007/s10973-013-3037-z</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Rao</surname><given-names>R. G.</given-names></name>; <name><surname>Divya</surname><given-names>D.</given-names></name>
+<article-title>Synthesis and characterization
+of orange pigments from rare earth
+metal ions</article-title>. <source>Asian J. Chem.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>1673</fpage>&#x02013;<lpage>1676</lpage>. <pub-id pub-id-type="doi">10.14233/ajchem.2017.20526</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Schildhammer</surname><given-names>D.</given-names></name>; <name><surname>Fuhrmann</surname><given-names>G.</given-names></name>; <name><surname>Petschnig</surname><given-names>L.</given-names></name>; <name><surname>Schottenberger</surname><given-names>H.</given-names></name>; <name><surname>Huppertz</surname><given-names>H.</given-names></name>
+<article-title>Synthesis and optical properties
+of new highly NIR
+reflective inorganic pigments <italic>RE</italic><sub>6</sub>Mo<sub>2</sub>O<sub>15</sub> (<italic>RE</italic> = Tb, Dy, Ho, Er)</article-title>. <source>Dyes Pigm.</source>
+<year>2017</year>, <volume>140</volume>, <fpage>22</fpage>&#x02013;<lpage>28</lpage>. <pub-id pub-id-type="doi">10.1016/j.dyepig.2017.01.021</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Bae</surname><given-names>B.</given-names></name>; <name><surname>Takeuchi</surname><given-names>N.</given-names></name>; <name><surname>Tamura</surname><given-names>S.</given-names></name>; <name><surname>Imanaka</surname><given-names>N.</given-names></name>
+<article-title>Environmentally friendly
+orange pigments based on hexagonal perovskite-type compounds and their
+high NIR reflectivity</article-title>. <source>Dyes Pigm.</source>
+<year>2017</year>, <volume>147</volume>, <fpage>523</fpage>&#x02013;<lpage>528</lpage>. <pub-id pub-id-type="doi">10.1016/j.dyepig.2017.08.015</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Bradley</surname><given-names>B.</given-names></name>; <name><surname>Singleton</surname><given-names>M.</given-names></name>; <name><surname>Li Wan Po</surname><given-names>A.</given-names></name>
+<article-title>Bismuth toxicity &#x02013; A reassessment</article-title>. <source>J. Clin. Pharm. Ther.</source>
+<year>1989</year>, <volume>14</volume>, <fpage>423</fpage>&#x02013;<lpage>441</lpage>. <pub-id pub-id-type="doi">10.1111/j.1365-2710.1989.tb00268.x</pub-id>.<pub-id pub-id-type="pmid">2693474</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Winship</surname><given-names>K. A.</given-names></name>
+<article-title>Toxicity
+of bismuth salts</article-title>. <source>Adverse Drug React. Acute
+Poisoning Rev.</source>
+<year>1983</year>, <volume>2</volume>, <fpage>103</fpage>&#x02013;<lpage>121</lpage>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Serfontein</surname><given-names>W. J.</given-names></name>; <name><surname>Mekel</surname><given-names>R.</given-names></name>
+<article-title>Bismuth toxicity
+in man. II. Review of bismuth blood and urine levels
+in patients after administration of therapeutic bismuth formulations
+in relation to the problem of bismuth toxicity in man</article-title>. <source>Res. Commun. Chem. Pathol. Pharmacol.</source>
+<year>1979</year>, <volume>26</volume>, <fpage>391</fpage>&#x02013;<lpage>411</lpage>.<pub-id pub-id-type="pmid">392661</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Sammes</surname><given-names>N. M.</given-names></name>; <name><surname>Tompsett</surname><given-names>G. A.</given-names></name>; <name><surname>N&#x000e4;fe</surname><given-names>H.</given-names></name>; <name><surname>Aldinger</surname><given-names>F.</given-names></name>
+<article-title>Bismuth based oxide
+electrolytes - structure and ionic conductivity</article-title>. <source>J. Eur. Ceram. Soc.</source>
+<year>1999</year>, <volume>19</volume>, <fpage>1801</fpage>&#x02013;<lpage>1826</lpage>. <pub-id pub-id-type="doi">10.1016/S0955-2219(99)00009-6</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Zhang</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>Yang</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>Z.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>Zhou</surname><given-names>L.</given-names></name>; <name><surname>Liu</surname><given-names>S.</given-names></name>
+<article-title>Sonochemical
+synthesis of nanocrystallite
+Bi<sub>2</sub>O<sub>3</sub> as a visible-light-driven photocatalyst</article-title>. <source>Appl. Catal., A</source>
+<year>2006</year>, <volume>308</volume>, <fpage>105</fpage>&#x02013;<lpage>110</lpage>. <pub-id pub-id-type="doi">10.1016/j.apcata.2006.04.016</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Cheng</surname><given-names>H.</given-names></name>; <name><surname>Huang</surname><given-names>B.</given-names></name>; <name><surname>Lu</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Xu</surname><given-names>B.</given-names></name>; <name><surname>Qin</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Dai</surname><given-names>Y.</given-names></name>
+<article-title>Synergistic effect of crystal and
+electronic structures on the visible-light-driven photocatalytic performances
+of Bi<sub>2</sub>O<sub>3</sub> polymorphs</article-title>. <source>Phys.
+Chem. Chem. Phys.</source>
+<year>2010</year>, <volume>12</volume>, <fpage>15468</fpage>&#x02013;<lpage>15475</lpage>. <pub-id pub-id-type="doi">10.1039/c0cp01189d</pub-id>.<pub-id pub-id-type="pmid">20972494</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Cao</surname><given-names>K.</given-names></name>; <name><surname>Zhang</surname><given-names>Q.</given-names></name>; <name><surname>Gong</surname><given-names>X.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>
+<article-title>A computational study
+on the photoelectric properties of various Bi<sub>2</sub>O<sub>3</sub> polymorphs as visible-light driven photocatalysts</article-title>. <source>J. Mol. Model.</source>
+<year>2014</year>, <volume>20</volume>, <elocation-id>2506</elocation-id><pub-id pub-id-type="doi">10.1007/s00894-014-2506-z</pub-id>.<pub-id pub-id-type="pmid">25381618</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Li</surname><given-names>Q.-Y.</given-names></name>; <name><surname>Zhao</surname><given-names>Z.-Y.</given-names></name>
+<article-title>Interfacial properties
+of &#x003b1;/&#x003b2;-Bi<sub>2</sub>O<sub>3</sub> homo-junction from
+first-principles caluculations</article-title>. <source>Phys. Lett.
+A</source>
+<year>2015</year>, <volume>379</volume>, <fpage>2766</fpage>&#x02013;<lpage>2771</lpage>. <pub-id pub-id-type="doi">10.1016/j.physleta.2015.08.002</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Meng</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>
+<article-title>Synthesis and optical
+characterization of In<sup>3+</sup>-stabilized &#x003b3;-Bi<sub>2</sub>O<sub>3</sub> sillenite semiconductor with cation deficiency</article-title>. <source>Mater. Sci. Semicond. Process.</source>
+<year>2017</year>, <volume>68</volume>, <fpage>48</fpage>&#x02013;<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1016/j.mssp.2017.06.005</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Takahashi</surname><given-names>T.</given-names></name>; <name><surname>Iwahara</surname><given-names>H.</given-names></name>; <name><surname>Esaka</surname><given-names>T.</given-names></name>
+<article-title>High oxide ion conduction
+in sintered
+oxide of the system Bi<sub>2</sub>O<sub>3</sub>-M<sub>2</sub>O<sub>5</sub></article-title>. <source>J. Electrochem. Soc.</source>
+<year>1977</year>, <volume>124</volume>, <fpage>1563</fpage>&#x02013;<lpage>1569</lpage>. <pub-id pub-id-type="doi">10.1149/1.2133111</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Takahashi</surname><given-names>T.</given-names></name>; <name><surname>Iwahara</surname><given-names>H.</given-names></name>
+<article-title>Oxide ion conductors based on bismuthsesquioxide</article-title>. <source>Mater. Res. Bull.</source>
+<year>1978</year>, <volume>13</volume>, <fpage>1447</fpage>&#x02013;<lpage>1453</lpage>. <pub-id pub-id-type="doi">10.1016/0025-5408(78)90138-1</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Iwahara</surname><given-names>H.</given-names></name>; <name><surname>Esaka</surname><given-names>T.</given-names></name>; <name><surname>Sato</surname><given-names>T.</given-names></name>; <name><surname>Takahashi</surname><given-names>T.</given-names></name>
+<article-title>Formation
+of high oxide ion conductive phases in the sintered oxides of the
+system Bi<sub>2</sub>O<sub>3</sub>-<italic>Ln</italic><sub>2</sub>O<sub>3</sub> (<italic>Ln</italic> = La-Yb)</article-title>. <source>J. Solid State Chem.</source>
+<year>1981</year>, <volume>39</volume>, <fpage>173</fpage>&#x02013;<lpage>180</lpage>. <pub-id pub-id-type="doi">10.1016/0022-4596(81)90328-5</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Ahila</surname><given-names>M.</given-names></name>; <name><surname>Subramanian</surname><given-names>E.</given-names></name>; <name><surname>Pathinettam</surname><given-names>P. D.</given-names></name>
+<article-title>Optical properties of <italic>Codium tomentosum</italic> seaweed like Bi<sub>2</sub>O<sub>3</sub> nanostructure and its gas-sensing
+activity</article-title>. <source>Ionics</source>
+<year>2018</year>, <volume>24</volume>, <fpage>1827</fpage>&#x02013;<lpage>1839</lpage>. <pub-id pub-id-type="doi">10.1007/s11581-017-2331-3</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Manjula</surname><given-names>M.</given-names></name>; <name><surname>Karthikeyan</surname><given-names>B.</given-names></name>; <name><surname>Sastikumar</surname><given-names>D.</given-names></name>
+<article-title>Sensing characteristics
+of clad-modified
+(Ho-doped Bi<sub>2</sub>O<sub>3</sub> nanoparticles) fibre optic gas
+sensor</article-title>. <source>Opt. Fiber Technol.</source>
+<year>2018</year>, <volume>45</volume>, <fpage>35</fpage>&#x02013;<lpage>39</lpage>. <pub-id pub-id-type="doi">10.1016/j.yofte.2018.05.009</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Blower</surname><given-names>S. K.</given-names></name>; <name><surname>Greaves</surname><given-names>C.</given-names></name>
+<article-title>The structure of &#x003b2;-Bi<sub>2</sub>O<sub>3</sub> from powder neutron diffraction data</article-title>. <source>Acta
+Crystallogr., Sect. C: Cryst. Struct. Commun.</source>
+<year>1988</year>, <volume>44</volume>, <fpage>587</fpage>&#x02013;<lpage>589</lpage>. <pub-id pub-id-type="doi">10.1107/S0108270187011661</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Kusumoto</surname><given-names>K.</given-names></name>
+<article-title>Synthesis
+of Bi<sub>2</sub>O<sub>3</sub>&#x02013;Nb<sub>2</sub>O<sub>5</sub> solid
+solutions for environmental-friendly reddish yellow pigments</article-title>. <source>J. Ceram. Soc. Jpn.</source>
+<year>2016</year>, <volume>124</volume>, <fpage>926</fpage>&#x02013;<lpage>928</lpage>. <pub-id pub-id-type="doi">10.2109/jcersj2.16079</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Hull</surname><given-names>S.</given-names></name>; <name><surname>Norberg</surname><given-names>S. T.</given-names></name>; <name><surname>Tucker</surname><given-names>M. G.</given-names></name>; <name><surname>Eriksson</surname><given-names>S. G.</given-names></name>; <name><surname>Mohn</surname><given-names>C. E.</given-names></name>; <name><surname>St&#x000f8;len</surname><given-names>S.</given-names></name>
+<article-title>Neutron total
+scattering study of the &#x003b4; and &#x003b2;
+phases of Bi<sub>2</sub>O<sub>3</sub></article-title>. <source>Dalton
+Trans.</source>
+<year>2009</year>, <fpage>8737</fpage>&#x02013;<lpage>8745</lpage>. <pub-id pub-id-type="doi">10.1039/b910484b</pub-id>.<pub-id pub-id-type="pmid">19809749</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Shannon</surname><given-names>R. D.</given-names></name>
+<article-title>Revised
+effective ionic radii and systematic studies of interatomic distances
+in halides and chalcogenides</article-title>. <source>Acta Crystallogr.,
+Sect. A: Cryst. Phys., Diffr., Theor. Gen. Crystallogr.</source>
+<year>1976</year>, <volume>32</volume>, <fpage>751</fpage>&#x02013;<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1107/S0567739476001551</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Evarestov</surname><given-names>R. A.</given-names></name>; <name><surname>Shapovalov</surname><given-names>V. O.</given-names></name>; <name><surname>Veryazov</surname><given-names>V. A.</given-names></name>
+<article-title>Electronic structure
+and chemical
+bonding in Bi<sub>2</sub>O<sub>3</sub></article-title>. <source>Phys.
+Status Solidi B</source>
+<year>1994</year>, <volume>183</volume>, <fpage>K15</fpage>&#x02013;<lpage>K17</lpage>. <pub-id pub-id-type="doi">10.1002/pssb.2221830133</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Wendusu</surname></name>; <name><surname>Ikawa</surname><given-names>K.</given-names></name>; <name><surname>Masui</surname><given-names>T.</given-names></name>; <name><surname>Imanaka</surname><given-names>N.</given-names></name>
+<article-title>Novel environment-friendly
+yellow pigments based on
+(Bi, La)VO<sub>4</sub></article-title>. <source>Chem. Lett.</source>
+<year>2011</year>, <volume>40</volume>, <fpage>792</fpage>&#x02013;<lpage>794</lpage>. <pub-id pub-id-type="doi">10.1246/cl.2011.792</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Masui</surname><given-names>T.</given-names></name>; <name><surname>Honda</surname><given-names>T.</given-names></name>; <name><surname>Wendusu</surname></name>; <name><surname>Imanaka</surname><given-names>N.</given-names></name>
+<article-title>Novel and environmentally friendly
+(Bi,Ca,Zn)VO<sub>4</sub> yellow pigments</article-title>. <source>Dyes
+Pigm.</source>
+<year>2013</year>, <volume>99</volume>, <fpage>636</fpage>&#x02013;<lpage>641</lpage>. <pub-id pub-id-type="doi">10.1016/j.dyepig.2013.06.030</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Ke</surname><given-names>S.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Pan</surname><given-names>Z.</given-names></name>
+<article-title>Effects of
+precipitant and surfactant
+on co-precipitation synthesis of Nd<sub>2</sub>Si<sub>2</sub>O<sub>7</sub> ceramic pigment</article-title>. <source>Dyes Pigm.</source>
+<year>2015</year>, <volume>118</volume>, <fpage>145</fpage>&#x02013;<lpage>151</lpage>. <pub-id pub-id-type="doi">10.1016/j.dyepig.2015.03.016</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Kubelka</surname><given-names>P.</given-names></name>; <name><surname>Munk</surname><given-names>F.</given-names></name>
+<article-title>An article on optics
+of paint layers</article-title>. <source>Z. Tech.
+Phys.</source>
+<year>1931</year>, <volume>12</volume>, <fpage>593</fpage>&#x02013;<lpage>601</lpage>.</mixed-citation></ref></ref-list></back></article>

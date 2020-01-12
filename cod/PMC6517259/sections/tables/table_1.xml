@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl1">
+ <label>Table 1</label>
+ <caption>
+  <p>Photovoltaic Parameters of Champion PSCs Measured under an Irradiance of 100 mW cm
+   <sup>−2</sup>, Simulated AM1.5G Sunlight
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>HTL</th>
+    <th>Light Intensity [mW cm
+     <sup>−2</sup>]
+    </th>
+    <th>
+     <inline-formula>
+      <math id="M1" altimg="si1.gif">
+       <mrow>
+        <msubsup>
+         <mi>J</mi>
+         <mrow>
+          <mtext>SC</mtext>
+         </mrow>
+         <mrow>
+          <mtext>IPCE</mtext>
+         </mrow>
+        </msubsup>
+       </mrow>
+      </math>
+     </inline-formula>
+     <xref rid="tblfn1" ref-type="table-fn">a</xref> [mA cm
+     <sup>−2</sup>]
+    </th>
+    <th>
+     <inline-formula>
+      <math id="M2" altimg="si2.gif">
+       <mrow>
+        <msub>
+         <mi>J</mi>
+         <mrow>
+          <mtext>SC</mtext>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>[mA cm
+     <sup>−2</sup>]
+    </th>
+    <th>
+     <inline-formula>
+      <math id="M3" altimg="si3.gif">
+       <mrow>
+        <msub>
+         <mi>V</mi>
+         <mrow>
+          <mtext>OC</mtext>
+         </mrow>
+        </msub>
+       </mrow>
+      </math>
+     </inline-formula>[V]
+    </th>
+    <th>
+     <inline-formula>
+      <math id="M4" altimg="si4.gif">
+       <mrow>
+        <mtext>FF</mtext>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th>
+     <inline-formula>
+      <math id="M5" altimg="si5.gif">
+       <mrow>
+        <mtext>PCE</mtext>
+       </mrow>
+      </math>
+     </inline-formula>[%]
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>O5H-OMeDPA</td>
+    <td align="char">99.0</td>
+    <td align="char">23.76</td>
+    <td align="char">24.48</td>
+    <td align="char">1.081</td>
+    <td align="char">0.788</td>
+    <td align="char">21.03</td>
+   </tr>
+   <tr>
+    <td>Spiro-OMeTAD</td>
+    <td align="char">99.1</td>
+    <td align="char">23.85</td>
+    <td align="char">24.53</td>
+    <td align="char">1.089</td>
+    <td align="char">0.757</td>
+    <td align="char">20.44</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="tblfn1">
+   <label>a</label>
+   <p id="ntpara0015">
+    <inline-formula>
+     <math id="M6" altimg="si1.gif">
+      <mrow>
+       <msubsup>
+        <mi>J</mi>
+        <mrow>
+         <mtext>SC</mtext>
+        </mrow>
+        <mrow>
+         <mtext>IPCE</mtext>
+        </mrow>
+       </msubsup>
+      </mrow>
+     </math>
+    </inline-formula> was derived with wavelength integration of the product of the measured IPCEs at the short-circuit and the standard AM1.5G emission spectrum (ASTM 
+    <ext-link ext-link-type="uri" xlink:href="astm:G173" id="intref0015" xmlns:xlink="http://www.w3.org/1999/xlink">G173-03</ext-link>).
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

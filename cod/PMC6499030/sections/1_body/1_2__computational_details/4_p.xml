@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Calculations performed using the VASP code (Kresse and Furthmueller, 
+ <xref rid="B26" ref-type="bibr">1996</xref>) include projected augmented wave (PAW) pseudopotentials (Bloechl, 
+ <xref rid="B7" ref-type="bibr">1994</xref>; Kresse and Joubert, 
+ <xref rid="B27" ref-type="bibr">1999</xref>) and a plane wave basis set with a cutoff of 500 eV. The SCF cycle stopping criterion was 10
+ <sup>−6</sup> eV. The PBE exchange-correlation functional was supplemented with an onsite U = 4eV terms on the Ti 3
+ <italic>d</italic> orbitals to describe better the electronic structure of the (101) anatase surface and the electron localization on Ti
+ <sup>4+</sup> sites associated with the creation of its most common point defects. Ti PP is described by 4 valence electrons and O by 6 valence electrons. Previous studies on the anatase surface showed this U value provides the best description for the position of the defect-induced Ti gap states with respect to the conduction band minimum of TiO
+ <sub>2</sub> (Cheng and Selloni, 
+ <xref rid="B9" ref-type="bibr">2009</xref>; Aschauer et al., 
+ <xref rid="B4" ref-type="bibr">2010</xref>; Stetsovych et al., 
+ <xref rid="B48" ref-type="bibr">2015</xref>). We included 15 Å of vacuum in order to isolate the two sides of the slab. Defect geometries were accessed using the robust Conjugate Gradient algorithm. Structural optimisation was halted when the value of the largest component of the forces reached a threshold value of 0.01 eV/Å. The Brillouin zone was sampled by a 6 × 6 × 2 MP mesh in bulk anatase calculations, and at Γ point in surface calculations in order to reduce the computational cost. Surface electronic properties were extracted from static calculations featuring a 4 × 4 × 1 MP mesh.
+</p>

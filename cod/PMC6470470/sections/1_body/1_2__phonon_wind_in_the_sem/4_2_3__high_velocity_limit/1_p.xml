@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our use of an isotropic Debye phonon spectrum introduces the limitation 
+ <inline-formula>
+  <math id="mm102">
+   <mrow>
+    <mrow>
+     <mi>v</mi>
+     <mo>&lt;</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> on our present theory. Nonetheless, 
+ <italic>B</italic> does not diverge at 
+ <inline-formula>
+  <math id="mm103">
+   <mrow>
+    <mrow>
+     <mi>v</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>: All divergences within 
+ <italic>B</italic> are inherited from the poles present in the dislocation field, as pointed out in 
+ <xref ref-type="sec" rid="sec2dot1-materials-12-00948">Section 2.1</xref> above. Indeed, those appear at critical velocities 
+ <inline-formula>
+  <math id="mm104">
+   <mrow>
+    <msub>
+     <mi>v</mi>
+     <mi mathvariant="normal">c</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, which depend on the slip geometry, material constants, as well as the dislocation character 
+ <inline-formula>
+  <math id="mm105">
+   <mrow>
+    <mi>ϑ</mi>
+   </mrow>
+  </math>
+ </inline-formula>. To determine the highest degree of divergence, we first recall the study done in Ref. [
+ <xref rid="B14-materials-12-00948" ref-type="bibr">14</xref>] in the purely isotropic limit and only for the transverse phonon modes: There it is found that the highest degree of divergence of a dislocation field for pure edge is 
+ <inline-formula>
+  <math id="mm106">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>/</mo>
+     <msup>
+      <mrow>
+       <mo>(</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <msubsup>
+        <mi>β</mi>
+        <mrow>
+         <mi mathvariant="normal">T</mi>
+        </mrow>
+        <mn>2</mn>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+      <mi>m</mi>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> with 
+ <inline-formula>
+  <math id="mm107">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>β</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+     <mo> </mo>
+     <mo>:</mo>
+     <mo>=</mo>
+     <mi>v</mi>
+     <mo>/</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm108">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at polar angle 
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <mrow>
+     <mi>ϕ</mi>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (or 
+ <inline-formula>
+  <math id="mm110">
+   <mrow>
+    <mi>π</mi>
+   </mrow>
+  </math>
+ </inline-formula>), whereas the one for pure screw exhibited the milder divergence of 
+ <inline-formula>
+  <math id="mm111">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Within 
+ <italic>B</italic>, where the dislocation field enters quadratically and angles 
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <mi>ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula> are integrated over, this leads to initial estimates for the degree of divergence of 
+ <italic>B</italic> of 
+ <inline-formula>
+  <math id="mm113">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mn>3</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for pure edge and 
+ <inline-formula>
+  <math id="mm114">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for pure screw. However, within the purely transverse branch, the kinematic terms in 
+ <inline-formula>
+  <math id="mm115">
+   <mrow>
+    <mo>Γ</mo>
+   </mrow>
+  </math>
+ </inline-formula> additionally suppresses the degree of divergence by 1, ultimately leading to 
+ <inline-formula>
+  <math id="mm116">
+   <mrow>
+    <mrow>
+     <mi>B</mi>
+     <mo>∼</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <msup>
+      <mrow>
+       <mo>(</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <msubsup>
+        <mi>β</mi>
+        <mrow>
+         <mi mathvariant="normal">T</mi>
+        </mrow>
+        <mn>2</mn>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+      <mi>m</mi>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> as 
+ <inline-formula>
+  <math id="mm117">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>β</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+     <mo>→</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> with 
+ <inline-formula>
+  <math id="mm118">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for edge and finite 
+ <italic>B</italic> for screw dislocations.
+</p>

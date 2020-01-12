@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The workchain is kept efficient by always restarting the wave functions from the calculation of the previous stage, and using the Always Correct Predictor-Corrector (ASPC)
+ <sup>
+  <xref ref-type="bibr" rid="ref46">46</xref>
+ </sup> to have a more accurate first guess of coefficients of the wave function at every cell optimization or MD step.
+</p>

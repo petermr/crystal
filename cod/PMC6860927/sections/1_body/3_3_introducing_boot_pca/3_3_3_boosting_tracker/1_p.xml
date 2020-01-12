@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 
+ <italic>Boosting</italic> classifier is very popular in computer vision, showing solid performance in detection and recognition tasks. The first 
+ <italic>boosting</italic> algorithm was proposed over two decades ago [
+ <xref rid="pone.0225041.ref020" ref-type="bibr">20</xref>]. It refers to the combination of multiple ‘weak classifiers’ into a single ‘strong classifier’. A ‘weak classifier’ is a classifier that performs slightly better than random guessing. Random guessing is equivalent to a 50% accuracy on a binary classification task.
+</p>

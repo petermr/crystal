@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="magnetism">
+ <result pre="topological local structural properties. The configurations resulting from Monte Carlo" exact="annealing" post="of the NaK eutectic alloy are analyzed with topological"/>
+ <result pre="by cataloguing the atomic configurations into three distinct phases: liquid," exact="amorphous" post="solid, and crystalline solid. Melting is found at 230 K"/>
+ <result pre="a top down clustering of the atomic configurations catalogued as" exact="amorphous" post="solid. This statistical learning paradigm is not restricted to"/>
+ <result pre="discovery of new material properties. Introduction The characterization of metallic" exact="amorphous" post="solids is more complex than the identification of crystalline"/>
+ <result pre="than the identification of crystalline matter 1 . Currently, bulk" exact="amorphous" post="metals have become useful engineering materials in several applications"/>
+ <result pre="are not as well understood 2 . For example, bulk" exact="amorphous" post="alloys exhibit high strength, peculiar elastic properties, and other"/>
+ <result pre="fate of the liquid eutectic alloy leading to crystalline and" exact="amorphous" post="solids. Indeed, our findings are in full agreement with"/>
+ <result pre="with the goal of neatly identifying the liquid, crystalline, and" exact="amorphous" post="phases that develop along the annealing process. An independent"/>
+ <result pre="the liquid, crystalline, and amorphous phases that develop along the" exact="annealing" post="process. An independent machine learning analysis using exclusively the"/>
+ <result pre="eutectic NaK describes the thermodynamic properties obtained along the thermal" exact="annealing" post="process of the NaK alloy obtained with atomistic simulations"/>
+ <result pre="liquid states that were supercooled below 230 K and became an" exact="amorphous" post="solid below approximately 140 K 31– 33 . Figure 1"/>
+ <result pre="lattice-step ≈0.03 ps, the following cooling/warming rates were applied along the" exact="annealing" post="process. A first cooling process gave rise to the"/>
+ <result pre="starting from the state with crystal character at 160 K, an" exact="annealing" post="process gave rise to the crystalline branch of lower"/>
+ <result pre="states in black dots along the crystalline branch evidencing a" exact="hysteresis" post="as observed in other alloys 34 . The annealing"/>
+ <result pre="a hysteresis as observed in other alloys 34 . The" exact="annealing" post="hysteresis is narrow in eutectic alloys because both metals"/>
+ <result pre="hysteresis as observed in other alloys 34 . The annealing" exact="hysteresis" post="is narrow in eutectic alloys because both metals melt"/>
+ <result pre="in configuration space and the system became a long-lived metastable" exact="amorphous" post="solid 31, 33 . Properties of the liquid were"/>
+ <result pre="the different structural characteristics of the two types of solids," exact="amorphous" post="and crystalline, as illustrated in Figs 2 and 3,"/>
+ <result pre="3 for the crystalline solid and 992.57 kg/m 3 for the" exact="amorphous" post="solid. A clear difference between these two solids is"/>
+ <result pre="crystalline solid match well with the bcc lattice, while the" exact="amorphous" post="solid displays the characteristic structural loss with a double"/>
+ <result pre="By contrast, the solid system depicted in Fig. 3 was" exact="amorphous" post="throughout the occupied volume, had several segregated smaller Na"/>
+ <result pre="grey is Na. Figure 3 Pair correlation functions of the" exact="amorphous" post="solid at 110 K and ρ = 992.57 kg/m 3. A system snapshot"/>
+ <result pre="K matrix and the Na cluster. In contrast, in the" exact="amorphous" post="solid none of the atoms had a bcc crystal"/>
+ <result pre="ico- surroundings. Altogether, an insignificant number of atoms in the" exact="amorphous" post="solid was characterized by a local surrounding with definite"/>
+ <result pre="support that two types of solids were obtained during the" exact="annealing" post="process as previously differentiated by their thermodynamics. There is"/>
+ <result pre="as a crystal. Here, we have predicted that a metastable" exact="amorphous" post="solid state is also reachable below 140 K along an"/>
+ <result pre="amorphous solid state is also reachable below 140 K along an" exact="annealing" post="process. The lower enthalpy branch ranging from 50–230 K pertained"/>
+ <result pre="below that temperature the system had transitioned to a solid," exact="amorphous" post="state. The transition resembled a glass transition. However, the"/>
+ <result pre="amorphous state. The transition resembled a glass transition. However, the" exact="amorphous" post="solid did not display a homogeneous distribution of Na"/>
+ <result pre="display a homogeneous distribution of Na atoms in the K" exact="amorphous" post="matrix as expected in a glass. Instead, an amorphous"/>
+ <result pre="K amorphous matrix as expected in a glass. Instead, an" exact="amorphous" post="matrix of K atoms encased several small clusters of"/>
+ <result pre="was viscous enough to transform definitely into a solid with" exact="amorphous" post="structure but not necessarily a glass. Such temperature depends"/>
+ <result pre="structures (depicted blue) and the positive values correspond to the" exact="amorphous" post="solid plus liquid data with no clear split between"/>
+ <result pre="clearly such clustering analysis is unable of discerning between the" exact="amorphous" post="solid data and the liquid data. The PCA is"/>
+ <result pre="Fig. 1 as being the blue cluster and the combined" exact="amorphous" post="and liquid regions corresponding to the gray-colored cluster. Clustering"/>
+ <result pre="to crystalline structures from our MMC simulations, cluster-black corresponds to" exact="amorphous" post="solid structures, and cluster-red contains the liquid and supercooled"/>
+ <result pre="structures. Black points correspond to structures in cluster-black, which are" exact="amorphous" post="solid. Red points depict structures in cluster-red which are"/>
+ <result pre="crystal class. Meanwhile there was a minor confusion between the" exact="amorphous" post="and the liquid classes, with the liquid class having"/>
+ <result pre="classes, with the liquid class having 99.8% accuracy and the" exact="amorphous" post="class a 98.9% accuracy. In total only 55 structures"/>
+ <result pre="180 K and 240 K. Likewise the 35 structures wrongly classified as" exact="amorphous" post="solid were spread from 170 K to 250 K. Summarizing, the"/>
+ <result pre="three classes that originated from the unsupervised clustering analysis: crystal," exact="amorphous" post="solid, and liquid. Our results demonstrate explicitly the power"/>
+ <result pre="phases. As illustrated in Fig. 5, configurations belonging to the" exact="amorphous" post="and liquid classes displayed thermodynamic a smooth temperature dependence"/>
+ <result pre="a first layer of a hierarchical clustering 48 . The" exact="amorphous" post="class displayed a sharp split of samples into two"/>
+ <result pre="the results. The crossing region between130–170 K was identified as the" exact="amorphous" post="system transitioning to a volume-arrested amorphous solid. The liquid"/>
+ <result pre="was identified as the amorphous system transitioning to a volume-arrested" exact="amorphous" post="solid. The liquid class displayed a softer split of"/>
+ <result pre="clusters obtained from the dataset belonging to ( a) the" exact="amorphous" post="class and ( b) the liquid class. The temperature"/>
+ <result pre="identified as estimate of the supercooled liquid transition to an" exact="amorphous" post="solid where the volume has arrested its decrease. The"/>
+ <result pre="process has revealed the mechanism that the material underwent along" exact="annealing" post="only based on the topological attributes generated from the"/>
+ <result pre="eutectic NaK alloy can be identified, liquid, crystalline solid, and" exact="amorphous" post="solid along the annealing procedure with NPT MMC simulations."/>
+ <result pre="be identified, liquid, crystalline solid, and amorphous solid along the" exact="annealing" post="procedure with NPT MMC simulations. From the current simulations,"/>
+ <result pre="to the three EM clusters: liquid (red), crystalline solid (blue)," exact="amorphous" post="solid (grey). Attributes in Fig. 7(a) displayed higher values"/>
+ <result pre="structures below 200 K, while attributes in Fig. 7(b) favored the" exact="amorphous" post="solid below 200 K. Note that f5, f7, Z and"/>
+ <result pre="suggested that the supercooled liquid had transitioned to a solid" exact="amorphous" post="state below approximately 140 K. The V K and V"/>
+ <result pre="respectively. Clearly shown is a Na volume contraction in the" exact="amorphous" post="solid with respect to the crystalline solid, while the"/>
+ <result pre="( a) Attributes have higher values for crystalline solid than" exact="amorphous" post="solid below 200 K; ( b) attributes have higher values"/>
+ <result pre="below 200 K; ( b) attributes have higher values for the" exact="amorphous" post="solid than crystalline solid below 200 K. Electronic supplementary material"/>
+ <result pre="Sci. 2011 56 379 473 10.1016/j.pmatsci.2010.12.002 3. Johnson WL Bulk" exact="amorphous" post="metal-An emerging engineering material JOM 2002 54 40 43"/>
+ <result pre="&amp;amp; Blaisten-Barojas, E. Monte carlo study of the crystalline and" exact="amorphous" post="NaK alloy. Procedia Comput. Sci. 108, 1215–1221, International Conference"/>
+</results>

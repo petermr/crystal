@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For geometry optimization, we considered the atomic positions to be converged once the maximum force on the atoms dropped below 1.0 millihartree/bohr (as well as a root-mean squared value below 0.7). The threshold for the pressure is set to 100 bar for the cell optimization. For the first stage (preliminary cell optimization) the BFGS minimizer is used. For the second stage (AIMD), an NPT_F
+ <sup>
+  <xref ref-type="bibr" rid="ref43">43</xref>
+ </sup> simulation is performed at 400 K and 1 bar, using the CSVR thermostat
+ <sup>
+  <xref ref-type="bibr" rid="ref44">44</xref>
+ </sup> and the barostat from Martyna et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>
+ </sup> As for the third stage (final cell optimization), the Limited-memory BFGS (L-BFGS) minimizer is employed. Further details on the choice of the convergence threshold and minimizer can be found in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>.
+</p>

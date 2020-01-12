@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <p content-type="toc-graphic">
+  <graphic xlink:href="oc9b00619_0013" id="ab-tgr1" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </p>
+ <p>We present a workflow that traces the path from the bulk structure of a crystalline material to assessing its performance in carbon capture from coal’s postcombustion flue gases. This workflow is applied to a database of 324 covalent–organic frameworks (COFs) reported in the literature, to characterize their CO
+  <sub>2</sub> adsorption properties using the following steps: (1) optimization of the crystal structure (atomic positions and unit cell) using density functional theory, (2) fitting atomic point charges based on the electron density, (3) characterizing the pore geometry of the structures before and after optimization, (4) computing carbon dioxide and nitrogen isotherms using grand canonical Monte Carlo simulations with an empirical interaction potential, and finally, (5) assessing the CO
+  <sub>2</sub> parasitic energy via process modeling. The full workflow has been encoded in the Automated Interactive Infrastructure and Database for Computational Science (AiiDA). Both the workflow and the automatically generated provenance graph of our calculations are made available on the Materials Cloud, allowing peers to inspect every input parameter and result along the workflow, download structures and files at intermediate stages, and start their research right from where this work has left off. In particular, our set of CURATED (Clean, Uniform, and Refined with Automatic Tracking from Experimental Database) COFs, having optimized geometry and high-quality DFT-derived point charges, are available for further investigations of gas adsorption properties. We plan to update the database as new COFs are being reported.
+ </p>
+</abstract>

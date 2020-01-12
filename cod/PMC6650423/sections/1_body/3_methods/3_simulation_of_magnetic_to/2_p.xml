@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">To evaluate the contribution due to the misalignment between the sample and the cantilever (mount misalignment), we introduce 
+ <italic>xyz</italic> coordinates for the cantilever, where the bending direction of the lever is in the 
+ <italic>xy</italic> plane (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6a</xref>). The signal of the cantilever is only sensitive to the torque along the 
+ <italic>z</italic>-axis, because the bending of the lever is limited to the 
+ <italic>xy</italic> plane due to its structure. Signal detected by the lever is 
+ <italic>τ</italic>
+ <sup>lever</sup>=
+ <bold> τ</bold> ⋅ 
+ <bold>e</bold>
+ <sub>
+  <italic>z</italic>
+ </sub> = 
+ <italic>τ</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>
+ <italic>e</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> + 
+ <italic>τ</italic>
+ <sub>
+  <italic>b</italic>
+ </sub>
+ <italic>e</italic>
+ <sub>
+  <italic>b</italic>
+ </sub> + 
+ <italic>τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>
+ <italic>e</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>, where 
+ <bold>e</bold>
+ <sub>
+  <italic>z</italic>
+ </sub> = (
+ <italic>e</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>, 
+ <italic>e</italic>
+ <sub>
+  <italic>b</italic>
+ </sub>, 
+ <italic>e</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>) is the normal unit vector for the bending (
+ <italic>xy</italic>) plane. Thus, when the sample plane is perfectly aligned with the lever, i.e., 
+ <bold>e</bold>
+ <sub>
+  <italic>z</italic>
+ </sub> = (0, 0, 1), only in-plane torque 
+ <italic>τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub> is measured. Of course, in reality, we have unavoidable mount misalignment of the sample with respect to the lever. However, the in-plane anisotropy can be accurately measured under the aligned field condition 
+ <bold>H</bold> = (
+ <italic>H</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>, 
+ <italic>H</italic>
+ <sub>
+  <italic>b</italic>
+ </sub>, 0), because  
+ <bold>τ</bold> = (0, 0, 
+ <italic>τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>) even if mount misalignment is present. In practice, there also exists a small difference between the 
+ <italic>xy</italic> plane of the lever and the 
+ <italic>XY</italic> plane of the rotating stage, which cannot be determined accurately. However, we emphasise that this difference only results in a slight modification of 
+ <bold>e</bold>
+ <sub>
+  <italic>z</italic>
+ </sub> and does not alter our discussion when the magnetic field is correctly applied within the 
+ <italic>ab</italic> plane.
+</p>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For a more detailed analysis of the changes of the Li and Al atomic positions, we calculated the partial coordination numbers (PCNs), 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which give the average number of 
+ <italic>j</italic>-type atoms within the cut-off distance, 
+ <italic>R</italic>
+ <sub>cut</sub>, of an 
+ <italic>i</italic>-type atom from the PDF according to:
+ <disp-formula id="FD2-molecules-24-02667">
+  <label>(2)</label>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∫</mo>
+      </mstyle>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>R</mi>
+        <mrow>
+         <mi>c</mi>
+         <mi>u</mi>
+         <mi>t</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mn>4</mn>
+     <mi>π</mi>
+     <msup>
+      <mi>r</mi>
+      <mn>2</mn>
+     </msup>
+     <mi>ρ</mi>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mi>d</mi>
+     <mi>r</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <mi>ρ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the number density [
+ <xref rid="B26-molecules-24-02667" ref-type="bibr">26</xref>,
+ <xref rid="B27-molecules-24-02667" ref-type="bibr">27</xref>]. The cut-off distance, 
+ <italic>R
+  <sub>cut</sub>
+ </italic>, was selected to be the distance corresponding to the tail of the first peak in the PDF.
+</p>

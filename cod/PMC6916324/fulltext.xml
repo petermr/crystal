@@ -1,0 +1,2163 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Chemistry</journal-id><journal-id journal-id-type="iso-abbrev">Chemistry</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3765</journal-id><journal-id journal-id-type="publisher-id">CHEM</journal-id><journal-title-group><journal-title>Chemistry (Weinheim an Der Bergstrasse, Germany)</journal-title></journal-title-group><issn pub-type="ppub">0947-6539</issn><issn pub-type="epub">1521-3765</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6916324</article-id><article-id pub-id-type="doi">10.1002/chem.201902303</article-id><article-id pub-id-type="publisher-id">CHEM201902303</article-id><article-categories><subj-group subj-group-type="overline"><subject>Full Paper</subject></subj-group><subj-group subj-group-type="heading"><subject>Full Papers</subject><subj-group subj-group-type="heading"><subject>Catalysis from Charge Density</subject></subj-group></subj-group></article-categories><title-group><article-title>New Insights into the Catalytic Activity of Cobalt Orthophosphate Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> from Charge Density Analysis</article-title></title-group><contrib-group><contrib id="chem201902303-cr-0001" contrib-type="author"><name><surname>Keil</surname><given-names>Helena</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7434-8566</contrib-id><xref ref-type="aff" rid="chem201902303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="chem201902303-cr-0002" contrib-type="author"><name><surname>Hellstr&#x000f6;m</surname><given-names>Matti</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3053-5658</contrib-id><xref ref-type="aff" rid="chem201902303-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="chem201902303-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="chem201902303-cr-0003" contrib-type="author"><name><surname>St&#x000fc;ckl</surname><given-names>Claudia</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="chem201902303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="chem201902303-cr-0004" contrib-type="author"><name><surname>Herbst&#x02010;Irmer</surname><given-names>Regine</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-1700-4369</contrib-id><xref ref-type="aff" rid="chem201902303-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="chem201902303-cr-0005" contrib-type="author"><name><surname>Behler</surname><given-names>J&#x000f6;rg</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-1220-1542</contrib-id><xref ref-type="aff" rid="chem201902303-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="chem201902303-cr-0006" contrib-type="author" corresp="yes"><name><surname>Stalke</surname><given-names>Dietmar</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4392-5751</contrib-id><xref ref-type="aff" rid="chem201902303-aff-0001">
+<sup>1</sup>
+</xref><address><email>dstalke@chemie.uni-goettingen.de</email></address></contrib></contrib-group><aff id="chem201902303-aff-0001">
+<label><sup>1</sup></label>
+<institution>Universit&#x000e4;t G&#x000f6;ttingen</institution>
+<named-content content-type="organisation-division">Institut f&#x000fc;r Anorganische Chemie</named-content>
+<named-content content-type="street">Tammannstrasse 4</named-content>
+<postal-code>37977</postal-code>
+<city>G&#x000f6;ttingen</city>
+<country country="DE">Germany</country>
+</aff><aff id="chem201902303-aff-0002">
+<label><sup>2</sup></label>
+<institution>Universit&#x000e4;t G&#x000f6;ttingen</institution>
+<named-content content-type="organisation-division">Institut f&#x000fc;r Physikalische Chemie, Theoretische Chemie</named-content>
+<named-content content-type="street">Tammannstrasse 6</named-content>
+<postal-code>37077</postal-code>
+<city>G&#x000f6;ttingen</city>
+<country country="DE">Germany</country>
+</aff><aff id="chem201902303-aff-0003">
+<label><sup>3</sup></label>
+<institution>Current address: Software for Chemistry and Materials B.V.</institution>
+<named-content content-type="street">De Boelelaan 1083</named-content>
+<postal-code>1081</postal-code>
+<named-content content-type="country-part">HV</named-content>
+<city>Amsterdam</city>
+<country country="NL">The Netherlands</country>
+</aff><pub-date pub-type="epub"><day>08</day><month>11</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>10</day><month>12</month><year>2019</year></pub-date><volume>25</volume><issue>69</issue><issue-id pub-id-type="doi">10.1002/chem.v25.69</issue-id><fpage>15786</fpage><lpage>15794</lpage><history><date date-type="received"><day>20</day><month>5</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Wiley&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley-VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:CHEM-25-15786.pdf"/><abstract><title>Abstract</title><p>An extensive characterization of Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> was performed by topological analysis according to Bader&#x02018;s Quantum Theory of Atoms in Molecules from the experimentally and theoretically determined electron density. This study sheds light on the reactivity of cobalt orthophosphate as a solid&#x02010;state heterogeneous oxidative&#x02010;dehydration and &#x02010;dehydrogenation catalyst. Various faces of the bulk catalyst were identified as possible reactive sites given their topological properties. The charge accumulations and depletions around the two independent five&#x02010; and sixfold&#x02010;coordinated cobalt atoms, found in the topological analysis, are correlated to the orientation and population of the d&#x02010;orbitals. It is shown that the (011) face has the best structural features for catalysis. Fivefold&#x02010;coordinated ions in close proximity to advantageously oriented vacant coordination sites and electron depletions suit the oxygen lone pairs of the reactant, mainly for chemisorption. This is confirmed both from the multipole refinement as well as from density functional theory calculations. Nearby basic phosphate ions are readily available for C&#x02212;H activation.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>How to Cat</bold>: The experimental and theoretical topological analysis of the electron density distribution in Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> identified the (011) face to be best suited for catalysis. Fivefold&#x02010;coordinated Co ions in close proximity to advantageously oriented electron&#x02010;depletion sites suit the reactant's oxygen lone pairs most for chemisorption and heterogeneous C&#x02212;H activation.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="CHEM-25-15786-g009.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="chem201902303-kwd-0001">charge density investigation</kwd><kwd id="chem201902303-kwd-0002">computational chemistry</kwd><kwd id="chem201902303-kwd-0003">cobalt phosphate</kwd><kwd id="chem201902303-kwd-0004">density of states</kwd><kwd id="chem201902303-kwd-0005">solid-state catalysis</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>DFG </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>389479699 / GRK2455</award-id><award-id>329898176 / Be3264/11-2</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Danish National Research Foundation </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001732</institution-id></institution-wrap></funding-source><award-id>DNRF93</award-id></award-group></funding-group><counts><fig-count count="9"/><table-count count="3"/><ref-count count="78"/><page-count count="9"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 10, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.3 mode:remove_FC converted:17.12.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="chem201902303-self">H. Keil, M. Hellstr&#x000f6;m, C. St&#x000fc;ckl, R. Herbst-Irmer, J. Behler, D. Stalke, <italic>Chem. Eur. J.</italic>
+<bold>2019</bold>, <italic>25</italic>, 15786.</mixed-citation>
+</p></notes></front><body><sec id="chem201902303-sec-0001"><title>Introduction</title><p>The synthesis of today's bulk chemicals heavily relies on catalysis, reducing energy consumption and preventing waste in atom&#x02010;economically tailored reaction sequences.<xref rid="chem201902303-bib-0001" ref-type="ref">1</xref>, <xref rid="chem201902303-bib-0002" ref-type="ref">2</xref> The design of appropriate reagents precisely adapted to the specific demand is one of the fundamental objectives in chemistry. Although the exact synthetic targets might differ, the aim is always the same: selective replacement of individual atoms or residues within a material to finetune its properties and by these means its reactivity or functionality. As a major drawback, it is still not always predictable which alterations cause the desired effects. Hence the benchmarking of working models along established concepts is required. The proper understanding of the structure&#x02013;property relationship of a chemical system is vital for the improvement of the materials development process. Electron&#x02010;density (ED) investigations provide an ideal tool for understanding these interactions.<xref rid="chem201902303-bib-0003" ref-type="ref">3</xref> Already in 1932, Pauling<xref rid="chem201902303-bib-0004" ref-type="ref">4</xref> proposed an interrelation between the structure of a compound and its properties:</p><p>&#x0201c;The properties of a compound depend on two main factors, the nature of the bonds between the atoms, and the nature of the atomic arrangement. [&#x02026;] The satisfactory description of the atomic arrangement in a crystal or molecule necessitates the complete determination of the position of the atoms relative to one another.&#x0201d;</p><p>From the knowledge of the distances at the atomic level and the arrangement in the solid phase, many properties both at the molecular and macroscopic scale can be deduced. However, the most basic concepts, such as the chemical bond and reactivity, are still strongly discussable.</p><p>Single&#x02010;crystal structural analyses based on the independent&#x02010;atom model only provide the positions of the centroids of the atoms and the distances between the atoms. In contrast, the multipole model from high&#x02010;resolution data provides physically meaningful properties far beyond simple geometrical considerations. In this paper we investigate the ED in catalytically active cobalt orthophosphate Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (Scheme&#x02005;<xref rid="chem201902303-fig-5001" ref-type="fig">1</xref>) derived from both high&#x02010;resolution diffraction data and density functional theory (DFT) calculations, to get some insight in the various properties contributing to that activity. Not only the bonding is studied but also the ED distribution at the two different metal sites is determined and linked to various substrates.</p><fig fig-type="Scheme" xml:lang="en" id="chem201902303-fig-5001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Catalytic reaction of butan&#x02010;2&#x02010;ol with oxygen to the products butene and butenone.<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p></caption><graphic id="nlm-graphic-3" xlink:href="CHEM-25-15786-g008"/></fig></sec><sec id="chem201902303-sec-0002"><title>Results and Discussion</title><p>Cobalt orthophosphate crystallizes in the monoclinic space group <italic>P</italic>2<sub>1</sub>/<italic>n</italic>, whereas in earlier publications<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, <xref rid="chem201902303-bib-0007" ref-type="ref">7</xref> sometimes the other setting <italic>P</italic>2<sub>1</sub>/<italic>c</italic> was chosen. Furthermore, a metastable phase<xref rid="chem201902303-bib-0008" ref-type="ref">8</xref> of cobalt orthophosphate is known in the nonstandard setting <italic>P</italic>2<sub>1</sub>/<italic>b</italic>. The unit cell contains two formula units of Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>. One of the two independent Co<sup>II</sup> atoms is sixfold coordinated in an approximately ideal octahedral fashion (Figure&#x02005;<xref rid="chem201902303-fig-0001" ref-type="fig">1</xref>&#x02009;a). The second is fivefold coordinated, giving a severely distorted trigonal bipyramidal coordination polyhedron (Figure&#x02005;<xref rid="chem201902303-fig-0001" ref-type="fig">1</xref>&#x02009;b). The octahedrally coordinated Co ion is O&#x02010;corner&#x02010;sharing connected to six different phosphate ions; the Co inside the distorted bipyramidal polyhedron is only connected to four different anions (Figure&#x02005;<xref rid="chem201902303-fig-0002" ref-type="fig">2</xref>). Three of these are corner&#x02010;sharing and one is edge&#x02010;sharing connected to the metal. The asymmetric unit contains only one half of the formula unit, hence the octahedrally coordinated Co atom is located on a symmetry center and the fivefold coordinated Co atom is on a general position. To judge whether the latter polyhedron is closer to a square&#x02010;pyramidal or to a trigonal&#x02010;bipyramidal structure, the &#x003c4; parameter proposed by Addison<xref rid="chem201902303-bib-0009" ref-type="ref">9</xref> was determined. It is defined as <italic>&#x003c4;</italic>=(<italic>&#x003b2;</italic>&#x02212;<italic>&#x003b1;</italic>)60&#x000b0; where <italic>&#x003b2;</italic> is the largest and <italic>&#x003b1;</italic> the second largest ligand&#x02010;metal&#x02010;ligand angle. For an ideal trigonal&#x02010;bipyramidal geometry, <italic>&#x003c4;</italic> is unity and for an ideal square pyramidal geometry zero. Here, <italic>&#x003c4;</italic> adopts a value of 0.67, which suggests a predominately trigonal&#x02010;bipyramidal environment.
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Different environments of a)&#x02005;Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> and b)&#x02005;Co<sup>[5by]</sup>. The coordination polyhedron of phosphorus is colored in magenta and that of Co in bronze.</p></caption><graphic id="nlm-graphic-5" xlink:href="CHEM-25-15786-g001"/></fig><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>An excerpt from the crystal structure of cobalt phosphate, a)&#x02005;alternating layers of phosphates and cobalt atoms and b)&#x02005;connectivity of Co&#x02010;polyhedra. The coordination polyhedra of phosphorus are colored in magenta, those of Co are bronze. a, b, c are lattice constants.</p></caption><graphic id="nlm-graphic-7" xlink:href="CHEM-25-15786-g002"/></fig><p>Detailed bond lengths and angles are provided in the Supporting Information. For the sake of simplicity, the different Co atoms will from now&#x02010;on be termed Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> and Co<sup>[5by]</sup>, respectively, according to Machatschki's terminology.<xref rid="chem201902303-bib-0010" ref-type="ref">10</xref> Figure&#x02005;<xref rid="chem201902303-fig-0002" ref-type="fig">2</xref>&#x02009;a shows the single&#x02010;crystal structure composed from alternating layers of phosphate tetrahedra colored in magenta and Co polyhedra in bronze. The latter are connected through corners and edges to their adjacent Co polyhedra (Figure&#x02005;<xref rid="chem201902303-fig-0002" ref-type="fig">2</xref>&#x02009;b).</p><sec id="chem201902303-sec-0003"><title>Topological analysis</title><p>To model the ED more appropriately than feasible from the independent&#x02010;atom model (IAM), the multipole model (MM), based on the Hansen and Coppens formalism,<xref rid="chem201902303-bib-0011" ref-type="ref">11</xref> was employed. It allows for the description of aspherical ED by spherical harmonics, in which the total density is partitioned in a spherical core density, a spherical valence, and an aspherical deformation valence density. To describe the aspherical density, local coordinate systems are necessary. We used DFT calculations, together with manual judgment, to determine the pertinent local coordinate systems, because the actual coordination polyhedra around the Co ions in Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> are distorted from the ideal polyhedra (for details see the Supporting Information). The definition of the local coordinate systems is found in Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;a and Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;b. The thus derived ED can be investigated by a complete topological analysis according to QTAIM,<xref rid="chem201902303-bib-0012" ref-type="ref">12</xref> based on the experimental diffraction data (MM&#x02010;Expt, MM=multipole model) as well as the structure factor derived from DFT calculations (MM&#x02010;DFT). In the Bader methodology, the presence of bond&#x02010;critical points (BCP) in the molecular graph is a prerequisite for an interaction between two atoms. The features at the BCP are also an indication for the bonding type and the strength of a bond, which might correlate with the distance.<xref rid="chem201902303-bib-0012" ref-type="ref">12</xref> A consistent set of critical points was found for cobalt phosphate. They obey Morse's relation<xref rid="chem201902303-bib-0013" ref-type="ref">13</xref>
+<italic>n</italic>&#x02212;<italic>b</italic>+<italic>r</italic>&#x02212;<italic>c</italic>=0, where <italic>n</italic>, <italic>b</italic>, <italic>r</italic>, and c are the numbers of nuclei, bond, ring, and cage&#x02010;critical points, respectively.
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>a)&#x02005;and b)&#x02005;local coordinate systems for Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> and Co<sup>[5by]</sup>; c) and d)&#x02005;show the deformation density with the iso&#x02010;surface values of &#x000b1;0.65&#x02005;e&#x000c5;<sup>&#x02212;3</sup> for negative charge accumulation in light blue and positive charge in orange; e) and f)&#x02005;show the coordination sites; g) and h)&#x02005;depict the Laplacian with iso&#x02010;surfaces of 240&#x02005;e&#x000c5;<sup>&#x02212;5</sup> (red) and &#x02212;1250&#x02005;e&#x000c5;<sup>&#x02212;5</sup> (dark blue) for the experimental, i) and k)&#x02005;theoretical data with iso&#x02010;surfaces of 260&#x02005;e&#x000c5;<sup>&#x02212;5</sup> (red) and &#x02212;1260&#x02005;e&#x000c5;<sup>&#x02212;5</sup> (dark blue).</p></caption><graphic id="nlm-graphic-9" xlink:href="CHEM-25-15786-g003"/></fig></sec><sec id="chem201902303-sec-0004"><title>Phosphate</title><p>Regarding the nature of the P&#x02212;O bonds in phosphate, there is still a long&#x02010;standing discussion about the presence or absence of double&#x02010;bond character, hence also about the presence or absence of valence expansion at the phosphorus atom. Different theoretical calculations led to various binding models. Molina, Sundberg et&#x02005;al.<xref rid="chem201902303-bib-0014" ref-type="ref">14</xref> investigated the bonding situation of several theoretically calculated and geometry optimized structures by means of QTAIM. They showed that the P&#x02212;O bond in phosphane oxide is best described with a highly polar &#x003c3;&#x02010;bond with a considerable electrostatic contribution. The same is valid for iminophosphoranes.<xref rid="chem201902303-bib-0015" ref-type="ref">15</xref> Durrant<xref rid="chem201902303-bib-0016" ref-type="ref">16</xref> calculated the number of valence electrons at the phosphorus atom in PS<sub>4</sub>
+<sup>3&#x02212;</sup> to be 7.94 and at the sulfur atom in sulfate to be 4.34. He, among many others, regarded the P&#x02212;O bond in phosphate as very polar. For potassium sulfate, the high polarity of the S&#x02212;O bond was already established in an experimental charge&#x02010;density investigation.<xref rid="chem201902303-bib-0017" ref-type="ref">17</xref> In this study, we also show for phosphate that the bond between phosphorus and oxygen is a highly polar covalent bond with no double&#x02010;bond character.<xref rid="chem201902303-bib-0018" ref-type="ref">18</xref> The evidence for this stems from the high ED and a positive Laplacian, the trace of the Hessian matrix of the second derivative of the ED function, at the BCP. As expected, for all four P&#x02212;O bonds a high ED was found at the BCP, which suggests a covalent bond (Table&#x02005;<xref rid="chem201902303-tbl-0001" ref-type="table">1</xref>). The values vary from 1.54 to 1.61&#x02005;e&#x000c5;<sup>&#x02212;3</sup> and are in a good agreement with the theoretical data. For the Laplacian at the BCP, positive values were found in the range of 2&#x02013;5&#x02005;e&#x000c5;<sup>&#x02212;5</sup>, which are slightly higher than those from theory (0&#x02013;3&#x02005;e&#x000c5;<sup>&#x02212;5</sup>). Given that the BCP is located in a rampant edge of the Laplace function, even a small variation in the position of the BCP will cause a tremendous change in the numerical value and sometimes even a change of sign (Table&#x02005;<xref rid="chem201902303-tbl-0001" ref-type="table">1</xref>, Figure&#x02005;S4&#x02010;2, Supporting Information). The ellipticity describes the deviation of the charge density around a bond path from an ideal cylindrical symmetry: <italic>&#x003f5;</italic>=<italic>&#x003bb;</italic>
+<sub>1</sub>
+<italic>&#x003bb;</italic>
+<sub>2</sub>&#x02212;1, where <italic>&#x003bb;</italic>
+<sub>1</sub> and <italic>&#x003bb;</italic>
+<sub>2</sub> correspond to the eigenvectors of the Hessian matrix. Not surprisingly, we found <italic>&#x003f5;</italic> values close to zero for all P&#x02212;O bonds, corresponding to &#x003c3; single bonds. Figure&#x02005;S5&#x02010;1 (Supporting Information) depicts the distances of the BCP from the oxygen&#x02010;atom position from theory (MM&#x02010;DFT) plotted above those from the experiment (MM&#x02010;Expt).
+</p><table-wrap id="chem201902303-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Calculated BCPs and local energy density properties for MM&#x02010;Expt (bold) and MM&#x02010;DFT (normal). <italic>R</italic>: bond path; <italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>) ED at BCP; &#x02207;<sup>2</sup>
+<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>): Laplacian at BCP; <italic>&#x003f5;</italic>: ellipticity of the bond; <italic>G</italic>(<italic>r</italic>
+<sub>BCP</sub>): kinetic energy density at BCP; <italic>V(r</italic>
+<sub>BCP</sub>): potential energy density at BCP; <italic>H</italic>(<italic>r</italic>
+<sub>BCP</sub>): total energy density at BCP. The oxygen atoms marked with an X are generated by the symmetry code. X1: &#x02212;1+<italic>x</italic>, +<italic>y</italic>, +<italic>z</italic>; X2: &#x02212;<mml:math id="nlm-math-1"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>x</italic>, <mml:math id="nlm-math-2"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
+&#x02212;<italic>y</italic>, &#x02212;<mml:math id="nlm-math-3"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>z</italic>; X3: &#x02212;<italic>x</italic>, 1&#x02212;<italic>y</italic>, 1&#x02212;<italic>z</italic>; X4: 1&#x02212;<italic>x</italic>, 1&#x02212;<italic>y</italic>, 1&#x02212;<italic>z</italic>; X5: <mml:math id="nlm-math-4"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
+&#x02212;<italic>x</italic>, <mml:math id="nlm-math-5"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>y</italic>, <mml:math id="nlm-math-6"><mml:mfrac><mml:mn>3</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:math>
+&#x02212;<italic>z</italic>; X6: <mml:math id="nlm-math-7"><mml:mfrac><mml:mn>3</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:math>
+&#x02212;<italic>x</italic>, &#x02212;<mml:math id="nlm-math-8"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>y</italic>, <mml:math id="nlm-math-9"><mml:mfrac><mml:mn>3</mml:mn><mml:mn>2</mml:mn></mml:mfrac></mml:math>
+&#x02212;<italic>z</italic>; X7: <mml:math id="nlm-math-10"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>x</italic>, <mml:math id="nlm-math-11"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
+&#x02212;<italic>y</italic>, &#x02212;<mml:math id="nlm-math-12"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
++<italic>z</italic>; X8: 1+<italic>x</italic>, +<italic>y</italic>, +<italic>z</italic>. A picture of Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> including these oxygen atoms can be found in the Supporting Information. For the sake of clarity, the values shown below have been rounded. The exact values for MM&#x02010;Expt and MM&#x02010;DFT including the standard deviation can be found in the Supporting Information.</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><col align="char" span="1"/><thead valign="top"><tr><th colspan="2" valign="top" align="left" rowspan="1">
+<p>A&#x02013;B</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>R</italic>
+<sub>(A&#x02010;B)</sub>
+</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>R</italic>
+<sub>(A&#x02010;BCP)</sub>
+</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>R</italic>
+<sub>(B&#x02010;BCP)</sub>
+</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02207;<sup>2</sup>
+<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>&#x003f5;</italic>
+</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>G</italic>(<italic>r</italic>
+<sub>BCP</sub>)/<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>|<italic>V</italic>|(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<italic>H</italic>(<italic>r</italic>
+<sub>BCP</sub>)/<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th></tr><tr style="border-bottom:solid 1px #000000"><th colspan="2" valign="top" align="left" rowspan="1">
+<p>&#x02009;</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[&#x000c5;]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[&#x000c5;]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[&#x000c5;]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[e&#x000c5;<sup>&#x02212;3</sup>]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[e&#x000c5;<sup>&#x02212;5</sup>]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[E<sub>h</sub>/e]</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>/<italic>G</italic>(<italic>r</italic>
+<sub>BCP</sub>)</p>
+</th><th valign="top" align="char" rowspan="1" colspan="1">
+<p>[E<sub>h</sub>/e]</p>
+</th></tr></thead><tbody><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O2</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.0565</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0081</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0484</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.41</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>7.48</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.05</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.30</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.00</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.00</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.0563</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0270</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0294</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.43</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>7.32</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.06</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.25</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.06</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.07</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O1&#x02002;X1</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.1438</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0464</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0974</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.33</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>5.66</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.18</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.00</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.00</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.1437</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0662</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0776</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.36</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>5.66</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.07</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.14</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.02</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.03</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O3&#x02002;X5</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.1694</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0555</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.1138</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.32</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>5.26</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.02</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.14</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.97</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.00</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.1694</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0780</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0914</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.34</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>5.17</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.05</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.10</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.05</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.03</p>
+<p>&#x02009;</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O1</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.9774</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9731</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0043</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.52</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>9.94</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.05</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.41</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.05</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;0.08</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.9772</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.9850</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.9922</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.53</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>9.60</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.03</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.37</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.08</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.11</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O2&#x02002;X8</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.2218</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0942</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.1276</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.30</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>4.39</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.05</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.04</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.00</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.2217</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.1099</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.1118</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.30</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>4.31</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.07</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.03</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.03</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.03</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O3&#x02002;X8</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.0190</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9995</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0195</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.46</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>8.43</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.33</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;0.07</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.0189</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0094</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0095</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.47</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>8.23</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.04</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.31</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.05</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.06</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O4&#x02002;X6</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.9889</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9813</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0076</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.51</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>9.64</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.04</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.40</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.04</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;0.06</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.9888</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.9942</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.9946</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.52</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>9.36</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.02</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.36</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.07</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.10</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O4&#x02002;X7</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>2.0079</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9937</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.0143</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.48</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>8.98</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.02</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.37</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;0.06</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.0080</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0033</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.0047</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.49</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>8.75</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.01</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.33</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.06</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.08</p>
+<p>&#x02009;</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>P1</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O1</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.5334</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.6332</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9002</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.59</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>4.82</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.03</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.24</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.83</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;1.02</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.5333</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.6431</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.8902</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.58</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.59</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.01</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.17</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.90</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;1.05</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>P1</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O2</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.5318</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.6327</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.8991</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.61</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>5.04</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.01</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.25</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.82</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;1.02</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.5317</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.6423</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.8894</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.61</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.85</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.00</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.19</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.90</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;1.06</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>P1</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O3</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.5556</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.6417</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9139</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.54</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.93</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.02</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.13</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.93</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;1.05</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.5556</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.6528</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.9028</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.54</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;0.13</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.01</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.07</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>2.01</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;1.07</p>
+</td></tr><tr><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>P1</p>
+</td><td rowspan="2" valign="middle" align="left" colspan="1">
+<p>O4</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.5413</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.6362</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.9051</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.57</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>3.70</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>0.01</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.20</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>1.86</bold>
+</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>
+<bold>&#x02212;1.03</bold>
+</p>
+</td></tr><tr><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.5414</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.6466</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.8948</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.57</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.51</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>0.01</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.13</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>1.94</p>
+</td><td valign="top" align="char" rowspan="1" colspan="1">
+<p>&#x02212;1.06</p>
+</td></tr></tbody></table><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>In the experiment, the BCP is slightly more shifted towards the electropositive phosphorus atom, indicating a marginally higher ionic character in the experimental than in DFT data. Cremer and Kraka<xref rid="chem201902303-bib-0019" ref-type="ref">19</xref> proposed to use the total energy density <italic>H</italic> to classify bonds. For covalent bonds, the potential energy dominates, resulting in a negative total energy compared with closed shell interactions. In addition, as introduced by Espinosa et&#x02005;al.,<xref rid="chem201902303-bib-0020" ref-type="ref">20</xref> the ratio of potential to kinetic&#x02010;energy density |V|G can be used to distinguish between shared, intermediate and closed&#x02010;shell interactions. For a closed&#x02010;shell interaction, the ratio |V|G at the bond&#x02010;critical point is less than unity, for a shared interaction greater than two, and for an intermediate interaction between one and two. The ratios |V|G for the P&#x02212;O bonds ranging from 1.82 to 1.93 [1.90&#x02013;2.01] are much more on the side of the shared interaction. If the ratio of the kinetic&#x02010;energy density per electron density at the BCP is greater than unity, this is indicative for polarity in a bond.</p><p>For the P&#x02212;O bonds in phosphate, we found a <italic>G</italic>(<italic>r</italic>
+<sub>bcp</sub>)<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>bcp</sub>) ratio greater than unity (1.07 to 1.25). Maxima of the negative Laplacian represent Valence&#x02010;Shell Charge Contributions (VSCC). VSCCs in the nonbonding regions are indicative for lone pairs, frequently providing the link to the classical Lewis model and the VSEPR theory.<xref rid="chem201902303-bib-0021" ref-type="ref">21</xref> For the phosphate oxygen atoms, four tetrahedrally oriented VSCCs would be expected due to the sp<sup>3</sup> hybridization.<xref rid="chem201902303-bib-0014" ref-type="ref">14</xref> However, the number of VSCCs could neither be resolved from MM&#x02010;Expt nor from MM&#x02010;DFT. As expected, one bonding VSCC is located near the P&#x02212;O bond axis. The VSCCs in the nonbonding region pointing away from that bond are fused to a toroidal orientation. Even with full refinement of all feasible multipole parameters from theoretical data, it was impossible to resolve them. We refrained from that endeavor because it clearly indicated overfitting.<xref rid="chem201902303-bib-0022" ref-type="ref">22</xref> Local mirror symmetry had to be taken into account. Additionally, the multipole population at all oxygen atoms had to be set to be the same.</p></sec><sec id="chem201902303-sec-0005"><title>Co&#x02212;O Polyhedra</title><p>Compared with the covalent P&#x02212;O bonds, the Co&#x02212;O bonds show a significantly lower ED in the range of approximately 0.32 to 0.52&#x02005;e&#x000c5;<sup>&#x02212;3</sup> at the BCP. The Laplacian at the BCP is significantly more positive and ranges from 4 to 10&#x02005;e&#x000c5;<sup>&#x02212;5</sup>. The ED increase correlates with the reduction in distance. In the theoretical data set, <italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>) is slightly larger for all Co&#x02212;O bonds, showing a larger diversity at the Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>&#x02212;O bonds than the Co<sup>[5by]</sup>&#x02212;O bonds. The found trend also reflects how the shared character increases with the decrease of the coordination number. Except for one, all Co<sup>[5by]</sup>&#x02212;O bonds are shorter and have a greater value for <italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>) than the Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>&#x02212;O bonds (Figure&#x02005;S5&#x02010;2, Supporting Information). This is also valid for many other M&#x02212;O bonds. The value for &#x02207;<sup>2</sup>
+<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>) increases with the decreasing bond distance, which has also been observed for other transition&#x02010;metal&#x02013;oxygen interactions and nonmetal&#x02013;oxygen interactions.<xref rid="chem201902303-bib-0023" ref-type="ref">23</xref> Comparing the difference between the experimental and the theoretical data set, the values for &#x02207;<sup>2</sup>
+<italic>&#x003c1;</italic>(<italic>r</italic>
+<sub>BCP</sub>) in the Co&#x02212;O bond are almost identical. The ratios |V|G for the Co&#x02212;O bonds of 0.97&#x02013;1.05 [1.02&#x02013;1.08 from theory] indicate rather a closed&#x02010;shell interaction. A hint towards slightly shared interaction in the Co&#x02212;O bond is the negative total energy density, <italic>H</italic> (<italic>r</italic>
+<sub>BCP</sub>).</p></sec><sec id="chem201902303-sec-0006"><title>Bader charges</title><p>The Bader charges (Table&#x02005;S4&#x02010;4, Supporting Information) show for both, MM&#x02010;Expt and MM&#x02010;DFT, pronounced positive phosphorus (+3.94&#x02005;e (MM&#x02010;Expt) and +3.69&#x02005;e (MM&#x02010;DFT)) and cobalt atoms (+1.98&#x02005;e (MM&#x02010;Expt) and +1.22&#x02005;e (MM&#x02010;DFT) for Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> and (+1.59&#x02005;e (MM&#x02010;Expt) and +1.11&#x02005;e (MM&#x02010;DFT) for Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>). As expected, the positive charge from both approaches is slightly higher for the six&#x02010; than for the fivefold coordinated metal atom.</p></sec><sec id="chem201902303-sec-0007"><title>Deformation density</title><p>The static deformation density is based on the difference between the total ED from the MM and a spherical reference ED from the IAM. This already provides a very informative picture of the ED distribution around the metal atoms. Regions of negative charge concentrations are depicted in light blue and those of negative charge depletion in orange (Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;c and d). Interestingly, the number of charge&#x02010;concentration regions coincides in both Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> and Co<sup>[5by]</sup>, but not the number of depleted regions. Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> shows only six minima, each directed to the negatively charged oxygen atom of the phosphate, already fueling the idea of an electrostatic Co&#x02212;O interaction. In contrast, Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> shows eight regions of negative deformation density arranged at the eight corners of a cube. Five of the vertices point to a coordinated phosphate oxygen atom each and the remaining three exposed minima are left uncoordinated, indicating free coordination sites.</p></sec><sec id="chem201902303-sec-0008"><title>Laplacian</title><p>The indications of the difference between the Co atoms found in the deformation density are echoed in the Laplacian. Each dark blue array in Figures&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;&#x02013;h represents a VSCC (Table&#x02005;<xref rid="chem201902303-tbl-0002" ref-type="table">2</xref>). The red regions represent the negative charge depletions. At Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> the match between the features of the Laplacian from either the MM&#x02010;Expt and the MM&#x02010;DFT refinement is very good. At Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, in contrast, differences such as the position and number of depletions are clear. The MM&#x02010;DFT data give eight negative charge&#x02010;depletion points arranged into an approximate cube (Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;i), and six VSCCs roughly in the center of the faces formed by the cube of charge depletions.
+</p><table-wrap id="chem201902303-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Experimental maxima of negative charge concentrations around the Co atoms. Listed are the values for the Laplacian, electron density and the distance of the maximum to the atom. The corresponding values for MM&#x02010;DFT are shown in the Supporting Information.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">
+<p>Atom</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>&#x02212;&#x02207;<sup>2</sup>
+<italic>&#x003c1;</italic>
+</p>
+<p>[e&#x000c5;<sup>&#x02212;5</sup>]</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>
+<italic>&#x003c1;</italic>
+</p>
+<p>[e&#x000c5;<sup>&#x02212;3</sup>]</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>d<sub>VSCC&#x02010;atom</sub>
+</p>
+<p>[&#x000c5;]</p>
+</th></tr></thead><tbody><tr><td valign="top" rowspan="1" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1367</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>29.24</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3059</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1424</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>29.62</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3054</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1737</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>30.96</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3028</p>
+<p>&#x02009;</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1793</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>31.53</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3016</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1817</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>31.72</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3014</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1862</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>32.07</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3011</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1889</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>32.32</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3009</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1890</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>32.29</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3009</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>1916</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>32.58</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>0.3008</p>
+</td></tr></tbody></table><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>The vertices of the charge&#x02010;depletion cube do not fully coincide with the ion&#x02013;ligand bonds. In contrast, from the experimental multipole refinement (Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;g), there are only six charge depletions, that form an octahedron with vertices approximately along the six ion&#x02013;ligand bonds.</p></sec><sec id="chem201902303-sec-0009"><title>Density of states and d&#x02010;orbital population</title><p>DFT calculations found the lowest energy when all Co ions were in high&#x02010;spin configurations. Figure&#x02005;<xref rid="chem201902303-fig-0004" ref-type="fig">4</xref> shows the calculated electronic density of states, DOS, for Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>. The high&#x02010;spin complexes cause the spin&#x02010;up (majority spin) and spin&#x02010;down (minority spin) components of the DOS to be quite different from each other. The spin&#x02010;down DOS features well&#x02010;localized Co d&#x02010;states near the valence&#x02010;band maximum (as seen from the partial DOS projected onto the individual Co ions, solid orange line and dashed brown line in Figure&#x02005;<xref rid="chem201902303-fig-0004" ref-type="fig">4</xref>), with a one&#x02010;electron d&#x02013;d&#x02010;gap calculated to be around 2.5&#x02005;eV. The d&#x02013;d transition energy is largely consistent with the experimentally measured absorption maximum for Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> at 590&#x02005;nm (2.10&#x02005;eV);<xref rid="chem201902303-bib-0024" ref-type="ref">24</xref> the HOMO&#x02013;LUMO gap is here assumed to be only a first&#x02010;order approximation to the excitation energy. In contrast, the spin&#x02010;up valence band has significant contributions from both of the two inequivalent Co ions in the range from &#x02212;6 to 0&#x02005;eV (where the zero level is set to the Fermi energy at 0&#x02005;K, <italic>E</italic>
+<sub>F</sub>).
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>DFT&#x02010;calculated electronic density of states (DOS) and partial DOS (PDOS) for Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>. The Fermi level (<italic>E</italic>
+<sub>F</sub>) is set to 0&#x02005;eV.</p></caption><graphic id="nlm-graphic-11" xlink:href="CHEM-25-15786-g004"/></fig><p>The d&#x02010;orbital populations were estimated using the local coordinate systems around Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> and Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> from the multipole model. The DOS was projected onto the individual d&#x02010;orbitals and the populations were found by integrating the DOS up to the Fermi level. The resulting d&#x02010;orbital populations are given in Table&#x02005;<xref rid="chem201902303-tbl-0003" ref-type="table">3</xref> as percentage of the total d&#x02010;populations on the respective atoms. The table also gives the estimated d&#x02010;orbital populations from multipole refinement on the DFT&#x02010;calculated structure factors (MM&#x02010;DFT), as well as from the experimentally obtained structure factors (MM&#x02010;Expt). Table&#x02005;<xref rid="chem201902303-tbl-0003" ref-type="table">3</xref> shows overall satisfactory agreement between both populations, confirming that the high&#x02010;spin state for both Co ions found in the DFT calculations also corresponds to the experiment.
+</p><table-wrap id="chem201902303-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>d&#x02010;Orbital population as percentage of total d&#x02010;population on the respective atoms.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">
+<p>Atom</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>Orbital</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>MM&#x02010;Expt</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>MM&#x02010;DFT</p>
+</th><th valign="top" rowspan="1" colspan="1">
+<p>DFT</p>
+</th></tr></thead><tbody><tr><td valign="top" rowspan="1" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>xz</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>23.4</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>23.3</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>25.2</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>yz</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>23.9</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>23.6</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>22.8</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>xy</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>17.8</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>17.7</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>19.0</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<mml:math id="nlm-math-13"><mml:msub><mml:mrow/><mml:mrow><mml:mi>x</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:mi>y</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>19.1</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>19.2</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>17.2</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<mml:math id="nlm-math-14"><mml:msub><mml:mrow/><mml:mrow><mml:mi>z</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>15.7</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.2</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>15.7</p>
+<p>&#x02009;</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>xz</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>22.2</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>20.6</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>19.9</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>yz</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>22.9</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>21.0</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>22.2</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<sub><italic>xy</italic></sub>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>22.3</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>25.5</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>25.3</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<mml:math id="nlm-math-15"><mml:msub><mml:mrow/><mml:mrow><mml:mi>x</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:mi>y</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.5</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.3</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.2</p>
+</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<p>&#x02009;</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>d<mml:math id="nlm-math-16"><mml:msub><mml:mrow/><mml:mrow><mml:mi>z</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.1</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.7</p>
+</td><td valign="top" rowspan="1" colspan="1">
+<p>16.4</p>
+</td></tr></tbody></table><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>The relative populations behave accordingly to simple crystal&#x02010;field theory: for the distorted trigonal&#x02010;bipyramidal complex around Co<sup>[5by]</sup>, the populations of d<sub><italic>xz</italic></sub> and d<sub><italic>yz</italic></sub> (&#x02248;24&#x02009;% each) are larger than those of <italic>d<sub>xy</sub></italic> and d<mml:math id="nlm-math-17"><mml:msub><mml:mrow/><mml:mrow><mml:mi>x</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:mi>y</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+(&#x02248;18&#x02009;% each), which are larger than the population of d<mml:math id="nlm-math-18"><mml:msub><mml:mrow/><mml:mrow><mml:mi>z</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+(&#x02248;16&#x02009;%). For Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, which has a distorted octahedral coordination environment, the populations of d<sub><italic>xz</italic></sub>, d<sub><italic>yz</italic></sub>, and d<sub><italic>xy</italic></sub> (20&#x02013;25&#x02009;% from DFT calculations, &#x02248;22&#x02009;% from the experimental data) are greater than those of d<mml:math id="nlm-math-19"><mml:msub><mml:mrow/><mml:mrow><mml:mi>x</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup><mml:mo>-</mml:mo><mml:mi>y</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+and d<mml:math id="nlm-math-20"><mml:msub><mml:mrow/><mml:mrow><mml:mi>z</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+(&#x02248;16&#x02009;%). Although there is qualitative agreement in the d<sub><italic>xz</italic></sub>, d<sub><italic>yz</italic></sub>, and d<sub><italic>xy</italic></sub> orbital populations between DFT, MM&#x02010;DFT, and MM&#x02010;Expt for Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, we note that the populations obtained from the two DFT&#x02010;based methods have a noticeably higher population on d<sub><italic>xy</italic></sub> (25&#x02009;%) as compared to d<sub><italic>xz</italic></sub> (20&#x02009;%), whereas this is not the case from the experimental data (in which the orbitals have roughly the same fractional population of 22&#x02009;%).</p><p>We explain this discrepancy as follows: given the 0, d<sub><italic>yz</italic></sub> and d<sub><italic>xy</italic></sub> orbitals at Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> are occupied by only five electrons in a high&#x02010;spin state, there may be several nearly degenerate solutions to the Schr&#x000f6;dinger equation and the present DFT calculations have converged to one of them. To obtain a truly accurate electronic description of the Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> ion, it might therefore be necessary to make use of more advanced computational methods, such as multi&#x02010;reference methods. Still, even with this limitation for Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, the agreement between the DFT calculations and the experiment is very good for Co<sup>[5by]</sup>.</p></sec><sec id="chem201902303-sec-0010"><title>Maximally localized Wannier functions (MLWFs)</title><p>To visualize real&#x02010;space analogs of the electronic bands from the periodic DFT calculations, we calculated maximally localized Wannier functions centered on the Co atoms. The resulting MLWFs had clear connections to the d&#x02010;orbital populations, as well as the locations of the negative charge&#x02010;depletion regions and VSCCs around the Co ions. Given that all five spin&#x02010;up d&#x02010;orbitals are occupied, they form a roughly spherical ED. The two spin&#x02010;down orbitals add to the ED in particular directions, as can be seen from a comparison between the spin&#x02010;down MLWFs and the VSCCs.</p><p>Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;a depicts the negative charge&#x02010;depletion points (red cube) at Co<sup>[5by]</sup>. Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;b&#x02013;c show the spin&#x02010;down MLWFs, pointing towards the directions of the VSCCs. Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;d&#x02013;h show the five spin&#x02010;up MLWFs centered on Co<sup>[5by]</sup>. Interestingly, there is a clear connection between the charge&#x02010;depletion points and the orientation of the spin&#x02010;up MLWFs. In particular, the two MLWFs in Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;d&#x02013;g, which have shapes that are reminiscent of atomic d<mml:math id="nlm-math-21"><mml:msub><mml:mrow/><mml:mrow><mml:mi>z</mml:mi><mml:msup><mml:mrow/><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msub></mml:math>
+orbitals, have one of their lobes pointing towards the charge&#x02010;depletion point along one of the equatorial Co&#x02212;O bonds, and the other lobe pointing towards one of the charge&#x02010;depletion points that does not lie along any Co&#x02212;O bond. In fact, this latter type of charge depletion points towards a small void in the crystal. The MLWFs for Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> are provided in the Supporting Information.
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>a)&#x02005;Positions of the VSCCs (blue) and negative charge depletion (red) around the fivefold coordinated Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> ion as calculated from multipole refinements from DFT. b)&#x02013;h)&#x02005;Maximally localized Wannier functions (isovalue &#x000b1;0.2&#x02005;&#x000c5;<sup>&#x02212;3</sup>) around Co<sup>[5by]</sup>. The chosen local coordinate system is indicated and is illustrated in more detail in Figure&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;a/b. b) and c)&#x02005;show spin&#x02010;down functions (orange and gray), together with the VSCCs (blue octahedron), d)&#x02013;h)&#x02005;represent spin&#x02010;up functions (pink and cyan), together with charge depletion regions (red approximate cube).</p></caption><graphic id="nlm-graphic-13" xlink:href="CHEM-25-15786-g005"/></fig><p>We also consider the charge&#x02010;depletion regions and MLWFs around two edge&#x02010;sharing Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> ions, and correlate these regions to the different orientation at various Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> faces. The two (011) and (110) faces of cobalt orthophosphate expose nearby Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> ions. Figure&#x02005;<xref rid="chem201902303-fig-0006" ref-type="fig">6</xref>&#x02009;a shows a side view of the Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> (011) face. The arrows indicate the two edge&#x02010;sharing Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> atoms in the bulk; at the (011) face (top layer), the two ions only share one ligand in the sub&#x02010;face layer. The MLWF from Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref> is shown superimposed on two of the face Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> ions. The blue lobes pointing out of the face are pointing along negative charge&#x02010;depletion regions. Similarly, at the (110) face (Figure&#x02005;<xref rid="chem201902303-fig-0006" ref-type="fig">6</xref>&#x02009;b), the MLWF from Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;d have lobes pointing out of the face, towards negative charge&#x02010;depletion regions. Considering cooperativity between two nearby Co ions as for example, stabilizing low oxidation states<xref rid="chem201902303-bib-0025" ref-type="ref">25</xref> or molecular conductors of electricity,<xref rid="chem201902303-bib-0026" ref-type="ref">26</xref> this pictures would suggest the crystal plane (011) as clearly catalytically more active than any other.
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Side views of (a)&#x02005;the (011) face, and (b) the (110) face, of Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> shown as ball&#x02010;and&#x02010;stick models. Colors: Co is brown, O is red, and P is magenta. The arrows indicate Co atom pairs with a short distance 3.032&#x02005;&#x000c5; between them. The iso&#x02010;surfaces show two of the MLWFs (&#x000b1;0.08&#x02005;&#x000c5;<sup>&#x02212;3</sup>) from Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;f for the (011) face and Figure&#x02005;<xref rid="chem201902303-fig-0005" ref-type="fig">5</xref>&#x02009;d for the (110) face that have their upward&#x02010;pointing lobes pointing towards negative charge&#x02010;depletion regions around the respective Co ions. Charge analysis was carried out for the bulk crystal.</p></caption><graphic id="nlm-graphic-15" xlink:href="CHEM-25-15786-g006"/></fig></sec><sec id="chem201902303-sec-0011"><title>Considering catalytic abilities from ED</title><p>Phosphates, which contain cobalt and other transition metals, are known to catalyze organic reactions and are therefore in the spotlight of current research. The oxidation of styrene, for example, was realized using a nickel&#x02013;cobalt catalyst.<xref rid="chem201902303-bib-0027" ref-type="ref">27</xref> The reduction of <italic>p</italic>&#x02010;nitrophenol to <italic>p</italic>&#x02010;aminophenol can be effectively catalyzed by nanosized solid solutions of copper/cobalt molybdate and chromium phosphate.<xref rid="chem201902303-bib-0028" ref-type="ref">28</xref> For a detailed study of the cobalt&#x02010;substituted calcium phosphate catalyst, which catalyzes oxidative dehydration and dehydrogenation, Legrouri et&#x02005;al.<xref rid="chem201902303-bib-0029" ref-type="ref">29</xref> used propane&#x02010;2&#x02010;ol as a benchmark substrate for characterizing acid and basic properties of solid&#x02010;state catalysts (Scheme&#x02005;<xref rid="chem201902303-fig-5001" ref-type="fig">1</xref>, see above). The maximum catalytic effect was found at a cobalt content of 0.32, which also represents the maximum solubility of Co in calcium phosphate. The reactivity for ethane, propane, butan&#x02010;2&#x02010;ol, and propanol was studied by Aaddane et&#x02005;al.<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> and plausibility for the reactivity was provided.</p><p>Considering the reaction of butan&#x02010;2&#x02010;ol with oxygen to butene and butenone, at least one of the two reactants must be chemisorbed at the catalyst's surface and thus be activated. If the butanol is adsorbed over several atoms on the surface due to its size, the negative oxygen atom most likely coordinates through the two oxygen lone pairs to an electronically depleted site of cobalt atoms and the positively polarized methyl hydrogen atoms to a nearby basic phosphate site. If we assume differences in the heterogeneous catalytic ability of the solid&#x02010;state faces in cobalt phosphate we need to establish criteria to identify effective catalytic sites.<xref rid="chem201902303-bib-0030" ref-type="ref">30</xref> Given that the crystal structure of cobalt phosphate shows two differently coordinated metal sites, the first question to be asked is whether both Co atoms are equally active, and if not, what causes the differences. If the plain coordination number of the cobalt atoms is considered, the saturated Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> most likely is not tremendously active as it lacks a vacant site for the substrate to interact with. Figures&#x02005;<xref rid="chem201902303-fig-0003" ref-type="fig">3</xref>&#x02009;g and 3&#x02005;h clearly show that there are no free sites at Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref>, whereas Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> holds three of them. However, it has to be kept in mind that Co&#x02010;atoms exposed at the surface inevitably render free coordination sites. Depending on how exposed they are on the surface, the number of free coordination sites also varies, which affects the probability of chemisorption. However, statistically speaking, Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> would still have to have more free coordination sites than Co<xref rid="chem201902303-bib-0006" ref-type="ref">6</xref> at the surface, because they already have three more vacant sites in the bulk. In addition, the present distortion of the geometry will promote catalysis.<xref rid="chem201902303-bib-0031" ref-type="ref">31</xref>
+</p><p>When for example, C&#x02212;C bonds are activated in a substrate by rhodium and nickel catalysts, it is proven that this is a structurally sensitive reaction that takes place on coordinatively unsaturated atom pairs of the d&#x02010;metals on corners or edges of minute crystallites.<xref rid="chem201902303-bib-0002" ref-type="ref">2</xref> Thinking in terms of concepts of homometallic cooperativity,<xref rid="chem201902303-bib-0032" ref-type="ref">32</xref> short distances between the metal centers are needed. In the crystal structure of cobalt phosphate, there are such short distances between two fivefold coordinated edge&#x02010;sharing Co&#x02010;ions (3.032&#x02005;&#x000c5;) (Figure&#x02005;<xref rid="chem201902303-fig-0002" ref-type="fig">2</xref>&#x02009;b) and between a fivefold and a sixfold Co&#x02010;ion (3.145&#x02005;&#x000c5;). According to the Bravais, Friedel, Donnay, and Harker theory,<xref rid="chem201902303-bib-0033" ref-type="ref">33</xref> Figure&#x02005;<xref rid="chem201902303-fig-0007" ref-type="fig">7</xref> shows the four most likely low&#x02010;index crystal faces with Co&#x022c5;&#x022c5;&#x022c5;Co cooperative sites. The layer is chosen such that no covalent bonds are broken in the phosphate and cobalt atoms appear on the surface. The positions of electronically depleted areas found from the multipole refined Laplacians are superimposed onto the surface of the cobalt atoms as black areas. At the (011) face only Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> and O atoms are visible, where the Co atoms occur isolated or in pairs with a short interatomic distance of 3.032&#x02005;&#x000c5;. The Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> atoms face each other in pairs, each exposing three and four vacant coordination sites. The pairs at the edges even have up to six vacant coordination sites per Co atom. They are perfectly arranged to serve as adsorption sites for the two oxygen lone pairs of the butanol molecules, which then &#x003c3;&#x02010;bridges two Co atoms.
+</p><fig fig-type="Figure" xml:lang="en" id="chem201902303-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Space&#x02010;filled view of the four most stable crystal planes of cobalt phosphate according to the Bravais, Friedel, Donnay, and Harker theory. Red: oxygen, bronze: cobalt, phosphorus is hidden inside the O<sub>4</sub> tetrahedra.</p></caption><graphic id="nlm-graphic-17" xlink:href="CHEM-25-15786-g007"/></fig><p>Looking at the other lattice planes from a similar point of view, plane (110) shows similar properties to (011), but all Co&#x02010;atoms are slightly deeper embedded in the surface thus they are much more difficult to be reached by the butanol oxygen atom. At the (10&#x02010;1) face exclusively five&#x02010; and sixfold coordinated cobalt atoms are exposed. Due to the solemnly electronically depleted sites at this surface, the chemisorption of a molecule with both, electron&#x02010;rich and electron&#x02010;poor regions like butan&#x02010;2&#x02010;ol is much more difficult (Figure&#x02005;<xref rid="chem201902303-fig-0007" ref-type="fig">7</xref>).The slightly positive &#x003c3;&#x02010;hydrogen atom H<sup>3</sup> (Scheme&#x02005;<xref rid="chem201902303-fig-5001" ref-type="fig">1</xref>) would probably not find a more basic nearby phosphate site to be activated. The (101) plane also displays Co&#x02010;atom pairs with short metal&#x02013;metal distances but they occur between five&#x02010; and sixfold coordinated Co atom. Furthermore, they are not as well arranged as at the (011) plane. Hence, we conclude that (011) plane is the catalytically most active.</p><p>Finally, we note that the above arguments were made based on the ED for the bulk crystal. To verify that the predicted adsorption of for example butan&#x02010;2&#x02010;ol onto the Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> at the (011) surface is favorable, we used DFT to calculate the adsorption energy of butan&#x02010;2&#x02010;ol onto several different adsorption sites for two different surface terminations of the (011) surface and found the predicted adsorption site to be indeed the most favorable (see the Supporting Information) as expected, confirming that the bulk ED can be used as a tool to qualitatively predict adsorption behavior at the surface. Nevertheless, the surface structure of a real catalyst may deviate from bulk&#x02010;truncated cuts, and so based on this analysis we cannot fully exclude the presence of additional relevant active sites and surface facets. However, insofar as the catalyst surface structure resembles any of the low&#x02010;index surfaces, the (011) surface has the right structural features and ED for catalytic conversion.</p></sec></sec><sec id="chem201902303-sec-0012"><title>Conclusions</title><p>An extensive characterization of cobalt phosphate using topological analysis and theoretical methods for experimental and theoretical electron&#x02010;density distribution was performed. The P&#x02212;O bonds were identified as polar single bonds in which the BCP is considerably shifted to the phosphorus atom. The Co&#x02212;O bonds can be described as closed&#x02010;shell interaction. The calculated MLWFs have a clear connection to the d&#x02010;orbital occupation, as well as the position of the charge&#x02010;depletion centers. In the solid state, the two independent cobalt atoms exhibit different numbers of charge depletion sites in the valence shell. Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> has, in addition to the charge depletions directed towards the negatively charged phosphate oxygen atoms, three additional vacant coordination sites. This suggests that the nucleophilic attack on Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> is much more likely. These depletions, congruent with the unoccupied or partially occupied d&#x02010;orbitals, were analyzed on the face of different solid&#x02010;state surfaces. It has been shown that the (011) face is the most suitable for catalytic oxidative dehydrogenation or dehydrogenation, showing Co<sup>[5by]</sup>&#x022c5;&#x022c5;&#x022c5;Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> cooperativity. There are sufficient acidic and basic sites for the chemisorption of butan&#x02010;2&#x02010;ol available. On this face Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> ions and phosphate ions are the most accessible; therefore, this surface is best equipped to activate both, the C&#x02212;H and O&#x02212;H bonds. Furthermore, the lobes of the MLWFs of both cooperative Co<xref rid="chem201902303-bib-0005" ref-type="ref">5</xref> atoms face each other to address both oxygen lone pairs of the substrate. The investigations show that the concerted but independent experimental and theoretical determination of charge&#x02010;density distribution is a valuable tool to rationalize catalytic active materials.</p></sec><sec id="chem201902303-sec-0013"><title>Experimental Section</title><p>
+<bold>High&#x02010;resolution structure determination</bold>: Cobalt orthophosphate was purchased as powder from Alfa Aesar. Given that it is not soluble in any conventional organic solvents, it was crystallized from the melt. The solid was heated to 1180&#x02009;&#x000b0;C under air atmosphere in a chamber oven, then cooled to 500&#x02009;&#x000b0;C, tempered for one hour and finally cooled down to room temperature. The crystallization approach known from the Ref.&#x02005;<xref rid="chem201902303-bib-0007" ref-type="ref">7</xref> in slightly modified form was also tested, but did not produce better single crystals. A violet single crystal of 45&#x000d7;90&#x000d7;100&#x02005;&#x003bc;m in size was mounted at room temperature on the goniometer using inert perfluorinated polyether oil and cooled to 100&#x02005;K.</p><p>High&#x02010;resolution X&#x02010;ray diffraction data were collected on a Bruker SMART APEX II diffractometer based on D8 three&#x02010;circle goniometer system using an Incoatec microfocus AgK&#x003b1; source (I&#x003bc;S) and Incoatec QUAZAR mirror optics.<xref rid="chem201902303-bib-0034" ref-type="ref">34</xref> A Bruker APEX II CCD detector was used to record the diffracted intensities at <italic>&#x003bb;</italic>=0.56086&#x02005;&#x000c5;. Data reduction was carried out with SAINT<xref rid="chem201902303-bib-0035" ref-type="ref">35</xref> (version 8.30C) from the APEX2<xref rid="chem201902303-bib-0036" ref-type="ref">36</xref> program package in which the integration box sizes were refined for every run using a standard procedure. The data were scaled and equivalent reflections were merged with SADABS<xref rid="chem201902303-bib-0037" ref-type="ref">37</xref> (version 2016/2). An empirical absorption correction for a strong absorber was also performed with SADABS. Afterwards the structure was solved with SHELXT<xref rid="chem201902303-bib-0038" ref-type="ref">38</xref> using the direct methods and refined by full&#x02010;matrix least square against <italic>F</italic>
+<sup>2</sup> using SHELXL<xref rid="chem201902303-bib-0039" ref-type="ref">39</xref> (version 2018/1) by means of the graphical user interface SHELXle.<xref rid="chem201902303-bib-0040" ref-type="ref">40</xref> Topological analysis according to the Quantum Theory of Atoms in Molecules<xref rid="chem201902303-bib-0012" ref-type="ref">12</xref> (QTAIM) was performed using the XDPROP and TOPXD programs included in the XD package.<xref rid="chem201902303-bib-0041" ref-type="ref">41</xref> Crystallographic details are provided in Table&#x02005;S1&#x02010;1, Supporting Information.</p><p>
+<bold>DFT calculations</bold>: Periodic DFT calculations were performed on the experimentally obtained Co<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> crystal structure using the WIEN2k program package version 17.1.<xref rid="chem201902303-bib-0042" ref-type="ref">42</xref> The composition of the conventional unit cell is Co<sub>6</sub>(PO<sub>4</sub>)<sub>4</sub>. Spin&#x02010;polarized calculations were performed using the PBE+U functional (<italic>U<sub>eff</sub></italic>=<italic>U</italic>&#x02212;<italic>J=</italic>3&#x02005;eV). The value of <italic>U<sub>eff</sub></italic> was chosen on the basis of previous studies for cobalt oxides and hydroxides.<xref rid="chem201902303-bib-0043" ref-type="ref">43</xref> Although the value of <italic>U<sub>eff</sub></italic> affects the calculated (one&#x02010;electron) band gap and dd transition level, we have verified that other choices (<italic>U<sub>eff</sub></italic>=1&#x02005;eV, <italic>U<sub>eff</sub></italic>=4&#x02005;eV) do not affect the qualitative results of this study, in particular as pertains to the shape and orientation of the maximally localized Wannier functions<xref rid="chem201902303-bib-0044" ref-type="ref">44</xref> (MLWFs). The calculations were performed using the linearized augmented plane wave (LAPW) method with <italic>RK</italic>
+<sub>max</sub>=8.5. The Brillouin zone was sampled with a 19&#x000d7;11&#x000d7;13&#x02005;k&#x02010;point grid, corresponding to 744 irreducible k&#x02010;points; the total energy was then converged within 3&#x02005;meV as compared to a 9&#x000d7;5&#x000d7;6&#x02005;k&#x02010;point grid. The lowest&#x02010;energy structure was found when all Co ions were in high&#x02010;spin configurations. We do not consider any magnetic ordering or relative alignment of spins, because the experiments in the current study were conducted at <italic>T</italic>=100&#x02005;K at which temperature the compound is paramagnetic. MLWFs were calculated using the WIEN2k Wannier interface to the wannier90 program<xref rid="chem201902303-bib-0045" ref-type="ref">45</xref> (i)&#x02005;by projecting the 12&#x02005;highest occupied spin&#x02010;down bands (two occupied bands per Co ion) onto the Co d&#x02010;orbitals, and (ii)&#x02005;by projecting the highest 62 occupied spin&#x02010;up bands onto the 30&#x02005;Co d&#x02010;orbitals in the conventional unit cell. We attempted several different rotations for the initial projections, but found that all of them converged to the same final result. The MLWFs were plotted using VMD.<xref rid="chem201902303-bib-0046" ref-type="ref">46</xref> The X&#x02010;ray structure factors used as input for the multipole model were calculated for reflections up to sin <italic>&#x003b8;</italic>
+<italic>&#x003bb;</italic>&#x0003c;1.61&#x02005;&#x000c5;<sup>&#x02212;1</sup> using the WIEN2k lapw3 program. We also performed periodic surface DFT calculations using Quantum ESPRESSO,<xref rid="chem201902303-bib-0047" ref-type="ref">47</xref> and molecular DFT calculations using ADF.<xref rid="chem201902303-bib-0048" ref-type="ref">48</xref> The details of those calculations are given in the Supporting Information.</p></sec><sec sec-type="COI-statement" id="chem201902303-sec-0015"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="CHEM-25-15786-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="chem201902303-sec-0014"><title>Acknowledgements</title><p>All authors thank Dr. F. G&#x000fc;thoff and P. Kirscht from the group of Prof. Dr. G. Eckold for input on crystallization. D.S. thanks the Danish National Research Foundation (DNRF93) funded Center for Materials Crystallography (CMC) for partial support. D.S. and J.B. thank the Deutsche Forschungsgemeinschaft for funding (389479699/ GRK2455). J.B. is grateful for a DFG Heisenberg professorship (329898176/ Be3264/11&#x02010;2). M.H. acknowledges funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 798129.</p></ack><ref-list><ref id="chem201902303-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0001">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0001a"><label>1a</label><mixed-citation publication-type="book" id="chem201902303-cit-0002">
+<string-name>
+<given-names>B.</given-names>
+<surname>Cornils</surname>
+</string-name>, <string-name>
+<given-names>W. A.</given-names>
+<surname>Herrmann</surname>
+</string-name>, <source xml:lang="en">Applied Homogenous Catalysis with Organometallic Compounds</source>, <publisher-name>VCH</publisher-name>, <publisher-loc>Weinheim</publisher-loc>, <year>1996</year>;</mixed-citation></ref><ref id="chem201902303-bib-0001b"><label>1b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0003">
+<string-name>
+<given-names>P.</given-names>
+<surname>Gandeepan</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Zell</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Cera</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Warratz</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Ackermann</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2019</year>, <volume>119</volume>, <fpage>2192</fpage>;<pub-id pub-id-type="pmid">30480438</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0001c"><label>1c</label><mixed-citation publication-type="journal" id="chem201902303-cit-0004">
+<string-name>
+<given-names>S.</given-names>
+<surname>Santoro</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Kozhushkov</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Ackermann</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Vaccaro</surname>
+</string-name>, <source xml:lang="en">Green Chem.</source>
+<year>2016</year>, <volume>18</volume>, <fpage>3471</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0002"><label>2</label><mixed-citation publication-type="book" id="chem201902303-cit-0005">
+<string-name>
+<given-names>W.</given-names>
+<surname>Reschetilowski</surname>
+</string-name>, <source xml:lang="en">Einf&#x000fc;hrung in die Heterogene Katalyse</source>, <publisher-name>Springer Spektrum</publisher-name>, <publisher-loc>Berlin</publisher-loc>, <year>2015</year>.</mixed-citation></ref><ref id="chem201902303-bib-0003"><label>3</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0006">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0003a"><label>3a</label><mixed-citation publication-type="book" id="chem201902303-cit-0007">
+<string-name>
+<given-names>C.</given-names>
+<surname>Gatti</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Macchi</surname>
+</string-name>, <source xml:lang="en">Modern Charge Density Analysis</source>, <publisher-name>Springer</publisher-name>, <publisher-loc>Heidelberg, London, New York</publisher-loc>, <year>2012</year>;</mixed-citation></ref><ref id="chem201902303-bib-0003b"><label>3b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0008">
+<string-name>
+<given-names>U.</given-names>
+<surname>Flierler</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">Struct. Bonding (Berlin)</source>
+<year>2012</year>, <volume>146</volume>, <fpage>1</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0003c"><label>3c</label><mixed-citation publication-type="journal" id="chem201902303-cit-0009">
+<string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">Struct. Bonding (Berlin)</source>
+<year>2016</year>, <volume>169</volume>, <fpage>57</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0003d"><label>3d</label><mixed-citation publication-type="journal" id="chem201902303-cit-0010">
+<string-name>
+<given-names>P.</given-names>
+<surname>Coppens</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2005</year>, <volume>44</volume>, <fpage>6810</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="chem201902303-cit-0011">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2005</year>, <volume>117</volume>, <fpage>6970</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0003e"><label>3e</label><mixed-citation publication-type="journal" id="chem201902303-cit-0012">
+<string-name>
+<given-names>C.</given-names>
+<surname>Gatti</surname>
+</string-name>, <source xml:lang="en">Z. Kristallogr.</source>
+<year>2005</year>, <volume>220</volume>, <fpage>399</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0003f"><label>3f</label><mixed-citation publication-type="journal" id="chem201902303-cit-0013">
+<string-name>
+<given-names>A.</given-names>
+<surname>Genoni</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Bu&#x0010d;insk&#x000fd;</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Claiser</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Contreras-Garc&#x000ed;a</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Dittrich</surname>
+</string-name>, <string-name>
+<given-names>P. M.</given-names>
+<surname>Dominiak</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Espinosa</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Gatti</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Giannozzi</surname>
+</string-name>, <string-name>
+<given-names>J.-M.</given-names>
+<surname>Gillet</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Jayatilaka</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Macchi</surname>
+</string-name>, <string-name>
+<given-names>A. &#x000d8;.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Massa</surname>
+</string-name>, <string-name>
+<given-names>C. F.</given-names>
+<surname>Matta</surname>
+</string-name>, <string-name>
+<given-names>K. M.</given-names>
+<surname>Merz</surname>&#x02005;
+<suffix>Jr.</suffix>
+</string-name>, <string-name>
+<given-names>P. N. H.</given-names>
+<surname>Nakashima</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Ott</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Ryde</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Sierka</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Grabowsky</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2018</year>, <volume>24</volume>, <fpage>10881</fpage>;<pub-id pub-id-type="pmid">29488652</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0003g"><label>3g</label><mixed-citation publication-type="journal" id="chem201902303-cit-0014">
+<string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2011</year>, <volume>17</volume>, <fpage>9264</fpage>.<pub-id pub-id-type="pmid">21717511</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="chem201902303-cit-0015">
+<string-name>
+<given-names>L.</given-names>
+<surname>Pauling</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1932</year>, <volume>54</volume>, <fpage>988</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="chem201902303-cit-0016">
+<string-name>
+<given-names>A.</given-names>
+<surname>Aaddane</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kacimi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ziyad</surname>
+</string-name>, <source xml:lang="en">Catal. Lett.</source>
+<year>2001</year>, <volume>73</volume>, <fpage>47</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="chem201902303-cit-0017">
+<string-name>
+<given-names>A. G.</given-names>
+<surname>Nord</surname>
+</string-name>, <string-name>
+<given-names>D. P.</given-names>
+<surname>Novak</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Borgan</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>&#x000d8;stvold</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Bj&#x000f8;rseth</surname>
+</string-name>, <string-name>
+<given-names>D. L.</given-names>
+<surname>Powell</surname>
+</string-name>, <source xml:lang="en">Acta Chem. Scand. A</source>
+<year>1974</year>, <volume>28</volume>, <fpage>150</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="chem201902303-cit-0018">
+<string-name>
+<given-names>J. B.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Kostiner</surname>
+</string-name>, <string-name>
+<given-names>M. C.</given-names>
+<surname>Miller</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Rea</surname>
+</string-name>, <source xml:lang="en">J. Solid State Chem.</source>
+<year>1975</year>, <volume>14</volume>, <fpage>372</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="chem201902303-cit-0019">
+<string-name>
+<given-names>G.</given-names>
+<surname>Berthet</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Joubert</surname>
+</string-name>, <string-name>
+<given-names>E. F.</given-names>
+<surname>Bertaut</surname>
+</string-name>, <source xml:lang="en">Z. Kristallogr.</source>
+<year>1972</year>, <volume>136</volume>, <fpage>98</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="chem201902303-cit-0020">
+<string-name>
+<given-names>A. W.</given-names>
+<surname>Addison</surname>
+</string-name>, <string-name>
+<given-names>T. N.</given-names>
+<surname>Rao</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Reedijk</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>van Rijn</surname>
+</string-name>, <string-name>
+<given-names>G. C.</given-names>
+<surname>Verschoor</surname>
+</string-name>, <source xml:lang="en">J. Chem. Soc. Dalton Trans.</source>
+<year>1984</year>, <fpage>1349</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0021">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0010a"><label>10a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0022">
+<string-name>
+<given-names>F.</given-names>
+<surname>Machatschki</surname>
+</string-name>, <source xml:lang="en">Monatsh. Chem.</source>
+<year>1947</year>, <volume>77</volume>, <fpage>333</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0010b"><label>10b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0023">
+<string-name>
+<given-names>J.</given-names>
+<surname>Lima-de-Faria</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Hellner</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Liebau</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Makovicky</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Parth&#x000e9;</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. A</source>
+<year>1990</year>, <volume>46</volume>, <fpage>1</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="chem201902303-cit-0024">
+<string-name>
+<given-names>N. K.</given-names>
+<surname>Hansen</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Coppens</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. B</source>
+<year>1978</year>, <volume>34</volume>, <fpage>909</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0012"><label>12</label><mixed-citation publication-type="book" id="chem201902303-cit-0025">
+<string-name>
+<given-names>R. F. W.</given-names>
+<surname>Bader</surname>
+</string-name>, <source xml:lang="en">Atoms in Molecules. A Quantum Theory</source>, <publisher-name>Clarendon Press</publisher-name>, <publisher-loc>Oxford, New York</publisher-loc>, <year>1990</year>.</mixed-citation></ref><ref id="chem201902303-bib-0013"><label>13</label><mixed-citation publication-type="book" id="chem201902303-cit-0026">
+<string-name>
+<given-names>W.</given-names>
+<surname>Jones</surname>
+</string-name>, <string-name>
+<surname>March</surname>
+</string-name>, <string-name>
+<surname>Norman</surname>
+</string-name>, <string-name>
+<surname>Henry</surname>
+</string-name>, <source xml:lang="en">Theoretical Solid State Physics. Volume 1: Perfect Lattices in Equilibrium</source>, <publisher-name>Dover Publications Inc.</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>1985</year>.</mixed-citation></ref><ref id="chem201902303-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="chem201902303-cit-0027">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Dobado</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Mart&#x000ed;nez-Garc&#x000ed;a</surname>
+</string-name>, <string-name>
+<surname>Molina</surname>
+</string-name>, <string-name>
+<given-names>M. R.</given-names>
+<surname>Sundberg</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1998</year>, <volume>120</volume>, <fpage>8461</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="chem201902303-cit-0028">
+<string-name>
+<given-names>D.</given-names>
+<surname>Leusser</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Henn</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Kocher</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Engels</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2004</year>, <volume>126</volume>, <fpage>1781</fpage>.<pub-id pub-id-type="pmid">14871110</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0016"><label>16</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0029">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0016a"><label>16a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0030">
+<string-name>
+<given-names>M. C.</given-names>
+<surname>Durrant</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>6614</fpage>;<pub-id pub-id-type="pmid">30090275</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0016b"><label>16b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0031">
+<string-name>
+<given-names>R. D.</given-names>
+<surname>Harcourt</surname>
+</string-name>, <string-name>
+<given-names>T. M.</given-names>
+<surname>Klap&#x000f6;tke</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>3443</fpage>;<pub-id pub-id-type="pmid">29999045</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0016c"><label>16c</label><mixed-citation publication-type="journal" id="chem201902303-cit-0032">
+<string-name>
+<given-names>M. C.</given-names>
+<surname>Durrant</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>3448</fpage>.<pub-id pub-id-type="pmid">29999044</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="chem201902303-cit-0033">
+<string-name>
+<given-names>M. S.</given-names>
+<surname>Schm&#x000f8;kel</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Cenedese</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Overgaard</surname>
+</string-name>, <string-name>
+<given-names>M. R. V.</given-names>
+<surname>J&#x000f8;rgensen</surname>
+</string-name>, <string-name>
+<given-names>Y.-S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Gatti</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <string-name>
+<given-names>B. B.</given-names>
+<surname>Iversen</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>8607</fpage>.<pub-id pub-id-type="pmid">22834961</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="chem201902303-cit-0034">
+<string-name>
+<given-names>M.</given-names>
+<surname>Fugel</surname>
+</string-name>, <string-name>
+<given-names>L. A.</given-names>
+<surname>Malaspina</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Pal</surname>
+</string-name>, <string-name>
+<given-names>S. P.</given-names>
+<surname>Thomas</surname>
+</string-name>, <string-name>
+<given-names>M. W.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Spackman</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Sugimoto</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Grabowsky</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2019</year>, <volume>25</volume>, <fpage>6523</fpage>.<pub-id pub-id-type="pmid">30759315</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="chem201902303-cit-0035">
+<string-name>
+<given-names>D.</given-names>
+<surname>Cremer</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Kraka</surname>
+</string-name>, <source xml:lang="en">Croat. Chem. Acta</source>
+<year>1984</year>, <volume>56</volume>, <fpage>1259</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="chem201902303-cit-0036">
+<string-name>
+<given-names>E.</given-names>
+<surname>Espinosa</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Alkorta</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Elguero</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Molins</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>2002</year>, <volume>117</volume>, <fpage>5529</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0021"><label>21</label><mixed-citation publication-type="book" id="chem201902303-cit-0037">
+<string-name>
+<given-names>R. J.</given-names>
+<surname>Gillespie</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Hargittai</surname>
+</string-name>, <source xml:lang="en">The VSEPR model of molecular geometry</source>, <publisher-name>Allyn and Bacon</publisher-name>, <publisher-loc>Boston, London</publisher-loc>, <year>1991</year>.</mixed-citation></ref><ref id="chem201902303-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="chem201902303-cit-0038">
+<string-name>
+<given-names>L.</given-names>
+<surname>Krause</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Niep&#x000f6;tter</surname>
+</string-name>, <string-name>
+<given-names>C. J.</given-names>
+<surname>Sch&#x000fc;rmann</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Herbst-Irmer</surname>
+</string-name>, <source xml:lang="en">IUCrJ</source>
+<year>2017</year>, <volume>4</volume>, <fpage>420</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0023"><label>23</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0039">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0023a"><label>23a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0040">
+<string-name>
+<given-names>G. V.</given-names>
+<surname>Gibbs</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Spackman</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Jayatilaka</surname>
+</string-name>, <string-name>
+<given-names>K. M.</given-names>
+<surname>Rosso</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>Cox</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>2006</year>, <volume>110</volume>, <fpage>12259</fpage>;<pub-id pub-id-type="pmid">17078623</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0023b"><label>23b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0041">
+<string-name>
+<given-names>G. V.</given-names>
+<surname>Gibbs</surname>
+</string-name>, <string-name>
+<given-names>R. T.</given-names>
+<surname>Downs</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>Cox</surname>
+</string-name>, <string-name>
+<given-names>K. M.</given-names>
+<surname>Rosso</surname>
+</string-name>, <string-name>
+<given-names>N. L.</given-names>
+<surname>Ross</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kirfel</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Lippmann</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Morgenroth</surname>
+</string-name>, <string-name>
+<given-names>T. D.</given-names>
+<surname>Crawford</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. A</source>
+<year>2008</year>, <volume>112</volume>, <fpage>8811</fpage>.<pub-id pub-id-type="pmid">18714960</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0024"><label>24</label><mixed-citation publication-type="book" id="chem201902303-cit-0042">
+<string-name>
+<given-names>A.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <source xml:lang="en">Dissertation</source>, <publisher-name>Justus-Liebig-Universit&#x000e4;t Gie&#x000df;en</publisher-name>, <publisher-loc>Gie&#x000df;en</publisher-loc>, <year>2002</year>.</mixed-citation></ref><ref id="chem201902303-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="chem201902303-cit-0043">
+<string-name>
+<given-names>K. C.</given-names>
+<surname>Mondal</surname>
+</string-name>, <string-name>
+<given-names>P. P.</given-names>
+<surname>Samuel</surname>
+</string-name>, <string-name>
+<given-names>H. W.</given-names>
+<surname>Roesky</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Carl</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Herbst-Irmer</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Schwederski</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Kaim</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Ungur</surname>
+</string-name>, <string-name>
+<given-names>L. F.</given-names>
+<surname>Chibotaru</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hermann</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Frenking</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2014</year>, <volume>136</volume>, <fpage>1770</fpage>.<pub-id pub-id-type="pmid">24437683</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="chem201902303-cit-0044">
+<string-name>
+<given-names>S. R.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name>
+<given-names>M. K.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Scheins</surname>
+</string-name>, <string-name>
+<given-names>Y.-S.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Finkelmeier</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Overgaard</surname>
+</string-name>, <string-name>
+<given-names>B. B.</given-names>
+<surname>Iversen</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>1313</fpage>.<pub-id pub-id-type="pmid">24192864</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="chem201902303-cit-0045">
+<string-name>
+<given-names>D.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>Q.</given-names>
+<surname>Gao</surname>
+</string-name>, <source xml:lang="en">Microporous Mesoporous Mater.</source>
+<year>2005</year>, <volume>85</volume>, <fpage>365</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="chem201902303-cit-0046">
+<string-name>
+<given-names>T. K.</given-names>
+<surname>Ghorai</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Dhak</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Azizan</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Pramanik</surname>
+</string-name>, <source xml:lang="en">Mater. Sci. Eng. B</source>
+<year>2005</year>, <volume>121</volume>, <fpage>216</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0029"><label>29</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0047">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0029a"><label>29a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0048">
+<string-name>
+<given-names>A.</given-names>
+<surname>Legrouri</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Lenzi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lenzi</surname>
+</string-name>, <source xml:lang="en">React. Kinet. Catal. Lett.</source>
+<year>1997</year>, <volume>62</volume>, <fpage>313</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0029b"><label>29b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0049">
+<string-name>
+<given-names>A.</given-names>
+<surname>Legrouri</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Lenzi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lenzi</surname>
+</string-name>, <source xml:lang="en">React. Kinet. Catal. Lett.</source>
+<year>1998</year>, <volume>65</volume>, <fpage>227</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="chem201902303-cit-0050">
+<string-name>
+<given-names>H. S.</given-names>
+<surname>Taylor</surname>
+</string-name>, <source xml:lang="en">Proc. R. Soc. London Ser. A</source>
+<year>1925</year>, <volume>108</volume>, <fpage>105</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="chem201902303-cit-0051">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Sohtome</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Nakamura</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Muranaka</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Hashizume</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Lectard</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Tsuchimoto</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Uchiyama</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Sodeoka</surname>
+</string-name>, <source xml:lang="en">Nat. Commun.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>14875</fpage>.<pub-id pub-id-type="pmid">28383035</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="chem201902303-cit-0052">
+<string-name>
+<given-names>J. A.</given-names>
+<surname>Mata</surname>
+</string-name>, <string-name>
+<given-names>F. E.</given-names>
+<surname>Hahn</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Peris</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>1723</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="chem201902303-cit-0053">
+<string-name>
+<given-names>J. D. H.</given-names>
+<surname>Donnay</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Harker</surname>
+</string-name>, <source xml:lang="en">Am. Mineral.</source>
+<year>1937</year>, <volume>22</volume>, <fpage>446</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="chem201902303-cit-0054">
+<string-name>
+<given-names>T.</given-names>
+<surname>Schulz</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Meindl</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Leusser</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stern</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Graf</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Michaelsen</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ruf</surname>
+</string-name>, <string-name>
+<given-names>G. M.</given-names>
+<surname>Sheldrick</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2009</year>, <volume>42</volume>, <fpage>885</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0035"><label>35</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0055">Bruker SAINT v8.30C. Bruker AXS Inst. Inc., WI, USA, Madison, <bold>2013</bold>.</mixed-citation></ref><ref id="chem201902303-bib-0036"><label>36</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0056">Bruker APEX v2011.4-1. Bruker AXS Inst. Inc., WI, USA, Madison, <bold>2011</bold>.</mixed-citation></ref><ref id="chem201902303-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="chem201902303-cit-0057">
+<string-name>
+<given-names>L.</given-names>
+<surname>Krause</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Herbst-Irmer</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Stalke</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2015</year>, <volume>48</volume>, <fpage>1907</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="chem201902303-cit-0058">
+<string-name>
+<given-names>G. M.</given-names>
+<surname>Sheldrick</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. A</source>
+<year>2015</year>, <volume>71</volume>, <fpage>3</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="chem201902303-cit-0059">
+<string-name>
+<given-names>G. M.</given-names>
+<surname>Sheldrick</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. C</source>
+<year>2015</year>, <volume>71</volume>, <fpage>3</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="chem201902303-cit-0060">
+<string-name>
+<given-names>C. B.</given-names>
+<surname>H&#x000fc;bschle</surname>
+</string-name>, <string-name>
+<given-names>G. M.</given-names>
+<surname>Sheldrick</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Dittrich</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2011</year>, <volume>44</volume>, <fpage>1281</fpage>.<pub-id pub-id-type="pmid">22477785</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0041"><label>41</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0061">A.&#x02005;V. Volkov, P. Macchi, L.&#x02005;J. Farrugia, C. Gatti, P. Mallinson, T. Richter, T. Koritsanszky, <italic>XD2006</italic>, <bold>2006</bold>.</mixed-citation></ref><ref id="chem201902303-bib-0042"><label>42</label><mixed-citation publication-type="book" id="chem201902303-cit-0062">
+<string-name>
+<given-names>P.</given-names>
+<surname>Blaha</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Madsen</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Kvasnicka</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Luitz</surname>
+</string-name>, <source xml:lang="en">WIEN2k. An Augmented Plane Wave Plus Local Orbitals Program for Calculating Crystal Properties</source>, <publisher-name>Technische Universit&#x000e4;t Wien</publisher-name>, <year>2001</year>.</mixed-citation></ref><ref id="chem201902303-bib-0043"><label>43</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0063">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0043a"><label>43a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0064">
+<string-name>
+<given-names>L.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Maxisch</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ceder</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>2006</year>, <volume>73</volume>, <fpage>603</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0043b"><label>43b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0065">
+<string-name>
+<given-names>C.</given-names>
+<surname>R&#x000f6;dl</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Fuchs</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Furthm&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Bechstedt</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>2009</year>, <volume>79</volume>, <fpage>1996</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0043c"><label>43c</label><mixed-citation publication-type="journal" id="chem201902303-cit-0066">
+<string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Selloni</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2013</year>, <volume>117</volume>, <fpage>20002</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0043d"><label>43d</label><mixed-citation publication-type="journal" id="chem201902303-cit-0067">
+<string-name>
+<given-names>B. S.</given-names>
+<surname>Youmbi</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Calvayrac</surname>
+</string-name>, <source xml:lang="en">Surf. Sci.</source>
+<year>2014</year>, <volume>621</volume>, <fpage>1</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="chem201902303-cit-0068">
+<string-name>
+<given-names>N.</given-names>
+<surname>Marzari</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Vanderbilt</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>1997</year>, <volume>56</volume>, <fpage>12847</fpage>.</mixed-citation></ref><ref id="chem201902303-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="chem201902303-cit-0069">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Mostofi</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Yates</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Pizzi</surname>
+</string-name>, <string-name>
+<given-names>Y.-S.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Souza</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Vanderbilt</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Marzari</surname>
+</string-name>, <source xml:lang="en">Comput. Phys. Commun.</source>
+<year>2014</year>, <volume>185</volume>, <fpage>2309</fpage>&#x02013;<lpage>2310</lpage>.</mixed-citation></ref><ref id="chem201902303-bib-0046"><label>46</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0070">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0046a"><label>46a</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0071">J. Stone, <italic>M.Sc. thesis</italic>, University of Missouri-Rolla <bold>1998</bold>;</mixed-citation></ref><ref id="chem201902303-bib-0046b"><label>46b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0072">
+<string-name>
+<given-names>W.</given-names>
+<surname>Humphrey</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Dalke</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Schulten</surname>
+</string-name>, <source xml:lang="en">J. Mol. Graph.</source>
+<year>1996</year>, <volume>14</volume>, <fpage>33</fpage>&#x02013;<lpage>8</lpage>, 27&#x02013;8.<pub-id pub-id-type="pmid">8744570</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0047"><label>47</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0073">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0047a"><label>47a</label><mixed-citation publication-type="journal" id="chem201902303-cit-0074">
+<string-name>
+<given-names>P.</given-names>
+<surname>Giannozzi</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Andreussi</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Brumme</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Bunau</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Buongiorno Nardelli</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Calandra</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Car</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Cavazzoni</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Ceresoli</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Cococcioni</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Colonna</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Carnimeo</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Dal Corso</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>de Gironcoli</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Delugas</surname>
+</string-name>, <string-name>
+<given-names>R. A.</given-names>
+<surname>DiStasio</surname>&#x02005;
+<suffix>Jr.</suffix>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Ferretti</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Floris</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Fratesi</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Fugallo</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gebauer</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Gerstmann</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Giustino</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Gorni</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Jia</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kawamura</surname>
+</string-name>, <string-name>
+<given-names>H.-Y.</given-names>
+<surname>Ko</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kokalj</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>K&#x000fc;&#x000e7;&#x000fc;kbenli</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lazzeri</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Marsili</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Marzari</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Mauri</surname>
+</string-name>, <string-name>
+<given-names>N. L.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name>
+<given-names>H.-V.</given-names>
+<surname>Nguyen</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Otero-de-la-Roza</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Paulatto</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Ponc&#x000e9;</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Rocca</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Sabatini</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Santra</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Schlipf</surname>
+</string-name>, <string-name>
+<given-names>A. P.</given-names>
+<surname>Seitsonen</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Smogunov</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Timrov</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Thonhauser</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Umari</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Vast</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Baroni</surname>
+</string-name>, <source xml:lang="en">J. Phys. Condens. Matter</source>
+<year>2017</year>, <volume>29</volume>, <fpage>465901</fpage>;<pub-id pub-id-type="pmid">29064822</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0047b"><label>47b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0075">
+<string-name>
+<given-names>P.</given-names>
+<surname>Giannozzi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Baroni</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Bonini</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Calandra</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Car</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Cavazzoni</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Ceresoli</surname>
+</string-name>, <string-name>
+<given-names>G. L</given-names>
+<surname>Chiarotti</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Cococcioni</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Dabo</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Dal Corso</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>de Gironcoli</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Fabris</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Fratesi</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gebauer</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Gerstmann</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Gougoussis</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kokalj</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lazzeri</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Martin-Samos</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Marzari</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Mauri</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Mazzarello</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Paolini</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Pasquarello</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Paulatto</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Sbraccia</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Scandolo</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Sclauzero</surname>
+</string-name>, <string-name>
+<given-names>A. P</given-names>
+<surname>Seitsonen</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Smogunov</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Umari</surname>
+</string-name>, <string-name>
+<given-names>R. M</given-names>
+<surname>Wentzcovitch</surname>
+</string-name>, <source xml:lang="en">J. Phys. Condens. Matter</source>
+<year>2009</year>, <volume>21</volume>, <fpage>395502</fpage>.<pub-id pub-id-type="pmid">21832390</pub-id></mixed-citation></ref><ref id="chem201902303-bib-0048"><label>48</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0076">&#x000a0;</mixed-citation></ref><ref id="chem201902303-bib-0048a"><label>48a</label><mixed-citation publication-type="miscellaneous" id="chem201902303-cit-0077">Baerends, E.&#x02005;J. et&#x02005;al., ADF2017, SCM, Theoretical Chemistry, Vrije Universiteit, Amsterdam;</mixed-citation></ref><ref id="chem201902303-bib-0048b"><label>48b</label><mixed-citation publication-type="journal" id="chem201902303-cit-0078">
+<string-name>
+<given-names>C.</given-names>
+<surname>Fonseca Guerra</surname>
+</string-name>, <string-name>
+<given-names>J. G.</given-names>
+<surname>Snijders</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>te Velde</surname>
+</string-name>, <string-name>
+<given-names>E. J.</given-names>
+<surname>Baerends</surname>
+</string-name>, <source xml:lang="en">Theor. Chem. Acc.</source>
+<year>1998</year>, <volume>99</volume>, <fpage>391</fpage>;</mixed-citation></ref><ref id="chem201902303-bib-0048c"><label>48c</label><mixed-citation publication-type="journal" id="chem201902303-cit-0079">
+<string-name>
+<given-names>G.</given-names>
+<surname>te Velde</surname>
+</string-name>, <string-name>
+<given-names>F. M.</given-names>
+<surname>Bickelhaupt</surname>
+</string-name>, <string-name>
+<given-names>E. J.</given-names>
+<surname>Baerends</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Fonseca Guerra</surname>
+</string-name>, <string-name>
+<given-names>S. J. A.</given-names>
+<surname>van Gisbergen</surname>
+</string-name>, <string-name>
+<given-names>J. G.</given-names>
+<surname>Snijders</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Ziegler</surname>
+</string-name>, <source xml:lang="en">J. Comput. Chem.</source>
+<year>2001</year>, <volume>22</volume>, <fpage>931</fpage>.</mixed-citation></ref></ref-list></back></article>

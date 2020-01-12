@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Many modern material strength models, for example those in Refs. [
+ <xref rid="B1-materials-12-00948" ref-type="bibr">1</xref>,
+ <xref rid="B2-materials-12-00948" ref-type="bibr">2</xref>,
+ <xref rid="B3-materials-12-00948" ref-type="bibr">3</xref>,
+ <xref rid="B4-materials-12-00948" ref-type="bibr">4</xref>,
+ <xref rid="B5-materials-12-00948" ref-type="bibr">5</xref>,
+ <xref rid="B6-materials-12-00948" ref-type="bibr">6</xref>,
+ <xref rid="B7-materials-12-00948" ref-type="bibr">7</xref>], are based on dislocation dynamics. However, dislocation mobility, especially in the high temperature and high stress regime, is poorly understood theoretically. Moving dislocations experience a drag due to their interaction with the crystal structure, and this drag coefficient 
+ <italic>B</italic> determines the dislocation glide time between obstacles. The lack of a well-established functional form for 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>B</mi>
+     <mo>(</mo>
+     <mi>v</mi>
+     <mo>,</mo>
+     <mi>T</mi>
+     <mo>,</mo>
+     <mo>…</mo>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> has led many researchers to assume 
+ <italic>B</italic> to be a constant (or a constant over a simple “relativistic” factor) as a fist order approximation within their strength models. Thus, better insight into the true functional form of 
+ <italic>B</italic> could improve those models.
+</p>

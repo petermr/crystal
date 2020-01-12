@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0220">The solution of the electron Schrödinger 
+ <xref rid="fd14" ref-type="disp-formula">Eq. (14)</xref> gives a system of electron wave functions and energy levels that depend on the nuclear coordinates 
+ <inline-formula>
+  <math id="M81" altimg="si51.svg">
+   <mrow>
+    <mi>p</mi>
+   </mrow>
+  </math>
+ </inline-formula> as parameters. The electron energy 
+ <inline-formula>
+  <math id="M82" altimg="si69.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> acts as a potential function for the motion of the nuclei (see 
+ <xref rid="fd15" ref-type="disp-formula">Eq. (15)</xref>). This function is often called the electron term. The concept of electron term or potential energy surface (PES) plays a key role not only in the theory of molecules and quantum chemistry as a whole, but also in the modern theory of elementary chemical reactions and elementary processes of electron-charge transfers. If the use of PESs in the former case is perfectly justified, then in the latter case, when it comes to quantum transitions in the PES intersection area (in the transient region), the Born-Oppenheimer (BO) adiabatic approximation does not work at all. This can be seen if we write out the corrections to the BO approximation in perturbation theory with respect to the nonadiabaticity operator:
+ <disp-formula id="fd16">
+  <label>(16)</label>
+  <math id="M83" altimg="si70.svg" alttext="Equation 16.">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <mo>〈</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>T</mi>
+         <mo>ˆ</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd17">
+  <label>(17)</label>
+  <math id="M84" altimg="si71.svg" alttext="Equation 17.">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+      <mo linebreak="badbreak">≠</mo>
+      <mi>f</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">|</mo>
+          <mrow>
+           <mrow>
+            <mo>〈</mo>
+            <mrow>
+             <msubsup>
+              <mrow>
+               <mi>ψ</mi>
+              </mrow>
+              <mrow>
+               <msup>
+                <mi>f</mi>
+                <mo>′</mo>
+               </msup>
+              </mrow>
+              <mrow>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mrow>
+                 <mn>0</mn>
+                </mrow>
+                <mo stretchy="true">)</mo>
+               </mrow>
+              </mrow>
+             </msubsup>
+            </mrow>
+            <mo stretchy="true">|</mo>
+           </mrow>
+           <mrow>
+            <msub>
+             <mrow>
+              <mover accent="true">
+               <mi>T</mi>
+               <mo>ˆ</mo>
+              </mover>
+             </mrow>
+             <mrow>
+              <mi>N</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mrow>
+            <mo stretchy="true">|</mo>
+            <mrow>
+             <msubsup>
+              <mrow>
+               <mi>ψ</mi>
+              </mrow>
+              <mrow>
+               <mi>f</mi>
+              </mrow>
+              <mrow>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mrow>
+                 <mn>0</mn>
+                </mrow>
+                <mo stretchy="true">)</mo>
+               </mrow>
+              </mrow>
+             </msubsup>
+            </mrow>
+            <mo>〉</mo>
+           </mrow>
+           <mo linebreak="badbreak">−</mo>
+           <munder>
+            <mo movablelimits="false">∑</mo>
+            <mrow>
+             <mi>p</mi>
+            </mrow>
+           </munder>
+           <mrow>
+            <mfrac>
+             <mrow>
+              <msup>
+               <mrow>
+                <mi>ℏ</mi>
+               </mrow>
+               <mrow>
+                <mn>2</mn>
+               </mrow>
+              </msup>
+             </mrow>
+             <mrow>
+              <mtext>M</mtext>
+             </mrow>
+            </mfrac>
+            <mfrac>
+             <mrow>
+              <mn>1</mn>
+             </mrow>
+             <mrow>
+              <mi>ϕ</mi>
+             </mrow>
+            </mfrac>
+            <mfrac>
+             <mrow>
+              <mo>∂</mo>
+              <mi>ϕ</mi>
+             </mrow>
+             <mrow>
+              <mo>∂</mo>
+              <mi>p</mi>
+             </mrow>
+            </mfrac>
+            <mrow>
+             <mo>〈</mo>
+             <mrow>
+              <msubsup>
+               <mrow>
+                <mi>ψ</mi>
+               </mrow>
+               <mrow>
+                <msup>
+                 <mi>f</mi>
+                 <mo>′</mo>
+                </msup>
+               </mrow>
+               <mrow>
+                <mrow>
+                 <mo stretchy="true">(</mo>
+                 <mrow>
+                  <mn>0</mn>
+                 </mrow>
+                 <mo stretchy="true">)</mo>
+                </mrow>
+               </mrow>
+              </msubsup>
+             </mrow>
+             <mo stretchy="true">|</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mo>∂</mo>
+                <msubsup>
+                 <mrow>
+                  <mi>ψ</mi>
+                 </mrow>
+                 <mrow>
+                  <mi>f</mi>
+                 </mrow>
+                 <mrow>
+                  <mrow>
+                   <mo stretchy="true">(</mo>
+                   <mrow>
+                    <mn>0</mn>
+                   </mrow>
+                   <mo stretchy="true">)</mo>
+                  </mrow>
+                 </mrow>
+                </msubsup>
+               </mrow>
+               <mrow>
+                <mo>∂</mo>
+                <mi>p</mi>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo>〉</mo>
+            </mrow>
+           </mrow>
+          </mrow>
+          <mo stretchy="true">|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>V</mi>
+        </mrow>
+        <mrow>
+         <mi>f</mi>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <msubsup>
+        <mrow>
+         <mi>V</mi>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi>f</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+       </msubsup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>and
+ <disp-formula id="fd18">
+  <label>(18)</label>
+  <math id="M85" altimg="si72.svg" alttext="Equation 18.">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+      <mo linebreak="badbreak">≠</mo>
+      <mi>f</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mrow>
+        <mo>〈</mo>
+        <mrow>
+         <msubsup>
+          <mrow>
+           <mi>ψ</mi>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mo>′</mo>
+           </msup>
+          </mrow>
+          <mrow>
+           <mrow>
+            <mo stretchy="true">(</mo>
+            <mrow>
+             <mn>0</mn>
+            </mrow>
+            <mo stretchy="true">)</mo>
+           </mrow>
+          </mrow>
+         </msubsup>
+        </mrow>
+        <mo stretchy="true">|</mo>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>T</mi>
+           <mo>ˆ</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>N</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mo stretchy="true">|</mo>
+        <mrow>
+         <msubsup>
+          <mrow>
+           <mi>ψ</mi>
+          </mrow>
+          <mrow>
+           <mi>f</mi>
+          </mrow>
+          <mrow>
+           <mrow>
+            <mo stretchy="true">(</mo>
+            <mrow>
+             <mn>0</mn>
+            </mrow>
+            <mo stretchy="true">)</mo>
+           </mrow>
+          </mrow>
+         </msubsup>
+        </mrow>
+        <mo>〉</mo>
+       </mrow>
+       <mo linebreak="badbreak">−</mo>
+       <munder>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+       </munder>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>ℏ</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mtext>M</mtext>
+         </mrow>
+        </mfrac>
+        <mfrac>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>ϕ</mi>
+         </mrow>
+        </mfrac>
+        <mfrac>
+         <mrow>
+          <mo>∂</mo>
+          <mi>ϕ</mi>
+         </mrow>
+         <mrow>
+          <mo>∂</mo>
+          <mi>p</mi>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo>〈</mo>
+         <mrow>
+          <msubsup>
+           <mrow>
+            <mi>ψ</mi>
+           </mrow>
+           <mrow>
+            <msup>
+             <mi>f</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mrow>
+            <mrow>
+             <mo stretchy="true">(</mo>
+             <mrow>
+              <mn>0</mn>
+             </mrow>
+             <mo stretchy="true">)</mo>
+            </mrow>
+           </mrow>
+          </msubsup>
+         </mrow>
+         <mo stretchy="true">|</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mo>∂</mo>
+            <msubsup>
+             <mrow>
+              <mi>ψ</mi>
+             </mrow>
+             <mrow>
+              <mi>f</mi>
+             </mrow>
+             <mrow>
+              <mrow>
+               <mo stretchy="true">(</mo>
+               <mrow>
+                <mn>0</mn>
+               </mrow>
+               <mo stretchy="true">)</mo>
+              </mrow>
+             </mrow>
+            </msubsup>
+           </mrow>
+           <mrow>
+            <mo>∂</mo>
+            <mi>p</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo>〉</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>V</mi>
+        </mrow>
+        <mrow>
+         <mi>f</mi>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <msubsup>
+        <mrow>
+         <mi>V</mi>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi>f</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+       </msubsup>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mo linebreak="goodbreak">⋅</mo>
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <msup>
+       <mi>f</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msubsup>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

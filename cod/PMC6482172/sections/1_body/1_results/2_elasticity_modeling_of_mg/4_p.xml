@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">
+ <italic>E</italic>
+ <sub>
+  <italic>electrostatic</italic>
+ </sub> is the term due to the electrostatic repulsion of the two jogs, and the last term 
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{self}^{jog}$$\end{document}</tex-math>
+   <math id="M38">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>l</mi>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+      <mi>o</mi>
+      <mi>g</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> describes the self energy of the jog formation (two parallel extra segments of the jog). In practice, n is summed up to 10
+ <sup>6</sup> numerically, with well converged results. The actual forms of these interaction energies are:
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{{\inf }}^{a}=\frac{{b}^{2}\mu }{2\pi }[\sqrt{{w}^{2}+{h}^{2}}-w-h+w\,{log}\,\frac{2w}{w+\sqrt{{w}^{2}+{h}^{2}}}]$$\end{document}</tex-math>
+   <math id="M40" display="block">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="italic">inf</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </msqrt>
+      <mo>−</mo>
+      <mi>w</mi>
+      <mo>−</mo>
+      <mi>h</mi>
+      <mo>+</mo>
+      <mi>w</mi>
+      <mspace width=".25em"/>
+      <mi mathvariant="italic">log</mi>
+      <mspace width=".10em"/>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <mi>w</mi>
+        <mo>+</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>w</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{seg}^{a}=-\,\frac{{b}^{2}\mu }{2\pi (1-\nu )}[w-\sqrt{{w}^{2}+{h}^{2}}+h\,{log}\,\frac{h+\sqrt{{w}^{2}+{h}^{2}}}{w}]$$\end{document}</tex-math>
+   <math id="M42" display="block">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>g</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi>ν</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mi>w</mi>
+      <mo>−</mo>
+      <msqrt>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </msqrt>
+      <mo>+</mo>
+      <mi>h</mi>
+      <mspace width=".25em"/>
+      <mi mathvariant="italic">log</mi>
+      <mspace width=".10em"/>
+      <mfrac>
+       <mrow>
+        <mi>h</mi>
+        <mo>+</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>w</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </mrow>
+       <mi>w</mi>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{{\inf }}^{ab}(D)=\frac{{b}^{2}\mu }{2\pi }[\sqrt{{w}^{2}+{D}^{2}}-D-w\,{log}(\sqrt{{w}^{2}+{D}^{2}}+w)]$$\end{document}</tex-math>
+   <math id="M44" display="block">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="italic">inf</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mi>b</mi>
+     </mrow>
+    </msubsup>
+    <mo stretchy="false">(</mo>
+    <mi>D</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mi>D</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </msqrt>
+      <mo>−</mo>
+      <mi>D</mi>
+      <mo>−</mo>
+      <mi>w</mi>
+      <mspace width=".25em"/>
+      <mi mathvariant="italic">log</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>w</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>D</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>+</mo>
+        <mi>w</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ9">
+  <label>9</label>
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{seg}^{ab}=\frac{{b}^{2}\mu }{4\pi }[2D-2\sqrt{{w}^{2}+{D}^{2}}+w\,{log}\,\frac{\sqrt{{w}^{2}+{D}^{2}}+w}{\sqrt{{w}^{2}+{D}^{2}}-w}]$$\end{document}</tex-math>
+   <math id="M46" display="block">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>g</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mi>b</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+      <mi>π</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mn>2</mn>
+      <mi>D</mi>
+      <mo>−</mo>
+      <mn>2</mn>
+      <msqrt>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mi>D</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </msqrt>
+      <mo>+</mo>
+      <mi>w</mi>
+      <mspace width=".25em"/>
+      <mi mathvariant="italic">log</mi>
+      <mspace width=".10em"/>
+      <mfrac>
+       <mrow>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>w</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>D</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>+</mo>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>w</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>D</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>−</mo>
+        <mi>w</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ9.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ10">
+  <label>10</label>
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{electrostatic}=\frac{(q+{q}_{0})\,(q-{q}_{0})}{4\pi {\epsilon }_{0}\epsilon }\frac{1}{w}$$\end{document}</tex-math>
+   <math id="M48" display="block">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>l</mi>
+      <mi>e</mi>
+      <mi>c</mi>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>o</mi>
+      <mi>s</mi>
+      <mi>t</mi>
+      <mi>a</mi>
+      <mi>t</mi>
+      <mi>i</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>q</mi>
+      <mo>+</mo>
+      <msub>
+       <mrow>
+        <mi>q</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+      <mspace width=".1em"/>
+      <mo stretchy="false">(</mo>
+      <mi>q</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>q</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+      <mi>π</mi>
+      <msub>
+       <mrow>
+        <mi>ϵ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mi>ϵ</mi>
+     </mrow>
+    </mfrac>
+    <mfrac>
+     <mn>1</mn>
+     <mi>w</mi>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ10.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ11">
+  <label>11</label>
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{self}^{jog}=\frac{{b}^{2}\mu h}{2\pi (1-\nu )}\,\mathrm{log}\,\frac{h}{e\rho }$$\end{document}</tex-math>
+   <math id="M50" display="block">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>l</mi>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+      <mi>o</mi>
+      <mi>g</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mi>μ</mi>
+      <mi>h</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi>ν</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mfrac>
+    <mspace width=".25em"/>
+    <mi>log</mi>
+    <mspace width=".10em"/>
+    <mfrac>
+     <mi>h</mi>
+     <mrow>
+      <mi>e</mi>
+      <mi>ρ</mi>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ11.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

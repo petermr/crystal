@@ -1,0 +1,564 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6844087</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02295</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Optimization of the Synthesis of Copper Ferrite Nanoparticles by
+a Polymer-Assisted Sol&#x02013;Gel
+Method</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Calvo-de
+la Rosa</surname><given-names>Jaume</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Segarra</surname><given-names>Merc&#x000e8;</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">DIOPMA Centre, Department of Materials
+Science and Physical Chemistry, Faculty of Chemistry, IN2UB, <institution>Universitat de Barcelona</institution>, Mart&#x000ed; i Franqu&#x000e8;s 1, 08028 Barcelona, <country>Spain</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>m.segarra@ub.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>05</day><month>11</month><year>2019</year></pub-date><volume>4</volume><issue>19</issue><fpage>18289</fpage><lpage>18298</lpage><history><date date-type="received"><day>23</day><month>07</month><year>2019</year></date><date date-type="accepted"><day>16</day><month>09</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0016" id="ab-tgr1"/></p><p>Magnetic ferrites
+are used in a wide range of technological applications, such as biomedicine,
+electronics, or energy. They also present interesting magnetic properties,
+especially for high-frequency applications. These materials have been
+prepared by a large variety of methods, from basic solid-state reaction
+to advanced wet chemical methods. However, most of these approaches
+are complex and have low production rates. In this work, a deep analysis
+of an easy polymer-assisted sol&#x02013;gel synthesis of copper ferrite
+(CuFe<sub>2</sub>O<sub>4</sub>) nanoparticles is done. A multivariate
+analysis, by means of the design of experiments approach, is carried
+out to account for two variables at a time. Moreover, a wide experimental
+domain is explored, and the impact of each variable on the chemical
+composition and magnetic properties is determined. This work results
+in an optimization of the synthesis method to obtain high-purity nanoparticles
+(&#x0223c;96%).</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02295</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b02295</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Magnetic materials
+are a family of materials widely used in technological applications.
+The changes in properties that they experiment when their size is
+reduced to the nanometric scale make them even more interesting than
+those in the bulk form. They have been claimed as promising candidates
+for medical diagnostics<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> and treatment,<sup><xref ref-type="bibr" rid="ref2">2</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> sensors,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> improving the efficiency and
+opening new opportunities in the energy sector,<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup> and
+data storage<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref9">9</xref></sup> for instance.</p><p>Spinel ferrites
+have a structure with the form MFe<sub>2</sub>O<sub>4</sub>, where
+M is a divalent cation and typically a transition metal. Oxygen (O<sup>2&#x02013;</sup>) ions form a face-centered cubic structure, Fe<sup>3+</sup> cations occupy half of the octahedral holes (h<sub>O</sub>), and M<sup>2+</sup> ions are placed in eight of the tetrahedral
+holes (h<sub>T</sub>). In particular, copper ferrite (CuFe<sub>2</sub>O<sub>4</sub>) has an inverse spinel structure, which has a different
+occupation of the vacancies: M<sup>2+</sup> cations are placed in
+h<sub>O</sub> with half of the Fe<sup>3+</sup> ions, whereas the other
+half are in h<sub>T</sub>.</p><p>These types of materials have been
+previously prepared by a wide range of wet synthesis methods, such
+as co-precipitation,<sup><xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref12">12</xref></sup> thermal decomposition,<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref14">14</xref></sup> sonochemichal,<sup><xref ref-type="bibr" rid="ref15">15</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> or solvothermal.<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref20">20</xref></sup> Most of these methods ensure
+good results in terms of low particle size and morphology control,
+but, on the other hand, it is usually complex to have a precise control
+over the process, and the production rate is low. On the other hand,
+high-temperature solid-state methods are simple and easy to scale
+up. However, the degree of control that they have over the properties
+of the final material is poor. In this scenario, the sol&#x02013;gel
+and gel combustion technique<sup><xref ref-type="bibr" rid="ref21">21</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> appears as a promising option due to its simplicity and control
+over the product characteristics. For this reason, different researchers
+have recently used this method in their work. For instance, L&#x000f3;pez-Ram&#x000f3;n
+et al.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> and Zhuravlev et al.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> showed the formation of both phases, tetragonal
+and cubic, depending on the synthesis conditions. The report from
+Masunga et al.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> is a good summary of the
+work previously done in this field.</p><p>Although there is an extensive
+list of interesting publications regarding the sol&#x02013;gel preparation
+of CuFe<sub>2</sub>O<sub>4</sub>, there is a lack of a deep analysis
+of the process under a wide range of conditions. Previous papers tend
+to work under specific conditions, or only one variable is modified
+when its effect is explored. In this work, we provide a multivariable
+analysis, by means of the design of experiments (DoE) approach,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> to numerically quantify the effect of the calcination
+time and temperature. Thus, our work explores two variables at a time
+and accounts for their possible interaction. Moreover, two analysis
+cycles are performed to explore a wider experimental domain. The effect
+that each variable has on the chemical composition and magnetic properties
+is determined. This work leads to an optimization of the polymer-assisted
+sol&#x02013;gel synthesis<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> of CuFe<sub>2</sub>O<sub>4</sub> nanoparticles to maximize the product purity.</p></sec><sec id="sec2"><title>Results
+and Discussion</title><p>Based on the obtained results from preliminary
+experiments, the conditions chosen for the first DoE are presented
+in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. The temperature
+limits have been set to 750 and 950 &#x000b0;C, whereas the time varies
+from 15 min to 2 h.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Experimental Matrix
+for the First DoE Cycle</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">experiment #</th><th style="border:none;" align="center" char=".">time level
+(min)</th><th style="border:none;" align="center" char=".">temperature level (&#x000b0;C)</th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">15</td><td style="border:none;" align="char" char=".">750</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">120</td><td style="border:none;" align="char" char=".">750</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">15</td><td style="border:none;" align="char" char=".">950</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">120</td><td style="border:none;" align="char" char=".">950</td></tr></tbody></table></table-wrap><p>This first batch of samples has been characterized
+by X-ray diffraction (XRD) to determine their crystal structure and
+chemical composition. <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> shows a general comparison of the four obtained patterns.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>XRD patterns
+of the four samples prepared in the first batch of experiments. All
+of the patterns have been spaced 400 units to facilitate their visualization
+and comparison. The different markers indicate the 2&#x003b8; positions
+of the main peaks of the three phases.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0001" id="gr1" position="float"/></fig><p>By analyzing these results, it is possible to corroborate that the
+desired CuFe<sub>2</sub>O<sub>4</sub> phase is predominant in all
+of the experiments. It has a tetragonal structure with cell parameters
+of <italic>a</italic> = <italic>b</italic> = 5.8444 &#x000c5; and <italic>c</italic> = 8.6340 &#x000c5;. Moreover, smaller quantities of rhombohedral
+Fe<sub>2</sub>O<sub>3</sub> and monoclinic CuO are also detected.
+The presence of these structures is in good agreement with the obtained
+results under similar conditions by other authors.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> The characteristic CuFe<sub>2</sub>O<sub>4</sub> peak at
+around 18&#x000b0; is present in all of the samples, but it seems clear
+that the peak at 24&#x000b0;, which corresponds to Fe<sub>2</sub>O<sub>3</sub>, disappears as the thermal treatment becomes more intense
+(larger times and higher temperatures). Therefore, it is seen that
+higher temperatures and longer times favor the ferrite formation,
+as could be expected. Considering that the relative peak intensity
+is directly proportional to the presence of each phase, and that all
+of the samples have been consecutively measured in the same device
+and under the same conditions, it is possible to make a first approximation
+to determine their relative purity. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> zooms different peaks from <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> to make a clearer comparison.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Zoomed
+peaks of the first batch of samples. (A) and (B) are CuFe<sub>2</sub>O<sub>4</sub> peaks, (C) is a Fe<sub>2</sub>O<sub>3</sub> peak, and
+(D) is a CuO peak.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0002" id="gr2" position="float"/></fig><p>In <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>A,B, the presence of CuFe<sub>2</sub>O<sub>4</sub> is evident as the temperature and time increase. Samples
+are perfectly ordered according to their calcination conditions: in
+both cases, sample #1 (15 min at 750 &#x000b0;C) is the one with a lower
+intensity (around 30% less than the higher peak), whereas sample #4
+(120 min at 950 &#x000b0;C) shows the maximum intensity. Meanwhile, samples
+#2 and #3 present intermediate behaviors. Nevertheless, the relative
+intensity of the sample at 950 &#x000b0;C is higher than that of the
+one at 750 &#x000b0;C even though the calcination time is longer in the
+second case. This means that, in this range, temperature seems to
+have a major impact on the chemical composition than time, i.e., high-purity
+products can be obtained in fast reactions at high temperatures. According
+to the conclusions obtained by Khemthong et al.,<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> CuFe<sub>2</sub>O<sub>4</sub> is mainly formed during the
+gel combustion, whereas the later calcination processes determine
+the crystallinity and phase purity. The observed tendency perfectly
+supports what is expected from a thermodynamic point of view: the
+chemical reaction between CuO and Fe<sub>2</sub>O<sub>3</sub> is favored
+for higher-energy inputs.</p><p>Even though this first analysis seems
+to clearly show that the phases are formed, all of the samples have
+been analyzed by the Rietveld refinement<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> to extract quantitative information about their chemical composition.
+In <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>, the result
+of the refinement for one of the samples is shown.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Rietveld refinement of
+sample #1 from the first batch of samples. Measured data is represented
+by circles, whereas the continuous red line shows the calculated model.
+The difference between both values is represented in the bottom plot.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0003" id="gr3" position="float"/></fig><p>As can be observed, the relative intensity between
+peaks of the same phase is not accurate. This might be due to the
+presence of a preferred crystallographic orientation (which is unexpected
+in powder samples) or because the considered structural model for
+the calculation is not fully strict with the reality. Nevertheless,
+as the scale factor, peak shape, and unit cell parameters are correctly
+adjusted, the results are rigorous with the purity of each sample.
+The average crystallite size, determined by the Scherrer formula,
+is 13.46 nm, confirming thus the nanometric structure of the material.
+A resume of the obtained compositions is presented in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>.</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Rietveld
+Refinement Compositions Obtained for the First Batch of Samples<xref rid="t2fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">sample (#)</th><th style="border:none;" align="center" char=".">CuFe<sub>2</sub>O<sub>4</sub> (%)</th><th style="border:none;" align="center" char=".">CuO (%)</th><th style="border:none;" align="center" char=".">Fe<sub>2</sub>O<sub>3</sub> (%)</th><th style="border:none;" align="center" char=".">&#x003c7;<sup>2</sup></th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">70.3</td><td style="border:none;" align="char" char=".">8.4</td><td style="border:none;" align="char" char=".">21.3</td><td style="border:none;" align="char" char=".">2.71</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">83.2</td><td style="border:none;" align="char" char=".">5.7</td><td style="border:none;" align="char" char=".">11.1</td><td style="border:none;" align="char" char=".">2.86</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">95.6</td><td style="border:none;" align="char" char=".">4.4</td><td style="border:none;" align="char" char=".">0.0</td><td style="border:none;" align="char" char=".">3.02</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">95.7</td><td style="border:none;" align="char" char=".">4.0</td><td style="border:none;" align="char" char=".">0.3</td><td style="border:none;" align="char" char=".">3.02</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>&#x003c7;<sup>2</sup> represents the quality of the adjustment.</p></fn></table-wrap-foot></table-wrap><p>Again, the formation of CuFe<sub>2</sub>O<sub>4</sub> and the consumption of CuO and Fe<sub>2</sub>O<sub>3</sub> at high temperatures and long times are confirmed,
+as could be expected from a thermodynamic point of view.</p><p>Once
+the percentage of CuFe<sub>2</sub>O<sub>4</sub> is obtained from each
+experiment, it is possible to calculate the values of all of the parameters
+in <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>. The obtained
+values are <italic>b</italic><sub>0</sub> = 86.2, <italic>b</italic><sub>1</sub> = 3.3, <italic>b</italic><sub>2</sub> = 9.5, and <italic>b</italic><sub>12</sub> = &#x02212;3.2. Then, we have predicted the
+purity (<italic>Y</italic>) at any point in the area between the tested
+experimental points. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> graphically represents the obtained coefficients, as well
+as the calculated <italic>Y</italic> values in all of the experimental
+domain.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(A) Obtained parameters for <italic>b</italic><sub>1</sub>, <italic>b</italic><sub>2</sub>, and <italic>b</italic><sub>12</sub>; (B)
+first DoE-calculated purity values.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0004" id="gr4" position="float"/></fig><p>By analyzing the coefficients, it is possible to extract two main
+conclusions: (i) the calcination temperature (<italic>b</italic><sub>2</sub>) has approximately three times the impact on the chemical
+composition than the time (<italic>b</italic><sub>1</sub>), as it
+was predicted by analyzing the XRD pattern in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>; (ii) the magnitude of the interaction variable
+(<italic>b</italic><sub>12</sub>) is on the order of magnitude of <italic>b</italic><sub>1</sub>, so, apart from the individual effects, there
+is a considerable interaction between both variables.</p><p>To study
+the effect that these variables have on the particle size, <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> shows the number
+and volume particle size distributions for each sample.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Particle size
+distribution of the first batch of samples represented as a function
+of (A) number of particles and (B) volume fraction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0005" id="gr5" position="float"/></fig><p>In all samples, most of the particles are in the nanometric
+range because the number distribution is centered under 100 nm. On
+the other hand, the major part of the volume of the sample is occupied
+by micrometer-sized particles. This double effect can be due to two
+different factors: (i) most of the particles are nanometric in size,
+but there are others (much lower in number) that are orders of magnitude
+bigger and have a greater influence when representing the volume fraction
+(it would happen in a synthesis process with an extremely low degree
+of control); (ii) nanoparticles have been formed, but then they get
+attached to each other by thermal processes (i.e., sintering) forming
+micrometric clusters. The shape of the volume distribution suggests
+that different distributions coexist in the sample. Therefore, the
+formation of clusters may be the origin of these micrometric bodies.
+Otherwise, a more continuous distribution should be expected if micrometric
+particles would have been formed. Moreover, as LD principles assume
+spherical particles, the different superposed peaks could also be
+originated by irregular-shaped particles, which is common in aggregates.</p><p>The physical aspect of particles has been checked by SEM to have
+a clear idea about their morphology. <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> shows some of the images of these samples.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>SEM images
+at &#x000d7;3000 magnification of all of the powder samples from the
+first batch: (A) sample #1, (B) sample #2, (C) sample #3, and (D)
+sample #4.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0006" id="gr6" position="float"/></fig><p>In the four cases, it can be seen
+how micrometric clusters are formed by the agglomeration of submicrometric
+particles. These results verify the arguments presented from the LD
+results. Also, the size distribution of aggregates is wide and the
+shape is irregular in all samples, in good agreement with the volume
+LD results.</p><p>Now, it is clear that small particles have been
+synthesized, but due to the calcination effect, they behave as building
+blocks that sinter each other, forming bigger agglomerates. The size
+of the individual small particles is difficult to be determined with
+these images, but it is clear that their size is below 1 &#x003bc;m.
+Furthermore, by looking below the big aggregates, it is possible to
+find a distribution of particles that are smaller in size than those
+particles forming the agglomerates. This smaller distribution, which
+is considerably below 1 &#x003bc;m in diameter, may be a representative
+of those nanometric particles that have not sintered with others,
+keeping in this way their original size. Even though the shape of
+the aggregates is irregular, individual nanoparticles seem to be spherical
+shaped.</p><p>All of these results are in good agreement with those
+from the LD particle size analysis and have been already observed
+in above-mentioned works.<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> Therefore, number percentage
+distributions can be understood as a representation of the size of
+the formed particles, whereas the volume percentage distribution gives
+information about the sintering process between the previously formed
+nanoparticles.</p><p>Once the real meaning of each representation
+has been discussed, it is time to come back to <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>. In the number percentage representation,
+there is almost no difference between the size distribution of the
+nanoparticles prepared at different conditions. The resolution of
+the measurement is bigger than the difference produced for the different
+conditions. The mean value of these distributions is 93.3 &#x000b1; 0.7
+nm. This result, together with the previous Scherrer calculation,
+suggests the formation of a polycrystalline microstructure, as the
+mean particle size is greater than the mean crystallite size. On the
+other hand, by studying the volume percentage distributions, it is
+clear how the distribution is progressively shifted to bigger diameters
+as the calcination intensifies. Even though it consists of the superposition
+of different peaks, the main distribution has a clear dependence on
+the thermal treatment. Consequently, the effect that the thermal treatment
+has on sintering between particles is demonstrated.</p><p>Overall,
+the inverse effect that these conditions have on the final goal of
+this work can be seen: when the calcination is more intense, purity
+and sintering between particles increase; for soft calcinations, the
+sintering is lower and the product is less pure. Thus, an optimum
+balance between both variables needs to be found to have high-purity
+products and, at the same time, reduce as much as possible the sintering
+between nanoparticles.</p><p>Finally, the magnetic hysteresis cycle
+[M(H)] of these samples has been measured. As can be observed in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, only the first
+magnetization curve and the demagnetization from the positive to the
+negative saturations have been measured. As the hysteresis cycle has
+a symmetric behavior when the magnetic field is reversed, these conditions
+are sufficient for measuring the properties under study in this work.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>SQUID
+M(H) measurements for the first batch of samples. The inner plot is
+a zoomed representation of the data close to the origin of coordinates.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0007" id="gr7" position="float"/></fig><p>These results clearly show how the saturation magnetization
+(<italic>M</italic><sub>S</sub>), i.e., the maximum magnetization
+that can be achieved by the material, increases as the thermal treatment
+becomes stronger. Also, by examining the inner plot, it is seen how
+the magnetic permeability (&#x003bc;, which corresponds to the slope
+of the first magnetization curve) is also dependent on the thermal
+treatment. For both commented magnetic properties, when the sample
+is prepared at 750 &#x000b0;C, there is a strong dependence on the treatment
+time, whereas it is weaker or inexistent when the sample is prepared
+at 950 &#x000b0;C. Additionally, the remanent magnetization (<italic>M</italic><sub>R</sub>) and the coercive field (<italic>H</italic><sub>C</sub>) have the same increasing tendency at stronger calcination
+conditions, except in the case of sample #1. All of the quantitative
+results are summarized in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>. The tendency in all cases follows the compositional
+results determined by XRD, having higher <italic>M</italic><sub>S</sub>, <italic>M</italic><sub>R</sub><italic>, H</italic><sub>C</sub>,
+and &#x003bc; than those samples with a higher CuFe<sub>2</sub>O<sub>4</sub> content.</p><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Magnetic Properties of the First Batch
+of Samples</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">sample (#)</th><th style="border:none;" align="center" char="."><italic>M</italic><sub>S</sub> (emu/g)</th><th style="border:none;" align="center" char="."><italic>M</italic><sub>R</sub> (emu/g)</th><th style="border:none;" align="center" char=".">|<italic>H</italic><sub>C</sub>| (Oe)</th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">23.7</td><td style="border:none;" align="char" char=".">10.5</td><td style="border:none;" align="char" char=".">491.3</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">27.2</td><td style="border:none;" align="char" char=".">11.1</td><td style="border:none;" align="char" char=".">349.6</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">31.9</td><td style="border:none;" align="char" char=".">12.6</td><td style="border:none;" align="char" char=".">365.8</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">31.4</td><td style="border:none;" align="char" char=".">12.7</td><td style="border:none;" align="char" char=".">400.3</td></tr></tbody></table></table-wrap><p>Once the first conditions were tested,
+this work focused its attention on a more detailed study of a smaller
+region around the optimum (previously represented in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>B). By considering that there
+are no significant differences in the size of the formed nanoparticles,
+the region where higher purities have been achieved is zoomed. The
+new conditions are described in<xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>. XRD results of this second batch of samples are shown
+in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>XRD patterns
+of the four samples prepared in the second batch of experiments. All
+of the patterns have been spaced 400 units to facilitate their visualization
+and comparison. The different markers indicate the 2&#x003b8; positions
+of the main peaks of the three phases.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0008" id="gr8" position="float"/></fig><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Experimental Matrix for the Second DoE Cycle</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">experiment #</th><th style="border:none;" align="center" char=".">time level (min)</th><th style="border:none;" align="center" char=".">temperature level (&#x000b0;C)</th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">30</td><td style="border:none;" align="char" char=".">850</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">120</td><td style="border:none;" align="char" char=".">850</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">30</td><td style="border:none;" align="char" char=".">950</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">120</td><td style="border:none;" align="char" char=".">950</td></tr></tbody></table></table-wrap><p>All of the analyzed samples
+have the same predominant crystalline CuFe<sub>2</sub>O<sub>4</sub> phase found in the first batch, with smaller traces of CuO and Fe<sub>2</sub>O<sub>3</sub>. It is worth noticing that the characteristic
+peaks of these undesired phases have been considerably reduced and
+are difficult to be detected with this view. Again, to make a better
+comparison between the different synthesis conditions, some peaks
+are zoomed and shown in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>. The selected peaks are the same as those in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>.</p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Zoomed peaks of the second
+batch of samples. (A) and (B) are CuFe<sub>2</sub>O<sub>4</sub> peaks,
+(C) is a Fe<sub>2</sub>O<sub>3</sub> peak, and (D) is a CuO peak.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0009" id="gr9" position="float"/></fig><p>In <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>A,B, two CuFe<sub>2</sub>O<sub>4</sub> peaks are represented.
+It can be seen that, despite the case of sample #1, all of the samples
+are close to the maximum value. In addition, sample #2 is slightly
+less intense, and those samples prepared at 950 &#x000b0;C reach the
+same values independently of the calcination time. <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>C,D represents impurity peaks.
+The first, corresponding to a characteristic Fe<sub>2</sub>O<sub>3</sub> peak, is actually inexistent for the four samples, giving thus a
+good idea about the purity improvement in this batch. Finally, the
+last image indicates that all samples still have some CuO traces,
+which are almost the same in all of them. To have more detailed information,
+all samples have been refined by the Rietveld method. <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref> shows the profile fitting
+done for one of the samples, and <xref rid="tbl5" ref-type="other">Table <xref rid="tbl5" ref-type="other">5</xref></xref> contains the refined values.</p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Rietveld refinement
+of sample #4 from the second batch of samples. Measured data is represented
+by circles, whereas the continuous red line shows the calculated model.
+The difference between both values is represented in the bottom plot.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0010" id="gr10" position="float"/></fig><table-wrap id="tbl5" position="float"><label>Table 5</label><caption><title>Rietveld Refinement Compositions Obtained
+for the Second Batch of Samples<xref rid="t5fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">sample (#)</th><th style="border:none;" align="center" char=".">CuFe<sub>2</sub>O<sub>4</sub> (%)</th><th style="border:none;" align="center" char=".">CuO (%)</th><th style="border:none;" align="center" char=".">Fe<sub>2</sub>O<sub>3</sub> (%)</th><th style="border:none;" align="center" char=".">&#x003c7;<sup>2</sup></th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">95.8</td><td style="border:none;" align="char" char=".">3.9</td><td style="border:none;" align="char" char=".">0.3</td><td style="border:none;" align="char" char=".">3.19</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">96.1</td><td style="border:none;" align="char" char=".">3.5</td><td style="border:none;" align="char" char=".">0.4</td><td style="border:none;" align="char" char=".">3.18</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">95.6</td><td style="border:none;" align="char" char=".">4.2</td><td style="border:none;" align="char" char=".">0.2</td><td style="border:none;" align="char" char=".">3.26</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">95.7</td><td style="border:none;" align="char" char=".">4.0</td><td style="border:none;" align="char" char=".">0.3</td><td style="border:none;" align="char" char=".">3.02</td></tr></tbody></table><table-wrap-foot><fn id="t5fn1"><label>a</label><p>&#x003c7;<sup>2</sup> represents the quality of the adjustment.</p></fn></table-wrap-foot></table-wrap><p>The Rietveld refinement confirms what was suggested
+before: the purity is excellent in all of the samples and all of the
+values are extremely similar. The small diversity is not significant
+and is influenced by the small differences in the profile fitting
+quality. The mean purity value is 95.8 &#x000b1; 0.2%. This similarity
+in the results suggests that in these conditions a maximum purity
+is reached.</p><p>When these experimental responses are used to deduce
+the model described in <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>, the parameters obtained are <italic>b</italic><sub>0</sub> = 95.8, <italic>b</italic><sub>1</sub> = 0.1, <italic>b</italic><sub>2</sub> = &#x02212;0.1,
+and <italic>b</italic><sub>12</sub> = 0.0. The graphical representation
+of these values and the predicted purity are represented in <xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref>.</p><fig id="fig11" position="float"><label>Figure 11</label><caption><p>(A) Obtained parameters
+for <italic>b</italic><sub>1</sub>, <italic>b</italic><sub>2</sub>, and <italic>b</italic><sub>12</sub>; (B) second DoE-calculated
+purity values.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0011" id="gr11" position="float"/></fig><p>In this second design of samples,
+the obtained coefficients are substantially lower than those obtained
+in the first design. In contrast with the first batch, now the relative
+value of <italic>b</italic><sub>12</sub> is much lower than <italic>b</italic><sub>1</sub> and <italic>b</italic><sub>2</sub>. These
+results are consistent with the fact that the chemical composition
+is almost constant in this range. Moreover, the surface represented
+in <xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref>B is almost
+constant in all of the experimental domain. Even though it may seem
+that there is some slope, the corresponding small purity should be
+taken into account. Finally, to check the model results obtained here,
+an extra sample with intermediate conditions has been prepared and
+characterized. This sample has been prepared at 900 &#x000b0;C for 60
+min, and the corresponding purity obtained by the Rietveld refinement
+is 95.7% with &#x003c7;<sup>2</sup> = 3.08. This chemical composition
+is consistent with the predicted values under the same conditions
+(95.8%), and, hence, the model is validated.</p><p>These stable composition
+values are similar to those obtained in other works, which synthesize
+CuFe<sub>2</sub>O<sub>4</sub> nanoparticles by similar methods.<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref32">32</xref></sup> Even though the maximum reported
+purities in these works (95%) are slightly lower than ours, it is
+worth mentioning that these studies used maximum calcination temperatures
+of 800 &#x000b0;C, whereas our second batch is prepared at a calcination
+temperature of 850 &#x000b0;C. As it has been clearly demonstrated in
+this study, this difference in temperature can lead to an increase
+of ferrite conversion. On the other hand, all works agree on the formation
+of the tetragonal phase of CuFe<sub>2</sub>O<sub>4</sub> in the studied
+temperature range.</p><p>This second batch of samples has also been
+analyzed by LD to study their particle size distribution. Results
+are shown in <xref rid="fig12" ref-type="fig">Figure <xref rid="fig12" ref-type="fig">12</xref></xref>.</p><fig id="fig12" position="float"><label>Figure 12</label><caption><p>Particle size distribution of the second batch of samples represented
+as a (A) function of the number of particles and (B) as the percentage
+of volume that each diameter represents in the hole sample.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0012" id="gr12" position="float"/></fig><p>Again, all samples have their number percentage
+distribution centered under 100 nm, certifying their nanometric nature.
+No clear differences are detected between samples, which have a mean
+value of 93.1 &#x000b1; 1.4 nm. These results are on the same order as
+those obtained for the first batch. Regarding the volume percentage
+distribution, a curious behavior is seen: those samples calcinated
+at lower temperatures (#1, #2) are displaced to bigger sizes. On the
+other hand, the aspect of patterns suggests that the distributions
+are more homogeneous when the sample is processed at lower temperatures,
+which corresponds to a lower degree of particle sintering and agglomeration.</p><p>The behavior seen in <xref rid="fig13" ref-type="fig">Figure <xref rid="fig13" ref-type="fig">13</xref></xref> is similar to the one previously discussed in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>: spherical-shaped
+nanometric particles sinter by thermal processes, forming micrometric
+clusters. Nanoparticles have been clearly formed, but the applied
+thermal energy produces this sintering effect between particles. Therefore,
+an equilibrium needs to be found to maximize the ferrite purity and
+to avoid sintering. Once the maximum purity is reached, as happens
+in this second batch, it is recommended to work at the lower possible
+temperature and time to reduce the agglomeration.</p><fig id="fig13" position="float"><label>Figure 13</label><caption><p>SEM images at &#x000d7;3000
+magnifications of all of the powder samples of the second batch: (A)
+sample #1, (B) sample #2, (C) sample #3, and (D) sample #4.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0013" id="gr13" position="float"/></fig><p>These final samples have also been analyzed by
+SQUID magnetometry. The hysteresis cycle results are shown in <xref rid="fig14" ref-type="fig">Figure <xref rid="fig14" ref-type="fig">14</xref></xref>.</p><fig id="fig14" position="float"><label>Figure 14</label><caption><p>SQUID M(H) measurements
+for the second batch of samples. The inner plot is a zoomed representation
+of the data close to the origin of coordinates.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0014" id="gr14" position="float"/></fig><p>As could be expected from the chemical and crystallographic results,
+here, the magnetic behavior is much more similar between samples than
+in the first batch. Nevertheless, there is still a small difference
+in <italic>M</italic><sub>S</sub> and &#x003bc; between those samples
+prepared at 850 and 950 &#x000b0;C, where they are higher when the calcination
+is more intense. Although the differences are now smaller, it is possible
+to see how those samples prepared at higher temperatures have smaller
+values of <italic>M</italic><sub>R</sub> and <italic>H</italic><sub>C</sub>. It is contrary to what has been obtained for the first batch
+of samples. Nevertheless, it should be considered that the differences
+in these cases are much smaller and they may be in the error range
+of the measurement. Finally, the main parameters obtained from these
+measurements are shown in <xref rid="tbl6" ref-type="other">Table <xref rid="tbl6" ref-type="other">6</xref></xref>.</p><table-wrap id="tbl6" position="float"><label>Table 6</label><caption><title>Magnetic Properties of the Second
+Batch of Samples</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">sample (#)</th><th style="border:none;" align="center" char="."><italic>M</italic><sub>S</sub> (emu/g)</th><th style="border:none;" align="center" char="."><italic>M</italic><sub>R</sub> (emu/g)</th><th style="border:none;" align="center" char=".">|<italic>H</italic><sub>C</sub>| (Oe)</th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="char" char=".">29.3</td><td style="border:none;" align="char" char=".">14.0</td><td style="border:none;" align="char" char=".">623.6</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="char" char=".">30.6</td><td style="border:none;" align="char" char=".">13.9</td><td style="border:none;" align="char" char=".">453.4</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="char" char=".">31.7</td><td style="border:none;" align="char" char=".">13.0</td><td style="border:none;" align="char" char=".">437.1</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="char" char=".">31.4</td><td style="border:none;" align="char" char=".">12.7</td><td style="border:none;" align="char" char=".">400.3</td></tr></tbody></table></table-wrap><p>The obtained <italic>M</italic><sub>S</sub> values are greater than those previously reported for CuFe<sub>2</sub>O<sub>4</sub> nanoparticles prepared by similar methods,<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> which show values between 20
+and 28 emu/g. In samples treated at 800 &#x000b0;C, L&#x000f3;pez-Ram&#x000f3;n
+et al. reported much softer magnetic properties, with approximately <italic>M</italic><sub>R</sub> values of 0.8 emu/g and <italic>H</italic><sub>C</sub> of 30 Oe. Anandan et al. obtained similar remanence
+and coercivity values (<italic>M</italic><sub>R</sub> of 12 emu/g
+and <italic>H</italic><sub>C</sub> of 631 Oe), whereas Sumangala et
+al. results show a harder behavior (<italic>H</italic><sub>C</sub> of around 1 kOe). The paper published by Yadav et al.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> reports values of <italic>M</italic><sub>S</sub> = 25 emu/g, <italic>M</italic><sub>R</sub> = 8, and <italic>H</italic><sub>C</sub> = 218 Oe when the tetragonal phase is completely formed.
+These results are on the same order of magnitude as ours but with
+a softer behavior.</p><p><xref rid="tbl7" ref-type="other">Table <xref rid="tbl7" ref-type="other">7</xref></xref> provides an overall comparison of our results with those
+previously reported by other authors. The sample prepared at 850 &#x000b0;C
+has been used for the comparison because its conditions are similar
+to those in other studies and it may be considered to represent the
+optimal conditions found in the second DoE. Only studies with the
+same crystal structure have been considered for a more rigorous comparison.</p><table-wrap id="tbl7" position="float"><label>Table 7</label><caption><title>Comparison of the Results Obtained in This Work with
+the Literature<xref rid="t7fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">references</th><th style="border:none;" align="center" char=".">calcination
+temperature (&#x000b0;C)</th><th style="border:none;" align="center">calcination time (min)</th><th style="border:none;" align="center">spinel crystal structure</th><th style="border:none;" align="center">purity (%)</th><th style="border:none;" align="center"><italic>M</italic><sub>S</sub> (emu/g)</th></tr></thead><tbody><tr><td style="border:none;" align="left">this
+work</td><td style="border:none;" align="char" char=".">850</td><td style="border:none;" align="left">30</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">96</td><td style="border:none;" align="left">31</td></tr><tr><td style="border:none;" align="left">L&#x000f3;pez-Ramon<sup><xref ref-type="bibr" rid="ref22">22</xref></sup></td><td style="border:none;" align="char" char=".">800</td><td style="border:none;" align="left">180</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">88</td><td style="border:none;" align="left">25</td></tr><tr><td style="border:none;" align="left">Zhuravlev<sup><xref ref-type="bibr" rid="ref23">23</xref></sup></td><td style="border:none;" align="char" char=".">800</td><td style="border:none;" align="left">240</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">95</td><td style="border:none;" align="left">&#x02013;</td></tr><tr><td style="border:none;" align="left">Sumangala<sup><xref ref-type="bibr" rid="ref32">32</xref></sup></td><td style="border:none;" align="char" char=".">800</td><td style="border:none;" align="left">&#x02013;</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">95</td><td style="border:none;" align="left">28</td></tr><tr><td style="border:none;" align="left">Anandan<sup><xref ref-type="bibr" rid="ref33">33</xref></sup></td><td style="border:none;" align="char" char=".">900</td><td style="border:none;" align="left">180</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">&#x02013;</td><td style="border:none;" align="left">21</td></tr><tr><td style="border:none;" align="left">Yadav<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></td><td style="border:none;" align="char" char=".">1100</td><td style="border:none;" align="left">120</td><td style="border:none;" align="left">tetragonal</td><td style="border:none;" align="left">&#x02013;</td><td style="border:none;" align="left">25</td></tr></tbody></table><table-wrap-foot><fn id="t7fn1"><label>a</label><p>&#x0201c;&#x02013;&#x0201d;
+symbol indicates unknown information.</p></fn></table-wrap-foot></table-wrap><p>It is appreciable that both the purity and <italic>M</italic><sub>S</sub> values reported in our work are greater than
+the values of all of these papers using similar synthesis methods
+and forming the tetragonal crystal structure. The elevated <italic>M</italic><sub>S</sub> level achieved in this work may be a consequence
+of the high sample purity, according to the tendencies observed in
+the first DoE. Moreover, it is possible to see that we are even obtaining
+better results than other works carrying out the calcination at higher
+temperatures. Furthermore, our calcination process is clearly faster
+than the others, confirming the low impact of the time on the obtained
+properties. Therefore, the hypothesis stating that short calcinations
+at high temperatures are probably the best option is reinforced.</p><p>The dependence of <italic>M</italic><sub>S</sub> and <italic>M</italic><sub>R</sub> on the CuFe<sub>2</sub>O<sub>4</sub> content is shown
+in <xref rid="fig15" ref-type="fig">Figure <xref rid="fig15" ref-type="fig">15</xref></xref>. All
+of the samples from both batches have been represented. As can be
+clearly seen, both magnitudes increase with the CuFe<sub>2</sub>O<sub>4</sub> content. For high-purity samples, the values are almost constant,
+which can be assumed as those corresponding to the pure CuFe<sub>2</sub>O<sub>4</sub>. Overall, the formation of the complex ferrite from
+its former oxides increases the saturation magnetization, although
+it is accompanied by a slight increase of the remanence.</p><fig id="fig15" position="float"><label>Figure 15</label><caption><p>Saturation
+magnetization (<italic>M</italic><sub>S</sub>) and remanent magnetization
+(<italic>M</italic><sub>R</sub>) dependence on the simple purity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_0015" id="gr15" position="float"/></fig></sec><sec id="sec3"><title>Conclusions</title><p>In this work, copper
+ferrite nanoparticles have been successfully synthesized by means
+of a simple polymer-assisted sol&#x02013;gel method. The process and
+the conditions have been described, and the process has been studied
+in a wide range of conditions. A multivariate analysis, by means of
+the design of experiments approach, has allowed us to do a multivariable
+analysis of the effect of the calcination time and temperature on
+the nanoparticle properties. Furthermore, it has been proved a higher
+agglomeration of particles for stronger calcinations.</p><p>The first
+DoE planned in a wide range of conditions has been useful to confirm
+that the ferrite conversion improves for calcinations at high temperatures
+and long times. Moreover, temperature has been observed to have a
+stronger impact on the final properties than time. The second DoE
+has shown a plateau on chemical composition and magnetic properties
+above 850 &#x000b0;C. Therefore, the optimum conditions have been set
+to calcination at 850 &#x000b0;C for 30 min.</p><p>The results obtained
+in this work are an improvement over those previously published by
+other authors in similar conditions. The sample purity (96%), as well
+as the saturation magnetization (31 emu/g), is slightly higher than
+that found by other authors. However, we have not been able to obtain
+perfectly isolated nanoparticles, as they sinter during calcination.
+Moreover, the number distribution of the nanoparticles could not be
+obtained in detail for each sample due to resolution limitations.</p><p>Future work should be addressed to the reduction of particle sintering
+and thus obtain isolated nanoparticles. To do so, the temperature
+range between 750 and 850 &#x000b0;C could be explored in more detail.
+Lower temperatures should, in principle, lead to lower sintering between
+particles.</p></sec><sec id="sec4"><title>Experimental Section</title><sec id="sec4.1"><title>Materials</title><p>The metal salt precursors
+used for the synthesis of CuFe<sub>2</sub>O<sub>4</sub> were iron
+nitrate [Fe(NO<sub>3</sub>)<sub>3</sub>&#x000b7;9H<sub>2</sub>O, Labkem]
+and copper nitrate [Cu(NO<sub>3</sub>)<sub>2</sub>&#x000b7;3H<sub>2</sub>O, Labkem], with poly(vinylpyrrolidone), PVP [(C<sub>6</sub>H<sub>9</sub>NO)<italic><sub>n</sub></italic>, Sigma-Aldrich], as a gelling
+agent. Distilled water was used as the solvent.</p></sec><sec id="sec4.2"><title>Design of Experiments,
+DoE</title><p>The DoE approach is a powerful method used to optimize
+processes and quantitatively estimate the effect that different variables
+have in a process and their possible interactions. For this work,
+a Full Factorial Design (2<italic><sup>K</sup></italic>) strategy
+was selected and two variables (<italic>K</italic> = 2) were analyzed:
+calcination temperature (<italic>X</italic><sub>1</sub>, in degrees)
+and time (<italic>X</italic><sub>2</sub>, in min). The evaluated response
+(<italic>Y</italic>, in percentage) was the purity of the obtained
+ferrite.</p><p>The upper and lower levels were defined in each of
+the two optimization cycles that were done in this work. Once the
+levels of variables were set, the experimental matrix was defined
+(see <xref rid="tbl8" ref-type="other">Table <xref rid="tbl8" ref-type="other">8</xref></xref>). As <italic>K</italic> = 2, the total number of experiments to be done was 4.</p><table-wrap id="tbl8" position="float"><label>Table 8</label><caption><title>Experimental Matrix Definition</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">experiment
+#</th><th style="border:none;" align="center"><italic>X</italic><sub>1</sub></th><th style="border:none;" align="center"><italic>X</italic><sub>2</sub></th></tr></thead><tbody><tr><td style="border:none;" align="left">1</td><td style="border:none;" align="left">&#x02013;</td><td style="border:none;" align="left">&#x02013;</td></tr><tr><td style="border:none;" align="left">2</td><td style="border:none;" align="left">+</td><td style="border:none;" align="left">&#x02013;</td></tr><tr><td style="border:none;" align="left">3</td><td style="border:none;" align="left">&#x02013;</td><td style="border:none;" align="left">+</td></tr><tr><td style="border:none;" align="left">4</td><td style="border:none;" align="left">+</td><td style="border:none;" align="left">+</td></tr></tbody></table></table-wrap><p>The &#x0201c;+&#x0201d; and
+&#x0201c;&#x02013;&#x0201d; symbols represent, respectively, the upper
+and lower levels for each variable. Thus, a square design was planned,
+where corners of the four combinations were explored. With these conditions,
+the simple mathematical model described in <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref> can be defined<sup><xref ref-type="bibr" rid="ref28">28</xref></sup><disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02295_m001" position="anchor"/><label>1</label></disp-formula>where <italic>Y</italic> is the response
+value (copper ferrite purity, in this case), <italic>X</italic><sub><italic>n</italic></sub> corresponds to &#x0201c;+1&#x0201d; or &#x0201c;&#x02013;1&#x0201d;
+values according to <xref rid="tbl8" ref-type="other">Table <xref rid="tbl8" ref-type="other">8</xref></xref>, and <italic>b</italic><sub><italic>n</italic></sub> are
+experimentally deduced coefficients. Once the experimental values
+were obtained, it was possible to predict <italic>Y</italic> at any
+point in the experimental domain.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup></p></sec><sec id="sec4.3"><title>Synthesis</title><p>For the synthesis of CuFe<sub>2</sub>O<sub>4</sub> nanoparticles
+by the polymer-assisted sol&#x02013;gel method, a specific amount of
+PVP (ratio 1:1 with the aimed CuFe<sub>2</sub>O<sub>4</sub> mass)
+was first dissolved in 200 mL of distilled water under stirring at
+room temperature for 2 h. Then, stoichiometric amounts of each nitrate
+precursor were added, and the solution was further stirred at room
+temperature for three additional hours. After this, the homogeneous
+solution was heated at 80 &#x000b0;C for 24 h in a furnace to dry the
+sample and polymerize the gelling agent. Thus, a solid gel containing
+a homogeneous distribution of the metal ions was obtained. To eliminate
+the organic matter and obtain the desired oxide, the gel was burned
+at 250 &#x000b0;C for 15 min in a furnace. The obtained product was further
+ground to powder, and finally, calcination was done to allow the ferrite
+formation. The calcination conditions are later specified for each
+sample, as these are the parameters optimized by the DoE.</p></sec><sec id="sec4.4"><title>Characterization</title><p>For each sample, chemical composition and crystal structure were
+determined by means of XRD measurements in a PANalytical X&#x02019;Pert
+PRO MPD &#x003b8;/&#x003b8; Bragg&#x02013;Brentano powder diffractometer
+with a radius of 240 mm using Cu K&#x003b1; radiation (&#x003bb; = 1.5418
+&#x000c5;). Particle size measurement by LD was done using an LS 13 320MW
+from a Beckman Coulter device. To corroborate particle sizes, shape,
+and agglomeration, SEM images were obtained with a Field Emission
+SEM JEDL J-7100. Finally, magnetic properties were measured in a magnetometer
+SQUID Quantum Design MPMS XL.</p></sec></sec></body><back><notes notes-type="COI-statement" id="NOTES-d7e2020-autogenerated"><p>The authors declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>J. Calvo-de la Rosa acknowledges Ajuts a la Doc&#x000e8;ncia i a la
+Recerca (ADR) given by the Universitat de Barcelona and the Catalan
+Government for the quality accreditation given to his research group
+DIOPMA (2017 SGR 118).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Niemirowicz</surname><given-names>K.</given-names></name>; <name><surname>Markiewicz</surname><given-names>K. H.</given-names></name>; <name><surname>Wilczewska</surname><given-names>A. Z.</given-names></name>; <name><surname>Car</surname><given-names>H.</given-names></name>
+<article-title>Magnetic Nanoparticles
+as New Diagnostic Tools in Medicine</article-title>. <source>Adv. Med.
+Sci.</source>
+<year>2012</year>, <volume>57</volume>, <fpage>196</fpage>&#x02013;<lpage>207</lpage>. <pub-id pub-id-type="doi">10.2478/v10039-012-0031-9</pub-id>.<pub-id pub-id-type="pmid">23154427</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Lim</surname><given-names>J.</given-names></name>; <name><surname>Teoh</surname><given-names>S.-H.</given-names></name>; <name><surname>Xu</surname><given-names>C.</given-names></name>
+<article-title>Emerging Translational Research on Magnetic Nanoparticles for Regenerative
+Medicine</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2015</year>, <volume>44</volume>, <fpage>6306</fpage>&#x02013;<lpage>6329</lpage>. <pub-id pub-id-type="doi">10.1039/C4CS00322E</pub-id>.<pub-id pub-id-type="pmid">26505058</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>J&#x000f3;zefczak</surname><given-names>A.</given-names></name>; <name><surname>Kaczmarek</surname><given-names>K.</given-names></name>; <name><surname>Hornowski</surname><given-names>T.</given-names></name>; <name><surname>Kubov&#x0010d;&#x000ed;kov&#x000e1;</surname><given-names>M.</given-names></name>; <name><surname>Rozynek</surname><given-names>Z.</given-names></name>; <name><surname>Timko</surname><given-names>M.</given-names></name>; <name><surname>Skumiel</surname><given-names>A.</given-names></name>
+<article-title>Magnetic Nanoparticles
+for Enhancing the Effectiveness of Ultrasonic Hyperthermia</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2016</year>, <volume>108</volume>, <elocation-id>263701</elocation-id><pub-id pub-id-type="doi">10.1063/1.4955130</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Shi</surname><given-names>X.</given-names></name>; <name><surname>Xiang</surname><given-names>C.</given-names></name>; <name><surname>Liu</surname><given-names>Y.</given-names></name>; <name><surname>Lin</surname><given-names>H.</given-names></name>; <name><surname>Xu</surname><given-names>Y.</given-names></name>; <name><surname>Ji</surname><given-names>J.</given-names></name>
+<article-title>Preparation and Evaluation of Chitosan/&#x003b2;-Cyclodextrin
+Magnetic Nanoparticles as a Photodegradable and Hydrophobic Drug Delivery
+Carrier</article-title>. <source>J. Appl. Polym. Sci.</source>
+<year>2017</year>, <volume>134</volume>, <elocation-id>45076</elocation-id><pub-id pub-id-type="doi">10.1002/app.45076</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Kamzin</surname><given-names>A. S.</given-names></name>; <name><surname>Ranjith Kumar</surname><given-names>E.</given-names></name>; <name><surname>Ramadevi</surname><given-names>P.</given-names></name>; <name><surname>Selvakumar</surname><given-names>C.</given-names></name>
+<article-title>The Properties
+of Mn&#x02013;CuFe 2 O 4 Spinel Ferrite Nanoparticles under Various
+Synthesis Conditions</article-title>. <source>Phys. Solid State</source>
+<year>2017</year>, <volume>59</volume>, <fpage>1841</fpage>&#x02013;<lpage>1851</lpage>. <pub-id pub-id-type="doi">10.1134/S1063783417090128</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Chandra</surname><given-names>S.</given-names></name>; <name><surname>Patel</surname><given-names>M. D.</given-names></name>; <name><surname>Lang</surname><given-names>H.</given-names></name>; <name><surname>Bahadur</surname><given-names>D.</given-names></name>
+<article-title>Dendrimer-Functionalized Magnetic Nanoparticles: A
+New Electrode Material for Electrochemical Energy Storage Devices</article-title>. <source>J. Power Sources</source>
+<year>2015</year>, <volume>280</volume>, <fpage>217</fpage>&#x02013;<lpage>226</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpowsour.2015.01.075</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Kovalenko</surname><given-names>A.</given-names></name>; <name><surname>Singh Yadav</surname><given-names>R.</given-names></name>; <name><surname>Pospisil</surname><given-names>J.</given-names></name>; <name><surname>Zmeskal</surname><given-names>O.</given-names></name>; <name><surname>Karashanova</surname><given-names>D.</given-names></name>; <name><surname>Heinrichov&#x000e1;</surname><given-names>P.</given-names></name>; <name><surname>Vala</surname><given-names>M.</given-names></name>; <name><surname>Havlica</surname><given-names>J.</given-names></name>; <name><surname>Weiter</surname><given-names>M.</given-names></name>
+<article-title>Towards Improved
+Efficiency of Bulk-Heterojunction Solar Cells Using Various Spinel
+Ferrite Magnetic Nanoparticles</article-title>. <source>Org. Electron.</source>
+<year>2016</year>, <volume>39</volume>, <fpage>118</fpage>&#x02013;<lpage>126</lpage>. <pub-id pub-id-type="doi">10.1016/j.orgel.2016.09.033</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Galloway</surname><given-names>J. M.</given-names></name>; <name><surname>Talbot</surname><given-names>J. E.</given-names></name>; <name><surname>Critchley</surname><given-names>K.</given-names></name>; <name><surname>Miles</surname><given-names>J. J.</given-names></name>; <name><surname>Bramble</surname><given-names>J. P.</given-names></name>
+<article-title>Developing Biotemplated Data Storage:
+Room Temperature Biomineralization of L10 CoPt Magnetic Nanoparticles</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2015</year>, <volume>25</volume>, <fpage>4590</fpage>&#x02013;<lpage>4600</lpage>. <pub-id pub-id-type="doi">10.1002/adfm.201501090</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Ohkoshi</surname><given-names>S.i.</given-names></name>; <name><surname>Namai</surname><given-names>A.</given-names></name>; <name><surname>Yoshikiyo</surname><given-names>M.</given-names></name>; <name><surname>Imoto</surname><given-names>K.</given-names></name>; <name><surname>Tamazaki</surname><given-names>K.</given-names></name>; <name><surname>Matsuno</surname><given-names>K.</given-names></name>; <name><surname>Inoue</surname><given-names>O.</given-names></name>; <name><surname>Ide</surname><given-names>T.</given-names></name>; <name><surname>Masada</surname><given-names>K.</given-names></name>; <name><surname>Goto</surname><given-names>M.</given-names></name>; et al. <article-title>Multimetal-Substituted Epsilon-Iron Oxide &#x003f5;-Ga0.31TiO0.05CoO0.05Fe1.59O3
+for Next-Generation Magnetic Recording Tape in the Big-Data Era</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>11403</fpage>&#x02013;<lpage>11406</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201604647</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Salavati-Niasari</surname><given-names>M.</given-names></name>; <name><surname>Mahmoudi</surname><given-names>T.</given-names></name>; <name><surname>Sabet</surname><given-names>M.</given-names></name>; <name><surname>Hosseinpour-Mashkani</surname><given-names>S. M.</given-names></name>; <name><surname>Soofivand</surname><given-names>F.</given-names></name>; <name><surname>Tavakoli</surname><given-names>F.</given-names></name>
+<article-title>Synthesis and Characterization of
+Copper Ferrite Nanocrystals via Coprecipitation</article-title>. <source>J. Cluster Sci.</source>
+<year>2012</year>, <volume>23</volume>, <fpage>1003</fpage>&#x02013;<lpage>1010</lpage>. <pub-id pub-id-type="doi">10.1007/s10876-012-0486-7</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Kanagaraj</surname><given-names>M.</given-names></name>; <name><surname>Sathishkumar</surname><given-names>P.</given-names></name>; <name><surname>Selvan</surname><given-names>G. K.</given-names></name>; <name><surname>Kokila</surname><given-names>P.</given-names></name>; <name><surname>Arumugam</surname><given-names>S.</given-names></name>
+<article-title>Structural and Magnetic
+Properties of CuFe 2 O 4 As-Prepared and Thermally Treated Spinel
+Nanoferrites</article-title>. <source>Indian J. Pure Appl. Phys.</source>
+<year>2014</year>, <volume>52</volume>, <fpage>124</fpage>&#x02013;<lpage>130</lpage>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Moshtaghi</surname><given-names>S.</given-names></name>; <name><surname>Ghanbari</surname><given-names>D.</given-names></name>; <name><surname>Salavati-niasari</surname><given-names>M.</given-names></name>
+<article-title>Characterization
+of CaSn (OH) 6 and CaSnO 3 Nanostructures Synthesized Bya New Precursor</article-title>. <source>J. Nanostruct.</source>
+<year>2015</year>, <volume>5</volume>, <fpage>169</fpage>&#x02013;<lpage>174</lpage>. <pub-id pub-id-type="doi">10.7508/jns.2015.02.012</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Sharifi</surname><given-names>I.</given-names></name>; <name><surname>Zamanian</surname><given-names>A.</given-names></name>; <name><surname>Behnamghader</surname><given-names>A.</given-names></name>
+<article-title>Synthesis
+and Characterization of Fe0.6Zn0.4Fe2O4 Ferrite Magnetic Nanoclusters
+Using Simple Thermal Decomposition Method</article-title>. <source>J.
+Magn. Magn. Mater.</source>
+<year>2016</year>, <volume>412</volume>, <fpage>107</fpage>&#x02013;<lpage>113</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2016.03.091</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Al-Gaashani</surname><given-names>R.</given-names></name>; <name><surname>A&#x000ef;ssa</surname><given-names>B.</given-names></name>; <name><surname>Anower Hossain</surname><given-names>M.</given-names></name>; <name><surname>Radiman</surname><given-names>S.</given-names></name>
+<article-title>Catalyst-Free Synthesis of ZnO-CuO-ZnFe2O4
+Nanocomposites by a Rapid One-Step Thermal Decomposition Approach</article-title>. <source>Mater. Sci. Semicond. Process.</source>
+<year>2019</year>, <volume>90</volume>, <fpage>41</fpage>&#x02013;<lpage>49</lpage>. <pub-id pub-id-type="doi">10.1016/j.mssp.2018.10.004</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Lv</surname><given-names>W.</given-names></name>; <name><surname>Liu</surname><given-names>B.</given-names></name>; <name><surname>Luo</surname><given-names>Z.</given-names></name>; <name><surname>Ren</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>P.</given-names></name>
+<article-title>XRD Studies
+on the Nanosized Copper Ferrite Powders Synthesized by Sonochemical
+Method</article-title>. <source>J. Alloys Compd.</source>
+<year>2008</year>, <volume>465</volume>, <fpage>261</fpage>&#x02013;<lpage>264</lpage>. <pub-id pub-id-type="doi">10.1016/j.jallcom.2007.10.049</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Mir</surname><given-names>N.</given-names></name>; <name><surname>Salavati-Niasari</surname><given-names>M.</given-names></name>; <name><surname>Davar</surname><given-names>F.</given-names></name>
+<article-title>Preparation of ZnO
+Nanoflowers and Zn Glycerolate Nanoplates Using Inorganic Precursors
+via a Convenient Rout and Application in Dye Sensitized Solar Cells</article-title>. <source>Chem. Eng. J.</source>
+<year>2012</year>, <volume>181&#x02013;182</volume>, <fpage>779</fpage>&#x02013;<lpage>789</lpage>. <pub-id pub-id-type="doi">10.1016/j.cej.2011.11.085</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Gholami</surname><given-names>T.</given-names></name>; <name><surname>Salavati-Niasari</surname><given-names>M.</given-names></name>; <name><surname>Bazarganipour</surname><given-names>M.</given-names></name>; <name><surname>Noori</surname><given-names>E.</given-names></name>
+<article-title>Synthesis and Characterization of
+Spherical Silica Nanoparticles by Modified St&#x000f6;ber Process Assisted
+by Organic Ligand</article-title>. <source>Superlattices Microstruct.</source>
+<year>2013</year>, <volume>61</volume>, <fpage>33</fpage>&#x02013;<lpage>41</lpage>. <pub-id pub-id-type="doi">10.1016/j.spmi.2013.06.004</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Zinatloo-Ajabshir</surname><given-names>S.</given-names></name>; <name><surname>Salavati-Niasari</surname><given-names>M.</given-names></name>
+<article-title>Facile Route
+to Synthesize Zirconium Dioxide (ZrO2) Nanostructures: Structural,
+Optical and Photocatalytic Studies</article-title>. <source>J. Mol.
+Liq.</source>
+<year>2016</year>, <volume>216</volume>, <fpage>545</fpage>&#x02013;<lpage>551</lpage>. <pub-id pub-id-type="doi">10.1016/j.molliq.2016.01.062</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Kalam</surname><given-names>A.</given-names></name>; <name><surname>Al-Sehemi</surname><given-names>A. G.</given-names></name>; <name><surname>Assiri</surname><given-names>M.</given-names></name>; <name><surname>Du</surname><given-names>G.</given-names></name>; <name><surname>Ahmad</surname><given-names>T.</given-names></name>; <name><surname>Ahmad</surname><given-names>I.</given-names></name>; <name><surname>Pannipara</surname><given-names>M.</given-names></name>
+<article-title>Modified Solvothermal Synthesis of Cobalt Ferrite (CoFe
+2 O 4) Magnetic Nanoparticles Photocatalysts for Degradation of Methylene
+Blue with H 2 O 2 /Visible Light</article-title>. <source>Results Phys.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>1046</fpage>&#x02013;<lpage>1053</lpage>. <pub-id pub-id-type="doi">10.1016/j.rinp.2018.01.045</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Kurian</surname><given-names>J.</given-names></name>; <name><surname>Mathew</surname><given-names>M. J.</given-names></name>
+<article-title>Structural, Optical
+and Magnetic Studies of CuFe2O4, MgFe2O4 and ZnFe2O4 Nanoparticles
+Prepared by Hydrothermal/Solvothermal Method</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2018</year>, <volume>451</volume>, <fpage>121</fpage>&#x02013;<lpage>130</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2017.10.124</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Zakiyah</surname><given-names>L. B.</given-names></name>; <name><surname>Saion</surname><given-names>E.</given-names></name>; <name><surname>Al-Hada</surname><given-names>N. M.</given-names></name>; <name><surname>Gharibshahi</surname><given-names>E.</given-names></name>; <name><surname>Salem</surname><given-names>A.</given-names></name>; <name><surname>Soltani</surname><given-names>N.</given-names></name>; <name><surname>Gene</surname><given-names>S.</given-names></name>
+<article-title>Up-Scalable
+Synthesis of Size-Controlled Copper Ferrite Nanocrystals by Thermal
+Treatment Method</article-title>. <source>Mater. Sci. Semicond. Process.</source>
+<year>2015</year>, <volume>40</volume>, <fpage>564</fpage>&#x02013;<lpage>569</lpage>. <pub-id pub-id-type="doi">10.1016/j.mssp.2015.07.027</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>L&#x000f3;pez-Ram&#x000f3;n</surname><given-names>M. V.</given-names></name>; <name><surname>&#x000c1;lvarez</surname><given-names>M. A.</given-names></name>; <name><surname>Moreno-Castilla</surname><given-names>C.</given-names></name>; <name><surname>Fontecha-C&#x000e1;mara</surname><given-names>M. A.</given-names></name>; <name><surname>Yebra-Rodr&#x000ed;guez</surname><given-names>&#x000c1;.</given-names></name>; <name><surname>Bail&#x000f3;n-Garc&#x000ed;a</surname><given-names>E.</given-names></name>
+<article-title>Effect of Calcination Temperature
+of a Copper Ferrite Synthesized by a Sol-Gel Method on Its Structural
+Characteristics and Performance as Fenton Catalyst to Remove Gallic
+Acid from Water</article-title>. <source>J. Colloid Interface Sci.</source>
+<year>2018</year>, <volume>511</volume>, <fpage>193</fpage>&#x02013;<lpage>202</lpage>. <pub-id pub-id-type="doi">10.1016/j.jcis.2017.09.117</pub-id>.<pub-id pub-id-type="pmid">29024859</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Zhuravlev</surname><given-names>V. A.</given-names></name>; <name><surname>Minin</surname><given-names>R. V.</given-names></name>; <name><surname>Itin</surname><given-names>V. I.</given-names></name>; <name><surname>Lilenko</surname><given-names>I. Y.</given-names></name>
+<article-title>Structural Parameters and Magnetic Properties of Copper
+Ferrite Nanopowders Obtained by the Sol-Gel Combustion</article-title>. <source>J. Alloys Compd.</source>
+<year>2017</year>, <volume>692</volume>, <fpage>705</fpage>&#x02013;<lpage>712</lpage>. <pub-id pub-id-type="doi">10.1016/j.jallcom.2016.09.069</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Satheeshkumar</surname><given-names>M. K.</given-names></name>; <name><surname>Ranjith Kumar</surname><given-names>E.</given-names></name>; <name><surname>Srinivas</surname><given-names>C.</given-names></name>; <name><surname>Prasad</surname><given-names>G.</given-names></name>; <name><surname>Meena</surname><given-names>S. S.</given-names></name>; <name><surname>Pradeep</surname><given-names>I.</given-names></name>; <name><surname>Suriyanarayanan</surname><given-names>N.</given-names></name>; <name><surname>Sastry</surname><given-names>D. L.</given-names></name>
+<article-title>Structural and Magnetic Properties
+of CuFe 2 O 4 Ferrite Nanoparticles Synthesized by Cow Urine Assisted
+Combustion Method</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2019</year>, <volume>484</volume>, <fpage>120</fpage>&#x02013;<lpage>125</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2019.03.128</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Satheeshkumar</surname><given-names>M. K.</given-names></name>; <name><surname>Ranjith Kumar</surname><given-names>E.</given-names></name>; <name><surname>Srinivas</surname><given-names>C.</given-names></name>; <name><surname>Suriyanarayanan</surname><given-names>N.</given-names></name>; <name><surname>Deepty</surname><given-names>M.</given-names></name>; <name><surname>Prajapat</surname><given-names>C. L.</given-names></name>; <name><surname>Rao</surname><given-names>T. V. C.</given-names></name>; <name><surname>Sastry</surname><given-names>D. L.</given-names></name>
+<article-title>Study of Structural, Morphological
+and Magnetic Properties of Ag Substituted Cobalt Ferrite Nanoparticles
+Prepared by Honey Assisted Combustion Method and Evaluation of Their
+Antibacterial Activity</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2019</year>, <volume>469</volume>, <fpage>691</fpage>&#x02013;<lpage>697</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2018.09.039</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Zinatloo-Ajabshir</surname><given-names>S.</given-names></name>; <name><surname>Morassaei</surname><given-names>M. S.</given-names></name>; <name><surname>Salavati-Niasari</surname><given-names>M.</given-names></name>
+<article-title>Facile Fabrication of Dy2Sn2O7-SnO2 Nanocomposites
+as an Effective Photocatalyst for Degradation and Removal of Organic
+Contaminants</article-title>. <source>J. Colloid Interface Sci.</source>
+<year>2017</year>, <volume>497</volume>, <fpage>298</fpage>&#x02013;<lpage>308</lpage>. <pub-id pub-id-type="doi">10.1016/j.jcis.2017.03.031</pub-id>.<pub-id pub-id-type="pmid">28288376</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Masunga</surname><given-names>N.</given-names></name>; <name><surname>Kelebogile Mmelesi</surname><given-names>O.</given-names></name>; <name><surname>Kefeni</surname><given-names>K. K.</given-names></name>; <name><surname>Mamba</surname><given-names>B. B.</given-names></name>
+<article-title>Recent Advances in Copper Ferrite
+Nanoparticles and Nanocomposites Synthesis, Magnetic Properties and
+Application in Water Treatment: Review</article-title>. <source>J. Environ.
+Chem. Eng.</source>
+<year>2019</year>, <volume>7</volume>, <elocation-id>103179</elocation-id><pub-id pub-id-type="doi">10.1016/j.jece.2019.103179</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Leardi</surname><given-names>R.</given-names></name>
+<article-title>Experimental Design in Chemistry:
+A Tutorial</article-title>. <source>Anal. Chim. Acta</source>
+<year>2009</year>, <volume>652</volume>, <fpage>161</fpage>&#x02013;<lpage>172</lpage>. <pub-id pub-id-type="doi">10.1016/j.aca.2009.06.015</pub-id>.<pub-id pub-id-type="pmid">19786177</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Mahapatra</surname><given-names>C.</given-names></name>; <name><surname>Kim</surname><given-names>H.-W.</given-names></name>; <name><surname>Alqaysi</surname><given-names>M.</given-names></name>; <name><surname>Han</surname><given-names>C.-M.</given-names></name>; <name><surname>Singh</surname><given-names>R. K.</given-names></name>; <name><surname>Owens</surname><given-names>G. J.</given-names></name>; <name><surname>Foroutan</surname><given-names>F.</given-names></name>; <name><surname>Knowles</surname><given-names>J. C.</given-names></name>
+<article-title>Sol&#x02013;Gel
+Based Materials for Biomedical Applications</article-title>. <source>Prog. Mater. Sci.</source>
+<year>2016</year>, <volume>77</volume>, <fpage>1</fpage>&#x02013;<lpage>79</lpage>. <pub-id pub-id-type="doi">10.1016/j.pmatsci.2015.12.001</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Khemthong</surname><given-names>P.</given-names></name>; <name><surname>Kongmark</surname><given-names>C.</given-names></name>; <name><surname>Kochaputi</surname><given-names>N.</given-names></name>; <name><surname>Mahakot</surname><given-names>S.</given-names></name>; <name><surname>Rodporn</surname><given-names>S.</given-names></name>; <name><surname>Faungnawakij</surname><given-names>K.</given-names></name>
+<article-title>In Situ X-Ray
+Absorption Fine Structure Probing-Phase Evolution of CuFe2O4 in Nanospace
+Confinement</article-title>. <source>Inorg. Chem.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>6584</fpage>&#x02013;<lpage>6587</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.9b00540</pub-id>.<pub-id pub-id-type="pmid">31042020</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="book" id="cit31"><person-group person-group-type="allauthors"><name><surname>Esteve</surname><given-names>V.</given-names></name></person-group><source>El M&#x000e9;todo de Rietveld</source>; <publisher-name>Universitat Jaume I</publisher-name>: <publisher-loc>Castell&#x000f3; de la Plana</publisher-loc>, <year>2006</year>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Sumangala</surname><given-names>T. P.</given-names></name>; <name><surname>Mahender</surname><given-names>C.</given-names></name>; <name><surname>Barnabe</surname><given-names>A.</given-names></name>; <name><surname>Venkataramani</surname><given-names>N.</given-names></name>; <name><surname>Prasad</surname><given-names>S.</given-names></name>
+<article-title>Structural, Magnetic and Gas Sensing Properties of
+Nanosized Copper Ferrite Powder Synthesized by Sol Gel Combustion
+Technique</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2016</year>, <volume>418</volume>, <fpage>48</fpage>&#x02013;<lpage>53</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2016.02.053</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Anandan</surname><given-names>S.</given-names></name>; <name><surname>Selvamani</surname><given-names>T.</given-names></name>; <name><surname>Prasad</surname><given-names>G. G.</given-names></name>; <name><surname>M. Asiri</surname><given-names>A.</given-names></name>; <name><surname>J. Wu</surname><given-names>J.</given-names></name>
+<article-title>Magnetic and Catalytic Properties of Inverse Spinel CuFe 2 O 4 Nanoparticles</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2017</year>, <volume>432</volume>, <fpage>437</fpage>&#x02013;<lpage>443</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2017.02.026</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Yadav</surname><given-names>R. S.</given-names></name>; <name><surname>Havlica</surname><given-names>J.</given-names></name>; <name><surname>Masilko</surname><given-names>J.</given-names></name>; <name><surname>Kalina</surname><given-names>L.</given-names></name>; <name><surname>Wasserbauer</surname><given-names>J.</given-names></name>; <name><surname>Hajd&#x000fa;chov&#x000e1;</surname><given-names>M.</given-names></name>; <name><surname>Enev</surname><given-names>V.</given-names></name>; <name><surname>Ku&#x00159;itka</surname><given-names>I.</given-names></name>; <name><surname>Ko&#x0017e;&#x000e1;kov&#x000e1;</surname><given-names>Z.</given-names></name>
+<article-title>Cation Migration-Induced
+Crystal Phase Transformation in Copper Ferrite Nanoparticles and Their
+Magnetic Property</article-title>. <source>J. Supercond. Novel Magn.</source>
+<year>2016</year>, <volume>29</volume>, <fpage>759</fpage>&#x02013;<lpage>769</lpage>. <pub-id pub-id-type="doi">10.1007/s10948-015-3339-4</pub-id>.</mixed-citation></ref></ref-list></back></article>

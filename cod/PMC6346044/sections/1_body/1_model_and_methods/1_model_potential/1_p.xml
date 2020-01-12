@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">The Second Moment Approximation (SMA) model potential is a many-body potential that approximates the local environment of every atom mimicking the distribution of electronic states in a d-band by a bonding term 
+ <italic>U</italic>
+ <sub>
+  <italic>el</italic>
+ </sub>, supplemented with the 
+ <italic>U</italic>
+ <sub>
+  <italic>rep</italic>
+ </sub> Born-Mayer term for the short-range repulsion
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>. The SMA is a classical version of the tight-binding approach. As such, the SMA differs significantly from pair-additive classical models and has a characteristic very soft spheres repulsive wall. The SMA analytical expression is a sum, 
+ <italic>U</italic>
+ <sub>
+  <italic>coh</italic>
+ </sub> = 
+ <italic>U</italic>
+ <sub>
+  <italic>rep</italic>
+ </sub> + 
+ <italic>U</italic>
+ <sub>
+  <italic>el</italic>
+ </sub>, with
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${U}_{rep}=\sum _{i=1}^{N}\,\sum _{j=1,i\ne j}^{N}\,{\varepsilon }_{ij}{e}^{-{p}_{ij}(\tfrac{{r}_{ij}}{{r}_{{0}_{ij}}}-1)}$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+      <mi>e</mi>
+      <mi>p</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>N</mi>
+    </munderover>
+    <mspace width=".1em"/>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>j</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mi>i</mi>
+      <mo>≠</mo>
+      <mi>j</mi>
+     </mrow>
+     <mi>N</mi>
+    </munderover>
+    <mspace width=".1em"/>
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mstyle displaystyle="false">
+         <mfrac>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>r</mi>
+            </mrow>
+            <mrow>
+             <mi>i</mi>
+             <mi>j</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>r</mi>
+            </mrow>
+            <mrow>
+             <msub>
+              <mrow>
+               <mn>0</mn>
+              </mrow>
+              <mrow>
+               <mi>i</mi>
+               <mi>j</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msub>
+          </mrow>
+         </mfrac>
+        </mstyle>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="41598_2018_36574_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${U}_{el}=-\,\sum _{i=1}^{N}\,{\{\sum _{j=1,i\ne j}^{N}{{\zeta }_{ij}}^{2}{e}^{-2{q}_{ij}(\tfrac{{r}_{ij}}{{r}_{{0}_{ij}}}-1)}\}}^{1/2}$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>N</mi>
+    </munderover>
+    <mspace width=".1em"/>
+    <msup>
+     <mrow>
+      <mo stretchy="true">{</mo>
+      <mrow>
+       <munderover>
+        <mo>∑</mo>
+        <mrow>
+         <mi>j</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+         <mo>≠</mo>
+         <mi>j</mi>
+        </mrow>
+        <mi>N</mi>
+       </munderover>
+       <mspace width=".1em"/>
+       <msup>
+        <msub>
+         <mrow>
+          <mi>ζ</mi>
+         </mrow>
+         <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+         </mrow>
+        </msub>
+        <mn>2</mn>
+       </msup>
+       <msup>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+        <mrow>
+         <mo>−</mo>
+         <mn>2</mn>
+         <msub>
+          <mrow>
+           <mi>q</mi>
+          </mrow>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mstyle displaystyle="false">
+            <mfrac>
+             <mrow>
+              <msub>
+               <mrow>
+                <mi>r</mi>
+               </mrow>
+               <mrow>
+                <mi>i</mi>
+                <mi>j</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mrow>
+              <msub>
+               <mrow>
+                <mi>r</mi>
+               </mrow>
+               <mrow>
+                <msub>
+                 <mrow>
+                  <mn>0</mn>
+                 </mrow>
+                 <mrow>
+                  <mi>i</mi>
+                  <mi>j</mi>
+                 </mrow>
+                </msub>
+               </mrow>
+              </msub>
+             </mrow>
+            </mfrac>
+           </mstyle>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="true">}</mo>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="41598_2018_36574_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>r</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> are the interatomic distances and 
+ <italic>N</italic> is the total number of atoms. The parameters for pure Na and K were developed in previous work
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>. Combination rules were employed for the Na-K pairs, with the geometric mean of the K and Na parameters for 
+ <italic>ζ</italic>
+ <sub>0</sub>, 
+ <italic>ε</italic>
+ <sub>0</sub>, 
+ <italic>p</italic>, 
+ <italic>q</italic> and a weighted arithmetic mean for 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${r}_{{0}_{NaK}}=\frac{{N}_{Na}}{N}{r}_{{0}_{Na}}+\frac{{N}_{K}}{N}{r}_{{0}_{K}}$$\end{document}</tex-math>
+   <math id="M6">
+    <msub>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mrow>
+        <mi>N</mi>
+        <mi>a</mi>
+        <mi>K</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>N</mi>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mi>N</mi>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mrow>
+        <mi>N</mi>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi>K</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mi>N</mi>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mrow>
+        <mi>K</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2018_36574_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>  (
+ <italic>N</italic>
+ <sub>
+  <italic>K</italic>
+ </sub>, 
+ <italic>N</italic>
+ <sub>
+  <italic>Na</italic>
+ </sub> being the number of K and Na atoms). Table 
+ <xref rid="Tab1" ref-type="table">1</xref> lists all SMA parameters used in this work.
+</p>

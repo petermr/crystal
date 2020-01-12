@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Solving equations (12), (13) relatively to 
+ <inline-formula>
+  <math id="mm103">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mi>E</mi>
+      <mrow/>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> makes it possible to determine the angle of the director of molecules (droplets) rotation in a sample. Then the expression for the director itself has the following form [
+ <xref rid="B32-polymers-11-00861" ref-type="bibr">32</xref>]:
+ <disp-formula id="FD16-polymers-11-00861">
+  <label>(15)</label>
+  <math id="mm104">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>C</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>cos</mi>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <msubsup>
+              <mi mathvariant="sans-serif">φ</mi>
+              <mi>E</mi>
+              <mrow/>
+             </msubsup>
+             <mo stretchy="false">(</mo>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>sin</mi>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <msubsup>
+              <mi mathvariant="sans-serif">φ</mi>
+              <mi>E</mi>
+              <mrow/>
+             </msubsup>
+             <mo stretchy="false">(</mo>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>sin</mi>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <msubsup>
+              <mi mathvariant="sans-serif">φ</mi>
+              <mi>E</mi>
+              <mrow/>
+             </msubsup>
+             <mo stretchy="false">(</mo>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+           <mo>⋅</mo>
+           <mi>sin</mi>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <msub>
+                <mi mathvariant="sans-serif">θ</mi>
+                <mn>0</mn>
+               </msub>
+               <mo>−</mo>
+               <msub>
+                <mi mathvariant="sans-serif">θ</mi>
+                <mn>1</mn>
+               </msub>
+              </mrow>
+              <mn>2</mn>
+             </mfrac>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

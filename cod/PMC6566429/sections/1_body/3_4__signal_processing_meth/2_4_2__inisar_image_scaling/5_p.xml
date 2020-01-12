@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Step (2) Extract the interferometric phases of the separable dominant scatterers, and arrange them in the order of Doppler frequency. The 1-D path integral method is applied to achieve phase unwrapping, and the theory is: 
+ <disp-formula id="FD19-sensors-19-02330">
+  <label>(19)</label>
+  <math id="mm74">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>e</mi>
+       <mi>w</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>φ</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>1</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>,</mo>
+     <mtext> </mtext>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>e</mi>
+       <mi>w</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>k</mi>
+       <mo>+</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>n</mi>
+       <mi>e</mi>
+       <mi>w</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mo>Δ</mo>
+     <mi>φ</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where: 
+ <disp-formula id="FD20-sensors-19-02330">
+  <label>(20)</label>
+  <math id="mm75">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>φ</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr>
+         <mtd>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>|</mo>
+           <mrow>
+            <mi>φ</mi>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mrow>
+              <mi>k</mi>
+              <mo>+</mo>
+              <mn>1</mn>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>−</mo>
+            <mi>φ</mi>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>k</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mo>|</mo>
+          </mrow>
+          <mo>&lt;</mo>
+          <mi>π</mi>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>+</mo>
+          <mn>2</mn>
+          <mi>π</mi>
+         </mtd>
+         <mtd>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>&lt;</mo>
+          <mo>−</mo>
+          <mi>π</mi>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+          <mi>π</mi>
+         </mtd>
+         <mtd>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>k</mi>
+            <mo>+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>−</mo>
+          <mi>φ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>&gt;</mo>
+          <mi>π</mi>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mrow>
+     <mi>φ</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>new</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>k</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are phases before and after phase unwrapping, respectively. 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <mi>k</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mn>2</mn>
+     <mo>,</mo>
+     <mn>…</mn>
+     <mo>,</mo>
+     <mi>K</mi>
+     <mo>−</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the total number of the dominant scatterers.
+</p>

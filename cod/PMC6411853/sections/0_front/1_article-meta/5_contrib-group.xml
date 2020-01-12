@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Polyakov</surname>
+   <given-names>Andrey</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Mohseni</surname>
+   <given-names>Katayoon</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Castro</surname>
+   <given-names>German R.</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Rubio-Zuazo</surname>
+   <given-names>Juan</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Zeugner</surname>
+   <given-names>Alexander</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff4">4</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Isaeva</surname>
+   <given-names>Anna</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff5">5</xref>
+  <xref ref-type="aff" rid="Aff6">6</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0821-6343</contrib-id>
+  <name>
+   <surname>Chen</surname>
+   <given-names>Ying-Jiun</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+  <xref ref-type="aff" rid="Aff8">8</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6587-1956</contrib-id>
+  <name>
+   <surname>Tusche</surname>
+   <given-names>Christian</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff7">7</xref>
+  <xref ref-type="aff" rid="Aff8">8</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Meyerheim</surname>
+   <given-names>Holger L.</given-names>
+  </name>
+  <address>
+   <email>holger.meyerheim@mpi-halle.mpg.de</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2105 1091</institution-id>
+   <institution-id institution-id-type="GRID">grid.4372.2</institution-id>
+   <institution>Max-Planck-Institut für Mikrostukturphysik, </institution>
+  </institution-wrap>Weinberg 2, 06120 Halle, Germany 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>SpLine, Spanish CRG BM25 Beamline at the ESRF (The European Synchrotron), F-38000 Grenoble, France 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0004 0625 9726</institution-id>
+   <institution-id institution-id-type="GRID">grid.452504.2</institution-id>
+   <institution>Instituto de Ciencia de Materiales de Madrid, Consejo Superior de Investigaciones Científicas (ICMM-CSIC), </institution>
+  </institution-wrap>28049 Madrid, Spain 
+ </aff>
+ <aff id="Aff4">
+  <label>4</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2111 7257</institution-id>
+   <institution-id institution-id-type="GRID">grid.4488.0</institution-id>
+   <institution>Department of Chemistry and Food Chemistry, </institution>
+   <institution>TU Dresden, </institution>
+  </institution-wrap>Helmholtzstraße 10, 01069 Dresden, Germany 
+ </aff>
+ <aff id="Aff5">
+  <label>5</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2111 7257</institution-id>
+   <institution-id institution-id-type="GRID">grid.4488.0</institution-id>
+   <institution>Technische Universität Dresden, Institut für Festkörper- und Materialphysik, </institution>
+  </institution-wrap>Helmholtzstraße 10, 01069 Dresden, Germany 
+ </aff>
+ <aff id="Aff6">
+  <label>6</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0000 9972 3583</institution-id>
+   <institution-id institution-id-type="GRID">grid.14841.38</institution-id>
+   <institution>Leibniz-Institut für Festkörper-und Werkstoffforschung Dresden, </institution>
+  </institution-wrap>Helmholtzstraße 20, 01069 Dresden, Germany 
+ </aff>
+ <aff id="Aff7">
+  <label>7</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2297 375X</institution-id>
+   <institution-id institution-id-type="GRID">grid.8385.6</institution-id>
+   <institution>Forschungszentrum Jülich GmbH, Peter Grünberg Institut (PGI-6), </institution>
+  </institution-wrap>52425 Jülich, Germany 
+ </aff>
+ <aff id="Aff8">
+  <label>8</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 2187 5445</institution-id>
+   <institution-id institution-id-type="GRID">grid.5718.b</institution-id>
+   <institution>Fakultät für Physik, </institution>
+   <institution>Universität Duisburg-Essen, </institution>
+  </institution-wrap>47057 Duisburg, Germany 
+ </aff>
+</contrib-group>

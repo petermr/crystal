@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From 
+ <xref ref-type="fig" rid="sensors-19-04980-f015">Figure 15</xref>, it can be clearly seen that the accuracy and stability of the fusion positioning results have improved. According to the positioning error calculation formula, the distance of the actual positioning coordinates from the ideal coordinates can be calculated. This distance value reflects the positioning accuracy. The error calculation formula is as follows:
+ <disp-formula id="FD53-sensors-19-04980">
+  <label>(49)</label>
+  <math id="mm166">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mi>s</mi>
+     </msub>
+     <mo>=</mo>
+     <msqrt>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>X</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>−</mo>
+         <mi>X</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>Y</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>−</mo>
+         <mi>Y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm167">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mi>s</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the distance of the measured coordinates or fused coordinates from the ideal coordinates, 
+ <inline-formula>
+  <math id="mm168">
+   <mrow>
+    <mi>X</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm169">
+   <mrow>
+    <mi>Y</mi>
+   </mrow>
+  </math>
+ </inline-formula> are the horizontal and vertical values of the ideal coordinates, and 
+ <inline-formula>
+  <math id="mm170">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>X</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm171">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Y</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the horizontal and vertical values of the measured or fused coordinates.
+</p>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The brightness of emission of the prepared samples to human eye can be evaluated by calculating the luminous efficacy (LE) values from the emission spectra. These values were obtained by employing the following equation [
+ <xref rid="B46-materials-12-03275" ref-type="bibr">46</xref>]:
+ <disp-formula id="FD5-materials-12-03275">
+  <label>(5)</label>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mi>E</mi>
+     <mo stretchy="false">(</mo>
+     <mi>l</mi>
+     <mi>m</mi>
+     <mo>/</mo>
+     <msub>
+      <mi>W</mi>
+      <mrow>
+       <mi>o</mi>
+       <mi>p</mi>
+       <mi>t</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mn>683</mn>
+     <mo stretchy="false">(</mo>
+     <mi>l</mi>
+     <mi>m</mi>
+     <mo>/</mo>
+     <msub>
+      <mi>W</mi>
+      <mrow>
+       <mi>o</mi>
+       <mi>p</mi>
+       <mi>t</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>×</mo>
+     <mfrac>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mi>I</mi>
+          <mo stretchy="false">(</mo>
+          <mi>λ</mi>
+          <mo stretchy="false">)</mo>
+          <mo> </mo>
+          <mi>V</mi>
+          <mo stretchy="false">(</mo>
+          <mi>λ</mi>
+          <mo stretchy="false">)</mo>
+          <mo> </mo>
+          <mi>d</mi>
+          <mi>λ</mi>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mi>I</mi>
+          <mo stretchy="false">(</mo>
+          <mi>λ</mi>
+          <mo stretchy="false">)</mo>
+          <mo> </mo>
+          <mi>d</mi>
+          <mi>λ</mi>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

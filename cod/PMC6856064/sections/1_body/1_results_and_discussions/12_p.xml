@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">As discussed before, the CRI 
+ <italic>R</italic>
+ <sub>9</sub> of 1B-Y LED PKG was −7, indicating that the 1B-Y LED PKG has poor or no red color rendering ability. As the CRI points are scaled between 0 and 100, a negative CRI point does not provide any information. If two WLEDs have different negative CRI points, then it is impossible to compare the particular color rendering ability. CRI R
+ <sub>
+  <italic>i</italic>
+ </sub> is calculated using the following equation
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${R}_{i}=100-4.6\,\Delta {E}_{i}$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>100</mn>
+    <mo>−</mo>
+    <mn>4.6</mn>
+    <mspace width=".25em"/>
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+   </math>
+   <graphic xlink:href="41598_2019_53269_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where ΔE is the shift in the color/color differences. If ΔE ≥ 22, then 
+ <italic>R</italic>
+ <sub>i</sub> will show negative values.
+</p>

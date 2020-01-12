@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">The phonon density of states and thermal properties are accessed by the small-displacement approach implemented in the PHONOPY code
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup>. This computational package solves the phonon equations in the harmonic approximation for a constant atomic volume. By adjusting the volume to account for thermal expansion (as we have done in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>) one rather applies a quasi-harmonic approximation of the phonons. The volume adjustment (scaling) is straightforward. The phonon density of states, dos(ε), is related to the atomic volume (V) and number (N) of occupied vibrational energy levels (ε
+ <sub>i</sub>) so that
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$dos(\varepsilon )=\,\frac{1}{V}\mathop{\sum }\limits_{i=1}^{N}\delta (\varepsilon -{\varepsilon }_{i}),$$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mi>d</mi>
+    <mi>o</mi>
+    <mi>s</mi>
+    <mo stretchy="false">(</mo>
+    <mi>ε</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mspace width=".25em"/>
+    <mfrac>
+     <mn>1</mn>
+     <mi>V</mi>
+    </mfrac>
+    <munderover>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mi>N</mi>
+    </munderover>
+    <mi>δ</mi>
+    <mo stretchy="false">(</mo>
+    <mi>ε</mi>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_55343_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where, δ(ε) is Dirac’s delta function. To scale the phonons to room temperature we account for the thermal expansion and replace V in Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) with the experimental room-temperature atomic volume for α-plutonium (20.0 Å
+ <sup>3</sup>).
+</p>

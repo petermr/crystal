@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Instrument calibration and image integration was performed with the pyFAI software
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. The instrument model was recalibrated for every temperature in the cryostat data sets in order to allow for slight detector shifts. A fixed instrument model was used for the hot air blower data. Data sets were converted to scattering intensities 
+ <italic>S</italic>(
+ <italic>Q</italic>) as a function of scattering vector 
+ <italic>Q</italic> and these were transformed to PDFs 
+ <italic>G</italic>(
+ <italic>r</italic>), where 
+ <italic>r</italic> is interatomic distance, using the pdfgetx3 suite
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. Parameters values 
+ <italic>Q</italic>
+ <sub>min</sub> = 1 Å
+ <sup>−1</sup>, 
+ <italic>Q</italic>
+ <sub>max</sub> = 31 Å
+ <sup>−1</sup>, and 
+ <italic>r</italic>
+ <sub>poly</sub> = 0.9 Å were applied to all data sets to enable structural changes in 
+ <italic>G</italic>(
+ <italic>r</italic>) to be analysed consistently across the full temperature range. Representative 
+ <italic>S</italic>(
+ <italic>Q</italic>) and 
+ <italic>G</italic>(
+ <italic>r</italic>) plots are shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1</xref>.
+</p>

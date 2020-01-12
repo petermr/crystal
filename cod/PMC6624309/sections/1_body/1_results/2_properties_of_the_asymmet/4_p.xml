@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">This relation leads to another form:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|T-1|=\sqrt{{R}_{L}{R}_{R}},$$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi>T</mi>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+    <mo>=</mo>
+    <msqrt>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_46467_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${R}_{L(R)}\equiv {|{r}_{L(R)}|}^{2}$$\end{document}</tex-math>
+   <math id="M20">
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mo stretchy="false">(</mo>
+      <mi>R</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msub>
+    <mo>≡</mo>
+    <msup>
+     <mrow>
+      <mo stretchy="true">|</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>r</mi>
+        </mrow>
+        <mrow>
+         <mi>L</mi>
+         <mo stretchy="false">(</mo>
+         <mi>R</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the reflectance. According to Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>), 
+ <italic>r</italic>
+ <sub>
+  <italic>L</italic>
+ </sub> or 
+ <italic>r</italic>
+ <sub>
+  <italic>R</italic>
+ </sub> must vanish when 
+ <italic>T</italic> = 1. For 
+ <italic>T</italic> &lt; 1, Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>) can be rewritten as 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T+\sqrt{{R}_{L}{R}_{R}}=1$$\end{document}</tex-math>
+   <math id="M22">
+    <mi>T</mi>
+    <mo>+</mo>
+    <msqrt>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <mo>=</mo>
+    <mn>1</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which is a generalization of the more familiar conservation relation 
+ <italic>T</italic> + 
+ <italic>R</italic> = 1 applied in the lossless Hermitian system, with the left and right reflectance 
+ <italic>R</italic>
+ <sub>
+  <italic>L</italic>
+ </sub> = 
+ <italic>R</italic>
+ <sub>
+  <italic>R</italic>
+ </sub> = 
+ <italic>R</italic>. For 
+ <italic>T</italic> &gt; 1, Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>) becomes 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T-\sqrt{{R}_{L}{R}_{R}}=1$$\end{document}</tex-math>
+   <math id="M24">
+    <mi>T</mi>
+    <mo>−</mo>
+    <msqrt>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <mo>=</mo>
+    <mn>1</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

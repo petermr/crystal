@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We observe that in most cases dispersion interactions play the major role in the final cell optimization. In the first cell optimization, where the typical changes in energy are larger by a factor of 10 (cf. the 
+ <italic>y</italic> axis scaling in 
+ <xref rid="fig6" ref-type="fig">Figure 
+  <xref rid="fig6" ref-type="fig">6</xref>
+ </xref>), we mainly observe from the optimization trajectories a rearrangement of the atomic bonds and an increase of the distance between nonbonded fragments when this is set too close in the starting geometry. If we further inspect the statistics of 
+ <xref rid="fig6" ref-type="fig">Figure 
+  <xref rid="fig6" ref-type="fig">6</xref>
+ </xref>, we can observe that, for the first cell optimization, in only one case there was an increase in the energy: this is related to COF 12011N2 and results from a false step of the BFGS minimizer, which did not have the time to relax back in the limit of 20 steps. For as many as 153 COFs (49.68%) the cell optimization converged within the first 20 steps (i.e., at the “preliminary” cell optimization stage), but only 19.61% of these had a negligible energy drop (&lt;1 meV) in the final cell optimization, meaning that still for most of the cases the AIMD helped to find a lower minimum. More detailed statistics are reported in 
+ <xref rid="tbl1" ref-type="other">Table 
+  <xref rid="tbl1" ref-type="other">1</xref>
+ </xref>, distinguishing between two- and three-dimensional COFs.
+</p>

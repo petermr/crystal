@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In an ideal condition, the frequency of the transmitted wideband sweep signal varies linearly, and the stationary phases of three received signals are identical. Thus, the range resolution will reach the theoretical value 
+ <inline-formula>
+  <math id="mm43">
+   <mrow>
+    <mrow>
+     <mi>c</mi>
+     <mo>/</mo>
+     <mn>2</mn>
+     <mi>B</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the coordinates of the InISAR images accord with the real position of target. In practice, the conversion efficiencies of the high-frequency power amplifiers and multipliers in the transmitting and receiving chains are not flat across the radar bandwidth, which will result in the disturbances of the amplitude and phase in the terahertz wideband signals, and the chirp rate is no longer a constant. This phenomenon will seriously deteriorate the range resolution, even lead to the appearance of harmonics. Moreover, the stationary phases of radar echoes received by different receiving channels are inconsistent because they transmit through different antennas and electrical connecters, and the phase modulation characteristics of these devices are different. It will destroy the real phase relation of the ISAR images of different receiving channels, and make the InISAR imaging results no longer match the real position of target. Take these non-ideal factors into consideration, the radar echo and LO signal can be expressed as: 
+ <disp-formula id="FD13-sensors-19-02330">
+  <label>(13)</label>
+  <math id="mm44">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>τ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>t</mi>
+         <mo>−</mo>
+         <mi>τ</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mi>γ</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>t</mi>
+         <mo>−</mo>
+         <mi>τ</mi>
+         <msup>
+          <mo stretchy="false">)</mo>
+          <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <msub>
+          <mi>ξ</mi>
+          <mrow>
+           <mi>R</mi>
+           <mi>F</mi>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mrow>
+           <mi>t</mi>
+           <mo>−</mo>
+           <mi>τ</mi>
+          </mrow>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mo>+</mo>
+         <msub>
+          <mi>ϕ</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD14-sensors-19-02330">
+  <label>(14)</label>
+  <math id="mm45">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+       <mi>t</mi>
+       <mo>+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mi>γ</mi>
+       <msup>
+        <mi>t</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msub>
+        <mi>ξ</mi>
+        <mrow>
+         <mi>L</mi>
+         <mi>O</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm46">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the RF signal amplitude, 
+ <inline-formula>
+  <math id="mm47">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the LO signal amplitude, 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the phase-error function, 
+ <inline-formula>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <italic>i</italic> = A, B, C) is the initial stationary phase, and 
+ <inline-formula>
+  <math id="mm50">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the round trip time.
+</p>

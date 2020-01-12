@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The proton-transfer free-energy landscapes (PTFELs) were calculated as follows: for each possible acceptor species (O
+ <sub>s</sub>
+ <sup>2–</sup>, O
+ <sub>s</sub>H
+ <sup>–</sup>, O*H
+ <sup>–</sup>, O*H
+ <sub>2</sub>, and solvent OH
+ <sub>2</sub>), we scan through all of the donated hydrogen bonds, where a hydrogen bond O
+ <sub>d</sub>H
+ <sub>d</sub>···O
+ <sub>a</sub> exists if the distance 
+ <italic>d</italic>(O
+ <sub>d</sub>–O
+ <sub>a</sub>) &lt; 3.5 Å and the angle ∠O
+ <sub>a</sub>O
+ <sub>d</sub>H
+ <sub>d</sub> &lt; 30°.
+ <xref rid="cit52" ref-type="bibr">52</xref> For each hydrogen bond, 
+ <italic>δ</italic> is calculated as 
+ <italic>d</italic>(H
+ <sub>d</sub>···O
+ <sub>a</sub>) – 
+ <italic>d</italic>(O
+ <sub>d</sub>H
+ <sub>d</sub>), where 
+ <italic>d</italic>(AB) is the distance between A and B. The donated hydrogen bond with the smallest value of 
+ <italic>δ</italic> is the one deemed “active” for PT, and the corresponding value of 
+ <italic>δ</italic> is called 
+ <italic>δ</italic>
+ <sub>min</sub>. Depending on the nature and position of the active proton donor, the donor–acceptor pair is assigned to belong to a particular proton transfer coordinate (for example, “inter-adlayer-PT”; see ESI
+ <xref ref-type="fn" rid="fn1">†</xref> for details). For each proton transfer coordinate, a histogram is created with a bin width of 0.1 Å, where the counter 
+ <italic>W</italic> is used for different intervals of 
+ <italic>δ</italic>
+ <sub>min</sub> in the simulation. The PTFEL is then constructed as
+ <disp-formula id="eqn8">
+  <label>8</label>Δ
+  <italic>F</italic>(
+  <italic>δ</italic>
+  <sub>min</sub>)/
+  <italic>k</italic>
+  <sub>B</sub>
+  <italic>T</italic> = –ln(
+  <italic>W</italic>(
+  <italic>δ</italic>
+  <sub>min</sub>))
+ </disp-formula>
+</p>

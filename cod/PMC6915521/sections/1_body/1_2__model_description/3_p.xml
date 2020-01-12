@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An embedded-atom method (EAM) potential is employed to describe interactions between all the atoms, and the total energy, 
+ <italic>U</italic>
+ <sub>tot,</sub> is given by:
+ <disp-formula id="FD1-nanomaterials-09-01617">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mrow>
+       <mi>tot</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mi>i</mi>
+      </munder>
+      <mrow>
+       <msub>
+        <mi>U</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the energy 
+ <italic>U
+  <sub>i</sub>
+ </italic> of an atom 
+ <italic>i</italic> is given by:
+ <disp-formula id="FD2-nanomaterials-09-01617">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>F</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle displaystyle="true">
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <mi>j</mi>
+          <mo>≠</mo>
+          <mi>i</mi>
+         </mrow>
+        </munder>
+        <mrow>
+         <msub>
+          <mi>ρ</mi>
+          <mi>i</mi>
+         </msub>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>r</mi>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+          </mrow>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>j</mi>
+        <mo>≠</mo>
+        <mi>i</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msub>
+        <mi>ϕ</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>r</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>F
+  <sub>i</sub>
+ </italic> is the embedding energy of atom 
+ <italic>i</italic>, 
+ <italic>ρ
+  <sub>i</sub>
+ </italic> is the electron density at site 
+ <italic>i</italic> induced by all other atoms in the model, and 
+ <italic>ϕ
+  <sub>ij</sub>
+ </italic> is a pair potential interaction between atoms 
+ <italic>i</italic> and 
+ <italic>j</italic>.
+</p>

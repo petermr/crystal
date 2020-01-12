@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Step 3: Update 
+ <inline-formula>
+  <math id="mm223">
+   <mrow>
+    <mrow>
+     <msup>
+      <mover>
+       <mi>a</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>l</mi>
+       <mo>+</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm225">
+   <mrow>
+    <mrow>
+     <msup>
+      <mover>
+       <mi>b</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>l</mi>
+       <mo>+</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm226">
+   <mrow>
+    <mrow>
+     <msup>
+      <mover>
+       <mi>c</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>l</mi>
+       <mo>+</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> by performing a least squares method for the following equation. 
+ <disp-formula id="FD19-sensors-19-01052">
+  <label>(16)</label>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mover accent="true">
+       <mi>y</mi>
+       <mo>˜</mo>
+      </mover>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mi>l</mi>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>B</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mover accent="true">
+       <mi>u</mi>
+       <mo>˜</mo>
+      </mover>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mi>l</mi>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mi>C</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>ε</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

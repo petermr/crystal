@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="fig3">
+ <label>Fig. 3</label>
+ <caption>
+  <p>The dynamics of quantum-classical transitions in the neighborhood of the singular point 
+   <inline-formula>
+    <math id="M565" altimg="si420.svg">
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mrow>
+         <mover accent="true">
+          <mi>Ω</mi>
+          <mo>¯</mo>
+         </mover>
+        </mrow>
+        <mo linebreak="badbreak">=</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mtext> ​</mtext>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">=</mo>
+        <mi>∞</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula> [
+   <inline-formula>
+    <math id="M566" altimg="si414.svg">
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>Δ</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mi>E</mi>
+        <mo>,</mo>
+        <mtext> ​</mtext>
+        <mi>γ</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mtext>0</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula>] is demonstrated by the behaviour of the quantity 
+   <inline-formula>
+    <math id="M567" altimg="si421.svg">
+     <mrow>
+      <mi>t</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mi>t</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mrow>
+         <mover accent="true">
+          <mi>Ω</mi>
+          <mo>¯</mo>
+         </mover>
+        </mrow>
+        <mo>,</mo>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula> (see 
+   <xref rid="fd144" ref-type="disp-formula">Eq. (144)</xref>) [
+   <xref rid="bib11" ref-type="bibr">11</xref>]. For simplification, it is formally assumed here that 
+   <inline-formula>
+    <math id="M568" altimg="si422.svg">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="goodbreak" linebreakstyle="after">−</mo>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula>. Then 
+   <inline-formula>
+    <math id="M569" altimg="si423.svg">
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>Θ</mi>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mrow>
+       <mrow>
+        <mi>ℏ</mi>
+        <mi>Ω</mi>
+       </mrow>
+       <mo>/</mo>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+      </mrow>
+      <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>Ω</mi>
+        <mo>¯</mo>
+       </mover>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula>. The following system parameters are used: 
+   <inline-formula>
+    <math id="M570" altimg="si424.svg">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mn>5</mn>
+     </mrow>
+    </math>
+   </inline-formula> eV, 
+   <inline-formula>
+    <math id="M571" altimg="si425.svg">
+     <mrow>
+      <mi>E</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mn>1</mn>
+     </mrow>
+    </math>
+   </inline-formula> eV, 
+   <inline-formula>
+    <math id="M572" altimg="si426.svg">
+     <mrow>
+      <mi>μ</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mtext>e</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+    </math>
+   </inline-formula>, 
+   <inline-formula>
+    <math id="M573" altimg="si427.svg">
+     <mrow>
+      <mi>ω</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mn>5</mn>
+      <mo linebreak="goodbreak" linebreakstyle="after">×</mo>
+      <msup>
+       <mrow>
+        <mn>10</mn>
+       </mrow>
+       <mrow>
+        <mn>13</mn>
+       </mrow>
+      </msup>
+      <msup>
+       <mrow>
+        <mtext> ​s</mtext>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </math>
+   </inline-formula> and 
+   <inline-formula>
+    <math id="M574" altimg="si428.svg">
+     <mrow>
+      <mi>L</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mi>L</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">∗</mo>
+      <mo linebreak="goodbreak" linebreakstyle="after">≈</mo>
+      <mn>0.44</mn>
+     </mrow>
+    </math>
+   </inline-formula> nm (transferon resonance, 
+   <xref rid="fd161" ref-type="disp-formula">Eq. (161)</xref>).
+  </p>
+ </caption>
+ <alt-text id="alttext0020">Fig. 3</alt-text>
+ <graphic xlink:href="gr3" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

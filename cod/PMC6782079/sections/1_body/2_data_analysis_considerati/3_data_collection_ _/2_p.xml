@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Data collection at POWGEN is implemented in the Linux-based 
+ <italic>Experimental Physics and Industrial Control System</italic> (
+ <italic>EPICS</italic>) software (Dalesio 
+ <italic>et al.</italic>, 1991
+ <xref ref-type="bibr" rid="bb11"> ▸</xref>) with a graphical user interface through 
+ <italic>Control System Studio</italic> (Kasemir, 2007
+ <xref ref-type="bibr" rid="bb19"> ▸</xref>), a setup common across all beamlines at the Spallation Neutron Source. Data are collected in event mode (Peterson 
+ <italic>et al.</italic>, 2015
+ <xref ref-type="bibr" rid="bb31"> ▸</xref>), where each discrete neutron event is recorded individually and can be correlated with extensive metadata, such as sample temperature, chopper settings, slit positions 
+ <italic>etc</italic>. Amongst the benefits over traditional histogram measurements, the data may be re-reduced after the fact if, for example, a finer bin size is needed. Event mode also allows the data to be sliced or filtered after collection by time, temperature or any other variable recorded in the metadata (Granroth 
+ <italic>et al.</italic>, 2018
+ <xref ref-type="bibr" rid="bb15"> ▸</xref>).
+</p>

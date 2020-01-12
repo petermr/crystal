@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Step (4) From (6)–(8), we can find that there is a linear relationship between Doppler frequency 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>f</mi>
+      <mi>a</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and cross-range coordinate 
+ <inline-formula>
+  <math id="mm83">
+   <mrow>
+    <mi>x</mi>
+   </mrow>
+  </math>
+ </inline-formula>, and it can be expressed as: 
+ <disp-formula id="FD21-sensors-19-02330">
+  <label>(21)</label>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>f</mi>
+      <mi>a</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>−</mo>
+       <mn>2</mn>
+       <mi>w</mi>
+       <mi>x</mi>
+      </mrow>
+      <mi>λ</mi>
+     </mfrac>
+     <mo>+</mo>
+     <mo>Δ</mo>
+     <mi>f</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>f</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denotes the Doppler error. For the K dominant scatterers, the relationship between 
+ <inline-formula>
+  <math id="mm86">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>f</mi>
+      <mi>a</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <mi>x</mi>
+   </mrow>
+  </math>
+ </inline-formula> is established as: 
+ <disp-formula id="FD22-sensors-19-02330">
+  <label>(22)</label>
+  <math id="mm88">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mi>W</mi>
+     <mi>X</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm89">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mrow>
+         <mi>a</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mtext> </mtext>
+       <msub>
+        <mi>f</mi>
+        <mrow>
+         <mi>a</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <mtext> </mtext>
+       <mn>…</mn>
+       <mtext> </mtext>
+       <msub>
+        <mi>f</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>K</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm90">
+   <mrow>
+    <mrow>
+     <mi>X</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mfrac>
+            <mn>2</mn>
+            <mi>λ</mi>
+           </mfrac>
+           <msub>
+            <mi>x</mi>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mfrac>
+            <mn>2</mn>
+            <mi>λ</mi>
+           </mfrac>
+           <msub>
+            <mi>x</mi>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mn>…</mn>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mfrac>
+            <mn>2</mn>
+            <mi>λ</mi>
+           </mfrac>
+           <msub>
+            <mi>x</mi>
+            <mi>K</mi>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>1</mn>
+         </mtd>
+         <mtd>
+          <mn>1</mn>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mn>…</mn>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mn>1</mn>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm91">
+   <mrow>
+    <mrow>
+     <mi>W</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <mi>w</mi>
+       <mtext> </mtext>
+       <mo>Δ</mo>
+       <mi>f</mi>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Therefore, the least mean square (LMS) can be utilized to estimate the rotational rate of target is 
+ <disp-formula id="FD23-sensors-19-02330">
+  <label>(23)</label>
+  <math id="mm92">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>W</mi>
+      <mo>^</mo>
+     </mover>
+     <mo>=</mo>
+     <mi>F</mi>
+     <msup>
+      <mi>X</mi>
+      <mi>T</mi>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>X</mi>
+       <msup>
+        <mi>X</mi>
+        <mi>T</mi>
+       </msup>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

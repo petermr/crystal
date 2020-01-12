@@ -1,0 +1,693 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6921682</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02749</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Synthesis and Photoluminescence of Tetracyanidonitridorhenium(V)
+Complexes with Five-Membered N-Heteroaromatic Ligands and Photoluminescence-Intensity
+Change</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Seike</surname><given-names>Moe</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Nagata</surname><given-names>Kojiro</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Ikeda</surname><given-names>Hayato</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Ito</surname><given-names>Akitaka</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Sakuda</surname><given-names>Eri</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Kitamura</surname><given-names>Noboru</given-names></name><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Shinohara</surname><given-names>Atsushi</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff6" ref-type="aff">#</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath8"><name><surname>Yoshimura</surname><given-names>Takashi</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff6" ref-type="aff">#</xref></contrib><aff id="aff1"><label>&#x02020;</label>Department
+of Chemistry, Graduate School of Science, <institution>Osaka University</institution>, Toyonaka 560-0043, <country>Japan</country></aff><aff id="aff2"><label>&#x02021;</label>Radioisotope
+Research Center, Institute for Radiation Sciences, <institution>Osaka University</institution>, Suita 565-0871, <country>Japan</country></aff><aff id="aff3"><label>&#x000a7;</label>Major
+of Molecular Design, School of Environmental Science and Engineering, <institution>Kochi University of Technology</institution>, Kochi 782-8502, <country>Japan</country></aff><aff id="aff4"><label>&#x02225;</label>Division
+of Chemistry and Materials Science, Graduate School of Engineering, <institution>Nagasaki University</institution>, Nagasaki 852-8521, <country>Japan</country></aff><aff id="aff5"><label>&#x022a5;</label>Department
+of Chemical Sciences and Engineering, Graduate School of Chemical
+Sciences and Engineering, <institution>Hokkaido University</institution>, Sapporo 060-0810, <country>Japan</country></aff><aff id="aff6"><label>#</label>Project Research
+Center for Fundamental Sciences, Graduate School of Science, <institution>Osaka University</institution>, Toyonaka 560-0043, <country>Japan</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>tyoshi@rirc.osaka-u.ac.jp</email>.</corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>11</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>17</day><month>12</month><year>2019</year></pub-date><volume>4</volume><issue>25</issue><fpage>21251</fpage><lpage>21259</lpage><history><date date-type="received"><day>26</day><month>08</month><year>2019</year></date><date date-type="accepted"><day>22</day><month>10</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0010" id="ab-tgr1"/></p><p>Novel tetracyanidonitridorhenium(V)
+complexes with five-membered
+N-heteroaromatic ligands, (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>L] [L = imidazole (Him) (<bold>2</bold>), 1-methylimidazole
+(Mim) (<bold>3</bold>), and pyrazole (pyz) (<bold>4</bold>)] and (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>L]&#x000b7;L [L = Him (<bold>5</bold>) and Mim (<bold>6</bold>)], were synthesized by the reactions
+of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>] (<bold>1</bold>) with Him, Mim, and pyz, and their structures were determined by
+single-crystal X-ray analysis. The complexes <bold>2</bold>, <bold>3</bold>, <bold>4</bold>, and <bold>6</bold> showed intense photoluminescence,
+with the emission quantum yields (&#x003a6;<sub>em</sub>) being 0.65&#x02013;0.75 in the solid state
+at 296 K. In contrast, the &#x003a6;<sub>em</sub> and &#x003c4;<sub>em</sub> values of <bold>5</bold> are significantly smaller and shorter,
+respectively, than the relevant values of <bold>2</bold>. The interconversion
+reactions among <bold>1</bold>, <bold>2</bold>, and <bold>5</bold> accompanied by large photoluminescence-intensity changes were accomplished
+by solvent-free reactions and exposure of water. The mechanochemical
+reaction of <bold>2</bold> with 1 mol equiv of Him in the solid state
+gave <bold>5</bold>. Complex <bold>5</bold> was also obtained by the
+mechanochemical reaction of <bold>1</bold> with 2 mol equivalents
+of Him in the solid state. By placing solid of <bold>5</bold> in water,
+the solid showed intense photoluminescence to give <bold>2</bold>.
+Complex <bold>1</bold> was produced under vacuum at 185 &#x000b0;C from <bold>2</bold> or <bold>5</bold>.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02749</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b02749</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>A reversible photoluminescence
+intensity on&#x02013;off by external
+stimuli and/or by a chemical reaction is attractive with respect to
+development of sensing. It is a promising approach to apply a weak
+interaction to construct the switch using a reversible chemical reaction.
+Metal complexes have an advantage to be capable to use a weak coordination
+bond as well as a hydrogen bond and an intermolecular interaction
+for this purpose. We suppose that the control of the on&#x02013;off
+reaction using the weak interaction/bond in a solid state is sometimes
+easier than that in a solution because thermal motion of the molecule
+is restricted in the solid state. In practice, the reversible luminescence
+color and/or intensity switching of metal complexes via mechanochemical
+reactions have been studied extensively for d<sup>10</sup> and d<sup>8</sup> complexes.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref44">44</xref></sup> The driving force of luminescence intensity change in these complexes
+was by change in intermolecular interactions such as the &#x003c0;&#x02013;&#x003c0;
+interaction. In contrast, the solid-based reversible reactions involving
+drastic luminescence intensity change by change in the coordination
+number and composition of the complex are still rare.</p><p>A nitridorhenium(V)
+complex possesses a coordination site (axial
+site) at the trans position of the nitrido, and the site is influenced
+strongly by the trans effect of the nitrido.<sup><xref ref-type="bibr" rid="ref45">45</xref>&#x02212;<xref ref-type="bibr" rid="ref48">48</xref></sup> Therefore, the site is labile,
+the sixth ligand is not necessary, and the five- and six-coordinate
+complexes are both stable.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> In addition,
+some types of the both five- and six-coordinate complexes show luminescence.<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref58">58</xref></sup> In the tetracyanidonitridorhenium(V) complex, the emission quantum
+yield of the five-coordinate complex is low (&#x003a6;<sub>em</sub> &#x0003c;
+0.01) and, thus, the complex is almost nonemissive by naked eyes.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> The six-coordinate complex shows intense luminescence
+in the solid state at 296 K.<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref58">58</xref></sup> Therefore, the luminescence
+on&#x02013;off reaction using the weak coordination site is promising
+for the complex. We previously reported vapochromic luminescence of
+soild tetracyanidonitridorhenium(V) by the changes in the coordination
+number and coordinating volatile organic compounds such as acetone,
+acetonitrile, ethanol, and methanol.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup></p><p>In the present study, the new nitridorhenium(V) complexes with
+five-membered N-heteroaromatic ligands, imidazole (Him), <italic>N</italic>-methylimidazole (Mim), and pyrazole (pyz) as shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> were synthesized and characterized
+to investigate luminescence on&#x02013;off properties for the tetracyanidonitridorhenium(V)
+complex by changes in weak interactions. In the complexes having Him
+and Mim, we succeeded in synthesizing two types of crystalline samples
+depending on the reaction conditions: six-coordinate complexes and
+also complexes including the additional one mole ratio of the N-heterocyclic
+molecule. Most newly synthesized complexes showed strong luminescence
+in the solid states at 296 K. Interestingly, we found that the Him-coordinated
+complex including one mole ratio of noncoordinating Him in the crystal
+was almost nonluminescent, while the Mim-coordinated complex containing
+one mole ratio of noncoordinating Mim in the crystal was strongly
+photoemissive. Luminescence-intensity changes between the five- and
+six-coordinate complexes and between the six-coordinate complexes
+with Him were investigated based on solvent-free mechanochemical and
+vacuum elimination reactions and an exposure of water to the solid
+complex. The origin of the luminescence intensity change is both formation/dissociation
+of weak interactions and the coordination bond between tetracyanidonitridorhenium(V)
+and Him.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Structures of [ReN(CN)<sub>4</sub>]<sup>2&#x02013;</sup> and [ReN(CN)<sub>4</sub>L]<sup>2&#x02013;</sup> (L = Him, Mim, and pyz).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0001" id="gr1" position="float"/></fig></sec><sec id="sec2"><title>Results and Discussion</title><sec id="sec2.1"><title>Synthesis and Characterization of the Novel
+Complexes</title><p>The new bright yellow-green luminescent six-coordinate
+complexes,
+(PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him] (<bold>2</bold>) and (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Mim] (<bold>3</bold>), were synthesized by the reactions of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>] (<bold>1</bold>) with excess five-membered
+N-heterocyclic ligands in water. The reaction of <bold>1</bold> with
+an excess amount of pyz in CH<sub>2</sub>Cl<sub>2</sub> gave (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>pyz] (<bold>4</bold>) in
+a high yield. The similar reaction of <bold>1</bold> with an excess
+amount of Him or Mim in CH<sub>2</sub>Cl<sub>2</sub> produced the
+six-coordinate complex coordinated with the Him or Mim ligand which
+occupies at the axial site of the nitridorhenium(V) complex. In (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]&#x000b7;Him (<bold>5</bold>) or (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Mim]&#x000b7;Mim
+(<bold>6</bold>), furthermore, additional one mole ratio of noncoordinate
+Him or Mim was included. In the infrared (IR) spectra, the absorption
+bands ascribed to the N-heterocyclic ligands were observed in addition
+to those of the (PPh<sub>4</sub>)<sup>+</sup> and [ReN(CN)<sub>4</sub>]<sup>2&#x02013;</sup> units, as shown in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Supporting Information</ext-link>, Figure S1. The <sup>1</sup>H NMR spectra
+of the new complexes dissolved in CD<sub>3</sub>CN showed the signals
+of N-heterocyclic ligands and (PPh<sub>4</sub>)<sup>+</sup>. Each
+integral signal intensity ratio of the N-heterocycle to (PPh<sub>4</sub>)<sup>+</sup> was 1:2 for <bold>2</bold>, <bold>3</bold>, or <bold>4</bold> and 1:1 for <bold>5</bold> or <bold>6</bold>. These ratios
+were in good agreement with the results of the single-crystal X-ray
+analyses of the complexes. In <bold>5</bold> and <bold>6</bold>, one
+set of the <sup>1</sup>H NMR signals of Him and Mim was only observed,
+suggesting that the dissociation of Him and Mim ligands from the rhenium
+ion rapidly occurred in the solutions as the result of strong trans
+effect of the nitrido. The single-crystal X-ray structures of the
+new complexes were determined. The crystal structures of the complex
+anions of <bold>2</bold>, <bold>3</bold>, <bold>4</bold>, <bold>5</bold>, and <bold>6</bold> are displayed in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. The crystallographic data of the new complexes
+are shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Table S1</ext-link>. The structures and
+selected bond distances/angles of the new complexes are summarized
+in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. Each complex
+anion has a distorted octahedral structure with one nitrido atom being
+located at the axial site and an N-heteroaromatic ligand being occupied
+at the trans site to the nitrido. The four cyanido ions coordinate
+at the equatorial positions with the Re&#x02013;C bond distances of
+2.094(3)&#x02013;2.128(6) &#x000c5; and the N(nitrido)&#x02261;Re&#x02013;C
+angles of 96.41(10)&#x02013;101.32(19)&#x000b0;. The bond distance of
+Re&#x02261;N(nitrido) is in the range of 1.659(4)&#x02013;1.671(4) &#x000c5;.
+The Re&#x02013;C and Re&#x02261;N(nitrido) bond distances are similar
+to those of the previously reported tetracyanidonitridorhenium(V)
+complexes.<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref58">58</xref>&#x02212;<xref ref-type="bibr" rid="ref61">61</xref></sup> The N(nitrido)&#x02261;Re&#x02013;N(aromatic)
+angles are almost linear [175.82(9)&#x02013;178.48(14)&#x000b0;]. The
+Re&#x02013;N(aromatic) bond distances are in the range 2.410(4)&#x02013;2.496(2)
+&#x000c5;, which is significantly long because of the trans influence
+of the nitrido ligand, while the distances are small compared to those
+in [ReN(CN)<sub>4</sub>L]<sup>2&#x02013;</sup> (L = six-membered N-heterocyclic
+ligand) [2.45(1)&#x02013;2.589(5) &#x000c5;].<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> This difference may be due to the steric hindrance because the five-membered
+aromatic ring is sterically less hindered than the six-membered ring.
+The complex anions in <bold>2</bold> and <bold>5</bold> and the anions
+in <bold>3</bold> and <bold>6</bold> have very similar geometries,
+respectively. In <bold>5</bold>, a noncoordinating Him is involved
+per complex anion and the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N hydrogen bond
+is formed between the nitrogen atoms in the coordinate Him and that
+in the noncoordinate Him [N7&#x000b7;&#x000b7;&#x000b7;N8, 2.804(6) &#x000c5;].
+The noncoordinate Him interacts with the [ReN(CN)<sub>4</sub>]<sup>2&#x02013;</sup> unit through the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N hydrogen
+bond to the nitrogen atom of the cyanido [N3&#x000b7;&#x000b7;&#x000b7;N9,
+2.993(7) &#x000c5;] and the C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bond to the
+nitrido atom [N1&#x000b7;&#x000b7;&#x000b7;C9, 3.264(8) &#x000c5;] and to the
+cyanido [N5&#x000b7;&#x000b7;&#x000b7;C10, 3.438(8) &#x000c5;]. In addition, the
+C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N interaction is shown between the nitrido
+atom and a phenyl ring of PPh<sub>4</sub><sup>+</sup> [N1&#x000b7;&#x000b7;&#x000b7;C26,
+3.369(8) &#x000c5;]. In <bold>6</bold>, a noncoordinating Mim is included
+per complex anion, while there is no hydrogen bonding interaction
+between the coordinate and noncoordinate Mim molecules. The noncoordinate
+Mim interacts with the nitrido atom of the complex unit by the C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+bond [N1&#x000b7;&#x000b7;&#x000b7;C12, 3.271(6) &#x000c5;] and with the cyanide
+ligand by the C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bond [N5&#x000b7;&#x000b7;&#x000b7;C10,
+3.344(5) &#x000c5;, N3&#x000b7;&#x000b7;&#x000b7;C9, 3.384(6) &#x000c5;]. The C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+interactions are formed between the nitrido atom and phenyl rings
+of PPh<sub>4</sub><sup>+</sup> ions [N1&#x000b7;&#x000b7;&#x000b7;C22, 3.316(5)
+&#x000c5;; N1&#x000b7;&#x000b7;&#x000b7;C46, 3.494(5) &#x000c5;]. In <bold>2</bold> and <bold>3</bold>, the weak interactions show as the O&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+hydrogen bonds among water molecules and the nitrogen atoms of the
+cyanido ligands [O1&#x000b7;&#x000b7;&#x000b7;N3, 2.973(5) &#x000c5;; O2&#x000b7;&#x000b7;&#x000b7;N3,
+2.958(4) &#x000c5;; O3&#x000b7;&#x000b7;&#x000b7;N4, 2.853(4) &#x000c5; for <bold>2</bold> and O1&#x000b7;&#x000b7;&#x000b7;N4, 2.864(8) &#x000c5;; O2&#x000b7;&#x000b7;&#x000b7;N3,
+2.930(6) &#x000c5;; O3&#x000b7;&#x000b7;&#x000b7;N3, 2.89(1) &#x000c5; for <bold>3</bold>] and as the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bond between the
+coordinate imidazole and the cyanido [N5&#x000b7;&#x000b7;&#x000b7;N7, 2.854(4)
+&#x000c5;] for <bold>2</bold>. Furthermore, the interaction is formed
+between the nitrido and a carbon atom of a PPh<sub>4</sub><sup>+</sup> ion [N1&#x000b7;&#x000b7;&#x000b7;C46, 3.276(5) &#x000c5; for <bold>2</bold> and N1&#x000b7;&#x000b7;&#x000b7;C43, 3.39(1) &#x000c5; for <bold>3</bold>].
+In <bold>4</bold>, the weak interactions show as the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+and C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bonds between the pyrazole and cyanido
+[N5&#x000b7;&#x000b7;&#x000b7;N7, 2.955(4) &#x000c5; and N5&#x000b7;&#x000b7;&#x000b7;C7,
+3.133(4) &#x000c5;] and C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bonds between the
+pyrazole and CH<sub>3</sub>CN [C6&#x000b7;&#x000b7;&#x000b7;N8, 3.268(4) &#x000c5;].
+Moreover, the interactions are formed between the nitrido and carbon
+atoms of PPh<sub>4</sub><sup>+</sup> ions [N1&#x000b7;&#x000b7;&#x000b7;C18,
+3.385(4) &#x000c5; and N1&#x000b7;&#x000b7;&#x000b7;C35, 3.599(3) &#x000c5;].</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>ORTEP drawings
+of the complex anions of <bold>2</bold> (a), <bold>3</bold> (b), <bold>4</bold> (c), <bold>5</bold> (d), and <bold>6</bold> (e). Hydrogen
+atoms are omitted for clarity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0002" id="gr2" position="float"/></fig><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Selected Bond Distances (&#x000c5;) and
+Angles (deg) of the Tetracynidonitridorhenium(V) Complexes with Five-Membered
+N-Heterocyclic Ligands</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center"><bold>2</bold></th><th style="border:none;" align="center"><bold>3</bold></th><th style="border:none;" align="center"><bold>4</bold></th><th style="border:none;" align="center"><bold>5</bold></th><th style="border:none;" align="center"><bold>6</bold></th></tr></thead><tbody><tr><td colspan="6" style="border:none;" align="center"><bold>Bond Distances</bold></td></tr><tr><td style="border:none;" align="left">Re&#x02261;N</td><td style="border:none;" align="left">1.664(2)</td><td style="border:none;" align="left">1.663(5)</td><td style="border:none;" align="left">1.668(2)</td><td style="border:none;" align="left">1.659(4)</td><td style="border:none;" align="left">1.671(4)</td></tr><tr><td style="border:none;" align="left">Re&#x02013;C</td><td style="border:none;" align="left">2.106(3)&#x02013;2.116(3)</td><td style="border:none;" align="left">2.097(7)&#x02013;2.128(6)</td><td style="border:none;" align="left">2.094(3)&#x02013;2.121(2)</td><td style="border:none;" align="left">2.097(5)&#x02013;2.111(4)</td><td style="border:none;" align="left">2.100(4)&#x02013;2.115(4)</td></tr><tr><td style="border:none;" align="left">Re&#x02013;N</td><td style="border:none;" align="left">2.435(2)</td><td style="border:none;" align="left">2.434(5)</td><td style="border:none;" align="left">2.496(2)</td><td style="border:none;" align="left">2.410(4)</td><td style="border:none;" align="left">2.427(3)</td></tr><tr><td colspan="6" style="border:none;" align="center"><bold>Bond Angles</bold></td></tr><tr><td style="border:none;" align="left">N&#x02261;Re&#x02013;C</td><td style="border:none;" align="left">96.58(11)&#x02013;99.66(12)</td><td style="border:none;" align="left">96.8(2)&#x02013;98.7(2)</td><td style="border:none;" align="left">96.41(10)&#x02013;100.78(10)</td><td style="border:none;" align="left">98.3(2)&#x02013;101.32(19)</td><td style="border:none;" align="left">98.47(14)&#x02013;100.31(14)</td></tr><tr><td style="border:none;" align="left">N&#x02261;Re&#x02013;N</td><td style="border:none;" align="left">176.15(10)</td><td style="border:none;" align="left">176.37(19)</td><td style="border:none;" align="left">175.82(9)</td><td style="border:none;" align="left">176.83(17)</td><td style="border:none;" align="left">178.48(14)</td></tr></tbody></table></table-wrap></sec><sec id="sec2.2"><title>Spectroscopic and Photophysical Properties</title><p>UV&#x02013;vis
+diffuse reflectance spectra of the new complexes were measured in
+the solid states. Figure S2 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Supporting Information</ext-link> exhibits the spectra. The complexes show the bands
+at 405&#x02013;418 nm. The peak maximum wavelengths are similar to
+those observed for the six-coordinate tetracyanidonitridorhenium(V)
+complexes, [ReN(CN)<sub>4</sub>L]<sup>2&#x02013;</sup> (L = pyridine,
+MeOH, and acetone).<sup><xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref58">58</xref></sup> The band can be ascribed to the
+transition (d<sub><italic>xy</italic></sub>)<sup>2</sup> &#x02192;
+(d<sub><italic>xy</italic></sub>)<sup>1</sup>(d<sub>&#x003c0;*</sub>)<sup>1</sup> (d<sub>&#x003c0;*</sub> = d<sub><italic>xz</italic></sub>, d<sub><italic>yz</italic></sub>) with p<sub>&#x003c0;</sub>(N<sup>3&#x02013;</sup>)&#x02013;d<sub>&#x003c0;</sub> overlap.<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref58">58</xref></sup> This electronic transition between the highest energy occupied molecular
+orbital and lowest energy unoccupied molecular orbital is well characterized
+in d<sup>2</sup> nitridorhenium(V) complexes.<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref58">58</xref></sup> The spectroscopic and photophysical data of the complexes in the
+crystalline phase are shown in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>. The emission spectra in the crystalline phase at
+296 K are shown in <xref rid="fig3" ref-type="fig">Figures <xref rid="fig3" ref-type="fig">3</xref></xref> and <xref rid="fig4" ref-type="fig">4</xref>. The complexes, <bold>2</bold>, <bold>3</bold>, <bold>4</bold>, and <bold>6</bold>, are highly
+photoemissive with the &#x003a6;<sub>em</sub> values being 0.65&#x02013;0.75.
+The &#x003c4;<sub>em</sub> values (52&#x02013;55 &#x003bc;s) of these complexes
+indicate that the emissive excited state is a spin triplet state.
+Emission spectra at low temperature were measured to investigate further
+the excited state characters of the complexes. <xref rid="fig5" ref-type="fig">Figures <xref rid="fig5" ref-type="fig">5</xref></xref> and <xref rid="fig6" ref-type="fig">6</xref> show the emission
+spectra of the complexes at 80 K in the crystalline phase. All of
+the complexes show vibronic progressions with ca. 1000 cm<sup>&#x02013;1</sup>, whose value corresponds to the &#x003bd;<sub>Re&#x02261;N</sub> stretching
+band frequencies. The emission spectra are typical for the luminescence
+of a nitridorhenium(V) complex.<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref58">58</xref></sup> From these results, we assigned the emissive excited state of <bold>2</bold>, <bold>3</bold>, <bold>4</bold>, and <bold>6</bold> to <sup>3</sup>[(d<sub><italic>xy</italic></sub>)<sup>1</sup>(d<sub><italic>xz</italic></sub> or d<sub><italic>yz</italic></sub>)<sup>1</sup>] with the p<sub>&#x003c0;</sub>(N<sup>3&#x02013;</sup>)&#x02013;d<sub>&#x003c0;</sub> overlap. The temperature (<italic>T</italic>) dependences
+of the emission spectrum and the &#x003c4;<sub>em</sub> value of <bold>2</bold> in the crystalline phase were studied in the <italic>T</italic> range, 80 &#x0003c; <italic>T</italic> &#x0003c; 296 K as the data were shown
+in Figure S3 and Table S2 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Supporting Information</ext-link>. To the best of our knowledge, this is the first demonstration of
+the <italic>T</italic>-dependent emission spectrum and &#x003c4;<sub>em</sub> of a nitridorhenium(V) complex. As seen in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figure S3</ext-link>, <bold>2</bold> shows the clear vibronic progressions
+upon cooling, while the emission maximum wavelength is almost insensitive
+to <italic>T</italic>. The complex, <bold>2</bold>, exhibits single
+exponential emission decay irrespective of <italic>T</italic> and
+the &#x003c4;<sub>em</sub> value increased with decreasing <italic>T</italic> in 120 &#x0003c; <italic>T</italic> &#x0003c; 296 K, while it was almost constant
+at 118&#x02013;122 &#x003bc;s below 120 K. The rate constant (<italic>k</italic>) of <bold>2</bold> evaluated as <italic>k</italic> = 1/&#x003c4;<sub>em</sub> is 1.86 &#x000d7; 10<sup>4</sup> s<sup>&#x02013;1</sup> at 296
+K and 8.2 &#x000d7; 10<sup>3</sup> s<sup>&#x02013;1</sup> at 80 K, respectively.
+It is known that the <italic>k</italic> value of [Ru(2,2&#x02032;-bipyridine)<sub>3</sub>]<sup>2+</sup> in MeOH/EtOH at room temperature decreases
+significantly with decreasing <italic>T</italic> from 8.7 &#x000d7; 10<sup>5</sup> s<sup>&#x02013;1</sup> at 296 K to 1.8&#x02013;2.0 &#x000d7; 10<sup>5</sup> s<sup>&#x02013;1</sup> at 77 K because thermal deactivation
+of the emissive excited state of the complex through the upper-energy-lying
+metal-centered excited state is suppressed at lower temperature.<sup><xref ref-type="bibr" rid="ref62">62</xref></sup> The small variation of the <italic>k</italic> value with <italic>T</italic> and the high &#x003a6;<sub>em</sub> value
+of <bold>2</bold> will be due to almost no contribution of thermal
+activation to the nonradiative metal-centered state to excited state
+decay of <bold>2</bold>. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> also shows the emission spectrum of <bold>5</bold> in the crystalline phase and the relevant spectroscopic/photophysical
+data are included in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>. Although the coordination geometries of <bold>2</bold> and <bold>5</bold> are very similar with each other, the large differences
+in the &#x003bb;<sub>em</sub>, &#x003c4;<sub>em</sub>, and &#x003a6;<sub>em</sub> values were observed between those of <bold>2</bold> (&#x003bb;<sub>em</sub> = 535 nm, &#x003c4;<sub>em</sub> = 54 &#x003bc;s, &#x003a6;<sub>em</sub> = 0.75) and <bold>5</bold> (&#x003bb;<sub>em</sub> = 561 nm,
+weighted average &#x003c4;<sub>em</sub> = 0.070 &#x003bc;s, &#x003a6;<sub>em</sub> &#x0003c; 0.01). In particular, the &#x003a6;<sub>em</sub> value
+of <bold>5</bold> is significantly smaller than those of <bold>2</bold> and the other new complexes. The spectral feature showing vibronic
+progressions of <bold>5</bold> is very similar to <bold>2</bold> at
+80 K. Therefore, the emissive excited state of <bold>5</bold> is assignable
+to <sup>3</sup>[(d<sub><italic>xy</italic></sub>)<sup>1</sup>(d<sub><italic>xz</italic></sub> or d<sub><italic>yz</italic></sub>)<sup>1</sup>] with the p<sub>&#x003c0;</sub>(N<sup>3&#x02013;</sup>)&#x02013;d<sub>&#x003c0;</sub> overlap, and the weak luminescence of <bold>5</bold> is the result of quenching of the emissive excited state of the
+complex. In the Mim coordinate complexes, both <bold>3</bold> and <bold>6</bold> showed almost comparable spectroscopic and photophysical
+properties: &#x003bb;<sub>em</sub> = 536 nm, &#x003c4;<sub>em</sub> =
+55 &#x003bc;s, and &#x003a6;<sub>em</sub> = 0.65 for <bold>3</bold> and
+&#x003bb;<sub>em</sub> = 537 nm, &#x003c4;<sub>em</sub> = 52 &#x003bc;s,
+and &#x003a6;<sub>em</sub> = 0.65 for <bold>6</bold>. The &#x003a6;<sub>em</sub> and &#x003c4;<sub>em</sub> data observed for <bold>2</bold> and <bold>5</bold> are, thus, in sharp contrast to those of <bold>3</bold> and <bold>6</bold>. As described in the part of X-ray crystallography,
+the hydrogen bonding interactions present between the coordinate and
+free imidazole molecules and between the nitrido and free imidazole
+participate in <bold>5</bold>, although the coordination geometry
+around the rhenium atoms in <bold>5</bold> is similar to that in <bold>2</bold>. The C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bonds at the nitrido
+with PPh<sub>4</sub><sup>+</sup> and Mim, and the O&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+hydrogen bonding interactions at the nitrogen atom(s) of the cyanido
+with solvent molecules are less effective to the emission quenching
+because these interactions exist in the crystals of strongly luminescent <bold>2</bold>, <bold>3</bold>, and <bold>6</bold>. For investigation on
+influence of the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N interaction between
+coordinate and noncoordinate Him molecules, the tetracyanidonitridorhenium(V)
+complexes with imidazole-d<sub>5</sub></p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Emission spectra of <bold>2</bold> (blue) and <bold>5</bold> (red)
+in the crystalline state at 296 K.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0003" id="gr3" position="float"/></fig><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Emission
+spectra of <bold>3</bold> (black), <bold>4</bold> (green),
+and <bold>6</bold> (orange) in the crystalline states at 296 K.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Emission spectra of <bold>2</bold> (blue) and <bold>5</bold> (red)
+in the crystalline state at 80 K.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0005" id="gr5" position="float"/></fig><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Emission
+spectra of <bold>3</bold> (black), <bold>4</bold> (green),
+and <bold>6</bold> (orange) in the crystalline states at 80 K.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0006" id="gr6" position="float"/></fig><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Spectroscopic and Photophysical Data
+of the Complexes in the Crystalline Phase at 296 and 80 K</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="3" align="center">296&#x000a0;K<hr/></th><th colspan="2" align="center">80&#x000a0;K<hr/></th></tr><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x003bb;<sub>em</sub>/nm</th><th style="border:none;" align="center" char=".">&#x003a6;<sub>em</sub></th><th style="border:none;" align="center">&#x003c4;<sub>em</sub>/&#x003bc;s</th><th style="border:none;" align="center">&#x003bb;<sub>em</sub>/nm</th><th style="border:none;" align="center">&#x003c4;<sub>em</sub>/&#x003bc;s</th></tr></thead><tbody><tr><td style="border:none;" align="left"><bold>1</bold><xref rid="t2fn1" ref-type="table-fn">a</xref></td><td style="border:none;" align="left">569, 720</td><td style="border:none;" align="char" char=".">&#x0003c;0.01</td><td style="border:none;" align="left">0.35(61), 1.2(35), 7.6(4)</td><td style="border:none;" align="left">721</td><td style="border:none;" align="left">0.29(52), 3.3(17), 14(31)</td></tr><tr><td style="border:none;" align="left"><bold>2</bold></td><td style="border:none;" align="left">535</td><td style="border:none;" align="char" char=".">0.75</td><td style="border:none;" align="left">54</td><td style="border:none;" align="left">507, 534, 553, 564</td><td style="border:none;" align="left">120<xref rid="t2fn2" ref-type="table-fn">b</xref></td></tr><tr><td style="border:none;" align="left"><bold>2-Dim</bold></td><td style="border:none;" align="left">532</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">48</td><td style="border:none;" align="left">507, 534, 554, 565</td><td style="border:none;" align="left">120<xref rid="t2fn2" ref-type="table-fn">b</xref></td></tr><tr><td style="border:none;" align="left"><bold>3</bold></td><td style="border:none;" align="left">536</td><td style="border:none;" align="char" char=".">0.65</td><td style="border:none;" align="left">55</td><td style="border:none;" align="left">514, 540, 567</td><td style="border:none;" align="left">121(76),
+192(24)</td></tr><tr><td style="border:none;" align="left"><bold>4</bold></td><td style="border:none;" align="left">544</td><td style="border:none;" align="char" char=".">0.70</td><td style="border:none;" align="left">52</td><td style="border:none;" align="left">521, 547, 576</td><td style="border:none;" align="left">166</td></tr><tr><td style="border:none;" align="left"><bold>5</bold></td><td style="border:none;" align="left">561</td><td style="border:none;" align="char" char=".">&#x0003c;0.01</td><td style="border:none;" align="left">0.023(58), 0.067(40), 0.35(1),
+2.6(1)</td><td style="border:none;" align="left">515, 541,
+563, 571, 592</td><td style="border:none;" align="left">29<xref rid="t2fn2" ref-type="table-fn">b</xref></td></tr><tr><td style="border:none;" align="left"><bold>5-Dim</bold></td><td style="border:none;" align="left">561</td><td style="border:none;" align="char" char=".">&#x0003c;0.01</td><td style="border:none;" align="left">0.011(18), 0.044(40), 0.24(32),
+0.68(10)</td><td style="border:none;" align="left">514, 542,
+564, 574, 593</td><td style="border:none;" align="left">2.2(10),
+20(44), 55(46)<xref rid="t2fn2" ref-type="table-fn">b</xref></td></tr><tr><td style="border:none;" align="left"><bold>6</bold></td><td style="border:none;" align="left">537</td><td style="border:none;" align="char" char=".">0.65</td><td style="border:none;" align="left">52</td><td style="border:none;" align="left">514, 540, 567</td><td style="border:none;" align="left">97(84), 198(16)</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>Reference (<xref ref-type="bibr" rid="ref49">49</xref>).</p></fn><fn id="t2fn2"><label>b</label><p>At 77 K.</p></fn><fn id="t2fn3"><label>c</label><p>Parenthesis denotes % components.</p></fn></table-wrap-foot></table-wrap><p>(Dim) molecule(s), <bold>2-Dim</bold> and <bold>5-Dim</bold>, were
+prepared by the similar reactions to the synthetic procedures to <bold>2</bold> and <bold>5</bold> except for using Dim and deuterated solvents:
+D<sub>2</sub>O for <bold>2</bold>-Dim and CD<sub>2</sub>Cl<sub>2</sub>/diethylether-d<sub>10</sub> for <bold>5-Dim</bold>, respectively.
+The emission spectral and photophysical data of <bold>2-Dim</bold> and <bold>5-Dim</bold> in crystalline phase are also listed in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>. The &#x003bb;<sub>em</sub> and &#x003c4;<sub>em</sub> values of <bold>2-Dim</bold> at
+both 296 and 80 K are similar to those of <bold>2</bold>, as shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Supporting Information</ext-link>, Figures S4 and
+S5. These results indicate that the deuterated ligand gives almost
+no influence to the excited state character and luminescence properties
+of <bold>2</bold>. In <bold>5-Dim</bold> and <bold>5</bold>, the emission
+spectra and the &#x003bb;<sub>em</sub> values are similar to each other,
+while the &#x003c4;<sub>em</sub> values of <bold>5</bold> and <bold>5-Dim</bold> in the crystalline phase are different at both 296 and
+80 K. The weighted average value of &#x003c4;<sub>em</sub> for <bold>5</bold>-Dim (0.16 &#x003bc;s) are longer than that for <bold>5</bold> (0.070 &#x003bc;s) at 296 K. The results suggest that the deuterated
+ligand in <bold>5-Dim</bold> is hardly contribute to the radiative
+process while that influences significantly nonradiative decay of
+the excited states of <bold>5</bold> and <bold>5-Dim</bold>. Therefore,
+the weak luminescence from <bold>5</bold> is attributed to excited-state
+deactivation by vibronic relaxation through the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+hydrogen interactions. The longer emission lifetime of <bold>5-Dim</bold> compared to that of <bold>5</bold> would be due to suppression of
+excited-state quenching by the slow vibration of the N&#x02013;D&#x000b7;&#x000b7;&#x000b7;N
+hydrogen bond compared to that of the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+hydrogen bond. As the noncoordinate Him interacts with the nitrido
+by the C&#x02013;H&#x000b7;&#x000b7;&#x000b7;N bond, the bond may be also involved
+in the luminescence quenching in <bold>5</bold>.</p></sec><sec id="sec2.3"><title>Luminescence
+Intensity Change by Solvent-Free Reactions and
+Exposure of Water</title><p><xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref> summarizes the reactions with luminescence intensity
+change by coordination/dissociation of the Re&#x02013;N(aromatic) coordination
+bond and the formation/dissociation of the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N
+hydrogen bond on the basis of solvent-free reactions and exposure
+of water. The solid mixture of <bold>2</bold> and 1 mol equiv of Him
+was mechanically ground on an alumina mortar at room temperature.
+The bright yellow-green luminescence of <bold>2</bold> gradually disappeared
+to give <bold>5</bold>. Complex <bold>5</bold> was also afforded by
+the mechanochemical reaction of <bold>1</bold> with 2 mol equiv of
+Him at room temperature. <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref> shows the luminescence intensity change during the
+mechanochemical reaction of the solid sample of <bold>1</bold> with
+2 mol equiv of Him. The IR spectra and powder X-ray diffraction patterns
+of the obtained solids by these reactions are identical with that
+of <bold>5</bold> as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Supporting Information</ext-link>, Figures S1 and S6.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Luminescence intensity change during the mechanochemical
+reaction
+of <bold>1</bold> with Him in a 1:2 mole ratio in the solid state
+at room temperature. (a) Before the reaction, (b) after 1 min, (c)
+after 3 min, (d) after 8 min, (e) after 15 min. The pictures were
+taken under UV irradiation.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0007" id="gr7" position="float"/></fig><fig id="sch1" position="float"><label>Scheme 1</label><caption><title>Interconversions among <bold>1</bold>, <bold>2</bold>, and <bold>5</bold> by Solvent-Free Reactions and Exposure of Water</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0009" id="gr9" position="float"/></fig><p>The significant luminescence intensity change
+induced by the mechanochemical
+reaction of <bold>2</bold> with one mole ratio of Him is responsible
+for the large &#x003a6;<sub>em</sub> difference between <bold>2</bold> and <bold>5</bold>. During the solvent-free reaction of <bold>1</bold> to produce <bold>5</bold>, bright yellow-green luminescence appeared
+upon grinding (the picture in the middle of <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). As the &#x003a6;<sub>em</sub> value of five-coordinate <bold>1</bold> is very small, this observation suggests that coordination
+of Him at the axial site of <bold>1</bold> gives the six-coordinate
+complex [ReN(CN)<sub>4</sub>Him]<sup>2&#x02013;</sup>. By continuing
+grinding, a noncoordinating Him molecule is positioned at the site
+with the N&#x02013;H&#x000b7;&#x000b7;&#x000b7;N hydrogen bond to give the weak
+luminescent complex, <bold>5</bold>. The mechanochemical reaction
+of <bold>1</bold> with 1 mol equiv of Him gave a yellow-green luminescent
+solid. The X-ray powder diffraction of the solid indicates the existence
+of <bold>2</bold> along with an unidentified substance. The unidentified
+complex might be (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him] with a crystal system different from that of <bold>2</bold>.
+When one drop of water was placed on a crystal of <bold>5</bold> under
+UV irradiation, almost the nonluminescent crystal gradually exhibited
+yellow-green photoemission as the water spread around the crystal
+as shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_002.mp4">Movie 1</ext-link> in the Supporting Information.
+The emission spectrum of the crystal agrees well with that of <bold>2</bold> in the crystalline phase. After the microcrystalline sample
+of <bold>5</bold> being soaked in water for 3.5 h, the IR spectrum
+and powder X-ray diffraction pattern of the solid changed to those
+of <bold>2</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figures S1 and S7</ext-link>),
+and the signal integrated intensity ratio of Him and (PPh<sub>4</sub>)<sup>+</sup> is 1:2 in the <sup>1</sup>H NMR spectrum in CD<sub>3</sub>CN (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figure S8</ext-link>). These results suggest
+that noncoordinating Him is eliminated by soaking the solid in water
+and three H<sub>2</sub>O molecules are incorporated to give <bold>2</bold>. When <bold>5</bold> was suspended in 0.7 mL of D<sub>2</sub>O, ca. 3% of the complex was dissolved during the reaction; the <sup>1</sup>H NMR spectrum of this solution was used to obtain the signal
+intensity ratio of (PPh<sub>4</sub>)<sup>+</sup> to the DSS internal
+reference. Therefore, the conversion of <bold>5</bold> to <bold>2</bold> may proceed through the process of the dissolution of the complex
+in water. When the microcrystalline solid of <bold>6</bold> was placed
+in a small amount of water and the mixture was allowed to stand for
+3.5 h, the IR spectrum and powder X-ray diffraction pattern changed
+to those of <bold>3</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figures S1 and S9</ext-link>). Therefore, elimination of the noncoordinating Mim molecule in <bold>6</bold> proceeds by exposure of water to give <bold>3</bold>, although
+the intense luminescence remains through the reaction because the
+&#x003a6;<sub>em</sub> values of <bold>3</bold> and <bold>6</bold> are
+similar to each other.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Crystal of <bold>5</bold> (upper left) and under UV irradiation
+(lower left); the crystal with an added drop of water (upper right)
+and the wet crystal under UV irradiation (lower right).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_0008" id="gr8" position="float"/></fig><p>Vacuum elimination of Him from <bold>2</bold> or <bold>5</bold> was performed to achieve interconversion between the five- and six-coordinate
+complexes. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figures S10 and S11</ext-link> exhibit
+the thermal gravimetric curve for <bold>2</bold> and <bold>5</bold>, respectively. The thermal gravimetric analysis of <bold>2</bold> shows loss of water from 30 to 70 &#x000b0;C and large weight loss
+above 170 &#x000b0;C, and that of <bold>5</bold> exhibits weight loss
+above 150 &#x000b0;C. When the microcrystalline sample of <bold>2</bold> was subjected to vacuum at 185 &#x000b0;C, photoemission gradually
+weakened. After the vacuum elimination reaction for 6 days, no yellow-green
+luminescence was visible by naked eyes. In the <sup>1</sup>H NMR spectrum,
+the signals of Him are not appeared in the obtained complex. The IR
+spectrum of the complex agrees to that of <bold>1</bold> as shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figure S1</ext-link>. Therefore, conversion of <bold>2</bold> to <bold>1</bold> was carried out under vacuum at 185 &#x000b0;C.
+The complex <bold>1</bold> was also produced from <bold>5</bold> by
+vacuum elimination of Him at 185 &#x000b0;C. As shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">Figure S12</ext-link>, the X-ray powder diffraction patterns
+of the obtained complexes were not agreed with that of <bold>1</bold> which was prepared from the vacuum elimination reaction of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>MeOH]. This would be because
+the molecular packing of <bold>1</bold> in the solid depends on the
+starting material in the vacuum elimination of the ligand at the axial
+site.</p></sec></sec><sec id="sec3"><title>Conclusions</title><p>The tetracyanidonitridorhenium(V) complexes
+with five-membered
+N-heteroaromatic ligands were synthesized and their spectroscopic
+and photophysical properties were characterized. All of the complexes
+in the present study showed high-emission quantum yield, except for
+(PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]&#x000b7;Him. The
+nature of the emissive excited state was characterized to <sup>3</sup>[(d<sub><italic>xy</italic></sub>)<sup>1</sup>(d<sub><italic>xz</italic></sub> or d<sub><italic>yz</italic></sub>)<sup>1</sup>] with the
+p<sub>&#x003c0;</sub>(N<sup>3&#x02013;</sup>)&#x02013;d<sub>&#x003c0;</sub> overlap. The temperature dependence of emission lifetimes was measured
+at first time in the nitridorhenium(V) complex using(PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]. The bright yellow-green luminescence
+intensity change was accomplished by the solid-based reactions of
+the complexes involving changes in the coordination number and in
+the environment around the complex. The results demonstrated that
+the luminescence intensity change was controlled by the formation/dissociation
+of the weak bond in the solid state.</p></sec><sec id="sec4"><title>Experimental Section</title><sec id="sec4.1"><title>Materials</title><p>All commercially available reagents were
+used as received. (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>] (<bold>1</bold>) was prepared according to the literature procedure.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup></p></sec><sec id="sec4.2"><title>Syntheses of the Complexes</title><sec id="sec4.2.1"><title>(PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]&#x000b7;3H<sub>2</sub>O
+(<bold>2</bold>)</title><p><bold>Method 1</bold>: Him (212
+mg, 3.12 mmol) and <bold>1</bold> (121 mg, 0.123 mmol) were dissolved
+in 2 mL hot water. The solution was cooled to room temperature to
+give yellow crystals. The crystals were washed with cold water and
+dried under vacuum. Yield: 122 mg (91.2%). Anal. Calcd for C<sub>55</sub>H<sub>44</sub>N<sub>7</sub>P<sub>2</sub>Re&#x000b7;3H<sub>2</sub>O:
+C, 59.77; H, 4.56; N, 8.87%. Found: C, 59.82; H, 4.49; N, 8.76%. <sup>1</sup>H NMR in CD<sub>3</sub>CN/ppm: 6.92 (s, 2H, Him), 7.61 (s,
+1H, Him), 7.64&#x02013;7.94 (40H, PPh<sub>4</sub><sup>+</sup>), 10.09
+(br, 1H, Him). UV&#x02013;vis/nm in the solid state: 408. IR (KBr pellet)/cm<sup>&#x02013;1</sup>: 2129 (&#x003bd;<sub>C&#x02261;N</sub>), 2115 (&#x003bd;<sub>C&#x02261;N</sub>), 2105 (&#x003bd;<sub>C&#x02261;N</sub>), 2098 (&#x003bd;<sub>C&#x02261;N</sub>).</p><p><bold>Method 2:</bold> The microcrystalline
+solid of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]&#x000b7;Him
+(<bold>3</bold>) (22.3 mg, 0.0199 mmol) was placed in small amounts
+of water (&#x0223c;0.1 mL) and allowed to stand for 3.5 h. The solid
+was collected and washed with small amounts of water and then dried
+under vacuum. Yield: 21.1 mg (95.8%).</p></sec><sec id="sec4.2.2"><title>Preparation of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Mim]&#x000b7;3H<sub>2</sub>O
+(<bold>3</bold>)</title><p><bold>Method
+1:</bold> Mim (110 mg, 1.33 mmol) and <bold>1</bold> (100 mg, 0.102
+mmol) were dissolved in 4 mL of hot water. The solution was cooled
+to room temperature to give yellow crystals. The crystals were washed
+with water and then dried under vacuum. Yield: 93.1 mg (85.7%). Anal.
+Calcd for C<sub>56</sub>H<sub>46</sub>N<sub>7</sub>P<sub>2</sub>Re&#x000b7;3H<sub>2</sub>O: C, 60.10; H, 4.68; N, 8.76%. Found: C, 60.23; H, 4.59;
+N, 8.81%. <sup>1</sup>H NMR in CD<sub>3</sub>CN/ppm: 3.59 (s, 3H,
+&#x02212;CH<sub>3</sub>), 6.77 (dd, 1H, Mim), 6.94 (d, 1H, Mim), 7.47
+(s, 1H, Mim), 7.64&#x02013;7.93 (40H, PPh<sub>4</sub>). UV&#x02013;vis/nm
+in the solid state: 415. IR (KBr pellet)/cm<sup>&#x02013;1</sup>: 2126
+(&#x003bd;<sub>C&#x02261;N</sub>), 2113 (&#x003bd;<sub>C&#x02261;N</sub>), 2102 (&#x003bd;<sub>C&#x02261;N</sub>), 2095 (&#x003bd;<sub>C&#x02261;N</sub>).</p><p><bold>Method 2:</bold> The microcrystalline solid of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Mim]&#x000b7;Mim (<bold>6</bold>) (22.5 mg, 0.0196 mmol) was placed in small amounts of water and
+allowed to stand for 3.5 h. The resultant solid was collected and
+washed with small amounts of water, and then dried under vacuum. Yield:
+21.3 mg (97.0%).</p></sec><sec id="sec4.2.3"><title>Preparation of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>pyz] (<bold>4</bold>)</title><p><bold>1</bold> (40.3 mg, 0.0410 mmol)
+and pyz (152.5 mg, 2.24 mmol) were dissolved in 4 mL CH<sub>2</sub>Cl<sub>2</sub>, followed by addition of a 4 mL layer of Et<sub>2</sub>O. The solution was left for several days, resulting in the formation
+of yellow crystals, which were filtered and washed with Et<sub>2</sub>O. Yield: 38.8 mg (85.7%). Anal. Calcd for C<sub>55</sub>H<sub>44</sub>N<sub>7</sub>P<sub>2</sub>Re&#x000b7;2.5H<sub>2</sub>O: C, 60.26; H,
+4.51; N, 8.94%. Found: C, 60.15; H, 4.52; N, 9.22%. <sup>1</sup>H
+NMR in CD<sub>3</sub>CN/ppm: 6.23 (t, 1H, pyrazole), 7.53 (d, 2H,
+pyrazole), 7.64&#x02013;7.93 (40H, PPh<sub>4</sub><sup>+</sup>). UV&#x02013;vis/nm
+in the solid state: 412. IR (KBr pellet)/cm<sup>&#x02013;1</sup>: 2128
+(&#x003bd;<sub>C&#x02261;N</sub>), 2106 (&#x003bd;<sub>C&#x02261;N</sub>), 2098 (&#x003bd;<sub>C&#x02261;N</sub>).</p></sec><sec id="sec4.2.4"><title>Preparation of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Him]&#x000b7;Him (<bold>5</bold>)</title><p><bold>Method 1:</bold> Him
+(177 mg, 2.59 mmol) and <bold>1</bold> (100 mg, 0.102 mmol) were dissolved
+in 10 mL CH<sub>2</sub>Cl<sub>2</sub>, followed by addition of a 10
+mL layer of Et<sub>2</sub>O. The solution was left for several days,
+resulting in the formation of yellow crystals, which were filtered
+and washed with Et<sub>2</sub>O. Yield: 102 mg (89.1%). Anal. Calcd
+for C<sub>58</sub>H<sub>48</sub>N<sub>9</sub>P<sub>2</sub>Re: C, 62.24;
+H, 4.32; N, 11.26%. Found: C, 62.38; H, 4.27; N, 11.36%. <sup>1</sup>H NMR in CD<sub>3</sub>CN/ppm: 6.94 (s, 4H, Him), 7.60 (s, 2H, Him),
+7.64&#x02013;7.95 (40H, PPh<sub>4</sub><sup>+</sup>), 10.31 (br, 2H,
+Him) UV&#x02013;vis/nm in the solid state: 405. IR (KBr pellet)/cm<sup>&#x02013;1</sup>: 2103 (&#x003bd;<sub>C&#x02261;N</sub>), 2089 (&#x003bd;<sub>C&#x02261;N</sub>), 2124 (&#x003bd;<sub>C&#x02261;N</sub>).</p><p><bold>Method 2:</bold> Him (10.8 mg, 0.158 mmol) and <bold>1</bold> (77.8
+mg, 0.0791 mmol) were ground in an alumina mortar using the automated
+mill (Nitto, ALM-90DM) for 30 min. Yield: 73.1 mg (82.5%).</p><p><bold>Method 3:</bold> Him (4.83 mg, 0.0709 mmol) and <bold>2</bold> (78.4
+mg, 0.0709 mmol) were ground in an alumina mortar using the
+automated mill (Nitto, ALM-90DM) for 20 min. Yield: 67.7 mg (85.3%).</p></sec></sec><sec id="sec4.3"><title>Conversion from <bold>2</bold> to <bold>1</bold></title><p><bold>2</bold> (173 mg, 0.156 mmol) was heated at 185 &#x000b0;C for 6 days
+under vacuum. Yield: 145 mg (94.6%). Anal. Calcd for C<sub>52</sub>H<sub>40</sub>N<sub>5</sub>P<sub>2</sub>Re&#x000b7;4.5H<sub>2</sub>O:
+C, 58.69; H, 4.64; N, 6.58%. Found: C, 58.62; H, 4.34; N, 6.65%. IR
+(KBr pellet) and <sup>1</sup>H NMR (CD<sub>3</sub>CN) spectra agreed
+well with those previously reported.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup></p></sec><sec id="sec4.4"><title>Conversion from <bold>5</bold> to <bold>1</bold></title><p><bold>5</bold> (84.6 mg, 0.0756 mmol) was heated at 185 &#x000b0;C for 8 days
+under vacuum. Yield: 71.2 mg (95.9%). IR (KBr pellet) and <sup>1</sup>H NMR (CD<sub>3</sub>CN) spectra agreed well with those previously
+reported.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup></p><sec id="sec4.5"><title>Preparation of (PPh<sub>4</sub>)<sub>2</sub>[ReN(CN)<sub>4</sub>Mim]&#x000b7;Mim (<bold>6</bold>)</title><p>Mim (400 &#x003bc;L, 5.02 mmol)
+and <bold>1</bold> (32.4 mg, 0.0330 mmol) were dissolved in 1 mL CH<sub>2</sub>Cl<sub>2</sub>, followed by addition of a 9 mL layer of Et<sub>2</sub>O on the solution. The solution was allowed to stand for several
+days, resulting in formation of yellow crystals, which were filtered
+and washed with Et<sub>2</sub>O. Yield: 34.5 mg (84.8%). Anal. Calcd
+for C<sub>60</sub>H<sub>52</sub>N<sub>9</sub>P<sub>2</sub>Re&#x000b7;CH<sub>2</sub>Cl<sub>2</sub>: C, 59.46; H, 4.42; N, 10.23%. Found: C, 59.32;
+H, 4.58; N, 10.23%. <sup>1</sup>H NMR in CD<sub>3</sub>CN/ppm: 3.64
+(s, 6H, Mim), 6.82 (t, 2H, Mim), 6.93 (t, 2H, Mim), 7.45 (t, 2H, Mim),
+7.60&#x02013;7.90 (40H, PPh<sub>4</sub><sup>+</sup>). UV&#x02013;vis/nm
+in the solid state: 418. IR (KBr pellet)/cm<sup>&#x02013;1</sup>: 2133
+(&#x003bd;<sub>C&#x02261;N</sub>), 2110 (&#x003bd;<sub>C&#x02261;N</sub>), 2102 (&#x003bd;<sub>C&#x02261;N</sub>).</p></sec></sec><sec id="sec4.6"><title>X-ray Crystallography</title><p>The single-crystal X-ray data
+were collected at &#x02212;103 &#x000b0;C on a Rigaku RAXIS diffractometer
+with graphite-monochromated Mo K&#x003b1; radiation. The crystal structures
+were solved by SHELXT version 2014.<sup><xref ref-type="bibr" rid="ref63">63</xref></sup> Atomic
+coordinates and thermal parameters of nonhydrogen atoms were calculated
+by a full-matrix least-squares method using SHELXL version 2017.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> Calculations were performed using CrystalStructure
+4.2.4.</p></sec><sec id="sec4.7"><title>Physical Measurements</title><p><sup>1</sup>H NMR spectra were
+recorded on a JEOL ECS 400 MHz spectrometer. All peaks were referred
+to the proton signal of Si(CH<sub>3</sub>)<sub>4</sub> at &#x003b4;
+= 0.00. Solid-state reflectance UV&#x02013;vis spectra were measured
+by a JASCO V-550 spectrophotometer equipped with an integration sphere,
+and a sample was placed between two silica glass plates. IR spectra
+were recorded on a JASCO FTIR-4100. X-ray powder diffraction patterns
+were collected on a RIGAKU Rint 2000 diffractometer using Cu K&#x003b1;
+radiation (&#x003bb; = 1.54178 &#x000c5;) with a scan rate of 1&#x000b0;/min(5
+&#x02264; 2&#x003b8; &#x02264; 50&#x000b0;). Corrected emission spectra excited
+at 400 nm were measured by an absolute emission quantum yield measurement
+system (Hamamatsu C9920-02) composed of an integrating sphere, a multichannel
+photodetector (Hamamatsu Photonics, PMA-12), and a xenon lamp as an
+excitation light source. For emission lifetime measurements, a solid
+sample was placed between two nonfluorescent glass plates. A pulsed
+Nd<sup>3+</sup>:YAG laser (Lotis TII Ltd., 355 nm, fwhm &#x0223c;6
+ns or continuum, 355 nm, fwhm 4&#x02013;6 ns) was used as an excitation
+light source. The emission lifetime was measured by using a streak
+camera (Hamamatsu Photonics, C4334) or a photomultiplier tube (Hamamatsu,
+R928) monitored by a digital oscilloscope (IWATSU, DS-5532A). A liquid
+N<sub>2</sub> cryostat (DN1704 optical Dewar and 3120 temperature
+controller, Oxford Instruments) was used to control the sample temperature.
+The pictures of luminescence were taken under irradiation of UV light
+at 365 nm using a UV lamp (Vilber, VL-6.LC).</p></sec></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b02749">10.1021/acsomega.9b02749</ext-link>.<list id="silist" list-type="simple"><list-item><p>Crystallographic
+data, temperature dependence of emission
+lifetimes and phosphorescent rate constants of <bold>2</bold>, IR
+spectra, solid-state reflectance spectra, temperature dependence of
+emission spectra for <bold>2</bold>, emission spectra of <bold>2-Dim</bold> and <bold>5-Dim</bold> at 296 and 80 K, powder X-ray diffractions, <sup>1</sup>H NMR spectra for <bold>5</bold>, Thermogravimetric curves
+of <bold>2</bold> and <bold>5</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>Luminescent intensity change of <bold>5</bold> by exposure
+of water under a UV lamp (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_002.mp4">MP4</ext-link>)</p></list-item><list-item><p>Crystallographic files for <bold>2</bold>, <bold>3</bold>, <bold>4</bold>, <bold>5</bold>, and <bold>6</bold> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02749/suppl_file/ao9b02749_si_003.cif">CIF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_si_001.pdf"><caption><p>ao9b02749_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile2"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_si_002.mp4"><caption><p>ao9b02749_si_002.mp4</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile3"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02749_si_003.cif"><caption><p>ao9b02749_si_003.cif</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e2826-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Lee</surname><given-names>Y.-A.</given-names></name>; <name><surname>Eisenberg</surname><given-names>R.</given-names></name>
+<article-title>Luminescence
+Tribochromism and Bright Emission in Gold(I)
+Thiouracilate Complexes</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2003</year>, <volume>125</volume>, <fpage>7778</fpage>&#x02013;<lpage>7779</lpage>. <pub-id pub-id-type="doi">10.1021/ja034560k</pub-id>.<pub-id pub-id-type="pmid">12822977</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Ito</surname><given-names>H.</given-names></name>; <name><surname>Saito</surname><given-names>T.</given-names></name>; <name><surname>Oshima</surname><given-names>N.</given-names></name>; <name><surname>Kitamura</surname><given-names>N.</given-names></name>; <name><surname>Ishizaka</surname><given-names>S.</given-names></name>; <name><surname>Hinatsu</surname><given-names>Y.</given-names></name>; <name><surname>Wakeshima</surname><given-names>M.</given-names></name>; <name><surname>Kato</surname><given-names>M.</given-names></name>; <name><surname>Tsuge</surname><given-names>K.</given-names></name>; <name><surname>Sawamura</surname><given-names>M.</given-names></name>
+<article-title>Reversible Mechanochromic Luminescence of [(C<sub>6</sub>F<sub>5</sub>Au)<sub>2</sub>(&#x003bc;-1,4-Diisocyanobenzene)]</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2008</year>, <volume>130</volume>, <fpage>10044</fpage>&#x02013;<lpage>10045</lpage>. <pub-id pub-id-type="doi">10.1021/ja8019356</pub-id>.<pub-id pub-id-type="pmid">18613676</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Balch</surname><given-names>A. L.</given-names></name>
+<article-title>Dynamic
+crystals: visually detected mechanochemical changes in the luminescence
+of gold and other transition-metal complexes</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2009</year>, <volume>48</volume>, <fpage>2641</fpage>&#x02013;<lpage>2644</lpage>. <pub-id pub-id-type="doi">10.1002/anie.200805602</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Osawa</surname><given-names>M.</given-names></name>; <name><surname>Kawata</surname><given-names>I.</given-names></name>; <name><surname>Igawa</surname><given-names>S.</given-names></name>; <name><surname>Hoshino</surname><given-names>M.</given-names></name>; <name><surname>Fukunaga</surname><given-names>T.</given-names></name>; <name><surname>Hashizume</surname><given-names>D.</given-names></name>
+<article-title>Vapochromic and Mechanochromic Tetrahedral Gold(I)
+Complexes Based on the 1,2-Bis(diphenylphosphino)benzene Ligand</article-title>. <source>Chem.&#x02014;Eur. J.</source>
+<year>2010</year>, <volume>16</volume>, <fpage>12114</fpage>&#x02013;<lpage>12126</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201001908</pub-id>.<pub-id pub-id-type="pmid">20886476</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Perruchas</surname><given-names>S.</given-names></name>; <name><surname>Le Goff</surname><given-names>X. F.</given-names></name>; <name><surname>Maron</surname><given-names>S.</given-names></name>; <name><surname>Maurin</surname><given-names>I.</given-names></name>; <name><surname>Guillen</surname><given-names>F.</given-names></name>; <name><surname>Garcia</surname><given-names>A.</given-names></name>; <name><surname>Gacoin</surname><given-names>T.</given-names></name>; <name><surname>Boilot</surname><given-names>J.-P.</given-names></name>
+<article-title>Mechanochromic and
+Thermochromic Luminescence of a Copper Iodide Cluster</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2010</year>, <volume>132</volume>, <fpage>10967</fpage>&#x02013;<lpage>10969</lpage>. <pub-id pub-id-type="doi">10.1021/ja103431d</pub-id>.<pub-id pub-id-type="pmid">20698644</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Tsukuda</surname><given-names>T.</given-names></name>; <name><surname>Kawase</surname><given-names>M.</given-names></name>; <name><surname>Dairiki</surname><given-names>A.</given-names></name>; <name><surname>Matsumoto</surname><given-names>K.</given-names></name>; <name><surname>Tsubomura</surname><given-names>T.</given-names></name>
+<article-title>Brilliant reversible luminescent
+mechanochromism of
+silver(I) complexes containing o-bis(diphenylphosphino)benzene and
+phosphinesulfide</article-title>. <source>Chem. Commun.</source>
+<year>2010</year>, <volume>46</volume>, <fpage>1905</fpage>&#x02013;<lpage>1907</lpage>. <pub-id pub-id-type="doi">10.1039/b921111j</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Tzeng</surname><given-names>B.-C.</given-names></name>; <name><surname>Chang</surname><given-names>T.-Y.</given-names></name>; <name><surname>Sheu</surname><given-names>H.-S.</given-names></name>
+<article-title>Reversible Phase Transformation and
+Luminescent Mechanochromism of ZnII-Based Coordination Frameworks
+Containing a Dipyridylamide Ligand</article-title>. <source>Chem.&#x02014;Eur.
+J.</source>
+<year>2010</year>, <volume>16</volume>, <fpage>9990</fpage>&#x02013;<lpage>9993</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201001346</pub-id>.<pub-id pub-id-type="pmid">20632420</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Ni</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Qiu</surname><given-names>N.</given-names></name>; <name><surname>Wu</surname><given-names>Y.-H.</given-names></name>; <name><surname>Zhang</surname><given-names>L.-Y.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>Z.-N.</given-names></name>
+<article-title>Mechanochromic
+Luminescence Switch
+of Platinum(II) Complexes with 5-Trimethylsilylethynyl-2,2&#x02032;-bipyridine</article-title>. <source>Inorg. Chem.</source>
+<year>2011</year>, <volume>50</volume>, <fpage>9090</fpage>&#x02013;<lpage>9096</lpage>. <pub-id pub-id-type="doi">10.1021/ic2012777</pub-id>.<pub-id pub-id-type="pmid">21812396</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Ni</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Wu</surname><given-names>Y.-H.</given-names></name>; <name><surname>Zhang</surname><given-names>L.-Y.</given-names></name>; <name><surname>Chen</surname><given-names>Z.-N.</given-names></name>
+<article-title>Vapor-
+and Mechanical-Grinding-Triggered Color and Luminescence Switches
+for Bis(&#x003c3;-fluorophenylacetylide) Platinum(II) Complexes</article-title>. <source>Chem.&#x02014;Eur. J.</source>
+<year>2011</year>, <volume>17</volume>, <fpage>1171</fpage>&#x02013;<lpage>1183</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201002752</pub-id>.<pub-id pub-id-type="pmid">21243683</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Choi</surname><given-names>S. J.</given-names></name>; <name><surname>Kuwabara</surname><given-names>J.</given-names></name>; <name><surname>Nishimura</surname><given-names>Y.</given-names></name>; <name><surname>Arai</surname><given-names>T.</given-names></name>; <name><surname>Kanbara</surname><given-names>T.</given-names></name>
+<article-title>Two-step changes
+in luminescence color of Pt(II) complex bearing an amide moiety by
+mechano- and vapochromism</article-title>. <source>Chem. Lett.</source>
+<year>2012</year>, <volume>41</volume>, <fpage>65</fpage>&#x02013;<lpage>67</lpage>. <pub-id pub-id-type="doi">10.1246/cl.2012.65</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Kumpfer</surname><given-names>J. R.</given-names></name>; <name><surname>Taylor</surname><given-names>S. D.</given-names></name>; <name><surname>Connick</surname><given-names>W. B.</given-names></name>; <name><surname>Rowan</surname><given-names>S. J.</given-names></name>
+<article-title>Vapochromic and
+mechanochromic films from square-planar platinum complexes in polymethacrylates</article-title>. <source>J. Mater. Chem.</source>
+<year>2012</year>, <volume>22</volume>, <fpage>14196</fpage>&#x02013;<lpage>14204</lpage>. <pub-id pub-id-type="doi">10.1039/c2jm32160b</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Tzeng</surname><given-names>B. C.</given-names></name>; <name><surname>Chang</surname><given-names>T. Y.</given-names></name>; <name><surname>Wei</surname><given-names>S. L.</given-names></name>; <name><surname>Sheu</surname><given-names>H. S.</given-names></name>
+<article-title>Reversible Phase
+Transformation and Mechanochromic Luminescence of ZnII-Dipyridylamide-Based
+Coordination Frameworks</article-title>. <source>Chem.&#x02014;Eur. J.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>5105</fpage>&#x02013;<lpage>5112</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201103405</pub-id>.<pub-id pub-id-type="pmid">22407863</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>J.-Y.</given-names></name>; <name><surname>Ni</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>L.-Y.</given-names></name>; <name><surname>Chen</surname><given-names>Z.-N.</given-names></name>
+<article-title>Vapochromic
+and Mechanochromic Phosphorescence Materials Based on a Platinum(II)
+Complex with 4-Trifluoromethylphenylacetylide</article-title>. <source>Inorg. Chem.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>5569</fpage>&#x02013;<lpage>5579</lpage>. <pub-id pub-id-type="doi">10.1021/ic202421d</pub-id>.<pub-id pub-id-type="pmid">22551081</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Kawaguchi</surname><given-names>K.</given-names></name>; <name><surname>Seki</surname><given-names>T.</given-names></name>; <name><surname>Karatsu</surname><given-names>T.</given-names></name>; <name><surname>Kitamura</surname><given-names>A.</given-names></name>; <name><surname>Ito</surname><given-names>H.</given-names></name>; <name><surname>Yagai</surname><given-names>S.</given-names></name>
+<article-title>Cholesterol-aided construction
+of distinct self-organized materials
+from a luminescent gold(I)-isocyanide complex exhibiting mechanochromic
+luminescence</article-title>. <source>Chem. Commun.</source>
+<year>2013</year>, <volume>49</volume>, <fpage>11391</fpage>&#x02013;<lpage>11393</lpage>. <pub-id pub-id-type="doi">10.1039/c3cc47162d</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Shan</surname><given-names>X.-C.</given-names></name>; <name><surname>Jiang</surname><given-names>F.-L.</given-names></name>; <name><surname>Zhang</surname><given-names>H.-b.</given-names></name>; <name><surname>Qian</surname><given-names>X.-Y.</given-names></name>; <name><surname>Chen</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>M.-Y.</given-names></name>; <name><surname>Al-Thabaiti</surname><given-names>S. A.</given-names></name>; <name><surname>Hong</surname><given-names>M.-C.</given-names></name>
+<article-title>A solid AND logic
+stimuli-responsive material with bright nondestructive performance
+designed by sensitive cuprophilicity</article-title>. <source>Chem.
+Commun.</source>
+<year>2013</year>, <volume>49</volume>, <fpage>10227</fpage>&#x02013;<lpage>10229</lpage>. <pub-id pub-id-type="doi">10.1039/c3cc43241f</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Shan</surname><given-names>X.-C.</given-names></name>; <name><surname>Zhang</surname><given-names>H.-B.</given-names></name>; <name><surname>Chen</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>M.-Y.</given-names></name>; <name><surname>Jiang</surname><given-names>F.-L.</given-names></name>; <name><surname>Hong</surname><given-names>M.-C.</given-names></name>
+<article-title>Multistimuli-Responsive
+Luminescent Material Reversible
+Switching Colors via Temperature and Mechanical Force</article-title>. <source>Cryst. Growth Des.</source>
+<year>2013</year>, <volume>13</volume>, <fpage>1377</fpage>&#x02013;<lpage>1381</lpage>. <pub-id pub-id-type="doi">10.1021/cg400027u</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Chi</surname><given-names>Z.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Liu</surname><given-names>S.</given-names></name>; <name><surname>Xu</surname><given-names>J.</given-names></name>
+<article-title>Recent advances in
+mechanochromic luminescent metal complexes</article-title>. <source>J. Mater. Chem. C</source>
+<year>2013</year>, <volume>1</volume>, <fpage>3376</fpage>&#x02013;<lpage>3390</lpage>. <pub-id pub-id-type="doi">10.1039/c3tc30316k</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Berenguer</surname><given-names>J. R.</given-names></name>; <name><surname>Fern&#x000e1;ndez</surname><given-names>J.</given-names></name>; <name><surname>Gil</surname><given-names>B.</given-names></name>; <name><surname>Lalinde</surname><given-names>E.</given-names></name>; <name><surname>S&#x000e1;nchez</surname><given-names>S.</given-names></name>
+<article-title>Reversible
+Binding of Solvent to Naked Pb(II) Centers in Unusual Homoleptic Alkynyl-Based
+Pt<sub>2</sub>Pb<sub>2</sub> Clusters</article-title>. <source>Chem.&#x02014;Eur.
+J.</source>
+<year>2014</year>, <volume>20</volume>, <fpage>2574</fpage>&#x02013;<lpage>2584</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201303665</pub-id>.<pub-id pub-id-type="pmid">24488600</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Han</surname><given-names>A.</given-names></name>; <name><surname>Du</surname><given-names>P.</given-names></name>; <name><surname>Sun</surname><given-names>Z.</given-names></name>; <name><surname>Wu</surname><given-names>H.</given-names></name>; <name><surname>Jia</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>R.</given-names></name>; <name><surname>Liang</surname><given-names>Z.</given-names></name>; <name><surname>Cao</surname><given-names>R.</given-names></name>; <name><surname>Eisenberg</surname><given-names>R.</given-names></name>
+<article-title>Reversible
+Mechanochromic Luminescence at Room Temperature in Cationic Platinum(II)
+Terpyridyl Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2014</year>, <volume>53</volume>, <fpage>3338</fpage>&#x02013;<lpage>3344</lpage>. <pub-id pub-id-type="doi">10.1021/ic402624u</pub-id>.<pub-id pub-id-type="pmid">24617867</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Jobb&#x000e1;gy</surname><given-names>C.</given-names></name>; <name><surname>Moln&#x000e1;r</surname><given-names>M.</given-names></name>; <name><surname>Baranyai</surname><given-names>P.</given-names></name>; <name><surname>De&#x000e1;k</surname><given-names>A.</given-names></name>
+<article-title>Mechanochemical
+synthesis of crystalline and amorphous digold(I) helicates exhibiting
+anion- and phase-switchable luminescence properties</article-title>. <source>Dalton Trans.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>11807</fpage>&#x02013;<lpage>11810</lpage>. <pub-id pub-id-type="doi">10.1039/c4dt01214c</pub-id>.<pub-id pub-id-type="pmid">24962131</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Krikorian</surname><given-names>M.</given-names></name>; <name><surname>Liu</surname><given-names>S.</given-names></name>; <name><surname>Swager</surname><given-names>T. M.</given-names></name>
+<article-title>Columnar Liquid Crystallinity and Mechanochromism in
+Cationic Platinum(II) Complexes</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<year>2014</year>, <volume>136</volume>, <fpage>2952</fpage>&#x02013;<lpage>2955</lpage>. <pub-id pub-id-type="doi">10.1021/ja4114352</pub-id>.<pub-id pub-id-type="pmid">24533433</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Ni</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>Y.-G.</given-names></name>; <name><surname>Wang</surname><given-names>H.-H.</given-names></name>; <name><surname>Pan</surname><given-names>Y.-Z.</given-names></name>; <name><surname>Xu</surname><given-names>L.</given-names></name>; <name><surname>Zhao</surname><given-names>Y.-Q.</given-names></name>; <name><surname>Liu</surname><given-names>X.-Y.</given-names></name>; <name><surname>Zhang</surname><given-names>J.-J.</given-names></name>
+<article-title>Reversible Dual-Stimulus-Responsive
+Luminescence and Color Switch of a Platinum Complex with 4-[(2-Trimethylsilyl)ethynyl]-2,2&#x02032;-bipyridine</article-title>. <source>Eur. J. Inorg. Chem.</source>
+<year>2014</year>, <volume>2014</volume>, <fpage>986</fpage>&#x02013;<lpage>993</lpage>. <pub-id pub-id-type="doi">10.1002/ejic.201301329</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Ni</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>Y.-G.</given-names></name>; <name><surname>Wang</surname><given-names>H.-H.</given-names></name>; <name><surname>Xu</surname><given-names>L.</given-names></name>; <name><surname>Zhao</surname><given-names>Y.-Q.</given-names></name>; <name><surname>Pan</surname><given-names>Y.-Z.</given-names></name>; <name><surname>Zhang</surname><given-names>J.-J.</given-names></name>
+<article-title>Thermo- and mechanical-grinding-triggered
+color and luminescence switches of the diimine-platinum(II) complex
+with 4-bromo-2,2&#x02032;-bipyridine</article-title>. <source>Dalton
+Trans.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>352</fpage>&#x02013;<lpage>360</lpage>. <pub-id pub-id-type="doi">10.1039/c3dt51936h</pub-id>.<pub-id pub-id-type="pmid">24108349</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Ni</surname><given-names>W.-X.</given-names></name>; <name><surname>Qiu</surname><given-names>Y.-M.</given-names></name>; <name><surname>Li</surname><given-names>M.</given-names></name>; <name><surname>Zheng</surname><given-names>J.</given-names></name>; <name><surname>Sun</surname><given-names>R. W.-Y.</given-names></name>; <name><surname>Zhan</surname><given-names>S.-Z.</given-names></name>; <name><surname>Ng</surname><given-names>S. W.</given-names></name>; <name><surname>Li</surname><given-names>D.</given-names></name>
+<article-title>Metallophilicity-Driven
+Dynamic Aggregation of a Phosphorescent Gold(I)-Silver(I) Cluster
+Prepared by Solution-Based and Mechanochemical Approaches</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2014</year>, <volume>136</volume>, <fpage>9532</fpage>&#x02013;<lpage>9535</lpage>. <pub-id pub-id-type="doi">10.1021/ja5025113</pub-id>.<pub-id pub-id-type="pmid">24941436</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Wen</surname><given-names>T.</given-names></name>; <name><surname>Zhou</surname><given-names>X.-P.</given-names></name>; <name><surname>Zhang</surname><given-names>D.-X.</given-names></name>; <name><surname>Li</surname><given-names>D.</given-names></name>
+<article-title>Luminescent Mechanochromic
+Porous Coordination Polymers</article-title>. <source>Chem.&#x02014;Eur.
+J.</source>
+<year>2014</year>, <volume>20</volume>, <fpage>644</fpage>&#x02013;<lpage>648</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201303991</pub-id>.<pub-id pub-id-type="pmid">24415360</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Zhang</surname><given-names>S.-T.</given-names></name>; <name><surname>Li</surname><given-names>T.-R.</given-names></name>; <name><surname>Wang</surname><given-names>B.-D.</given-names></name>; <name><surname>Yang</surname><given-names>Z.-Y.</given-names></name>; <name><surname>Liu</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>Z.-Y.</given-names></name>; <name><surname>Dong</surname><given-names>W.-K.</given-names></name>
+<article-title>A new cyclic
+supramolecular Zn(II)
+complex derived from a N<sub>2</sub>O<sub>2</sub> oxime chelate ligand
+with luminescence mechanochromism</article-title>. <source>Dalton Trans.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>2713</fpage>&#x02013;<lpage>2717</lpage>. <pub-id pub-id-type="doi">10.1039/c3dt52340c</pub-id>.<pub-id pub-id-type="pmid">24352216</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Aliprandi</surname><given-names>A.</given-names></name>; <name><surname>Genovese</surname><given-names>D.</given-names></name>; <name><surname>Mauro</surname><given-names>M.</given-names></name>; <name><surname>De Cola</surname><given-names>L.</given-names></name>
+<article-title>Recent Advances in
+Phosphorescent Pt(II) Complexes Featuring Metallophilic Interactions:
+Properties and Applications</article-title>. <source>Chem. Lett.</source>
+<year>2015</year>, <volume>44</volume>, <fpage>1152</fpage>&#x02013;<lpage>1169</lpage>. <pub-id pub-id-type="doi">10.1246/cl.150592</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Baranyai</surname><given-names>P.</given-names></name>; <name><surname>Marsi</surname><given-names>G.</given-names></name>; <name><surname>Jobb&#x000e1;gy</surname><given-names>C.</given-names></name>; <name><surname>Domj&#x000e1;n</surname><given-names>A.</given-names></name>; <name><surname>Ol&#x000e1;h</surname><given-names>L.</given-names></name>; <name><surname>De&#x000e1;k</surname><given-names>A.</given-names></name>
+<article-title>Mechano-induced reversible colour
+and luminescence switching of a gold(I)-diphosphine complex</article-title>. <source>Dalton Trans.</source>
+<year>2015</year>, <volume>44</volume>, <fpage>13455</fpage>&#x02013;<lpage>13459</lpage>. <pub-id pub-id-type="doi">10.1039/c5dt01795e</pub-id>.<pub-id pub-id-type="pmid">26151371</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Chen</surname><given-names>K.</given-names></name>; <name><surname>Nenzel</surname><given-names>M. M.</given-names></name>; <name><surname>Brown</surname><given-names>T. M.</given-names></name>; <name><surname>Catalano</surname><given-names>V. J.</given-names></name>
+<article-title>Luminescent Mechanochromism
+in a Gold(I)-Copper(I) N-Heterocyclic Carbene Complex</article-title>. <source>Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>6900</fpage>&#x02013;<lpage>6909</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.5b00821</pub-id>.<pub-id pub-id-type="pmid">26155017</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>De&#x000e1;k</surname><given-names>A.</given-names></name>; <name><surname>Jobb&#x000e1;gy</surname><given-names>C.</given-names></name>; <name><surname>Marsi</surname><given-names>G.</given-names></name>; <name><surname>Moln&#x000e1;r</surname><given-names>M.</given-names></name>; <name><surname>Szak&#x000e1;cs</surname><given-names>Z.</given-names></name>; <name><surname>Baranyai</surname><given-names>P.</given-names></name>
+<article-title>Anion-, Solvent-, Temperature-, and
+Mechano-Responsive Photoluminescence in Gold(I) Diphosphine-Based
+Dimers</article-title>. <source>Chem.&#x02014;Eur. J.</source>
+<year>2015</year>, <volume>21</volume>, <fpage>11495</fpage>&#x02013;<lpage>11508</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201501066</pub-id>.<pub-id pub-id-type="pmid">26119910</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Deshmukh</surname><given-names>M. S.</given-names></name>; <name><surname>Yadav</surname><given-names>A.</given-names></name>; <name><surname>Pant</surname><given-names>R.</given-names></name>; <name><surname>Boomishankar</surname><given-names>R.</given-names></name>
+<article-title>Thermochromic
+and Mechanochromic Luminescence Umpolung in Isostructural Metal-Organic
+Frameworks Based on Cu<sub>6</sub>I<sub>6</sub> Clusters</article-title>. <source>Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>1337</fpage>&#x02013;<lpage>1345</lpage>. <pub-id pub-id-type="doi">10.1021/ic502207f</pub-id>.<pub-id pub-id-type="pmid">25602737</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Ma</surname><given-names>Z.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Teng</surname><given-names>M.</given-names></name>; <name><surname>Xu</surname><given-names>Z.</given-names></name>; <name><surname>Jia</surname><given-names>X.</given-names></name>
+<article-title>Mechanically
+Induced Multicolor Change of Luminescent Materials</article-title>. <source>ChemPhysChem</source>
+<year>2015</year>, <volume>16</volume>, <fpage>1811</fpage>&#x02013;<lpage>1828</lpage>. <pub-id pub-id-type="doi">10.1002/cphc.201500181</pub-id>.<pub-id pub-id-type="pmid">25965783</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Seki</surname><given-names>T.</given-names></name>; <name><surname>Ozaki</surname><given-names>T.</given-names></name>; <name><surname>Okura</surname><given-names>T.</given-names></name>; <name><surname>Asakura</surname><given-names>K.</given-names></name>; <name><surname>Sakon</surname><given-names>A.</given-names></name>; <name><surname>Uekusa</surname><given-names>H.</given-names></name>; <name><surname>Ito</surname><given-names>H.</given-names></name>
+<article-title>Interconvertible
+multiple photoluminescence
+color of a gold(I) isocyanide complex in the solid state: solvent-induced
+blue-shifted and mechano-responsive red-shifted photoluminescence</article-title>. <source>Chem. Sci.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>2187</fpage>&#x02013;<lpage>2195</lpage>. <pub-id pub-id-type="doi">10.1039/c4sc03960b</pub-id>.<pub-id pub-id-type="pmid">29163877</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Zhang</surname><given-names>X.-P.</given-names></name>; <name><surname>Mei</surname><given-names>J.-F.</given-names></name>; <name><surname>Lai</surname><given-names>J.-C.</given-names></name>; <name><surname>Li</surname><given-names>C.-H.</given-names></name>; <name><surname>You</surname><given-names>X.-Z.</given-names></name>
+<article-title>Mechano-induced
+luminescent and chiroptical switching in chiral cyclometalated platinum(II)
+complexes</article-title>. <source>J. Mater. Chem. C</source>
+<year>2015</year>, <volume>3</volume>, <fpage>2350</fpage>&#x02013;<lpage>2357</lpage>. <pub-id pub-id-type="doi">10.1039/c4tc02800g</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Jobb&#x000e1;gy</surname><given-names>C.</given-names></name>; <name><surname>Baranyai</surname><given-names>P.</given-names></name>; <name><surname>Marsi</surname><given-names>G.</given-names></name>; <name><surname>R&#x000e1;cz</surname><given-names>B.</given-names></name>; <name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Naumov</surname><given-names>P.</given-names></name>; <name><surname>De&#x000e1;k</surname><given-names>A.</given-names></name>
+<article-title>Novel gold(I) diphosphine-based dimers
+with aurophilicity triggered multistimuli light-emitting properties</article-title>. <source>J. Mater. Chem. C</source>
+<year>2016</year>, <volume>4</volume>, <fpage>10253</fpage>&#x02013;<lpage>10264</lpage>. <pub-id pub-id-type="doi">10.1039/c6tc01427e</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Kobayashi</surname><given-names>A.</given-names></name>; <name><surname>Hasegawa</surname><given-names>T.</given-names></name>; <name><surname>Yoshida</surname><given-names>M.</given-names></name>; <name><surname>Kato</surname><given-names>M.</given-names></name>
+<article-title>Environmentally Friendly
+Mechanochemical Syntheses and Conversions of Highly Luminescent Cu(I)
+Dinuclear Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>1978</fpage>&#x02013;<lpage>1985</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.5b02160</pub-id>.<pub-id pub-id-type="pmid">26866384</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Penney</surname><given-names>A. A.</given-names></name>; <name><surname>Sizov</surname><given-names>V. V.</given-names></name>; <name><surname>Grachova</surname><given-names>E. V.</given-names></name>; <name><surname>Krupenya</surname><given-names>D. V.</given-names></name>; <name><surname>Gurzhiy</surname><given-names>V. V.</given-names></name>; <name><surname>Starova</surname><given-names>G. L.</given-names></name>; <name><surname>Tunik</surname><given-names>S. P.</given-names></name>
+<article-title>Aurophilicity
+in Action: Fine-Tuning
+the Gold(I)-Gold(I) Distance in the Excited State To Modulate the
+Emission in a Series of Dinuclear Homoleptic Gold(I)-NHC Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>4720</fpage>&#x02013;<lpage>4732</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.5b02722</pub-id>.<pub-id pub-id-type="pmid">26882198</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Seki</surname><given-names>T.</given-names></name>; <name><surname>Jin</surname><given-names>M.</given-names></name>; <name><surname>Ito</surname><given-names>H.</given-names></name>
+<article-title>Introduction
+of a Biphenyl Moiety for a Solvent-Responsive
+Aryl Gold(I) Isocyanide Complex with Mechanical Reactivation</article-title>. <source>Inorg. Chem.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>12309</fpage>&#x02013;<lpage>12320</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.6b02107</pub-id>.<pub-id pub-id-type="pmid">27934440</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Seki</surname><given-names>T.</given-names></name>; <name><surname>Takamatsu</surname><given-names>Y.</given-names></name>; <name><surname>Ito</surname><given-names>H.</given-names></name>
+<article-title>A Screening Approach for the Discovery
+of Mechanochromic Gold(I) Isocyanide Complexes with Crystal-to-Crystal
+Phase Transitions</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>6252</fpage>&#x02013;<lpage>6260</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b02409</pub-id>.<pub-id pub-id-type="pmid">27070308</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Zhu</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Shi</surname><given-names>Z.</given-names></name>; <name><surname>Lin</surname><given-names>Q.</given-names></name>
+<article-title>Mechano-induced multi-functional
+optical switches based on chiral cyclometalated platinum(II) complexes</article-title>. <source>Inorg. Chim. Acta</source>
+<year>2016</year>, <volume>442</volume>, <fpage>56</fpage>&#x02013;<lpage>63</lpage>. <pub-id pub-id-type="doi">10.1016/j.ica.2015.11.028</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Kobayashi</surname><given-names>A.</given-names></name>; <name><surname>Kato</surname><given-names>M.</given-names></name>
+<article-title>Stimuli-responsive
+Luminescent Copper(I) Complexes for Intelligent
+Emissive Devices</article-title>. <source>Chem. Lett.</source>
+<year>2017</year>, <volume>46</volume>, <fpage>154</fpage>&#x02013;<lpage>162</lpage>. <pub-id pub-id-type="doi">10.1246/cl.160794</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Kwon</surname><given-names>E.</given-names></name>; <name><surname>Kim</surname><given-names>J.</given-names></name>; <name><surname>Lee</surname><given-names>K. Y.</given-names></name>; <name><surname>Kim</surname><given-names>T. H.</given-names></name>
+<article-title>Non-Phase-Transition Luminescence
+Mechanochromism of a Copper(I) Coordination Polymer</article-title>. <source>Inorg. Chem.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>943</fpage>&#x02013;<lpage>949</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.6b02571</pub-id>.<pub-id pub-id-type="pmid">28033009</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Liang</surname><given-names>P.</given-names></name>; <name><surname>Kobayashi</surname><given-names>A.</given-names></name>; <name><surname>Hasegawa</surname><given-names>T.</given-names></name>; <name><surname>Yoshida</surname><given-names>M.</given-names></name>; <name><surname>Kato</surname><given-names>M.</given-names></name>
+<article-title>Thermal and
+Mechanochemical Syntheses of Luminescent Mononuclear Copper(I) Complexes</article-title>. <source>Eur. J. Inorg. Chem.</source>
+<year>2017</year>, <volume>2017</volume>, <fpage>5134</fpage>&#x02013;<lpage>5142</lpage>. <pub-id pub-id-type="doi">10.1002/ejic.201700734</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Lin</surname><given-names>C.-J.</given-names></name>; <name><surname>Liu</surname><given-names>Y.-H.</given-names></name>; <name><surname>Peng</surname><given-names>S.-M.</given-names></name>; <name><surname>Shinmyozu</surname><given-names>T.</given-names></name>; <name><surname>Yang</surname><given-names>J.-S.</given-names></name>
+<article-title>Excimer-Monomer
+Photoluminescence Mechanochromism and
+Vapochromism of Pentiptycene-Containing Cyclometalated Platinum(II)
+Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>4978</fpage>&#x02013;<lpage>4989</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.7b00009</pub-id>.<pub-id pub-id-type="pmid">28406626</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Damoense</surname><given-names>L. J.</given-names></name>; <name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Leipoldt</surname><given-names>J. G.</given-names></name>
+<article-title>Kinetic study of
+the reaction between
+trans-aquanitridotetracyanorhenate(V) and different cyanide species</article-title>. <source>Transition Met. Chem.</source>
+<year>1994</year>, <volume>19</volume>, <fpage>619</fpage>&#x02013;<lpage>622</lpage>. <pub-id pub-id-type="doi">10.1007/bf00980416</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Mtshali</surname><given-names>T. N.</given-names></name>; <name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Visser</surname><given-names>H. G.</given-names></name>; <name><surname>Basson</surname><given-names>S. S.</given-names></name>
+<article-title>A crystallographic
+and kinetic study of the formation of the tricyanonitrido(pyridine-2-carboxylato-&#x003ba;N,&#x003ba;O)rhenate(V)
+ion, [ReN(&#x003b7;<sup>2</sup>-pic)(CN)<sub>3</sub>]<sub>2</sub></article-title>. <source>Polyhedron</source>
+<year>2006</year>, <volume>25</volume>, <fpage>2415</fpage>&#x02013;<lpage>2425</lpage>. <pub-id pub-id-type="doi">10.1016/j.poly.2006.02.004</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Mtshali</surname><given-names>T. N.</given-names></name>; <name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Visser</surname><given-names>H. G.</given-names></name>; <name><surname>Basson</surname><given-names>S. S.</given-names></name>
+<article-title>Kinetic study of
+reaction of [ReN(H<sub>2</sub>O)(CN)<sub>4</sub>]<sup>2-</sup> with quinoline-2-carboxylate and pyridine-2,3-dicarboxylate anions</article-title>. <source>Transition Met. Chem.</source>
+<year>2008</year>, <volume>33</volume>, <fpage>481</fpage>&#x02013;<lpage>491</lpage>. <pub-id pub-id-type="doi">10.1007/s11243-008-9068-9</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Mtshali</surname><given-names>T. N.</given-names></name>; <name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Visser</surname><given-names>H. G.</given-names></name>; <name><surname>Basson</surname><given-names>S. S.</given-names></name>
+<article-title>A novel rhenium-aqua
+structure: the synthesis and structural characterization of (PPh<sub>4</sub>)<sub>4</sub>[ReN(H<sub>2</sub>O)(CN)<sub>3</sub>-&#x003bc;-CN-ReN(CN)<sub>4</sub>]&#x000b7;5H<sub>2</sub>O</article-title>. <source>Transition Met.
+Chem.</source>
+<year>2008</year>, <volume>33</volume>, <fpage>711</fpage>&#x02013;<lpage>716</lpage>. <pub-id pub-id-type="doi">10.1007/s11243-008-9100-0</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Ikeda</surname><given-names>H.</given-names></name>; <name><surname>Yoshimura</surname><given-names>T.</given-names></name>; <name><surname>Ito</surname><given-names>A.</given-names></name>; <name><surname>Sakuda</surname><given-names>E.</given-names></name>; <name><surname>Kitamura</surname><given-names>N.</given-names></name>; <name><surname>Takayama</surname><given-names>T.</given-names></name>; <name><surname>Sekine</surname><given-names>T.</given-names></name>; <name><surname>Shinohara</surname><given-names>A.</given-names></name>
+<article-title>Photoluminescence
+Switching with Changes in the Coordination Number and Coordinating
+Volatile Organic Compounds in Tetracyanidonitridorhenium(V) and -technetium(V)
+Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>12065</fpage>&#x02013;<lpage>12074</lpage>. <pub-id pub-id-type="doi">10.1021/ic202243d</pub-id>.<pub-id pub-id-type="pmid">23121620</pub-id></mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Neyhart</surname><given-names>G. A.</given-names></name>; <name><surname>Bakir</surname><given-names>M.</given-names></name>; <name><surname>Boaz</surname><given-names>J.</given-names></name>; <name><surname>Vining</surname><given-names>W. J.</given-names></name>; <name><surname>Patrick
+Sullivan</surname><given-names>B.</given-names></name>
+<article-title>Photophysics and photochemistry of rhenium(V)-nitrogen
+triple bonds</article-title>. <source>Coord. Chem. Rev.</source>
+<year>1991</year>, <volume>111</volume>, <fpage>27</fpage>&#x02013;<lpage>32</lpage>. <pub-id pub-id-type="doi">10.1016/0010-8545(91)84007-r</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Neyhart</surname><given-names>G. A.</given-names></name>; <name><surname>Seward</surname><given-names>K. J.</given-names></name>; <name><surname>Boaz</surname><given-names>J.</given-names></name>; <name><surname>Sullivan</surname><given-names>B. P.</given-names></name>
+<article-title>Luminescent
+nitridorhenium(V)
+complexes</article-title>. <source>Inorg. Chem.</source>
+<year>1991</year>, <volume>30</volume>, <fpage>4486</fpage>&#x02013;<lpage>4488</lpage>. <pub-id pub-id-type="doi">10.1021/ic00024a004</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Yam</surname><given-names>V. W.-W.</given-names></name>; <name><surname>Tam</surname><given-names>K.-K.</given-names></name>; <name><surname>Lai</surname><given-names>T.-F.</given-names></name>
+<article-title>Syntheses, spectroscopy and electrochemistry
+of nitridorhenium(V) organometallics. X-ray crystal structure of [Re<sup>V</sup>(N)Me<sub>2</sub>(PPh<sub>3</sub>)<sub>2</sub>]</article-title>. <source>J. Chem. Soc., Dalton Trans.</source>
+<year>1993</year>, <fpage>651</fpage>&#x02013;<lpage>652</lpage>. <pub-id pub-id-type="doi">10.1039/dt9930000651</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Yam</surname><given-names>V. W.-W.</given-names></name>; <name><surname>Tam</surname><given-names>K.-K.</given-names></name>
+<article-title>Synthesis, spectroscopy
+and electrochemistry of luminescent
+[Re<sup>V</sup>N{Ph<sub>2</sub>P(CH<sub>2</sub>)<sub>2</sub>PPh<sub>2</sub>}<sub>2</sub>(MeCN)]<sup>2+</sup></article-title>. <source>J.
+Chem. Soc., Dalton Trans.</source>
+<year>1994</year>, <fpage>391</fpage>&#x02013;<lpage>392</lpage>. <pub-id pub-id-type="doi">10.1039/dt9940000391</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Yam</surname><given-names>V. W.-W.</given-names></name>; <name><surname>Tam</surname><given-names>K.-K.</given-names></name>; <name><surname>Cheung</surname><given-names>K.-K.</given-names></name>
+<article-title>Syntheses,
+electrochemistry, photophysics
+and photochemistry of nitridorhenium(V) diphosphine complexes and
+related nitridorhenium(V) organometallics; crystal structure of [Re<sup>V</sup>N(C&#x02261;CBut)<sub>2</sub>(PPh<sub>3</sub>)<sub>2</sub>]</article-title>. <source>J. Chem. Soc., Dalton Trans.</source>
+<year>1996</year>, <fpage>1125</fpage>&#x02013;<lpage>1132</lpage>. <pub-id pub-id-type="doi">10.1039/dt9960001125</pub-id>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Oetliker</surname><given-names>U.</given-names></name>; <name><surname>Savoie</surname><given-names>C.</given-names></name>; <name><surname>Stanislas</surname><given-names>S.</given-names></name>; <name><surname>Reber</surname><given-names>C.</given-names></name>; <name><surname>Connac</surname><given-names>F.</given-names></name>; <name><surname>Beauchamp</surname><given-names>A. L.</given-names></name>; <name><surname>Stanislas</surname><given-names>S.</given-names></name>; <name><surname>Connac</surname><given-names>F.</given-names></name>
+<article-title>variation of the luminescence
+energy from rhenium(V) complexes with oxo and nitrido ligands</article-title>. <source>Chem. Commun.</source>
+<year>1998</year>, <fpage>657</fpage>&#x02013;<lpage>658</lpage>. <pub-id pub-id-type="doi">10.1039/a708517f</pub-id>.</mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Yam</surname><given-names>V. W.-W.</given-names></name>; <name><surname>Pui</surname><given-names>Y. L.</given-names></name>; <name><surname>Man-Chung
+Wong</surname><given-names>K.</given-names></name>; <name><surname>Cheung</surname><given-names>K.-K.</given-names></name>
+<article-title>Synthesis, structural
+characterization, photophysics, photochemistry and electrochemistry
+of nitrido- and trans-dioxo-rhenium(V) complexes with substituted
+dppe ligands (dppe = bis(diphenylphosphino)ethane)</article-title>. <source>Inorg. Chim. Acta</source>
+<year>2000</year>, <volume>300&#x02013;302</volume>, <fpage>721</fpage>&#x02013;<lpage>732</lpage>. <pub-id pub-id-type="doi">10.1016/s0020-1693(00)00018-9</pub-id>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Bailey</surname><given-names>S. E.</given-names></name>; <name><surname>Eikey</surname><given-names>R. A.</given-names></name>; <name><surname>Abu-Omar</surname><given-names>M. M.</given-names></name>; <name><surname>Zink</surname><given-names>J. I.</given-names></name>
+<article-title>Excited-State Distortions
+Determined from Structured Luminescence of Nitridorhenium(V) Complexes</article-title>. <source>Inorg. Chem.</source>
+<year>2002</year>, <volume>41</volume>, <fpage>1755</fpage>&#x02013;<lpage>1760</lpage>. <pub-id pub-id-type="doi">10.1021/ic010680m</pub-id>.<pub-id pub-id-type="pmid">11925166</pub-id></mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Ikeda</surname><given-names>H.</given-names></name>; <name><surname>Ito</surname><given-names>A.</given-names></name>; <name><surname>Sakuda</surname><given-names>E.</given-names></name>; <name><surname>Kitamura</surname><given-names>N.</given-names></name>; <name><surname>Takayama</surname><given-names>T.</given-names></name>; <name><surname>Sekine</surname><given-names>T.</given-names></name>; <name><surname>Shinohara</surname><given-names>A.</given-names></name>; <name><surname>Yoshimura</surname><given-names>T.</given-names></name>
+<article-title>Excited-State Characteristics of
+Tetracyanidonitridorhenium(V) and -technetium(V) Complexes with N-Heteroaromatic
+Ligands</article-title>. <source>Inorg. Chem.</source>
+<year>2013</year>, <volume>52</volume>, <fpage>6319</fpage>&#x02013;<lpage>6327</lpage>. <pub-id pub-id-type="doi">10.1021/ic302463v</pub-id>.<pub-id pub-id-type="pmid">23679193</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Potgieter</surname><given-names>I. Z.</given-names></name>; <name><surname>Damoense</surname><given-names>L. J.</given-names></name>; <name><surname>Leipolldt</surname><given-names>J. S.</given-names></name>
+<article-title>The crystal
+structure of tetraphenylphosphonium pentacyanonitridorhenate(V), (PPh<sub>4</sub>)<sub>3</sub>[ReN(CN)<sub>5</sub>].7H<sub>2</sub>O.</article-title>. <source>Transition Met. Chem.</source>
+<year>1991</year>, <volume>16</volume>, <fpage>473</fpage>&#x02013;<lpage>475</lpage>. <pub-id pub-id-type="doi">10.1007/bf01024308</pub-id>.</mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Damoense</surname><given-names>L. J.</given-names></name>; <name><surname>Leipoldt</surname><given-names>J. G.</given-names></name>
+<article-title>Chemical
+structure of the azidonitridotetracyanorhenate(V)
+ion</article-title>. <source>Inorg. Chim. Acta</source>
+<year>1992</year>, <volume>195</volume>, <fpage>217</fpage>&#x02013;<lpage>220</lpage>. <pub-id pub-id-type="doi">10.1016/s0020-1693(00)85315-3</pub-id>.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Mtshali</surname><given-names>T. N.</given-names></name>; <name><surname>Purcell</surname><given-names>W.</given-names></name>; <name><surname>Visser</surname><given-names>H. G.</given-names></name>
+<article-title>Tetraphenylphosphonium
+aquatetracyanonitridorhenate(V)
+pentahydrate</article-title>. <source>Acta Crystallogr., Sect. E: Struct.
+Rep. Online</source>
+<year>2007</year>, <volume>63</volume>, <fpage>m1037</fpage>&#x02013;<lpage>m1038</lpage>. <pub-id pub-id-type="doi">10.1107/s1600536807011026</pub-id>.</mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Basson</surname><given-names>A.</given-names></name>; <name><surname>Balzani</surname><given-names>V.</given-names></name>; <name><surname>Barigelletti</surname><given-names>F.</given-names></name>; <name><surname>Campagna</surname><given-names>S.</given-names></name>; <name><surname>Belser</surname><given-names>P.</given-names></name>; <name><surname>von Zelewsky</surname><given-names>A.</given-names></name>
+<article-title>Ru(II) polypyridine
+complexes: photophysics, photochemistry,
+eletrochemistry, and chemiluminescence</article-title>. <source>Coord.
+Chem. Rev.</source>
+<year>1988</year>, <volume>84</volume>, <fpage>85</fpage>&#x02013;<lpage>277</lpage>. <pub-id pub-id-type="doi">10.1016/0010-8545(88)80032-8</pub-id>.</mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Sheldrick</surname><given-names>G. M.</given-names></name>
+<article-title>SHELXT
+- Integrated space-group and crystal-structure determination</article-title>. <source>Acta Crystallogr., Sect. A: Found. Adv.</source>
+<year>2015</year>, <volume>71</volume>, <fpage>3</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1107/s2053273314026370</pub-id>.<pub-id pub-id-type="pmid">25537383</pub-id></mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Sheldrick</surname><given-names>G. M.</given-names></name>
+<article-title>Crystal
+structure refinement with SHELXL</article-title>. <source>Acta Crystallogr.,
+Sect. C: Struct. Chem.</source>
+<year>2015</year>, <volume>71</volume>, <fpage>3</fpage>&#x02013;<lpage>8</lpage>. <pub-id pub-id-type="doi">10.1107/s2053229614024218</pub-id>.<pub-id pub-id-type="pmid">25567568</pub-id></mixed-citation></ref></ref-list></back></article>

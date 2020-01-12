@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0500">The quantity
+ <disp-formula id="fd107">
+  <label>(107)</label>
+  <math id="M373" altimg="si289.svg" alttext="Equation 107.">
+   <mrow>
+    <mi>A</mi>
+    <mi>v</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mn>...</mn>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mn>...</mn>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>P</mi>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mo>;</mo>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <msub>
+      <mrow>
+       <mi>P</mi>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mo>;</mo>
+       <msubsup>
+        <mi>ω</mi>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+        <mo>′</mo>
+       </msubsup>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mi>Δ</mi>
+     <mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>12</mn>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <munder>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </munder>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+          <mo linebreak="badbreak">−</mo>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>in 
+ <xref rid="fd105" ref-type="disp-formula">Eq. (105)</xref> will be hereinafter referred to as 
+ <inline-formula>
+  <math id="M374" altimg="si290.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+      <mo>,</mo>
+      <msup>
+       <mi>l</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msubsup>
+       <mi>ω</mi>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. This function describes the electron-phonon dynamics for the individual levels 
+ <inline-formula>
+  <math id="M375" altimg="si211.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M376" altimg="si291.svg">
+   <mrow>
+    <msubsup>
+     <mi>ω</mi>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mo>′</mo>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula> and the phonon modes 
+ <inline-formula>
+  <math id="M377" altimg="si185.svg">
+   <mrow>
+    <mi>l</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M378" altimg="si292.svg">
+   <mrow>
+    <msup>
+     <mi>l</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, which is due to the virtual electron-phonon coupling. Note that the quantity
+ <disp-formula id="fd108">
+  <label>(108)</label>
+  <math id="M379" altimg="si293.svg" alttext="Equation 108.">
+   <mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msup>
+       <mi>l</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mi>R</mi>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msubsup>
+        <mi>ω</mi>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+        <mo>′</mo>
+       </msubsup>
+       <mo>;</mo>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>12</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="goodbreak">≡</mo>
+    <mi>ϕ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msubsup>
+       <mi>ω</mi>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>(see also the result for the function 
+ <inline-formula>
+  <math id="M380" altimg="si294.svg">
+   <mrow>
+    <mi>ϕ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msubsup>
+       <mi>ω</mi>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd120" ref-type="disp-formula">Eq. (120)</xref> below) describes the electron-phonon dynamics for the individual levels 
+ <inline-formula>
+  <math id="M381" altimg="si211.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M382" altimg="si291.svg">
+   <mrow>
+    <msubsup>
+     <mi>ω</mi>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mo>′</mo>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula>, which is caused by the virtual electron-phonon coupling, taking into account all the phonon modes.
+</p>

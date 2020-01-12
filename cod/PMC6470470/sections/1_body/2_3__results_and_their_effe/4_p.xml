@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Once again, it depends on the velocity in ratio to the critical velocity 
+ <inline-formula>
+  <math id="mm148">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi mathvariant="normal">c</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>ϑ</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Note that, since 
+ <inline-formula>
+  <math id="mm149">
+   <mrow>
+    <mrow>
+     <mo>(</mo>
+     <mi>n</mi>
+     <mi>n</mi>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is a 
+ <inline-formula>
+  <math id="mm150">
+   <mrow>
+    <mrow>
+     <mn>3</mn>
+     <mo>×</mo>
+     <mn>3</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> matrix, one always has three solutions for 
+ <inline-formula>
+  <math id="mm151">
+   <mrow>
+    <mrow>
+     <mo movablelimits="true" form="prefix">det</mo>
+     <mo>(</mo>
+     <mi>n</mi>
+     <mi>n</mi>
+     <mo>)</mo>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and each can be represented as 
+ <inline-formula>
+  <math id="mm152">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi mathvariant="normal">c</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>ϕ</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The branch with the smallest value for 
+ <inline-formula>
+  <math id="mm153">
+   <mrow>
+    <msub>
+     <mi>v</mi>
+     <mi mathvariant="normal">c</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> will lead to a divergence in 
+ <inline-formula>
+  <math id="mm154">
+   <mrow>
+    <msup>
+     <mrow>
+      <mo>(</mo>
+      <mi>n</mi>
+      <mi>n</mi>
+      <mo>)</mo>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> first. However, that solution need not always lead to a divergent drag coefficient since kinematics restrict the range of polar angle 
+ <inline-formula>
+  <math id="mm155">
+   <mrow>
+    <mi>ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula>. This happens for example for pure screw dislocations in fcc metals where 
+ <italic>B</italic> diverges at a larger critical velocity 
+ <inline-formula>
+  <math id="mm156">
+   <mrow>
+    <msub>
+     <mi>v</mi>
+     <mi mathvariant="normal">c</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> than the dislocation field itself.
+</p>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Temperature-dependent lattice parameters of a, b and c for orthorhombic Ti
+ <sub>3</sub>Sn obtained from XRD profiles were shown in 
+ <xref ref-type="fig" rid="materials-12-02484-f007">Figure 7</xref>. It could be seen that parameter a reduced during cooling, parameter c remains almost constant, and parameter b increased during cooling. The d-spacing of (hkl) plane in orthorhombic phase is calculated according to Equation (2):
+ <disp-formula id="FD1-materials-12-02484">
+  <label>(2)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="normal">d</mi>
+      <mrow>
+       <mi>hkl</mi>
+      </mrow>
+     </msub>
+     <mo> </mo>
+     <mo>=</mo>
+     <mo> </mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msqrt>
+        <mrow>
+         <msup>
+          <mrow>
+           <mfenced>
+            <mrow>
+             <mfrac>
+              <mi mathvariant="normal">h</mi>
+              <mi mathvariant="normal">a</mi>
+             </mfrac>
+            </mrow>
+           </mfenced>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo> </mo>
+         <mo>+</mo>
+         <mo> </mo>
+         <msup>
+          <mrow>
+           <mfenced>
+            <mrow>
+             <mfrac>
+              <mi mathvariant="normal">k</mi>
+              <mi mathvariant="normal">b</mi>
+             </mfrac>
+            </mrow>
+           </mfenced>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo> </mo>
+         <mo>+</mo>
+         <mo> </mo>
+         <msup>
+          <mrow>
+           <mfenced>
+            <mrow>
+             <mfrac>
+              <mi mathvariant="normal">l</mi>
+              <mi mathvariant="normal">c</mi>
+             </mfrac>
+            </mrow>
+           </mfenced>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

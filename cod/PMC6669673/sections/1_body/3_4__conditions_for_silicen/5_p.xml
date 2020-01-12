@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the growth on the Ag (111) surface, a silicene grain of 25 Si atoms arranged in hexagons with a Si atom adhered at the zigzag edge (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f008">Figure 8</xref>a) or the armchair edge (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f008">Figure 8</xref>b) was placed on an Ag substrate of four (111) layers with each consisting of 48 Ag atoms in a (6 × 8) supercell, and the geometry was optimized with the bottom layer of the Ag substrate fixed. The adhered Si atom (and the Si atom denoted by a square in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f008">Figure 8</xref>a,b) was moved step by step to produce the potential 
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <msup>
+     <mi>U</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, and the configurational integral was obtained by Equation (21) with 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 25. As shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f008">Figure 8</xref>c, the FEZ and FEA decreased with the temperature up to 2000 K, while the DFE increased slightly from −0.022 eV up to 0.056 eV. In the temperature range from 200 K to 580 K, the DFE as less than 0.01 eV, and the DFE equaled zero for 400 K. According to the thermal dynamics, the probability for the future deposited atoms adhering to either the zigzag or the armchair edge was equal when the substrate was kept at 400 K, which should be the most optimum temperature for the silicene grain growing to form a continuous graphene-like structure. In previous experiments [
+ <xref rid="B3-nanomaterials-09-00978" ref-type="bibr">3</xref>,
+ <xref rid="B27-nanomaterials-09-00978" ref-type="bibr">27</xref>], the optimum temperature was 493–580 K, which was about one hundred Kelvin higher than our prediction. The difference may have resulted from the limited computational precision of DFT. For calculating 
+ <inline-formula>
+  <math id="mm138">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm139">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>…</mo>
+       <msubsup>
+        <mi>x</mi>
+        <mi>i</mi>
+        <mo>′</mo>
+       </msubsup>
+       <mo>…</mo>
+       <mn>0</mn>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in Equation (13) and (16), it is well known that the calculation results of DFT depend significantly on the specifically employed basis sets and exchange-correlation functionals of the electron density, for which the recent work [
+ <xref rid="B45-nanomaterials-09-00978" ref-type="bibr">45</xref>,
+ <xref rid="B46-nanomaterials-09-00978" ref-type="bibr">46</xref>] might provide better choices.
+</p>

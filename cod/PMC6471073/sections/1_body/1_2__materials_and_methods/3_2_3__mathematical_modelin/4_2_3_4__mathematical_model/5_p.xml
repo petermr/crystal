@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Equation (43) shows the relationship between all the generalized coordinates 
+ <bold>P</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> and the independent generalized coordinates 
+ <bold>Q</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> of the level-1 substructure 
+ <italic>i</italic>. Here, 
+ <bold>D</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> can be divided into four parts according to the generalized coordinates of different level-2 substructures:
+ <disp-formula id="FD49-micromachines-10-00181">
+  <label>(49)</label>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>P</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable rowlines="dashed dashed dashed none" columnlines="none none none none">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>A</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>B</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable rowlines="dashed dashed dashed none" columnlines="none none none none">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mi>r</mi>
+             </msub>
+             <mo>×</mo>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>r</mi>
+               </msub>
+               <mo>+</mo>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>s</mi>
+               </msub>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mi>r</mi>
+             </msub>
+             <mo>×</mo>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>r</mi>
+               </msub>
+               <mo>+</mo>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>s</mi>
+               </msub>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mi>s</mi>
+             </msub>
+             <mo>×</mo>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>r</mi>
+               </msub>
+               <mo>+</mo>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>s</mi>
+               </msub>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mi>s</mi>
+             </msub>
+             <mo>×</mo>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>r</mi>
+               </msub>
+               <mo>+</mo>
+               <mn>2</mn>
+               <msub>
+                <mi>N</mi>
+                <mi>s</mi>
+               </msub>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>Q</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable rowlines="dashed dashed dashed none" columnlines="none none none none">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>i</mi>
+             <mi>n</mi>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>o</mi>
+             <mi>u</mi>
+             <mi>t</mi>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mi>A</mi>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>D</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mi>B</mi>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>Q</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

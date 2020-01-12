@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0470">Taking into account the quasi-discreteness of the phonon energy spectrum in a condensed matter having a bounded volume, we introduce an energy unit 
+ <inline-formula>
+  <math id="M313" altimg="si241.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <mrow>
+     <mover accent="true">
+      <mi>ω</mi>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> so small that all the phonon energies 
+ <inline-formula>
+  <math id="M314" altimg="si242.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are expressed by integers [
+ <xref rid="bib72" ref-type="bibr">72</xref>, 
+ <xref rid="bib76" ref-type="bibr">76</xref>, 
+ <xref rid="bib77" ref-type="bibr">77</xref>]. The heat energy of elementary electron-charge transfers is then given by an integer 
+ <inline-formula>
+  <math id="M315" altimg="si243.svg">
+   <mrow>
+    <mi>Δ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">&gt;</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>.
+ <xref rid="fn14" ref-type="fn">14</xref> Then, proceeding according to the rules of quantum mechanics, within the “Golden Fermi rule”, the rate constant of the elementary electron-charge photo-transfers (optical extinction) 
+ <inline-formula>
+  <math id="M316" altimg="si244.svg">
+   <mrow>
+    <mi>ε</mi>
+   </mrow>
+  </math>
+ </inline-formula> for the 
+ <inline-formula>
+  <math id="M317" altimg="si245.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>-phonon act can be formulated in the following way [
+ <xref rid="bib72" ref-type="bibr">72</xref>, 
+ <xref rid="bib73" ref-type="bibr">73</xref>, 
+ <xref rid="bib74" ref-type="bibr">74</xref>]:
+ <disp-formula id="fd93">
+  <label>(93)</label>
+  <math id="M318" altimg="si246.svg" alttext="Equation 93.">
+   <mrow>
+    <mi>ε</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mn>4</mn>
+      <msup>
+       <mrow>
+        <mi>π</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <msup>
+       <mrow>
+        <mi>q</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <msub>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mtext>A</mtext>
+       </mrow>
+      </msub>
+      <mi>Ω</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+      <mi>ℏ</mi>
+      <mi>c</mi>
+      <msub>
+       <mrow>
+        <mi>n</mi>
+       </mrow>
+       <mrow>
+        <mtext>ref</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M319" altimg="si50.svg">
+   <mrow>
+    <mi>q</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the quantity of electron charge transferred in a quantum-classical transition, 
+ <inline-formula>
+  <math id="M320" altimg="si247.svg">
+   <mrow>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the circular frequency of the absorbed photon, 
+ <inline-formula>
+  <math id="M321" altimg="si248.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mtext>A</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the Avogadro constant
+ <bold>,</bold>
+ <inline-formula>
+  <math id="M322" altimg="si249.svg">
+   <mrow>
+    <mi>c</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the speed of light in vacuum, 
+ <inline-formula>
+  <math id="M323" altimg="si250.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+     <mrow>
+      <mtext>ref</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the refractive index, and the quantity 
+ <inline-formula>
+  <math id="M324" altimg="si251.svg">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is
+ <disp-formula id="fd94">
+  <label>(94)</label>
+  <math id="M325" altimg="si252.svg" alttext="Equation 94.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>A</mi>
+    <mi>v</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mn>...</mn>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mn>...</mn>
+     </mrow>
+    </munder>
+    <mrow>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo stretchy="true">|</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>A</mi>
+          </mrow>
+          <mrow>
+           <mn>12</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="true">|</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+     <mi>Δ</mi>
+     <mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>12</mn>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <munder>
+        <mo movablelimits="false">∑</mo>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </munder>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+          <mo linebreak="badbreak">−</mo>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

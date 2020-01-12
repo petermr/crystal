@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To assess the orientation determination ambiguity and error we have performed simulations on Si. Si has cubic symmetry (O
+ <sub>h</sub> crystal class) and is well investigated by PRM
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>,
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup> (Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">2</xref>). We simulated a test dataset of Raman intensity variation versus wafer rotation angle 
+ <italic>ψ</italic> for three types of Si wafers with surface oriented along (100) (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">2</xref>), (110) (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3</xref>), and (111) (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4</xref>) planes. The orientation determination results were obtained by fitting Euler angles to simulated data and were represented in a crystallographic color code using MTEX toolbox for Matlab
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>,
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>, see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5</xref>. The color corresponds to orientation of the wafer normal direction relative to crystallographic axes of Si. Misorientation angle, which corresponds to undetermined rotation of the sample, is depicted in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5</xref> as vertical bars on the right side of each subplot.
+</p>

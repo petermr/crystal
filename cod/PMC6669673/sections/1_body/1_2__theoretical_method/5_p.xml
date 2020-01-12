@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the proof of Equation (5), we consider a 2D integral: 
+ <disp-formula id="FD6-nanomaterials-09-00978">
+  <label>(6)</label>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>a</mi>
+     </msubsup>
+     <mi>d</mi>
+     <mi>x</mi>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>b</mi>
+     </msubsup>
+     <mi>d</mi>
+     <mi>y</mi>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>x</mi>
+         <mo>,</mo>
+         <mi>y</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>U</italic>(
+ <italic>x</italic>, 
+ <italic>y</italic>) is positive definite within the integral domain, 0 ≤ 
+ <italic>x</italic> ≤ 
+ <italic>a</italic>, 0 ≤ 
+ <italic>y</italic> ≤ 
+ <italic>b</italic>, on which we define a map of 
+ <italic>x</italic> and 
+ <italic>y</italic>: 
+ <disp-formula id="FD7-nanomaterials-09-00978">
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>X</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>x</mi>
+     </msubsup>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>ξ</mi>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi>ξ</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-nanomaterials-09-00978">
+  <label>(7)</label>
+  <math id="mm34">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>Y</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>y</mi>
+     </msubsup>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>ξ</mi>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi>ξ</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The value of the relative free energy Δ
+ <italic>F</italic> at the maximum of the PTFEL can be interpreted as a measure of the rate of PT along a particular PT coordinate.
+ <xref rid="cit36" ref-type="bibr">36</xref> It is not a measure of the absolute rate (the number of PT events per time unit), but rather, a measure of the relative rate of different PT mechanisms in the same MD trajectory. The assumption is that for a PT event to happen, the PT coordinate 
+ <italic>δ</italic>
+ <sub>min</sub> must pass through the value where Δ
+ <italic>F</italic> is the highest (at 
+ <italic>δ</italic>
+ <sub>min</sub> ≈ 0 Å). A greater value of the free-energy maximum implies a lower PT rate along that particular coordinate. Although the PT barriers can be different for the forward and backward reactions of any PT mechanism, the rates for the forward and backward reactions are equal because of the different population of these states, since the system is in chemical equilibrium.
+</p>

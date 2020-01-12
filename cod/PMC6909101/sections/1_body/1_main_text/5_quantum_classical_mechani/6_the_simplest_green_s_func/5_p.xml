@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0465">As a result, after computing the integral 
+ <inline-formula>
+  <math id="M302" altimg="si233.svg">
+   <mrow>
+    <mrow>
+     <mo>∫</mo>
+     <mrow>
+      <mn>...</mn>
+      <mi>d</mi>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd87" ref-type="disp-formula">Eq. (87)</xref>, we have [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib79" ref-type="bibr">79</xref>].
+ <disp-formula id="fd89">
+  <label>(89)</label>
+  <math id="M303" altimg="si234.svg" alttext="Equation 89.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>E</mtext>
+     </mrow>
+    </msup>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where
+ <disp-formula id="fd90">
+  <label>(90)</label>
+  <math id="M304" altimg="si235.svg" alttext="Equation 90.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <mn>8</mn>
+      <mi>μ</mi>
+      <msub>
+       <mrow>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>the Green's function of the elementary electron transfers is
+ <disp-formula id="fd91">
+  <label>(91)</label>
+  <math id="M305" altimg="si236.svg" alttext="Equation 91.">
+   <mrow>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>E</mtext>
+     </mrow>
+    </msup>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>E</mtext>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>α</mi>
+      <mo>,</mo>
+      <mi>L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>α</mi>
+          <mi>L</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo linebreak="badbreak">+</mo>
+        <mi>f</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>α</mi>
+          <mo>,</mo>
+          <mi>L</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msubsup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msubsup>
+          <mo linebreak="badbreak">−</mo>
+          <msup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msubsup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+            </msubsup>
+            <mo linebreak="badbreak">−</mo>
+            <msup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+            </msup>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd92">
+  <label>(92)</label>
+  <math id="M306" altimg="si237.svg" alttext="Equation 92.">
+   <mrow>
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>α</mi>
+      <mo>,</mo>
+      <mi>L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">≡</mo>
+    <mrow>
+     <mo stretchy="true">{</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">+</mo>
+        <mfrac>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msubsup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+            </msubsup>
+            <mo linebreak="badbreak">−</mo>
+            <msubsup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mrow>
+              <mn>1</mn>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+            </msubsup>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+          <mi>L</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+          <msub>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+        <mi>L</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mi>L</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">}</mo>
+    </mrow>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msubsup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msubsup>
+          <mo linebreak="badbreak">−</mo>
+          <msup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msubsup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msubsup>
+          <mo linebreak="badbreak">−</mo>
+          <msubsup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msubsup>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </mfrac>
+    <mo linebreak="badbreak">−</mo>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>L</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+        <mi>L</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mo linebreak="badbreak">−</mo>
+      <msup>
+       <mrow>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak">−</mo>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>α</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mi>L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>and the function 
+ <inline-formula>
+  <math id="M307" altimg="si238.svg">
+   <mrow>
+    <mi>α</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>α</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is given by 
+ <xref rid="fd78" ref-type="disp-formula">formula (78)</xref>. Thus, the Green's function of the electron-charge transfers 
+ <inline-formula>
+  <math id="M308" altimg="si239.svg">
+   <mrow>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>E</mtext>
+     </mrow>
+    </msup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>E</mtext>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <mi>L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> to the distance 
+ <inline-formula>
+  <math id="M309" altimg="si214.svg">
+   <mrow>
+    <mi>L</mi>
+   </mrow>
+  </math>
+ </inline-formula> is given by Eqs. 
+ <xref rid="fd91" ref-type="disp-formula">(91)</xref> and 
+ <xref rid="fd92" ref-type="disp-formula">(92)</xref>, in which the function 
+ <inline-formula>
+  <math id="M310" altimg="si238.svg">
+   <mrow>
+    <mi>α</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>α</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is given by 
+ <xref rid="fd78" ref-type="disp-formula">Eq. (78)</xref>. The values of 
+ <inline-formula>
+  <math id="M311" altimg="si240.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, on which 
+ <inline-formula>
+  <math id="M312" altimg="si13.svg">
+   <mrow>
+    <mi>α</mi>
+   </mrow>
+  </math>
+ </inline-formula> depends, are the energy levels of the electron in the transient state, which arise as a result of virtual movements of the electron and nuclei.
+</p>

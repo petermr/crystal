@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The anisotropy of the diffraction pattern allows to experimentally quantify the BO order by applying the angular Fourier series decomposition of the 2D scattered intensity distribution. The scattered intensity in the detector plane with the polar coordinates 
+ <inline-formula>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref ref-type="fig" rid="materials-12-03464-f003">Figure 3</xref>b,d) can be written as Equation (6):
+ <disp-formula id="FD6-materials-12-03464">
+  <label>(6)</label>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>I</mi>
+      <mn>0</mn>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mn>2</mn>
+       <munderover>
+        <mstyle mathsize="140%" displaystyle="true">
+         <mo>∑</mo>
+        </mstyle>
+        <mrow>
+         <mi>n</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mrow>
+        <mo>∞</mo>
+       </munderover>
+       <msub>
+        <mi>C</mi>
+        <mi>n</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mi>q</mi>
+        <mo>)</mo>
+       </mrow>
+       <mi>cos</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mi>n</mi>
+         <mi>φ</mi>
+         <mo>+</mo>
+         <msub>
+          <mi>φ</mi>
+          <mi>n</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mi>q</mi>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mn>0</mn>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the angular-averaged intensity at the momentum transfer 
+ <inline-formula>
+  <math id="mm67">
+   <mrow>
+    <mi>q</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mi>n</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the normalized magnitudes of the cosine modulations along the ring, and 
+ <inline-formula>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>n</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> corresponds to the relative phases of these modulations. In an ideal crystal with 
+ <italic>P</italic>-fold rotational symmetry, the low order diffraction peaks at 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>q</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are separated by an angle 
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mo>/</mo>
+     <mi>P</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In this case, the values of the magnitudes 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> should be equal to unity if 
+ <italic>n</italic> is divisible by 
+ <italic>P</italic>, and 
+ <inline-formula>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for all other values of 
+ <inline-formula>
+  <math id="mm74">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula>. In the case of distortion of the orientational order in the crystal lattice, for example, due to the presence of domains with slight angular misorientation between them, the diffraction peaks will broaden in the angular direction. As a result, the values of 
+ <inline-formula>
+  <math id="mm75">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> will decrease below unity for all 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula> divisible by 
+ <italic>P</italic> and approach zero when separated diffraction peaks merge into a uniform scattering ring.
+</p>

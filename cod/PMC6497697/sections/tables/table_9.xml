@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab9">
+ <label>Table 9</label>
+ <caption>
+  <p>Magic formulas for the bcc cuboctahedron</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left" colspan="2">bcc cuboctahedron 
+     <italic>n</italic>=3
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <inline-graphic xlink:href="11671_2019_2939_Figi_HTML.gif" id="d29e4190" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left">Atoms</td>
+    <td align="justify">
+     <inline-formula id="IEq18">
+      <alternatives>
+       <tex-math id="M61">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{3}n^{3}+7n^{2}+\frac {34}{3}n+7,~n\ge 1$\end{document}</tex-math>
+       <math id="M62">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>7</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>34</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>7</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">
+     <inline-formula id="IEq19">
+      <alternatives>
+       <tex-math id="M63">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{3}n^{3}+7n^{2}+\frac {25}{3}n+1,~n\ge 2$\end{document}</tex-math>
+       <math id="M64">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>7</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>25</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>2</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Bonds</td>
+    <td align="justify">
+     <inline-formula id="IEq20">
+      <alternatives>
+       <tex-math id="M65">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {35}{3}n^{3}+34n^{2}+\frac {112}{3}n+15,n\ge 1$\end{document}</tex-math>
+       <math id="M66">
+        <mfrac>
+         <mrow>
+          <mn>35</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>34</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>112</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>15</mn>
+        <mo>,</mo>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">
+     <inline-formula id="IEq21">
+      <alternatives>
+       <tex-math id="M67">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {35}{3}n^{3}+34n^{2}+\frac {67}{3}n,~n\ge 2$\end{document}</tex-math>
+       <math id="M68">
+        <mfrac>
+         <mrow>
+          <mn>35</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>34</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>67</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>2</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=4
+    </td>
+    <td align="justify">12, 
+     <italic>n</italic>≥1 odd; 0, 
+     <italic>n</italic> even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=6
+    </td>
+    <td align="justify">12
+     <italic>n</italic>−12, 
+     <italic>n</italic>≥1 odd; 0, 
+     <italic>n</italic> even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=7
+    </td>
+    <td align="justify">
+     <italic>n</italic>
+     <sup>2</sup>−4
+     <italic>n</italic>+3, 
+     <italic>n</italic>≥1 odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">
+     <italic>n</italic>
+     <sup>2</sup>+14
+     <italic>n</italic>, 
+     <italic>n</italic>≥2 even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=9
+    </td>
+    <td align="justify">3
+     <italic>n</italic>
+     <sup>2</sup>+3, 
+     <italic>n</italic>≥1 odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">3
+     <italic>n</italic>
+     <sup>2</sup>−6
+     <italic>n</italic>, 
+     <italic>n</italic>≥2 even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=10
+    </td>
+    <td align="justify">
+     <italic>n</italic>
+     <sup>2</sup>+4
+     <italic>n</italic>+3, 
+     <italic>n</italic>≥1, odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">
+     <italic>n</italic>
+     <sup>2</sup>−2
+     <italic>n</italic>+12, 
+     <italic>n</italic>≥2, even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=12
+    </td>
+    <td align="justify">12
+     <italic>n</italic>−24, 
+     <italic>n</italic>≥2 even; 0, 
+     <italic>n</italic> odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=13
+    </td>
+    <td align="justify">4
+     <italic>n</italic>
+     <sup>2</sup>−4, 
+     <italic>n</italic>≥3 odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">4
+     <italic>n</italic>
+     <sup>2</sup>−12
+     <italic>n</italic>+14, 
+     <italic>n</italic>≥2 even
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=14
+    </td>
+    <td align="justify">
+     <inline-formula id="IEq22">
+      <alternatives>
+       <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{3}n^{3}-2n^{2}-\frac {2}{3}n+2,~n\ge {1}$\end{document}</tex-math>
+       <math id="M70">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>2</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> odd
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left"/>
+    <td align="justify">
+     <inline-formula id="IEq23">
+      <alternatives>
+       <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{3}n^{3}-2n^{2}+\frac {7}{3}n-1,~n\ge {2}$\end{document}</tex-math>
+       <math id="M72">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>7</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>−</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>2</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula> even
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

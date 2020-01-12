@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The molecular dynamics simulation used the Forcite module and the NPT and NVT ensembles. The temperature was 298.0 K, the step length was 0.5 fs, the total simulation time of the NPT was 100 ps, and the total simulation time of the NVT was 150 ps. The first 50 ps was used for simulation and the last 100 ps was used for analysis. The number of steps was 1 × 10
+ <sup>5</sup> and the output was every 200 steps. The universal force field (UFF) was used for simulation in this work [
+ <xref rid="B38-materials-12-02318" ref-type="bibr">38</xref>]. The UFF is the force field that basically covers all the elements in the periodic table of elements, which can meet the technical requirements for the simulation in this paper. During the simulation, all atoms and ions in the interlayer were unconstrained, allowing atomic coordinates and lattice parameters to change freely, and the output data were used for result analysis. The basic parameters of the twenty Ca-montmorillonite models are shown in the following 
+ <xref rid="materials-12-02318-t002" ref-type="table">Table 2</xref>.
+</p>

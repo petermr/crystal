@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Thus, the square of the angular natural frequencies is the eigenvalues of the dynamic matrix 
+ <bold>M</bold>
+ <sup>−1</sup>
+ <bold>K</bold>. Since we have simplified the mode components of each substructure according to vibration characteristics of the 
+ <italic>n</italic> = 2 flexural mode of the DRG, the minimum frequency is exactly the natural frequency ω
+ <sub>0</sub> of the preferred 
+ <italic>n</italic> = 2 cosine mode:
+ <disp-formula id="FD61-micromachines-10-00181">
+  <label>(60)</label>
+  <math id="mm67">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ω</mi>
+      <mn>0</mn>
+     </msub>
+     <msup>
+      <mrow/>
+      <mn>2</mn>
+     </msup>
+     <mo>=</mo>
+     <mi>min</mi>
+     <mo stretchy="false">(</mo>
+     <mi>λ</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>M</mi>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+     </mstyle>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+     <msub>
+      <mi>f</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>ω</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

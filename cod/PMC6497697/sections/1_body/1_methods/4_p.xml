@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Previous authors have offered proofs of magic relationships, which we condense in our notation, relevant for the work presented here [
+ <xref ref-type="bibr" rid="CR1">1</xref>, 
+ <xref ref-type="bibr" rid="CR2">2</xref>]. Since we create nearest neighbor adjacency matrices, we know the coordination number 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> of vertex 
+ <italic>i</italic> by summing the elements of 
+ <bold>A</bold>(
+ <italic>i</italic>,:). Our structure consists of 
+ <italic>n</italic>+1 shells numbered 0,1,…,
+ <italic>n</italic>. Let 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\phantom {\dot {i}\!}N_{{cn}_{i}}(n)$\end{document}</tex-math>
+   <math id="M6">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+   </math>
+   <inline-graphic xlink:href="11671_2019_2939_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> be the number of atoms with coordination 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> where 1≤
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>≤
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub> with 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub> the maximal coordination in the cluster. Then the total number of atoms in the cluster is given by 
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document} $$ N_{T}(n) = \sum_{{cn}_{i}=1}^{{cn}_{M}}{N_{{cn}_{i}}(n)}. $$ \end{document}</tex-math>
+   <math id="M8">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <munderover>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </munderover>
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mi>.</mi>
+   </math>
+   <graphic xlink:href="11671_2019_2939_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

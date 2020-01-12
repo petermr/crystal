@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">There are several machine learning clustering algorithms for unsupervised learning. We selected the expectation maximization (EM)
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>,
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>, a two phase iterative method to find an estimate of the maximum likelihood of model parameters. The EM algorithm attempts first to find an expected estimate of parameters for defining the log probability of the observed data, followed by a maximization of the log probability with respect to the parameters. The EM is appropriate for our data set because of its ability to create clusters sustaining a disjoint partition of the data when the data can be modeled by a mixture of Gaussian functions. The EM algorithm as implemented in Weka
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup> was adopted. The input attributes for the EM clustering were defined to be the projection of the original dataset onto the three predominant PCs, yielding a data table of 18672 rows by 3 columns. These attributes were linearly uncorrelated. The EM number of clusters to split the data was set to three, maximum number possible with three attributes. The resulting clusters were named 
+ <italic>cluster</italic>-
+ <italic>blue</italic>, 
+ <italic>cluster</italic>-
+ <italic>red</italic>, and 
+ <italic>cluster</italic>-
+ <italic>black</italic>.
+</p>

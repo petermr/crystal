@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Density functional theory based on electronic structure calculations were carried out with the total energy mode of CASETEP package from the Materials Studio 5.5.
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>
+ </sup> The exchange and correlation effects were implemented via the Perdew–Burke–Ernzerhof functional
+ <sup>
+  <xref ref-type="bibr" rid="ref46">46</xref>
+ </sup> with the generalized gradient approximation (GGA).
+ <sup>
+  <xref ref-type="bibr" rid="ref47">47</xref>
+ </sup> The relations among the ionic cores and the valence electrons were depicted by norm-conserving pseudopotentials.
+ <sup>
+  <xref ref-type="bibr" rid="ref48">48</xref>
+ </sup> The valence electrons of title compound were calculated as Rb 4s
+ <sup>2</sup>4p
+ <sup>6</sup>5s
+ <sup>1</sup>, Na 2s
+ <sup>2</sup>2p
+ <sup>6</sup>3s
+ <sup>1</sup>, C 2s
+ <sup>2</sup>2p
+ <sup>2</sup>, N 2s
+ <sup>2</sup>2p
+ <sup>3</sup>, O 2s
+ <sup>2</sup>2p
+ <sup>4</sup>, and H 1s
+ <sup>1</sup>. The number of plane waves included in the basis sets was determined by the cutoff energy of 750 eV for Rb
+ <sub>3</sub>Na(H
+ <sub>2</sub>C
+ <sub>3</sub>N
+ <sub>3</sub>O
+ <sub>3</sub>)
+ <sub>4</sub>·3H
+ <sub>2</sub>O. The numerical integration of the Brillouin zone was performed using the Monkhorst–Pack 24 
+ <italic>k</italic>-point grids of 3 × 3 × 3. The other parameters and convergent criteria were the same as the default values of the CASTEP program.
+</p>

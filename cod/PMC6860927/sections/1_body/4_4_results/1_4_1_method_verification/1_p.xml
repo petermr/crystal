@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="pone.0225041.g009">Fig 9(a)</xref> shows the TAPSim specimen input geometry. The normal vector of the GB resulting from the application of BooT-PCA to the simulated detector hit maps is: 
+ <disp-formula id="pone.0225041.e007">
+  <alternatives>
+   <graphic xlink:href="pone.0225041.e007.jpg" id="pone.0225041.e007g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M7">
+    <mrow>
+     <msub>
+      <mi>n</mi>
+      <mi>t</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mo>-</mo>
+      <mn>0</mn>
+      <mo>.</mo>
+      <mn>86</mn>
+      <mo>,</mo>
+      <mn>0</mn>
+      <mo>.</mo>
+      <mn>47</mn>
+      <mo>,</mo>
+      <mo>-</mo>
+      <mn>0</mn>
+      <mo>.</mo>
+      <mn>20</mn>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </math>
+  </alternatives>
+  <label>(3)</label>
+ </disp-formula> The reconstructed boundary atoms are shown in 
+ <xref ref-type="fig" rid="pone.0225041.g009">Fig 9(b)</xref>. The angular deviation from 
+ <italic>n</italic>
+ <sub>
+  <italic>h</italic>
+ </sub> (
+ <xref ref-type="disp-formula" rid="pone.0225041.e001">Eq 1</xref>) is calculated to be 4.6°, which seems acceptable considering the many possible sources of error, including from the simulations themselves as indicated in 
+ <xref ref-type="fig" rid="pone.0225041.g010">Fig 10</xref>.
+</p>

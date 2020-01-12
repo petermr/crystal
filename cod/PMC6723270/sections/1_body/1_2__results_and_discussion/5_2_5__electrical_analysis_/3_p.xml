@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the circuital model, R1 and R2 are the inter-/intra-crystalline resistance and grain boundary resistance, respectively; CPE1-T is the capacitance of inter-/intra-crystalline processes; CPE2-T corresponds to the capacitance of the grain boundary process; and CPE1-P and CPE2-P are the exponents of the impedance for CPE (Equation (1)) for the inter-/intra-crystalline and grain boundary processes. 
+ <disp-formula id="FD3-nanomaterials-09-01156">
+  <label>(1)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Z</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>P</mi>
+       <mi>E</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mi>T</mi>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mi>I</mi>
+             <mo>×</mo>
+             <mi>ω</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mi>P</mi>
+         </msup>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Z</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>P</mi>
+       <mi>E</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the impedance of the CPE element, 
+ <italic>T</italic> corresponds to CPE-T, 
+ <italic>P</italic> corresponds to CPE-P, 
+ <italic>ω</italic> = angular frequency of alternating current signal, and 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mo>=</mo>
+     <msqrt>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

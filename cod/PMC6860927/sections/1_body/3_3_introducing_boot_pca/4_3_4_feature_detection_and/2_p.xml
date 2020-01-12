@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here we aim to track a nearly linear feature, which are known to be efficiently detected by the Hough transform. The Hough transform is widely used in image analysis and computer vision [
+ <xref rid="pone.0225041.ref039" ref-type="bibr">39</xref>]. It is commonly used for indexing Kikuchi patterns collected using electron back-scattered diffraction (EBSD) [
+ <xref rid="pone.0225041.ref040" ref-type="bibr">40</xref>]. It has also been used previously in three-dimensions to reveal the presence of atomic planes within the atom probe reconstruction [
+ <xref rid="pone.0225041.ref014" ref-type="bibr">14</xref>, 
+ <xref rid="pone.0225041.ref041" ref-type="bibr">41</xref>]. In this work, the Hough transform implementation is based on Python open-cv package [
+ <xref rid="pone.0225041.ref038" ref-type="bibr">38</xref>]. 
+ <xref ref-type="fig" rid="pone.0225041.g007">Fig 7(a)</xref> shows that linear features can be detected using the Hough transform algorithm within the tracking window, and hence used to refine the feature selection inside the ROI.
+</p>

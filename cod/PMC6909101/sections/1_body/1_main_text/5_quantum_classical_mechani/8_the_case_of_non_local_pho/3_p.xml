@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0530">Considering Eqs. 
+ <xref rid="fd122" ref-type="disp-formula">(122)</xref>, 
+ <xref rid="fd123" ref-type="disp-formula">(123)</xref>, and 
+ <xref rid="fd124" ref-type="disp-formula">(124)</xref>, it is readily seen that transitions at which one of the phonon occupation numbers changes by over 1 do not contribute to the polynomial 
+ <inline-formula>
+  <math id="M437" altimg="si321.svg">
+   <mrow>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>R</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Substituting the results 
+ <xref rid="fd123" ref-type="disp-formula">(123)</xref> and 
+ <xref rid="fd124" ref-type="disp-formula">(124)</xref> into the polynomials 
+ <xref rid="fd102" ref-type="disp-formula">(102)</xref> and 
+ <xref rid="fd103" ref-type="disp-formula">(103)</xref> and then substituting the polynomials 
+ <xref rid="fd102" ref-type="disp-formula">(102)</xref> and 
+ <xref rid="fd103" ref-type="disp-formula">(103)</xref> into the polynomials 
+ <xref rid="fd112" ref-type="disp-formula">(112</xref>, 
+ <xref rid="fd113" ref-type="disp-formula">113</xref>, 114) and (116), we have the following results for generating polynomials of three variables:
+ <disp-formula id="fd125">
+  <label>(125)</label>
+  <math id="M438" altimg="si328.svg" alttext="Equation 125.">
+   <mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mn>1</mn>
+    <mo linebreak="badbreak">−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mo linebreak="badbreak">+</mo>
+      <msubsup>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>2</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <msubsup>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <msubsup>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>2</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>u</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">+</mo>
+        <msup>
+         <mrow>
+          <mi>v</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>u</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">+</mo>
+        <msup>
+         <mrow>
+          <mi>v</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd126">
+  <label>(126)</label>
+  <math id="M439" altimg="si329.svg" alttext="Equation 126.">
+   <mrow>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo linebreak="badbreak">+</mo>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mi>u</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>l</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mi>u</mi>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>l</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd127">
+  <label>(127)</label>
+  <math id="M440" altimg="si330.svg" alttext="Equation 127.">
+   <mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo linebreak="badbreak">+</mo>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>v</mi>
+          <mi>u</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>v</mi>
+          <mi>u</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="badbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mi>v</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>l</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mi>v</mi>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>l</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd128">
+  <label>(128)</label>
+  <math id="M441" altimg="si331.svg" alttext="Equation 128.">
+   <mrow>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mi>r</mi>
+    <mi>o</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mi>r</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>u</mi>
+          <mi>v</mi>
+          <mi>w</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

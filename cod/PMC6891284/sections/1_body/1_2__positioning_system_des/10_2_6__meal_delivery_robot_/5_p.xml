@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>During the implementation of the fusion algorithm, the system needs to determine whether the UWB positioning system is operating properly by judging the robot movement velocity and displacement. For example, if the robot speed is greater than zero, the displacement of the control cycle is changed. Meanwhile, if the UWB positioning system moves to a certain distance from each reference node, the information on the incremental position and the last position is used for the current real-time location coordinates. If the UWB signal is correct, the odometer positioning result is fused with the UWB localization result using the EKF algorithm to get the current position coordinates in real time [
+ <xref rid="B19-sensors-19-04980" ref-type="bibr">19</xref>].
+</p>

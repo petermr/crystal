@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the line-of-sight (LOS) environment, 
+ <inline-formula>
+  <math id="mm120">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>d</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is assumed as the measured distance between reference point 
+ <inline-formula>
+  <math id="mm121">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and reference point 
+ <inline-formula>
+  <math id="mm122">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Then, the true value of the distance is 
+ <disp-formula id="FD38-sensors-19-04980">
+  <label>(34)</label>
+  <math id="mm123">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>d</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm124">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is an absolute error function. This function is related to the actual distance. According to the actual application of the delivery robot, this study assumes that this function is a linear function. 
+ <disp-formula id="FD39-sensors-19-04980">
+  <label>(35)</label>
+  <math id="mm125">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>d</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mi>d</mi>
+     <mo>+</mo>
+     <msub>
+      <mi>b</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD40-sensors-19-04980">
+  <label>(36)</label>
+  <math id="mm126">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>d</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>b</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>/</mo>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>+</mo>
+     <msub>
+      <mi>a</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to understand the mathematical principles of the process of measuring from photographic images, it is first necessary to understand that this process of artificial reconstruction is based on the workings of the natural binocular vision of living beings (see 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>a). In that case, it could be considered that each element of the image captured by each eye could be represented by a line that joins three points: The center of the eye, the point of the retina, and the position of the object. The determination of the coordinates of the center of the eye and the point of the retina is not possible in the natural process of vision, but if the eye is replaced by a photographic camera and the image obtained is considered as the point of the retina, it is quite easy to obtain the coordinates of the line that passes through the following three points: The center of the projection of the camera (
+ <italic>X</italic>
+ <sub>0</sub>, 
+ <italic>Y</italic>
+ <sub>0</sub>, 
+ <italic>Z</italic>
+ <sub>0</sub>), the point of the image (
+ <italic>X
+  <sub>i</sub>
+ </italic>, 
+ <italic>Y
+  <sub>i</sub>
+ </italic>, 
+ <italic>Z
+  <sub>i</sub>
+ </italic>), and the point of the ground (
+ <italic>X</italic>, 
+ <italic>Y</italic>, 
+ <italic>Z</italic>), as one also can see in 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>a. With these conditions, each projective ray that represents the position of each point of the ground and its counterpart on the image can be expressed by means of the following equation:
+ <disp-formula id="FD1-sensors-19-04881">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>X</mi>
+            <mi>i</mi>
+           </msub>
+           <mo> </mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>Y</mi>
+            <mi>i</mi>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>Z</mi>
+            <mi>i</mi>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>X</mi>
+            <mn>0</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>Y</mi>
+            <mn>0</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mi>Z</mi>
+            <mn>0</mn>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mi>X</mi>
+         </mtd>
+         <mtd>
+          <mi>Y</mi>
+         </mtd>
+         <mtd>
+          <mi>Z</mi>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>}</mo>
+     </mrow>
+     <mo> </mo>
+     <mo>→</mo>
+     <mo> </mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>X</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>−</mo>
+       <mo> </mo>
+       <msub>
+        <mi>X</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>X</mi>
+       <mo> </mo>
+       <mo> </mo>
+       <mo> </mo>
+       <mo>−</mo>
+       <mo> </mo>
+       <msub>
+        <mi>X</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mo> </mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>Y</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>−</mo>
+       <mo> </mo>
+       <msub>
+        <mi>Y</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>Y</mi>
+       <mo>−</mo>
+       <mo> </mo>
+       <msub>
+        <mi>Y</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mo> </mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>Z</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>Z</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>Z</mi>
+       <mo>−</mo>
+       <mo> </mo>
+       <msub>
+        <mi>Z</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

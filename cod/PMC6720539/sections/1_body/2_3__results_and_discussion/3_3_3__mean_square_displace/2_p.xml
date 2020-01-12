@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="ijms-20-03997-f005">Figure 5</xref> is the MSD of water molecules of montmorillonites containing 256 water molecules with different layer charge density. The self-diffusion coefficient of water molecules in the montmorillonite interlayer can be derived from the MSD curves of water molecules. The magnitude of the diffusion coefficient is proportional to the slope of the MSD curves, i.e.: [
+ <xref rid="B33-ijms-20-03997" ref-type="bibr">33</xref>] 
+ <disp-formula id="FD1-ijms-20-03997">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>D</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>6</mn>
+       <msub>
+        <mi>N</mi>
+        <mi>α</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <munder>
+      <mrow>
+       <mi>lim</mi>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+       <mo>→</mo>
+       <mi>∞</mi>
+      </mrow>
+     </munder>
+     <mfrac>
+      <mi mathvariant="normal">d</mi>
+      <mrow>
+       <mi mathvariant="normal">d</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <msub>
+         <mi>N</mi>
+         <mi>α</mi>
+        </msub>
+       </mrow>
+      </munderover>
+      <mrow>
+       <mrow>
+        <mo>{</mo>
+        <mrow>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <msub>
+              <mi>r</mi>
+              <mi>i</mi>
+             </msub>
+             <mrow>
+              <mo>(</mo>
+              <mi>t</mi>
+              <mo>)</mo>
+             </mrow>
+             <mo>−</mo>
+             <msub>
+              <mi>r</mi>
+              <mi>i</mi>
+             </msub>
+             <mrow>
+              <mo>(</mo>
+              <mn>0</mn>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mo>}</mo>
+       </mrow>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the mean square displacement of the molecule and 
+ <italic>N
+  <sub>α</sub>
+ </italic> is the total number of 
+ <italic>α</italic> particles. The equation shows that the self-diffusion coefficient 
+ <italic>D</italic> is 1/6 of the slope of the MSD curve.
+</p>

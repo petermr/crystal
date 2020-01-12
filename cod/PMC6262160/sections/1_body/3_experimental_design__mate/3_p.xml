@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0040">After the initial configuration is constructed, the atomic positions optimization is performed using LAMMPS 
+ <italic>minimize</italic> command. The files in the data archive are LAMMPS dump files saved at the intermediate stages of the optimization process. The columns in these files represent the following data (left to right):
+ <list list-type="simple" id="li0010">
+  <list-item id="u0020">
+   <label>•</label>
+   <p id="p0045">Atom number,</p>
+  </list-item>
+  <list-item id="u0025">
+   <label>•</label>
+   <p id="p0050">Atom id,</p>
+  </list-item>
+  <list-item id="u0030">
+   <label>•</label>
+   <p id="p0055">X position of the atom,</p>
+  </list-item>
+  <list-item id="u0035">
+   <label>•</label>
+   <p id="p0060">Y position of the atom,</p>
+  </list-item>
+  <list-item id="u0040">
+   <label>•</label>
+   <p id="p0065">Z position of the atom,</p>
+  </list-item>
+  <list-item id="u0045">
+   <label>•</label>
+   <p id="p0070">The centro-symmetry parameter as described in LAMMPS documentation,</p>
+  </list-item>
+  <list-item id="u0050">
+   <label>•</label>
+   <p id="p0075">The potential energy of the atom.</p>
+  </list-item>
+ </list>
+</p>

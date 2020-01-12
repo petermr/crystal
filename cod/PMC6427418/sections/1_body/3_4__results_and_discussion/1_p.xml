@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since both the inclusion particles and the matrix particles interact with hard potential, the system in which 
+ <inline-formula>
+  <math id="mm81">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is equivalent to HS crystal with respect to the box shape and the elastic properties. In 
+ <xref ref-type="fig" rid="materials-12-00700-f003">Figure 3</xref> one can observe (based on the averaged elements of the box matrix) the influence of the 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> on the shape of the periodic box. The plots show that the box changes its shape from cubic to parallelepiped with square base (orthogonal to O
+ <italic>z</italic> axis), described by the matrix:
+ <disp-formula id="FD5-materials-12-00700">
+  <label>(5)</label>
+  <math id="mm83">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="bold">h</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>≡</mo>
+     <mrow>
+      <mo>〈</mo>
+      <mi mathvariant="bold">h</mi>
+      <mo>〉</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfenced open="[" close="]">
+      <mtable>
+       <mtr>
+        <mtd>
+         <mrow>
+          <mo>〈</mo>
+          <msub>
+           <mi>h</mi>
+           <mn>11</mn>
+          </msub>
+          <mo>〉</mo>
+         </mrow>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mrow>
+          <mo>〈</mo>
+          <msub>
+           <mi>h</mi>
+           <mn>11</mn>
+          </msub>
+          <mo>〉</mo>
+         </mrow>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mrow>
+          <mo>〈</mo>
+          <msub>
+           <mi>h</mi>
+           <mn>33</mn>
+          </msub>
+          <mo>〉</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mfenced>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where an increase of the inclusion particles’ diameters, 
+ <inline-formula>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>&gt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, forces an increase of the distances between the matrix particles in planes parallel to the inclusion planes and a compression of the layers in the direction orthogonal to the inclusion planes. This is manifested in the changes of the interparticle distances. When 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>&lt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the above-mentioned compression of the matrix layers is not possible. Thus, only a small compression, resulting from the fact that one of the layers’ height has been decreased, is observed. To determine the symmetry of the system, all 21 elements of the elastic compliance matrix 
+ <inline-formula>
+  <math id="mm86">
+   <mrow>
+    <mi mathvariant="bold">S</mi>
+   </mrow>
+  </math>
+ </inline-formula> as well as their selected ratios have been determined and presented as functions of 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, see 
+ <xref ref-type="fig" rid="materials-12-00700-f004">Figure 4</xref>a,b, respectively. One can observe that the relations typical for the cubic symmetry (
+ <inline-formula>
+  <math id="mm88">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>11</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>22</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>33</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm89">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>44</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>55</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>66</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm90">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>12</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>13</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>23</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) are no longer preserved when 
+ <inline-formula>
+  <math id="mm91">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>&gt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. One can notice that 
+ <inline-formula>
+  <math id="mm92">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>33</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> increases, whereas the 
+ <inline-formula>
+  <math id="mm93">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>12</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>66</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> decrease respectively in relation to 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>11</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>13</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>44</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref ref-type="fig" rid="materials-12-00700-f004">Figure 4</xref>b). The 
+ <inline-formula>
+  <math id="mm98">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>12</mn>
+     </msub>
+     <mo>/</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>13</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is greater than 1 because both elements are negative and 
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>|</mo>
+     </mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>12</mn>
+     </msub>
+     <mrow>
+      <mo>|</mo>
+      <mo>&gt;</mo>
+      <mo>|</mo>
+     </mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>13</mn>
+     </msub>
+     <mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Moreover, in 
+ <xref ref-type="fig" rid="materials-12-00700-f004">Figure 4</xref>b one can see that the equalities of 
+ <inline-formula>
+  <math id="mm100">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>11</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>22</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm101">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>44</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>55</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm102">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mn>13</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>S</mi>
+      <mn>23</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are preserved, as well as the fact that 
+ <inline-formula>
+  <math id="mm103">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for: 
+ <inline-formula>
+  <math id="mm104">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mo>…</mo>
+     <mo>,</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm105">
+   <mrow>
+    <mrow>
+     <mi>j</mi>
+     <mo>=</mo>
+     <mn>4</mn>
+     <mo>,</mo>
+     <mn>5</mn>
+     <mo>,</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm106">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>≠</mo>
+     <mi>j</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="materials-12-00700-f004">Figure 4</xref>a). Thus, the 
+ <inline-formula>
+  <math id="mm107">
+   <mrow>
+    <mi mathvariant="bold">S</mi>
+   </mrow>
+  </math>
+ </inline-formula> matrix takes the form typical to tetragonal symmetry [
+ <xref rid="B95-materials-12-00700" ref-type="bibr">95</xref>]:
+ <disp-formula id="FD6-materials-12-00700">
+  <label>(6)</label>
+  <math id="mm108">
+   <mrow>
+    <mrow>
+     <mi mathvariant="bold">S</mi>
+     <mo>=</mo>
+     <mfenced open="[" close="]">
+      <mtable>
+       <mtr>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>11</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>12</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>13</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>11</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>13</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>33</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>44</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>44</mn>
+         </msub>
+        </mtd>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <mo>·</mo>
+        </mtd>
+        <mtd>
+         <msub>
+          <mi>S</mi>
+          <mn>66</mn>
+         </msub>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> with six independent elements 
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>11</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm110">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>33</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm111">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>44</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>66</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm113">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>12</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm114">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mn>13</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>. Despite not observing any significant changes in the 
+ <inline-formula>
+  <math id="mm115">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> elements for 
+ <inline-formula>
+  <math id="mm116">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>&lt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, one must remember that in each case when 
+ <inline-formula>
+  <math id="mm117">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>≠</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> the symmetry of the system is not cubic because of the missing 4-fold symmetry axes in 
+ <italic>x</italic> and 
+ <italic>y</italic>-directions.
+</p>

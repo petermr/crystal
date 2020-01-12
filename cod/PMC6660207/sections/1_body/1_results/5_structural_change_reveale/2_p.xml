@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>However, 2D perovskite (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> presents large bandgap tunability with constant quantum yield under pressure, which is much more advantageous than conventional semiconductors. The result suggests that there exists a unique evolution of crystal lattice structure induced by hydrostatic pressure. These changes have been investigated by synchrotron radiation XRD under pressures from 0 to 20 GPa, as shown in 
+ <xref rid="F4" ref-type="fig">Fig. 4A</xref>. The diffraction angle 2θ of XRD peaks increases with increasing pressure, which is a sign of the compression of the crystal. From 6.2 to 10.2 GPa, the XRD peaks do not shift, meaning that the compression saturates. However, after 10.2 GPa, the peaks largely broaden, indicating that the crystal lattice structure is getting disordered under high pressures. For the analysis, we focus on the pressure from 0 to 6.2 GPa, since the optical tunability sits in the range and the corresponding lattice structure changes orderly. By doing Rietveld refinement, pressure-dependent unit cell parameters can be extracted (see Materials and Methods). 
+ <xref rid="F4" ref-type="fig">Figure 4B</xref> shows the unit cell volume reducing in the form of 
+ <italic>V</italic>/
+ <italic>V</italic>
+ <sub>0</sub>, where 
+ <italic>V</italic>
+ <sub>0</sub> is the initial volume at ambient pressure. We can see the compression saturates at 6.2 GPa, where the cell volume change is around 
+ <italic>V</italic>/
+ <italic>V</italic>
+ <sub>0</sub> = 0.84. The pressure dependence of the volume variation can be fitted using the so-called Birch-Murnaghan equation (
+ <xref rid="R44" ref-type="bibr">
+  <italic>44</italic>
+ </xref>), which is given as
+ <disp-formula id="E2">
+  <math id="m2">
+   <mrow>
+    <mrow>
+     <mi>P</mi>
+     <mo stretchy="false">(</mo>
+     <mi>V</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mn>3</mn>
+       <msub>
+        <mi>B</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <mo stretchy="true">[</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mfrac>
+        <msub>
+         <mi>V</mi>
+         <mn>0</mn>
+        </msub>
+        <mi>V</mi>
+       </mfrac>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mfrac>
+       <mn>7</mn>
+       <mn>3</mn>
+      </mfrac>
+     </msup>
+     <mo>−</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mfrac>
+        <msub>
+         <mi>V</mi>
+         <mn>0</mn>
+        </msub>
+        <mi>V</mi>
+       </mfrac>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mfrac>
+       <mn>5</mn>
+       <mn>3</mn>
+      </mfrac>
+     </msup>
+     <mo stretchy="true">]</mo>
+     <mo stretchy="true">{</mo>
+     <mn>1</mn>
+     <mo>+</mo>
+     <mfrac>
+      <mn>3</mn>
+      <mn>4</mn>
+     </mfrac>
+     <mo stretchy="false">(</mo>
+     <msubsup>
+      <mi>B</mi>
+      <mn>0</mn>
+      <mo>′</mo>
+     </msubsup>
+     <mo>−</mo>
+     <mn>4</mn>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="true">[</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mfrac>
+        <msub>
+         <mi>V</mi>
+         <mn>0</mn>
+        </msub>
+        <mi>V</mi>
+       </mfrac>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mfrac>
+       <mn>2</mn>
+       <mn>3</mn>
+      </mfrac>
+     </msup>
+     <mo>−</mo>
+     <mn>1</mn>
+     <mo stretchy="true">]</mo>
+     <mo stretchy="true">}</mo>
+    </mrow>
+   </mrow>
+  </math>
+  <label>(2)</label>
+ </disp-formula>where 
+ <italic>B</italic>
+ <sub>0</sub> is bulk modulus, which measures the compressibility of a material. 
+ <inline-formula>
+  <math id="m3">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>B</mi>
+      <mn>0</mn>
+      <mo>′</mo>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the derivative of 
+ <italic>B</italic>
+ <sub>0</sub> with respect to pressure. Here, we assume that 
+ <inline-formula>
+  <math id="m4">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>B</mi>
+      <mn>0</mn>
+      <mo>′</mo>
+     </msubsup>
+     <mo>=</mo>
+     <mn>4</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which is a common assumption when the reduction of volume has roughly a linear dependence on pressure. The bulk modulus 
+ <italic>B</italic>
+ <sub>0</sub> of (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> is estimated to be 26.8 GPa. Comparing to its 3D counterparts (MAPbI
+ <sub>3</sub> and FAPbI
+ <sub>3</sub>), which also experience similar reductions of volume (
+ <xref rid="R19" ref-type="bibr">
+  <italic>19</italic>
+ </xref>, 
+ <xref rid="R27" ref-type="bibr">
+  <italic>27</italic>
+ </xref>, 
+ <xref rid="R43" ref-type="bibr">
+  <italic>43</italic>
+ </xref>), the bulk modulus of (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> is markedly greater (13.6 GPa of MAPbI
+ <sub>3</sub> and 11.0 GPa of FAPbI
+ <sub>3</sub>). The compressibility of a material is inversely proportional to its bulk modulus. Therefore, the compressibility of (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> is much smaller than that of 3D perovskites. That is, 2D perovskite (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> is stiffer and more resistant to compression, thus experimentally showing smaller volume change with respect to pressure change.
+</p>

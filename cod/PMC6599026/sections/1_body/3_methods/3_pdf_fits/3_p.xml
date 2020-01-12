@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">The best-fit value of 
+ <italic>f</italic>
+ <sub>V</sub> for each temperature and data range was found from the position of the minimum in the 
+ <italic>R</italic>w vs. 
+ <italic>f</italic>
+ <sub>V</sub> curve fitted by the arbitrary function:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$Rw = \left( {Af_{\mathrm{V}}^2 + Bf_{\mathrm{V}} + C} \right).{\mathrm{exp}}\left( {Df_{\mathrm{V}}} \right)$$\end{document}</tex-math>
+   <math id="M2">
+    <mi>R</mi>
+    <mi>w</mi>
+    <mo>=</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>A</mi>
+      <msubsup>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">V</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mo>+</mo>
+      <mi>B</mi>
+      <msub>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">V</mi>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mi>C</mi>
+     </mrow>
+    </mfenced>
+    <mo>.</mo>
+    <mi mathvariant="normal">exp</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>D</mi>
+      <msub>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">V</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="41467_2019_10949_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>A</italic>, 
+ <italic>B</italic>, 
+ <italic>C</italic>, and 
+ <italic>D</italic> are refined parameters. Fits to 
+ <italic>R</italic>w vs. 
+ <italic>f</italic>
+ <sub>V</sub> points are shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">2</xref>. Estimated standard deviations (esds) in the best-fit 
+ <italic>f</italic>
+ <sub>V</sub> values were calculated from those in 
+ <italic>A</italic>, 
+ <italic>B</italic>, 
+ <italic>C</italic>, and 
+ <italic>D</italic> in Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>). The esds on 
+ <italic>f</italic>
+ <sub>V</sub> values &lt;0.3 are large so these 
+ <italic>f</italic>
+ <sub>V</sub> values were set to zero. The best-fit First Unit Cell’s cell parameters and 
+ <italic>U</italic>
+ <sub>iso</sub>s and their errors were calculated by linear interpolation between values at the two 
+ <italic>f</italic>
+ <sub>V</sub> increments closest to the minimum value. Lattice parameters were also fitted to the diffraction data using the Rietveld method and are shown in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3</xref>. An approximate correlation length for the structural distortions was calculated from the First Unit Cell 
+ <italic>f</italic>
+ <sub>V</sub> values and is shown in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">4</xref>.
+</p>

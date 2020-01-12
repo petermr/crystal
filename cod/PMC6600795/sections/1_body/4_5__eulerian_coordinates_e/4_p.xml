@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We can consider the 2D tensor of the derivatives in Cartesian coordinates [
+ <xref rid="B2-materials-12-01804" ref-type="bibr">2</xref>], 
+ <disp-formula id="FD2-materials-12-01804">
+  <label>(2)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">[</mo>
+     <mi mathvariant="normal">J</mi>
+     <mo stretchy="false">]</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi>x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi>x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

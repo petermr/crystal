@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From Equation (17), we can find that the phase-error function 
+ <inline-formula>
+  <math id="mm62">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and stationary phase error 
+ <inline-formula>
+  <math id="mm63">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are completely removed. Under the real application, the size of the target is limited which make the signals 
+ <inline-formula>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>τ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> have a strong correlation. For example, if the maximum size of a target is 100 m, we can calculate that 
+ <inline-formula>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mi>τ</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is less than 0.33 us which can be neglected compared to the signal pulse width. Thus, the residual modulation in amplitude and phase nearly has no effect on the system performance, and the theoretical range resolution and the real position of target can be achieved.
+</p>

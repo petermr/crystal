@@ -1,0 +1,289 @@
+{
+  "id": [
+    "30832233"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30832233"
+  ],
+  "pmcid": [
+    "PMC6427671"
+  ],
+  "doi": [
+    "10.3390/s19051052"
+  ],
+  "title": [
+    "Modeling and Studying Acceleration-Induced Effects of Piezoelectric Pressure Sensors Using System Identification Theory."
+  ],
+  "authorString": [
+    "Xu F, Ma T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Xu F"
+          ],
+          "firstName": [
+            "Fujing"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Automation, Shanxi University, Taiyuan 030013, China. xufujing@126.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Ma T"
+          ],
+          "firstName": [
+            "Tiehua"
+          ],
+          "lastName": [
+            "Ma"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Key Laboratory for Instrumentation Science &Dynamic Measurement, Ministry of Education, North University of China, Taiyuan 030051, China. matiehua@nuc.edu.cn."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2787689"
+      ],
+      "dateOfPublication": [
+        "2019 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "Transient pressure testing is often accompanied by shock acceleration. Aiming at the acceleration-induced effects of pressure sensors, a dynamic compensation method combining empirical mode decomposition (EMD) with system identification theory (SIT) is proposed in this paper. This method is more effective at reducing the error of the acceleration-induced effects without affecting the sensor's sensitivity and inherent frequency. The principle and theoretical basis of acceleration-induced effects is analyzed, and the static and dynamic acceleration-induced effects on the quartz crystal of a piezoelectric pressure sensor are performed. An acceleration-induced effects dynamic calibration system is built using a Machete hammer, which generates acceleration signals with larger amplitude and narrower pulse width, and an autoregressive exogenous (ARX)mathematical model of acceleration-induced effects is obtained using empirical mode decomposition-system identification theory (EMD-SIT). A digital compensation filter for acceleration-induced effects is designed on the basis of this model. Experimental results explain that the acceleration-induced effects of the pressure sensor were less than 11% after using the digital compensation filter. A series of test data verify the accuracy, reliability, and generality of the model."
+  ],
+  "affiliation": [
+    "Department of Automation, Shanxi University, Taiyuan 030013, China. xufujing@126.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "51605321"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Finite Element Analysis",
+        "System Identification",
+        "Pressure Sensor",
+        "Acceleration-induced Effects"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6427671?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6427671"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s19051052"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2019-03-07"
+  ],
+  "dateOfCreation": [
+    "2019-03-06"
+  ],
+  "firstIndexDate": [
+    "2019-03-05"
+  ],
+  "fullTextReceivedDate": [
+    "2019-04-17"
+  ],
+  "dateOfRevision": [
+    "2019-04-16"
+  ],
+  "electronicPublicationDate": [
+    "2019-03-01"
+  ],
+  "firstPublicationDate": [
+    "2019-03-01"
+  ]
+}

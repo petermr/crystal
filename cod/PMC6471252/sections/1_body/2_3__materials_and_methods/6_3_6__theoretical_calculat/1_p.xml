@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Optimizations of 
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <mn mathvariant="bold">1</mn>
+     <mi mathvariant="bold">a</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> geometries were carried out using periodic ab initio calculations with CRYSTAL09 and CRYSTAL14 software (University of Turin, Torino, Italy) [
+ <xref rid="B50-molecules-24-01107" ref-type="bibr">50</xref>]. The B3LYP functional with 6-31G** basis set provided by CRYSTAL14 was used throughout all computations. The level of accuracy in evaluating the Coulomb and exchange series was controlled by five TOLINTEG parameters, for which values of 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mo>−</mo>
+      <mn>7</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm73">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mo>−</mo>
+      <mn>7</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm74">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mo>−</mo>
+      <mn>7</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm75">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mo>−</mo>
+      <mn>9</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mrow>
+      <mo>−</mo>
+      <mn>30</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> were used. Radial and angular points of the atomic grid were generated through Gauss–Legendre and Lebedev quadrature schemes. The condition for the Self-Consistent Field (SCF) convergence was set to 10
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <msup>
+     <mrow/>
+     <mrow>
+      <mo>−</mo>
+      <mn>8</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> on the total energy difference between two subsequent cycles. The shrinking factor of the reciprocal-space net was set to 8. The total energies obtained with this mesh were fully converged. The crystal symmetry was imposed as a constraint during the whole optimization process.
+</p>

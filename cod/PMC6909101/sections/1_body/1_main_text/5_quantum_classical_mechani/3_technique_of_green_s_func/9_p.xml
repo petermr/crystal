@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0350">The general solution of 
+ <xref rid="fd44" ref-type="disp-formula">Eq. (44)</xref> for the wave function 
+ <inline-formula>
+  <math id="M168" altimg="si147.svg">
+   <mrow>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>,</mo>
+      <mi>q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of the “electron + environment” system has the form
+ <disp-formula id="fd51">
+  <label>(51)</label>
+  <math id="M169" altimg="si148.svg" alttext="Equation 51.">
+   <mrow>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mrow>
+     <mo>∬</mo>
+     <mrow>
+      <mi>d</mi>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <mi>d</mi>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+      <mi>G</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo>,</mo>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>;</mo>
+        <mi>p</mi>
+        <mo>,</mo>
+        <msup>
+         <mi>p</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>;</mo>
+        <msub>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mtext>H</mtext>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mover accent="true">
+        <mi>U</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>,</mo>
+        <msup>
+         <mi>p</mi>
+         <mo>′</mo>
+        </msup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mi>Ψ</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>,</mo>
+        <msup>
+         <mi>p</mi>
+         <mo>′</mo>
+        </msup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

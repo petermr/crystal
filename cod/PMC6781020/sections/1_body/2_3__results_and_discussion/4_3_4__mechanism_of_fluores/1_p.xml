@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As shown in the structural model of the SnO
+ <sub>2</sub> system in 
+ <xref ref-type="fig" rid="nanomaterials-09-01294-f008">Figure 8</xref>, the interaction between Ni
+ <sup>2+</sup> and SnO
+ <sub>2</sub> QDs is described by a Ni
+ <sup>2+</sup> ion entering a Sn vacancy on the QD surface. It is known that a Sn vacancy acts as an acceptor in SnO
+ <sub>2</sub> system and its ionization can be expressed by the Kroger-Vink notation, as shown in Equation (4):
+ <disp-formula id="FD4-nanomaterials-09-01294">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mn>4</mn>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>↔</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mrow>
+       <mo>⁗</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>V
+  <sub>Sn</sub>
+ </italic> and 
+ <italic>V
+  <sub>Sn</sub>
+ </italic>⁗ are the Sn vacancy before and after ionization and e′ represents a free electron in the SnO
+ <sub>2</sub> grain. After being adsorbed on the SnO
+ <sub>2</sub> QD, the Ni
+ <sup>2+</sup> interacts with the Sn vacancy, as expressed in Equation (5):
+ <disp-formula id="FD5-nanomaterials-09-01294">
+  <label>(5)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mrow>
+       <mo>⁗</mo>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mi>N</mi>
+     <msup>
+      <mi>i</mi>
+      <mrow>
+       <mo>•</mo>
+       <mo>•</mo>
+      </mrow>
+     </msup>
+     <munderover>
+      <mo>↔</mo>
+      <mrow/>
+      <mrow/>
+     </munderover>
+     <mi>N</mi>
+     <msub>
+      <mi>i</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mrow>
+       <mo>″</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Ni</italic>
+ <sup>••</sup> denotes a bivalence nickel ion and 
+ <italic>Ni
+  <sub>Sn</sub>
+ </italic>″ indicates a Ni ion occupying the Sn site with two electrons. A presumption was made that there are 
+ <italic>m</italic> Sn vacancies on the surface of a single SnO
+ <sub>2</sub> QD, which adsorbs 
+ <italic>t</italic> ions of Ni
+ <sup>2+</sup>. Thus, the interaction between the SnO
+ <sub>2</sub> QD and Ni
+ <sup>2+</sup> ion is described by combining Equations (4) and (5), as shown in Equation (6):
+ <disp-formula id="FD6-nanomaterials-09-01294">
+  <label>(6)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mi>t</mi>
+     <mi>N</mi>
+     <msup>
+      <mi>i</mi>
+      <mrow>
+       <mo>•</mo>
+       <mo>•</mo>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mn>4</mn>
+     <mi>m</mi>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <munderover>
+      <mo>↔</mo>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </munderover>
+     <mo stretchy="false">(</mo>
+     <mi>m</mi>
+     <mo>−</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mrow>
+       <mo>⁗</mo>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mi>t</mi>
+     <mi>N</mi>
+     <msub>
+      <mi>i</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mrow>
+       <mo>″</mo>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>k</italic>
+ <sub>1</sub> and 
+ <italic>k</italic>
+ <sub>−1</sub> are the rate constants of the reversible reaction. Hence, Equation (7) is obtained at the equivalence state:
+ <disp-formula id="FD7-nanomaterials-09-01294">
+  <label>(7)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>k</mi>
+      <mn>1</mn>
+     </msub>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>V</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>m</mi>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msup>
+        <mi>i</mi>
+        <mrow>
+         <mo>•</mo>
+         <mo>•</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>t</mi>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msup>
+        <mi>e</mi>
+        <mo>′</mo>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <mo>=</mo>
+     <msub>
+      <mi>k</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>V</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mo>⁗</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mi>m</mi>
+       <mo>−</mo>
+       <mi>t</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msub>
+        <mi>i</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mo>″</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>t</mi>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where [X] denotes the density of X for each reactant. Therefore, the density of electrons [
+ <italic>e</italic>′] can be formulated as in Equation (8):
+ <disp-formula id="FD8-nanomaterials-09-01294">
+  <label>(8)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>k</mi>
+          <mrow>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>⁗</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mrow>
+           <mi>m</mi>
+           <mo>−</mo>
+           <mi>t</mi>
+          </mrow>
+         </msup>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <mi>N</mi>
+           <msub>
+            <mi>i</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>″</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>t</mi>
+         </msup>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>k</mi>
+          <mn>1</mn>
+         </msub>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>m</mi>
+         </msup>
+        </mrow>
+       </mfrac>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msup>
+        <mi>i</mi>
+        <mrow>
+         <mo>•</mo>
+         <mo>•</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mi>t</mi>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

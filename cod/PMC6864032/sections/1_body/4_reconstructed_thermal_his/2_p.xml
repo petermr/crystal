@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">We solved the 1D heat diffusion equation with the finite difference method in a 300 m thick vertical profile considering the variation of physical properties due to the different lithologic units (see Table 
+ <xref rid="MOESM1" ref-type="media">S4</xref> and Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>). We imposed a surface temperature (
+ <italic>T</italic>
+ <sub>surf</sub> = 0 °C) in the uppermost 120 m of the profile to simulate the initial presence of air/water, whereas we have computed the temperature according to a steady state geotherm for the basement (120–300 m). The emplacement of a single lava flow is modelled by increasing the temperature instantaneously from T
+ <sub>surf</sub> to T
+ <sub>magma</sub> (T
+ <sub>magma</sub> = 1240 °C
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup>
+ <sup>,</sup>
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>). In order to study the influence of the timing of the eruption on the cooling rates we performed several simulations by varying the eruption time sequence. Average cooling rates have been estimated as:
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$CR\,(^\circ C/h)=({T}_{magma}-{T}_{closure})/({t}_{closure}-{t}_{emplacement})$$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mi>C</mi>
+    <mi>R</mi>
+    <mspace width=".25em"/>
+    <mo stretchy="false">(</mo>
+    <mo>°</mo>
+    <mi>C</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+      <mi>a</mi>
+      <mi>g</mi>
+      <mi>m</mi>
+      <mi>a</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+      <mi>l</mi>
+      <mi>o</mi>
+      <mi>s</mi>
+      <mi>u</mi>
+      <mi>r</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>/</mo>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+      <mi>l</mi>
+      <mi>o</mi>
+      <mi>s</mi>
+      <mi>u</mi>
+      <mi>r</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>m</mi>
+      <mi>p</mi>
+      <mi>l</mi>
+      <mi>a</mi>
+      <mi>c</mi>
+      <mi>e</mi>
+      <mi>m</mi>
+      <mi>e</mi>
+      <mi>n</mi>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+   <graphic xlink:href="41598_2019_53142_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where T is the temperature in °C and t is the time in hours. Figure 
+ <xref rid="Fig2" ref-type="fig">2</xref> and Table 
+ <xref rid="Tab1" ref-type="table">1</xref> compare the cooling rates calculated using the model from
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> (see Alvaro 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup> for further details) with those determined from the modeled scenarios.
+</p>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par28">and it yields the quantitative estimate of the relative deviation of a current solution 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{calc}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M94">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+      <mi>a</mi>
+      <mi>l</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> from the true solution 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{true}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M96">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>u</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

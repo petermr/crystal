@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">In the MC/MD procedure two dissimilar atom types were randomly selected and swapped with respect to their positions. Then the system was energy-minimised to a convergence level of 10
+ <sup>–14</sup> eV using conjugate-gradient (CG) method using LAMMPS for the relaxed configurations keeping the LP constant for 1800 °C. Then it was subjected to Monte-Carlo swap for which two random dissimilar type atoms were chosen in the system and their positions were interchanged. Again the system was subjected to CG minimisation relaxation with LP for 1800 °C before energy comparison with respect to the previous relaxed configuration. The acceptance of this interchange of atoms was based on probability given by the Metropolis criterion
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>:
+</p>

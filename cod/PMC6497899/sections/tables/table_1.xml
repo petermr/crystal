@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Color coordinates (
+   <italic>x</italic>, 
+   <italic>y</italic>), CCT, and 
+   <italic>R</italic>
+   <sub>
+    <italic>a</italic>
+   </sub> of the WLED device under different injection currents
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Current (mA)</th>
+    <th>
+     <italic>x</italic>
+    </th>
+    <th>
+     <italic>y</italic>
+    </th>
+    <th>CCT</th>
+    <th>
+     <italic>R</italic>
+     <sub>
+      <italic>a</italic>
+     </sub>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>5</td>
+    <td>0.340</td>
+    <td>0.301</td>
+    <td>5046</td>
+    <td>82</td>
+   </tr>
+   <tr>
+    <td>10</td>
+    <td>0.339</td>
+    <td>0.300</td>
+    <td>5095</td>
+    <td>81</td>
+   </tr>
+   <tr>
+    <td>15</td>
+    <td>0.334</td>
+    <td>0.297</td>
+    <td>5311</td>
+    <td>80</td>
+   </tr>
+   <tr>
+    <td>20</td>
+    <td>0.329</td>
+    <td>0.292</td>
+    <td>5700</td>
+    <td>79</td>
+   </tr>
+   <tr>
+    <td>50</td>
+    <td>0.328</td>
+    <td>0.291</td>
+    <td>5815</td>
+    <td>78</td>
+   </tr>
+   <tr>
+    <td>100</td>
+    <td>0.327</td>
+    <td>0.290</td>
+    <td>5849</td>
+    <td>78</td>
+   </tr>
+   <tr>
+    <td>120</td>
+    <td>0.324</td>
+    <td>0.288</td>
+    <td>6119</td>
+    <td>77</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

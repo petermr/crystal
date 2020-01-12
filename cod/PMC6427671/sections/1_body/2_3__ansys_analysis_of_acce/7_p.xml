@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The ANSYS simulation results show that quartz crystal had an obvious potential difference output under the action of acceleration signals. The relationship between electric potential difference and charge is shown in Equations (8) and (9) [
+ <xref rid="B18-sensors-19-01052" ref-type="bibr">18</xref>]: 
+ <disp-formula id="FD8-sensors-19-01052">
+  <label>(8)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>ε</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>⋅</mo>
+       <msub>
+        <mi>ε</mi>
+        <mi mathvariant="normal">r</mi>
+       </msub>
+       <mo>⋅</mo>
+       <mi>A</mi>
+      </mrow>
+      <mi mathvariant="normal">d</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD9-sensors-19-01052">
+  <label>(9)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mi>Q</mi>
+     <mo>=</mo>
+     <mi>C</mi>
+     <mo>×</mo>
+     <mi>U</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

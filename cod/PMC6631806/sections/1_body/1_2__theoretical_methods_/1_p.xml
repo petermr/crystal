@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Consider that there are 
+ <italic>n</italic> chains of 
+ <italic>N</italic>-mers of a linear AB or ABC block copolymer melt in the canonical ensemble of volume 
+ <italic>V</italic>, where each chain comprises 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>A</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>B</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> or 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>A</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>B</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>C</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> monomers having an identical diameter σ and its volume 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">v</mi>
+     <mo>*</mo>
+     <mo>=</mo>
+     <mi>π</mi>
+     <msup>
+      <mi>σ</mi>
+      <mn>3</mn>
+     </msup>
+     <mo>/</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The hard-core volume fraction of j-monomers can then be defined as 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>j</mi>
+     </msub>
+     <mo>/</mo>
+     <mi>N</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The packing density of j-monomers at a local position 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mover accent="true">
+     <mi>r</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is described by an operator 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>η</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which is given by 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>η</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mo>=</mo>
+     <mi mathvariant="normal">v</mi>
+     <mo>*</mo>
+     <mo>/</mo>
+     <mi>V</mi>
+     <mo>⋅</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+       <mi>n</mi>
+      </munderover>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <msubsup>
+          <mo>∫</mo>
+          <mrow>
+           <msubsup>
+            <mi>τ</mi>
+            <mi>j</mi>
+            <mi>s</mi>
+           </msubsup>
+          </mrow>
+          <mrow>
+           <msubsup>
+            <mi>τ</mi>
+            <mi>j</mi>
+            <mi>f</mi>
+           </msubsup>
+          </mrow>
+         </msubsup>
+         <mrow>
+          <mi>d</mi>
+          <mi>τ</mi>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mstyle>
+     <mi>δ</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>−</mo>
+     <msub>
+      <mover accent="true">
+       <mi>r</mi>
+       <mo stretchy="false">→</mo>
+      </mover>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>τ</mi>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mi>δ</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is Dirac’s delta function and 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>r</mi>
+       <mo stretchy="false">→</mo>
+      </mover>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>τ</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denotes the position vector of each j-monomer on an 
+ <italic>i</italic>th chain through parameterization by a contour variable 
+ <italic>τ</italic>. The first and final j-monomers are represented by the symbols 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>τ</mi>
+      <mi>j</mi>
+      <mi>s</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>τ</mi>
+      <mi>j</mi>
+      <mi>f</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, respectively. A field variable 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>η</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is then assigned to each operator 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>η</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in order to describe the j-monomer density at 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mover accent="true">
+     <mi>r</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> over the entire system. The overall density (
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <mo>∑</mo>
+      <mrow>
+       <msub>
+        <mi>η</mi>
+        <mi>j</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mover accent="true">
+        <mi>r</mi>
+        <mo stretchy="false">→</mo>
+       </mover>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) is denoted by 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mi>η</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and a local volume fraction 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is defined as 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo>≡</mo>
+     <msub>
+      <mi>η</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo>/</mo>
+     <mi>η</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In the incompressible extreme, monomers are uniform polyhedrons and completely fill the system volume. Then, 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <mi>η</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">→</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>η</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> becomes identical to 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. 
+</p>

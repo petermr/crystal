@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The pairwise energy contributions to the experimental structures were calculated using CrystalExplorer V17.
+ <sup>
+  <xref ref-type="bibr" rid="ref39">39</xref>−
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> The optimized atomic positions (PBE-TS optimized structures) were used in all subsequent intermolecular interaction energy calculations. The model energies were calculated between all unique nearest neighbor molecular pairs. The model (termed CE-B3LYP) uses B3LYP/6-31G(d,p) molecular wave functions calculated by applying the molecular geometries extracted from the crystal structures. This approach employs electron densities of unperturbed monomers to obtain four separate energy components: electrostatic (
+ <italic>E</italic>
+ <sub>E</sub>), polarization (
+ <italic>E</italic>
+ <sub>P</sub>), dispersion (
+ <italic>E</italic>
+ <sub>D</sub>), and exchange-repulsion (
+ <italic>E</italic>
+ <sub>R</sub>). Each energy term is scaled independently to fit a large training set of B3LYP-D2/6-31G(d,p) counterpoise-corrected energies from both organic and inorganic crystals.
+ <sup>
+  <xref ref-type="bibr" rid="ref40">40</xref>
+ </sup>
+</p>

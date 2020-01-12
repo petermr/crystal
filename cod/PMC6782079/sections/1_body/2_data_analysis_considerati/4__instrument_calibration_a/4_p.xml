@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Several standard samples are measured at the beginning of each cycle for profile calibration. These are Si (SRM 660d), LaB
+ <sub>6</sub> (SRM 660b), Al
+ <sub>2</sub>O
+ <sub>3</sub> (SRM 676a) and Na
+ <sub>2</sub>Al
+ <sub>2</sub>Ca
+ <sub>3</sub>F
+ <sub>14</sub> (Courbion &amp; Ferey, 1988
+ <xref ref-type="bibr" rid="bb10"> ▸</xref>). Several past publications have shown the formulation of peak-shape functions needed to model TOF data (Von Dreele 
+ <italic>et al.</italic>, 1982
+ <xref ref-type="bibr" rid="bb41"> ▸</xref>; David, 1986
+ <xref ref-type="bibr" rid="bb12"> ▸</xref>). Avdeev 
+ <italic>et al.</italic> (2007
+ <xref ref-type="bibr" rid="bb5"> ▸</xref>) have shown some of the additional terms needed for the empirical description of the peak position and profile. Owing to the somewhat different mode of operation at POWGEN as described earlier, we revisited these relationships and special routines were incorporated in 
+ <italic>GSAS-II</italic> (Toby &amp; Von Dreele, 2013
+ <xref ref-type="bibr" rid="bb39"> ▸</xref>) for calibration of the instrument. The peak-shape parameters (Von Dreele 
+ <italic>et al.</italic>, 1982
+ <xref ref-type="bibr" rid="bb41"> ▸</xref>) α (rise coefficient), β (decay coefficient), σ (Gaussian contribution) and γ (Lorentzian contribution) define the shape of the rising and decaying exponentials and the Gaussian and Lorentzian components of the pseudo-Voigt function, respectively. We find that the 
+ <italic>d</italic> dependences of α, β and γ remain unchanged; however, an additional σ term improves the fits significantly. We also find that an additional term is needed to convert TOF, 
+ <italic>T</italic>, to 
+ <italic>d</italic> spacing. These relationships are given below:
+ <disp-formula id="fd5">
+  <graphic xlink:href="j-52-01189-efd5.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>
+ <disp-formula id="fd6">
+  <graphic xlink:href="j-52-01189-efd6.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>
+ <disp-formula id="fd7">
+  <graphic xlink:href="j-52-01189-efd7.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>
+ <disp-formula id="fd8">
+  <graphic xlink:href="j-52-01189-efd8.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>and
+ <disp-formula id="fd9">
+  <graphic xlink:href="j-52-01189-efd9.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>The calibration samples mentioned above are used to find these empirical parameters (α
+ <sub>1</sub>, β
+ <sub>0</sub>, β
+ <sub>1</sub>, σ
+ <sub>0</sub>, σ
+ <sub>1</sub>, σ
+ <sub>2</sub>, σ
+ <sub>q</sub>, γ
+ <sub>0</sub>, γ
+ <sub>1</sub>, γ
+ <sub>2</sub>, DIFC, DIFA, DIFB and ZERO) for the instrument for the commonly used chopper settings in Table 1
+ <xref ref-type="table" rid="table1"> ▸</xref> for both high-resolution and high-intensity guide settings. Some characteristic fits using these parameters are shown in Figs. 4
+ <xref ref-type="fig" rid="fig4"> ▸</xref>(
+ <italic>c</italic>)–4(
+ <italic>e</italic>) for LaB
+ <sub>6</sub> (SRM 660b). The additional sample-dependent broadening needs to be refined separately. For the purposes of determining the resolution of the instrument, the sample-dependent broadening in LaB
+ <sub>6</sub> was fixed to the value determined from high-resolution synchrotron data collected at beamline 11BM at the Advanced Photon Source.
+</p>

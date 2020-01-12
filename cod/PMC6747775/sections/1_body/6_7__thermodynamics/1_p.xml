@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A dehydrogenation enthalpy of about 40 kJ/mol is required in order to meet the dehydrogenation temperature compatible with PEMFCs [
+ <xref rid="B328-materials-12-02724" ref-type="bibr">328</xref>]. This enthalpy value roughly means an equilibrium pressure of 1 bar at room temperature. The equilibrium pressure is a function of the temperature, the dehydrogenation enthalpy, and entropy. It is described by the Van’t Hoff equation [
+ <xref rid="B328-materials-12-02724" ref-type="bibr">328</xref>]: 
+ <disp-formula id="FD14-materials-12-02724">
+  <label>(97)</label>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <mi>ln</mi>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>p</mi>
+          <mrow>
+           <mi>e</mi>
+           <mi>q</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mi>p</mi>
+          <mrow>
+           <mi>e</mi>
+           <mi>q</mi>
+          </mrow>
+          <mn>0</mn>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>H</mi>
+      </mrow>
+      <mi>R</mi>
+     </mfrac>
+     <mo>×</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mi>T</mi>
+     </mfrac>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>S</mi>
+      </mrow>
+      <mi>R</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

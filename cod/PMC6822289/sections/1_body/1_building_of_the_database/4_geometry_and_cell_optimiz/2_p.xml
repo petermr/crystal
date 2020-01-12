@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the DFT optimization, it is important to mention that the unit cells of several structures in the database have more than 1000 atoms and volumes beyond 100 000 Å
+ <sup>3</sup>. Such large volumes and numbers of atoms pose a challenge for performing density function theory in a high-throughput context, informing our choice for the DFT code. Therefore, our choice of the CP2K package is motivated by its efficient DFT implementation, that exploits the mixed Gaussian and plane waves (GPW) method based on pseudopotentials, and the efficient orbital transformation (OT) method for the optimization of the wave function. Since the OT method is not suited for structures with a vanishing DFT gap, in the case of a final band gap smaller than 0.1 eV (a total of only 44 structures) the calculation was flagged, and different settings were used for the workchain, applying diagonalization and smearing (see the 
+ <xref rid="sec5" ref-type="other">Methods</xref> section for the details).
+</p>

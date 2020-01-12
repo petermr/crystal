@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Band structure calculations were performed in the framework of density functional theory in Perdew–Burke–Ernzerhof (PBE) generalized gradient approximation [
+ <xref rid="B59-materials-12-02710" ref-type="bibr">59</xref>] as implemented in VASP [
+ <xref rid="B60-materials-12-02710" ref-type="bibr">60</xref>,
+ <xref rid="B61-materials-12-02710" ref-type="bibr">61</xref>]. SOC was taken into account in all calculations, but for comparison, band gaps were also obtained without SOC. Total energy convergence was better than 1 meV/at for the plane-wave cutoff, varying in the range of 350–500 eV. For consistency, we used the value of 500 eV and an 8 × 8 × 8 
+ <inline-formula>
+  <math id="mm61">
+   <mrow>
+    <mi mathvariant="sans-serif">Γ</mi>
+   </mrow>
+  </math>
+ </inline-formula>-centered Monkhorst–Pack grid for all compounds throughout the calculations with the exception of hybrid functional calculations. In the latter case, we used a cutoff of 350 eV for FeSi, 400 eV for RuSi, and 450 eV for OsSi. Gaussian smearing with a smearing width of 0.026 eV was used. Using these parameters, equilibrium lattice constants were obtained by fitting to the Birch–Murnagan equation of state, allowing for the relaxation of atoms in the unit cell until residual forces were less than 1 meV/Å. The density of states was obtained in VASP on a 32 × 32 × 32 
+ <italic>k</italic>-points grid using tetrahedron integration.
+</p>

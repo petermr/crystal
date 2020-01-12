@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Comparison of the second order elastic constants of the pure elements with that of the MD obtained values of pure elements as well as alloys.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2">Element/alloy</th>
+    <th colspan="3">MD obtained values</th>
+    <th colspan="3">Experimental values</th>
+   </tr>
+   <tr>
+    <th>C
+     <sub>11</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+    <th>C
+     <sub>12</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+    <th>C
+     <sub>44</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+    <th>C
+     <sub>11</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+    <th>C
+     <sub>12</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+    <th>C
+     <sub>44</sub>(eV/Å
+     <sup>3</sup>)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="7">
+     <bold>Elastic constant values for cubic system</bold>
+    </td>
+   </tr>
+   <tr>
+    <td>Hafnium</td>
+    <td>0.8064</td>
+    <td>0.621</td>
+    <td>0.3878</td>
+    <td>0.818</td>
+    <td>0.643</td>
+    <td>0.281</td>
+   </tr>
+   <tr>
+    <td>Niobium</td>
+    <td>1.511</td>
+    <td>0.781</td>
+    <td>0.2112</td>
+    <td>1.529</td>
+    <td>0.824</td>
+    <td>0.177</td>
+   </tr>
+   <tr>
+    <td>Tantalum</td>
+    <td>1.515</td>
+    <td>1.011</td>
+    <td>0.4577</td>
+    <td>1.648</td>
+    <td>0.986</td>
+    <td>0.516</td>
+   </tr>
+   <tr>
+    <td>Zirconium</td>
+    <td>0.6946</td>
+    <td>0.5681</td>
+    <td>0.36</td>
+    <td>0.649</td>
+    <td>0.58</td>
+    <td>0.237</td>
+   </tr>
+   <tr>
+    <td>Initial HEA alloy</td>
+    <td>1.034</td>
+    <td>0.7467</td>
+    <td>0.3241</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+   </tr>
+   <tr>
+    <td>HEA after 10 MC swaps</td>
+    <td>1.007</td>
+    <td>0.7262</td>
+    <td>0.3223</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+   </tr>
+   <tr>
+    <td>HEA after 25 MC swaps</td>
+    <td>0.9978</td>
+    <td>0.7105</td>
+    <td>0.3088</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+   </tr>
+   <tr>
+    <td>HEA after 50 MC swaps</td>
+    <td>0.9936</td>
+    <td>0.7058</td>
+    <td>0.3097</td>
+    <td>—</td>
+    <td>—</td>
+    <td>—</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

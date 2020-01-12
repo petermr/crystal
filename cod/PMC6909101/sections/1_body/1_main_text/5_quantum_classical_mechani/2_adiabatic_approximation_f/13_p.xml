@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0290">In the two-level approximation 
+ <inline-formula>
+  <math id="M139" altimg="si121.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mo linebreak="goodbreak" linebreakstyle="after">−</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1,2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">&lt;</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>: in the initial state the electron is on the donor 1, and in the final state — on the acceptor 2. The corresponding potential energy surfaces of the nuclei 
+ <inline-formula>
+  <math id="M140" altimg="si122.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mn>1,2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the two paraboloids of dimension 
+ <inline-formula>
+  <math id="M141" altimg="si123.svg">
+   <mrow>
+    <mi>M</mi>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="M142" altimg="si123.svg">
+   <mrow>
+    <mi>M</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the number of vibrational degrees of freedom of the crystal, the vertices of which, according to 
+ <xref rid="fd27" ref-type="disp-formula">Eq. (27)</xref>, are displaced relative to each other by the amount 
+ <inline-formula>
+  <math id="M143" altimg="si124.svg">
+   <mrow>
+    <mn>2</mn>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The operator of the total energy of nuclei (
+ <xref rid="fd32" ref-type="disp-formula">Eq. (32)</xref>) has the form
+ <disp-formula id="fd39">
+  <label>(39)</label>
+  <math id="M144" altimg="si125.svg" alttext="Equation 39.">
+   <mrow>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1,2</mn>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mo linebreak="goodbreak">+</mo>
+    <mtext> </mtext>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mtext> </mtext>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mtext> </mtext>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mtext> </mtext>
+     <mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>p</mi>
+            </mrow>
+            <mrow>
+             <mi>ι</mi>
+            </mrow>
+           </msub>
+           <mo linebreak="badbreak">−</mo>
+           <msub>
+            <mrow>
+             <mover accent="true">
+              <mi>p</mi>
+              <mo>˜</mo>
+             </mover>
+            </mrow>
+            <mrow>
+             <mi>ι</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msup>
+       <mo linebreak="badbreak">−</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <msup>
+          <mrow>
+           <mtext> </mtext>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mtext> </mtext>
+         <msubsup>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

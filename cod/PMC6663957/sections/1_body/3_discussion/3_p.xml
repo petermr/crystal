@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par59">The normalization corrects the non-uniformity caused by geometric effects and the non-uniformity of detector responses. The latter does not exist in our simulations, and since the new implementation in STIR can more accurately model the block-type scanner, the non-uniformity in the sinogram and consequently in the image is reduced. Figure 
+ <xref rid="Fig5" ref-type="fig">5</xref>b indicates that the block model produces a uniform cylinder even before normalization. However, there is a small residual of non-uniformity that could be observed in the middle of the cylinder which disappear after normalization (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>d).
+</p>

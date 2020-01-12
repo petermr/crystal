@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par2">Over the past two decades, there have been many studies on acoustic wave manipulations. The periodically structured PCs, metamaterials and metasurfaces are well-designed for applications such as acoustic waveguide
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>,
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup>, acoustic focusing
+ <sup>
+  <xref ref-type="bibr" rid="CR3">3</xref>–
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>, acoustic cloaking
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>
+ </sup>, acoustic collimation
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>,
+  <xref ref-type="bibr" rid="CR12">12</xref>
+ </sup>, and unidirectional transmission
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>–
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>. In particular, in flat focusing, PCs are implemented in many interesting manners, including negative refraction
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>–
+  <xref ref-type="bibr" rid="CR6">6</xref>
+ </sup> and metasurfaces
+ <sup>
+  <xref ref-type="bibr" rid="CR7">7</xref>–
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>. However, most studies focused on Hermitian system, except a few works related to the complex domain
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. Since the concept of 
+ <italic>PT</italic>-symmetry was introduced in Bender’s work
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>–
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>, it began to arouse much interest on research of non-Hermitian systems, which remain invariant under the combination of parity (
+ <italic>P</italic>) and time reversal (
+ <italic>T</italic>) operations. Operator 
+ <italic>P</italic> is defined as: 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\hat{p}\to -\,\hat{p}$$\end{document}</tex-math>
+   <math id="M2">
+    <mover accent="true">
+     <mi>p</mi>
+     <mo>ˆ</mo>
+    </mover>
+    <mo>→</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mover accent="true">
+     <mi>p</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\hat{x}\to -\,\hat{x}$$\end{document}</tex-math>
+   <math id="M4">
+    <mover accent="true">
+     <mi>x</mi>
+     <mo>ˆ</mo>
+    </mover>
+    <mo>→</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mover accent="true">
+     <mi>x</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, while operator 
+ <italic>T</italic> is: 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\hat{p}\to -\,\hat{p}$$\end{document}</tex-math>
+   <math id="M6">
+    <mover accent="true">
+     <mi>p</mi>
+     <mo>ˆ</mo>
+    </mover>
+    <mo>→</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mover accent="true">
+     <mi>p</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\hat{x}\to \hat{x}$$\end{document}</tex-math>
+   <math id="M8">
+    <mover accent="true">
+     <mi>x</mi>
+     <mo>ˆ</mo>
+    </mover>
+    <mo>→</mo>
+    <mover accent="true">
+     <mi>x</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$i\to -\,i$$\end{document}</tex-math>
+   <math id="M10">
+    <mi>i</mi>
+    <mo>→</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mi>i</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which requires the non-Hermitian systems to satisfy the condition: 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$V(\,-\,x)={V}^{\ast }(x)$$\end{document}</tex-math>
+   <math id="M12">
+    <mi>V</mi>
+    <mo stretchy="false">(</mo>
+    <mspace width="-.25em"/>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mo>⁎</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. This condition is different from previous works and results in the emergence of the conjugate complex modulus, which has been widely explored in theory for electronic and optical systems
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>–
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>, and has introduced many interesting features.
+</p>

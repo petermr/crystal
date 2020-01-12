@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We have performed ab initio DFPT calculations
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>
+ </sup> within the LDA with the ABINIT code
+ <sup>
+  <xref ref-type="bibr" rid="ref34">34</xref>,
+  <xref ref-type="bibr" rid="ref35">35</xref>
+ </sup> of TSLs with a period of 3, 4, and 9 nm. The latter compares directly with a periodicity of the twins found in some of the samples investigated experimentally. We use hexagonal cells, containing 
+ <italic>N</italic> = 10, 12, and 30 monolayers, for the three TSLs studied. Notice that to satisfy periodic boundary conditions an even number of twin defects, placed along the ZB [111] crystal axis, must be included and thus the computational cells used in the calculations contain two twin planes. The Brillouin zone was sampled with a converged grid of 16 × 16 × 
+ <italic>M</italic>, with 
+ <italic>M</italic> taking values of 3, 2, and 1 going from the smallest to the largest cell. The calculations have been performed in a bulk system, as we do not expect the vibrational properties of NWs of these characteristic diameters to be affected by confinement. We compute the Raman susceptibility tensor from the third derivative of the total energy: twice with respect to the application of an electric field (i.e., incident and scattered light polarization vectors) and once with respect to the phonon displacement coordinates, making use of the 2
+ <italic>n</italic> + 1 theorem.
+ <sup>
+  <xref ref-type="bibr" rid="ref50">50</xref>
+ </sup> Given the sensitivity of the energy derivatives to the quality of the converged wave functions, a high plane wave cutoff of 38 Ha, an energy cutoff for the fine fast Fourier transform of 76 Ha, and a strict convergence criterion of the wave function residual norm of 10
+ <sup>–22</sup> were used.
+</p>

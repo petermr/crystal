@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Equation 
+ <xref rid="Equ1" ref-type="">1</xref> is reduced to (2 + 1) dimensions. Thus, we could obtain a coupled equation set from Eq. 
+ <xref rid="Equ1" ref-type="">1</xref> where 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${D}_{i}={D}_{i}({\bf{r}},{\bf{R}},{R}_{0})$$\end{document}</tex-math>
+   <math id="M12">
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo>,</mo>
+    <mi mathvariant="bold">R</mi>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The explicit form of 
+ <italic>D</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is given by the following expression.
+ <disp-formula id="Equa">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${D}_{i}={{\rm{\Psi }}}_{i}(r){\rm{\Phi }}(R){e}^{-iw{R}_{0}},{\rm{\Phi }}(R)={e}^{-i{\bf{k}}.{\bf{R}}}$$\end{document}</tex-math>
+   <math id="M14" display="block">
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi mathvariant="normal">Φ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>R</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mi>i</mi>
+      <mi>w</mi>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </msup>
+    <mo>,</mo>
+    <mi mathvariant="normal">Φ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>R</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mi>i</mi>
+      <mi mathvariant="bold">k</mi>
+      <mo>.</mo>
+      <mi mathvariant="bold">R</mi>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equa.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

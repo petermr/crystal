@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0050">The work is performed using first-principles calculations. The calculations were carried out using the pseudopotential [
+ <xref rid="bib4" ref-type="bibr">4</xref>] density functional theory SIESTA code [
+ <xref rid="bib5" ref-type="bibr">5</xref>] within the local density approximation to the exchange and correlation interactions between electrons [
+ <xref rid="bib6" ref-type="bibr">6</xref>]. The valence states were expressed as linear combinations of the Sankey-Niklewski-type numerical atomic orbitals [
+ <xref rid="bib5" ref-type="bibr">5</xref>]. In the present calculations, the polarized double-ζ functions (DZP) were assigned for all species. This means two sets of s- and p-orbitals plus one set of d-orbitals on silicon atoms, and two sets of s-orbitals plus a set of p-orbitals on hydrogen atoms. The electron density and potential terms were calculated on a real space grid with the spacing equivalent to a plane-wave cut-off of 200 Ry. The calculations were performed using 6 layers thick slabs (7 layer slabs for the (16 × 2) reconstruction) terminated by hydrogen from one side. A 18 Å thick vacuum layer was used. We used specific k-point grids for each surface reconstruction/slab, depending on its respective lateral dimensions, namely: 2 × 2 × 1 for (1 1 0)-(5 × 8) and 
+ <italic>c</italic>(8 × 10), 1 × 4 × 1 for (1 1 0)-(16 × 2), and 2 × 4 × 1 for (17 15 1)-(2 × 1) [
+ <xref rid="bib11" ref-type="bibr">11</xref>]. The positions of all slab atoms (except for the Si atoms in two layers at the bottom and all H atoms) were fully optimized until the atomic forces became less than 0.01 eV/Å. In the bulk case, our calculation yields a cubic lattice constant of Si 
+ <italic>a</italic>
+ <sub>0</sub> = 5.420 Å.
+</p>

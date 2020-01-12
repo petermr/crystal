@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This method uses the heading angle α measured by an IMU, because the heading angle calculated by a photoelectric odometer cannot accurately reflect the heading angle of the delivery robot. However, considering that MEMS gyro sensors and magnetic sensors in the IMU are susceptible to zero-point drift, white noise, temperature, acceleration, integral errors, and changing magnetic fields, the error in the data over a short period of time may be relatively large. If the data in the sampling period interval fluctuates considerably, the change in the heading angle will be significant, and the heading angle for the food delivery robot will not be accurate. Therefore, the heading angle change 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> calculated by the photoelectric odometer is still used in the improved odometer positioning method. The formulas of the improved odometer positioning method formulas are as follows, where 
+ <inline-formula>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>X</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>Y</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the coordinates of the delivery robot [
+ <xref rid="B25-sensors-19-04980" ref-type="bibr">25</xref>]. 
+ <disp-formula id="FD11-sensors-19-04980">
+  <label>(11)</label>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>X</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>ob</mi>
+      </mrow>
+     </msub>
+     <mo>×</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+     <mo>×</mo>
+     <mi>cos</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>α</mi>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="script">Δ</mi>
+         <mi>θ</mi>
+        </mrow>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD12-sensors-19-04980">
+  <label>(12)</label>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>ob</mi>
+      </mrow>
+     </msub>
+     <mo>×</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+     <mo>×</mo>
+     <mi>sin</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>α</mi>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mi mathvariant="script">Δ</mi>
+         <mi>θ</mi>
+        </mrow>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD13-sensors-19-04980">
+  <label>(13)</label>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>X</mi>
+     <mo>=</mo>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>X</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>X</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD14-sensors-19-04980">
+  <label>(14)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <mi>L</mi>
+     <mi>o</mi>
+     <mi>c</mi>
+     <mi>a</mi>
+     <mi>t</mi>
+     <mi>i</mi>
+     <mi>o</mi>
+     <mi>n</mi>
+     <mi>Y</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>Y</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

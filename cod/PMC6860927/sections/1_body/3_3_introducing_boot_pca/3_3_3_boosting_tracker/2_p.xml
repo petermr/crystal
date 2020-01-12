@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The standard protocol [
+ <xref rid="pone.0225041.ref020" ref-type="bibr">20</xref>] of the 
+ <italic>boosting</italic> method is illustrated in 
+ <xref ref-type="fig" rid="pone.0225041.g006">Fig 6</xref> and the Pseudocode is outlined below in Algorithm. 1. The algorithm takes as input a training set (
+ <italic>x</italic>
+ <sub>1</sub>,
+ <italic>y</italic>
+ <sub>1</sub>), (
+ <italic>x</italic>
+ <sub>2</sub>, 
+ <italic>y</italic>
+ <sub>2</sub>),…, (
+ <italic>x</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>, 
+ <italic>y</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>) where each (
+ <italic>x</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>) belongs to a domain space 
+ <italic>X</italic>, and each label 
+ <italic>y</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is in label set 
+ <italic>Y</italic>. Here we assume Y = {−1, +1}. A key idea of the algorithm is to maintain a distribution of weights over all examples in the training set. The weight of this distribution on training example 
+ <italic>i</italic> on round 
+ <italic>t</italic> is denoted as 
+ <italic>D</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>(
+ <italic>i</italic>).
+</p>

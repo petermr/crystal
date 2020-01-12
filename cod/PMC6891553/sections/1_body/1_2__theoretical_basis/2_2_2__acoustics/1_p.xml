@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The behavior of an acoustic system is characterized by its transfer function, 
+ <italic>H</italic>(
+ <italic>f</italic>), which can be obtained as the Fourier transform of the impulse response, 
+ <italic>h</italic>(
+ <italic>t</italic>). If the impulse response is known, when the system is excited by an arbitrary input, the output signal can be calculated as follows:
+ <disp-formula id="FD4-sensors-19-04881">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>o</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>i</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>⊗</mo>
+     <mi>h</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mo>∫</mo>
+      <mrow>
+       <mo>−</mo>
+       <mo>∞</mo>
+      </mrow>
+      <mo>∞</mo>
+     </msubsup>
+     <mi>i</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="sans-serif">τ</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>·</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo>−</mo>
+     <mrow>
+      <mtext> </mtext>
+      <mi mathvariant="sans-serif">τ</mi>
+     </mrow>
+     <mo stretchy="false">)</mo>
+     <mo>·</mo>
+     <mrow>
+      <mi mathvariant="normal">d</mi>
+      <mi mathvariant="sans-serif">τ</mi>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>o</italic>(
+ <italic>t</italic>) is the time domain output, 
+ <italic>i</italic>(
+ <italic>t</italic>) is the time domain input, and the symbol 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mo>⊗</mo>
+   </mrow>
+  </math>
+ </inline-formula> stands for convolution. Equation (2) can be translated to the frequency domain as follows:
+ <disp-formula id="FD5-sensors-19-04881">
+  <label>(5)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>O</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>·</mo>
+     <mi>H</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>O</italic>(
+ <italic>f</italic>) is the output of the complex frequency domain and 
+ <italic>I</italic>(
+ <italic>f</italic>) is the input of the complex frequency domain. Assuming that the system is linear and invariable in time, the impulse response can be measured using a sine sweep signal. This technique has been employed for a long time for audio and acoustics measurements, but in the last two decades, it has become more popular within the scientific community, thanks to the computational capabilities of modern computers and the additional possibility of measuring simultaneously the distortion [
+ <xref rid="B39-sensors-19-04881" ref-type="bibr">39</xref>]. 
+</p>

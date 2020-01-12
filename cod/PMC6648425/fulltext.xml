@@ -1,0 +1,400 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6648425</article-id><article-id pub-id-type="pmid">31460194</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b01049</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>First-Principles Study of Anisotropic Oxygen Diffusion
+in PrBaCo<sub>2</sub>O<sub>5.5</sub></article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Kim</surname><given-names>Inseo</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Choi</surname><given-names>Minseok</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><sup>&#x02020;</sup>Department
+of Physics and <sup>&#x02021;</sup>Institute of Advanced Computational Science, <institution>Inha University</institution>, Incheon 22212, <country>Republic of Korea</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>minseok.choi@inha.ac.kr</email>. Phone: <phone>+82-32-860-7656</phone>. Fax: <fax>+82-32-872-7562</fax>.</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>06</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>30</day><month>06</month><year>2019</year></pub-date><volume>4</volume><issue>6</issue><fpage>10960</fpage><lpage>10964</lpage><history><date date-type="received"><day>12</day><month>04</month><year>2019</year></date><date date-type="accepted"><day>11</day><month>06</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-01049f_0005" id="ab-tgr1"/></p><p>We address the anisotropic oxygen
+diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub> using first-principles
+calculations based on the
+density functional theory. First, the experimentally observed magnetic
+properties such as ferromagnetic, ferrimagnetic, and paramagnetic
+phases are examined through systematic consideration of cobalt spin
+ordering and oxygen vacancy position. Then, the diffusion mechanism
+of an oxygen atom, assumed to be externally supplied, is explored
+by evaluating the oxygen migration barriers with the formation of
+one-dimensional oxygen-vacancy channel.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b01049</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-01049f</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Double perovskite RBaCo<sub>2</sub>O<sub>6-<italic>x</italic></sub> (R = Y, La&#x02013;Ho:
+rare earth elements, 0 &#x02264; <italic>x</italic> &#x02264; 1) has
+been investigated because of its various
+properties such as complicated magnetic structures, metal&#x02013;insulator
+transition, and fast oxygen diffusion.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref9">9</xref></sup> Experiments have shown that cobalt 3d spin ordering and oxygen vacancy
+formation play a key role in the emergence of the properties, but
+understanding of their impact on the properties is still quite limited.
+Regarding PrBaCo<sub>2</sub>O<sub>5.5</sub>, a neutron and synchrotron
+experiment study<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> observed cobalt ions
+at the center of the oxygen octahedra (Co<sub>Oct</sub>) with the
+high spin (HS) state (<italic>t</italic><sub>2g</sub><sup arrange="stack">4</sup><italic>e</italic><sub><italic>g</italic></sub><sup arrange="stack">2</sup>, <italic>S</italic> = 2) and a spin transition to the low spin (LS) state (<italic>t</italic><sub>2g</sub><sup arrange="stack">6</sup><italic>e</italic><sub>g</sub><sup arrange="stack">0</sup>, <italic>S</italic> = 0) at high temperature, while cobalt spin
+state inside the oxygen pyramids (Co<sub>Py</sub>) remains in the
+intermediate spin (IS) state (<italic>t</italic><sub>2g</sub><sup arrange="stack">5</sup><italic>e</italic><sub>g</sub><sup arrange="stack">1</sup>, <italic>S</italic> = 1). This leads to an antiferromagnetic-to-ferromagnetic transition
+at 215 K and a ferromagnetic-to-paramagnetic transition at 245 K.
+Zhang et al. also found such magnetic phase transitions at 145 and
+195 K in PrBaCo<sub>2</sub>O<sub>5.5</sub> and proposed the temperature-induced
+spin transition of cobalt from IS to HS.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> Another neutron diffraction study reported the absence of ferromagnetic
+ordering and observed an antiferromagnetic-to-ferrimagnetic transition
+at 237 K and a ferrimagnetic-to-paramagnetic transition at 255 K.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> This study suggests that the spin states of
+Co<sub>Oct</sub> and Co<sub>Py</sub> are, respectively, the mixed
+HS&#x02013;IS and the mixed IS&#x02013;LS states below 340 K; those
+acquire the IS state at higher temperature.</p><p>Above room temperature,
+an electronic transition, i.e., metal&#x02013;insulator
+transition, occurs in PrBaCo<sub>2</sub>O<sub>5.5</sub>; this has
+been more consistently observed compared to above the magnetic transitions.
+The metal&#x02013;insulator transition is found at 330&#x02013;350 K,
+with a structural change from orthorhombic (space group <italic>Pmma</italic>) to another orthorhombic structure (space group <italic>Pmmm</italic>).<sup><xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref></sup> Furthermore, the vacancy order&#x02013;disorder transition is measured
+at 776 K, leading to the transition from an orthorhombic to a tetragonal
+structure (space group <italic>P</italic>4/<italic>mmm</italic>),
+resulting from the rearrangement of oxygen vacancies.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>Owing to the fast oxygen diffusion, there is great
+interest in
+PrBaCo<sub>2</sub>O<sub>6-<italic>x</italic></sub> as promising
+cathode or electrolyte for the so-called intermediate-temperature
+solid-oxide fuel cells working in the temperature range of 500&#x02013;700
+&#x000b0;C.<sup><xref ref-type="bibr" rid="ref14">14</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> Although solid-oxide fuel cells have advantages such as high efficiency,
+fast reaction kinetics, fuel flexibility, and low emission of pollutants,
+their high operating temperature causes issues of degradation of cell
+materials, need for high-temperature-tolerant materials, and delay
+in start-up time.<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref20">20</xref></sup> Therefore, huge efforts have
+been made recently to develop an intermediate-temperature solid-oxide
+fuel cells, and a comprehensive understanding of oxygen diffusion
+in the candidate oxide such as PrBaCo<sub>2</sub>O<sub>6&#x02013;<italic>x</italic></sub> is of primary importance.</p><p>Experiments have
+consistently reported that oxygen atoms anisotropically
+diffuse through the oxide. An isotope-exchange depth profile study
+found anisotropic diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub> with
+an activation energy of 1.02 eV by monitoring the differently oriented
+grains.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> The detailed pathway of diffusion
+in PrBaCo<sub>2</sub>O<sub>5.357</sub> was described as an interlayer
+migration between the Pr&#x02013;O and Co&#x02013;O layers using the
+neutron diffraction method.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Oxygen diffusion
+has also been investigated by computational approaches, but there
+are variations in the calculated results. A classical molecular dynamics
+study found anisotropic oxygen diffusion crossing the Pr&#x02013;O
+and Co&#x02013;O layers,<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> and similar result
+for oxygen vacancy migration was reported by first-principles calculation
+based on density functional theory,<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> although
+these provide much lower energy barriers for the migration (0.35<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> and 0.47 eV<sup><xref ref-type="bibr" rid="ref24">24</xref></sup>) in
+PrBaCo<sub>2</sub>O<sub>5.5</sub>. On the contrary, another computational
+work employing data-mining technique showed that the dominant diffusion
+would be given by the intralayer migration at the Co&#x02013;O layers,
+having the lowest energy barrier in the calculations.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup></p><p>In the present study, our aim is to figure out the
+microscopic
+pathway of oxygen diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub>.
+We perform the first-principles density functional calculations with
+the Hubbard-<italic>U</italic> correction method. We first look at
+how cobalt spin ordering and oxygen vacancy influence the magnetic
+and electronic properties of PrBaCo<sub>2</sub>O<sub>5.5</sub>, and
+the experimental and theoretical observations in literatures are discussed
+for comparison. Oxygen diffusion is then investigated in terms of
+migration energy barrier based on convincing magnetic and crystal
+structures. One thing should be emphasized here is that our calculations
+consider one extra oxygen atom to elucidate more practical situation,
+which is the oxygen diffusion through the oxide in fuel cell devices.
+Previous computational studies have examined how the oxygen vacancy
+migrates, instead of oxygen atoms externally injected, by maintaining
+the chemical composition of the host oxides.<sup><xref ref-type="bibr" rid="ref21">21</xref>&#x02212;<xref ref-type="bibr" rid="ref25">25</xref></sup></p></sec><sec id="sec2"><label>2</label><title>Results and Discussion</title><p><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> shows the
+crystal structure of an orthorhombic PrBaCo<sub>2</sub>O<sub>5.5</sub>. The structure of PrBaCo<sub>2</sub>O<sub>5.5</sub> is modeled by
+doubling the mother material PrBaCo<sub>2</sub>O<sub>6</sub> with
+an oxygen vacancy. Along the (001) crystal direction in the oxide,
+the Pr&#x02013;O and the Ba&#x02013;O atomic layers are alternately
+ordered, and the Co&#x02013;O atomic layers are positioned between
+the Pr&#x02013;O and the Ba&#x02013;O layers. There are two types of
+cobalt ions, Co<sub>Oct</sub> and Co<sub>Py</sub>, in PrBaCo<sub>2</sub>O<sub>5.5</sub> due to the presence of oxygen vacancy, while only
+Co<sub>Oct</sub> exists in PrBaCo<sub>2</sub>O<sub>6</sub>.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Unit cell structures
+of PrBaCo<sub>2</sub>O<sub>5.5</sub>, with
+one oxygen vacancy (gray) (a) at the Pr&#x02013;O layer and (b) at
+the Co&#x02013;O layer. Octahedral and pyramidal environment are formed
+by six and five nearest-neighbor oxygen ions (red), respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-01049f_0001" id="gr1" position="float"/></fig><p>Prior to examining the oxygen
+diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub>, magnetic configurations
+and the most likely position of
+oxygen vacancies should be investigated, since they determine the
+stable magnetic and crystal structures in which oxygen atoms diffuse.
+Again, we aim to address the diffusion of oxygen atom that is assumed
+to be externally injected. Experiments have shown that oxygen vacancies
+are concentrated at the Pr&#x02013;O layers, and our results also indicate
+that oxygen vacancy is most likely to form at the Pr&#x02013;O layers
+(<italic>V</italic><sub>O@PrO</sub>) compared to that at the Co&#x02013;O
+layers (<italic>V</italic><sub>O@CoO</sub>) and at the Ba&#x02013;O
+layers (<italic>V</italic><sub>O@BaO</sub>) when the lattice parameters
+of the vacancy containing simulation cells were fully relaxed. For
+example, <italic>V</italic><sub>O@PrO</sub> is more stable than <italic>V</italic><sub>O@CoO</sub> by 0.77 eV and <italic>V</italic><sub>O@BaO</sub> by 3.06 eV in the paramagnetic phase. Therefore, the
+lattice constant of the structure obtained with <italic>V</italic><sub>O@PrO</sub> is used even for the calculation of <italic>V</italic><sub>O@CoO</sub> and <italic>V</italic><sub>O@BaO</sub>. The calculated
+lattice constants for <italic>V</italic><sub>O@PrO</sub> are summarized
+for comparison with the experimental values in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Calculated Lattice
+Constants for Ferromagnetic,
+Ferromagnetic, and Paramagnetic Phases, Having One Oxygen Vacancy
+at the Pr&#x02013;O Layer<xref rid="t1fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center" char=".">ferromagnetic</th><th style="border:none;" align="center" char=".">ferrimagnetic</th><th style="border:none;" align="center" char=".">paramagnetic</th><th style="border:none;" align="center" char=".">experiment<sup><xref ref-type="bibr" rid="ref5">5</xref></sup></th></tr></thead><tbody><tr><td style="border:none;" align="left"><italic>a</italic> (&#x000c5;)</td><td style="border:none;" align="char" char=".">3.966</td><td style="border:none;" align="char" char=".">3.965</td><td style="border:none;" align="char" char=".">3.907</td><td style="border:none;" align="char" char=".">3.908</td></tr><tr><td style="border:none;" align="left"><italic>b</italic> (&#x000c5;)</td><td style="border:none;" align="char" char=".">3.997</td><td style="border:none;" align="char" char=".">4.008</td><td style="border:none;" align="char" char=".">4.043</td><td style="border:none;" align="char" char=".">3.937</td></tr><tr><td style="border:none;" align="left"><italic>c</italic> (&#x000c5;)</td><td style="border:none;" align="char" char=".">7.813</td><td style="border:none;" align="char" char=".">7.798</td><td style="border:none;" align="char" char=".">7.812</td><td style="border:none;" align="char" char=".">7.611</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Experimental values are included
+for comparison.</p></fn></table-wrap-foot></table-wrap><p>By taking
+into account several arrangements of Co 3d spins and
+oxygen vacancies, our calculations indicate that ferromagnetic, ferrimagnetic,
+and paramagnetic orderings are energetically likely to emerge in the
+oxide (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>), and <italic>V</italic><sub>O@PrO</sub> is more likely to form than <italic>V</italic><sub>O@CoO</sub>. The results explain the experimental<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref></sup> and theoretical literatures<sup><xref ref-type="bibr" rid="ref23">23</xref>&#x02212;<xref ref-type="bibr" rid="ref25">25</xref></sup> reporting the concentrated oxygen vacancies at the Pr&#x02013;O layers. <italic>V</italic><sub>O@PrO</sub> is more stable than <italic>V</italic><sub>O@CoO</sub> by 1.05 eV in the ferromagnetic and by 0.71 eV in
+the ferrimagnetic phase. Structurally, the local atomic configuration
+around <italic>V</italic><sub>O@PrO</sub> is not remarkably changed,
+while it shows a strong distortion around <italic>V</italic><sub>O@CoO</sub>. We also find that the ferromagnetic spin ordering dramatically
+stabilizes the formation of <italic>V</italic><sub>O@PrO</sub> than
+does the paramagnetic ordering. <italic>V</italic><sub>O@PrO</sub> is more stable in the ferromagnetic phase than in the paramagnetic
+phase by 0.92 eV. On the other hand, <italic>V</italic><sub>O@PrO</sub> shows similar stability both in the ferromagnetic and ferrimagnetic
+phases. The energy difference of <italic>V</italic><sub>O@PrO</sub> between the two phases is calculated to be only 0.01 eV. Such a
+small difference seems to explain the controversial experimental observation
+of ferromagnetic and ferrimagnetic phases.<sup><xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref12">12</xref></sup> Regarding <italic>V</italic><sub>O@CoO</sub>, the vacancy in the ferromagnetic phase
+is less stable than that in the ferrimagnetic phase by 0.33 eV, differing
+from the <italic>V</italic><sub>O@PrO</sub> case. <italic>V</italic><sub>O@BaO</sub> is quite unlikely to from in the oxide compared
+to <italic>V</italic><sub>O@PrO</sub>. <italic>V</italic><sub>O@BaO</sub> is found to be less stable than <italic>V</italic><sub>O@PrO</sub> by 1.84 eV in the ferromagnetic phase, by 1.93 eV in the ferromagnetic
+phase, and by 3.10 eV in the paramagnetic phase.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Possible configurations
+with the consideration of spin ordering
+and oxygen vacancy positions. (a, c, e) Oxygen vacancy formed at the
+Pr&#x02013;O layer. (b, d, f) Oxygen vacancy formed at the Co&#x02013;O
+layer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-01049f_0002" id="gr2" position="float"/></fig><p>Moving to electronic property,
+the calculated density of states
+for <italic>V</italic><sub>O@PrO</sub> in PrBaCo<sub>2</sub>O<sub>5.5</sub> are shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>. PrBaCo<sub>2</sub>O<sub>5.5</sub> exhibits a metallic feature
+irrespective of the magnetic ordering, and the states at the Fermi
+level are characterized by the Co 3d&#x02013;O 2p hybridization. Co<sub>Oct</sub> and Co<sub>Py</sub> possess, respectively, 2.60 and 2.21
+&#x003bc;<italic><sub>B</sub></italic> in the paramagnetic-metal phase,
+which correspond to the IS states with slightly larger values than
+the ideal value (2 &#x003bc;<sub><italic>B</italic></sub>) for the IS
+state. This is consistent with the experimental suggestion by Miao
+et al.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> but differs from other suggestions
+that explain the metal&#x02013;insulator transition.<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup> In the ferromagnetic phase, Co<sub>Oct</sub> has 2.63 &#x003bc;<sub><italic>B</italic></sub> and Co<sub>Py</sub> does 3.10 &#x003bc;<sub><italic>B</italic></sub>, and they have the same values in the ferrimagnetic
+phase.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Density of states for three magnetic phases having one oxygen vacancy
+at the Pr&#x02013;O layer. The Fermi level is set as zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-01049f_0003" id="gr3" position="float"/></fig><p>It is noteworthy that our results do not agree
+with the experimental
+finding of the electronic properties; in addition, the paramagnetic&#x02013;insulator
+phase could not be reproduced in the calculations. Ferromagnetic and
+ferrimagnetic phases are experimentally known to be insulating, and
+paramagnetic phase is also insulating below room temperature and becomes
+metallic at higher temperature in conjunction with a structural symmetry
+change from <italic>Pmma</italic> to <italic>Pmmm</italic>. In fact,
+one previous density functional study also reported that PrBaCo<sub>2</sub>O<sub>5.5</sub> is metallic.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Thus,
+it cannot be excluded that the discrepancy may arise from the limit
+of computational approach in the present work. However, our main aim
+is to address the oxygen diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub>, and we believe our computational approach provides a better understanding
+of the microscopic mechanism of oxygen diffusion in the oxide. In
+practice, the following results in the present work explain well the
+experimental observations.</p><p>Finally, we attempt to address oxygen
+diffusion in terms of migration
+barriers. The paramagnetic phase is chosen for the calculations, since
+it may correspond to the temperature range of interest for the intermediated
+temperature fuel cell application. Our calculations are carried out
+based on the following reasoning. To practically simulate the oxygen
+diffusion process in the case that PrBaCo<sub>2</sub>O<sub>5.5</sub> is implemented in the fuel cell device, one added oxygen atom is
+assumed to be externally supplied as a fuel. When an oxygen atom comes
+into the oxide, at the beginning, the oxygen may prefer to occupy
+one of the oxygen vacancies or to be positioned near the vacant sites
+in the one-dimensional vacancy channel-like structure formed at the
+Pr&#x02013;O layers. In case of the former, the possible path of oxygen
+migration to the next position would be six by crystal symmetry, as
+illustrated in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. The migration energy barriers for the six paths thus determine
+the most likely diffusion path in terms of energy. It is also expected
+that the position of oxygen in the latter case may appear to be the
+lowest energy point between the calculated migration path. We exclude
+the Ba&#x02013;O layers in which the formation of oxygen vacancy is
+highly unlikely, as we discussed above.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Six migration paths for
+oxygen atom. Black solid circle denotes
+the oxygen vacancies, and blue arrow indicates the one-dimensional
+oxygen vacancy channel along the <italic>a</italic>-axis. Several
+sites of oxygen ion, corresponding to paths 1&#x02013;6, are pointed
+as a number.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-01049f_0004" id="gr4" position="float"/></fig><p>As shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>, the oxygen ion
+site 1&#x02013;2 represent the oxygen migration along
+the channel in the Pr&#x02013;O layers (path 1). Sites 1&#x02013;3 and
+1&#x02013;4 correspond to the migration from the Pr&#x02013;O layer
+to the Co&#x02013;O layer (paths 2 and 3, respectively). Sites 3&#x02013;4,
+3&#x02013;5, and 4&#x02013;6 are responsible for the oxygen migration
+in the Co&#x02013;O layers (paths 4&#x02013;6, respectively). The calculated
+energy barriers are summarized in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>. The oxygen diffusion path is found to be
+highly anisotropic and have a two-dimensional network, possibly moving
+in a zigzag manner. Oxygen atom migration along path 2 is energetically
+favorable, and the calculated energy barrier is 0.99 eV, which is
+close to the experimental values of 1.02 eV obtained using the isotope
+exchange depth profile method<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> and 1.20
+eV extracted using the Arrhenius plot based on the area specific resistance.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> The results lead us to conclude that when an
+oxygen atom comes into the oxide, it favors to move across the atomic
+layers along the (011) (and symmetrically identical) direction, which
+is perpendicular to the one-dimensional oxygen-vacancy channel. This
+explains a neutron diffraction study reporting the alternate movement
+of oxygen from the Pr&#x02013;O to Co&#x02013;O layers or vice versa
+in the tetragonal PrBaCo<sub>2</sub>O<sub>5.357.</sub><sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Similar anisotropic pathways for vacancy migration
+in PrBaCo<sub>2</sub>O<sub>5.5</sub> was suggested with lower-energy
+barriers by the previous theoretical studies, although these studies
+do not examine an externally injected oxygen atom like in the present
+work but the oxygen vacancy. A classical molecular dynamics simulation
+reports anisotropic vacancy migration with an energy barrier of 0.35
+eV in the temperature range from 650 to 1000 &#x000b0;C.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> An earlier density functional study also suggests that
+oxygen migration between the Pr&#x02013;O and Co&#x02013;O layers is
+favorable in ferromagnetic (and metallic) orthorhombic PrBaCo<sub>2</sub>O<sub>5.5</sub>, and the energy barrier for migration is calculated
+to be 0.47 eV.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup></p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Calculated
+Migration Barriers for
+Paths 1&#x02013;6</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center" char=".">path</th><th style="border:none;" align="center">sites</th><th style="border:none;" align="center">migration
+barrier (eV)</th></tr></thead><tbody><tr><td style="border:none;" align="left">Intra Pr&#x02013;O layer</td><td style="border:none;" align="char" char=".">1</td><td style="border:none;" align="left">1&#x000a0;&#x02192;&#x000a0;2</td><td style="border:none;" align="left">1.27</td></tr><tr><td rowspan="2" style="border:none;" align="left">Pr&#x02013;O&#x000a0;to&#x000a0;Co&#x02013;O&#x000a0;layer or vice versa</td><td style="border:none;" align="char" char=".">2</td><td style="border:none;" align="left">1&#x000a0;&#x02192;&#x000a0;3</td><td style="border:none;" align="left">0.99</td></tr><tr><td style="border:none;" align="char" char=".">3</td><td style="border:none;" align="left">1&#x000a0;&#x02192;&#x000a0;4</td><td style="border:none;" align="left">1.79</td></tr><tr><td rowspan="3" style="border:none;" align="left">Intra Co&#x02013;O layer</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="left">3&#x000a0;&#x02192;&#x000a0;4</td><td style="border:none;" align="left">1.20</td></tr><tr><td style="border:none;" align="char" char=".">5</td><td style="border:none;" align="left">3&#x000a0;&#x02192;&#x000a0;5</td><td style="border:none;" align="left">1.69</td></tr><tr><td style="border:none;" align="char" char=".">6</td><td style="border:none;" align="left">4&#x000a0;&#x02192;&#x000a0;6</td><td style="border:none;" align="left">2.72</td></tr></tbody></table></table-wrap><p>However,
+another molecular dynamics simulation with data mining
+proposes that oxygen migration is constrained to the Co&#x02013;O layers
+in PrBaCo<sub>2</sub>O<sub>5.5</sub> with the barrier of 0.27 eV.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> According to our results, a much higher migration
+barrier (1.20 eV) should be overcome for migration to the Co&#x02013;O
+layers, and it seems that the discrepancy comes from the missing quantum
+mechanical description of a strong Co&#x02013;O chemical bonding and
+dealing with high temperature up to 1573 K in ref (<xref ref-type="bibr" rid="ref25">25</xref>).</p></sec><sec id="sec3"><label>3</label><title>Conclusions</title><p>We have carried out first-principle calculations to investigate
+the oxygen diffusion in double perovskite PrBaCo<sub>2</sub>O<sub>5.5</sub>. Ferromagnetic, ferrimagnetic, and paramagnetic phases,
+which were experimentally reported, were found with one oxygen vacancy.
+All of the magnetic phases were electronically metallic, and the state
+of the Fermi level exhibits the mixed oxygen 2p and cobalt 3d characterization.
+Surprisingly, cobalt ions in both octahedral and pyramidal sites possess
+an intermediate spin state in the paramagnetic phase, differing from
+the typical interpretation of the metal&#x02013;insulator transition
+in PrBaCo<sub>2</sub>O<sub>6&#x02013;<italic>x</italic></sub>. Oxygen
+diffusion path was examined on the basis of the obtained magnetic
+and vacant structures. The paramagnetic orthorhombic phase was taken
+into account for the diffusion calculations, since it is responsible
+for the situation in the temperature range of interest for intermediate
+temperature solid-oxide fuel cell applications. We conclude that the
+main contribution of oxygen diffusivity is attributed to the migration
+from the Pr&#x02013;O layer to the Co&#x02013;O layer or vice versa
+along the direction perpendicular to the one-dimensional oxygen-vacancy
+channel.</p></sec><sec id="sec4"><label>4</label><title>Computational Details</title><p>Our calculations
+were performed using the project-augmented wave
+method<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> and the generalized gradient approximation
+in the Perdew&#x02013;Burke&#x02013;Ernzerhof scheme,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> with the Hubbard-<italic>U</italic> correction as implemented
+in the Vienna ab initio simulation package code.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> A rotationally invariant +<italic>U</italic> method was
+applied for the Co 3d states. In general, the <italic>U</italic>-values
+are taken from the literature or are selected in a specific way such
+as to calibrate the values, which reproduce the experimentally measured
+magnetic moments in the given system.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Here, we considered the former and the effective <italic>U</italic>-value (<italic>U</italic><sub>eff</sub>) of 5.0 eV, which provides
+reliable results in the related materials.<sup><xref ref-type="bibr" rid="ref31">31</xref>,<xref ref-type="bibr" rid="ref32">32</xref></sup> The electronic wave functions were expanded in a plane wave basis
+set with an energy cutoff of 400 eV. The calculations were performed
+using PrBaCo<sub>2</sub>O<sub>5.5</sub> unit cells containing 19 atoms
+with one oxygen vacancy. The integrations over the Brillouin zone
+were carried out using an 8 &#x000d7; 8 &#x000d7; 4 <italic>k</italic>-point
+grid. All of the lattice parameters and atomic coordinates were fully
+optimized until the Hellmann&#x02013;Feynman forces were less than
+0.02 eV/&#x000c5;. For simulating oxygen ion diffusion, 2 &#x000d7; 2 &#x000d7;
+1 supercells containing 40 atoms and a 4 &#x000d7; 4 &#x000d7; 4 <italic>k</italic>-point grid were used.</p><p>We specified initial magnetic
+moments for each Co atom considering
+the crystal field effect at the Co sites (octahedral and pyramidal
+symmetry). In the calculations, the Pr 4f orbitals were treated as
+the core states (valence electron configuration: 5s<sup>2</sup>5p<sup>6</sup>5d<sup>1</sup>6s<sup>2</sup>) in the Pr pseudopotential, since
+Pr is not attributed to the experimentally observed magnetization
+above the temperature of 20 K,<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> and the treatment of Pr 4f as the valence states in the pseudopotential
+is known to have nonphysical computational consequences.<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup></p></sec></body><back><notes notes-type="" id="notes-1"><title>Author Contributions</title><p>The manuscript
+was written through contributions of all authors. All authors have
+given approval to the final version of the manuscript.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e1112-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors thank Professor Hyungjeen
+Jeen for useful discussion
+and comments. This work was supported by Inha University Research
+Grant (INHA-58357).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Roy</surname><given-names>S.</given-names></name>; <name><surname>Dubenko</surname><given-names>I. S.</given-names></name>; <name><surname>Khan</surname><given-names>M.</given-names></name>; <name><surname>Condon</surname><given-names>E. M.</given-names></name>; <name><surname>Craig</surname><given-names>J.</given-names></name>; <name><surname>Ali</surname><given-names>N.</given-names></name>; et al. <article-title>Magnetic
+Properties of Perovskite-Derived Air-Synthesized <italic>R</italic>BaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> (<italic>R</italic> = La&#x02014;Ho)
+Compounds</article-title>. <source>Phys. Rev. B</source>
+<year>2005</year>, <volume>71</volume>, <elocation-id>024419</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.71.024419</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Conder</surname><given-names>K.</given-names></name>; <name><surname>Pomjakushina</surname><given-names>E.</given-names></name>; <name><surname>Pomjakushin</surname><given-names>V.</given-names></name>; <name><surname>Stingaciu</surname><given-names>M.</given-names></name>; <name><surname>Streule</surname><given-names>S.</given-names></name>; <name><surname>Podlesnyak</surname><given-names>A.</given-names></name>
+<article-title>Oxygen Isotope
+Effect on Metal&#x02013;Insulator
+Transition in Layered Cobaltites RBaCo2O5.5 (R = Pr, Dy, Ho and Y)</article-title>. <source>J. Phys.: Condens. Matter</source>
+<year>2005</year>, <volume>17</volume>, <fpage>5813</fpage>&#x02013;<lpage>5820</lpage>. <pub-id pub-id-type="doi">10.1088/0953-8984/17/37/016</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Makhnev</surname><given-names>A. A.</given-names></name>; <name><surname>Nomerovannaya</surname><given-names>L. V.</given-names></name>; <name><surname>Strel&#x02019;tsov</surname><given-names>S.
+V.</given-names></name>; <name><surname>Anisimov</surname><given-names>V. I.</given-names></name>; <name><surname>Barilo</surname><given-names>S. N.</given-names></name>; <name><surname>Shiryaev</surname><given-names>S. V.</given-names></name>
+<article-title>Metal&#x02013;Insulator Transition
+in Double Cobaltites <italic>R</italic>BaCo<sub>2</sub>O<sub>5.</sub>5 (<italic>R</italic> = Eu, Gd): Specific Features of Their Optical
+Properties</article-title>. <source>Phys. Solid State</source>
+<year>2009</year>, <volume>51</volume>, <fpage>525</fpage>&#x02013;<lpage>531</lpage>. <pub-id pub-id-type="doi">10.1134/S1063783409030159</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Luetkens</surname><given-names>H.</given-names></name>; <name><surname>Stingaciu</surname><given-names>M.</given-names></name>; <name><surname>Pashkevich</surname><given-names>Y. G.</given-names></name>; <name><surname>Conder</surname><given-names>K.</given-names></name>; <name><surname>Pomjakushina</surname><given-names>E.</given-names></name>; <name><surname>Gusev</surname><given-names>A. A.</given-names></name>; <name><surname>Lamonova</surname><given-names>K. V.</given-names></name>; <name><surname>Lemmens</surname><given-names>P.</given-names></name>; <name><surname>Klauss</surname><given-names>H.-H.</given-names></name>
+<article-title>Microscopic
+Evidence of Spin State Order and Spin State Phase Separation in Layered
+Cobaltites <italic>R</italic>BaCo2O5.5 with <italic>R</italic> = Y,
+Tb, Dy, and Ho</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2008</year>, <volume>101</volume>, <elocation-id>017601</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.101.017601</pub-id>.<pub-id pub-id-type="pmid">18764150</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Rautama</surname><given-names>E. L.</given-names></name>; <name><surname>Karppinen</surname><given-names>M.</given-names></name>
+<article-title><italic>R</italic>-Site Varied Series of <italic>R</italic>BaCo<sub>2</sub>O<sub>5.5</sub> (<italic>R</italic><sub>2</sub>Ba<sub>2</sub>Co<sub>4</sub>O<sub>11</sub>) Compounds with Precisely Controlled
+Oxygen Content</article-title>. <source>J. Solid State Chem.</source>
+<year>2010</year>, <volume>183</volume>, <fpage>1102</fpage>&#x02013;<lpage>1107</lpage>. <pub-id pub-id-type="doi">10.1016/j.jssc.2010.03.011</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Maignan</surname><given-names>A.</given-names></name>; <name><surname>Martin</surname><given-names>C.</given-names></name>; <name><surname>Pelloquin</surname><given-names>D.</given-names></name>; <name><surname>Nguyen</surname><given-names>N.</given-names></name>; <name><surname>Raveau</surname><given-names>B.</given-names></name>
+<article-title>Structural
+and Magnetic Studies of Ordered Oxygen-Deficient Perovskites <italic>Ln</italic>BaCo<sub>2</sub>O<sub>5+&#x003b4;</sub>, Closely Related
+to the &#x0201c;112&#x0201d; Structure</article-title>. <source>J. Solid
+State Chem.</source>
+<year>1999</year>, <volume>142</volume>, <fpage>247</fpage>&#x02013;<lpage>260</lpage>. <pub-id pub-id-type="doi">10.1006/jssc.1998.7934</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Moritomo</surname><given-names>Y.</given-names></name>; <name><surname>Akimito</surname><given-names>T.</given-names></name>; <name><surname>Takeo</surname><given-names>M.</given-names></name>; <name><surname>Machida</surname><given-names>A.</given-names></name>; <name><surname>Nishibori</surname><given-names>E.</given-names></name>; <name><surname>Takata</surname><given-names>M.</given-names></name>; <name><surname>Sakata</surname><given-names>M.</given-names></name>; <name><surname>Ohoyama</surname><given-names>K.</given-names></name>; <name><surname>Nakamura</surname><given-names>A.</given-names></name>
+<article-title>Metal-Insulator
+Transition Induced by a Spin-State Transition in TbBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> (&#x003b4; = 0.5)</article-title>. <source>Phys.
+Rev. B</source>
+<year>2000</year>, <volume>61</volume>, <elocation-id>R13325</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.61.R13325</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Garc&#x000ed;a-Mu&#x000f1;oz</surname><given-names>J. L.</given-names></name>; <name><surname>Llobet</surname><given-names>A.</given-names></name>; <name><surname>Aranda</surname><given-names>M. A. G.</given-names></name>
+<article-title>Selective
+Spin-State Switch and Metal-Insulator Transition in GdBaCo<sub>2</sub>O<sub>5.5</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2002</year>, <volume>65</volume>, <elocation-id>180405</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.65.180405</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Wu</surname><given-names>H.</given-names></name>
+<article-title>High Spin,
+Hole Delocalization and Electron Transfer in LBaCo<sub>2</sub>O<sub>5.5</sub> (L = Sm, Eu, Gd, Tb, Dy, Y)</article-title>. <source>J. Phys.:
+Condens. Matter</source>
+<year>2003</year>, <volume>15</volume>, <fpage>503</fpage><pub-id pub-id-type="doi">10.1088/0953-8984/15/3/314</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Garc&#x000ed;a-Mu&#x000f1;oz</surname><given-names>J.</given-names></name>; <name><surname>Carrillo</surname><given-names>A. E.</given-names></name>; <name><surname>Aranda</surname><given-names>M. A. G.</given-names></name>; <name><surname>Margiolaki</surname><given-names>I.</given-names></name>; <name><surname>Caneiro</surname><given-names>A.</given-names></name>
+<article-title>Spin State of Co<sup>3+</sup> and
+Magnetic Transitions in <italic>R</italic>BaCo<sub>2</sub>O<sub>5.50</sub> (<italic>R</italic> = Pr, Gd): Dependence on Rare-Earth Size</article-title>. <source>Phys. Rev. B</source>
+<year>2006</year>, <volume>74</volume>, <elocation-id>054406</elocation-id><pub-id pub-id-type="doi">10.1103/PHYSREVB.74.054406</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>X. M.</given-names></name>; <name><surname>Wei</surname><given-names>H. W.</given-names></name>; <name><surname>Lin</surname><given-names>X. H.</given-names></name>; <name><surname>Wang</surname><given-names>C. H.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Jing</surname><given-names>X. P.</given-names></name>
+<article-title>Effect of Oxygen
+Content on Transport and Magnetic Properties of PrBaCo<sub>2</sub>O<sub>5.50+&#x003b4;</sub></article-title>. <source>Mater. Res. Bull.</source>
+<year>2015</year>, <volume>65</volume>, <fpage>80</fpage>&#x02013;<lpage>88</lpage>. <pub-id pub-id-type="doi">10.1016/j.materresbull.2015.01.021</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Miao</surname><given-names>P.</given-names></name>; <name><surname>Lin</surname><given-names>X.</given-names></name>; <name><surname>Lee</surname><given-names>S.</given-names></name>; <name><surname>Ishikawa</surname><given-names>Y.</given-names></name>; <name><surname>Torii</surname><given-names>S.</given-names></name>; <name><surname>Yonemura</surname><given-names>M.</given-names></name>; <name><surname>Ueno</surname><given-names>T.</given-names></name>; <name><surname>Inami</surname><given-names>N.</given-names></name>; <name><surname>Ono</surname><given-names>K.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Kamiyama</surname><given-names>T.</given-names></name>
+<article-title>Hole-Doping-Induced
+Melting of Spin-State Ordering
+in PrBaCo<sub>2</sub>O<sub>5.5+<italic>x</italic></sub></article-title>. <source>Phys. Rev. B</source>
+<year>2017</year>, <volume>95</volume>, <elocation-id>125123</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.95.125123</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Streule</surname><given-names>S.</given-names></name>; <name><surname>Podlesnyak</surname><given-names>A.</given-names></name>; <name><surname>Sheptyakov</surname><given-names>D.</given-names></name>; <name><surname>Pomjakushina</surname><given-names>E.</given-names></name>; <name><surname>Stingaciu</surname><given-names>M.</given-names></name>; <name><surname>Conder</surname><given-names>K.</given-names></name>; <name><surname>Medarde</surname><given-names>M.</given-names></name>; <name><surname>Patrakeev</surname><given-names>M. V.</given-names></name>; <name><surname>Leonidov</surname><given-names>I. A.</given-names></name>; <name><surname>Kozhevnikov</surname><given-names>V. L.</given-names></name>; <name><surname>Mesot</surname><given-names>J.</given-names></name>
+<article-title>High-Temperature Order-Disorder
+Transition and Polaronic Conductivity in PrBaCo<sub>2</sub>O<sub>5.48</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2006</year>, <volume>73</volume>, <elocation-id>094203</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.73.094203</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>Peh</surname><given-names>T. S.</given-names></name>; <name><surname>Chan</surname><given-names>S. H.</given-names></name>; <name><surname>Zhang</surname><given-names>T. S.</given-names></name>
+<article-title>Synthesis
+and Characterization
+of LnBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> Layered Perovskites as
+Cathodes for Intermediate-Temperature Solid Oxide Fuel Cells</article-title>. <source>ECS Trans.</source>
+<year>2009</year>, <volume>25</volume>, <fpage>2277</fpage>&#x02013;<lpage>2281</lpage>. <pub-id pub-id-type="doi">10.1149/1.3205778</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Zhao</surname><given-names>L.</given-names></name>; <name><surname>He</surname><given-names>B.</given-names></name>; <name><surname>Lin</surname><given-names>B.</given-names></name>; <name><surname>Ding</surname><given-names>H.</given-names></name>; <name><surname>Wang</surname><given-names>S.</given-names></name>; <name><surname>Ling</surname><given-names>Y.</given-names></name>; <name><surname>Peng</surname><given-names>R.</given-names></name>; <name><surname>Meng</surname><given-names>G.</given-names></name>; <name><surname>Liu</surname><given-names>X.</given-names></name>
+<article-title>High Performance of
+Proton-Conducting Solid Oxide Fuel Cell with a Layered PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> Cathode</article-title>. <source>J. Power
+Sources</source>
+<year>2009</year>, <volume>194</volume>, <fpage>835</fpage>&#x02013;<lpage>837</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpowsour.2009.06.010</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Liu</surname><given-names>J.</given-names></name>; <name><surname>Collins</surname><given-names>G.</given-names></name>; <name><surname>Liu</surname><given-names>M.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>He</surname><given-names>J.</given-names></name>; <name><surname>Jiang</surname><given-names>J.</given-names></name>; <name><surname>Meletis</surname><given-names>E. I.</given-names></name>
+<article-title>Ultrafast
+Oxygen Exchange Kinetics
+on Highly Epitaxial PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> Thin Films</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2012</year>, <volume>100</volume>, <elocation-id>193903</elocation-id><pub-id pub-id-type="doi">10.1063/1.4712123</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Chen</surname><given-names>D.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Shao</surname><given-names>Z.</given-names></name>; <name><surname>Ciucci</surname><given-names>F.</given-names></name>
+<article-title>Oriented PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> Thin Films for Solid Oxide Fuel Cells</article-title>. <source>J. Power Sources</source>
+<year>2015</year>, <volume>278</volume>, <fpage>623</fpage>&#x02013;<lpage>629</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpowsour.2014.12.110</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Enriquez</surname><given-names>E.</given-names></name>; <name><surname>Xu</surname><given-names>X.</given-names></name>; <name><surname>Bao</surname><given-names>S.</given-names></name>; <name><surname>Harrell</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; et al. <article-title>Catalytic
+Dynamics and Oxygen Diffusion in Doped PrBaCo<sub>2</sub>O<sub>5.5+&#x003b4;</sub> Thin Films</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2015</year>, <volume>7</volume>, <fpage>24353</fpage>&#x02013;<lpage>24359</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.5b07688</pub-id>.<pub-id pub-id-type="pmid">26480235</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Steele</surname><given-names>B. C. H.</given-names></name>; <name><surname>Heinzel</surname><given-names>A.</given-names></name>
+<article-title>Materials for Fuel-Cell Technologies</article-title>. <source>Nature</source>
+<year>2001</year>, <volume>414</volume>, <fpage>345</fpage>&#x02013;<lpage>352</lpage>. <pub-id pub-id-type="doi">10.1038/35104620</pub-id>.<pub-id pub-id-type="pmid">11713541</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Brett</surname><given-names>D. J. L.</given-names></name>; <name><surname>Atkinson</surname><given-names>A.</given-names></name>; <name><surname>Brandon</surname><given-names>N. P.</given-names></name>; <name><surname>Skinner</surname><given-names>S. J.</given-names></name>
+<article-title>Intermediate Temperature
+Solid Oxide Fuel Cells</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2008</year>, <volume>37</volume>, <fpage>1568</fpage>&#x02013;<lpage>1578</lpage>. <pub-id pub-id-type="doi">10.1039/b612060c</pub-id>.<pub-id pub-id-type="pmid">18648682</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Burriel</surname><given-names>M.</given-names></name>; <name><surname>Pe&#x000f1;a-Mart&#x000ed;nez</surname><given-names>J.</given-names></name>; <name><surname>Chater</surname><given-names>R. J.</given-names></name>; <name><surname>Fearn</surname><given-names>S.</given-names></name>; <name><surname>Berenov</surname><given-names>A. V.</given-names></name>; <name><surname>Skinner</surname><given-names>S. J.</given-names></name>; <name><surname>Kilner</surname><given-names>J. A.</given-names></name>
+<article-title>Anisotropic Oxygen
+Ion Diffusion in Layered PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub></article-title>. <source>Chem. Mater.</source>
+<year>2012</year>, <volume>24</volume>, <fpage>613</fpage>&#x02013;<lpage>621</lpage>. <pub-id pub-id-type="doi">10.1021/cm203502s</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Chen</surname><given-names>Y. C.</given-names></name>; <name><surname>Yashima</surname><given-names>M.</given-names></name>; <name><surname>Pe&#x000f1;a-Mart&#x000ed;nez</surname><given-names>J.</given-names></name>; <name><surname>Kilner</surname><given-names>J. A.</given-names></name>
+<article-title>Experimental Visualization of the Diffusional Pathway
+of Oxide Ions in a Layered Perovskite-Type Cobaltite PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub></article-title>. <source>Chem. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>2638</fpage>&#x02013;<lpage>2641</lpage>. <pub-id pub-id-type="doi">10.1021/cm4010618</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Seymour</surname><given-names>I. D.</given-names></name>; <name><surname>Taranc&#x000f3;n</surname><given-names>A.</given-names></name>; <name><surname>Chroneos</surname><given-names>A.</given-names></name>; <name><surname>Parfitt</surname><given-names>D.</given-names></name>; <name><surname>Kilner</surname><given-names>J. A.</given-names></name>; <name><surname>Grimes</surname><given-names>R. W.</given-names></name>
+<article-title>Anisotropic Oxygen diffusion in PrBaCo<sub>2</sub>O<sub>5.5</sub> Double Perovskite</article-title>. <source>Solid State Ion.</source>
+<year>2012</year>, <volume>216</volume>, <fpage>41</fpage>&#x02013;<lpage>43</lpage>. <pub-id pub-id-type="doi">10.1016/j.ssi.2011.09.002</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Akande</surname><given-names>S. O.</given-names></name>; <name><surname>Boulfrad</surname><given-names>S.</given-names></name>; <name><surname>Schwingenschl&#x000f6;gl</surname><given-names>U.</given-names></name>
+<article-title>Intrinsic
+Defect Processes
+and O Migration in PrBa(Co/Fe)<sub>2</sub>O<sub>5.5</sub></article-title>. <source>J. Mater. Chem. A</source>
+<year>2016</year>, <volume>4</volume>, <fpage>3560</fpage>&#x02013;<lpage>3564</lpage>. <pub-id pub-id-type="doi">10.1039/C5TA06858D</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Chen</surname><given-names>D.</given-names></name>; <name><surname>Ciucci</surname><given-names>F.</given-names></name>
+<article-title>A Molecular
+Dynamics Study of Oxygen
+Ion Diffusion in A-Site Ordered Perovskite PrBaCo<sub>2</sub>O<sub>5.5</sub>: Data Mining the Oxygen Trajectories</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2015</year>, <volume>17</volume>, <fpage>7831</fpage>&#x02013;<lpage>7837</lpage>. <pub-id pub-id-type="doi">10.1039/C4CP05847J</pub-id>.<pub-id pub-id-type="pmid">25716049</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Jiang</surname><given-names>X.</given-names></name>; <name><surname>Shi</surname><given-names>Y.</given-names></name>; <name><surname>Zhou</surname><given-names>W.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Su</surname><given-names>Z.</given-names></name>; <name><surname>Pang</surname><given-names>S.</given-names></name>; <name><surname>Jiang</surname><given-names>L.</given-names></name>
+<article-title>Effects of Pr<sup>3+</sup>-Deficiency on Structure and Properties
+of PrBaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> Cathode Material&#x02013;A
+Comparison with Ba<sup>2+</sup>-Deficiency Case</article-title>. <source>J. Power Sources</source>
+<year>2014</year>, <volume>272</volume>, <fpage>371</fpage>&#x02013;<lpage>377</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpowsour.2014.08.091</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Bl&#x000f6;chl</surname><given-names>P. E.</given-names></name>
+<article-title>Projector
+Augmented-Wave Method</article-title>. <source>Phys. Rev. B</source>
+<year>1994</year>, <volume>50</volume>, <elocation-id>17953</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.50.17953</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized
+Gradient Approximation
+Made Simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <elocation-id>3865</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Hafner</surname><given-names>J.</given-names></name>
+<article-title><italic>Ab initio</italic> Molecular
+for Liquid Metals</article-title>. <source>Phys. Rev. B</source>
+<year>1993</year>, <volume>47</volume>, <elocation-id>558</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.47.558</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Das</surname><given-names>T.</given-names></name>; <name><surname>Nicholas</surname><given-names>J. D.</given-names></name>; <name><surname>Yue</surname><given-names>Q.</given-names></name>
+<article-title>Long-range charge transfer and oxygen
+vacancy interactions in strontium ferrite</article-title>. <source>J.
+Mater. Chem. A</source>
+<year>2017</year>, <volume>5</volume>, <fpage>4493</fpage><pub-id pub-id-type="doi">10.1039/C6TA10357J</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Wu</surname><given-names>H.</given-names></name>
+<article-title>Spin State
+and Phase Competition in TbBaCo<sub>2</sub>O<sub>5.5</sub> and the
+Lanthanide Series <italic>L</italic>BaCo<sub>2</sub>O<sub>5+&#x003b4;</sub> (0 &#x02264; &#x003b4; &#x02264; 1)</article-title>. <source>Phys. Rev.
+B</source>
+<year>2001</year>, <volume>64</volume>, <elocation-id>092413</elocation-id><pub-id pub-id-type="doi">10.1103/physrevb.64.092413</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Maria</surname><given-names>J.</given-names></name>; <name><surname>Nazir</surname><given-names>S.</given-names></name>; <name><surname>Alay-e-Abbas</surname><given-names>S. M.</given-names></name>; <name><surname>Shaukat</surname><given-names>A.</given-names></name>
+<article-title>Half-Metallic Ferromagnetism
+in Ordered LaBaCo<sub>2</sub>O<sub>6</sub> and Disordered La<sub>0.5</sub>Ba<sub>0.5</sub>CoO<sub>3</sub>: DFT + <italic>U</italic> Study</article-title>. <source>J. Magn. Magn. Mater.</source>
+<year>2014</year>, <volume>368</volume>, <fpage>230</fpage>&#x02013;<lpage>233</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmmm.2014.05.044</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Li</surname><given-names>W. H.</given-names></name>; <name><surname>Chang</surname><given-names>K. J.</given-names></name>; <name><surname>Hsieh</surname><given-names>W. T.</given-names></name>; <name><surname>Lee</surname><given-names>K. C.</given-names></name>; <name><surname>Lynn</surname><given-names>J. W.</given-names></name>; <name><surname>Yang</surname><given-names>H. D.</given-names></name>
+<article-title>Magnetic Ordering
+of Pr in PrBa<sub>2</sub>Cu<sub>2.7</sub>Zn<sub>0.3</sub>O<sub>7-<italic>y</italic></sub></article-title>. <source>Phys. Rev. B</source>
+<year>1993</year>, <volume>48</volume>, <elocation-id>519</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.48.519</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Zhao</surname><given-names>H. J.</given-names></name>; <name><surname>Ren</surname><given-names>W.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>&#x0013a;&#x000f1;iguez</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>X. M.</given-names></name>; <name><surname>Bellaiche</surname><given-names>L.</given-names></name>
+<article-title>Near Room-Temperature Multiferroic Materials with Tunable
+Ferromagnetic and Electrical Properties</article-title>. <source>Nat.
+Commun.</source>
+<year>2014</year>, <volume>5</volume>, <elocation-id>4021</elocation-id><pub-id pub-id-type="doi">10.1038/ncomms5021</pub-id>.<pub-id pub-id-type="pmid">24865776</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Topsakal</surname><given-names>M.</given-names></name>; <name><surname>Leighton</surname><given-names>C.</given-names></name>; <name><surname>Wentzcovich</surname><given-names>R. M.</given-names></name>
+<article-title>First-Principles Study of Crystal
+and Electronic Structure of Rare-Earth Cobaltites</article-title>. <source>J. Appl. Phys.</source>
+<year>2016</year>, <volume>119</volume>, <elocation-id>244310</elocation-id><pub-id pub-id-type="doi">10.1063/1.4954792</pub-id>.</mixed-citation></ref></ref-list></back></article>

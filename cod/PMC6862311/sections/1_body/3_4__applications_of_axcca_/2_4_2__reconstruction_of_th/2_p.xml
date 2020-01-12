@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If the PDF 
+ <inline-formula>
+  <math id="mm190">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is invariant with respect to some symmetry transformations, the corresponding structure factor 
+ <inline-formula>
+  <math id="mm191">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">q</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> will also exhibit the same symmetry, as it directly follows from the following relation [
+ <xref rid="B1-materials-12-03464" ref-type="bibr">1</xref>,
+ <xref rid="B75-materials-12-03464" ref-type="bibr">75</xref>] Equation (20):
+ <disp-formula id="FD21-materials-12-03464">
+  <label>(20)</label>
+  <math id="mm192">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>+</mo>
+     <mo stretchy="false">〈</mo>
+     <mi>n</mi>
+     <mo stretchy="false">〉</mo>
+     <mstyle mathsize="140%" displaystyle="true">
+      <mo>∫</mo>
+     </mstyle>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>g</mi>
+       <mrow>
+        <mo>(</mo>
+        <mi mathvariant="bold-italic">r</mi>
+        <mo>)</mo>
+       </mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>i</mi>
+       <mi mathvariant="bold-italic">q</mi>
+       <mi mathvariant="bold-italic">r</mi>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi mathvariant="bold-italic">r</mi>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> In reference [
+ <xref rid="B76-materials-12-03464" ref-type="bibr">76</xref>], the particular case of a 2D system was analyzed and the following relation between the angular Fourier components of the PDF 
+ <inline-formula>
+  <math id="mm193">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the structure factor 
+ <inline-formula>
+  <math id="mm194">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> was obtained Equation (21):
+ <disp-formula id="FD22-materials-12-03464">
+  <label>(21)</label>
+  <math id="mm195">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>δ</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mo stretchy="false">〈</mo>
+       <mi>n</mi>
+       <mo stretchy="false">〉</mo>
+       <msup>
+        <mi>i</mi>
+        <mi>n</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∫</mo>
+      </mstyle>
+      <mn>0</mn>
+      <mo>∞</mo>
+     </munderover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>S</mi>
+        <mi>n</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mi>q</mi>
+        <mo>)</mo>
+       </mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>δ</mi>
+        <mrow>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msub>
+      <mi mathvariant="normal">J</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mi>r</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>q</mi>
+     <mi>d</mi>
+     <mi>q</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm196">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>δ</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the Kronecker delta and 
+ <inline-formula>
+  <math id="mm197">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="normal">J</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mi>r</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the Bessel function of the first kind of integer order 
+ <inline-formula>
+  <math id="mm198">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula>. The 2D PDF 
+ <inline-formula>
+  <math id="mm199">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>r</mi>
+       <mo>,</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm200">
+   <mrow>
+    <mi>r</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm201">
+   <mrow>
+    <mi>θ</mi>
+   </mrow>
+  </math>
+ </inline-formula> are the polar coordinates of the 2D radius vector, can be evaluated as the angular Fourier series in Equation (22):
+ <disp-formula id="FD23-materials-12-03464">
+  <label>(22)</label>
+  <math id="mm202">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>r</mi>
+       <mo>,</mo>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mo>∞</mo>
+      </mrow>
+      <mo>∞</mo>
+     </munderover>
+     <msub>
+      <mi>g</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>θ</mi>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the coefficients 
+ <inline-formula>
+  <math id="mm203">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are defined in Equation (21). Clearly, AXCCA, which is capable of accurate evaluation of the angular Fourier components of the scattering intensity, is well suited for the determination of 
+ <inline-formula>
+  <math id="mm204">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and subsequent reconstruction of the angular-resolved 2D PDF.
+</p>

@@ -1,0 +1,441 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6751700</article-id><article-id pub-id-type="pmid">31552349</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b01858</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Green Photoluminescence of Perovskite CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> Nanocrystals
+for Wide Color Gamut Displays</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Miyata</surname><given-names>Simpei</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Iso</surname><given-names>Yoshiki</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><name><surname>Isobe</surname><given-names>Tetsuhiko</given-names></name><xref rid="cor2" ref-type="other">*</xref></contrib><aff id="aff1">Department of Applied Chemistry, Faculty
+of Science and Technology, <institution>Keio University</institution>, 3-14-1 Hiyoshi, Kohoku-ku, Yokohama 223-8522, <country>Japan</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>iso@applc.keio.ac.jp</email>. Tel: <phone>+81 45 566 1558</phone>. Fax: <fax>+81 45 566 1551.</fax> (Y.I.).</corresp><corresp id="cor2"><label>*</label>E-mail: <email>isobe@applc.keio.ac.jp</email>. Tel: <phone>+81 45 566 1554</phone>. Fax: <fax>+81 45 566 1551</fax>. (T.I.).</corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>09</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>17</day><month>09</month><year>2019</year></pub-date><volume>4</volume><issue>12</issue><fpage>15067</fpage><lpage>15073</lpage><history><date date-type="received"><day>21</day><month>06</month><year>2019</year></date><date date-type="accepted"><day>22</day><month>08</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0012" id="ab-tgr1"/></p><p>All-inorganic mixed-halide CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> perovskite nanocrystals (NCs) are excellent candidates for
+green-emitting phosphors in wide color gamut displays; however, a
+detailed investigation of their photoluminescence (PL) properties
+based on the halide composition has been missing. In this work, we
+report a fundamental investigation of the changes in the PL properties
+of CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs. The PL color of the NCs, which were prepared
+by a hot-injection method, changed from green to red with increasing
+iodide composition (<italic>x</italic>). Almost ideal green emission
+close to the chromaticity coordinates of the green vertex of the BT.2020
+standard was achieved by appropriately substituting iodide ions for
+bromide ions in monohalide CsPbBr<sub>3</sub> NCs. However, the PL
+peak width of the mix-halide NCs at <italic>x</italic> &#x0223c; 0.5
+was 0.127 eV, which was broader than the 0.105 eV peak width of the
+monohalide CsPbBr<sub>3</sub> NCs. This phenomenon should be due to
+the compositional inhomogeneity among the individual CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.
+On the other hand, the PL quantum yield (PLQY) for the monohalide
+CsPbBr<sub>3</sub> NCs decreased from 70 to 25% as <italic>x</italic> increased to 0.5. This result may be attributed to lattice distortion
+by the difference in the ionic radii of bromide and iodide. Improvements
+in the compositional inhomogeneity and lattice distortion would enhance
+the color purity of the green emission and the PLQY, respectively,
+of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b01858</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-01858x</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Displays
+using patterned red-green-blue emitters without color filters can
+realize excellent color purity and a wider color reproduction range
+with higher emission efficiencies compared to those exploiting a white
+backlight passed through color filters.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> In the former
+method, a blue light-emitting diode (LED) is used as a blue light
+source, and green- and red-emitting phosphors are excited by the blue
+light to obtain green and red colors, respectively. BT.2020, which
+is a next-generation color standard for 4/8 K broadcasting, has a
+significantly larger range in the green than the conventional color
+system BT.709.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> To satisfy the BT.2020 standard,
+green-emitting phosphors with extremely high color purities are required
+for the green emitters in displays. Traditional lanthanide-doped green
+phosphors show photoluminescence (PL) from Tb<sup>3+</sup> through
+4f&#x02013;4f transitions<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> and from Eu<sup>2+</sup> and Ce<sup>3+</sup> through 4f&#x02013;5d transitions;<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup> however, these phosphors cannot realize the required color purity
+because of their unnecessary PL peaks outside of the green region
+and broad PL peak widths. CdSe quantum dots (QDs) are the most commonly
+used nanophosphors that exhibit visible emission, including green
+emission,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> although Cd is highly toxic;
+therefore, other visible-emitting QDs such as CuInS<sub>2</sub> and
+InP have been identified as Cd-free alternative materials.<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> Green-emitting InP QDs are one of the candidates for application
+in wide color gamut displays; however, the full width at half-maximum
+(FWHM) of their green PL peak is &#x0223c;50 nm, which is too broad
+to satisfy the green range of the BT.2020 standard.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup></p><p>In recent years, all-inorganic perovskite semiconductor
+nanocrystals (NCs) of the form CsPbX<sub>3</sub> (X = Cl, Br, I) have
+shown great development, triggered by a report from Protesescu et
+al.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> The PL wavelength of these NCs can
+be tuned in the visible region between 410 and 700 nm by changing
+the halide composition, and smaller FWHMs of the PL peak with excellent
+PL quantum yields (PLQYs) of 50&#x02013;90% have been observed.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Moreover, to obtain these high PLQYs, core/shell
+structures, such as CdSe/ZnS QDs<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> and
+InP/ZnS QDs,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> were not needed. The outstanding
+PL properties of CsPbX<sub>3</sub> NCs have attracted much attention;<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> therefore, numerous studies on their synthetic
+methods,<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref></sup> improvements in their stabilities,<sup><xref ref-type="bibr" rid="ref20">20</xref>&#x02212;<xref ref-type="bibr" rid="ref23">23</xref></sup> and optoelectronic applications,
+such as in LEDs and photodetectors,<sup><xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup> have been
+reported.</p><p>Green-emitting CsPbBr<sub>3</sub> NCs have a great
+potential to realize green emission for wide color gamut displays
+that satisfy the BT.2020 standard because of their highly pure PL
+color derived from a FWHM of &#x0223c;20 nm. However, optimization
+of the PL wavelength by controlling their band gap through partially
+substituting I<sup>&#x02013;</sup> for Br<sup>&#x02013;</sup> is required,
+whereas the PL peak width broadens as the iodide composition increases.
+The optical properties of perovskite CsPbBr<sub>3</sub> NCs have been
+studied by many groups, while a detailed characterization of mixed-halide
+perovskite NCs of the forms CsPb(Cl<sub>1&#x02013;<italic>x</italic></sub>Br<sub><italic>x</italic></sub>)<sub>3</sub> and CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> is insufficient yet. Notably, perovskite CsPb(Cl<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> is hard
+to form at temperatures lower than 625 K.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> We found works including characterization of the optical properties
+of perovskite NCs of the forms CsPb(Cl<sub>1&#x02013;<italic>x</italic></sub>Br<sub><italic>x</italic></sub>)<sub>3</sub> and CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub>;<sup><xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref27">27</xref>&#x02212;<xref ref-type="bibr" rid="ref29">29</xref></sup> however, a detailed
+discussion on the relationship between their comprehensive PL properties
+and the halide composition is missing. To realize next-generation
+displays using CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub>, investigations of the changes
+in the PL peak width and PLQY as well as PL peak position are needed.</p><p>This work reports the halide composition-dependent PL properties
+of green-emitting CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs focused on the promising
+application of these materials in wide color gamut displays. We prepared
+the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs by a hot-injection method (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>), which is the most frequently
+performed synthetic method,<sup><xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> and characterized their
+elemental composition, crystal structure, morphology, and optical
+properties to discuss the influence of the halide composition on the
+PL properties, such as the peak position, FWHM, and PLQY.</p><fig id="sch1" position="float"><label>Scheme 1</label><caption><title>Preparation
+of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0011" id="gr1" position="float"/></fig></sec><sec id="sec2"><label>2</label><title>Results and Discussion</title><sec id="sec2.1"><label>2.1</label><title>Structures and Morphologies
+of Synthesized CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs</title><p>Elemental compositions
+of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> powder samples were determined by an
+X-ray fluorescence (XRF) instrument, as shown in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. Herein, the nominal and actual
+molar ratios of I/(Br + I) were defined as <italic>x</italic><sub>n</sub> and <italic>x</italic><sub>a</sub>, respectively. The measured
+compositional ratio of Cs/Pb/(Br + I) was 1:1:3, which corresponded
+to the stoichiometric ratio of CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> for each of the
+samples. The value of <italic>x</italic><sub>a</sub> increased monotonically
+with increasing <italic>x</italic><sub>n</sub>, as plotted in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. We found a tendency
+for <italic>x</italic><sub>a</sub> to be smaller than <italic>x</italic><sub>n</sub>, possibly due to the higher reactivity of Br<sup>&#x02013;</sup> than that of I<sup>&#x02013;</sup> (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Relationship between the nominal and actual
+molar ratios of I/(Br + I), i.e., <italic>x</italic><sub>n</sub> and <italic>x</italic><sub>a</sub>, respectively, for the powder samples of the
+CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0001" id="gr2" position="float"/></fig><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Elemental Analysis of the Powder Samples of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center"><italic>x</italic><sub>n</sub></th><th style="border:none;" align="center" char=".">Cs</th><th style="border:none;" align="center" char=".">Pb</th><th style="border:none;" align="center" char=".">Br</th><th style="border:none;" align="center" char=".">I</th><th style="border:none;" align="center" char=".">Br&#x000a0;+&#x000a0;I</th><th style="border:none;" align="center" char="."><italic>x</italic><sub>a</sub></th></tr></thead><tbody><tr><td style="border:none;" align="left">0</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">1.1</td><td style="border:none;" align="char" char=".">3.3</td><td style="border:none;" align="char" char=".">0.0</td><td style="border:none;" align="char" char=".">3.3</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">0.30</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">2.7</td><td style="border:none;" align="char" char=".">0.6</td><td style="border:none;" align="char" char=".">3.3</td><td style="border:none;" align="char" char=".">0.19</td></tr><tr><td style="border:none;" align="left">0.33</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">2.4</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">3.1</td><td style="border:none;" align="char" char=".">0.23</td></tr><tr><td style="border:none;" align="left">0.40</td><td style="border:none;" align="char" char=".">0.9</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">2.2</td><td style="border:none;" align="char" char=".">0.9</td><td style="border:none;" align="char" char=".">3.1</td><td style="border:none;" align="char" char=".">0.27</td></tr><tr><td style="border:none;" align="left">0.45</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">2.1</td><td style="border:none;" align="char" char=".">1.2</td><td style="border:none;" align="char" char=".">3.3</td><td style="border:none;" align="char" char=".">0.37</td></tr><tr><td style="border:none;" align="left">0.50</td><td style="border:none;" align="char" char=".">0.8</td><td style="border:none;" align="char" char=".">1.0</td><td style="border:none;" align="char" char=".">1.7</td><td style="border:none;" align="char" char=".">1.5</td><td style="border:none;" align="char" char=".">3.2</td><td style="border:none;" align="char" char=".">0.47</td></tr><tr><td style="border:none;" align="left">0.55</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">1.1</td><td style="border:none;" align="char" char=".">1.6</td><td style="border:none;" align="char" char=".">1.5</td><td style="border:none;" align="char" char=".">3.1</td><td style="border:none;" align="char" char=".">0.48</td></tr><tr><td style="border:none;" align="left">0.60</td><td style="border:none;" align="char" char=".">0.9</td><td style="border:none;" align="char" char=".">0.9</td><td style="border:none;" align="char" char=".">1.2</td><td style="border:none;" align="char" char=".">1.9</td><td style="border:none;" align="char" char=".">3.1</td><td style="border:none;" align="char" char=".">0.62</td></tr><tr><td style="border:none;" align="left">0.80</td><td style="border:none;" align="char" char=".">0.7</td><td style="border:none;" align="char" char=".">1.3</td><td style="border:none;" align="char" char=".">0.6</td><td style="border:none;" align="char" char=".">2.4</td><td style="border:none;" align="char" char=".">3.0</td><td style="border:none;" align="char" char=".">0.81</td></tr><tr><td style="border:none;" align="left">1.00</td><td style="border:none;" align="char" char=".">0.8</td><td style="border:none;" align="char" char=".">1.3</td><td style="border:none;" align="char" char=".">0.0</td><td style="border:none;" align="char" char=".">2.9</td><td style="border:none;" align="char" char=".">2.9</td><td style="border:none;" align="char" char=".">1.00</td></tr></tbody></table></table-wrap><p>The X-ray diffraction
+(XRD) patterns of the powder samples are shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. All peaks at <italic>x</italic><sub>n</sub> &#x0003c; 0.8 were assigned to the cubic phase CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub>. Some orthorhombic phase CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> was also observed
+when <italic>x</italic><sub>n</sub> = 0.80 and 1.00 (see enlarged
+XRD profiles in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S1</ext-link>). The orthorhombic
+phase could be formed from the cubic phase during storage because
+cubic CsPbI<sub>3</sub> is unstable under ambient conditions.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The most stable phase of CsPbI<sub>3</sub> is
+the orthorhombic phase, while its cubic phase is metastable at room
+temperature.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> The peaks of the cubic phase
+shifted toward lower angles with increasing iodine content. Lattice
+spacings were calculated from the XRD peak of the (200) crystal plane
+by using Bragg&#x02019;s law<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_m001" position="anchor"/><label>1</label></disp-formula>where &#x003bb; is the X-ray wavelength, <italic>d</italic><sub>200</sub> is the (200) lattice spacing, and &#x003b8; is the reflection angle.
+As shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>, the lattice spacing linearly increased with increasing actual I/(Br
++ I), following Vegard&#x02019;s law. The ionic radii of Br<sup>&#x02013;</sup> and I<sup>&#x02013;</sup> in a 6-fold coordination site are 196 and
+220 pm,<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> respectively; therefore, the
+increase in lattice spacing was caused by substituting I<sup>&#x02013;</sup> for Br<sup>&#x02013;</sup>.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>XRD profiles for the powder samples of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs with <italic>x</italic><sub>n</sub> = (a) 0, (b) 0.30,
+(c) 0.33, (d) 0.40, (e) 0.45, (f) 0.50, (g) 0.55, (h) 0.60, (i) 0.80,
+and (j) 1.00.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0002" id="gr3" position="float"/></fig><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Change in lattice spacing (<italic>d</italic><sub>200</sub>) with changing <italic>x</italic><sub>a</sub> for
+the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0003" id="gr4" position="float"/></fig><p>Field-emission transmission electron microscopy (TEM) images of the
+samples are shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. The observed particles were rectangular regardless of their
+composition. The mean particle size was 9.7&#x02013;12.0 nm (see the
+corresponding size distributions in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S2</ext-link>). The particle size increased as the I/(Br + I) ratio increased,
+as reported by previous studies.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>TEM images
+of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs with <italic>x</italic><sub>n</sub> = (a) 0, (b) 0.30, (c) 0.50, and (d) 1.00.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0004" id="gr5" position="float"/></fig><p>Surface ligands of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs with <italic>x</italic><sub>n</sub> = 0, 0.5, and 1.0 were evaluated by Fourier transform
+infrared (FT-IR) spectroscopy (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S3 and Table S1</ext-link>). There was no remarkable difference in their FT-IR
+spectra. Specific absorption peaks attributed to carboxylate and ammonium
+salts were observed, revealing surface modification by oleate and
+oleylammonium.</p></sec><sec id="sec2.2"><label>2.2</label><title>Optical Properties</title><p><xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> displays
+toluene dispersions of the NCs under white light and 365 nm ultraviolet
+(UV) light. Their color under white light changed with changing iodide
+composition. The apparent color might be affected by the efficiency
+of their PL as well as their light absorption. The PL color under
+UV light changed from bluish-green to red with increasing iodide composition. <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>A shows the ultraviolet&#x02013;visible
+(UV&#x02013;vis) absorption spectra of the NC dispersions. The absorption
+edge red-shifted as the iodide composition increased. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S4</ext-link> shows the Tauc plots calculated from
+the absorption spectra by the following equation<disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_m002" position="anchor"/><label>2</label></disp-formula>where &#x003b1;
+is the absorbance, <italic>h</italic> is the Planck constant, &#x003bd;
+is the frequency, <italic>k</italic> is a constant, and <italic>E</italic><sub>g</sub> is the band gap.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> The value
+of <italic>n</italic> was 0.5 because cubic CsPbX<sub>3</sub> is a
+direct transition semiconductor. The determined band gap of the NCs
+linearly decreased with increasing <italic>x</italic><sub>a</sub>,
+as shown by line (a) in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. This is explained by the change in the band gap of the NCs
+as a result of the changing halide composition. According to the band
+structure of cubic CsPbX<sub>3</sub>, a change in the band gap is
+mainly caused by a shift of the valence band maximum, which is primarily
+composed of the p-orbitals of the halides.<sup><xref ref-type="bibr" rid="ref36">36</xref></sup></p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Photographs
+of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NC dispersions under white light and
+365 nm UV light.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0005" id="gr6" position="float"/></fig><fig id="fig6" position="float"><label>Figure 6</label><caption><p>(A) UV&#x02013;vis absorption
+spectra and (B) PL spectra (&#x003bb;<sub>ex</sub> = 400 nm) of CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NC dispersions with <italic>x</italic><sub>n</sub> = (a)
+0, (b) 0.30, (c) 0.33, (d) 0.40, (e) 0.45, (f) 0.50, (g) 0.55, (h)
+0.60, (i) 0.80, and (j) 1.00.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0006" id="gr7" position="float"/></fig><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Changes
+in the (a) band gap (<italic>E</italic><sub>g</sub>) and (b) PL peak
+energy with changing <italic>x</italic><sub>a</sub> in CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NC dispersions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0007" id="gr8" position="float"/></fig><p>The PL spectra of the
+NC dispersions are compared in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>B. The NCs exhibit efficient PL emission through direct
+interband transitions.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> The PL peak position
+is plotted as a function of <italic>x</italic><sub>a</sub>, as shown
+by line (b) in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. The PL peak energy decreased with increasing <italic>x</italic><sub>a</sub> due to the decrease in the band gap. The chromaticity
+coordinates converted from the PL spectra changed from (0.058, 0.656)
+to (0.680, 0.258) by tuning the contents of Br and I, as shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>. The chromaticity
+coordinates (0.184, 0.763) at <italic>x</italic><sub>n</sub> = 0.33
+was closest to the coordinates (0.170, 0.797) of the green vertex
+of the BT.2020 standard. To realize the ideal emission color at the
+green vertex, a narrower PL peak is required to improve the green
+color purity. As shown in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>, the FWHM of the PL peak reached its maximum at <italic>x</italic><sub>a</sub> = 0.48, while it decreased as the halide composition
+became closer to containing only bromide or iodide. The increase in
+the FWHM could be explained by the widening of the particle size distribution
+and the compositional inhomogeneity of Br<sup>&#x02013;</sup> and I<sup>&#x02013;</sup> between the individual NCs. Swarnkar et al. synthesized
+CsPbBr<sub>3</sub> NCs that were 11 nm in size by the hot-injection
+method and found that there was no significant difference between
+the PL peak widths from their ensemble and single nanocrystals.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> In this work, the NCs prepared by the hot-injection
+method included particles larger than 10 nm, from TEM observation
+(see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S2</ext-link>), while the exciton Bohr
+diameters of CsPbBr<sub>3</sub> and CsPbI<sub>3</sub> are 7 and 12
+nm,<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> respectively. In a typical hot-injection
+method for perovskite CsPbX<sub>3</sub> NCs, most of the formed NCs
+are &#x0003e;10 nm in size due to their rapid growth rate.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> The quantum size effect in the prepared NCs should not
+be strong; therefore, the influence of the inhomogeneity of the particle
+sizes on the FWHM of the PL peak should be negligible. The FWHM decreased
+as the halide composition approached that of a monohalide bromide
+or iodide, whereas broadening of the PL peak was observed as <italic>x</italic><sub>a</sub> approached 0.5. This might be due to compositional
+inhomogeneity between individual NCs. According to the elemental analysis
+of randomly selected single NCs by energy-dispersive X-ray spectroscopy
+(EDX), local I/(Br + I) compositions of 0.20 and 0.46 were detected
+for NCs prepared at <italic>x</italic><sub>n</sub> = 0.50 (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S5 and Table S2</ext-link>). Thus, there was compositional
+inhomogeneity between individual NCs, causing an increase in the PL
+peak width. The increase in FWHM is possibly caused by the photoinduced
+phase segregation, which is known for mixed-halide lead perovskites.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> However, obvious separation of the PL peak was
+not observed in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>B.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Chromaticity coordinates converted from the PL spectra of CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NC dispersions with <italic>x</italic><sub>n</sub> = (a)
+0, (b) 0.30, (c) 0.33, (d) 0.40, (e) 0.45, (f) 0.50, (g) 0.55, (h)
+0.60, (i) 0.80, and (j) 1.00. &#x003bb;<sub>ex</sub> = 400 nm.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0008" id="gr9" position="float"/></fig><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Changes in the FWHM of the PL peak with changing <italic>x</italic><sub>a</sub> in the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0009" id="gr10" position="float"/></fig><p>As shown in <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>, the absolute PLQY of the NCs reached the minimum value at <italic>x</italic><sub>a</sub> = 0.47, while it increased as <italic>x</italic><sub>a</sub> approached both 0 and 1. This result should be due to
+lattice distortion induced by the difference between the ionic radii
+of Br<sup>&#x02013;</sup> and I<sup>&#x02013;</sup>. The PLQY decreased
+with the formation of lattice defects that caused nonradiative recombination;
+therefore, relaxation of the distorted lattice would enhance the PLQY.
+Influence of defects on PLQY is generally discussed by PL decay curves.
+However, average PL lifetimes of the CsPb(Br<sub><italic>x</italic>&#x02013;1</sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs calculated
+from the PL decay curves increased from 4.6 to 43.9 ns with increasing <italic>x</italic><sub>a</sub> (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">Figure S6 and Table S3</ext-link>), as reported in previous works.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> Intrinsically, there is a large difference in PL lifetimes of CsPbBr<sub>3</sub> NCs and CsPbI<sub>3</sub> NCs. The behavior of PLQY in <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref> therefore could
+not be related to the PL lifetimes.</p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Changes in the absolute PLQY with changing <italic>x</italic><sub>a</sub> in the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_0010" id="gr11" position="float"/></fig><p>To improve the lattice distortion of ABX<sub>3</sub> crystals
+with a cubic perovskite structure, substitution of the A-site or B-site
+cations with other cations of different sizes is effective. According
+to the previous work by Hu et al.,<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> perovskite
+(FA<sub>0.83</sub>MA<sub>0.17</sub>)Pb(I<sub>0.83</sub>Br<sub>0.17</sub>) was stabilized through lattice shrinkage by substituting Cs<sup>+</sup> for the larger A-site cations; herein, FA and MA are formamidinium
+{(NH<sub>2</sub>)<sub>2</sub>CH<sup>+</sup>} and methylammonium {CH<sub>3</sub>NH<sub>3</sub><sup>+</sup>} cations, respectively. The tolerance
+factor <italic>T</italic>, which is an indicator of the stability
+of an ABX<sub>3</sub> crystal with a cubic perovskite structure, can
+be represented by the following equation<disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_m003" position="anchor"/><label>3</label></disp-formula>where <italic>R</italic><sub>A</sub>, <italic>R</italic><sub>B</sub>, and <italic>R</italic><sub>X</sub> are radii of the A-, B-, and X-site ions,
+for which the coordination numbers are twelve, six, and six, respectively.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> For CsPbBr<sub>3</sub> and CsPbI<sub>3</sub>, their <italic>T</italic> values were calculated to be 0.862 and
+0.851, respectively, based on their ionic radii, which are 188 pm
+for Cs<sup>+</sup>, 119 pm for Pb<sup>2+</sup>, 196 pm for Br<sup>&#x02013;</sup>, and 220 pm for I<sup>&#x02013;</sup>.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> The cubic perovskite structure is most stable at <italic>T</italic> = 1; therefore, the lattice distortion of CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> would improve with increasing <italic>T</italic>. This can
+be achieved by substituting a larger monovalent cation for Cs<sup>+</sup> or a smaller divalent cation for Pb<sup>2+</sup> in CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub>. CH<sub>3</sub>NH<sub>3</sub><sup>+</sup> and (NH<sub>2</sub>)<sub>2</sub>CH<sup>+</sup>, for which the ionic radii are 217 and
+253 pm, respectively, are candidates for the larger monovalent cations.<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> However, organic&#x02013;inorganic perovskite
+materials are more readily degraded than all-inorganic perovskite
+materials.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> All-inorganic perovskite NCs
+are promising for long-term use, whereas substituting a larger inorganic
+monovalent cation for Cs<sup>+</sup> in the A-site is unfeasible.
+Substitution of Pb<sup>2+</sup> in the B-site with smaller inorganic
+divalent cations is a good way to relax the lattice distortion and
+improve the PLQY.</p></sec></sec><sec id="sec3"><label>3</label><title>Conclusions</title><p>We prepared
+CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> perovskite NCs by a hot-injection method and
+investigated the relationship between the halide composition and their
+optical properties. The band gap and PL peak energy of the NCs decreased
+with increasing iodine content. The emission color changed from bluish-green
+to red. The chromaticity coordinates (0.184, 0.763) at <italic>x</italic><sub>a</sub> = 0.23 were closest to the coordinates (0.170, 0.797)
+of the green vertex of the BT.2020 standard. Thus, it is useful to
+substitute an appropriate amount of I<sup>&#x02013;</sup> for Br<sup>&#x02013;</sup> in CsPbBr<sub>3</sub> NCs for their application as
+the green emitter in wide color gamut displays. The FWHM of the mix-halide
+NCs at <italic>x</italic><sub>a</sub> &#x0223c; 0.5 was 0.127 eV, which
+was broader than the 0.105 eV FWHM of the monohalide CsPbBr<sub>3</sub> NCs. This result should be due to the compositional inhomogeneity
+among the individual NCs. On the other hand, the PLQY decreased from
+&#x0223c;70% for the monohalide CsPbBr<sub>3</sub> NCs to 25% as <italic>x</italic><sub>a</sub> approached 0.5. This result may be attributed
+to the lattice distortion induced by the difference in the ionic radii
+of Br<sup>&#x02013;</sup> and I<sup>&#x02013;</sup>. Homogenization
+of the halide composition among the individual NCs and relaxation
+of the lattice distortion would improve the green color and PLQY of
+the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs, respectively. The appropriate mixed-halide
+composition almost realized the ideal green emission satisfying the
+BT.2020 standard, but increase in the iodide ratio may decrease the
+stability of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs. Improvement on the stability
+would be required for practical applications.</p></sec><sec id="sec4"><label>4</label><title>Experimental
+Section</title><sec id="sec4.1"><label>4.1</label><title>Materials</title><p>Cs<sub>2</sub>CO<sub>3</sub> (99.99%, Mitsuwa Pure Chemical), PbBr<sub>2</sub> (99%, Mitsuwa
+Pure Chemical), and PbI<sub>2</sub> (99%, Sigma-Aldrich) were used
+as received without further purification. Additionally, 1-octadecene
+(ODE; &#x0003e;90.0%, Tokyo Chemical Industry), oleic acid (OA; &#x0003e;85.0%,
+Tokyo Chemical Industry), oleyleamine (OAm; 80&#x02013;90%, Acros Organics), <italic>tert</italic>-butyl alcohol (&#x0003e;99.0% Tokyo Chemical Industry),
+methyl acetate (99.5%, Kanto Chemical), and toluene (99.5%, Kanto
+Chemical) were dehydrated over molecular sieves (3A 1/8, Wako Pure
+Chemical Industries) prior to use.</p></sec><sec id="sec4.2"><label>4.2</label><title>Preparation
+of Cs-Oleate Precursor</title><p>Cs<sub>2</sub>CO<sub>3</sub> (1.25
+mmol), ODE (20.0 mL), and OA (1.3 mL) were mixed and degassed for
+1 h at 120 &#x000b0;C and then purged with Ar gas. A Cs-oleate precursor
+solution was obtained by heating the mixture to 150 &#x000b0;C. The resulting
+solution was preheated at 100 &#x000b0;C before being injected into the
+reaction flask.</p></sec><sec id="sec4.3"><label>4.3</label><title>Synthesis of CsPbX<sub>3</sub> (X = Br and I) NCs</title><p>ODE (5.0 mL), 0.376 (1 &#x02013; <italic>x</italic><sub>n</sub>) mmol PbBr<sub>2</sub>, and 0.376<italic>x</italic><sub>n</sub> mmol PbI<sub>2</sub> (<italic>x</italic><sub>n</sub> = 0, 0.30, 0.33, 0.40, 0.45, 0.50, 0.55, 0.60, 0.80, and 1.00) were
+loaded into a 4-neck flask and degassed for 1 h at 120 &#x000b0;C and
+then purged with Ar gas. OA (1.0 mL) and OAm (1.0 mL) were injected
+into the flask, and after completely dissolving the salt mixture,
+the temperature was raised to 180 &#x000b0;C. The Cs-oleate precursor
+solution (0.8 mL) was swiftly injected into the reaction flask and
+then cooled in an ice water bath after 5 s. Crystallized nanoparticles
+were precipitated by adding <italic>tert</italic>-butyl alcohol (25.0
+mL). Alternatively, methyl acetate (25.0 mL) was used when <italic>x</italic> = 1.00. The NCs were collected by centrifugation at &#x0223c;11&#x02009;000<italic>g</italic> (10&#x02009;000 rpm using a rotor with a diameter of 10
+cm) for 5 min and then redispersed in toluene. Subsequently, the NC
+powder was prepared by drying the collected NCs under vacuum overnight.</p></sec><sec id="sec4.4"><label>4.4</label><title>Characterization</title><p>The elemental ratios of
+the NC powders were measured using an XRF analyzer (ZSXmini II, Rigaku).
+Powder XRD profiles were obtained using an X-ray diffractometer (Rint-2200,
+Rigaku) with a Cu K&#x003b1; radiation source and monochromator. The
+NC morphologies were observed by field-emission TEM (Tecnai G<sup>2</sup>, FEI). The TEM samples were prepared by vacuum drying a drop
+of a NC dispersion on carbon-reinforced collodion-coated copper grids
+(COL-C10, Oken Shoji) overnight. The EDX was performed on the same
+apparatus. FT-IR absorption spectra of the samples in KBr disks were
+recorded on an FT-IR spectrometer (FT/IR-4200, JASCO). UV&#x02013;vis
+absorption spectra of the NC dispersions were measured using an optical
+absorption spectrometer (V-570, JASCO). The PL spectra of the NC dispersions
+were measured using a fluorescence spectrometer (FP-6500, JASCO).
+Each spectral response was calibrated using an ethylene glycol solution
+of rhodamine B (5.5 g L<sup>&#x02013;1</sup>) and a standard light
+source (ESC-333, JASCO). Absolute PLQYs were measured using a quantum
+efficiency measurement system (QE-2000-311C, Otsuka Electronics).
+The PL decay curves were recorded on a fluorescence lifetime spectrometer
+(Quantaurus-Tau C11367, Hamamatsu Photonics). Herein, the PL decay
+curves were fitted with the following biexponential function<disp-formula id="eq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_m004" position="anchor"/><label>4</label></disp-formula>where <italic>t</italic> is time, <italic>A</italic><sub>1</sub> and <italic>A</italic><sub>2</sub> are the amplitudes,
+and &#x003c4;<sub>1</sub> and &#x003c4;<sub>2</sub> are the PL decay times.
+The average PL lifetime &#x0003c;&#x003c4;&#x0003e; was calculated using <xref rid="eq5" ref-type="disp-formula">eq <xref rid="eq5" ref-type="disp-formula">5</xref></xref>.<disp-formula id="eq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_m005" position="anchor"/><label>5</label></disp-formula></p></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting
+Information is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at
+DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b01858">10.1021/acsomega.9b01858</ext-link>.<list id="silist" list-type="simple"><list-item><p>Enlarged XRD profiles
+of the powder samples of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs (Figure S1);
+size distributions from the TEM images in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> (Figure S2); FT-IR spectra (Figure S3);
+peak assignment for the FT-IR spectra (Table S1); Tauc plots converted
+from the absorption spectra in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>A (Figure S4); dark-field TEM images of the CsPb(Br<sub>1&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>)<sub>3</sub> NCs at <italic>x</italic><sub>n</sub> = 0.50 (Figure S5);
+EDX results for individual NCs (Table S2); PL decay curves (Figure
+S6); and results for the PL lifetime analysis (Table S3) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01858/suppl_file/ao9b01858_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01858_si_001.pdf"><caption><p>ao9b01858_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e2114-autogenerated"><p>The authors declare no competing
+financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors are grateful for the financial supports by the Futaba
+Research Grant Program of the Futaba Foundation (T.I.), the Iketani
+Science and Technology Foundation (T.I.), and the Shorai Foundation
+for Science and Technology (Y.I.).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Supran</surname><given-names>G. J.</given-names></name>; <name><surname>Shirasaki</surname><given-names>Y.</given-names></name>; <name><surname>Song</surname><given-names>K. W.</given-names></name>; <name><surname>Caruge</surname><given-names>J. M.</given-names></name>; <name><surname>Kazlas</surname><given-names>P. T.</given-names></name>; <name><surname>Sullivan</surname><given-names>S. C.</given-names></name>; <name><surname>Andrew</surname><given-names>T. L.</given-names></name>; <name><surname>Bawendi</surname><given-names>M. G.</given-names></name>; <name><surname>Bulovic</surname><given-names>V.</given-names></name>
+<article-title>QLEDs for displays
+and solid-state lighting</article-title>. <source>MRS Bull.</source>
+<year>2013</year>, <volume>38</volume>, <fpage>703</fpage>&#x02013;<lpage>711</lpage>. <pub-id pub-id-type="doi">10.1557/mrs.2013.181</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Anikeeva</surname><given-names>P. O.</given-names></name>; <name><surname>Halpert</surname><given-names>J. E.</given-names></name>; <name><surname>Bawendi</surname><given-names>M. G.</given-names></name>; <name><surname>Bulovic</surname><given-names>V.</given-names></name>
+<article-title>Quantum dot light-emitting
+devices with electroluminescence tunable over the entire visible spectrum</article-title>. <source>Nano Lett.</source>
+<year>2009</year>, <volume>9</volume>, <fpage>2532</fpage>&#x02013;<lpage>2536</lpage>. <pub-id pub-id-type="doi">10.1021/nl9002969</pub-id>.<pub-id pub-id-type="pmid">19514711</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Sugawara</surname><given-names>M.</given-names></name>; <name><surname>Choi</surname><given-names>S. Y.</given-names></name>; <name><surname>Wood</surname><given-names>D.</given-names></name>
+<article-title>Ultra-high-definition
+television (Rec. ITU-R BT.2020): a generational leap in the evolution
+of television</article-title>. <source>IEEE Signal Process. Mag.</source>
+<year>2014</year>, <volume>31</volume>, <fpage>170</fpage>&#x02013;<lpage>174</lpage>. <pub-id pub-id-type="doi">10.1109/MSP.2014.2302331</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Zhu</surname><given-names>R.</given-names></name>; <name><surname>Luo</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>H.</given-names></name>; <name><surname>Dong</surname><given-names>Y.</given-names></name>; <name><surname>Wu</surname><given-names>S. T.</given-names></name>
+<article-title>Realizing
+Rec.2020 color gamut with quantum dot displays</article-title>. <source>Opt. Express</source>
+<year>2015</year>, <volume>23</volume>, <fpage>23680</fpage>&#x02013;<lpage>23693</lpage>. <pub-id pub-id-type="doi">10.1364/OE.23.023680</pub-id>.<pub-id pub-id-type="pmid">26368465</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Fu</surname><given-names>Z.</given-names></name>; <name><surname>Bu</surname><given-names>W.</given-names></name>
+<article-title>High efficiency green-luminescent
+LaPO<sub>4</sub>:Ce, Tb hierarchical nanostructures: Synthesis, characterization,
+and luminescence properties</article-title>. <source>Solid State Sci.</source>
+<year>2008</year>, <volume>10</volume>, <fpage>1062</fpage>&#x02013;<lpage>1067</lpage>. <pub-id pub-id-type="doi">10.1016/j.solidstatesciences.2007.11.032</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Xie</surname><given-names>R. J.</given-names></name>; <name><surname>Hirosaki</surname><given-names>N.</given-names></name>; <name><surname>Li</surname><given-names>H. L.</given-names></name>; <name><surname>Li</surname><given-names>Y. Q.</given-names></name>; <name><surname>Mitomo</surname><given-names>M.</given-names></name>
+<article-title>Synthesis and photoluminescence properties
+of &#x003b2;-sialon:Eu<sup>2+</sup> (Si<sub>6&#x02013;<italic>z</italic></sub>Al<sub><italic>z</italic></sub>O<sub><italic>z</italic></sub>N<sub>8&#x02013;<italic>z</italic></sub>:Eu<sup>2+</sup>)</article-title>. <source>J. Electrochem. Soc.</source>
+<year>2007</year>, <volume>154</volume>, <fpage>J314</fpage>&#x02013;<lpage>J319</lpage>. <pub-id pub-id-type="doi">10.1149/1.2768289</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Shimomura</surname><given-names>Y.</given-names></name>; <name><surname>Honma</surname><given-names>T.</given-names></name>; <name><surname>Shigeiwa</surname><given-names>M.</given-names></name>; <name><surname>Akai</surname><given-names>T.</given-names></name>; <name><surname>Okamoto</surname><given-names>K.</given-names></name>; <name><surname>Kijima</surname><given-names>N.</given-names></name>
+<article-title>Photoluminescence and
+crystal structure of green-emitting Ca<sub>3</sub>Sc<sub>2</sub>Si<sub>3</sub>O<sub>12</sub>:Ce<sup>3+</sup> phosphor for white light emitting
+diodes</article-title>. <source>J. Electrochem. Soc.</source>
+<year>2007</year>, <volume>154</volume>, <fpage>J35</fpage>&#x02013;<lpage>J38</lpage>. <pub-id pub-id-type="doi">10.1149/1.2388856</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Pu</surname><given-names>C.</given-names></name>; <name><surname>Qin</surname><given-names>H.</given-names></name>; <name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Zhou</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Peng</surname><given-names>X.</given-names></name>
+<article-title>Synthetic
+control of exciton behavior in colloidal quantum dots</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>3302</fpage>&#x02013;<lpage>3311</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b11431</pub-id>.<pub-id pub-id-type="pmid">28170239</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Wada</surname><given-names>C.</given-names></name>; <name><surname>Iso</surname><given-names>Y.</given-names></name>; <name><surname>Isobe</surname><given-names>T.</given-names></name>; <name><surname>Sasaki</surname><given-names>H.</given-names></name>
+<article-title>Preparation and photoluminescence
+properties of yellow-emitting CuInS<sub>2</sub>/ZnS quantum dots embedded
+in TMAS-derived silica</article-title>. <source>RSC Adv.</source>
+<year>2017</year>, <volume>7</volume>, <fpage>7936</fpage>&#x02013;<lpage>7943</lpage>. <pub-id pub-id-type="doi">10.1039/C7RA00081B</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Watanabe</surname><given-names>T.</given-names></name>; <name><surname>Wada</surname><given-names>C.</given-names></name>; <name><surname>Iso</surname><given-names>Y.</given-names></name>; <name><surname>Isobe</surname><given-names>T.</given-names></name>; <name><surname>Sasaki</surname><given-names>H.</given-names></name>
+<article-title>Preparation
+of photostable fluorescent InP/ZnS quantum dots embedded in TMAS-derived
+silica</article-title>. <source>ECS J. Solid State Sci. Technol.</source>
+<year>2017</year>, <volume>6</volume>, <fpage>R75</fpage>&#x02013;<lpage>R80</lpage>. <pub-id pub-id-type="doi">10.1149/2.0091707jss</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Watanabe</surname><given-names>T.</given-names></name>; <name><surname>Iso</surname><given-names>Y.</given-names></name>; <name><surname>Isobe</surname><given-names>T.</given-names></name>; <name><surname>Sasaki</surname><given-names>H.</given-names></name>
+<article-title>Photoluminescence
+color stability of green-emitting InP/ZnS core/shell quantum dots
+embedded in silica prepared via hydrophobic routes</article-title>. <source>RSC Adv.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>25526</fpage>&#x02013;<lpage>25533</lpage>. <pub-id pub-id-type="doi">10.1039/C8RA04830D</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Protesescu</surname><given-names>L.</given-names></name>; <name><surname>Yakunin</surname><given-names>S.</given-names></name>; <name><surname>Bodnarchuk</surname><given-names>M. I.</given-names></name>; <name><surname>Krieg</surname><given-names>F.</given-names></name>; <name><surname>Caputo</surname><given-names>R.</given-names></name>; <name><surname>Hendon</surname><given-names>C. H.</given-names></name>; <name><surname>Yang</surname><given-names>R. X.</given-names></name>; <name><surname>Walsh</surname><given-names>A.</given-names></name>; <name><surname>Kovalenko</surname><given-names>M. V.</given-names></name>
+<article-title>Nanocrystals of cesium lead halide
+perovskites (CsPbX<sub>3</sub>, X = Cl, Br, and I): Novel optoelectronic
+materials showing bright emission with wide color gamut</article-title>. <source>Nano Lett.</source>
+<year>2015</year>, <volume>15</volume>, <fpage>3692</fpage>&#x02013;<lpage>3696</lpage>. <pub-id pub-id-type="doi">10.1021/nl5048779</pub-id>.<pub-id pub-id-type="pmid">25633588</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Kovalenko</surname><given-names>M. V.</given-names></name>; <name><surname>Protesescu</surname><given-names>L.</given-names></name>; <name><surname>Bodnarchuk</surname><given-names>M. I.</given-names></name>
+<article-title>Properties and potential optoelectronic applications
+of lead halide perovskite nanocrystals</article-title>. <source>Science</source>
+<year>2017</year>, <volume>358</volume>, <fpage>745</fpage>&#x02013;<lpage>750</lpage>. <pub-id pub-id-type="doi">10.1126/science.aam7093</pub-id>.<pub-id pub-id-type="pmid">29123061</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Dabbousi</surname><given-names>B. O.</given-names></name>; <name><surname>Rodriguez-Viejo</surname><given-names>J.</given-names></name>; <name><surname>Mikulec</surname><given-names>F. V.</given-names></name>; <name><surname>Heine</surname><given-names>J. R.</given-names></name>; <name><surname>Mattoussi</surname><given-names>H.</given-names></name>; <name><surname>Ober</surname><given-names>R.</given-names></name>; <name><surname>Jensen</surname><given-names>K. F.</given-names></name>; <name><surname>Bawendi</surname><given-names>M. G.</given-names></name>
+<article-title>(CdSe)ZnS
+core-shell quantum dots: Synthesis and characterization of a size
+series of highly luminescent nanocrystallites</article-title>. <source>J. Phys. Chem. B</source>
+<year>1997</year>, <volume>101</volume>, <fpage>9463</fpage>&#x02013;<lpage>9475</lpage>. <pub-id pub-id-type="doi">10.1021/jp971091y</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Reiss</surname><given-names>P.</given-names></name>
+<article-title>One-pot synthesis of
+highly luminescent InP/ZnS nanocrystals without precursor injection</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2008</year>, <volume>130</volume>, <fpage>11588</fpage>&#x02013;<lpage>11589</lpage>. <pub-id pub-id-type="doi">10.1021/ja803687e</pub-id>.<pub-id pub-id-type="pmid">18686956</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Iso</surname><given-names>Y.</given-names></name>; <name><surname>Isobe</surname><given-names>T.</given-names></name>
+<article-title>Review-synthesis, luminescent
+properties, and stabilities of cesium lead halide perovskite nanocrystals</article-title>. <source>ECS J. Solid State Sci. Technol.</source>
+<year>2018</year>, <volume>7</volume>, <fpage>R3040</fpage>&#x02013;<lpage>R3045</lpage>. <pub-id pub-id-type="doi">10.1149/2.0101801jss</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Tong</surname><given-names>Y.</given-names></name>; <name><surname>Bladt</surname><given-names>E.</given-names></name>; <name><surname>Ayguler</surname><given-names>M. F.</given-names></name>; <name><surname>Manzi</surname><given-names>A.</given-names></name>; <name><surname>Milowska</surname><given-names>K. Z.</given-names></name>; <name><surname>Hintermayr</surname><given-names>V. A.</given-names></name>; <name><surname>Docampo</surname><given-names>P.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>Urban</surname><given-names>A. S.</given-names></name>; <name><surname>Polavarapu</surname><given-names>L.</given-names></name>; <name><surname>Feldmann</surname><given-names>J.</given-names></name>
+<article-title>Highly luminescent cesium lead halide
+perovskite nanocrystals with tunable composition and thickness by
+ultrasonication</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>13887</fpage>&#x02013;<lpage>13892</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201605909</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Sun</surname><given-names>S.</given-names></name>; <name><surname>Yuan</surname><given-names>D.</given-names></name>; <name><surname>Xu</surname><given-names>Y.</given-names></name>; <name><surname>Wang</surname><given-names>A.</given-names></name>; <name><surname>Deng</surname><given-names>Z.</given-names></name>
+<article-title>Ligand-mediated
+synthesis of shape-controlled cesium lead halide perovskite nanocrystals
+via reprecipitation process at room temperature</article-title>. <source>ACS Nano</source>
+<year>2016</year>, <volume>10</volume>, <fpage>3648</fpage>&#x02013;<lpage>3657</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.5b08193</pub-id>.<pub-id pub-id-type="pmid">26886173</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Ye</surname><given-names>S.</given-names></name>; <name><surname>Yu</surname><given-names>M.</given-names></name>; <name><surname>Zhao</surname><given-names>M.</given-names></name>; <name><surname>Song</surname><given-names>J.</given-names></name>; <name><surname>Qu</surname><given-names>J.</given-names></name>
+<article-title>Low temperature synthesis of high-quality
+all-inorganic cesium lead halide perovskite nanocrystals in open air
+and their upconversion luminescence</article-title>. <source>J. Alloys
+Compd.</source>
+<year>2018</year>, <volume>730</volume>, <fpage>62</fpage>&#x02013;<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1016/j.jallcom.2017.09.284</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Liu</surname><given-names>D.</given-names></name>; <name><surname>Al-Marri</surname><given-names>M. J.</given-names></name>; <name><surname>Nuuttila</surname><given-names>L.</given-names></name>; <name><surname>Lehtivuori</surname><given-names>H.</given-names></name>; <name><surname>Zheng</surname><given-names>K.</given-names></name>
+<article-title>Photo-stability of
+CsPbBr<sub>3</sub> perovskite quantum dots for optoelectronic application</article-title>. <source>Sci. China Mater.</source>
+<year>2016</year>, <volume>59</volume>, <fpage>719</fpage>&#x02013;<lpage>727</lpage>. <pub-id pub-id-type="doi">10.1007/s40843-016-5123-1</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Li</surname><given-names>Z.</given-names></name>; <name><surname>Kong</surname><given-names>L.</given-names></name>; <name><surname>Huang</surname><given-names>S.</given-names></name>; <name><surname>Li</surname><given-names>L.</given-names></name>
+<article-title>Highly luminescent and ultrastable CsPbBr<sub>3</sub> perovskite
+quantum dots incorporated into a silica/alumina monolith</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>8134</fpage>&#x02013;<lpage>8138</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201703264</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Diroll</surname><given-names>B. T.</given-names></name>; <name><surname>Nedelcu</surname><given-names>G.</given-names></name>; <name><surname>Kovalenko</surname><given-names>M. V.</given-names></name>; <name><surname>Schaller</surname><given-names>R. D.</given-names></name>
+<article-title>High-temperature
+photoluminescence of CsPbX<sub>3</sub> (X = Cl, Br, I) nanocrystals</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2017</year>, <volume>27</volume>, <elocation-id>1606750</elocation-id><pub-id pub-id-type="doi">10.1002/adfm.201606750</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Kosugi</surname><given-names>T.</given-names></name>; <name><surname>Iso</surname><given-names>Y.</given-names></name>; <name><surname>Isobe</surname><given-names>T.</given-names></name>
+<article-title>Effects of
+oleic acid on the stability of perovskite CsPbBr<sub>3</sub> quantum
+dot dispersions</article-title>. <source>Chem. Lett.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>349</fpage>&#x02013;<lpage>352</lpage>. <pub-id pub-id-type="doi">10.1246/cl.180998</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Song</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Xu</surname><given-names>L.</given-names></name>; <name><surname>Dong</surname><given-names>Y.</given-names></name>; <name><surname>Zeng</surname><given-names>H.</given-names></name>
+<article-title>Quantum dot
+light emitting diodes based on inorganic perovskite cesium lead halides
+(CsPbX<sub>3</sub>)</article-title>. <source>Adv. Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>7162</fpage>&#x02013;<lpage>7167</lpage>. <pub-id pub-id-type="doi">10.1002/adma.201502567</pub-id>.<pub-id pub-id-type="pmid">26444873</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Ramasamy</surname><given-names>P.</given-names></name>; <name><surname>Lim</surname><given-names>D. H.</given-names></name>; <name><surname>Kim</surname><given-names>B.</given-names></name>; <name><surname>Lee</surname><given-names>S. H.</given-names></name>; <name><surname>Lee</surname><given-names>M. S.</given-names></name>; <name><surname>Lee</surname><given-names>J. S.</given-names></name>
+<article-title>All-inorganic cesium lead halide
+perovskite nanocrystals for photodetector applications</article-title>. <source>Chem. Commun.</source>
+<year>2016</year>, <volume>52</volume>, <fpage>2067</fpage>&#x02013;<lpage>2070</lpage>. <pub-id pub-id-type="doi">10.1039/C5CC08643D</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Yin</surname><given-names>W. J.</given-names></name>; <name><surname>Yan</surname><given-names>Y.</given-names></name>; <name><surname>Wei</surname><given-names>S. H.</given-names></name>
+<article-title>Anomalous
+alloy properties in mixed halide perovskites</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>3625</fpage>&#x02013;<lpage>3631</lpage>. <pub-id pub-id-type="doi">10.1021/jz501896w</pub-id>.<pub-id pub-id-type="pmid">26278729</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Bi</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>S.</given-names></name>; <name><surname>Wen</surname><given-names>W.</given-names></name>; <name><surname>Yuan</surname><given-names>J.</given-names></name>; <name><surname>Cao</surname><given-names>G.</given-names></name>; <name><surname>Tian</surname><given-names>J.</given-names></name>
+<article-title>Room-temperature construction
+of mixed-halide perovskite quantum dots with high photoluminescence
+quantum yield</article-title>. <source>J. Phys. Chem. C</source>
+<year>2018</year>, <volume>122</volume>, <fpage>5151</fpage>&#x02013;<lpage>5160</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.7b12607</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Cottingham</surname><given-names>P.</given-names></name>; <name><surname>Brutchey</surname><given-names>R. L.</given-names></name>
+<article-title>Compositionally dependent phase identity
+of colloidal CsPbBr<sub>3&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub> quantum dots</article-title>. <source>Chem. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>7574</fpage>&#x02013;<lpage>7577</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.6b03553</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Pradhan</surname><given-names>B.</given-names></name>; <name><surname>Mushtaq</surname><given-names>A.</given-names></name>; <name><surname>Roy</surname><given-names>D.</given-names></name>; <name><surname>Sain</surname><given-names>S.</given-names></name>; <name><surname>Das</surname><given-names>B.</given-names></name>; <name><surname>Ghorai</surname><given-names>U. K.</given-names></name>; <name><surname>Pal</surname><given-names>S. K.</given-names></name>; <name><surname>Acharya</surname><given-names>S.</given-names></name>
+<article-title>Postsynthesis spontaneous coalescence of mixed-halide
+perovskite nanocubes into phase-stable single-crystalline uniform
+luminescent nanowires</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>1805</fpage>&#x02013;<lpage>1812</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.9b00832</pub-id>.<pub-id pub-id-type="pmid">30929427</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Zhang</surname><given-names>D.</given-names></name>; <name><surname>Eaton</surname><given-names>S. W.</given-names></name>; <name><surname>Yu</surname><given-names>Y.</given-names></name>; <name><surname>Dou</surname><given-names>L.</given-names></name>; <name><surname>Yang</surname><given-names>P.</given-names></name>
+<article-title>Solution-phase synthesis of cesium lead halide perovskite
+nanowires</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>9230</fpage>&#x02013;<lpage>9233</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.5b05404</pub-id>.<pub-id pub-id-type="pmid">26181343</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Wang</surname><given-names>C.</given-names></name>; <name><surname>Chesman</surname><given-names>A. S. R.</given-names></name>; <name><surname>Jasieniak</surname><given-names>J. J.</given-names></name>
+<article-title>Stabilizing the cubic perovskite
+phase of CsPbI<sub>3</sub> nanocrystals by using an alkyl phosphinic
+acid</article-title>. <source>Chem. Commun.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>232</fpage>&#x02013;<lpage>235</lpage>. <pub-id pub-id-type="doi">10.1039/C6CC08282C</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Eperon</surname><given-names>G. E.</given-names></name>; <name><surname>Paterno</surname><given-names>G. M.</given-names></name>; <name><surname>Sutton</surname><given-names>R. J.</given-names></name>; <name><surname>Zampetti</surname><given-names>A.</given-names></name>; <name><surname>Haghighirad</surname><given-names>A. A.</given-names></name>; <name><surname>Cacialli</surname><given-names>F.</given-names></name>; <name><surname>Snaith</surname><given-names>H. J.</given-names></name>
+<article-title>Inorganic caesium lead iodide perovskite
+solar cells</article-title>. <source>J. Mater. Chem. A</source>
+<year>2015</year>, <volume>3</volume>, <fpage>19688</fpage>&#x02013;<lpage>19695</lpage>. <pub-id pub-id-type="doi">10.1039/C5TA06398A</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Shannon</surname><given-names>R. D.</given-names></name>
+<article-title>Revised
+effective ionic radii and systematic studies of interatomic distances
+in halides and chalcogenides</article-title>. <source>Acta Cryst.</source>
+<year>1976</year>, <volume>A32</volume>, <fpage>751</fpage>&#x02013;<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1107/S0567739476001551</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Makarov</surname><given-names>N. S.</given-names></name>; <name><surname>GSuo</surname><given-names>S.</given-names></name>; <name><surname>Isaienko</surname><given-names>O.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name>; <name><surname>Robel</surname><given-names>I.</given-names></name>; <name><surname>Klimov</surname><given-names>V. I.</given-names></name>
+<article-title>Spectral and dynamical properties
+of single excitons, biexcitons, and trions in cesium-lead-halide perovskite
+quantum dots</article-title>. <source>Nano Lett.</source>
+<year>2016</year>, <volume>16</volume>, <fpage>2349</fpage>&#x02013;<lpage>2362</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.5b05077</pub-id>.<pub-id pub-id-type="pmid">26882294</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Tauc</surname><given-names>J.</given-names></name>; <name><surname>Menth</surname><given-names>A.</given-names></name>
+<article-title>States in the gap</article-title>. <source>J. Non-Cryst. Solids</source>
+<year>1972</year>, <volume>8&#x02013;10</volume>, <fpage>569</fpage>&#x02013;<lpage>585</lpage>. <pub-id pub-id-type="doi">10.1016/0022-3093(72)90194-9</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Ravi</surname><given-names>V. K.</given-names></name>; <name><surname>Marked</surname><given-names>G. B.</given-names></name>; <name><surname>Nag</surname><given-names>A.</given-names></name>
+<article-title>Band edge
+energies and excitonic transition probabilities of colloidal CsPbX<sub>3</sub> (X = Cl, Br, I) perovskite nanocrystals</article-title>. <source>ACS Energy Lett.</source>
+<year>2016</year>, <volume>1</volume>, <fpage>665</fpage>&#x02013;<lpage>671</lpage>. <pub-id pub-id-type="doi">10.1021/acsenergylett.6b00337</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Huang</surname><given-names>H.</given-names></name>; <name><surname>Polavarapu</surname><given-names>L.</given-names></name>; <name><surname>Sichert</surname><given-names>J. A.</given-names></name>; <name><surname>Susha</surname><given-names>A. S.</given-names></name>; <name><surname>Urban</surname><given-names>A. S.</given-names></name>; <name><surname>Rogach</surname><given-names>A. L.</given-names></name>
+<article-title>Colloidal
+lead halide perovskite nanocrystals: Synthesis, optical properties
+and applications</article-title>. <source>NPG Asia Mater.</source>
+<year>2016</year>, <volume>8</volume>, <elocation-id>e328</elocation-id><pub-id pub-id-type="doi">10.1038/am.2016.167</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Swarnkar</surname><given-names>A.</given-names></name>; <name><surname>Chulliyil</surname><given-names>R.</given-names></name>; <name><surname>Ravi</surname><given-names>V. K.</given-names></name>; <name><surname>Irfanullah</surname><given-names>M.</given-names></name>; <name><surname>Chowdhury</surname><given-names>A.</given-names></name>; <name><surname>Nag</surname><given-names>A.</given-names></name>
+<article-title>Colloidal CsPbBr<sub>3</sub> perovskite
+nanocrystals: Luminescence beyond traditional quantum dots</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>15424</fpage>&#x02013;<lpage>15428</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201508276</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Dong</surname><given-names>Y.</given-names></name>; <name><surname>Qiao</surname><given-names>T.</given-names></name>; <name><surname>Kim</surname><given-names>D.</given-names></name>; <name><surname>Parobek</surname><given-names>D.</given-names></name>; <name><surname>Rossi</surname><given-names>D.</given-names></name>; <name><surname>Son</surname><given-names>D. H.</given-names></name>
+<article-title>Precise control of quantum confinement in cesium lead
+halide perovskite quantum dots via thermodynamic equilibrium</article-title>. <source>Nano Lett.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>3716</fpage>&#x02013;<lpage>3722</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.8b00861</pub-id>.<pub-id pub-id-type="pmid">29727576</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Yoon</surname><given-names>S. J.</given-names></name>; <name><surname>Draguta</surname><given-names>S.</given-names></name>; <name><surname>Manser</surname><given-names>J. S.</given-names></name>; <name><surname>Sharia</surname><given-names>O.</given-names></name>; <name><surname>Schneider</surname><given-names>W. F.</given-names></name>; <name><surname>Kuno</surname><given-names>M.</given-names></name>; <name><surname>Kamat</surname><given-names>P. V.</given-names></name>
+<article-title>Tracking
+iodide and bromide ion segregation in mixed halide lead perovskites
+during photoirradiation</article-title>. <source>ACS Energy Lett.</source>
+<year>2016</year>, <volume>1</volume>, <fpage>290</fpage>&#x02013;<lpage>296</lpage>. <pub-id pub-id-type="doi">10.1021/acsenergylett.6b00158</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Makarov</surname><given-names>N. S.</given-names></name>; <name><surname>Guo</surname><given-names>S.</given-names></name>; <name><surname>Isaienko</surname><given-names>O.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name>; <name><surname>Robel</surname><given-names>I.</given-names></name>; <name><surname>Klimov</surname><given-names>V. I.</given-names></name>
+<article-title>Spectral and dynamical properties
+of single excitons, biexcitons, and trions in cesium&#x02013;lead-halide
+perovskite quantum dots</article-title>. <source>Nano Lett.</source>
+<year>2016</year>, <volume>16</volume>, <fpage>2349</fpage>&#x02013;<lpage>2362</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.5b05077</pub-id>.<pub-id pub-id-type="pmid">26882294</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Hu</surname><given-names>Y.</given-names></name>; <name><surname>Ayguler</surname><given-names>M. F.</given-names></name>; <name><surname>Petrus</surname><given-names>M. L.</given-names></name>; <name><surname>Bein</surname><given-names>T.</given-names></name>; <name><surname>Docampo</surname><given-names>P.</given-names></name>
+<article-title>Impact of rubidium and cesium cations
+on the moisture stability of multiple-cation mixed-halide perovskites</article-title>. <source>ACS Energy Lett.</source>
+<year>2017</year>, <volume>2</volume>, <fpage>2212</fpage>&#x02013;<lpage>2218</lpage>. <pub-id pub-id-type="doi">10.1021/acsenergylett.7b00731</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Nagabhushana</surname><given-names>G. P.</given-names></name>; <name><surname>Shivaramaiah</surname><given-names>R.</given-names></name>; <name><surname>Navrotsky</surname><given-names>A.</given-names></name>
+<article-title>Direct calorimetric verification
+of thermodynamic instability of lead halide hybrid perovskites</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<year>2016</year>, <volume>113</volume>, <fpage>7717</fpage>&#x02013;<lpage>7721</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1607850113</pub-id>.<pub-id pub-id-type="pmid">27357677</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Carrero</surname><given-names>S. G.</given-names></name>; <name><surname>Galian</surname><given-names>R. E.</given-names></name>; <name><surname>Pieto</surname><given-names>J. P.</given-names></name>
+<article-title>Organic-inorganic and all-inorganic
+lead halide nanoparticles</article-title>. <source>J. Opt. Soc. Am.</source>
+<year>2016</year>, <volume>24</volume>, <fpage>A285</fpage>&#x02013;<lpage>A301</lpage>. <pub-id pub-id-type="doi">10.1364/OE.24.00A285</pub-id>.</mixed-citation></ref></ref-list></back></article>

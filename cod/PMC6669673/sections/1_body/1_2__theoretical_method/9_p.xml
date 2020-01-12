@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The proof can be easily extended to an N-dimensional integral, 
+ <inline-formula>
+  <math id="mm51">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mi>N</mi>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="70%">∏</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+     </msubsup>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>a</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mi>d</mi>
+     <msub>
+      <mi>q</mi>
+      <mi>i</mi>
+     </msub>
+     <mi>exp</mi>
+     <mo stretchy="false">[</mo>
+     <mo>−</mo>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>…</mo>
+       <msub>
+        <mi>q</mi>
+        <mi>N</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>], as long as the function 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>…</mo>
+       <msub>
+        <mi>q</mi>
+        <mi>N</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is positive definite and has a minimum at the origin (
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 0).
+</p>

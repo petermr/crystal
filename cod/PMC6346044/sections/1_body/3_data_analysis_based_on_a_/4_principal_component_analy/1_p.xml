@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">In order to eliminate correlations among the top 26 attributes listed in Table 
+ <xref rid="Tab3" ref-type="table">3</xref>, a principal component analysis (PCA)
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> was performed. As a result, a set of 26 linearly uncorrelated attributes, called principal components (PC), were obtained. The principal components are linear combinations of the 26 original attributes that maximize their variance. This criterion is equivalent to minimizing the error function defined as the sum of squares in a regression analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>. The first three PCs, PC1, PC2, PC3, yielded variances of 97%, with contributions of 63%, 32%, and 2%, respectively. A projection of the original 18672 data set onto the planes of the leading PCs allows for a type of data clustering, as visually shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>. An inspection of the data points in each of the two clusters based on what we know from the thermodynamics study, indicates that in the PC1-PC2 plane, the negative values correspond to crystalline structures (depicted blue) and the positive values correspond to the amorphous solid plus liquid data with no clear split between them. This same type of two-cluster split is visual in the PC1–PC3 plot of Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>. Although it is common practice to use this approach for clustering data, clearly such clustering analysis is unable of discerning between the amorphous solid data and the liquid data. The PCA is also used for dimensionality reduction. In our case, there is a clear possibility of reducing the data space dimensions from 26 to 3. Next section describes an unsupervised learning algorithm for clustering the data making use of the reduced dimensionality of the dataset.
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par68">We implemented a more accurate scanner model for PET image reconstruction in the STIR library. Scanner geometries with the shape of a regular polygon can be modeled using the new implementation. The new implementation was tested and is available for use via the ETH library [
+ <xref ref-type="bibr" rid="CR23">23</xref>]. The new model was evaluated in terms of spatial resolution, partial volume effect, and uniformity using Monte Carlo simulation of the Derenzo and a uniform cylinder phantom. Results indicate a significant improvement for the new model in comparison with the old one which re-sampled the data from a physical polygonal geometry into a virtual cylindrical scanner geometry.
+</p>

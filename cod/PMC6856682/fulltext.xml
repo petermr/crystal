@@ -1,0 +1,625 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew. Chem. Int. Ed. Engl</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3773</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6856682</article-id><article-id pub-id-type="doi">10.1002/anie.201909240</article-id><article-id pub-id-type="publisher-id">ANIE201909240</article-id><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communications</subject><subj-group subj-group-type="heading"><subject>CO2 Fixation</subject></subj-group></subj-group></article-categories><title-group><article-title>Facile C=O Bond Splitting of Carbon Dioxide Induced by Metal&#x02013;Ligand Cooperativity in a Phosphinine Iron(0) Complex</article-title></title-group><contrib-group><contrib id="anie201909240-cr-0001" contrib-type="author"><name><surname>Leitl</surname><given-names>Julia</given-names></name><xref ref-type="aff" rid="anie201909240-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201909240-cr-0002" contrib-type="author"><name><surname>Marquardt</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="anie201909240-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="anie201909240-cr-0003" contrib-type="author"><name><surname>Coburger</surname><given-names>Peter</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201909240-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201909240-cr-0004" contrib-type="author"><name><surname>Scott</surname><given-names>Daniel J.</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201909240-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201909240-cr-0005" contrib-type="author"><name><surname>Streitferdt</surname><given-names>Verena</given-names></name><xref ref-type="aff" rid="anie201909240-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201909240-cr-0006" contrib-type="author"><name><surname>Gschwind</surname><given-names>Ruth M.</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-3052-0077</contrib-id><xref ref-type="aff" rid="anie201909240-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201909240-cr-0007" contrib-type="author" corresp="yes"><name><surname>M&#x000fc;ller</surname><given-names>Christian</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4700-0502</contrib-id><xref ref-type="aff" rid="anie201909240-aff-0002">
+<sup>2</sup>
+</xref><address><email>c.mueller@fu-berlin.de</email></address></contrib><contrib id="anie201909240-cr-0008" contrib-type="author" corresp="yes"><name><surname>Wolf</surname><given-names>Robert</given-names><prefix>Prof.&#x02005;Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-4066-6483</contrib-id><xref ref-type="aff" rid="anie201909240-aff-0001">
+<sup>1</sup>
+</xref><address><email>robert.wolf@ur.de</email></address></contrib></contrib-group><aff id="anie201909240-aff-0001">
+<label><sup>1</sup></label>
+<institution>University of Regensburg</institution>
+<named-content content-type="organisation-division">Institute of Inorganic Chemistry</named-content>
+<postal-code>93040</postal-code>
+<city>Regensburg</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie201909240-aff-0002">
+<label><sup>2</sup></label>
+<institution>Freie Universit&#x000e4;t Berlin</institution>
+<named-content content-type="organisation-division">Institut f&#x000fc;r Chemie und Biochemie</named-content>
+<named-content content-type="street">Fabeckstr. 34/36</named-content>
+<postal-code>14195</postal-code>
+<city>Berlin</city>
+<country country="DE">Germany</country>
+</aff><aff id="anie201909240-aff-0003">
+<label><sup>3</sup></label>
+<institution>University of Regensburg</institution>
+<named-content content-type="organisation-division">Institute of Organic Chemistry</named-content>
+<postal-code>93040</postal-code>
+<city>Regensburg</city>
+<country country="DE">Germany</country>
+</aff><pub-date pub-type="epub"><day>13</day><month>9</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>21</day><month>10</month><year>2019</year></pub-date><volume>58</volume><issue>43</issue><issue-id pub-id-type="doi">10.1002/anie.v58.43</issue-id><fpage>15407</fpage><lpage>15411</lpage><history><date date-type="received"><day>23</day><month>7</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Wiley&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley-VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy-nc"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ANIE-58-15407.pdf"/><abstract><title>Abstract</title><p>New iron complexes [Cp*Fe<bold>L</bold>]<sup>&#x02212;</sup> (<bold>1&#x02010;&#x003c3; and 1&#x02010;&#x003c0;</bold>, Cp*=C<sub>5</sub>Me<sub>5</sub>) containing the chelating phosphinine ligand 2&#x02010;(2&#x02032;&#x02010;pyridyl)&#x02010;4,6&#x02010;diphenylphosphinine (<bold>L</bold>) have been prepared, and found to undergo facile reaction with CO<sub>2</sub> under ambient conditions. The outcome of this reaction depends on the coordination mode of the versatile ligand <bold>L</bold>. Interaction of CO<sub>2</sub> with the isomer <bold>1&#x02010;&#x003c0;</bold>, in which <bold>L</bold> binds to Fe through the phosphinine moiety in an &#x003b7;<sup>5</sup> fashion, leads to the formation of <bold>3&#x02010;&#x003c0;</bold>, in which CO<sub>2</sub> has undergone electrophilic addition to the phosphinine group. In contrast, interaction with <bold>1&#x02010;&#x003c3;</bold>&#x02014;in which <bold>L</bold> acts as a &#x003c3;&#x02010;chelating [P,N] ligand&#x02014;leads to product <bold>3&#x02010;&#x003c3;</bold> in which one C=O bond has been completely broken. Such CO<sub>2</sub> cleavage reactions are extremely rare for late 3d metals, and this represents the first such example mediated by a single Fe centre.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>CO<sub>2</sub> splitting</bold> by a single iron centre is achieved through the joint action of the metal atom and the 2&#x02010;(2&#x02032;&#x02010;pyridyl)&#x02010;4,6&#x02010;diphenylphosphinine ligand (<bold>L</bold>) in the ferrate anion [Cp*Fe<bold>L</bold>]<sup>&#x02212;</sup> (Cp*=C<sub>5</sub>Me<sub>5</sub>). The outcome of the reaction depends on the coordination mode of <bold>L</bold>. Electrophilic addition of CO<sub>2</sub> to the phosphinine group is observed when <bold>L</bold> is &#x003c0;&#x02010;coordinated, while the &#x003c3;&#x02010;coordinated ligand induces C=O bond cleavage.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ANIE-58-15407-g007.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie201909240-kwd-0001">CO<sub>2</sub> fixation</kwd><kwd id="anie201909240-kwd-0002">cooperative effects</kwd><kwd id="anie201909240-kwd-0003">iron</kwd><kwd id="anie201909240-kwd-0004">P,N ligands</kwd><kwd id="anie201909240-kwd-0005">phosphinine</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>Deutsche Forschungsgemeinschaft </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001659</institution-id></institution-wrap></funding-source><award-id>MU1657/5-1</award-id><award-id>WO1496/9-1</award-id></award-group><award-group id="funding-0002"><funding-source><institution-wrap><institution>Alexander von Humboldt-Stiftung </institution><institution-id institution-id-type="open-funder-registry">10.13039/100005156</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><ref-count count="58"/><page-count count="5"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 21, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.1 mode:remove_FC converted:15.11.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="anie201909240-self">J. Leitl, M. Marquardt, P. Coburger, D. J. Scott, V. Streitferdt, R. M. Gschwind, C. M&#x000fc;ller, R. Wolf, <italic>Angew. Chem. Int. Ed.</italic>
+<bold>2019</bold>, <italic>58</italic>, 15407.</mixed-citation>
+</p></notes></front><body><p>The transformation of carbon dioxide into novel and useful chemicals remains one of the most important research challenges of modern chemistry. Application of CO<sub>2</sub> as a C<sub>1</sub> building block is highly attractive due to its relative abundance and, in particular, as a method to address long&#x02010;established concerns about its role as an atmospheric greenhouse gas.<xref rid="anie201909240-bib-0001" ref-type="ref">1</xref> One potential method is the transformation of CO<sub>2</sub> into carbon monoxide, CO, which is a common feedstock for large&#x02010;scale industrial processes (e.g. Fischer&#x02013;Tropsch alkane synthesis).<xref rid="anie201909240-bib-0002" ref-type="ref">2</xref> This has led to great interest in the identification and study of well&#x02010;defined molecular systems capable of directly cleaving the C=O bond in CO<sub>2</sub>. Such transformations are highly challenging due to the high strength of the C=O bond (bond enthalpy 532&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup>).<xref rid="anie201909240-bib-0003" ref-type="ref">3</xref> Nevertheless, these reactions have become relatively established for highly reducing, low&#x02010;valent early 3d metals<xref rid="anie201909240-bib-0004" ref-type="ref">4</xref> and a number of examples based on precious<xref rid="anie201909240-bib-0005" ref-type="ref">5</xref> and f&#x02010;block metals<xref rid="anie201909240-bib-0006" ref-type="ref">6</xref> have also been reported. In comparison, the use of earth&#x02010;abundant late 3d metals remains surprisingly underexplored, particularly given the role that such metals play in biological CO<sub>2</sub> reduction to CO, mediated by Ni,Fe CO dehydrogenase.<xref rid="anie201909240-bib-0007" ref-type="ref">7</xref>
+</p><p>Currently, only a handful of examples of CO<sub>2</sub> cleavage based on 3d metals are known (Figure&#x02005;<xref rid="anie201909240-fig-0001" ref-type="fig">1</xref>).<xref rid="anie201909240-bib-0008" ref-type="ref">8</xref> In 2005, Sadighi et&#x02005;al. reported abstraction of an oxygen atom from CO<sub>2</sub> by NHC copper boryl complexes (NHC=N&#x02010;heterocyclic carbene), resulting in formal O atom insertion into the Cu&#x02212;B bond to give compound <bold>A</bold>.<xref rid="anie201909240-bib-0009" ref-type="ref">9</xref> Subsequently, in 2007, Peters and co&#x02010;workers reported the formation of a dinuclear Fe<sup>II</sup> complex <bold>B</bold> containing bridging CO and O<sup>2&#x02212;</sup> ligands, which was prepared by reaction of CO<sub>2</sub> with an Fe<sup>I</sup> precursor (similar results were also published by Holland et al. shortly thereafter).<xref rid="anie201909240-bib-0004d" ref-type="ref">4d</xref>, <xref rid="anie201909240-bib-0010" ref-type="ref">10</xref> Recently, the group of Milstein has described a more complex CO<sub>2</sub> activation sequence mediated by a nickel pincer complex, involving the cleavage of a ligand C&#x02212;P bond as well as one CO<sub>2</sub> C=O bond to give the products <bold>C</bold> and <bold>D</bold>.<xref rid="anie201909240-bib-0011" ref-type="ref">11</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="anie201909240-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>C=O cleavage in CO<sub>2</sub> mediated by well&#x02010;defined late 3d metal complexes. NHC=<italic>N</italic>&#x02010;heterocyclic carbene. [P<sub>3</sub>]=PhB(CH<sub>2</sub>P(CH<sub>2</sub>Cy)<sub>2</sub>)<sub>3</sub>. [P]=P<sup><italic>i</italic></sup>Pr<sub>2</sub>.</p></caption><graphic id="nlm-graphic-3" xlink:href="ANIE-58-15407-g001"/></fig><p>The complexes <bold>A</bold>&#x02013;<bold>D</bold> all form through some manner of cooperative CO<sub>2</sub> activation. In each case, the small&#x02010;molecule substrate is cleaved as a result of combined interaction with either more than one metal centre (<bold>B</bold>, <bold>C</bold>/<bold>D</bold>), or with both a metal centre and a &#x0201c;non&#x02010;innocent&#x0201d; ligand (<bold>A</bold>, <bold>C</bold>/<bold>D</bold>). On this basis, we reasoned that the use of other ligands capable of metal&#x02013;ligand cooperation (MLC)<xref rid="anie201909240-bib-0012" ref-type="ref">12</xref> should allow us to expand the range of structural motifs available for mediating challenging CO<sub>2</sub> cleavage reactions at late 3d metals.</p><p>In this context, we have recently become interested in the use of phosphinines as ligands in late 3d transition metal chemistry.<xref rid="anie201909240-bib-0013" ref-type="ref">13</xref> Previous work has shown that these compounds exhibit a rich coordination chemistry, and are capable of displaying diverse coordination modes.<xref rid="anie201909240-bib-0013" ref-type="ref">13</xref>, <xref rid="anie201909240-bib-0014" ref-type="ref">14</xref> Furthermore, we have shown that Cp*Fe complexes of the simple phosphinine TPP (TPP=2,4,6&#x02010;triphenylphosphinine) show considerable non&#x02010;innocent behaviour, with the TPP ligand capable of displaying either nucleophilic or electrophilic character towards external reagents.<xref rid="anie201909240-bib-0015" ref-type="ref">15</xref> We anticipated that the coordination chemistry (and, hence, onward reactivity) of these complexes might be further diversified through incorporation of the phosphinine moiety into a chelating ligand scaffold. We therefore decided to target the synthesis of an analogue of our previously reported complex [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;TPP)],<xref rid="anie201909240-bib-0016" ref-type="ref">16</xref> in which TPP is replaced by the known ligand 2&#x02010;(2&#x02032;&#x02010;pyridyl)&#x02010;4,6&#x02010;diphenylphosphinine (<bold>L</bold>).<xref rid="anie201909240-bib-0017" ref-type="ref">17</xref>
+</p><p>Pursuing an analogous method to that used previously to prepare [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;TPP)], treatment of [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;C<sub>10</sub>H<sub>8</sub>)] with <bold>L</bold> at &#x02212;35&#x02009;&#x000b0;C in 1,2&#x02010;dimethoxyethane (DME), which was then warmed to room temperature (RT) and stirred overnight, gave a deep purple reaction mixture. Dark purple crystals of a new product <bold>1</bold> were obtained in good yield (68&#x02009;%) by layering this reaction mixture with <italic>n</italic>&#x02010;hexane and subsequent filtration (Scheme&#x02005;<xref rid="anie201909240-fig-5001" ref-type="fig">1</xref>, top). X&#x02010;ray analysis confirmed the expected formulation of <bold>1</bold> as [K([18]crown&#x02010;6)][Cp*Fe<bold>L</bold>] (<bold>1&#x02010;&#x003c3;</bold>), in which the ligand <bold>L</bold> has displaced naphthalene from the anionic Cp*Fe moiety (Figure&#x02005;<xref rid="anie201909240-fig-0002" ref-type="fig">2</xref>). The crystal structure reveals that, in contrast to the &#x003b7;<sup>4</sup>&#x02010;TPP binding mode in [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;TPP)], the phosphinine ligand acts as a &#x003c3;&#x02010;coordinated [P,N] chelate in [K([18]crown&#x02010;6)][Cp*Fe<bold>L</bold>], with the Cp* and <bold>L</bold> ligands coordinating the iron centre in a trigonal&#x02010;planar fashion.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201909240-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Solid&#x02010;state molecular structure of <bold>1&#x02010;&#x003c3;</bold> (left);<xref rid="anie201909240-bib-0024" ref-type="ref">24</xref> ellipsoids are drawn at the 40&#x02009;% probability level; H atoms are omitted and the [K([18]crown&#x02010;6)]<sup>+</sup> cation is transparent for clarity; selected bond lengths [&#x000c5;] and bond angles [&#x000b0;]: Fe1&#x02010;P1: 2.0811(4), Fe1&#x02010;N1: 1.9428(12), P1&#x02010;C1: 1.7733(13), C1&#x02010;C2: 1.3953(19), C2&#x02010;C3: 1.3947(18), C3&#x02010;C4: 1.4343(18), C4&#x02010;C5: 1.3756(18), C5&#x02010;P1: 1.7757(13), P1&#x02010;Fe1&#x02010;N1: 82.32(4), Fe1&#x02010;P1&#x02010;C1: 107.62(4), Fe1&#x02010;N1&#x02010;C6: 124.18(9), Cp*&#x02010;Fe1&#x02010;N1: 135.513(8), P1&#x02010;Fe1&#x02010;Cp*: 140.545(9). Side view of solid&#x02010;state molecular structure of <bold>1&#x02010;&#x003c3;</bold> (right); for clarity, one additional phenyl group is also transparent.</p></caption><graphic id="nlm-graphic-5" xlink:href="ANIE-58-15407-g002"/></fig><fig fig-type="Scheme" xml:lang="en" id="anie201909240-fig-5001" orientation="portrait" position="float"><label>Scheme 1</label><caption><p>Reaction of [K([18]crown&#x02010;6)][Cp*Fe(C<sub>10</sub>H<sub>8</sub>)] with 2&#x02010;(2&#x02032;&#x02010;pyridyl)&#x02010;4,6&#x02010;diphenylphosphinine (<bold>L</bold>) forming <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold>; i)&#x02005;<bold>L</bold>, DME, &#x02212;35&#x02009;&#x000b0;C to RT, &#x02212;naphthalene; ii)&#x02005;1&#x02005;equiv. [K([18]crown&#x02010;6)][Cp*Fe(C<sub>10</sub>H<sub>8</sub>)], 2&#x02005;equiv. <bold>L</bold>, toluene/THF&#x02009;, &#x02212;35&#x02009;&#x000b0;C to RT; iii)&#x02005;1&#x02005;equiv. [K([18]crown&#x02010;6)][Cp*Fe(C<sub>10</sub>H<sub>8</sub>)], THF.</p></caption><graphic id="nlm-graphic-7" xlink:href="ANIE-58-15407-g005"/></fig><p>Further structural assignment of <bold>1&#x02010;&#x003c3;</bold> in the solid state is supported by <sup>31</sup>P CP MAS NMR spectroscopy, which indicates the presence of a single species with a signal at <italic>&#x003b4;</italic>
+<sub>iso</sub>=121.1&#x02005;ppm, in the range expected for this coordination mode of <bold>L</bold>.<xref rid="anie201909240-bib-0018" ref-type="ref">18</xref> In contrast, solution&#x02010;phase <sup>31</sup>P{<sup>1</sup>H}&#x02005;NMR analysis of crystalline <bold>1</bold> dissolved in suitable solvents<xref rid="anie201909240-bib-0019" ref-type="ref">19</xref> shows two distinct resonances. For example, in [D<sub>8</sub>]THF a sharp singlet at 130.7&#x02005;ppm (or a triplet with <sup>3</sup>
+<italic>J</italic>
+<sub>P&#x02010;H</sub>=13&#x02005;Hz in the coupled <sup>31</sup>P&#x02005;NMR spectrum) is assigned to <bold>1&#x02010;&#x003c3;</bold>, but is accompanied by a second, very broad resonance (<italic>&#x003c4;</italic>
+<sub>1/2</sub>=1000&#x02005;Hz) at &#x02212;46.2&#x02005;ppm. Attempts to selectively crystallise the species corresponding to this resonance have been unsuccessful, with XRD and <sup>31</sup>P CP MAS measurements consistently showing the presence of only <bold>1&#x02010;&#x003c3;</bold> in the solid state. Nevertheless, the broadness and chemical shift of this signal are very similar to those observed previously for the complex [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;TPP)]. In this compound the TPP ligand is rapidly equilibrating between different &#x003b7;<sup>4</sup> &#x003c0;&#x02010;coordination modes.<xref rid="anie201909240-bib-0016" ref-type="ref">16</xref> We therefore assign this signal to an isomeric structure of <bold>1</bold> (<bold>1&#x02010;&#x003c0;</bold>) where the ligand <bold>L</bold> coordinates in an &#x003b7;<sup>4</sup>&#x02010;fashion as shown in Scheme&#x02005;<xref rid="anie201909240-fig-5001" ref-type="fig">1</xref>, and which exists in equilibrium with <bold>1&#x02010;&#x003c3;</bold> in solution. This conclusion is supported by DFT calculations. A minimum&#x02010;energy structure corresponding to <bold>1&#x02010;&#x003c0;</bold> is only 0.9&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup> higher in energy than the optimized structure for <bold>1&#x02010;&#x003c3;</bold> (which reproduces well the structure observed by crystallography; see the Supporting Information). Furthermore, conversion of <bold>1&#x02010;&#x003c0;</bold> to <bold>1&#x02010;&#x003c3;</bold> is calculated to proceed with a barrier of 27.0&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup>, consistent with an equilibrium at room temperature. <sup>31</sup>P{<sup>1</sup>H}&#x02005;NMR integration indicates an approximately 2:1 ratio of <bold>1&#x02010;&#x003c3;</bold> to <bold>1&#x02010;&#x003c0;</bold> at room temperature, which does not change significantly at lower temperature (&#x02212;30&#x02009;&#x000b0;C; at elevated temperatures other reactivity is observed, see the Supporting Information).</p><p>In the hope of gaining more insight into the formation of both isomers of <bold>1</bold>, the reaction of [K([18]crown&#x02010;6)][Cp*Fe(C<sub>10</sub>H<sub>8</sub>)] with <bold>L</bold> was monitored by <sup>31</sup>P{<sup>1</sup>H} NMR spectroscopy at 273&#x02005;K. The initial spectrum showed immediate, full consumption of ligand <bold>L</bold>, and formation of two major new groups of resonances at ca. &#x02212;25 and &#x02212;42&#x02005;ppm.<xref rid="anie201909240-bib-0020" ref-type="ref">20</xref> Only after approximately 30&#x02005;minutes did signals attributable to <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> become readily discernible, growing in steadily over the course of several hours with concomitant loss of the intermediate resonances.</p><p>Close inspection of the observed multiplets suggested that they could be assigned to a pair of AB spin systems with very similar chemical shifts and coupling constants. Notably, the chemical shifts at approximately &#x02212;42&#x02005;ppm are almost identical to those of the P&#x02212;P bonded dimeric species [Cp*Fe(&#x003b7;<sup>5</sup>&#x02010;TPP)]<sub>2</sub>.<xref rid="anie201909240-bib-0016" ref-type="ref">16</xref> Indeed, when the reaction between <bold>L</bold> and [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;C<sub>10</sub>H<sub>8</sub>)] was repeated with a 2:1 molar ratio, these resonances were seen to form selectively. Only upon addition of a further equivalent of [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;C<sub>10</sub>H<sub>8</sub>)] were the isomers of <bold>1</bold> observed (Scheme&#x02005;<xref rid="anie201909240-fig-5001" ref-type="fig">1</xref>, bottom). Conversely, addition of 1&#x02005;equiv. of <bold>L</bold> to an isolated sample of <bold>1</bold> regenerated the intermediate resonances. It was therefore proposed that these resonances might correspond to two isomers of the P&#x02212;P dimer [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>5</sup>&#x02010;<bold>L</bold>
+<sub>2</sub>)], <bold>2</bold>, which differ only in the relative orientations of the <bold>L</bold> pyridyl groups. This assignment was confirmed by X&#x02010;ray analysis of single crystals grown by slow diffusion of <italic>n</italic>&#x02010;hexane into a DME solution of <bold>2</bold>, which resolved to show the expected <bold>L</bold>
+<sub>2</sub> dimer. One half of the molecule is coordinated in an &#x003b7;<sup>5</sup> fashion to a Cp*Fe moiety (Figure&#x02005;<xref rid="anie201909240-fig-0003" ref-type="fig">3</xref>).<xref rid="anie201909240-bib-0021" ref-type="ref">21</xref> The P1&#x02212;P2 bond is longer than typical P&#x02212;P single bonds (2.3149(14) vs. 2.04&#x02005;&#x000c5;)<xref rid="anie201909240-bib-0022" ref-type="ref">22</xref> suggesting a relatively weak interaction, consistent with facile cleavage upon addition of a second equivalent of [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;C<sub>10</sub>H<sub>8</sub>)].
+</p><fig fig-type="Figure" xml:lang="en" id="anie201909240-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Solid&#x02010;state molecular structure of <bold>2</bold>;<xref rid="anie201909240-bib-0024" ref-type="ref">24</xref> ellipsoids are drawn at the 40&#x02009;% probability level; H atoms are omitted for clarity; selected bond lengths [&#x000c5;] and bond angles [&#x000b0;]: P1&#x02010;P2: 2.3149(14), C1&#x02010;P1&#x02010;C5: 92.99(17), C6&#x02010;P2&#x02010;C10: 99.58(19), fold angle C1&#x02010;P1&#x02010;C5: 32.64, fold angle C6&#x02010;P2&#x02010;C10: 14.79.</p></caption><graphic id="nlm-graphic-9" xlink:href="ANIE-58-15407-g003"/></fig><p>Complex <bold>2</bold> likely arises through rapid addition of initially&#x02010;formed <bold>1</bold> to a second equivalent of <bold>L</bold>. When <bold>L</bold> is consumed, further coordination of &#x0201c;Cp*Fe<sup>&#x02212;</sup>&#x0201d; leads to formation of free <bold>1</bold>. Transiently&#x02010;formed <bold>1</bold> is believed to act as a nucleophile in this reaction, with the second equivalent of <bold>L</bold> behaving as a formal electrophile. This is consistent with previous observations of nucleophilic character for the P atom in [K([18]crown&#x02010;6)][Cp*Fe(&#x003b7;<sup>4</sup>&#x02010;TPP)],<xref rid="anie201909240-bib-0015a" ref-type="ref">15a</xref> as well as with DFT calculations, which suggest that the phosphinine moiety not directly bound to Fe is best described as an anionic phosphahexacyclodienyl fragment (see the Supporting Information). These calculations also indicate that formation of <bold>2</bold> from <bold>1&#x02010;&#x003c0;</bold> and <bold>L</bold> is favourable by 23.5&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup>, and proceeds over a low energy barrier of 7.5&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup>.</p><p>Encouraged by the evidence of both coordinative flexibility and non&#x02010;innocent reactivity already displayed by the phosphinine ligand <bold>L</bold> during the synthesis of compound <bold>1</bold>, we proceeded to investigate the reactivity of this complex towards CO<sub>2</sub>. Thus, a THF solution of <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> was charged with CO<sub>2</sub> (1&#x02005;atm) at room temperature (Scheme&#x02005;<xref rid="anie201909240-fig-5002" ref-type="fig">2</xref>). Gratifyingly, an immediate colour change from deep purple to deep green was observed, and <sup>31</sup>P{<sup>1</sup>H}&#x02005;NMR spectroscopy confirmed the complete consumption of <bold>1</bold> within 10&#x02005;minutes with concomitant formation of two major new species, identified by signals at 97.0 and 116.0&#x02005;ppm, with the former splitting into a triplet in the proton&#x02010;coupled <sup>31</sup>P&#x02005;NMR spectrum (<sup>3</sup>
+<italic>J</italic>
+<sub>P&#x02010;H</sub>=13&#x02005;Hz). The species corresponding to these two resonances could be separated by fractional crystallisation, and the identity of both was established by single&#x02010;crystal X&#x02010;ray diffraction studies (Figure&#x02005;<xref rid="anie201909240-fig-0004" ref-type="fig">4</xref>).
+</p><fig fig-type="Figure" xml:lang="en" id="anie201909240-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Solid&#x02010;state molecular structures of <bold>3&#x02010;&#x003c3;</bold> and <bold>3&#x02010;&#x003c0;</bold>;<xref rid="anie201909240-bib-0024" ref-type="ref">24</xref> ellipsoids are drawn at the 40&#x02009;% probability level; H atoms are omitted for clarity; selected bond lengths [&#x000c5;] and bond angles [&#x000b0;] of <bold>3&#x02010;&#x003c3;</bold>: Fe1&#x02010;P1: 2.2434(4), Fe1&#x02010;N1: 2.0060(14), Fe1&#x02010;C6: 1.7272(18), C6&#x02010;O1: 1.170(2), P1&#x02010;O2: 1.5272(12), K1&#x02010;O1: 3.3043(16), K2&#x02010;O2: 2.558(17), O1&#x02010;C6&#x02010;Fe1=177.49(17), C6&#x02010;Fe1&#x02010;P1=88.41(6), Fe1&#x02010;P1&#x02010;O2=114.45(5), C6&#x02010;Fe1&#x02010;N1: 98.78(7); for <bold>3&#x02010;&#x003c0;</bold>: C6&#x02010;O1: 1.236(5), C6&#x02010;O2: 1.229(5), C1&#x02010;C6: 1.575(5), K1&#x02010;O1: 2.723(3), K1&#x02010;O2: 3.050(4), O1&#x02010;C6&#x02010;O2=127.3(4), P1&#x02010;C1&#x02010;C2=97.5(3), C1&#x02010;P1&#x02010;C5=98.36(19).</p></caption><graphic id="nlm-graphic-11" xlink:href="ANIE-58-15407-g004"/></fig><fig fig-type="Scheme" xml:lang="en" id="anie201909240-fig-5002" orientation="portrait" position="float"><label>Scheme 2</label><caption><p>Reaction of <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> with CO<sub>2</sub> (1 atm) in THF at room temperature.</p></caption><graphic id="nlm-graphic-13" xlink:href="ANIE-58-15407-g006"/></fig><p>Thus, the <sup>31</sup>P{<sup>1</sup>H} resonance at 116.0&#x02005;ppm can be assigned to the new compound <bold>3&#x02010;&#x003c0;</bold>, in which an intact CO<sub>2</sub> moiety has attached to the phosphinine carbon &#x0201c;<italic>ipso</italic>&#x0201d; to the pyridyl group.<xref rid="anie201909240-bib-0023" ref-type="ref">23</xref> The resulting carboxylate&#x02010;substituted phosphacyclohexadienyl ligand coordinates to Fe in an &#x003b7;<sup>5</sup> fashion, and the carboxylate itself interacts in a &#x003ba;<sup>2</sup> manner with the potassium countercation. It is noteworthy that no reaction is observed between CO<sub>2</sub> and the free ligand <bold>L</bold> under analogous conditions.</p><p>A more dramatic outcome is revealed by the second major reaction product, <bold>3&#x02010;&#x003c3;</bold>. In this case, the molecular structure in the crystal clearly shows complete cleavage of one C=O bond in the CO<sub>2</sub> substrate, with coordination of the resulting CO molecule to the Fe centre, and of the remaining O atom to the ligand P atom. Nonetheless, the coordination mode of the ligand <bold>L</bold> remains unchanged from <bold>1&#x02010;&#x003c3;</bold>, which may be attributed to the electronic flexibility of the phosphinine moiety. In contrast to Milstein's product <bold>D</bold> (as well as an Ir&#x02010;based system described recently by Langer, Hamza and P&#x000e1;pai), O&#x02010;atom transfer to P does not require cleavage of any bonds in the ligand backbone.<xref rid="anie201909240-bib-0005e" ref-type="ref">5e</xref>, <xref rid="anie201909240-bib-0011" ref-type="ref">11</xref> Again, this can be attributed to the use of an unsaturated phosphinine moiety in place of a more conventional phosphine donor. This reaction represents the first example of full CO<sub>2</sub> C=O cleavage mediated by a single well&#x02010;defined Fe centre. That the activation is achieved under ambient conditions using only earth&#x02010;abundant elements renders this system a highly attractive starting point for further investigations into productive CO<sub>2</sub> utilization.</p><p>Intuitively, the structures observed for <bold>3&#x02010;&#x003c3;</bold> and <bold>3&#x02010;&#x003c0;</bold> suggest that they are formed through the reaction of CO<sub>2</sub> with isomers <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> of <bold>1</bold>, respectively. This conclusion is further supported by <sup>31</sup>P{<sup>1</sup>H} spectra of the crude product mixture, which indicate the formation of <bold>3&#x02010;&#x003c3;</bold> and <bold>3&#x02010;&#x003c0;</bold> in the same 2:1 ratio observed for the equilibrium between <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> (vide supra). To provide more conclusive evidence, DFT studies were performed to establish the mechanisms of formation of both <bold>3&#x02010;&#x003c3;</bold> and <bold>3&#x02010;&#x003c0;</bold> (see the Supporting Information). As expected, interaction of CO<sub>2</sub> with <bold>1&#x02010;&#x003c3;</bold> was calculated to lead to formation of <bold>3&#x02010;&#x003c3;</bold>, with only a very small energy barrier of 3.5&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup>. Interaction with <bold>1&#x02010;&#x003c0;</bold> was calculated to lead to <bold>3&#x02010;&#x003c0;</bold> over a similarly small barrier (5.5&#x02005;kcal&#x02009;mol<sup>&#x02212;1</sup>). Notably, both barriers are significantly lower than the barrier to isomerisation between <bold>1&#x02010;&#x003c3;</bold> and <bold>1&#x02010;&#x003c0;</bold> (vide supra).</p><p>In summary, we have prepared a new anionic Fe complex <bold>1</bold> incorporating a chelating phosphinine ligand. Complex <bold>1</bold> exists in solution as a pair of isomers in which the phosphinine adopts distinct coordination modes at the metal. Both isomers react with CO<sub>2</sub>: for the &#x003c0;&#x02010;coordinated isomer <bold>1&#x02010;&#x003c0;</bold> addition of CO<sub>2</sub> to a carbon atom of the phosphinine moiety is observed, while full cleavage of one C=O bond occurs in the &#x003c3;&#x02010;coordinated isomer <bold>1&#x02010;&#x003c3;</bold> to give an Fe&#x02010;coordinated CO moiety and P&#x02010;bound O atom. This is the first reported example of C=O cleavage of a CO<sub>2</sub> molecule mediated by a single Fe centre, and clearly demonstrates the potential of coordinatively and electronically flexible phosphinine ligands to help mediate challenging bond&#x02010;activation reactions. Research into the further applications of such complexes, the derivatisation of CO<sub>2</sub> cleavage product <bold>3&#x02010;&#x003c3;</bold>, and the use of these systems to address the crucial and topical challenge of efficient CO<sub>2</sub> transformation are currently underway in our laboratories.</p><p>Please note: Minor changes have been made to this manuscript since its publication in <italic>Angewandte Chemie</italic> Early View. The Editor.</p><sec disp-level="2" id="anie201909240-sec-0003" sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ANIE-58-15407-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="anie201909240-sec-0002"><title>Acknowledgements</title><p>We thank Dr. Ilya G. Shenderovich for the CP MAS NMR measurement and Dr. Stefanie G&#x000e4;rtner for crystallographic advice. Funding by the Deutsche Forschungsgemeinschaft (MU1657/5&#x02010;1 and WO1496/9&#x02010;1) and the Alexander von Humboldt foundation (postdoctoral fellowship to D.J.S.) is gratefully acknowledged.</p></ack><ref-list><ref id="anie201909240-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0001">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0001a"><label>1a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0002">
+<string-name>
+<given-names>E. V.</given-names>
+<surname>Kondratenko</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Mul</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Baltrusaitis</surname>
+</string-name>, <string-name>
+<given-names>G. O.</given-names>
+<surname>Larraz&#x000e1;bal</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>P&#x000e9;rez-Ram&#x000ed;rez</surname>
+</string-name>, <source xml:lang="en">Energy Environ. Sci.</source>
+<year>2013</year>, <volume>6</volume>, <fpage>3112</fpage>&#x02013;<lpage>3135</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0001b"><label>1b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0003">
+<string-name>
+<given-names>Q.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Jackstell</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Beller</surname>
+</string-name>, <source xml:lang="en">Nat. Commun.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>5933</fpage>;<pub-id pub-id-type="pmid">25600683</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0001c"><label>1c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0004">
+<string-name>
+<given-names>C.</given-names>
+<surname>Maeda</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Miyazaki</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Ema</surname>
+</string-name>, <source xml:lang="en">Catal. Sci. Technol.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>1482</fpage>&#x02013;<lpage>1497</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0001d"><label>1d</label><mixed-citation publication-type="journal" id="anie201909240-cit-0005">
+<string-name>
+<given-names>D. M.</given-names>
+<surname>D&#x02032;Alessandro</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Smit</surname>
+</string-name>, <string-name>
+<given-names>J. R.</given-names>
+<surname>Long</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2010</year>, <volume>49</volume>, <fpage>6058</fpage>&#x02013;<lpage>6082</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201909240-cit-0006">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2010</year>, <volume>122</volume>, <fpage>6194</fpage>&#x02013;<lpage>6219</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0002"><label>2</label><mixed-citation publication-type="book" id="anie201909240-cit-0007">
+<string-name>
+<given-names>H. H.</given-names>
+<surname>Storch</surname>
+</string-name>, in <source xml:lang="en">Adv. Catal.</source> (Eds.: <person-group person-group-type="editor"><string-name>W.&#x02005;G. Frankenburg, V.&#x02005;I. Komarewsky, E.&#x02005;K. Rideal</string-name></person-group>), <publisher-name>Academic Press</publisher-name>, <publisher-loc>San Diego</publisher-loc>, <year>1948</year>, pp.&#x02005;<fpage>115</fpage>&#x02013;<lpage>156</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0003"><label>3</label><mixed-citation publication-type="book" id="anie201909240-cit-0008">Data Taken from <source xml:lang="en">CRC Handbook of Chemistry and Physics</source>, <edition>73</edition>rd&#x02005;ed. <person-group person-group-type="editor"><string-name>(Ed.: D.&#x02005;R. Lide</string-name></person-group>), <publisher-name>CRC Press Inc.</publisher-name>, <publisher-loc>Boca Raton</publisher-loc>, <year>1992&#x02013;1993</year>.</mixed-citation></ref><ref id="anie201909240-bib-0004"><label>4</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0009">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0004a"><label>4a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0010">
+<string-name>
+<given-names>G.</given-names>
+<surname>Fachinetti</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Floriani</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Chiesi-Villa</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Guastini</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1979</year>, <volume>101</volume>, <fpage>1767</fpage>&#x02013;<lpage>1775</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0004b"><label>4b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0011">
+<string-name>
+<given-names>J. C.</given-names>
+<surname>Bryan</surname>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Geib</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rheingold</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Mayer</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1987</year>, <volume>109</volume>, <fpage>2826</fpage>&#x02013;<lpage>2828</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0004c"><label>4c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0012">
+<string-name>
+<given-names>L. J.</given-names>
+<surname>Procopio</surname>
+</string-name>, <string-name>
+<given-names>P. J.</given-names>
+<surname>Carroll</surname>
+</string-name>, <string-name>
+<given-names>D. H.</given-names>
+<surname>Berry</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>1993</year>, <volume>12</volume>, <fpage>3087</fpage>&#x02013;<lpage>3093</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0004d"><label>4d</label><mixed-citation publication-type="journal" id="anie201909240-cit-0013">
+<string-name>
+<given-names>C. T.</given-names>
+<surname>Saouma</surname>
+</string-name>, <string-name>
+<given-names>C. C.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name>
+<given-names>M. W.</given-names>
+<surname>Day</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Peters</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2013</year>, <volume>4</volume>, <fpage>4042</fpage>&#x02013;<lpage>4051</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0005"><label>5</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0014">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0005a"><label>5a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0015">
+<string-name>
+<given-names>S. I.</given-names>
+<surname>Kall&#x000e4;ne</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Braun</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Teltewskoi</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Braun</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Herrmann</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Laubenstein</surname>
+</string-name>, <source xml:lang="en">Chem. Commun.</source>
+<year>2015</year>, <volume>51</volume>, <fpage>14613</fpage>&#x02013;<lpage>14616</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0005b"><label>5b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0016">
+<string-name>
+<given-names>M.</given-names>
+<surname>Feller</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Gellrich</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Anaby</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>6445</fpage>&#x02013;<lpage>6454</lpage>;<pub-id pub-id-type="pmid">27124097</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0005c"><label>5c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0017">
+<string-name>
+<given-names>M. A.</given-names>
+<surname>McLoughlin</surname>
+</string-name>, <string-name>
+<given-names>N. L.</given-names>
+<surname>Keder</surname>
+</string-name>, <string-name>
+<given-names>W. T. A.</given-names>
+<surname>Harrison</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Flesher</surname>
+</string-name>, <string-name>
+<given-names>H. A.</given-names>
+<surname>Mayer</surname>
+</string-name>, <string-name>
+<given-names>W. C.</given-names>
+<surname>Kaska</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>1999</year>, <volume>38</volume>, <fpage>3223</fpage>&#x02013;<lpage>3227</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0005d"><label>5d</label><mixed-citation publication-type="journal" id="anie201909240-cit-0018">
+<string-name>
+<given-names>W. C.</given-names>
+<surname>Kaska</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Nemeh</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Shirazi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Potuznik</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>1988</year>, <volume>7</volume>, <fpage>13</fpage>&#x02013;<lpage>15</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0005e"><label>5e</label><mixed-citation publication-type="journal" id="anie201909240-cit-0019">
+<string-name>
+<given-names>J.</given-names>
+<surname>Langer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Hamza</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>P&#x000e1;pai</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>2455</fpage>&#x02013;<lpage>2458</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201909240-cit-0020">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2018</year>, <volume>130</volume>, <fpage>2480</fpage>&#x02013;<lpage>2483</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0006"><label>6</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0021">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0006a"><label>6a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0022">
+<string-name>
+<given-names>N.</given-names>
+<surname>Tsoureas</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Castro</surname>
+</string-name>, <string-name>
+<given-names>A. F. R.</given-names>
+<surname>Kilpatrick</surname>
+</string-name>, <string-name>
+<given-names>F. G. N.</given-names>
+<surname>Cloke</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Maron</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>3777</fpage>&#x02013;<lpage>3788</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0006b"><label>6b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0023">
+<string-name>
+<given-names>O. P.</given-names>
+<surname>Lam</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Meyer</surname>
+</string-name>, <source xml:lang="en">Polyhedron</source>
+<year>2012</year>, <volume>32</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0006c"><label>6c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0024">
+<string-name>
+<given-names>I.</given-names>
+<surname>Castro-Rodriguez</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Meyer</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2005</year>, <volume>127</volume>, <fpage>11242</fpage>&#x02013;<lpage>11243</lpage>.<pub-id pub-id-type="pmid">16089443</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0025">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0007a"><label>7a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0026">
+<string-name>
+<given-names>S. W.</given-names>
+<surname>Ragsdale</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kumar</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>1996</year>, <volume>96</volume>, <fpage>2515</fpage>&#x02013;<lpage>2540</lpage>;<pub-id pub-id-type="pmid">11848835</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0007b"><label>7b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0027">
+<string-name>
+<given-names>D. J.</given-names>
+<surname>Evans</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>2005</year>, <volume>249</volume>, <fpage>1582</fpage>&#x02013;<lpage>1595</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0028">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0008a"><label>8a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0029">
+<string-name>
+<given-names>C.</given-names>
+<surname>Bianchini</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Meli</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1984</year>, <volume>106</volume>, <fpage>2698</fpage>&#x02013;<lpage>2699</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0008b"><label>8b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0030">
+<string-name>
+<given-names>D.</given-names>
+<surname>Sahoo</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Yoo</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2018</year>, <volume>140</volume>, <fpage>2179</fpage>&#x02013;<lpage>2185</lpage>;<pub-id pub-id-type="pmid">29343060</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0008c"><label>8c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0031">
+<string-name>
+<given-names>C.</given-names>
+<surname>Yoo</surname>
+</string-name>, <string-name>
+<given-names>Y.-E.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <source xml:lang="en">Acc. Chem. Res.</source>
+<year>2018</year>, <volume>51</volume>, <fpage>1144</fpage>&#x02013;<lpage>1152</lpage>.<pub-id pub-id-type="pmid">29634236</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="anie201909240-cit-0032">
+<string-name>
+<given-names>D. S.</given-names>
+<surname>Laitar</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Sadighi</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2005</year>, <volume>127</volume>, <fpage>17196</fpage>&#x02013;<lpage>17197</lpage>.<pub-id pub-id-type="pmid">16332062</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0010"><label>10</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0033">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0010a"><label>10a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0034">
+<string-name>
+<given-names>C. C.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name>
+<given-names>C. T.</given-names>
+<surname>Saouma</surname>
+</string-name>, <string-name>
+<given-names>M. W.</given-names>
+<surname>Day</surname>
+</string-name>, <string-name>
+<given-names>J. C.</given-names>
+<surname>Peters</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2007</year>, <volume>129</volume>, <fpage>4</fpage>&#x02013;<lpage>5</lpage>;<pub-id pub-id-type="pmid">17199260</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0010b"><label>10b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0035">
+<string-name>
+<given-names>A. R.</given-names>
+<surname>Sadique</surname>
+</string-name>, <string-name>
+<given-names>W. W.</given-names>
+<surname>Brennessel</surname>
+</string-name>, <string-name>
+<given-names>P. L.</given-names>
+<surname>Holland</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2008</year>, <volume>47</volume>, <fpage>784</fpage>&#x02013;<lpage>786</lpage>.<pub-id pub-id-type="pmid">18171059</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="anie201909240-cit-0036">
+<string-name>
+<given-names>D.</given-names>
+<surname>Oren</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Avram</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Feller</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2018</year>, <volume>37</volume>, <fpage>2217</fpage>&#x02013;<lpage>2221</lpage>.<pub-id pub-id-type="pmid">31080304</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0012"><label>12</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0037">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0012a"><label>12a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0038">
+<string-name>
+<given-names>J. R.</given-names>
+<surname>Khusnutdinova</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>12236</fpage>&#x02013;<lpage>12273</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201909240-cit-0039">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2015</year>, <volume>127</volume>, <fpage>12406</fpage>&#x02013;<lpage>12445</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0012b"><label>12b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0040">
+<string-name>
+<given-names>C.</given-names>
+<surname>Schulten</surname>
+</string-name>, <string-name>
+<given-names>G. v.</given-names>
+<surname>Frantzius</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Schnakenburg</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Espinosa</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Streubel</surname>
+</string-name>, <source xml:lang="en">Chem. Sci.</source>
+<year>2012</year>, <volume>3</volume>, <fpage>3526</fpage>&#x02013;<lpage>3533</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0012c"><label>12c</label><mixed-citation publication-type="journal" id="anie201909240-cit-0041">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>J. W.</given-names>
+<surname>Kampf</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2012</year>, <volume>31</volume>, <fpage>4643</fpage>&#x02013;<lpage>4645</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0012d"><label>12d</label><mixed-citation publication-type="journal" id="anie201909240-cit-0042">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">ACS Catal.</source>
+<year>2013</year>, <volume>3</volume>, <fpage>2412</fpage>&#x02013;<lpage>2416</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0012e"><label>12e</label><mixed-citation publication-type="journal" id="anie201909240-cit-0043">
+<string-name>
+<given-names>C. A.</given-names>
+<surname>Huff</surname>
+</string-name>, <string-name>
+<given-names>M. S.</given-names>
+<surname>Sanford</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2011</year>, <volume>133</volume>, <fpage>18122</fpage>&#x02013;<lpage>18125</lpage>;<pub-id pub-id-type="pmid">22029268</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0012f"><label>12f</label><mixed-citation publication-type="journal" id="anie201909240-cit-0044">
+<string-name>
+<given-names>M.</given-names>
+<surname>Vogt</surname>
+</string-name>, <string-name>
+<given-names>O.</given-names>
+<surname>Rivada-Wheelaghan</surname>
+</string-name>, <string-name>
+<given-names>M. A.</given-names>
+<surname>Iron</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Leitus</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>L. J. W.</given-names>
+<surname>Shimon</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ben-David</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2013</year>, <volume>32</volume>, <fpage>300</fpage>&#x02013;<lpage>308</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0012g"><label>12g</label><mixed-citation publication-type="journal" id="anie201909240-cit-0045">
+<string-name>
+<given-names>O.</given-names>
+<surname>Rivada-Wheelaghan</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Dauth</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Leitus</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Diskin-Posner</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Milstein</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>4526</fpage>&#x02013;<lpage>4538</lpage>.<pub-id pub-id-type="pmid">25871886</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="anie201909240-cit-0046">
+<string-name>
+<given-names>N.</given-names>
+<surname>M&#x000e9;zailles</surname>
+</string-name>, <string-name>
+<given-names>P. L.</given-names>
+<surname>Floch</surname>
+</string-name>, <source xml:lang="en">Curr. Org. Chem.</source>
+<year>2006</year>, <volume>10</volume>, <fpage>3</fpage>&#x02013;<lpage>25</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0014"><label>14</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0047">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0014a"><label>14a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0048">
+<string-name>
+<given-names>P. L.</given-names>
+<surname>Floch</surname>
+</string-name>, <source xml:lang="en">Coord. Chem. Rev.</source>
+<year>2006</year>, <volume>250</volume>, <fpage>627</fpage>&#x02013;<lpage>681</lpage>;</mixed-citation></ref><ref id="anie201909240-bib-0014b"><label>14b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0049">
+<string-name>
+<given-names>C.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>L. E. E.</given-names>
+<surname>Broeckx</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>de Krom</surname>
+</string-name>, <string-name>
+<given-names>J. J. M.</given-names>
+<surname>Weemers</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2013</year>, <fpage>187</fpage>&#x02013;<lpage>202</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0015"><label>15</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0050">&#x000a0;</mixed-citation></ref><ref id="anie201909240-bib-0015a"><label>15a</label><mixed-citation publication-type="journal" id="anie201909240-cit-0051">
+<string-name>
+<given-names>C. M.</given-names>
+<surname>Hoidn</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Wolf</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2016</year>, <volume>45</volume>, <fpage>8875</fpage>&#x02013;<lpage>8884</lpage>;<pub-id pub-id-type="pmid">27150955</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0015b"><label>15b</label><mixed-citation publication-type="journal" id="anie201909240-cit-0052">
+<string-name>
+<given-names>C. M.</given-names>
+<surname>Hoidn</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Leitl</surname>
+</string-name>, <string-name>
+<given-names>C. G. P.</given-names>
+<surname>Ziegler</surname>
+</string-name>, <string-name>
+<given-names>I. G.</given-names>
+<surname>Shenderovich</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Wolf</surname>
+</string-name>, <source xml:lang="en">Eur. J. Inorg. Chem.</source>
+<year>2019</year>, <fpage>1567</fpage>&#x02013;<lpage>1574</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="anie201909240-cit-0053">
+<string-name>
+<given-names>B.</given-names>
+<surname>Rezaei Rad</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Chakraborty</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>M&#x000fc;hldorf</surname>
+</string-name>, <string-name>
+<given-names>J. A. W.</given-names>
+<surname>Sklorz</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bodensteiner</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Wolf</surname>
+</string-name>, <source xml:lang="en">Organometallics</source>
+<year>2015</year>, <volume>34</volume>, <fpage>622</fpage>&#x02013;<lpage>635</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="anie201909240-cit-0054">
+<string-name>
+<given-names>C.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Wasserberg</surname>
+</string-name>, <string-name>
+<given-names>J. J. M.</given-names>
+<surname>Weemers</surname>
+</string-name>, <string-name>
+<given-names>E. A.</given-names>
+<surname>Pidko</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Hoffmann</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Lutz</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Spek</surname>
+</string-name>, <string-name>
+<given-names>S. C. J.</given-names>
+<surname>Meskers</surname>
+</string-name>, <string-name>
+<given-names>R. A. J.</given-names>
+<surname>Janssen</surname>
+</string-name>, <string-name>
+<given-names>R. A.</given-names>
+<surname>van Santen</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Vogt</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2007</year>, <volume>13</volume>, <fpage>4548</fpage>&#x02013;<lpage>4559</lpage>.<pub-id pub-id-type="pmid">17348054</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="anie201909240-cit-0055">The spectrum of <bold>1-&#x003c3;</bold> indicates that there are two structurally similar species, which might belong to crystallographically different, yet chemically identical molecules. For the NMR data on other metal complexes of <bold>L</bold>, see: <string-name>
+<given-names>C.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>J. A. W.</given-names>
+<surname>Sklorz</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>de Krom</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Loibl</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Habicht</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bruce</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Pfeifer</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Wiecko</surname>
+</string-name>, <source xml:lang="en">Chem. Lett.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>1390</fpage>&#x02013;<lpage>1404</lpage>.</mixed-citation></ref><ref id="anie201909240-bib-0019"><label>19</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0056">Complex <bold>1</bold> shows poor solubility in <italic>n</italic>-hexane, Et<sub>2</sub>O and PhMe, but dissolves well in more polar solvents such as THF and DME.</mixed-citation></ref><ref id="anie201909240-bib-0020"><label>20</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0057">Additional significant resonances are also observed at ca. 38&#x02005;ppm to 46&#x02005;ppm. The corresponding species could not be identified.</mixed-citation></ref><ref id="anie201909240-bib-0021"><label>21</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0058">The pyridyl nitrogens are hard to assign with confidence (and may plausibly be disordered over several positions), but have been located at the positions that give the lowest final <italic>R</italic>
+<sub>1</sub> value.</mixed-citation></ref><ref id="anie201909240-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="anie201909240-cit-0059">
+<string-name>
+<given-names>P.</given-names>
+<surname>Pyykk&#x000f6;</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Atsumi</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2009</year>, <volume>15</volume>, <fpage>186</fpage>&#x02013;<lpage>197</lpage>.<pub-id pub-id-type="pmid">19058281</pub-id></mixed-citation></ref><ref id="anie201909240-bib-0023"><label>23</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0060">Addition of a range of electrophiles to the analogous positions in TPP has been reported previously for [K([18]crown-6)][Cp*Fe(TPP)], see ref.&#x02005;[15a].</mixed-citation></ref><ref id="anie201909240-bib-0024"><label>24</label><mixed-citation publication-type="miscellaneous" id="anie201909240-cit-0061">CCDC&#x02005;<ext-link ext-link-type="uri" xlink:href="https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/anie.201909240">https://www.ccdc.cam.ac.uk/services/structures?id=doi:10.1002/anie.201909240</ext-link> contain the supplementary crystallographic data for this paper. These data can be obtained free of charge from <ext-link ext-link-type="uri" xlink:href="http://www.ccdc.cam.ac.uk/">http://www.ccdc.cam.ac.uk/</ext-link>.</mixed-citation></ref></ref-list></back></article>

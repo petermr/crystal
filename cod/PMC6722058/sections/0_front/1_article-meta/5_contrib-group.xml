@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Malola</surname>
+   <given-names>Sami</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3581-3736</contrib-id>
+  <name>
+   <surname>Nieminen</surname>
+   <given-names>Paavo</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Pihlajamäki</surname>
+   <given-names>Antti</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+ </contrib>
+ <contrib contrib-type="author">
+  <name>
+   <surname>Hämäläinen</surname>
+   <given-names>Joonas</given-names>
+  </name>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <name>
+   <surname>Kärkkäinen</surname>
+   <given-names>Tommi</given-names>
+  </name>
+  <address>
+   <email>tommi.karkkainen@jyu.fi</email>
+  </address>
+  <xref ref-type="aff" rid="Aff2">2</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes">
+  <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-8558-5436</contrib-id>
+  <name>
+   <surname>Häkkinen</surname>
+   <given-names>Hannu</given-names>
+  </name>
+  <address>
+   <email>hannu.j.hakkinen@jyu.fi</email>
+  </address>
+  <xref ref-type="aff" rid="Aff1">1</xref>
+  <xref ref-type="aff" rid="Aff3">3</xref>
+ </contrib>
+ <aff id="Aff1">
+  <label>1</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1013 7965</institution-id>
+   <institution-id institution-id-type="GRID">grid.9681.6</institution-id>
+   <institution>Department of Physics, Nanoscience Center, </institution>
+   <institution>University of Jyväskylä, </institution>
+  </institution-wrap>FI-40014 Jyväskylä, Finland 
+ </aff>
+ <aff id="Aff2">
+  <label>2</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1013 7965</institution-id>
+   <institution-id institution-id-type="GRID">grid.9681.6</institution-id>
+   <institution>Faculty of Information Technology, </institution>
+   <institution>University of Jyväskylä, </institution>
+  </institution-wrap>FI-40014 Jyväskylä, Finland 
+ </aff>
+ <aff id="Aff3">
+  <label>3</label>
+  <institution-wrap>
+   <institution-id institution-id-type="ISNI">0000 0001 1013 7965</institution-id>
+   <institution-id institution-id-type="GRID">grid.9681.6</institution-id>
+   <institution>Department of Chemistry, Nanoscience Center, </institution>
+   <institution>University of Jyväskylä, </institution>
+  </institution-wrap>FI-40014 Jyväskylä, Finland 
+ </aff>
+</contrib-group>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <title>Calculated and Experimental Frequencies of TO, LO, and E
+   <sub>2</sub>
+   <sup arrange="stack">H</sup> modes for GaP ZB, WZ, and TSL
+   <xref rid="t1fn1" ref-type="table-fn">a</xref>
+  </title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="left"/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center"> </th>
+    <th colspan="3" align="center" char=".">TO (cm
+     <sup>–1</sup>)
+     <hr/>
+    </th>
+    <th colspan="3" align="center" char=".">LO (cm
+     <sup>–1</sup>)
+     <hr/>
+    </th>
+    <th colspan="2" align="center" char=".">E
+     <sub>2</sub>
+     <sup arrange="stack">H</sup> (cm
+     <sup>–1</sup>)
+     <hr/>
+    </th>
+   </tr>
+   <tr>
+    <th style="border:none;" align="center"> </th>
+    <th style="border:none;" align="center" char=".">ZB</th>
+    <th style="border:none;" align="center" char=".">WZ</th>
+    <th style="border:none;" align="center" char=".">TSL</th>
+    <th style="border:none;" align="center" char=".">ZB</th>
+    <th style="border:none;" align="center" char=".">WZ</th>
+    <th style="border:none;" align="center" char=".">TSL</th>
+    <th style="border:none;" align="center" char=".">WZ</th>
+    <th style="border:none;" align="center" char=".">TSL</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="border:none;" align="left">theory</td>
+    <td style="border:none;" align="char" char=".">362.2</td>
+    <td style="border:none;" align="char" char=".">360.1</td>
+    <td style="border:none;" align="char" char=".">361.6</td>
+    <td style="border:none;" align="char" char=".">391.9 (396.5)</td>
+    <td style="border:none;" align="char" char=".">391.2</td>
+    <td style="border:none;" align="char" char=".">391.7</td>
+    <td style="border:none;" align="char" char=".">354.7</td>
+    <td style="border:none;" align="char" char=".">355.6</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">exp.</td>
+    <td style="border:none;" align="char" char=".">366.2</td>
+    <td style="border:none;" align="char" char=".">363.0</td>
+    <td style="border:none;" align="char" char=".">365.5</td>
+    <td style="border:none;" align="char" char=".">402.6</td>
+    <td style="border:none;" align="char" char=".">400.2</td>
+    <td style="border:none;" align="char" char=".">402.4</td>
+    <td style="border:none;" align="char" char=".">356.3</td>
+    <td style="border:none;" align="char" char=".">357.3</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="t1fn1">
+   <label>a</label>
+   <p>Experimental frequencies refer to the samples of 
+    <xref rid="fig2" ref-type="fig">Figure 
+     <xref rid="fig2" ref-type="fig">2</xref>
+    </xref>c,d. The TSL period is 9 nm. The scattering configuration used both for experiments and calculations is 
+    <italic>x̅</italic>(
+    <italic>zz</italic>)
+    <italic>x</italic> for the TO and LO modes and 
+    <italic>x̅</italic>(
+    <italic>yy</italic>)
+    <italic>x</italic> for the E
+    <sub>2</sub>
+    <sup arrange="stack">H</sup>. The error on the experimental values is ±0.5 cm
+    <sup>–1</sup>. The value between parentheses for the calculated LO frequency of the ZB has been obtained by renormalization of the non-analytical corrections using the experimental value of the dielectric constant.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

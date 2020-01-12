@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>According to Reference [
+ <xref rid="B35-polymers-11-00861" ref-type="bibr">35</xref>], the dependence of the director 
+ <inline-formula>
+  <math id="mm81">
+   <mrow>
+    <mstyle mathvariant="bold" mathsize="normal">
+     <mi>C</mi>
+    </mstyle>
+   </mrow>
+  </math>
+ </inline-formula> rotation angle on the external electric field value 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mi>E</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is determined from the solution of the free energy balance equation. In this case the spatial distribution of electric field of the recording optical wave should be taken into account. This equation (with strong adhesion of LC molecules with bounding surfaces taken into account) has the form [
+ <xref rid="B32-polymers-11-00861" ref-type="bibr">32</xref>]:
+ <disp-formula id="FD13-polymers-11-00861">
+  <label>(12)</label>
+  <math id="mm83">
+   <mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <munderover>
+          <mo>∫</mo>
+          <mn>0</mn>
+          <mrow>
+           <msub>
+            <mi mathvariant="sans-serif">φ</mi>
+            <mi>E</mi>
+           </msub>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mrow>
+           <mo>[</mo>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>sin</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <mi mathvariant="sans-serif">ψ</mi>
+            <mo stretchy="false">(</mo>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo stretchy="false">)</mo>
+            <mo>−</mo>
+            <msup>
+             <mrow>
+              <mi>sin</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <msup>
+             <mi mathvariant="sans-serif">φ</mi>
+             <mo>′</mo>
+            </msup>
+           </mrow>
+           <mo>]</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mfrac bevelled="true">
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <msup>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msub>
+        <mi mathvariant="sans-serif">ξ</mi>
+        <mi>e</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mi>L</mi>
+        <mn>2</mn>
+       </mfrac>
+       <mo>±</mo>
+       <mi>z</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">ξ</mi>
+      <mi>e</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>K</mi>
+            <mrow>
+             <mn>33</mn>
+            </mrow>
+           </msub>
+           <mo>⋅</mo>
+           <mn>8</mn>
+           <mi mathvariant="sans-serif">π</mi>
+          </mrow>
+          <mrow>
+           <msubsup>
+            <mi mathvariant="sans-serif">ε</mi>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+            <mi>e</mi>
+           </msubsup>
+           <mo>−</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">ε</mi>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+            <mi>o</mi>
+           </msubsup>
+          </mrow>
+         </mfrac>
+         <mo>⋅</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <mi>E</mi>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mfrac bevelled="true">
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–distribution of electrical coherent length; 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>K</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–Frank coefficient of elasticity; 
+ <inline-formula>
+  <math id="mm86">
+   <mrow>
+    <mrow>
+     <mi>E</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mstyle displaystyle="true">
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <mi>m</mi>
+          <mo>=</mo>
+          <mi>o</mi>
+          <mo>,</mo>
+          <mi>e</mi>
+         </mrow>
+        </munder>
+        <mrow>
+         <msubsup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>E</mi>
+          </mstyle>
+          <mi>j</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mo>=</mo>
+     <msqrt>
+      <mrow>
+       <mi mathvariant="normal">I</mi>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">I</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–resulting field intensity.
+</p>

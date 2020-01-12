@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0055">The Becke 
+ <xref rid="bib8" ref-type="bibr">[8]</xref> three-parameter (B3LYP) hybrid exchange functional in combination with the gradient-corrected correlation functional of Lee et al. 
+ <xref rid="bib9" ref-type="bibr">[9]</xref> has been adopted for all calculations. The exchange-correlation contribution is performed over a grid of points and is the result of a numerical integration of the electron density and its gradient. The adopted pruned grid is given by 75 points and 974 angular points (XLGRID) and obtained from The Gauss–Legendre quadrature and Lebedev schemes 
+ <xref rid="bib10" ref-type="bibr">[10]</xref>. The tolerance thresholds that control accuracy of the Coulomb and exchange integrals were set to 10
+ <sup>−7</sup> and 10
+ <sup>−16</sup>, respectively 
+ <xref rid="bib2" ref-type="bibr">[2]</xref>. The Hamiltonian matrix has been diagonalized using a Monkhorst grid of k-points of size 8 × 8 × 8 for the high symmetry models (s.g. 
+ <inline-formula>
+  <math id="M16" altimg="si0003.gif" overflow="scroll">
+   <mrow>
+    <mi>P</mi>
+    <mover accent="true">
+     <mn mathvariant="normal">3</mn>
+     <mo>¯</mo>
+    </mover>
+    <mtext>m1</mtext>
+   </mrow>
+  </math>
+ </inline-formula>), whereas a 4 × 4 × 4 grid was employed for the low symmetry (s.g. 
+ <inline-formula>
+  <math id="M17" altimg="si0002.gif" overflow="scroll">
+   <mrow>
+    <mi>P</mi>
+    <mover accent="true">
+     <mn mathvariant="normal">3</mn>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>) ones. The convergence on total energy was reached when the difference between the energy of two subsequent self-consistent field cycles was less than 10
+ <sup>−8</sup> Hartree.
+</p>

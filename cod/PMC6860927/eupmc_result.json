@@ -1,0 +1,398 @@
+{
+  "id": [
+    "31738784"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31738784"
+  ],
+  "pmcid": [
+    "PMC6860927"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0225041"
+  ],
+  "title": [
+    "3D nanostructural characterisation of grain boundaries in atom probe data utilising machine learning methods."
+  ],
+  "authorString": [
+    "Wei Y, Peng Z, Kühbach M, Breen A, Legros M, Larranaga M, Mompiou F, Gault B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wei Y"
+          ],
+          "firstName": [
+            "Ye"
+          ],
+          "lastName": [
+            "Wei"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1965-2298",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Max-Planck-Institut für Eisenforschung GmbH, Max-Planck-Straße 1, Düsseldorf, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Peng Z"
+          ],
+          "firstName": [
+            "Zirong"
+          ],
+          "lastName": [
+            "Peng"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "affiliation": [
+            "Max-Planck-Institut für Eisenforschung GmbH, Max-Planck-Straße 1, Düsseldorf, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Kühbach M"
+          ],
+          "firstName": [
+            "Markus"
+          ],
+          "lastName": [
+            "Kühbach"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Max-Planck-Institut für Eisenforschung GmbH, Max-Planck-Straße 1, Düsseldorf, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Breen A"
+          ],
+          "firstName": [
+            "Andrew"
+          ],
+          "lastName": [
+            "Breen"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "CEMES-CNRS, 29 Rue Jeanne-Marvig, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Legros M"
+          ],
+          "firstName": [
+            "Marc"
+          ],
+          "lastName": [
+            "Legros"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "CEMES-CNRS, 29 Rue Jeanne-Marvig, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Larranaga M"
+          ],
+          "firstName": [
+            "Melvyn"
+          ],
+          "lastName": [
+            "Larranaga"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "CEMES-CNRS, 29 Rue Jeanne-Marvig, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Mompiou F"
+          ],
+          "firstName": [
+            "Frederic"
+          ],
+          "lastName": [
+            "Mompiou"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "CEMES-CNRS, 29 Rue Jeanne-Marvig, Toulouse, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Gault B"
+          ],
+          "firstName": [
+            "Baptiste"
+          ],
+          "lastName": [
+            "Gault"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Max-Planck-Institut für Eisenforschung GmbH, Max-Planck-Straße 1, Düsseldorf, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1965-2298",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "14"
+      ],
+      "journalIssueId": [
+        "2876045"
+      ],
+      "dateOfPublication": [
+        "2019 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ISSN": [
+            "1932-6203"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "e0225041"
+  ],
+  "abstractText": [
+    "Boosting is a family of supervised learning algorithm that convert a set of weak learners into a single strong one. It is popular in the field of object tracking, where its main purpose is to extract the position, motion, and trajectory from various features of interest within a sequence of video frames. A scientific application explored in this study is to combine the boosting tracker and the Hough transformation, followed by principal component analysis, to extract the location and trace of grain boundaries within atom probe data. Before the implementation of this method, these information could only be extracted manually, which is time-consuming and error-prone. The effectiveness of this method is demonstrated on an experimental dataset obtained from a pure aluminum bi-crystal and validated on simulated data. The information gained from this method can be combined with crystallographic information directly contained within the data, to fully define the grain boundary character to its 5 degrees of freedom at near-atomic resolution in three dimensions. It also enables local atomic compositional and geometric information, i.e. curvature, to be extracted directly at the interface."
+  ],
+  "affiliation": [
+    "Max-Planck-Institut für Eisenforschung GmbH, Max-Planck-Straße 1, Düsseldorf, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1371/journal.pone.0225041"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6860927"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6860927?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-11-19"
+  ],
+  "firstIndexDate": [
+    "2019-11-19"
+  ],
+  "fullTextReceivedDate": [
+    "2019-12-09"
+  ],
+  "dateOfRevision": [
+    "2019-11-18"
+  ],
+  "electronicPublicationDate": [
+    "2019-11-18"
+  ],
+  "firstPublicationDate": [
+    "2019-11-18"
+  ]
+}

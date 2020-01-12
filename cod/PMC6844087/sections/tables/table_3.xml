@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl3" position="float">
+ <label>Table 3</label>
+ <caption>
+  <title>Magnetic Properties of the First Batch of Samples</title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="left"/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center">sample (#)</th>
+    <th style="border:none;" align="center" char=".">
+     <italic>M</italic>
+     <sub>S</sub> (emu/g)
+    </th>
+    <th style="border:none;" align="center" char=".">
+     <italic>M</italic>
+     <sub>R</sub> (emu/g)
+    </th>
+    <th style="border:none;" align="center" char=".">|
+     <italic>H</italic>
+     <sub>C</sub>| (Oe)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="border:none;" align="left">1</td>
+    <td style="border:none;" align="char" char=".">23.7</td>
+    <td style="border:none;" align="char" char=".">10.5</td>
+    <td style="border:none;" align="char" char=".">491.3</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">2</td>
+    <td style="border:none;" align="char" char=".">27.2</td>
+    <td style="border:none;" align="char" char=".">11.1</td>
+    <td style="border:none;" align="char" char=".">349.6</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">3</td>
+    <td style="border:none;" align="char" char=".">31.9</td>
+    <td style="border:none;" align="char" char=".">12.6</td>
+    <td style="border:none;" align="char" char=".">365.8</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">4</td>
+    <td style="border:none;" align="char" char=".">31.4</td>
+    <td style="border:none;" align="char" char=".">12.7</td>
+    <td style="border:none;" align="char" char=".">400.3</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

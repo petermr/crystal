@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>During this robot localization via fusion, the above-mentioned formula can be obtained using the robot’s current position coordinates by selecting the noise variances 
+ <inline-formula>
+  <math id="mm91">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Q</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm92">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

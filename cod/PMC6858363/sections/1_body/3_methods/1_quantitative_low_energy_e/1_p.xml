@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">We performed the experiments in an ultrahigh-vacuum (UHV) chamber equipped with a four grid LEED system, with the base pressure in the chamber kept at 5 × 10
+ <sup>−8</sup> Pa. We cleaned the Cu(410) sample by repeated cycles of Ar
+ <sup>+</sup> sputtering (1 kV, 7
+ <italic>μ</italic>A, 15 min), followed by subsequent annealing, until we obtain a sharp LEED pattern. After cooling the crystal to 120 K using liquid N
+ <sub>2</sub>, we recorded the LEED pattern for the clean Cu(410) using a digital charge-coupled device (CCD) camera with a computer-controlled data acquisition (DAQ) system. In Fig. 
+ <xref rid="MOESM1" ref-type="media">S1</xref> we show the Cu(410) LEED pattern at 120 eV and 220 eV, with the single mirror plane and the unit cell of the reciprocal lattice indicated. To calculate the change in intensity for the theoretical 
+ <italic>I</italic>(
+ <italic>E</italic>) curves between the range 70 to 400 eV, we use the Barbieri/Van Hove symmetrized automated tensor LEED package. We fixed the imaginary part of the inner potential 
+ <italic>V</italic>
+ <sub>0
+  <italic>i</italic>
+ </sub> = −5.0 eV, and determined the real part using theoretical and experimental best fits. To obtain the best fit model (via agreement between the experimental and theoretical 
+ <italic>I</italic>(
+ <italic>E</italic>) curves), we recorded 15 symmetrically inequivalent beams, for a total energy range of 5285 eV. To calculate the theoretical 
+ <italic>I</italic>(
+ <italic>E</italic>) curves, we need to consider a surface thick enough to diffract all the incident electrons in the energy range 70–400 eV. The procedure is not as straightforward as choosing the top 8 atomic layers of the Cu(410) unit cell (cf., Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>). The layer spacing between neighboring bulk-truncated Cu atoms 
+ <italic>d</italic>
+ <sub>0</sub>
+ <sup>
+  <italic>bulk</italic>[410]
+ </sup> = 0.437 Å in [410] and 
+ <italic>d</italic>
+ <sub>0</sub>
+ <sup>
+  <italic>bulk</italic>[1
+ </sup>
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${}^{\bar{4}}$$\end{document}</tex-math>
+   <math id="M30">
+    <msup>
+     <mi/>
+     <mrow>
+      <mrow>
+       <mover>
+        <mn>4</mn>
+        <mo stretchy="false">¯</mo>
+       </mover>
+      </mrow>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52986_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+ <sup>0]</sup> = 1.754 Å in [1
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{4}$$\end{document}</tex-math>
+   <math id="M32">
+    <mover accent="true">
+     <mn>4</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52986_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>0] (considering a Cu lattice constant 
+ <italic>a</italic>
+ <sub>C
+  <italic>u</italic>
+ </sub> = 3.615 Å), respectively. The top 8 atomic layers (which corresponds to a thickness of ca. 3.50 Å, assuming 
+ <italic>d</italic>
+ <sub>0</sub> = 0.437 Å) would not be thick enough. Furthermore, these atoms will relax along the [410] and the [1
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{4}$$\end{document}</tex-math>
+   <math id="M34">
+    <mover accent="true">
+     <mn>4</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52986_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>0] directions, to smoothen the electron charge density
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. (
+ <italic>pm</italic> symmetry restricts movement in the [001] direction.) So, to determine the appropriate surface thickness, we considered increasing number of atomic layers until the corresponding Pendry reliability factor 
+ <italic>R</italic>
+ <sub>P</sub> converges to a low value with consistent interlayer relaxations. We found that, until 32 atomic layers, the interlayer displacements and the corresponding 
+ <italic>R</italic>
+ <sub>P</sub> values vary with (increasing) number of atomic layers, beyond which they converge. Finally, we chose to consider a 56 layer, ca. 24.4 Å thick, slab for further analyses. (Results for 24, 32, 40, 48, 56, 64 atomic layer thick surfaces considered can be found in Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref>). For renormalized forward scattering approximation, we determined that the layer spacing should be at least 0.9 Å. Between the surface and the bulk layer, we put a 0.9 Å spacing throughout the calculation. The choice of a sufficiently thick surface layer ensures that this spacing has no effect on our results. The error bars for the structural parameters are calculated from the variance of 
+ <italic>R</italic>
+ <sub>P</sub>, i.e., Δ
+ <italic>R</italic> = 
+ <italic>R</italic>
+ <sub>
+  <italic>min</italic>
+ </sub>(8|
+ <italic>V</italic>
+ <sub>0
+  <italic>i</italic>
+ </sub>|/Δ
+ <italic>E</italic>)
+ <sup>1/2</sup>, where 
+ <italic>R</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> = 0.0797 (
+ <italic>R</italic>
+ <sub>
+  <italic>min</italic>
+ </sub>: minimum 
+ <italic>R</italic>
+ <sub>P</sub>) and Δ
+ <italic>E</italic> = 5285 eV (Δ
+ <italic>E</italic>: total energy range of the experiment). In addition, if we consider the relaxation of a surface unit cell consisting 8 Cu atoms, then a total of 16 structural parameters influence optimization. As we increase the number of layers responsible for relaxation, the number of structural parameters also increase as atoms in deeper layers would also influence surface Cu atom relaxations. However, increasing the number of relaxed parameters makes it difficult for the optimized structure to reach the global minimum. Therefore, we gradually increased the number of layers, considering 4, 8, 16, 24, and 32 relaxed layers, searching for the global minimum, while keeping the slab thickness fixed at 56 layers. [Note that the unit cell of a clean Cu(410) corresponds to at least 8 layers, so optimizing less than 8 layers may not portray the true picture of the relaxation, and could even give misleading data.] The decrease in the corresponding Pendry reliability factor values with increasing number of relaxed layers (i.e., 
+ <italic>R</italic>
+ <sub>P</sub> = 0.096, 0.093, 0.078, 0.066, 0.061, respectively) indicate improved agreement in the theoretical-experimental 
+ <italic>I</italic>(
+ <italic>E</italic>) curves. And they all give similar relaxation sequence for the topmost layers. We also see that the 
+ <italic>R</italic>
+ <sub>P</sub> values begin to converge from 24 layers onwards. So, for our final analyses, we considered optimizing 16 layers (ca. 6.992 Å), while keeping the slab thickness fixed at 56 layers. In a previous study using LEED
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>, we were able to determine the structure of the first four top layers of clean Cu(001), which is ca. 7 Å thick. To account for thermal vibrations, we used a Debye temperature of 230 K, optimized for the top 8 layers of the unit cell (as in previous studies for clean Cu(001)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>). Also note that the corresponding relaxations and Pendry reliability factors remain constant for the optimized surface Debye temperature range 175 K to 300 K, while keeping the bulk Debye temperature constant at 343 K.
+</p>

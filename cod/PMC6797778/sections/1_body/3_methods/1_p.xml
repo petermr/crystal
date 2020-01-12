@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">The density functional theory calculations were performed using Vienna Ab-initio Simulation Package (VASP)
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>,
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>. The projector-augmented wave (PAW) method
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup> and a cut-off energy of 500 eV were used with the valence electron configurations of Mo[4s
+ <sup>2</sup>4p
+ <sup>6</sup>5s
+ <sup>2</sup>4d4] and S[3s
+ <sup>2</sup>3p4], respectively. The generalized gradient approximation
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> with Grimme’s D3 scheme
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> was used to describe the van der Waals interaction. The bilayer structure was simulated by the supercell containing ~40 Å of vacuum layer to avoid the artificial interaction between periodic images. The structures were fully relaxed using 24 × 24 × 1 k-mesh until the residual forces on the atoms were less than 0.001 eVÅ
+ <sup>−1</sup>. Spontaneous polarization was calculated using Berry phase method
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>. The phonon calculation was performed using PHONOPY code
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup> using 3 × 3 × 1 supercell and 8 × 8 × 1 k-mesh.
+</p>

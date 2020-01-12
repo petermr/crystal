@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">The class 
+ <italic>Scanner</italic> describes the characteristics of a cylindrical scanner with discrete detectors. It lacks parameters to be able to model the exact block geometry, e.g., the distance between crystals in the axial and transaxial directions and the distance between blocks in the axial direction. We added these new parameters to the class 
+ <italic>Scanner</italic> and to the I/O-related classes accordingly. Moreover, the interfile headers were modified such that the user can choose at run-time which geometry to use, either 
+ <italic>cylindrical</italic> or 
+ <italic>blocks-on-cylindrical</italic>.
+</p>

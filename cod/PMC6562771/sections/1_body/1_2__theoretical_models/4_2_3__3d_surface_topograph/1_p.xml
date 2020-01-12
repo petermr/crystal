@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the established surface topography model on the radial direction and those reviewed theoretical results, the 3D surface topography can be achieved. For the 3D surface topography model of a diamond turned component, two issues are mainly discussed in the section. The first one is the calculation method for the 
+ <italic>z</italic> coordinate on the diamond turned surface under the 3D condition; and the second one is the modeling for the random factors, especially the defects in the work material. For the first issue, researchers extensively employed the numerical calculation method [
+ <xref rid="B83-micromachines-10-00288" ref-type="bibr">83</xref>,
+ <xref rid="B84-micromachines-10-00288" ref-type="bibr">84</xref>,
+ <xref rid="B85-micromachines-10-00288" ref-type="bibr">85</xref>,
+ <xref rid="B86-micromachines-10-00288" ref-type="bibr">86</xref>,
+ <xref rid="B87-micromachines-10-00288" ref-type="bibr">87</xref>]. Specifically, the modeling surface is firstly sampled into a finite number of equally spaced sections on the radial and circumferential directions, and the height coordinates of the sampling points are therefore calculated according to the theoretical models on the radial direction as discussed in 
+ <xref ref-type="sec" rid="sec2dot2-micromachines-10-00288">Section 2.2</xref>. For the values of height coordinate in other positions, the fitting method is therefore introduced in the calculation process. However, from this calculation method, only the the coordinates on the intersectional points are the accurate values. Considering these shortcomings, researchers recently started to develop the analytical method for the 3D surface topography model. For instance, He et al. developed an analytical surface topography model on the polar coordinates condition, and then transformed into the Cartesian coordinates condition with corresponding transformation formula [
+ <xref rid="B28-micromachines-10-00288" ref-type="bibr">28</xref>]. This method can supply the accurate value for each point on the coordinate plane without any fitting calculation process. 
+</p>

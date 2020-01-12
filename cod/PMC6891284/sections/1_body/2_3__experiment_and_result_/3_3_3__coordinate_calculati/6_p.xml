@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The main error of the IMU comes from the following sources. 
+ <list list-type="simple">
+  <list-item>
+   <label>(i)</label>
+   <p>Vibration caused by the motion of the delivery robot: When the accelerometer works with the vibration interference, its measurement error will become larger.</p>
+  </list-item>
+  <list-item>
+   <label>(ii)</label>
+   <p>Electromagnetic and metal interferences during the operation of the robot: Although the IMU has a filtering algorithm to filter the electromagnetic interference, the distance between the servo motor and the sensor is fairly short, which affects the measurement precision of the IMU. In addition, the IMU has been calibrated to be insensitive to the metal material of the delivery robot, errors may still be induced during the motion of the robot.</p>
+  </list-item>
+  <list-item>
+   <label>(iii)</label>
+   <p>The gyroscope in the IMU will have zero drift, which means that even with a heading angle of 0°, the unit will have an output. At the same time, the measurement unit’s data will be affected by the temperature.</p>
+  </list-item>
+ </list>
+</p>

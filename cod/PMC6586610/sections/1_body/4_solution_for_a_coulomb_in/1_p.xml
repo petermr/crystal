@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">Since the exciton is composed of an electron and hole, the interaction between them can be written in terms of Coulomb potential. In addition, these particles (an electron and a hole) posses very small masses. Therefore, we can neglect the 
+ <inline-formula id="IEq28">
+  <alternatives>
+   <tex-math id="M99">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${M}_{1}^{2}$$\end{document}</tex-math>
+   <math id="M100">
+    <msubsup>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq28.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq29">
+  <alternatives>
+   <tex-math id="M101">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${M}_{2}^{2}$$\end{document}</tex-math>
+   <math id="M102">
+    <msubsup>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq29.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> in our equations.
+ <disp-formula id="Equ20">
+  <label>20</label>
+  <alternatives>
+   <tex-math id="M103">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{l}\frac{{d}^{2}}{d{r}^{2}}{{\rm{\Psi }}}_{0}(r)-[\frac{U^{\prime} (r)}{U(r)}]\frac{d}{dr}{{\rm{\Psi }}}_{0}(r)\,+\,[\frac{U{(r)}^{2}}{4}-\frac{{j}^{2}}{{r}^{2}}-\frac{2jU^{\prime} (r){M}_{1}}{U{(r)}^{2}}-\frac{j{M}_{1}}{U(r){r}^{2}}]{{\rm{\Psi }}}_{0}(r)=0\end{array}$$\end{document}</tex-math>
+   <math id="M104" display="block">
+    <mstyle mathsize="8.5pt">
+     <mtable columnalign="left">
+      <mtr columnalign="left">
+       <mtd columnalign="left">
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mrow>
+             <mi>d</mi>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+          <mrow>
+           <mi>d</mi>
+           <msup>
+            <mrow>
+             <mi>r</mi>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+         <msub>
+          <mrow>
+           <mi mathvariant="normal">Ψ</mi>
+          </mrow>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mi>r</mi>
+          <mo stretchy="true">)</mo>
+         </mrow>
+         <mo>−</mo>
+         <mrow>
+          <mo stretchy="true">[</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>U</mi>
+             <mo>′</mo>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+             <mi>U</mi>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo stretchy="true">]</mo>
+         </mrow>
+         <mfrac>
+          <mi>d</mi>
+          <mrow>
+           <mi>d</mi>
+           <mi>r</mi>
+          </mrow>
+         </mfrac>
+         <msub>
+          <mrow>
+           <mi mathvariant="normal">Ψ</mi>
+          </mrow>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mi>r</mi>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mspace width="1em"/>
+         <mo>+</mo>
+         <mspace width=".25em"/>
+         <mrow>
+          <mo stretchy="true">[</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>U</mi>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>r</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+            <mn>4</mn>
+           </mfrac>
+           <mo>−</mo>
+           <mfrac>
+            <mrow>
+             <msup>
+              <mrow>
+               <mi>j</mi>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+            <mrow>
+             <msup>
+              <mrow>
+               <mi>r</mi>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mfrac>
+           <mo>−</mo>
+           <mfrac>
+            <mrow>
+             <mn>2</mn>
+             <mi>j</mi>
+             <mi>U</mi>
+             <mo>′</mo>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+             <msub>
+              <mrow>
+               <mi>M</mi>
+              </mrow>
+              <mrow>
+               <mn>1</mn>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow>
+             <mi>U</mi>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mi>r</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mfrac>
+           <mo>−</mo>
+           <mfrac>
+            <mrow>
+             <mi>j</mi>
+             <msub>
+              <mrow>
+               <mi>M</mi>
+              </mrow>
+              <mrow>
+               <mn>1</mn>
+              </mrow>
+             </msub>
+            </mrow>
+            <mrow>
+             <mi>U</mi>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+             <msup>
+              <mrow>
+               <mi>r</mi>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo stretchy="true">]</mo>
+         </mrow>
+         <msub>
+          <mrow>
+           <mi mathvariant="normal">Ψ</mi>
+          </mrow>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mi>r</mi>
+          <mo stretchy="true">)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mn>0</mn>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mstyle>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ20.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

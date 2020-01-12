@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0580">Here, we use the notation
+ <disp-formula id="fd148">
+  <label>(148)</label>
+  <math id="M495" altimg="si371.svg" alttext="Equation 148.">
+   <mrow>
+    <mi>A</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>cos</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mi>Λ</mi>
+    <mo linebreak="badbreak">+</mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mi>ν</mi>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mi>B</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>sin</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mi>μ</mi>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd149">
+  <label>(149)</label>
+  <math id="M496" altimg="si372.svg" alttext="Equation 149.">
+   <mrow>
+    <mi>C</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>θ</mi>
+    <mtext> </mtext>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mi>cos</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <msup>
+         <mrow>
+          <mi>ξ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mi>sin</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mi>μ</mi>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd150">
+  <label>(150)</label>
+  <math id="M497" altimg="si373.svg" alttext="Equation 150.">
+   <mrow>
+    <mi>D</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>θ</mi>
+    <mtext> </mtext>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mi>sin</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <msup>
+         <mrow>
+          <mi>ξ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mi>cos</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mi>ν</mi>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd151">
+  <label>(151)</label>
+  <math id="M498" altimg="si374.svg" alttext="Equation 151.">
+   <mrow>
+    <mi>ξ</mi>
+    <mo linebreak="goodbreak">≡</mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <mfrac>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mrow>
+     </mrow>
+    </msup>
+    <mspace width="0.25em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">&gt;</mo>
+      <mi>E</mi>
+      <mspace width="0.25em"/>
+      <mtext>by definition</mtext>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>and where we finally have
+ <disp-formula id="fd152">
+  <label>(152)</label>
+  <math id="M499" altimg="si375.svg" alttext="Equation 152.">
+   <mrow>
+    <mi>Λ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>Θ</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mi>ε</mi>
+    <mo linebreak="goodbreak">+</mo>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>Θ</mi>
+          <mo linebreak="badbreak">−</mo>
+          <mn>1</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mi>ρ</mi>
+       </mrow>
+      </mfrac>
+      <mo linebreak="badbreak">+</mo>
+      <mi>Θ</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>Θ</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mn>2</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <mi>ρ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <mi>ξ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msup>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd153">
+  <label>(153)</label>
+  <math id="M500" altimg="si376.svg" alttext="Equation 153.">
+   <mrow>
+    <mi>μ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mn>2</mn>
+    <mi>Θ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>ε</mi>
+    <mo linebreak="goodbreak">−</mo>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mn>2</mn>
+          <mi>Θ</mi>
+          <mo linebreak="badbreak">−</mo>
+          <mn>1</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mi>ρ</mi>
+       </mrow>
+      </mfrac>
+      <mo linebreak="badbreak">+</mo>
+      <mn>2</mn>
+      <mi>Θ</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>Θ</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <mi>ρ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <mi>ξ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msup>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd154">
+  <label>(154)</label>
+  <math id="M501" altimg="si377.svg" alttext="Equation 154.">
+   <mrow>
+    <mi>ν</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mi>Θ</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mi>ε</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mi>ρ</mi>
+         </mrow>
+        </mfrac>
+        <mo linebreak="badbreak">+</mo>
+        <mi>Θ</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msup>
+       <mrow>
+        <mi>ε</mi>
+       </mrow>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mn>1</mn>
+          <mo linebreak="badbreak">−</mo>
+          <mi>ρ</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+          <mo linebreak="badbreak">−</mo>
+          <mi>ξ</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd155">
+  <label>(155)</label>
+  <math id="M502" altimg="si378.svg" alttext="Equation 155.">
+   <mrow>
+    <mi>ε</mi>
+    <mo linebreak="badbreak">≡</mo>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">+</mo>
+        <mi>ξ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mi>ρ</mi>
+    <mo linebreak="goodbreak">≡</mo>
+    <msqrt>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>ξ</mi>
+       </mrow>
+       <mrow>
+        <mtext> </mtext>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <msup>
+         <mrow>
+          <mi>ξ</mi>
+         </mrow>
+         <mrow>
+          <mtext> </mtext>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mi>Θ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msqrt>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

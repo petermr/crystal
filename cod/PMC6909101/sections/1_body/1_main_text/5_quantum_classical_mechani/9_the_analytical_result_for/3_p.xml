@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0555">Substituting the approximate expression 
+ <xref rid="fd133" ref-type="disp-formula">(133)</xref> into the exact result 
+ <xref rid="fd130" ref-type="disp-formula">(130</xref>, 
+ <xref rid="fd131" ref-type="disp-formula">131</xref>, 
+ <xref rid="fd132" ref-type="disp-formula">132)</xref> and applying the Cauchy theorem with respect to the Laurent series (see 
+ <xref rid="fd101" ref-type="disp-formula">Eq. (101)</xref>), we get [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib79" ref-type="bibr">79</xref>].
+ <disp-formula id="fd135">
+  <label>(135)</label>
+  <math id="M466" altimg="si347.svg" alttext="Equation 135.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mtext>E</mtext>
+         </mrow>
+        </msup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mo>;</mo>
+          <mi>L</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mi>i</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">∮</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mn>12</mn>
+           </mrow>
+          </msub>
+          <mo linebreak="badbreak">+</mo>
+          <mn>1</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+      <mi>P</mi>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>m</mi>
+           <mo>¯</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo>;</mo>
+        <mi>u</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo linebreak="goodbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>w</mi>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+      <mi>R</mi>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>m</mi>
+           <mo>¯</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo>;</mo>
+        <mi>u</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo linebreak="goodbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>w</mi>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

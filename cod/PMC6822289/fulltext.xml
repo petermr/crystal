@@ -1,0 +1,768 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Cent Sci</journal-id><journal-id journal-id-type="iso-abbrev">ACS Cent Sci</journal-id><journal-id journal-id-type="publisher-id">oc</journal-id><journal-id journal-id-type="coden">acscii</journal-id><journal-title-group><journal-title>ACS Central Science</journal-title></journal-title-group><issn pub-type="ppub">2374-7943</issn><issn pub-type="epub">2374-7951</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6822289</article-id><article-id pub-id-type="pmid">31681834</article-id><article-id pub-id-type="doi">10.1021/acscentsci.9b00619</article-id><article-categories><subj-group><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>Building a Consistent and Reproducible Database for Adsorption Evaluation in
+Covalent&#x02013;Organic Frameworks</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Ongari</surname><given-names>Daniele</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Yakutovich</surname><given-names>Aliaksandr V.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Talirz</surname><given-names>Leopold</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath4"><name><surname>Smit</surname><given-names>Berend</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Laboratory of Molecular Simulation (LSMO), Institut
+des Sciences et Ing&#x000e9;nierie Chimiques, <institution>&#x000c9;cole Polytechnique
+F&#x000e9;d&#x000e9;rale de Lausanne (EPFL)</institution>, Rue de l&#x02019;Industrie 17,
+Sion, CH-1951 Valais, <country>Switzerland</country></aff><aff id="aff2"><label>&#x02021;</label>Theory and Simulation of Materials (THEOS),
+Facult&#x000e9; des Sciences et Techniques de l&#x02019;Ing&#x000e9;nieur,
+<institution>&#x000c9;cole Polytechnique F&#x000e9;d&#x000e9;rale de
+Lausanne</institution>, CH-1015 Lausanne, <country>Switzerland</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>berend.smit@epfl.ch</email>.</corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>09</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>23</day><month>10</month><year>2019</year></pub-date><volume>5</volume><issue>10</issue><fpage>1663</fpage><lpage>1675</lpage><history><date date-type="received"><day>25</day><month>06</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any
+adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0013" id="ab-tgr1"/></p><p>We present a workflow that traces the path from the bulk structure of a crystalline
+material to assessing its performance in carbon capture from coal&#x02019;s
+postcombustion flue gases. This workflow is applied to a database of 324
+covalent&#x02013;organic frameworks (COFs) reported in the literature, to characterize
+their CO<sub>2</sub> adsorption properties using the following steps: (1) optimization
+of the crystal structure (atomic positions and unit cell) using density functional
+theory, (2) fitting atomic point charges based on the electron density, (3)
+characterizing the pore geometry of the structures before and after optimization, (4)
+computing carbon dioxide and nitrogen isotherms using grand canonical Monte Carlo
+simulations with an empirical interaction potential, and finally, (5) assessing the
+CO<sub>2</sub> parasitic energy via process modeling. The full workflow has been
+encoded in the Automated Interactive Infrastructure and Database for Computational
+Science (AiiDA). Both the workflow and the automatically generated provenance graph of
+our calculations are made available on the Materials Cloud, allowing peers to inspect
+every input parameter and result along the workflow, download structures and files at
+intermediate stages, and start their research right from where this work has left off.
+In particular, our set of CURATED (Clean, Uniform, and Refined with Automatic Tracking
+from Experimental Database) COFs, having optimized geometry and high-quality DFT-derived
+point charges, are available for further investigations of gas adsorption properties. We
+plan to update the database as new COFs are being reported.</p></abstract><abstract abstract-type="short"><p>An automated
+and reproducible computational workflow is
+proposed, to systematically optimize the geometry of covalent&#x02212;organic
+frameworks and evaluate their performances for carbon capture and
+storage.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>oc9b00619</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>oc9b00619</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Covalent organic frameworks (COFs) are a class of emerging materials composed of covalently
+bonded organic residues.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> While classical covalent crystals like diamond,
+graphene, or carbon nitride could also be considered as COFs, this nomenclature highlights
+the concept of reticular design, where the precursor molecules, termed
+<italic>ligands</italic> or <italic>linkers</italic>, are rationally combined into a
+framework structure. The ancestors of COFs are metal organic frameworks (MOFs), where
+ligands form coordinate bonds with metal centers. In COFs, however, ligands are directly
+connected, forming the topology of the structure.</p><p>The first two-dimensional microporous COFs, named COF-1 and COF-5, were synthesized by
+condensation reactions of phenyl diboronic acid in the group of Yaghi.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup>
+Two years later, the same group employed a similar condensation reaction to obtain the first
+three-dimensional COFs.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> To date, hundreds of different COFs have been
+reported by different research groups.<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref5">5</xref></sup> This new class of materials attracted the interest of the scientific
+community for applications ranging from gas adsorption<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> to
+catalysis<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> and photocatalysis,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> setting the stage
+for a possible commercial use in the near future.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> In addition to the
+synthesized COFs, new hypothetical COF structures have been designed <italic>in
+silico</italic>(<xref ref-type="bibr" rid="ref10">10</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref>) and investigated to highlight possible promising frameworks
+that experimental chemists could target in their synthesis. The total number of these
+hypothetical structures exceeds 560&#x0202f;000.</p><p>Similarly to MOFs, we see a rapid increase in the number of novel COFs that are being
+reported. Often these materials are synthesized with a particular application in mind, and
+experimental data are often limited to this application; it is simply not practical to
+experimentally test a novel material for all possible applications. For such studies a
+computational screening to identify the most promising candidates is often the most
+efficient first step. Essential in these computational studies is that all experimental
+structures are curated in, what is referred to in the literature as,
+&#x0201c;Computation-Ready Experimental&#x0201d; (CoRE) structures,<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> The importance of this curation step
+cannot be emphasized enough, and as we will argue in this work, in particular for COFs, the
+lack of a systematic approach makes it impossible to reliably compare structures for
+different applications.</p><p>The first public database to present the &#x0201c;CoRE&#x0201d; concept is the CoRE-MOF
+database, which collects over 5000 structures.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> This database has been
+used by many different groups for a large range of studies. The importance of such a
+database is that all structures are reported in a uniform format (e.g., crystallographic
+information files, CIFs, with <italic>P</italic>1 symmetry). Indeed, the possibility of
+easily accessing and computationally analyzing these frameworks allows the screening of
+thousands of different materials, comparison of their performance for specific applications,
+and the finding of correlations between geometric properties and performances.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> An important point is that the CoRE-MOF database not only involves a
+conversion to a uniform format but also includes a minimal curation, that mainly involves
+the removal of solvent molecules from the pores of the framework. Solvent molecules are
+often present in the reported structure of MOFs, and they can be (partially) removed. The
+idea of the CoRE-MOF database is to arrive at a solvent-free material which serves as a
+reference for computational modeling. The difficulties of simply removing the solvent
+molecules from the structure become clear if one realizes that for some MOFs the solvent
+molecules are essential; without solvent the framework collapses. Another important issue is
+that from the X-ray data one does not have sufficient information on the position of the H
+atoms. These are then often added manually or using different software packages, where
+different protocols would put them on slightly different positions. In addition, depending
+of the quality of the X-ray data there can be uncertainty in the position of the atoms. The
+net result of all these small difference is that these screening studies are of limited use
+and a potential source of artifacts, due to the lack of uniformity between the investigated
+structures.</p><p>Contrary to MOFs, the atomic coordinates of synthesized COFs are not deposited in commonly
+available standardized databases. Therefore, it is already difficult to precisely estimate
+how many have been reported so far, and an extensive literature review is necessary to
+collect these structures: they must be extracted from experimental papers, checked, and
+converted into a common format for storing atomic coordinates. Recently, Tong et al.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> published a collection of 280 structures, which were parsed from the
+experimental literature, and that we used as a starting point to build the database of
+frameworks of the present study.</p><p>It is interesting to note that only a very small fraction of these COFs have been reported
+in the popular Cambridge Structural Database<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> (CSD). To be accepted into
+the CSD, a structure has to be determined directly <italic>from X-ray and neutron
+diffraction studies, and from powder studies using a constrained
+refinement</italic>.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> This is the case of the recently synthesized
+single crystal COF-300, COF-303, LZU-79, and LZU-111.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> In most of the
+cases though, the poor long-range crystallinity makes it impossible to resolve the structure
+directly. The fact that from an experimental point of view it is difficult to obtain
+sufficiently reliable crystal structures requires experimental groups to increasingly rely
+on computational techniques to make a model of the material. These proposed structures are
+subsequently validated by comparison with experimental properties, such as NMR and/or the
+&#x0201c;DFT pore-size distribution&#x0201d; fitted from gas isotherms.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup>
+Part of this work was motivated by the notion that, for these types of computational
+structure creations from scratch, there are no standards available. Depending on the
+methodology, it is easy to optimize toward different metastable states; different approaches
+may use different bond lengths, different positions of hydrogen atoms, etc. In addition,
+these computations often involve geometry optimizations which are performed with very
+different procedures (e.g., using different <italic>ab initio</italic> density functional
+theory methods or empirical force fields) that are often poorly documented. A direct use of
+these structures for molecular simulations therefore becomes a source of artifacts; these
+seemingly small differences in the way a structure is determined can lead to significant
+differences in the prediction of, for example, the thermodynamic properties of these
+materials.</p><p>In this work, we make a first step toward a systematic approach, which allows for a
+standardization. The challenge we aim to address is to develop a protocol that not only
+allows such a standardization (i.e., all materials are optimized identically and using a
+reproducible protocol) but also allows for systematic improvements and additions. Our
+approach aims to address on one hand the needs of synthetic chemists with limited knowledge
+of computational methods, but that would like to use state of the art methods in an
+automated protocol to standardize the geometry of their just-synthesized crystal. On the
+other hand we provide a tool to the computational community to collectively improve these
+optimization protocols.</p><p>In this work, we consider a total of 324 COFs reported experimentally from 2005 to 2018 (we
+refer to the Materials Cloud, see the Acknowledgements, for the
+references to the original structures), cleaned from solvent molecules, and with no partial
+occupations or disorder in the structures. We propose a systematic approach to organize and
+store these frameworks in a curated database, to track eventual corrections to the
+structures or additions to the database, and to link each entry back to its original source.
+The atomic coordinates and the cell dimensions have been optimized using density functional
+theory (DFT) to give a coherent geometry to all the frameworks. In addition, we have
+analyzed the results from DFT calculations to spot and correct errors in the structure and
+to achieve a robust and automated procedure to perform the DFT modeling and the
+optimization. DFT-derived partial charges of the structures are computed and provided for
+molecular simulations.</p><p>Whereas the optimization of a single structure can be seen as a routine DFT calculation,
+the optimization of over 300 hundred structures, including both 2- and 3-dimensional
+topologies, is particularly challenging. For a single structure, one can develop a recipe
+that is tailor-made and optimized for a given material. For such a large number of
+structures, the challenge is to build a workchain that is sufficiently general and robust
+such that any COF structure can be optimized. Moreover, given the number of calculations,
+one cannot afford to manually check all the outputs and ensure that all the calculations
+proceeded correctly. Therefore, it is important for the workchain not only to print out just
+the important values that the user needs to monitor but also to automatically act when a
+known problem is encountered. Our aim is to shift the attention from the single calculation
+to the inner logic of the workchain that, performing multiple calculations and tests, can
+chose automatically the most efficient path that leads to the solution (in this case the
+optimized geometry), and which can be extended to identify more problems and improve its
+robustness.</p><p>The important additional complication is that our workchain requires the interaction of
+multiple codes. Here, we show the advantage of employing a supervision tool that can
+automatically execute these codes. For this purpose we used the Automated Interactive
+Infrastructure and Database for Computational Science (AiiDA),<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> that
+allows the representation of our simulation protocol (the &#x0201c;workchain&#x0201d;) in a
+form of python script and its execution in an automated manner. It also gives a common
+language for different groups to collaborate in extending and improving the routines we
+designed.</p><p>A novel aspect of this work is not only the development of this workchain but also the full
+integration between AiiDA and the Materials Cloud. The importance of this integration
+becomes clear once groups start using our refined structures. For example, for 5% of the
+structures our workflow did not succeed in obtaining a converged structure because of
+inconsistencies or errors in the deposited crystal structure. These errors range from
+missing hydrogen to incorrect labeling of atoms, wrong cell dimensions, etc. The access to
+the Materials Cloud allows any user to inspect all corrections we have made on the original
+structure, the outcome of the geometry optimization, and the computed partial charges to be
+used for molecular simulations. In addition, the reader can find on the Materials Cloud the
+detailed workchain, i.e., the logic and the input/output files for all programs that have
+been used to compute and characterize the final structures. These workchains can be
+downloaded, allowing any researcher to reproduce our results or extend our calculations
+while maintaining their complete providence. We feel that it is important to create a
+precedent on the level of transparency and reproducibility that can be obtained.</p><p>The other important point we aim to highlight is the potential for future extensions of the
+entries in our COF database: the number of novel COFs that are published each year is still
+increasing; novel structures can be added easily, allowing different groups to collectively
+contribute to extending the number of structures with uniformly refined geometry.</p><p>Therefore, in this work we go beyond the &#x0201c;CoRE&#x0201d; approach, presenting the
+&#x0201c;CURATED&#x0201d; COF database, where the focus is on the full tracking and
+reproducibility of the operation that are needed to make the database (possibly) error-free,
+consistent, uniform, and easily upgradable.</p><p>Finally, optimizing &#x0003e;300 structures also gives important insights in the state of the
+art of COF synthesis and in the applicability of the different programs that were used in
+our workchain. To show an example usage of the structure we obtained, with refined geometry
+and partial charges, we screened the COFs in our database for their potential application in
+capturing carbon dioxide from coal&#x02019;s postcombustion gases.</p></sec><sec id="sec2"><title>Building of the Database</title><p>We aim to build a database of COFs structures reported from the literature and with refined
+geometry. In the following, we will refer to these structures as <italic>CURATED</italic>
+COFs, an acronym that stands for <italic>Clean, Uniform, and Refined with Automatic Tracking
+from Experimental Database</italic>. The database includes one set of CURATED COF
+structures that contains the original frameworks as reported in the literature, with uniform
+orientations of the layers and minor corrections in the case of typos, chemical errors, or
+solvent removal (&#x0201c;<italic>CURATED from literature</italic>&#x0201d;, 324 COFs), and
+another set containing the structures that succeeded the DFT optimization
+(&#x0201c;<italic>CURATED DFT-optimized</italic>&#x0201d;, 308 COFs). The whole design of
+the CURATED COFs repository was conceived to easily correct for possible errors and to be
+upgraded with more recently reported frameworks.</p><sec id="sec2.1"><title>Structure Labels</title><p>In the CURATED database, covalent organic frameworks are labeled using 7-character
+strings (see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) that encode information
+about their structure (charge state and dimensionality) as well as their provenance
+(publication year, article ID, and structure ID).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Structure labels used throughout this work. The structure ID is a progressive counter
+starting from zero and following the order of insertion into the database (not the
+chronological order of publication). The charge state of a framework may be neutral
+(N) or charged (C, needing floating counterions to balance its charge). The first four
+integers are therefore an index for the reference paper, e.g., p0701, where
+&#x0201c;p&#x0201d; stands for &#x0201c;paper&#x0201d;. Note that the counting for the IDs
+starts form zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0001" id="gr1" position="float"/></fig><p>Therefore, simply looking at a structure&#x02019;s label one can realize in one glance
+that, for example, COFs 07010N3, 07011N3, 07012N3, and 07013N3 are all 3D, do not contain
+charge-balancing counterions, and were published in the same paper of 2007 (p0701).<sup><xref ref-type="bibr" rid="ref3">3</xref></sup></p></sec><sec id="sec2.2"><title>Data Cleaning</title><p>In this work, we argue that an important requirement of our database is that the source
+of the initial structures as well as all the modifications that these structures underwent
+during the data cleaning process need to be fully tracked. Modifications are necessary to
+ensure a uniform formatting of the structures and to remove errors in the structure that
+were detected after a visual inspection or a suspect failure in the DFT optimization.</p><p>Our database contains 324 CURATED structures from the literature. Most of them come from
+the previous collection done by Tong et al.; in particular, we focused on the second
+version of their CoRE database.<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> In the three versions of their database, Tong et al. collected
+187,<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> 280,<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> and, only very recently, a third
+version of the database containing 309 COF structures.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Most of these
+structures were manually parsed from the PDF documents in the Supporting Information of
+the relative papers, and <italic>some COFs reported without atomic coordinate files are
+constructed following the experimental information provided in the corresponding
+synthetic studies</italic>.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> As mentioned in the introduction, only
+a few of the known COFs are deposited in the CSD database. Despite the care of the authors
+in this necessary manual parsing, errors are unavoidable. Indeed, we had to apply ca. 20
+corrections to the structures originally provided in the database of Tong et al. As our
+parsing was also done manually, and is therefore equally prone to errors, we used the Git
+version-control system to permanently keep track of these modifications.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> Our repository is built from the 280 structures reported in the second
+version of Tong et al.&#x02019;s database.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup></p><p>It is important to realize that most of the errors were found by warnings in the
+convergence of the DFT optimization and subsequently manually corrected. It was therefore
+important to monitor this optimization step and double-check the input structure of
+problematic runs. Problems in the initial structure are typically missing hydrogen atoms,
+incorrect elements, highly unfavorable protonation states, overlapping atoms (originated
+by the parsing of partial occupations), and incorrect unit-cell dimensions.</p><p>To extend the database, we added new structures from the literature research by querying
+papers that contain the keywords &#x0201c;covalent&#x02013;organic framework&#x0201d; or
+&#x0201c;COF&#x0201d; in the title. For most of the new structures, we had to manually parse
+the coordinates and apply a few modifications: solvent removal, manual fix of partial
+occupations, unit cell&#x02019;s realignment for 2D COFs, or correction of typos in the
+original publication.</p><p>It is instructive to discuss a few examples of this detection and correction of typos. In
+three cases the DFT calculation failed, and from visual inspection we observed unphysical
+bond lengths. The problem was fixed by keeping the same fractional coordinates for the
+atoms and rescaling the unit cell dimension to obtain physical C&#x02013;C bonds in benzene
+rings (see COFs 18021N3, 18121N3, and 18122N3).<sup><xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref27">27</xref></sup> We see this as an example of a reasonable but ad-hoc fix,
+which might be challenged in the future. In another case, a significant change in the unit
+cell was found after optimization, and this was caused by a manual error in the parsing
+from the SI: the COF with ID 120 in the database of Tong et al.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> was
+incorrectly obtained by mixing the unit cell of HAT-NTBA-COF with the atomic coordinates
+of HAT-NTBCA-COF.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> The mistake has been corrected in the present
+database, and the two structures are now reported as 17061N2 and 17060N2,
+respectively.</p></sec><sec id="sec2.3"><title>Geometry and Cell Optimization</title><p>In this database, 85% of the COFs are layered structures. To have consistent
+representation of all these layered COF structures, the unit cells were chosen to contain
+two layers for all COFs, and these layers were placed perpendicular to the
+<italic>z</italic> axis (c dimension). The stacking of two-dimensional COFs is important
+for the evaluation of adsorption properties, and having only one layer would not allow the
+geometry to find its energy minimum in a possible AB stacking during the optimization. Out
+of 274 2D COFs, 253 single-layer structures were found and expanded assuming perfectly
+eclipsed stacking. We would like to emphasize that one also could opt for 3 or more
+layers, but this would make the optimization even more CPU-intensive.</p><p>For the DFT optimization, it is important to mention that the unit cells of several
+structures in the database have more than 1000 atoms and volumes beyond 100&#x0202f;000
+&#x000c5;<sup>3</sup>. Such large volumes and numbers of atoms pose a challenge for
+performing density function theory in a high-throughput context, informing our choice for
+the DFT code. Therefore, our choice of the CP2K package is motivated by its efficient DFT
+implementation, that exploits the mixed Gaussian and plane waves (GPW) method based on
+pseudopotentials, and the efficient orbital transformation (OT) method for the
+optimization of the wave function. Since the OT method is not suited for structures with a
+vanishing DFT gap, in the case of a final band gap smaller than 0.1 eV (a total of only 44
+structures) the calculation was flagged, and different settings were used for the
+workchain, applying diagonalization and smearing (see the <xref rid="sec5" ref-type="other">Methods</xref>
+section for the details).</p><p>For the unit cell and geometry optimization we designed within AiiDA an advanced
+workchain that ensures a more robust convergence by performing a
+&#x0201c;three-stage&#x0201d; optimization. First, a preliminary cell optimization with a
+fixed unit cell angle is run for a maximum of 20 steps. Then, 100 steps of flexible cell
+<italic>ab initio</italic> molecular dynamics (AIMD) were performed to give a
+&#x0201c;shake&#x0201d; to the structure and escape from metastable states. At the end, a
+final cell optimization is performed without constraints on the unit cell&#x02019;s angles.
+All the details on the parameters can be found in the reported workchain on the Materials
+Cloud and are summarized in the <xref rid="sec5" ref-type="other">Methods</xref> section.</p><p>In the second step, the AIMD stage was found to be particularly necessary for the
+optimization of 2-dimensional COFs. We report in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link> the comparison with a standard direct cell
+optimization protocol, where we typically observe that, without the AIMD, the geometries
+become stuck in a more symmetric state with higher energy, typically the perfectly
+eclipsed AA configuration for 2D COFs.</p><p>In the way we designed and applied this workchain, it can almost be seen as a chemical
+sanity check: if a structure does not pass this stage it most likely violates the
+collective knowledge of quantum chemistry. This either implies DFT to have some severe
+inaccuracies in modeling the crystal or, what we found in most of the cases, chemical
+inconsistencies in the initial structure that need to be fixed manually before the
+structure can be optimized.</p></sec><sec id="sec2.4"><title>Geometric Properties and Partial Charge Assignment</title><p>To characterize the structures before and after the cell optimization, a number of
+geometric descriptors were evaluated, e.g., pore surface, pore volume, largest free
+sphere, pore size distribution, etc.</p><p>DFT-derived partial charges (DDEC protocol; DDEC, density-derived electrostatic charge)
+are computed for the optimized structures, utilizing the electron density that was already
+computed in the previous optimization stage. These partial charges are already a valuable
+result of our study as it allows for the modeling of the interactions with polar
+adsorbates such as CO<sub>2</sub> or H<sub>2</sub>O.</p></sec><sec id="sec2.5"><title>Adsorption Calculations and Parasitic Energy</title><p>As an illustration of the use of these COFs, we screened the materials for their
+performance to separate CO<sub>2</sub> from flue gases in a case study in which these
+materials are use to capture carbon from a coal-fired power plant followed by geological
+sequestration of the captured CO<sub>2</sub>. In our model, we mimic a
+temperature&#x02013;pressure swing process to separate CO<sub>2</sub> from coal
+postcombustion flue gases and its compression to 150 bar for underground storage. The aim
+is to find the materials that give the lowest parasitic energy. This parasitic energy is
+defined as the loss of electricity production caused by separation and compression of 1 kg
+of CO<sub>2</sub>.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> To evaluate this energy we need to predict the
+pure component isotherms of CO<sub>2</sub> and N<sub>2</sub> in the COFs at 300 K, as
+evaluated from grand canonical Monte Carlo (GCMC) simulations.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> We
+have developed an AiiDA workchain to compute the minimal CO<sub>2</sub> parasitic energy
+from the optimized structures, provided with DDEC charges. The full workflow is sketched
+in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Block diagram of the workflow used in this work.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0002" id="gr2" position="float"/></fig></sec></sec><sec id="sec3"><title>Results and Discussion</title><sec id="sec3.1"><title>Analysis of Experimental Structures</title><p>The database of experimental COFs we are considering contains 324 structures, with 310
+being neutral and the remaining 14 being charged: in this second case counterions are
+necessary to maintain the neutrality of the system, and these charged molecules have been
+kept in the pore as reported in the reference paper. The counterions found in these
+structures are dimethylammonium, tetrafluoroborate, and single atom ions, e.g.,
+Li<sup>+</sup>, NA<sup>+</sup>, F<sup>+</sup>, Cl<sup>+</sup>, Br<sup>+</sup>, and
+I<sup>+</sup>. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> reports the variety of
+elements in these crystals, distinguishing between 2D/3D and neutral/charged frameworks.
+One can note that these COFs contain a number of transition metals, e.g., Co, Ni, Cu, and
+Zn. However, unlike MOFs, these metals are not part of the connection nodes, but they are
+embedded in ligands, typically in porphyrins and phthalocyanines.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Distribution of elements for the 324 COFs actually present in the database. COFs are
+also distinguished into 3D or 2D, and neutral (N) or charged (C, that need floating
+counterions).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0003" id="gr3" position="float"/></fig><p>An important point that we need to discuss is the stacking of 2D COFs, i.e., the
+arrangement of neighboring layers, sticking together because of noncovalent interactions.
+Reviewing the experimental literature about the synthesis and characterization of
+COFs,<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> we found that it is common to consider just two types of stacking: the
+eclipsed AA stacking, where the different layers are perfectly superimposed, and the
+staggered AB stacking, where there is an alternation of even and odd layers with an offset
+in the <italic>xy</italic> plane. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> shows
+as example these two configuration for COF-1 and COF-5.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>AA and AB stacking for (a) 05000N2 and (b) 05001N2, as reported in the experimental
+reference,<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> are compared. Conventional names are COF-1 and COF-5,
+respectively. In that report, the assessment of the presumed stacking was done by
+generating for both COFs the AA configuration and reasonable AB configurations, and
+comparing the computed XRD with the experimental PXRD.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0004" id="gr4" position="float"/></fig><p>Lukose et al. found that the minimum energy configuration for these COFs has a slightly
+tilted stacking.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> Instead of the perfectly aligned AA and AB, COF-1
+and COF-5 were found to have its minimum energy when the layers have an offset of ca. 1.4.
+This misalignment was shown to be hard to distinguish from the experimental PXDR pattern,
+and it is better to rely on computational methods. Recognizing the correct stacking is
+indeed a crucial aspect for many applications,<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> and particularly for gas adsorption,
+where a shifted or staggered configuration results in a shrinking of the channel diameter,
+possibly blocking the channels to the diffusion of gas molecules.</p><p>Analyzing the collected 2D COFs we noted that in only a few cases (21) two layers are
+reported in the unit cell, and it is often not clear the method that was used for the
+generation of that particular stacking configuration over all possible ones. For the
+remaining 253 structures only one layer was reported, assuming AA stacking. Therefore, by
+consistently considering two layers in the conventional unit cell for these 2D COFs, we
+allow the geometry optimization to explore both the &#x0201c;serrated&#x0201d; configuration
+(i.e., where odd layers are slightly shifted) and the &#x0201c;inclined&#x0201d;
+configurations (i.e., where there is a constant offset of the layers, resulting in tilted
+unit cells). Note that the serrated configuration cannot be obtained when only one layer
+is considered.</p></sec><sec id="sec3.2"><title>Cell Optimization</title><p>We performed the cell optimization for the 310 COFs that do not contain counterions in
+their pores (i.e., labeled as N, neutral). As we reported in the previous section, most of
+the problems in the DFT optimization routine were solved after a careful inspection and
+fixing of the initial structures. The problems that could be effectively attributed to the
+DFT implementation are related to only two structures: 18081N2 and 18082N2. These two both
+have cobalt, and they need electron smearing in the SCF: even testing different input
+parameters (e.g, lower mixing alpha, spin state, etc.) did not lead to a successful
+optimization. Considering that cobalt&#x02019;s pseudopotential is designed for 17 valence
+electrons (the largest number of electrons in the set we used), this is known to be a
+challenging element for the SCF diagonalization, and some effort is needed to design a
+more effective protocol for this particular element. However, AiiDA allowed the full
+tracking of the problem and reporting of the issue to the CP2K developers.</p><p>Given that more than 99% of the structures in the database converged, our three-stage DFT
+optimization routine is suitable for high-throughput calculations. For comparison, in a
+previous attempt of a systematic DFT-based geometry optimization of 2612 MOFs, only 879
+(33.7%) successfully converged.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> In that case the unit cell dimension
+was not optimized, and no check was included for the band gap.</p><p><xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> shows the evolution of DFT energy over
+our three-stage structure optimization workchain for two exemplary structures: 05000N2
+(COF-1) and 05001N2 (COF-5).</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Energy profile during the optimization workchain for COFs (a) 05000N2 and (b)
+05001N2. Conventional names are COF-1 and COF-5, and the starting configurations of
+the layers, as reported,<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> are staggered and eclipsed, respectively.
+The three colored regions of the plot correspond to the first cell optimization with
+constrained cell angles and 20 steps maximum (red), the NPT AIMD at 400 K/1 bar for 50
+fs, i.e., 100 steps, (yellow), and the final cell optimization without constraints
+(green). The energy is shifted to assign a 0 value to the minimum.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0005" id="gr5" position="float"/></fig><p>As one can note for the COF 05000N2 structure,<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> we already find the
+minimum in the first stage, and there is no apparent need for stages two and three. For
+COF 05001N2, however, the MD &#x0201c;shaking&#x0201d; of the structure results in it
+finding a more stable minimum that is 13.7 meV/atom more stable. This final optimization
+results from a shifting of the perfectly eclipsed layers in the reported structure,
+coherently with the work of Lukose et al.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> In the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link>, we show that, without the intermediate AIMD stage,
+the structure becomes stuck in the first minimum, due to the high initial symmetry where
+layers are perfectly eclipsed.</p><p>To evaluate for the entire COF database the relative importance of the two cell
+optimization stages, we plotted in the histograms of <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> the difference in energy in the first cell optimization (with
+constrained angles) and the further drop in the energy for the final cell optimization,
+showing also the contribution of dispersion interactions. This last is intended as the
+change in the energy due to the DFT-D3(BJ) terms only.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Comparison of the difference in the energy in the (a) first and (b) third cell
+optimization stages. These two stages are also referred in the text as
+&#x0201c;preliminary&#x0201d; and &#x0201c;final&#x0201d;, respectively. Differences in
+energies (blue) are sorted for the 308 COFs in the histogram, showing also the
+relative contribution given by dispersion interactions (orange).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0006" id="gr6" position="float"/></fig><p>We observe that in most cases dispersion interactions play the major role in the final
+cell optimization. In the first cell optimization, where the typical changes in energy are
+larger by a factor of 10 (cf. the <italic>y</italic> axis scaling in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>), we mainly observe from the optimization trajectories
+a rearrangement of the atomic bonds and an increase of the distance between nonbonded
+fragments when this is set too close in the starting geometry. If we further inspect the
+statistics of <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>, we can observe that, for
+the first cell optimization, in only one case there was an increase in the energy: this is
+related to COF 12011N2 and results from a false step of the BFGS minimizer, which did not
+have the time to relax back in the limit of 20 steps. For as many as 153 COFs (49.68%) the
+cell optimization converged within the first 20 steps (i.e., at the
+&#x0201c;preliminary&#x0201d; cell optimization stage), but only 19.61% of these had a
+negligible energy drop (&#x0003c;1 meV) in the final cell optimization, meaning that still for
+most of the cases the AIMD helped to find a lower minimum. More detailed statistics are
+reported in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, distinguishing between two-
+and three-dimensional COFs.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Statistics on the Optimization Process of the 308 COFs that Succeeded DFT
+Optimization</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">2D&#x000a0;COFs</th><th style="border:none;" align="center">3D&#x000a0;COFs</th><th style="border:none;" align="center">all&#x000a0;COFs</th></tr></thead><tbody><tr><td style="border:none;" align="left">number of optimized structures</td><td style="border:none;" align="left">261</td><td style="border:none;" align="left">47</td><td style="border:none;" align="left">308</td></tr><tr><td style="border:none;" align="left">converged in preliminary cell opt.</td><td style="border:none;" align="left">50.96%</td><td style="border:none;" align="left">42.55%</td><td style="border:none;" align="left">49.68%</td></tr><tr><td style="border:none;" align="left">converged, but &#x00394;<italic>E</italic> final cell opt.
+&#x0003e;&#x000a0;&#x02212;1.0&#x000a0;meV/atom</td><td style="border:none;" align="left">12.03%</td><td style="border:none;" align="left">70.00%</td><td style="border:none;" align="left">19.61%</td></tr><tr><td style="border:none;" align="left">avg. steps in preliminary cell opt.</td><td style="border:none;" align="left">16.3</td><td style="border:none;" align="left">16.5</td><td style="border:none;" align="left">16.3</td></tr><tr><td style="border:none;" align="left">avg. steps in final cell opt.</td><td style="border:none;" align="left">150.3</td><td style="border:none;" align="left">113.3</td><td style="border:none;" align="left">144.7</td></tr></tbody></table></table-wrap><p>The difference in the structures before and after the geometry and cell optimization can
+be appreciated from the change of the geometric properties, as plotted in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Parity plots that compare the geometric properties of COFs before and after the
+optimization: (a) density, (b) accessible surface area, (c) largest free sphere, (d)
+accessible probe occupiable volume, (e) accessible probe occupiable void fraction, and
+(f) geometric void fraction. To determine the accessibility of the pore volume and
+surface, a spherical probe with radius 1.86 &#x000c5; (i.e., the conventional kinetic
+radius of nitrogen) was considered. The &#x0201c;geometric&#x0201d; void fraction is
+considered as all of the portion of the pore volume that does not overlap with the
+atoms.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> The colors distinguish between 2-dimensional (blue) and
+3-dimensional (red) structures.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0007" id="gr7" position="float"/></fig><p>We can see that in many cases the DFT optimization leads to lower density, corresponding
+to a shrinking of the unit cell of the COF. The most evident case is for COF 18120N3
+(<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>), where the density increases from
+0.49 to 1.13 g/cm<sup>3</sup>, with a correspondent decrease of the geometric void
+fraction from 0.72 to 0.39. After the optimization, this structure becomes nonporous
+(i.e., null N<sub>2</sub>-accessible pore volume and surface). By inspecting the change in
+the atomic positions and the unit cell lengths we can notice that the structure shrunk to
+reach a more favorable configuration that optimizes the conformation of the ligands and
+their van der Waals interactions. For this COF, the measured pore volume from the nitrogen
+uptake is 0.36 cm<sup>3</sup>/g,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> i.e., well below the value computed
+from the reported structure (accessible N<sub>2</sub> probe occupiable volume equal to
+0.96 cm<sup>3</sup>/g). We can therefore expect that this structure can shrink after
+desolvation. For this COF the rigid crystal assumption would not hold to model the
+adsorption: the reported structure would lead to artificial results.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Structure of COF 18120N3 before (left) and after (right) the cell optimization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0008" id="gr8" position="float"/></fig><p>For the two-dimensional COFs, we observe in most of the cases a shift in the layers
+(i.e., the &#x0201c;inclined&#x0201d; configuration) that maximizes the noncovalent
+interactions. This results in a general reduction of the largest free sphere, as shown in
+<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. We observe that the energy
+stabilization due to this shift is very low. Considering the 133 layered structures where
+the geometry converged at the first cell optimization stage, the energy stabilization at
+the end of the final cell optimization, i.e., due to the tilting, is on average
+&#x02212;13.1 meV/atom. This is a relatively low energy, and one may therefore expect that,
+at finite temperature, there is no unique stacking of these materials. While our protocol
+successfully identifies a close-by local minimum for both 2D and 3D structures, for 2D
+materials, a complete screening of all possible stacking configurations and the averaging
+over those accessible at finite temperature need to be further explored.</p></sec><sec id="sec3.3"><title>CO<sub>2</sub> Separation Performances</title><p>The systematically optimized structures with high-quality charges, that have been
+obtained for 308 COFs (CURATED DFT-optimized set), allow us to model the interaction with
+polar molecules, e.g., considering Coulombic attractions, and evaluate the performance of
+these materials for gas adsorption. As an example, we investigate the use of COFs for the
+removal of carbon dioxide from coal&#x02019;s postcombustion flue gases.</p><p>To highlight the importance of high-quality input structures (i.e., DFT-optimized and
+with DDEC charges) for the evaluation of CO<sub>2</sub> adsorption, we computed also the
+empirical Qeq charges for the nonoptimized structures: this is a cheaper protocol that is
+usually exploited for high-throughput screenings. In <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>, we compare the CO<sub>2</sub> Henry coefficient and adsorption
+energy at infinite dilution (i.e., computed from the Widom insertion method) for the two
+protocols, where the absolute change in the void fraction is shown by the color of the
+markers. It is striking to see the impact of both the optimization and the use of accurate
+partial charges. One can observe at best a weak correlation between the two protocols. The
+implication of these results is that using the COF-structures as reported combined with a
+simple charge assignment scheme will potentially result in many false positives and
+neglecting good-performing materials. This observation is one of the main motivations of
+this work and illustrates the need to extend our CURATED approach to other databases. More
+details of the contributions that charges and geometry have to the CO<sub>2</sub>
+interactions are included in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link>.</p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Comparison of the CO<sub>2</sub> Henry coefficient and the adsorption energy at
+infinite dilution for nonoptimized COFs with Qeq partial charges and DFT-optimized
+COFs with DDEC charges. Dashed lines show the condition of equal values for both axes.
+The color of the markers indicates the absolute change of the geometric void fraction
+after the optimization. Points that lie close to the axes (i.e., null Henry
+Coefficient and adsorption energy) indicate nonpermeable structures, where all the
+pores are inaccessible. Blocking spheres have been used in all the calculations to
+exclude inaccessible pores, as described in the <xref rid="sec5" ref-type="other">Methods</xref>
+section.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0009" id="gr9" position="float"/></fig><p>With our DFT-optimized set of CURATED COFs with DDEC charges, we are now in a position to
+evaluate their performance for CO<sub>2</sub> capture and geological storage from a
+coal-fired power plant. For consistency, we use the same protocol that our group employed
+in previous studies to evaluate different classes of microporous
+materials.<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup> In
+this protocol we assume a pressure&#x02013;temperature swing adsorption process to separate
+CO<sub>2</sub> from a CO<sub>2</sub>/N<sub>2</sub> mixture and subsequent compression of
+purified CO<sub>2</sub> to 150 bar, the requirement for underground storage. The key
+parameter to assess the performance of this process is the minimal parasitic energy, i.e.,
+the energy that is required to separate and compress 1 kg of CO<sub>2</sub>. However,
+other key parameters are also important for the evaluation: one should aim for high purity
+of the final high-CO<sub>2</sub> concentration gas, and high working capacity of the
+materials, to achieve the same productivity with less material or with fewer
+adsorption/desorption cycles.</p><p>Of all the COFs we considered, 12 COFs are nonporous for CO<sub>2</sub> or N<sub>2</sub>
+(according to the atomic radii definition from UFF, i.e., half of the Lennard-Jones sigma)
+and need to be excluded from the calculation. In addition, eight structures have
+inaccessible pores, which need to be blocked to prevent GCMC from growing particles in
+these narrow pockets. In the present study, we assumed that the COFs are rigid and
+therefore maintain their stacking upon adsorption. One can envision changes in the
+stacking upon adsorption. It would be prohibitively expensive to include framework
+flexibility in our screening structures, but it would be important to study these effects
+if one further considers top performing structures.</p><p>In <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>, we compared the simulated
+CO<sub>2</sub> isotherms for the first seven entries of our CURATED DFT-optimized COF
+database (i.e., the oldest synthesized) with experimental data.<sup><xref ref-type="bibr" rid="ref36">36</xref></sup></p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Comparison of simulated (lines) CO<sub>2</sub> isotherms with experimental ones
+(triangles).<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> The isotherms were obtained at 300 and 298 K,
+respectively. Note that the simulated uptake of COF 05000N2 is set to zero because,
+from geometric analysis, no accessible volume was found for CO<sub>2</sub> nor
+N<sub>2</sub>. The conventional names of these COFs are, in the same order as in the
+legend, COF-1, COF-5, COF-10, COF-6, COF-8, COF-102, and COF-103.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0010" id="gr10" position="float"/></fig><p>A notable difference is found for COF 05000N2 (COF-1), which we found to be nonporous
+under the rigid framework assumption: the small uptake that was measured is possibly the
+consequence of the motion of the layers that creates interstices where the CO<sub>2</sub>
+molecule can percolate and occupy the pores. Considering the uptake in the low-pressure
+range, we note from the isotherms a systematic overestimation of the
+CO<sub>2</sub>&#x02013;framework interactions, that reflects in higher Henry coefficients.
+Also, in the 3D COFs 07010N3 and 07011N3 the apparently higher saturation found in
+simulations may be related with the imperfect crystallinity of the sample or partial
+desolvation. A more detailed comparison is provided in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link>. Considering that we carry out a high-throughput
+approach, we conclude that the agreement with experiments is acceptable.</p><p>To compute the minimal parasitic energy of a material, we need as input the pure
+component isotherms and the heats of adsorption for CO<sub>2</sub> and N<sub>2</sub>. The
+adsorbing bed is assumed to have a void fraction of 0.3, due to the pelletization and
+packing of the crystal. The volumetric working capacity measures the amount of
+CO<sub>2</sub> that one cubic meter of bed can evacuate between adsorption and
+desorption.</p><p>In <xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref> the minimal parasitic energy is
+plotted as a function of the Henry coefficient, the volumetric working capacity, and the
+final molar purity. In all three comparisons we see a strong correlation. However, for
+materials with low parasitic energy, i.e., below 1 MJ/kg where the process is potentially
+more energy efficient than ammine-based technologies, the correlation becomes less
+evident. One can, for example, select among the materials with low parasitic energies
+(that is an index for operative costs) the ones with higher working capacity, that would
+correspond to the need of less adsorbent (and therefore lower capital costs).</p><fig id="fig11" position="float"><label>Figure 11</label><caption><p>For a set of 296 porous and DFT-optimized COFs the CO<sub>2</sub> parasitic energy is
+plotted versus the Henry coefficient for CO<sub>2</sub>. The dotted line gives the
+comparable parasitic energy of the amine-based capture process. In the lower plots the
+parasitic energy is plotted versus the other two main outputs from the process
+modeling: the CO<sub>2</sub> working capacity per cubic meter of adsorbent bed and the
+final CO<sub>2</sub> molar purity of the mixture.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0011" id="gr11" position="float"/></fig><p>The envelope for the minimum parasitic energy versus the Henry coefficient that one can
+draw in <xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref> can also be compared with the
+results obtained for Lin et al. for a database of more than 300&#x0202f;000 hypothetical
+zeolites and zeolitic imidazolate frameworks (ZIFs),<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> and later by
+Huck et al., for MOFs and porous polymer networks (PPNs).<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> In the
+present work, the lowest parasitic energies are obtained in the range of the Henry
+coefficient between 10<sup>&#x02013;4</sup> and 10<sup>&#x02013;3</sup> mol/(kg Pa). These
+results are coherent with the earlier findings on other materials. However, the Henry
+coefficient for COFs rarely exceeds 10<sup>&#x02013;4</sup> mol/(kg Pa), and none were
+found to exceed 10<sup>&#x02013;3</sup> mol/(kg Pa). Our effort consistently extends the
+&#x0201c;materials genome&#x0201d; for carbon capture and sequestration, now including also
+COFs. When compared with the best material found in the work of Huck et al.,<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> we observe that the performances of these COFs are still below the best
+performer MOF-74, for which we get 0.705 MJ per kg of CO<sub>2</sub>, with a purity of
+0.943 and a volumetric working capacity of 64.87 kg of CO<sub>2</sub> per cubic meter of
+bed. In total, 14 materials over 60 were indicated by Huck et al. to have a low parasitic
+energy for coal flue gas (in the range 0.7&#x02013;0.85 MJ/kg), including 6 cation
+exchanged zeolites, 5 MOFs, and 3 porous polymers. However, the consideration that COF
+materials contain only light atoms, being potentially cheap, can be an important criterion
+of choice, making this class of materials appealing for CO<sub>2</sub> separation.</p><p>Since we used AiiDA for the data-tracing of the full workflow, from the reported
+structure to the performances evaluation, we can now easily inspect every intermediate
+stage, backtracking the provenance of the final results. We illustrate this for three
+COFs: 18041N3 having the lowest parasitic energy (0.819 MJ/kg), 13180N3 having the maximum
+working capacity (30.42 kg/m<sup>3</sup>), and the test case 05001N2 (COF-5), which has a
+relatively high parasitic energy of 2.681 MJ/kg and therefore is not promising for this
+particular application. For these materials we can inspect in one glance (<xref rid="fig12" ref-type="fig">Figure <xref rid="fig12" ref-type="fig">12</xref></xref>) the energy profile during the
+optimization, the changes in the structures, the uptake sampling, and the details of the
+process simulation. The reader can access a similar visualization from the Materials
+Cloud, in the Discovery section (see Acknowledgments).</p><fig id="fig12" position="float"><label>Figure 12</label><caption><p>Results obtained from the full workflow are sketched for three COFs: 18041N3,
+13180N3, and 05001N2. From the left to the right we can find the initial geometry, the
+energy profile during the three-stage optimization, the final geometry and its main
+geometric properties, the CO<sub>2</sub> and N<sub>2</sub> isotherms and heat of
+adsorption, and finally the results from the process modeling. &#x0201c;SA&#x0201d;,
+&#x0201c;PV&#x0201d;, and &#x0201c;LFS&#x0201d; labels indicate, respectively, the
+nitrogen-accessible surface area, pore volume, and the largest free sphere&#x02019;s
+diameter. &#x0201c;PE&#x0201d; and &#x0201c;WC&#x0201d; stand for the minimal parasitic
+energy and the CO<sub>2</sub> working capacity in the adsorbent, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_0012" id="gr12" position="float"/></fig><p>It is interesting to compare our results with the original articles, which report the
+synthesis details for these COFs. For example, it is important to confirm that the
+experimental structure can be desolvated. This is the case for 18041N3<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> but not for 13180N3,<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> where the COF is reported to lose its
+crystallinity and porosity after solvent removal. Therefore, to use this material for gas
+adsorption, the fact that our optimization routine converges to a stable structure
+suggests that this material can be stable without a solvent; this indicates that it would
+be worthwhile to investigate different synthesis protocols that may allow for milder
+conditions for the activation and possibly retain the crystallinity of the sample.</p></sec></sec><sec id="sec4"><title>Conclusions</title><p>We presented a systematic way to optimize the structures of covalent&#x02013;organic
+frameworks (COFs) using density functional theory. In addition, we have assessed their
+performance for CO<sub>2</sub> capture as estimated from classical simulations. The
+optimization revealed some substantial changes, mainly in the layers rearrangement of these
+materials, and finally provided a set of frameworks that have been obtained from a
+consistent and reproducible protocol. The Automated Interactive Infrastructure and Database
+for Computational Science (AiiDA) has been used to achieve the result, and this set of 308
+CURATED DFT-optimized COFs is made available, with optimized structure and high-quality
+partial charges, for further computational investigations. The acronym stands for
+<italic>Clean, Uniform, and Refined with Automatic Tracking from Experimental
+Database</italic>. We plan to extend our CURATED set of COFs periodically with the most
+recently reported frameworks. It can serve as a reference for consulting and for molecular
+simulations.</p><p>We show that the computed adsorption isotherms for CO<sub>2</sub> are in fair agreement
+with experiments, allowing for a reliable ranking of these materials for carbon capture. The
+modular design of our workchain allows for future testing of different force fields and
+settings, to improve the overall match of simulation with experiments: we believe that this
+will be possible with the parallel effort of building a consistent repository to collect
+experimental adsorption measurements.</p><p>We plan to extend the same concept to other classes of materials, e.g., metal organic
+frameworks (MOFs) and zeolites, aiming for an extensive database for adsorption properties,
+useful not only for comparison but also for training machine learning models that can later
+be used to prescreen new materials from quickly computed geometric properties. We will need
+to face more complex challenges, e.g., dealing with the DFT modeling of transition metals,
+or tuning the standard force fields to better describe the interaction with open metal sites
+in MOFs. In this perspective, AiiDA can serve as a common language for the whole scientific
+community to collaborate, systematically improving and recombining workchains that need to
+model more and more complex systems.</p></sec><sec id="sec5"><title>Methods</title><sec id="sec5.1"><title>DFT Calculations</title><p>DFT calculations were performed using the Perdew&#x02013;Burke&#x02013;Ernzerhof (PBE)
+exchange-correlation functional<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> with DFT-D3(BJ) dispersion
+corrections.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> The Quickstep code of the CP2K package was
+used,<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> employing GTH pseudopotentials,<sup><xref ref-type="bibr" rid="ref42">42</xref></sup>
+DZVP-MOLOPT-SR contracted Gaussian basis sets, and an auxiliary plane wave basis set. The
+plane waves cutoff is set to 600 Ry cutoff, and these are mapped on a 4-level multigrid,
+with relative cutoff of 50 Ry and progression factor of 3. The orbital transformation (OT)
+method was used, and if a band gap &#x0003c;0.1 eV was found, the calculation was rerun from
+scratch using Broyden diagonalization and Thomas&#x02013;Fermi smearing at 300 K.</p><p>For geometry optimization, we considered the atomic positions to be converged once the
+maximum force on the atoms dropped below 1.0 millihartree/bohr (as well as a root-mean
+squared value below 0.7). The threshold for the pressure is set to 100 bar for the cell
+optimization. For the first stage (preliminary cell optimization) the BFGS minimizer is
+used. For the second stage (AIMD), an NPT_F<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> simulation is performed
+at 400 K and 1 bar, using the CSVR thermostat<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> and the barostat from
+Martyna et al.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> As for the third stage (final cell optimization), the
+Limited-memory BFGS (L-BFGS) minimizer is employed. Further details on the choice of the
+convergence threshold and minimizer can be found in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link>.</p><p>The workchain is kept efficient by always restarting the wave functions from the
+calculation of the previous stage, and using the Always Correct Predictor-Corrector
+(ASPC)<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> to have a more accurate first guess of coefficients of the
+wave function at every cell optimization or MD step.</p></sec><sec id="sec5.2"><title>Partial Charges</title><p>Density-derived electrostatic charges (DDECs)<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> are evaluated, using
+the software Chargemol,<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> and feeding the electron density of the
+optimized structures as computed from CP2K. The version 6 of the protocol, i.e.,
+DDEC-6,<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> is used.</p><p>Qeq charges are computed with the same protocol we tested in our previous
+work:<sup><xref ref-type="bibr" rid="ref50">50</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup> the
+periodic-Qeq (PQeq) calculator egulp<sup><xref ref-type="bibr" rid="ref52">52</xref></sup> was used with GMP parameters.
+Out of 310 neutral COFs, only one did not converge the Qeq calculation (17131N2).</p></sec><sec id="sec5.3"><title>Geometry-Based Descriptors</title><p>Geometric properties are evaluated using the software Zeo++ (version 0.3).<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> The software&#x02019;s default definition of the atomic radii was used. The
+accessibility of the internal pore volume and surface was assessed using a spherical probe
+of 1.86 &#x000c5;, i.e., the conventionally used kinetic radius for nitrogen.</p><p>When computing the probe-occupiable accessible pore volume<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> and the
+blocking spheres<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> to be used for the molecular simulation, we adopted
+a different set of radii, consistently with the force field of the simulation. The
+frameworks&#x02019; atomic diameters were set equal to Lennard-Jones sigma in UFF, and we
+considered spherical probes with diameters of 3.05 and 3.31 &#x000c5; for CO<sub>2</sub>
+(oxygen&#x02019;s sigma in TraPPE) and N<sub>2</sub> (nitrogen&#x02019;s sigma in TraPPE),
+respectively.</p></sec><sec id="sec5.4"><title>Parasitic Energy Evaluation</title><p>CO<sub>2</sub> and N<sub>2</sub> isotherms are computed using the Raspa package,<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> at 300 K, within the range 0.001&#x02013;30 bar. The TraPPE force field is
+employed to model the gases,<sup><xref ref-type="bibr" rid="ref56">56</xref></sup> and the dispersion interactions with the
+framework are computed using Lorentz&#x02013;Berthelot mixing rules, employing the UFF
+parametrization<sup><xref ref-type="bibr" rid="ref57">57</xref></sup> for the atoms of the COFs. The pressure points for
+the sampling are selected using a novel protocol that we describe in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">Supporting Information</ext-link>. The uptakes are computed from the lowest pressure,
+running GCMC for 1000 cycles for initialization and 10&#x0202f;000 for production, and
+restarting from the final configuration, for the next pressure calculation. The heat of
+adsorption is computed during GCMC using the particle fluctuation method.<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> Blocking spheres are considered, to prevent the insertion of gas molecules
+in nonaccessible pores. COFs with null probe-occupiable accessible pore volume are
+considered nonporous, and for these materials the isotherms were not computed.</p><p>Finally, we used the in-house code from the work of Huck et al.,<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref59">59</xref></sup> to compute the optimal parameters
+for the temperature&#x02013;pressure swing process, the parasitic energy, the working
+capacity, and the final purity of the CO<sub>2</sub>-rich mixture.</p></sec></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acscentsci.9b00619">10.1021/acscentsci.9b00619</ext-link>.<list id="silist" list-type="simple"><list-item><p>Comparison of the cell optimization protocol with other variants,
+detailed description of the isotherm sampling protocol, detailed discussion on the
+contribution of charges and optimization to the CO<sub>2</sub>&#x02013;framework
+interactions, and a detailed comparison of experimental and simulated isotherms
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="oc9b00619_si_001.pdf"><caption><p>oc9b00619_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e1070-autogenerated"><p>The authors declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The research in this article was supported by the European Research Council (ERC) under the
+European Union&#x02019;s Horizon 2020 research and innovation programme (grant agreement
+666983, MaGic) and by the NCCR MARVEL, funded by the Swiss National Science Foundation. L.T.
+acknowledges the support of the swissuniversities P-5 "Materials Cloud" project (ID:
+182-008). Part of the calculations were enabled by the Swiss National Supercomputing Centre
+(CSCS), under project ID s761. The authors are grateful to Prof. J. Hutter for the helpful
+discussions, to the CP2K user forum, and to the AiiDA developers team for the support.
+Materials Cloud Archive: Additional data are provided free of charge on the Materials Cloud
+Archive at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://archive.materialscloud.org/2019.0034/v1">https://archive.materialscloud.org/2019.0034/v1</uri>, including the AiiDA WorkChains
+used in this work; the AiiDA provenance graph; and the CURATED COF structures in CIF format.
+The archive record links to a DISCOVER section, where the structures and the main results of
+this work can be browsed interactively, as well as to an EXPLORE section with the
+interactive provenance browser (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.materialscloud.org/discover/curated-cofs">https://www.materialscloud.org/discover/curated-cofs</uri>).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Diercks</surname><given-names>C. S.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>The atom, the molecule, and the covalent organic frame-
+work</article-title>. <source>Science</source>
+<year>2017</year>, <volume>355</volume>, <elocation-id>eaal1585</elocation-id><pub-id pub-id-type="doi">10.1126/science.aal1585</pub-id>.<pub-id pub-id-type="pmid">28254887</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Cot&#x000e9;</surname><given-names>A. P.</given-names></name>; <name><surname>Benin</surname><given-names>A. I.</given-names></name>; <name><surname>Ockwig</surname><given-names>N. W.</given-names></name>; <name><surname>O&#x02019;Keeffe</surname><given-names>M.</given-names></name>; <name><surname>Matzger</surname><given-names>A. J.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>Porous, crystalline, covalent organic frameworks</article-title>. <source>Science</source>
+<year>2005</year>, <volume>310</volume>, <fpage>1166</fpage>&#x02013;<lpage>1170</lpage>. <pub-id pub-id-type="doi">10.1126/science.1120411</pub-id>.<pub-id pub-id-type="pmid">16293756</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>El-Kaderi</surname><given-names>H. M.</given-names></name>; <name><surname>Hunt</surname><given-names>J. R.</given-names></name>; <name><surname>Mendoza-Cortes</surname><given-names>J. L.</given-names></name>; <name><surname>Cote</surname><given-names>A. P.</given-names></name>; <name><surname>Taylor</surname><given-names>R. E.</given-names></name>; <name><surname>O&#x02019;Keeffe</surname><given-names>M.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>Designed synthesis of 3D covalent organic frameworks</article-title>. <source>Science</source>
+<year>2007</year>, <volume>316</volume>, <fpage>268</fpage>&#x02013;<lpage>272</lpage>. <pub-id pub-id-type="doi">10.1126/science.1139915</pub-id>.<pub-id pub-id-type="pmid">17431178</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Feng</surname><given-names>X.</given-names></name>; <name><surname>Ding</surname><given-names>X.</given-names></name>; <name><surname>Jiang</surname><given-names>D.</given-names></name>
+<article-title>Covalent organic frameworks</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2012</year>, <volume>41</volume>, <fpage>6010</fpage>&#x02013;<lpage>6022</lpage>. <pub-id pub-id-type="doi">10.1039/c2cs35157a</pub-id>.<pub-id pub-id-type="pmid">22821129</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Lohse</surname><given-names>M. S.</given-names></name>; <name><surname>Bein</surname><given-names>T.</given-names></name>
+<article-title>Covalent organic frameworks: structures, synthesis, and appli-
+cations</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2018</year>, <volume>28</volume>, <fpage>1705553</fpage><pub-id pub-id-type="doi">10.1002/adfm.201705553</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Olajire</surname><given-names>A. A.</given-names></name>
+<article-title>Recent advances in the synthesis of covalent organic frameworks for CO2
+capture</article-title>. <source>J. CO2 Util.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>137</fpage>&#x02013;<lpage>161</lpage>. <pub-id pub-id-type="doi">10.1016/j.jcou.2016.12.003</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Lin</surname><given-names>S.</given-names></name>; <name><surname>Diercks</surname><given-names>C. S.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.-B.</given-names></name>; <name><surname>Kornienko</surname><given-names>N.</given-names></name>; <name><surname>Nichols</surname><given-names>E. M.</given-names></name>; <name><surname>Zhao</surname><given-names>Y.</given-names></name>; <name><surname>Paris</surname><given-names>A. R.</given-names></name>; <name><surname>Kim</surname><given-names>D.</given-names></name>; <name><surname>Yang</surname><given-names>P.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>; <name><surname>Chang</surname><given-names>C. J.</given-names></name>
+<article-title>Covalent organic frame- works comprising cobalt porphyrins for catalytic
+CO2 reduction in water</article-title>. <source>Science</source>
+<year>2015</year>, <volume>349</volume>, <fpage>1208</fpage>&#x02013;<lpage>1213</lpage>. <pub-id pub-id-type="doi">10.1126/science.aac8343</pub-id>.<pub-id pub-id-type="pmid">26292706</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Stegbauer</surname><given-names>L.</given-names></name>; <name><surname>Schwinghammer</surname><given-names>K.</given-names></name>; <name><surname>Lotsch</surname><given-names>B. V.</given-names></name>
+<article-title>A hydrazone-based covalent organic framework for photocatalytic hydrogen
+production</article-title>. <source>Chem. Sci.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>2789</fpage>&#x02013;<lpage>2793</lpage>. <pub-id pub-id-type="doi">10.1039/C4SC00016A</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Zhao</surname><given-names>W.</given-names></name>; <name><surname>Xia</surname><given-names>L.</given-names></name>; <name><surname>Liu</surname><given-names>X.</given-names></name>
+<article-title>Covalent organic frameworks (COFs): perspectives of
+indus-trialization</article-title>. <source>CrystEngComm</source>
+<year>2018</year>, <volume>20</volume>, <fpage>1613</fpage>&#x02013;<lpage>1634</lpage>. <pub-id pub-id-type="doi">10.1039/C7CE02079A</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Martin</surname><given-names>R. L.</given-names></name>; <name><surname>Simon</surname><given-names>C. M.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>
+<article-title>In silico design of porous polymer networks: high-throughput screening for
+methane storage materials</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2014</year>, <volume>136</volume>, <fpage>5006</fpage>&#x02013;<lpage>5022</lpage>. <pub-id pub-id-type="doi">10.1021/ja4123939</pub-id>.<pub-id pub-id-type="pmid">24611543</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Martin</surname><given-names>R. L.</given-names></name>; <name><surname>Simon</surname><given-names>C. M.</given-names></name>; <name><surname>Medasani</surname><given-names>B.</given-names></name>; <name><surname>Britt</surname><given-names>D. K.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>
+<article-title>In silico design of three-dimensional porous covalent organic frameworks
+via known synthesis routes and commercially available species</article-title>. <source>J. Phys. Chem. C</source>
+<year>2014</year>, <volume>118</volume>, <fpage>23790</fpage>&#x02013;<lpage>23802</lpage>. <pub-id pub-id-type="doi">10.1021/jp507152j</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Mercado</surname><given-names>R.</given-names></name>; <name><surname>Fu</surname><given-names>R.-S.</given-names></name>; <name><surname>Yakutovich</surname><given-names>A. V.</given-names></name>; <name><surname>Talirz</surname><given-names>L.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>In silico design of 2D and 3D covalent organic frameworks for methane
+storage applications</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>5069</fpage>&#x02013;<lpage>5086</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.8b01425</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Lan</surname><given-names>Y.</given-names></name>; <name><surname>Han</surname><given-names>X.</given-names></name>; <name><surname>Tong</surname><given-names>M.</given-names></name>; <name><surname>Huang</surname><given-names>H.</given-names></name>; <name><surname>Yang</surname><given-names>Q.</given-names></name>; <name><surname>Liu</surname><given-names>D.</given-names></name>; <name><surname>Zhao</surname><given-names>X.</given-names></name>; <name><surname>Zhong</surname><given-names>C.</given-names></name>
+<article-title>Materials genomics methods for high-throughput construction of COFs and
+targeted synthesis</article-title>. <source>Nat. Commun.</source>
+<year>2018</year>, <volume>9</volume>, <fpage>1</fpage>&#x02013;<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1038/s41467-018-07720-x</pub-id>.<pub-id pub-id-type="pmid">29317637</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Chung</surname><given-names>Y. G.</given-names></name>; <name><surname>Camp</surname><given-names>J.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Sikora</surname><given-names>B. J.</given-names></name>; <name><surname>Bury</surname><given-names>W.</given-names></name>; <name><surname>Krungleviciute</surname><given-names>V.</given-names></name>; <name><surname>Yildirim</surname><given-names>T.</given-names></name>; <name><surname>Farha</surname><given-names>O. K.</given-names></name>; <name><surname>Sholl</surname><given-names>D. S.</given-names></name>; <name><surname>Snurr</surname><given-names>R. Q.</given-names></name>
+<article-title>Computation-ready, experimental metal-organic frameworks: a tool to enable
+high-throughput screening of nanoporous crystals</article-title>. <source>Chem. Mater.</source>
+<year>2014</year>, <volume>26</volume>, <fpage>6185</fpage>&#x02013;<lpage>6192</lpage>. <pub-id pub-id-type="doi">10.1021/cm502594j</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Moghadam</surname><given-names>P. Z.</given-names></name>; <name><surname>Li</surname><given-names>A.</given-names></name>; <name><surname>Wiggin</surname><given-names>S. B.</given-names></name>; <name><surname>Tao</surname><given-names>A.</given-names></name>; <name><surname>Maloney</surname><given-names>A. G. P.</given-names></name>; <name><surname>Wood</surname><given-names>P. A.</given-names></name>; <name><surname>Ward</surname><given-names>S. C.</given-names></name>; <name><surname>Fairen-Jimenez</surname><given-names>D.</given-names></name>
+<article-title>Development of a Cambridge structural database sub- set: a collection of
+metal-organic frameworks for past, present, and future</article-title>. <source>Chem. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>2618</fpage>&#x02013;<lpage>2625</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b00441</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Simon</surname><given-names>C. M.</given-names></name>; <name><surname>Kim</surname><given-names>J.</given-names></name>; <name><surname>Gomez-Gualdron</surname><given-names>D. a.</given-names></name>; <name><surname>Camp</surname><given-names>J. S.</given-names></name>; <name><surname>Chung</surname><given-names>Y. G.</given-names></name>; <name><surname>Martin</surname><given-names>R. L.</given-names></name>; <name><surname>Mercado</surname><given-names>R.</given-names></name>; <name><surname>Deem</surname><given-names>M. W.</given-names></name>; <name><surname>Gunter</surname><given-names>D.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Sholl</surname><given-names>D. S.</given-names></name>; <name><surname>Snurr</surname><given-names>R. Q.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>The materials genome in action: identifying the performance limits for
+methane storage</article-title>. <source>Energy Environ. Sci.</source>
+<year>2015</year>, <volume>8</volume>, <fpage>1190</fpage>&#x02013;<lpage>1199</lpage>. <pub-id pub-id-type="doi">10.1039/C4EE03515A</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Tong</surname><given-names>M.</given-names></name>; <name><surname>Lan</surname><given-names>Y.</given-names></name>; <name><surname>Qin</surname><given-names>Z.</given-names></name>; <name><surname>Zhong</surname><given-names>C.</given-names></name>
+<article-title>Computation-ready, experimental covalent organic framework for methane
+delivery: screening and material design</article-title>. <source>J. Phys. Chem. C</source>
+<year>2018</year>, <volume>122</volume>, <fpage>13009</fpage>&#x02013;<lpage>13016</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.8b04742</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Allen</surname><given-names>F. H.</given-names></name>
+<article-title>The Cambridge structural database: a quarter of a million crystal
+structures and rising</article-title>. <source>Acta Crystallogr., Sect. B: Struct. Sci.</source>
+<year>2002</year>, <volume>58</volume>, <fpage>380</fpage>&#x02013;<lpage>388</lpage>. <pub-id pub-id-type="doi">10.1107/S0108768102003890</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="weblink" id="cit19"><article-title>The Cambridge Crystallographic
+Data Centre</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://ccdc.cam.ac.uk/Community/depositastructure/">ccdc.cam.ac.uk/Community/depositastructure/</uri> (accessed April, 2019).</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Ma</surname><given-names>T.</given-names></name>; <name><surname>Kapustin</surname><given-names>E. A.</given-names></name>; <name><surname>Yin</surname><given-names>S. X.</given-names></name>; <name><surname>Liang</surname><given-names>L.</given-names></name>; <name><surname>Zhou</surname><given-names>Z.</given-names></name>; <name><surname>Niu</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>L.-H.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Su</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>W. D.</given-names></name>; <name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>Sun</surname><given-names>J.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>Single-crystal x-ray diffraction structures of covalent organic
+frameworks</article-title>. <source>Science</source>
+<year>2018</year>, <volume>361</volume>, <fpage>48</fpage>&#x02013;<lpage>52</lpage>. <pub-id pub-id-type="doi">10.1126/science.aat7679</pub-id>.<pub-id pub-id-type="pmid">29976818</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Pizzi</surname><given-names>G.</given-names></name>; <name><surname>Cepellotti</surname><given-names>A.</given-names></name>; <name><surname>Sabatini</surname><given-names>R.</given-names></name>; <name><surname>Marzari</surname><given-names>N.</given-names></name>; <name><surname>Kozinsky</surname><given-names>B.</given-names></name>
+<article-title>AiiDA: automated interactive infrastructure and database for computational
+science</article-title>. <source>Comput. Mater. Sci.</source>
+<year>2016</year>, <volume>111</volume>, <fpage>218</fpage>&#x02013;<lpage>230</lpage>. <pub-id pub-id-type="doi">10.1016/j.commatsci.2015.09.013</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="weblink" id="cit22"><article-title>GitHub&#x02014;core-cof/CoRE-COF-Database</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://github.com/core-cof/CoRE-COF-Database">github.com/core-cof/CoRE-COF-Database</uri> (accessed November, 2018).</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Tong</surname><given-names>M.</given-names></name>; <name><surname>Lan</surname><given-names>Y.</given-names></name>; <name><surname>Yang</surname><given-names>Q.</given-names></name>; <name><surname>Zhong</surname><given-names>C.</given-names></name>
+<article-title>Exploring the structure-property relationships of covalent organic
+frameworks for noble gas separations</article-title>. <source>Chem. Eng. Sci.</source>
+<year>2017</year>, <volume>168</volume>, <fpage>456</fpage>&#x02013;<lpage>464</lpage>. <pub-id pub-id-type="doi">10.1016/j.ces.2017.05.004</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Yan</surname><given-names>T.</given-names></name>; <name><surname>Lan</surname><given-names>Y.</given-names></name>; <name><surname>Tong</surname><given-names>M.</given-names></name>; <name><surname>Zhong</surname><given-names>C.</given-names></name>
+<article-title>Screening and design of covalent organic framework membranes for CO2/CH4
+separation</article-title>. <source>ACS Sustainable Chem. Eng.</source>
+<year>2019</year>, <volume>7</volume>, <fpage>1220</fpage><pub-id pub-id-type="doi">10.1021/acssuschemeng.8b04858</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="undeclared" id="cit25"><article-title>danieleongari/CURATED-COFs</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doi.org/10.5281/zenodo.3352138">http://doi.org/10.5281/zenodo.3352138</uri>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Wang</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Ge</surname><given-names>R.</given-names></name>; <name><surname>Song</surname><given-names>X.</given-names></name>; <name><surname>Xing</surname><given-names>X.</given-names></name>; <name><surname>Jiang</surname><given-names>Q.</given-names></name>; <name><surname>Lu</surname><given-names>H.</given-names></name>; <name><surname>Hao</surname><given-names>C.</given-names></name>; <name><surname>Guo</surname><given-names>X.</given-names></name>; <name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Jiang</surname><given-names>D.</given-names></name>
+<article-title>A 3D covalent organic framework with exceptionally high iodine capture
+capability</article-title>. <source>Chem. - Eur. J.</source>
+<year>2018</year>, <volume>24</volume>, <fpage>585</fpage>&#x02013;<lpage>589</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201705405</pub-id>.<pub-id pub-id-type="pmid">29178592</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Guan</surname><given-names>X.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Yusran</surname><given-names>Y.</given-names></name>; <name><surname>Xue</surname><given-names>M.</given-names></name>; <name><surname>Fang</surname><given-names>Q.</given-names></name>; <name><surname>Yan</surname><given-names>Y.</given-names></name>; <name><surname>Valtchev</surname><given-names>V.</given-names></name>; <name><surname>Qiu</surname><given-names>S.</given-names></name>
+<article-title>Fast, ambient temperature and pressure ionothermal synthesis of
+three-dimensional covalent organic frameworks</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2018</year>, <volume>140</volume>, <fpage>4494</fpage>&#x02013;<lpage>4498</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.8b01320</pub-id>.<pub-id pub-id-type="pmid">29553727</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Xu</surname><given-names>S.-q.</given-names></name>; <name><surname>Liang</surname><given-names>R.-r.</given-names></name>; <name><surname>Zhan</surname><given-names>T.-g.</given-names></name>; <name><surname>Qi</surname><given-names>Q.-y.</given-names></name>; <name><surname>Zhao</surname><given-names>X.</given-names></name>
+<article-title>Construction of 2D covalent organic frameworks by taking advantage of the
+variable orientation of imine bonds</article-title>. <source>Chem. Commun.</source>
+<year>2017</year>, <volume>53</volume>, <fpage>2431</fpage>&#x02013;<lpage>2434</lpage>. <pub-id pub-id-type="doi">10.1039/C6CC09906H</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Huck</surname><given-names>J. M.</given-names></name>; <name><surname>Lin</surname><given-names>L.-C.</given-names></name>; <name><surname>Berger</surname><given-names>A. H.</given-names></name>; <name><surname>Shahrak</surname><given-names>M. N.</given-names></name>; <name><surname>Martin</surname><given-names>R. L.</given-names></name>; <name><surname>Bhown</surname><given-names>A. S.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Reuter</surname><given-names>K.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>Evaluating different classes of porous materials for carbon
+capture</article-title>. <source>Energy Environ. Sci.</source>
+<year>2014</year>, <volume>7</volume>, <fpage>4132</fpage>&#x02013;<lpage>4146</lpage>. <pub-id pub-id-type="doi">10.1039/C4EE02636E</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Frenkel</surname><given-names>D.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>Understanding molecular simulation: from algorithms to
+applications</article-title>. <source>Physics Today</source>
+<year>1997</year>, <volume>50</volume>, <fpage>66</fpage><pub-id pub-id-type="doi">10.1063/1.881812</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>C&#x000f4;t&#x000e9;</surname><given-names>A. P.</given-names></name>; <name><surname>El-Kaderi</surname><given-names>H. M.</given-names></name>; <name><surname>Furukawa</surname><given-names>H.</given-names></name>; <name><surname>Hunt</surname><given-names>J. R.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>Reticular synthesis of microporous and mesoporous 2D covalent organic
+frameworks</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2007</year>, <volume>129</volume>, <fpage>12914</fpage>&#x02013;<lpage>12915</lpage>. <pub-id pub-id-type="doi">10.1021/ja0751781</pub-id>.<pub-id pub-id-type="pmid">17918943</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Lukose</surname><given-names>B.</given-names></name>; <name><surname>Kuc</surname><given-names>A.</given-names></name>; <name><surname>Heine</surname><given-names>T.</given-names></name>
+<article-title>The structure of layered covalent-organic frameworks</article-title>. <source>Chem. - Eur. J.</source>
+<year>2011</year>, <volume>17</volume>, <fpage>2388</fpage>&#x02013;<lpage>2392</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201001290</pub-id>.<pub-id pub-id-type="pmid">21259346</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Nazarian</surname><given-names>D.</given-names></name>; <name><surname>Camp</surname><given-names>J. S.</given-names></name>; <name><surname>Chung</surname><given-names>Y. G.</given-names></name>; <name><surname>Snurr</surname><given-names>R. Q.</given-names></name>; <name><surname>Sholl</surname><given-names>D. S.</given-names></name>
+<article-title>Large-scale refinement of metal-organic framework structures using density
+Functional Theory</article-title>. <source>Chem. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>2521</fpage>&#x02013;<lpage>2528</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.6b04226</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Ongari</surname><given-names>D.</given-names></name>; <name><surname>Boyd</surname><given-names>P. G.</given-names></name>; <name><surname>Barthel</surname><given-names>S.</given-names></name>; <name><surname>Witman</surname><given-names>M.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>Accurate characterization of the pore volume in microporous crystalline
+materials</article-title>. <source>Langmuir</source>
+<year>2017</year>, <volume>33</volume>, <fpage>14529</fpage>&#x02013;<lpage>14538</lpage>. <pub-id pub-id-type="doi">10.1021/acs.langmuir.7b01682</pub-id>.<pub-id pub-id-type="pmid">28636815</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Lin</surname><given-names>L.-C.</given-names></name>; <name><surname>Berger</surname><given-names>A. H.</given-names></name>; <name><surname>Martin</surname><given-names>R. L.</given-names></name>; <name><surname>Kim</surname><given-names>J.</given-names></name>; <name><surname>Swisher</surname><given-names>J. a.</given-names></name>; <name><surname>Jariwala</surname><given-names>K.</given-names></name>; <name><surname>Rycroft</surname><given-names>C. H.</given-names></name>; <name><surname>Bhown</surname><given-names>A. S.</given-names></name>; <name><surname>Deem</surname><given-names>M. W.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>In silico screening of carbon-capture materials</article-title>. <source>Nat. Mater.</source>
+<year>2012</year>, <volume>11</volume>, <fpage>633</fpage>&#x02013;<lpage>641</lpage>. <pub-id pub-id-type="doi">10.1038/nmat3336</pub-id>.<pub-id pub-id-type="pmid">22635045</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Furukawa</surname><given-names>H.</given-names></name>; <name><surname>Yaghi</surname><given-names>O. M.</given-names></name>
+<article-title>Storage of hydrogen, methane, and carbon dioxide in highly porous covalent
+organic frameworks for clean energy applications</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2009</year>, <volume>131</volume>, <fpage>8875</fpage>&#x02013;<lpage>8883</lpage>. <pub-id pub-id-type="doi">10.1021/ja9015765</pub-id>.<pub-id pub-id-type="pmid">19496589</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Lu</surname><given-names>Q.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Guan</surname><given-names>X.</given-names></name>; <name><surname>Yusran</surname><given-names>Y.</given-names></name>; <name><surname>Xue</surname><given-names>M.</given-names></name>; <name><surname>Fang</surname><given-names>Q.</given-names></name>; <name><surname>Yan</surname><given-names>Y.</given-names></name>; <name><surname>Qiu</surname><given-names>S.</given-names></name>; <name><surname>Valtchev</surname><given-names>V.</given-names></name>
+<article-title>Postsynthetic functionalization of three-dimensional covalent organic
+frameworks for selective extraction of lanthanide ions</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>6042</fpage>&#x02013;<lpage>6048</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201712246</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Beaudoin</surname><given-names>D.</given-names></name>; <name><surname>Maris</surname><given-names>T.</given-names></name>; <name><surname>Wuest</surname><given-names>J. D.</given-names></name>
+<article-title>Constructing monocrystalline covalent organic networks by
+polymerization</article-title>. <source>Nat. Chem.</source>
+<year>2013</year>, <volume>5</volume>, <fpage>830</fpage>&#x02013;<lpage>834</lpage>. <pub-id pub-id-type="doi">10.1038/nchem.1730</pub-id>.<pub-id pub-id-type="pmid">24056338</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized gradient approximation made simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevLett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Grimme</surname><given-names>S.</given-names></name>; <name><surname>Ehrlich</surname><given-names>S.</given-names></name>; <name><surname>Goerigk</surname><given-names>L.</given-names></name>
+<article-title>Effect of the damping function in dispersion corrected density functional
+theory</article-title>. <source>J. Comput. Chem.</source>
+<year>2011</year>, <volume>32</volume>, <fpage>1456</fpage>&#x02013;<lpage>1465</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.21759</pub-id>.<pub-id pub-id-type="pmid">21370243</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>VandeVondele</surname><given-names>J.</given-names></name>; <name><surname>Krack</surname><given-names>M.</given-names></name>; <name><surname>Mohamed</surname><given-names>F.</given-names></name>; <name><surname>Parrinello</surname><given-names>M.</given-names></name>; <name><surname>Chassaing</surname><given-names>T.</given-names></name>; <name><surname>Hutter</surname><given-names>J.</given-names></name>
+<article-title>Quickstep: fast and accurate density functional calculations using a mixed
+Gaussian and plane waves approach</article-title>. <source>Comput. Phys. Commun.</source>
+<year>2005</year>, <volume>167</volume>, <fpage>103</fpage>&#x02013;<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1016/j.cpc.2004.12.014</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Goedecker</surname><given-names>S.</given-names></name>; <name><surname>Teter</surname><given-names>M.</given-names></name>
+<article-title>Separable dual-space Gaussian pseudopotentials</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1996</year>, <volume>54</volume>, <fpage>1703</fpage>&#x02013;<lpage>1710</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.54.1703</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="weblink" id="cit43"><article-title>CP2K user
+manual</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://manual.cp2k.org/cp2k-5_1-branch/CP2K_INPUT/MOTION/MD.html">manual.cp2k.org/cp2k-5_1-branch/CP2K_INPUT/MOTION/MD.html</uri> (accessed April,
+2019).</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Bussi</surname><given-names>G.</given-names></name>; <name><surname>Donadio</surname><given-names>D.</given-names></name>; <name><surname>Parrinello</surname><given-names>M.</given-names></name>
+<article-title>Canonical sampling through velocity rescaling</article-title>. <source>J. Chem. Phys.</source>
+<year>2007</year>, <volume>126</volume>, <elocation-id>014101</elocation-id><pub-id pub-id-type="doi">10.1063/1.2408420</pub-id>.<pub-id pub-id-type="pmid">17212484</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Martyna</surname><given-names>G. J.</given-names></name>; <name><surname>Tobias</surname><given-names>D. J.</given-names></name>; <name><surname>Klein</surname><given-names>M. L.</given-names></name>
+<article-title>Constant-pressure molecular-dynamics algorithms</article-title>. <source>J. Chem. Phys.</source>
+<year>1994</year>, <volume>101</volume>, <fpage>4177</fpage>&#x02013;<lpage>4189</lpage>. <pub-id pub-id-type="doi">10.1063/1.467468</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Kolafa</surname><given-names>J.</given-names></name>
+<article-title>Time-reversible always stable predictor-corrector method for molecular
+dynamics of polarizable molecules</article-title>. <source>J. Comput. Chem.</source>
+<year>2004</year>, <volume>25</volume>, <fpage>335</fpage>&#x02013;<lpage>342</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.10385</pub-id>.<pub-id pub-id-type="pmid">14696069</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Manz</surname><given-names>T. A.</given-names></name>; <name><surname>Sholl</surname><given-names>D. S.</given-names></name>
+<article-title>Chemically meaningful atomic charges that reproduce the electrostatic
+potential in periodic and nonperiodic materials</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2010</year>, <volume>6</volume>, <fpage>2455</fpage>&#x02013;<lpage>2468</lpage>. <pub-id pub-id-type="doi">10.1021/ct100125x</pub-id>.<pub-id pub-id-type="pmid">26613499</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="weblink" id="cit48"><article-title>chargemol, release
+09_26_2017</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://sourceforge.net/projects/ddec/">sourceforge.net/projects/ddec/</uri> (accessed August, 2018).</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Manz</surname><given-names>T. A.</given-names></name>; <name><surname>Limas</surname><given-names>N. G.</given-names></name>
+<article-title>Introducing DDEC6 atomic population analysis: part 1. charge partitioning
+theory and methodology</article-title>. <source>RSC Adv.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>47771</fpage>&#x02013;<lpage>47801</lpage>. <pub-id pub-id-type="doi">10.1039/C6RA04656H</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Rappe</surname><given-names>A. K.</given-names></name>; <name><surname>Goddard</surname><given-names>W. A.</given-names></name>
+<article-title>Charge equilibration for molecular dynamics simulations</article-title>. <source>J. Phys. Chem.</source>
+<year>1991</year>, <volume>95</volume>, <fpage>3358</fpage>&#x02013;<lpage>3363</lpage>. <pub-id pub-id-type="doi">10.1021/j100161a070</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Ongari</surname><given-names>D.</given-names></name>; <name><surname>Boyd</surname><given-names>P. G.</given-names></name>; <name><surname>Kadioglu</surname><given-names>O.</given-names></name>; <name><surname>Mace</surname><given-names>A. K.</given-names></name>; <name><surname>Keskin</surname><given-names>S.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>Evaluating charge equilibration methods to generate electrostatic fields in
+nanoporous materials</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2019</year>, <volume>15</volume>, <fpage>382</fpage>&#x02013;<lpage>401</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.8b00669</pub-id>.<pub-id pub-id-type="pmid">30419163</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="undeclared" id="cit52"><article-title>danieleongari/egulp</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doi.org/10.5281/zenodo.3352156">http://doi.org/10.5281/zenodo.3352156</uri>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Willems</surname><given-names>T. F.</given-names></name>; <name><surname>Rycroft</surname><given-names>C. H.</given-names></name>; <name><surname>Kazi</surname><given-names>M.</given-names></name>; <name><surname>Meza</surname><given-names>J. C.</given-names></name>; <name><surname>Haranczyk</surname><given-names>M.</given-names></name>
+<article-title>Algorithms and tools for high-throughput geometry-based analysis of
+crystalline porous materials</article-title>. <source>Microporous Mesoporous Mater.</source>
+<year>2012</year>, <volume>149</volume>, <fpage>134</fpage>&#x02013;<lpage>141</lpage>. <pub-id pub-id-type="doi">10.1016/j.micromeso.2011.08.020</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Haranczyk</surname><given-names>M.</given-names></name>; <name><surname>Sethian</surname><given-names>J. A.</given-names></name>
+<article-title>Automatic structure analysis in high-throughput characterization of porous
+materials</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2010</year>, <volume>6</volume>, <fpage>3472</fpage>&#x02013;<lpage>3480</lpage>. <pub-id pub-id-type="doi">10.1021/ct100433z</pub-id>.<pub-id pub-id-type="pmid">26617098</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Dubbeldam</surname><given-names>D.</given-names></name>; <name><surname>Calero</surname><given-names>S.</given-names></name>; <name><surname>Ellis</surname><given-names>D. E.</given-names></name>; <name><surname>Snurr</surname><given-names>R. Q.</given-names></name>
+<article-title>RASPA: molecular simulation software for adsorption and diffusion in
+flexible nanoporous materials</article-title>. <source>Mol. Simul.</source>
+<year>2016</year>, <volume>42</volume>, <fpage>81</fpage>&#x02013;<lpage>101</lpage>. <pub-id pub-id-type="doi">10.1080/08927022.2015.1010082</pub-id>.</mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Potoff</surname><given-names>J. J.</given-names></name>; <name><surname>Siepmann</surname><given-names>J. I.</given-names></name>
+<article-title>Vapor-liquid equilibria of mixtures containing alkanes, carbon dioxide, and
+nitrogen</article-title>. <source>AIChE J.</source>
+<year>2001</year>, <volume>47</volume>, <fpage>1676</fpage>&#x02013;<lpage>1682</lpage>. <pub-id pub-id-type="doi">10.1002/aic.690470719</pub-id>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Rappe</surname><given-names>A. K.</given-names></name>; <name><surname>Casewit</surname><given-names>C. J.</given-names></name>; <name><surname>Colwell</surname><given-names>K. S.</given-names></name>; <name><surname>Goddard</surname><given-names>W. a.</given-names></name>; <name><surname>Skiff</surname><given-names>W. M.</given-names></name>
+<article-title>UFF, a full periodic table force field for molecular mechanics and
+molecular dynamics simulations</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>1992</year>, <volume>114</volume>, <fpage>10024</fpage>&#x02013;<lpage>10035</lpage>. <pub-id pub-id-type="doi">10.1021/ja00051a040</pub-id>.</mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Dubbeldam</surname><given-names>D.</given-names></name>; <name><surname>Torres-Knoop</surname><given-names>A.</given-names></name>; <name><surname>Walton</surname><given-names>K. S.</given-names></name>
+<article-title>On the inner workings of monte carlo codes</article-title>. <source>Mol. Simul.</source>
+<year>2013</year>, <volume>39</volume>, <fpage>1253</fpage>&#x02013;<lpage>1292</lpage>. <pub-id pub-id-type="doi">10.1080/08927022.2013.819102</pub-id>.</mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="weblink" id="cit59"><article-title>danieleongari/calc_pe</article-title>. <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://doi.org/10.5281/zenodo.3352154">http://doi.org/10.5281/zenodo.3352154</uri>.</mixed-citation></ref></ref-list></back></article>

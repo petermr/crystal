@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As shown in 
+ <bold>Figure</bold>
+ <xref rid="advs1381-fig-0003" ref-type="fig">
+  <bold>3</bold>
+ </xref>, the working principle of the wind‐driven TIEL involves the coupling of contact electrification and EL. Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>a illustrates the process of electricity generation via the TIEL material in a working cycle, including four typical states. For the simplification of demonstration, the ZnS:Cu+PDMS film can be regarded as a flat surface with a vertical motion, while the TPU films are relatively static. At the original position I, the difference between the triboelectric polarizations of PDMS and TPU leads to the generation of opposite charges on their surfaces when the two TPU films and the ZnS:Cu+PDMS film fully contact with each other, followed by the balance of the charges. Under the vibration effect caused by wind flutter, the ZnS:Cu+PDMS film bends up and down, which dynamically changes the electric potential. The potential reaches the maximum value at the largest displacement point (states II and IV) and rapidly drops back to the minimum value in the balance position (states I and III). Thus, a series of voltages can be generated on the surface of the ZnS:Cu+PDMS film which excites TIEL. The oscillatory behaviors of the ZnS:Cu+PDMS film at wind speed of 10 m s
+ <sup>−1</sup> were captured by a high‐speed camera as shown in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>b (the overall procedure refers to Movie S1, Supporting Information). The frequency of the oscillation is examined to be 16 Hz without adhesion in the oscillation, suggesting that ZnS:Cu+PDMS film displays excellent mechanical behavior. ANSYS software was used to simulate the natural frequencies and modes of the first four order vibration modes. As shown in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>c, the first‐order mode bends at the frequency of 51, which is consistent with the actual vibrations of the ZnS:Cu+PDMS film. To examine the effect of wind flutter vibration, we qualitatively predicted the interaction between wind and the ZnS:Cu+PDMS film under the first‐order mode by COMSOL software. In the simulation, the inlet wind speed was set as 5, 10, and 15 m s
+ <sup>−1</sup>, respectively, with zero pressure at the outlet. The density 
+ <italic>F</italic> and the dynamic viscosity η of the airflow were set as 1.225 kg m
+ <sup>−3</sup> and 1.983 × 10
+ <sup>5</sup> Pa, respectively. The density 
+ <italic>F</italic> of the ZnS:Cu+PDMS film was set at 1420 kg m
+ <sup>−3</sup> with Young's modulus 
+ <italic>E</italic> of 2 M Pa and a Poisson's ratio ν of 0.49.
+ <xref rid="advs1381-bib-0028" ref-type="ref">28</xref> The model was composed of two parts, including a fluid part (incompressible flow and Newtonian) computed by the Navier–Stokes equations in the flow channel and a solid mechanical part (compressible and elastic). Moreover, an elastic formulation and a linear geometry formulation were used to solve the deformation of the ZnS:Cu film to allow for large deformation. In the solid mechanical part, one edge of the film was set in the middle of the fluid channel wall, which is vertical to the fluid flow streamline. The flowing fluid is borne by all the boundaries of the belt structure. Meanwhile, there was no pressure at the outlet and the rest four surfaces of the fluid channel were set as nonslip, indicating that the surfaces work as walls to restrain the flow. As shown in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>d, the deformation of the ZnS:Cu+PDMS film was simulated under three wind speeds at the inlet, which suggests that the film functions majorly in a bent mode. Consistent with other reports,
+ <xref rid="advs1381-bib-0029" ref-type="ref">29</xref> the degrees of film deformation are similar to each other as the wind speed increases over 10 m s
+ <sup>−1</sup>, indicating that the ZnS:Cu+PDMS film is stable when wind speed at the inlet reaches a certain value. In addition, under different wind speeds, various deformations result in the changes of electric potentials by wind‐induced vibration effect. COMSOL was then utilized to simulate the distributions of electric potential of the two TPU films and the ZnS:Cu+PDMS film at the wind speed of 0, 5, 10, and 15 m s
+ <sup>−1</sup>, respectively, without external electron flow (an ideal condition). In the process of triboelectrification, TPU is positively charged while PDMS is negatively charged. In order to validate the proposed simulation, the charge density σ on the surface of TPU was set at 100 µC m
+ <sup>−2</sup>, which was measured by an electrostatic voltmeter (model 279, Monroe Electrostatics). The lateral distribution of electric potential is illustrated in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>e. The electric potential and electric field within the luminescent layer are respectively depicted in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>f,g. These results indicate that the electric potential and electric field of ZnS:Cu+PDMS film increase with the displacement, followed by the tendency to maintain stable, which is consistent with the actual deformations as shown in Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>d. These results suggest that the displacement determines the effective contact area between the TPU and ZnS:Cu+PDMS surfaces. Meanwhile, the distributions of electric potential between the TPU films and ZnS:Cu+PDMS film are also simulated within a full contact‐separation cycle in the four states at wind speed of 10 m s
+ <sup>−1</sup> (Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>h). Figure 
+ <xref rid="advs1381-fig-0003" ref-type="fig">3</xref>i shows the recorded potentials with dashed lines indicating the potential difference of repeat changes. It is noteworthy that the potential reaches the maximum value when the displacement reaches the upper limit, while the potential drops to the minimum value at the balance position. Consequently, this ac‐like dynamic variation (Δ
+ <italic>V</italic> = 567 V) excites the luminescence of the phosphors, which further induces the wind‐driven TIEL.
+</p>

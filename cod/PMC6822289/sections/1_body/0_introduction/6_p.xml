@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>It is interesting to note that only a very small fraction of these COFs have been reported in the popular Cambridge Structural Database
+ <sup>
+  <xref ref-type="bibr" rid="ref18">18</xref>
+ </sup> (CSD). To be accepted into the CSD, a structure has to be determined directly 
+ <italic>from X-ray and neutron diffraction studies, and from powder studies using a constrained refinement</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="ref19">19</xref>
+ </sup> This is the case of the recently synthesized single crystal COF-300, COF-303, LZU-79, and LZU-111.
+ <sup>
+  <xref ref-type="bibr" rid="ref20">20</xref>
+ </sup> In most of the cases though, the poor long-range crystallinity makes it impossible to resolve the structure directly. The fact that from an experimental point of view it is difficult to obtain sufficiently reliable crystal structures requires experimental groups to increasingly rely on computational techniques to make a model of the material. These proposed structures are subsequently validated by comparison with experimental properties, such as NMR and/or the “DFT pore-size distribution” fitted from gas isotherms.
+ <sup>
+  <xref ref-type="bibr" rid="ref2">2</xref>
+ </sup> Part of this work was motivated by the notion that, for these types of computational structure creations from scratch, there are no standards available. Depending on the methodology, it is easy to optimize toward different metastable states; different approaches may use different bond lengths, different positions of hydrogen atoms, etc. In addition, these computations often involve geometry optimizations which are performed with very different procedures (e.g., using different 
+ <italic>ab initio</italic> density functional theory methods or empirical force fields) that are often poorly documented. A direct use of these structures for molecular simulations therefore becomes a source of artifacts; these seemingly small differences in the way a structure is determined can lead to significant differences in the prediction of, for example, the thermodynamic properties of these materials.
+</p>

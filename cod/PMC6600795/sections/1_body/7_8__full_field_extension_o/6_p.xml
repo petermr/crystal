@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The concept of directional derivatives is used in this approach to the interpretation of patterns. The patterns of 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>a through 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>c are obtained from the FFT shown in 
+ <xref ref-type="fig" rid="materials-12-01804-f006">Figure 6</xref>a. 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>a corresponds to the direction 
+ <bold>e</bold>
+ <sub>1</sub>, 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>b corresponds to the direction 
+ <bold>e</bold>
+ <sub>2</sub> and 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>c to the direction 
+ <bold>e</bold>
+ <sub>3</sub>. The fringes of the direction 
+ <bold>e</bold>
+ <sub>1</sub> do not contain a singularity, it is necessary to remember that the dislocations in fringe patterns do not necessarily overlap with a physical dislocation. The directions 
+ <bold>e</bold>
+ <sub>2</sub> and 
+ <bold>e</bold>
+ <sub>3</sub> show fringe dislocations that overlap with the physical dislocation. The pattern of 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>b displays the dislocation in coincidence with the direction of the physical dislocation. The fringes display displacements that are orthogonal to their directions and the directional derivatives display the rate of change of the displacements providing information on the deformation taking place in the corresponding directions. We are dealing with carrier fringes that correspond to the atomic arrangement, in this case, the pitch in the outlined directions is the distance 
+ <bold>a</bold> = 3.073 Å. To obtain the phases corresponding to the displacements from the phases displayed in 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>, it is necessary to subtract the phase of the undeformed carrier. Finally, through the differentiation of the patterns, one obtains the derivatives in the corresponding directions. Since we are dealing with a Eulerian representation and the local rotations are negligible, the directional derivatives provide the Eulerian strains, 
+ <disp-formula id="FD14-materials-12-01804">
+  <label>(14)</label>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="bold-italic">ε</mi>
+      <mn>1</mn>
+      <mi mathvariant="normal">E</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">u</mi>
+        <mrow>
+         <mi>e</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">e</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD15-materials-12-01804">
+  <label>(15)</label>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="bold-italic">ε</mi>
+      <mn>2</mn>
+      <mi mathvariant="normal">E</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">u</mi>
+        <mrow>
+         <mi>e</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">e</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD16-materials-12-01804">
+  <label>(16)</label>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="bold-italic">ε</mi>
+      <mn>3</mn>
+      <mi mathvariant="normal">E</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">u</mi>
+        <mrow>
+         <mi>e</mi>
+         <mn>3</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="normal">e</mi>
+        <mn>3</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

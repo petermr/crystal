@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The angular gain of DRG is defined as 
+ <disp-formula id="FD76-micromachines-10-00181">
+  <label>(75)</label>
+  <math id="mm82">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mi>g</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mi>γ</mi>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>M</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>π</mi>
+       <mstyle displaystyle="true">
+        <munderover>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mi>n</mi>
+        </munderover>
+        <mrow>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>3</mn>
+          </munderover>
+          <mrow>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <msup>
+              <mrow>
+               <mo stretchy="false">(</mo>
+               <mo>−</mo>
+               <mn>1</mn>
+               <mo stretchy="false">)</mo>
+              </mrow>
+              <mrow>
+               <mi>j</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+              </mrow>
+             </msup>
+             <mo stretchy="false">(</mo>
+             <mn>4</mn>
+             <mi>j</mi>
+             <mo>−</mo>
+             <mn>2</mn>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+           <msubsup>
+            <mi>p</mi>
+            <mrow>
+             <mi>i</mi>
+             <mi>j</mi>
+            </mrow>
+            <mn>2</mn>
+           </msubsup>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mrow>
+       <mstyle displaystyle="true">
+        <munderover>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mi>n</mi>
+        </munderover>
+        <mrow>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>3</mn>
+          </munderover>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <msup>
+            <mi>j</mi>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <mn>1</mn>
+           <mo stretchy="false">)</mo>
+           <msubsup>
+            <mi>p</mi>
+            <mrow>
+             <mi>i</mi>
+             <mi>j</mi>
+            </mrow>
+            <mn>2</mn>
+           </msubsup>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

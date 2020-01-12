@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Inspired by the idea of the bifurcation diagram but adopting an algorithmic approach, we analyzed the BCA covalent bonding pattern under ambient and high pressure using a connected component search algorithm
+ <sup>
+  <xref ref-type="bibr" rid="ref48">48</xref>
+ </sup> (see 
+ <xref rid="fig3" ref-type="fig">Figure 
+  <xref rid="fig3" ref-type="fig">3</xref>
+ </xref>). The algorithm performs a topological analysis of the DORI function based on 3-manifold decomposition theory and identifies its critical points (e.g., maxima and saddle point; see the details in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>). A similar algorithm has recently been applied to study methane diffusion in nanoporous materials from a potential energy field.
+ <sup>
+  <xref ref-type="bibr" rid="ref48">48</xref>
+ </sup> In short, while decreasing the DORI values, the connected component search algorithm lists the coordinates of the grid points belonging to the growing DORI [
+ <italic>f</italic>] domains and detects the merging points (i.e., both their DORI values and their coordinates) between any pair of different basins.
+</p>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Let us consider an X-ray diffraction experiment in transmission geometry as shown in 
+ <xref ref-type="fig" rid="materials-12-03464-f004">Figure 4</xref>. To describe the angular anisotropy of the diffraction pattern one can consider the angular Fourier series of the scattered intensity 
+ <inline-formula>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in Equation (7):
+ <disp-formula id="FD7-materials-12-03464">
+  <label>(7)</label>
+  <math id="mm85">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>n</mi>
+       <mo>=</mo>
+       <mo>−</mo>
+       <mo>∞</mo>
+      </mrow>
+      <mo>∞</mo>
+     </munderover>
+     <msub>
+      <mi>I</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>φ</mi>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the 
+ <italic>n</italic>-th Fourier component is Equation (8):
+ <disp-formula id="FD8-materials-12-03464">
+  <label>(8)</label>
+  <math id="mm86">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+      </mrow>
+     </mfrac>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∫</mo>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mi>π</mi>
+      </mrow>
+      <mi>π</mi>
+     </munderover>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>φ</mi>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi>φ</mi>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

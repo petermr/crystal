@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To highlight the importance of high-quality input structures (i.e., DFT-optimized and with DDEC charges) for the evaluation of CO
+ <sub>2</sub> adsorption, we computed also the empirical Qeq charges for the nonoptimized structures: this is a cheaper protocol that is usually exploited for high-throughput screenings. In 
+ <xref rid="fig9" ref-type="fig">Figure 
+  <xref rid="fig9" ref-type="fig">9</xref>
+ </xref>, we compare the CO
+ <sub>2</sub> Henry coefficient and adsorption energy at infinite dilution (i.e., computed from the Widom insertion method) for the two protocols, where the absolute change in the void fraction is shown by the color of the markers. It is striking to see the impact of both the optimization and the use of accurate partial charges. One can observe at best a weak correlation between the two protocols. The implication of these results is that using the COF-structures as reported combined with a simple charge assignment scheme will potentially result in many false positives and neglecting good-performing materials. This observation is one of the main motivations of this work and illustrates the need to extend our CURATED approach to other databases. More details of the contributions that charges and geometry have to the CO
+ <sub>2</sub> interactions are included in the 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acscentsci.9b00619/suppl_file/oc9b00619_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Supporting Information</ext-link>.
+</p>

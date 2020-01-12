@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">Notwithstanding that for low values of 
+ <italic>U</italic>
+ <sub>0</sub> the active force does not change the static macroscopic properties of the pattern, i.e. the hexagonal cluster arrangement, strong differences appear at the dynamical level. While clusters occupy stable equilibrium positions in the passive case (
+ <italic>U</italic>
+ <sub>0</sub> = 0), without displaying any macroscopic motion, this situation changes in the active case (
+ <italic>U</italic>
+ <sub>0</sub> &gt; 0). The active forces produce a macroscopic coherent motion of the pattern, which maintains the hexagonal cluster-crystal phase. Clusters, stuck in the hexagonal pattern, drift persistently before changing direction after a time which grows as 1/
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub>. In movie 
+ <xref rid="MOESM1" ref-type="media">1</xref> of the Supplementary Information, we compare the time evolution of systems with 
+ <italic>N</italic> = 2 × 10
+ <sup>3</sup> particles for ABP and AOUP. Despite the total active force acting on each cluster is directed randomly in space (green arrows in movie 
+ <xref rid="MOESM1" ref-type="media">1</xref>), clusters move coherently in one direction maintaining the hexagonal arrangement. This global drift follows the average active force of the whole system (black arrow in movie 
+ <xref rid="MOESM1" ref-type="media">1</xref>). The decreasing of 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> enlarges the persistence of the pattern dynamics, for both cases, without producing any significant change on the particles configurations. Traveling crystals
+ <sup>
+  <xref ref-type="bibr" rid="CR73">73</xref>
+ </sup> occur also for highly packed suspensions of self-propelled particles interacting by hard-core potentials, i.e. interactions diverging at 
+ <italic>r</italic> = 0 in such a way that a finite size is attributed to the particles. Experimental evidence of this effect has been recently studied by means of a suspension of micro-disks subjected to vertical vibrations
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup>. The use of density functional theory predicts such a phenomenology and, in particular, the transition to rhombic, quadratic, and lamellar patterns as the active force is increased
+ <sup>
+  <xref ref-type="bibr" rid="CR73">73</xref>,
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup>. Such transitions do not occur in our system, where the only stable pattern is the hexagonal one. This statement is confirmed by movie 
+ <xref rid="MOESM1" ref-type="media">1</xref> in Supplementary Information and by the study of the pair correlation, 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$g(r)=\sum _{i\ne 0}\,\delta (x-{x}_{i}){L}^{2}/N$$\end{document}</tex-math>
+   <math id="M16">
+    <mi>g</mi>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <munder>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>≠</mo>
+      <mn>0</mn>
+     </mrow>
+    </munder>
+    <mspace width=".25em"/>
+    <mi>δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>x</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>L</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>/</mo>
+    <mi>N</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where a target particle is at the origin, the sum runs over the other particles, and the brackets indicate a circular average over positions 
+ <bold>x</bold> with the same modulus |
+ <bold>x</bold>| = 
+ <italic>r</italic>. In Fig. 
+ <xref rid="Fig2" ref-type="fig">2d</xref>), we compare the 
+ <italic>g</italic>(
+ <italic>r</italic>) for several values of the active force both for ABP and AOUP dynamics, revealing the occurrence of the typical peaks of a hexagonal pattern, indicating the presence of first, second, third, etc. neighbors at distances 1, 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{3}$$\end{document}</tex-math>
+   <math id="M18">
+    <msqrt>
+     <mn>3</mn>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 2, 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{7}$$\end{document}</tex-math>
+   <math id="M20">
+    <msqrt>
+     <mn>7</mn>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, ... times the basic periodicity of the pattern. This periodicity does not change with 
+ <italic>U</italic>
+ <sub>0</sub> and remains at the value determined by this potential in the passive case
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>, namely 1.4
+ <italic>R</italic> ≈ 0.14. The increasing of 
+ <italic>U</italic>
+ <sub>0</sub> leads to wider and lower peaks towards the occurrence of the liquid shape of the 
+ <italic>g</italic>(
+ <italic>r</italic>). The presence of the initial peak near 
+ <italic>r</italic> ~ 0 is due to the 
+ <italic>N</italic>
+ <sub>
+  <italic>c</italic>
+ </sub> particles belonging to each cluster. We remark that the 
+ <italic>g</italic>(
+ <italic>r</italic>) remains essentially unchanged when computed at different times during the motion (this is not shown in the figure).
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par56">Figure 
+ <xref rid="Fig15" ref-type="fig">15</xref> summarizes the time and memory consumption versus the size of the system matrix. The measurements have been done for the two models for different algorithms, forward and backward projection as well as OESM reconstruction. The memory usage of the three processes does not vary so much for each model. However, the block model consumes much more comparing to the cylindrical one especially by increasing the size of the system matrix. For the OSEM algorithm with six subsets and 12 subiterations, the memory usage reaches 4.5 GB for the block model comparing to 0.25 GB for the cylindrical model. The increase of time is less significant than the memory consumption for the block mode comparing to the cylindrical model. For the largest system matrix, the OSEM algorithm lasts about 65 min for the block model while it is about 28 min for the cylindrical model.
+</p>

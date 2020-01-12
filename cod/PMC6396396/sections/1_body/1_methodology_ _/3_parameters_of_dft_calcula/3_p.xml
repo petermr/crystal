@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Hay 
+ <italic>et al.</italic> (2015
+ <xref ref-type="bibr" rid="bb32"> ▸</xref>) underlined the importance of dispersion correction for DFT calculations on SiO
+ <sub>2</sub> polymorphs for the correct relative stability because calculations without dispersion correction indicated that cristobalite was more stable than quartz in contrast to experimental observations. Demichelis 
+ <italic>et al.</italic> (2010
+ <xref ref-type="bibr" rid="bb21"> ▸</xref>) reported that the relative stability of the Al
+ <sub>2</sub>SiO
+ <sub>5</sub> polymorphs is correctly calculated with the PBEsol functional but not with PBE. Initially, our calculations were based on the PBE functional without dispersion correction. Test calculations on mullite have shown that the relative stability of different Al/Si distributions is not affected by the choice of functional. We thus decided to use the PBE functional for the qualitative determination of the most stable Al/Si ordering pattern (Section 3
+ <xref ref-type="sec" rid="sec3"/>). For these calculations the standard grid for the fast Fourier transform (FFT), a convergence criterion for the forces of 0.02 eV Å
+ <sup>−1</sup> and a spacing between 
+ <italic>k</italic> points of less than 0.017 Å
+ <sup>−1</sup> was used. More precise calculations with dispersion correction were carried out for the most stable superstructures and for the quantitative comparison with experimental results (Section 4
+ <xref ref-type="sec" rid="sec4"/>). For those calculations a denser FFT grid was chosen, the convergence criterion for the forces was reduced to 0.01 eV Å
+ <sup>−1</sup> and the 
+ <italic>k</italic>-point spacing was less than 0.014 Å
+ <sup>−1</sup>. For benchmark and comparison purposes the different functionals were used for DFT calculations of the experimentally well-defined structures of α-quartz (α-SiO
+ <sub>2</sub>, Table 2
+ <xref ref-type="table" rid="table2"> ▸</xref>), corundum (α-Al
+ <sub>2</sub>O
+ <sub>3</sub>, Table 3
+ <xref ref-type="table" rid="table3"> ▸</xref>) and the three Al
+ <sub>2</sub>SiO
+ <sub>5</sub> polymorphs sillimanite, andalusite and kyanite (Tables S1, S2 and S3 in the supporting information).
+</p>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Ignore the signal envelope and the received signal at receiver 
+ <italic>i</italic> (
+ <italic>i</italic> = A, B, C) from P is: 
+ <disp-formula id="FD3-sensors-19-02330">
+  <label>(3)</label>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd columnalign="left">
+        <msub>
+         <mi>s</mi>
+         <mi>i</mi>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>t</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>,</mo>
+          <msub>
+           <mi>t</mi>
+           <mi>m</mi>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <msub>
+         <mi>σ</mi>
+         <mi>P</mi>
+        </msub>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>p</mi>
+        <mo stretchy="false">{</mo>
+        <mi>j</mi>
+        <mn>2</mn>
+        <mi>π</mi>
+        <mo stretchy="false">[</mo>
+        <msub>
+         <mi>f</mi>
+         <mi>c</mi>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>−</mo>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>R</mi>
+             <mrow>
+              <mi>T</mi>
+              <mi>P</mi>
+             </mrow>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mrow>
+              <mover accent="true">
+               <mi>t</mi>
+               <mo stretchy="false">^</mo>
+              </mover>
+              <mo>,</mo>
+              <msub>
+               <mi>t</mi>
+               <mi>m</mi>
+              </msub>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>+</mo>
+            <msub>
+             <mi>R</mi>
+             <mrow>
+              <mi>i</mi>
+              <mi>P</mi>
+             </mrow>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mrow>
+              <mover accent="true">
+               <mi>t</mi>
+               <mo stretchy="false">^</mo>
+              </mover>
+              <mo>,</mo>
+              <msub>
+               <mi>t</mi>
+               <mi>m</mi>
+              </msub>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mi>c</mi>
+          </mfrac>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mfrac>
+         <mn>1</mn>
+         <mn>2</mn>
+        </mfrac>
+        <mi>γ</mi>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>t</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>−</mo>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>R</mi>
+             <mrow>
+              <mi>T</mi>
+              <mi>P</mi>
+             </mrow>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mrow>
+              <mover accent="true">
+               <mi>t</mi>
+               <mo stretchy="false">^</mo>
+              </mover>
+              <mo>,</mo>
+              <msub>
+               <mi>t</mi>
+               <mi>m</mi>
+              </msub>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mo>+</mo>
+            <msub>
+             <mi>R</mi>
+             <mrow>
+              <mi>i</mi>
+              <mi>P</mi>
+             </mrow>
+            </msub>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mrow>
+              <mover accent="true">
+               <mi>t</mi>
+               <mo stretchy="false">^</mo>
+              </mover>
+              <mo>,</mo>
+              <msub>
+               <mi>t</mi>
+               <mi>m</mi>
+              </msub>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mi>c</mi>
+          </mfrac>
+          <msup>
+           <mo stretchy="false">)</mo>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+         <mo stretchy="false">]</mo>
+        </mrow>
+        <mo stretchy="false">}</mo>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>c</italic> is the wave propagation velocity, 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mi>P</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the reflection coefficient of 
+ <italic>P</italic>, and 
+ <inline-formula>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represents the distance from receiver 
+ <italic>i</italic> to scattering point 
+ <italic>P</italic> at time 
+ <italic>t</italic>.
+</p>

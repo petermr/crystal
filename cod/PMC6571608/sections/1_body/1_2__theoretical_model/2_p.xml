@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In 
+ <xref ref-type="fig" rid="polymers-11-00861-f001">Figure 1</xref>a, the following notations are introduced: 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi mathvariant="bold">E</mi>
+      </mstyle>
+      <mi>j</mi>
+      <mrow/>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mi>j</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>⋅</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mi>j</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mi>exp</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msub>
+        <mi mathvariant="sans-serif">φ</mi>
+        <mi>j</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–the electric field vectors of the incident light beams; 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mi>j</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mi>j</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–spatial amplitude and phase profiles of recording beams, respectively; 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>k</mi>
+      </mstyle>
+      <mn>0</mn>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>k</mi>
+      </mstyle>
+      <mn>1</mn>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–wave vectors of the recording beams; 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mi>j</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>e</mi>
+        </mstyle>
+        <mi>j</mi>
+        <mn>1</mn>
+       </msubsup>
+       <mo>+</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msub>
+        <mi mathvariant="sans-serif">ρ</mi>
+        <mi>j</mi>
+       </msub>
+       <mo>⋅</mo>
+       <msubsup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>e</mi>
+        </mstyle>
+        <mi>j</mi>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+      <mrow>
+       <msqrt>
+        <mrow>
+         <mn>1</mn>
+         <mo>+</mo>
+         <msubsup>
+          <mi mathvariant="sans-serif">ρ</mi>
+          <mi>j</mi>
+          <mn>2</mn>
+         </msubsup>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–unit complex polarization vectors in their own polarization bases; 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mi>j</mi>
+      <mn>1</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>,
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mi>j</mi>
+      <mn>2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–orts of their own polarization bases; 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mrow/>
+      <mi>e</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>e</mi>
+      </mstyle>
+      <mrow/>
+      <mi>o</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–orts that determine the polarization of extraordinary and ordinary waves, respectively; 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">ρ</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–ellipticity of polarization ellipses; 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mstyle mathvariant="bold" mathsize="normal">
+     <mi>r</mi>
+    </mstyle>
+   </mrow>
+  </math>
+ </inline-formula>–radius-vector; 
+ <italic>j</italic> = 0,1; 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">θ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo>,</mo>
+     <mo> </mo>
+     <msub>
+      <mi mathvariant="sans-serif">γ</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–angles of incidence and polarization of the incident beams, respectively; 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>E</mi>
+     </mstyle>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>E</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>r</mi>
+     </mstyle>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–vector of the electric field of the light wave in the sample; 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">ψ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–angle of rotation of the total light wave polarization; 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mi>E</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>E</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–angle of rotation of the director of LC molecules (droplets) 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>C</mi>
+     </mstyle>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>C</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>r</mi>
+     </mstyle>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> under the action of the photo-induced Freedericksz transition [
+ <xref rid="B35-polymers-11-00861" ref-type="bibr">35</xref>,
+ <xref rid="B36-polymers-11-00861" ref-type="bibr">36</xref>] in the 
+ <italic>xOy</italic> plane.
+</p>

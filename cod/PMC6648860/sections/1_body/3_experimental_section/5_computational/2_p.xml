@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>First-principles calculations have been performed using the ab initio total-energy and molecular dynamics program Vienna Ab initio Simulation Program (VASP) developed at the Universität Wien.
+ <sup>
+  <xref ref-type="bibr" rid="ref22">22</xref>
+ </sup> Total energy calculations based on DFT were performed for CaTaN
+ <sub>2</sub> within the general gradient approximation, with the exchange and correlation functional form developed by Perdew, Burke, and Ernzerhof.
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>
+ </sup> The interaction of core electrons with the nuclei is described by the projector augmented wave method.
+ <sup>
+  <xref ref-type="bibr" rid="ref24">24</xref>
+ </sup> The pseudopotentials used were Ca_sv (3s
+ <sup>2</sup>p
+ <sup>6</sup>4s
+ <sup>2</sup>), Ta_sv (5p
+ <sup>6</sup>6s
+ <sup>2</sup>5d
+ <sup>3</sup>), and N (2s
+ <sup>2</sup>p
+ <sup>3</sup>). The energy cut off for the plane wave basis set was kept fix at a constant value of 600 eV throughout the calculations. The integration in the Brillouin zone is done on an appropriate set of 
+ <italic>k</italic>-points determined by the Monkhorst–Pack scheme. A convergence of the total energy close to 10 meV per formula unit is achieved with such parameters. All calculations are spin-polarized. The initial positions for CaTaN
+ <sub>2</sub> models were taken from Na
+ <sub>0.5</sub>FeO
+ <sub>2</sub> (
+ <italic>C</italic>2/
+ <italic>m</italic>) and delafossite-NaFeO
+ <sub>2</sub> (
+ <italic>R</italic>3̅
+ <italic>m</italic>).
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> All crystal structures were fully relaxed (atomic positions, cell parameters, and volume). The final energies of the optimized geometries were recalculated to correct the changes in the basis set of wave functions during relaxation. To investigate diffusion, the energy barriers for Ca hops between adjacent octahedral sites in 
+ <italic>C</italic>2/
+ <italic>m</italic>-CaTaN
+ <sub>2</sub> were calculated using the nudged elastic band method as implemented in VASP. A Ca
+ <sub>17</sub>Ta
+ <sub>18</sub>N
+ <sub>36</sub> supercell was considered, where one Ca atom has been removed leaving a vacant octahedral site. Constant volume calculations were performed for five intermediate images. To calculate the energy at the saddle point, cubic splines were fit through the images along each hop.
+</p>

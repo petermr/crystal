@@ -1,0 +1,1568 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="iso-abbrev">Adv Sci (Weinh)</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2198-3844</journal-id><journal-id journal-id-type="publisher-id">ADVS</journal-id><journal-title-group><journal-title>Advanced Science</journal-title></journal-title-group><issn pub-type="epub">2198-3844</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6864521</article-id><article-id pub-id-type="doi">10.1002/advs.201901345</article-id><article-id pub-id-type="publisher-id">ADVS1374</article-id><article-categories><subj-group subj-group-type="overline"><subject>Review</subject></subj-group><subj-group subj-group-type="heading"><subject>Reviews</subject></subj-group></article-categories><title-group><article-title>Luminescent Down&#x02010;Conversion Semiconductor Quantum Dots and Aligned Quantum Rods for Liquid Crystal Displays</article-title></title-group><contrib-group><contrib id="advs1374-cr-0001" contrib-type="author" corresp="yes"><name><surname>Srivastava</surname><given-names>Abhishek K.</given-names></name><xref ref-type="aff" rid="advs1374-aff-0001">
+<sup>1</sup>
+</xref><address><email>eeabhishek@ust.hk</email></address><xref ref-type="bio" rid="advs1374-biog-0001">*</xref></contrib><contrib id="advs1374-cr-0002" contrib-type="author"><name><surname>Zhang</surname><given-names>Wanlong</given-names></name><xref ref-type="aff" rid="advs1374-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="advs1374-cr-0003" contrib-type="author"><name><surname>Schneider</surname><given-names>Julian</given-names></name><xref ref-type="aff" rid="advs1374-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="advs1374-cr-0004" contrib-type="author"><name><surname>Halpert</surname><given-names>Jonathan E.</given-names></name><xref ref-type="aff" rid="advs1374-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="bio" rid="advs1374-biog-0002">*</xref></contrib><contrib id="advs1374-cr-0005" contrib-type="author" corresp="yes"><name><surname>Rogach</surname><given-names>Andrey L.</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-8263-8141</contrib-id><xref ref-type="aff" rid="advs1374-aff-0002">
+<sup>2</sup>
+</xref><address><email>andrey.rogach@cityu.edu.hk</email></address><xref ref-type="bio" rid="advs1374-biog-0003">*</xref></contrib></contrib-group><aff id="advs1374-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">State Key Laboratory of Advanced Displays and Optoelectronics Technologies</named-content>
+<named-content content-type="organisation-division">Department of Electronic and Computer Engineering</named-content>
+<institution>Hong Kong University of Science and Technology</institution>
+<named-content content-type="country-part">Hong Kong SAR</named-content>
+<country country="CN">China</country>
+</aff><aff id="advs1374-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Department of Materials Science and Engineering, and Centre for Functional Photonics (CFP)</named-content>
+<institution>City University of Hong Kong</institution>
+<named-content content-type="country-part">Hong Kong SAR</named-content>
+<country country="CN">China</country>
+</aff><aff id="advs1374-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Chemistry</named-content>
+<institution>Hong Kong University of Science and Technology</institution>
+<named-content content-type="country-part">Hong Kong SAR</named-content>
+<country country="CN">China</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label>E&#x02010;mail: <email>andrey.rogach@cityu.edu.hk</email>, <email>eeabhishek@ust.hk</email></corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>11</month><year>2019</year></pub-date><volume>6</volume><issue>22</issue><issue-id pub-id-type="doi">10.1002/advs.v6.22</issue-id><elocation-id>1901345</elocation-id><history><date date-type="received"><day>03</day><month>6</month><year>2019</year></date><date date-type="rev-recd"><day>05</day><month>9</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 WILEY&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by WILEY&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA, Weinheim</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ADVS-6-1901345.pdf"/><abstract><title>Abstract</title><p>Herein, emerging applications of luminescent semiconductor nanocrystals are addressed, such as quantum dots and quantum rods as down&#x02010;conversion materials used in liquid crystal displays (LCD). Their precisely tunable emission wavelengths and narrow emission bandwidths offer high color purity resulting in a wide color gamut with vivid colors for LCDs. Anisotropic materials, such as quantum rods, have the additional advantage of polarized emission, which can bring a significant improvement to the efficiency of LCD displays. The basic optical properties of these nanomaterials are considered, with a focus on quantum rods, and the challenges and progress in their assembly are discussed. Different techniques for quantum rod alignment are introduced such as shear&#x02010;oriented, electric field and magnetic field assisted assembly, mechanical rubbing, stretching, and electrospinning. The photoalignment approach allows for an easy arrangement of quantum rods in&#x02010;plane, and the implications of this method to patterning are considered. Different configurations of LCDs utilizing semiconductor quantum dots and quantum rods as down&#x02010;conversion layers are also presented, and the potential applications that are enabled by the wide range of emerging materials are highlighted.</p></abstract><abstract id="advs1374-abs-0001" abstract-type="graphical"><p>Herein, emerging applications of luminescent semiconductor nanocrystals are addressed with a focus on anisotropic quantum rods as down&#x02010;conversion materials for liquid crystal displays (LCDs). Techniques for the quantum rod alignment, with a focus on the photoalignment approach, and different configurations of LCDs are considered.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ADVS-6-1901345-g022.jpg" position="anchor" id="nlm-graphic-7" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="advs1374-kwd-0001">light emission</kwd><kwd id="advs1374-kwd-0002">liquid crystal displays</kwd><kwd id="advs1374-kwd-0003">photoalignment</kwd><kwd id="advs1374-kwd-0004">quantum dots</kwd><kwd id="advs1374-kwd-0005">quantum rods</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>ITF </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100010428</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0002"><funding-source>Innovation and Technology Commission of Hong Kong</funding-source></award-group><award-group id="funding-0003"><funding-source><institution-wrap><institution>National Natural Science Foundation of China </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001809</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0004"><funding-source>Research Grants Council</funding-source><award-id>N_CityU108/17</award-id></award-group><award-group id="funding-0005"><funding-source>State Key Laboratory of Advanced Displays and Optoelectronics Technologies</funding-source></award-group><award-group id="funding-0006"><funding-source><institution-wrap><institution>Hong Kong University of Science and Technology </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100005950</institution-id></institution-wrap></funding-source></award-group><award-group id="funding-0007"><funding-source><institution-wrap><institution>Croucher Foundation </institution><institution-id institution-id-type="open-funder-registry">10.13039/501100001692</institution-id></institution-wrap></funding-source></award-group></funding-group><counts><fig-count count="25"/><table-count count="1"/><page-count count="20"/><word-count count="12192"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>November 20, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.2 mode:remove_FC converted:20.11.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="advs1374-cit-0099">
+<string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Halpert</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <article-title>Luminescent Down&#x02010;Conversion Semiconductor Quantum Dots and Aligned Quantum Rods for Liquid Crystal Displays</article-title>. <source xml:lang="en">Adv. Sci.</source>
+<year>2019</year>, <volume>6</volume>, <elocation-id>1901345</elocation-id>
+<pub-id pub-id-type="doi">10.1002/advs.201901345</pub-id>
+</mixed-citation>
+</p></notes></front><body id="advs1374-body-0001"><sec id="advs1374-sec-0010"><label>1</label><title>Introduction</title><p>Semiconductor nanomaterials, such as 0D quantum dots (QDs), 1D quantum rods (QRs), and 2D nanoplatelets offer high photoluminescence (PL) quantum yields (QY), saturated emission colors due to the reasonably narrow PL linewidth, and precisely tunable emission wavelengths based on both control of the composition and on the quantum confinement effect.<xref rid="advs1374-bib-0001" ref-type="ref">1</xref> These materials are thus considered nowadays as components for wide&#x02010;color&#x02010;gamut displays and light&#x02010;emitting devices (LEDs).<xref rid="advs1374-bib-0002" ref-type="ref">2</xref> There are two basic types of QD (or QR) LEDs: photoluminescent LEDs, relying on phosphors as color down&#x02010;converters such as a blue LED backlight unit (BLU) for liquid crystal displays (LCDs), and electroluminescent LEDs, where the active materials emit light as the recombination layer for injected charge carriers in a diode structure device.<xref rid="advs1374-bib-0003" ref-type="ref">3</xref> While there are still multiple issues which have to be resolved for the electroluminescent devices, such as balanced and efficient carrier injection and long&#x02010;term stability, photoluminescent LEDs have already been commercialized for the LCD backlight applications.<xref rid="advs1374-bib-0004" ref-type="ref">4</xref> Back in 2013, Sony released the first QD&#x02010;enabled display (Triluminous TV), in which the Color IQ optical subsystem, developed by the company QD Vision, was used to enhance the available color gamut of the LCD panels.[qv: 2b] QD Vision Inc. claimed that QD&#x02010;based LCDs are 25% more efficient in comparison to organic LEDs (OLEDs), and that LCDs equipped with QD enhanced backlights show a higher luminance.[qv: 4a,5] Later Samsung, TCL, and LG brought several flagship QD LCD TVs to their premium display markets.<xref rid="advs1374-bib-0006" ref-type="ref">6</xref> It has been estimated that the display market may grow to over USD $200 billion in the coming years, while the market for the required nanomaterials, primarily QDs, was estimated to grow to over USD $10 billion by 2020.<xref rid="advs1374-bib-0007" ref-type="ref">7</xref> Touch Display Research Inc. predicted that by 2025 more than 60% of TVs and over 50% of monitors may adopt semiconductor QDs and related materials.[qv: 4a] Additionally, they estimated that the total market for QDs was worth more than USD $7.0 billion in 2017 and is expected to grow up to USD $10 billion by 2020.[qv: 4a] This is comparable to the OLED market size.<xref rid="advs1374-bib-0006" ref-type="ref">6</xref>, <xref rid="advs1374-bib-0008" ref-type="ref">8</xref> The use of QDs in displays is thus maturing, and there are many opportunities for new concepts and innovative device designs, while the search for better light&#x02010;emitting materials is on&#x02010;going. Initial commercial products (such as the Sony TV) used CdSe&#x02010;based QDs, as the most well studied kind of QDs, and also because these QDs exhibit solid performance in terms of color quality and high PL QY. However, environmental concerns and governmental regulatory restrictions limiting the use of the toxic element cadmium, have hindered sales of those products in some markets. InP&#x02010;based QDs have been explored in the Samsung QD TVs, due to the reduced toxicity and thus the unrestricted use of this material in consumer products in most markets. However, indium is a rare element which is already heavily used in other applications, and the color saturation of InP QDs does not match that of CdSe QDs, due to their wider emission linewidth. Lead halide perovskite nanocrystals<xref rid="advs1374-bib-0009" ref-type="ref">9</xref> have recently emerged as another promising light&#x02010;emitting material for displays, due to their ease of synthesis and exceptionally narrow emission linewidths. Unfortunately, the large degree of ionic character in these materials limits their stability, this in addition to the presence of toxic Pb, may become a limiting factor for commercialization. For the older class of II&#x02010;VI materials, both 1D QRs and 2D nanoplatelets offer an added advantage for LCDs, because they can emit linearly polarized light.<xref rid="advs1374-bib-0010" ref-type="ref">10</xref> At the same time, those anisotropic non&#x02010;spherical nanocrystals require a proper processing, as they need to be assembled with a high degree of orientational order so as to gain the benefit of the linear polarized emission as an ensemble.</p><p>This review offers a comprehensive discussion of the potential use of down&#x02010;conversion colloidal nanomaterials for LCD applications. After introducing basic optical properties of QDs and QRs, we will consider various assembly strategies for QRs, with a particular emphasis on assembling anisotropic materials to obtain polarized emission in the ensemble. Finally, we will present QD&#x02010; and QR&#x02010;based device architectures and highlight several concepts that emerge from the wide variety of light&#x02010;emitting materials that are now feasible for these applications.</p></sec><sec id="advs1374-sec-0020"><label>2</label><title>Basic Optical Properties of Semiconductor Nanocrystals</title><sec id="advs1374-sec-0030"><label>2.1</label><title>Quantum Dots</title><p>The term &#x0201c;quantum dot&#x0201d; has been given to spherical (or quasi&#x02010;spherical in case of wurtzite materials such as CdSe) semiconductor nanocrystals because they exhibit quantum confinement effect, for nanoparticles with radii smaller than the Bohr radius of the bulk exciton.<xref rid="advs1374-bib-0001" ref-type="ref">1</xref> At that point, the bandgap of the QDs becomes size&#x02010;dependent, increasing with a decreasing radius due to the increased interaction energy between the hole and the electron. As an example, when the radius of CdSe QDs decreases from 4.15 to 0.60 nm, the photon energy of the first absorbance peak, <italic>E</italic>
+<sub>12</sub>, increases from 1.88 to 3.02 eV (the bandgap energy of bulk CdSe is <italic>E</italic>
+<sub>g</sub> = 1.7 eV), and the emission color changes from red to blue.<xref rid="advs1374-bib-0011" ref-type="ref">11</xref> The most basic relationship between the band gap of a QD <italic>E</italic>
+<sub>gQD</sub> and its radius, <italic>R</italic> is based on the effective mass approximation and includes the Coulomb interaction, as given by the so&#x02010;called &#x0201c;Brus equation&#x0201d;:<xref rid="advs1374-bib-0012" ref-type="ref">12</xref>
+<disp-formula id="advs1374-disp-0001"><label>(1)</label><mml:math id="nlm-math-1"><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mrow><mml:mi mathvariant="normal">gQD</mml:mi></mml:mrow></mml:msub><mml:mrow><mml:mfenced><mml:mi>R</mml:mi></mml:mfenced></mml:mrow><mml:mo>=</mml:mo><mml:msub><mml:mi>E</mml:mi><mml:mi mathvariant="normal">g</mml:mi></mml:msub><mml:mo>+</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:msup><mml:mi>R</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:mfrac><mml:mrow><mml:mfenced><mml:mrow><mml:mfrac><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi mathvariant="normal">o</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi mathvariant="normal">e</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi mathvariant="normal">o</mml:mi></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>m</mml:mi><mml:mi mathvariant="normal">h</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow><mml:mfrac><mml:mrow><mml:msup><mml:mi>h</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:msubsup><mml:mi>&#x003b1;</mml:mi><mml:mrow><mml:mi>n</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msubsup></mml:mrow><mml:mrow><mml:mn>8</mml:mn><mml:msup><mml:mi>&#x003c0;</mml:mi><mml:mn>2</mml:mn></mml:msup><mml:msub><mml:mi>m</mml:mi><mml:mi mathvariant="normal">o</mml:mi></mml:msub></mml:mrow></mml:mfrac><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>R</mml:mi></mml:mfrac><mml:mrow><mml:mfenced><mml:mrow><mml:mfrac><mml:mrow><mml:mn>1.8</mml:mn><mml:msup><mml:mi>e</mml:mi><mml:mn>2</mml:mn></mml:msup></mml:mrow><mml:mrow><mml:mn>4</mml:mn><mml:mi>&#x003c0;</mml:mi><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mi>o</mml:mi></mml:msub><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mi>r</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math></disp-formula>
+where <italic>E</italic>
+<sub>g</sub> is the bulk band gap energy, <italic>h</italic> is Plank's constant, <italic>m<sub>o</sub></italic> is the rest mass of an electron, <italic>m</italic>
+<sub>e</sub> and <italic>m</italic>
+<sub>h</sub> are the effective masses of electrons in the conduction band and holes in the valence band, respectively, and &#x003b1;<sub><italic>n</italic>,<italic>l</italic></sub> is a dimensionless series that takes discrete values. A simple illustration of the size dependence of the electronic structure of prototypical CdSe QDs, together with their band gap dependence on average radius of QDs resulting in different colors of emitting light is given in <bold>Figure</bold>
+<xref rid="advs1374-fig-0001" ref-type="fig">
+<bold>1</bold>
+</xref>.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>a) Schematic illustration of the band structure of CdSe QDs of two different sizes. b) Energy bandgap dependence on the radius of CdSe QDs, here dots are the experimental data and the solid line is the calculated data using Equation <xref rid="advs1374-disp-0001" ref-type="disp-formula">(1)</xref>. The inset shows photograph of core/shell CdSe/ZnS QDs of different sizes (synthesized at University of Hamburg in 2001) emitting all over the visible spectral range. Reproduced with permission.<xref rid="advs1374-bib-0011" ref-type="ref">11</xref> Copyright 2006, American Institute of Physics.</p></caption><graphic id="nlm-graphic-9" xlink:href="ADVS-6-1901345-g001"/></fig><p>Cadmium chalcogenide nanocrystals have been by far the most common QD materials for the emission in the visible spectral range, spanning it from the blue (CdS) to cyan, green, yellow, orange, and red (CdSe), and extending further into the deep red for CdTe.<xref rid="advs1374-bib-0001" ref-type="ref">1</xref> For the cadmium free alternatives, there are ZnSe QDs for emission in the blue, and InP and CuInS<sub>2</sub> for the visible spectral range.<xref rid="advs1374-bib-0001" ref-type="ref">1</xref> For II&#x02010;VI QDs, high PL QYs often become accessible with the growth of an epitaxial inorganic shell, leading to the formation of so&#x02010;called Type I core/shell particles. Depending on the band gap alignment of these materials, such heterostructures are commonly denoted as Type I or Type II.<xref rid="advs1374-bib-0013" ref-type="ref">13</xref> Type I band alignment describes a core/shell system where the band gap of the core is smaller than the band gap of the shell material, and both the conduction and the valence band edges are higher/lower for the shell material as compared for the core material. A typical example for the Type I core/shell QDs are CdSe/ZnS nanocrystals, where the shell keeps excitons in the core and at the same time efficiently passivates surface traps, which results in enhanced stability and high PL QYs (see inset in Figure <xref rid="advs1374-fig-0001" ref-type="fig">1</xref>b). While PL QY is one of the main factors for the QDs used for down&#x02010;conversion, the spectral linewidths of the emission peak, measured as the full width at half maximum (FWHM), is equally important for display applications. Narrow emission peaks indicate good size homogeneity in an ensemble of QDs and ensure high color purity of the emitters, translating into a wide range of accessible, vivid colors for the devices employing red&#x02010;green&#x02010;blue (RGB) mixed colors.</p></sec><sec id="advs1374-sec-0040"><label>2.2</label><title>Quantum Rods</title><p>Semiconductor QRs<xref rid="advs1374-bib-0014" ref-type="ref">14</xref> are 1D nanomaterials which, unlike 0D QDs, offer the added advantage of polarized emission. Polarized emission sources are able to significantly improve the optical efficiency of LCDs since only photons with their electric field aligned parallel to the LC polarization can pass through the device. A related material set is the 2D nanoplatelets,<xref rid="advs1374-bib-0014" ref-type="ref">14</xref>, <xref rid="advs1374-bib-0015" ref-type="ref">15</xref> which are not considered here, but have been reported with polarized edge emission, though these are more difficult to align in an LCD.<xref rid="advs1374-bib-0016" ref-type="ref">16</xref> Anisotropic optical properties in QRs, including an increased absorption along the long axis of the rod, and partially polarized emission can be explained by the anisotropic electric field strength along different dimensions. It has been established that a structure with an anisotropic shape will attenuate electric fields perpendicular to the long axis.[qv: 15b] However, polarization in CdSe/CdS dot&#x02010;in&#x02010;rods and rod&#x02010;in&#x02010;rods goes beyond what can be explained by simple dielectric effects. The additional anisotropy originates from the splitting of the exciton fine structure in the wurtzite CdSe core.<xref rid="advs1374-bib-0017" ref-type="ref">17</xref>
+</p><p>It was reported that the emission from a semiconductor nanoparticle becomes partially polarized when the aspect ratio of the core exceeds 1.2:1.<xref rid="advs1374-bib-0010" ref-type="ref">10</xref>, <xref rid="advs1374-bib-0018" ref-type="ref">18</xref> The polarized emission from a QR was explained on the basis of the fine structure splitting, shared 2D excitation as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0002" ref-type="fig">
+<bold>2</bold>
+</xref>a,b, the level ordering and the oscillator strengths of the various transitions, which depend on the elongated shape. A detailed related discussion is given in ref. [qv: 17b]. The spherical symmetry of the dot&#x02010;like core should lead to a band&#x02010;edge exciton structure with the same symmetry as for the spherical nanocrystals, which show a low degree of polarization (DOP) for the emission. This is in contrast with the observed strongly polarized emission, which indicates that the anisotropic shell around the core can modify the electronic structure, as was reported, for example, in ref. [qv: 17b] for CdSe/CdS dot&#x02010;in&#x02010;plate structures. In the excited state, the electron wavefunction from the CdSe core is able to extend into the conduction band of the CdS shell, and into the shell volume to create polarized emission.[qv: 10b]</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>a) Schematics of a CdSe/CdS dot&#x02010;in&#x02010;rod nanostructure, along with the interfacial band alignment of the CdSe and CdS constituent materials. The core diameter (4.34 nm) and the CB offset (0.09 eV, inset) correspond to the values adopted for the calculation of the electronic wave functions and lasing wavelengths. The values of the VB offset (0.87 eV) along with those of the bandgaps for CdSe (1.68 eV) and CdS (2.46 eV) are also shown. The blue shadowed area indicates the range of potential values for the CB offset. Calculated wave functions for the electrons and holes for the laser emission in b) the single&#x02010;exciton regime at 628.6 nm, exhibiting mixed carrier dimensionality and small overlap, indicating that for the first exciton the hole/electron wave functions are localized in/near the core. Reproduced with permission.[qv: 10b] Copyright 2013, Nature Publishing Group. c) Band structure of CdSe (left), and band&#x02010;edge exciton fine structure energy states for a positive (&#x02206; &#x0003e; 0) or negative (&#x02206; &#x0003c; 0) net&#x02010;splitting (right). Reproduced from permission.[qv: 17b] Copyright 2015, American Chemical Society.</p></caption><graphic id="nlm-graphic-11" xlink:href="ADVS-6-1901345-g002"/></fig><p>Vezzoli et al. compared energy level diagrams for both quantum dots and rods, as shown in Figure <xref rid="advs1374-fig-0002" ref-type="fig">2</xref>c.[qv: 17b] The left part of Figure <xref rid="advs1374-fig-0002" ref-type="fig">2</xref>c presents the band structure of CdSe, showing the heavy&#x02010;hole, light&#x02010;hole, and split&#x02010;off sub&#x02010;bands and the net&#x02010;splitting &#x00394; at <italic>k</italic> = 0. The middle part of Figure <xref rid="advs1374-fig-0002" ref-type="fig">2</xref>c demonstrates the band&#x02010;edge exciton fine structure energy states for a positive net&#x02010;splitting &#x00394;. The | &#x000b1; 2&#x03009; states and the |0<sup><italic>L</italic></sup>&#x03009; states are optically inactive and represented as dashed lines. The degenerate 2D dipole emission from the | &#x000b1; 1<sup><italic>L</italic></sup>&#x03009; and | &#x000b1; 1<sup><italic>U</italic></sup>&#x03009; levels is symbolized by the double blue arrows. The 1D dipole emission from the |0<sup><italic>U</italic></sup>&#x03009; state is symbolized by the red arrow. The right part of Figure <xref rid="advs1374-fig-0002" ref-type="fig">2</xref>c illustrates the band&#x02010;edge exciton fine structure energy states for a negative net&#x02010;splitting &#x00394;, showing a swapping of the levels. The polarized emission in these figures can be illustrated as follows. The valence band of CdSe is made of 3 sub&#x02010;bands, the heavy&#x02010;hole, light&#x02010;hole, and split&#x02010;off sub&#x02010;bands (Figure <xref rid="advs1374-fig-0002" ref-type="fig">2</xref>c). The | &#x000b1; 2&#x03009; and |0<sup><italic>L</italic></sup>&#x03009; state do not contribute to the emission at the room temperature, when it is a mixture of recombination from the |0<sup><italic>U</italic></sup>&#x03009; state and from the degenerate | &#x000b1; 1<sup><italic>L</italic></sup>&#x03009;, | &#x000b1; 1<sup><italic>U</italic></sup>&#x03009; states.<xref rid="advs1374-bib-0018" ref-type="ref">18</xref> The |0<sup><italic>U</italic></sup>&#x03009; state is associated with a linear 1D dipole that oscillates along the <italic>c</italic>&#x02010;axis of the crystal and emits linearly polarized photons. The | &#x000b1; 1<sup><italic>L</italic></sup>&#x03009; and | &#x000b1; 1<sup><italic>U</italic></sup>&#x03009; can be seen as 2D dipoles, oscillating inside a plane, as schematically shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0003" ref-type="fig">
+<bold>3</bold>
+</xref>a. Because of the level degeneracy, the emission from these transitions is an incoherent superposition of &#x003c3;<sup>+</sup> and &#x003c3;<sup>&#x02212;</sup> components,<xref rid="advs1374-bib-0019" ref-type="ref">19</xref> and the corresponding dipole is called a degenerate 2D dipole. It is equivalent to two linear dipoles, oscillating perpendicularly and in quadrature. These dipoles are contained in the plane perpendicular to the <italic>c</italic>&#x02010;axis of the crystal and because of this the polarization azimuth for the two oscillators are mutually perpendicular as illustrated in Figure <xref rid="advs1374-fig-0003" ref-type="fig">3</xref>b. Therefore, the degree of the polarization for the total emission strongly depends on the relative oscillator strengths of two oscillators mutually oscillating in an orthogonal plane.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>a) Illustration for the three oscillators and b) the emission from 1D (red line) and 2D excitons (blue line) of a core/shell CdSe/CdS dot&#x02010;in&#x02010;rod structure, that results in the emission of light (black line) with polarization azimuth parallel to the c&#x02010;axis of the QR. Reproduced with permission.[qv: 17b] Copyright 2015, American Chemical Society.</p></caption><graphic id="nlm-graphic-13" xlink:href="ADVS-6-1901345-g003"/></fig><p>The core size, the shell thickness, and the aspect ratio affect the polarized emission properties of core/shell QRs.[qv: 14,17b,20] For larger core sizes, wurtzite CdSe cores tend to grow into a prolate shape, which strongly enhances optical anisotropies. Due to the shape dependence of the energy level structure, the degree of the polarization for the emitted light increases with the aspect ratio of the QRs, and it is further increased by the anisotropic dielectric environment.<xref rid="advs1374-bib-0021" ref-type="ref">21</xref> Murray's group has shown that the thickness of the shell along the core is critically important to achieve a higher degree of polarization.[qv: 20b] Although a rod&#x02010;shaped shell geometry is a necessary condition to observe the polarized optical properties, the degree of polarization is not a direct consequence of the increasing aspect ratio. Rather, tuning the local anisotropy of the emissive core materials by changing the thickness of the anisotropic shell may change the degree of optical anisotropy more dramatically.[qv: 20b] Thus, the degree of polarization depends on first, on the fluorescence anisotropy of the nanoparticle and second the quality of alignment. Talapin's group studied the anisotropy for different shapes of colloidal semiconductor nanostructures, including dots, rods, and platelets, all illustrated in <bold>Figure</bold>
+<xref rid="advs1374-fig-0004" ref-type="fig">
+<bold>4</bold>
+</xref>.<xref rid="advs1374-bib-0014" ref-type="ref">14</xref> Among these different types of nanostructures, QRs show enhanced absorption and emission of light along their long axis.[qv: 17b,20b,22] Furthermore, among the core/shell elongated nanoparticles, dot&#x02010;in&#x02010;dot and rod&#x02010;in&#x02010;rod heterostructures have higher anisotropy in comparison to the other nanoparticles. Particularly, the rod&#x02010;in&#x02010;rod nanoparticles show the highest anisotropy. Thus, these heterostructures show a high degree of linear polarization for emission and are highly suitable for modern LCDs. Figure <xref rid="advs1374-fig-0004" ref-type="fig">4</xref>e shows the size&#x02010;dependent anisotropy for the nanoparticles. The wavelength&#x02010;dependent anisotropy for various core/shell structures has been plotted in Figure <xref rid="advs1374-fig-0004" ref-type="fig">4</xref>f. It is clear from the figure that the anisotropy increases close to the band edge. However, it is not very suitable for LCD backlight applications, where a fixed blue light is used to excite the PL layer. The same figure also conveys that the thin shell and medium size core provide a higher anisotropy.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Anisotropy (open circles, red curve) and absorption (black curve) of several colloidal nanostructures: a) CdSe sphere (5 nm); b) CdSe/CdS dot&#x02010;in&#x02010;rod (5.1 &#x000d7; 35 nm; 3.8 nm core); c) CdSe/CdS rod&#x02010;in&#x02010;rod (5.2 &#x000d7; 45 nm; 3.8 &#x000d7; 9.0 nm core); d) CdSe nanoplatelet. e) A scheme showing absorption and emission polarizations attainable for ideal dots, rods and platelets. f) Comparison of optical anisotropy in different samples of CdSe/CdS dot&#x02010;in&#x02010;rods with varying core and shell dimensions. Medium core, long thin shell corresponds to 5.1 &#x000d7; 35 nm shell with a 3.8 nm core. Small core, large shell corresponds to 6.5 &#x000d7; 12 nm shell with a 2.3 nm core. Large core, small shell corresponds to 4.9 &#x000d7; 18 nm with a 4.6 nm core. g) Solution anisotropy (open squares) and absorbance (solid lines) of three samples of CdSe nanoplatelets with identical thickness and different lateral dimensions: 3.9 &#x000d7; 8.8 nm for &#x0201c;short,&#x0201d; 7.1 &#x000d7; 17 nm for &#x0201c;medium&#x0201d; and 8.7 &#x000d7; 29 nm for &#x0201c;long.&#x0201d; Reproduced with permission.<xref rid="advs1374-bib-0014" ref-type="ref">14</xref> Copyright 2015, American Chemical Society.</p></caption><graphic id="nlm-graphic-15" xlink:href="ADVS-6-1901345-g004"/></fig></sec><sec id="advs1374-sec-0050"><label>2.3</label><title>Alignment Techniques for Quantum Rods</title><p>The alignment of QRs with a high order parameter is critically important, and several techniques have been explored in this regard, including evaporation&#x02010;mediated assembly,<xref rid="advs1374-bib-0023" ref-type="ref">23</xref> electric field&#x02010;assisted assembly,<xref rid="advs1374-bib-0024" ref-type="ref">24</xref> template&#x02010;assisted assembly,<xref rid="advs1374-bib-0025" ref-type="ref">25</xref> LC self&#x02010;alignment,<xref rid="advs1374-bib-0026" ref-type="ref">26</xref> Langmuir&#x02013;Blodgett deposition,<xref rid="advs1374-bib-0027" ref-type="ref">27</xref> and mechanical rubbing.<xref rid="advs1374-bib-0028" ref-type="ref">28</xref> Several other, less significant methods have also been investigated.<xref rid="advs1374-bib-0029" ref-type="ref">29</xref> While most of these methods control the assembly of QRs by an external force, for the most part they offer limited flexibility for the local alignment orientation, which reduces their prospects for the type of large&#x02010;scale fabrication required for LCD. In contrast, electrospinning<xref rid="advs1374-bib-0030" ref-type="ref">30</xref> and stretching of polymer films<xref rid="advs1374-bib-0014" ref-type="ref">14</xref>, <xref rid="advs1374-bib-0031" ref-type="ref">31</xref> have recently achieved significant advantages in this respect. Some of the approaches allowing for large area alignment of QRs are discussed below.</p><sec id="advs1374-sec-0060"><label>2.3.1</label><title>Shear&#x02010;Oriented Assembly</title><p>Gacoin's group has developed a simple coating method to make an aligned QR film using a thixotropic gel suspension, as illustrated in <bold>Figure</bold>
+<xref rid="advs1374-fig-0005" ref-type="fig">
+<bold>5</bold>
+</xref>.<xref rid="advs1374-bib-0031" ref-type="ref">31</xref> A schematic of their customized coating machine is shown in Figure <xref rid="advs1374-fig-0005" ref-type="fig">5</xref>e. A 20 &#x000b5;L drop of solution containing QRs was deposited onto a substrate and the substrate was dragged under the coating blade by a robotic arm with a constant speed and a fixed gap thickness from the blade plane. The gap thickness was varied from 20 to 100 &#x000b5;m to control the film thickness. The substrate, coated with the sheared suspension coming out of the blade, was heated to 140 &#x000b0;C on a hotplate to evaporate the ethylene glycols solvent. Later the solidified film was annealed in a furnace at 500 &#x000b0;C for 2 h. While dragging the blade over the suspension, a constant shear rate (d<italic>y</italic>/d<italic>t</italic> &#x02248;10 s<sup>&#x02013;1</sup>) was applied after generating a Couette flow in the gap and thus uniformly shearing the suspension. They confirmed that the required rate for the QR orientation in the rod gel is only &#x02248;10 s<sup>&#x02013;1</sup>, which is suitable for the typical coating techniques used for roll&#x02010;to&#x02010;roll processes. When the flow stopped, the attractive interparticle forces led the sol to turn back to a gel state in the absence of shear stress. This froze the rods into an oriented alignment, with only minor short&#x02010;range defects present. This approach was used to align QRs having relatively large size (length &#x02248;200 nm) compared to CdSe&#x02010;based QRs normally used. However, high temperature processing makes it difficult to be used for LCD applications.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Snapshots of QRs in the thixotropic suspension at each step of the coating process: a) gel with random networks, b) sheared sol where the networks break down, c) gel with aligned networks after shear, and d) aligned film after solvent evaporation. e) Schematic illustration of the fabrication of aligned QR&#x02010;based thin films by the blade&#x02010;coating process. f) Thixotropic behavior of the LaPO<sub>4</sub> QR gel suspension: top, gel; middle, sol after stirring; bottom, gel after setting the sol inclined. g) SEM image of the LaPO<sub>4</sub> QRs (the scale bar indicates 200 nm). h) High resolution transmission electron microscopy image and its fast&#x02010;Fourier&#x02010;transform (FFT, inset) of a single crystalline LaPO<sub>4</sub> QR. Reproduced with permission.<xref rid="advs1374-bib-0031" ref-type="ref">31</xref> Copyright 2013, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-17" xlink:href="ADVS-6-1901345-g005"/></fig></sec><sec id="advs1374-sec-0070"><label>2.3.2</label><title>Electric Field Assisted Assembly</title><p>Drndic's group reported the alignment of CdSe and CdTe QRs using applied electric fields.<xref rid="advs1374-bib-0024" ref-type="ref">24</xref> The devices used for the alignment consisted of an interdigitated electrode on an approximately 100 nm thick silicon nitride (Si<sub>3</sub>N<sub>4</sub>) to hold the suspended membranes, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0006" ref-type="fig">
+<bold>6</bold>
+</xref>. CdSe or CdTe QRs (10 &#x000b5;L) in a hexane/octane solution were drop&#x02010;casted onto each device while voltage was applied to the electrodes. Local electric fields generated by nanopatterned electrodes were used to control the position and orientation of both well&#x02010;isolated and closely packed QRs. Post&#x02010;deposition imaging using TEM and atomic force microscopy revealed QR alignment in the direction of the applied field, and dense accumulation around and directly on the voltage&#x02010;biased electrodes when deposited from dilute and concentrated solutions, respectively. The degree of alignment under the applied electric field was characterized by a nematic order parameter <italic>S</italic> &#x02248;0.8 in contrast to the zero&#x02010;field case where <italic>S</italic> was &#x02248;0.1. Overall, this approach appears to work well, but it is not feasible for the large&#x02010;scale alignment of QRs, required for LCD application, due to the necessity of having pre&#x02010;printed electrodes on the substrate during deposition.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>a) Optical micrograph of a typical device used for the electric field induced alignment, containing eight electrode pairs on a 80 &#x000d7; 80 &#x000b5;m<sup>2</sup> Si<sub>3</sub>N<sub>4</sub> membrane window (copper&#x02010;colored square). b) Schematic of a device showing the suspended membrane containing eight patterned electrode pairs with different gap widths <italic>W</italic> (0.5&#x02013;20 &#x000b5;m) and lengths <italic>L</italic> (0.1&#x02013;1.1 &#x000b5;m). c) Schematic of the alignment experiment: voltage is applied to the electrodes, while a drop of solution containing QRs dries on the surface. The p&#x02010;doped Si layer is grounded. d) TEM image of randomly oriented 38 nm &#x000d7; 3.4 nm CdSe QRs, used in that study, imaged on a holy carbon grid. e) TEM image of aligned QRs, artificially colored in red. Reproduced with permission.<xref rid="advs1374-bib-0024" ref-type="ref">24</xref> Copyright 2006, American Chemical Society.</p></caption><graphic id="nlm-graphic-19" xlink:href="ADVS-6-1901345-g006"/></fig></sec><sec id="advs1374-sec-0080"><label>2.3.3</label><title>Magnetic Field Assisted Assembly</title><p>Pietra et al. studied spontaneously self&#x02010;assembled aggregates in a suspension of the CdSe/CdS QRs.<xref rid="advs1374-bib-0032" ref-type="ref">32</xref> The related measurements addressed the magnetizability &#x003b1;<sup><italic>M</italic></sup> of a single QR, defined by <italic>m</italic> = &#x003b1;<sup><italic>M</italic></sup>
+<italic>B</italic>, where <italic>m</italic> is the magnetic dipole moment that is induced by a magnetic field <italic>B</italic>. Because of demagnetization effects, the magnetizability of a QR was more negative in the transverse direction <mml:math id="nlm-math-2"><mml:mrow><mml:msubsup><mml:mi>&#x003b1;</mml:mi><mml:mo>&#x022a5;</mml:mo><mml:mi>M</mml:mi></mml:msubsup></mml:mrow></mml:math> than in the longitudinal direction <mml:math id="nlm-math-3"><mml:mrow><mml:msubsup><mml:mi>&#x003b1;</mml:mi><mml:mo>&#x02225;</mml:mo><mml:mi>M</mml:mi></mml:msubsup></mml:mrow></mml:math>. The overall response of ordered and oriented QRs to external fields could be calculated from the magnetic susceptibility of the material and the environment.<xref rid="advs1374-bib-0032" ref-type="ref">32</xref>
+</p></sec><sec id="advs1374-sec-0090"><label>2.3.4</label><title>Self&#x02010;Assembly at the Liquid/Air Interface</title><p>By accurately controlling the concentration of QRs in the solution and by slowing down the solvent evaporation process, it is possible to prepare films of close&#x02010;packed QRs floating on the surface of water organized in nematic and/or smectic phases, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0007" ref-type="fig">
+<bold>7</bold>
+</xref>. The tendency toward self&#x02010;organization of monodisperse QRs can be understood in terms of surface tension balance. When a small volume of a concentrated organic solution of QRs is spread onto a water surface, slow and uniform solvent evaporation leads to a continuous increase of their concentration in the remaining droplet. As soon as the solvent evaporates, hydrophobic and dipolar interactions among the surfactant coated QRs are progressively enhanced due to their gradually increasing concentration in the organic phase and thus shortening of the interparticle distance. Such intermolecular forces induce segregation of the QR in close&#x02010;packed lateral ribbon superstructures or rod/raft aggregates, as a means of decreasing the overall surface energy and interfacial energy of the system.<xref rid="advs1374-bib-0026" ref-type="ref">26</xref>, <xref rid="advs1374-bib-0027" ref-type="ref">27</xref>, <xref rid="advs1374-bib-0033" ref-type="ref">33</xref> However, because of poor control over the in&#x02010;plane orientation of the QRs and the limited size of the film, it is very difficult to apply this method for LCDs.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>A sketch of the technique developed for the deposition of ordered QR arrays on organic layers. a) A toluene solution of QR is first spread on water. b) After the solvent evaporation, the floating film is finished by means of a PDMS stamp pad or a carbon coated TEM grid; the zoom displays a TEM image of a self&#x02010;assembled QR film on the latter substrate. QRs are arranged in ribbon&#x02010;like structures in which they are joined side&#x02010;by&#x02010;side along their elongated <italic>c</italic>&#x02010;axis, thereby resembling the smectic phase of a liquid crystal. c) The inked PDMS is brought into conformal contact with the organic layer by applying a gentle pressure. d) Finally, the stamp is removed, and the QR film is successfully transferred onto the organic surface. The zoom shows a scanning electron microscopy (SEM) image of such laterally aligned QR film. Some of QRs are highlighted in orange as a guide to the eye. Reproduced with permission.[qv: 33a] Copyright 2009, American Chemical Society.</p></caption><graphic id="nlm-graphic-21" xlink:href="ADVS-6-1901345-g007"/></fig></sec><sec id="advs1374-sec-0100"><label>2.3.5</label><title>Mechanical Rubbing</title><p>Amit et al. reported the use of mechanical rubbing for the macroscopic scale alignment semiconductor QRs.<xref rid="advs1374-bib-0028" ref-type="ref">28</xref> The CdSe/CdS QRs, exhibiting linearly polarized emission, were aligned by mechanical rubbing of a spin&#x02010;coated glass substrate, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0008" ref-type="fig">
+<bold>8</bold>
+</xref>. The dragging force exerted by the rubbing fibers resulted in deflection and reorientation of the QRs along the rubbing direction. The rubbing process was optimized by tuning surface&#x02013;particle and particle&#x02013;particle interactions yielding high polarization ratios of 3.5:1 relative to the previously reported values of 1.75:1 and 2.2:1 attained by the rubbing of the QR layers. The surface&#x02013;particle interaction is an important factor for the rubbing process, one that may have serious limitations on the thickness of the film. The film thickness (at least several microns, depending on the QR concentration and absorption coefficients) should be enough to maintain color saturation and brightness for LCD applications.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>a) Schematics of the rubbing process&#x02014;a rubbing cloth is pressed against a spin&#x02010;coated thin film and the rotation of the fibers oppositely to the movement of the sample forms trenches and lines as the fibers push the QRs piling them up in oriented stacks. b) SEM images of a spin&#x02010;coated thin film of CdSe/CdS QRs shows no preferred directionality. c) SEM of the rubbed QR shows an alignment parallel to the rubbing direction. The inset shows absorption (black) and emission (red) spectra of the QRs. Reproduced with permission.<xref rid="advs1374-bib-0028" ref-type="ref">28</xref> Copyright 2012, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-23" xlink:href="ADVS-6-1901345-g008"/></fig></sec><sec id="advs1374-sec-0110"><label>2.3.6</label><title>Stretching of Polymer Films</title><p>The stretched film approach has been reported in detail by Cunningham et al, and is illustrated in <bold>Figure</bold>
+<xref rid="advs1374-fig-0009" ref-type="fig">
+<bold>9</bold>
+</xref>.<xref rid="advs1374-bib-0014" ref-type="ref">14</xref> It is very simple and offers good uniformity of the resulting samples, but significant stretching is required. CdSe/CdS dot&#x02010;in&#x02010;rods were dispersed in polymer films of polybutyl&#x02010;<italic>co</italic>&#x02010;isobutyl methacrylate. In non&#x02010;stretched films, QRs were randomly oriented, while a strong unidirectional alignment was observed after stretching of the composite films. A high degree of alignment was achieved, corresponding to an orientation factor of 0.87, and large areas of the films demonstrated polarized emission, with the polarization ratio (<italic>I</italic>
+<sub>max</sub>/<italic>I</italic>
+<sub>min</sub>) of &#x02248;5.6:1.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>a) Films consisting of red&#x02010;luminescent CdSe/CdS QRs (i, ii, iii) and nanoplatelets (iv, v) dispersed in poly(butyl&#x02010;<italic>co</italic>&#x02010;isobutyl methacrylate) under ambient light before (top) and after stretching (bottom). b) Same films under UV light before (top) and after stretching (bottom). c) Films with varying concentrations of QDs (top row) and QRs (bottom row) in the polymer films under UV light. Reproduced with permission.<xref rid="advs1374-bib-0014" ref-type="ref">14</xref> Copyright 2015, American Chemical Society.</p></caption><graphic id="nlm-graphic-25" xlink:href="ADVS-6-1901345-g009"/></fig></sec><sec id="advs1374-sec-0120"><label>2.3.7</label><title>Electrospinning</title><p>The electrospinning uses a high electric field to fabricate nanofiber bundles, which are collected by a high&#x02010;speed rotating disk and drum, producing large sheets. The diameter of the electrospun nanofibers mainly depends on the polymer concentration in the dispersed QR solution used for the electrospinning process. The rotation speed of the drum controls the alignment of the nanofibers in the sheet. The electrospinning approach was first proposed for the alignment of the gold nanorods,<xref rid="advs1374-bib-0034" ref-type="ref">34</xref> and later was applied to light&#x02010;emitting semiconductor CdS QRs and quantum wires.<xref rid="advs1374-bib-0030" ref-type="ref">30</xref> Recently, the company Merck has used the same approach to make nanofiber bundles and sheets containing QRs.[qv: 30a] Various aspects of nanofiber processing have been studied, such as the polymer concentration dependence of the diameter of the electrospun nanofibers and effect of the rotation speed of the drum on the alignment quality of QRs. Merck has achieved good polarization ratio for the 6 &#x000d7; 10 cm<sup>2</sup> QREF, which is characterized by high uniformity and DOP of 0.6, see <bold>Figure</bold>
+<xref rid="advs1374-fig-0010" ref-type="fig">
+<bold>10</bold>
+</xref>. This approach appears to be useful to produce highly uniform QR films; though, strong electric fields and somewhat complicated fabrication process impose hurdles on the commercialization of this method.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0010" orientation="portrait" position="float"><label>Figure 10</label><caption><p>CdS QRs aligned in the nanofiber sheets by electrospinning. a) TEM image of a nanofiber with aligned QRs. The diameter of QRs is &#x02248;5 nm and length is &#x02248;40 nm. Frames (b) and (c) represent polarization microphotographs of a nanofiber sheet (b) when the polarizer is parallel to the emission polarization and c) when the polarizer is perpendicular to the emission polarization. d) The aligned QR nanofiber sheets. The white arrow indicates the polarization direction, which is perpendicular to the longitudinal direction of the sheet shown on the left&#x02010;hand side, and parallel for that on the right&#x02010;hand side. Reproduced with permission.[qv: 30a] Copyright 2015, American Institute of Physics.</p></caption><graphic id="nlm-graphic-27" xlink:href="ADVS-6-1901345-g010"/></fig></sec><sec id="advs1374-sec-0130"><label>2.3.8</label><title>Photoalignment</title><p>Photoalignment technology offers precise control at the nanoscale for the planar alignment of LCs and LC polymers.<xref rid="advs1374-bib-0035" ref-type="ref">35</xref> The anchoring energy is a force applied from the alignment layer that holds the LC molecule in the desired position, in the absence of external stimuli. Photoalignment offers a large anchoring energy (&#x02248;10<sup>&#x02013;3</sup> J m<sup>&#x02212;2</sup>) with a high in&#x02010;plane, easy axis control providing a small pre&#x02010;tilt angle (&#x0003c;0.2&#x000b0;). This method also offers high spatial alignment resolution,[qv: 35c,36] and facilitates QR alignment in LC polymers.[qv: 35b] Most often, a sulfonic azo&#x02010;dye tetrasodium&#x02010;5,5&#x02032;&#x02010;((1E,1&#x02032;E)&#x02010;(2,2&#x02032;&#x02010;disulfonato&#x02010;[1,1&#x02032;&#x02010;biphenyl]&#x02010;4,4&#x02032;&#x02010;diyl)bis(diazene&#x02010;2,1&#x02010;diyl))bis(2&#x02010;hydroxy&#x02010;benzoate) (SD1 dye) has been used as the photoalignment layer.<xref rid="advs1374-bib-0037" ref-type="ref">37</xref> When the SD1 layer is irradiated by polarized light with a wavelength of 450 nm, the azo&#x02010;dye molecules that have their transition dipole moments parallel to the electric field (E&#x02010;) vector of the impinging light receive excess energy. This results in their reorientation from the initial position to a direction orthogonal to the E&#x02010;vector of the irradiating light which defines the alignment direction (i.e., the easy axis) perpendicular to the E&#x02010;vector of the irradiating light, with almost zero tilt angle and a high anchoring energy.<xref rid="advs1374-bib-0037" ref-type="ref">37</xref>
+</p><p>The fabrication of photoaligned LCP/QR films is a multi&#x02010;step process which represents a straightforward and easily scalable procedure, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0011" ref-type="fig">
+<bold>11</bold>
+</xref>a. The SD1 alignment layer transfers a torque to the LC molecules and aligns them in a direction parallel to the easy axis of the SD1.[qv: 35a,38] Simultaneously, due to the repulsive intermolecular forces between the QR ligands and LC molecules, which exert counter&#x02010;torque on QRs, QRs are aligned perpendicular to the easy axis of the SD1. The QR ligands, to minimize the total energy of the system, try to fit in the monomer matrix like a comb. This provides a long&#x02010;range order to the QRs.[qv: 35b] The order parameter of the resulting QR&#x02010;based composite films calculated from the TEM images could be as high as 0.87.[qv: 35b] Examples of such QR enhancement films (QREFs) are shown in Figure <xref rid="advs1374-fig-0011" ref-type="fig">11</xref>b and c for the green and red emitting QRs, respectively, confirming the microscopically uniform distribution of QRs without any manifestation of clustering.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0011" orientation="portrait" position="float"><label>Figure 11</label><caption><p>a) Process flow to fabricate QREFs by photoalignment technology. b) 250 &#x000d7; 250 &#x000b5;m<sup>2</sup> fluorescence micrographs of green (b) and red (c) emitting QREFs. The corresponding curves for the emitted intensity as a function of the polarizer axis rotation angle, are presented in section (d) for green emitting QR and (e) for red emitting QR. Frame (f) represents the mixed QREF and (g) the multiple layer QREF. Reproduced with permission.<xref rid="advs1374-bib-0039" ref-type="ref">39</xref> Copyright 2017, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-29" xlink:href="ADVS-6-1901345-g011"/></fig><p>The polarization angle dependence of the emitted light for green and red emitting QREFs are presented in Figure <xref rid="advs1374-fig-0011" ref-type="fig">11</xref>d and e, respectively, and show good agreement with the Malus' law <italic>I</italic> (&#x003b8;) = (<italic>I</italic>
+<sub>max</sub> &#x02212; <italic>I</italic>
+<sub>min</sub>) cos<sup>2</sup>&#x003b8; + <italic>I</italic>
+<sub>min</sub>.<xref rid="advs1374-bib-0040" ref-type="ref">40</xref> The black line representing Malus' law fits well with the experimental data represented by the open circles for both rods. The measured polarization ratio for the aligned red and green QR were 7.8:1 and 7:1 respectively, confirming the high&#x02010;quality alignment of QRs in the QREF.[qv: 17b,20b,41]</p><p>QRs in an QREF for the LCD backlight application have to be arranged in a suitable configuration to provide the desired white balance of the backlight unit. There are two possible alternatives: first, mixing both types of QRs in the same film and optimizing the concentration. In this configuration, it is particularly important for the green emitting QRs to compensate for the reabsorption of the green emission by the low energy emitting QRs. Second, making a multiple layer stack and arranging the high&#x02010;energy emitters on top of the low energy emitters. Both of these alternatives were studied by Srivastava et al.<xref rid="advs1374-bib-0039" ref-type="ref">39</xref> The DOP of the mixed QREF and multiple layer QREF were measured as 0.67 and 0.76, obtained from Figure <xref rid="advs1374-fig-0011" ref-type="fig">11</xref>f and g, respectively. Based on these results, one can conclude that the multiple layer configuration is better. However, for LCD backlight applications, there are two scaling factors for the QREF brightness, first, the PL QY for the QRs, and second, the DOP of the aligned QREF. Thus, to enhance the LCD performance, both the PL QY and the DOP should be optimized.</p></sec><sec id="advs1374-sec-0140"><label>2.3.9</label><title>Patterning by Photoalignment</title><p>In addition to uniform alignment, the photoalignment approach offers the possibility to align the light emitting QRs on patterned surfaces.[qv: 35c] The azo dye&#x02010;based alignment layer has the ability to reorient the alignment direction upon subsequent irradiation by polarized light with a different polarization azimuth. This allows us to realize multi&#x02010;domains alignment of QRs: by adding an amplitude mask for the second irradiation, a micro&#x02010;scale alignment pattern for the QRs can be achieved with a distinguishable easy axis of alignment. Using this technique, domain sizes as small as 2 &#x000b5;m could be realized for the binary alignment domains, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0012" ref-type="fig">
+<bold>12</bold>
+</xref>.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0012" orientation="portrait" position="float"><label>Figure 12</label><caption><p>Pattern photoalignment of the light&#x02010;emitting CdSe/CdS QRs. a) Substrate containing six grating patterns with differing pitch/domain sizes in ambient light. b) Optical microscope images of the same substrate, presenting two neighboring grating patterns separated by a dashed line with domain sizes of 50 (left) and 40 &#x000b5;m (right). c) Diffraction image of a green laser (543.5 nm) after passing through the diffraction grating, showing zero, first and second order diffraction. d) Schematics, highlighting the origin of dark (<italic>I</italic>
+<sub>min</sub>) and bright (<italic>I</italic>
+<sub>max</sub>) states, according to the orientation of the QRs in regard to the polarizer main axis. e) Micrographs of fluorescent grating patterns with domain sizes of 40, 30, 20, 10, 5, and 2 &#x000b5;m. f) Representative intensity profile, recorded from the 30 &#x000b5;m pattern, following Malus' law. g) Normalized polarization ratios (from 2.5 to 1), determined from the intensity profiles (panel (f)) of each grating pattern, shown in (e). Format is chosen to illustrate the relative drops in the polarization ratios. The films were excited with a 12 V/100 W halogen lamp through a 546/12 nm bandpass filter. h) A simple illustration of the 2D binary alignment of the QR and emission profile against the polarization azimuth of the irradiating light. Reproduced from permission.[qv: 35c] Copyright 2017, American Chemical Society.</p></caption><graphic id="nlm-graphic-31" xlink:href="ADVS-6-1901345-g012"/></fig><p>To summarize the section on different alignment techniques, all of the above approaches, except for the photoalignment method, provide QR arrays with poor in&#x02010;plane control, limiting the highest reported DOP to 0.64 for CdSe/CdS dot&#x02010;in&#x02010;rod nanostructures.<xref rid="advs1374-bib-0014" ref-type="ref">14</xref>, <xref rid="advs1374-bib-0023" ref-type="ref">23</xref>, <xref rid="advs1374-bib-0024" ref-type="ref">24</xref>, <xref rid="advs1374-bib-0025" ref-type="ref">25</xref>, <xref rid="advs1374-bib-0026" ref-type="ref">26</xref>, <xref rid="advs1374-bib-0027" ref-type="ref">27</xref>, <xref rid="advs1374-bib-0028" ref-type="ref">28</xref>, <xref rid="advs1374-bib-0029" ref-type="ref">29</xref>, <xref rid="advs1374-bib-0030" ref-type="ref">30</xref>, <xref rid="advs1374-bib-0042" ref-type="ref">42</xref> Theoretically, the maximum DOP that could be achieved for such QRs, which are uniformly aligned in&#x02010;plane with a high order parameter, is around 10:1. For LCD BLU applications, there are four approaches that are most suitable for device manufacturing, namely photoalignment, electrospinning, polymer stretching of composite films, and the electric field assisted assembly, whose major characteristics are compared in <bold>Table</bold>
+<xref rid="advs1374-tbl-0001" ref-type="table">
+<bold>1</bold>
+</xref>. The photoalignment, stretching and electric field assisted approaches show good order parameter, but only photoalignment provides perfect in&#x02010;plane alignment control. Electrospinning gives superior uniformity but the order parameter is limited to 0.6 only. Photoalignment shows high DOP, high order parameter and acceptable film uniformity.</p><table-wrap id="advs1374-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Comparison of the reported characteristics of QR&#x02010;based oriented films produced by four different alignment techniques potentially suitable for the LCD BLU fabrication</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><thead><tr style="border-bottom:solid 1px #000000"><th align="left" rowspan="1" colspan="1"/><th align="center" rowspan="1" colspan="1">Photoalignment</th><th align="center" rowspan="1" colspan="1">Electrospinning</th><th align="center" rowspan="1" colspan="1">Polymer stretching</th><th align="center" rowspan="1" colspan="1">Electric field assisted</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Degree of polarization</td><td align="center" rowspan="1" colspan="1">&#x02265;0.76</td><td align="center" rowspan="1" colspan="1">&#x02248;0.6</td><td align="center" rowspan="1" colspan="1">0.7</td><td align="center" rowspan="1" colspan="1">0.6</td></tr><tr><td align="left" rowspan="1" colspan="1">Order parameter</td><td align="center" rowspan="1" colspan="1">&#x02265;0.85</td><td align="center" rowspan="1" colspan="1">N/A</td><td align="center" rowspan="1" colspan="1">0.8</td><td align="center" rowspan="1" colspan="1">0.8</td></tr><tr><td align="left" rowspan="1" colspan="1">In&#x02010;plane orientation</td><td align="center" rowspan="1" colspan="1">Yes</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">No</td><td align="center" rowspan="1" colspan="1">Depends on the electric field</td></tr><tr><td align="left" rowspan="1" colspan="1">Polarization ratio</td><td align="center" rowspan="1" colspan="1">&#x02265;7.8:1</td><td align="center" rowspan="1" colspan="1">4:1</td><td align="center" rowspan="1" colspan="1">6:1</td><td align="center" rowspan="1" colspan="1">4:1</td></tr><tr><td align="left" rowspan="1" colspan="1">Brightness</td><td align="center" rowspan="1" colspan="1">&#x02265;300 nits</td><td align="center" rowspan="1" colspan="1">N/A</td><td align="center" rowspan="1" colspan="1">N/A</td><td align="center" rowspan="1" colspan="1">N/A</td></tr><tr><td align="left" rowspan="1" colspan="1">Uniformity</td><td align="center" rowspan="1" colspan="1">Acceptable</td><td align="center" rowspan="1" colspan="1">High</td><td align="center" rowspan="1" colspan="1">Acceptable</td><td align="center" rowspan="1" colspan="1">Poor</td></tr><tr><td align="left" rowspan="1" colspan="1">Pattern alignment</td><td align="center" rowspan="1" colspan="1">Possible for multiple domains</td><td align="center" rowspan="1" colspan="1">Not possible</td><td align="center" rowspan="1" colspan="1">Not possible</td><td align="center" rowspan="1" colspan="1">Possible</td></tr><tr><td align="left" rowspan="1" colspan="1">Compatibility with LCDs</td><td align="center" rowspan="1" colspan="1">+++</td><td align="center" rowspan="1" colspan="1">++</td><td align="center" rowspan="1" colspan="1">++</td><td align="center" rowspan="1" colspan="1">+</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd.</copyright-holder></permissions></table-wrap></sec></sec></sec><sec id="advs1374-sec-0150"><label>3</label><title>Use of Quantum Dots and Aligned Quantum Rods in LCDs</title><sec id="advs1374-sec-0160"><label>3.1</label><title>Advantages and Limitations of the Contemporary LCDs</title><p>The burgeoning field of flat panel displays now encompasses both inorganic and organic electroluminescent LEDs;<xref rid="advs1374-bib-0043" ref-type="ref">43</xref> nevertheless, LCDs have maintained their dominant position in this field. The main advantages of LCDs are their low power consumption, low driving voltages, and cheap fabrication. There has been a vivid discussion in the display technology field on the topic &#x0201c;<italic>LCD versus OLED (organic light emitting diodes), who wins?</italic>&#x0201d;<xref rid="advs1374-bib-0044" ref-type="ref">44</xref> Both technologies have their own merits. Generally speaking, LCDs are leading in lifetime, brightness, and manufacturing cost, and they are comparable to OLEDs in resolution density, power consumption, ambient contrast ratio, and viewing angle but inferior to OLEDs in black state, panel flexibility, color gamut, and response time. However, recently introduced QD backlight technology has narrowed the performance gap between the LCD and OLED<xref rid="advs1374-bib-0044" ref-type="ref">44</xref>, <xref rid="advs1374-bib-0045" ref-type="ref">45</xref> and offered wider color gamut and lower power consumption. Furthermore, local dimming boosts the dynamic contrast ratio to 1 000 000:1.<xref rid="advs1374-bib-0046" ref-type="ref">46</xref> The remaining challenge for LCDs is the response time, which is &#x02248;100 times slower than in OLED. In reality, this is only a superficial challenge due to the limitation imposed by the addressing time of the thin film transistors. A range of approaches to improve the response time versus polymer&#x02010;stabilized blue phase LCs,<xref rid="advs1374-bib-0047" ref-type="ref">47</xref> low viscosity nematic LCs,<xref rid="advs1374-bib-0048" ref-type="ref">48</xref> and ferroelectric LCs<xref rid="advs1374-bib-0049" ref-type="ref">49</xref>, <xref rid="advs1374-bib-0051" ref-type="ref">51</xref> have been suggested; however, their limited brightness and energy efficiency, as well as their often unsatisfying viewing angle leave ample room for further improvements. The severe brightness and efficiency limitations of LCDs arise primarily because of the polarizers and absorbing color filters, that results in a large fraction of optical loss for the backlight.<xref rid="advs1374-bib-0050" ref-type="ref">50</xref> A simple illustration of the LCD components, along with an estimation of their light efficiency and brightness are provided in <bold>Figure</bold>
+<xref rid="advs1374-fig-0013" ref-type="fig">
+<bold>13</bold>
+</xref>.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0013" orientation="portrait" position="float"><label>Figure 13</label><caption><p>a) The common LCD architecture, with an indication of the constituent elements. b) A table listing LCD components with their optical efficiencies and brightness. Reproduced with permission.<xref rid="advs1374-bib-0039" ref-type="ref">39</xref> Copyright 2017, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-33" xlink:href="ADVS-6-1901345-g013"/></fig></sec><sec id="advs1374-sec-0170"><label>3.2</label><title>The Use of Quantum Dots in LCD Backlight Units</title><p>A simple illustration and comparison of the color performance of two LCDs equipped with an Yttrium Aluminum Garnet (YAG) based white LED BLU and QD&#x02010;based BLU is shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0014" ref-type="fig">
+<bold>14</bold>
+</xref>. With the spectral profile of the three well&#x02010;defined emission peaks, QD&#x02010;based BLU provides better color saturation and thus a wider color gamut. It has been reported that with an optimized QD&#x02010;based BLU, one can achieve a color triangle with greater than 115% of the NTSC standard in 1931 color space (via CIE coordinates).[qv: 2a,5] There are three possible configurations<xref rid="advs1374-bib-0051" ref-type="ref">51</xref> that have been explored for the QD&#x02010;based BLU for LCDs, as illustrated in <bold>Figure</bold>
+<xref rid="advs1374-fig-0015" ref-type="fig">
+<bold>15</bold>
+</xref>: i) edge optics proposed by QD Vision (Massachusetts); ii) QD&#x02010;based enhancement films, abbreviated as &#x0201c;QDEF&#x0201d; and proposed by Nanosys (California); and iii) a QD&#x02010;on&#x02010;chip design proposed by LumenMax Optoelectronics (Taiwan).</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0014" orientation="portrait" position="float"><label>Figure 14</label><caption><p>Comparison of LCDs equipped with different BLUs. a) White light from the YAG based LED BLU passes through the LCD panel and color filters to produce the full&#x02010;color image. b) The light from QD&#x02010;based BLU after passing through the LCD panel and color filters generates the full&#x02010;color images with highly saturated colors.</p></caption><graphic id="nlm-graphic-35" xlink:href="ADVS-6-1901345-g014"/></fig><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0015" orientation="portrait" position="float"><label>Figure 15</label><caption><p>Contemporary QD&#x02010;based BLU configurations for the LCDs: a) QD Vision Inc. (Massachusetts), b) Nanosys (California), and c) LumenMax Optoelectronics (Taiwan). Reproduced with permission.<xref rid="advs1374-bib-0051" ref-type="ref">51</xref> Copyright 2015, Wiley.</p></caption><graphic id="nlm-graphic-37" xlink:href="ADVS-6-1901345-g015"/></fig><p>QD Vision Inc. commercialized their QDs using an edge&#x02010;lit QD optic called Color IQ, which works with edge&#x02010;lit displays.<xref rid="advs1374-bib-0052" ref-type="ref">52</xref> In this configuration, the QDs are mixed with monomer were filled in an edge&#x02010;lit high precision glass tube and the monomer is polymerized. The tube acts as a strong barrier against moisture and oxygen, and is placed between the blue LEDs and a light guide in an edge&#x02010;lit backlight (Figure <xref rid="advs1374-fig-0015" ref-type="fig">15</xref>a). The concentrations of red and green converting QDs are adjusted to pass trichromatic white light, optimized for spectrally narrow color filters to maximize the throughput of the filters and deliver a wider color gamut than can be achieved with yellow phosphor LEDs. However, a significant portion of the light does not make it into the light guide, although some of it can be recaptured by integration of reflectors. Several companies adopted QD Vision's Color IQ system by 2016, including Hisense, Philips, Seiki, Sony, and TCL for TVs, as well as AOC and Philips for monitors. Importantly, the on&#x02010;edge approach for the QD implementation in displays requires a smaller quantity of QDs in comparison to the film approach. According to the estimates by Steckel et al., the worldwide consumption of QDs for the on&#x02010;edge approach, assuming 100% penetration of the QD in the LCD market, would be around 2&#x02013;3 tons per year. In similar conditions, film type devices would require more than 200 tons per year.<xref rid="advs1374-bib-0053" ref-type="ref">53</xref>
+</p><p>Nanosys also employed edge&#x02010;lit optics, particularly with films that generate trichromatic light with the right white color point, allowing a color filter to produce a wider color gamut than could be achieved with bichromatic light from a down&#x02010;converting yellow phosphor.<xref rid="advs1374-bib-0052" ref-type="ref">52</xref> They encapsulated the green and red emitting QDs together with small blue light&#x02010;scattering particles in the polymer film. The scattering particles were introduced in order to maximize the light usage. Nanosys' QDEFs can be used with either an edge&#x02010;lit or a direct&#x02010;lit BLU, which replaces the diffuser film by inserting red and green emitting QDs inside a film illuminated by blue LEDs (Figure <xref rid="advs1374-fig-0015" ref-type="fig">15</xref>b). Nanosys has so far been the biggest winner in the QD market, with their solution adopted in Samsung TVs ranging from 43&#x02033; to 88&#x02033; as well as other leading brands including Hisense, TCL, and Vizio.</p><p>Consequently, LumenMax came up with the idea of placing QDs directly on top of an LED chip, describing this structure as a QD&#x02010;LED (Figure <xref rid="advs1374-fig-0015" ref-type="fig">15</xref>c). This is a most desirable format because less QD material is required per display, and ease of system integration is maximized. However, this format demands QDs to withstand higher temperatures and excitation fluxes when compared with edge optic and film, and therefore, it requires further material and technological developments.</p><p>Zhonghuan Quantum Tech. together with researchers from the Southern University of Science and Technology in Shenzhen, China, proposed to use QD&#x02010;based luminescent microspheres (QLMS),<xref rid="advs1374-bib-0054" ref-type="ref">54</xref> as a type of a highly robust QD composite with long&#x02010;term operational stability. The fabrication procedure of their QLMS followed previously reported approaches,<xref rid="advs1374-bib-0055" ref-type="ref">55</xref> with several modifications. After soaking and swelling treatment, the average pore size of silica microspheres became enlarged and allowed the QDs solution to penetrate the pores and get access inside the silica matrix. Upon QD incorporation, the mesoporous silica structure prevented the QDs from aggregation, and reduced the contact surface between the QDs and the silicone, as well as between QDs and permeated oxygen and moisture promoting their stability. It was claimed that QLMS are fully compatible with current LED packaging processes and can be used as phosphors for direct on&#x02010;chip applications, meaning that tubes or films would be not required.</p><p>Recently a QD enhanced active color filter array was proposed to replace conventional color filters. In this array, QDs are printed on top of the LCD panel and work as the down converting material.<xref rid="advs1374-bib-0056" ref-type="ref">56</xref> An illustration of this rather straightforward approach is given in <bold>Figure</bold>
+<xref rid="advs1374-fig-0016" ref-type="fig">
+<bold>16</bold>
+</xref> where the blue light coming from the backlight is modulated by the LCD and later excites an array of QDs printed on the top.[qv: 56a] An advantage of this approach is that the LC device is only required to modulate a narrow bandwidth of the light, so that the thickness of the LC cell can be reduced greatly. This can greatly improve the LC response time and driving voltages. Furthermore, by replacing band pass color filters, which absorb a large portion of light, these emitting color filters can improve the efficiency of LCD devices if they have a high PL QY. Their placement in front of the display panel may also increase the color accuracy at higher viewing angles. At the same time, there are several issues with this approach, as it requires an additional optical filter to reduce backlight leakage and improve the contrast and viewing angle.[qv: 56b] Additionally, the LCD stack must be changed and the QD color filter needs to be placed after the analyzer, requiring some adjustments to the LCD production process.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0016" orientation="portrait" position="float"><label>Figure 16</label><caption><p>Scheme of a QD enhanced active color filter array. Reproduced with permission.[qv: 56a] Copyright 2017, IEEE Photonics Society.</p></caption><graphic id="nlm-graphic-39" xlink:href="ADVS-6-1901345-g016"/></fig></sec><sec id="advs1374-sec-0180"><label>3.3</label><title>The Use of Quantum Rods in LCDs</title><p>The conventional LCD structure is characterized by an overall optical efficiency of around 3&#x02013;5% (Figure <xref rid="advs1374-fig-0013" ref-type="fig">13</xref>b), and the light loss across the color filters and polarizers is more than 70%. Field sequential color displays were introduced to manage the losses of color filters, but finding solutions to increase the polarization efficiency of modern LCD still imposes a challenge.<xref rid="advs1374-bib-0005" ref-type="ref">5</xref> The backlight equipped with polarized light emitters as a color conversion layer may increase the polarization efficiency of the polarizer films from 45% to 70%, and therefore, the overall efficiency of the conventional LCD may increase from 3&#x02013;5% to 6&#x02013;8% (Figure <xref rid="advs1374-fig-0013" ref-type="fig">13</xref>b).<xref rid="advs1374-bib-0039" ref-type="ref">39</xref>
+</p><p>The polarized emission for the QR films depends on two factors: (i) the quality of the QRs, which is primarily defined by the florescent anisotropy, discussed above, and (ii) the quality of the unidirectional alignment of QRs, which is reflected by the order parameter. Additionally, because excitons in the QRs oscillate in mutually perpendicular directions, the QR alignment should not have any tilt for the alignment to leverage the full benefits of the polarized emission form QRs. Semiconductor QRs are characterized by the anisotropic absorption and emission, and therefore, by manipulating the angle of the polarization azimuth of the exciting beam in respect of the <italic>c</italic>&#x02010;axis of the aligned QRs, one can modulate the intensity of the emitted light, as illustrated in <bold>Figure</bold>
+<xref rid="advs1374-fig-0017" ref-type="fig">
+<bold>17</bold>
+</xref>.<xref rid="advs1374-bib-0057" ref-type="ref">57</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0017" orientation="portrait" position="float"><label>Figure 17</label><caption><p>a) Anisotropic absorption and emission from a single core&#x02010;shell CdSe/CdS QR, with its long axis (<italic>c</italic>&#x02010;axis) parallel to the <italic>x</italic>&#x02010;axis in the xyz coordinates, b) Relative emission intensities of CdSe/CdS QRs aligned in <italic>xy</italic> plane at &#x003b8; = 0&#x000b0;, 45&#x000b0;, and 90&#x000b0; with regard to the polarization azimuth of the impinging light. Reproduced with permission.<xref rid="advs1374-bib-0057" ref-type="ref">57</xref> Copyright 2018, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-41" xlink:href="ADVS-6-1901345-g017"/></fig><p>In the composite films produced by the photoalignment technique, QRs are surrounded by LC molecules, which also show optical anisotropy and are situated orthogonal (in&#x02010;plane) to the QRs. The refractive indices and the relative permittivities of longer (<italic>c</italic>&#x02010;axis) and shorter axis (<italic>a</italic>&#x02010;axis) of LC molecules are <italic>n</italic>
+<sub>&#x02225;</sub>, <italic>n</italic>
+<sub>&#x022a5;</sub>, &#x003b5;<sub>&#x02225;</sub>, and &#x003b5;<sub>&#x022a5;</sub>, respectively, and the relative permittivity of the QRs is denoted as &#x003b5;<sub>rod</sub>. Then, the local&#x02010;field factors of <italic>c</italic>&#x02010;axis and <italic>a</italic>&#x02010;axis can be expressed as:[qv: 17b,58]
+<disp-formula id="advs1374-disp-0002"><label>(2)</label><mml:math id="nlm-math-4"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi><mml:mo>/</mml:mo><mml:mo>/</mml:mo></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:msub><mml:mi>&#x003b1;</mml:mi><mml:mi>c</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+<disp-formula id="advs1374-disp-0003"><label>(3)</label><mml:math id="nlm-math-5"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x02225;</mml:mo></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x02225;</mml:mo></mml:msub><mml:mo>+</mml:mo><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:mrow></mml:msub><mml:mo>&#x02212;</mml:mo><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mo>&#x02225;</mml:mo></mml:msub></mml:mrow></mml:mfenced></mml:mrow><mml:msub><mml:mi>&#x003b1;</mml:mi><mml:mi>a</mml:mi></mml:msub></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+where the &#x003b1;<sub><italic>a</italic></sub> and &#x003b1;<sub><italic>c</italic></sub> are depolarization factors for <italic>a</italic>&#x02010; and <italic>c</italic>&#x02010;axis, respectively.</p><p>The absorption <italic>A</italic> of a QR in the LCP matrix is related to the intrinsic absorption coefficient, <italic>&#x000b5;</italic>
+<sub><italic>i</italic></sub>:
+<disp-formula id="advs1374-disp-0004"><label>(4)</label><mml:math id="nlm-math-6"><mml:mrow><mml:msub><mml:mi>&#x003bc;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="normal">ln</mml:mi><mml:mrow><mml:mfenced><mml:mrow><mml:mn>10</mml:mn></mml:mrow></mml:mfenced></mml:mrow><mml:mfrac><mml:mi>A</mml:mi><mml:mrow><mml:mi>f</mml:mi><mml:mi>L</mml:mi></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+where <italic>L</italic> is the propagation distance of the impinging light, and <italic>f</italic> is the QR volume fraction in the film. Within the Maxwell Garnett model, the absorption coefficients of <italic>c</italic>&#x02010; and <italic>a</italic>&#x02010;axis can be expressed in terms of the refractive indices and the dielectric functions of the surrounding molecules:<xref rid="advs1374-bib-0021" ref-type="ref">21</xref>
+<disp-formula id="advs1374-disp-0005"><label>(5)</label><mml:math id="nlm-math-7"><mml:mrow><mml:msub><mml:mi>&#x003bc;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x003c0;</mml:mi><mml:mo>&#x02009;</mml:mo><mml:msubsup><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi></mml:mrow><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msubsup><mml:msup><mml:mrow/><mml:mrow/></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:msub><mml:mi>&#x003bb;</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#x02009;</mml:mo><mml:mo>&#x02009;</mml:mo><mml:mo>&#x02009;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mfenced open="|" close="|"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></disp-formula>
+<disp-formula id="advs1374-disp-0006"><label>(6)</label><mml:math id="nlm-math-8"><mml:mrow><mml:msub><mml:mi>&#x003bc;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x003c0;</mml:mi><mml:mo>&#x02009;</mml:mo><mml:msub><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow/><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mo>&#x02225;</mml:mo></mml:msub><mml:mi>&#x003bb;</mml:mi></mml:mrow></mml:mfrac><mml:mo>&#x02009;</mml:mo><mml:mo>&#x02009;</mml:mo><mml:mo>&#x02009;</mml:mo><mml:msup><mml:mrow><mml:mrow><mml:mfenced open="|" close="|"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:math></disp-formula>
+</p><p>Therefore, the absorption coefficient of the QR for the linearly polarized light will depend on the angle &#x003b8; and can be derived as:
+<disp-formula id="advs1374-disp-0007"><label>(7)</label><mml:math id="nlm-math-9"><mml:mrow><mml:msub><mml:mi>&#x003bc;</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">QR</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x003c0;</mml:mi><mml:msup><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup><mml:msub><mml:mrow/><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mo>&#x022a5;</mml:mo></mml:msub><mml:mi>&#x003bb;</mml:mi></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mrow><mml:mfenced open="|" close="|"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>c</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:msup><mml:mrow><mml:mi mathvariant="normal">cos</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>&#x003b8;</mml:mi><mml:mo>+</mml:mo><mml:mfrac><mml:mrow><mml:mn>2</mml:mn><mml:mi>&#x003c0;</mml:mi><mml:mo>&#x02009;</mml:mo><mml:msup><mml:mi>&#x003b5;</mml:mi><mml:mrow><mml:mo>&#x02032;</mml:mo><mml:mo>&#x02032;</mml:mo></mml:mrow></mml:msup><mml:msub><mml:mrow/><mml:mrow><mml:mi mathvariant="normal">rod</mml:mi></mml:mrow></mml:msub></mml:mrow><mml:mrow><mml:msub><mml:mi>n</mml:mi><mml:mo>&#x02225;</mml:mo></mml:msub><mml:mi>&#x003bb;</mml:mi></mml:mrow></mml:mfrac><mml:msup><mml:mrow><mml:mrow><mml:mfenced open="|" close="|"><mml:mrow><mml:msub><mml:mi>f</mml:mi><mml:mrow><mml:mi mathvariant="normal">LF</mml:mi><mml:mo>,</mml:mo><mml:mi>a</mml:mi></mml:mrow></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:msup><mml:mrow><mml:mi mathvariant="normal">sin</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mi>&#x003b8;</mml:mi></mml:mrow></mml:math></disp-formula>
+</p><p>Thus, by controlling the polarization azimuth of the irradiating light, the emission intensity from aligned QR film can be well modulated.</p><p>Aubert et al. synthesized aligned, silica coated CdSe/CdS QRs in polymer nanofibers by electrospinning.[qv: 30b] The uniaxial extensional flow experienced by the particles induced alignment of the QRs within the nanofibers. A subsequent parallel alignment of the nanofibers themselves resulted in a flexible film of 1.5 cm<sup>2</sup>, with a DOP of 0.45. It has been shown that such a self&#x02010;supporting film can induce the alignment of a nematic LC. By integrating them into a LC cell with a polarizer, the simple liquid crystal device constitutes an efficient way of electrically switching on and off polarized light by 5.0 volts and fully preserving the polarization ratio over a large area (<bold>Figure</bold>
+<xref rid="advs1374-fig-0018" ref-type="fig">
+<bold>18</bold>
+</xref>).</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0018" orientation="portrait" position="float"><label>Figure 18</label><caption><p>LC cell employing CdSe/CdS@SiO<sub>2</sub>@polymer nanofibers and corresponding fluorescence microscopy images depending on the polarizer orientation and electric field. a) Polarizer is parallel to the nanofibers (0&#x000b0;), and no electric field is applied. b) Polarizer is rotated perpendicularly to the nanofibers (90&#x000b0;), and no electric field is applied (ON&#x02010;position). c) Polarizer is maintained perpendicular to the nanofibers (90&#x000b0;), and a 50 V electric field is applied (OFF&#x02010;position). Insets of the fluorescence microscopy images in (b) and (c) show photographs of the LC cell using a portable UV lamp for the excitation. Reproduced with permission.[qv: 30b] Copyright 2015, American Chemical Society.</p></caption><graphic id="nlm-graphic-43" xlink:href="ADVS-6-1901345-g018"/></fig><p>Zhang et al. presented a fixed information display, where the image is defined by the pre&#x02010;aligned QR domains in the film, and the contrast can be controlled with a LC based polarization rotator (<bold>Figure</bold>
+<xref rid="advs1374-fig-0019" ref-type="fig">
+<bold>19</bold>
+</xref>).<xref rid="advs1374-bib-0057" ref-type="ref">57</xref> It was demonstrated that using a VAN LCD cell driven by an array of thin film transistors, an optically addressable random information display which is able to show any image with a substantial depth of gray scale could be produced. The LC cell with QRs showed the same properties as a regular LC cell under crossed polarizers but added controllable down conversion emission from aligned QRs (Figure <xref rid="advs1374-fig-0019" ref-type="fig">19</xref>). Because of the in&#x02010;cell structure, such optically addressable devices have large potential for efficient and stable color conversion in photo&#x02010;emissive displays,[qv: 30b,59] security applications and other applications related to displays and photonics.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0019" orientation="portrait" position="float"><label>Figure 19</label><caption><p>Strategies to generate emission contrast from photoaligned QR films. a,b) Two images are projected on one unidirectional aligned QRs substrate by polarized backlight through a VAN LCD, which facilitates to control 16 polarization azimuthal angles of individual pixels (200 &#x000b5;m &#x000d7; 200 &#x000b5;m). The inset image in (b) presents an array of pixels with 5 &#x000d7; magnification. c) In&#x02010;LC cell optically addressable emissive QR display. d) The patterns &#x0201c;N&#x0201d; and &#x0201c;R&#x0201d; with backlight under cross polarizers (upper part), and polarizer&#x02010;free emission patterns &#x0201c;N&#x0201d; and &#x0201c;R&#x0201d; with impinging light (&#x003bb; = 450 nm) and 480 nm cut&#x02010;off color filter (bottom part). Reproduced with permission.<xref rid="advs1374-bib-0057" ref-type="ref">57</xref> Copyright 2018, Wiley&#x02010;VCH.</p></caption><graphic id="nlm-graphic-45" xlink:href="ADVS-6-1901345-g019"/></fig></sec><sec id="advs1374-sec-0190"><label>3.4</label><title>The Color Performance Optimization for the Backlights with Quantum Dots and Rods</title><p>To date, QDs have been heavily explored for LCDs with enhanced optical performances. In this respect, QD Vision, Inc. has compared the color performance and power efficiency for two LCDs equipped with white LED backlight and QD backlights, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0020" ref-type="fig">
+<bold>20</bold>
+</xref>. The area within the CIE color triangle for the LCD display with a QD backlight is larger than the 100% of the NTSC in 1931 color space.[qv: 2a,56a] Furthermore, they claimed that the PL bandwidth should be smaller than 30 nm for a wider color gamut and better optical efficiency. In addition to the saturated color, the QD&#x02010;based backlight also offers better optical efficiency; it was estimated that QD equipped LCDs can save at least 20% more power than conventional alternatives.<xref rid="advs1374-bib-0060" ref-type="ref">60</xref> QD Vision has also proposed a new standard called &#x0201c;Color Nits&#x0201d; for measuring brightness and luminance in the latest high&#x02010;performance displays that support high dynamic range and wide color gamut. The &#x0201c;Color Nits&#x0201d; metric is derived from a formula that takes into account varying spectral profiles and the subtle differences between perceived brightness and actual luminance. This concept integrated some aspects of the so&#x02010;called Helmholtz&#x02013;Kohlrausch effect, which states that more saturated colors can appear brighter than less saturated ones of equivalent luminance, meaning that wider color gamut results in higher perceived brightness levels.<xref rid="advs1374-bib-0061" ref-type="ref">61</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0020" orientation="portrait" position="float"><label>Figure 20</label><caption><p>Comparison of the color performance of two LCDs equipped with a) white LEDs and b) QD backlight unit are compared to NTSC standard for television. (Image courtesy: QD Vision).</p></caption><graphic id="nlm-graphic-47" xlink:href="ADVS-6-1901345-g020"/></fig><p>Wu and co&#x02010;workers studied the effect of the PL peak position and its FWHM on the optical performance of an LCD equipped with QDs.<xref rid="advs1374-bib-0062" ref-type="ref">62</xref> There are two characterization parameters for QD&#x02010;based LCDs, the color gamut and the total efficiency of the radiation (TER). Both of these parameters were evaluated in ref. [qv: 62b] using a function of six different parameters of the QDs (e.g., the PL wavelength (<italic>&#x003bb;<sub>i</sub></italic>) and FWHM), where <italic>i</italic> is r (red), g (green) and b (blue), and human eye sensitivity. The two proposed equations are:
+<disp-formula id="advs1374-disp-0008"><label>(8)</label><mml:math id="nlm-math-10"><mml:mrow><mml:mi mathvariant="normal">Color</mml:mi><mml:mo>&#x02009;</mml:mo><mml:mi mathvariant="normal">gamut</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">g</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">g</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math></disp-formula>
+<disp-formula id="advs1374-disp-0009"><label>(9)</label><mml:math id="nlm-math-11"><mml:mrow><mml:mi mathvariant="normal">TER</mml:mi><mml:mo>=</mml:mo><mml:msub><mml:mi>F</mml:mi><mml:mn>2</mml:mn></mml:msub><mml:mrow><mml:mfenced><mml:mrow><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">b</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">g</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">g</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:msub><mml:mi>&#x003bb;</mml:mi><mml:mi mathvariant="normal">r</mml:mi></mml:msub></mml:mrow></mml:mfenced></mml:mrow></mml:mrow></mml:math></disp-formula>
+where &#x003bb; is the wavelength and &#x00394;&#x003bb; is the FWHM for each color, r, g, and b. Since color gamut in the above equation can be defined either in CIE 1931 or CIE 1976 color space, they have performed two separate optimizations, as shown in <bold>Figure</bold>
+<xref rid="advs1374-fig-0021" ref-type="fig">
+<bold>21</bold>
+</xref>. The performance of the conventional backlight sources is also included in the same figure for comparison. In Figure <xref rid="advs1374-fig-0021" ref-type="fig">21</xref>a, the black curve represents the so&#x02010;called &#x0201c;Pareto front&#x0201d; of QD backlight performance. The QD backlight could vary from low color gamut (77% NTSC) but high TER (32.3 lm W<sup>&#x02212;1</sup>) to high color gamut (123% NTSC) but low TER (&#x0003c;20 lm W<sup>&#x02212;1</sup>). The trade&#x02010;off between TER and color gamut is obvious because the gain of one metric results from the loss of the other.[qv: 62b] The QD backlight outperforms conventional backlight sources in both system: it can reach a color gamut of 115% of the NTSC standard in CIE1931 color space and 140% of the NTSC standard in CIE 1976 color space, while maintaining the same energy efficiency as conventional light sources. The effect of PL FWHM on the two parameters is shown in Figure <xref rid="advs1374-fig-0021" ref-type="fig">21</xref>c. Later on, the same group optimized the optical efficiency and color gamut simultaneously to realize Rec. 2020 for QD LCDs;[qv: 62a] 97% of the Rec. 2020 color gamut could be achieved while maintaining a reasonably high optical efficiency for both fringe&#x02010;field&#x02010;switching and multi&#x02010;domain vertical&#x02010;alignment LCDs.</p><fig fig-type="Figure" xml:lang="en" id="advs1374-fig-0021" orientation="portrait" position="float"><label>Figure 21</label><caption><p>Color gamut optimization for the QD LCD in a) 1931 color space and b) 1976 color space. c) The Pareto front for the QD backlight for QDs with different PL FWHM. Reproduced with permission.[qv: 62b] Copyright 2013, The Optical Society.</p></caption><graphic id="nlm-graphic-49" xlink:href="ADVS-6-1901345-g021"/></fig></sec></sec><sec id="advs1374-sec-0200"><label>4</label><title>Conclusions and Outlook</title><p>The Cd&#x02010;based light&#x02010;emitting nanocrystals have been thoroughly explored, and the current state of art for the synthesis of these materials allow us to achieve PL QY &#x02248;100% and FWHM of the emission &#x02248;30 nm, both highly suitable for display applications. However, because of the limitations on Cd toxicity, several markets have imposed severe limitations on the use of these materials in consumer products. Currently, the concentration of Cd in displays is restricted to 0.2 &#x000b5;g mm<sup>&#x02212;2</sup> by the <italic>EU RoHS2</italic> directive. We note that the Cd concentration for the existing QREF is &#x02248;0.05 &#x000b5;g mm<sup>&#x02212;2</sup>, which is already below the limit stated in the <italic>EU RoHS2</italic> directive. However, it would be highly desirable to avoid the cadmium completely or find a way to reduce the concentration of Cd well below the limit to avoid any potential risk for humans and environment. On the other hand, stability of the Cd&#x02010;based nanocrystals in an open environment is not the main issue for QDEF and QREFs, because mostly they are well encapsulated in the polymer films and their stability is thus greatly enhanced.</p><p>For cadmium&#x02010;free QRs, indium phosphide can be a potential replacement candidate, but the bandgap for bulk InP is 1.35 eV, smaller than that of CdSe. In order to reach the same emission wavelength, the core size of the InP QDs must also be smaller than that of CdSe. Smaller bandgaps and smaller particle sizes lead to much stronger confinement effects, and as a result, the emission spectrum of InP QDs is more susceptible to particle size variations, and its FWHM is somewhat broader (&#x0003e;40 nm). This corresponds to a 70&#x02212;80% Rec. 2020 color gamut, depending on the color filters employed. However, backlights based on InP QDs have already been widely used in TV products, such as in Samsung QD TV series, and have exhibited excellent performance and long lifetime.<xref rid="advs1374-bib-0063" ref-type="ref">63</xref> InP QDs are non&#x02010;toxic, however, there are still synthetic challenges, given that phosphide precursors are highly reactive and potentially dangerous. This issue is even worse for anisotropic NCs based on InP, given the synthetic demands of higher concentration and, often, more reactive precursors. One approach proposed by Nanosys is a &#x0201c;greener&#x0201d; QD system obtained by combining the Cd&#x02010;free and low Cd&#x02010;based QDs.<xref rid="advs1374-bib-0064" ref-type="ref">64</xref> This hybrid approach not only retains 90% Rec. 2020 color gamut but also complies with the RoHS regulation.</p><p>Another approach to the toxicity issue could be to use cesium lead halide perovskite QRs as the polarized emitter. These materials are very similar in synthesis and material properties to II&#x02010;VI and III&#x02010;V nanocrystals and display high QY and small FWHM of emission, making them well suited for LED applications. Several recent breakthroughs with these materials have occurred, and the field has experienced unprecedented development in just a few years' time.<xref rid="advs1374-bib-0065" ref-type="ref">65</xref>, <xref rid="advs1374-bib-0066" ref-type="ref">66</xref>, <xref rid="advs1374-bib-0067" ref-type="ref">67</xref> While the current stability limitations and the presence of toxic Pb may again be a limiting factor for commercialization,<xref rid="advs1374-bib-0068" ref-type="ref">68</xref> recent results of high efficiency electroluminescent perovskite LEDs have generated significant interest in CsPbBr<sub>3</sub> as a down&#x02010;conversion emitter.<xref rid="advs1374-bib-0065" ref-type="ref">65</xref>, <xref rid="advs1374-bib-0066" ref-type="ref">66</xref>, <xref rid="advs1374-bib-0067" ref-type="ref">67</xref> Nanocrystals of metal lead halides have been demonstrated with multiple routes to synthesis, including in situ and in polar solvents,<xref rid="advs1374-bib-0068" ref-type="ref">68</xref>, <xref rid="advs1374-bib-0069" ref-type="ref">69</xref> and color tunability, including halide exchange and quantum size effects<sub>,</sub> to achieve linewidths as thin as 17 nm in FWHM. Emission from perovskite QRs has been found to display strong polarization anisotropy.<xref rid="advs1374-bib-0068" ref-type="ref">68</xref> Perovskite nanowires synthesized via A&#x02010;group substitution suggests that a large family of anisotropic, inorganic perovskite nanocrystals with varying properties may be synthesized via careful selection of the reaction precursors.<xref rid="advs1374-bib-0070" ref-type="ref">70</xref> Finally, in situ perovskite nanorod synthesis and alignment,<xref rid="advs1374-bib-0071" ref-type="ref">71</xref> and early stage LCD pixels have been reported, albeit with limited performance thus far. All this suggests that several innovative approaches are possible to achieving polarized emission from perovskites in LCDs.</p><p>The polarized emission from well&#x02010;aligned semiconductor QRs has a great potential to improve the efficiency of modern LCDs, and there have been several approaches demonstrated in literature to realize such an alignment, as summarized in Table <xref rid="advs1374-tbl-0001" ref-type="table">1</xref>. While DOPs of resulting systems may not be sufficient to completely eliminate the need for the polarizers, they can reduce losses in the LC polarizer considerably. Photoaligned QREFs employing semiconductor QRs with polarized emission for brightness enhancement of the BLUs have been demonstrated, and these showed improved light efficiency in addition to color enhancement for LCDs.[qv: 35c,39] Additionally, the dipolar emission of the QRs offers higher output light coupling in comparison to QDs. For the LCD backlight application, there are two scaling factors for the QREF brightness: i) the PLQY of the QR and ii) the DOP of the aligned QREF. Thus, for the real benefits it is important to achieve both high PL QY and high DOP in the QREFs. Figure <xref rid="advs1374-fig-0013" ref-type="fig">13</xref>b shows that the brightness of the LCD can be increased from 4.8% to 7.9%. The narrower emission (FWHM &#x0003c; 30 nm) and shorter emission wavelength for the green emitters (PL maximum &#x02248;520 nm) would further help to enhance the color performance of the QREF. This can be achieved by both optimization of the traditional QR synthesis or by employment of alternative nanomaterials with polarized emission such as II&#x02010;VI semiconductor nanoplatelets, or perovskite nanocrystals.</p></sec><sec sec-type="COI-statement" id="advs1374-sec-0220"><title>Conflict of Interest</title><p>The authors declare no conflict of interest.</p></sec></body><back><ack id="advs1374-sec-0210"><title>Acknowledgements</title><p>The financial support from the ITF Grant ITS/370/16 from Innovation and Technology Commission of Hong Kong, from the National Natural Science Foundation of China (NSFC)/Research Grants Council (RGC) Joint Research project N_CityU108/17, and from the State Key Laboratory of Advanced Displays and Optoelectronics Technologies, Hong Kong University of Science and Technology, is gratefully acknowledged. A.L.R. acknowledges the Senior Research Fellowship from the Croucher Foundation, Hong Kong.</p></ack><bio id="advs1374-biog-0001"><p>
+<bold>Abhishek Kumar Srivastava</bold> is an assistant professor at the Hong Kong University of Science and Technology. He received his Ph.D. degree in 2009 from the University of Lucknow, India. His current research interests include photo&#x02010;alignment technology, nanomaterials, and fast liquid crystals for advanced displays and photonic devices. He is a senior member of the Society for Information Display (SID), United States.</p><graphic xlink:href="ADVS-6-1901345-g023.gif" position="anchor" id="nlm-graphic-1" orientation="portrait"/></bio><bio id="advs1374-biog-0002"><p>
+<bold>Jonathan E. Halpert</bold> is an assistant professor at the Hong Kong University of Science and Technology. He received his B.S. in Chemistry from Tufts University (2003) and Ph.D. in Physical Chemistry from MIT (2008). He was a postdoctoral fellow at CAS&#x02010;IPE in Beijing and in the Optoelectronics Group at the University of Cambridge and later was a senior lecturer, Rutherford Discovery Fellow, and PI in the MacDiarmid Institute at Victoria University of Wellington. His research interests include nanocrystals, and quantum dots, especially perovskites, in optoelectronic devices, including memristors, batteries, solar cells, photodetectors and LEDs.</p><graphic xlink:href="ADVS-6-1901345-g024.gif" position="anchor" id="nlm-graphic-3" orientation="portrait"/></bio><bio id="advs1374-biog-0003"><p>
+<bold>Andrey L. Rogach</bold> is a chair professor of photonics materials and the founding director of the Centre for Functional Photonics at City University of Hong Kong. He received his Diploma in Chemistry (1991) and Ph.D. in Physical Chemistry (1995) from the Belarusian State University in Minsk and worked as a staff scientist at the University of Hamburg, Germany, from 1995 to 2002. During 2002&#x02013;2009, he was a lead staff scientist at the Department of Physics of the Ludwig&#x02010;Maximilians&#x02010;University in Munich, Germany, where he completed his habilitation in experimental physics. His research focuses on the synthesis and optical spectroscopy of colloidal semiconductor and metal nanocrystals and their use for optoelectronic applications.</p><graphic xlink:href="ADVS-6-1901345-g025.gif" position="anchor" id="nlm-graphic-5" orientation="portrait"/></bio><ref-list id="advs1374-bibl-0001"><ref id="advs1374-bib-0001"><label>1</label><mixed-citation publication-type="book" id="advs1374-cit-0001">
+<string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">Semiconductor Nanocrystal Quantum Dots</source>, <publisher-name>Springer</publisher-name>, <publisher-loc>NY</publisher-loc>
+<year>2008</year>.</mixed-citation></ref><ref id="advs1374-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="advs1374-cit-0002">a) <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>He</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">IEEE J. Sel. Top. Quantum Electron.</source>
+<year>2017</year>, <volume>23</volume>, <fpage>1</fpage>;</mixed-citation><mixed-citation publication-type="book" id="advs1374-cit-0003">b) <string-name>
+<given-names>L.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, in <source xml:lang="en">Photoactive Semiconductor Nanocrystal Quantum Dots</source>, <publisher-name>Springer</publisher-name>, <publisher-loc>NY</publisher-loc>
+<year>2017</year>, p. <fpage>123</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="advs1374-cit-0004">a) <string-name>
+<given-names>S.</given-names>
+<surname>Coe</surname>
+</string-name>, <string-name>
+<given-names>W. K.</given-names>
+<surname>Woo</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Bulovi&#x00107;</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>2002</year>, <volume>420</volume>, <fpage>800</fpage>;<pub-id pub-id-type="pmid">12490945</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0005">b) <string-name>
+<given-names>P. O.</given-names>
+<surname>Anikeeva</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Halpert</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Bulovi&#x00107;</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2009</year>, <volume>9</volume>, <fpage>2532</fpage>.<pub-id pub-id-type="pmid">19514711</pub-id></mixed-citation></ref><ref id="advs1374-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="advs1374-cit-0006">a) <string-name>
+<given-names>G. R.</given-names>
+<surname>Fern</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Silver</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Coe&#x02010;Sullivan</surname>
+</string-name>, <string-name>
+<given-names>J. S.</given-names>
+<surname>Steckel</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2014</year>, <volume>45</volume>, <fpage>59</fpage>;</mixed-citation><mixed-citation publication-type="book" id="advs1374-cit-0007">b) <string-name>
+<given-names>G. W.</given-names>
+<surname>Bryant</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Solomon</surname>
+</string-name>, <source xml:lang="en">Optics of Quantum Dots and Wires</source>, <publisher-name>Artech House</publisher-name>, <publisher-loc>Boston, MA</publisher-loc>
+<year>2005</year>;</mixed-citation><mixed-citation publication-type="book" id="advs1374-cit-0008">c) <string-name>
+<given-names>Y.</given-names>
+<surname>Masumoto</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Takagahara</surname>
+</string-name>, <source xml:lang="en">Semiconductor Quantum Dots: Physics, Spectroscopy and Applications</source>, <publisher-name>Springer</publisher-name>, <publisher-loc>Berlin, Germany</publisher-loc>
+<year>2013</year>.</mixed-citation></ref><ref id="advs1374-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="advs1374-cit-0009">
+<string-name>
+<given-names>S.</given-names>
+<surname>Coe&#x02010;Sullivan</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2016</year>, <volume>47</volume>, <fpage>239</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0006"><label>6</label><mixed-citation publication-type="miscellaneous" id="advs1374-cit-0010">
+<string-name>
+<given-names>J.</given-names>
+<surname>Colegrove</surname>
+</string-name>, <article-title>Quantum Dot Market 2018 Report</article-title>, <ext-link ext-link-type="uri" xlink:href="https://touchdisplayresearch.com/?page_id=3790/">https://touchdisplayresearch.com/?page_id=3790/</ext-link> (accessed: March <year>2019</year>).</mixed-citation></ref><ref id="advs1374-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="advs1374-cit-0011">a) <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Hardev</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Yurek</surname>
+</string-name>, <source xml:lang="en">Nanotechnol. Law Bus.</source>
+<year>2014</year>, <volume>11</volume>, <fpage>4</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0012">b) <string-name>
+<given-names>N. L.</given-names>
+<surname>Pickett</surname>
+</string-name>, <string-name>
+<given-names>N. C.</given-names>
+<surname>Gresty</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2017</year>, <volume>48</volume>, <fpage>562</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="advs1374-cit-0013">a) <string-name>
+<given-names>R.</given-names>
+<surname>Waniata</surname>
+</string-name>, <article-title>Taste the Rainbow: LG will Ratchet up Color in its 2015 LCDs with Quantum Dots</article-title>, <ext-link ext-link-type="uri" xlink:href="https://www.digitaltrends.com/home-theater/lg-to-unveil-new-quantum-dot-tvs-at-ces/">https://www.digitaltrends.com/home-theater/lg-to-unveil-new-quantum-dot-tvs-at-ces/</ext-link> (accessed: March <year>2019</year>);</mixed-citation><mixed-citation publication-type="miscellaneous" id="advs1374-cit-0014">b) <string-name>
+<given-names>J.&#x02010;P. S.</given-names>
+<surname>Ruth</surname>
+</string-name>, <article-title>The Next Phase of the TV Tech Battle: Quantum Dot vs. OLED Display</article-title>, <ext-link ext-link-type="uri" xlink:href="https://xconomy.com/new-york/2016/01/15/the-next-phase-of-the-tv-tech-battle-quantum-dot-vs-oled-display/">https://xconomy.com/new-york/2016/01/15/the-next-phase-of-the-tv-tech-battle-quantum-dot-vs-oled-display/</ext-link> (accessed: March <year>2019</year>).</mixed-citation></ref><ref id="advs1374-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="advs1374-cit-0015">
+<string-name>
+<given-names>H.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Polavarapu</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Sichert</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Susha</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Urban</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">NPG Asia Mater.</source>
+<year>2016</year>, <volume>8</volume>, <elocation-id>e328</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="advs1374-cit-0016">a) <string-name>
+<given-names>J. T.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>L. S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>W. D.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Manna</surname>
+</string-name>, <string-name>
+<given-names>L. W.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>A. P.</given-names>
+<surname>Alivisatos</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2001</year>, <volume>292</volume>, <fpage>2060</fpage>;<pub-id pub-id-type="pmid">11337589</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0017">b) <string-name>
+<given-names>C.</given-names>
+<surname>Grivas</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Andreakou</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ding</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Brambilla</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Manna</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Lagoudakis</surname>
+</string-name>, <source xml:lang="en">Nat. Commun.</source>
+<year>2013</year>, <volume>4</volume>, <fpage>2376</fpage>.<pub-id pub-id-type="pmid">23974520</pub-id></mixed-citation></ref><ref id="advs1374-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="advs1374-cit-0018">
+<string-name>
+<given-names>S.</given-names>
+<surname>Baskoutas</surname>
+</string-name>, <string-name>
+<given-names>A. F.</given-names>
+<surname>Terzis</surname>
+</string-name>, <source xml:lang="en">J. Appl. Phys.</source>
+<year>2006</year>, <volume>99</volume>, <elocation-id>013708</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="advs1374-cit-0019">a) <string-name>
+<given-names>L.</given-names>
+<surname>Brus</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem.</source>
+<year>1986</year>, <volume>90</volume>, <fpage>2555</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0020">b) <string-name>
+<given-names>T.</given-names>
+<surname>Kippeny</surname>
+</string-name>, <string-name>
+<given-names>L. A.</given-names>
+<surname>Swafford</surname>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Rosenthal</surname>
+</string-name>, <source xml:lang="en">J. Chem. Educ.</source>
+<year>2002</year>, <volume>79</volume>, <fpage>1094</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0021">c) <string-name>
+<given-names>L.</given-names>
+<surname>Brus</surname>
+</string-name>, <source xml:lang="en">J. Chem. Phys.</source>
+<year>1984</year>, <volume>80</volume>, <fpage>4403</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="advs1374-cit-0022">
+<string-name>
+<given-names>C.</given-names>
+<surname>de Mello Doneg&#x000e1;</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2011</year>, <volume>40</volume>, <fpage>1512</fpage>.<pub-id pub-id-type="pmid">20972490</pub-id></mixed-citation></ref><ref id="advs1374-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="advs1374-cit-0023">
+<string-name>
+<given-names>P. D.</given-names>
+<surname>Cunningham</surname>
+</string-name>, <string-name>
+<given-names>J. B.</given-names>
+<surname>Souza</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Fedin</surname>
+</string-name>, <string-name>
+<given-names>C. X.</given-names>
+<surname>She</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>D. V.</given-names>
+<surname>Talapin</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2016</year>, <volume>10</volume>, <fpage>5769</fpage>.<pub-id pub-id-type="pmid">27203222</pub-id></mixed-citation></ref><ref id="advs1374-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="advs1374-cit-0024">a) <string-name>
+<given-names>B.</given-names>
+<surname>Ab&#x000e9;cassis</surname>
+</string-name>, <string-name>
+<given-names>M. D.</given-names>
+<surname>Tessier</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Davidson</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Dubertret</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2014</year>, <volume>14</volume>, <fpage>710</fpage>;<pub-id pub-id-type="pmid">24368017</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0025">b) <string-name>
+<given-names>R. C.</given-names>
+<surname>Jones</surname>
+</string-name>, <source xml:lang="en">Phys. Rev.</source>
+<year>1945</year>, <volume>68</volume>, <fpage>93</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="advs1374-cit-0026">
+<string-name>
+<given-names>M.</given-names>
+<surname>Nasilowski</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Mahler</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Lhuillier</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Ithurria</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Dubertret</surname>
+</string-name>, <source xml:lang="en">Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <elocation-id>10934</elocation-id>.<pub-id pub-id-type="pmid">27434678</pub-id></mixed-citation></ref><ref id="advs1374-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="advs1374-cit-0027">a) <string-name>
+<given-names>A.</given-names>
+<surname>Shabaev</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Efros</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2004</year>, <volume>4</volume>, <fpage>1821</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0028">b) <string-name>
+<given-names>S.</given-names>
+<surname>Vezzoli</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Monceau</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Lemenager</surname>
+</string-name>, <string-name>
+<given-names>Q.</given-names>
+<surname>Glorieux</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Giacobino</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Carbone</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>De Vittorio</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Bramati</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <fpage>7992</fpage>.<pub-id pub-id-type="pmid">26212764</pub-id></mixed-citation></ref><ref id="advs1374-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="advs1374-cit-0029">
+<string-name>
+<given-names>A. L.</given-names>
+<surname>Efros</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Rosen</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kuno</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Nirmal</surname>
+</string-name>, <string-name>
+<given-names>D. J.</given-names>
+<surname>Norris</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>1996</year>, <volume>54</volume>, <fpage>4843</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="advs1374-cit-0030">a) <string-name>
+<given-names>S. A.</given-names>
+<surname>Empedocles</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Neuhauser</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <source xml:lang="en">Nature</source>
+<year>1999</year>, <volume>399</volume>, <fpage>126</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0031">b) <string-name>
+<given-names>I.</given-names>
+<surname>Chung</surname>
+</string-name>, <string-name>
+<given-names>K. T.</given-names>
+<surname>Shimizu</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <source xml:lang="en">Proc. Natl. Acad. Sci. U. S. A.</source>
+<year>2003</year>, <volume>100</volume>, <fpage>405</fpage>;<pub-id pub-id-type="pmid">12515867</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0032">c) <string-name>
+<given-names>X.</given-names>
+<surname>Brokmann</surname>
+</string-name>, <string-name>
+<given-names>M.&#x02010;V.</given-names>
+<surname>Ehrensperger</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Hermier</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Triller</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Dahan</surname>
+</string-name>, <source xml:lang="en">Chem. Phys. Lett.</source>
+<year>2005</year>, <volume>406</volume>, <fpage>210</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="advs1374-cit-0033">a) <string-name>
+<given-names>E.</given-names>
+<surname>Wehry</surname>
+</string-name>, <source xml:lang="en">Appl. Spectrosc.</source>
+<year>1998</year>, <volume>52</volume>, <fpage>330A</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0034">b) <string-name>
+<given-names>B. T.</given-names>
+<surname>Diroll</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Koschitzky</surname>
+</string-name>, <string-name>
+<given-names>C. B.</given-names>
+<surname>Murray</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. Lett.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>85</fpage>.<pub-id pub-id-type="pmid">26276185</pub-id></mixed-citation></ref><ref id="advs1374-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="advs1374-cit-0035">
+<string-name>
+<given-names>J. S.</given-names>
+<surname>Kamal</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Gomes</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Hens</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Karvar</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Neyts</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Compernolle</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Vanhaecke</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>2012</year>, <volume>85</volume>, <elocation-id>035126</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="advs1374-cit-0036">a) <string-name>
+<given-names>B. T.</given-names>
+<surname>Diroll</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Dadosh</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Koschitzky</surname>
+</string-name>, <string-name>
+<given-names>Y. E.</given-names>
+<surname>Goldman</surname>
+</string-name>, <string-name>
+<given-names>C. B.</given-names>
+<surname>Murray</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2013</year>, <volume>117</volume>, <elocation-id>23928</elocation-id>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0037">b) <string-name>
+<given-names>A. W.</given-names>
+<surname>Achtstein</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Schliwa</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Prudnikau</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hardzei</surname>
+</string-name>, <string-name>
+<given-names>M. V.</given-names>
+<surname>Artemyev</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Thomsen</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Woggon</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2012</year>, <volume>12</volume>, <fpage>3151</fpage>.<pub-id pub-id-type="pmid">22625408</pub-id></mixed-citation></ref><ref id="advs1374-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="advs1374-cit-0038">
+<string-name>
+<given-names>J. L.</given-names>
+<surname>Baker</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Widmer&#x02010;Cooper</surname>
+</string-name>, <string-name>
+<given-names>M. F.</given-names>
+<surname>Toney</surname>
+</string-name>, <string-name>
+<given-names>P. L.</given-names>
+<surname>Geissler</surname>
+</string-name>, <string-name>
+<given-names>A. P.</given-names>
+<surname>Alivisatos</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2009</year>, <volume>10</volume>, <fpage>195</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="advs1374-cit-0039">
+<string-name>
+<given-names>Z.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>M. D.</given-names>
+<surname>Fischbein</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Querner</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Drndi&#x00107;</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2006</year>, <volume>6</volume>, <fpage>2585</fpage>.<pub-id pub-id-type="pmid">17090096</pub-id></mixed-citation></ref><ref id="advs1374-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="advs1374-cit-0040">
+<string-name>
+<given-names>A.</given-names>
+<surname>Lutich</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Carbone</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Volchek</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Yakovtseva</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Sokol</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Manna</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Gaponenko</surname>
+</string-name>, <source xml:lang="en">Phys. Status Solidi RRL</source>
+<year>2009</year>, <volume>3</volume>, <fpage>151</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="advs1374-cit-0041">
+<string-name>
+<given-names>L. S.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>A. P.</given-names>
+<surname>Alivisatos</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2003</year>, <volume>15</volume>, <fpage>408</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="advs1374-cit-0042">
+<string-name>
+<given-names>F.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Kwan</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Akana</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Yang</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2001</year>, <volume>123</volume>, <fpage>4360</fpage>.<pub-id pub-id-type="pmid">11457213</pub-id></mixed-citation></ref><ref id="advs1374-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="advs1374-cit-0043">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Amit</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Faust</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Lieberman</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Yedidya</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Banin</surname>
+</string-name>, <source xml:lang="en">Phys. Status Solidi A</source>
+<year>2012</year>, <volume>209</volume>, <fpage>235</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="advs1374-cit-0044">
+<string-name>
+<given-names>S.&#x02010;Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>M. D.</given-names>
+<surname>Regulacio</surname>
+</string-name>, <string-name>
+<given-names>M.&#x02010;Y.</given-names>
+<surname>Han</surname>
+</string-name>, <source xml:lang="en">Chem. Soc. Rev.</source>
+<year>2014</year>, <volume>43</volume>, <fpage>2301</fpage>.<pub-id pub-id-type="pmid">24413386</pub-id></mixed-citation></ref><ref id="advs1374-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="advs1374-cit-0045">a) <string-name>
+<given-names>M.</given-names>
+<surname>Hasegawa</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Hirayama</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Dertinger</surname>
+</string-name>, <source xml:lang="en">Appl. Phys. Lett.</source>
+<year>2015</year>, <volume>106</volume>, <elocation-id>051103</elocation-id>.</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0046">b) <string-name>
+<given-names>T.</given-names>
+<surname>Aubert</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Paangetic</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Mohammadimasoudi</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Neyts</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Beeckman</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Clasen</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Hens</surname>
+</string-name>, <source xml:lang="en">ACS Photonics</source>
+<year>2015</year>, <volume>2</volume>, <fpage>583</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="advs1374-cit-0047">
+<string-name>
+<given-names>J.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Peretti</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Lahlil</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Boilot</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Gacoin</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>3295</fpage>.<pub-id pub-id-type="pmid">23666846</pub-id></mixed-citation></ref><ref id="advs1374-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="advs1374-cit-0048">
+<string-name>
+<given-names>F.</given-names>
+<surname>Pietra</surname>
+</string-name>, <string-name>
+<given-names>F. T.</given-names>
+<surname>Rabouw</surname>
+</string-name>, <string-name>
+<given-names>P. G.</given-names>
+<surname>van Rhee</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>van Rijssel</surname>
+</string-name>, <string-name>
+<given-names>A. V.</given-names>
+<surname>Petukhov</surname>
+</string-name>, <string-name>
+<given-names>B. H.</given-names>
+<surname>Erne</surname>
+</string-name>, <string-name>
+<given-names>P. C. M.</given-names>
+<surname>Christianen</surname>
+</string-name>, <string-name>
+<given-names>C. D.</given-names>
+<surname>Donega</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Vanmaekelbergh</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2014</year>, <volume>8</volume>, <elocation-id>10486</elocation-id>.<pub-id pub-id-type="pmid">25197767</pub-id></mixed-citation></ref><ref id="advs1374-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="advs1374-cit-0049">a) <string-name>
+<given-names>A.</given-names>
+<surname>Rizzo</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Nobile</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Mazzeo</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>De Giorgi</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Fiore</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Carbone</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Cingolani</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Manna</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Gigli</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2009</year>, <volume>3</volume>, <fpage>1506</fpage>;<pub-id pub-id-type="pmid">19445470</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0050">b) <string-name>
+<given-names>A.</given-names>
+<surname>Ghezelbash</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Koo</surname>
+</string-name>, <string-name>
+<given-names>B. A.</given-names>
+<surname>Korgel</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2006</year>, <volume>6</volume>, <fpage>1832</fpage>.<pub-id pub-id-type="pmid">16895382</pub-id></mixed-citation></ref><ref id="advs1374-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="advs1374-cit-0051">
+<string-name>
+<given-names>C. H.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Tian</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Abbas</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Kattumenu</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Singamaneni</surname>
+</string-name>, <source xml:lang="en">Nanotechnology</source>
+<year>2011</year>, <volume>22</volume>, <elocation-id>275311</elocation-id>.<pub-id pub-id-type="pmid">21613732</pub-id></mixed-citation></ref><ref id="advs1374-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="advs1374-cit-0052">a) <string-name>
+<given-names>V.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Pikin</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Verevochnikov</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Kozenkov</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Khazimullin</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ho</surname>
+</string-name>, <string-name>
+<given-names>D. D.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>H.&#x02010;S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. E</source>
+<year>2004</year>, <volume>69</volume>, <elocation-id>061713</elocation-id>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0053">b) <string-name>
+<given-names>T.</given-names>
+<surname>Du</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>A. S.</given-names>
+<surname>Susha</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <elocation-id>11049</elocation-id>;<pub-id pub-id-type="pmid">26468974</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0054">c) <string-name>
+<given-names>J.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>3133</fpage>.<pub-id pub-id-type="pmid">28394620</pub-id></mixed-citation></ref><ref id="advs1374-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="advs1374-cit-0055">
+<string-name>
+<given-names>E. A.</given-names>
+<surname>Shteyner</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <string-name>
+<given-names>A. D.</given-names>
+<surname>Afanasyev</surname>
+</string-name>, <source xml:lang="en">Soft Matter</source>
+<year>2013</year>, <volume>9</volume>, <fpage>5160</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="advs1374-cit-0056">
+<string-name>
+<given-names>A.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Kiselev</surname>
+</string-name>, <string-name>
+<given-names>Y.&#x02010;Q.</given-names>
+<surname>Lu</surname>
+</string-name>, <source xml:lang="en">Appl. Phys. Lett.</source>
+<year>2012</year>, <volume>101</volume>, <elocation-id>031112</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="advs1374-cit-0057">
+<string-name>
+<given-names>A. D.</given-names>
+<surname>Kiselev</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. E</source>
+<year>2009</year>, <volume>80</volume>, <elocation-id>011706</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="advs1374-cit-0058">
+<string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <source xml:lang="en">Adv. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <elocation-id>1701091</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="advs1374-cit-0059">
+<string-name>
+<given-names>V.</given-names>
+<surname>Trofimov</surname>
+</string-name>, <string-name>
+<given-names>Y. V.</given-names>
+<surname>Rublev</surname>
+</string-name>, <source xml:lang="en">Phys.&#x02010;Usp.</source>
+<year>1968</year>, <volume>11</volume>, <fpage>276</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="advs1374-cit-0060">
+<string-name>
+<given-names>J.</given-names>
+<surname>Planelles</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Rajadell</surname>
+</string-name>, <string-name>
+<given-names>J. I.</given-names>
+<surname>Climente</surname>
+</string-name>, <source xml:lang="en">J. Phys. Chem. C</source>
+<year>2016</year>, <volume>120</volume>, <elocation-id>27724</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="advs1374-cit-0061">a) <string-name>
+<given-names>Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>C.&#x02010;Y.</given-names>
+<surname>Chiang</surname>
+</string-name>, <string-name>
+<given-names>S. K.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>E. L.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>J. D.</given-names>
+<surname>Yoreo</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Belcher</surname>
+</string-name>, <source xml:lang="en">Nano Lett.</source>
+<year>2005</year>, <volume>5</volume>, <fpage>1429</fpage>;<pub-id pub-id-type="pmid">16178252</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0062">b) <string-name>
+<given-names>T.&#x02010;H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>K.&#x02010;S.</given-names>
+<surname>Cho</surname>
+</string-name>, <string-name>
+<given-names>E. K.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>S. J.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chae</surname>
+</string-name>, <string-name>
+<given-names>J. W.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>D. H.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>J.&#x02010;Y.</given-names>
+<surname>Kwon</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Amaratunga</surname>
+</string-name>, <string-name>
+<given-names>S. Y.</given-names>
+<surname>Lee</surname>
+</string-name>, <source xml:lang="en">Nat. Photonics</source>
+<year>2011</year>, <volume>5</volume>, <fpage>176</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="advs1374-cit-0063">
+<string-name>
+<given-names>D.</given-names>
+<surname>Bradley</surname>
+</string-name>, <source xml:lang="en">Curr. Opin. Solid State Mater. Sci.</source>
+<year>1996</year>, <volume>1</volume>, <fpage>789</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="advs1374-cit-0064">
+<string-name>
+<given-names>F.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2017</year>, <volume>48</volume>, <fpage>478</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="advs1374-cit-0065">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Shirasaki</surname>
+</string-name>, <string-name>
+<given-names>G. J.</given-names>
+<surname>Supran</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Bawendi</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Bulovi&#x00107;</surname>
+</string-name>, <source xml:lang="en">Nat. Photonics</source>
+<year>2013</year>, <volume>7</volume>, <fpage>13</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="advs1374-cit-0066">
+<string-name>
+<given-names>Z.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xu</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">J. Disp. Technol.</source>
+<year>2014</year>, <volume>10</volume>, <fpage>526</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="advs1374-cit-0067">a) <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>T. H.</given-names>
+<surname>Ha</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Sung</surname>
+</string-name>, <string-name>
+<given-names>H. R.</given-names>
+<surname>Kim</surname>
+</string-name>, <string-name>
+<given-names>B. H.</given-names>
+<surname>Han</surname>
+</string-name>, <source xml:lang="en">J. Soc. Inf. Disp.</source>
+<year>2010</year>, <volume>18</volume>, <fpage>57</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0068">b) <string-name>
+<given-names>H.</given-names>
+<surname>Kikuchi</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Yokota</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Hisakado</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Kajiyama</surname>
+</string-name>, <source xml:lang="en">Nat. Mater.</source>
+<year>2002</year>, <volume>1</volume>, <fpage>164</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="advs1374-cit-0069">a) <string-name>
+<given-names>F.</given-names>
+<surname>Fan</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <source xml:lang="en">Appl. Phys. Lett.</source>
+<year>2012</year>, <volume>100</volume>, <elocation-id>111105</elocation-id>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0070">b) <string-name>
+<given-names>F.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gou</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Hu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>An</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">Opt. Mater. Express</source>
+<year>2016</year>, <volume>6</volume>, <fpage>717</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0071">c) <string-name>
+<given-names>F.</given-names>
+<surname>Peng</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Gou</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>S. T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">J. Soc. Inf. Disp.</source>
+<year>2016</year>, <volume>24</volume>, <fpage>241</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="advs1374-cit-0072">
+<string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <source xml:lang="en">J. Soc. Inf. Disp.</source>
+<year>2015</year>, <volume>23</volume>, <fpage>253</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0050"><label>50</label><mixed-citation publication-type="book" id="advs1374-cit-0073">
+<string-name>
+<given-names>L.</given-names>
+<surname>Chan</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Bloor</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Fleming</surname>
+</string-name>, <source xml:lang="en">The Encyclopedia of Advanced Materials</source>, Vol. <volume>2</volume>, <publisher-name>Elsevier</publisher-name>, <publisher-loc>Amsterdam, Netherlands</publisher-loc>
+<year>1994</year>.</mixed-citation></ref><ref id="advs1374-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="advs1374-cit-0074">
+<string-name>
+<given-names>J. S.</given-names>
+<surname>Steckel</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ho</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Hamilton</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Xi</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Breen</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Allen</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Coe&#x02010;Sullivan</surname>
+</string-name>, <source xml:lang="en">J. SID.</source>
+<year>2015</year>, <volume>23</volume>, <fpage>294</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0052"><label>52</label><mixed-citation publication-type="miscellaneous" id="advs1374-cit-0075">
+<string-name>
+<given-names>R.</given-names>
+<surname>Young</surname>
+</string-name>, <article-title>Samsung Buys QD Vision's IP for $70M and the Future of Quantum Dots</article-title>, <ext-link ext-link-type="uri" xlink:href="https://www.displaysupplychain.com/blog/-samsung-buys-qd-visions-ip-for-70m-and-the-future-of-quantum-dots">https://www.displaysupplychain.com/blog/-samsung-buys-qd-visions-ip-for-70m-and-the-future-of-quantum-dots</ext-link> (accessed: March <year>2016</year>).</mixed-citation></ref><ref id="advs1374-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="advs1374-cit-0076">
+<string-name>
+<given-names>J. S.</given-names>
+<surname>Steckel</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Colby</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Hutchinson</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Breen</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Ritter</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Coe&#x02010;Sullivan</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2013</year>, <volume>44</volume>, <fpage>943</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0054"><label>54</label><mixed-citation publication-type="book" id="advs1374-cit-0077">a) <string-name>
+<given-names>K.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>X. B.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>X. W.</given-names>
+<surname>Sun</surname>
+</string-name>, presented at <article-title>2017 IEEE 67th Electronic Components and Technology Conf. (ECTC)</article-title>, <publisher-loc>Orlando, FL</publisher-loc>, 30 May&#x02013;2 June <year>2017</year>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0078">b) <string-name>
+<given-names>K.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Sun</surname>
+</string-name>, <source xml:lang="en">Inf. Display</source>
+<year>2016</year>, <volume>32</volume>, <fpage>6</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="advs1374-cit-0079">a) <string-name>
+<given-names>M.</given-names>
+<surname>Darbandi</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Thomann</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Nann</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2005</year>, <volume>17</volume>, <fpage>5720</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0080">b) <string-name>
+<given-names>M.</given-names>
+<surname>Han</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>J. Z.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Nie</surname>
+</string-name>, <source xml:lang="en">Nat. Biotechnol.</source>
+<year>2001</year>, <volume>19</volume>, <fpage>631</fpage>.<pub-id pub-id-type="pmid">11433273</pub-id></mixed-citation></ref><ref id="advs1374-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="advs1374-cit-0081">a) <string-name>
+<given-names>Y.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Lai</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Xiang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Zhou</surname>
+</string-name>, <source xml:lang="en">IEEE Photon. J.</source>
+<year>2017</year>, <volume>9</volume>, <fpage>1</fpage>;</mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0082">b) <string-name>
+<given-names>J. P.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>E. L.</given-names>
+<surname>Hsiang</surname>
+</string-name>, <string-name>
+<given-names>H. M.</given-names>
+<surname>Philip Chen</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2016</year>
+<volume>47</volume>, <fpage>21</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="advs1374-cit-0083">
+<string-name>
+<given-names>W.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Schneider</surname>
+</string-name>, <string-name>
+<given-names>V. G.</given-names>
+<surname>Chigrinov</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Kwok</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <string-name>
+<given-names>A. K.</given-names>
+<surname>Srivastava</surname>
+</string-name>, <source xml:lang="en">Adv. Opt. Mater.</source>
+<year>2018</year>, <volume>6</volume>, <elocation-id>1800250</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="advs1374-cit-0084">
+<string-name>
+<given-names>P. D.</given-names>
+<surname>Cunningham</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Boercker</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Placencia</surname>
+</string-name>, <string-name>
+<given-names>J. G.</given-names>
+<surname>Tischler</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2014</year>, <volume>8</volume>, <fpage>851</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="advs1374-cit-0085">
+<string-name>
+<given-names>M.</given-names>
+<surname>Hasegawa</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Hirayama</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2017</year>, <volume>48</volume>, <fpage>345</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="advs1374-cit-0086">
+<string-name>
+<given-names>S.</given-names>
+<surname>Coe&#x02010;Sullivan</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2015</year>
+<volume>46</volume>, <fpage>170</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="advs1374-cit-0087">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Nayatani</surname>
+</string-name>, <source xml:lang="en">Color Res. Appl.</source>
+<year>1998</year>, <volume>23</volume>, <fpage>374</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="advs1374-cit-0088">a) <string-name>
+<given-names>R.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Dong</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">Opt. Express</source>
+<year>2015</year>, <volume>23</volume>, <elocation-id>23680</elocation-id>;<pub-id pub-id-type="pmid">26368465</pub-id></mixed-citation><mixed-citation publication-type="journal" id="advs1374-cit-0089">b) <string-name>
+<given-names>Z.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;T.</given-names>
+<surname>Wu</surname>
+</string-name>, <source xml:lang="en">Opt. Express</source>
+<year>2013</year>, <volume>21</volume>, <elocation-id>26269</elocation-id>.<pub-id pub-id-type="pmid">24216851</pub-id></mixed-citation></ref><ref id="advs1374-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="advs1374-cit-0090">
+<string-name>
+<given-names>S.</given-names>
+<surname>Sadasivan</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Bausemer</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Corliss</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Pratt</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2016</year>
+<volume>47</volume>, <fpage>333</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="advs1374-cit-0091">
+<string-name>
+<given-names>E.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Hotz</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Hartlove</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Yurek</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Daniels</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Luo</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Zehnder</surname>
+</string-name>, <source xml:lang="en">SID Int. Symp. Dig. Tech. Pap.</source>
+<year>2016</year>
+<volume>47</volume>, <fpage>549</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="advs1374-cit-0092">
+<string-name>
+<given-names>M.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Guo</surname>
+</string-name>, <string-name>
+<given-names>W. W.</given-names>
+<surname>Yu</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">Adv. Funct. Mater.</source>
+<year>2019</year>, <italic>29</italic>, <elocation-id>1902008</elocation-id>.</mixed-citation></ref><ref id="advs1374-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="advs1374-cit-0093">
+<string-name>
+<given-names>C. H. A.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Zhou</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Vashishtha</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Halpert</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2019</year>, <volume>31</volume>, <fpage>6003</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="advs1374-cit-0094">
+<string-name>
+<given-names>P.</given-names>
+<surname>Vashishtha</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Ng</surname>
+</string-name>, <string-name>
+<given-names>S. B.</given-names>
+<surname>Shivarudraiah</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Halpert</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2019</year>, <volume>31</volume>, <fpage>83</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="advs1374-cit-0095">
+<string-name>
+<given-names>Y.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Huang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Xiong</surname>
+</string-name>, <string-name>
+<given-names>A. F.</given-names>
+<surname>Richter</surname>
+</string-name>, <string-name>
+<given-names>S. V.</given-names>
+<surname>Kershaw</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <source xml:lang="en">ACS Nano</source>
+<year>2019</year>, <volume>13</volume>, <fpage>8237</fpage>.<pub-id pub-id-type="pmid">31294549</pub-id></mixed-citation></ref><ref id="advs1374-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="advs1374-cit-0096">
+<string-name>
+<given-names>L.</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Meng</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Ge</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Shao</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>A. L.</given-names>
+<surname>Rogach</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Zhong</surname>
+</string-name>, <source xml:lang="en">Nano Res.</source>
+<year>2019</year>, <volume>12</volume>, <fpage>1411</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="advs1374-cit-0097">
+<string-name>
+<given-names>P.</given-names>
+<surname>Vashishtha</surname>
+</string-name>, <string-name>
+<given-names>D. Z.</given-names>
+<surname>Metin</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Cryer</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Hodgkiss</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Gaston</surname>
+</string-name>, <string-name>
+<given-names>J. E.</given-names>
+<surname>Halpert</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>2973</fpage>.</mixed-citation></ref><ref id="advs1374-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="advs1374-cit-0098">
+<string-name>
+<given-names>J.</given-names>
+<surname>He</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Towers</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Yuan</surname>
+</string-name>, <string-name>
+<given-names>Z.</given-names>
+<surname>Jiang</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Gesquiere</surname>
+</string-name>, <string-name>
+<given-names>S.&#x02010;T.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Dong</surname>
+</string-name>, <source xml:lang="en">Nanoscale</source>
+<year>2018</year>, <volume>10</volume>, <elocation-id>15436</elocation-id>.<pub-id pub-id-type="pmid">30094423</pub-id></mixed-citation></ref></ref-list></back></article>

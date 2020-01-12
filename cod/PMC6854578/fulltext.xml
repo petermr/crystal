@@ -1,0 +1,516 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6854578</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02620</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Ion Distribution and Hydration Structure at Solid&#x02013;Liquid
+Interface between NaCl Crystal and Its Solution</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Liu</surname><given-names>Feng</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Sun</surname><given-names>Deyan</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">Department of Physics, <institution>East China Normal University</institution>, Shanghai 200241, <country>China</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>dysun@phy.ecnu.edu.cn</email>.</corresp></author-notes><pub-date pub-type="epub"><day>01</day><month>11</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>12</day><month>11</month><year>2019</year></pub-date><volume>4</volume><issue>20</issue><fpage>18692</fpage><lpage>18698</lpage><history><date date-type="received"><day>14</day><month>08</month><year>2019</year></date><date date-type="accepted"><day>21</day><month>10</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under a Creative Commons Attribution (CC-BY) <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_ccby_termsofuse.html">License</ext-link>, which permits unrestricted use, distribution and reproduction in any medium, provided the author and source are cited.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0002" id="ab-tgr1"/></p><p>The interface structure
+between NaCl crystal and its solution has
+been investigated at the saturated concentration of 298 K by molecular
+dynamics simulations. We have found that there are many fine structures
+at this complex interface. Near the surface of crystal, most of Na<sup>+</sup> only coordinate with water molecules, while almost all Cl<sup>&#x02013;</sup> coordinate with Na<sup>+</sup> in addition to water
+molecules. An ion coordinating with more water molecules is farther
+away from the epitaxial position of lattice. As approaching to the
+interface, the first hydration shell of ions has the tendency of being
+ordered, while the orientation of dipole of water molecules in the
+first hydration shell becomes more disordered than that in the solution.
+Generally, the first hydration shell of Na<sup>+</sup> is less affected
+by nearest Cl<sup>&#x02013;</sup>, whereas the first hydration shell
+of Cl<sup>&#x02013;</sup> is significantly affected by nearest Na<sup>+</sup>.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02620</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b02620</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>In nature and daily life, the solid&#x02013;liquid
+interface (SLI)
+between ionic crystals and solutions is ubiquitous. Many important
+physical phenomena and processes occur around SLIs, which are the
+key to understand the properties of two-phase boundary,<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> flotation,<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref></sup> crystal dissolution,<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref12">12</xref></sup> growth,<sup><xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref12">12</xref>&#x02212;<xref ref-type="bibr" rid="ref15">15</xref></sup> etc. For a long time, scientists
+have made great efforts to investigate the intrinsic feature of SLIs
+by various experimental techniques and computer simulations.</p><p>Due to the strong influence of the periodic character of crystal
+and long-range Coulomb interaction, the SLI between the ionic crystal
+and solution is usually more complicated than that of simple metal
+solid&#x02013;liquid interfaces.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> Compared to experimental methods, computer
+simulation is a powerful tool to obtain atomic scale information.
+The previous simulations have made important progresses for understanding
+the atomic scale structure of interfaces. It was found that both ions
+and water molecules exhibit a layerlike structure in the direction
+perpendicular to the interface.<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref31">31</xref></sup> Besides, the water molecules<sup><xref ref-type="bibr" rid="ref19">19</xref>&#x02212;<xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref32">32</xref></sup> and ions<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> at the interface are laterally ordered with respect to the crystal
+structure. The dipole moment of water molecules at the SLI also tends
+to be ordered.<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref34">34</xref></sup> Interestingly, ions
+at an SLI have much complexed adsorption structures,<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref20">20</xref>&#x02212;<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref27">27</xref>&#x02212;<xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref31">31</xref>&#x02212;<xref ref-type="bibr" rid="ref33">33</xref>,<xref ref-type="bibr" rid="ref35">35</xref>&#x02212;<xref ref-type="bibr" rid="ref37">37</xref></sup> which depends on the ions&#x02019; radius,<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref31">31</xref>&#x02212;<xref ref-type="bibr" rid="ref33">33</xref></sup> valence,<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> as well as the crystal surface
+structure.<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup></p><p>Hydration
+structures are the core structural unit for understanding
+the structure and physical properties of solutions. On the one hand,
+it is believed that the hydration shell still exists near the interface
+between crystal and solutions.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref38">38</xref>&#x02212;<xref ref-type="bibr" rid="ref41">41</xref></sup> On the other hand, as approaching to interfaces, water molecules
+may rearrange with certain order.<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup> It is not difficult
+to imagine that the hydration structure at SLI will be more complex
+under the two competing factors, namely, the tendency of maintaining
+hydration shell and the ordering tendency of water molecules. In addition
+to the impact on the structure, the ionic hydration shell is also
+the key to understand the transport of ions.<sup><xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> However, the
+ionic hydration structure itself has not been investigated systematically.</p><p>Interface between the NaCl and its solution is a typical example
+of this kind of SLI, which serves as a common system for studying
+complex interfaces.<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref11">11</xref>&#x02212;<xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref42">42</xref>,<xref ref-type="bibr" rid="ref44">44</xref>,<xref ref-type="bibr" rid="ref45">45</xref></sup> In this work, the interfacial structure between NaCl
+crystal and saturated NaCl solution has been studied by molecular
+dynamics method. Our study has focused on the hydration structure
+of ions, especially on how the crystal surface affects both ions distribution
+and hydration structure and how the distribution of ions and ionic
+hydration structure interplay with each other. We find that there
+are many fine structures at the interface. The distribution of water
+molecules in the ionic hydration structure around the interface is
+strongly modified by the local environment of ions.</p></sec><sec id="sec2"><title>Results and Discussion</title><p>The density distribution of ions and oxygens along the <italic><bold>z</bold></italic> direction is shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. Large density oscillations and layerlike
+structure are observed near the interface, which is universal in SLI
+systems. According to the density distribution of Na<sup>+</sup> and
+Cl<sup>&#x02013;</sup>, at least three layers can be identified. For
+the convenience of the following discussion, we assume that the first
+layer refers to the one closest to the crystal surface and next is
+the second and third layer in turn. In the first layer, the number
+of Na<sup>+</sup> is obviously more than that of Cl<sup>&#x02013;</sup>, which is consistent with previous work.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> As demonstrated by Yang et. al.,<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> Na<sup>+</sup> is easier to be adsorbed on crystal surface by replacing
+water molecules than Cl<sup>&#x02013;</sup>.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Density distribution
+of H (green dot-dash line), O (red dash line),
+Na<sup>+</sup> (blue dot line), and Cl<sup>&#x02013;</sup> (magenta
+solid line) along the direction perpendicular to the interface, where
+the vertical dash line marks the epitaxial lattice position.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0009" id="gr1" position="float"/></fig><p>In the first layer, the density distribution of
+Na<sup>+</sup> and
+Cl<sup>&#x02013;</sup> with different <italic>n</italic><sub>w</sub>&#x02019;s is presented in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a,b, respectively. One can see that, in the first layer,
+Na<sup>+</sup> prefers to coordinate with water molecules, while Cl<sup>&#x02013;</sup> prefers to coordinate with Na<sup>+</sup>. Our calculations
+show that, around 39.7% of Na<sup>+</sup> coordinate with Cl<sup>&#x02013;</sup> and water molecules at the same time, while the rest Na<sup>+</sup> do not coordinate with Cl<sup>&#x02013;</sup> but only with water
+molecules (<italic>n</italic><sub>c</sub> = 0). However, around 92.2%
+of Cl<sup>&#x02013;</sup> coordinate with Na<sup>+</sup> and water
+molecules at the same time and 7.8% of Cl<sup>&#x02013;</sup> coordinate
+only with water molecules (<italic>n</italic><sub>c</sub> = 0). Evidently,
+Na<sup>+</sup> has stronger tendency to keep the hydration structure,
+which is consistent with previous results.<sup><xref ref-type="bibr" rid="ref46">46</xref></sup></p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Distribution
+of density of Na<sup>+</sup> (a) and Cl (b) near the
+interface with various <italic>n</italic><sub>w</sub> and <italic>n</italic><sub>c</sub>, where the vertical dash line marks the epitaxial
+lattice position. <italic>n</italic><sub>w</sub> denotes the number
+of water molecules in the first hydration shell, and <italic>n</italic><sub>c</sub> is the number of the nearest counter ions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0001" id="gr2" position="float"/></fig><p>The first peak of the density distribution for both Na<sup>+</sup> and Cl<sup>&#x02013;</sup> does not locate at the epitaxial
+lattice
+position (marked as the vertical dash line in <xref rid="fig1" ref-type="fig">Figures <xref rid="fig1" ref-type="fig">1</xref></xref> and <xref rid="fig2" ref-type="fig">2</xref>). We find that
+the shift of the first peak is closely related to the local environment
+of ions, i.e., the coordination number of water molecules or counter
+ions around an ion. From <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a,b, one can see that for both Na<sup>+</sup> and Cl<sup>&#x02013;</sup>, the less water molecules in the first hydration shell
+(FHS) are, the closer to the epitaxial lattice position is. If a Cl<sup>&#x02013;</sup> is coordinated with more water molecules, it will
+be further away from the crystal surface. By contrast, a Na<sup>+</sup> will be closer to the crystal surface if it is coordinated with
+more water molecules. The results can be roughly understood as follows:
+the distribution of ions in the first layer is mainly determined by
+two factors: (1) maintaining the ionic hydration shell and (2) driving
+ions to the ideal lattice position. Because of the mismatch between
+hydrate shell of ions and lattice structure, the former makes ions
+deviate from the ideal lattice, while the latter drives ions back
+to the ideal lattice. Therefore, with the decrease of <italic>n</italic><sub>w</sub>, the ions will approach to the ideal lattice position
+gradually. In principle, the structure of interface is the result
+of competition between the energy and entropy. Our results show that
+the energy seems to be superior to entropy at the interface, indicated
+by the increased ordering tendency of both ions and water molecules.</p><p>From <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, one
+can find another interesting feature, namely, the first layer is composed
+of a few sublayers. Each sublayer can be distinguished by the different <italic>n</italic><sub>c</sub> or <italic>n</italic><sub>w</sub>. We find
+that the sum of <italic>n</italic><sub>c</sub> and <italic>n</italic><sub>w</sub> is approximately a constant, which can be seen from <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. For Na<sup>+</sup> and Cl<sup>&#x02013;</sup>, the sum is around 5 and 6, respectively.
+In other words, if an ion coordinates with more counter ions, it will
+coordinate with less water molecules. If the density profile of the
+first layer is approximated by the Gaussian distribution, we find
+that the major difference among sublayers is the position of peak,
+not the half-width.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Number of Water Molecules
+in the First
+Hydration Shell (<italic>n</italic><sub>w</sub>) for Ions with Different
+Coordination Number of Counter Ions (<italic>n</italic><sub>c</sub>)</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/><col align="char" char="&#x000b1;"/></colgroup><thead><tr><th style="border:none;" align="left">&#x000a0;</th><th style="border:none;" align="center" char="&#x000b1;"><italic>n</italic><sub>c</sub>&#x000a0;=&#x000a0;0</th><th style="border:none;" align="center" char="&#x000b1;"><italic>n</italic><sub>c</sub>&#x000a0;=&#x000a0;1</th><th style="border:none;" align="center" char="&#x000b1;"><italic>n</italic><sub>c</sub>&#x000a0;=&#x000a0;2</th><th style="border:none;" align="center" char="&#x000b1;"><italic>n</italic><sub>c</sub>&#x000a0;=&#x000a0;3</th></tr></thead><tbody><tr><td style="border:none;" align="left">Na<sup>+</sup></td><td style="border:none;" align="char" char="&#x000b1;">5.0&#x000a0;&#x000b1;&#x000a0;0.05</td><td style="border:none;" align="char" char="&#x000b1;">4.0&#x000a0;&#x000b1;&#x000a0;0.07</td><td style="border:none;" align="char" char="&#x000b1;">3.0&#x000a0;&#x000b1;&#x000a0;0.13</td><td style="border:none;" align="char" char="&#x000b1;">1.9&#x000a0;&#x000b1;&#x000a0;0.23</td></tr><tr><td style="border:none;" align="left">Cl<sup>&#x02013;</sup></td><td style="border:none;" align="char" char="&#x000b1;">6.0&#x000a0;&#x000b1;&#x000a0;0.48</td><td style="border:none;" align="char" char="&#x000b1;">5.2&#x000a0;&#x000b1;&#x000a0;0.32</td><td style="border:none;" align="char" char="&#x000b1;">4.3&#x000a0;&#x000b1;&#x000a0;0.29</td><td style="border:none;" align="char" char="&#x000b1;">3.3&#x000a0;&#x000b1;&#x000a0;0.69</td></tr></tbody></table></table-wrap><p>The ion-oxygen radial distribution functions (RDFs) in the first
+three layers are shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a,b. For comparison, the ion-oxygen RDF in the solution
+is also shown. The position of the first peak in RDFs corresponds
+to the average radius of the FHS, and the area included by the first
+peak is proportional to <italic>n</italic><sub>w</sub>. For both cation
+and anion, the interface has little effect on the average radius of
+the FHS, which can be seen in the inset of <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a,b. For Na<sup>+</sup> and Cl<sup>&#x02013;</sup> in the first layer, as shown by the green line in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a,b, the first peak of ion-oxygen
+RDF is obviously lower than others, which indicates that the interface
+has an unneglectable effect on <italic>n</italic><sub>w</sub>. However,
+this effect only works in the first layer, and for the second and
+third layers, the first peak of ion-oxygen RDF is approximately equal
+to that in solutions.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Ion-O RDFs. (a) Na<sup>+</sup>-O RDF in the first three
+layers
+and solution. (b) Same as (a) but for Cl<sup>&#x02013;</sup>. (c) Na<sup>+</sup>-O RDF for two kinds of Na<sup>+</sup> in the first layer,
+namely, coordinating with (labeled as type I) and without (labeled
+as type II) counter ions. Here, &#x0201c;total&#x0201d; denotes the
+sum of type I and type II. (d) Same as (c) but for Cl<sup>&#x02013;</sup> in the first layer. The insets show the focus view of the first
+peak of ion-O RDF.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0008" id="gr3" position="float"/></fig><p>As mentioned above, ions
+with different <italic>n</italic><sub>c</sub> values may have different
+local structures. To further clarify
+this difference, we divide both Na<sup>+</sup> and Cl<sup>&#x02013;</sup> in the first layer into two classes, namely, coordinating with (hereafter
+labeled as type I, namely, <italic>n</italic><sub>c</sub> &#x0003e; 0)
+and
+without (hereafter labeled as type II, namely, <italic>n</italic><sub>c</sub> = 0) counter ions. As shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>c, the Na<sup>+</sup>-O RDFs for both type
+I and type II are similar, and the main difference appears in the
+first peaks. However, as shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d, there are some remarkable difference in
+the Cl<sup>&#x02013;</sup>-O RDF between type I and type II. First,
+the first peak of Cl<sup>&#x02013;</sup>-O RDF of type II is much higher
+than that of type I, due to more water molecules around type II Cl<sup>&#x02013;</sup>. Second, near the first minimum of the Cl<sup>&#x02013;</sup>-O RDF of type II, a small peak appears in the Cl<sup>&#x02013;</sup>-O RDF of type I. These results may be the explanation why the radius
+of FHS of Cl<sup>&#x02013;</sup> is different before and after dissolution.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> Third, around the second peak of the Cl<sup>&#x02013;</sup>-O RDF of type II, a minimum and a small peak appear
+in the RDF of type I.</p><p>The angle distribution of water molecules
+is the most intuitive
+physical quantity to describe the orientation of water molecules in
+the FHS. The distribution of cos(&#x003b1;) and cos(&#x003b3;) near the
+interface is depicted in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>. As expected, the water molecules uniformly distribute
+around ions in the solution and have no preferential orientation.
+However, as approaching to the interface, obviously the preferential
+orientation of water molecules in FHS appears. In other words, the
+FHS of ions tends to be ordered as approaching to the interface. When
+a Na<sup>+</sup> approaches to the crystal surface, there are obviously
+two preferred directions, around cos(&#x003b3;) = 0 and 1, and &#x003b1;
+prefers to stay around cos(&#x003b1;)= 0 and &#x000b1;1. For Cl<sup>&#x02013;</sup>, the distribution of cos(&#x003b3;) is similar to that for Na<sup>+</sup>. On the contrary, the distribution of cos(&#x003b1;) for Cl<sup>&#x02013;</sup> seems to have five preferred values of 0.0, &#x000b1;0.71,
+and &#x000b1;1.0, as approaching to the crystal surface.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Angle distribution for
+water molecules in FHS. (a, c) Distribution
+of cos(&#x003b3;) and cos(&#x003b1;) of Na<sup>+</sup>. (b, d) Same as
+(a) and (c), respectively, but for Cl<sup>&#x02013;</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0003" id="gr4" position="float"/></fig><p>The discussion above implies that the water molecules have
+certain
+ordering in the FHS. This kind of order is also closely related to
+the local coordination environment of ions. <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> presents the distribution of cos(&#x003b1;)
+and cos(&#x003b3;) in the FHS for Na<sup>+</sup> (a and b) and Cl<sup>&#x02013;</sup> (c and d) in the first layer. The distribution of
+cos(&#x003b1;) and cos(&#x003b3;) is similar for type I and type II Na<sup>+</sup>. The peak of type II Na<sup>+</sup> at cos(&#x003b1;)=0 is
+sharper than that of type I, and the distribution of cos(&#x003b3;)
+for type II just slightly shifts to the right relative to that of
+type I. However, coordinating with/without Na<sup>+</sup> has a significant
+effect on the orientation of water molecules in the FHS of Cl<sup>&#x02013;</sup>. The distribution of both cos(&#x003b1;) and cos(&#x003b3;)
+for type I Cl<sup>&#x02013;</sup> has more and sharper peaks than those
+for type II Cl<sup>&#x02013;</sup>, which indicates that the water
+around type I Cl<sup>&#x02013;</sup> is more ordered.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Distribution of cos(&#x003b1;)
+(a) and cos(&#x003b3;) (b) in FHS of
+two types of Na<sup>+</sup> in the first layer. (c, d) Same as (a)
+and (b), respectively, but for Cl<sup>&#x02013;</sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0007" id="gr5" position="float"/></fig><p>Dipole orientation of water molecules is another important
+physical
+quantity to describe the ordering of water molecules in the FHS. The
+dipole orientation of water molecules is characterized by &#x003c6;
+angles (see <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>), and the distribution of cos(&#x003c6;) in the first layer is shown
+in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>. The dipole
+of water molecules around both Na<sup>+</sup> and Cl<sup>&#x02013;</sup> in the solution prefers to point to a special direction, which is
+consistent with the previous results.<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup> This special
+orientation, which minimizes the Coulomb interaction between the central
+ion and nearest water molecules, can be maintained in the interface
+beyond the first layer. However, in the first layer, due to the strong
+effect of crystal surface, the distribution of the dipole is no longer
+confined to a sharp region and is broadened. Namely, the dipole orientation
+of water molecules in the FHS is more disordered than that in the
+solution. For both type I and type II Na<sup>+</sup>, the distribution
+of cos(&#x003c6;) in the first layer is similar, but different from
+that in solutions: a new peak appears near cos(&#x003c6;) = 0.78, as
+shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>a.
+For type II Cl<sup>&#x02013;</sup>, the distribution of cos(&#x003c6;)
+is similar to that in solution except a slight shift for the peak,
+as shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>b. However, for type I Cl<sup>&#x02013;</sup>, the distribution of
+cos(&#x003c6;) is broadened remarkably relative to that of type II Cl<sup>&#x02013;</sup>, and even some &#x003c6; angles locate at the region
+where the interaction between Cl<sup>&#x02013;</sup> and dipole becomes
+unstable locally.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Distributions of cos(&#x003c6;) in the FHS of the first
+layer (black
+dot and red dash line) and of solutions (green solid line) for Na<sup>+</sup> (a) and Cl<sup>&#x02013;</sup> (b).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0004" id="gr6" position="float"/></fig><p>The change in the four angles is hard to explain within a simple
+physical picture or model, but surely it is closely related to the
+crystal surface because the most significant changes occur in the
+crystal surface. Two factors may play the major role: (1) The structure
+of the crystal surface. It promotes the ordered arrangement of ions,
+thus destroying the hydration structure and leads to the redistribution
+of water molecules. (2) The Coulomb field formed by anions and cations
+in the crystal makes the water molecules at the surface to rearrange
+with a specific orientation. These two factors, together with the
+hydration structure of ions, lead to the ordering distribution of
+water molecules in the FHS and slight disordering in dipole orientations.</p><p>As final remark, it should be point that, in the solution, the
+water molecules appear uniformly around the ions in the means of time
+average; however, the ordered arrangement of water molecules around
+an ion at the interface is more likely pinned. This is because the
+diffusion of ions and water molecules at the interface is much slower
+than that in the solution.</p></sec><sec id="sec3"><title>Summary</title><p>The solid&#x02013;liquid
+interface between a NaCl crystal and its
+solution along the (100) direction of crystal has been studied systematically
+by using the molecular dynamics method. By calculating the various
+distributions of structural parameters, especially by distinguishing
+coordination environments of ions, we obtain the following main conclusions:
+(1) In the first layer nearest to the crystal surface, both cation
+and anion deviate from the epitaxial position of lattice. The magnitude
+of deviations strongly depends on the local coordination environments
+of ions. (2) The coordination between anions and cations has a little
+effect on the FHS of Na<sup>+</sup> but has a significant impact on
+all aspects of the FHS of Cl<sup>&#x02013;</sup>. (3) As approaching
+to the interface, the hydration structure of ions tends to be ordered;
+however, it is unconventional that the dipole orientation of water
+molecules in the FHS has the tendency of disordering. The current
+results may be helpful to further understand the thermodynamic and
+dynamic behavior of ions at interfaces.</p></sec><sec id="sec4"><title>Computational Details</title><p>In this work, the interfacial structure between NaCl crystal and
+its solution has been studied, in which the interface is parallel
+to the (001) surface of NaCl crystal. The SPC/E model<sup><xref ref-type="bibr" rid="ref50">50</xref></sup> and the Joung&#x02013;Cheatham (JC) model<sup><xref ref-type="bibr" rid="ref51">51</xref></sup> were used for water molecules and ions, respectively. The
+JC model has been improved to reproduce the experimental hydration
+free energies of ions and the lattice constants.<sup><xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref52">52</xref></sup> The cross terms of the interaction potentials were calculated by
+the Lorentz&#x02013;Berthelot combination rules. The detailed potential
+parameters are listed in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>.</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Parameters of the Joung&#x02013;Cheatham
+Model and the SPC/E Model</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="left">&#x000a0;</th><th style="border:none;" align="center">&#x003b5; (kcal/mol)</th><th style="border:none;" align="center">&#x003c3;
+(&#x000c5;)</th><th style="border:none;" align="center">charge (<italic>e</italic>)</th></tr></thead><tbody><tr><td style="border:none;" align="left">Na<sup>+</sup></td><td style="border:none;" align="left">0.3526</td><td style="border:none;" align="left">2.166</td><td style="border:none;" align="left">+1</td></tr><tr><td style="border:none;" align="left">Cl<sup>&#x02013;</sup></td><td style="border:none;" align="left">0.0128</td><td style="border:none;" align="left">4.830</td><td style="border:none;" align="left">&#x02013;1</td></tr><tr><td style="border:none;" align="left">O</td><td style="border:none;" align="left">0.1554</td><td style="border:none;" align="left">3.166</td><td style="border:none;" align="left">&#x02013;0.8476</td></tr><tr><td style="border:none;" align="left">H</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0.4238</td></tr></tbody></table></table-wrap><p>All simulation in this
+work was performed by the LAMMPS (Large-scale
+Atomic/Molecular Massively Parallel Simulator) software package,<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> which is a widely used molecular dynamics (MD)
+code. The MD time step was taken as 1 fs, and the temperature in all
+simulations was set as 298 K.</p><p>To set up the simulation system,
+the following steps were performed:
+(1) based on the saturated concentration (see below), a certain number
+of water molecule and the corresponding number of anions and cations
+were chosen. The ions were randomly distributed into water to form
+a solution. (2) At 298 K and 1 bar, the solution was equilibrated
+through long-time molecular dynamics simulation. (3) The solution
+and a NaCl crystal are combined to build the interface system. Then,
+an extensive simulation with the NPT ensemble was performed for 5
+ns to equilibrate the system, in which the pressure was set as 1 bar
+with the damping coefficient being 1000 time steps. Finally, a further
+25 ns simulation at 298 K with NVT ensemble was used to calculate
+the physical properties.</p><p>A snapshot of simulation system is
+shown in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>,
+where three coordinate axes, <italic><bold>x</bold></italic>, <italic><bold>y</bold></italic>, and <italic><bold>z</bold></italic>, are
+defined along the [100], [010], and [001]
+directions of NaCl crystals, respectively. The solid&#x02013;liquid
+interface is parallel to the <italic><bold>x</bold></italic>&#x02013;<italic><bold>y</bold></italic> plane, i.e., perpendicular to the <italic><bold>z</bold></italic> direction. In the current work, the origin
+of <italic><bold>z</bold></italic> axis is defined as the position
+of the outermost crystal layer. The system (57.8 &#x000c5; &#x000d7; 57.8
+&#x000c5; &#x000d7; 151.2 &#x000c5;) is composed of NaCl crystal (4000 Na<sup>+</sup> and 4000 Cl<sup>&#x02013;</sup>) and NaCl solution (1034 Na<sup>+</sup>, 1034 Cl<sup>&#x02013;</sup>, and 9272 water molecules). The
+concentration of the solution is 6.2 mol/kg, which is the saturation
+concentration given by the JC model at room temperature (298 K)<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> and close to the experimental value (6.16 mol/kg
+at 298.15 K).<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> The saturation concentration
+has been thoroughly tested by others<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> and
+us. In fact, in our simulation of up to tens of nanoseconds, the system
+does equilibrate at this concentration of room temperature.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Snapshot of
+the interface system. The blue, magenta, green, and
+red spheres represent Na<sup>+</sup>, Cl<sup>&#x02013;</sup>, H, and
+O, respectively. The <italic><bold>x</bold></italic>, <italic><bold>y</bold></italic>, and <italic><bold>z</bold></italic> axes are defined
+along the [100], [010], and [001] directions of NaCl crystals, respectively.
+The solid&#x02013;liquid interface is parallel to the <italic><bold>x&#x02013;y</bold></italic> plane, and perpendicular to the <italic><bold>z</bold></italic> direction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0005" id="gr7" position="float"/></fig><p>To calculate the number density distribution along the direction
+perpendicular to the interface &#x003c1;(<italic>z<sub>i</sub></italic>), the system was equally divided into small bins with the width
+of 0.2 &#x000c5; along the <italic><bold>z</bold></italic> direction.
+&#x003c1;(<italic>z<sub>i</sub></italic>) reads<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_m001" position="anchor"/></disp-formula>where the angle brackets
+indicate the ensemble
+average, and <italic>N</italic><sub><italic>i</italic></sub>, <italic>z</italic><sub><italic>i</italic></sub>, and &#x00394;<italic>V</italic> denote the number of atoms in the <italic>i</italic>th bin, the
+central position of this bin, and the volume of a bin, respectively.
+We have tested a few different widths of bin (from 0.2 to 0.6 &#x000c5;)
+and have not observed any evident effect on final results.</p><p>Regarding
+the ionic hydration structure, the water in the first
+hydration shell (FHS) has the most important influence on the structure
+and properties of the system;<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup> thus, our studies will
+only focus on FHS. The schematic illustration of FHS of an ion is
+shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>. The cutoff radius (<italic>R</italic><sub>c</sub>) for FHS is defined as first minimum of radial distribution
+functions (RDFs) between ions and oxygens. We have found that <italic>R</italic><sub>c</sub> for Na<sup>+</sup> and Cl<sup>&#x02013;</sup> is 3.25 and 3.75 &#x000c5;, respectively. To further characterize the
+local environment of an ion, two coordination numbers (<italic>n</italic><sub>c</sub> and <italic>n</italic><sub>w</sub>) are defined, where <italic>n</italic><sub>w</sub> denotes the number of water molecules in FHS,
+the so-called hydration number, and <italic>n</italic><sub>c</sub> is the number of the nearest counter ions. When calculating <italic>n</italic><sub>c</sub>, the ions in the crystal are not taken into
+account.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Schematic plot of FHS of an ion, in which the purple, red, and
+blue spheres represent the central ions, oxygen, and hydrogen atoms,
+respectively; <italic><bold>n</bold></italic><sub>1</sub> is a unit
+vector from the central ion to an oxygen atom; <italic><bold>n</bold></italic><sub>2</sub> is another unit vector along the water molecule
+dipole; the <italic><bold>x</bold></italic>, <italic><bold>y</bold></italic>, and <italic><bold>z</bold></italic> axes are defined in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. <italic>R</italic><sub>c</sub> is the cutoff radius of FHS.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_0006" id="gr8" position="float"/></fig><p>As approaching to the interface, the spatial translational and
+rotational symmetries of ions in the solution may be broken partially.
+To characterize these effects, four angles (&#x003b1;, &#x003b2;, &#x003b3;,
+and &#x003c6;), which have been marked in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>, are defined based on two unit vectors (<italic><bold>n</bold></italic><sub>1</sub> and <italic><bold>n</bold></italic><sub>2</sub>). <italic><bold>n</bold></italic><sub>1</sub> is the
+unit vector from the central ion to oxygen atoms, and <italic><bold>n</bold></italic><sub>2</sub> is the unit vector along the dipole
+of a water molecule. &#x003b1;, &#x003b2;, and &#x003b3; were defined as
+the angle between <italic><bold>n</bold></italic><sub>1</sub> and
+three axes (<italic><bold>x</bold></italic>, <italic><bold>y</bold></italic>, and <italic><bold>z</bold></italic>), respectively. &#x003c6;
+is the angle between <bold><italic>n</italic></bold><sub>1</sub> and <bold><italic>n</italic></bold><sub>2</sub>. The distribution of &#x003b1;,
+&#x003b2;, &#x003b3;, and &#x003c6; was calculated as follows<disp-formula id="ueq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02620_m002" position="anchor"/></disp-formula>where <italic>z</italic><sub><italic>i</italic></sub> and <italic>N</italic><sub><italic>i</italic></sub> are the
+positions of the <italic>i</italic>th bin and the number of ions in
+this bin, respectively. <italic>n</italic><sub>&#x003b8;</sub>(cos(&#x003b8;))
+denotes the number of water molecules, whose cos(&#x003b1;) (or cos&#x0202f;&#x003b2;),
+cos(&#x003b3;), and cos(&#x003c6;) equal cos(&#x003b8;). It needs to be
+pointed out that, due to the symmetry of the current system, the distribution
+of cos(&#x003b2;) is the same as that of cos(&#x003b1;).</p></sec></body><back><notes notes-type="COI-statement" id="NOTES-d7e1521-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This project was supported by the National Natural Science
+Foundation of China (Grant No. 11874148). The computations were supported
+by ECNU Public Platform for Innovation.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Umeda</surname><given-names>K.</given-names></name>; <name><surname>Zivanovic</surname><given-names>L.</given-names></name>; <name><surname>Kobayashi</surname><given-names>K.</given-names></name>; <name><surname>Ritala</surname><given-names>J.</given-names></name>; <name><surname>Kominami</surname><given-names>H.</given-names></name>; <name><surname>Spijker</surname><given-names>P.</given-names></name>; <name><surname>Foster</surname><given-names>A. S.</given-names></name>; <name><surname>Yamada</surname><given-names>H.</given-names></name>
+<article-title>Atomic-Resolution Three-Dimensional
+Hydration Structures on a Heterogeneously Charged Surface</article-title>. <source>Nat. Commun.</source>
+<year>2017</year>, <volume>8</volume>, <elocation-id>2111</elocation-id><pub-id pub-id-type="doi">10.1038/s41467-017-01896-4</pub-id>.<pub-id pub-id-type="pmid">29235462</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Tian</surname><given-names>Y.</given-names></name>; et al. <article-title>Water Printing of Ferroelectric
+Polarization</article-title>. <source>Nat. Commun.</source>
+<year>2018</year>, <volume>9</volume>, <elocation-id>3809</elocation-id><pub-id pub-id-type="doi">10.1038/s41467-018-06369-w</pub-id>.<pub-id pub-id-type="pmid">30228308</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Martin-Jimenez</surname><given-names>D.</given-names></name>; <name><surname>Chacon</surname><given-names>E.</given-names></name>; <name><surname>Tarazona</surname><given-names>P.</given-names></name>; <name><surname>Garcia</surname><given-names>R.</given-names></name>
+<article-title>Atomically
+Resolved
+Three-Dimensional Structures of Electrolyte Aqueous Solutions Near
+a Solid Surface</article-title>. <source>Nat. Commun.</source>
+<year>2016</year>, <volume>7</volume>, <elocation-id>12164</elocation-id><pub-id pub-id-type="doi">10.1038/ncomms12164</pub-id>.<pub-id pub-id-type="pmid">27416784</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Ito</surname><given-names>F.</given-names></name>; <name><surname>Kobayashi</surname><given-names>K.</given-names></name>; <name><surname>Spijker</surname><given-names>P.</given-names></name>; <name><surname>Zivanovic</surname><given-names>L.</given-names></name>; <name><surname>Umeda</surname><given-names>K.</given-names></name>; <name><surname>Nurmi</surname><given-names>T.</given-names></name>; <name><surname>Holmberg</surname><given-names>N.</given-names></name>; <name><surname>Laasonen</surname><given-names>K.</given-names></name>; <name><surname>Foster</surname><given-names>A. S.</given-names></name>; <name><surname>Yamada</surname><given-names>H.</given-names></name>
+<article-title>Molecular Resolution of the Water
+Interface at an Alkali Halide with Terraces and Steps</article-title>. <source>J. Phys. Chem. C.</source>
+<year>2016</year>, <volume>120</volume>, <fpage>19714</fpage>&#x02013;<lpage>19722</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.6b05651</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Hancer</surname><given-names>M.</given-names></name>; <name><surname>Celik</surname><given-names>M. S.</given-names></name>; <name><surname>Miller</surname><given-names>J. D.</given-names></name>
+<article-title>The Significance of Interfacial Water
+Structure in Soluble Salt Flotation Systems</article-title>. <source>J. Colloid Interface Sci.</source>
+<year>2001</year>, <volume>235</volume>, <fpage>150</fpage>&#x02013;<lpage>161</lpage>. <pub-id pub-id-type="doi">10.1006/jcis.2000.7350</pub-id>.<pub-id pub-id-type="pmid">11237454</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Miller</surname><given-names>J. D.</given-names></name>; <name><surname>Yalamanchili</surname><given-names>M. R.</given-names></name>; <name><surname>Kellar</surname><given-names>J. J.</given-names></name>
+<article-title>Surface Charge of Alkali Halide Particles
+as Determined by laser-Doppler Electrophoresis</article-title>. <source>Langmuir</source>
+<year>1992</year>, <volume>8</volume>, <fpage>1464</fpage>&#x02013;<lpage>1469</lpage>. <pub-id pub-id-type="doi">10.1021/la00041a036</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Du</surname><given-names>H.</given-names></name>; <name><surname>Miller</surname><given-names>J. D.</given-names></name>
+<article-title>Interfacial Water
+Structure and Surface Charge of Selected
+Alkali Chloride Salt Crystals in Saturated Solutions: a Molecular
+Dynamics Modeling Study</article-title>. <source>J. Phys. Chem. C</source>
+<year>2007</year>, <volume>111</volume>, <fpage>10013</fpage>&#x02013;<lpage>10022</lpage>. <pub-id pub-id-type="doi">10.1021/jp071702e</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Ozdemir</surname><given-names>O.</given-names></name>; <name><surname>Du</surname><given-names>H.</given-names></name>; <name><surname>Karakashev</surname><given-names>S. I.</given-names></name>; <name><surname>Nguyen</surname><given-names>A. V.</given-names></name>; <name><surname>Celik</surname><given-names>M. S.</given-names></name>; <name><surname>Miller</surname><given-names>J. D.</given-names></name>
+<article-title>Understanding the Role of Ion Interactions in Soluble
+Salt Flotation with Alkylammonium and Alkylsulfate Collectors</article-title>. <source>Adv. Colloid Interface Sci.</source>
+<year>2011</year>, <volume>163</volume>, <fpage>1</fpage>&#x02013;<lpage>22</lpage>. <pub-id pub-id-type="doi">10.1016/j.cis.2011.01.003</pub-id>.<pub-id pub-id-type="pmid">21353193</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Stack</surname><given-names>A. G.</given-names></name>; <name><surname>Raiteri</surname><given-names>P.</given-names></name>; <name><surname>Gale</surname><given-names>J. D.</given-names></name>
+<article-title>Accurate Rates of
+the Complex Mechanisms
+for Growth and Dissolution of Minerals Using a Combination of Rare-Event
+Theories</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2012</year>, <volume>134</volume>, <fpage>11</fpage>&#x02013;<lpage>14</lpage>. <pub-id pub-id-type="doi">10.1021/ja204714k</pub-id>.<pub-id pub-id-type="pmid">21721566</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Reischl</surname><given-names>B.</given-names></name>; <name><surname>Spijker</surname><given-names>P.</given-names></name>; <name><surname>Holmberg</surname><given-names>N.</given-names></name>; <name><surname>Laasonen</surname><given-names>K.</given-names></name>; <name><surname>Foster</surname><given-names>A. S.</given-names></name>
+<article-title>Ab Initio Kinetic Monte Carlo Simulations of Dissolution
+at the NaCl&#x02013;Water Interface</article-title>. <source>Phys. Chem.
+Chem. Phys.</source>
+<year>2014</year>, <volume>16</volume>, <fpage>22545</fpage>&#x02013;<lpage>22554</lpage>. <pub-id pub-id-type="doi">10.1039/C4CP02375G</pub-id>.<pub-id pub-id-type="pmid">25227553</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Laio</surname><given-names>A.</given-names></name>; <name><surname>Michaelides</surname><given-names>A.</given-names></name>
+<article-title>Initial Stages
+of Salt Crystal Dissolution
+Determined with Ab Initio Molecular Dynamics</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2011</year>, <volume>13</volume>, <fpage>13162</fpage>&#x02013;<lpage>13166</lpage>. <pub-id pub-id-type="doi">10.1039/c1cp21077g</pub-id>.<pub-id pub-id-type="pmid">21637872</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Joswiak</surname><given-names>M.
+N.</given-names></name>; <name><surname>Doherty</surname><given-names>M. F.</given-names></name>; <name><surname>Peters</surname><given-names>B.</given-names></name>
+<article-title>Ion Dissolution Mechanism and Kinetics
+at Kink Sites On NaCl Surfaces</article-title>. <source>Proc. Natl.
+Acad. Sci. USA</source>
+<year>2018</year>, <volume>115</volume>, <fpage>656</fpage><pub-id pub-id-type="doi">10.1073/pnas.1713452115</pub-id>.<pub-id pub-id-type="pmid">29311331</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Meng</surname><given-names>S.</given-names></name>
+<article-title>Atomistic Nature of
+NaCl Nucleation at the Solid-Liquid Interface</article-title>. <source>J. Chem. Phys.</source>
+<year>2007</year>, <volume>126</volume>, <elocation-id>044708</elocation-id><pub-id pub-id-type="doi">10.1063/1.2431363</pub-id>.<pub-id pub-id-type="pmid">17286500</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Okada</surname><given-names>I.</given-names></name>; <name><surname>Namiki</surname><given-names>Y.</given-names></name>; <name><surname>Uchida</surname><given-names>H.</given-names></name>; <name><surname>Aizawa</surname><given-names>M.</given-names></name>; <name><surname>Itatani</surname><given-names>K.</given-names></name>
+<article-title>MD Simulation
+of Crystal Growth of NaCl From its Supersaturated Aqueous Solution</article-title>. <source>J. Mol. Liq.</source>
+<year>2005</year>, <volume>118</volume>, <fpage>131</fpage>&#x02013;<lpage>139</lpage>. <pub-id pub-id-type="doi">10.1016/j.molliq.2004.07.028</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Yamanaka</surname><given-names>S.</given-names></name>; <name><surname>Shimosaka</surname><given-names>A.</given-names></name>; <name><surname>Shirakawa</surname><given-names>Y.</given-names></name>; <name><surname>Hidaka</surname><given-names>J.</given-names></name>
+<article-title>Molecular Dynamics
+Simulations of the Formation for NaCl Cluster at the Interface Between
+the Supersaturated Solution and the Substrate</article-title>. <source>J. Nanopart. Res.</source>
+<year>2010</year>, <volume>12</volume>, <fpage>831</fpage>&#x02013;<lpage>839</lpage>. <pub-id pub-id-type="doi">10.1007/s11051-009-9713-z</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Ricci</surname><given-names>M.</given-names></name>; <name><surname>Spijker</surname><given-names>P.</given-names></name>; <name><surname>Vo&#x000ef;tchovsky</surname><given-names>K.</given-names></name>
+<article-title>Water-Induced
+Correlation Between
+Single Ions Imaged at the Solid&#x02013;Liquid Interface</article-title>. <source>Nat. Commun.</source>
+<year>2014</year>, <volume>5</volume>, <elocation-id>4400</elocation-id><pub-id pub-id-type="doi">10.1038/ncomms5400</pub-id>.<pub-id pub-id-type="pmid">25027990</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Kobayashi</surname><given-names>K.</given-names></name>; <name><surname>Liang</surname><given-names>Y.</given-names></name>; <name><surname>Sakka</surname><given-names>T.</given-names></name>; <name><surname>Matsuoka</surname><given-names>T.</given-names></name>
+<article-title>Molecular Dynamics
+Study of Salt&#x02013;Solution Interface: Solubility and Surface Charge
+of Salt in Water</article-title>. <source>J. Chem. Phys.</source>
+<year>2014</year>, <volume>140</volume>, <elocation-id>144705</elocation-id><pub-id pub-id-type="doi">10.1063/1.4870417</pub-id>.<pub-id pub-id-type="pmid">24735311</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Kerisit</surname><given-names>S.</given-names></name>; <name><surname>Parker</surname><given-names>S. C.</given-names></name>
+<article-title>Free Energy of Adsorption of Water and Metal Ions On
+the {10&#x00031;&#x00305;4} Calcite Surface</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<year>2004</year>, <volume>126</volume>, <fpage>10152</fpage>&#x02013;<lpage>10161</lpage>. <pub-id pub-id-type="doi">10.1021/ja0487776</pub-id>.<pub-id pub-id-type="pmid">15303891</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Kerisit</surname><given-names>S.</given-names></name>; <name><surname>Ilton</surname><given-names>E. S.</given-names></name>; <name><surname>Parker</surname><given-names>S. C.</given-names></name>
+<article-title>Molecular
+Dynamics Simulations of
+Electrolyte Solutions at the (100) Goethite Surface</article-title>. <source>J. Phys. Chem. B</source>
+<year>2006</year>, <volume>110</volume>, <fpage>20491</fpage>&#x02013;<lpage>20501</lpage>. <pub-id pub-id-type="doi">10.1021/jp0636569</pub-id>.<pub-id pub-id-type="pmid">17034235</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Adapa</surname><given-names>S.</given-names></name>; <name><surname>Malani</surname><given-names>A.</given-names></name>
+<article-title>Role of Hydration Energy
+and Co-Ions Association On
+Monovalent and Divalent Cations Adsorption at Mica-Aqueous Interface</article-title>. <source>Sci. Rep.</source>
+<year>2018</year>, <volume>8</volume>, <elocation-id>12198</elocation-id><pub-id pub-id-type="doi">10.1038/s41598-018-30549-9</pub-id>.<pub-id pub-id-type="pmid">30111813</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Criscenti</surname><given-names>L. J.</given-names></name>; <name><surname>Ho</surname><given-names>T. A.</given-names></name>; <name><surname>Hart</surname><given-names>D.</given-names></name>
+<article-title>Structural
+Properties of Aqueous
+Solutions at the (100) and (101) Goethite Surfaces by Molecular Dynamics
+Simulation</article-title>. <source>Langmuir</source>
+<year>2018</year>, <volume>34</volume>, <fpage>14498</fpage>&#x02013;<lpage>14510</lpage>. <pub-id pub-id-type="doi">10.1021/acs.langmuir.8b02612</pub-id>.<pub-id pub-id-type="pmid">30457334</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Sakuma</surname><given-names>H.</given-names></name>; <name><surname>Kawamura</surname><given-names>K.</given-names></name>
+<article-title>Structure and Dynamics of Water on
+Li<sup>+</sup>,
+Na<sup>+</sup>, K<sup>+</sup>, Cs<sup>+</sup>, H3O<sup>+</sup> Exchanged
+Muscovite Surfaces: A Molecular Dynamics Study</article-title>. <source>Geochim. Cosmochim. Acta</source>
+<year>2011</year>, <volume>75</volume>, <fpage>63</fpage>&#x02013;<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1016/j.gca.2010.10.007</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Bourg</surname><given-names>I. C.</given-names></name>; <name><surname>Lee</surname><given-names>S. S.</given-names></name>; <name><surname>Fenter</surname><given-names>P.</given-names></name>; <name><surname>Tournassat</surname><given-names>C.</given-names></name>
+<article-title>Stern Layer
+Structure and Energetics at Mica&#x02013;Water Interfaces</article-title>. <source>J. Phys. Chem. C</source>
+<year>2017</year>, <volume>121</volume>, <fpage>9402</fpage>&#x02013;<lpage>9412</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.7b01828</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Adapa</surname><given-names>S.</given-names></name>; <name><surname>Swamy</surname><given-names>D. R.</given-names></name>; <name><surname>Kancharla</surname><given-names>S.</given-names></name>; <name><surname>Pradhan</surname><given-names>S.</given-names></name>; <name><surname>Malani</surname><given-names>A.</given-names></name>
+<article-title>Role of Mono-
+and Divalent Surface Cations On the Structure and Adsorption Behavior
+of Water On Mica Surface</article-title>. <source>Langmuir</source>
+<year>2018</year>, <volume>34</volume>, <fpage>14472</fpage>&#x02013;<lpage>14488</lpage>. <pub-id pub-id-type="doi">10.1021/acs.langmuir.8b01128</pub-id>.<pub-id pub-id-type="pmid">30398348</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Loganathan</surname><given-names>N.</given-names></name>; <name><surname>Yazaydin</surname><given-names>A. O.</given-names></name>; <name><surname>Bowers</surname><given-names>G. M.</given-names></name>; <name><surname>Kalinichev</surname><given-names>A. G.</given-names></name>; <name><surname>Kirkpatrick</surname><given-names>R. J.</given-names></name>
+<article-title>Structure, Energetics, and Dynamics
+of Cs<sup>+</sup> and H2O in Hectorite: Molecular Dynamics Simulations
+with an Unconstrained
+Substrate Surface</article-title>. <source>J. Phys. Chem. C</source>
+<year>2016</year>, <volume>120</volume>, <fpage>10298</fpage>&#x02013;<lpage>10310</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.6b01016</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Boily</surname><given-names>J.</given-names></name>
+<article-title>Water Structure
+and Hydrogen Bonding at Goethite/Water Interfaces: Implications for
+Proton Affinities</article-title>. <source>J. Phys. Chem. C</source>
+<year>2012</year>, <volume>116</volume>, <fpage>4714</fpage>&#x02013;<lpage>4724</lpage>. <pub-id pub-id-type="doi">10.1021/jp2110456</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Meleshyn</surname><given-names>A.</given-names></name>
+<article-title>Adsorption
+of Sr<sup>2+</sup> and Ba<sup>2+</sup> at the Cleaved Mica&#x02013;Water
+Interface: Free Energy Profiles and Interfacial Structure</article-title>. <source>Geochim. Cosmochim. Acta</source>
+<year>2010</year>, <volume>74</volume>, <fpage>1485</fpage>&#x02013;<lpage>1497</lpage>. <pub-id pub-id-type="doi">10.1016/j.gca.2009.12.019</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Meleshyn</surname><given-names>A.</given-names></name>
+<article-title>Aqueous Solution
+Structure at the Cleaved Mica Surface: Influence of K<sup>+</sup>,
+H3O<sup>+</sup>, and Cs<sup>+</sup> Adsorption</article-title>. <source>J. Phys. Chem. C</source>
+<year>2008</year>, <volume>112</volume>, <fpage>20018</fpage>&#x02013;<lpage>20026</lpage>. <pub-id pub-id-type="doi">10.1021/jp806524d</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Shen</surname><given-names>Z.</given-names></name>; <name><surname>Ilton</surname><given-names>E. S.</given-names></name>; <name><surname>Prange</surname><given-names>M. P.</given-names></name>; <name><surname>Kerisit</surname><given-names>S. N.</given-names></name>
+<article-title>Molecular Dynamics
+Simulations of the Interfacial Region between Boehmite and Gibbsite
+Basal Surfaces and High Ionic Strength Aqueous Solutions</article-title>. <source>J. Phys. Chem. C</source>
+<year>2017</year>, <volume>121</volume>, <fpage>13692</fpage>&#x02013;<lpage>13700</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.7b02463</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Kerisit</surname><given-names>S.</given-names></name>; <name><surname>Liu</surname><given-names>C.</given-names></name>; <name><surname>Ilton</surname><given-names>E. S.</given-names></name>
+<article-title>Molecular Dynamics Simulations of the Orthoclase (001)-
+and (010)-Water Interfaces</article-title>. <source>Geochim. Cosmochim.
+Acta</source>
+<year>2008</year>, <volume>72</volume>, <fpage>1481</fpage>&#x02013;<lpage>1497</lpage>. <pub-id pub-id-type="doi">10.1016/j.gca.2007.12.014</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Sakuma</surname><given-names>H.</given-names></name>; <name><surname>Kondo</surname><given-names>T.</given-names></name>; <name><surname>Nakao</surname><given-names>H.</given-names></name>; <name><surname>Shiraki</surname><given-names>K.</given-names></name>; <name><surname>Kawamura</surname><given-names>K.</given-names></name>
+<article-title>Structure
+of Hydrated Sodium Ions and Water Molecules Adsorbed on the Mica/Water
+Interface</article-title>. <source>J. Phys. Chem. C</source>
+<year>2011</year>, <volume>115</volume>, <fpage>15959</fpage>&#x02013;<lpage>15964</lpage>. <pub-id pub-id-type="doi">10.1021/jp111936s</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Zhang</surname><given-names>Z.</given-names></name>; et al. <article-title>Ion Adsorption at the Rutile&#x02013;Water Interface: Linking Molecular
+and Macroscopic Properties</article-title>. <source>Langmuir</source>
+<year>2004</year>, <volume>20</volume>, <fpage>4954</fpage>&#x02013;<lpage>4969</lpage>. <pub-id pub-id-type="doi">10.1021/la0353834</pub-id>.<pub-id pub-id-type="pmid">15984256</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>P&#x00159;edota</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>Z.</given-names></name>; <name><surname>Fenter</surname><given-names>P.</given-names></name>; <name><surname>Wesolowski</surname><given-names>D. J.</given-names></name>; <name><surname>Cummings</surname><given-names>P. T.</given-names></name>
+<article-title>Electric Double Layer at the Rutile (110) Surface.
+2. Adsorption of Ions from Molecular Dynamics and X-ray Experiments.</article-title>. <source>J. Phys. Chem. B</source>
+<year>2004</year>, <volume>108</volume>, <fpage>12061</fpage>&#x02013;<lpage>12072</lpage>. <pub-id pub-id-type="doi">10.1021/jp037199x</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Krack</surname><given-names>M.</given-names></name>; <name><surname>Michaelides</surname><given-names>A.</given-names></name>
+<article-title>Interfacial
+Water: A First Principles
+Molecular Dynamics Study of a Nanoscale Water Film on Salt</article-title>. <source>J. Chem. Phys.</source>
+<year>2009</year>, <volume>130</volume>, <elocation-id>234702</elocation-id><pub-id pub-id-type="doi">10.1063/1.3152845</pub-id>.<pub-id pub-id-type="pmid">19548745</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Meleshyn</surname><given-names>A.</given-names></name>
+<article-title>Potential
+of Mean Force for Mg<sup>2+</sup> at the Cleaved Mica&#x02013;Water
+Interface</article-title>. <source>J. Phys. Chem. C</source>
+<year>2009</year>, <volume>113</volume>, <fpage>12946</fpage>&#x02013;<lpage>12949</lpage>. <pub-id pub-id-type="doi">10.1021/jp904507r</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Loganathan</surname><given-names>N.</given-names></name>; <name><surname>Kalinichev</surname><given-names>A. G.</given-names></name>
+<article-title>Quantifying the Mechanisms of Site-Specific Ion Exchange
+at an Inhomogeneously Charged Surface: Case of Cs<sup>+</sup>/K<sup>+</sup> on Hydrated Muscovite Mica</article-title>. <source>J. Phys.
+Chem. C</source>
+<year>2017</year>, <volume>121</volume>, <fpage>7829</fpage>&#x02013;<lpage>7836</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.6b13108</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Baek</surname><given-names>W.</given-names></name>; <name><surname>Avramov</surname><given-names>P. V.</given-names></name>; <name><surname>Kim</surname><given-names>Y.</given-names></name>
+<article-title>Nuclear Magnetic
+Resonance and Theoretical
+Simulation Study On Cs Ion Co-Adsorbed with Other Alkali Cations On
+Illite</article-title>. <source>Appl. Surf. Sci.</source>
+<year>2019</year>, <volume>489</volume>, <fpage>766</fpage>&#x02013;<lpage>775</lpage>. <pub-id pub-id-type="doi">10.1016/j.apsusc.2019.06.034</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Lee</surname><given-names>S. S.</given-names></name>; <name><surname>Fenter</surname><given-names>P.</given-names></name>; <name><surname>Park</surname><given-names>C.</given-names></name>; <name><surname>Sturchio</surname><given-names>N. C.</given-names></name>; <name><surname>Nagy</surname><given-names>K. L.</given-names></name>
+<article-title>Hydrated
+Cation Speciation at the Muscovite (001)&#x02013;Water Interface</article-title>. <source>Langmuir</source>
+<year>2010</year>, <volume>26</volume>, <fpage>16647</fpage>&#x02013;<lpage>16651</lpage>. <pub-id pub-id-type="doi">10.1021/la1032866</pub-id>.<pub-id pub-id-type="pmid">20932042</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Kobayashi</surname><given-names>K.</given-names></name>; <name><surname>Liang</surname><given-names>Y.</given-names></name>; <name><surname>Murata</surname><given-names>S.</given-names></name>; <name><surname>Matsuoka</surname><given-names>T.</given-names></name>; <name><surname>Takahashi</surname><given-names>S.</given-names></name>; <name><surname>Nishi</surname><given-names>N.</given-names></name>; <name><surname>Sakka</surname><given-names>T.</given-names></name>
+<article-title>Ion Distribution
+and Hydration Structure
+in the Stern Layer on Muscovite Surface</article-title>. <source>Langmuir</source>
+<year>2017</year>, <volume>33</volume>, <fpage>3892</fpage>&#x02013;<lpage>3899</lpage>. <pub-id pub-id-type="doi">10.1021/acs.langmuir.7b00436</pub-id>.<pub-id pub-id-type="pmid">28355074</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Fenter</surname><given-names>P. A.</given-names></name>; <name><surname>Nagy</surname><given-names>K. L.</given-names></name>; <name><surname>Sturchio</surname><given-names>N. C.</given-names></name>; <name><surname>Park</surname><given-names>C.</given-names></name>
+<article-title>Hydration and Distribution
+of Ions at the Mica-Water Interface</article-title>. <source>Phys. Rev.
+Lett.</source>
+<year>2006</year>, <volume>97</volume>, <elocation-id>016101</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.97.016101</pub-id>.<pub-id pub-id-type="pmid">16907385</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Lee</surname><given-names>S. S.</given-names></name>; <name><surname>Fenter</surname><given-names>P.</given-names></name>; <name><surname>Nagy</surname><given-names>K. L.</given-names></name>; <name><surname>Sturchio</surname><given-names>N. C.</given-names></name>
+<article-title>Real-Time Observation
+of Cation Exchange Kinetics and Dynamics at the Muscovite-Water Interface</article-title>. <source>Nat. Commun.</source>
+<year>2017</year>, <volume>8</volume>, <elocation-id>15826</elocation-id><pub-id pub-id-type="doi">10.1038/ncomms15826</pub-id>.<pub-id pub-id-type="pmid">28598428</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Krack</surname><given-names>M.</given-names></name>; <name><surname>Michaelides</surname><given-names>A.</given-names></name>
+<article-title>Density Oscillations
+in a Nanoscale
+Water Film On Salt: Insight From Ab Initio Molecular Dynamics</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2008</year>, <volume>130</volume>, <fpage>8572</fpage>&#x02013;<lpage>8573</lpage>. <pub-id pub-id-type="doi">10.1021/ja8014296</pub-id>.<pub-id pub-id-type="pmid">18549204</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Zimmermann</surname><given-names>N. E. R.</given-names></name>; <name><surname>Vorselaars</surname><given-names>B.</given-names></name>; <name><surname>Quigley</surname><given-names>D.</given-names></name>; <name><surname>Peters</surname><given-names>B.</given-names></name>
+<article-title>Nucleation of NaCl
+from Aqueous Solution: Critical Sizes, Ion-Attachment Kinetics, and
+Rates</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>13352</fpage>&#x02013;<lpage>61</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.5b08098</pub-id>.<pub-id pub-id-type="pmid">26371630</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Shinto</surname><given-names>H.</given-names></name>; <name><surname>Sakakibara</surname><given-names>T.</given-names></name>; <name><surname>Higashitani</surname><given-names>K.</given-names></name>
+<article-title>Molecular Dynamics Simulations of
+Water at NaCl(001) and NaCl(011) Surfaces</article-title>. <source>J.
+Phys. Chem. B</source>
+<year>1998</year>, <volume>102</volume>, <fpage>1974</fpage>&#x02013;<lpage>1981</lpage>. <pub-id pub-id-type="doi">10.1021/jp972795a</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Oyen</surname><given-names>E.</given-names></name>; <name><surname>Hentschke</surname><given-names>R.</given-names></name>
+<article-title>Molecular
+Dynamics Simulation of Aqueous Sodium Chloride
+Solution at the NaCl(001) Interface with a Polarizable Water Model</article-title>. <source>Langmuir</source>
+<year>2002</year>, <volume>18</volume>, <fpage>547</fpage>&#x02013;<lpage>556</lpage>. <pub-id pub-id-type="doi">10.1021/la011269e</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Klime&#x00161;</surname><given-names>J.</given-names></name>; <name><surname>Bowler</surname><given-names>D. R.</given-names></name>; <name><surname>Michaelides</surname><given-names>A.</given-names></name>
+<article-title>Understanding
+the Role of Ions and
+Water Molecules in the NaCl Dissolution Process</article-title>. <source>J. Chem. Phys.</source>
+<year>2013</year>, <volume>139</volume>, <elocation-id>234702</elocation-id><pub-id pub-id-type="doi">10.1063/1.4840675</pub-id>.<pub-id pub-id-type="pmid">24359381</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Meng</surname><given-names>S.</given-names></name>; <name><surname>Xu</surname><given-names>L. F.</given-names></name>; <name><surname>Wang</surname><given-names>E. G.</given-names></name>; <name><surname>Gao</surname><given-names>S.</given-names></name>
+<article-title>Dissolution
+Dynamics of NaCl Nanocrystal in Liquid Water</article-title>. <source>Phys. Rev. E</source>
+<year>2005</year>, <volume>72</volume>, <elocation-id>012602</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevE.72.012602</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Kumar</surname><given-names>P.</given-names></name>; <name><surname>Bharadwaj</surname><given-names>M. D.</given-names></name>; <name><surname>Yashonath</surname><given-names>S.</given-names></name>
+<article-title>Effect of Interionic Interactions
+On the Structure and Dynamics of Ionic Solvation Shells in Aqueous
+Electrolyte Solutions</article-title>. <source>RSC Adv.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>114666</fpage>&#x02013;<lpage>114675</lpage>. <pub-id pub-id-type="doi">10.1039/C6RA26819F</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Rodgers</surname><given-names>J. M.</given-names></name>; <name><surname>Ichiye</surname><given-names>T.</given-names></name>
+<article-title>Multipole Moments of Water Molecules and the Aqueous
+Solvation of Monovalent Ions</article-title>. <source>J. Mol. Liq.</source>
+<year>2017</year>, <volume>228</volume>, <fpage>54</fpage>&#x02013;<lpage>62</lpage>. <pub-id pub-id-type="doi">10.1016/j.molliq.2016.10.007</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Berendsen</surname><given-names>H. J. C.</given-names></name>; <name><surname>Grigera</surname><given-names>J. R.</given-names></name>; <name><surname>Straatsma</surname><given-names>T. P.</given-names></name>
+<article-title>The Missing
+Term in Effective Pair
+Potentials</article-title>. <source>J. Phys. Chem. C.</source>
+<year>1987</year>, <volume>91</volume>, <fpage>6269</fpage>&#x02013;<lpage>6271</lpage>. <pub-id pub-id-type="doi">10.1021/j100308a038</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Joung</surname><given-names>I. S.</given-names></name>; <name><surname>Cheatham</surname><given-names>T. E.</given-names></name>
+<article-title>Determination of Alkali and Halide
+Monovalent Ion Parameters
+for Use in Explicitly Solvated Biomolecular Simulations</article-title>. <source>J. Phys. Chem. B</source>
+<year>2008</year>, <volume>112</volume>, <fpage>9020</fpage>&#x02013;<lpage>9041</lpage>. <pub-id pub-id-type="doi">10.1021/jp8001614</pub-id>.<pub-id pub-id-type="pmid">18593145</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Joung</surname><given-names>I. S.</given-names></name>; <name><surname>Cheatham</surname><given-names>T. E.</given-names></name>
+<article-title>Molecular Dynamics
+Simulations of the Dynamic and Energetic
+Properties of Alkali and Halide Ions Using Water-Model-Specific Ion
+Parameters</article-title>. <source>J. Phys. Chem. B</source>
+<year>2009</year>, <volume>113</volume>, <fpage>13279</fpage>&#x02013;<lpage>13290</lpage>. <pub-id pub-id-type="doi">10.1021/jp902584c</pub-id>.<pub-id pub-id-type="pmid">19757835</pub-id></mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Plimpton</surname><given-names>S.</given-names></name>
+<article-title>Fast Parallel
+Algorithms for Short-Range Molecular Dynamics</article-title>. <source>J. Comput. Phys.</source>
+<year>1995</year>, <volume>117</volume>, <fpage>1</fpage>&#x02013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1006/jcph.1995.1039</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Manzanilla-Granados</surname><given-names>H.
+M.</given-names></name>; <name><surname>Saint-Mart&#x000ed;n</surname><given-names>H.</given-names></name>; <name><surname>Fuentes-Azcatl</surname><given-names>R.</given-names></name>; <name><surname>Alejandre</surname><given-names>J.</given-names></name>
+<article-title>Direct Coexistence
+Methods to Determine the Solubility of Salts in Water from Numerical
+Simulations. Test Case NaCl</article-title>. <source>J. Phys. Chem.
+B</source>
+<year>2015</year>, <volume>119</volume>, <fpage>8389</fpage>&#x02013;<lpage>8396</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcb.5b00740</pub-id>.<pub-id pub-id-type="pmid">26036707</pub-id></mixed-citation></ref></ref-list></back></article>

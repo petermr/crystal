@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="materials-12-02049-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">materials-12-02049-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Comparison of ∆T
+   <sub>max</sub> between the mathematical model and the finite element simulation model.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">Volume Fraction of Copper</th>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Configuration I</th>
+    <th colspan="3" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">Configuration II</th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Mathematical Model
+     <break/>(K)
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Square Fiber
+     <break/>(K)
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cylindrical Fiber
+     <break/>(K)
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Mathematical Model
+     <break/>(K)
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Square Fiber
+     <break/>(K)
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cylindrical Fiber
+     <break/>(K)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.1</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">32.59</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">29.95</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">25.67</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">23.28</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">20.74</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">21.37</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.2</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">30.63</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28.76</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28.39</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">19.69</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">19.31</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">18.91</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">29.03</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">26.59</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">27.36</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">17.93</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">18.02</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">17.86</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">28.40</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">26.41</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">27.25</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">17.33</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">18.41</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">18.22</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.5</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">28.57</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">28.16</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">27.98</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">17.55</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">19.04</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">19.22</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

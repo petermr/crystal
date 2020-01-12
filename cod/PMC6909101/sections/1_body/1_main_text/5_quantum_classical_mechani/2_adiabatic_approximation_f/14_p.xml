@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0295">Its eigenvalues are equal to
+ <disp-formula id="fd40">
+  <label>(40)</label>
+  <math id="M145" altimg="si126.svg" alttext="Equation 40.">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+     <mrow>
+      <mtext>BO</mtext>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1,2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">+</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1,2</mn>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">+</mo>
+       <mfrac>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>and its eigenfunctions are equal to
+ <disp-formula id="ufd5">
+  <math id="M146" altimg="si127.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>Φ</mi>
+     </mrow>
+     <mrow>
+      <mn>1,2...</mn>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1,2</mn>
+       </mrow>
+      </msub>
+      <mn>...</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∏</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>φ</mi>
+      </mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1,2</mn>
+        </mrow>
+       </msub>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd41">
+  <label>(41)</label>
+  <math id="M147" altimg="si128.svg" alttext="Equation 41.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1,2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1,2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mfrac bevelled="true">
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>p</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+          <mo linebreak="badbreak">∓</mo>
+          <msub>
+           <mrow>
+            <mover accent="true">
+             <mi>p</mi>
+             <mo>˜</mo>
+            </mover>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </msup>
+    <msub>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1,2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">∓</mo>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Molecular dynamics simulation used Forcite module, the NPT and NVT system was selected, the temperature was 298.0 K, the step length was 0.5 fs, the total simulation time of NPT is 100 ps, and the total simulation time of NVT is 150 ps, the number of steps was 5 × 10
+ <sup>5</sup>, the output was every 200 steps, and the force field was universal [
+ <xref rid="B32-ijms-20-03997" ref-type="bibr">32</xref>]. The Universal Force Field (UFF) can cover almost all the elements in the periodic table of elements, which can meet the requirements of this simulation study. During the simulation, all atoms in the interlayer domain were unconstrained, allowing atomic coordinates and lattice parameters to change freely, and the output data were used for result analysis.
+</p>

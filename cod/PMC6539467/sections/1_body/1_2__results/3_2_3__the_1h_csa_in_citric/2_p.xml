@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The most challenging case for computational methods considered here is that of the The results are less accurate for the cluster model, depicted in 
+ <xref ref-type="fig" rid="molecules-24-01731-f003">Figure 3</xref>, with the RMSE of about 2.5 ppm and the maximal error exceeding 5 ppm (see 
+ <xref rid="molecules-24-01731-t004" ref-type="table">Table 4</xref>). However, this cluster was created mainly in order to check the orientation of the respective 
+ <sup>1</sup>H chemical shielding tensors in the molecular frame (to avoid any possible confusion related to an orientation in the 
+ <italic>P</italic>2
+ <sub>1</sub>/
+ <italic>n</italic> crystal frame of citric acid in CASTEP calculations), as this spatial information should be useful in simulations of the 2D 
+ <sup>1</sup>H CSA/
+ <sup>1</sup>H CSA correlations [
+ <xref rid="B15-molecules-24-01731" ref-type="bibr">15</xref>]. It was, nevertheless, established that the results of the approach used in the cluster calculations, GIAO-B3LYP/6-311++G(2d, 2p), should be of a quality similar to the GIAO-MP2/6-311++G(2d, 2p), at least for hydrogen-bonded models (see 
+ <xref ref-type="app" rid="app1-molecules-24-01731">Table SI10</xref> showing the variation of the 
+ <sup>1</sup>H-NMR parameters in the phenol–water dimer). It was also verified that essentially the same orientations in the crystal/molecular frame were provided by the GIPAW-PBE and the cluster calculations for the investigated 
+ <sup>1</sup>H chemical shielding tensors in citric acid (
+ <xref ref-type="app" rid="app1-molecules-24-01731">Tables SI8 and SI9</xref>). These orientations follow the pattern described for malonic acid in Part 2.1 and are shown in 
+ <xref ref-type="fig" rid="molecules-24-01731-f003">Figure 3</xref>. In particular, it should be realized that the angle is small between the O–H bond vector and the direction of 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>3</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the eigenvector associated with the most shielded component, 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <mo> </mo>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. It should also be realized that the hydrogen bond direction can be roughly approximated by a vector between the acceptor and donor oxygens. This vector is denoted here as 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>h</mi>
+      <mo>→</mo>
+     </mover>
+     <mfenced>
+      <mi>k</mi>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>h</mi>
+      <mo>→</mo>
+     </mover>
+     <mfenced>
+      <mi>k</mi>
+     </mfenced>
+     <mo>=</mo>
+     <mover accent="true">
+      <mrow>
+       <mfenced close="|" open="|">
+        <mrow>
+         <mi>Oa</mi>
+         <mfenced>
+          <mrow>
+           <mi mathvariant="normal">H</mi>
+           <mi>k</mi>
+          </mrow>
+         </mfenced>
+         <mo>−</mo>
+         <mi>Od</mi>
+         <mfenced>
+          <mrow>
+           <mi mathvariant="normal">H</mi>
+           <mi>k</mi>
+          </mrow>
+         </mfenced>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mi>k</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> relates to one of the {H5, H6, H7, H8} protons of citric acid, and an angle 
+ <inline-formula>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <mi>φ</mi>
+     <mfenced>
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> between the two vectors 
+ <inline-formula>
+  <math id="mm41">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>h</mi>
+      <mo>→</mo>
+     </mover>
+     <mfenced>
+      <mi>i</mi>
+     </mfenced>
+     <mo>,</mo>
+     <mo> </mo>
+     <mover accent="true">
+      <mi>h</mi>
+      <mo>→</mo>
+     </mover>
+     <mfenced>
+      <mi>j</mi>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> describes a mutual orientation of the hydrogen bonds involving 
+ <inline-formula>
+  <math id="mm42">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">H</mi>
+     <mi>i</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm43">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">H</mi>
+     <mi>j</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Let us further define 
+ <inline-formula>
+  <math id="mm44">
+   <mrow>
+    <mrow>
+     <mi>ψ</mi>
+     <mfenced>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi mathvariant="normal">H</mi>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> as an angle between the 
+ <inline-formula>
+  <math id="mm45">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>3</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of one of the {H5, H6, H7, H8} protons and the hydrogen bond involving any proton from this set. For example, 
+ <inline-formula>
+  <math id="mm46">
+   <mrow>
+    <mrow>
+     <mi>ψ</mi>
+     <mfenced>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mn>5</mn>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi mathvariant="normal">H</mi>
+       <mn>6</mn>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is an angle between 
+ <inline-formula>
+  <math id="mm47">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>3</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of H5 and 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>h</mi>
+      <mo>→</mo>
+     </mover>
+     <mfenced>
+      <mn>6</mn>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which is the vector of the hydrogen bond associated with H6. Then for each 
+ <inline-formula>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">H</mi>
+     <mi>i</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, values of 
+ <inline-formula>
+  <math id="mm50">
+   <mrow>
+    <mrow>
+     <mi>ψ</mi>
+     <mfenced>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi mathvariant="normal">H</mi>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> angles are expected to be close to corresponding 
+ <inline-formula>
+  <math id="mm51">
+   <mrow>
+    <mrow>
+     <mi>φ</mi>
+     <mfenced>
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> values. This indeed holds for H5, as exemplified in 
+ <xref rid="molecules-24-01731-t005" ref-type="table">Table 5</xref> (the GIAO-B3LYP/6-311++G(2d, 2p) chemical shielding and the PW PBE coordinates were used to obtain the 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mrow>
+     <mi>φ</mi>
+     <mfenced>
+      <mrow>
+       <mn>5</mn>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <mi>ψ</mi>
+     <mfenced>
+      <mrow>
+       <mi mathvariant="normal">H</mi>
+       <mn>5</mn>
+       <mo>,</mo>
+       <mo> </mo>
+       <mi mathvariant="normal">H</mi>
+       <mi>j</mi>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> data). Hence, angles between hydrogen bonds would be quite accurately described by relative orientations of the 
+ <sup>1</sup>H chemical shielding tensors of protons involved in the hydrogen bonding. These relative orientations are available from cross-correlations in the 2D 
+ <sup>1</sup>H CSA/
+ <sup>1</sup>H CSA spectra [
+ <xref rid="B15-molecules-24-01731" ref-type="bibr">15</xref>].
+</p>

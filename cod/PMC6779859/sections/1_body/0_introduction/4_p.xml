@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Of course, the implementation of more and more complex algorithms will require the interplay of an increasing number of qubits. In the case of 
+ <bold>1</bold>, this would generally mean to assemble several copies in close enough positions to allow qubit entanglement. Nonetheless, approaching magnetic molecules with the goal of communicating them also leads to an unavoidable detrimental effect. Indeed, the nature of the involved molecular entities produces a magnetic field that is permanently covering all the space. This field results in a magnetic noise which will eventually end up destroying the information at play during the algorithm. This is what is known as decoherence (Nielsen and Chuang, 
+ <xref rid="B19" ref-type="bibr">2010</xref>), and one of the most important current goals is to design MSQs as robust as possible against it (Ding et al., 
+ <xref rid="B6" ref-type="bibr">2016</xref>).
+</p>

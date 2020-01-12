@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The surface atoms in the outer shell 
+ <italic>n</italic> have a set of bondings less than the bulk coordination. Thus the maximal coordination for surface atoms is 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>s</italic>
+ </sub>&lt;
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>M</italic>
+ </sub>, and the number of surface atoms is 
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document} $$ N_{S}(n) = \sum_{{cn}_{i}=1}^{{cn}_{s}}{N_{{cn}_{i}}(n)}. $$ \end{document}</tex-math>
+   <math id="M10">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>S</mi>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <munderover>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </munderover>
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mi>.</mi>
+   </math>
+   <graphic xlink:href="11671_2019_2939_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

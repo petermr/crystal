@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0320">So, to the Hamiltonian of the “electron + environment” system of some general form 
+ <inline-formula>
+  <math id="M155" altimg="si134.svg">
+   <mrow>
+    <mtext>H</mtext>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mtext>H</mtext>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, we add and subtract some, while arbitrary, operator 
+ <inline-formula>
+  <math id="M156" altimg="si135.svg">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>:
+ <disp-formula id="fd43">
+  <label>(43)</label>
+  <math id="M157" altimg="si136.svg" alttext="Equation 43.">
+   <mrow>
+    <mtext>H</mtext>
+    <mo linebreak="badbreak">≡</mo>
+    <mtext>H</mtext>
+    <mo linebreak="goodbreak">−</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

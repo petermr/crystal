@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The formation enthalpy of Ti
+ <sub>3</sub>Sn was calculated using density functional theory (DFT) implemented in the Vienna Ab initio Simulation Package (VASP) with standard potential function [
+ <xref rid="B15-materials-12-02484" ref-type="bibr">15</xref>,
+ <xref rid="B16-materials-12-02484" ref-type="bibr">16</xref>,
+ <xref rid="B17-materials-12-02484" ref-type="bibr">17</xref>]. All the structures were fully relaxed with respect to volume and the atomic coordinates. A cutoff of 360 eV was used for all elements. The settings of k-points correspond roughly to a 5000 k-point mesh per reciprocal atom. The formation enthalpy (with thermal contributions and zero-vibration energy difference or contribution being ignored) for an equilibrium phase Ti
+ <sub>x</sub>Sn
+ <sub>y</sub> can be defined as [
+ <xref rid="B18-materials-12-02484" ref-type="bibr">18</xref>,
+ <xref rid="B19-materials-12-02484" ref-type="bibr">19</xref>]:
+ <disp-formula>ΔH (Ti
+  <sub>x</sub>Sn
+  <sub>y</sub>) = E(Ti
+  <sub>x</sub>Sn
+  <sub>y</sub>) − x
+  <sub>Ti</sub>·E(Ti) − y
+  <sub>Sn</sub>·E(Sn)
+  <label>(1)</label>
+ </disp-formula> where E(Ti
+ <sub>x</sub>Sn
+ <sub>y</sub>) is the total energy of Ti
+ <sub>x</sub>Sn
+ <sub>y</sub> phase per atom, obtained by first-principle calculations. E(Ti) and E(Sn) are the energy for the pure elements Ti and Sn, respectively. x
+ <sub>Ti</sub> = x\(x + y) and y
+ <sub>Sn</sub> = y\(x + y) are the fractional compositions of Ti and Sn, respectively.
+</p>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since we used AiiDA for the data-tracing of the full workflow, from the reported structure to the performances evaluation, we can now easily inspect every intermediate stage, backtracking the provenance of the final results. We illustrate this for three COFs: 18041N3 having the lowest parasitic energy (0.819 MJ/kg), 13180N3 having the maximum working capacity (30.42 kg/m
+ <sup>3</sup>), and the test case 05001N2 (COF-5), which has a relatively high parasitic energy of 2.681 MJ/kg and therefore is not promising for this particular application. For these materials we can inspect in one glance (
+ <xref rid="fig12" ref-type="fig">Figure 
+  <xref rid="fig12" ref-type="fig">12</xref>
+ </xref>) the energy profile during the optimization, the changes in the structures, the uptake sampling, and the details of the process simulation. The reader can access a similar visualization from the Materials Cloud, in the Discovery section (see Acknowledgments).
+</p>

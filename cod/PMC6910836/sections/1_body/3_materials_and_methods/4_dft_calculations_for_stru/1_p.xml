@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DFT calculations, for structural deliberation of Sn oxide SNCs to simulate vibrational features in Raman spectra, were performed with the BLYP functional and the LanL2DZ basis set for Sn as well as the 3-21G basis sets for H and O. Model clusters with stoichiometric compositions estimated from XPS data were first constructed by capturing from a rutile-type crystal structure. Later, water molecules were further added to the stoichiometric formula of each SNC. The constructed model clusters were geometrically optimized, with which the vibrational analyses were performed. On the basis of the vibrational analyses, Raman scattering intensities for various resonance peaks were calculated (blue solid lines), and subsequently, Raman spectra were simulated by adding a line width to each scattering intensity (black dashed curves). The line width was given by a Gaussian function with a half width of 30 cm
+ <sup>−1</sup>. In addition, it should also be noted that a vibrational analysis usually gives a slight difference between the calculated vibrational frequencies and experimental ones due to insufficient description of anharmonicity. It is, however, well known that this inaccuracy can be resolved by scaling the calculated frequencies (
+ <xref rid="R35" ref-type="bibr">
+  <italic>35</italic>
+ </xref>). In the present study, a scaling factor 0.952 was used, which was determined such that an experimental Raman spectrum of a rutile-type Sn oxide crystal was reproduced in a first-principles manner. For the crystal, periodic boundary condition DFT calculations were carried out at the same level of theory as above. All the DFT calculations were conducted with the Gaussian 16, Rev. B.01 program package (
+ <xref rid="R34" ref-type="bibr">
+  <italic>34</italic>
+ </xref>).
+</p>

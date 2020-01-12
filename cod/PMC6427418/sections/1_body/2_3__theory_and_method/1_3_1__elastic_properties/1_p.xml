@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Monte Carlo (MC) computer simulations in the 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mi>p</mi>
+     <mi>T</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> ensemble (with constant number of particles, at constant pressure and temperature) and the Parrinello–Rahman [
+ <xref rid="B91-materials-12-00700" ref-type="bibr">91</xref>,
+ <xref rid="B92-materials-12-00700" ref-type="bibr">92</xref>,
+ <xref rid="B93-materials-12-00700" ref-type="bibr">93</xref>] method with the variable shape of the periodic box have been used to determine the elastic compliance tensor elements 
+ <inline-formula>
+  <math id="mm25">
+   <mrow>
+    <msub>
+     <mi>S</mi>
+     <mrow>
+      <mi>α</mi>
+      <mi>β</mi>
+      <mi>γ</mi>
+      <mi>δ</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> of the model described in the previous section. This method allows to calculate the latter directly from the shape fluctuations of the periodic box, which is described by a 
+ <italic>symmetric</italic> matrix 
+ <inline-formula>
+  <math id="mm26">
+   <mrow>
+    <mi mathvariant="bold">h</mi>
+   </mrow>
+  </math>
+ </inline-formula>, formed by vectors defining the edges of the parallelepiped (periodic box) containing the studied system. The strain tensor 
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <mi>ε</mi>
+   </mrow>
+  </math>
+ </inline-formula> can be determined from the following formula [
+ <xref rid="B92-materials-12-00700" ref-type="bibr">92</xref>,
+ <xref rid="B93-materials-12-00700" ref-type="bibr">93</xref>]:
+ <disp-formula id="FD2-materials-12-00700">
+  <label>(2)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mi>ε</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mfenced separators="" open="(" close=")">
+      <msubsup>
+       <mi mathvariant="bold">h</mi>
+       <mn>0</mn>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <mo>.</mo>
+      <mi mathvariant="bold">h</mi>
+      <mo>.</mo>
+      <mi mathvariant="bold">h</mi>
+      <mo>.</mo>
+      <msubsup>
+       <mi mathvariant="bold">h</mi>
+       <mn>0</mn>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <mo>−</mo>
+      <mi mathvariant="bold">I</mi>
+     </mfenced>
+     <mspace width="4pt"/>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mi mathvariant="bold">I</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the unit matrix of the dimension three, 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <msub>
+     <mi mathvariant="bold">h</mi>
+     <mn>0</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the reference box matrix (equilibrium matrix 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mi mathvariant="bold">h</mi>
+   </mrow>
+  </math>
+ </inline-formula> at pressure 
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <msup>
+     <mi>p</mi>
+     <mo>*</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="bold">h</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>≡</mo>
+     <mrow>
+      <mo>〈</mo>
+      <mi mathvariant="bold">h</mi>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>). The elastic compliance tensor can be expressed in relation to the strain tensor [
+ <xref rid="B93-materials-12-00700" ref-type="bibr">93</xref>]:
+ <disp-formula id="FD3-materials-12-00700">
+  <label>(3)</label>
+  <math id="mm34">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi>α</mi>
+       <mi>β</mi>
+       <mi>γ</mi>
+       <mi>δ</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>β</mi>
+     <msub>
+      <mi>V</mi>
+      <mi mathvariant="normal">p</mi>
+     </msub>
+     <mfenced separators="" open="〈" close="〉">
+      <mo>Δ</mo>
+      <msub>
+       <mi>ε</mi>
+       <mrow>
+        <mi>α</mi>
+        <mi>β</mi>
+       </mrow>
+      </msub>
+      <mo>Δ</mo>
+      <msub>
+       <mi>ε</mi>
+       <mrow>
+        <mi>γ</mi>
+        <mi>δ</mi>
+       </mrow>
+      </msub>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>V</mi>
+      <mi mathvariant="normal">p</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>|</mo>
+      <mi>det</mi>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi mathvariant="bold">h</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>)</mo>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the volume of the system at pressure 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <msup>
+     <mi>p</mi>
+     <mo>*</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msub>
+      <mi>ε</mi>
+      <mrow>
+       <mi>α</mi>
+       <mi>β</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>ε</mi>
+      <mrow>
+       <mi>α</mi>
+       <mi>β</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <mrow>
+      <mo>〈</mo>
+      <msub>
+       <mi>ε</mi>
+       <mrow>
+        <mi>α</mi>
+        <mi>β</mi>
+       </mrow>
+      </msub>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mo>〈</mo>
+     <msub>
+      <mi>ε</mi>
+      <mrow>
+       <mi>α</mi>
+       <mi>β</mi>
+      </mrow>
+     </msub>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the average in the 
+ <inline-formula>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mi>p</mi>
+     <mi>T</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> ensemble, and 
+ <inline-formula>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <mi>α</mi>
+     <mo>,</mo>
+     <mi>β</mi>
+     <mo>,</mo>
+     <mi>γ</mi>
+     <mo>,</mo>
+     <mi>δ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 
+ <italic>x</italic>, 
+ <italic>y</italic>, or 
+ <italic>z</italic>.
+</p>

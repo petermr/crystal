@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0255">In the zero order of the perturbation theory with respect to the operator 
+ <inline-formula>
+  <math id="M110" altimg="si95.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>U</mi>
+     <mo>˜</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>, for the electron 
+ <xref rid="fd22" ref-type="disp-formula">Eq. (22)</xref> we have
+ <disp-formula id="fd26">
+  <label>(26)</label>
+  <math id="M111" altimg="si96.svg" alttext="Equation 26.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>ℏ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <mi>μ</mi>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>Δ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>U</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>U</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mi mathvariant="bold">L</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <munder>
+       <mo movablelimits="false">∑</mo>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>U</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi mathvariant="bold">q</mi>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mtext> </mtext>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+    <msub>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where the index 
+ <inline-formula>
+  <math id="M112" altimg="si97.svg">
+   <mrow>
+    <mi>s</mi>
+   </mrow>
+  </math>
+ </inline-formula> numbers the states of the discrete and continuous spectra. It is assumed that the interaction
+ <disp-formula id="ufd1">
+  <math id="M113" altimg="si98.svg">
+   <mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mtext> </mtext>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>at the donor 1 and at the acceptor 2 is the same, that is, by definition
+ <disp-formula id="fd27">
+  <label>(27)</label>
+  <math id="M114" altimg="si99.svg" alttext="Equation 27.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">≡</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mspace width="0.25em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">&lt;</mo>
+      <mn>0</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>and
+ <disp-formula id="fd28">
+  <label>(28)</label>
+  <math id="M115" altimg="si100.svg" alttext="Equation 28.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">≡</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>In this wise
+ <disp-formula id="ufd2">
+  <math id="M116" altimg="si101.svg">
+   <mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+       <mo linebreak="badbreak">−</mo>
+       <mi mathvariant="bold">L</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <mo>−</mo>
+       <msub>
+        <mrow>
+         <mi>U</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi mathvariant="bold">q</mi>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">[</mo>
+      <mrow>
+       <mo>−</mo>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">]</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="goodbreak">≡</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

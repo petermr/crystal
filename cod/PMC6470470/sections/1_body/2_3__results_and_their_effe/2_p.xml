@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As illustrated in 
+ <xref ref-type="fig" rid="materials-12-00948-f001">Figure 1</xref> for the example of Ni at room temperature and ambient pressure for a number of dislocation character angles ranging from pure screw (
+ <inline-formula>
+  <math id="mm135">
+   <mrow>
+    <mrow>
+     <mi>ϑ</mi>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) to pure edge (
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <mrow>
+     <mi>ϑ</mi>
+     <mo>=</mo>
+     <mi>π</mi>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>), Equation (6) is perfectly sufficient in some cases. Corresponding fitting parameters (in units of 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mi>μ</mi>
+   </mrow>
+  </math>
+ </inline-formula>Pas) and critical velocities—all dependent on 
+ <inline-formula>
+  <math id="mm138">
+   <mrow>
+    <mi>ϑ</mi>
+   </mrow>
+  </math>
+ </inline-formula>—are listed in the figure legends and titles. However, if 
+ <italic>B</italic> shows a stronger 
+ <italic>v</italic> dependence in the intermediate region, which is the case for a number of metals and slip systems, additional terms are required to improve the fits. Candidates for such additional terms include of course any polynomial 
+ <inline-formula>
+  <math id="mm139">
+   <mrow>
+    <msup>
+     <mi>x</mi>
+     <mi>k</mi>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> with 
+ <inline-formula>
+  <math id="mm140">
+   <mrow>
+    <mrow>
+     <mi>k</mi>
+     <mo>≥</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> or subleading divergences (which are always present), e.g., 
+ <inline-formula>
+  <math id="mm141">
+   <mrow>
+    <msup>
+     <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msup>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msup>
+      <mo>)</mo>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mi>m</mi>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> with 
+ <inline-formula>
+  <math id="mm142">
+   <mrow>
+    <mrow>
+     <mn>0</mn>
+     <mo>&lt;</mo>
+     <mi>m</mi>
+     <mo>&lt;</mo>
+     <mn>3</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> or 
+ <inline-formula>
+  <math id="mm143">
+   <mrow>
+    <mrow>
+     <mo form="prefix">ln</mo>
+     <mo>(</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <msup>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Our goal is to keep 
+ <italic>B</italic> simple and the number of fitting parameters small. Empirically, we found that adding only one additional term, 
+ <inline-formula>
+  <math id="mm144">
+   <mrow>
+    <msup>
+     <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msup>
+       <mi>x</mi>
+       <mn>2</mn>
+      </msup>
+      <mo>)</mo>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, greatly improves the fits in most cases where Equation (6) is insufficient.
+</p>

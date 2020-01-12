@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The computational cost of DIA and ANS [
+ <xref rid="B33-nanomaterials-09-00978" ref-type="bibr">33</xref>] is determined by the number of times of the calculations of the potential energy. For a system consisting of hundreds of atoms [
+ <xref rid="B33-nanomaterials-09-00978" ref-type="bibr">33</xref>,
+ <xref rid="B37-nanomaterials-09-00978" ref-type="bibr">37</xref>,
+ <xref rid="B47-nanomaterials-09-00978" ref-type="bibr">47</xref>,
+ <xref rid="B48-nanomaterials-09-00978" ref-type="bibr">48</xref>], ANS partitions configuration space into at least 
+ <inline-formula>
+  <math id="mm74">
+   <mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mn>3</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> subdivisions, and in each subdivision, more than 
+ <inline-formula>
+  <math id="mm75">
+   <mrow>
+    <mrow>
+     <mn>3</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mn>4</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> configurations should be randomly produced to be calculated for the total potential energy, and the same program of ANS must be repeatedly run dozens of times to produce average results because of the fluctuations of the Monte Carlo algorithm in ANS. Therefore, the times for ANS calculating the potential are more than 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mrow>
+     <mn>3</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mn>8</mn>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> while the times needed by DIA can be fewer than 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mn>4</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> because 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>…</mo>
+       <msubsup>
+        <mi>x</mi>
+        <mi>i</mi>
+        <mo>′</mo>
+       </msubsup>
+       <mo>…</mo>
+       <mn>0</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in Equation (9) can be well determined with a step of 0.001 Å for changes of 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in a range of about 1 Å, indicating that DIA works at least four orders of magnitude faster than ANS.
+</p>

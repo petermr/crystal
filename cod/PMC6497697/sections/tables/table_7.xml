@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab7">
+ <label>Table 7</label>
+ <caption>
+  <p>Magic formulas for the bcc octahedron</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left" colspan="2">bcc octahedron 
+     <italic>n</italic>=4
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <inline-graphic xlink:href="11671_2019_2939_Figg_HTML.gif" id="d29e3212" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left">Atoms</td>
+    <td align="left">
+     <inline-formula id="IEq9">
+      <alternatives>
+       <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {8}{3}n^{3}+6n^{2}+\frac {16}{3}n+1,~n\ge 1$\end{document}</tex-math>
+       <math id="M44">
+        <mfrac>
+         <mrow>
+          <mn>8</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>6</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>16</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Bonds</td>
+    <td align="left">
+     <inline-formula id="IEq10">
+      <alternatives>
+       <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {56}{3}n^{3}+18n^{2}+\frac {40}{3}n,~n\ge 0$\end{document}</tex-math>
+       <math id="M46">
+        <mfrac>
+         <mrow>
+          <mn>56</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mn>18</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>40</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>0</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=5
+    </td>
+    <td align="left">6, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=7
+    </td>
+    <td align="left">4
+     <italic>n</italic>
+     <sup>2</sup>+4
+     <italic>n</italic>, 
+     <italic>n</italic>≥0
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=8
+    </td>
+    <td align="left">12
+     <italic>n</italic>−12, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=10
+    </td>
+    <td align="left">4
+     <italic>n</italic>
+     <sup>2</sup>−12
+     <italic>n</italic>+8, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=13
+    </td>
+    <td align="left">4
+     <italic>n</italic>
+     <sup>2</sup>−4
+     <italic>n</italic>, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=14
+    </td>
+    <td align="left">
+     <inline-formula id="IEq11">
+      <alternatives>
+       <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {8}{3}n^{3}-6n^{2}+\frac {16}{3}n-1,~n\ge {1}$\end{document}</tex-math>
+       <math id="M48">
+        <mfrac>
+         <mrow>
+          <mn>8</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mn>6</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>16</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>−</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

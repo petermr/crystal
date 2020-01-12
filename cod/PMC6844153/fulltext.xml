@@ -1,0 +1,475 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6844153</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02655</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Indirect-To-Direct Band Gap Transition of One-Dimensional
+V<sub>2</sub>Se<sub>9</sub>: Theoretical Study with Dispersion Energy
+Correction</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Lee</surname><given-names>Weon-Gyu</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Chae</surname><given-names>Sudong</given-names></name><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Chung</surname><given-names>You Kyoung</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Yoon</surname><given-names>Won-Sub</given-names></name><xref rid="aff1" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath5"><name><surname>Choi</surname><given-names>Jae-Young</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02021;</xref><xref rid="aff1" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><name><surname>Huh</surname><given-names>Joonsuk</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff1" ref-type="aff">&#x02225;</xref></contrib><aff id="aff1"><sup>&#x02020;</sup>Department
+of Chemistry, <sup>&#x02021;</sup>School of Advanced Materials Science &#x00026; Engineering, <sup>&#x000a7;</sup>Department of Energy
+Science, and <sup>&#x02225;</sup>SKKU Advanced Institute of Nanotechnology (SAINT), <institution>Sungkyunkwan University</institution>, Suwon 16419, <country>Republic of Korea</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>jy.choi@skku.edu</email> (J.-Y.C.).</corresp><corresp id="cor2"><label>*</label>E-mail: <email>joonsukhuh@skku.edu</email> (J.H.).</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>05</day><month>11</month><year>2019</year></pub-date><volume>4</volume><issue>19</issue><fpage>18392</fpage><lpage>18397</lpage><history><date date-type="received"><day>17</day><month>08</month><year>2019</year></date><date date-type="accepted"><day>14</day><month>10</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_0005" id="ab-tgr1"/></p><p>Recently,
+we synthesized a one-dimensional (1D) structure of V<sub>2</sub>Se<sub>9</sub>. The 1D V<sub>2</sub>Se<sub>9</sub> resembles
+another 1D material, Nb<sub>2</sub>Se<sub>9</sub>, which is expected
+to have a direct band gap. To determine the potential applications
+of this material, we calculated the band structures of 1D and bulk
+V<sub>2</sub>Se<sub>9</sub> using density functional theory by varying
+the number of chains and comparing their band structures and electronic
+properties with those of Nb<sub>2</sub>Se<sub>9</sub>. The results
+showed that a small number of V<sub>2</sub>Se<sub>9</sub> chains have
+a direct band gap, whereas bulk V<sub>2</sub>Se<sub>9</sub> possesses
+an indirect band gap, like Nb<sub>2</sub>Se<sub>9</sub>. We expect
+that V<sub>2</sub>Se<sub>9</sub> nanowires with diameters less than
+&#x0223c;20 &#x000c5; would have direct band gaps. This indirect-to-direct
+band gap transition could lead to potential optoelectronic applications
+for this 1D material because materials with direct band gaps can absorb
+photons without being disturbed by phonons.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02655</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b02655</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>The development of
+low-dimensional materials has launched different
+approaches to materials research for many promising applications.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> Two-dimensional (2D) materials are composed of planar crystalline
+sheets stabilized by strong in-plane bonds and weak interlayer interactions.
+Because graphene was first separated from graphite, graphene-based
+applications in electronics, chemistry, and mechanics have been intensively
+studied due to graphene&#x02019;s superior physical properties (e.g.,
+high charge carrier mobility and mechanical strength). However, graphene
+does not have a band gap and so is difficult to develop with transistors.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> If graphene is finely patterned with narrow widths, a band gap can
+be formed.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> Unfortunately, as the width
+of graphene decreases, the band gap increases, and the electron mobility
+sharply decreases. Other 2D materials with appropriate band gaps,
+including transition-metal dichalcogenides (TMDCs) and black phosphorus,
+have been introduced.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> Similar to graphene, a dramatic reduction in charge carrier mobility
+due to edge scattering is inevitable after device manufacture.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> The reduction of dimensionality also can influence
+the charge transfer, the structure of the crystal, spin property,
+or the charge carrier mobility in the metal nanowire system.<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref></sup></p><p>Other types of one-dimensional (1D) materials, such as Mo<sub>6</sub>S<sub>9&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub>, Sb<sub>2</sub>Se<sub>3</sub>, and VS<sub>4</sub>, have been
+studied
+by several researchers.<sup><xref ref-type="bibr" rid="ref20">20</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> Because they are formed by periodically stacking single-chain atomic
+crystals (SCACs) that have strong intrachain bonds with weak van der
+Waals (vdW) interchain interactions, these 1D materials are prepared
+by isolating SCACs from bulk crystals (similar to 2D materials). The
+structural characteristics of 1D materials result in a surface free
+from dangling bonds which hinder application of 2D materials.<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref></sup> However, it is difficult to clearly determine the crystal structure
+of Mo<sub>6</sub>S<sub>9&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub> because the positions of the sulfur and iodine ions
+coordinated to the central molybdenum ions may vary, even at the same
+stoichiometric composition. In addition, the thermodynamic properties
+of the ternary system (Mo&#x02013;S&#x02013;I) are not well known, which
+makes it difficult to understand the physical properties of the Mo<sub>6</sub>S<sub>9&#x02013;<italic>x</italic></sub>I<sub><italic>x</italic></sub> material. In addition, Sb<sub>2</sub>Se<sub>3</sub> and VS<sub>4</sub> have not been reported experimentally as 1D atomic dispersions.</p><p>Very recently, other semiconducting 1D materials, such as Nb<sub>2</sub>Se<sub>9</sub> and V<sub>2</sub>Se<sub>9</sub>, were reported
+to be successfully synthesized by solid-state reactions.<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> These materials can be separated as 1D nanowires up to a single-atomic
+chain size because of the weak vdW interactions between the selenium
+ions surrounding the inorganic chains. There are two approaches for
+preparing the nanowires: (i) mechanical exfoliation, which is similar
+to the conventional experimental set-ups used in 2D (e.g., graphene,
+boron nitride, and TMDCs) research,<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> and
+(ii) chemical exfoliation, which occurs by designing an appropriate
+solvent and dispersant.<sup><xref ref-type="bibr" rid="ref32">32</xref>&#x02212;<xref ref-type="bibr" rid="ref34">34</xref></sup> Based on these two exfoliation
+methods, the bulk materials can be separated up to 1 nm in thickness
+[as experimentally confirmed by atomic force microscopy (AFM)]; the
+separated materials can be a single unit of the inorganic chain. In
+this report, we performed theoretical calculations to investigate
+the potential optoelectronic applications of V<sub>2</sub>Se<sub>9</sub> chains after disintegration of bulk V<sub>2</sub>Se<sub>9</sub> crystals
+into single V<sub>2</sub>Se<sub>9</sub> chains.</p><p>The calculations
+showed that V<sub>2</sub>Se<sub>9</sub> SCACs
+would have direct band gaps, whereas bulk V<sub>2</sub>Se<sub>9</sub> would have an indirect band gap. As in Nb<sub>2</sub>Se<sub>9</sub>,<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> the band gap decreased by increasing
+the number of chains from 1.09 eV (single chain) to 0.54 eV (bulk).
+The band structures of single, double, triple, and septuple SCAC bundles
+were similar, but they were different from that of the bulk structure.
+We investigated the effects of vdW interchain interactions by adding
+the dispersion energy correction to the structural optimization. The
+dispersion energy decreased the band gaps but did not alter the indirect-to-direct
+band gap transition trend significantly, whereas the dispersion energy
+was important in predicting the direct band gap of the double-layer
+MoS<sub>2</sub>.<sup><xref ref-type="bibr" rid="ref36">36</xref></sup></p></sec><sec id="sec2"><title>Results and Discussion</title><p><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref> shows the
+calculated band structures of bulk and few-chain systems, from the
+high symmetry point <italic>M</italic> to point &#x00393;. Full band
+structures can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Supporting Information</ext-link> Figures S1&#x02013;S5. Unlike 2D materials, a collection of 1D materials
+can have various arrangements. The lowest energy arrangements of the
+double and triple chains were chosen for the band structure calculation.
+Triangular arrangement of triple-chain V<sub>2</sub>Se<sub>9</sub> is more stable than linear V<sub>2</sub>Se<sub>9</sub>, which implies
+that aggregation stabilizes the energy of V<sub>2</sub>Se<sub>9</sub> SCACs. Thus, we calculated the band structure of hexagonally stacked
+septuple-chain bundles for seven chains. As <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a presents, bulk V<sub>2</sub>Se<sub>9</sub> had an indirect band gap of 0.54 eV from point &#x00393; to a point
+(0.419, 0, 0.419) near <italic>M</italic> (0.5, 0, 0.5), designated
+as <italic>T</italic>. However, all 1D few-chain systems had direct
+band gaps that increased as the number of chains decreased. The maximum
+band gap was 1.09 eV in a single chain. Direct band gaps appeared
+at point &#x00393;, a local minimum point in the conduction bands of
+few-chain systems but a local maximum point of the bulk structure.
+Point &#x00393; was a local energy maximum in the few-chain system,
+unlike in the bulk system. The band energies of the conduction band
+at point &#x00393; decreased as the number of chains increased in the
+few-chain systems. However, the conduction band at point <italic>T</italic> increased with the number of few-chain systems, whereas the conduction
+band energy of <italic>T</italic> in the bulk was minimal. This implies
+that the stacking effect on the energy at point &#x00393; in the bulk
+is different from that in the few-chain systems. The partial orbital
+analysis showed that point &#x00393; had larger contributions to <italic>p</italic><sub><italic>z</italic></sub> and <italic>d</italic><sub><italic>z</italic><sup>2</sup></sub> orbitals than did <italic>T</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Figure S6</ext-link>). The different aspects of
+the conduction band near point <italic>M</italic> is the reason that
+bulk V<sub>2</sub>Se<sub>9</sub> has an indirect band gap while the
+few-chain V<sub>2</sub>Se<sub>9</sub> shows direct band gaps. The
+difference between the valence bands of bulk and few-chain systems
+is much smaller than the difference between the conduction bands.
+The number of chains has little influence on the valence band of few-chain
+and bulk V<sub>2</sub>Se<sub>9</sub>. The band structures of V<sub>2</sub>Se<sub>9</sub> without the DFT-D3 dispersion energy correction
+are similar to the band structures with the DFT-D3, but the band gaps
+increase (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Table S1</ext-link>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Part of band structures
+of (a) bulk, (b) 7-chain, (c) triple, (d)
+double, and (e) single SCAC(s) V<sub>2</sub>Se<sub>9</sub> from point <italic>M</italic> to point &#x00393;. The zero energy is shifted to the maximum
+energy of valence band. The structures are optimized by the Perdew&#x02013;Burke&#x02013;Ernzerhof
+(PBE) method with the DFT-D3 energy correction. Inset graphics represent
+the corresponding optimized structures of bulk and few-chain V<sub>2</sub>Se<sub>9</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_0001" id="gr1" position="float"/></fig><p>We compared the band
+structures of V<sub>2</sub>Se<sub>9</sub> with
+those of Nb<sub>2</sub>Se<sub>9</sub>. The band structures of Nb<sub>2</sub>Se<sub>9</sub> with dispersion energy correction are shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Figure S7</ext-link>. All few-chain systems have
+similar band structures in both V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub>. The valence bands of SCACs and bulk are also
+similar in both Nb<sub>2</sub>Se<sub>9</sub> and in V<sub>2</sub>Se<sub>9</sub>. The contribution of selenium is greater than that of vanadium
+to the partial density of state both for the bulk and few-chain systems
+except the double chain (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Figure S8</ext-link>). Screening
+of inner vanadium ions by outer selenium ions prevents the conduction
+band from being perturbed by other chains. The interactions between
+chains mainly change the characteristics related to selenium ions.
+However, the few V<sub>2</sub>Se<sub>9</sub> chains have electronic
+bands with many valleys, whereas the few Nb<sub>2</sub>Se<sub>9</sub> chains carry structureless bands.</p><p>All few-chain systems calculated
+previously have similar properties
+to a single chain. To determine the boundary between such few-chain
+systems and bulk systems, we plotted the changes in the band gap for
+a number of V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> chains, as in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. The band gap decreases as the number of chains increases, as does
+the change of the band gap. We expected that a decrease in the band
+gap (&#x00394;<italic>E</italic>) by the number of chains (<italic>n</italic>) would approach the band gap in bulk V<sub>2</sub>Se<sub>9</sub> at 0.54 eV and Nb<sub>2</sub>Se<sub>9</sub> at 0.65 eV. We interpolated
+the tendency between &#x00394;<italic>E</italic> and <italic>n</italic> as an exponential curve. From this interpolation, <italic>n</italic> satisfying |&#x00394;<italic>E</italic>(<italic>n</italic>) &#x02013;
+&#x00394;<italic>E</italic><sub>bulk</sub>| &#x0003c; 0.01 eV, where &#x00394;<italic>E</italic><sub>bulk</sub> is the band gap of the bulk system, is
+expected to be greater than 24 in V<sub>2</sub>Se<sub>9</sub> and
+20 in Nb<sub>2</sub>Se<sub>9</sub>. These numbers of chains can construct
+a triple-layer bundle with hexagonal stacking. The short interchain
+distance between two V<sub>2</sub>Se<sub>9</sub> chains is 6.79 &#x000c5;
+and the distance between two Nb<sub>2</sub>Se<sub>9</sub> chains is
+6.86 &#x000c5;. Therefore, the shortest diameter of a triple-layer V<sub>2</sub>Se<sub>9</sub> bundle is approximately 20.37 &#x000c5;, and that
+of a triple-layer Nb<sub>2</sub>Se<sub>9</sub> bundle is approximately
+20.58 &#x000c5; (supposing the cross-section of a bundle is an ellipse).
+The exponential function decays fast, and the number of chains enough
+to have a band gap similar to the bulk from exponential interpolation
+could be the lower bound. Thus, we believe that V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> SCACs thinner than about
+&#x0223c;20 &#x000c5; would have the characteristics of single chains,
+such as a direct band gap. In the previous study of Nb<sub>2</sub>Se<sub>9</sub> without dispersion correction, a value of 36 &#x000c5;
+was suggested.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup></p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Band gap (&#x00394;<italic>E</italic>) changes by the number of chains
+(<italic>n</italic>) of V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub>. calc. and interpol. abbreviate calculation and interpolation,
+respectively. As <italic>n</italic> increases, &#x00394;<italic>E</italic> decreases to the bulk band gap of 0.54 eV in V<sub>2</sub>Se<sub>9</sub> and 0.65 eV in Nb<sub>2</sub>Se<sub>9</sub>, as represented
+by dashed lines. We interpolated the band gap changes to exponential
+curves such that &#x00394;<italic>E</italic> = 0.60 e<sup>&#x02013;0.17<italic>n</italic></sup> + 0.54 for V<sub>2</sub>Se<sub>9</sub> and &#x00394;<italic>E</italic> = 0.70 e<sup>&#x02013;0.21<italic>n</italic></sup> + 0.65
+for Nb<sub>2</sub>Se<sub>9</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_0002" id="gr2" position="float"/></fig><p>The dispersion energy does not change the band gap transition trend
+in V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub>, although
+it is significant in 2D MoS<sub>2</sub>. The reason is that such 1D
+materials have remarkably different conduction bands than the bulk
+material. With MoS<sub>2</sub>, the 2D and 3D structures have a similar
+band structure to that of bulk MoS<sub>2</sub>. The dispersion energy
+changes the size of the indirect and direct band gaps, while the positions
+of the band gaps are maintained. However, 1D few-chain V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> have significantly
+different band structures compared to those of 3D bulk structures.
+Unlike 2D TMDC, the effect of dispersion energy in these 1D material
+changes the positions of the indirect and direct band gaps. We expect
+that there would be bundles of V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> whose band structures have intermediate shape
+between that of a single chain and that of the bulk material, with
+the number of chains in these bundles more than seven.</p><p><xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref> summarizes
+the characteristics of V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> calculated by PBE + DFT-D3. The band gap differences
+between the bulk and a single chain are similar in these materials.
+The size of the V<sub>2</sub>Se<sub>9</sub> chain is 0.1 &#x000c5; smaller
+than that of Nb<sub>2</sub>Se<sub>9</sub>, and the band gap of the
+bulk material and single chain of V<sub>2</sub>Se<sub>9</sub> is 0.1
+eV smaller than that of Nb<sub>2</sub>Se<sub>9</sub>. The physical
+properties related to the band gaps and the structures of chains in
+these two 1D materials are similar.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Characteristics of
+V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> by PBE
++ DFT-D3 Theoretical
+Calculations</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">V<sub>2</sub>Se<sub>9</sub></th><th style="border:none;" align="center">Nb<sub>2</sub>Se<sub>9</sub></th></tr></thead><tbody><tr><td style="border:none;" align="left">crystal structure</td><td style="border:none;" align="left"><italic>C</italic>2/<italic>c</italic></td><td style="border:none;" align="left"><italic>P</italic>&#x00031;&#x00305;</td></tr><tr><td style="border:none;" align="left"><italic>a</italic>&#x000a0;(bulk,&#x000a0;&#x000c5;)</td><td style="border:none;" align="left">12.68</td><td style="border:none;" align="left">8.19</td></tr><tr><td style="border:none;" align="left"><italic>b</italic>&#x000a0;(bulk,&#x000a0;&#x000c5;)</td><td style="border:none;" align="left">12.54</td><td style="border:none;" align="left">8.37</td></tr><tr><td style="border:none;" align="left"><italic>c</italic>&#x000a0;(bulk,&#x000a0;&#x000c5;)</td><td style="border:none;" align="left">14.05</td><td style="border:none;" align="left">13.10</td></tr><tr><td style="border:none;" align="left">&#x003b1;&#x000a0;(bulk,&#x000a0;deg)</td><td style="border:none;" align="left">90</td><td style="border:none;" align="left">58.7</td></tr><tr><td style="border:none;" align="left">&#x003b2;&#x000a0;(bulk,&#x000a0;deg)</td><td style="border:none;" align="left">104.96</td><td style="border:none;" align="left">56.8</td></tr><tr><td style="border:none;" align="left">&#x003b3;&#x000a0;(bulk,&#x000a0;deg)</td><td style="border:none;" align="left">90</td><td style="border:none;" align="left">92.5</td></tr><tr><td style="border:none;" align="left">number of chains ina&#x000a0;cell</td><td style="border:none;" align="left">4</td><td style="border:none;" align="left">1</td></tr><tr><td style="border:none;" align="left">short interchain distance (bulk,&#x000a0;&#x000c5;)</td><td style="border:none;" align="left">6.79</td><td style="border:none;" align="left">6.86</td></tr><tr><td style="border:none;" align="left">long interchain distance (bulk,&#x000a0;&#x000c5;)</td><td style="border:none;" align="left">7.13</td><td style="border:none;" align="left">7.25</td></tr><tr><td style="border:none;" align="left">band gap of bulk (eV)</td><td style="border:none;" align="left">0.54, indirect</td><td style="border:none;" align="left">0.65, indirect</td></tr><tr><td style="border:none;" align="left">band gap of single chain
+(eV)</td><td style="border:none;" align="left">1.09, direct</td><td style="border:none;" align="left">1.21, direct</td></tr><tr><td style="border:none;" align="left">difference of band
+gaps
+of bulk and single chain (eV)</td><td style="border:none;" align="left">0.55</td><td style="border:none;" align="left">0.56</td></tr><tr><td style="border:none;" align="left">number of chains that makes
+the band gap near to bulk</td><td style="border:none;" align="left">24</td><td style="border:none;" align="left">21</td></tr><tr><td style="border:none;" align="left">short
+diameter of the chain
+bundle that makes band gap near to bulk (&#x000c5;)</td><td style="border:none;" align="left">20.37</td><td style="border:none;" align="left">20.58</td></tr></tbody></table></table-wrap></sec><sec id="sec3"><title>Conclusions</title><p>Using density functional theory (DFT) calculations,
+we found that
+1&#x02013;7 V<sub>2</sub>Se<sub>9</sub> SCAC structures would have
+direct band gaps, whereas bulk V<sub>2</sub>Se<sub>9</sub> would have
+an indirect band gap, like Nb<sub>2</sub>Se<sub>9</sub> SCACs.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> By interpolation, we predicted that a 1D V<sub>2</sub>Se<sub>9</sub> chain with a diameter less than &#x0223c; 20&#x000a0;&#x000c5;
+would have a direct band gap. Additionally, we investigated the effect
+of vdW interactions between chains on the DFT-D3 energy correction.
+DFT-D3 correction maintained the structures of V<sub>2</sub>Se<sub>9</sub> bulk and SCAC roughly, but the interchain distances were
+reduced. Band gaps of few chain systems decrease as the number of
+chains increases, with and without DFT-D3 correction, and finally
+approach the band gaps of the bulk structure. The band structures
+of SCACs with 1&#x02013;7 chains are similar, and DFT-D3 optimization
+retains the band structures of V<sub>2</sub>Se<sub>9</sub> systems
+qualitatively; however, the band gaps were reduced by DFT-D3 correction.
+The optimized structures and band gaps for various numbers of chains
+of V<sub>2</sub>Se<sub>9</sub> showed similar characteristics to those
+of Nb<sub>2</sub>Se<sub>9</sub>. The dispersion energy does not change
+the band structure of these 1D materials, nor does it affect the indirect-to-direct
+band gap transition, unlike in the 2D material MoS<sub>2</sub>.</p><p>This distinctive 1D material V<sub>2</sub>Se<sub>9</sub> could
+be used in optoelectronic devices because it can absorb photon energy
+without being disturbed by phonons. The charge mobility calculation
+of 1D V<sub>2</sub>Se<sub>9</sub> is needed to determine whether there
+are further applications for the field effect transistors that require
+a direct band gap and appropriately fast mobility, as with 2D MoS<sub>2</sub>.<sup><xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup> The spin property of this 1D material is
+also needed to be analyzed in future research. The 1D materials have
+higher surface-to-volume ratios and no dangling bonds, unlike the
+2D materials; therefore, the 1D material V<sub>2</sub>Se<sub>9</sub> described in this study seems to be a promising material in nanoelectronics.</p></sec><sec id="sec4"><title>Structures
+and Computational Methods</title><p><xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a shows
+the crystal structure of V<sub>2</sub>Se<sub>9</sub>, which is a periodic
+array of unit V<sub>2</sub>Se<sub>9</sub> SCACs. Bulk V<sub>2</sub>Se<sub>9</sub> crystals were prepared via the flux method using excess
+molten selenium as a solvent. When the V&#x02013;Se liquid at 330 &#x000b0;C
+was cooled to room temperature, dark grey needles precipitated. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b shows a scanning
+electron microscopy (SEM) image of the V<sub>2</sub>Se<sub>9</sub> needles prepared in this study. To demonstrate the characteristics
+of the chain-stacked structure of the V<sub>2</sub>Se<sub>9</sub>,
+the bulk V<sub>2</sub>Se<sub>9</sub> crystal was cleaved using a conventional
+peeling method.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup><xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>c shows the AFM images of V<sub>2</sub>Se<sub>9</sub> chains exfoliated from bulk V<sub>2</sub>Se<sub>9</sub> crystals.
+The exfoliated chains had thicknesses of 1.1, 6.9, and 7.5 nm, indicating
+that single chains (1.1 nm) or bundles (6.9 and 7.5 nm) could be generated
+by mechanical exfoliation (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d). This result shows that weak vdW interactions among
+the chains in the bulk crystal results in V<sub>2</sub>Se<sub>9</sub> crystals cleaved to V<sub>2</sub>Se<sub>9</sub> chains, as in typical
+2D materials.The bulk structure of V<sub>2</sub>Se<sub>9</sub> has
+a monoclinic symmetry (<italic>C</italic>2/<italic>c</italic>). The
+unit of V<sub>2</sub>Se<sub>9</sub> chain structures consists of four
+vanadium and 18 selenium ions, as in Nb<sub>2</sub>Se<sub>9</sub>.
+A V<sub>4</sub>Se<sub>18</sub> chain structure is composed of two
+V<sub>2</sub>Se<sub>4</sub> octahedrons connected by Se<sub>5</sub>; each octahedron faces the other octahedron (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a).<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> The relative
+coordinates of ions in the reference direct the chains to [1 0 1].
+We rotated the lattice vectors to a set of ([1 0 1], [0 1 0], and
+[1 0 &#x00031;&#x00305;]). Then, 1D structures consisting of the number of finite
+chains could be constructed by repeating <italic>k</italic>-points
+into the <italic>x</italic>-axis in computational chemistry software.
+This rotated unit cell has three whole chain units and two half-chain
+units (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b,c).
+To validate the rotated frame, we calculated the band structures for
+the original and rotated lattice vector choices and compared the band
+gaps (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Figure S9</ext-link>).</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(a) Stick-and-ball crystal
+structure of V<sub>2</sub>Se<sub>9</sub>, where the red balls are
+vanadium and the yellow balls are selenium;
+(b) SEM images of the V<sub>2</sub>Se<sub>9</sub> single crystal;
+(c) AFM image; and (d) height profiles of mechanically exfoliated
+V<sub>2</sub>Se<sub>9</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_0003" id="gr3" position="float"/></fig><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Views
+of V<sub>2</sub>Se<sub>9</sub> single-lattice cells, which
+are rotated from the reference structure to direct the length of the
+chains to the [1 0 0] axis. (a) Two V<sub>4</sub>Se<sub>18</sub> chain
+units are shown, consisting of V<sub>2</sub>Se<sub>4</sub> octahedrons
+and Se<sub>5</sub> connecting the octahedrons. The numbering of selenium
+and vanadium ions follows those of the reference.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> An inclined view (b) and projected view (c) to the plane
+perpendicular to the length of chains are shown. A single cell has
+four chains. Two chains are stacked in the bottom of the unit cell
+as the first layer, and two chains are stacked on the top of the unit
+cell as the second layer. Two layers are shifted by a half-length
+between chains in each layer.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_0004" id="gr4" position="float"/></fig><p>We constructed few-chain systems that have single, double, triple,
+and septuple chain(s) by repeating the rotated unit cell to obtain
+the target chain arrangements and by removing redundancies. After
+the formation of the initial few SCAC systems, we optimized the structures
+of SCACs and bulk V<sub>2</sub>Se<sub>9</sub>. The calculation was
+performed using the projected augmented wave method<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup> in the Vienna Ab-Initio Package (VASP).<sup><xref ref-type="bibr" rid="ref43">43</xref>&#x02212;<xref ref-type="bibr" rid="ref46">46</xref></sup> Computational details are presented
+in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Supporting Information</ext-link>.</p><p>A
+theoretical calculation predicted that Nb<sub>2</sub>Se<sub>9</sub> SCACs would have direct band gaps, bulk Nb<sub>2</sub>Se<sub>9</sub> would have an indirect band gap, and the band gaps would increase
+as the number of chains decreased.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> These
+phenomena are mainly caused by vdW interchain interactions. Previous
+studies of metal chalcogenides used only the generalized gradient
+approximation method,<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref47">47</xref>,<xref ref-type="bibr" rid="ref48">48</xref></sup> which cannot properly describe vdW effects; therefore, further calculations
+were performed to incorporate vdW interactions.<sup><xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup> We chose the DFT-D3 method, which introduces the dispersion energy
+correction proportional to 1/<italic>r</italic><sup>6</sup>.<sup><xref ref-type="bibr" rid="ref50">50</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup> To investigate the effects of vdW interactions, we optimized the
+structures with and without the DFT-D3 correction and then compared
+the atomic structures and band structures of SCACs and bulk V<sub>2</sub>Se<sub>9</sub>. Indeed, when the dispersion correction was
+applied, the structure further approached the experimental reference
+structure (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Table S2</ext-link>). The dispersion energy
+correction decreases the interchain distances of bulk and all SCAC
+V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Tables S3&#x02013;S5</ext-link> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">Figures S10 and S11</ext-link>).</p><p>By looking at the electron localization
+function of the single
+chain and bulk V<sub>2</sub>Se<sub>9</sub>, we identified the bonding
+characters: the two Se&#x02013;Se bondings in V<sub>2</sub>Se<sub>4</sub> octahedron and two Se&#x02013;Se bondings in Se<sub>5</sub> are covalent,
+and the Se&#x02013;V bondings are ionic. Accordingly, we expect that
+the charge valence of V<sub>2</sub>Se<sub>9</sub> would be (V<sup>5+</sup>)<sub>2</sub>(Se<sub>2</sub><sup>2&#x02013;</sup>)<sub>4</sub>Se<sup>2&#x02013;</sup>. It implies that the system would be diamagnetic
+because there is no unpaired electron.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b02655">10.1021/acsomega.9b02655</ext-link>.<list id="silist" list-type="simple"><list-item><p>Computational
+details, detailed atomic structures and
+band structures of V<sub>2</sub>Se<sub>9</sub> and Nb<sub>2</sub>Se<sub>9</sub>, partial orbital analysis, and optimized structures of bulk
+and SCACs V<sub>2</sub>Se<sub>9</sub> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02655/suppl_file/ao9b02655_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02655_si_001.pdf"><caption><p>ao9b02655_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes2"><title>Author Contributions</title><p>W.-G.L. and
+S.C. contributed equally. The manuscript was written through contributions
+of all authors. All authors have given approval to the final version
+of the manuscript.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e1569-autogenerated"><p>The authors declare
+no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work was supported by a grant from NRF funded
+by the Korea government (nos. NRF-2017R1A4A1015770 and 2017M3A7B8065561).</p></ack><glossary id="dl1"><def-list><title>Abbreviations</title><def-item><term>2D</term><def><p>two-dimensional</p></def></def-item><def-item><term>TMDC</term><def><p>transition-metal dichalcogenide</p></def></def-item><def-item><term>1D</term><def><p>one-dimensional</p></def></def-item><def-item><term>SCAC</term><def><p>single-chain atomic
+crystal</p></def></def-item><def-item><term>vdW</term><def><p>van
+der Waals</p></def></def-item><def-item><term>VASP</term><def><p>Vienna
+Ab-Initio Package</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Novoselov</surname><given-names>K. S.</given-names></name>; <name><surname>Geim</surname><given-names>A. K.</given-names></name>; <name><surname>Morozov</surname><given-names>S. V.</given-names></name>; <name><surname>Jiang</surname><given-names>D.</given-names></name>; <name><surname>Katsnelson</surname><given-names>M. I.</given-names></name>; <name><surname>Grigorieva</surname><given-names>I. V.</given-names></name>; <name><surname>Dubonos</surname><given-names>S. V.</given-names></name>; <name><surname>Firsov</surname><given-names>A. A.</given-names></name>
+<article-title>Two-dimensional
+gas of massless Dirac fermions in graphene</article-title>. <source>Nature</source>
+<year>2005</year>, <volume>438</volume>, <fpage>197</fpage><pub-id pub-id-type="doi">10.1038/nature04233</pub-id>.<pub-id pub-id-type="pmid">16281030</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Tan</surname><given-names>Y.-W.</given-names></name>; <name><surname>Stormer</surname><given-names>H. L.</given-names></name>; <name><surname>Kim</surname><given-names>P.</given-names></name>
+<article-title>Experimental
+observation
+of the quantum Hall effect and Berry&#x02019;s phase in graphene</article-title>. <source>Nature</source>
+<year>2005</year>, <volume>438</volume>, <fpage>201</fpage><pub-id pub-id-type="doi">10.1038/nature04235</pub-id>.<pub-id pub-id-type="pmid">16281031</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Son</surname><given-names>Y.-W.</given-names></name>; <name><surname>Cohen</surname><given-names>M. L.</given-names></name>; <name><surname>Louie</surname><given-names>S. G.</given-names></name>
+<article-title>Half-metallic
+graphene nanoribbons</article-title>. <source>Nature</source>
+<year>2006</year>, <volume>444</volume>, <fpage>347</fpage>&#x02013;<lpage>349</lpage>. <pub-id pub-id-type="doi">10.1038/nature05180</pub-id>.<pub-id pub-id-type="pmid">17108960</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Avouris</surname><given-names>P.</given-names></name>; <name><surname>Chen</surname><given-names>Z.</given-names></name>; <name><surname>Perebeinos</surname><given-names>V.</given-names></name>
+<article-title>Carbon-based electronics</article-title>. <source>Nat. Nanotechnol.</source>
+<year>2007</year>, <volume>2</volume>, <fpage>605</fpage>&#x02013;<lpage>615</lpage>. <pub-id pub-id-type="doi">10.1038/nnano.2007.300</pub-id>.<pub-id pub-id-type="pmid">18654384</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Radisavljevic</surname><given-names>B.</given-names></name>; <name><surname>Radenovic</surname><given-names>A.</given-names></name>; <name><surname>Brivio</surname><given-names>J.</given-names></name>; <name><surname>Giacometti</surname><given-names>V.</given-names></name>; <name><surname>Kis</surname><given-names>A.</given-names></name>
+<article-title>Single-layer MoS<sub>2</sub> transistors</article-title>. <source>Nat.
+Nanotechnol.</source>
+<year>2011</year>, <volume>6</volume>, <fpage>147</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1038/nnano.2010.279</pub-id>.<pub-id pub-id-type="pmid">21278752</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Qiao</surname><given-names>J.</given-names></name>; <name><surname>Kong</surname><given-names>X.</given-names></name>; <name><surname>Hu</surname><given-names>Z. X.</given-names></name>; <name><surname>Yang</surname><given-names>F.</given-names></name>; <name><surname>Ji</surname><given-names>W.</given-names></name>
+<article-title>High-mobility
+transport anisotropy and linear dichroism in few-layer black phosphorus</article-title>. <source>Nat. Commun.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>4475</fpage><pub-id pub-id-type="doi">10.1038/ncomms5475</pub-id>.<pub-id pub-id-type="pmid">25042376</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Castellanos-Gomez</surname><given-names>A.</given-names></name>; <name><surname>Vicarelli</surname><given-names>L.</given-names></name>; <name><surname>Prada</surname><given-names>E.</given-names></name>; <name><surname>Island</surname><given-names>J. O.</given-names></name>; <name><surname>Narasimha-Acharya</surname><given-names>K. L.</given-names></name>; <name><surname>Blanter</surname><given-names>S. I.</given-names></name>; <name><surname>Groenendijk</surname><given-names>D. J.</given-names></name>; <name><surname>Buscema</surname><given-names>M.</given-names></name>; <name><surname>Steele</surname><given-names>G. A.</given-names></name>; <name><surname>Alvarez</surname><given-names>J. V.</given-names></name>; <name><surname>Zandbergen</surname><given-names>H. W.</given-names></name>; <name><surname>Palacios</surname><given-names>J. J.</given-names></name>; <name><surname>Van Der
+Zant</surname><given-names>H. S. J.</given-names></name>
+<article-title>Isolation and characterization of few-layer black phosphorus</article-title>. <source>2D Mater.</source>
+<year>2014</year>, <volume>1</volume>, <fpage>025001</fpage><pub-id pub-id-type="doi">10.1088/2053-1583/1/2/025001</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Mayorov</surname><given-names>A. S.</given-names></name>; <name><surname>Gorbachev</surname><given-names>R. V.</given-names></name>; <name><surname>Morozov</surname><given-names>S. V.</given-names></name>; <name><surname>Britnell</surname><given-names>L.</given-names></name>; <name><surname>Jalil</surname><given-names>R.</given-names></name>; <name><surname>Ponomarenko</surname><given-names>L. A.</given-names></name>; <name><surname>Blake</surname><given-names>P.</given-names></name>; <name><surname>Novoselov</surname><given-names>K. S.</given-names></name>; <name><surname>Watanabe</surname><given-names>K.</given-names></name>; <name><surname>Taniguchi</surname><given-names>T.</given-names></name>; <name><surname>Geim</surname><given-names>A. K.</given-names></name>
+<article-title>Micrometer-scale
+ballistic transport in encapsulated graphene at room temperature</article-title>. <source>Nano Lett.</source>
+<year>2011</year>, <volume>11</volume>, <fpage>2396</fpage>&#x02013;<lpage>2399</lpage>. <pub-id pub-id-type="doi">10.1021/nl200758b</pub-id>.<pub-id pub-id-type="pmid">21574627</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Feng</surname><given-names>Q.</given-names></name>; <name><surname>Liu</surname><given-names>H.</given-names></name>; <name><surname>Zhu</surname><given-names>M.</given-names></name>; <name><surname>Shang</surname><given-names>J.</given-names></name>; <name><surname>Liu</surname><given-names>D.</given-names></name>; <name><surname>Cui</surname><given-names>X.</given-names></name>; <name><surname>Shen</surname><given-names>D.</given-names></name>; <name><surname>Kou</surname><given-names>L.</given-names></name>; <name><surname>Mao</surname><given-names>D.</given-names></name>; <name><surname>Zheng</surname><given-names>J.</given-names></name>; <name><surname>Li</surname><given-names>C.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Xu</surname><given-names>H.</given-names></name>; <name><surname>Zhao</surname><given-names>J.</given-names></name>
+<article-title>Electrostatic Functionalization
+and Passivation of Water-Exfoliated Few-Layer Black Phosphorus by
+Poly Dimethyldiallyl Ammonium Chloride and Its Ultrafast Laser Application</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2018</year>, <volume>10</volume>, <fpage>9679</fpage>&#x02013;<lpage>9687</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.8b00556</pub-id>.<pub-id pub-id-type="pmid">29489321</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Li</surname><given-names>N.</given-names></name>; <name><surname>Lee</surname><given-names>G.</given-names></name>; <name><surname>Jeong</surname><given-names>Y. H.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Tailoring Electronic and Magnetic
+Properties of MoS<sub>2</sub> Nanotubes</article-title>. <source>J.
+Phys. Chem. C</source>
+<year>2015</year>, <volume>119</volume>, <fpage>6405</fpage>&#x02013;<lpage>6413</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.5b00176</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Sheehan</surname><given-names>P. E.</given-names></name>; <name><surname>Lieber</surname><given-names>C. M.</given-names></name>
+<article-title>Friction between
+van der Waals Solids during Lattice
+Directed Sliding</article-title>. <source>Nano Lett.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>4116</fpage>&#x02013;<lpage>4121</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.7b00871</pub-id>.<pub-id pub-id-type="pmid">28570072</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Schwierz</surname><given-names>F.</given-names></name>
+<article-title>Graphene transistors</article-title>. <source>Nat. Nanotechnol.</source>
+<year>2010</year>, <volume>5</volume>, <fpage>487</fpage>&#x02013;<lpage>496</lpage>. <pub-id pub-id-type="doi">10.1038/nnano.2010.89</pub-id>.<pub-id pub-id-type="pmid">20512128</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Cheng</surname><given-names>D.</given-names></name>; <name><surname>Kim</surname><given-names>W. Y.</given-names></name>; <name><surname>Min</surname><given-names>S. K.</given-names></name>; <name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Magic structures
+and quantum conductance of [110] silver nanowires</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2006</year>, <volume>96</volume>, <fpage>096104</fpage><pub-id pub-id-type="doi">10.1103/physrevlett.96.096104</pub-id>.<pub-id pub-id-type="pmid">16606283</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Youn</surname><given-names>S. J.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Effect
+of dimensionality on the electronic
+structure of Cu, Ag, and Au</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>2003</year>, <volume>68</volume>, <fpage>033407</fpage><pub-id pub-id-type="doi">10.1103/physrevb.68.033407</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Choi</surname><given-names>Y. C.</given-names></name>; <name><surname>Lee</surname><given-names>H. M.</given-names></name>; <name><surname>Kim</surname><given-names>W. Y.</given-names></name>; <name><surname>Kwon</surname><given-names>S. K.</given-names></name>; <name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Cheng</surname><given-names>D.-Y.</given-names></name>; <name><surname>Vishwanathan</surname><given-names>K.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>How can we make
+stable linear monoatomic chains? Gold-cesium binary subnanowires as
+an example of a charge-transfer-driven approach to alloying</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2007</year>, <volume>98</volume>, <fpage>076101</fpage><pub-id pub-id-type="doi">10.1103/physrevlett.98.076101</pub-id>.<pub-id pub-id-type="pmid">17359037</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Bala</surname><given-names>A.</given-names></name>; <name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Effect
+of dimensionality on transition-metal
+elements of groups 3-7</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>2006</year>, <volume>74</volume>, <fpage>174429</fpage><pub-id pub-id-type="doi">10.1103/physrevb.74.174429</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Rho</surname><given-names>T. H.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Nanowires
+for spintronics: A study
+of transition-metal elements of groups 8-10</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2004</year>, <volume>69</volume>, <fpage>193404</fpage><pub-id pub-id-type="doi">10.1103/physrevb.69.193404</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Woo</surname><given-names>Y. K.</given-names></name>; <name><surname>Nautiyal</surname><given-names>T.</given-names></name>; <name><surname>Suk</surname><given-names>J. Y.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Anomalous behavior
+of mercury in one dimension: Density-functional calculations</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2005</year>, <volume>71</volume>, <fpage>113104</fpage><pub-id pub-id-type="doi">10.1103/physrevb.71.113104</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Dua</surname><given-names>P.</given-names></name>; <name><surname>Lee</surname><given-names>G.</given-names></name>; <name><surname>Kim</surname><given-names>K. S.</given-names></name>
+<article-title>Ferromagnetism in Monatomic Chains: Spin-Dependent
+Bandwidth Narrowing/Broadening</article-title>. <source>J. Phys. Chem.
+C</source>
+<year>2017</year>, <volume>121</volume>, <fpage>20994</fpage>&#x02013;<lpage>21000</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.7b06327</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Uplaznik</surname><given-names>M.</given-names></name>; <name><surname>Bercic</surname><given-names>B.</given-names></name>; <name><surname>Remskar</surname><given-names>M.</given-names></name>; <name><surname>Mihailovic</surname><given-names>D.</given-names></name>
+<article-title>Quantum charge
+transport in Mo<sub>6</sub>S<sub>3</sub>I<sub>6</sub> molecular wire
+circuits</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>2009</year>, <volume>80</volume>, <fpage>085402</fpage><pub-id pub-id-type="doi">10.1103/physrevb.80.085402</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Sun</surname><given-names>N.</given-names></name>; <name><surname>McMullan</surname><given-names>M.</given-names></name>; <name><surname>Papakonstantinou</surname><given-names>P.</given-names></name>; <name><surname>Gao</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Mihailovic</surname><given-names>D.</given-names></name>; <name><surname>Li</surname><given-names>M.</given-names></name>
+<article-title>Bioassembled Nanocircuits
+of Mo<sub>6</sub>S<sub>9&#x02013;<italic>x</italic></sub>I<sub>x</sub> Nanowires
+for Electrochemical Immunodetection of Estrone Hapten</article-title>. <source>Anal. Chem.</source>
+<year>2008</year>, <volume>80</volume>, <fpage>3593</fpage>&#x02013;<lpage>3597</lpage>. <pub-id pub-id-type="doi">10.1021/ac7024893</pub-id>.<pub-id pub-id-type="pmid">18407671</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Chen</surname><given-names>S.</given-names></name>; <name><surname>Qin</surname><given-names>S.</given-names></name>; <name><surname>Liu</surname><given-names>X.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Xue</surname><given-names>D.-J.</given-names></name>; <name><surname>Luo</surname><given-names>M.</given-names></name>; <name><surname>Cao</surname><given-names>Y.</given-names></name>; <name><surname>Cheng</surname><given-names>Y.</given-names></name>; <name><surname>Sargent</surname><given-names>E. H.</given-names></name>; <name><surname>Tang</surname><given-names>J.</given-names></name>
+<article-title>Thin-film Sb<sub>2</sub>Se<sub>3</sub> photovoltaics with oriented one-dimensional ribbons
+and benign grain boundaries</article-title>. <source>Nat. Photonics</source>
+<year>2015</year>, <volume>9</volume>, <fpage>409</fpage><pub-id pub-id-type="doi">10.1038/nphoton.2015.78</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Li</surname><given-names>D.-B.</given-names></name>; <name><surname>Li</surname><given-names>K.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Deng</surname><given-names>H.-X.</given-names></name>; <name><surname>Gao</surname><given-names>L.</given-names></name>; <name><surname>Zhao</surname><given-names>Y.</given-names></name>; <name><surname>Jiang</surname><given-names>F.</given-names></name>; <name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Huang</surname><given-names>F.</given-names></name>
+<article-title>Stable 6%-efficient
+Sb<sub>2</sub>Se<sub>3</sub> solar cells with a ZnO buffer layer</article-title>. <source>Nat. Energy</source>
+<year>2017</year>, <volume>2</volume>, <fpage>17046</fpage><pub-id pub-id-type="doi">10.1038/nenergy.2017.46</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>Y.</given-names></name>; <name><surname>Yang</surname><given-names>J.</given-names></name>; <name><surname>Tian</surname><given-names>J.</given-names></name>; <name><surname>Xu</surname><given-names>H.</given-names></name>; <name><surname>Yang</surname><given-names>J.</given-names></name>; <name><surname>Fan</surname><given-names>W.</given-names></name>
+<article-title>Conductive
+polymer-coated VS<sub>4</sub> submicrospheres as advanced
+electrode materials in lithium-ion batteries</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2016</year>, <volume>8</volume>, <fpage>18797</fpage>&#x02013;<lpage>18805</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.6b04444</pub-id>.<pub-id pub-id-type="pmid">27377263</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Lee</surname><given-names>J. W.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>S. H.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Meeseepong</surname><given-names>M.</given-names></name>; <name><surname>Chang</surname><given-names>J.</given-names></name>; <name><surname>Kim</surname><given-names>N.</given-names></name>; <name><surname>Yong Ho
+Kim</surname><given-names>K.</given-names></name>; <name><surname>Lee</surname><given-names>N.-E.</given-names></name>; <name><surname>Lee</surname><given-names>J. H.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Single-Chain Atomic
+Crystals as Extracellular Matrix-Mimicking Material with Exceptional
+Biocompatibility and Bioactivity</article-title>. <source>Nano Lett.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>7619</fpage>&#x02013;<lpage>7627</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.8b03201</pub-id>.<pub-id pub-id-type="pmid">30474985</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Chung</surname><given-names>Y. K.</given-names></name>; <name><surname>Lee</surname><given-names>W.-G.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>; <name><surname>Huh</surname><given-names>J.</given-names></name>
+<article-title>Structural
+and electronic properties of Mo<sub>6</sub>S<sub>3</sub>I<sub>6</sub> nanowires by newly proposed theoretical compositional ordering</article-title>. <source>Sci. Rep.</source>
+<year>2019</year>, <volume>9</volume>, <fpage>1222</fpage><pub-id pub-id-type="doi">10.1038/s41598-018-37818-7</pub-id>.<pub-id pub-id-type="pmid">30718721</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Forti</surname><given-names>S.</given-names></name>; <name><surname>Emtsev</surname><given-names>K. V.</given-names></name>; <name><surname>Coletti</surname><given-names>C.</given-names></name>; <name><surname>Zakharov</surname><given-names>A. A.</given-names></name>; <name><surname>Riedl</surname><given-names>C.</given-names></name>; <name><surname>Starke</surname><given-names>U.</given-names></name>
+<article-title>Large-area homogeneous
+quasifree standing epitaxial
+graphene on SiC(0001): Electronic and structural characterization</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2011</year>, <volume>84</volume>, <fpage>125449</fpage><pub-id pub-id-type="doi">10.1103/physrevb.84.125449</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="book" id="cit28"><person-group person-group-type="allauthors"><name><surname>Rockett</surname><given-names>A.</given-names></name></person-group><article-title>Overview of Electronic
+Devices</article-title>. <source>The Materials Science of Semiconductors</source>; <publisher-name>Springer</publisher-name>: <publisher-loc>New York</publisher-loc>, <year>2007</year>; pp <fpage>73</fpage>&#x02013;<lpage>140</lpage>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Siddiqa</surname><given-names>A. J.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Jang</surname><given-names>W. S.</given-names></name>; <name><surname>Lee</surname><given-names>K. H.</given-names></name>; <name><surname>Kim</surname><given-names>H. Y.</given-names></name>; <name><surname>Lee</surname><given-names>D. K.</given-names></name>; <name><surname>Kim</surname><given-names>Y. M.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Inorganic Molecular
+Chain Nb<sub>2</sub>Se<sub>9</sub>: Synthesis of Bulk Crystal and
+One-Atom-Thick Level Exfoliation</article-title>. <source>Phys. Status
+Solidi RRL</source>
+<year>2018</year>, <volume>12</volume>, <fpage>1800451</fpage><pub-id pub-id-type="doi">10.1002/pssr.201800451</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Jang</surname><given-names>W.-S.</given-names></name>; <name><surname>Jang</surname><given-names>J.</given-names></name>; <name><surname>Hussain</surname><given-names>Y.</given-names></name>; <name><surname>Lee</surname><given-names>D. K.</given-names></name>; <name><surname>Kim</surname><given-names>Y.-M.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Synthesis of a one-dimensional atomic
+crystal of vanadium selenide (V<sub>2</sub>Se<sub>9</sub>)</article-title>. <source>RSC Adv.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>33980</fpage>&#x02013;<lpage>33984</lpage>. <pub-id pub-id-type="doi">10.1039/c8ra06398b</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Jeong</surname><given-names>B. J.</given-names></name>; <name><surname>OH</surname><given-names>S.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Nasir</surname><given-names>T.</given-names></name>; <name><surname>Lee</surname><given-names>S. H.</given-names></name>; <name><surname>Kim</surname><given-names>K.-W.</given-names></name>; <name><surname>Lim</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>I. J.</given-names></name>; <name><surname>Moon</surname><given-names>J.-Y.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Lee</surname><given-names>J.-H.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Exfoliation and
+Characterization of V<sub>2</sub>Se<sub>9</sub> Atomic Crystals</article-title>. <source>Nanomaterials</source>
+<year>2018</year>, <volume>8</volume>, <fpage>737</fpage><pub-id pub-id-type="doi">10.3390/nano8090737</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Siddiqa</surname><given-names>A. J.</given-names></name>; <name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Jang</surname><given-names>W.-S.</given-names></name>; <name><surname>Kim</surname><given-names>Y.-M.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Isolation
+of Nb<sub>2</sub>Se<sub>9</sub> Molecular Chain from Bulk One-Dimensional
+Crystal by Liquid Exfoliation</article-title>. <source>Nanomaterials</source>
+<year>2018</year>, <volume>8</volume>, <fpage>794</fpage><pub-id pub-id-type="doi">10.3390/nano8100794</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Siddiqa</surname><given-names>A. J.</given-names></name>; <name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Lee</surname><given-names>K. H.</given-names></name>; <name><surname>Kim</surname><given-names>H. Y.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Isolation
+of inorganic molecular chains from rod-like bulk V<sub>2</sub>Se<sub>9</sub> crystal by liquid exfoliation</article-title>. <source>RSC
+Adv.</source>
+<year>2018</year>, <volume>8</volume>, <fpage>35348</fpage>&#x02013;<lpage>35352</lpage>. <pub-id pub-id-type="doi">10.1039/c8ra06975a</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Siddiqa</surname><given-names>A. J.</given-names></name>; <name><surname>Kim</surname><given-names>B. J.</given-names></name>; <name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Choi</surname><given-names>K. H.</given-names></name>; <name><surname>Kim</surname><given-names>H. Y.</given-names></name>; <name><surname>Lee</surname><given-names>K. H.</given-names></name>; <name><surname>Yu</surname><given-names>H. K.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>
+<article-title>Design
+of dispersant structure for highly concentrated one-dimensional inorganic
+molecular chain from V<sub>2</sub>Se<sub>9</sub> crystal</article-title>. <source>Chem. Commun.</source>
+<year>2018</year>, <volume>54</volume>, <fpage>12190</fpage>&#x02013;<lpage>12193</lpage>. <pub-id pub-id-type="doi">10.1039/c8cc06767h</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Lee</surname><given-names>W.-G.</given-names></name>; <name><surname>Chae</surname><given-names>S.</given-names></name>; <name><surname>Chung</surname><given-names>Y. K.</given-names></name>; <name><surname>Oh</surname><given-names>S.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>; <name><surname>Huh</surname><given-names>J.</given-names></name>
+<article-title>New One-Dimensional Material Nb<sub>2</sub>Se<sub>9</sub>: Theoretical
+Prediction of Indirect to Direct Band Gap Transition Due to Dimensional
+Reduction</article-title>. <source>Phys. Status Solidi RRL</source>
+<year>2019</year>, <volume>13</volume>, <fpage>1800517</fpage><pub-id pub-id-type="doi">10.1002/pssr.201800517</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Xiao</surname><given-names>J.</given-names></name>; <name><surname>Long</surname><given-names>M.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>Q.</given-names></name>; <name><surname>Xu</surname><given-names>H.</given-names></name>; <name><surname>Chan</surname><given-names>K. S.</given-names></name>
+<article-title>Effects of van der
+Waals interaction and electric field
+on the electronic structure of bilayer MoS<sub>2</sub></article-title>. <source>J. Phys.: Condens. Matter</source>
+<year>2014</year>, <volume>26</volume>, <fpage>405302</fpage><pub-id pub-id-type="doi">10.1088/0953-8984/26/40/405302</pub-id>.<pub-id pub-id-type="pmid">25224268</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Mak</surname><given-names>K. F.</given-names></name>; <name><surname>Lee</surname><given-names>C.</given-names></name>; <name><surname>Hone</surname><given-names>J.</given-names></name>; <name><surname>Shan</surname><given-names>J.</given-names></name>; <name><surname>Heinz</surname><given-names>T. F.</given-names></name>
+<article-title>Atomically Thin
+MoS<sub>2</sub>: A New Direct-Gap Semiconductor</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2010</year>, <volume>105</volume>, <fpage>136805</fpage><pub-id pub-id-type="doi">10.1103/physrevlett.105.136805</pub-id>.<pub-id pub-id-type="pmid">21230799</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Radisavljevic</surname><given-names>B.</given-names></name>; <name><surname>Radenovic</surname><given-names>A.</given-names></name>; <name><surname>Brivio</surname><given-names>J.</given-names></name>; <name><surname>Giacometti</surname><given-names>V.</given-names></name>; <name><surname>Kis</surname><given-names>A.</given-names></name>
+<article-title>Single-layer MoS<sub>2</sub> transistors</article-title>. <source>Nat.
+Nanotechnol.</source>
+<year>2011</year>, <volume>6</volume>, <fpage>147</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1038/nnano.2010.279</pub-id>.<pub-id pub-id-type="pmid">21278752</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Nicolosi</surname><given-names>V.</given-names></name>; <name><surname>Chhowalla</surname><given-names>M.</given-names></name>; <name><surname>Kanatzidis</surname><given-names>M. G.</given-names></name>; <name><surname>Strano</surname><given-names>M. S.</given-names></name>; <name><surname>Coleman</surname><given-names>J. N.</given-names></name>
+<article-title>Liquid
+exfoliation of layered materials</article-title>. <source>Science</source>
+<year>2013</year>, <volume>340</volume>, <fpage>1226419</fpage><pub-id pub-id-type="doi">10.1126/science.1226419</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Furuseth</surname><given-names>S.</given-names></name>; <name><surname>Klewe</surname><given-names>B.</given-names></name>
+<article-title>Crystal Structure and Properties of V<sub>2</sub>Se<sub>9</sub></article-title>. <source>Acta Chem. Scand.</source>
+<year>1984</year>, <volume>38a</volume>, <fpage>467</fpage>&#x02013;<lpage>471</lpage>. <pub-id pub-id-type="doi">10.3891/acta.chem.scand.38a-0467</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Joubert</surname><given-names>D.</given-names></name>
+<article-title>From ultrasoft pseudopotentials
+to the projector augmented-wave
+method</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>1999</year>, <volume>59</volume>, <fpage>1758</fpage>&#x02013;<lpage>1775</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.59.1758</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Bl&#x000f6;chl</surname><given-names>P. E.</given-names></name>
+<article-title>Projector
+augmented-wave method</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>1994</year>, <volume>50</volume>, <fpage>17953</fpage>&#x02013;<lpage>17979</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.50.17953</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Hafner</surname><given-names>J.</given-names></name>
+<article-title>Ab initiomolecular
+dynamics for liquid metals</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>1993</year>, <volume>47</volume>, <fpage>558</fpage>&#x02013;<lpage>561</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.47.558</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Hafner</surname><given-names>J.</given-names></name>
+<article-title>Ab initiomolecular-dynamics
+simulation of the liquid-metal-amorphous-semiconductor
+transition in germanium</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>1994</year>, <volume>49</volume>, <fpage>14251</fpage>&#x02013;<lpage>14269</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.49.14251</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficient
+iterative schemes forab initiototal-energy
+calculations using a plane-wave basis set</article-title>. <source>Phys.
+Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1996</year>, <volume>54</volume>, <fpage>11169</fpage>&#x02013;<lpage>11186</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.54.11169</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficiency of ab-initio total energy
+calculations for
+metals and semiconductors using a plane-wave basis set</article-title>. <source>Comput. Mater. Sci.</source>
+<year>1996</year>, <volume>6</volume>, <fpage>15</fpage>&#x02013;<lpage>50</lpage>. <pub-id pub-id-type="doi">10.1016/0927-0256(96)00008-0</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Li</surname><given-names>T.</given-names></name>; <name><surname>Galli</surname><given-names>G.</given-names></name>
+<article-title>Electronic properties
+of MoS<sub>2</sub> nanoparticles</article-title>. <source>J. Phys. Chem.
+C</source>
+<year>2007</year>, <volume>111</volume>, <fpage>16192</fpage>&#x02013;<lpage>16196</lpage>. <pub-id pub-id-type="doi">10.1021/jp075424v</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Leb&#x000e8;gue</surname><given-names>S.</given-names></name>; <name><surname>Eriksson</surname><given-names>O.</given-names></name>
+<article-title>Electronic structure
+of two-dimensional crystals from
+ab initio theory</article-title>. <source>Phys. Rev. B: Condens. Matter
+Mater. Phys.</source>
+<year>2009</year>, <volume>79</volume>, <fpage>115409</fpage><pub-id pub-id-type="doi">10.1103/physrevb.79.115409</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Dyba&#x00142;a</surname><given-names>F.</given-names></name>; <name><surname>Polak</surname><given-names>M. P.</given-names></name>; <name><surname>Kopaczek</surname><given-names>J.</given-names></name>; <name><surname>Scharoch</surname><given-names>P.</given-names></name>; <name><surname>Wu</surname><given-names>K.</given-names></name>; <name><surname>Tongay</surname><given-names>S.</given-names></name>; <name><surname>Kudrawiec</surname><given-names>R.</given-names></name>
+<article-title>Pressure coefficients
+for direct
+optical transitions in MoS<sub>2</sub>, MoSe<sub>2</sub>, WS<sub>2</sub>, and WSe<sub>2</sub> crystals and semiconductor to metal transitions</article-title>. <source>Sci. Rep.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>26663</fpage><pub-id pub-id-type="doi">10.1038/srep26663</pub-id>.<pub-id pub-id-type="pmid">27215469</pub-id></mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Grimme</surname><given-names>S.</given-names></name>; <name><surname>Antony</surname><given-names>J.</given-names></name>; <name><surname>Ehrlich</surname><given-names>S.</given-names></name>; <name><surname>Krieg</surname><given-names>H.</given-names></name>
+<article-title>A consistent and accurate
+ab initio parametrization of density functional dispersion correction
+(DFT-D) for the 94 elements H-Pu</article-title>. <source>J. Chem. Phys.</source>
+<year>2010</year>, <volume>132</volume>, <fpage>154104</fpage><pub-id pub-id-type="doi">10.1063/1.3382344</pub-id>.<pub-id pub-id-type="pmid">20423165</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Grimme</surname><given-names>S.</given-names></name>; <name><surname>Ehrlich</surname><given-names>S.</given-names></name>; <name><surname>Goerigk</surname><given-names>L.</given-names></name>
+<article-title>Effect of the damping function in
+dispersion corrected density functional theory</article-title>. <source>J. Comput. Chem.</source>
+<year>2011</year>, <volume>32</volume>, <fpage>1456</fpage>&#x02013;<lpage>1465</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.21759</pub-id>.<pub-id pub-id-type="pmid">21370243</pub-id></mixed-citation></ref></ref-list></back></article>

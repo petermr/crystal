@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The orbital moments at the transition-metal sites were calculated using the orbital polarization correction (SO + OP) method implemented in Wien2k.
+ <sup>
+  <xref ref-type="bibr" rid="ref44">44</xref>
+ </sup> In addition, we have simulated X-ray circular magnetic dichroism (XMCD)
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>
+ </sup> spectra using Wien2k and estimated the site-selective spin and orbital magnetic moments of V ions using the XMCD sum rules.
+ <sup>
+  <xref ref-type="bibr" rid="ref46">46</xref>,
+  <xref ref-type="bibr" rid="ref47">47</xref>
+ </sup> For simulating XMCD, we have used full-potential linearized augmented plane-wave (FP-LAPW) method based on density functional theory as implemented in the Wien2k code. The generalized gradient approximation within the PBE scheme was used as the exchange-correlation potential. The muffin tin radii for Pb, V, and O were chosen as 1.66, 2.49, and 1.50 a.u., respectively. The Brillouin zone integration has been carried out with 5000k-points. The energy convergence with a convergence criterion of 10
+ <sup>–5</sup> was obtained. The spin–orbit coupling is considered in the calculation. As the ferromagnetic state is a metal, the plasma frequency was first calculated and included in the XMCD calculation.
+</p>

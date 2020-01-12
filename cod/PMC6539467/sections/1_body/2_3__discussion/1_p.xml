@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As noted in the introduction, there is an increasing interest in measurements of the 
+ <sup>1</sup>H CSA by recoupling the anisotropic interactions under fast MAS frequencies. The respective experimental approaches (namely, the heteronuclear-detected [
+ <xref rid="B34-molecules-24-01731" ref-type="bibr">34</xref>] or proton-detected [
+ <xref rid="B7-molecules-24-01731" ref-type="bibr">7</xref>,
+ <xref rid="B35-molecules-24-01731" ref-type="bibr">35</xref>] techniques) have inherent limitations in the reliability of the extracted parameters of the 
+ <sup>1</sup>H chemical shielding tensors. Some of the issues (a correct sign of the anisotropy parameter 
+ <inline-formula>
+  <math id="mm59">
+   <mrow>
+    <mi>ζ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, an orientation in the crystal frame of the principal axis systems of investigated tensors) can be directly addressed by the PW DFT calculations. Moreover, those calculations are expected to play a crucial role in a structural interpretation of the results of the above-mentioned experiments. Therefore, it is important to find accuracy limits of computational protocols, which are already in use for other parameters in the NMR crystallography framework, when applied to the predictions of the 
+ <sup>1</sup>H CSA data for static structures. When the SC values of the principal components of the chemical shielding tensors of protons in maleic and malonic acids are taken as the reference, there is about 1.0 ppm RMSE in their theoretical (GIPAW-PBE and GIPAW-revPBE) counterparts. This benchmark value reflects not only limitations of the computations (mainly due to deficiencies in the DFT functionals and neglect of external effects, the temperature in particular [
+ <xref rid="B36-molecules-24-01731" ref-type="bibr">36</xref>,
+ <xref rid="B37-molecules-24-01731" ref-type="bibr">37</xref>,
+ <xref rid="B38-molecules-24-01731" ref-type="bibr">38</xref>]), but also ±0.5 ppm uncertainty in the measured data [
+ <xref rid="B10-molecules-24-01731" ref-type="bibr">10</xref>,
+ <xref rid="B11-molecules-24-01731" ref-type="bibr">11</xref>]. Nonetheless, using the CSA data from fast MAS studies of L-histidine hydrochloride monohydrate [
+ <xref rid="B3-molecules-24-01731" ref-type="bibr">3</xref>,
+ <xref rid="B14-molecules-24-01731" ref-type="bibr">14</xref>] and citric acid [
+ <xref rid="B15-molecules-24-01731" ref-type="bibr">15</xref>], the RMSE becomes about two times higher. This increase reflects inaccuracies in value of the asymmetry parameter 
+ <inline-formula>
+  <math id="mm60">
+   <mrow>
+    <mi>η</mi>
+   </mrow>
+  </math>
+ </inline-formula> and dependence of the experimental results on the actual choice of the CSA recoupling sequence. As for the spatial orientation of the 
+ <sup>1</sup>H chemical shielding tensors, the PW DFT calculations reproduce the data from SC measurements reliably, with only several-degrees differences. It is shown that it is possible to describe relative arrangements of hydrogen bonds simply by following an angle between the direction of the most shielded component of the 
+ <sup>1</sup>H chemical shielding tensor of two pertinent protons (see 
+ <xref ref-type="sec" rid="sec2dot3-molecules-24-01731">Section 2.3</xref> for details), and that this information can also be reliably obtained from the GIAO-B3LYP calculation performed with a saturated basis for a cluster model (of course assuming the overall structure is described correctly).
+</p>

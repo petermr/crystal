@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab19">
+ <label>Table 19</label>
+ <caption>
+  <p>Magic formulas for the decahedron</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="left"/>
+    <th align="left" colspan="2">Decahedron 
+     <italic>n</italic>=4
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left">
+     <inline-graphic xlink:href="11671_2019_2939_Figs_HTML.gif" id="d29e7076" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left">Atoms</td>
+    <td align="left">
+     <inline-formula id="IEq39">
+      <alternatives>
+       <tex-math id="M103">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{6}n^{3} + \frac {5}{2}n^{2}+\frac {8}{3}n +1$\end{document}</tex-math>
+       <math id="M104">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>6</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>8</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>+</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq39.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">Bonds</td>
+    <td align="left">
+     <inline-formula id="IEq40">
+      <alternatives>
+       <tex-math id="M105">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$5n^{3} + \frac {15}{2}n^{2} + \frac {7}{2}n$\end{document}</tex-math>
+       <math id="M106">
+        <mn>5</mn>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>15</mn>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>7</mn>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq40.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=4
+    </td>
+    <td align="left">5, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=6
+    </td>
+    <td align="left">5
+     <italic>n</italic>−3, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=8
+    </td>
+    <td align="left">10
+     <italic>n</italic>−10, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=9
+    </td>
+    <td align="left">5
+     <italic>n</italic>
+     <sup>2</sup>−15
+     <italic>n</italic>+10, 
+     <italic>n</italic>≥1
+    </td>
+   </tr>
+   <tr>
+    <td align="left"/>
+    <td align="left">
+     <italic>c</italic>
+     <italic>n</italic>=12
+    </td>
+    <td align="left">
+     <inline-formula id="IEq41">
+      <alternatives>
+       <tex-math id="M107">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\frac {5}{6}n^{3} - \frac {5}{2}n^{2} + \frac {8}{3}n -1,~n\ge 1$\end{document}</tex-math>
+       <math id="M108">
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>6</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mfrac>
+         <mrow>
+          <mn>5</mn>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mfrac>
+        <msup>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <mn>8</mn>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </mfrac>
+        <mi>n</mi>
+        <mo>−</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mspace width="1em"/>
+        <mi>n</mi>
+        <mo>≥</mo>
+        <mn>1</mn>
+       </math>
+       <inline-graphic xlink:href="11671_2019_2939_Article_IEq41.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

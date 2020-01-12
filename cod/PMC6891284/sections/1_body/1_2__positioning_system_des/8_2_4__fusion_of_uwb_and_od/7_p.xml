@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>According to the work environment, the process noise sequences and observation noise sequences can be set as random constant-mean Gaussian white noise sequences. Then, we establish a process noise covariance 
+ <inline-formula>
+  <math id="mm81">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Q</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and system noise (measured noise of UWB positioning system) variance 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Throughout the filtering process, the system processes are not related to the noise or noise sequences, i.e., the initial state 
+ <inline-formula>
+  <math id="mm83">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>x</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of the system is not related to the noise or noise sequences. The initial state of the robot positioning coordinates, 
+ <inline-formula>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>x</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the initial filtering error value 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are known [
+ <xref rid="B19-sensors-19-04980" ref-type="bibr">19</xref>].
+</p>

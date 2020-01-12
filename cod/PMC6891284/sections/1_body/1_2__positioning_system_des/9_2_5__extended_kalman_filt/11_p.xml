@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The UWB positioning system used in this experiment measures the distance between the reference node and the moving node using the time difference of arrival (TDOA) algorithm and two-way time-of-flight measuring principle. Assuming that the reference node A of the positioning system sends a distance measurement command to the reference node B at time 
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>t</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the reference node B receives the instruction from the reference node A and returns a corresponding response command at time 
+ <inline-formula>
+  <math id="mm113">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>x</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The reference node A receives the response command from the reference node B at the 
+ <inline-formula>
+  <math id="mm114">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and calculates the time difference of the UWB signal from time 
+ <inline-formula>
+  <math id="mm115">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>t</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> to time 
+ <inline-formula>
+  <math id="mm116">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The product of this time difference and the UWB signal speed 
+ <inline-formula>
+  <math id="mm117">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>U</mi>
+       <mi>W</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the distance between the reference node A and the reference node B, 
+ <inline-formula>
+  <math id="mm118">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Hence, the formula for obtaining the distance is as follows:
+ <disp-formula id="FD37-sensors-19-04980">
+  <label>(33)</label>
+  <math id="mm119">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>U</mi>
+       <mi>W</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+     <mo>×</mo>
+     <mo stretchy="false">[</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>t</mi>
+       <mi>x</mi>
+       <mi>a</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>−</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>x</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>t</mi>
+       <mi>x</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">]</mo>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

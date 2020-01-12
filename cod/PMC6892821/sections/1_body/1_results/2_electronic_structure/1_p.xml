@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">The electronic band structures of the Cs-based materials considered in this work, as calculated from DFT (black lines) and from 
+ <italic>G</italic>
+ <sub>0</sub>
+ <italic>W</italic>
+ <sub>0</sub> (red dots), are shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>. The high-symmetry points reported in abscissa and the path connecting them are highlighted in the Brillouin zone depicted in Fig. 
+ <xref rid="Fig1" ref-type="fig">1d</xref>. We notice that qualitatively the results obtained from DFT and 
+ <italic>G</italic>
+ <sub>0</sub>
+ <italic>W</italic>
+ <sub>0</sub> are almost identical. However, quantitatively, the quasi-particle (QP) gaps obtained from 
+ <italic>GW</italic> are in all cases about twice as large as the DFT ones, as summarised in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>. CsK
+ <sub>2</sub>Sb has the largest QP gap of 1.62 eV (0.92 eV from DFT, see also ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>) followed by Cs
+ <sub>3</sub>Sb with a band gap 1.18 eV (0.59 eV from DFT) and finally by Cs
+ <sub>2</sub>KSb with a QP gap of 0.57 eV (0.18 eV from DFT). Among these three materials, only CsK
+ <sub>2</sub>Sb is characterised by a direct band gap at 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M2">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, in agreement with earlier DFT results
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>. The other two systems have an indirect band gap between X and 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M4">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where the valence-band maximum (VBM) and the conduction-band minimum (CBm) appear, respectively. This finding suggests that reducing the relative amount of K leads to a shift of the VBM from the zone center 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M6">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> to the zone edge X. This feature has an influence of the optical properties of the materials as well, as seen by the optical gaps reported in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>. These values, as computed from 
+ <italic>G</italic>
+ <sub>0</sub>
+ <italic>W</italic>
+ <sub>0</sub> range from 1.08 eV in Cs
+ <sub>2</sub>KSb to 1.62 eV in CsK
+ <sub>2</sub>Sb, where the optical and fundamental gaps coincide. Interestingly, the optical gap of Cs
+ <sub>3</sub>Sb, being 1.53 eV, is only less than 100 meV smaller compared to CsK
+ <sub>2</sub>Sb. Focusing more closely on the band structures, we notice that the dispersion of the valence bands increases significantly going from Cs
+ <sub>3</sub>Sb, where the valence is spread over an energy range of about 1 eV, to CsK
+ <sub>2</sub>Sb, where the highest-occupied bands extend over a region of almost 1.3 eV. While in the former case, and analogously also in Cs
+ <sub>2</sub>KSb, the largest band dispersion occurs along the path connecting 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M8">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, X, and W. In the band structure of CsK
+ <sub>2</sub>Sb (Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>) one of the valence bands has a pronounced minimum around L and an almost parabolic shape in the vicinity of this point, along the path connecting W to 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M10">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. In the conduction region we notice that the lowest unoccupied band in Cs
+ <sub>2</sub>KSb does not cross the next one at higher energy, contrary to both Cs
+ <sub>3</sub>Sb and CsK
+ <sub>2</sub>Sb where this intersection is visible along the 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Gamma $$\end{document}</tex-math>
+   <math id="M12">
+    <mi mathvariant="normal">Γ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>-
+ <italic>X</italic> path (see Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>).
+</p>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Step (1) Extract the dominant scatterers from 
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>B</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>,</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>C</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>,</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the inseparable dominant scatterers in range-Doppler domain are eliminated using [
+ <xref rid="B20-sensors-19-02330" ref-type="bibr">20</xref>]: 
+ <disp-formula id="FD18-sensors-19-02330">
+  <label>(18)</label>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>V</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msub>
+            <mi>s</mi>
+            <mi>B</mi>
+           </msub>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mrow>
+             <mi>y</mi>
+             <mo>,</mo>
+             <msub>
+              <mi>f</mi>
+              <mi>a</mi>
+             </msub>
+            </mrow>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+         <mo>−</mo>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msub>
+            <mi>s</mi>
+            <mi>C</mi>
+           </msub>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mrow>
+             <mi>y</mi>
+             <mo>,</mo>
+             <msub>
+              <mi>f</mi>
+              <mi>a</mi>
+             </msub>
+            </mrow>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msub>
+            <mi>s</mi>
+            <mi>B</mi>
+           </msub>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mrow>
+             <mi>y</mi>
+             <mo>,</mo>
+             <msub>
+              <mi>f</mi>
+              <mi>a</mi>
+             </msub>
+            </mrow>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+         <mo>+</mo>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msub>
+            <mi>s</mi>
+            <mi>C</mi>
+           </msub>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mrow>
+             <mi>y</mi>
+             <mo>,</mo>
+             <msub>
+              <mi>f</mi>
+              <mi>a</mi>
+             </msub>
+            </mrow>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mo>&gt;</mo>
+     <mn>0.15</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

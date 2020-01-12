@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">From the practical viewpoint, it is of great interest to perform the 3D displacement-field function 
+ <inline-formula id="IEq41">
+  <alternatives>
+   <tex-math id="M109">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M110">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq41.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> recovering with its numerical assignment. In contrast to the case above described, we consider the 3D function 
+ <inline-formula id="IEq42">
+  <alternatives>
+   <tex-math id="M111">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M112">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq42.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> values in each voxel of the spatial grid as parameters 
+ <italic>in search</italic>. Further, one uses the constraints for these functions 
+ <inline-formula id="IEq43">
+  <alternatives>
+   <tex-math id="M113">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M114">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq43.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> that are due to the symmetry properties of the function 
+ <inline-formula id="IEq44">
+  <alternatives>
+   <tex-math id="M115">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{true}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M116">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>u</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq44.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> over the variables 
+ <italic>X</italic>, 
+ <italic>Y</italic>, and 
+ <italic>Z</italic> − 
+ <italic>Z</italic>
+ <sub>0</sub>. Besides, a requirement for a monotonic decrease of the function 
+ <inline-formula id="IEq45">
+  <alternatives>
+   <tex-math id="M117">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{true}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M118">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>u</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq45.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> with an increase of variables |
+ <italic>X</italic>|, |
+ <italic>Y</italic>|, and |
+ <italic>Z</italic> − 
+ <italic>Z</italic>
+ <sub>0</sub>| is imposed as well.
+</p>

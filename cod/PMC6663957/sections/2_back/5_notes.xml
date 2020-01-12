@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notes notes-type="data-availability">
+ <title>Availability of data and materials</title>
+ <p>The new implementation for image reconstruction and details of software implementation and installation are available: 10.5905/ethz-1007-146.</p>
+ <p>Simulated data cannot be provided, but the simulation procedure—phantoms and scanner geometry—has been described in the “
+  <xref rid="Sec4" ref-type="sec">Monte Carlo simulations</xref>” section. Simulated data of any scanner, representable by the above-described block-type implementation in STIR, can be used to replicate the results and validate the findings, namely demonstrate the improved image quality, due to the proper representation of the scanner geometry.
+ </p>
+</notes>

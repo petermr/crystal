@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In Ref. [
+ <xref rid="B2-materials-12-02710" ref-type="bibr">2</xref>], attention was drawn to a change of the dispersion relation and the dependence of the density of states on energy in Weyl semimetals, compared to materials with a conventional parabolic dispersion law. Instead of square-root dependence of the density of states on energy 
+ <inline-formula>
+  <math id="mm131">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mi>p</mi>
+     </msub>
+     <mo>∼</mo>
+     <msup>
+      <mi>ϵ</mi>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the density of states in Weyl or Dirac semimetals increases quadratically with energy 
+ <inline-formula>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mi>w</mi>
+     </msub>
+     <mo>∼</mo>
+     <msup>
+      <mi>ϵ</mi>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In relaxation-time approximation with 
+ <inline-formula>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <mi>τ</mi>
+     <mo>∼</mo>
+     <msup>
+      <mi>ϵ</mi>
+      <mi>r</mi>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the usual expression for Seebeck coefficient for the case of linear dispersion reads [
+ <xref rid="B2-materials-12-02710" ref-type="bibr">2</xref>]:
+ <disp-formula>
+  <math id="mm134">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mo>=</mo>
+     <mo>±</mo>
+     <mfrac>
+      <msub>
+       <mi>k</mi>
+       <mi>B</mi>
+      </msub>
+      <mi>e</mi>
+     </mfrac>
+     <mfenced separators="" open="(" close=")">
+      <mfrac>
+       <mrow>
+        <msubsup>
+         <mo>∫</mo>
+         <mn>0</mn>
+         <mo>∞</mo>
+        </msubsup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mo>−</mo>
+          <mo>∂</mo>
+          <msub>
+           <mi>f</mi>
+           <mn>0</mn>
+          </msub>
+          <mo>/</mo>
+          <mo>∂</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+         </mrow>
+         <mspace width="0.166667em"/>
+         <msup>
+          <mi>x</mi>
+          <mrow>
+           <mi>r</mi>
+           <mo>+</mo>
+           <mn>3</mn>
+          </mrow>
+         </msup>
+         <mi>d</mi>
+         <mi>x</mi>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msubsup>
+         <mo>∫</mo>
+         <mn>0</mn>
+         <mo>∞</mo>
+        </msubsup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mo>−</mo>
+          <mo>∂</mo>
+          <msub>
+           <mi>f</mi>
+           <mn>0</mn>
+          </msub>
+          <mo>/</mo>
+          <mo>∂</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+         </mrow>
+         <mspace width="0.166667em"/>
+         <msup>
+          <mi>x</mi>
+          <mrow>
+           <mi>r</mi>
+           <mo>+</mo>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+         <mi>d</mi>
+         <mi>x</mi>
+        </mrow>
+       </mrow>
+      </mfrac>
+      <mo>−</mo>
+      <mi>y</mi>
+     </mfenced>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm135">
+   <mrow>
+    <msub>
+     <mi>f</mi>
+     <mn>0</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the Fermi distribution function, and 
+ <italic>x</italic> and 
+ <italic>y</italic> are energy and chemical potential in 
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>k</mi>
+      <mi>B</mi>
+     </msub>
+     <mi>T</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> units. In materials with parabolic dispersion, exponents in integrands should be replaced with 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>+</mo>
+     <mn>5</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm138">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>+</mo>
+     <mn>3</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, correspondingly. The faster the integrand function increases (larger 
+ <italic>r</italic>), the greater the relative contribution of high-energy carriers is, and the larger the Seebeck coefficient is. Hence, in constant relaxation-time approximation (
+ <inline-formula>
+  <math id="mm139">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>), the Seebeck coefficient should be larger in the case of linear, compared to parabolic dispersion. On the contrary, if relaxation time is inversely proportional to the density of states (
+ <inline-formula>
+  <math id="mm140">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for parabolic dispersion and 
+ <inline-formula>
+  <math id="mm141">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for linear one), the situation changes and the Seebeck coefficient is larger for the case of the parabolic band. This simple example illustrates that the value of the Seebeck coefficient substantially depends on both dispersion law and scattering mechanism.
+</p>

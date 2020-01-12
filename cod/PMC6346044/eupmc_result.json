@@ -1,0 +1,296 @@
+{
+  "id": [
+    "30679496"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30679496"
+  ],
+  "pmcid": [
+    "PMC6346044"
+  ],
+  "doi": [
+    "10.1038/s41598-018-36574-y"
+  ],
+  "title": [
+    "Simulating the NaK Eutectic Alloy with Monte Carlo and Machine Learning."
+  ],
+  "authorString": [
+    "Reitz DM, Blaisten-Barojas E."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Reitz DM"
+          ],
+          "firstName": [
+            "Douglas M"
+          ],
+          "lastName": [
+            "Reitz"
+          ],
+          "initials": [
+            "DM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3533-9165",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Simulation and Modeling (formerly, Computational Materials Science Center) and Department of Computational and Data Sciences, George Mason University, Fairfax, Virginia, 22030, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Blaisten-Barojas E"
+          ],
+          "firstName": [
+            "Estela"
+          ],
+          "lastName": [
+            "Blaisten-Barojas"
+          ],
+          "initials": [
+            "E"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3259-1573",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Center for Simulation and Modeling (formerly, Computational Materials Science Center) and Department of Computational and Data Sciences, George Mason University, Fairfax, Virginia, 22030, USA. blaisten@gmu.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3533-9165",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3259-1573",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2769857"
+      ],
+      "dateOfPublication": [
+        "2019 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "704"
+  ],
+  "abstractText": [
+    "Combining atomistic simulations and machine learning techniques can expedite significantly the materials discovery process. We present an application of such methodological combination for the prediction of the melting transition and amorphous-solid behavior of the NaK alloy at the eutectic concentration. We show that efficient prediction of these properties is possible via machine learning methods trained on the topological local structural properties. The configurations resulting from Monte Carlo annealing of the NaK eutectic alloy are analyzed with topological attributes based on the Voronoi tessellation and using expectation-maximization clustering and Random Forest classification. We show that the Voronoi topological fingerprints make an accurate and fast prediction of the alloy thermal behavior by cataloguing the atomic configurations into three distinct phases: liquid, amorphous solid, and crystalline solid. Melting is found at 230 K by the sharp split of configurations classified as crystalline solid and as liquid. With the proposed metrics, an arrest-motion temperature is identified at 130-140 K through a top down clustering of the atomic configurations catalogued as amorphous solid. This statistical learning paradigm is not restricted to eutectic alloys or thermodynamics, extends the utility of topological attributes in a significant way, and harnesses the discovery of new material properties."
+  ],
+  "affiliation": [
+    "Center for Simulation and Modeling (formerly, Computational Materials Science Center) and Department of Computational and Data Sciences, George Mason University, Fairfax, Virginia, 22030, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-018-36574-y"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6346044"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6346044?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-01-26"
+  ],
+  "firstIndexDate": [
+    "2019-01-26"
+  ],
+  "fullTextReceivedDate": [
+    "2019-02-09"
+  ],
+  "dateOfRevision": [
+    "2019-07-23"
+  ],
+  "electronicPublicationDate": [
+    "2019-01-24"
+  ],
+  "firstPublicationDate": [
+    "2019-01-24"
+  ]
+}

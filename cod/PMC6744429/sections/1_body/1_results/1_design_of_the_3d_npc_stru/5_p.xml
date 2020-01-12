@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">Next, we take SH vortex beams as the target. For comparison, we start from theoretical analysis of a 2D nonlinear beam shaping and then extend it to the 3D case. The traditional electric poling method
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> produces a 2D fork-grating domain structure with a topological charge (TC) of 
+ <italic>l</italic> = 1 in the 
+ <italic>x</italic>–
+ <italic>y</italic> plane of a LiNbO
+ <sub>3</sub> crystal (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>). When a fundamental light beam propagates along the 
+ <italic>z</italic>-axis, the generated SH waves experience 0 and π phases in the positive and negative domains
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>, respectively. In the negative domains, the equivalent modulation depth of 
+ <italic>χ</italic>
+ <sup>(2)</sup> is 
+ <italic>v</italic> = −1. Therefore, the distribution of relevant nonlinear coefficient in a 2D-poled fork-grating NPC can be written as 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$d_{22}\left\{ {1 - 2T\left[ {\cos \left( {G_xx - \varphi } \right)} \right]} \right\} = d_{22}\mathop {\sum}\nolimits_m {c_me^{i{\mathrm{m}}G_xx}e^{ - i{\mathrm{m}}\varphi }}$$\end{document}</tex-math>
+   <math id="M14">
+    <msub>
+     <mrow>
+      <mi>d</mi>
+     </mrow>
+     <mrow>
+      <mn>22</mn>
+     </mrow>
+    </msub>
+    <mfenced close="}" open="{" separators="">
+     <mrow>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mn>2</mn>
+      <mi>T</mi>
+      <mfenced close="]" open="[" separators="">
+       <mrow>
+        <mi>cos</mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>G</mi>
+           </mrow>
+           <mrow>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+          <mi>x</mi>
+          <mo>−</mo>
+          <mi>φ</mi>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>d</mi>
+     </mrow>
+     <mrow>
+      <mn>22</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mo> ∑</mo>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi mathvariant="normal">m</mi>
+      <msub>
+       <mrow>
+        <mi>G</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mi>x</mi>
+     </mrow>
+    </msup>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mi>i</mi>
+      <mi mathvariant="normal">m</mi>
+      <mi>φ</mi>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12251_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">1</xref> for details). Such binary phase modulation can be used to produce a target SH beam with a vortex phase of 
+ <italic>e</italic>
+ <sup>
+  <italic>−</italic>i
+  <italic>φ</italic>
+ </sup> (i.e., 
+ <italic>l</italic> = 1) at the first diffraction order. Interestingly, the higher-order nonlinear diffractions from such 2D fork-grating NPC can produce SH vortex beams with higher TCs. The principle can also be understood from the view of nonlinear Raman-Nath diffraction
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup>: a transverse reciprocal vector of 
+ <italic>m</italic>
+ <bold>G</bold>
+ <sub>
+  <italic>x</italic>
+ </sub> contributes to the 
+ <italic>m</italic>th diffraction order of SH wave carrying a TC of 
+ <italic>l</italic> = 
+ <italic>m</italic>. The corresponding power weight is given by |
+ <italic>c</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>|
+ <sup>2</sup>. As shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>, multiple SH vortex beams are generated at different diffraction orders. However, due to severe phase mismatching along the propagation direction (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>), the conversion efficiency is typically below 1 × 10
+ <sup>−6</sup>.
+</p>

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An additional field 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mrow>
+     <mi>ξ</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> below as a Lagrange multiplier is necessary to guarantee the incompressibility condition. The partition function 
+ <italic>Z</italic> is analyzed in the mean-field level. The essential procedure is to get the saddle point 
+ <italic>Z*</italic> of the partition function 
+ <italic>Z</italic>, which requires a set of the following self-consistent field equations: 
+ <disp-formula id="FD5-polymers-11-01081">
+  <label>(5)</label>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <mo>−</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>≠</mo>
+        <mi>j</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <mi>N</mi>
+       <msub>
+        <mi>χ</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>φ</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <mo>+</mo>
+     <mi>i</mi>
+     <msub>
+      <mi>ω</mi>
+      <mi>j</mi>
+     </msub>
+     <mo>+</mo>
+     <mi>ξ</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD6-polymers-11-01081">
+  <label>(6)</label>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>j</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mfrac>
+        <mn>1</mn>
+        <mi>V</mi>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <mi>d</mi>
+          <mover accent="true">
+           <mi>r</mi>
+           <mo stretchy="false">→</mo>
+          </mover>
+         </mrow>
+        </mrow>
+       </mstyle>
+       <mi>q</mi>
+       <mo stretchy="false">(</mo>
+       <mover accent="true">
+        <mi>r</mi>
+        <mo stretchy="false">→</mo>
+       </mover>
+       <mo>,</mo>
+       <mi>s</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mfrac>
+     <mo>⋅</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mrow>
+         <msubsup>
+          <mi>s</mi>
+          <mi>j</mi>
+          <mi>s</mi>
+         </msubsup>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mi>s</mi>
+          <mi>j</mi>
+          <mi>f</mi>
+         </msubsup>
+        </mrow>
+       </munderover>
+       <mrow>
+        <mi>d</mi>
+        <mi>s</mi>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mo>⋅</mo>
+     <mi>q</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>,</mo>
+     <mi>s</mi>
+     <mo stretchy="false">)</mo>
+     <msup>
+      <mi>q</mi>
+      <mo>+</mo>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>,</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mi>s</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>s</mi>
+      <mi>j</mi>
+      <mi>s</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mi>τ</mi>
+      <mi>j</mi>
+      <mi>s</mi>
+     </msubsup>
+     <mo>/</mo>
+     <mi>N</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) and 
+ <inline-formula>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>s</mi>
+      <mi>j</mi>
+      <mi>f</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mi>τ</mi>
+      <mi>j</mi>
+      <mi>f</mi>
+     </msubsup>
+     <mo>/</mo>
+     <mi>N</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) are the rescaled contour variables at start and in the end for j-monomers, respectively. Equations (3), (5), and (6) for all j-constituents need to be solved in the incompressible version of SCFT for the block copolymers. The Helmholtz free energy is then given as 
+ <inline-formula>
+  <math id="mm41">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <mi>A</mi>
+     <mo>≈</mo>
+     <mo>−</mo>
+     <mi>ln</mi>
+     <mi>Z</mi>
+     <mo>*</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B24-polymers-11-01081" ref-type="bibr">24</xref>,
+ <xref rid="B26-polymers-11-01081" ref-type="bibr">26</xref>,
+ <xref rid="B27-polymers-11-01081" ref-type="bibr">27</xref>,
+ <xref rid="B28-polymers-11-01081" ref-type="bibr">28</xref>]. 
+</p>

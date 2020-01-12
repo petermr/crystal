@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0715">The author's approach is a movement in the opposite direction: this is when we are trying to solve honestly 
+ <italic>a priori</italic> quantum problem for a fairly complex physical system.
+ <xref rid="fn22" ref-type="fn">22</xref> In contrast to the phenomenological approach in mesoscopic physics, our approach can be called a microscopic approach. An example of such a microscopic approach is the standard theory of many-phonon processes [
+ <xref rid="bib72" ref-type="bibr">72</xref>], which describes quantum transitions and spectra of luminescence and optical absorption in F-centers [
+ <xref rid="bib73" ref-type="bibr">73</xref>, 
+ <xref rid="bib86" ref-type="bibr">86</xref>, 
+ <xref rid="bib93" ref-type="bibr">93</xref>]. In this theory, the initial and final states of the system are considered in the adiabatic approximation. Because of using the adiabatic approximation there, it is possible to obtain a result for the rate constants of quantum transitions in the framework of quantum mechanics, which contains a dependence on temperature as a consequence of averaging over the equilibrium (Planck) distribution of the initial states in the “molecular” ensemble, in particular, in the ensemble of F-centers. The reason for the success of this approach in explaining optical bands in F-centers is determined by the fact that the standard theory of many-phonon transitions [
+ <xref rid="bib72" ref-type="bibr">72</xref>] is essentially a special case of quantum-classical mechanics, the case for strong dozy chaos (see Sections 
+ <xref rid="sec2.4.9" ref-type="sec">2.4.9</xref> and 
+ <xref rid="sec2.5" ref-type="sec">2.5</xref>). An attempt to go beyond the adiabatic approximation in quantum mechanics, in the theory of many-phonon transitions, leads to a singularity in the rates of quantum transitions. Expressed in a different way, going beyond the adiabatic approximation in quantum mechanics automatically leads to the theory of many-phonon transitions beyond quantum mechanics. Solving this situation is allowed by the natural damping of the singularity, which is described in detail in Section 
+ <xref rid="sec2.4" ref-type="sec">2.4</xref>. Although this natural and forced damping of the singularity does not return the theory of many-phonon transitions to the realm of quantum mechanics, it does provide a physical (non-singular) result for the optical spectra (Section 
+ <xref rid="sec2.4.8" ref-type="sec">2.4.8</xref>), and a much more general one than given by the standard theory of many-phonon transitions (Figs. 
+ <xref rid="fig1" ref-type="fig">1</xref>, 
+ <xref rid="fig2" ref-type="fig">2</xref>, and 
+ <xref rid="fig4" ref-type="fig">4</xref>
+ <italic>b</italic>). The reason for going beyond quantum mechanics is, ultimately, to take into account the dynamics of the transient state, which, as it turns out, is chaotic. This chaos in the motion of optical electrons and associated atomic nuclei in the transient state leads to a continuous energy spectrum of the entire “electron + nuclear environment” system for a short time (order 
+ <inline-formula>
+  <math id="M621" altimg="si22.svg">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) of the transition between its initial and final states. That is to say, for a short transition time, the “electron + nuclear environment” system becomes similar to the classical system. In this case, the initial and final stationary states continue to be quantum states, that is, such states that can be described with sufficient success in the adiabatic approximation. Hence the terminology “quantum-classical mechanics.”
+</p>

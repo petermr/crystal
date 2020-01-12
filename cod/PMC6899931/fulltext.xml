@@ -1,0 +1,833 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="brief-report"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with OASIS Tables with MathML3 v1.1 20151215//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-archive-oasis-article1-mathml3.dtd?><?SourceDTD.Version 1.1?><?ConverterInfo.XSLTName jpoasis-nisons2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew. Chem. Int. Ed. Engl</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3773</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6899931</article-id><article-id pub-id-type="doi">10.1002/anie.201907432</article-id><article-id pub-id-type="publisher-id">ANIE201907432</article-id><article-categories><subj-group subj-group-type="overline"><subject>Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Communications</subject><subj-group subj-group-type="heading"><subject>Cage Compounds</subject></subj-group></subj-group></article-categories><title-group><article-title>Unconventional Metal&#x02013;Framework Interaction in MgSi<sub>5</sub>
+</article-title></title-group><contrib-group><contrib id="anie201907432-cr-0001" contrib-type="author"><name><surname>H&#x000fc;bner</surname><given-names>Julia&#x02010;Maria</given-names><prefix>M.&#x02005;Sc.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0003-2048-6629</contrib-id><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201907432-cr-0002" contrib-type="author"><name><surname>Carrillo&#x02010;Cabrera</surname><given-names>Wilder</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201907432-cr-0003" contrib-type="author"><name><surname>Prots</surname><given-names>Yurii</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201907432-cr-0004" contrib-type="author"><name><surname>Bobnar</surname><given-names>Matej</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="anie201907432-cr-0005" contrib-type="author" corresp="yes"><name><surname>Schwarz</surname><given-names>Ulrich</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-7301-8629</contrib-id><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref><address><email>schwarz@cpfs.mpg.de</email></address></contrib><contrib id="anie201907432-cr-0006" contrib-type="author"><name><surname>Grin</surname><given-names>Yuri</given-names><prefix>Prof.</prefix></name><xref ref-type="aff" rid="anie201907432-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="anie201907432-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Chemische Metallkunde</named-content>
+<institution>Max-Planck-Institut f&#x000fc;r Chemische Physik fester Stoffe</institution>
+<named-content content-type="street">N&#x000f6;thnitzer Stra&#x000df;e 40</named-content>
+<postal-code>01187</postal-code>
+<city>Dresden</city>
+<country country="DE">Germany</country>
+</aff><pub-date pub-type="epub"><day>19</day><month>8</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>09</day><month>9</month><year>2019</year></pub-date><volume>58</volume><issue>37</issue><issue-id pub-id-type="doi">10.1002/anie.v58.37</issue-id><issue-title content-type="special-issue-title">Science Forum 2019</issue-title><fpage>12914</fpage><lpage>12918</lpage><history><date date-type="received"><day>14</day><month>6</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Wiley&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley-VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="file:ANIE-58-12914.pdf"/><abstract><title>Abstract</title><p>The silicon&#x02010;rich cage compound MgSi<sub>5</sub> was obtained by high&#x02010;pressure high&#x02010;temperature synthesis. Initial crystal structure determination by electron diffraction tomography provided the basis for phase analyses in the process of synthesis optimization, finally facilitating the growth of single crystals suitable for X&#x02010;ray diffraction experiments. The crystal structure of MgSi<sub>5</sub> (space group <italic>Cmme</italic>, Pearson notation <italic>oS</italic>24, <italic>a=</italic>4.4868(2)&#x02005;&#x000c5;, <italic>b=</italic>10.1066(5)&#x02005;&#x000c5;, and <italic>c</italic>=9.0753(4)&#x02005;&#x000c5;) constitutes a new type of framework of four&#x02010;bonded silicon atoms forming Si<sub>15</sub> cages enclosing the Mg atoms. Two types of smaller Si<sub>8</sub> cages remain empty. The atomic interactions are characterized by two&#x02010;center two&#x02010;electron bonds within the silicon framework. In addition, there is evidence for multi&#x02010;center Mg&#x02212;Si bonding in the large cavities of the framework and for lone&#x02010;pair&#x02010;like interactions in the smaller empty voids.</p></abstract><abstract abstract-type="graphical"><p>
+<bold>The cage compound</bold> MgSi<sub>5</sub> is formed under the high&#x02010;pressure high&#x02010;temperature conditions realized in a multi&#x02010;anvil device. The framework motif features two&#x02010;center two&#x02010;electron Si&#x02212;Si bonds in the network and multi&#x02010;center bonding between the magnesium cage atoms and the silicon network.<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="ANIE-58-12914-g006.jpg" position="anchor" id="nlm-graphic-1" orientation="portrait"/></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie201907432-kwd-0001">cage compounds</kwd><kwd id="anie201907432-kwd-0002">chemical bonding</kwd><kwd id="anie201907432-kwd-0003">high-pressure synthesis</kwd><kwd id="anie201907432-kwd-0004">magnesium</kwd><kwd id="anie201907432-kwd-0005">silicon</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>International Max Planck Research School for Chemistry and Physics of Quantum Materials</funding-source></award-group></funding-group><counts><fig-count count="6"/><table-count count="0"/><ref-count count="71"/><page-count count="5"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 9, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:5.7.2 mode:remove_FC converted:05.12.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="anie201907432-self">J.-M. H&#x000fc;bner, W. Carrillo-Cabrera, Y. Prots, M. Bobnar, U. Schwarz, Y. Grin, <italic>Angew. Chem. Int. Ed.</italic>
+<bold>2019</bold>, <italic>58</italic>, 12914.</mixed-citation>
+</p></notes></front><body><p>Intermetallic framework compounds<xref rid="anie201907432-bib-0001" ref-type="ref">1</xref> constitute fascinating inorganic phases, in which a majority of framework atoms enclose a minority of guest species. In recent years, this class of materials attracted significant interest in preparative solid&#x02010;state chemistry and current basic materials science research because several members exhibit beneficial thermoelectric or superconducting properties.<xref rid="anie201907432-bib-0002" ref-type="ref">2</xref> The structural organization covers a wide variety of compositions involving three&#x02010;dimensional frameworks usually based on four&#x02010;bonded tetrel atoms such as Si, Ge, or Sn. Generally, the connectivity of the network atoms is related to the electron count by the 8&#x02212;<italic>N</italic> rule although silicon compounds may tolerate a certain electron excess.<xref rid="anie201907432-bib-0003" ref-type="ref">3</xref>
+</p><p>Typically, members of the alkaline, alkali&#x02010;earth, or rare&#x02010;earth metal groups act as cationic guest species. However, magnesium constitutes an exception as the metal tends to participate in the anionic network, for example, in TiNiSi&#x02010;type CaMgSi or BaAl<sub>4</sub>&#x02010;type phases such as EuGa<sub>4&#x02212;<italic>x</italic></sub>Mg<sub><italic>x</italic></sub>.<xref rid="anie201907432-bib-0004" ref-type="ref">4</xref> At ambient pressure, the binary system Mg&#x02010;Si shows (anti&#x02010;)fluorite&#x02010;type Mg<sub>2</sub>Si as the only phase,<xref rid="anie201907432-bib-0005" ref-type="ref">5</xref> and also ternary magnesium&#x02013;silicon compounds tend to evade clathrate&#x02010;like frameworks.<xref rid="anie201907432-bib-0004" ref-type="ref">4</xref>, <xref rid="anie201907432-bib-0006" ref-type="ref">6</xref> However, high&#x02010;pressure synthesis techniques provide valuable tools for advancing the spectrum of accessible tetrel frameworks regarding network topology and chemical composition.<xref rid="anie201907432-bib-0007" ref-type="ref">7</xref>, <xref rid="anie201907432-bib-0008" ref-type="ref">8</xref>
+</p><p>Herein, we report on the synthesis, crystal structure, and chemical bonding of a silicon framework embedding cationic magnesium in a binary compound. MgSi<sub>5</sub> was obtained by high&#x02010;pressure synthesis between 5(1) and 10(1)&#x02005;GPa upon heating to temperatures between 1173(120)&#x02005;K and 1373(150)&#x02005;K and quenching to room temperature before decompression. At normal pressure, the diamagnetic compound decomposed at 468(10)&#x02005;K (see Figures&#x02005;S1 and S2 in the Supporting Information). The new compound was first discovered by scanning electron microscopy (SEM) in form of domains in matrices of <italic>hp</italic>&#x02010;Mg<sub>9</sub>Si<sub>5</sub> and (<italic>cF</italic>8)Si. Specimens suitable for selected area electron diffraction experiments were prepared by the focused ion beam (FIB) lift&#x02010;out technique (Figure&#x02005;<xref rid="anie201907432-fig-0001" ref-type="fig">1</xref> and Figure&#x02005;S3). Manual electron diffraction tomography measurements yielded 354 reflections indicating the space group <italic>Cmme</italic>. Structure solution was performed using 142 symmetry&#x02010;independent reflections (Tables&#x02005;S1 and S2).
+</p><fig fig-type="Figure" xml:lang="en" id="anie201907432-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>a)&#x02005;Polished surface of the MgSi<sub>5</sub> sample (back&#x02010;scattering&#x02010;electron scanning electron microscopy image) with arrays of equally oriented domains of MgSi<sub>5</sub> (light gray), separated by thin Si layers (dark gray); black frames show the positions of the FIB cuts. b)&#x02005;Surface image after extracting the first FIB cut. c)&#x02005;Second FIB cut soldered to the copper holder. d)&#x02005;Transmission electron microscopy image of a FIB lamella (perpendicular to [001]) showing the area used for electron diffraction tomography (circle). The inset shows the aperture.</p></caption><graphic id="nlm-graphic-3" xlink:href="ANIE-58-12914-g001"/></fig><p>The determination of basic crystallographic information and chemical composition set the stage for optimizing the synthesis conditions. Powder diffraction patterns with LaB<sub>6</sub> as an internal standard resulted in lattice parameters of <italic>a=</italic>4.4868(2)&#x02005;&#x000c5;, <italic>b=</italic>10.1066(5)&#x02005;&#x000c5;, and <italic>c=</italic>9.0753(4)&#x02005;&#x000c5;. The optimized synthesis produced ingots containing specimen of sufficient size and quality for single crystal X&#x02010;ray diffraction. These were isolated from the crude product by leaching with 0.1&#x02009;<sc>m</sc> NaOH.</p><p>Structure refinement with single&#x02010;crystal and powder X&#x02010;ray diffraction data (Tables&#x02005;S3&#x02013;S5) shows that MgSi<sub>5</sub> represents a new structure type (Pearson notation <italic>oS</italic>24; Figure&#x02005;<xref rid="anie201907432-fig-0002" ref-type="fig">2</xref>). The crystal structure can be described as a three&#x02010;dimensional framework of four&#x02010;bonded (4<italic>b</italic>) Si atoms with Si<sub>15</sub> cages centered by Mg atoms and empty Si<sub>8</sub> polyhedra (Figure&#x02005;<xref rid="anie201907432-fig-0002" ref-type="fig">2</xref>&#x02009;a). The filled [MgSi<sub>15</sub>] cages are stacked along [100] and form columns by sharing pentagonal faces (Figure&#x02005;<xref rid="anie201907432-fig-0002" ref-type="fig">2</xref>&#x02009;b). The stacking sequence in MgSi<sub>5</sub> resembles that of LaSi<sub>10</sub>
+<xref rid="anie201907432-bib-0009" ref-type="ref">9</xref> and bears pronounced similarity to the arrangement of <italic>M</italic>Si<sub>18</sub> polyhedra in the compounds <italic>M</italic>Si<sub>6</sub> (<italic>M</italic>=Ca, Sr, Ba, Eu).<xref rid="anie201907432-bib-0007" ref-type="ref">7</xref> The space between the columns is filled by empty Si<sub>8</sub> polyhedra&#x02014;strongly distorted rhombic antiprisms&#x02014;of two kinds A and B (Figure&#x02005;<xref rid="anie201907432-fig-0002" ref-type="fig">2</xref>&#x02009;a,&#x02009;c,&#x02009;d). The connected Si<sub>6/4</sub> boat rings of the type&#x02005;A cavities (Figure&#x02005;<xref rid="anie201907432-fig-0002" ref-type="fig">2</xref>&#x02009;c) resemble the proposed atomic arrangement of carbon atoms in sp<sup>3</sup> hydrocarbon (2,2) nanotubes.<xref rid="anie201907432-bib-0010" ref-type="ref">10</xref> The observed distances between 2.379(2) and 2.4742(8)&#x02005;&#x000c5; between neighboring silicon atoms in MgSi<sub>5</sub> (Table&#x02005;S6) are longer than those observed in elemental Si (2.3516&#x02005;&#x000c5;<xref rid="anie201907432-bib-0011" ref-type="ref">11</xref>).
+</p><fig fig-type="Figure" xml:lang="en" id="anie201907432-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Crystal structure of MgSi<sub>5</sub>: a)&#x02005;Short Si&#x02212;Si distances indicated by golden lines emphasize the framework of four&#x02010;bonded silicon atoms with Si<sub>15</sub> cages ([4<sup>2</sup>5<sup>2</sup>6<sup>4</sup>], light&#x02010;blue) centered by Mg atoms and two kinds of empty cages&#x02005;A and B (light gray). b)&#x02005;Columns of condensed centered [MgSi<sub>15</sub>] cages. c,&#x02009;d)&#x02005;Face&#x02010;sharing empty Si<sub>8</sub> cages of types A and B, respectively.</p></caption><graphic id="nlm-graphic-5" xlink:href="ANIE-58-12914-g002"/></fig><p>According to the Zintl&#x02013;Klemm concept and the 8&#x02212;<italic>N</italic> rule, frameworks containing solely four&#x02010;bonded tetrel atoms would not require additional electrons for stabilization. Thus, the electron balance of MgSi<sub>5</sub> with (4<italic>b</italic>)Si atoms may be written as MgSi<sub>5</sub>=[Mg<sup>2+</sup>][(4<italic>b</italic>)Si<sup>0</sup>]<sub>5</sub>&#x000d7;2&#x02009;e<sup>&#x02212;</sup> with two excess electrons per formula unit. In a simple picture for a four&#x02010;bonded silicon network with electron excess, the electronic density of states (DOS) below the Fermi level would consist of two ranges, which are dominated by s and p&#x02005;states of silicon, respectively, and above a pseudo&#x02010;gap&#x02010;like minimum, several anti&#x02010;bonding states are populated. For example, Ba&#x02010;containing clathrates show such a DOS pattern.<xref rid="anie201907432-bib-0012" ref-type="ref">12</xref> In comparison to that situation, the calculated electronic DOS for MgSi<sub>5</sub> reveals distinct differences (Figure&#x02005;<xref rid="anie201907432-fig-0003" ref-type="fig">3</xref>&#x02009;a). First, the Si&#x02010;s&#x02010; and Si&#x02010;p&#x02010;dominated regions below the Fermi level can still be recognized by the corresponding atomic contributions, but there is no marked separation like the gap found for Ba clathrates.<xref rid="anie201907432-bib-0003" ref-type="ref">3</xref>, <xref rid="anie201907432-bib-0012" ref-type="ref">12</xref>
+</p><fig fig-type="Figure" xml:lang="en" id="anie201907432-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Electronic structure of and chemical bonding in MgSi<sub>5</sub>: a)&#x02005;Total DOS and atomic contributions of Mg and Si. b)&#x02005;Distribution of partial ELI&#x02010;D in the (200) plane and isosurface with pELI&#x02010;D=0.077 calculated for the energy window &#x02212;0.62&#x02005;eV&#x02264;<italic>E</italic>&#x02264;<italic>E</italic>
+<sub>F</sub>. c)&#x02005;Distribution of partial ELI&#x02010;D in the (200) plane and isosurface with pELI&#x02010;D=0.166 for the energy range &#x02212;1.56&#x02005;eV&#x02264;<italic>E</italic>&#x02264;&#x02212;0.62&#x02005;eV.</p></caption><graphic id="nlm-graphic-7" xlink:href="ANIE-58-12914-g003"/></fig><p>Second, the Fermi level is located almost exactly in the center of a pseudo&#x02010;gap, again in contrast to a typical clathrate&#x02010;like DOS. Such a situation may arise if &#x0201c;anti&#x02010;bonding&#x0201d; states change character because of lone&#x02010;pair&#x02010;like configurations (&#x0201c;non&#x02010;bonding&#x0201d; states) or direct (multi&#x02010;center) interactions between silicon and magnesium (bonding states). In line with this picture, the integration of the electronic DOS in the window between &#x02212;0.62&#x02005;eV (first dip in the DOS below <italic>E</italic>
+<sub>F</sub>) and the Fermi level yielded quite precisely two electrons per formula unit. These findings of the DOS analysis were used as the starting point for a detailed study of the chemical bonding in MgSi<sub>5</sub> by positional&#x02010;space quantum&#x02010;chemical techniques.</p><p>The electron density of MgSi<sub>5</sub> reveals magnesium species with an almost spherical shape, which according to the quantum theory of atoms in molecules (QTAIM<xref rid="anie201907432-bib-0013" ref-type="ref">13</xref>) indicates a mostly cationic character of the magnesium atoms (Figure&#x02005;<xref rid="anie201907432-fig-0004" ref-type="fig">4</xref>). However, some characteristics of the distribution differ from that of typical cationic metal species, such as in clathrates.<xref rid="anie201907432-bib-0012" ref-type="ref">12</xref> Despite the generally convex surface, we note here that the faces in the (100) plane are significantly flattened, which hints at a distinct covalence of the interactions between magnesium and silicon. The effective QTAIM charge of +1.6 for Mg is in good agreement with the large electronegativity difference between Mg and Si. The corresponding charges in other intermetallic compounds of magnesium amount to values between +1.28 and +1.59;<xref rid="anie201907432-bib-0014" ref-type="ref">14</xref> the calculated results for Mg<sub>1&#x02212;<italic>x</italic></sub>B<sub>2</sub> range from +1.4 to +1.6.<xref rid="anie201907432-bib-0015" ref-type="ref">15</xref> The shapes of the silicon species are more polyhedral&#x02010;like, and the flat contact faces between neighboring atoms are typical for non&#x02010;polar covalent bonding. The silicon QTAIM atoms have charges between 0.0 and &#x02212;0.6, revealing an unequal charge transfer from the magnesium to the silicon atoms.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201907432-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>QTAIM atoms and their effective charges in MgSi<sub>5</sub>.</p></caption><graphic id="nlm-graphic-9" xlink:href="ANIE-58-12914-g004"/></fig><p>The distribution of the electron localizability indicator (ELI&#x02010;D) reveals the typical picture of four&#x02010;bonded silicon atoms. The maxima visualized by the isosurface with ELI&#x02010;D=1.44 (Figure&#x02005;<xref rid="anie201907432-fig-0005" ref-type="fig">5</xref>&#x02009;a&#x02013;c) are located on or close to the bond lines between silicon atoms. Moreover, the corresponding basin populations of these attractors (Figure&#x02005;<xref rid="anie201907432-fig-0005" ref-type="fig">5</xref>&#x02009;a) amount to values of around two electrons. The intersection of the atomic basins of magnesium with the bonding basins of the Si&#x02212;Si bonds indicate only a small contribution of Mg to three&#x02010;atom interactions, as suggested by the location of small parts of the Si&#x02212;Si bonding basins within the atomic basin of Mg (Figure&#x02005;<xref rid="anie201907432-fig-0005" ref-type="fig">5</xref>&#x02009;c). A new feature of the ELI&#x02010;D appears in vicinity of the Si2 atoms within the cavity labeled B. The local ELI&#x02010;D maximum reveals a lone&#x02010;pair&#x02010;like interaction between neighboring Si2 atoms in the (100) plane across the cavity. Although the population of 0.27 electrons for the according basin (light yellow in Figure&#x02005;<xref rid="anie201907432-fig-0005" ref-type="fig">5</xref>&#x02009;b,&#x02009;c) is rather small, its presence is the first hint to additional interactions within the crystal structure. This is also suggested by an analysis of the electronic DOS.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201907432-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Electron localizability indicator in MgSi<sub>5</sub>: a)&#x02005;Isosurface of ELI&#x02010;D=1.44 (orange disks). b,&#x02009;c)&#x02005;Bond basins Si1&#x02212;Si3 (red), Si3&#x02212;Si3 (dark blue), Si2&#x02212;Si2 (orange), Si2&#x02212;Si2 (yellow), Si1&#x02212;Si1 (light blue), and Si2&#x02212;Si3 (pink) plus the &#x0201c;lone pair&#x0201d; at Si2 (light yellow) together with their electronic populations. c)&#x02005;Overlap of the shapes of QTAIM Mg atoms (transparent pink) with the Si&#x02212;Si bonding basins reveal only small contributions of the Mg atoms to the Si&#x02212;Si interactions.</p></caption><graphic id="nlm-graphic-11" xlink:href="ANIE-58-12914-g005"/></fig><p>In order to study this finding in more detail, the contributions of electrons in certain energy regions below the Fermi level were investigated by partial ELI&#x02010;D (pELI&#x02010;D).<xref rid="anie201907432-bib-0016" ref-type="ref">16</xref> The calculation for states with energies between &#x02212;0.62&#x02005;e (first dip in the DOS below <italic>E</italic>
+<sub>F</sub>; Figure&#x02005;<xref rid="anie201907432-fig-0003" ref-type="fig">3</xref>&#x02009;a) up to the Fermi level shows main pELI&#x02010;D contributions close to the lone&#x02010;pair&#x02010;like attractor of Si2 in cavity&#x02005;B, confirming that this interaction is supported by magnesium electrons, which stabilize the cavity (Figure&#x02005;<xref rid="anie201907432-fig-0003" ref-type="fig">3</xref>&#x02009;b). Further local maxima are found on the bond lines between Mg and Si2 and Si3, revealing multi&#x02010;center Mg&#x02013;Si interactions within the large cavity of the framework. Finally, large values are also observed within cavity&#x02005;A. Although the pELI&#x02010;D values are insufficiently high to form a local maximum, they still suggest a polar&#x02014;or a lone&#x02010;pair&#x02010;like&#x02014;interaction. Both silicon atoms Si2 and Si3 acting within the small cavities have larger negative charges than Si1, which does not interact in the voids. The calculated pELI&#x02010;D for the next energy window between &#x02212;1.56&#x02005;eV and &#x02212;0.62&#x02005;eV (Figure&#x02005;<xref rid="anie201907432-fig-0003" ref-type="fig">3</xref>&#x02009;c) reveals mainly contributions to Mg&#x02212;Si1 and Si&#x02212;Si bonding, characteristic for cage (clathrate&#x02010;like) compounds.</p><p>In summary, the electronic structure of the silicon&#x02010;rich cage compound MgSi<sub>5</sub> exhibits distinct differences to typical intermetallic host&#x02013;guest assemblies despite similar structural features. The calculated electronic density of states of MgSi<sub>5</sub> reveals a clear pseudo&#x02010;gap around the Fermi level. Chemical bonding is organized in form of conventional two&#x02010;center two&#x02010;electron bonds within the three&#x02010;dimensional silicon framework. In addition, there is evidence for multi&#x02010;atom bonding between framework and cage atoms in the large cavities as well as lone&#x02010;pair&#x02010;like interactions in the smaller empty voids of the framework.</p><sec disp-level="2" id="anie201907432-sec-0002"><title>Experimental Section</title><p>MgSi<sub>5</sub> was obtained by high&#x02010;pressure, high&#x02010;temperature synthesis between 5(1) and 10(1)&#x02005;GPa upon heating to temperatures between 1173(120)&#x02005;K and 1373(150)&#x02005;K before quenching to ambient conditions (see the Supporting Information). Thin samples prepared from crude ingots by the focused ion beam (FIB) lift&#x02010;out technique<xref rid="anie201907432-bib-0017" ref-type="ref">17</xref> were investigated with transmission electron microscopy by means of selected area electron diffraction data for structure solution (see the Supporting Information).<xref rid="anie201907432-bib-0018" ref-type="ref">18</xref> Refinements of X&#x02010;ray diffraction data were performed with the crystallographic program package WinCSD.<xref rid="anie201907432-bib-0019" ref-type="ref">19</xref> Electronic band structure calculations (Figure&#x02005;S4) and bonding analysis of MgSi<sub>5</sub> were carried out using the experimental values of lattice parameters and atomic coordinates (Tables&#x02005;S3 and S4) employing the program package TB&#x02010;LMTO&#x02010;ASA (see the Supporting Information).<xref rid="anie201907432-bib-0020" ref-type="ref">20</xref>, <xref rid="anie201907432-bib-0021" ref-type="ref">21</xref>, <xref rid="anie201907432-bib-0022" ref-type="ref">22</xref> Position&#x02010;space analysis of the chemical bonding in MgSi<sub>5</sub> was performed by means of the electron localizability approach (see the Supporting Information).<xref rid="anie201907432-bib-0016" ref-type="ref">16</xref>, <xref rid="anie201907432-bib-0023" ref-type="ref">23</xref>, <xref rid="anie201907432-bib-0024" ref-type="ref">24</xref>, <xref rid="anie201907432-bib-0025" ref-type="ref">25</xref>, <xref rid="anie201907432-bib-0026" ref-type="ref">26</xref>
+</p></sec><sec disp-level="2" id="anie201907432-sec-0004" sec-type="COI-statement"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ANIE-58-12914-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="anie201907432-sec-0003"><title>Acknowledgements</title><p>We thank Susann Leipe for supporting high&#x02010;pressure syntheses, Marcus Schmidt and Susann Scharsach for DSC measurements, Ulrich Burkhardt, Sylvia Kostmann, and Petra Scheppan for metallographic characterizations as well as Gudrun Auffermann and Ulrike Schmidt for chemical analysis. Stimulating discussions with Frank R. Wagner are appreciated. J.&#x02010;M.H. gratefully acknowledges support by the International Max Planck Research School for Chemistry and Physics of Quantum Materials.</p></ack><ref-list><ref id="anie201907432-bib-0001"><label>1</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0001">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0001a"><label>1a</label><mixed-citation publication-type="book" id="anie201907432-cit-0002">
+<string-name>
+<given-names>M.</given-names>
+<surname>Pouchard</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Cros</surname>
+</string-name> in <source xml:lang="en">The Physics and Chemistry of Inorganic Clathrates</source> (Ed.: <person-group person-group-type="editor"><string-name>G.&#x02005;S. Nolas</string-name></person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Dordrecht</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>1</fpage>&#x02013;<lpage>33</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001b"><label>1b</label><mixed-citation publication-type="book" id="anie201907432-cit-0003">
+<string-name>
+<given-names>M.</given-names>
+<surname>Baitinger</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>B&#x000f6;hme</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Ormeci</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name> in <source xml:lang="en">The Physics and Chemistry of Inorganic Clathrates</source> (Ed.: <person-group person-group-type="editor"><string-name>G.&#x02005;S. Nolas</string-name></person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Dordrecht</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>35</fpage>&#x02013;<lpage>64</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001c"><label>1c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0004">
+<string-name>
+<given-names>C.</given-names>
+<surname>Cros</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pouchard</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Hagenm&#x000fc;ller</surname>
+</string-name>, <source xml:lang="en">J. Solid State Chem.</source>
+<year>1970</year>, <volume>2</volume>, <fpage>570</fpage>&#x02013;<lpage>558</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001d"><label>1d</label><mixed-citation publication-type="journal" id="anie201907432-cit-0005">
+<string-name>
+<given-names>M.</given-names>
+<surname>Beekman</surname>
+</string-name>, <string-name>
+<given-names>G. S.</given-names>
+<surname>Nolas</surname>
+</string-name>, <source xml:lang="en">J. Mater. Chem.</source>
+<year>2008</year>, <volume>18</volume>, <fpage>842</fpage>&#x02013;<lpage>851</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001e"><label>1e</label><mixed-citation publication-type="journal" id="anie201907432-cit-0006">
+<string-name>
+<given-names>S.</given-names>
+<surname>Yamanaka</surname>
+</string-name>, <source xml:lang="en">Dalton Trans.</source>
+<year>2010</year>, <volume>39</volume>, <fpage>1901</fpage>&#x02013;<lpage>1915</lpage>;<pub-id pub-id-type="pmid">20148201</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0001f"><label>1f</label><mixed-citation publication-type="journal" id="anie201907432-cit-0007">
+<string-name>
+<given-names>A. V.</given-names>
+<surname>Shevelkov</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kovnir</surname>
+</string-name>, <source xml:lang="en">Struct. Bonding (Berlin)</source>
+<year>2011</year>, <volume>139</volume>, <fpage>97</fpage>&#x02013;<lpage>142</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001g"><label>1g</label><mixed-citation publication-type="journal" id="anie201907432-cit-0008">
+<string-name>
+<given-names>S. C.</given-names>
+<surname>Peter</surname>
+</string-name>, <string-name>
+<given-names>M. G.</given-names>
+<surname>Kanatzidis</surname>
+</string-name>, <source xml:lang="en">Z. Anorg. Allg. Chem.</source>
+<year>2012</year>, <volume>638</volume>, <fpage>287</fpage>&#x02013;<lpage>293</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0001h"><label>1h</label><mixed-citation publication-type="journal" id="anie201907432-cit-0009">
+<string-name>
+<given-names>A.</given-names>
+<surname>Iyo</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Hase</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kawashima</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Ishida</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Kito</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Takeshita</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Oka</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Fujihisa</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Gotoh</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Yoshida</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Eisaki</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>8590</fpage>&#x02013;<lpage>8595</lpage>.<pub-id pub-id-type="pmid">28657309</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0002"><label>2</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0010">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0002a"><label>2a</label><mixed-citation publication-type="book" id="anie201907432-cit-0011">
+<string-name>
+<given-names>S.</given-names>
+<surname>Stefanoski</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Beekman</surname>
+</string-name>, <string-name>
+<given-names>G. S.</given-names>
+<surname>Nolas</surname>
+</string-name> in <source xml:lang="en">The Physics and Chemistry of Inorganic Clathrates</source> (Ed.: <person-group person-group-type="editor"><string-name>G.&#x02005;S. Nolas</string-name></person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Dordrecht</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>169</fpage>&#x02013;<lpage>191</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0002b"><label>2b</label><mixed-citation publication-type="book" id="anie201907432-cit-0012">
+<string-name>
+<given-names>S.</given-names>
+<surname>Yamanaka</surname>
+</string-name> in <source xml:lang="en">The Physics and Chemistry of Inorganic Clathrates</source> (Ed.: <person-group person-group-type="editor"><string-name>G.&#x02005;S. Nolas</string-name></person-group>), <publisher-name>Springer</publisher-name>, <publisher-loc>Dordrecht</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>193</fpage>&#x02013;<lpage>226</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0002c"><label>2c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0013">
+<string-name>
+<given-names>J.-A.</given-names>
+<surname>Dolyniuk</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Owens-Baird</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>J. V.</given-names>
+<surname>Zaikina</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Kovnir</surname>
+</string-name>, <source xml:lang="en">Mater. Sci. Eng.</source>
+<year>2016</year>, <volume>108</volume>, <fpage>1</fpage>&#x02013;<lpage>46</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0002d"><label>2d</label><mixed-citation publication-type="journal" id="anie201907432-cit-0014">
+<string-name>
+<given-names>K. A.</given-names>
+<surname>Kovnir</surname>
+</string-name>, <string-name>
+<given-names>A. V.</given-names>
+<surname>Shevelkov</surname>
+</string-name>, <source xml:lang="en">Russian Chem. Rev.</source>
+<year>2004</year>, <volume>73</volume>, <fpage>923</fpage>&#x02013;<lpage>938</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0002e"><label>2e</label><mixed-citation publication-type="journal" id="anie201907432-cit-0015">
+<string-name>
+<given-names>A. M.</given-names>
+<surname>Guloy</surname>
+</string-name>, <string-name>
+<given-names>J. D.</given-names>
+<surname>Corbett</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>1991</year>, <volume>30</volume>, <fpage>4789</fpage>&#x02013;<lpage>4794</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0002f"><label>2f</label><mixed-citation publication-type="journal" id="anie201907432-cit-0016">
+<string-name>
+<given-names>F.</given-names>
+<surname>Kneidinger</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Michor</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Sidorenko</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Bauer</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Zeiringer</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Rogl</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Blaas-Schenner</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Reith</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Podloucky</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>2013</year>, <volume>88</volume>, <fpage>104508</fpage>.</mixed-citation></ref><ref id="anie201907432-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="anie201907432-cit-0017">
+<string-name>
+<given-names>A.</given-names>
+<surname>Bhattacharya</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Carbogno</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>B&#x000f6;hme</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Baitinger</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Scheffler</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>2017</year>, <volume>118</volume>, <fpage>236401</fpage>.<pub-id pub-id-type="pmid">28644655</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0004"><label>4</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0018">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0004a"><label>4a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0019">
+<string-name>
+<given-names>H.</given-names>
+<surname>Axel</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Eisenmann</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Sch&#x000e4;fer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Weiss</surname>
+</string-name>, <source xml:lang="en">Z. Naturforsch. B</source>
+<year>1969</year>, <volume>24</volume>, <fpage>815</fpage>&#x02013;<lpage>817</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0004b"><label>4b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0020">
+<string-name>
+<given-names>B.</given-names>
+<surname>Eisenmann</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Sch&#x000e4;fer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Weiss</surname>
+</string-name>, <source xml:lang="en">Z. Anorg. Allg. Chem.</source>
+<year>1972</year>, <volume>391</volume>, <fpage>241</fpage>&#x02013;<lpage>254</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0004c"><label>4c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0021">
+<string-name>
+<given-names>F.</given-names>
+<surname>Merlo</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pani</surname>
+</string-name>, <string-name>
+<given-names>M. L.</given-names>
+<surname>Fornasini</surname>
+</string-name>, <source xml:lang="en">J. Alloys Compd.</source>
+<year>1993</year>, <volume>196</volume>, <fpage>145</fpage>&#x02013;<lpage>148</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0004d"><label>4d</label><mixed-citation publication-type="journal" id="anie201907432-cit-0022">
+<string-name>
+<given-names>S. J.</given-names>
+<surname>Andersen</surname>
+</string-name>, <string-name>
+<given-names>C. D.</given-names>
+<surname>Marioara</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Froseth</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Vissers</surname>
+</string-name>, <string-name>
+<given-names>H. W.</given-names>
+<surname>Zandbergen</surname>
+</string-name>, <source xml:lang="en">Mater. Sci. Eng. A</source>
+<year>2005</year>, <volume>390</volume>, <fpage>127</fpage>&#x02013;<lpage>138</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0004e"><label>4e</label><mixed-citation publication-type="journal" id="anie201907432-cit-0023">
+<string-name>
+<given-names>A. O.</given-names>
+<surname>Fedorchuk</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Z. Kristallogr. New Cryst. Struct.</source>
+<year>2005</year>, <volume>220</volume>, <fpage>317</fpage>&#x02013;<lpage>318</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="anie201907432-cit-0024">
+<string-name>
+<given-names>X. Y.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name>
+<given-names>Y. A.</given-names>
+<surname>Chang</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Zhang</surname>
+</string-name>, <source xml:lang="en">J. Phase Equilib.</source>
+<year>2000</year>, <volume>21</volume>, <fpage>379</fpage>&#x02013;<lpage>384</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0006"><label>6</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0025">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0006a"><label>6a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0026">
+<string-name>
+<given-names>H.</given-names>
+<surname>Witte</surname>
+</string-name>, <source xml:lang="en">Metallwirtsch.</source>
+<year>1939</year>, <volume>18</volume>, <fpage>459</fpage>&#x02013;<lpage>463</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006b"><label>6b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0027">
+<string-name>
+<given-names>R. J.</given-names>
+<surname>LaBotz</surname>
+</string-name>, <string-name>
+<given-names>D. R.</given-names>
+<surname>Mason</surname>
+</string-name>, <string-name>
+<given-names>D. F.</given-names>
+<surname>O'Kane</surname>
+</string-name>, <source xml:lang="en">J. Electrochem. Soc.</source>
+<year>1963</year>, <volume>110</volume>, <fpage>127</fpage>&#x02013;<lpage>134</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006c"><label>6c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0028">
+<string-name>
+<given-names>B.</given-names>
+<surname>Eisenmann</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>May</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Sch&#x000e4;fer</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Weiss</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Winter</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Ziegleder</surname>
+</string-name>, <source xml:lang="en">Z. Naturforsch. B</source>
+<year>1970</year>, <volume>25</volume>, <fpage>1350</fpage>&#x02013;<lpage>1352</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006d"><label>6d</label><mixed-citation publication-type="journal" id="anie201907432-cit-0029">
+<string-name>
+<given-names>F.</given-names>
+<surname>Wrubl</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pani</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Manfrinetti</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Rogl</surname>
+</string-name>, <source xml:lang="en">J. Solid State Chem.</source>
+<year>2009</year>, <volume>182</volume>, <fpage>716</fpage>&#x02013;<lpage>724</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006e"><label>6e</label><mixed-citation publication-type="journal" id="anie201907432-cit-0030">
+<string-name>
+<given-names>A.</given-names>
+<surname>Currao</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Curda</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Nesper</surname>
+</string-name>, <source xml:lang="en">Z. Anorg. Allg. Chem.</source>
+<year>1996</year>, <volume>622</volume>, <fpage>85</fpage>&#x02013;<lpage>94</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006f"><label>6f</label><mixed-citation publication-type="journal" id="anie201907432-cit-0031">
+<string-name>
+<given-names>R.</given-names>
+<surname>Nesper</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Wengert</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Z&#x000fc;rcher</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Currao</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>1999</year>, <volume>5</volume>, <fpage>3382</fpage>&#x02013;<lpage>3389</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0006g"><label>6g</label><mixed-citation publication-type="journal" id="anie201907432-cit-0032">
+<string-name>
+<given-names>I.</given-names>
+<surname>Schellenberg</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Eul</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Schwickert</surname>
+</string-name>, <string-name>
+<given-names>C. M.</given-names>
+<surname>Kubata</surname>
+</string-name>, <string-name>
+<given-names>E. C.</given-names>
+<surname>Reyes</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Nesper</surname>
+</string-name>, <string-name>
+<given-names>U. C.</given-names>
+<surname>Rodewald</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>P&#x000f6;ttgen</surname>
+</string-name>, <source xml:lang="en">Z. Anorg. Allg. Chem.</source>
+<year>2012</year>, <volume>638</volume>, <fpage>1976</fpage>&#x02013;<lpage>1985</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0007"><label>7</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0033">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0007a"><label>7a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0034">
+<string-name>
+<given-names>S.</given-names>
+<surname>Yamanaka</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Maekawa</surname>
+</string-name>, <source xml:lang="en">Z. Naturforsch. B</source>
+<year>2006</year>, <volume>61</volume>, <fpage>1493</fpage>&#x02013;<lpage>1499</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0007b"><label>7b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0035">
+<string-name>
+<given-names>A.</given-names>
+<surname>Wosylus</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Burkhardt</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Z. Naturforsch. B</source>
+<year>2006</year>, <volume>61</volume>, <fpage>1485</fpage>&#x02013;<lpage>1492</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0007c"><label>7c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0036">
+<string-name>
+<given-names>A.</given-names>
+<surname>Wosylus</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Burkhardt</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <source xml:lang="en">Sci. Technol. Adv. Mater.</source>
+<year>2007</year>, <volume>8</volume>, <fpage>383</fpage>&#x02013;<lpage>388</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0007d"><label>7d</label><mixed-citation publication-type="journal" id="anie201907432-cit-0037">
+<string-name>
+<given-names>A.</given-names>
+<surname>Wosylus</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Burkhardt</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Solid State Sci.</source>
+<year>2006</year>, <volume>8</volume>, <fpage>773</fpage>&#x02013;<lpage>781</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0008"><label>8</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0038">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0008a"><label>8a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0039">
+<string-name>
+<given-names>H.</given-names>
+<surname>Fukuoka</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Yamanaka</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>2003</year>, <volume>67</volume>, <fpage>094501</fpage>;</mixed-citation></ref><ref id="anie201907432-bib-0008b"><label>8b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0040">
+<string-name>
+<given-names>U.</given-names>
+<surname>Schwarz</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Wosylus</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Rosner</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Ormeci</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Meier</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Baranov</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Nicklas</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Leipe</surname>
+</string-name>, <string-name>
+<given-names>C. J.</given-names>
+<surname>M&#x000fc;ller</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2012</year>, <volume>134</volume>, <fpage>13558</fpage>&#x02013;<lpage>13561</lpage>.<pub-id pub-id-type="pmid">22845167</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="anie201907432-cit-0041">
+<string-name>
+<given-names>S.</given-names>
+<surname>Yamanaka</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Izumi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Maekawa</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Umemoto</surname>
+</string-name>, <source xml:lang="en">J. Solid State Chem.</source>
+<year>2009</year>, <volume>182</volume>, <fpage>1991</fpage>&#x02013;<lpage>2003</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="anie201907432-cit-0042">
+<string-name>
+<given-names>D.</given-names>
+<surname>Stojkovic</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name>
+<given-names>V. H.</given-names>
+<surname>Crespi</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. Lett.</source>
+<year>2001</year>, <volume>87</volume>, <fpage>125502</fpage>.<pub-id pub-id-type="pmid">11580519</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="anie201907432-cit-0043">
+<string-name>
+<given-names>W. M.</given-names>
+<surname>Yim</surname>
+</string-name>, <string-name>
+<given-names>R. J.</given-names>
+<surname>Paff</surname>
+</string-name>, <source xml:lang="en">J. Appl. Phys.</source>
+<year>1974</year>, <volume>45</volume>, <fpage>1456</fpage>&#x02013;<lpage>1457</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="anie201907432-cit-0044">
+<string-name>
+<given-names>A.</given-names>
+<surname>Ormeci</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">J. Thermoelectr.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>16</fpage>&#x02013;<lpage>32</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0013"><label>13</label><mixed-citation publication-type="book" id="anie201907432-cit-0045">
+<string-name>
+<given-names>R. F. W.</given-names>
+<surname>Bader</surname>
+</string-name>, <source xml:lang="en">Atoms in molecules: A quantum theory</source>, <publisher-name>Oxford University Press</publisher-name>, <publisher-loc>Oxford</publisher-loc>, <year>1999</year>.</mixed-citation></ref><ref id="anie201907432-bib-0014"><label>14</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0046">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0014a"><label>14a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0047">
+<string-name>
+<given-names>R.</given-names>
+<surname>P&#x000f6;ttgen</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Hlukhyy</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Baranov</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2008</year>, <volume>47</volume>, <fpage>6051</fpage>&#x02013;<lpage>6055</lpage>;<pub-id pub-id-type="pmid">18549193</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0014b"><label>14b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0048">
+<string-name>
+<given-names>A. M.</given-names>
+<surname>Alekseeva</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Leithe-Jasper</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Ormeci</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Antipov</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Chem. Met. Alloys</source>
+<year>2014</year>, <volume>7</volume>, <fpage>74</fpage>&#x02013;<lpage>84</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0014c"><label>14c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0049">
+<string-name>
+<given-names>A. M.</given-names>
+<surname>Alekseeva</surname>
+</string-name>, <string-name>
+<given-names>A. M.</given-names>
+<surname>Abakumov</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Leithe-Jasper</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Schnelle</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Prots</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Van&#x02005;Tendeloo</surname>
+</string-name>, <string-name>
+<given-names>E. V.</given-names>
+<surname>Antipov</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2013</year>, <volume>19</volume>, <fpage>17860</fpage>&#x02013;<lpage>17870</lpage>.<pub-id pub-id-type="pmid">24302442</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="anie201907432-cit-0050">
+<string-name>
+<given-names>V.</given-names>
+<surname>Tsirelson</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Stash</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kohout</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Rosner</surname>
+</string-name>, <string-name>
+<given-names>H.</given-names>
+<surname>Mori</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Sato</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Yamamoto</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Tajima</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. B</source>
+<year>2003</year>, <volume>59</volume>, <fpage>575</fpage>&#x02013;<lpage>583</lpage>.<pub-id pub-id-type="pmid">14586076</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="anie201907432-cit-0051">
+<string-name>
+<given-names>F. R.</given-names>
+<surname>Wagner</surname>
+</string-name>, <string-name>
+<given-names>V.</given-names>
+<surname>Bezugly</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Kohout</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2007</year>, <volume>13</volume>, <fpage>5724</fpage>&#x02013;<lpage>5741</lpage>.<pub-id pub-id-type="pmid">17458839</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="anie201907432-cit-0052">
+<string-name>
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Wan</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sun</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Carrillo-Cabrera</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Gr&#x000fc;ner</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Yin</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Qiu</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zou</surname>
+</string-name>, <source xml:lang="en">CrystEngComm</source>
+<year>2012</year>, <volume>14</volume>, <fpage>2204</fpage>&#x02013;<lpage>2212</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0018"><label>18</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0053">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0018a"><label>18a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0054">
+<string-name>
+<given-names>U.</given-names>
+<surname>Kolb</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Mugnaioli</surname>
+</string-name>, <string-name>
+<given-names>T. E.</given-names>
+<surname>Gorelik</surname>
+</string-name>, <source xml:lang="en">Cryst. Res. Technol.</source>
+<year>2011</year>, <volume>46</volume>, <fpage>542</fpage>&#x02013;<lpage>554</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0018b"><label>18b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0055">
+<string-name>
+<given-names>V.</given-names>
+<surname>Pet&#x00159;i&#x0010d;ek</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Du&#x00161;ek</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Palatinus</surname>
+</string-name>, <source xml:lang="en">Z. Kristallogr.</source>
+<year>2014</year>, <volume>229</volume>, <fpage>345</fpage>&#x02013;<lpage>352</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="anie201907432-cit-0056">
+<string-name>
+<given-names>L.</given-names>
+<surname>Akselrud</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2014</year>, <volume>47</volume>, <fpage>803</fpage>&#x02013;<lpage>805</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0020"><label>20</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0057">O. Jepsen, A. Burkhardt, O.&#x02005;K. Andersen, The Program TB-LMTO-ASA. Version 4.7. Max-Planck-Institut f&#x000fc;r Festk&#x000f6;rperforschung, Stuttgart, <bold>1999</bold>.</mixed-citation></ref><ref id="anie201907432-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="anie201907432-cit-0058">
+<string-name>
+<given-names>U.</given-names>
+<surname>von&#x02005;Barth</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>Hedin</surname>
+</string-name>, <source xml:lang="en">J. Phys. C</source>
+<year>1972</year>, <volume>5</volume>, <fpage>1629</fpage>&#x02013;<lpage>1642</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="anie201907432-cit-0059">
+<string-name>
+<given-names>O. K.</given-names>
+<surname>Andersen</surname>
+</string-name>, <source xml:lang="en">Phys. Rev. B</source>
+<year>1975</year>, <volume>12</volume>, <fpage>3060</fpage>&#x02013;<lpage>3083</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0023"><label>23</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0060">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0023a"><label>23a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0061">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kohout</surname>
+</string-name>, <source xml:lang="en">Int. J. Quantum Chem.</source>
+<year>2004</year>, <volume>97</volume>, <fpage>651</fpage>&#x02013;<lpage>658</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0023b"><label>23b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0062">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kohout</surname>
+</string-name>, <source xml:lang="en">Faraday Discuss.</source>
+<year>2007</year>, <volume>135</volume>, <fpage>43</fpage>&#x02013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">17328423</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0024"><label>24</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0063">M. Kohout, DGrid, versions 4.6&#x02013;5.0, <bold>2018</bold>.</mixed-citation></ref><ref id="anie201907432-bib-0025"><label>25</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0064">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0025a"><label>25a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0065">
+<string-name>
+<given-names>M.</given-names>
+<surname>Kohout</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Savin</surname>
+</string-name>, <source xml:lang="en">Int. J. Quantum Chem.</source>
+<year>1996</year>, <volume>60</volume>, <fpage>875</fpage>&#x02013;<lpage>882</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0025b"><label>25b</label><mixed-citation publication-type="book" id="anie201907432-cit-0066">
+<string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, in <source xml:lang="en">Comprehensive Inorganic Chemistry&#x02005;II, Vol.&#x02005;2</source>, <publisher-name>Elsevier</publisher-name>, <publisher-loc>Oxford</publisher-loc>, <year>2013</year> p.&#x02005;<fpage>359</fpage>&#x02013;<lpage>373</lpage>;</mixed-citation></ref><ref id="anie201907432-bib-0025c"><label>25c</label><mixed-citation publication-type="book" id="anie201907432-cit-0067">
+<string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Savin</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Silvi</surname>
+</string-name>, <source xml:lang="en">The Chemical Bond: Chemical Bonding Across the Periodic Table</source>, <publisher-name>Wiley-VCH</publisher-name>, <publisher-loc>Weinhiem</publisher-loc>, <year>2014</year>, pp.&#x02005;<fpage>345</fpage>&#x02013;<lpage>382</lpage>.</mixed-citation></ref><ref id="anie201907432-bib-0026"><label>26</label><mixed-citation publication-type="miscellaneous" id="anie201907432-cit-0068">&#x000a0;</mixed-citation></ref><ref id="anie201907432-bib-0026a"><label>26a</label><mixed-citation publication-type="journal" id="anie201907432-cit-0069">
+<string-name>
+<given-names>D.</given-names>
+<surname>Bende</surname>
+</string-name>, <string-name>
+<given-names>F. R.</given-names>
+<surname>Wagner</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>3970</fpage>&#x02013;<lpage>3978</lpage>;<pub-id pub-id-type="pmid">25836014</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0026b"><label>26b</label><mixed-citation publication-type="journal" id="anie201907432-cit-0070">
+<string-name>
+<given-names>F. R.</given-names>
+<surname>Wagner</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Cardoso-Gil</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Boucher</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Wagner-Reetz</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Sichelschmidt</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Gille</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Baenitz</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <source xml:lang="en">Inorg. Chem.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>12908</fpage>&#x02013;<lpage>12919</lpage>;<pub-id pub-id-type="pmid">30281292</pub-id></mixed-citation></ref><ref id="anie201907432-bib-0026c"><label>26c</label><mixed-citation publication-type="journal" id="anie201907432-cit-0071">
+<string-name>
+<given-names>R.</given-names>
+<surname>Freccero</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Solokha</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>De&#x02005;Negri</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Saccone</surname>
+</string-name>, <string-name>
+<given-names>Yu.</given-names>
+<surname>Grin</surname>
+</string-name>, <string-name>
+<given-names>F. R.</given-names>
+<surname>Wagner</surname>
+</string-name>, <source xml:lang="en">Chem. Eur. J.</source>
+<year>2019</year>, <volume>25</volume>, <fpage>6600</fpage>&#x02013;<lpage>6612</lpage>.<pub-id pub-id-type="pmid">30828887</pub-id></mixed-citation></ref></ref-list></back></article>

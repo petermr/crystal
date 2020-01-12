@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par33">Based on formulas (
+ <xref rid="Equ10" ref-type="">10</xref>), (
+ <xref rid="Equ11" ref-type="">11</xref>), the true XRDT 2D projection for a single crystal Si(111) sample calculated on the spatial grid {15, 15, 15} is displayed in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>. As is easily seen from Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>, the XRDT 2D projection is symmetric towards the coordinate 
+ <italic>Y</italic> and shifted from the center along the 
+ <italic>X</italic> coordinate by 
+ <italic>T</italic>/2 · tan 
+ <italic>θ</italic>
+ <sub>B</sub>. The recovery data of the 3D function 
+ <inline-formula id="IEq46">
+  <alternatives>
+   <tex-math id="M119">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{sol}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M120">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>o</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq46.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> linked with the true XRDT 2D projection are listed in Table 
+ <xref rid="Tab2" ref-type="table">2</xref>. The grid node numbers along the 0Z axis, in which the values of the function 
+ <inline-formula id="IEq47">
+  <alternatives>
+   <tex-math id="M121">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M122">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq47.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> are altered in the optimization procedure, are shown in bold. Correspondingly, all the other 
+ <inline-formula id="IEq48">
+  <alternatives>
+   <tex-math id="M123">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M124">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq48.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> values are chosen as the ones of the true function 
+ <inline-formula id="IEq49">
+  <alternatives>
+   <tex-math id="M125">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${f}_{true}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M126">
+    <msub>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mi>r</mi>
+      <mi>u</mi>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq49.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. As it follows from Table 
+ <xref rid="Tab2" ref-type="table">2</xref>, in the case of the spatial grid {15, 15, 15} the SA algorithm code application provides the target function value to be reduced by more than six orders of magnitude, whereas the error parameter CP increases from 0.0658 to 0.118. This may occur because of the solution ambiguity of the inverse XRDT problem under consideration.
+</p>

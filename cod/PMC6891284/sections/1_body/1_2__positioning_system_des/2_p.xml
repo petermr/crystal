@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The robot has three wheels. Two of the three wheels are motor-driven, while the third is a follower. Each motor-driven wheel is connected to a 90-W servo motor via a gearbox. Each motor drive is associated with an encoder data output. To realize autonomous navigation control of the robot, the control panel employs a STM32 [
+ <xref rid="B23-sensors-19-04980" ref-type="bibr">23</xref>] system to receive data from the infrared sensor, ultrasonic sensor, gyroscope accelerometer, and electronic compass in order to avoid obstacles, transmit information through the server (host computer), and control the motors according to the positioning information. The system also employs a low-cost IMU (9DoF-RazorIMU) [
+ <xref rid="B24-sensors-19-04980" ref-type="bibr">24</xref>], which provides the heading angle for robot steering.
+</p>

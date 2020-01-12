@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par55">Reconstructed images of the Derenzo phantom with spheres of 0.6 mm diameter simulated inside the 
+ <italic>Scanner C</italic> are demonstrated in Fig. 
+ <xref rid="Fig14" ref-type="fig">14</xref>. These results are without normalization correction. It can be seen that the new implementation enhances the image quality. The result from block model can resolve most spheres down to 0.8 mm diameter without normalization correction. However, neither of two models can distinguish between the smallest spheres which are about half the crystal pitch. The line profile across spheres of 0.8 mm and 2 mm diameter for both models indicates that the new model is less noisy comparing to the standard cylindrical model. The goal of this measurement was only to show that the new implementation works with smaller crystal size. Therefore, we did not perform the evaluation procedure as for the 
+ <italic>Scanner B</italic>.
+</p>

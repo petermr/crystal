@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>−</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>≠</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the solution of be obtained as 
+ <disp-formula id="FD19-sensors-19-04980">
+  <label>(17)</label>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>0</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>C</mi>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+          <mi>C</mi>
+         </mfrac>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>2</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>3</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>C</mi>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+          <mi>C</mi>
+         </mfrac>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>3</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>1</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>C</mi>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+          <mi>C</mi>
+         </mfrac>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>3</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>2</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi>C</mi>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+          <mi>C</mi>
+         </mfrac>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>1</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>3</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mtd>
+       </mtr>
+      </mtable>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mo>=</mo>
+     <mn>2</mn>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>−</mo>
+     <mn>2</mn>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>y</mi>
+      <mn>3</mn>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <disp-formula id="FD20-sensors-19-04980">
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mn>1</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msubsup>
+      <mi>y</mi>
+      <mn>1</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>y</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>d</mi>
+      <mn>1</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msubsup>
+      <mi>d</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD21-sensors-19-04980">
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>C</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mn>2</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msubsup>
+      <mi>y</mi>
+      <mn>2</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>y</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi>d</mi>
+      <mn>2</mn>
+      <mn>2</mn>
+     </msubsup>
+     <mo>+</mo>
+     <msubsup>
+      <mi>d</mi>
+      <mn>3</mn>
+      <mn>2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

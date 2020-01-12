@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">Instead of conventional methods, the ML model constructed using the monodomain LCP systems was applied to the local structure analysis of complex LCP systems. For monodomain systems, nematic- or smectic-like trajectories themselves can be used as the supervisor. However, this is difficult in complex systems including nematic- and smectic-like mesogenic structures. Thus, the ML model determined from monodomain systems were applied as a reliable function to distinguish local structures. The classification accuracy was evaluated from the “consistency” of the classification results for each local structure. First, the results of the most “accurate” analysis were obtained from using all the ML models determined under the largest condition of 
+ <italic>N</italic> = 27. This was then used as a reference for evaluating the “consistency” of the results under the computationally less costly conditions attained by the reduction of 
+ <italic>N</italic> and number of features. Next, the analyses were performed for small values of 
+ <italic>N</italic> using small number of features. The correct answer rate with respect to the reference was calculated as the index of consistency. Namely, the index of consistency 
+ <italic>X</italic>
+ <sub>c</sub> was defined as follows,
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${X}_{{\rm{c}}}=\frac{{Z}_{c,\mathrm{correct}}}{{Z}_{c,\mathrm{total}}},$$\end{document}</tex-math>
+   <math id="M8" display="block">
+    <msub>
+     <mrow>
+      <mi>X</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">c</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>Z</mi>
+       </mrow>
+       <mrow>
+        <mi>c</mi>
+        <mo>,</mo>
+        <mi>correct</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>Z</mi>
+       </mrow>
+       <mrow>
+        <mi>c</mi>
+        <mo>,</mo>
+        <mi>total</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_51238_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the 
+ <italic>Z</italic>
+ <sub>c,correct</sub> is the number of correct answers with respect to the reference, and 
+ <italic>Z</italic>
+ <sub>c,total</sub> is the number of total answers. Figure 
+ <xref rid="Fig9" ref-type="fig">9</xref> visualizes the results of local structure analyses for 
+ <italic>N</italic> = 27 (the reference), 
+ <italic>N</italic> = 4, 
+ <italic>N</italic> = 8, and 
+ <italic>N</italic> = 12. For 
+ <italic>N</italic> = 27, 17120 of the 62204 mesogens were found to be in nematic-like structures. In comparison with the results of four conventional methods in Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>, the classification of local structures was significantly improved. More specifically, the clear alignments of smectic-like layers of blue-colored particles were visually acquired, while loose parallel alignments of nematic-like layers of red-colored particles were also seen. For 
+ <italic>N</italic> = 4, the four-feature ML model was used based on the results for monodomain systems. The visualized structure contained numerous small domains that did not correspond to the reference condition. The 
+ <italic>X</italic>
+ <sub>c</sub> was 0.82, indicating poor consistency. Generally, structure classification requires a correct answer rate of at least 0.9. For 
+ <italic>N</italic> = 8, the two-feature ML model was used. The small domains observed with 
+ <italic>N</italic> = 4 were less visible. The 
+ <italic>X</italic>
+ <sub>c</sub> was 0.89, indicating adequate consistency. For 
+ <italic>N</italic> = 12, the one-feature ML model was used. The domain shapes were quite similar to those in the reference structure. The 
+ <italic>X</italic>
+ <sub>c</sub> was 0.92, indicating good consistency. Considering the good performance of McMillan order parameter to distinguish monodomain nematic- and smectic-like structures shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>, one big question still remains: can the local McMillan order parameter 
+ <italic>T</italic> classify the complex local structures of LCPs with high accuracy? The results of 
+ <italic>T</italic> was similar to that of two-feature ML model with 
+ <italic>N</italic> = 8. The 
+ <italic>X</italic>
+ <sub>c</sub> was 0.88, indicating adequate consistency. Therefore 
+ <italic>Q</italic>
+ <sub>6</sub> was better than 
+ <italic>T</italic>. Overall, 
+ <italic>Q</italic>
+ <sub>6</sub> was found to be the best order parameter for classifying the local structures of complex LCP systems. The values of index of consistency for all cases are presented in Table 
+ <xref rid="Tab2" ref-type="table">2</xref>.
+</p>

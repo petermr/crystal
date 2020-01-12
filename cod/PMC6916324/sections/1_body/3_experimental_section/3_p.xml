@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <bold>DFT calculations</bold>: Periodic DFT calculations were performed on the experimentally obtained Co
+ <sub>3</sub>(PO
+ <sub>4</sub>)
+ <sub>2</sub> crystal structure using the WIEN2k program package version 17.1.
+ <xref rid="chem201902303-bib-0042" ref-type="ref">42</xref> The composition of the conventional unit cell is Co
+ <sub>6</sub>(PO
+ <sub>4</sub>)
+ <sub>4</sub>. Spin‐polarized calculations were performed using the PBE+U functional (
+ <italic>U
+  <sub>eff</sub>
+ </italic>=
+ <italic>U</italic>−
+ <italic>J=</italic>3 eV). The value of 
+ <italic>U
+  <sub>eff</sub>
+ </italic> was chosen on the basis of previous studies for cobalt oxides and hydroxides.
+ <xref rid="chem201902303-bib-0043" ref-type="ref">43</xref> Although the value of 
+ <italic>U
+  <sub>eff</sub>
+ </italic> affects the calculated (one‐electron) band gap and dd transition level, we have verified that other choices (
+ <italic>U
+  <sub>eff</sub>
+ </italic>=1 eV, 
+ <italic>U
+  <sub>eff</sub>
+ </italic>=4 eV) do not affect the qualitative results of this study, in particular as pertains to the shape and orientation of the maximally localized Wannier functions
+ <xref rid="chem201902303-bib-0044" ref-type="ref">44</xref> (MLWFs). The calculations were performed using the linearized augmented plane wave (LAPW) method with 
+ <italic>RK</italic>
+ <sub>max</sub>=8.5. The Brillouin zone was sampled with a 19×11×13 k‐point grid, corresponding to 744 irreducible k‐points; the total energy was then converged within 3 meV as compared to a 9×5×6 k‐point grid. The lowest‐energy structure was found when all Co ions were in high‐spin configurations. We do not consider any magnetic ordering or relative alignment of spins, because the experiments in the current study were conducted at 
+ <italic>T</italic>=100 K at which temperature the compound is paramagnetic. MLWFs were calculated using the WIEN2k Wannier interface to the wannier90 program
+ <xref rid="chem201902303-bib-0045" ref-type="ref">45</xref> (i) by projecting the 12 highest occupied spin‐down bands (two occupied bands per Co ion) onto the Co d‐orbitals, and (ii) by projecting the highest 62 occupied spin‐up bands onto the 30 Co d‐orbitals in the conventional unit cell. We attempted several different rotations for the initial projections, but found that all of them converged to the same final result. The MLWFs were plotted using VMD.
+ <xref rid="chem201902303-bib-0046" ref-type="ref">46</xref> The X‐ray structure factors used as input for the multipole model were calculated for reflections up to sin 
+ <italic>θ</italic>
+ <italic>λ</italic>&lt;1.61 Å
+ <sup>−1</sup> using the WIEN2k lapw3 program. We also performed periodic surface DFT calculations using Quantum ESPRESSO,
+ <xref rid="chem201902303-bib-0047" ref-type="ref">47</xref> and molecular DFT calculations using ADF.
+ <xref rid="chem201902303-bib-0048" ref-type="ref">48</xref> The details of those calculations are given in the Supporting Information.
+</p>

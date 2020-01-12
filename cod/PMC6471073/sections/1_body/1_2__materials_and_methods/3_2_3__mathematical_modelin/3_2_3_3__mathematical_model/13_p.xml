@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Then the relationship between all the generalized coordinates 
+ <bold>P</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> and the independent generalized coordinates 
+ <bold>Q</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> can be obtained:
+ <disp-formula id="FD43-micromachines-10-00181">
+  <label>(43)</label>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>P</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>P</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+             <mo>×</mo>
+             <mn>1</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>P</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+             <mo>×</mo>
+             <mn>1</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>I</mi>
+            </mstyle>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+             <mo>×</mo>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>[</mo>
+              <mrow>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>C</mi>
+                </mstyle>
+                <mi>i</mi>
+                <mrow>
+                 <mi>R</mi>
+                 <mo stretchy="false">(</mo>
+                 <msub>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>C</mi>
+                  </mstyle>
+                  <mi>i</mi>
+                 </msub>
+                 <mo stretchy="false">)</mo>
+                 <mo>×</mo>
+                 <mi>R</mi>
+                 <mo stretchy="false">(</mo>
+                 <msub>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>C</mi>
+                  </mstyle>
+                  <mi>i</mi>
+                 </msub>
+                 <mo stretchy="false">)</mo>
+                </mrow>
+               </msubsup>
+              </mrow>
+              <mo>]</mo>
+             </mrow>
+            </mrow>
+            <mrow>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+           </msup>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>C</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+             <mo>×</mo>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>Q</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>D</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>Q</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where, 
+ <bold>D</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> is the transformation matrix of all the generalized coordinates 
+ <bold>P</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> and of the independent generalized coordinates 
+ <bold>Q</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>.
+</p>

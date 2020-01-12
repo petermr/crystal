@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Furthermore, Xu et al. carried out molecular dynamics (MD) simulation to investigate the respective influence of material spring back and plastic side flow on surface topography [
+ <xref rid="B50-micromachines-10-00288" ref-type="bibr">50</xref>]. Their theoretical results show that the height of material spring back almost decreases to zero at the two sides and increases to the maximum value at the center in one feed rate, which is consistent with the model in [
+ <xref rid="B47-micromachines-10-00288" ref-type="bibr">47</xref>]. Kishawy et al. employed the 3D thermo-viscoplastic finite element simulation to explore the formation of plastic side flow and validated through cutting experiments [
+ <xref rid="B51-micromachines-10-00288" ref-type="bibr">51</xref>,
+ <xref rid="B52-micromachines-10-00288" ref-type="bibr">52</xref>]. They reported that larger tool corner nose radius and lower feed rate are the favourable conditions for the generation of material plastic side flow. Meanwhile, Chen et al. adopted the Hertz contact theory coupled with the Johnson-Cook material constitutive model to establish the calculation model for the height component of material plastic side flow, and further verified this model by finite element simulation and actual cutting experiments [
+ <xref rid="B53-micromachines-10-00288" ref-type="bibr">53</xref>,
+ <xref rid="B54-micromachines-10-00288" ref-type="bibr">54</xref>]. Summarizing these theoretical results, He et al. further proposed that the general distribution of material spring back and plastic side flow in one feed rate can be approximately calculated using a quadratic function model [
+ <xref rid="B28-micromachines-10-00288" ref-type="bibr">28</xref>]. The corresponding boundary conditions responsible for the two influencing factors are also established, and on this condition, the surface profile 
+ <italic>F</italic>(
+ <italic>x</italic>) in one feed rate can be expressed as 
+ <disp-formula id="FD4-micromachines-10-00288">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>x</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>tew</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>x</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mn>4</mn>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>w</mi>
+          <mi mathvariant="normal">r</mi>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>s</mi>
+          <mi mathvariant="normal">r</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>f</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mi>f</mi>
+        <mn>2</mn>
+       </mfrac>
+       <mo>≤</mo>
+       <mi>x</mi>
+       <mo>≤</mo>
+       <mfrac>
+        <mi>f</mi>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>R</italic>
+ <sub>tew</sub>(
+ <italic>x</italic>) is the surface profile in one feed rate with consideration of tool edge waviness; 
+ <italic>w</italic>
+ <sub>r</sub> and 
+ <italic>s</italic>
+ <sub>r</sub> are the values of material plastic side flow in the center (
+ <italic>x</italic> = 0) and material spring back in the margin position (
+ <italic>x</italic> = ±
+ <italic>f</italic>/2) in one feed rate, respectively. 
+</p>

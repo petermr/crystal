@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The small-rotation angle (SA) ISAR images usually lose some target information due to the anisotropic scattering. To obtain high-quality InISAR images, reflected signal with a relative large range of rotation angle are needed. In large-rotation angle (LA) ISAR imaging, the RD algorithm is no longer applied, and convolutional back-projection (CBP) algorithm is adapt [
+ <xref rid="B37-sensors-19-02330" ref-type="bibr">37</xref>]. The cross-range scaling can be achieved based on the estimated rotational rate, thus we just need to perform interferometric operation along height direction in LA InISAR imaging.
+</p>

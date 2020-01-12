@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To compensate the frequency nonlinearity and phase inconsistency of the multi-channel THz radar system, the phase term 
+ <inline-formula>
+  <math id="mm57">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>τ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> should be removed. In this paper, we use a reference signal reflected by a corner reflector located at coordinate origin o to compensate the non-ideal factors. The reference signal is expressed as: 
+ <disp-formula id="FD16-sensors-19-02330">
+  <label>(16)</label>
+  <math id="mm58">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>r</mi>
+       <mi>e</mi>
+       <mi>f</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <mo>+</mo>
+       <mi>γ</mi>
+       <mi>t</mi>
+       <msub>
+        <mi>τ</mi>
+        <mrow>
+         <mi>r</mi>
+         <mi>e</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>ξ</mi>
+        <mrow>
+         <mi>L</mi>
+         <mi>O</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>ξ</mi>
+        <mrow>
+         <mi>R</mi>
+         <mi>F</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>t</mi>
+         <mo>−</mo>
+         <msub>
+          <mi>τ</mi>
+          <mrow>
+           <mi>r</mi>
+           <mi>e</mi>
+           <mi>f</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm59">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>e</mi>
+       <mi>f</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>2</mn>
+     <msqrt>
+      <mrow>
+       <msubsup>
+        <mi>R</mi>
+        <mn>0</mn>
+        <mn>2</mn>
+       </msubsup>
+       <mo>+</mo>
+       <msup>
+        <mi>L</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msqrt>
+     <mo>/</mo>
+     <mi>c</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the round trip time of the reference signal. The 
+ <inline-formula>
+  <math id="mm60">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>τ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mi>e</mi>
+       <mi>f</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in the three received channels should be the same, otherwise it will bring extra inconsistent phases. This is the reason that the reference target should be located at coordinate origin. The compensated echo signal is expressed as: 
+ <disp-formula id="FD17-sensors-19-02330">
+  <label>(17)</label>
+  <math id="mm61">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <msub>
+         <mi>s</mi>
+         <mrow>
+          <mi>i</mi>
+          <mi>I</mi>
+          <mi>F</mi>
+          <mo>_</mo>
+          <mi>n</mi>
+          <mi>e</mi>
+          <mi>w</mi>
+         </mrow>
+        </msub>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mi>s</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>I</mi>
+            <mi>F</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mi>s</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mtd>
+       <mtd columnalign="left">
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mi>A</mi>
+           <mrow>
+            <mi>R</mi>
+            <mi>F</mi>
+           </mrow>
+          </msub>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>t</mi>
+            <mo>−</mo>
+            <mi>τ</mi>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <msub>
+           <mi>A</mi>
+           <mrow>
+            <mi>R</mi>
+            <mi>F</mi>
+           </mrow>
+          </msub>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>t</mi>
+            <mo>−</mo>
+            <msub>
+             <mi>τ</mi>
+             <mrow>
+              <mi>r</mi>
+              <mi>e</mi>
+              <mi>f</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>p</mi>
+        <mo stretchy="false">{</mo>
+        <mo>−</mo>
+        <mi>j</mi>
+        <mn>2</mn>
+        <mi>π</mi>
+        <mo stretchy="false">[</mo>
+        <msub>
+         <mi>f</mi>
+         <mi>c</mi>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mi>τ</mi>
+          <mo>−</mo>
+          <msub>
+           <mi>τ</mi>
+           <mrow>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>γ</mi>
+        <mi>t</mi>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mi>τ</mi>
+          <mo>−</mo>
+          <msub>
+           <mi>τ</mi>
+           <mrow>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd/>
+       <mtd columnalign="left">
+        <mo>+</mo>
+        <msub>
+         <mi>ξ</mi>
+         <mrow>
+          <mi>R</mi>
+          <mi>F</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>−</mo>
+          <msub>
+           <mi>τ</mi>
+           <mrow>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>−</mo>
+        <msub>
+         <mi>ξ</mi>
+         <mrow>
+          <mi>R</mi>
+          <mi>F</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mi>t</mi>
+          <mo>−</mo>
+          <mi>τ</mi>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">]</mo>
+        <mo stretchy="false">}</mo>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

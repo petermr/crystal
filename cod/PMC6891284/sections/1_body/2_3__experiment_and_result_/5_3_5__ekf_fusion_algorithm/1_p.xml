@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this experiment, the positioning results of the UWB positioning system are fused with those of the improved odometer positioning method to obtain the positioning results with better accuracy and stability, closer to the actual situation. The positioning results of the improved odometer positioning method are used as the observations of the EKF algorithm, and the positioning results of the UWB positioning system are used as the state variables of the EKF algorithm. We set the initial parameters and status of the system as follows: system noise Q = 0.4, the variance of the measurement noise of the UWB positioning system R = 0.35. The sampling frequency of both methods is 10 Hz. After the EKF fusion algorithm is executed, the fusion coordinates are obtained. 
+ <xref ref-type="fig" rid="sensors-19-04980-f015">Figure 15</xref> compares the EKF fusion coordinates with the original coordinates.
+</p>

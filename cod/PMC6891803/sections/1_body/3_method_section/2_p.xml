@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the KMCS modeling, a 3-dimensional 128 × 128 × 
+ <italic>Z</italic> grid was used to represent the cubic (100) surface of STO, where 
+ <italic>Z</italic> is the height. In these simulations, the PLD growth process is simplified as only deposition and diffusion of singular entities are allowed. Typically, these entities are atoms when simulating growth of metals. However, in the case of oxides, deposition and diffusion of complete unit-cell blocks are simulated, which are referred to as adatoms. The deposition of the material is simulated by instantaneously generating adatoms on randomly chosen locations on the grid. One adatom represents one unit cell of the LLTO perovskite crystal structure or 1/8th unit cell of the LMO spinel crystal structure. The number of adatoms deposited in each pulse is 1/25th of the size of the grid, based on the RHEED results for the LLTO growth rate. No desorption is allowed.
+</p>

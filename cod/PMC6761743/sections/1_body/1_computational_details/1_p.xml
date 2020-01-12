@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To provide an insight into the origins of the structural defects in chalcogenide superconductors, the electronic and vibrational features of four prototypical rock salt-type superconductors, that is, MS (M = Sc, Y, Zr, Lu), were examined. In addition to the quantum-chemical computations for MS (M = Sc, Y, Zr, Lu), the electronic and vibrational properties were also explored for metal-deficient structure models, i.e., M
+ <sub>31</sub>S
+ <sub>32</sub> (M = Sc, Y, Lu) and Zr
+ <sub>29</sub>S
+ <sub>32</sub>, which were generated based on 2 × 2 × 2 expansions of the unit cells of MS (M = Sc, Y, Zr, Lu). To provide greater insight into the vibrational properties of the zirconium-containing sulfides, the vibrational properties were also examined for Zr
+ <sub>3</sub>S
+ <sub>4</sub>, which has been previously reported
+ <sup>
+  <xref ref-type="bibr" rid="ref20">20</xref>
+ </sup> to crystallize with a superstructure of the respective rock salt-type sulfide. The compositions of the aforementioned, metal-deficient structure models were chosen considering the experimentally determined phase widths of the superconducting sulfides, which have been reported elsewhere.
+ <sup>
+  <xref ref-type="bibr" rid="ref17">17</xref>,
+  <xref ref-type="bibr" rid="ref18">18</xref>
+ </sup> Full structural optimizations, which included lattice parameters and atomic positions, were carried out for all materials using the projector-augmented wave method
+ <sup>
+  <xref ref-type="bibr" rid="ref21">21</xref>
+ </sup> as implemented in the Vienna ab initio simulation package
+ <sup>
+  <xref ref-type="bibr" rid="ref22">22</xref>−
+  <xref ref-type="bibr" rid="ref26">26</xref>
+ </sup> (VASP). Correlation and exchange in all computations were described by the generalized gradient approximation of Pedrew, Burke, and Ernzerhof,
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>
+ </sup> and the energy cutoff of the plane wave basis sets was 500 eV. In the cases of the electronic band structure computations of constituting elements, i.e., Sc, Y, Lu, Zr, and S, sets of up to 16 × 16 × 16 
+ <italic>k</italic>-points were used, while sets of 16 × 16 × 16 and 8 × 8 × 8 
+ <italic>k</italic>-points were employed for MS (M = Sc, Y, Zr, Lu) and M
+ <sub>31</sub>S
+ <sub>32</sub> (M = Sc, Y, Lu), Zr
+ <sub>29</sub>S
+ <sub>32</sub>, and Zr
+ <sub>3</sub>S
+ <sub>4</sub>, respectively. All computations were considered to have converged as the energy difference between two iterative steps fell below 10
+ <sup>–8</sup> (and 10
+ <sup>–6</sup>) eV/cell for the electronic (and ionic) relaxations. The coordinates of the high-symmetry 
+ <italic>k</italic>-paths within the Brillouin zones were generated utilizing the AFLOW
+ <sup>
+  <xref ref-type="bibr" rid="ref28">28</xref>
+ </sup> code, and the electronic band structures of all sulfides were visualized with the aid of the Python Materials genomics
+ <sup>
+  <xref ref-type="bibr" rid="ref29">29</xref>
+ </sup> (pymatgen) program.
+</p>

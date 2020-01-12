@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">The accuracy of each order parameter can be affected by the definition of the neighborhood of particle 
+ <italic>i</italic>. For good order parameters, their accuracy is expected to be stable and high with respect to variations of neighborhood information. Figure 
+ <xref rid="Fig4" ref-type="fig">4</xref> shows the highest accuracy of each type of order parameter with respect to the number 
+ <italic>N</italic> of neighborhood particles and the radius 
+ <italic>R</italic> of the neighborhood. The results can again be separated into three tendencies. For 
+ <italic>C</italic>, 
+ <italic>H</italic>, and 
+ <italic>P</italic>, the accuracy is unstable. Each parameter attained its peak performance under a certain condition, but the accuracy did not consistently increase along with the increment of information in the neighborhood. This instability becomes a bottleneck for accurate analyses. For 
+ <italic>S</italic>, a consistent increment in accuracy corresponding to the neighborhood information can be observed, but the accuracy itself is generally low. For the others, the accuracy is stable and increases monotonically with respect to the neighborhood information. The origin of the instability of 
+ <italic>C</italic>, 
+ <italic>H</italic>, and 
+ <italic>P</italic> can be thought of as the similarity of the equations; however, 
+ <italic>A</italic> did not exhibit such instability despite having a similar equation to the above three parameters. 
+ <italic>Q</italic> attained the ideal correct answer rate (=1) under the condition 
+ <italic>N</italic> ≥ 12 or 
+ <italic>R</italic> ≥ 2.25. Note that the above tendencies of the order parameters only apply to LCP systems. It is possible that completely different tendencies would be observed for analyses of other materials. For ML, any prediction of the capability of order parameters using previous knowledge should be avoided.
+</p>

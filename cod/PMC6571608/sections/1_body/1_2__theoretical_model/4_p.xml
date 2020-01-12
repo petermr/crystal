@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PDLC dielectric tensor is defined in a similar way [
+ <xref rid="B37-polymers-11-00861" ref-type="bibr">37</xref>]:
+ <disp-formula id="FD2-polymers-11-00861">
+  <label>(2)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi mathvariant="sans-serif">ε</mi>
+      <mo>^</mo>
+     </mover>
+     <mo>=</mo>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mi mathvariant="sans-serif">ρ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>⋅</mo>
+     <msub>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mi>p</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mover accent="true">
+      <mi mathvariant="normal">I</mi>
+      <mo>^</mo>
+     </mover>
+     <mo>+</mo>
+     <mi mathvariant="sans-serif">ρ</mi>
+     <mo>⋅</mo>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <msub>
+        <mover accent="true">
+         <mi mathvariant="sans-serif">ε</mi>
+         <mo>^</mo>
+        </mover>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <msub>
+        <mover accent="true">
+         <mi mathvariant="sans-serif">ε</mi>
+         <mo>^</mo>
+        </mover>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>o</mi>
+     </msubsup>
+     <mo>⋅</mo>
+     <mover accent="true">
+      <mi mathvariant="normal">I</mi>
+      <mo>^</mo>
+     </mover>
+     <mo>+</mo>
+     <mo stretchy="false">(</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>o</mi>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>e</mi>
+     </msubsup>
+     <mo stretchy="false">)</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mi mathvariant="sans-serif">π</mi>
+       </munderover>
+       <mrow>
+        <mstyle displaystyle="true">
+         <mrow>
+          <munderover>
+           <mo>∫</mo>
+           <mn>0</mn>
+           <mi mathvariant="sans-serif">π</mi>
+          </munderover>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>C</mi>
+            <mi>C</mi>
+           </mstyle>
+           <mo>⋅</mo>
+          </mrow>
+         </mrow>
+        </mstyle>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="sans-serif">α</mi>
+     <mo stretchy="false">)</mo>
+     <mi>q</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="sans-serif">ϕ</mi>
+     <mo stretchy="false">)</mo>
+     <mi>d</mi>
+     <mi mathvariant="sans-serif">α</mi>
+     <mi>d</mi>
+     <mi mathvariant="sans-serif">ϕ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–statistically averaged LC permittivity tensor, 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <mo>…</mo>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> means a statistical averaging operation; averaging is performed over the angles of orientation of the LC molecules 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">α</mi>
+     <mo>,</mo>
+     <mi mathvariant="sans-serif">ϕ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in ellipsoidal droplet (
+ <xref ref-type="fig" rid="polymers-11-00861-f001">Figure 1</xref>b), distributions of which have the form of Gaussian functions [
+ <xref rid="B10-polymers-11-00861" ref-type="bibr">10</xref>]:
+ <disp-formula id="FD3-polymers-11-00861">
+  <label>(3)</label>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="sans-serif">α</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mi>exp</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mo>−</mo>
+       <mrow>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi mathvariant="sans-serif">α</mi>
+           <mo>−</mo>
+           <mover accent="true">
+            <mi mathvariant="sans-serif">α</mi>
+            <mo>¯</mo>
+           </mover>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mo>/</mo>
+        <mrow>
+         <mn>2</mn>
+         <msubsup>
+          <mi mathvariant="sans-serif">σ</mi>
+          <mi mathvariant="sans-serif">α</mi>
+          <mn>2</mn>
+         </msubsup>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD4-polymers-11-00861">
+  <label>(4)</label>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mi>q</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="sans-serif">ϕ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>B</mi>
+     <mi>exp</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mo>−</mo>
+       <mrow>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi mathvariant="sans-serif">ϕ</mi>
+           <mo>−</mo>
+           <mover accent="true">
+            <mi mathvariant="sans-serif">ϕ</mi>
+            <mo stretchy="true">¯</mo>
+           </mover>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mo>/</mo>
+        <mrow>
+         <mn>2</mn>
+         <msubsup>
+          <mi mathvariant="sans-serif">σ</mi>
+          <mi mathvariant="sans-serif">ϕ</mi>
+          <mn>2</mn>
+         </msubsup>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="sans-serif">α</mi>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi mathvariant="sans-serif">ϕ</mi>
+      <mo stretchy="true">¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–average values; 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="sans-serif">σ</mi>
+      <mi mathvariant="sans-serif">α</mi>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="sans-serif">σ</mi>
+      <mi mathvariant="sans-serif">ϕ</mi>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–standard deviations; 
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mo>,</mo>
+     <mo> </mo>
+     <mi>B</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–normalization constants that are defined in [
+ <xref rid="B10-polymers-11-00861" ref-type="bibr">10</xref>].
+</p>

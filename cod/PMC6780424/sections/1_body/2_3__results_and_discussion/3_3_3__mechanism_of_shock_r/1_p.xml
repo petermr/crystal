@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The shock can be simplified into a perfect impulse 
+ <italic>f(t)</italic>, which has an infinitely small duration. Its Fourier transform 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo stretchy="false">(</mo>
+     <mi>ω</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mrow>
+         <mo>−</mo>
+         <mo>∞</mo>
+        </mrow>
+        <mrow>
+         <mo>+</mo>
+         <mo>∞</mo>
+        </mrow>
+       </munderover>
+       <mrow>
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+        <msup>
+         <mi>e</mi>
+         <mrow>
+          <mo>−</mo>
+          <mi>j</mi>
+          <mi>ω</mi>
+          <mi>t</mi>
+         </mrow>
+        </msup>
+        <mi>d</mi>
+        <mi>t</mi>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mo>=</mo>
+     <msub>
+      <mi>F</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> implies that the shock causes a constant amplitude response in the entire frequency domain. Therefore, the more characteristic peaks in the vibrational spectra of an energetic crystal, the more modes can be excited and the more heat can be generated under the same shock condition. We plotted the vibrational spectra for the ε, β, γ and ζ polymorphs of CL-20 crystals in 
+ <xref ref-type="fig" rid="nanomaterials-09-01251-f005">Figure 5</xref>. The number of characteristic peaks of the vibrational spectra of ζ-CL-20 was 25, which was the least among the four polymorphs. Correspondingly, the generated temperature 
+ <italic>T
+  <sub>initiation</sub>
+ </italic>= 1048 K was also the lowest. On the other hand, that peak number was the most for γ-CL-20 (29) and consistent with this, the temperature of 
+ <italic>T
+  <sub>initiation</sub>
+ </italic> = 1600 K was the highest. For the other two polymorphs, both the peak number and the temperature fall in the middle.
+</p>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Clearly, 
+ <inline-formula>
+  <math id="mm59">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mo>′</mo>
+       </msup>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is positive definite within all the integral domains and has the minimum at the origin (
+ <inline-formula>
+  <math id="mm60">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. According to Equation (5), the integral in Equation (14) equals an effective 3
+ <italic>N</italic>-dimensional volume, 
+ <disp-formula id="FD17-nanomaterials-09-00978">
+  <label>(15)</label>
+  <math id="mm61">
+   <mrow>
+    <mrow>
+     <mi>Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <msubsup>
+      <mo mathsize="70%">∏</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msubsup>
+     <msub>
+      <mi>L</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the effective length 
+ <inline-formula>
+  <math id="mm62">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> on the 
+ <italic>i</italic>
+ <sup>th</sup> degree of freedom is defined as: 
+ <disp-formula id="FD18-nanomaterials-09-00978">
+  <label>(16)</label>
+  <math id="mm63">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mo mathsize="small">∫</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msup>
+        <mi>U</mi>
+        <mo>′</mo>
+       </msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mn>0</mn>
+         <mo>…</mo>
+         <msubsup>
+          <mi>x</mi>
+          <mi>i</mi>
+          <mo>′</mo>
+         </msubsup>
+         <mo>…</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <msup>
+          <mi>X</mi>
+          <mrow>
+           <mn>3</mn>
+           <mi>M</mi>
+          </mrow>
+         </msup>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <msubsup>
+      <mi>x</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">For this purpose, a bond-operator approach
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> is applied to the 2D dimer model represented in Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>. Triplon bond operators representing a singlet state and triplet states are defined as 
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$s_{mn}^\dagger |0\rangle = \frac{1}{{\sqrt 2 }}(| \uparrow \rangle _{mn1}| \downarrow \rangle _{mn2} - | \downarrow \rangle _{mn1}| \uparrow \rangle _{mn2})$$\end{document}</tex-math>
+   <math id="M28">
+    <msubsup>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+      <mi>n</mi>
+     </mrow>
+     <mrow>
+      <mo>†</mo>
+     </mrow>
+    </msubsup>
+    <mo>∣</mo>
+    <mn>0</mn>
+    <mo>⟩</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mn>2</mn>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo>-</mo>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t_{xmn}^\dagger |0\rangle = - \frac{1}{{\sqrt 2 }}(| \uparrow \rangle _{mn1}| \uparrow \rangle _{mn2} - | \downarrow \rangle _{mn1}| \downarrow \rangle _{mn2})$$\end{document}</tex-math>
+   <math id="M30">
+    <msubsup>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>m</mi>
+      <mi>n</mi>
+     </mrow>
+     <mrow>
+      <mo>†</mo>
+     </mrow>
+    </msubsup>
+    <mo>∣</mo>
+    <mn>0</mn>
+    <mo>⟩</mo>
+    <mo>=</mo>
+    <mo>-</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mn>2</mn>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo>-</mo>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t_{ymn}^\dagger |0\rangle = \frac{i}{{\sqrt 2 }}(| \uparrow \rangle _{mn1}| \uparrow \rangle _{mn2} + | \downarrow \rangle _{mn1}| \downarrow \rangle _{mn2})$$\end{document}</tex-math>
+   <math id="M32">
+    <msubsup>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+      <mi>m</mi>
+      <mi>n</mi>
+     </mrow>
+     <mrow>
+      <mo>†</mo>
+     </mrow>
+    </msubsup>
+    <mo>∣</mo>
+    <mn>0</mn>
+    <mo>⟩</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mn>2</mn>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, and 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$t_{zmn}^\dagger |0\rangle = \frac{1}{{\sqrt 2 }}(| \uparrow \rangle _{mn1}| \downarrow \rangle _{mn2} + | \downarrow \rangle _{mn1}| \uparrow \rangle _{mn2})$$\end{document}</tex-math>
+   <math id="M34">
+    <msubsup>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>z</mi>
+      <mi>m</mi>
+      <mi>n</mi>
+     </mrow>
+     <mrow>
+      <mo>†</mo>
+     </mrow>
+    </msubsup>
+    <mo>∣</mo>
+    <mn>0</mn>
+    <mo>⟩</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mn>2</mn>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↓</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>∣</mo>
+      <msub>
+       <mrow>
+        <mi>↑</mi>
+        <mo>⟩</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, respectively, where 
+ <italic>m</italic> and 
+ <italic>n</italic> are labels used to distinguish dimers, and 1 and 2 indicate two Cu atoms in a single dimer. The above definition leads to interacting hard-core bosons characterized by hopping amplitudes 
+ <italic>J</italic>
+ <sup>A</sup>, 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$J^{{\mathrm{A}}\prime }$$\end{document}</tex-math>
+   <math id="M36">
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+      <mo>′</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, and 
+ <italic>J</italic>
+ <sup>B</sup>, as depicted in Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref>. The detailed calculations are described in the Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">3</xref>. A 
+ <italic>k</italic>-dependent form of the Hamiltonian is obtained by Fourier transformation as
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{H}}\sim \frac{1}{2}\mathop {\sum}\limits_{\mathbf{k}} {\mathop {\sum}\limits_\alpha {{\cal{T}}^\dagger } } {\cal{M}}_{\mathbf{k}}{\cal{T}},$$\end{document}</tex-math>
+   <math id="M38">
+    <mi mathvariant="script">H</mi>
+    <mo>~</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </munder>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+    </munder>
+    <msup>
+     <mrow>
+      <mi mathvariant="script">T</mi>
+     </mrow>
+     <mrow>
+      <mo>†</mo>
+     </mrow>
+    </msup>
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mi mathvariant="script">T</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{T}} = \left( {\begin{array}{*{20}{c}} {t_{\alpha {\mathbf{k}}}^1} \\ {t_{\alpha {\mathbf{k}}}^2} \\ {t_{\alpha ( - {\mathbf{k}})}^{{\mathrm{\dagger }},1}} \\ {t_{\alpha ( - {\mathbf{k}})}^{\dagger ,2}} \end{array}} \right),{\cal{M}}_{\mathbf{k}} = \left( {\begin{array}{*{20}{c}} J &amp; {\Lambda _{\mathbf{k}}} &amp; 0 &amp; {\Lambda _{\mathbf{k}}} \\ {\Lambda _{\mathbf{k}}^ \ast } &amp; J &amp; {\Lambda _{\mathbf{k}}^ \ast } &amp; 0 \\ 0 &amp; {\Lambda _{\mathbf{k}}} &amp; J &amp; {\Lambda _{\mathbf{k}}} \\ {\Lambda _{\mathbf{k}}^ \ast } &amp; 0 &amp; {\Lambda _{\mathbf{k}}^ \ast } &amp; J \end{array}} \right),$$\end{document}</tex-math>
+   <math id="M40">
+    <mi mathvariant="script">T</mi>
+    <mo>=</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mi>α</mi>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mn>1</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mi>α</mi>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mi>α</mi>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mo>-</mo>
+             <mi mathvariant="bold">k</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi mathvariant="normal">†</mi>
+           <mo>,</mo>
+           <mn>1</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mi>α</mi>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mo>-</mo>
+             <mi mathvariant="bold">k</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mo>†</mo>
+           <mo>,</mo>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <msub>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+         </msub>
+        </mtd>
+        <mtd columnalign="center">
+         <mn>0</mn>
+        </mtd>
+        <mtd columnalign="center">
+         <msub>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mo>*</mo>
+          </mrow>
+         </msubsup>
+        </mtd>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mo>*</mo>
+          </mrow>
+         </msubsup>
+        </mtd>
+        <mtd columnalign="center">
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <mn>0</mn>
+        </mtd>
+        <mtd columnalign="center">
+         <msub>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+         </msub>
+        </mtd>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <msub>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mo>*</mo>
+          </mrow>
+         </msubsup>
+        </mtd>
+        <mtd columnalign="center">
+         <mn>0</mn>
+        </mtd>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mo>*</mo>
+          </mrow>
+         </msubsup>
+        </mtd>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\Lambda _{\mathbf{k}} = J^{\mathrm{A}}e^{ - ik_xa/2} + J^{{\mathrm{A}}\prime }e^{ik_xa/2} + J^{\mathrm{B}}(e^{ - ik_yb/2} + e^{ik_yb/2})$$\end{document}</tex-math>
+   <math id="M42">
+    <msub>
+     <mrow>
+      <mi>Λ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+     </mrow>
+    </msup>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>-</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mi>a</mi>
+      <mo>∕</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo>+</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+      <mo>′</mo>
+     </mrow>
+    </msup>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mi>a</mi>
+      <mo>∕</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo>+</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">B</mi>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>e</mi>
+       </mrow>
+       <mrow>
+        <mo>-</mo>
+        <mi>i</mi>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mi>b</mi>
+        <mo>∕</mo>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <msup>
+       <mrow>
+        <mi>e</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mi>b</mi>
+        <mo>∕</mo>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The superscripts on each operator denote the two sublattices in the primitive unit cell. Quadratic terms from 
+ <italic>α</italic> = 
+ <italic>x</italic>, 
+ <italic>y</italic>, 
+ <italic>z</italic> are block-diagonalized into the same matrix, 
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}}$$\end{document}</tex-math>
+   <math id="M44">
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, reflecting that each band is triply degenerate owing to a rotation symmetry. Dispersion relations are obtained by applying Bogoliubov transformation: by diagonalizing the matrix 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathbf{\Sigma }}{\cal{M}}_{\mathbf{k}}$$\end{document}</tex-math>
+   <math id="M46">
+    <mi mathvariant="bold">Σ</mi>
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (
+ <bold>Σ</bold> = diag(1, 1, −1, −1)), dispersion relations are obtained as
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$E_{ \pm ,{\mathbf{k}}} = \sqrt {J^2 \pm 2J|\Lambda _{\mathbf{k}}|^2} .$$\end{document}</tex-math>
+   <math id="M48">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+      <mo>,</mo>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msqrt>
+     <msup>
+      <mrow>
+       <mi>J</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+     <mo>±</mo>
+     <mn>2</mn>
+     <mi>J</mi>
+     <mo>∣</mo>
+     <msub>
+      <mrow>
+       <mi>Λ</mi>
+      </mrow>
+      <mrow>
+       <mi mathvariant="bold">k</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow>
+       <mo>∣</mo>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </msqrt>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

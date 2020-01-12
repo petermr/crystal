@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0360">We find its solution by successive approximations
+ <disp-formula id="fd53">
+  <label>(53)</label>
+  <math id="M172" altimg="si150.svg" alttext="Equation 53.">
+   <mtable>
+    <mtr>
+     <mtd>
+      <mrow>
+       <mi>Ψ</mi>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">=</mo>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">+</mo>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">+</mo>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">+</mo>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mi>G</mi>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">+</mo>
+       <mtext> </mtext>
+       <mn>...</mn>
+      </mrow>
+     </mtd>
+    </mtr>
+    <mtr>
+     <mtd>
+      <mrow>
+       <mo>=</mo>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mo linebreak="badbreak">+</mo>
+       <mtext> </mtext>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mo linebreak="badbreak">+</mo>
+         <mtext> </mtext>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mrow>
+          <mover accent="true">
+           <mi>U</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mtext> </mtext>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mo linebreak="badbreak">+</mo>
+         <mtext> </mtext>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mrow>
+          <mover accent="true">
+           <mi>U</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mtext> </mtext>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mrow>
+          <mover accent="true">
+           <mi>U</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mtext> </mtext>
+         <mi>G</mi>
+         <mtext> </mtext>
+         <mo linebreak="badbreak">+</mo>
+         <mtext> </mtext>
+         <mn>...</mn>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>U</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext> </mtext>
+       <mrow>
+        <mover accent="true">
+         <mi>Ψ</mi>
+         <mo>˜</mo>
+        </mover>
+       </mrow>
+       <mtext>.</mtext>
+      </mrow>
+     </mtd>
+    </mtr>
+   </mtable>
+  </math>
+ </disp-formula>
+</p>

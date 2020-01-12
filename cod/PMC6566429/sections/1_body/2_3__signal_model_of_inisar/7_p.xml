@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The above formulas show that the target coordinates can be calculated through Equations (6)–(8), (10) and (11). To avoid the phase wrapping, the absolute value of 
+ <inline-formula>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm41">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> should be less than 
+ <italic>π</italic>, and we can calculate that the unambiguous size of the target is: 
+ <disp-formula id="FD12-sensors-19-02330">
+  <label>(12)</label>
+  <math id="mm42">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mo>,</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <msub>
+        <mi>z</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mo>&lt;</mo>
+     <mfrac>
+      <mrow>
+       <mi>λ</mi>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>L</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

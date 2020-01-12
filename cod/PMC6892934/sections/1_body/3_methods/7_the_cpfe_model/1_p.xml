@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par42">A 3D model consisting of a 20 × 20 × 20 μm
+ <sup>3</sup> deformable block and a rigid 4.2 µm radius spherical indenter was simulated using Abaqus 2016 (Dassault Systèmes, Providence, RI, USA) (Figure E.1, Appendix E in Supplementary Material). A refined finite element mesh (applied edge bias 0.1 to 2 µm) with 39500, 20-noded, reduced integration (8 integration points) 3D quadratic elements (C3D20R) was used. The 20 µm high simulation block was partitioned into two layers: a 3 µm thick implanted layer at the free surface and a 17 µm thick substrate. Considering the four-fold symmetry of &lt;001&gt; -oriented grains
+ <sup>
+  <xref ref-type="bibr" rid="CR70">70</xref>
+ </sup>, only one quarter of the experiment was simulated. Mirror boundary conditions were applied on the XZ and YZ planes. The top surface was traction free and remaining surfaces of the sample block were fixed. Additional boundary conditions, 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\sigma }_{xx}^{BC}=\,{\sigma }_{yy}^{BC}\approx \,-\,260\,{\rm{MPa}}$$\end{document}</tex-math>
+   <math id="M70">
+    <msubsup>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+      <mi>C</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mspace width=".25em"/>
+    <msubsup>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+      <mi>C</mi>
+     </mrow>
+    </msubsup>
+    <mo>≈</mo>
+    <mspace width=".25em"/>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mn>260</mn>
+    <mspace width=".25em"/>
+    <mi mathvariant="normal">MPa</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> are applied to the helium-implanted layer to account for the restricted in-plane displacement to maintain geometrical continuity between the implanted layer and substrate (calculations in Appendix A in Supplementary Material)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. The indenter was subjected to a displacement of 0.5 µm into the sample block before unloading. Further details about the model are given in Appendix E in Supplementary Material.
+</p>

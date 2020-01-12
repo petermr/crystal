@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The final coordinates 
+ <italic>x</italic>, 
+ <italic>y</italic> and the heading angle 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mi>θ</mi>
+   </mrow>
+  </math>
+ </inline-formula> can be expressed as follows:
+ <disp-formula id="FD7-sensors-19-04980">
+  <label>(7)</label>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mi>x</mi>
+     <mo>=</mo>
+     <mi>x</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>x</mi>
+     <mo>=</mo>
+     <mi>x</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>d</mi>
+     <mi>cos</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-sensors-19-04980">
+  <label>(8)</label>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <mi>y</mi>
+     <mo>=</mo>
+     <mi>y</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>y</mi>
+     <mo>=</mo>
+     <mi>y</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>d</mi>
+     <mi>sin</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD9-sensors-19-04980">
+  <label>(9)</label>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <mi>θ</mi>
+     <mo>=</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+     <mo>=</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <msub>
+        <mi>S</mi>
+        <mi>l</mi>
+       </msub>
+       <mo>+</mo>
+       <mi mathvariant="script">Δ</mi>
+       <msub>
+        <mi>S</mi>
+        <mi>r</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>L</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

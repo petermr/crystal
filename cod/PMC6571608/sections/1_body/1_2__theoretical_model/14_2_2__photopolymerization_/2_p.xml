@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>According to [
+ <xref rid="B31-polymers-11-00861" ref-type="bibr">31</xref>], similar to [
+ <xref rid="B22-polymers-11-00861" ref-type="bibr">22</xref>,
+ <xref rid="B28-polymers-11-00861" ref-type="bibr">28</xref>,
+ <xref rid="B30-polymers-11-00861" ref-type="bibr">30</xref>], the general case of the photo-polymerization-diffusion process of a HDS formation is completely described by a system of kinetic equations:
+ <disp-formula id="FD22-polymers-11-00861">
+  <label>(21)</label>
+  <math id="mm117">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>M</mi>
+        <mi>m</mi>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mi>div</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msubsup>
+        <mi>D</mi>
+        <mi>M</mi>
+        <mrow/>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>⋅</mo>
+       <mi>grad</mi>
+       <msup>
+        <mi>M</mi>
+        <mi>m</mi>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mi>h</mi>
+     <mo>⋅</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msup>
+          <mi mathvariant="normal">I</mi>
+          <mi>m</mi>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mi>k</mi>
+     </msup>
+     <mo>⋅</mo>
+     <msup>
+      <mi>M</mi>
+      <mi>m</mi>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD23-polymers-11-00861">
+  <label>(22)</label>
+  <math id="mm118">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msubsup>
+        <mi>n</mi>
+        <mi>p</mi>
+        <mi>m</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mi>p</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mi>h</mi>
+     <mo>⋅</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msup>
+          <mi mathvariant="normal">I</mi>
+          <mi>m</mi>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mi>k</mi>
+     </msup>
+     <mo>⋅</mo>
+     <msup>
+      <mi>M</mi>
+      <mi>m</mi>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD24-polymers-11-00861">
+  <label>(23)</label>
+  <math id="mm119">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msubsup>
+        <mi>n</mi>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>⋅</mo>
+     <mi>div</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msubsup>
+        <mi>D</mi>
+        <mrow>
+         <mi>L</mi>
+         <mi>C</mi>
+        </mrow>
+        <mrow/>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>⋅</mo>
+       <mi>grad</mi>
+       <msup>
+        <mi>M</mi>
+        <mi>m</mi>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm120">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>M</mi>
+      <mi>m</mi>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–monomer concentration change rate; 
+ <inline-formula>
+  <math id="mm121">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>n</mi>
+      <mi>p</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–change in refractive index due to photo-polymerization reaction; 
+ <inline-formula>
+  <math id="mm122">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>n</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–change in refractive index due to mutual diffusion of components; 
+ <inline-formula>
+  <math id="mm123">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>D</mi>
+      <mi>M</mi>
+      <mrow/>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm124">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>D</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>C</mi>
+      </mrow>
+      <mrow/>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>—diffusion coefficient of monomer and liquid crystal; 
+ <italic>k</italic>–parameter of the photo-polymerization process nonlinearity according to the intensity of light (typical value 
+ <italic>k</italic> = 0,5); 
+ <inline-formula>
+  <math id="mm125">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mi>p</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm126">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–proportionality coefficients that determine the contribution of the photo-polymerization reaction and the diffusion process to the formation of a HDS; 
+ <italic>h</italic>–parameter dependent on the composition of the material [
+ <xref rid="B22-polymers-11-00861" ref-type="bibr">22</xref>,
+ <xref rid="B26-polymers-11-00861" ref-type="bibr">26</xref>]:
+ <disp-formula id="FD25-polymers-11-00861">
+  <label>(24)</label>
+  <math id="mm127">
+   <mrow>
+    <mrow>
+     <mi>h</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>K</mi>
+      <mi>g</mi>
+     </msub>
+     <mo>⋅</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <msub>
+            <mi mathvariant="sans-serif">α</mi>
+            <mn>0</mn>
+           </msub>
+           <mi mathvariant="sans-serif">β</mi>
+           <msub>
+            <mi>K</mi>
+            <mi>d</mi>
+           </msub>
+           <msub>
+            <mi mathvariant="sans-serif">τ</mi>
+            <mn>0</mn>
+           </msub>
+          </mrow>
+          <mrow>
+           <msubsup>
+            <mi>K</mi>
+            <mi>b</mi>
+            <mrow/>
+           </msubsup>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mi>k</mi>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm128">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>K</mi>
+      <mi>g</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm129">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>K</mi>
+      <mi>b</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–polymeric chain growth and breakage rates; 
+ <inline-formula>
+  <math id="mm130">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">α</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–absorption coefficient of one dye molecule; 
+ <inline-formula>
+  <math id="mm131">
+   <mrow>
+    <mi mathvariant="sans-serif">β</mi>
+   </mrow>
+  </math>
+ </inline-formula>–initiation reaction parameter; 
+ <inline-formula>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>K</mi>
+      <mi>d</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–dye concentration; 
+ <inline-formula>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">τ</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–lifetime of the excited state of the dye molecule.
+</p>

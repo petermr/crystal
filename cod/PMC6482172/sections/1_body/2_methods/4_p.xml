@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par37">The canonical NVT (constant volume and temperature) ensemble is used for the simulations. The temperature control is performed by the Langevin method as implemented in LAMMPS
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>. Conjugate gradient algorithm is used for the energy minimization under constant volume condition after the correction strain is applied.
+</p>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The first public database to present the “CoRE” concept is the CoRE-MOF database, which collects over 5000 structures.
+ <sup>
+  <xref ref-type="bibr" rid="ref14">14</xref>
+ </sup> This database has been used by many different groups for a large range of studies. The importance of such a database is that all structures are reported in a uniform format (e.g., crystallographic information files, CIFs, with 
+ <italic>P</italic>1 symmetry). Indeed, the possibility of easily accessing and computationally analyzing these frameworks allows the screening of thousands of different materials, comparison of their performance for specific applications, and the finding of correlations between geometric properties and performances.
+ <sup>
+  <xref ref-type="bibr" rid="ref16">16</xref>
+ </sup> An important point is that the CoRE-MOF database not only involves a conversion to a uniform format but also includes a minimal curation, that mainly involves the removal of solvent molecules from the pores of the framework. Solvent molecules are often present in the reported structure of MOFs, and they can be (partially) removed. The idea of the CoRE-MOF database is to arrive at a solvent-free material which serves as a reference for computational modeling. The difficulties of simply removing the solvent molecules from the structure become clear if one realizes that for some MOFs the solvent molecules are essential; without solvent the framework collapses. Another important issue is that from the X-ray data one does not have sufficient information on the position of the H atoms. These are then often added manually or using different software packages, where different protocols would put them on slightly different positions. In addition, depending of the quality of the X-ray data there can be uncertainty in the position of the atoms. The net result of all these small difference is that these screening studies are of limited use and a potential source of artifacts, due to the lack of uniformity between the investigated structures.
+</p>

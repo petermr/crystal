@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>r</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> is the Euclidean distance between atom 
+ <italic>i</italic> and atom 
+ <italic>j</italic>. An appropriate value for 
+ <italic>r</italic>
+ <sub>
+  <italic>c</italic>
+ </sub> is 1.32·
+ <italic>r</italic>
+ <sub>
+  <italic>min</italic>
+ </sub>, where 
+ <italic>r</italic>
+ <sub>
+  <italic>min</italic>
+ </sub> is the smallest bond length. This applies to the dodecahedral structure, as well as the others we study. The coordination numbers of the cluster are simply the number of non-zero elements in a column of the adjacency matrix. The distance matrix is defined as 
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document} $$ \mathbf{D}(i,j) = \left\{\begin{array}{ll} 0 &amp; i = j \\ d_{ij} &amp; i \neq j \end{array}\right. $$ \end{document}</tex-math>
+   <math id="M4">
+    <mi mathvariant="bold">D</mi>
+    <mo>(</mo>
+    <mi>i</mi>
+    <mo>,</mo>
+    <mi>j</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mfenced close="" open="{" separators="">
+     <mrow>
+      <mtable class="array" columnalign="left">
+       <mtr>
+        <mtd>
+         <mn>0</mn>
+        </mtd>
+        <mtd>
+         <mi>i</mi>
+         <mo>=</mo>
+         <mi>j</mi>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <msub>
+          <mrow>
+           <mi>d</mi>
+          </mrow>
+          <mrow>
+           <mtext mathvariant="italic">ij</mtext>
+          </mrow>
+         </msub>
+        </mtd>
+        <mtd>
+         <mi>i</mi>
+         <mo>≠</mo>
+         <mi>j</mi>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="11671_2019_2939_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

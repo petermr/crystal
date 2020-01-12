@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par50">The results for the spatial resolution test are shown in Figs. 
+ <xref rid="Fig6" ref-type="fig">6</xref> and 
+ <xref rid="Fig7" ref-type="fig">
+  <bold>7</bold>
+ </xref>. Reconstructed images of the point source together with the radial and tangential line profiles indicate that the new implementation yields a sharper image with better localization of the point source (Fig. 
+ <xref rid="Fig6" ref-type="fig">6</xref>). For the point at 15 mm, the radial and tangential line profiles of the new implementation are very close to the ones of the standard cylindrical implementation. Figure 
+ <xref rid="Fig7" ref-type="fig">7</xref> shows the full width half maximum (FWHM) in radial, tangential, and axial directions measured for the two axial positions: at the center and at one-fourth of the axial FOV. Both axial positions show a similar pattern. Radial and tangential values of FWHM are significantly larger for the cylindrical model. In a radial direction, FWHM increases by moving to the edge of the scanner which is reasonable as the point radially moves to the edge. In the axial direction, the two models show almost the same FWHM except for the point radially centered and axially located at 8.9 mm from the center of FOV. The axial FWHMs are 1.5 mm and 1.2 mm, respectively, for the block and the cylindrical implementations. This could be due to the discretization artifact as for the axially centered position; the two models show similar results.
+</p>

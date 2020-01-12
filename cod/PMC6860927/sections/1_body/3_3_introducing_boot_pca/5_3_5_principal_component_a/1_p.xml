@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We introduce principal component analysis (PCA) to extrapolate the complete grain boundary surface. PCA is a statistical method which simplifies the complexity in high-dimensional data while retaining trends and patterns [
+ <xref rid="pone.0225041.ref042" ref-type="bibr">42</xref>]. Applying PCA on our 3D point cloud, formed by all detected GB atoms, gives us a 3*3 matrix consisting of three eigenvectors and their corresponding eigenvalues. These three eigenvectors have also been referred to as three principal components, which are perpendicular to each other. Among them, the variance of the positions of all GB atoms along the first principal component is the largest, and along the third component is the smallest. In the case of the aluminum bi-crystal dataset, the final GB plane is set perpendicular to the third principal component and positioned at the average position of all the GB atoms. 
+ <xref ref-type="fig" rid="pone.0225041.g008">Fig 8(a) and 8(b)</xref> are two orthogonal views of the points extracted from the experimental dataset following the application of BooT-PCA.
+</p>

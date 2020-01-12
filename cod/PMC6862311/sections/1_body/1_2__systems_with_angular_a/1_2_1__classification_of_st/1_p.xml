@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Let us consider a homogeneous system consisting of identical particles, such as atoms, molecules or colloidal particles. The structure of such a system can be described by the pair-correlation 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> Equation (1):
+ <disp-formula id="FD1-materials-12-03464">
+  <label>(1)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mtext> </mtext>
+     <mo stretchy="false">〈</mo>
+     <mi>ρ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mi>ρ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+      <mo stretchy="false">〉</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>ρ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is a probability to find a particle at the position 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mi mathvariant="bold-italic">r</mi>
+   </mrow>
+  </math>
+ </inline-formula> (single particle distribution function) and brackets 〈…〉 denote ensemble averaging. In the case of an ideal one-dimensional (1D) crystal lattice, which is characterized by a periodic arrangement of particles, the function 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> will look as it is shown in 
+ <xref ref-type="fig" rid="materials-12-03464-f001">Figure 1</xref>a. The sharp peaks at positions 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>=</mo>
+     <mi>n</mi>
+     <mi>a</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mi>n</mi>
+   </mrow>
+  </math>
+ </inline-formula> is an integer and 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mi>a</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the average distance between neighboring particles, indicate that there is a high probability to find the particles at these separations from the given one. If the magnitude of the peaks approaches a constant nonzero value for 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mi>r</mi>
+     <mo>→</mo>
+     <mo>∞</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, this type of order is called long-range. In a generic X-ray diffraction experiment, one can measure the structure factor in Equation (2):
+ <disp-formula id="FD2-materials-12-03464">
+  <label>(2)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle mathsize="140%" displaystyle="true">
+      <mo>∫</mo>
+     </mstyle>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mi>exp</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>i</mi>
+       <mi mathvariant="bold-italic">q</mi>
+       <mi mathvariant="bold-italic">r</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>d</mi>
+     <mi mathvariant="bold-italic">r</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> which is the Fourier image of the pair-correlation function 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B1-materials-12-03464" ref-type="bibr">1</xref>]. Thus, in diffraction patterns, the long-range order manifests itself by the presence of sharp Bragg reflections, as it is schematically shown in 
+ <xref ref-type="fig" rid="materials-12-03464-f001">Figure 1</xref>b. Due to reduced dimensionality, thermally excited displacements and various defects, the peaks of 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> can be broadened and their magnitude may decay with distance. A special case when this decay is algebraic, i.e., it can be described by a power law 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mo>∝</mo>
+     <msup>
+      <mi>r</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>η</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, is called quasi-long-range order. In this case, the magnitude of the higher reflections of the structure factor 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mi>S</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">q</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> decreases and the peaks become broader.
+</p>

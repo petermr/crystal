@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this study, the effects of temperature, stress and grain size on the creep process of nanocrystalline NiAl were investigated through MD simulation. Specifically, the creep mechanisms corresponding to different creep stages were revealed, and the following conclusions were drawn:
+ <list list-type="simple">
+  <list-item>
+   <label>(1)</label>
+   <p>From creep curves, it could be found that with increasing temperatures and stress levels and decreasing grain sizes, the creep rate was higher and the tertiary creep occurred earlier.</p>
+  </list-item>
+  <list-item>
+   <label>(2)</label>
+   <p>The regular changes in dislocations, vacancies and grain boundaries were observed at different stages of nanocrystalline NiAl creep curves, indicating that dislocation, vacancy and the grain boundary play a pivotal role during the creep deformation process of nanocrystalline NiAl.</p>
+  </list-item>
+  <list-item>
+   <label>(3)</label>
+   <p>Through the RDF curves of nanocrystalline NiAl and the atomic snapshots, it was observed that the higher the temperature, the earlier the occurrence of amorphization, and the amorphization was more obvious in the tertiary creep stage compared to primary creep and steady-state creep stages. During the steady-state creep phase, the crystal structure of the model remained stable. The model gradually became an amorphous solid, indicating that the creep process occurred at the tertiary stage.</p>
+  </list-item>
+  <list-item>
+   <label>(4)</label>
+   <p>During primary creep and steady-state creep stages, atomic diffusion at the grain boundary could be seen, and the dislocation density increased gradually, indicating that the creep mechanism at these stage was Coble creep controlled by grain boundary diffusion while accompanied by dislocation nucleation. In tertiary creep, the dislocation density decreased exponentially, along with the amorphization of the model. It was noted that some atoms diffused across the vacancies, and the remaining atoms diffused through subrogation, indicating that the creep mechanisms at this stage were Coble creep controlled by grain boundary diffusion and Nabarro–Herring creep controlled by lattice diffusion.</p>
+  </list-item>
+ </list>
+</p>

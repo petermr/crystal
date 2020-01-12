@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To search for the ground-state σ of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub> via the cluster expansion (CE) method, we first established a database of different σ values of α-SiB
+ <sub>3–
+  <italic>x</italic>
+ </sub> with 
+ <italic>x</italic> ranging from 0.5 to −0.67 by using the algorithm developed by Hart and Forcade.
+ <sup>
+  <xref ref-type="bibr" rid="ref79">79</xref>
+ </sup> For the considered configuration space (42 atoms in a primitive supercell, equivalent to three primitive rhombohedral unit cells), a set of 4826 σ was obtained, which distributed over five compositions, i.e., SiB
+ <sub>2.5</sub>, SiB
+ <sub>2.82</sub>, SiB
+ <sub>3</sub>, SiB
+ <sub>3.2</sub>, and SiB
+ <sub>3.67</sub>. We singled out the first few hundreds of the generated σ, calculated their total energy using DFT (by the VASP code), and included them in the CE to determine the initial ECIs, using the MAPS code.
+ <sup>
+  <xref ref-type="bibr" rid="ref62">62</xref>
+ </sup> The obtained initial ECIs were then used to predict the total energy of all generated σ via 
+ <xref rid="eq1" ref-type="disp-formula">eq 
+  <xref rid="eq1" ref-type="disp-formula">1</xref>
+ </xref>. This procedure should reveal the ground-state σ. However, one should be aware that the ECIs determined from the first expansion may not predict the total energy accurately and thus their predictive power needs to be improved. To this end, the total energies predicted by the initial ECIs were utilized as a guideline to single out a few more hundreds of σ, not included in the first expansion. After calculating their total energy by DFT, these σ were included in a second expansion from which ECIs were redetermined. This procedure can be repeatedly performed, until ECIs of desired quality are reached.
+</p>

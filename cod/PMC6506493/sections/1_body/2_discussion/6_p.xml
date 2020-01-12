@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">The above discussion indicates that topologically protected edge states exist in the triplon band gap observed in Ba
+ <sub>2</sub>CuSi
+ <sub>2</sub>O
+ <sub>6</sub>Cl
+ <sub>2</sub>, as well as the SSH model. The symmetry-protected edge states cannot be removed by pair creation and annihilation terms, which can be confirmed by deriving the Berry connection. A Bogoliubov-de Gennes form of the two-sublattice triplon-band Hamiltonian is generalized into a 4 × 4 matrix as follows:
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}} = \left( {\begin{array}{*{20}{c}} {J{\mathbf{1}} + {\mathbf{d}}\cdot {\bf{\sigma }}} &amp; {{\mathbf{d}}\cdot {\bf{\sigma }}} \\ {{\mathbf{d}}\cdot {\bf{\sigma }}} &amp; {J{\mathbf{1}} + {\mathbf{d}}\cdot {\bf{\sigma }}} \end{array}} \right),$$\end{document}</tex-math>
+   <math id="M72">
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <mi>J</mi>
+         <mi mathvariant="bold">1</mi>
+         <mo>+</mo>
+         <mi mathvariant="bold">d</mi>
+         <mo>⋅</mo>
+         <mi mathvariant="bold">σ</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <mi mathvariant="bold">d</mi>
+         <mo>⋅</mo>
+         <mi mathvariant="bold">σ</mi>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <mi mathvariant="bold">d</mi>
+         <mo>⋅</mo>
+         <mi mathvariant="bold">σ</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <mi>J</mi>
+         <mi mathvariant="bold">1</mi>
+         <mo>+</mo>
+         <mi mathvariant="bold">d</mi>
+         <mo>⋅</mo>
+         <mi mathvariant="bold">σ</mi>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <bold>d</bold> = (
+ <italic>d</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>, 
+ <italic>d</italic>
+ <sub>
+  <italic>y</italic>
+ </sub>, 
+ <italic>d</italic>
+ <sub>
+  <italic>z</italic>
+ </sub>) is a three-component real vector that is a function of 
+ <bold>k</bold>. Then, by following the definition of the Berry connection for bosonic systems
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>,
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>, its real part is obtained as
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M73">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{Re}}A_{ \pm ,{\mathbf{k}}} = \pm \frac{1}{{2|{\mathbf{d}}|(|{\mathbf{d}}| + d_z)}}\left( {d_x\frac{{\partial d_y}}{{\partial k_x}} - d_y\frac{{\partial d_x}}{{\partial k_x}}} \right),$$\end{document}</tex-math>
+   <math id="M74">
+    <mi mathvariant="normal">Re</mi>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+      <mo>,</mo>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>±</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mo>∣</mo>
+      <mi mathvariant="bold">d</mi>
+      <mo>∣</mo>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mo>∣</mo>
+        <mi mathvariant="bold">d</mi>
+        <mo>∣</mo>
+        <mo>+</mo>
+        <msub>
+         <mrow>
+          <mi>d</mi>
+         </mrow>
+         <mrow>
+          <mi>z</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+    </mfrac>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mrow>
+        <mi>∂</mi>
+        <msub>
+         <mrow>
+          <mi>d</mi>
+         </mrow>
+         <mrow>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>∂</mi>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mo>-</mo>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mrow>
+        <mi>∂</mi>
+        <msub>
+         <mrow>
+          <mi>d</mi>
+         </mrow>
+         <mrow>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>∂</mi>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where ± represents two subbands. Irrespective of which gauge is selected, the real part of the Berry connection corresponds to that derived from a 2 × 2 matrix, 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M75">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}}^\prime$$\end{document}</tex-math>
+   <math id="M76">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mo>′</mo>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> = 
+ <italic>J</italic>
+ <bold>1</bold> + 
+ <bold>d</bold> · 
+ <bold>σ</bold>, implying that topological properties are the same for both Hamiltonians, 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M77">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}}$$\end{document}</tex-math>
+   <math id="M78">
+    <msub>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M79">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}}^\prime$$\end{document}</tex-math>
+   <math id="M80">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mo>′</mo>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">4</xref> for a detailed derivation). In fact, for a 1D system in which 
+ <italic>d</italic> is dependent on 
+ <italic>k</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>, 
+ <italic>d</italic>
+ <sub>
+  <italic>z</italic>
+ </sub> = 0 corresponds to the Zak phase
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M81">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma _ \pm = - {\int}_{{\mathrm{BZ}}} d k_xA_{ \pm ,{\mathbf{k}}}$$\end{document}</tex-math>
+   <math id="M82">
+    <msub>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>-</mo>
+    <msub>
+     <mrow>
+      <mo>∫</mo>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">BZ</mi>
+     </mrow>
+    </msub>
+    <mi>d</mi>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+      <mo>,</mo>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> quantized into ±
+ <italic>nπ</italic>, where 
+ <italic>n</italic> corresponds to the winding number, 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M83">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\int}_{{\mathrm{BZ}}} d k_x(d_x\partial d_y/\partial k_x - d_y\partial d_x/\partial k_x)/(2\pi |{\mathbf{d}}|^2)$$\end{document}</tex-math>
+   <math id="M84">
+    <msub>
+     <mrow>
+      <mo>∫</mo>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">BZ</mi>
+     </mrow>
+    </msub>
+    <mi>d</mi>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mi>∂</mi>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>∕</mo>
+      <mi>∂</mi>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>-</mo>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mi>∂</mi>
+      <msub>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>∕</mo>
+      <mi>∂</mi>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>∕</mo>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo>∣</mo>
+      <mi mathvariant="bold">d</mi>
+      <msup>
+       <mrow>
+        <mo>∣</mo>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. This indicates that edge states are protected by the equivalence between the two sublattices.
+</p>

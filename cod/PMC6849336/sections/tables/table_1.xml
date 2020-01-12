@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <title>Summary of the Material and Device Performance Parameters of LEDs with CsPb(Br
+   <sub>1–
+    <italic>x</italic>
+   </sub>Cl
+   <sub>
+    <italic>x</italic>
+   </sub>)
+   <sub>3</sub> NCs of Various Halide Compositions
+  </title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="left"/>
+   <col align="char" char=":"/>
+   <col align="char" char="."/>
+   <col align="char" char="%"/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center">sample, CsPb(Br
+     <sub>1–
+      <italic>x</italic>
+     </sub>Cl
+     <sub>
+      <italic>x</italic>
+     </sub>)
+     <sub>3</sub>
+    </th>
+    <th style="border:none;" align="center" char=":">DDAC/DDAB ratio in the synthesis</th>
+    <th style="border:none;" align="center" char=".">PL peak
+     <xref rid="t1fn1" ref-type="table-fn">a</xref> (nm)
+    </th>
+    <th style="border:none;" align="center" char="%">PLQY
+     <xref rid="t1fn1" ref-type="table-fn">a</xref>
+    </th>
+    <th style="border:none;" align="center" char=".">best EQE</th>
+    <th style="border:none;" align="center" char=".">EQE @100 Cd</th>
+    <th style="border:none;" align="center" char=".">best luminance (Cd/m
+     <sup>2</sup>)
+    </th>
+    <th style="border:none;" align="center" char=".">EL peak position (nm)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="border:none;" align="left">
+     <italic>x</italic> = 0.39
+    </td>
+    <td style="border:none;" align="char" char=":">1:0</td>
+    <td style="border:none;" align="char" char=".">462</td>
+    <td style="border:none;" align="char" char="%">25%</td>
+    <td style="border:none;" align="char" char=".">1.03%</td>
+    <td style="border:none;" align="char" char=".">0.23%</td>
+    <td style="border:none;" align="char" char=".">193</td>
+    <td style="border:none;" align="char" char=".">463</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">
+     <italic>x</italic> = 0.24
+    </td>
+    <td style="border:none;" align="char" char=":">6.5:3.5</td>
+    <td style="border:none;" align="char" char=".">476</td>
+    <td style="border:none;" align="char" char="%">32%</td>
+    <td style="border:none;" align="char" char=".">2.25%</td>
+    <td style="border:none;" align="char" char=".">1.07%</td>
+    <td style="border:none;" align="char" char=".">678</td>
+    <td style="border:none;" align="char" char=".">476</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">
+     <italic>x</italic> = 0.19
+    </td>
+    <td style="border:none;" align="char" char=":">6.1:3.9</td>
+    <td style="border:none;" align="char" char=".">487</td>
+    <td style="border:none;" align="char" char="%">48%</td>
+    <td style="border:none;" align="char" char=".">3.5%</td>
+    <td style="border:none;" align="char" char=".">2.1%</td>
+    <td style="border:none;" align="char" char=".">2 063</td>
+    <td style="border:none;" align="char" char=".">490</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">
+     <italic>x</italic> = 0.11
+    </td>
+    <td style="border:none;" align="char" char=":">3.7:6.3</td>
+    <td style="border:none;" align="char" char=".">499</td>
+    <td style="border:none;" align="char" char="%">62%</td>
+    <td style="border:none;" align="char" char=".">4.96%</td>
+    <td style="border:none;" align="char" char=".">3.94%</td>
+    <td style="border:none;" align="char" char=".">7 600</td>
+    <td style="border:none;" align="char" char=".">502</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">
+     <italic>x</italic> = 0
+    </td>
+    <td style="border:none;" align="char" char=":">0:1</td>
+    <td style="border:none;" align="char" char=".">510</td>
+    <td style="border:none;" align="char" char="%">80%</td>
+    <td style="border:none;" align="char" char=".">9.8%</td>
+    <td style="border:none;" align="char" char=".">7.3%</td>
+    <td style="border:none;" align="char" char=".">34 700</td>
+    <td style="border:none;" align="char" char=".">512</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="t1fn1">
+   <label>a</label>
+   <p>In solution.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

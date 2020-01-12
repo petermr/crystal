@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The following calculations were performed:
+ <list list-type="simple">
+  <list-item>
+   <label>(a)</label>
+   <p>geometry optimization using B3LYP-D*, where B3LYP was augmented with an empirical dispersion term as proposed by Grimme [
+    <xref rid="B51-molecules-24-01107" ref-type="bibr">51</xref>] and modified for molecular crystals by Civalleri et al. [
+    <xref rid="B52-molecules-24-01107" ref-type="bibr">52</xref>]. A full relaxation of both lattice parameters and atomic coordinates by means of analytical energy gradients was applied,
+   </p>
+  </list-item>
+  <list-item>
+   <label>(b)</label>
+   <p>Equations Of State (EOS) calculations were performed for the pressure range from atmospheric up to 4.5 GPa (8 points in total), with full relaxation of both lattice parameters and atomic coordinates by means of analytical energy gradients. The bulk modulus of the solid 
+    <inline-formula>
+     <math id="mm78">
+      <mrow>
+       <mrow>
+        <mn mathvariant="bold">1</mn>
+        <mi mathvariant="bold">a</mi>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> has been estimated using a third order Birch–Murnaghan-type equation of state [
+    <xref rid="B32-molecules-24-01107" ref-type="bibr">32</xref>],
+   </p>
+  </list-item>
+  <list-item>
+   <label>(c)</label>
+   <p>crystal cohesive energy and intermolecular interaction energies were estimated, using the procedure described in the 
+    <xref ref-type="app" rid="app1-molecules-24-01107">Supporting Information</xref>,
+   </p>
+  </list-item>
+  <list-item>
+   <label>(d)</label>
+   <p>Crystalline band structure and partial electronic density of states were calculated with CRYSTAL14 in order to estimate the band gap changes and atomic contributions to frontier orbitals.</p>
+  </list-item>
+ </list>
+</p>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>(2) For the Poole–Frenkel effect, the conductance change can be described as:
+ <disp-formula id="FD7-materials-12-02657">
+  <label>(7)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mi>j</mi>
+      <mi>E</mi>
+     </mfrac>
+     <mo>=</mo>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>σ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>·</mo>
+     <mi>exp</mi>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msqrt>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <msup>
+              <mi>e</mi>
+              <mn>3</mn>
+             </msup>
+             <mi>E</mi>
+            </mrow>
+            <mrow>
+             <mi>π</mi>
+             <msub>
+              <mi>ε</mi>
+              <mn>0</mn>
+             </msub>
+             <msub>
+              <mi>ε</mi>
+              <mi>r</mi>
+             </msub>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </msqrt>
+        </mrow>
+        <mrow>
+         <mi>k</mi>
+         <mi>T</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>σ</italic> is the volume conductivity; 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the initial conductivity; is the Boltzmann constant.
+</p>

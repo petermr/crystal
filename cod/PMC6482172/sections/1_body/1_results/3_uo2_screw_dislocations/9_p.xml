@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par31">One issue to address is the validity of the empirical potentials used to describe the dislocations in the aforementioned materials. In MgO, the Buckingham type potential’s description of the dislocations was compared to DFT by Carrez 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. There, the atomic disregistries along two orthogonal ([001] and [1
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{1}$$\end{document}</tex-math>
+   <math id="M72">
+    <mover accent="true">
+     <mn>1</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>0]) directions around the core of a 〈110〉 screw dislocation in MgO were obtained from calculations using both the Buckingham potential and DFT. The agreement between the two types of simulations is excellent at zero external pressure, validating the choice of the pairwise potentials. In addition, it is shown in this paper that the calculated generalized stacking fault energy using the potential almost overlaps with the result from DFT at zero external pressure. Such agreement suggests that, at ambient pressure, the dislocation behavior in MgO can be modelled with the Buckingham potential with reasonable fidelity. In UO
+ <sub>2</sub>, there are many different empirical potentials available and care must be taken for the choice of empirical potential to use for dislocation modeling. Murphy 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup> studied the line energies and core structures of edge and screw dislocations in UO
+ <sub>2</sub> using 15 different empirical potentials and concluded that the Morelon potential provided the lowest dislocation line energies for edge and screw dislocations in UO
+ <sub>2</sub>, consistent with its prediction of ordered dislocation core structures. Arguably, the Morelon potential is among the best available UO
+ <sub>2</sub> empirical potentials
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> to model dislocations in UO
+ <sub>2</sub>. While DFT modeling of dislocation core structures in UO
+ <sub>2</sub> is not available due to computational cost, we spot checked some of the dissociated vacancies jog-pair structures on screw dislocations in UO
+ <sub>2</sub> using the SMTB-Q tight-binding model
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup> and found that there is almost no difference in the final relaxed configurations compared to those using the Morelon potential. That is, using the SMTB-Q model we find the dissociated vacancy structure to be a local minimum in the potential energy landscape, indicating that the result using the Morelon potential is not an artifact of the potential.
+</p>

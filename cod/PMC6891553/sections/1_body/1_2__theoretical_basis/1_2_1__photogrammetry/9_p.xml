@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>(ii) Identification of control points: The success of automatic photogrammetric correlation is the detection of common points in consecutive images. To do this, an initial adjustment is made to all the images to detect a series of common points and ensure that their relative position is the same as at the time of capture [
+ <xref rid="B32-sensors-19-04881" ref-type="bibr">32</xref>]. This first adjustment of the frames can be processed with mathematical algorithms, such as area based matching (ABM) defined as a correlation based on the area, or featured based matching (FBM), which is a correlation based on operators SIFT (scale invariant feature transform) and SURF (speeded-up robust features) [
+ <xref rid="B33-sensors-19-04881" ref-type="bibr">33</xref>].
+</p>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the context of object tracking, the classifier is trained during runtime (shown in 
+ <xref ref-type="fig" rid="pone.0225041.g006">Fig 6</xref>). The trained classifier predicts the position of the target in the next frame till the end of video. The relevant package is already available in the open-cv python package [
+ <xref rid="pone.0225041.ref038" ref-type="bibr">38</xref>].
+</p>

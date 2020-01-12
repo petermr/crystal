@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By taking Equations (33) and (34) into Equation (32), the coupling of ring 
+ <italic>i</italic>, ring 
+ <italic>i</italic> + 1, and spokes A and spoke B can be obtained:
+ <disp-formula id="FD35-micromachines-10-00181">
+  <label>(35)</label>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mtable columnalign="left">
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>u</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>x</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>v</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>y</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>ϕ</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>σ</mi>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+            </mtable>
+           </mtd>
+           <mtd>
+            <mtable columnalign="left">
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>u</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>x</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>v</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>y</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>ϕ</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>σ</mi>
+                <mi>A</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+            </mtable>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mtable columnalign="left">
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>u</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>x</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>v</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>y</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>ϕ</mi>
+                <mi>i</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>σ</mi>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mn>0</mn>
+               <mo stretchy="false">)</mo>
+               <mo>,</mo>
+              </mtd>
+             </mtr>
+            </mtable>
+           </mtd>
+           <mtd>
+            <mtable columnalign="left">
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>u</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>x</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>v</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>d</mi>
+                <mi>y</mi>
+               </msub>
+               <msub>
+                <mrow/>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+             <mtr>
+              <mtd>
+               <msub>
+                <mi>ϕ</mi>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <msub>
+                <mi>θ</mi>
+                <mi>T</mi>
+               </msub>
+               <mo>+</mo>
+               <mfrac bevelled="true">
+                <mi>π</mi>
+                <mn>4</mn>
+               </mfrac>
+               <mo stretchy="false">)</mo>
+               <mo>=</mo>
+               <msub>
+                <mi>σ</mi>
+                <mi>B</mi>
+               </msub>
+               <mo stretchy="false">(</mo>
+               <mi>L</mi>
+               <mo stretchy="false">)</mo>
+              </mtd>
+             </mtr>
+            </mtable>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

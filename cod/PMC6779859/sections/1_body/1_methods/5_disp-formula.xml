@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disp-formula id="E2">
+ <label>(2)</label>
+ <math id="M6">
+  <mtable class="eqnarray" columnalign="right center left">
+   <mtr>
+    <mtd>
+     <msubsup>
+      <mrow>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mi>m</mi>
+      </mrow>
+      <mrow>
+       <mi>e</mi>
+      </mrow>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>ℏ</mi>
+      </mrow>
+      <mrow>
+       <mo>Δ</mo>
+       <msub>
+        <mrow>
+         <mi>γ</mi>
+        </mrow>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mtd>
+   </mtr>
+  </mtable>
+ </math>
+</disp-formula>

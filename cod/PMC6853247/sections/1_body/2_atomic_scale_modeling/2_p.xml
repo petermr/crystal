@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To provide further information on the Anh‐B structure, calculations based on the density functional theory were performed using the VASP simulation package (Kresse &amp; Hafner, 
+ <xref rid="ggge21980-bib-0028" ref-type="ref">1993</xref>). All results are calculated using generalized gradient approximation (Perdew &amp; Wang, 
+ <xref rid="ggge21980-bib-0040" ref-type="ref">1992</xref>) with pseudopotential (of PAW type) based upon projector‐augmented waves (Blöchl, 
+ <xref rid="ggge21980-bib-0003" ref-type="ref">1994</xref>, Kresse &amp; Joubert, 
+ <xref rid="ggge21980-bib-1000" ref-type="ref">1999</xref>). Outmost core radius for Mg, Si, and O atoms are 2, 1.9, and 1.52 au, respectively. Throughout this study, a single cutoff value of 600 eV was used for the plane wave expansion. The first Brillouin zone was sampled using a Monkhorst‐Pack grid (Monkhorst &amp; Pack, 
+ <xref rid="ggge21980-bib-0033" ref-type="ref">1976</xref>). For the Anh‐B orthorhombic unit cell, using a 6
+ <inline-formula>
+  <bold>
+   <italic>×</italic>
+  </bold>
+ </inline-formula>4
+ <inline-formula>
+  <bold>
+   <italic>×</italic>
+  </bold>
+ </inline-formula>4 mesh leads to convergence of the energy to better than 0.1 meV/atom. To compute the equation of state (EOS; Figure 
+ <xref rid="ggge21980-fig-0007" ref-type="fig">7</xref>) and determine the elastic constants at a given pressure, we first calculate the equilibrium structure of a unit cell by minimizing the Hellman‐Feynman forces and stresses. Then, the elastic constants are computed by applying strains (magnitude ±1%) and calculating the resulting stress tensor.
+</p>

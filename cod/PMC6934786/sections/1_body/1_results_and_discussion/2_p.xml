@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par4">Figure 
+ <xref rid="Fig2" ref-type="fig">2(a)</xref> shows the 
+ <italic>I</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub> as a function of the negative |
+ <italic>V</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub>| on a log-log plot. Two regions; linear and saturation are observed clearly in 
+ <italic>I</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub> − 
+ <italic>V</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub>. We estimate the field-effect mobility, 
+ <italic>μ</italic>, by fitting the 
+ <italic>I</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub> − 
+ <italic>V</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub> characteristics in the linear region as
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>: 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${I}_{DS}=\mu \frac{W}{L}{C}_{i}[({V}_{G}-{V}_{T}){V}_{DS}-\frac{{V}_{DS}^{2}}{2}]$$\end{document}</tex-math>
+   <math id="M2">
+    <msub>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+     <mrow>
+      <mi>D</mi>
+      <mi>S</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>μ</mi>
+    <mfrac>
+     <mi>W</mi>
+     <mi>L</mi>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>C</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>V</mi>
+         </mrow>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+        </msub>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>V</mi>
+         </mrow>
+         <mrow>
+          <mi>T</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>D</mi>
+        <mi>S</mi>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi>V</mi>
+         </mrow>
+         <mrow>
+          <mi>D</mi>
+          <mi>S</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msubsup>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_56558_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <italic>C</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the dielectric capacitance per unit area and 
+ <italic>V</italic>
+ <sub>
+  <italic>T</italic>
+ </sub> is the threshold voltage. The room temperature mobility has been found to be 0.3 cm
+ <sup>2</sup>/Vs which is at least two order of magnitude lower than that in single crystalline pentacene, matching well with the typical mobilities observed in other studies
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>–
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. Figure 
+ <xref rid="Fig2" ref-type="fig">2(b)</xref> shows the variation of the extracted carrier mobilities with temperature and 
+ <italic>V</italic>
+ <sub>
+  <italic>G</italic>
+ </sub>. We find that at all 
+ <italic>V</italic>
+ <sub>
+  <italic>G</italic>
+ </sub>, mobilities increase with temperature exhibiting Arrhenius behavior (
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\mu \, \sim \,exp(\,-\,{E}_{a}/{k}_{B}T)$$\end{document}</tex-math>
+   <math id="M4">
+    <mi>μ</mi>
+    <mspace width="-.25em"/>
+    <mo>~</mo>
+    <mspace width="-.25em"/>
+    <mi>e</mi>
+    <mi>x</mi>
+    <mi>p</mi>
+    <mo stretchy="false">(</mo>
+    <mspace width="-.50em"/>
+    <mo>−</mo>
+    <mspace width="-.35em"/>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+    </msub>
+    <mo>/</mo>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <mi>T</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_56558_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <italic>E</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> being the activation energy, 
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>, Boltzmann’s constant and T, the temperature). This is consistent with thermally activated hopping transport. Inset of Fig. 
+ <xref rid="Fig2" ref-type="fig">2(b)</xref> shows that at higher 
+ <italic>V</italic>
+ <sub>
+  <italic>G</italic>
+ </sub>, charge carriers require lesser activation energy to hop to neighboring sites. This is attributed to the filling of the higher energy states by additional charge carriers at high 
+ <italic>V</italic>
+ <sub>
+  <italic>G</italic>
+ </sub>. In other words, Fermi level shifts from the tail towards the center of the GDOS. Next, we compare the experimentally extracted hopping mobility with that estimated theoretically using Marcus theory
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. Within this approach, the charge transfer between neighboring molecular sites is described as a self-exchange reaction process. First diffusion coefficient, (
+ <italic>D</italic>) is calculated using the charge transfer rate (
+ <italic>k</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>) as
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$D=\frac{1}{2n}\sum _{j}\,{r}_{j}^{2}{k}_{ij}{P}_{j};\,{k}_{ij}=\frac{4{\pi }^{2}}{h}{t}_{ij}^{2}\frac{\exp (-\,\lambda \mathrm{/4}{k}_{B}T)}{\sqrt{4\pi \lambda {k}_{B}T}}$$\end{document}</tex-math>
+   <math id="M6" display="block">
+    <mi>D</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <mn>2</mn>
+      <mi>n</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <munder>
+      <mo>∑</mo>
+      <mi>j</mi>
+     </munder>
+    </mrow>
+    <mspace width=".25em"/>
+    <msubsup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>P</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>;</mo>
+    <mspace width=".25em"/>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>4</mn>
+      <msup>
+       <mrow>
+        <mi>π</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+     <mi>h</mi>
+    </mfrac>
+    <msubsup>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mfrac>
+     <mrow>
+      <mi>exp</mi>
+      <mo stretchy="false">(</mo>
+      <mo>−</mo>
+      <mspace width="-.25em"/>
+      <mi>λ</mi>
+      <mn>/4</mn>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>B</mi>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mn>4</mn>
+        <mi>π</mi>
+        <mi>λ</mi>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>B</mi>
+         </mrow>
+        </msub>
+        <mi>T</mi>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41598_2019_56558_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and then hopping mobility is estimated using the Einstein relation as,
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\mu =\frac{eD}{{k}_{B}T}$$\end{document}</tex-math>
+   <math id="M8" display="block">
+    <mi>μ</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>e</mi>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>B</mi>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41598_2019_56558_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where, 
+ <italic>n</italic> is the space dimensionality, 
+ <italic>r</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>, hopping distance, 
+ <italic>e</italic>, the electronic charge, 
+ <italic>h</italic>, the Planck’s constant, 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${P}_{j}(\,=\,{k}_{ij}/\sum {k}_{ij})$$\end{document}</tex-math>
+   <math id="M10">
+    <msub>
+     <mrow>
+      <mi>P</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mspace width="-.40em"/>
+    <mo>=</mo>
+    <mspace width="-.25em"/>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>/</mo>
+    <mo>∑</mo>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_56558_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is hopping probability of a charge carrier corresponding to the hopping pathway, 
+ <italic>j</italic>, the transfer integral, 
+ <italic>t</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> represents the strength of the coupling between neighboring sites, 
+ <italic>i</italic> and 
+ <italic>j</italic> and 
+ <italic>λ</italic>, the intramolecular reorganization energy arises due to the relaxation of the geometry of a molecule during charge transfer. This is estimated by carrying out single point energy calculations on optimized geometries of neutral and ionic molecule as
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\lambda =[({E}_{\pm }^{\text{'}}-{E}_{\pm })+({E}^{\text{'}}-E)]$$\end{document}</tex-math>
+   <math id="M12">
+    <mi>λ</mi>
+    <mo>=</mo>
+    <mo stretchy="false">[</mo>
+    <mo stretchy="false">(</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+     </mrow>
+     <mrow>
+      <mo>'</mo>
+     </mrow>
+    </msubsup>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <mo stretchy="false">(</mo>
+    <msup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mo>'</mo>
+    </msup>
+    <mo>−</mo>
+    <mi>E</mi>
+    <mo stretchy="false">)</mo>
+    <mo stretchy="false">]</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_56558_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Here 
+ <italic>E</italic> and 
+ <italic>E</italic>
+ <sub>±</sub> are the ground state energies of the molecule in the neutral state and in the ionic state (‘+’ and ‘−’ signs represent the cation and anion, respectively) respectively. 
+ <italic>E</italic>
+ <sup>′</sup> is the energy of the neutral molecule in the optimized geometry of the charged molecule and 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{\pm }^{\text{'}}$$\end{document}</tex-math>
+   <math id="M14">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+     </mrow>
+     <mrow>
+      <mo>'</mo>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_56558_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the energy of the charged molecule in the optimized geometry of the neutral molecule. 
+ <italic>t</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> have been estimated by employing dimer projection method
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>, directly from the orbitals of dimers and monomers. Values of 
+ <italic>λ</italic>, 
+ <italic>t</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> and 
+ <italic>μ</italic> calculated in this way are found to be; 
+ <italic>λ</italic> = 97 meV, 
+ <italic>t</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> for different dimers lying in ab-plane Fig. 
+ <xref rid="Fig3" ref-type="fig">3(a)</xref>), 
+ <italic>i.e</italic>., 
+ <italic>P</italic>, 
+ <italic>T</italic>
+ <sub>1</sub> and 
+ <italic>T</italic>
+ <sub>2</sub> = 57.74, 65.38 and 68.46 meV, and 
+ <italic>μ</italic> = 1.8 cm
+ <sup>2</sup>/Vs. Figure 
+ <xref rid="Fig3" ref-type="fig">3(b)</xref> shows the distribution of charge density on the highest occupied molecular orbital (HOMO) of pentacene. We observe that HOMO is uniformly distributed over the all the benzene rings in pentacene. Further, as H-atoms have no p-orbitals, they do not contribute to the 
+ <italic>π</italic>-orbitals of HOMO. Predicted magnitudes of 
+ <italic>λ</italic>, 
+ <italic>t</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> and 
+ <italic>μ</italic> are comparable with that estimated in previous studies on pentacene
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>–
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. The theoretically calculated mobility estimates are higher than the experimentally observed values. This can be attributed to the thermal and energetic disorder in neighboring molecules that have not been included in theoretical model.
+</p>

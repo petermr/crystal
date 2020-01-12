@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this work the model of 
+ <italic>N</italic> spheres (initially) forming the f.c.c. lattice is considered. In the crystal without inclusions all the spheres have the same diameter 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> which constitutes the unit of length where 
+ <italic>i</italic> is the index of the 
+ <italic>i</italic>-th sphere. Each sphere interacts with other spheres through the well-known hard sphere (HS) potential of the form:
+ <disp-formula id="FD1-materials-12-00700">
+  <label>(1)</label>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <msub>
+      <mi>u</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfenced separators="" open="{" close="">
+      <mtable>
+       <mtr>
+        <mtd columnalign="left">
+         <mrow>
+          <mo>∞</mo>
+          <mo>,</mo>
+         </mrow>
+        </mtd>
+        <mtd columnalign="left">
+         <mrow>
+          <msub>
+           <mi>r</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+           </mrow>
+          </msub>
+          <mo>&lt;</mo>
+          <msub>
+           <mi>σ</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="left">
+         <mrow>
+          <mn>0</mn>
+          <mo>,</mo>
+         </mrow>
+        </mtd>
+        <mtd columnalign="left">
+         <mrow>
+          <msub>
+           <mi>r</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+           </mrow>
+          </msub>
+          <mo>≥</mo>
+          <msub>
+           <mi>σ</mi>
+           <mrow>
+            <mi>i</mi>
+            <mi>j</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <msub>
+     <mi>r</mi>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the distance between the centers of spheres 
+ <italic>i</italic> and 
+ <italic>j</italic>, 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>(</mo>
+      <msub>
+       <mi>σ</mi>
+       <mi>i</mi>
+      </msub>
+      <mo>+</mo>
+      <msub>
+       <mi>σ</mi>
+       <mi>j</mi>
+      </msub>
+      <mo>)</mo>
+     </mrow>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mo>(</mo>
+     <msub>
+      <mi>k</mi>
+      <mi mathvariant="normal">B</mi>
+     </msub>
+     <mi>T</mi>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <msub>
+     <mi>k</mi>
+     <mi mathvariant="normal">B</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the Boltzmann constant, and 
+ <italic>T</italic> is the temperature. Into such a system we introduce an inclusion by selecting (at close packing limit) an arbitrary crystalline plane orthogonal to 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <mo>[</mo>
+     <mn>001</mn>
+     <mo>]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>-direction (see 
+ <xref ref-type="fig" rid="materials-12-00700-f001">Figure 1</xref>). Spheres in the plane constitute the inclusion further referred to as the nanolayer. The number of spheres in that plane (
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <msub>
+     <mi>N</mi>
+     <mi mathvariant="normal">L</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>) depends only on the size of the studied system in the directions 
+ <italic>x</italic> and 
+ <italic>y</italic>, and is equal to 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <mn>2</mn>
+     <msub>
+      <mi>N</mi>
+      <mi>x</mi>
+     </msub>
+     <msub>
+      <mi>N</mi>
+      <mi>y</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (the latter being the numbers of the f.c.c. cells in the respective directions). Such a system will be thought of as a unit supercell. Due to applied periodic boundary conditions, effectively we obtain a system with a periodic stacking of (infinite in the 
+ <italic>x</italic> and 
+ <italic>y</italic> direction) supercells along the 
+ <italic>z</italic>-axis. The ratio of the number of spheres forming the single nanolayer to the number of all the particles in the system will be referred to as the concentration 
+ <inline-formula>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <mi>c</mi>
+     <mo>=</mo>
+     <mo>(</mo>
+     <msub>
+      <mi>N</mi>
+      <mi mathvariant="normal">L</mi>
+     </msub>
+     <mo>/</mo>
+     <mi>N</mi>
+     <mo>)</mo>
+     <mo>×</mo>
+     <mn>100</mn>
+     <mo>%</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B90-materials-12-00700" ref-type="bibr">90</xref>]. Both the inclusion particles and the matrix particles interact with the HS potential (
+ <xref ref-type="disp-formula" rid="FD1-materials-12-00700">1</xref>). The nanolayer particles differ from the matrix particles only with respect to their diameters 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>≠</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The diameters of all the inclusion particles are equal to each other. Thus, one obtains a binary composite, similar to the model studied in [
+ <xref rid="B89-materials-12-00700" ref-type="bibr">89</xref>]. The influence of the changes of the inclusion’s particle diameter (
+ <inline-formula>
+  <math id="mm23">
+   <mrow>
+    <msup>
+     <mi>σ</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>) on the elastic properties of such a composite is investigated.
+</p>

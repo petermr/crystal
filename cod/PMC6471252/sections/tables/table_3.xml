@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="molecules-24-01107-t003" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">molecules-24-01107-t003_Table 3</object-id>
+ <label>Table 3</label>
+ <caption>
+  <p>Variation of the cohesive energy and the energy of the 
+   <inline-formula>
+    <math id="mm119">
+     <mrow>
+      <mrow>
+       <mi mathvariant="sans-serif">π</mi>
+       <mo>⋯</mo>
+       <mi mathvariant="sans-serif">π</mi>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula> stacking interaction of all intermolecular interaction in the crystal structure of 
+   <inline-formula>
+    <math id="mm120">
+     <mrow>
+      <mrow>
+       <mn mathvariant="bold">1</mn>
+       <mi mathvariant="bold">a</mi>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula> as estimated with CRYSTAL14 [
+   <xref rid="B35-molecules-24-01107" ref-type="bibr">35</xref>] in kJ/mol. The intermolecular interaction energies from periodic DFT and CrystalExplorer [
+   <xref rid="B28-molecules-24-01107" ref-type="bibr">28</xref>] estimation (in brackets) were remarkably close at ambient pressure.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">p</th>
+    <th rowspan="2" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" colspan="1">E
+     <inline-formula>
+      <math id="mm121">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mi mathvariant="bold-italic">cohesive</mi>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">E
+     <inline-formula>
+      <math id="mm122">
+       <mrow>
+        <mstyle mathvariant="bold">
+         <msub>
+          <mrow/>
+          <mrow>
+           <mi mathvariant="bold-italic">π</mi>
+           <mo>⋯</mo>
+           <mi mathvariant="bold-italic">π</mi>
+          </mrow>
+         </msub>
+        </mstyle>
+       </mrow>
+      </math>
+     </inline-formula>
+    </th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">GPa</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">kJ/mol</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.0001</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−130.06</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−63.97 (
+     <italic>−63.80</italic>)
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−128.62</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−61.70</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">0.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−124.72</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−56.23</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−119.58</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−49.82</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.9</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−111.97</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−41.38</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.7</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−101.45</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−30.47</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">3.5</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−87.84</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">−17.50</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4.4</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−72.40</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">−3.58</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0335">Let us introduce the Green's function 
+ <inline-formula>
+  <math id="M160" altimg="si139.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M161" altimg="si140.svg">
+   <mrow>
+    <mi>G</mi>
+   </mrow>
+  </math>
+ </inline-formula>:
+ <disp-formula id="fd46">
+  <label>(46)</label>
+  <math id="M162" altimg="si141.svg" alttext="Equation 46.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mtext>H</mtext>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <mi>p</mi>
+      <mo>,</mo>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mi>Δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>Δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+      <mo linebreak="badbreak">−</mo>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd47">
+  <label>(47)</label>
+  <math id="M163" altimg="si142.svg" alttext="Equation 47.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mtext>H</mtext>
+      <mo linebreak="badbreak">−</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>U</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>G</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <mi>p</mi>
+      <mo>,</mo>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mi>Δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>Δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+      <mo linebreak="badbreak">−</mo>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

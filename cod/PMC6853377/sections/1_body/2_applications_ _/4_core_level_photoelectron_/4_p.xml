@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Core-level signals are selected by setting the proper sample bias, such that the binding-energy region of interest is accumulated [
+ <italic>cf</italic>. equation (3)
+ <xref ref-type="disp-formula" rid="fd3"/>]. In other words, the kinetic energy 
+ <italic>E</italic>
+ <sub>kin</sub> of the core-level signal is shifted exactly to the point of best focusing of the electron optics. As discussed in Section 2.3
+ <xref ref-type="sec" rid="sec2.3"/>, faster electrons originating from higher-lying core levels, from the valence band or from admixture of higher orders in the photon beam, usually appear in different time slices or can be shifted out of the spectrum. Electrons slower than 
+ <italic>E</italic>
+ <sub>kin</sub> − 
+ <italic>eU</italic>
+ <sub>d</sub> are cut off by the high-pass action of the drift tube. At the given conditions [Si(111) monochromator crystal, 450 meV bandwidth, 40-bunch filling pattern], diffractograms like those in Fig. 8
+ <xref ref-type="fig" rid="fig8"> ▸</xref> were obtained in ∼10 min. In the future, multi-line DLDs (
+ <ext-link ext-link-type="uri" xlink:href="http://www.surface-concept.de" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.surface-concept.de</ext-link>) with highly parallelized recording architecture (and high multi-hit capability) will allow for much higher total count rates. The space charge problem is less serious when recording XPD, because quasi-monoenergetic core-level patterns can be extracted much easier than valence-band patterns, even when Coulomb repulsion in the beam leads to a Lorentzian deformation of the raw data [
+ <italic>cf</italic>. Schönhense 
+ <italic>et al.</italic> (2018
+ <italic>b</italic>
+ <xref ref-type="bibr" rid="bb62"> ▸</xref>) for details].
+</p>

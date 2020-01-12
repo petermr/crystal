@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">
+ <italic>Temperature-dependent PL spectrum measurement</italic> was performed by using iHR320 Photoluminescence Spectroscopy and a portal LINKAM thermal stage. The FWHM of PL spectra was fitted by the following equation to derive an electron–phonon interaction strength 
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>–
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>:
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathrm{\Gamma }}\left( T \right) = {\mathrm{\Gamma }}_0 + \frac{{{\mathrm{\Gamma }}_1}}{{{\mathrm{exp}}\left( {\frac{{\hbar \omega _1}}{{k_{\mathrm{B}}T}}} \right) - 1}}$$\end{document}</tex-math>
+   <math id="M6">
+    <mi mathvariant="normal">Γ</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Γ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">Γ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">exp</mi>
+      <mfenced close=")" open="(" separators="">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>ħ</mi>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>k</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">B</mi>
+           </mrow>
+          </msub>
+          <mi>T</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfenced>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41467_2019_13580_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where Γ
+ <sub>0</sub> is temperature-independent inhomogeneous broadening term, which arises from scattering due to disorder and imperfections. Γ
+ <sub>1</sub> represents the electron–phonon coupling strength, primarily contributed by longitudinal optical phonon scattering. 
+ <italic>ω</italic>
+ <sub>1</sub> is the homopolar phonon frequency, which is 133 cm
+ <sup>−1</sup> for Pb-Br-Pb stretch, based on previous report. The electron–phonon coupling strengths (Γ
+ <sub>1</sub>) in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">15</xref> were fitted to be 0.032 eV and 0.035 eV in PEACl:CsPbBr
+ <sub>3</sub>(1:1) films with or without YCl
+ <sub>3</sub>, respectively. Γ
+ <sub>0</sub> was reduced from 0.093 eV in PEACl:CsPbBr
+ <sub>3</sub>(1:1) film to 0.086 eV in PEACl:CsPbBr
+ <sub>3</sub>(1:1) film with YCl
+ <sub>3</sub>.
+</p>

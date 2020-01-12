@@ -1,0 +1,584 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By taking the Equations (14), (15), (23), and (24) into Equation (35), the coupling relationships can be expressed with the following coupling matrix. 
+ <disp-formula id="FD36-micromachines-10-00181">
+  <label>(36)</label>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">φ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">χ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ψ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">δ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi mathvariant="bold-sans-serif">η</mi>
+            </mstyle>
+            <mi>i</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ς</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">φ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">χ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ψ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">δ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi mathvariant="bold-sans-serif">η</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ς</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">φ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">χ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ψ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">δ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi mathvariant="bold-sans-serif">η</mi>
+            </mstyle>
+            <mi>i</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ς</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">φ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">χ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ψ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">δ</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi mathvariant="bold-sans-serif">η</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo>+</mo>
+           <mfrac bevelled="true">
+            <mi>π</mi>
+            <mn>4</mn>
+           </mfrac>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi mathvariant="bold-sans-serif">ς</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>A</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>i</mi>
+             <mi>B</mi>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>s</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

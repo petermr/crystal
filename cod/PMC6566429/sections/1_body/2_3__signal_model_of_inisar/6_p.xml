@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If the coherent accumulation angle 
+ <italic>θ</italic> is small enough to feed the range-Doppler imaging condition [
+ <xref rid="B20-sensors-19-02330" ref-type="bibr">20</xref>], the approximations 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mo stretchy="false">(</mo>
+     <mi>w</mi>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>≈</mo>
+     <mi>w</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi>c</mi>
+     <mi>o</mi>
+     <mi>s</mi>
+     <mo stretchy="false">(</mo>
+     <mi>w</mi>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>≈</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>B</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>≈</mo>
+     <mi>L</mi>
+     <msub>
+      <mi>z</mi>
+      <mi>P</mi>
+     </msub>
+     <mo>/</mo>
+     <msub>
+      <mi>R</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>B</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>≈</mo>
+     <mi>L</mi>
+     <msub>
+      <mi>x</mi>
+      <mi>P</mi>
+     </msub>
+     <mo>/</mo>
+     <msub>
+      <mi>R</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are applied to further simplify the radar echo expression. Perform keystone transformation and 2-D Fourier transformation on the radar echoes, the target ISAR images of three received channels can be reconstructed as: 
+ <disp-formula id="FD6-sensors-19-02330">
+  <label>(6)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>A</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>,</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mi>P</mi>
+     </msub>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>c</mi>
+     <mo stretchy="false">[</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>B</mi>
+      </mrow>
+      <mi>c</mi>
+     </mfrac>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>y</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">]</mo>
+      <mrow>
+       <mi>s</mi>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>c</mi>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>T</mi>
+        <mi>a</mi>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mi>a</mi>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <msub>
+            <mi>x</mi>
+            <mi>P</mi>
+           </msub>
+           <mi>w</mi>
+          </mrow>
+          <mi>λ</mi>
+         </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">[</mo>
+     <mi>j</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>φ</mi>
+        <mi>c</mi>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>φ</mi>
+        <mrow>
+         <mi>A</mi>
+         <mi>B</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD7-sensors-19-02330">
+  <label>(7)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>B</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>,</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mi>P</mi>
+     </msub>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>c</mi>
+     <mo stretchy="false">[</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>B</mi>
+      </mrow>
+      <mi>c</mi>
+     </mfrac>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>y</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">]</mo>
+      <mrow>
+       <mi>s</mi>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>c</mi>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>T</mi>
+        <mi>a</mi>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mi>a</mi>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <msub>
+            <mi>x</mi>
+            <mi>P</mi>
+           </msub>
+           <mi>w</mi>
+          </mrow>
+          <mi>λ</mi>
+         </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mi>j</mi>
+     <msub>
+      <mi>φ</mi>
+      <mi>c</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD8-sensors-19-02330">
+  <label>(8)</label>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>C</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>,</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mi>P</mi>
+     </msub>
+     <mi>s</mi>
+     <mi>i</mi>
+     <mi>n</mi>
+     <mi>c</mi>
+     <mo stretchy="false">[</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>B</mi>
+      </mrow>
+      <mi>c</mi>
+     </mfrac>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>y</mi>
+       <mo>−</mo>
+       <msub>
+        <mi>y</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">]</mo>
+      <mrow>
+       <mi>s</mi>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>c</mi>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>T</mi>
+        <mi>a</mi>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mi>a</mi>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mn>2</mn>
+           <msub>
+            <mi>x</mi>
+            <mi>P</mi>
+           </msub>
+           <mi>w</mi>
+          </mrow>
+          <mi>λ</mi>
+         </mfrac>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">[</mo>
+     <mi>j</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>φ</mi>
+        <mi>c</mi>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>φ</mi>
+        <mrow>
+         <mi>C</mi>
+         <mi>B</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mi>P</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the scattering intensity of scattering point P in the ISAR images, 
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>T</mi>
+      <mi>a</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the data acquisition time, 
+ <italic>B</italic> is the radar bandwidth, 
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mi>λ</mi>
+     <mo>=</mo>
+     <mi>c</mi>
+     <mo>/</mo>
+     <msub>
+      <mi>f</mi>
+      <mi>c</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is radar wavelength. 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>c</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mo>,</mo>
+     <mi>C</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) denote the constant phase and interferometric phase, and they are expressed as: 
+ <disp-formula id="FD9-sensors-19-02330">
+  <label>(9)</label>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mi>c</mi>
+     </msub>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+      </mrow>
+      <mi>λ</mi>
+     </mfrac>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>y</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD10-sensors-19-02330">
+  <label>(10)</label>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>L</mi>
+       <msub>
+        <mi>z</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>λ</mi>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD11-sensors-19-02330">
+  <label>(11)</label>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>L</mi>
+       <msub>
+        <mi>x</mi>
+        <mi>P</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>λ</mi>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

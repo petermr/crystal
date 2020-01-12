@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="sensors-19-01052-f002">Figure 2</xref>b shows the mechanics principle diagram, where 
+ <italic>k</italic> and 
+ <italic>c</italic> are the piezoelectric element axial stiffness and damping coefficient, respectively. The 
+ <italic>x</italic> and 
+ <italic>y</italic> are the geodetic stationary coordinates and internal relative motion coordinates, respectively. From mechanics principles, we obtain the following equation:
+ <disp-formula id="FD1-sensors-19-01052">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>m</mi>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mn>2</mn>
+       </msup>
+       <mi>y</mi>
+      </mrow>
+      <mrow>
+       <mi>d</mi>
+       <msup>
+        <mi>t</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>c</mi>
+     <mfrac>
+      <mrow>
+       <mi>d</mi>
+       <mi>y</mi>
+      </mrow>
+      <mrow>
+       <mi>d</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <mo>+</mo>
+     <mi>k</mi>
+     <mi>y</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mi>m</mi>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mn>2</mn>
+       </msup>
+       <mi>x</mi>
+      </mrow>
+      <mrow>
+       <mi>d</mi>
+       <msup>
+        <mi>t</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>a</mi>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>d</mi>
+        <mn>2</mn>
+       </msup>
+       <mi>x</mi>
+      </mrow>
+      <mrow>
+       <mi>d</mi>
+       <msup>
+        <mi>t</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> Then, the Laplace transform of Equation (1) is:
+ <disp-formula id="FD2-sensors-19-01052">
+  <label>(2)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>m</mi>
+       <msup>
+        <mi>s</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <mi>c</mi>
+       <mi>s</mi>
+       <mo>+</mo>
+       <mi>k</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>Y</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mi>m</mi>
+     <mi>A</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Y</italic> is Laplace transform of 
+ <italic>y</italic>(
+ <italic>t</italic>), and 
+ <italic>A</italic> is Laplace transform of 
+ <italic>a</italic>(
+ <italic>t</italic>). From Equation (2), it can be seen that acceleration signals do affect the pressure sensor. We may set 
+ <inline-formula>
+  <math id="mm444">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>w</mi>
+      <mi>n</mi>
+     </msub>
+     <mo>=</mo>
+     <msqrt>
+      <mfrac>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+      </mfrac>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> as the undamped natural angular
+ frequency, with 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi>ε</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mi>c</mi>
+      <mrow>
+       <mn>2</mn>
+       <msqrt>
+        <mrow>
+         <mi>k</mi>
+         <mi>m</mi>
+        </mrow>
+       </msqrt>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> as the damping ratio. Therefore, the system transfer function can be written as:
+ <disp-formula id="FD3-sensors-19-01052">
+  <label>(3)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>H</mi>
+     <mo stretchy="false">(</mo>
+     <mi>s</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>s</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <mn>2</mn>
+       <mi>ε</mi>
+       <msub>
+        <mi>w</mi>
+        <mi>n</mi>
+       </msub>
+       <mi>s</mi>
+       <mo>+</mo>
+       <msubsup>
+        <mi>w</mi>
+        <mi>n</mi>
+        <mn>2</mn>
+       </msubsup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

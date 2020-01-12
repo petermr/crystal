@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this paper, an MD model is used to study the influence of nanoscale textured surfaces on the friction behaviors of the sliding contacts. As shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-01617-f001">Figure 1</xref>, the MD model consists of a rigid cylindrical tip and an elastic substrate. The simulation parameters are shown in 
+ <xref rid="nanomaterials-09-01617-t001" ref-type="table">Table 1</xref>. The material of the tip and substrate is single crystal copper. The tip consists of 5504 atoms and its radius is 
+ <italic>R</italic> = 2.169 nm. The dimension of the substrate is 21.69 nm × 5.784 nm × 7.23 nm, in 
+ <italic>x</italic>, 
+ <italic>y</italic> and 
+ <italic>z</italic> directions, respectively, and there are 78,720 atoms. The number of atoms in the substrate will be varied slightly because of different textures. All simulations are performed using Large-Scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) [
+ <xref rid="B33-nanomaterials-09-01617" ref-type="bibr">33</xref>] and OVITO is used to visualize the results [
+ <xref rid="B34-nanomaterials-09-01617" ref-type="bibr">34</xref>].
+</p>

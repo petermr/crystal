@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0270">So, in the presence of an electron (on a donor or on an acceptor), the operator of nuclear energy in the adiabatic approximation has the form:
+ <disp-formula id="fd32">
+  <label>(32)</label>
+  <math id="M122" altimg="si106.svg" alttext="Equation 32.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo>∂</mo>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msubsup>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">+</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mi>s</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo>∂</mo>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msubsup>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

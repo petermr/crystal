@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">To test and validate our algorithm for Au–S interfaces, we selected nine known clusters: Au
+ <sub>34</sub>(SR)
+ <sub>22</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>), Au
+ <sub>36</sub>(SR)
+ <sub>24</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>), Au
+ <sub>38</sub>(SR)
+ <sub>24</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>), Au
+ <sub>44</sub>(SR)
+ <sub>26</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>), Au
+ <sub>52</sub>(SR)
+ <sub>32</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>), Au
+ <sub>92</sub>(SR)
+ <sub>44</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>), Au
+ <sub>102</sub>(SR)
+ <sub>44</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>), Au
+ <sub>146</sub>(SR)
+ <sub>57</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>), and Au
+ <sub>279</sub>(SR)
+ <sub>84</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>). In addition, Au
+ <sub>44</sub>(SR)
+ <sub>28</sub> cluster
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup> was also used for analyzing the ligand size effects at the interface as discussed later. The summary of the parameters used in prediction are given in Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">3</xref>. The test systems include various different ligand layer conformations consisting of different length of SR-(Au-SR)
+ <sub>n</sub> protecting units and single bridged thiolates. For all clusters, 9216 model structures were generated in a single run, and for the two largest clusters Au
+ <sub>146</sub>(SR)
+ <sub>57</sub> and Au
+ <sub>279</sub>(SR)
+ <sub>84</sub> the prediction was done twice by combining the sulfur atom positions of 20 best model structures of the first round into a new set of possible S-atom positions for the second round. Twenty best model structures were taken from those that had the largest number of ligands in units and in total in the first round. Furthermore, correct structures were determined by comparing the atomic indices of the two nearest neighbor Au-atoms of each sulfur of the model structure with respect to the nearest sulfur atom of the true known structure.
+</p>

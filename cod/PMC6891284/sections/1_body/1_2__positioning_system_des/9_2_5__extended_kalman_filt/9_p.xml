@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As the measurement matrix is replaced by the Jacobian matrix 
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <mi>H</mi>
+   </mrow>
+  </math>
+ </inline-formula>, the gain 
+ <inline-formula>
+  <math id="mm110">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> calculated from Equation (30) is not the optimal gain. Therefore, the traditional calculation formula for the matrix 
+ <italic>P</italic> cannot be used to update the covariance matrix, and Equation (32) must be used to ensure positive-definiteness and symmetry of 
+ <italic>P</italic>. This is the only way to prevent the filter from diverging, and it is also the only way to guarantee convergence.
+</p>

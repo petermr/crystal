@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Considering the rate constants of 
+ <italic>k</italic>
+ <sub>1</sub> and 
+ <italic>k</italic>
+ <sub>−1</sub> follow the Arrhenius equation, they are correlated to 
+ <italic>E
+  <sub>ads</sub>
+ </italic>, the adsorption energy of Ni
+ <sup>2+</sup> on SnO
+ <sub>2</sub> QDs, as shown in Equations (9) and (10):
+ <disp-formula id="FD9-nanomaterials-09-01294">
+  <label>(9)</label>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>k</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mi>exp</mi>
+     <mo stretchy="false">(</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>d</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD10-nanomaterials-09-01294">
+  <label>(10)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>k</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mi>exp</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>d</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>A</italic> is pre-exponential constant and 
+ <italic>k</italic> and 
+ <italic>T</italic> are the Boltzmann constant and temperature. Thus, Equation (8) can be rewritten as in Equation (11):
+ <disp-formula id="FD11-nanomaterials-09-01294">
+  <label>(11)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>⁗</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mrow>
+           <mi>m</mi>
+           <mo>−</mo>
+           <mi>t</mi>
+          </mrow>
+         </msup>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <mi>N</mi>
+           <msub>
+            <mi>i</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>″</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>t</mi>
+         </msup>
+        </mrow>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>m</mi>
+         </msup>
+        </mrow>
+       </mfrac>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msup>
+        <mi>i</mi>
+        <mrow>
+         <mo>•</mo>
+         <mo>•</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mi>t</mi>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <mi>exp</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>d</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>m</mi>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> It is noted that the fluorescence emission results from the recombination of electrons and holes, as expressed in Equation (12):
+ <disp-formula id="FD12-nanomaterials-09-01294">
+  <label>(12)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>h</mi>
+      <mo>•</mo>
+     </msup>
+     <mo>+</mo>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <munderover>
+      <mo>↔</mo>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mrow>
+         <mo>−</mo>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>k</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </munderover>
+     <mi>h</mi>
+     <mi>ν</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>k</italic>
+ <sub>2</sub> and 
+ <italic>k</italic>
+ <sub>−2</sub> are the rate constants and 
+ <italic>hν</italic> represents an emitted photon. Therefore, the fluorescence emission intensity (
+ <italic>F</italic>) is proportional to the reaction rate of Equation (12). If 
+ <italic>α</italic> is the coefficient of the proportional correlation, Equation (13) can be obtained:
+ <disp-formula id="FD13-nanomaterials-09-01294">
+  <label>(13)</label>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mi>α</mi>
+     <msub>
+      <mi>k</mi>
+      <mn>2</mn>
+     </msub>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>h</mi>
+      <mo>•</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>e</mi>
+      <mo>′</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> Therefore, the expression of 
+ <italic>F</italic> is obtained as Equation (14) and its logarithmic form is shown in Equation (15):
+ <disp-formula id="FD14-nanomaterials-09-01294">
+  <label>(14)</label>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mi>α</mi>
+     <msub>
+      <mi>k</mi>
+      <mn>2</mn>
+     </msub>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>h</mi>
+      <mo>•</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>⁗</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mrow>
+           <mi>m</mi>
+           <mo>−</mo>
+           <mi>t</mi>
+          </mrow>
+         </msup>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <mi>N</mi>
+           <msub>
+            <mi>i</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow/>
+            <mrow>
+             <mo>″</mo>
+            </mrow>
+           </msup>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>t</mi>
+         </msup>
+        </mrow>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <msub>
+            <mi>V</mi>
+            <mrow>
+             <mi>S</mi>
+             <mi>n</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>m</mi>
+         </msup>
+        </mrow>
+       </mfrac>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msup>
+        <mi>i</mi>
+        <mrow>
+         <mo>•</mo>
+         <mo>•</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mi>t</mi>
+       <mo>/</mo>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <mi>exp</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>d</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>m</mi>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD15-nanomaterials-09-01294">
+  <label>(15)</label>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mi>ln</mi>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mi>t</mi>
+      <mrow>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </mfrac>
+     <mi>ln</mi>
+     <mo stretchy="false">[</mo>
+     <mi>N</mi>
+     <msup>
+      <mi>i</mi>
+      <mrow>
+       <mo>•</mo>
+       <mo>•</mo>
+      </mrow>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <mo>+</mo>
+     <mi>ln</mi>
+     <mi>α</mi>
+     <msub>
+      <mi>k</mi>
+      <mn>2</mn>
+     </msub>
+     <mo stretchy="false">[</mo>
+     <msup>
+      <mi>h</mi>
+      <mo>•</mo>
+     </msup>
+     <mo stretchy="false">]</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>4</mn>
+       <mi>m</mi>
+      </mrow>
+     </mfrac>
+     <mi>ln</mi>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>V</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mo>⁗</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mi>m</mi>
+       <mo>−</mo>
+       <mi>t</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>N</mi>
+       <msub>
+        <mi>i</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mo>″</mo>
+        </mrow>
+       </msup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>t</mi>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>V</mi>
+        <mrow>
+         <mi>S</mi>
+         <mi>n</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mi>m</mi>
+      </mrow>
+     </msup>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>d</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>m</mi>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">
+ <italic>Density functional theory calculations</italic> were performed using the VASP code
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>,
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup> with projector augmented-wave
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>
+ </sup> potentials. The PBE
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup> exchange-correlation functional and a kinetic energy cutoff of 300 eV were employed. Spin–orbit coupling was included in the calculations due to the heavy Pb atoms. To model the surface passivation, we built a CsPbBr
+ <sub>3</sub> slab with the top surface layer covered by [YCl
+ <sub>6</sub>] octahedra. The cell size is 1.2 nm × 1.2 nm × 2.3 nm. A vacuum thickness of 15 Å was used to eliminate spurious periodic interactions between the slabs. The bottom two layers of [PbBr
+ <sub>6</sub>] octahedra were fixed at their relaxed bulk positions, while all other atoms were relaxed with a force tolerance of 0.01 eV Å
+ <sup>−1</sup>. A 
+ <italic>Γ-</italic>centered 
+ <italic>k</italic> mesh of 4 × 4× 1 was used to sample the Brillouin zone.
+</p>

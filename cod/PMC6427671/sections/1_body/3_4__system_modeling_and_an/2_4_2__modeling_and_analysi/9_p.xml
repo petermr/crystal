@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The ARX modeling results are shown in Equations (17) and (18). The system transfer function is shown in Equation (19). 
+ <disp-formula id="FD20-sensors-19-01052">
+  <label>(17)</label>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mn>0.5675</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo>−</mo>
+     <mn>0.4075</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD21-sensors-19-01052">
+  <label>(18)</label>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <mi>B</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0.000004037</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD22-sensors-19-01052">
+  <label>(19)</label>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mn>0.000004037</mn>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>−</mo>
+       <mn>0.5675</mn>
+       <mo>×</mo>
+       <mi>z</mi>
+       <mo>−</mo>
+       <mn>0.4075</mn>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

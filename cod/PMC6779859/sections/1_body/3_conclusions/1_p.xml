@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The successful realization of algorithms in a quantum processor will critically depend on our ability of entangling a large enough set of qubits while keeping information under processing safe from decoherence. As far as spatial organization for a proper qubit entanglement is concerned, molecular spin qubits are promising candidates by exploiting chemical tailoring. In this work, we have investigated the [Gd(H
+ <sub>2</sub>O)P
+ <sub>5</sub>W
+ <sub>30</sub>O
+ <sub>110</sub>]
+ <sup>12−</sup> POM, whose low-lying magnetic energy scheme allows defining three spin qubits and thus could be harnessed as a minimal quantum processor. Complex algorithms will require the interplay of an increasing number of close copies of 
+ <bold>1</bold> to allow a robust enough communication. Hence, we estimated the effect of magnetic noise on the encoded quantum information, since it becomes more important when increasing the spatial concentration of the magnetic POM. Our results reveal that there exists a noticeable presence of magnetic noise. Indeed, on one hand the estimates 
+ <inline-formula>
+  <math id="M22">
+   <msubsup>
+    <mrow>
+     <mi>T</mi>
+    </mrow>
+    <mrow>
+     <mi>m</mi>
+    </mrow>
+    <mrow>
+     <mi>n</mi>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> ~ 51–68 μs due to the magnetic nuclei bath are two orders of magnitude above the experimentally-reported phase memory times 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> ~ 0.5 μs, and thus this bath should play a minor role on qubit coherence. On the other hand, the estimates 
+ <inline-formula>
+  <math id="M23">
+   <msubsup>
+    <mrow>
+     <mi>T</mi>
+    </mrow>
+    <mrow>
+     <mi>m</mi>
+    </mrow>
+    <mrow>
+     <mi>e</mi>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> ~ 3–4 μs are much closer to 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> ~ 0.5 μs but yet are not coincident. Thus, everything suggests that the experimental 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> times are not only limited by this decoherence source but rather by a set of competing mechanisms where it could be included. Among these mechanisms, vibration-induced decoherence involving low-energy modes could play a major role due to the proximity between 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> and the experimental value 
+ <italic>T</italic>
+ <sub>1</sub> ~ 2.5 μs reported at 
+ <italic>T</italic> = 6 K. The origin of this mechanism could be found in long-wavelength crystal vibrations but especially also in the relatively-little-restricted motion of the apical water molecule coordinating the Gd
+ <sup>III</sup> ion in 
+ <bold>1</bold>. Moreover, this movement could be complemented with rotations of the water molecule itself, which would result in a new decoherence source due to the magnetic nature of hydrogen atom nuclei. By all means, these observations deserve a deeper research of this POM to get further insight on the role played by this coordinating water molecule as far as qubit coherence is concerned. Thus, we expect that this manuscript will encourage to undertake future investigations to test the real potential of 
+ <bold>1</bold>, as well as similar related coordination compounds, to become a quantum processor and how to improve its performance.
+</p>

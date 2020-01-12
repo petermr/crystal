@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If in expression (5) the vectors 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>E</mi>
+      </mstyle>
+      <mrow>
+       <msub>
+        <mrow/>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are not collinear, then in the sample plane there will be a “polarization” interference pattern formed by the sum of two incident beams. Changing the phase difference between them will change the polarization characteristics of the total light wave. To describe the polarization characteristics of the total optical field, similarly to [
+ <xref rid="B32-polymers-11-00861" ref-type="bibr">32</xref>,
+ <xref rid="B33-polymers-11-00861" ref-type="bibr">33</xref>,
+ <xref rid="B34-polymers-11-00861" ref-type="bibr">34</xref>], the Jones formalism should be applied:
+ <disp-formula id="FD8-polymers-11-00861">
+  <label>(8)</label>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>J</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msubsup>
+      <mi>A</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo stretchy="false">)</mo>
+     <mo>⋅</mo>
+     <mi>exp</mi>
+     <mrow>
+      <mo>⌊</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi mathvariant="sans-serif">α</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi>t</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>⋅</mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msubsup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>N</mi>
+          </mstyle>
+          <mrow>
+           <mi>r</mi>
+           <mi>j</mi>
+          </mrow>
+          <mi>m</mi>
+         </msubsup>
+         <mo>⋅</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>⌋</mo>
+     </mrow>
+     <mi>exp</mi>
+     <mrow>
+      <mo>⌊</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msubsup>
+        <mi mathvariant="sans-serif">φ</mi>
+        <mi>j</mi>
+        <mi>m</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>⌋</mo>
+     </mrow>
+     <mo>⋅</mo>
+     <msubsup>
+      <mi>M</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>⋅</mo>
+     <msubsup>
+      <mi>R</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>⋅</mo>
+     <msubsup>
+      <mi>D</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>D</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–Jones vectors of recording arbitrarily polarized waves in their own polarization bases; 
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>cos</mi>
+           <mo stretchy="false">(</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">γ</mi>
+            <mi>j</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>−</mo>
+           <mi>sin</mi>
+           <mo stretchy="false">(</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">γ</mi>
+            <mi>j</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>sin</mi>
+           <mo stretchy="false">(</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">γ</mi>
+            <mi>j</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mi>cos</mi>
+           <mo stretchy="false">(</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">γ</mi>
+            <mi>j</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>M</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>cos</mi>
+           <mo stretchy="false">(</mo>
+           <msubsup>
+            <mi mathvariant="sans-serif">θ</mi>
+            <mi>j</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>1</mn>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–matrix of reverse rotation of coordinate axes.
+</p>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Thus, the perturbation of the dielectric tensor is due to the periodic change in the orientation of the molecules (droplets) of the liquid crystal and can be determined as follows:
+ <disp-formula id="FD17-polymers-11-00861">
+  <label>(16)</label>
+  <math id="mm105">
+   <mrow>
+    <mrow>
+     <mi>for</mi>
+     <mo> </mo>
+     <mi>PSLC</mi>
+     <mo> </mo>
+     <mo>–</mo>
+     <mo> </mo>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <mi>o</mi>
+       <mi>l</mi>
+      </mrow>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mo stretchy="false">(</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>o</mi>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>e</mi>
+     </msubsup>
+     <mo stretchy="false">)</mo>
+     <mo>⋅</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>C</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>C</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD18-polymers-11-00861">
+  <label>(17)</label>
+  <math id="mm106">
+   <mrow>
+    <mrow>
+     <mi>for</mi>
+     <mo> </mo>
+     <mi>PDLC</mi>
+     <mo> </mo>
+     <mo>–</mo>
+     <mo> </mo>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <mo>Δ</mo>
+       <msubsup>
+        <mover accent="true">
+         <mi mathvariant="sans-serif">ε</mi>
+         <mo>^</mo>
+        </mover>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+        <mrow>
+         <mi>p</mi>
+         <mi>o</mi>
+         <mi>l</mi>
+        </mrow>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+     <mo>=</mo>
+     <mo stretchy="false">(</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>o</mi>
+     </msubsup>
+     <mo>−</mo>
+     <msubsup>
+      <mi mathvariant="sans-serif">ε</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>e</mi>
+     </msubsup>
+     <mo stretchy="false">)</mo>
+     <mo>⋅</mo>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mn>0</mn>
+        <mi mathvariant="sans-serif">π</mi>
+       </munderover>
+       <mrow>
+        <mstyle displaystyle="true">
+         <mrow>
+          <munderover>
+           <mo>∫</mo>
+           <mn>0</mn>
+           <mi mathvariant="sans-serif">π</mi>
+          </munderover>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>C</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>C</mi>
+           </mstyle>
+           <mo stretchy="false">(</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+           <mo stretchy="false">)</mo>
+           <mi>p</mi>
+           <mo stretchy="false">(</mo>
+           <mi mathvariant="sans-serif">α</mi>
+           <mo stretchy="false">)</mo>
+           <mi>q</mi>
+           <mo stretchy="false">(</mo>
+           <mi mathvariant="sans-serif">ϕ</mi>
+           <mo stretchy="false">)</mo>
+           <mi>d</mi>
+           <mi mathvariant="sans-serif">α</mi>
+           <mi>d</mi>
+           <mi mathvariant="sans-serif">ϕ</mi>
+          </mrow>
+         </mrow>
+        </mstyle>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">Figure 
+ <xref rid="Fig2" ref-type="fig">2</xref> shows the temperature dependence of the original Onsager order parameter 
+ <italic>S</italic>
+ <sup>*</sup> and the original McMillan order parameter 
+ <italic>T</italic>
+ <sup>*</sup> for small LCP systems. The former is defined by the following equation,
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${S}^{\ast }=\frac{1}{{N}_{{\rm{s}}ys}}\mathop{\sum }\limits_{i}^{{N}_{{\rm{s}}ys}}\,\{3/2{(n\cdot {u}_{i})}^{2}-1/2\},$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <msup>
+     <mrow>
+      <mi>S</mi>
+     </mrow>
+     <mo>⁎</mo>
+    </msup>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">s</mi>
+        <mi>y</mi>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <munderover>
+     <mo>∑</mo>
+     <mi>i</mi>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">s</mi>
+        <mi>y</mi>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </munderover>
+    <mspace width=".25em"/>
+    <mo stretchy="false">{</mo>
+    <mn>3</mn>
+    <mo>/</mo>
+    <mn>2</mn>
+    <msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>n</mi>
+      <mo>⋅</mo>
+      <msub>
+       <mrow>
+        <mi>u</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>−</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <mn>2</mn>
+    <mo stretchy="false">}</mo>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_51238_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the 
+ <italic>N</italic>
+ <sub>sys</sub> is the number of GB particles in the system, the 
+ <italic>n</italic> is the director which denotes the average of orientation direction of GB particles, and the 
+ <italic>u</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the unit vector along the long axis of the GB particle 
+ <italic>i</italic>. The definition of 
+ <italic>T</italic>
+ <sup>*</sup> is
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${T}^{\ast }=\frac{{\sum }_{i}^{{N}_{{\rm{sys}}}}\,\cos (2\pi z/d)\{3/2{(n\cdot {u}_{i})}^{2}-1/2\}}{{N}_{{\rm{sys}}}},$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <msup>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+     <mo>⁎</mo>
+    </msup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msubsup>
+       <mo>∑</mo>
+       <mi>i</mi>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>N</mi>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">sys</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msubsup>
+      <mspace width=".25em"/>
+      <mi>cos</mi>
+      <mo stretchy="false">(</mo>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mi>z</mi>
+      <mo>/</mo>
+      <mi>d</mi>
+      <mo stretchy="false">)</mo>
+      <mo stretchy="false">{</mo>
+      <mn>3</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>n</mi>
+        <mo>⋅</mo>
+        <msub>
+         <mrow>
+          <mi>u</mi>
+         </mrow>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+      <mo stretchy="false">}</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>N</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">sys</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_51238_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the 
+ <italic>z</italic> is the distance between GB particle 
+ <italic>i</italic> and the closest smectic-A layer, and the 
+ <italic>d</italic> is the distance between two smectic-A layers. Snapshots of trajectories were also shown for temperature conditions of 
+ <italic>θ</italic> = 1.5 and 2.0. For 
+ <italic>θ</italic> = 1.5, the monodomain smectic-like structure was observed. For 
+ <italic>θ</italic> = 2.0, the monodomain nematic-like structure was observed. The difference of two structures was visually clear, but there was almost no difference of Onsager order parameters 
+ <italic>S</italic>
+ <sup>*</sup> for the two. In contrast, McMillan order parameter 
+ <italic>T</italic>
+ <sup>*</sup> can distinguish the two. However, it is non-trivial whether this order parameter maintain its performance for complex systems that consist of local structures of LCPs. In particular, polymeric networks consisting of LCP chains may let local structures of mesogens freeze at untypical pattern. Therefore, we developed the ML-LSA for systematic and automatic classification that is independent of knowledge of the structures, and applied it for LCP systems.
+</p>

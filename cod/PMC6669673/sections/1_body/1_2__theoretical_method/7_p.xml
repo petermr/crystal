@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Inserting Equation (7) into Equation (6) yields: 
+ <disp-formula id="FD11-nanomaterials-09-00978">
+  <label>(9)</label>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <msup>
+       <mi>a</mi>
+       <mo>′</mo>
+      </msup>
+     </msubsup>
+     <mi>d</mi>
+     <msup>
+      <mi>X</mi>
+      <mo>′</mo>
+     </msup>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <msup>
+       <mi>b</mi>
+       <mo>′</mo>
+      </msup>
+     </msubsup>
+     <mi>d</mi>
+     <msup>
+      <mi>Y</mi>
+      <mo>′</mo>
+     </msup>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>F</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msup>
+          <mi>X</mi>
+          <mo>′</mo>
+         </msup>
+         <mo>,</mo>
+         <msup>
+          <mi>Y</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> with: 
+ <disp-formula id="FD12-nanomaterials-09-00978">
+  <label>(10)</label>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>Y</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+         <mi>X</mi>
+         <mo>′</mo>
+        </msup>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+         <mi>Y</mi>
+         <mo>′</mo>
+        </msup>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+         <mi>X</mi>
+         <mo>′</mo>
+        </msup>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>,</mo>
+       <mn>0</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+         <mi>Y</mi>
+         <mo>′</mo>
+        </msup>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> which can be expanded in Taylor series as: 
+ <disp-formula id="FD13-nanomaterials-09-00978">
+  <label>(11)</label>
+  <math id="mm41">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>Y</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>F</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mn>0</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>X</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo stretchy="false">|</mo>
+      <mn>0</mn>
+     </msub>
+     <mo>Δ</mo>
+     <msup>
+      <mi>X</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>Y</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo stretchy="false">|</mo>
+      <mn>0</mn>
+     </msub>
+     <mo>Δ</mo>
+     <msup>
+      <mi>Y</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After the mixing processing and RVP correction, the IF signal is described as: 
+ <disp-formula id="FD15-sensors-19-02330">
+  <label>(15)</label>
+  <math id="mm51">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>I</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>τ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <msub>
+      <mi>A</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">(</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+       <mi>τ</mi>
+       <mo>+</mo>
+       <mi>γ</mi>
+       <mi>t</mi>
+       <mi>τ</mi>
+       <mo>+</mo>
+       <msub>
+        <mi>ξ</mi>
+        <mrow>
+         <mi>L</mi>
+         <mi>O</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>ξ</mi>
+        <mrow>
+         <mi>R</mi>
+         <mi>F</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>t</mi>
+         <mo>−</mo>
+         <mi>τ</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>−</mo>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

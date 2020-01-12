@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the 
+ <monospace>INPUT</monospace> block of the program the user is expected to provide the layer group, an occupied Wyckoff position with its representative coordinate triplet and the 
+ <bold>k</bold> vector (specified by its coordinates and label) of the layer-group irreps 
+ <bold>D</bold>
+ <sub>γ</sub> whose induced-representation multiplicities are to be calculated. The information is entered in three steps: in the first one, the layer group is specified by its 
+ <italic>ITE</italic> sequential number; in the second step, the occupied Wyckoff positions are to be selected from a list produced by the program; and finally, the coordinates and the label of the 
+ <bold>k</bold> vector of the irreps 
+ <bold>D</bold>
+ <sub>γ</sub> have to be introduced.
+</p>

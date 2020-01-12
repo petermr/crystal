@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This holds if all the non-surface vertices have coordination larger than 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>s</italic>
+ </sub>, which is true for all clusters, but note the discrepancy for the dodecahedra below. We determine the 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\phantom {\dot {i}\!}N_{{cn}_{i}}(n)$\end{document}</tex-math>
+   <math id="M12">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+   </math>
+   <inline-graphic xlink:href="11671_2019_2939_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> by counting the columns of the adjacency matrix whose sum is 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>. Note that our cluster coordinate algorithm is built by shells, so that each subsequent shell contains all the previous lower values of 
+ <italic>n</italic>. In Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>, we illustrate the shells of the clusters for an fcc cube and a dodecahedron. In addition, the number of bonds in the cluster is 
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document} $$ N_{B}(n) = \frac{1}{2}\sum_{{cn}_{i}=1}^{{cn}_{M}}{{cn}_{i}\cdot N_{{cn}_{i}}(n)}, $$ \end{document}</tex-math>
+   <math id="M14">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munderover>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </munderover>
+    <msub>
+     <mrow>
+      <mtext mathvariant="italic">cn</mtext>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>·</mo>
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="11671_2019_2939_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula> 
+</p>

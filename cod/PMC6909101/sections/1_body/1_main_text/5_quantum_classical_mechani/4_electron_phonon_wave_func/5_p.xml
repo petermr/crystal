@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0400">Along with the objective of damping the singular electron-nuclear movement, our procedure of introducing a finite magnitude of 
+ <inline-formula>
+  <math id="M213" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> has extra important objective: it allows us to ensure the parameter of smallness of the problem [
+ <xref rid="bib79" ref-type="bibr">79</xref>].
+ <disp-formula id="fd60">
+  <label>(60)</label>
+  <math id="M214" altimg="si171.svg" alttext="Equation 60.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mtext> </mtext>
+    <mi>G</mi>
+    <mo>∼</mo>
+    <mfrac>
+     <mrow>
+      <mover accent="true">
+       <mi>U</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mo>∼</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mn>1</mn>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

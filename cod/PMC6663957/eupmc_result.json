@@ -1,0 +1,360 @@
+{
+  "id": [
+    "31359303"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31359303"
+  ],
+  "pmcid": [
+    "PMC6663957"
+  ],
+  "doi": [
+    "10.1186/s40658-019-0248-9"
+  ],
+  "title": [
+    "Implementation of cylindrical PET scanners with block detector geometry in STIR."
+  ],
+  "authorString": [
+    "Khateri P, Fischer J, Lustermann W, Tsoumpas C, Dissertori G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Khateri P"
+          ],
+          "firstName": [
+            "Parisa"
+          ],
+          "lastName": [
+            "Khateri"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8563-3450",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Particle Physics and Astrophysics, Department of Physics, ETH Zürich, Zürich, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Fischer J"
+          ],
+          "firstName": [
+            "Jannis"
+          ],
+          "lastName": [
+            "Fischer"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute for Particle Physics and Astrophysics, Department of Physics, ETH Zürich, Zürich, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Lustermann W"
+          ],
+          "firstName": [
+            "Werner"
+          ],
+          "lastName": [
+            "Lustermann"
+          ],
+          "initials": [
+            "W"
+          ],
+          "affiliation": [
+            "Institute for Particle Physics and Astrophysics, Department of Physics, ETH Zürich, Zürich, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Tsoumpas C"
+          ],
+          "firstName": [
+            "Charalampos"
+          ],
+          "lastName": [
+            "Tsoumpas"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Leeds Institute of Cardiovascular and Metabolic Medicine, University of Leeds, Leeds, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Dissertori G"
+          ],
+          "firstName": [
+            "Günther"
+          ],
+          "lastName": [
+            "Dissertori"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Institute for Particle Physics and Astrophysics, Department of Physics, ETH Zürich, Zürich, Switzerland. disserto@phys.ethz.ch."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8563-3450",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2835661"
+      ],
+      "dateOfPublication": [
+        "2019 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "EJNMMI physics"
+          ],
+          "ISOAbbreviation": [
+            "EJNMMI Phys"
+          ],
+          "medlineAbbreviation": [
+            "EJNMMI Phys"
+          ],
+          "NLMid": [
+            "101658952"
+          ],
+          "ISSN": [
+            "2197-7364"
+          ],
+          "ESSN": [
+            "2197-7364"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "15"
+  ],
+  "abstractText": [
+    "BACKGROUND:Software for Tomographic Image Reconstruction (STIR) is an open-source library for PET and SPECT image reconstruction, implementing iterative reconstruction as well as 2D- and 3D-filtered back projection. Quantitative reconstruction of PET data requires the knowledge of the scanner geometry. Typical scanners, clinical as well as pre-clinical ones, use a block-type geometry. Several rectangular blocks of crystals are arranged into regular polygons. Multiple of such polygons are arranged along the scanner axis. However, the geometrical representation of a scanner provided by STIR is a cylinder made of rings of individual crystals equally distributed in axial and transaxial directions. The data of realistic scanners are projected onto such virtual scanners prior to image reconstruction. This results in reduced quality of the reconstructed image. In this study, we implemented the above-described block geometry into the STIR library, permitting the image reconstruction without the interpolation step. In order to evaluate the difference in image quality, we performed Monte Carlo simulation studies of three different scanner designs: two scanners with multiple crystals per block and one with a single crystal per block. Simulated data were reconstructed using the standard STIR method and the newly implemented block geometry. RESULTS:Visual comparison between the images reconstructed by the two models for the block-type scanners shows that the new implementation enhances the image quality to the extent that the results before normalization correction are comparable with those after normalization correction. The simulation result of a uniform cylinder shows that the coefficient of variation decreases from 25.8% to 20.9% by using the new implementation in STIR. Spatial resolution is enhanced resulting in a lower partial loss of intensity in sources of small size, e.g., the spill-over ratio for spherical sources of 1.8 mm diameter is 0.19 in the block and 0.34 in the cylindrical model. CONCLUSIONS:Results indicate a significant improvement for the new model in comparison with the old one which mapped the polygonal geometry into a cylinder. The new implementation was tested and is available for use via the library of Swiss Federal Institute of Technology in Zurich (ETH)."
+  ],
+  "affiliation": [
+    "Institute for Particle Physics and Astrophysics, Department of Physics, ETH Zürich, Zürich, Switzerland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "ETH-30 14-2"
+          ],
+          "agency": [
+            "Eidgenössische Technische Hochschule Zürich"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "STIR",
+        "Safir",
+        "Pet Image Reconstruction",
+        "Scanner Geometry"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1186/s40658-019-0248-9"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6663957"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6663957?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-07-31"
+  ],
+  "firstIndexDate": [
+    "2019-08-01"
+  ],
+  "fullTextReceivedDate": [
+    "2019-08-14"
+  ],
+  "dateOfRevision": [
+    "2019-08-13"
+  ],
+  "electronicPublicationDate": [
+    "2019-07-29"
+  ],
+  "firstPublicationDate": [
+    "2019-07-29"
+  ]
+}

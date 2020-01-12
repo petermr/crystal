@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The integrated intensity in a powder diffraction measurement at a TOF diffractometer can be used to estimate the required acquisition time. This Bragg intensity in a single time bin for a reflection τ is given by the formula
+ <disp-formula id="fd10">
+  <graphic xlink:href="j-52-01189-efd10.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where 
+ <italic>I</italic>
+ <sub>τ</sub>(
+ <italic>i</italic>) is the number of neutron counts collected in the 
+ <italic>i</italic>th time bin for reflection τ(
+ <italic>n</italic>), 
+ <italic>D</italic>
+ <sub>expt</sub> is the duration of the experiment (pulse), 
+ <italic>H</italic>(
+ <italic>t</italic>) is the peak-shape function at relative time 
+ <italic>t</italic> = tof(
+ <italic>i</italic>) − tof
+ <sub>τ</sub> (µs
+ <sup>−1</sup>) [tof(
+ <italic>i</italic>) being the TOF for the 
+ <italic>i</italic>th time bin], 
+ <italic>w</italic>(
+ <italic>i</italic>) is the width of the 
+ <italic>i</italic>th time bin (µs), 
+ <italic>f</italic>
+ <sub>DS</sub> is the fraction of the Debye–Scherrer cone that intersects the pixel, 
+ <italic>i</italic>(λ) is the incident neutron flux at the sample (n cm
+ <sup>−2</sup> pulse
+ <sup>−1</sup> Å
+ <sup>−1</sup>), ∊(λ) is the detector efficiency, 
+ <italic>N</italic>
+ <sub>s</sub> is the number of unit cells in the sample, λ is the wavelength (Å), 2θ is the Bragg angle for the pixel, 2
+ <italic>Δθ</italic> is the 2θ coverage of the pixel (fraction of 1 rad), 
+ <italic>v</italic>
+ <sub>uc</sub> is the unit-cell volume (Å
+ <sup>3</sup>), 
+ <italic>F</italic>
+ <sub>τ</sub> is the structure factor with the Debye–Waller factor included (cm) and 
+ <italic>K</italic>
+ <sub>τ</sub> = 
+ <italic>E</italic>
+ <sub>τ</sub>(λ) [extinction] × 
+ <italic>A</italic>
+ <sub>τ</sub>(λ) [attenuation] × 
+ <italic>O</italic>
+ <sub>τ</sub> [preferred orientation] × 
+ <italic>m</italic>
+ <sub>τ</sub> [reflection multiplicity].
+</p>

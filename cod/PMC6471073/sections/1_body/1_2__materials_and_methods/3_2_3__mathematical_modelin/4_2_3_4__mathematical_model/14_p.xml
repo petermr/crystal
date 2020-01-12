@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Herein, M and K are the coupled mass matrix and stiffness matrix of the whole sensing structure, respectively. Therefore, 
+ <disp-formula id="FD58-micromachines-10-00181">
+  <label>(57)</label>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>M</mi>
+     </mstyle>
+     <mo>=</mo>
+     <msup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>S</mi>
+      </mstyle>
+      <mi>T</mi>
+     </msup>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>M</mi>
+      </mstyle>
+      <mn>0</mn>
+     </msub>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>S</mi>
+     </mstyle>
+     <mo>,</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+     </mstyle>
+     <mo>=</mo>
+     <msup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>S</mi>
+      </mstyle>
+      <mi>T</mi>
+     </msup>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>K</mi>
+      </mstyle>
+      <mn>0</mn>
+     </msub>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>S</mi>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

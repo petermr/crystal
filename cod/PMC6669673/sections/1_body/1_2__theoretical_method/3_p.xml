@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to solve the 3
+ <italic>N</italic>-fold 
+ <italic>Q</italic> integral, the sense of the integral is reinterpreted as follows [
+ <xref rid="B35-nanomaterials-09-00978" ref-type="bibr">35</xref>]. Traditionally, a 1D integral 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>1</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mi>a</mi>
+      <mi>b</mi>
+     </msubsup>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>x</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>d</mi>
+     <mi>x</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is interpreted as the sum of an infinite number of rectangles with area 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>A</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>Δ</mo>
+     <mi>x</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, i.e., 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>1</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <munder>
+      <mi>lim</mi>
+      <mrow>
+       <mo>Δ</mo>
+       <mi>x</mi>
+       <mo>→</mo>
+       <mn>0</mn>
+      </mrow>
+     </munder>
+     <msub>
+      <mo mathsize="70%">∑</mo>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mi>A</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. From another angle, the length of the 1D element 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>x</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is modulated by 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> to be a new length element 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>Δ</mo>
+     <mi>x</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>1</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mo mathsize="70%">∑</mo>
+      <mi>i</mi>
+     </msub>
+     <mo>Δ</mo>
+     <msubsup>
+      <mi>x</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> In other words, the 1D integral is a summation of length elements instead of area elements and equals an effective length of |b−
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mi>a</mi>
+   </mrow>
+  </math>
+ </inline-formula>|. Similarly, a 2D integral 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>a</mi>
+     </msubsup>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>b</mi>
+     </msubsup>
+     <mi>d</mi>
+     <mi>x</mi>
+     <mi>d</mi>
+     <mi>y</mi>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> equals an effective area of 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <mi>a</mi>
+     <mo>·</mo>
+     <mi>b</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> because the area element 
+ <italic>ds</italic> = 
+ <italic>dxdy</italic> is enlarged (or shrunk) by 
+ <italic>f</italic>(
+ <italic>x</italic>,
+ <italic>y</italic>), giving rise to an effective area element 
+ <inline-formula>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">d</mi>
+     <msup>
+      <mi>s</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>,</mo>
+       <mi>y</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>d</mi>
+     <mi>x</mi>
+     <mi>d</mi>
+     <mi>y</mi>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> Followed by this notion, an 
+ <italic>N</italic>-fold integral 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mi>N</mi>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>a</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </msubsup>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>a</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mo>…</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>a</mi>
+        <mi>N</mi>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mi mathvariant="normal">d</mi>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mi mathvariant="normal">d</mi>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <mi mathvariant="normal">d</mi>
+     <msub>
+      <mi>r</mi>
+      <mi>N</mi>
+     </msub>
+     <mi>f</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>N</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> equals an effective volume of 
+ <inline-formula>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>a</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>·</mo>
+     <msub>
+      <mi>a</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <msub>
+      <mi>a</mi>
+      <mi>N</mi>
+     </msub>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>
+</p>

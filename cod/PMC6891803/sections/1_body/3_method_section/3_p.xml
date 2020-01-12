@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After each pulse, the deposited material can diffuse over the surface, which is modeled as the hopping of adatoms, one at a time, to available surrounding coordinates. Periodic boundary conditions were used, and hopping is only possible if a site is unoccupied and if there is a path available to it. Hopping continues until a new pulse arrives, at which moment the location of the old adatoms is fixed. The hopping rate of the adatoms is defined as 
+ <italic>k</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> = 
+ <italic>k</italic>
+ <sub>0</sub> e
+ <sup>(−
+  <italic>E</italic>
+  <sub>D,
+   <italic>i</italic>
+  </sub>/
+  <italic>k</italic>
+  <sub>b</sub>
+  <italic>T</italic>)
+ </sup>, where 
+ <italic>k</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the hopping rate of the unit cell 
+ <italic>i</italic>, 
+ <italic>k</italic>
+ <sub>0</sub> is the hop attempt frequency
+ <sup>
+  <xref ref-type="bibr" rid="ref13">13</xref>
+ </sup> (
+ <italic>k</italic>
+ <sub>0</sub> = 10
+ <sup>12</sup> s
+ <sup>–1</sup>), 
+ <italic>E</italic>
+ <sub>D,
+  <italic>i</italic>
+ </sub> is the activation energy for diffusion, 
+ <italic>k</italic>
+ <sub>b</sub> is the Boltzmann constant, and 
+ <italic>T</italic> is the absolute temperature. The activation energy was calculated considering the sum of the interaction energies between the adatom and all occupied neighboring positions, 
+ <italic>E</italic>
+ <sub>D</sub> = 
+ <italic>E</italic>
+ <sub>S</sub> + ∑
+ <sub>
+  <italic>j</italic>=1
+ </sub>
+ <sup arrange="stack">
+  <italic>J</italic>
+ </sup>
+ <italic>n</italic>
+ <sub>
+  <italic>j</italic>
+ </sub> × 
+ <italic>E</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>, where 
+ <italic>E</italic>
+ <sub>S</sub> is a static contribution
+ <sup>
+  <xref ref-type="bibr" rid="ref29">29</xref>
+ </sup> independent of neighboring sites, 
+ <italic>n</italic>
+ <sub>
+  <italic>j</italic>
+ </sub> is the number of neighbors of type 
+ <italic>j</italic>, and 
+ <italic>E</italic>
+ <sub>
+  <italic>j</italic>
+ </sub> is the interaction energy of the adatom with this neighbor. Only interactions between face-sharing adatoms are considered, and long-range interactions are ignored. Hopping can occur both in the 6 cubic and 12 diagonal directions. For diagonal hops (step-down or step-up), the Ehrlich–Schwoebel barrier (
+ <italic>E</italic>
+ <sub>ES</sub>) is present due to the decreased coordination between a surface diffusing adatom and the substrate. An 
+ <italic>E</italic>
+ <sub>ES</sub> value of 0.15 eV was used, in good agreement with previous studies for various materials systems.
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>−
+  <xref ref-type="bibr" rid="ref33">33</xref>
+ </sup>
+</p>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0160">Turning to formal techniques of quantum mechanics, we can precisely indicate the point at which quantum mechanics applied to molecular quantum transitions ceases to work. As is well known, the theory of quantum transitions is based on the time-dependent perturbation theory (TDPT) in quantum mechanics (see 
+ <italic>e.g.</italic> Ref. [
+ <xref rid="bib61" ref-type="bibr">61</xref>]). The time-dependent Schrödinger equation is solved by the standard scheme of the perturbation theory [
+ <xref rid="bib61" ref-type="bibr">61</xref>]:
+ <disp-formula id="fd1">
+  <label>(1)</label>
+  <math id="M35" altimg="si28.svg" alttext="Equation 1.">
+   <mrow>
+    <mi>i</mi>
+    <mi>ℏ</mi>
+    <mfrac>
+     <mrow>
+      <mo>∂</mo>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mo>∂</mo>
+      <mi>t</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="badbreak">=</mo>
+    <mtext>H</mtext>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>Ψ</mi>
+    <mo>,</mo>
+    <mspace width="1em"/>
+    <mtext>H</mtext>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">+</mo>
+    <mi>V</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+    <mspace width="1em"/>
+    <mi>V</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <mo stretchy="true">{</mo>
+     <mtable columnalign="left">
+      <mtr>
+       <mtd>
+        <mrow>
+         <mi>W</mi>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+         <mo>,</mo>
+         <mtext>   </mtext>
+         <mi>i</mi>
+         <mi>f</mi>
+         <mtext>  </mtext>
+         <mn>0</mn>
+         <mo linebreak="badbreak">≤</mo>
+         <mi>t</mi>
+         <mo linebreak="badbreak">≤</mo>
+         <mi>τ</mi>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mtext>0,        </mtext>
+         <mi>i</mi>
+         <mi>f</mi>
+         <mtext>  </mtext>
+         <mi>t</mi>
+         <mo linebreak="badbreak">&lt;</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mtext> </mtext>
+         <mi>t</mi>
+         <mo linebreak="badbreak">&gt;</mo>
+         <mi>τ</mi>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+    <mo>.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

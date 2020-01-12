@@ -1,0 +1,1122 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Nano</journal-id><journal-id journal-id-type="iso-abbrev">ACS Nano</journal-id><journal-id journal-id-type="publisher-id">nn</journal-id><journal-id journal-id-type="coden">ancac3</journal-id><journal-title-group><journal-title>ACS Nano</journal-title></journal-title-group><issn pub-type="ppub">1936-0851</issn><issn pub-type="epub">1936-086X</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6890264</article-id><article-id pub-id-type="doi">10.1021/acsnano.9b05337</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Tailoring Cu<sup>+</sup> for Ga<sup>3+</sup> Cation Exchange in
+Cu<sub>2&#x02013;<italic>x</italic></sub>S and CuInS<sub>2</sub> Nanocrystals by
+Controlling the Ga Precursor Chemistry</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Hinterding</surname><given-names>Stijn O. M.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes2" ref-type="notes">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Berends</surname><given-names>Anne C.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes3" ref-type="notes">&#x000b6;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Kurttepeli</surname><given-names>Mert</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="notes4" ref-type="notes">#</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Moret</surname><given-names>Marc-Etienne</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Meeldijk</surname><given-names>Johannes D.</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Bals</surname><given-names>Sara</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>van der Stam</surname><given-names>Ward</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes5" ref-type="notes">&#x025b2;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath8"><name><surname>de Mello Donega</surname><given-names>Celso</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Condensed Matter and Interfaces, Debye Institute for
+Nanomaterials Science, <institution>Utrecht University</institution>, P.O. Box 80000, 3508
+TA Utrecht, <country>The Netherlands</country></aff><aff id="aff2"><label>&#x02021;</label>Electron Microscopy for Materials Science (EMAT),
+<institution>University of Antwerp</institution>, Groenenborgerlaan 171, B-2020 Antwerp,
+<country>Belgium</country></aff><aff id="aff3"><label>&#x000a7;</label>Organic Chemistry and Catalysis, Debye Institute for
+Nanomaterials Science, <institution>Utrecht University</institution>, Universiteitsweg 99,
+3584 CG Utrecht, <country>The Netherlands</country></aff><aff id="aff4"><label>&#x02225;</label>Electron Microscopy Utrecht, Debye Institute for
+Nanomaterials Science, <institution>Utrecht University</institution>, 3584 CH Utrecht,
+<country>The Netherlands</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>c.demello-donega@uu.nl</email>.</corresp></author-notes><pub-date pub-type="epub"><day>16</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>26</day><month>11</month><year>2019</year></pub-date><volume>13</volume><issue>11</issue><fpage>12880</fpage><lpage>12893</lpage><history><date date-type="received"><day>07</day><month>07</month><year>2019</year></date><date date-type="accepted"><day>16</day><month>10</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under a Creative Commons Non-Commercial No
+Derivative Works (CC-BY-NC-ND) Attribution <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article, and
+creation of adaptations, all for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0009" id="ab-tgr1"/></p><p>Nanoscale cation exchange (CE) has resulted in colloidal nanomaterials that are
+unattainable by direct synthesis methods. Aliovalent CE is complex and synthetically
+challenging because the exchange of an unequal number of host and guest cations is
+required to maintain charge balance. An approach to control aliovalent CE reactions is
+the use of a single reactant to both supply the guest cation and extract the host
+cation. Here, we study the application of GaCl<sub>3</sub>&#x02013;L complexes [L =
+trioctylphosphine (TOP), triphenylphosphite (TPP), diphenylphosphine (DPP)] as reactants
+in the exchange of Cu<sup>+</sup> for Ga<sup>3+</sup> in
+Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals. We find that noncomplexed
+GaCl<sub>3</sub> etches the nanocrystals by S<sup>2&#x02013;</sup> extraction, whereas
+GaCl<sub>3</sub>&#x02013;TOP is unreactive. Successful exchange of Cu<sup>+</sup> for
+Ga<sup>3+</sup> is only possible when GaCl<sub>3</sub> is complexed with either TPP or
+DPP. This is attributed to the pivotal role of the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;GaCl<sub>3</sub>&#x02013;L activated
+complex that forms at the surface of the nanocrystal at the onset of the CE reaction,
+which must be such that simultaneous Ga<sup>3+</sup> insertion and Cu<sup>+</sup>
+extraction can occur. This requisite is only met if GaCl<sub>3</sub> is bound to a
+phosphine ligand, with a moderate bond strength, to allow facile dissociation of the
+complex at the nanocrystal surface. The general validity of this mechanism is
+demonstrated by using GaCl<sub>3</sub>&#x02013;DPP to convert CuInS<sub>2</sub> into
+(Cu,Ga,In)S<sub>2</sub> nanocrystals, which increases the photoluminescence quantum
+yield 10-fold, while blue-shifting the photoluminescence into the NIR biological window.
+This highlights the general applicability of the mechanistic insights provided by our
+work.</p></abstract><kwd-group><kwd>semiconductor nanocrystals</kwd><kwd>cation exchange</kwd><kwd>copper sulfide</kwd><kwd>copper gallium sulfide</kwd><kwd>copper indium sulfide</kwd><kwd>copper indium gallium sulfide</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>nn9b05337</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>nn9b05337</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p id="sec1">Compound copper chalcogenide nanocrystals (NCs) offer a promising alternative to the widely
+studied CdX and PbX NCs (X = S, Se, Te), as they consist of less toxic elements and display
+exciting optoelectronic properties, such as photoluminescence (PL) tunability in the visible
+to the near-infrared (NIR) spectral window and localized surface plasmon resonances (LSPR)
+in the NIR.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> Another advantage of these nanomaterials is the wide range of
+compositions that can be obtained, ranging from binary to multinary compounds with up to
+five different elements.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref3">3</xref></sup> This makes them a versatile
+class of materials, offering ample opportunities for property
+engineering.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref5">5</xref></sup>
+However, some morphologies and compositions are not easily accessible by direct approaches
+due to synthetic limitations, such as the lack of suitable precursors for multinary
+compounds.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Nanoscale cation exchange (CE) has emerged as a promising
+postsynthetic tool to circumvent these limitations, providing pathways to NCs and hetero-NCs
+with compositions, morphologies, crystal structures, and heteroarchitectures that would
+otherwise remain unavailable.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref></sup> The extent of the CE (ranging from doping, <italic>e.g</italic>.,
+Ag:CdSe NCs,<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> Zn:CsPbBr<sub>3</sub> NCs,<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> Mn:ZnTe
+magic-size clusters,<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> to full replacement)<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref></sup> and the elemental
+distribution profile of the product NCs (<italic>i.e</italic>., homogeneous or gradient
+alloys, <italic>e.g</italic>., (Cd,Zn)Se NCs,<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> or heterostructured NCs,
+<italic>e.g</italic>., ZnSe/CdSe,<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> PbSe/CdSe<sup><xref ref-type="bibr" rid="ref13">13</xref></sup>
+core/shell quantum dots) depends on a number of physicochemical properties, such as the
+miscibility of the parent and product phases and the diffusion rates of the incoming and
+outgoing cations within the NCs and can be tailored by adjusting reaction variables, such as
+reaction temperature and concentration of guest cations in solution.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>In isovalent CE, such as Zn<sup>2+</sup> for Cd<sup>2+</sup> exchange in ZnSe NCs<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> and Pb<sup>2+</sup> for Cd<sup>2+</sup> in PbX NCs,<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref15">15</xref></sup> a direct place exchange reaction occurs at the surface of the template
+NCs, through which the outgoing host cation and the incoming guest cation swap places
+(<italic>i.e</italic>., the guest cation is incorporated in the NC, while the host cation
+forms a complex with the ligand molecule that was carrying the guest cation).<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> This is in contrast with aliovalent CE, such as Cu<sup>+</sup> for
+In<sup>3+</sup> in Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> or
+Cd<sup>2+</sup> for Ag<sup>+</sup> in CdSe,<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> which typically occurs through two
+separate chemical pathways.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> This makes balancing the in- and outgoing
+diffusion rates challenging. An approach to better control aliovalent CE reactions is the
+use of a single precursor, which both provides the guest cation and extracts the host
+cation. In the case of the Cu<sup>+</sup> for In<sup>3+</sup> exchange, a stoichiometric
+InCl<sub>3</sub>&#x02013;trioctylphosphine complex has been shown to be a suitable
+precursor, even allowing for topotactic sequential CE (viz., Cd<sup>2+</sup> for
+Cu<sup>+</sup>, followed by partial Cu<sup>+</sup> for In<sup>3+</sup>) in large and
+complex anisotropic NCs such as CdSe/CdS dot-in-rod nanorods, with preservation of the size,
+shape, and heterostructure of the template NCs in the product
+CuInSe<sub>2</sub>/CuInS<sub>2</sub> dot-in-rod nanorods.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> The strict
+control over the CE rates provided by this approach has been recently exploited to fabricate
+air-stable CuInSe<sub>2</sub> NC transistors by postdeposition sequential CE.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Here, we extend the single precursor approach to the exchange of
+Cu<sup>+</sup> for Ga<sup>3+</sup> in Cu<sub>2&#x02013;<italic>x</italic></sub>S and
+CuInS<sub>2</sub> NCs by using stoichiometric GaCl<sub>3</sub>&#x02013;phosphine complexes
+to simultaneously deliver Ga<sup>3+</sup> and extract Cu<sup>+</sup>. Our choice is
+motivated by the fact that CuGaS<sub>2</sub> (CGS) and Cu(In,Ga)S<sub>2</sub> (CIGS) exhibit
+interesting optoelectronic properties, which make them promising materials for applications
+in photocatalysis,<sup><xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup>
+light-emitting devices,<sup><xref ref-type="bibr" rid="ref22">22</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> and photovoltaics.<sup><xref ref-type="bibr" rid="ref24">24</xref>&#x02212;<xref ref-type="bibr" rid="ref27">27</xref></sup> Moreover, studies of Cu<sup>+</sup> for
+Ga<sup>3+</sup> and In<sup>3+</sup> for Ga<sup>3+</sup> cation exchange are
+scarce.<sup><xref ref-type="bibr" rid="ref28">28</xref>&#x02212;<xref ref-type="bibr" rid="ref30">30</xref></sup> Although Ga<sup>3+</sup>
+and In<sup>3+</sup> are both trivalent cations of group IIIA metals, they have significantly
+different ionic radii (<italic>r</italic><sub>Ga<sup>3+</sup></sub> = 47 pm,
+<italic>r</italic><sub>In<sup>3+</sup></sub> = 62 pm)<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> and Lewis
+acidity (&#x003b7;<sub>Ga<sup>3+</sup></sub> = 17 eV, &#x003b7;<sub>In<sup>3+</sup></sub> = 13
+eV)<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> and are thus expected to behave differently in cation exchange
+reactions. Our study thus offers an ideal testbed to investigate the relationship between
+the chemistry of the metal chloride&#x02013;phosphine complexes and the outcome of cation
+exchange reactions in Cu chalcogenide NCs.</p><p>We investigated different GaCl<sub>3</sub>&#x02013;L Lewis acid&#x02013;base adduct complexes
+[L = trioctylphosphine (TOP), triphenylphosphite (TPP), and diphenylphosphine DPP)] as
+reagents for the exchange of Cu<sup>+</sup> for Ga<sup>3+</sup> and found that the choice of
+ligand has a profound impact on the reaction outcome. Noncomplexed GaCl<sub>3</sub> is a
+strong Lewis acid that yields hollow NCs through etching by sulfide extraction, whereas the
+complex GaCl<sub>3</sub>&#x02013;trioctylphosphine leads to neither etching nor cation
+exchange. In contrast, both GaCl<sub>3</sub>&#x02013;triphenylphosphite and
+GaCl<sub>3</sub>&#x02013;diphenylphosphine successfully converted
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs in CuGaS<sub>2</sub> NCs through
+Cu<sup>+</sup> for Ga<sup>3+</sup> exchange. These different reactivities are attributed
+to the stability and geometry of the activated
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;GaCl<sub>3</sub>&#x02013;L complex that
+must be formed at the surface of the NCs prior to the cation exchange. Density functional
+theory (DFT) calculations show that, in these complexes, the Ga&#x02013;P bond strength
+decreases with increasing electron-withdrawing nature of the side groups on the phosphine
+ligands (<italic>i.e.</italic>, the Ga&#x02013;P bond strength &#x003b5; follows the trend
+&#x003b5;<sub>GaCl<sub>3</sub>&#x02013;TOP</sub> &#x0003e;
+&#x003b5;<sub>GaCl<sub>3</sub>&#x02013;DPP</sub> &#x0003e;
+&#x003b5;<sub>GaCl<sub>3</sub>&#x02013;TPP</sub>). Complexing GaCl<sub>3</sub> with DPP or
+TPP lowers the activation energy barrier for the CE reaction, while kinetically favoring the
+Cu<sup>+</sup> for Ga<sup>3+</sup> place exchange over the sulfide extraction. These
+insights were used to successfully convert CuInS<sub>2</sub> NCs into Cu-poor
+(Cu,In,Ga)S<sub>2</sub> NCs through Cu<sup>+</sup> for Ga<sup>3+</sup> exchange, yielding
+NCs with vastly improved photoluminescence quantum yields with respect to the parent NCs.
+The findings presented in this work are thus generally applicable, resulting in
+nanomaterials with combinations of size, shape, composition, and crystal structure that are
+not directly accessible by conventional synthesis routes.</p><sec id="sec2"><title>Results and Discussion</title><sec id="sec2.1"><title>Stoichiometric InCl<sub>3</sub>&#x02013;TOP and GaCl<sub>3</sub>&#x02013;TOP as
+Reactants for Cation Exchange in Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs</title><p>Throughout this work, low-chalcocite 12 nm Cu<sub>2&#x02013;<italic>x</italic></sub>S
+(<italic>x</italic> &#x0003c; 0.04) bifrustum NCs are used as parent NCs to investigate the
+Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange reaction. For comparison, these NCs
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a,d) are converted into wurtzite
+CuInS<sub>2</sub> (CIS) bifrustum NCs (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b,e) by partial, self-limited Cu<sup>+</sup> for In<sup>3+</sup> CE at 100
+&#x000b0;C, using a stoichiometric InCl<sub>3</sub>&#x02013;trioctylphosphine
+(InCl<sub>3</sub>&#x02013;TOP) Lewis acid&#x02013;base adduct as precursor, as previously
+reported by our group.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> The transformation from low chalcocite to
+wurtzite is evidenced by the electron diffraction (ED) patterns (<xref rid="fig1" ref-type="fig">Figure
+<xref rid="fig1" ref-type="fig">1</xref></xref>a,b,d,e). The powder ED (PED) pattern obtained after
+azimuthal integration of the 2D ED pattern of the product NCs (<xref rid="fig1" ref-type="fig">Figure
+<xref rid="fig1" ref-type="fig">1</xref></xref>e) corresponds well to the reference pattern of wurtzite CIS.
+The shape and size of the NCs are preserved after the reaction (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S1), confirming the topotactic nature of the
+Cu<sup>+</sup> for In<sup>3+</sup> CE reaction. Energy-dispersive X-ray spectroscopy
+(EDS) measurements further confirm the conversion of
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs into ternary CIS NCs (Cu/In = 1.00:0.79;
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S2). Compared to the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S parent NCs, the product CIS NCs no longer
+exhibit a LSPR absorption band in the NIR (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S3a,b). The absorption spectrum of the CIS
+NCs agrees well with spectra reported in the literature.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> In contrast,
+the use of the stoichiometric GaCl<sub>3</sub>&#x02013;TOP Lewis acid&#x02013;base adduct as
+a precursor does not lead to any significant change in the composition (Cu/Ga = 1.00:0.02,
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S4), crystal structure, size, and shape of
+the NCs (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c,f). The absorption spectrum of
+NCs obtained after reaction with GaCl<sub>3</sub>&#x02013;TOP exhibits little to no LSPR
+band (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S3c), which indicates the absence of excess
+free holes in these NCs, due to (limited) reduction at the NC surface.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>TEM images of (a) parent Cu<sub>2&#x02013;<italic>x</italic></sub>S bifrustum NCs, (b)
+product Cu<sub>1.03</sub>In<sub>0.81</sub>S<sub>2</sub> (CIS) bifrustum NCs, after
+reaction with InCl<sub>3</sub>&#x02013;TOP at 100 &#x000b0;C, and (c)
+Cu<sub>1.99</sub>Ga<sub>0.04</sub>S nanocrystals, after reaction with
+GaCl<sub>3</sub>&#x02013;TOP at 100 &#x000b0;C. Top-right insets display the
+corresponding ED pattern. Bottom panels show azimuthally integrated ED (PED) patterns
+of (d) parent low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals,
+(e) product wurtzite CIS nanocrystals, and (f) product low-chalcocite
+Cu<sub>1.99</sub>Ga<sub>0.04</sub>S nanocrystals. Reference bars in (d,f) are
+calculated patterns based on the low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S crystal structure described in ref (<xref ref-type="bibr" rid="ref34">34</xref>). Reference bars in (e) were obtained from JCPDS
+PDF-card 01-077-9459 for wurtzite CIS.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0001" id="gr1" position="float"/></fig></sec><sec id="sec2.2"><title>Reaction of Noncomplexed GaCl<sub>3</sub> with
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs</title><p>Clearly, the Cu<sup>+</sup> for Ga<sup>3+</sup> CE does not significantly occur when
+GaCl<sub>3</sub>&#x02013;TOP is used as the reactant under the same conditions that
+successfully lead to Cu<sup>+</sup> for In<sup>3+</sup> CE using
+InCl<sub>3</sub>&#x02013;TOP. Therefore, other Ga precursors were examined, starting with
+the simplest possible case: GaCl<sub>3</sub> dissolved in neat toluene. The reaction with
+GaCl<sub>3</sub> at the same temperature used with GaCl<sub>3</sub>&#x02013;TOP (100
+&#x000b0;C) was found to severely deteriorate the NCs (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S5). To minimize the degradation, the
+temporal evolution of this reaction was studied at a lower temperature (30 &#x000b0;C) (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b&#x02013;e). The TEM images of the product
+NCs show that, despite the lower reaction temperature, a low-contrast spot appears in the
+NCs already after 15 min of reaction (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b,
+red arrows) and increases in size over time (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>c&#x02013;e). The PED pattern shows that the crystal structure of the NCs
+remains low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S, even after 120 min of
+reaction (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>f), despite the dramatic
+morphological changes (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>e). After 120 min
+of reaction, these NCs no longer exhibit an LSPR absorption band (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S3f), presumably due to their poorly defined
+shape.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>TEM images of (a) parent Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs and
+(b&#x02013;e) product NCs obtained after reacting the NCs shown in (a) with
+GaCl<sub>3</sub> at 30 &#x000b0;C for (b) 15 min, (c) 30 min, (d) 60 min, and (e) 120
+min. Red arrows indicate regions of low contrast within the nanocrystals (cartoons in
+the lower-left corner give an impression of the observed contrast in the NCs).
+Top-right inset in (e) depicts an electron diffraction pattern of the corresponding
+sample. Panel (f) is the azimuthally integrated ED pattern depicted in (e). Reference
+bars in (f) are calculated patterns based on the low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S crystal structure described in ref
+(<xref ref-type="bibr" rid="ref34">34</xref>). The blue curve in (f) corresponds to
+the PED pattern of the parent Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals.
+Dotted lines serve as guides for the eye.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0002" id="gr2" position="float"/></fig><p>To determine the nature of the low contrast region and its position within the particles,
+high-angle annular dark-field scanning transmission microscopy (HAADF-STEM) tomography
+measurements were performed. Visualizations of the 3D reconstructed volumes of NCs after
+different reaction times are shown in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>.
+Animated versions of the tomograms are also provided in the web-enhanced movies 1, 2, and 3. The tomography measurements show that, after 15 min of
+reaction with GaCl<sub>3</sub>, a small cavity is present at the surface of some
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a) and increases in size as the reaction progresses (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b,c). Acquired orthoslices, which were used
+to reconstruct the 3D morphologies, are displayed in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d&#x02013;f. These measurements indicate that the brighter regions
+observed in TEM images coincide with cavities at the surface of the NCs. The cavities
+appear to form at the <italic>surface</italic> of the NCs at early reaction stages and
+subsequently grow inward over time. A small portion of the NCs (indicated by red arrows in
+<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>) appears to be hollow, without an
+obvious opening at the surface.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>3D characterization of tomographic visualization of the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S bifrustum NCs after reaction with
+GaCl<sub>3</sub> at 30 &#x000b0;C for (a) 15 min, (b) 30 min, and (c) 60 min. After 15 min, only a small dimple is present at
+the surface of the NCs. After longer reaction times, these cavities are found to be
+larger. Red arrows indicate hollow NCs without an apparent opening at the surface.
+(d&#x02013;f) Orthoslices used to reconstruct the 3D morphologies presented in
+(a&#x02013;c). Animated (rotating) versions of the models depicted in panels
+(a&#x02013;c) are provided.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0003" id="gr3" position="float"/></fig><p>These observations bear similarities with previous reports on hollow nanoparticles, whose
+formation has been ascribed to the nanoscale Kirkendall effect,<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> which involves an imbalance between
+outward and inward diffusion fluxes during the chemical conversion of a NC into a
+different material through reaction with a reactant present in solution. The surface of
+the parent NC is first converted into a shell of the product material by reaction with a
+species present in solution, after which further conversion can only take place through
+solid-state diffusion of the reactant species through the NC.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> In case
+the outward diffusion rate is faster than the inward diffusion rate, there is a net flow
+of material going out of the NC, leaving vacancies behind.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup>
+Condensation of these vacancies gives rise to voids that eventually collect in a central
+void in the NCs.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> The nanoscale Kirkendall process has also been
+recently proposed as an explanation for the conversion of
+Cu<sub>2&#x02013;<italic>x</italic></sub>S nanoplatelets into CuInS<sub>2</sub>
+nanorings through partial Cu<sup>+</sup> for In<sup>3+</sup> CE.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> Our
+observations, however, are not consistent with the nanoscale Kirkendall effect, as the
+cavities form at the surface of the NCs and grow inward, in striking contrast with the
+outward growing inner voids that characterize the Kirkendall effect.</p><p>Surface erosion of the NCs and preservation of a low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S shell after the reaction with
+GaCl<sub>3</sub> indicate that a reaction other than cation exchange is taking place. In
+the successful Cu<sup>+</sup> for In<sup>3+</sup> cation exchange reaction using the
+InCl<sub>3</sub>&#x02013;TOP Lewis acid&#x02013;base adduct complex, TOP (a soft Lewis
+base) acts as Cu<sup>+</sup> extractor,<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> likely forming CuCl&#x02013;TOP Lewis acid&#x02013;base
+adduct complexes. In the present reaction using noncomplexed GaCl<sub>3</sub>, there are
+no species present to directly extract Cu<sup>+</sup>. However, GaCl<sub>3</sub> is a
+strong Lewis acid<sup><xref ref-type="bibr" rid="ref38">38</xref>,<xref ref-type="bibr" rid="ref39">39</xref></sup>
+and therefore can extract S<sup>2&#x02013;</sup> from the NC as S<sup>2&#x02013;</sup> is a
+Lewis base. This extraction destabilizes the crystal lattice, as the S<sup>2&#x02013;</sup>
+anions form the framework of Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs, resulting in
+etching of the NCs and formation of cavities at the surface. The collapse of the NC
+framework will release Cu<sup>+</sup> ions, which are likely stabilized in solution by
+binding to the chloride ions released from GaCl<sub>3</sub> after its reaction with the NC
+sulfides.</p><p>Although the NCs react with a strong Lewis acid, they do not dissolve completely, even
+after 300 min (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S6). Interestingly, in micrographs obtained
+using HAADF-STEM, most particles exhibit a uniform contrast after reacting for 300 min
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S6e). This uniform contrast indicates that
+the previously formed cavities are filled with new material. EDS elemental maps show that
+this material consists mostly of gallium. These observations suggest that Ga-containing
+monomers, formed upon extraction of S<sup>2&#x02013;</sup> by GaCl<sub>3</sub>, precipitate
+inside the NC cavities after longer reaction times. This refilling of the cavities likely
+blocks further reactions on the NC surface, preventing further dissolution.</p></sec><sec id="sec2.3"><title>Tailoring the Ga Precursor Chemistry To Boost the Cu<sup>+</sup> for Ga<sup>3+</sup>
+Cation Exchange</title><p>We have discussed above two extreme cases of reactivity imbalance: whereas
+GaCl<sub>3</sub>&#x02013;TOP is too inert, hardly leading to any change in the parent
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs, noncomplexed GaCl<sub>3</sub> is too
+reactive toward the sulfide anions, thereby etching the parent NCs without any significant
+cation exchange. In the following, we will tailor the chemistry of the Ga precursor
+complex to allow successful Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange.</p><p>The observation that the reactivity of the GaCl<sub>3</sub>&#x02013;TOP Lewis
+acid&#x02013;base adduct complex as a cation exchange precursor is much lower than that of
+the InCl<sub>3</sub>&#x02013;TOP complex is surprising, considering that the
+metal&#x02013;phosphorus bond in GaCl<sub>3</sub>&#x02013;TOP should be weaker than that in
+InCl<sub>3</sub>&#x02013;TOP as Ga<sup>3+</sup> is a harder Lewis acid than
+In<sup>3+</sup> (&#x003b7; = 17 and 13 eV, respectively),<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> whereas TOP
+is a soft Lewis base (&#x003b7; &#x02248; 6 eV).<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref40">40</xref></sup> This implies that other variables are more relevant in
+determining the Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange rates and prompted us
+to explore the influence of the nature of the phosphine ligand on the cation exchange
+reaction by using triphenylphosphite and diphenylphosphine as ligands for GaCl<sub>3</sub>
+(<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b,c). The coordination behavior of a
+phosphine ligand with respect to a metal center is determined by its steric and electronic
+properties.<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup>
+The most frequently used parameter to quantify the steric properties of phosphines is the
+Tolman cone angle, defined as the apex angle of a cylindrical cone with origin 2.28 &#x000c5;
+from the center of the phosphorus atom, whose sides just touch the Van der Waals surfaces
+of the outermost atoms of the organic substituents.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> The three
+phosphine ligands used in the present work have significantly different electronic
+properties and total molecular volume, but their Tolman cone angles are essentially the
+same: 128&#x000b0; for both DPP and TPP and 132&#x000b0; for TOP.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> The value
+for TOP is taken to be the same as that reported by Tolman for other tertiary
+alkylphosphines, such as tri-<italic>n</italic>-butylphosphine, although a recent work has
+estimated it to be 128&#x000b0;.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> Steric effects are thus not expected to
+play a significant role in the cation exchange reactions investigated in our work. The
+electronic properties of phosphines are determined by their &#x003c3;-donor ability and
+&#x003c0;-acceptor strength as they bind to metals by a combination of &#x003c3;-donation from
+the lone pair of the P atom and &#x003c0;-back bonding from the d orbitals of the metal into
+their empty P&#x02013;R &#x003c3;* molecular orbital (R = organic
+substituent).<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup>
+More electronegative (<italic>i.e</italic>., electron-withdrawing) substituents on the
+phosphorus atom decrease the basicity and &#x003c3;-donating ability of the phosphine, while
+increasing its &#x003c0;-acceptor strength.<sup><xref ref-type="bibr" rid="ref40">40</xref>&#x02212;<xref ref-type="bibr" rid="ref43">43</xref></sup> This effect is due to
+the decrease of the electronic density on the phosphorus atom and increase of the
+s-character of the lone electron pair.<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup> An increase in electronegativity of the substituents on
+the phosphorus atom should lead to weaker bonding to the metal, as should be the case for
+GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP compared to
+GaCl<sub>3</sub>&#x02013;TOP.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(Top row) Ground-state geometries of three GaCl<sub>3</sub>&#x02013;phosphine
+complexes obtained from DFT calculations (see below): (a) GaCl<sub>3</sub> complexed
+with triethylphosphine, used as model for GaCl<sub>3</sub> complexed with
+trioctylphosphine (GaCl<sub>3</sub>&#x02013;TOP), (b) GaCl<sub>3</sub> complexed with
+triphenylphosphite (GaCl<sub>3</sub>&#x02013;TPP), and (c) GaCl<sub>3</sub> complexed
+with diphenylphosphine (GaCl<sub>3</sub>&#x02013;DPP). (Middle row) TEM images of
+product NCs obtained after reaction of Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs
+with (d) GaCl<sub>3</sub>&#x02013;TOP at 100 &#x000b0;C, (e) GaCl<sub>3</sub>&#x02013;TPP
+at 100 &#x000b0;C, and (f) GaCl<sub>3</sub>&#x02013;DPP at 50 &#x000b0;C. Black arrows
+indicate intraparticle contrast in the NCs reacted with GaCl<sub>3</sub>&#x02013;TPP.
+Top-right insets show the corresponding ED patterns. Bottom row (g&#x02013;i) shows the
+corresponding azimuthally integrated ED patterns. Reference bars in (h,i) are
+calculated patterns based on the wurtzite CuGaS<sub>2</sub> crystals structure,<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> and reference bars in (g) are based on the low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S crystal structure.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0004" id="gr4" position="float"/></fig><p>Indeed, the use of both GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP as
+reactants results in successful CE reactions even after reaction times much shorter than
+those used for GaCl<sub>3</sub>&#x02013;TOP (1 h instead of 12 h, at the same temperature),
+as clearly demonstrated by EDS analysis of the product NCs obtained after reaction with
+GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP at 100 &#x000b0;C, which
+reveals Cu/Ga ratios of 1.00:1.38 and 1.00:1.48, respectively (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figures S7 and S8). The NCs that reacted with
+GaCl<sub>3</sub>&#x02013;TPP are partially deformed and exhibit intraparticle contrast in
+TEM images (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>e, indicated by black
+arrows), similar to the NCs that reacted with GaCl<sub>3</sub> (see <xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <xref rid="fig3" ref-type="fig">3</xref>). The NCs that reacted with
+GaCl<sub>3</sub>&#x02013;DPP form agglomerates (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S9), which is likely due to displacement of
+the original organic capping ligands (dodecanethiol) with DPP during the CE reaction. DPP
+is a relatively small molecule and thus poorly suitable as a steric stabilizer. In
+comparison, the NCs cluster less after reaction with GaCl<sub>3</sub>&#x02013;TPP as
+triphenylphosphite is bulky enough to provide steric stabilization. To increase the
+colloidal stability of the NCs reacted with GaCl<sub>3</sub>&#x02013;DPP, oleylamine (OLAM)
+was added to the reaction mixture and a lower reaction temperature (50 &#x000b0;C) was
+employed, which indeed inhibited NC agglomeration (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>f). However, under these milder reaction conditions, the
+Cu<sup>+</sup> for Ga<sup>3+</sup> exchange proceeds to a lesser extent, as shown by EDS
+analysis (Cu/Ga ratio of 1.00:0.62,&#x000a0;<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S10). The PED pattern (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>e,h) of the NCs reacted with
+GaCl<sub>3</sub>&#x02013;TPP corresponds to the wurtzite crystal structure, confirming that
+Cu<sup>+</sup> for Ga<sup>3+</sup> CE has indeed taken place. Interestingly, the peaks
+in the ED pattern are shifted to lower <italic>q</italic> values compared to those of the
+reference wurtzite CGS, indicating that the product CGS NCs have a larger lattice constant
+than the reference. This observation will be discussed in more detail below. The PED
+pattern (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>f,i) of the NCs reacted with
+GaCl<sub>3</sub>&#x02013;DPP exhibits broad, poorly defined peaks, indicating that these
+particles have partially lost their crystallinity during the CE procedure, which precludes
+a definitive assignment of the crystal structure. The NCs reacted with
+GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP are both smaller than the
+parent Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs (diameters = 10.8 &#x000b1; 1.0, 11.1
+&#x000b1; 1.1, and 12.3 &#x000b1; 1.0 nm, respectively, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S1). The NCs reacted with
+GaCl<sub>3</sub>&#x02013;TPP no longer exhibit an LSPR absorption band, whereas those
+reacted with GaCl<sub>3</sub>&#x02013;DPP exhibit an LSPR absorption band with a reduced
+intensity (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S3d,e). In the latter NCs, Cu<sup>+</sup> was
+exchanged for Ga<sup>3+</sup> to a lesser extent; the presence of an LSPR absorption band
+thus indicates that these NCs remain cation-deficient, requiring excess holes for charge
+neutrality.</p><p>The intraparticle contrast observed in the NCs after reaction with
+GaCl<sub>3</sub>&#x02013;TPP was studied with HAADF-STEM and EDS elemental mapping. In
+micrographs obtained using HAADF-STEM, the intraparticle contrast appears similar to that
+observed in TEM images (compare <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a to
+<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>e). In the elemental maps, the regions
+of low contrast coincide with regions of low signal for both cations (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>, indicated by orange arrows). As the Cu and Ga
+distributions correlate well (<xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>b,c), the
+intraparticle contrast is clearly not due to an inhomogeneous composition. Instead, it
+appears that the low contrast regions in HAADF-STEM and TEM images simply contain less
+material. Likely, surface erosion by GaCl<sub>3</sub> is not completely suppressed when
+GaCl<sub>3</sub>&#x02013;TPP is used as reactant, resulting in the formation of small
+cavities at the NC surface.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>(a) HAADF-STEM images and EDS elemental maps of (b, blue) Cu and (c, red) Ga of
+product NCs obtained by reacting Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs with
+GaCl<sub>3</sub>&#x02013;TPP at 100 &#x000b0;C. Orange arrows indicate regions of low
+contrast (HAADF-STEM) coinciding with regions of low signal (EDS maps).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0005" id="gr5" position="float"/></fig><p>Similar to the previously reported conversion of low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S into wurtzite CIS NCs by Cu<sup>+</sup> for
+In<sup>3+</sup> CE,<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> the exchange of Cu<sup>+</sup> for Ga<sup>3+</sup> in
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs using GaCl<sub>3</sub>&#x02013;DPP or
+GaCl<sub>3</sub>&#x02013;TPP as precursors is also partial and self-limited as CGS,
+rather than Ga<sub>2</sub>S<sub>3</sub>, NCs are produced. In the case of the
+Cu<sup>+</sup> for In<sup>3+</sup> CE in Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs,
+the topotactic, partial, and self-limited character of the exchange was attributed to the
+high energy barrier associated with the conversion of the hexagonal close-packed anionic
+sublattice of the parent low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs into
+the face-centered cubic sublattice of the spinel structure of In<sub>2</sub>S<sub>3</sub>,
+which requires a substantial reorganization of the sulfide anions (by 58% of a S&#x02013;S
+interatomic distance).<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> In contrast, the hexagonal wurtzite structure
+of CuInS<sub>2</sub> requires only minor rearrangements of the sulfide sublattice with
+respect to that of the template NCs (1.4 and 6.4% contraction within and between the
+hexagonal S<sup>2&#x02013;</sup> layers, respectively).<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> The topotactic
+nature of the cation exchange in Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs has been
+recently exploited to achieve structure-selective conversion of
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NC templates into ZnS, CdS, and
+CuInS<sub>2</sub>, with hexagonal roxbyite Cu<sub>1.78</sub>S and cubic digenite
+Cu<sub>1.8</sub>S yielding product NCs with the wurtzite and the zinc blende structures,
+respectively.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup></p><p>In the present case, however, the structural differences between the possible products
+and the template NCs are less pronounced because low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S, wurtzite CuGaS<sub>2</sub>, and the stable
+form of bulk Ga<sub>2</sub>S<sub>3</sub>, monoclinic
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>, all have a hexagonal close-packed sulfide
+sublattice,<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref44">44</xref>,<xref ref-type="bibr" rid="ref46">46</xref></sup> with hexagonally structured layers stacked in an
+...ABAB... fashion (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>a,b). However, we
+observe that, in all three dimensions, the wurtzite CuGaS<sub>2</sub> structure exhibits a
+significant lattice contraction compared to that of low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>c,d). These contractions are 5.6, 5.7, and 9.5% in <italic>x</italic>,
+<italic>y</italic>, and <italic>z</italic>, respectively. On the other hand, the anion
+positions of wurtzite CuGaS<sub>2</sub> and &#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>
+are very similar: transforming the former into the latter, the lattice has to contract by
+only 0.6, 0.5, and 2.5% in <italic>x</italic>, <italic>y</italic>, and <italic>z</italic>,
+respectively (the definition of <italic>x</italic>, <italic>y</italic>, and
+<italic>z</italic> directions in terms of crystallographic directions are provided in
+the caption of <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>). It is thus clear that,
+based on the bulk crystal structure parameters, the sulfide sublattice of the template
+low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S would have to undergo similar
+degrees of reconstruction, regardless of whether the cation exchange would be partial,
+yielding wurtzite CuGaS<sub>2</sub>, or complete, yielding
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>. However, we note that the product wurtzite
+CGS NCs (with Cu/Ga ratios ranging from 1:1.48 to 1:0.62) obtained in our work exhibit a
+larger lattice constant than the wurtzite CuGaS<sub>2</sub> reference (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>h,i), indicating that the degree of contraction was
+smaller than expected based on the bulk lattice parameters, and therefore, that the
+product CGS NCs are under tensile strain. This suggests that the mild reaction conditions
+used in our work do not allow the anion sublattice to undergo full reconstruction in order
+to relax the strain induced by the CE.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>(a,b) Hexagonal close-packed structure viewed from two different orientations: (a)
+characteristic arrangement into hexagonally constructed layers, defined here as the
+<italic>x</italic>,<italic>y</italic>-plane, and (b) characteristic ...ABAB...
+stacking of these hexagonal layers, defined here as the
+<italic>x</italic>,<italic>z</italic>-plane. (c,d) Anion positions of (black)
+low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S, (cyan) wurtzite
+CuGaS<sub>2</sub>, and (purple) &#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub> overlaid
+onto each other. (c) Hexagonal ordering in the
+<italic>x</italic>,<italic>y</italic>-plane and (d) ...ABAB... stacking in the
+<italic>x</italic>,<italic>z</italic>-plane. &#x00394;<italic>x</italic>,
+&#x00394;<italic>y</italic>, and &#x00394;<italic>z</italic>, denoted in (a,b),
+correspond to the lattice distances used to determine the lattice contractions
+mentioned in the main text. The
+<italic>x</italic>,<italic>y</italic>,<italic>z-</italic>directions correspond to
+the following crystallographic directions: (low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S) [201],[010],[001]; (wurtzite
+CuGaS<sub>2</sub>) [1&#x00031;&#x00305;0],[110],[001]; (monoclinic
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>) [010],[100],[102]. Anion coordinates
+were obtained from the crystal structures of low-chalcocite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S,<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> wurtzite
+CuGaS<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> and monoclinic
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>.<sup><xref ref-type="bibr" rid="ref46">46</xref></sup></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0006" id="gr6" position="float"/></fig><p>Recently, lattice strain was shown to play an important role in the conversion of
+djurleite Cu<sub>2&#x02013;<italic>x</italic></sub>S nanorods (NRs) into
+Cu<sub>2&#x02013;<italic>x</italic></sub>S/CGS hetero-NRs by partial Cu<sup>+</sup> for
+Ga<sup>3+</sup> CE.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Shim and co-workers showed that lattice strain
+prevented the homogeneous conversion of Cu<sub>2&#x02013;<italic>x</italic></sub>S NRs
+(&#x0223c;170 nm long, 20 nm diameter) into CGS NRs, resulting instead in hetero-NRs
+containing one or multiple wurtzite CGS domains.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> The authors argued
+that the strain induced by the lattice mismatch between the parent djurleite
+Cu<sub>2&#x02013;<italic>x</italic></sub>S phase and the product wurtzite CGS phase
+would make Ga<sup>3+</sup> diffusion into Cu<sub>2&#x02013;<italic>x</italic></sub>S
+unfavorable, thereby limiting the extent of the CE reaction and leading to
+wurtzite&#x02013;djurleite superlattice formation as a way to minimize the resulting
+strain. However, we note that in the present work
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs were successfully converted into homogeneous
+CGS NCs, despite the tensile strain resulting from insufficient contraction to the lattice
+parameters of fully relaxed bulk CuGaS<sub>2</sub>. This difference can be attributed to
+the fact that the NCs used here are much smaller than those used by Shim and co-workers
+(viz. 12 nm diameter <italic>vs</italic> &#x0223c;170 nm long, 20 nm diameter rods). The
+smaller volume of the template NCs used in our work favors conversion to homogeneous CGS
+NCs because smaller NCs can more easily accommodate lattice strain. This also offers a
+possible explanation for the self-limiting character of the Cu<sup>+</sup> for
+Ga<sup>3+</sup> exchange in Cu<sub>2&#x02013;<italic>x</italic></sub>S NC templates: the
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub> structure is probably unable to accommodate
+as much tensile strain as wurtzite CGS, preventing full CE.</p></sec><sec id="sec2.4"><title>Density Functional Theory Calculations</title><p>To corroborate our assumption of weaker Ga&#x02013;P bond strengths in
+GaCl<sub>3</sub>&#x02013;DPP and GaCl<sub>3</sub>&#x02013;TPP with respect to
+GaCl<sub>3</sub>&#x02013;TOP, we conducted DFT calculations at the
+B3LYP/6-311+G(d,p);Ga:SDD level to estimate both the ground-state geometry of the
+complexes and the Ga&#x02013;P bond enthalpy. In the DFT calculations, we modeled TOP as
+triethylphosphine to avoid an extensive conformational search due to the many degrees of
+freedom of the long alkyl chains. We expect that only the first few CH<sub>2</sub> groups
+of TOP significantly influence the Ga&#x02013;P bond, making PEt<sub>3</sub> an acceptable
+surrogate for TOP. To verify whether the outcome of these calculations is physically
+reasonable, we compare calculated geometries to experimental structures obtained from
+X-ray crystallography. We include an additional complex
+(GaCl<sub>3</sub>&#x02013;PPh<sub>3</sub>), as, to the best of our knowledge, the
+structures of GaCl<sub>3</sub>&#x02013;DPP and GaCl<sub>3</sub>&#x02013;TPP have not been
+resolved experimentally. The results of the DFT calculations (Ga&#x02013;P bond lengths and
+dissociation enthalpies) and the experimentally determined Ga&#x02013;P bond lengths are
+shown in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. The Ga&#x02013;P bond lengths
+determined by DFT deviate from the experimental ones by only 4&#x02013;5%. Moreover, the
+DFT results reproduce the experimental trend in Ga&#x02013;P bond length from
+GaCl<sub>3</sub>&#x02013;PEt<sub>3</sub> to GaCl<sub>3</sub>&#x02013;PPh<sub>3</sub>.
+Thus, although the absolute values obtained from the DFT calculations are 4&#x02013;5%
+longer than the experimental ones, the trends in the DFT results are reliable. We observe
+that, with increasing electron-withdrawing nature of the side groups on the phosphine
+ligand, the Ga&#x02013;P bond length <italic>L</italic> increases (viz.,
+<italic>L</italic><sub>GaCl<sub>3</sub>&#x02013;TOP</sub> &#x0003c;
+<italic>L</italic><sub>GaCl<sub>3</sub>&#x02013;DPP</sub> &#x0003c;
+<italic>L</italic><sub>GaCl<sub>3</sub>&#x02013;TPP</sub>). The dissociation enthalpy
+follows the reverse trend. These results show that, indeed, the Ga&#x02013;P bonds in
+GaCl<sub>3</sub>&#x02013;DPP and GaCl<sub>3</sub>&#x02013;TPP are weaker than those in
+GaCl<sub>3</sub>&#x02013;TOP.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>DFT-Calculated (B3LYP/6-311+G(d,p);Ga:SDD) and Experimental Ga&#x02013;P Bond
+Lengths and DFT-Calculated Dissociation Enthalpies of
+GaCl<sub>3</sub>&#x02013;PEt<sub>3</sub>, GaCl<sub>3</sub>&#x02013;PPh<sub>3</sub>,
+GaCl<sub>3</sub>&#x02013;DPP, and GaCl<sub>3</sub>&#x02013;TPP</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="left"/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">complex</th><th style="border:none;" align="center" char=".">Ga&#x02013;P bond length (&#x000c5;), calculated</th><th style="border:none;" align="center">Ga&#x02013;P bond length (&#x000c5;), experimental</th><th style="border:none;" align="center" char=".">dissociation enthalpy (kcal/mol), calculated</th></tr></thead><tbody><tr><td style="border:none;" align="left">GaCl<sub>3</sub>&#x02013;PEt<sub>3</sub></td><td style="border:none;" align="char" char=".">2.453</td><td style="border:none;" align="left">2.353<sup><xref ref-type="bibr" rid="ref47">47</xref></sup></td><td style="border:none;" align="char" char=".">31.2</td></tr><tr><td style="border:none;" align="left">GaCl<sub>3</sub>&#x02013;PPh<sub>3</sub></td><td style="border:none;" align="char" char=".">2.487</td><td style="border:none;" align="left">2.372<sup><xref ref-type="bibr" rid="ref48">48</xref></sup></td><td style="border:none;" align="char" char=".">27.2</td></tr><tr><td style="border:none;" align="left">GaCl<sub>3</sub>&#x02013;DPP</td><td style="border:none;" align="char" char=".">2.498</td><td style="border:none;" align="left">not available</td><td style="border:none;" align="char" char=".">23.0</td></tr><tr><td style="border:none;" align="left">GaCl<sub>3</sub>&#x02013;TPP</td><td style="border:none;" align="char" char=".">2.540</td><td style="border:none;" align="left">not available</td><td style="border:none;" align="char" char=".">14.7</td></tr></tbody></table></table-wrap></sec><sec id="sec2.5"><title>Mechanism for the Cu<sup>+</sup> for Ga<sup>3+</sup> Exchange in
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs</title><p>Nanoscale CE reactions consist of a number of linked elementary kinetic
+steps:<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref12">12</xref></sup> (i) extraction of the host cations from the NC
+surface, (ii) incorporation of guest cations at the NC surface, (iii) solid-state
+diffusion of the guest cations into the NC, and (iv) solid-state diffusion of the native
+cations to the NC surface. The thermodynamic driving force for the reaction is determined
+by the energy balance of the overall reaction.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> However, the energy input or output
+involved in each step is important as all steps are kinetically linked and must proceed in
+a concerted manner. Therefore, the outcome of nanoscale CE reactions
+(<italic>i.e</italic>., extent of the exchange, homogeneous or heterostructured
+nanocrystals, <italic>etc</italic>.) is dictated by the kinetic balance between a number
+of competing processes taking place in solution, at the NC surface and within the NC.</p><p>Aliovalent CE reactions are inherently more complex than isovalent ones as preservation
+of charge balance is in this case kinetically more challenging because a different number
+of host and guest cations must be exchanged to keep charge neutrality
+(<italic>e.g</italic>., three Cu<sup>+</sup> cations must be extracted to allow the
+incorporation of one In<sup>3+</sup> or Ga<sup>3+</sup> cation). Aliovalent CE involving
+Cu<sup>+</sup> has been extensively investigated because the small charge and high
+solid-state diffusion rates of Cu<sup>+</sup> ions make both their incorporation into and
+extraction from NCs facile and fast. This makes copper chalcogenide NCs attractive not
+only as templates for other binary, multinary, or hetero-NCs that cannot be easily
+obtained by direct routes (<italic>e.g</italic>., CuInS<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref33">33</xref>,<xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref45">45</xref></sup>
+CuInSe<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref49">49</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> Cu<sub>4</sub>SnS<sub>4</sub>,<sup><xref ref-type="bibr" rid="ref19">19</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup>
+Cu<sub>2&#x02013;<italic>x</italic></sub>Se/ZnSe,<sup><xref ref-type="bibr" rid="ref52">52</xref></sup>
+ZnS/Cu<sub>1.8</sub>S,<sup><xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref53">53</xref></sup><italic>etc.</italic>) but also as intermediates in sequential CE reactions, making it
+possible to synthesize NCs and hetero-NCs that would otherwise remain inaccessible
+(<italic>e.g</italic>., PbS NRs from CdS NRs by Cd<sup>2+</sup> for Cu<sup>+</sup>
+followed by Cu<sup>+</sup> for Pb<sup>2+</sup> CE,<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> wurtzite ZnSe/ZnS
+and CuInSe<sub>2</sub>/CuInS<sub>2</sub> core/shell NRs from CdSe/CdS core/shell
+NRs<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref54">54</xref></sup>). As a
+result of this extensive research, the thermodynamics and kinetics of aliovalent CE
+reactions involving Cu<sup>+</sup> are reasonably well-understood and known to depend on
+many variables: presence of Cu-extracting ligands in solution,<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> leaving ability
+of the ligands bound to the incoming guest M<sup><italic>n</italic>+</sup> cation,<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> concentration of Cu<sup>+</sup> vacancies,<sup><xref ref-type="bibr" rid="ref52">52</xref>,<xref ref-type="bibr" rid="ref55">55</xref></sup> valence and diffusion rate of the
+incoming guest M<sup><italic>n</italic>+</sup> cation,<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref28">28</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup> crystal structure of the
+template Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs,<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref45">45</xref></sup> and miscibility of the parent and product
+phases.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> As we will discuss below, the results presented above
+unravel one more crucial parameter governing the kinetics of CE reactions: the activated
+complex that must form at the surface of the template NC when a direct place exchange
+reaction is used (<italic>i.e</italic>., when the Cu-extracting ligand is bound to the
+guest heterocation).</p><p>As previously demonstrated by Buhro and co-workers,<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> the aliovalent
+Cu<sup>+</sup> for In<sup>3+</sup> exchange in Cu<sub>2&#x02013;<italic>x</italic></sub>S
+NCs is in the reaction-limited regime. The incorporation of In<sup>3+</sup> is preceded by
+the adsorption of the InX<sub>3</sub> precursor on the NC surface. The displacement of the
+X<sup>&#x02013;</sup> ligand is proposed to occur by nucleophilic attack of lattice
+S<sup>2&#x02013;</sup> ions on the adsorbed InX<sub>3</sub> precursor.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> The height of the energy barrier for this reaction is given by the leaving-group
+ability of the X<sup>&#x02013;</sup> ligand.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> We add that when a direct
+place exchange reaction is promoted by using a TOP&#x02013;InCl<sub>3</sub> complex, the
+energy barrier is lowered by the formation of an incipient bond between the P donor group
+and a Cu<sup>+</sup> ion in the vicinity of the S<sup>2&#x02013;</sup> ion responsible for
+the nucleophilic attack on the In&#x02013;Cl bond. This makes the reaction rates faster and
+allows for a direct place exchange between the incoming In<sup>3+</sup> guest cation and
+one outgoing Cu<sup>+</sup> cation, while facilitating extraction of two additional
+Cu<sup>+</sup> ions as neutral CuCl units. However, the formation of such an activated
+complex imposes constraints on the orientation of the binding TOP&#x02013;InCl<sub>3</sub>
+with respect to the surface Cu<sup>+</sup> and S<sup>2&#x02013;</sup>. Nevertheless, in the
+case of Cu<sup>+</sup> for In<sup>3+</sup> CE, these constraints are not very strict
+because the activated complex can follow only two possible reaction pathways: CE or
+desorption without reaction, in which case it may bind again in the proper orientation
+later.</p><p>In the case of Cu<sup>+</sup> for Ga<sup>3+</sup> CE, the constraints imposed on the
+activated complex are more severe because GaCl<sub>3</sub> is a much stronger Lewis acid
+than InCl<sub>3</sub>, therefore being capable of extracting lattice S<sup>2&#x02013;</sup>
+from the template Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs (Ga&#x02013;S = 393 kJ/mol,
+In&#x02013;S = 313&#x02013;316 kJ/mol),<sup><xref ref-type="bibr" rid="ref56">56</xref></sup> leading to etching rather than
+CE (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>a), as demonstrated above (<xref rid="fig2" ref-type="fig">Figures <xref rid="fig2" ref-type="fig">2</xref></xref> and <xref rid="fig3" ref-type="fig">3</xref>). Complexation of
+GaCl<sub>3</sub> with TOP suppresses the NC etching but does not lead to CE. This
+demonstrates that the activated complex formed upon adsorption of
+GaCl<sub>3</sub>&#x02013;TOP on the NC surface effectively weakens the interaction between
+Ga and the lattice S<sup>2&#x02013;</sup> and also prevents interaction between the P donor
+head and the Cu<sup>+</sup> ions (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>b). In
+contrast, both GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP result in
+successful Cu<sup>+</sup> for Ga<sup>3+</sup> CE. All three ligands (TOP, TPP, DPP) are
+bound to GaCl<sub>3</sub> through the lone pair on the phosphorus atom and an empty
+sp<sup>3</sup> orbital of gallium.<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref57">57</xref>,<xref ref-type="bibr" rid="ref58">58</xref></sup> To extract Cu<sup>+</sup>, the
+phosphine acts as Lewis base and binds to Cu<sup>+</sup> through the same lone pair. In
+order for the phosphine to bind to Cu<sup>+</sup>, while still preventing etching by
+attack of the Ga<sup>3+</sup> to lattice S<sup>2&#x02013;</sup> ions, the activated complex
+at the NC surface (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c) must be such that
+the Cu&#x02013;P bond formation and the Ga&#x02013;P bond breaking occur simultaneously
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c, steps 1&#x02013;3) and are followed
+by the immediate place exchange between Cu<sup>+</sup> and Ga<sup>3+</sup>. We attribute
+the higher CE reactivities of the GaCl<sub>3</sub>&#x02013;TPP and
+GaCl<sub>3</sub>&#x02013;DPP to a more favorable geometry of the activated complex formed
+upon their adsorption on the surface of the template
+Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs, as well as a weaker Ga&#x02013;P bond
+compared to GaCl<sub>3</sub>&#x02013;TOP. In GaCl<sub>3</sub>&#x02013;TPP and
+GaCl<sub>3</sub>&#x02013;DPP, the Ga&#x02013;P bond is weaker than that in
+GaCl<sub>3</sub>&#x02013;TOP (see <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>),
+fulfilling the conditions for a fast place exchange between Ga<sup>3+</sup> and
+Cu<sup>+</sup>, while still making the competing reaction between GaCl<sub>3</sub> and
+the lattice S<sup>2&#x02013;</sup> ions less likely (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c, steps 1&#x02013;3). We note that the Cu<sup>+</sup> for
+Ga<sup>3+</sup> place exchange is thermodynamically favored as it results in the
+formation of two new bonds that are stronger than the initial ones (viz., the Cu&#x02013;P
+bond in the Cu&#x02013;phosphine Lewis acid&#x02013;base adduct, which is favored because
+Cu<sup>+</sup> is a much softer Lewis acid than Ga<sup>3+</sup>, &#x003b7; = 6.28 and 17
+eV, respectively,<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> and the Ga&#x02013;S bond, which has a bond strength
+of 393 kJ/mol while the enthalpy of formation of Cu<sub>2</sub>S is only &#x02212;79.5
+kJ/mol<sup><xref ref-type="bibr" rid="ref59">59</xref></sup>). Nevertheless, some degree of etching still occurs as the
+NCs reacted with GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP are smaller
+than the template NCs (viz., 10.8 &#x000b1; 1.0, 11.1 &#x000b1; 1.1, and 12.3 &#x000b1; 1.0 nm,
+respectively, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>, Figure S1). The observed shrinkage (12.2 and 9.76%,
+respectively) is too large to be attributed to a decrease in unit cell volume alone (see
+discussion on crystal lattice contraction above). The difference in reactivity between
+InCl<sub>3</sub>&#x02013;TOP and GaCl<sub>3</sub>&#x02013;TOP as CE reactants may be due
+to the fact that In<sup>3+</sup> exhibits three-, four-, five-, and six-coordination,
+whereas Ga<sup>3+</sup> is limited to three- and four-coordination.<sup><xref ref-type="bibr" rid="ref57">57</xref></sup>
+InCl<sub>3</sub>&#x02013;TOP has thus more degrees of freedom to rearrange itself at the
+nanocrystal surface to form the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;InCl<sub>3</sub>&#x02013;TOP activated
+complex, whereas GaCl<sub>3</sub>&#x02013;TOP does not, making the formation of the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;GaCl<sub>3</sub>&#x02013;TOP activated
+complex subjected to more stringent orientational constraints and therefore less
+likely.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Schematic depiction of the Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange
+reaction in Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals. (a) Free
+GaCl<sub>3</sub> reacts as a Lewis acid, extracting S<sup>2&#x02013;</sup>, leading
+to etching of the nanocrystals. (b) Extraction of S<sup>2&#x02013;</sup> is inhibited
+when GaCl<sub>3</sub> is complexed with a phosphine ligand. (c) Successful cation
+exchange involves four steps: (i) cleavage of the Ga&#x02013;P bond at the
+Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystal surface, at which point
+Ga&#x02013;S and P&#x02013;Cu bonds are made simultaneously; (ii) extraction of
+Cu<sup>+</sup> by the phosphine; (iii) subsequent incorporation of Ga<sup>3+</sup>
+into the nanocrystal; and (iv) reaction of remaining Cl<sup>&#x02013;</sup> with
+Cu<sup>+</sup>, extracting two additional Cu<sup>+</sup> ions, completing the
+exchange.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0007" id="gr7" position="float"/></fig><p>As mentioned above, the steric demands of all three phosphines used in the present work
+are essentially the same (viz., 128&#x000b0; for DPP and TPP, 132&#x000b0; for TOP),<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> and therefore, steric effects are not expected to play a significant role
+in the outcome of the cation exchange reactions. However, Tolman cone angles are just a
+first approximation as they do not take into account the effect of different M&#x02013;P
+bond lengths, different metal centers, and the overall interaction with other ligands
+coordinated to the same metal center.<sup><xref ref-type="bibr" rid="ref43">43</xref>,<xref ref-type="bibr" rid="ref60">60</xref>,<xref ref-type="bibr" rid="ref61">61</xref></sup> Therefore, actual cone angles
+obtained from X-ray structural data (the so-called solid cone angles) typically deviate
+from the Tolman cone angles, varying over a wide range depending on the nature of the
+metal center and bond length (shorter bonds result in larger cone angles).<sup><xref ref-type="bibr" rid="ref60">60</xref></sup> For example, the solid cone angles determined for triphenylphosphine
+complexes range from 129 to 168&#x000b0;,<sup><xref ref-type="bibr" rid="ref61">61</xref></sup> whereas the Tolman cone angle
+of triphenylphosphine is 145&#x000b0;.<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> In the case of Ni complexes, a slightly larger solid cone angle has
+been reported for TPP with respect to DPP complexes (135 and 124&#x000b0;,
+respectively),<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> consistent with the bulkier nature of the former
+(containing three phenyl groups) with respect to the latter (which contains only two
+phenyl groups). If the impact of steric effects on the outcome of the cation exchange
+reactions were significant, one would expect a difference between the reactivity of the
+complexes using TPP and DPP as ligands, in contrast with our experimental data, which show
+that GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP have similar
+reactivities. This implies that the kinetics of the cation exchange reactions studied in
+our work are primarily dictated by the electronic properties of the phosphine ligands
+used, which determine the Ga&#x02013;P bond strength of the resulting Lewis
+acid&#x02013;base adduct complexes with GaCl<sub>3</sub> and the geometry of the activated
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;GaCl<sub>3</sub>&#x02013;L complex
+that forms at the surface of the Cu<sub>2&#x02013;<italic>x</italic></sub>S NC at the onset
+of the cation exchange reaction. After the place exchange between the outgoing
+Cu<sup>+</sup> and the incoming Ga<sup>3+</sup> cations has taken place, the two
+chlorides still bound to the incorporated Ga<sup>3+</sup> cation will react with two
+neighboring Cu<sup>+</sup> cations, extracting them from the NC surface as neutral CuCl
+units, which are highly soluble in the apolar reaction medium used in our experiments
+(<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>c, step 4). This likely increases the
+thermodynamic driving force of the overall CE reaction both entropically and enthalpically
+as two more chemical species are released in solution and solvated.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> The two
+Cu<sup>+</sup> vacancies left will further promote the CE reaction by allowing more
+Cu<sup>+</sup> cations to diffuse to the surface, while allowing the incorporated
+Ga<sup>3+</sup> guest cation to diffuse inward. As previously shown for CE reactions in
+copper chalcogenide NCs, the CE rates increase with increasing concentration of
+Cu<sup>+</sup> vacancies.<sup><xref ref-type="bibr" rid="ref52">52</xref>,<xref ref-type="bibr" rid="ref62">62</xref></sup></p></sec><sec id="sec2.6"><title>Cu<sup>+</sup> for Ga<sup>3+</sup> Exchange in Luminescent CuInS<sub>2</sub>
+NCs</title><p>To illustrate the general applicability of the findings presented above, we used
+GaCl<sub>3</sub>&#x02013;DPP to convert luminescent CuInS<sub>2</sub> (CIS) NCs into
+(Cu,In,Ga)S<sub>2</sub> (CIGS) NCs with much brighter photoluminescence (see <xref rid="sec4" ref-type="other">Methods</xref> for details). The parent CIS NCs have an
+indium-rich composition with a Cu/In ratio of 0.68 &#x000b1; 0.008:1. EDS analysis of the
+product NCs gives a Cu/Ga/In ratio of 0.20 &#x000b1; 0.001:0.16 &#x000b1; 0.001:1, indicating
+that Cu<sup>+</sup> ions are exchanged for Ga<sup>3+</sup>. These cation ratios imply that
+the charge balance is preserved through the CE reaction, as the relative concentration of
+Ga ions multiplied by their charge of +3 exactly corresponds to the decrease in Cu
+concentration (with charge +1; 0.16 &#x000d7; 3 = 0.48; 0.68&#x02013;0.20 = 0.48).
+Interestingly, the size (&#x0223c;5.5 nm) and pyramidal shape of the CIS NCs are preserved
+in the product CIGS NCs (see <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>a,d),
+despite the removal of a significant amount of cations from the NC. Fast Fourier transform
+(FFT) analysis of the high-resolution TEM images allows determination of the lattice
+spacings, being 0.18, 0.21, and 0.34 nm before and after the reaction
+(<italic>i.e.</italic>, they are not significantly changed by the CE reaction). However,
+analysis of the ED patterns shows a shift to higher <italic>q</italic> values (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>e), indicating a small contraction of the
+unit cell. This contraction is consistent with the exchange of the relatively large
+Cu<sup>+</sup> for the relatively small Ga<sup>3+</sup>
+(<italic>r</italic><sub>Cu<sup>+</sup></sub> = 60 pm,
+<italic>r</italic><sub>Ga<sup>3+</sup></sub> = 47 pm).<sup><xref ref-type="bibr" rid="ref31">31</xref></sup></p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange in luminescent CIS NCs. (a)
+High-resolution TEM image of the parent CIS NCs. The inset shows the FFT of the image.
+(b) High-resolution TEM image of the product CIGS NCs after reaction; the inset shows
+the FFT of the image. (c,d) Enlarged TEM image of single NCs before (c) and after (d)
+the Ga<sup>3+</sup> for Cu<sup>+</sup> CE reaction, with the corresponding FFTs. Both
+scale bars correspond to 5 nm. (e) Azimuthally integrated ED patterns of the parent
+CIS NCs and product CIGS NCs, and bulk roquesite CIS X-ray diffraction reference
+pattern (JPCDS PDF-card 00-047-1372). (f) Absorption and (g) PL spectra of the parent
+CIS NCs and product CIGS NCs. The inset in (f) shows the normalized absorption
+spectra. The PL quantum yield of the product CIGS NCs is at least 10 times higher than
+that of the parent CIS NCs. The dip in the PL spectrum around 1150 nm is caused by
+absorption of emitted light by toluene, which was used as solvent.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_0008" id="gr8" position="float"/></fig><p>The optical properties of the template CIS NCs and the product Ga-containing (CIGS) NCs
+are shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>f,g. Both the absorption
+(<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>f) and photoluminescence (PL, <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>g) spectra show a blue shift after the CE
+reaction, indicating a widening of the band gap. This can be attributed to either an
+increase in quantum confinement due to a smaller effective CIS core
+size,<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> in case a
+CIS/CIGS core/shell NC is formed, or by the intrinsic increase in band
+gap,<sup><xref ref-type="bibr" rid="ref63">63</xref>,<xref ref-type="bibr" rid="ref64">64</xref></sup> in case a
+homogeneous CIGS alloy is formed, as the band gap of bulk CuGaS<sub>2</sub> is larger than
+that of CuInS<sub>2</sub> (2.50 and 1.55 eV, respectively).<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref3">3</xref></sup> Our results, however, do not allow a distinction between the two cases
+to be made. The PL quantum yield (QY) of the product CIGS NCs increases by 1 order of
+magnitude in comparison to that of the parent CIS NCs (<xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>g). Such an increase in PLQY could originate from a strong
+enhancement of the radiative recombination rates, from elimination of nonradiative
+recombination pathways, or from a combination of both. Considering that similar PLQY
+enhancements have been previously observed upon shelling of CIS NCs with both ZnS and CdS,
+and attributed to passivation of nonradiative recombination centers at the
+surface,<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref65">65</xref>&#x02212;<xref ref-type="bibr" rid="ref67">67</xref></sup> it is likely
+that the higher PLQY of the CIGS NCs obtained by cation exchange is also due to improved
+surface passivation. It is interesting to note that PL of CIGS NCs is generally not
+reported,<sup><xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref68">68</xref></sup>
+suggesting that the exciton recombination in these materials tends to be dominated by
+nonradiative decay pathways, in striking contrast to the (Cu-poor) CIGS NCs prepared in
+our work by postsynthetic Cu<sup>+</sup> for Ga<sup>3+</sup> cation exchange in CIS NCs.
+The scarce literature on the PL of CIGS NCs makes it difficult to unambiguously identify
+the radiative recombination mechanism in these materials. However, their large global
+Stokes shift and broad PL peak suggest that, similar to CIS and other
+I&#x02013;III&#x02013;VI<sub>2</sub> NCs, the PL in these nanomaterials most likely
+originates from the radiative recombination of a delocalized conduction band electron with
+a hole localized at a Cu(I) ion.<sup><xref ref-type="bibr" rid="ref69">69</xref></sup> Time-resolved spectroscopic
+measurements could provide additional insights into the origin of the radiative
+recombination in these nanomaterials but are beyond the scope of the present work. It
+should be noted that the PL of these Pb- and Cd-free NCs is centered in the NIR biological
+window.<sup><xref ref-type="bibr" rid="ref65">65</xref></sup> This, in combination with their high PLQY, makes them
+promising candidates for bioimaging applications. Most importantly, the results discussed
+above show that the CE mechanism proposed in the present work is widely applicable.</p></sec></sec><sec id="sec3"><title>Conclusions</title><p>Our work shows the importance of reactant chemistry in aliovalent cation exchange reactions
+in Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals. Noncomplexed GaCl<sub>3</sub>
+reacts as Lewis acid, extracting S<sup>2&#x02013;</sup> from the nanocrystals, thereby
+etching them. Etching is inhibited when GaCl<sub>3</sub> is bound to a phosphine ligand in a
+GaCl<sub>3</sub>&#x02013;L complex (L = trioctylphosphine, triphenylphosphite, and
+diphenylphosphine). GaCl<sub>3</sub>&#x02013;TOP was found to be unreactive, whereas
+GaCl<sub>3</sub>&#x02013;TPP and GaCl<sub>3</sub>&#x02013;DPP lead to successful exchange of
+Cu<sup>+</sup> for Ga<sup>3+</sup>, converting the parent
+Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals into CuGaS<sub>2</sub>
+nanocrystals. This is rationalized by considering that the activated
+Cu<sub>2&#x02013;<italic>x</italic></sub>S&#x02013;GaCl<sub>3</sub>&#x02013;L complex that
+forms at the surface of the nanocrystal upon adsorption of the GaCl<sub>3</sub>&#x02013;L
+complex must allow for simultaneous Ga<sup>3+</sup> insertion and Cu<sup>+</sup> extraction,
+while preventing S<sup>2&#x02013;</sup> extraction. This requirement is only fulfilled by
+activated complexes in which the Ga&#x02013;P bond is sufficiently weak. DFT calculations
+show that the Ga&#x02013;P bond strength decreases with increasing electron-withdrawing
+nature of the side groups of the phosphine ligand. Our findings highlight several factors
+(viz., Lewis acidity, influence of ligand electronic properties on reactivity) which need be
+taken into account when designing cation exchange protocols. Finally, we showed that the
+mechanism proposed here is generally applicable by using GaCl<sub>3</sub>&#x02013;DPP to
+convert CuInS<sub>2</sub> nanocrystals into Cu-poor (Cu,Ga,In)S<sub>2</sub> nanocrystals
+with an increased photoluminescence quantum yield in the NIR spectral window.</p></sec><sec id="sec4"><title>Methods</title><sec id="sec4.1"><title>Materials</title><p>Copper(II) sulfate pentahydrate (CuSO<sub>4</sub>&#x000b7;5H<sub>2</sub>O, 99.995%), oleic
+acid (OA, tech., 90%), 1-dodecanethiol (DDT, &#x02265;98%), oleylamine (tech., 70%),
+gallium(III) chloride (GaCl<sub>3</sub>, anhydrous, beads), trioctylphosphine (90%),
+diphenylphosphine (98%), triphenylphosphite (97%), indium(III) acetate
+(In(Ac)<sub>3</sub>, 99.99%), copper(I) iodide (CuI, 98%), anhydrous methanol, anhydrous
+butanol, and anhydrous toluene were all purchased from Sigma-Aldrich and used as supplied,
+except for OA and OLAM, which were degassed prior to use.</p></sec><sec id="sec4.2"><title>Synthesis of Cu<sub>2&#x02013;<italic>x</italic></sub>S Bifrustum Nanocrystals</title><p>Cu<sub>2&#x02013;<italic>x</italic></sub>S bifrustum nanocrystals were prepared according
+to the method described in the literature.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Typically, 0.203 g of
+CuSO<sub>4</sub>&#x000b7;5H<sub>2</sub>O, 6 mL of OA, and 7.5 mL of DDT were brought into a
+three-neck round-bottom flask, connected to a Schlenk line. Under constant stirring and
+nitrogen atmosphere, the mixture was heated to 200 &#x000b0;C at a rate of about 30
+&#x000b0;C/min. After reaction for 2 h at 200 &#x000b0;C, the mixture was allowed to cool to
+approximately 110 &#x000b0;C, when it was quenched by injection of 5 mL of toluene. The
+product was precipitated by addition of a mixture of methanol and butanol as nonsolvent
+and isolated by centrifugation at 2500 rpm for 10 min. The supernatant was removed, and
+the residue was redispersed in toluene. The mass of product was estimated by weighing the
+empty sample vials prior to sample retrieval and after removal of the supernatant. The
+amount of toluene used to redisperse the particles was chosen such that a concentration of
+approximately 20 g/L was obtained.</p></sec><sec id="sec4.3"><title>Preparation of Cation Exchange Precursors</title><p>Ga&#x02013; and In&#x02013;phosphine precursors were prepared in a way similar to our
+previously reported method.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup></p><p>InCl<sub>3</sub>&#x02013;TOP was prepared in a N<sub>2</sub>-filled glovebox, by addition
+of 1.250 mL (2.8 mmol) of TOP to an equimolar amount (0.620 g) of InCl<sub>3</sub>,
+followed by heating to 50 &#x000b0;C under constant stirring. The resulting turbid, white,
+viscous liquid was diluted by addition of 1.250 mL of toluene.</p><p>GaCl<sub>3</sub>&#x02013;TOP was prepared in a N<sub>2</sub>-filled glovebox, by addition
+of 0.500 mL (1.12 mmol) TOP to an equimolar amount (0.197 g) of GaCl<sub>3</sub>, followed
+by heating to 50 &#x000b0;C under constant stirring, yielding a transparent, orange, viscous
+liquid.</p><p>GaCl<sub>3</sub>&#x02013;DPP was prepared in a N<sub>2</sub>-filled glovebox, by addition
+of 0.815 mL (4.683 mmol) DPP to an equimolar amount (0.8246 g) of GaCl<sub>3</sub>,
+followed by heating to 50 &#x000b0;C under constant stirring. After a few minutes, an opaque,
+white, viscous liquid formed. Over the course of several hours, the liquid changed into an
+opaque, white, crystalline solid, which was dissolved in 10 mL of toluene at 100
+&#x000b0;C.</p><p>GaCl<sub>3</sub>&#x02013;TPP was prepared in a N<sub>2</sub>-filled glovebox, by addition
+of 1.125 mL (4.281 mmol) TPP to an equimolar amount (0.7538 g) of GaCl<sub>3</sub>,
+followed by heating to 50 &#x000b0;C under constant stirring. After a few minutes, an opaque,
+white, crystalline solid formed, which was dissolved in 10 mL of toluene at 100
+&#x000b0;C.</p><p>GaCl<sub>3</sub> cation exchange precursor was prepared in a N<sub>2</sub>-filled
+glovebox, by making a 1 mol/L (176.08 g/L) solution of GaCl<sub>3</sub> in toluene,
+resulting in a transparent, bright green liquid. It was found that the solution degraded
+over time, even when stored under inert atmosphere. Degradation was indicated by a change
+of color from bright green to dark red. In all reactions with GaCl<sub>3</sub> as
+precursor, a fresh batch of precursor was used.</p></sec><sec id="sec4.4"><title>Cation Exchange in Cu<sub>2&#x02013;<italic>x</italic></sub>S Bifrustum
+Nanocrystals</title><p>The cation exchange reactions were performed following the method reported in ref (<xref ref-type="bibr" rid="ref18">18</xref>) inside a N<sub>2</sub>-filled glovebox. The
+equivalent of 0.2 mmol cation exchange precursor (0.200 mL of InCl<sub>3</sub>&#x02013;TOP,
+0.100 mL of GaCl<sub>3</sub>&#x02013;TOP, 0.425 mL of GaCl<sub>3</sub>&#x02013;DPP, 0.465 mL
+of GaCl<sub>3</sub>&#x02013;TPP, 0.200 mL of GaCl<sub>3</sub> solution) was placed in a
+vial. Toluene was added to make the total reaction volume after addition of the NC
+dispersion 2.700 mL (added volume: with InCl<sub>3</sub>&#x02013;TOP, 2.000 mL; with
+GaCl<sub>3</sub>&#x02013;TOP, 2.100 mL; with GaCl<sub>3</sub>&#x02013;DPP, 1.775 mL; with
+GaCl<sub>3</sub>&#x02013;TPP, 1.735 mL; with GaCl<sub>3</sub>, 2.000 mL). The mixture of
+toluene and cation exchange precursor was heated to the reaction temperature (100 &#x000b0;C
+with InCl<sub>3</sub>&#x02013;TOP, GaCl<sub>3</sub>&#x02013;TOP,
+GaCl<sub>3</sub>&#x02013;DPP, GaCl<sub>3</sub>&#x02013;TPP and 30 &#x000b0;C with
+GaCl<sub>3</sub>) under constant stirring at 400 rpm. Once the desired temperature was
+reached, 0.500 mL of parent NC dispersion (equivalent to approximately 10 mg of parent
+particles) was swiftly injected. The reaction was stopped (reaction time: with
+InCl<sub>3</sub>&#x02013;TOP, overnight; with GaCl<sub>3</sub>&#x02013;TOP, overnight;
+with GaCl<sub>3</sub>&#x02013;TPP, 60 min; with GaCl<sub>3</sub>&#x02013;DPP, 60 min; with
+GaCl<sub>3</sub>, 15, 30, 60, 120, and 300 min) by removing the vial from the heater and
+quenched by the addition of methanol and butanol as nonsolvents. All samples were washed
+at least twice prior to analysis, by addition of methanol and butanol as nonsolvent,
+centrifugation and removal of the supernatant. Finally, the particles were redispersed in
+toluene.</p></sec><sec id="sec4.5"><title>Cation Exchange under Milder Reaction Conditions with
+GaCl<sub>3</sub>&#x02013;DPP</title><p>To prevent particle agglomeration, the reaction of
+Cu<sub>2&#x02013;<italic>x</italic></sub>S nanocrystals with GaCl<sub>3</sub>&#x02013;DPP
+was also performed under milder reaction conditions. This reaction was performed at half
+the scale of the reactions discussed above, inside a N<sub>2</sub>-filled glovebox. To
+this end, 0.1 mmol (0.210 mL) GaCl<sub>3</sub>&#x02013;DPP, 0.860 mL of toluene, and 0.025
+mL of OLAM were placed in a vial. The mixture was heated to 50 &#x000b0;C, under constant
+stirring at 400 rpm. Once the desired temperature was reached, 0.250 mL of parent NC
+dispersion (equivalent to approximately 5 mg of parent particles) was swiftly injected.
+The reaction was stopped by removing the vial from the heater and quenched by the addition
+of methanol and butanol as nonsolvents. The product was washed twice prior to analysis, by
+addition of methanol and butanol as nonsolvent, centrifugation, and removal of the
+supernatant. Finally, the particles were redispersed in toluene.</p></sec><sec id="sec4.6"><title>Synthesis of CuInS<sub>2</sub> NCs</title><p>For the synthesis of luminescent CuInS<sub>2</sub> (CIS) NCs a protocol reported earlier
+by Li <italic>et al.</italic>(<xref ref-type="bibr" rid="ref66">66</xref>) was adapted. Briefly, 297 mg of
+In(Ac)<sub>3</sub>, 191 mg of CuI, and 5 mL of DDT were mixed and degassed under vacuum
+for 1 h at 80 &#x000b0;C. The reaction mixture was then heated under N<sub>2</sub> flow to
+230 &#x000b0;C and allowed to react for 100 min. The reaction was stopped by removing the
+heating mantle. The NCs were precipitated with a methanol/butanol 1/1 mixture and, after
+centrifugation and decanting the supernatant, dispersed in 10 mL of toluene.</p></sec><sec id="sec4.7"><title>Cation Exchange in CuInS<sub>2</sub> NCs</title><p>CIS NCs (0.250 mL) in toluene were diluted in a vial with 1 mL of toluene and mixed with
+0.1 mL of DDT (extra ligand) and 0.1 mL of GaCl<sub>3</sub>&#x02013;DPP (prepared as
+described above, however, not dissolved in toluene), which was melted at a heating plate
+with a plate temperature of 100 &#x000b0;C. The vial containing this mixture was placed on
+the heating plate with <italic>T</italic><sub>plate</sub> = 100 &#x000b0;C for 30 min, after
+which the vial was removed and the NCs were precipitated with a methanol/butanol 1/1
+mixture and, after centrifugation and decanting the supernatant, dispersed in 0.2 mL of
+toluene.</p></sec><sec id="sec4.8"><title>Optical Spectroscopy</title><p>Samples were prepared by placing a diluted dispersion of nanocrystals in toluene in a
+quartz cuvette with 10 mm path length. Absorption spectra were measured using a
+PerkinElmer Lambda 16 UV&#x02013;vis&#x02013;NIR spectrometer. Photoluminescence spectra
+were measured on an Edinburgh Instruments FLS920 spectrofluorimeter equipped with a
+Hamamatsu R5509-72 PMT with a monochromator grated at 1200 nm. A 900 W Xe lamp was used as
+the excitation source.</p></sec><sec id="sec4.9"><title>Transmission Electron Microscopy</title><p>TEM images were recorded on Thermo Fisher Scientific (formerly Philips/FEI) Tecnai 10,
+Tecnai 12, and Tecnai 20 electron microscopes. TEM samples were prepared by drop-casting a
+dispersion of particles in toluene onto a copper TEM grid, with a carbon-coated polymer
+support film.</p></sec><sec id="sec4.10"><title>Energy-Dispersive X-ray Spectroscopy</title><p>EDS measurements were performed on Thermo Fisher Scientific Tecnai 20F and Talos F200X
+electron microscopes using Tecnai Imaging and Analysis software. Sample preparation was
+similar to the preparation of TEM samples. In all cases, aluminum TEM grids were used. A
+low-background sample holder was used. Measurements were performed on areas with &#x0003e;500
+nanoparticles. Discussed elemental compositions are normalized to the stoichiometric
+sulfur contents.</p></sec><sec id="sec4.11"><title>Elemental Mapping</title><p>Elemental mapping was performed on a Talos F200X electron microscope equipped with a 200
+kV XFEG. X-ray detection was done using four symmetrically placed SuperX-EDX detectors.
+Imaging was performed in high-angle annular dark-field scanning transmission electron
+microscopy mode, with a current of 700 pA using a Fischione Instruments HAADF detector.
+Obtained data were analyzed using Bruker Esprit software.</p></sec><sec id="sec4.12"><title>HAADF-STEM Tomography</title><p>Tilt series for HAADF-STEM tomography were acquired with a FEI Tecnai Osiris operated at
+200 kV in combination with an advanced tomography holder from Fischione Instruments and
+the FEI XPlore3D acquisition software. Tilt series consisting of 31 HAADF-STEM images were
+acquired with tilt increments of 5&#x000b0; over a range of &#x000b1;75&#x000b0;. Alignment of the
+data was carried out using the FEI Inspect3D software package. The reconstruction was
+performed using the simultaneous iterative reconstruction technique, with 25 iterations,
+implemented in Inspect3D. Amira (Visage Imaging GmbH) was used for the visualization of
+the reconstructed volume.</p></sec><sec id="sec4.13"><title>Electron Diffraction</title><p>Due to the large amount of sample required for X-ray diffraction (XRD) measurements and
+low signal-to-noise ratio in XRD measurements for the samples presented in this work, ED
+was used instead to determine the crystal structure and crystallinity of the samples. ED
+patterns were measured on a Tecnai 12 electron microscope with an acceleration voltage of
+120 kV at a camera length of 1 m.</p><p>Data processing of ED patterns measured on Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs
+and the particles obtained after reaction of these parent NCs with cation exchange
+precursors was performed as follows: measured two-dimensional patterns were reduced to one
+dimension by azimuthal integration of the patterns around the center, which was manually
+defined for every pattern. The measured ED patterns were calibrated to a gold reference
+sample (Agar S106). The calibration procedure is described in detail in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">Supporting Information</ext-link>.</p><p>Data processing of ED patterns measured on CIS NCs and the particles obtained after
+reaction of these parent NCs with cation exchange precursors, was performed using the
+Crystallographic Tool Box (CrysTBox) software,<sup><xref ref-type="bibr" rid="ref70">70</xref></sup> which automatically
+performed the required steps of center localization, azimuthal integration, and
+calibration to a gold reference sample.</p></sec><sec id="sec4.14"><title>Calculated Diffraction Patterns</title><p>Diffraction patterns for the low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S and
+wurtzite CuGaS<sub>2</sub> crystal structures were calculated from the relevant crystal
+structures (for low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S, the crystal
+structure reported in ref (<xref ref-type="bibr" rid="ref34">34</xref>); for wurtzite CGS,
+the crystal structure reported in ref (<xref ref-type="bibr" rid="ref44">44</xref>)) using
+the Visualization for Electronic and Structural Analysis (VESTA) software program (version
+3.3.9),<sup><xref ref-type="bibr" rid="ref71">71</xref></sup> using the default settings. The calculated lattice
+distances in real space, <italic>d</italic>, were transformed into distances in reciprocal
+space, <italic>q</italic>, using the equation <italic>q</italic> =
+2&#x003c0;/<italic>d.</italic></p></sec><sec id="sec4.15"><title>Comparison of the Anion Sublattices</title><p>Using the VESTA software program,<sup><xref ref-type="bibr" rid="ref71">71</xref></sup> all cations were removed from the
+crystal structures of low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S,<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> wurtzite CGS,<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> and monoclinic
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> and a supercell
+(consisting of multiple unit cells) was constructed. Data corresponding to a single
+hexagonal layer and a single ...ABAB... layer was exported for each crystal structure. The
+anion coordinates were translated and rotated to orient the three data sets in the same
+manner. In this common orientation, the <italic>x</italic>, <italic>y</italic>, and
+<italic>z</italic> directions correspond to the following crystallographic directions:
+low-chalcocite Cu<sub>2&#x02013;<italic>x</italic></sub>S: [201],[010],[001]; wurtzite
+CuGaS<sub>2</sub>: [1&#x00031;&#x00305;0],[110],[001]; monoclinic
+&#x003b1;&#x02032;-Ga<sub>2</sub>S<sub>3</sub>: [010],[100],[102]. Lattice distances
+&#x00394;<italic>x</italic>, &#x00394;<italic>y</italic>, and &#x00394;<italic>z</italic> were
+measured over 5, 8, and 5 anion&#x02013;anion distances in <italic>x</italic>,
+<italic>y</italic>, and <italic>z</italic>, respectively. Relative lattice contraction
+values, corresponding to a transformation of lattice <italic>A</italic> into
+<italic>B</italic>, are defined as <inline-formula id="d30e3305"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_m001.gif"/></inline-formula> (and similarly for the <italic>y</italic>
+and <italic>z</italic> directions).</p></sec><sec id="sec4.16"><title>DFT Calculations</title><p>All DFT calculations were performed using the Gaussian 09, revision D.01, software
+package.<sup><xref ref-type="bibr" rid="ref72">72</xref></sup> Geometry optimizations were performed using the B3LYP
+(Becke, three-parameter, Lee&#x02013;Yang&#x02013;Parr) functional, the relativistic
+Stuttgart&#x02013;Dresden (SDD) pseudopotential and basis set on Ga and In and the
+6-311+G(d,p) basis set on all other atoms. The structures were optimized without any
+symmetry restraints. Frequency analyses at the same level were performed on all
+calculations to verify that the obtained stationary points are in fact energy minima.
+Thermochemical analysis was performed using a temperature of 298.15 K. Depicted
+visualizations of the geometry-optimized structures were prepared using the VESTA software
+program.<sup><xref ref-type="bibr" rid="ref71">71</xref></sup></p></sec></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsnano.9b05337">10.1021/acsnano.9b05337</ext-link>.<list id="silist" list-type="simple"><list-item><p>NC
+size histograms, EDS of NCs before and after CE reaction, absorption spectra of NCs
+before and after CE, TEM images of NCs after reaction with GaCl<sub>3</sub> and
+GaCl<sub>3</sub>&#x02013;DPP at 100 &#x000b0;C, HAADF-STEM images and EDS elemental maps
+of Cu<sub>2&#x02013;<italic>x</italic></sub>S NCs after reaction with GaCl<sub>3</sub>,
+detailed description of PED calibration procedure (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_001.pdf">PDF</ext-link>)</p></list-item><list-item><p>File showing the results of the DFT
+calculations (ground-state geometries and bond enthalpies for the phosphine complexes
+used in our work (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsnano.9b05337/suppl_file/nn9b05337_si_005.xyz">XYZ</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_si_001.pdf"><caption><p>nn9b05337_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile5"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="nn9b05337_si_005.xyz"><caption><p>nn9b05337_si_005.xyz</p></caption></media></supplementary-material></sec><notes notes-type="weo-statement" id="notesWEO"><p>Animated versions of the 3D tomographic reconstructions shown in Figure 3.</p></notes><notes notes-type="" id="notes2"><title>Author Present Address</title><p><sup>&#x022a5;</sup> S.O.M.H.: Soft Condensed Matter/Inorganic Chemistry and Catalysis, Debye Institute for
+Nanomaterials Science, Utrecht University, P.O. Box 80000, 3508 TA Utrecht, The
+Netherlands.</p></notes><notes notes-type="" id="notes3"><title>Author Present Address</title><p><sup>&#x000b6;</sup> A.C.B.: Seaborough Research B.V., Science Park 106, 1098XG Amsterdam, The Netherlands.</p></notes><notes notes-type="" id="notes4"><title>Author Present Address</title><p><sup>#</sup> M.K.: Foseco Nederland B.V., Pantheon 30, 7521PR Enschede, The Netherlands.</p></notes><notes notes-type="" id="notes5"><title>Author Present Address</title><p><sup>&#x025b2;</sup> W.v.d.S.: Inorganic Chemistry and Catalysis, Debye Institute for Nanomaterials Science,
+Utrecht University, P.O. Box 80000, Universiteitsweg 99, 3584CG Utrecht, The
+Netherlands.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e3471-autogenerated"><p>The authors declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>S.O.M.H., W.v.d.S., A.C.B., and C.d.M.D. acknowledge financial support from the division of
+Chemical Sciences (CW) of The Netherlands Organization for Scientific Research (NWO) under
+Grant Nos. ECHO.712.012.0001 and ECHO.712.014.001. S.B. acknowledges financial support from
+the European Research Council (ERC Consolidator Grant No. 815128-REALNANO). S.O.M.H. is
+supported by The Netherlands Center for Multiscale Catalytic Energy Conversion (MCEC), an
+NWO Gravitation Programme funded by the Ministry of Education, Culture and Science of the
+government of The Netherlands. DFT calculations were carried out on the Dutch national
+e-infrastructure with the support of SURF Cooperative. This work was sponsored by NWO
+Physical Sciences for the use of supercomputer facilities. The authors thank Jessi van der
+Hoeven for EDS and TEM measurements.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Berends</surname><given-names>A. C.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Prospects of Colloidal Copper Chalcogenide Nanocrystals</article-title>. <source>ChemPhysChem</source>
+<year>2016</year>, <volume>17</volume>, <fpage>559</fpage>&#x02013;<lpage>581</lpage>. <pub-id pub-id-type="doi">10.1002/cphc.201500976</pub-id>.<pub-id pub-id-type="pmid">26684665</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Kolny-Olesiak</surname><given-names>J.</given-names></name>; <name><surname>Weller</surname><given-names>H.</given-names></name>
+<article-title>Synthesis and Application of Colloidal CuInS<sub>2</sub> Semiconductor
+Nanocrystals</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2013</year>, <volume>5</volume>, <fpage>12221</fpage>&#x02013;<lpage>12237</lpage>. <pub-id pub-id-type="doi">10.1021/am404084d</pub-id>.<pub-id pub-id-type="pmid">24187935</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Coughlan</surname><given-names>C.</given-names></name>; <name><surname>Ib&#x000e1;&#x000f1;ez</surname><given-names>M.</given-names></name>; <name><surname>Dobrozhan</surname><given-names>O.</given-names></name>; <name><surname>Singh</surname><given-names>A.</given-names></name>; <name><surname>Cabot</surname><given-names>A.</given-names></name>; <name><surname>Ryan</surname><given-names>K. M.</given-names></name>
+<article-title>Compound Copper Chalcogenide Nanocrystals</article-title>. <source>Chem. Rev.</source>
+<year>2017</year>, <volume>117</volume>, <fpage>5865</fpage>&#x02013;<lpage>6109</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.6b00376</pub-id>.<pub-id pub-id-type="pmid">28394585</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Gudjonsdottir</surname><given-names>S.</given-names></name>; <name><surname>Evers</surname><given-names>W. H.</given-names></name>; <name><surname>Houtepen</surname><given-names>A. J.</given-names></name>
+<article-title>Switching between Plasmonic and Fluorescent Copper Sulfide
+Nanocrystals</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>13208</fpage>&#x02013;<lpage>13217</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.7b07788</pub-id>.<pub-id pub-id-type="pmid">28841295</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Beberwyck</surname><given-names>B. J.</given-names></name>; <name><surname>Surendranath</surname><given-names>Y.</given-names></name>; <name><surname>Alivisatos</surname><given-names>A. P.</given-names></name>
+<article-title>Cation Exchange: A Versatile Tool for Nanomaterials
+Synthesis</article-title>. <source>J. Phys. Chem. C</source>
+<year>2013</year>, <volume>117</volume>, <fpage>19759</fpage>&#x02013;<lpage>19770</lpage>. <pub-id pub-id-type="doi">10.1021/jp405989z</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Rivest</surname><given-names>J. B.</given-names></name>; <name><surname>Jain</surname><given-names>P. K.</given-names></name>
+<article-title>Cation Exchange on the Nanoscale: An Emerging Technique for New Material
+Synthesis, Device Fabrication, and Chemical Sensing</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2013</year>, <volume>42</volume>, <fpage>89</fpage>&#x02013;<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1039/C2CS35241A</pub-id>.<pub-id pub-id-type="pmid">22968228</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Gupta</surname><given-names>S.</given-names></name>; <name><surname>Kershaw</surname><given-names>S. V.</given-names></name>; <name><surname>Rogach</surname><given-names>A. L.</given-names></name>
+<article-title>25th Anniversary Article: Ion Exchange in Colloidal
+Nanocrystals</article-title>. <source>Adv. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>6923</fpage>&#x02013;<lpage>6944</lpage>. <pub-id pub-id-type="doi">10.1002/adma.201302400</pub-id>.<pub-id pub-id-type="pmid">24108549</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>De Trizio</surname><given-names>L.</given-names></name>; <name><surname>Manna</surname><given-names>L.</given-names></name>
+<article-title>Forging Colloidal Nanostructures <italic>via</italic> Cation Exchange
+Reactions</article-title>. <source>Chem. Rev.</source>
+<year>2016</year>, <volume>116</volume>, <fpage>10852</fpage>&#x02013;<lpage>10887</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.5b00739</pub-id>.<pub-id pub-id-type="pmid">26891471</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Sahu</surname><given-names>A.</given-names></name>; <name><surname>Kang</surname><given-names>M. S.</given-names></name>; <name><surname>Kompch</surname><given-names>A.</given-names></name>; <name><surname>Notthoff</surname><given-names>C.</given-names></name>; <name><surname>Wills</surname><given-names>A. W.</given-names></name>; <name><surname>Deng</surname><given-names>D.</given-names></name>; <name><surname>Winterer</surname><given-names>M.</given-names></name>; <name><surname>Frisbie</surname><given-names>C. D.</given-names></name>; <name><surname>Norris</surname><given-names>D. J.</given-names></name>
+<article-title>Electronic Impurity Doping in CdSe Nanocrystals</article-title>. <source>Nano Lett.</source>
+<year>2012</year>, <volume>12</volume>, <fpage>2587</fpage>&#x02013;<lpage>2594</lpage>. <pub-id pub-id-type="doi">10.1021/nl300880g</pub-id>.<pub-id pub-id-type="pmid">22533700</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Geuchies</surname><given-names>J. J.</given-names></name>; <name><surname>Altantzis</surname><given-names>T.</given-names></name>; <name><surname>Van den Bos</surname><given-names>K. H. W.</given-names></name>; <name><surname>Meeldijk</surname><given-names>J. D.</given-names></name>; <name><surname>Van Aert</surname><given-names>S.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>Vanmaekelbergh</surname><given-names>D.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Highly Emissive Divalent Ion Doped Colloidal
+CsPb<sub>1&#x02013;x</sub>M<sub>x</sub>Br<sub>3</sub> Perovskite Nanocrystals through
+Cation Exchange</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>4087</fpage>&#x02013;<lpage>4097</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b13079</pub-id>.<pub-id pub-id-type="pmid">28260380</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Eilers</surname><given-names>J.</given-names></name>; <name><surname>Groeneveld</surname><given-names>E.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>; <name><surname>Meijerink</surname><given-names>A.</given-names></name>
+<article-title>Optical Properties of Mn-Doped ZnTe Magic Size Nanocrystals</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2012</year>, <volume>3</volume>, <fpage>1663</fpage>&#x02013;<lpage>1667</lpage>. <pub-id pub-id-type="doi">10.1021/jz300300g</pub-id>.<pub-id pub-id-type="pmid">26285725</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Groeneveld</surname><given-names>E.</given-names></name>; <name><surname>Witteman</surname><given-names>L.</given-names></name>; <name><surname>Lefferts</surname><given-names>M.</given-names></name>; <name><surname>Ke</surname><given-names>X.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>Van Tendeloo</surname><given-names>G.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Tailoring ZnSe-CdSe Colloidal Quantum Dots <italic>via</italic> Cation
+Exchange: From Core/Shell to Alloy Nanocrystals</article-title>. <source>ACS Nano</source>
+<year>2013</year>, <volume>7</volume>, <fpage>7913</fpage>&#x02013;<lpage>7930</lpage>. <pub-id pub-id-type="doi">10.1021/nn402931y</pub-id>.<pub-id pub-id-type="pmid">23941394</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Grodzi&#x00144;ska</surname><given-names>D.</given-names></name>; <name><surname>Pietra</surname><given-names>F.</given-names></name>; <name><surname>Van Huis</surname><given-names>M. A.</given-names></name>; <name><surname>Vanmaekelbergh</surname><given-names>D.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Thermally Induced Atomic Reconstruction of PbSe/CdSe Core/Shell Quantum
+Dots into PbSe/CdSe Bi-Hemisphere Hetero-Nanocrystals</article-title>. <source>J. Mater. Chem.</source>
+<year>2011</year>, <volume>21</volume>, <fpage>11556</fpage>&#x02013;<lpage>11565</lpage>. <pub-id pub-id-type="doi">10.1039/c0jm04458j</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Fan</surname><given-names>Z.</given-names></name>; <name><surname>Lin</surname><given-names>L.-C.</given-names></name>; <name><surname>Buijs</surname><given-names>W.</given-names></name>; <name><surname>Vlugt</surname><given-names>T. J. H.</given-names></name>; <name><surname>Van Huis</surname><given-names>M. A.</given-names></name>
+<article-title>Atomistic Understanding of Cation Exchange in PbS Nanocrystals Using
+Simulations with Pseudoligands</article-title>. <source>Nat. Commun.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>11503</fpage><pub-id pub-id-type="doi">10.1038/ncomms11503</pub-id>.<pub-id pub-id-type="pmid">27160371</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Hewavitharana</surname><given-names>I. K.</given-names></name>; <name><surname>Brock</surname><given-names>S. L.</given-names></name>
+<article-title>When Ligand Exchange Leads to Ion Exchange: Nanocrystal Facets Dictate the
+Outcome</article-title>. <source>ACS Nano</source>
+<year>2017</year>, <volume>11</volume>, <fpage>11217</fpage>&#x02013;<lpage>11224</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.7b05534</pub-id>.<pub-id pub-id-type="pmid">29035564</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Berends</surname><given-names>A. C.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>; <name><surname>Willhammar</surname><given-names>T.</given-names></name>; <name><surname>Ke</surname><given-names>X.</given-names></name>; <name><surname>Meeldijk</surname><given-names>J. D.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Luminescent CuInS<sub>2</sub> Quantum Dots by Partial Cation Exchange in
+Cu<sub>2-x</sub>S Nanocrystals</article-title>. <source>Chem. Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>621</fpage>&#x02013;<lpage>628</lpage>. <pub-id pub-id-type="doi">10.1021/cm504340h</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Jharimune</surname><given-names>S.</given-names></name>; <name><surname>Sathe</surname><given-names>A. A.</given-names></name>; <name><surname>Rioux</surname><given-names>R. M.</given-names></name>
+<article-title>Thermochemical Measurements of Cation Exchange in CdSe Nanocrystals Using
+Isothermal Titration Calorimetry</article-title>. <source>Nano Lett.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>6795</fpage>&#x02013;<lpage>6803</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.8b02661</pub-id>.<pub-id pub-id-type="pmid">30160126</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Bladt</surname><given-names>E.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Near-Infrared Emitting CuInSe<sub>2</sub>/CuInS<sub>2</sub> Dot Core/Rod
+Shell Heteronanorods by Sequential Cation Exchange</article-title>. <source>ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <fpage>11430</fpage>&#x02013;<lpage>11438</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.5b05496</pub-id>.<pub-id pub-id-type="pmid">26449673</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Wang</surname><given-names>H.</given-names></name>; <name><surname>Butler</surname><given-names>D. J.</given-names></name>; <name><surname>Straus</surname><given-names>D. B.</given-names></name>; <name><surname>Oh</surname><given-names>N.</given-names></name>; <name><surname>Wu</surname><given-names>F.</given-names></name>; <name><surname>Guo</surname><given-names>J.</given-names></name>; <name><surname>Xue</surname><given-names>K.</given-names></name>; <name><surname>Lee</surname><given-names>J. D.</given-names></name>; <name><surname>Murray</surname><given-names>C. B.</given-names></name>; <name><surname>Kagan</surname><given-names>C. R.</given-names></name>
+<article-title>Air-Stable CuInSe<sub>2</sub> Nanocrystal Transistors and Circuits
+<italic>via</italic> Post-Deposition Cation Exchange</article-title>. <source>ACS Nano</source>
+<year>2019</year>, <volume>13</volume>, <fpage>2324</fpage>&#x02013;<lpage>2333</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.8b09055</pub-id>.<pub-id pub-id-type="pmid">30707549</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Regulacio</surname><given-names>M. D.</given-names></name>; <name><surname>Ye</surname><given-names>C.</given-names></name>; <name><surname>Lim</surname><given-names>S. H.</given-names></name>; <name><surname>Zheng</surname><given-names>Y.</given-names></name>; <name><surname>Xu</surname><given-names>Q.-H.</given-names></name>; <name><surname>Han</surname><given-names>M.-Y.</given-names></name>
+<article-title>Facile Noninjection Synthesis and Photocatalytic Properties of
+Wurtzite-Phase CuGaS<sub>2</sub> Nanocrystals with Elongated
+Morphologies</article-title>. <source>CrystEngComm</source>
+<year>2013</year>, <volume>15</volume>, <fpage>5214</fpage>&#x02013;<lpage>5217</lpage>. <pub-id pub-id-type="doi">10.1039/c3ce40352a</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Guijarro</surname><given-names>N.</given-names></name>; <name><surname>Pr&#x000e9;vot</surname><given-names>M. S.</given-names></name>; <name><surname>Yu</surname><given-names>X.</given-names></name>; <name><surname>Jeanbourquin</surname><given-names>X. A.</given-names></name>; <name><surname>Bornoz</surname><given-names>P.</given-names></name>; <name><surname>Bour&#x000e9;e</surname><given-names>W.</given-names></name>; <name><surname>Johnson</surname><given-names>M.</given-names></name>; <name><surname>Le Formal</surname><given-names>F.</given-names></name>; <name><surname>Sivula</surname><given-names>K.</given-names></name>
+<article-title>A Bottom-Up Approach toward All-Solution-Processed High-Efficiency
+Cu(In,Ga)S<sub>2</sub> Photocathodes for Solar Water Splitting</article-title>. <source>Adv. Energy Mater.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>1501949</fpage><pub-id pub-id-type="doi">10.1002/aenm.201501949</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Lee</surname><given-names>K.-H.</given-names></name>; <name><surname>Kim</surname><given-names>J.-H.</given-names></name>; <name><surname>Jang</surname><given-names>H. S.</given-names></name>; <name><surname>Do</surname><given-names>Y. R.</given-names></name>; <name><surname>Yang</surname><given-names>H.</given-names></name>
+<article-title>Quantum-Dot-Based White Lighting Planar Source through Downconversion by
+Blue Electroluminescence</article-title>. <source>Opt. Lett.</source>
+<year>2014</year>, <volume>39</volume>, <fpage>1208</fpage>&#x02013;<lpage>1211</lpage>. <pub-id pub-id-type="doi">10.1364/OL.39.001208</pub-id>.<pub-id pub-id-type="pmid">24690708</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Kim</surname><given-names>J.-H.</given-names></name>; <name><surname>Lee</surname><given-names>K.-H.</given-names></name>; <name><surname>Jo</surname><given-names>D.-Y.</given-names></name>; <name><surname>Lee</surname><given-names>Y.</given-names></name>; <name><surname>Hwang</surname><given-names>J. Y.</given-names></name>; <name><surname>Yang</surname><given-names>H.</given-names></name>
+<article-title>Cu-In-Ga-S Quantum Dot Composition-Dependent Device Performance of
+Electrically Driven Light-Emitting Diodes</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2014</year>, <volume>105</volume>, <fpage>133104</fpage><pub-id pub-id-type="doi">10.1063/1.4896911</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Moon</surname><given-names>S. H.</given-names></name>; <name><surname>Park</surname><given-names>S. J.</given-names></name>; <name><surname>Kim</surname><given-names>S. H.</given-names></name>; <name><surname>Lee</surname><given-names>M. W.</given-names></name>; <name><surname>Han</surname><given-names>J.</given-names></name>; <name><surname>Kim</surname><given-names>J. Y.</given-names></name>; <name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Hwang</surname><given-names>Y. J.</given-names></name>; <name><surname>Lee</surname><given-names>D.-K.</given-names></name>; <name><surname>Min</surname><given-names>B. K.</given-names></name>
+<article-title>Monolithic DSSC/CIGS Tandem Solar Cell Fabricated by a Solution
+Process</article-title>. <source>Sci. Rep.</source>
+<year>2015</year>, <volume>5</volume>, <fpage>8970</fpage><pub-id pub-id-type="doi">10.1038/srep08970</pub-id>.<pub-id pub-id-type="pmid">25759191</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Chen</surname><given-names>Q.</given-names></name>; <name><surname>Hsieh</surname><given-names>Y.-T.</given-names></name>; <name><surname>Song</surname><given-names>T.-B.</given-names></name>; <name><surname>De Marco</surname><given-names>N.</given-names></name>; <name><surname>Zhou</surname><given-names>H.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>
+<article-title>Multilayer Transparent Top Electrode for Solution Processed
+Perovskite/Cu(In,Ga)(Se,S)<sub>2</sub> Four Terminal Tandem Solar
+Cells</article-title>. <source>ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <fpage>7714</fpage>&#x02013;<lpage>7721</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.5b03189</pub-id>.<pub-id pub-id-type="pmid">26098134</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Zhao</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Li</surname><given-names>F.</given-names></name>; <name><surname>Ren</surname><given-names>D.</given-names></name>; <name><surname>Si</surname><given-names>H.</given-names></name>; <name><surname>Sun</surname><given-names>X.</given-names></name>; <name><surname>Ji</surname><given-names>F.</given-names></name>; <name><surname>Hao</surname><given-names>Y.</given-names></name>
+<article-title>Facile Synthesis of CuInGaS<sub>2</sub> Quantum Dot Nanoparticles for
+Bilayer-Sensitized Solar Cells</article-title>. <source>Dalton Trans</source>
+<year>2014</year>, <volume>43</volume>, <fpage>16588</fpage>&#x02013;<lpage>16592</lpage>. <pub-id pub-id-type="doi">10.1039/C4DT02150A</pub-id>.<pub-id pub-id-type="pmid">25300426</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Dilena</surname><given-names>E.</given-names></name>; <name><surname>Xie</surname><given-names>Y.</given-names></name>; <name><surname>Brescia</surname><given-names>R.</given-names></name>; <name><surname>Prato</surname><given-names>M.</given-names></name>; <name><surname>Maserati</surname><given-names>L.</given-names></name>; <name><surname>Krahne</surname><given-names>R.</given-names></name>; <name><surname>Paolella</surname><given-names>A.</given-names></name>; <name><surname>Bertoni</surname><given-names>G.</given-names></name>; <name><surname>Povia</surname><given-names>M.</given-names></name>; <name><surname>Moreels</surname><given-names>I.</given-names></name>; <name><surname>Manna</surname><given-names>L.</given-names></name>
+<article-title>CuIn<sub>x</sub>Ga<sub>1-x</sub>S<sub>2</sub> Nanocrystals with Tunable
+Composition and Band Gap Synthesized <italic>via</italic> a Phosphine-Free and Scalable
+Procedure</article-title>. <source>Chem. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>3180</fpage>&#x02013;<lpage>3187</lpage>. <pub-id pub-id-type="doi">10.1021/cm401563u</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Liu</surname><given-names>Y.</given-names></name>; <name><surname>Yin</surname><given-names>D.</given-names></name>; <name><surname>Swihart</surname><given-names>M. T.</given-names></name>
+<article-title>Valence Selectivity of Cation Incorporation into Covellite CuS
+Nanoplatelets</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>1399</fpage>&#x02013;<lpage>1407</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b05198</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Song</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Dai</surname><given-names>Y.</given-names></name>; <name><surname>Hu</surname><given-names>J.</given-names></name>; <name><surname>Zhu</surname><given-names>L.</given-names></name>; <name><surname>Xu</surname><given-names>X.</given-names></name>; <name><surname>Yu</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Yao</surname><given-names>B.</given-names></name>; <name><surname>Zhou</surname><given-names>H.</given-names></name>
+<article-title>Polyelectrolyte-Mediated Nontoxic
+AgGa<sub>x</sub>In<sub>1-x</sub>S<sub>2</sub> QDs/Low-Density Lipoprotein Nanoprobe
+for Selective 3D Fluorescence Imaging of Cancer Stem Cells</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2019</year>, <volume>11</volume>, <fpage>9884</fpage>&#x02013;<lpage>9892</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.9b00121</pub-id>.<pub-id pub-id-type="pmid">30779876</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Zhai</surname><given-names>Y.</given-names></name>; <name><surname>Flanagan</surname><given-names>J. C.</given-names></name>; <name><surname>Shim</surname><given-names>M.</given-names></name>
+<article-title>Lattice Strain and Ligand Effects on the Formation of
+Cu<sub>2&#x02013;x</sub>S/I-III-VI<sub>2</sub> Nanorod Heterostructures through Partial
+Cation Exchange</article-title>. <source>Chem. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>6161</fpage>&#x02013;<lpage>6167</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b02392</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Shannon</surname><given-names>R. D.</given-names></name>
+<article-title>Revised Effective Ionic Radii and Systematic Studies of Interatomic
+Distances</article-title>. <source>Acta Crystallogr., Sect. A: Cryst. Phys., Diffr., Theor. Gen.
+Crystallogr.</source>
+<year>1976</year>, <volume>32</volume>, <fpage>751</fpage>&#x02013;<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1107/S0567739476001551</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Pearson</surname><given-names>R. G.</given-names></name>
+<article-title>Absolute Electronegativity and Hardness: Application to Inorganic
+Chemistry</article-title>. <source>Inorg. Chem.</source>
+<year>1988</year>, <volume>27</volume>, <fpage>734</fpage>&#x02013;<lpage>740</lpage>. <pub-id pub-id-type="doi">10.1021/ic00277a030</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Xia</surname><given-names>C.</given-names></name>; <name><surname>Wu</surname><given-names>W.</given-names></name>; <name><surname>Yu</surname><given-names>T.</given-names></name>; <name><surname>Xie</surname><given-names>X.</given-names></name>; <name><surname>Van Oversteeg</surname><given-names>C.</given-names></name>; <name><surname>Gerritsen</surname><given-names>H. C.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Size-Dependent Band-Gap and Molar Absorption Coefficients of Colloidal
+CuInS<sub>2</sub> Quantum Dots</article-title>. <source>ACS Nano</source>
+<year>2018</year>, <volume>12</volume>, <fpage>8350</fpage>&#x02013;<lpage>8361</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.8b03641</pub-id>.<pub-id pub-id-type="pmid">30085648</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Evans</surname><given-names>H. T.</given-names></name>
+<article-title>Crystal Structure of Low Chalcocite</article-title>. <source>Nature, Phys. Sci.</source>
+<year>1971</year>, <volume>232</volume>, <fpage>69</fpage>&#x02013;<lpage>70</lpage>. <pub-id pub-id-type="doi">10.1038/physci232069a0</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Wang</surname><given-names>W.</given-names></name>; <name><surname>Dahl</surname><given-names>M.</given-names></name>; <name><surname>Yin</surname><given-names>Y.</given-names></name>
+<article-title>Hollow Nanocrystals through the Nanoscale Kirkendall Effect</article-title>. <source>Chem. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>1179</fpage>&#x02013;<lpage>1189</lpage>. <pub-id pub-id-type="doi">10.1021/cm3030928</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Yin</surname><given-names>Y.</given-names></name>; <name><surname>Rioux</surname><given-names>R. M.</given-names></name>; <name><surname>Erdonmez</surname><given-names>C. K.</given-names></name>; <name><surname>Hughes</surname><given-names>S.</given-names></name>; <name><surname>Somorjai</surname><given-names>G. A.</given-names></name>; <name><surname>Alivisatos</surname><given-names>A. P.</given-names></name>
+<article-title>Formation of Hollow Nanocrystals through the Nanoscale Kirkendall
+Effect</article-title>. <source>Science</source>
+<year>2004</year>, <volume>304</volume>, <fpage>711</fpage>&#x02013;<lpage>714</lpage>. <pub-id pub-id-type="doi">10.1126/science.1096566</pub-id>.<pub-id pub-id-type="pmid">15118156</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Mu</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Sadtler</surname><given-names>B.</given-names></name>; <name><surname>Loomis</surname><given-names>R. A.</given-names></name>; <name><surname>Buhro</surname><given-names>W. E.</given-names></name>
+<article-title>Influence of the Nanoscale Kirkendall Effect on the Morphology of Copper
+Indium Disulfide Nanoplatelets Synthesized by Ion Exchange</article-title>. <source>ACS Nano</source>
+<year>2015</year>, <volume>9</volume>, <fpage>7419</fpage>&#x02013;<lpage>7428</lpage>. <pub-id pub-id-type="doi">10.1021/acsnano.5b02427</pub-id>.<pub-id pub-id-type="pmid">26165847</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Ogawa</surname><given-names>A.</given-names></name>; <name><surname>Fujimoto</surname><given-names>H.</given-names></name>
+<article-title>Lewis Acidity of Gallium Halides</article-title>. <source>Inorg. Chem.</source>
+<year>2002</year>, <volume>41</volume>, <fpage>4888</fpage>&#x02013;<lpage>4894</lpage>. <pub-id pub-id-type="doi">10.1021/ic020268m</pub-id>.<pub-id pub-id-type="pmid">12230392</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Hogg</surname><given-names>J. M.</given-names></name>; <name><surname>Coleman</surname><given-names>F.</given-names></name>; <name><surname>Ferrer-Ugalde</surname><given-names>A.</given-names></name>; <name><surname>Atkins</surname><given-names>M. P.</given-names></name>; <name><surname>Swad&#x0017a;ba-Kwa&#x0015b;ny</surname><given-names>M.</given-names></name>
+<article-title>Liquid Coordination Complexes: A New Class of Lewis Acids as Safer
+Alternatives to BF<sub>3</sub> in Synthesis of Polyalphaolefins</article-title>. <source>Green Chem.</source>
+<year>2015</year>, <volume>17</volume>, <fpage>1831</fpage>&#x02013;<lpage>1841</lpage>. <pub-id pub-id-type="doi">10.1039/C4GC02080D</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Ruberu</surname><given-names>T. P. A.</given-names></name>; <name><surname>Albright</surname><given-names>H. R.</given-names></name>; <name><surname>Callis</surname><given-names>B.</given-names></name>; <name><surname>Ward</surname><given-names>B.</given-names></name>; <name><surname>Cisneros</surname><given-names>J.</given-names></name>; <name><surname>Fan</surname><given-names>H.-J.</given-names></name>; <name><surname>Vela</surname><given-names>J.</given-names></name>
+<article-title>Molecular Control of the Nanoscale: Effect of Phosphine&#x02013;Chalcogenide
+Reactivity on CdS&#x02013;CdSe Nanocrystal Composition and Morphology</article-title>. <source>ACS Nano</source>
+<year>2012</year>, <volume>6</volume>, <fpage>5348</fpage>&#x02013;<lpage>5359</lpage>. <pub-id pub-id-type="doi">10.1021/nn301182h</pub-id>.<pub-id pub-id-type="pmid">22519805</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Tolman</surname><given-names>C. A.</given-names></name>
+<article-title>Steric Effects of Phosphorus Ligands in Organometallic Chemistry and
+Homogeneous Catalysis</article-title>. <source>Chem. Rev.</source>
+<year>1977</year>, <volume>77</volume>, <fpage>313</fpage>&#x02013;<lpage>348</lpage>. <pub-id pub-id-type="doi">10.1021/cr60307a002</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>K&#x000fc;hl</surname><given-names>O.</given-names></name>
+<article-title>Predicting the Net Donating Ability of Phosphines - Do We Need
+Sophisticated Theoretical Methods?</article-title>. <source>Coord. Chem. Rev.</source>
+<year>2005</year>, <volume>249</volume>, <fpage>693</fpage>&#x02013;<lpage>704</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2004.08.021</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Brown</surname><given-names>T. L.</given-names></name>; <name><surname>Lee</surname><given-names>K. J.</given-names></name>
+<article-title>Ligand Steric Properties</article-title>. <source>Coord. Chem. Rev.</source>
+<year>1993</year>, <volume>128</volume>, <fpage>89</fpage>&#x02013;<lpage>116</lpage>. <pub-id pub-id-type="doi">10.1016/0010-8545(93)80025-Z</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Xiao</surname><given-names>N.</given-names></name>; <name><surname>Zhu</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>K.</given-names></name>; <name><surname>Dai</surname><given-names>Q.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>S.</given-names></name>; <name><surname>Sui</surname><given-names>Y.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>; <name><surname>Liu</surname><given-names>J.</given-names></name>; <name><surname>Liu</surname><given-names>B.</given-names></name>; <name><surname>Zou</surname><given-names>G.</given-names></name>; <name><surname>Zou</surname><given-names>B.</given-names></name>
+<article-title>Synthesis and High-Pressure Transformation of Metastable
+Wurtzite-Structured CuGaS<sub>2</sub> Nanocrystals</article-title>. <source>Nanoscale</source>
+<year>2012</year>, <volume>4</volume>, <fpage>7443</fpage>&#x02013;<lpage>7447</lpage>. <pub-id pub-id-type="doi">10.1039/c2nr31629c</pub-id>.<pub-id pub-id-type="pmid">23086438</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Fenton</surname><given-names>J. L.</given-names></name>; <name><surname>Steimle</surname><given-names>B. C.</given-names></name>; <name><surname>Schaak</surname><given-names>R. E.</given-names></name>
+<article-title>Structure-Selective Synthesis of Wurtzite and Zincblende ZnS, CdS, and
+CuInS<sub>2</sub> Using Nanoparticle Cation Exchange Reactions</article-title>. <source>Inorg. Chem.</source>
+<year>2019</year>, <volume>58</volume>, <fpage>672</fpage>&#x02013;<lpage>678</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.8b02880</pub-id>.<pub-id pub-id-type="pmid">30525523</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Pardo</surname><given-names>M. P.</given-names></name>; <name><surname>Guittard</surname><given-names>M.</given-names></name>; <name><surname>Chilouet</surname><given-names>A.</given-names></name>; <name><surname>Tomas</surname><given-names>A.</given-names></name>
+<article-title>Diagramme de Phases Gallium-Soufre et &#x000c9;tudes Structurales Des Phases
+Solides</article-title>. <source>J. Solid State Chem.</source>
+<year>1993</year>, <volume>102</volume>, <fpage>423</fpage>&#x02013;<lpage>433</lpage>. <pub-id pub-id-type="doi">10.1006/jssc.1993.1054</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Nogai</surname><given-names>S.</given-names></name>; <name><surname>Schmidbaur</surname><given-names>H.</given-names></name>
+<article-title>Dichlorogallane (HGaCl<sub>2</sub>)<sub>2</sub>: Its Molecular Structure
+and Synthetic Potential</article-title>. <source>Inorg. Chem.</source>
+<year>2002</year>, <volume>41</volume>, <fpage>4770</fpage>&#x02013;<lpage>4774</lpage>. <pub-id pub-id-type="doi">10.1021/ic0203015</pub-id>.<pub-id pub-id-type="pmid">12206703</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Cheng</surname><given-names>F.</given-names></name>; <name><surname>Codgbrook</surname><given-names>H. L.</given-names></name>; <name><surname>Hector</surname><given-names>A. L.</given-names></name>; <name><surname>Levason</surname><given-names>W.</given-names></name>; <name><surname>Reid</surname><given-names>G.</given-names></name>; <name><surname>Webster</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>
+<article-title>Gallium(III) Halide Complexes with Phosphines, Arsines and Phosphine Oxides
+&#x02013; a Comparative Study</article-title>. <source>Polyhedron</source>
+<year>2007</year>, <volume>26</volume>, <fpage>4147</fpage>&#x02013;<lpage>4155</lpage>. <pub-id pub-id-type="doi">10.1016/j.poly.2007.05.008</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Yarema</surname><given-names>O.</given-names></name>; <name><surname>Yarema</surname><given-names>M.</given-names></name>; <name><surname>Wood</surname><given-names>V.</given-names></name>
+<article-title>Tuning the Composition of Multicomponent Semiconductor Nanocrystals: The
+Case of I-III-VI Materials</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>1446</fpage>&#x02013;<lpage>1461</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b04710</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Berends</surname><given-names>A. C.</given-names></name>; <name><surname>Van der Stam</surname><given-names>W.</given-names></name>; <name><surname>Akkerman</surname><given-names>Q. A.</given-names></name>; <name><surname>Meeldijk</surname><given-names>J. D.</given-names></name>; <name><surname>Van der Lit</surname><given-names>J.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Anisotropic 2D Cu<sub>2-x</sub>Se Nanocrystals from Dodecaneselenol and
+Their Conversion to CdSe and CuInSe<sub>2</sub> Nanoparticles</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>3836</fpage>&#x02013;<lpage>3846</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.8b01143</pub-id>.<pub-id pub-id-type="pmid">29910536</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Tan</surname><given-names>J. M. R.</given-names></name>; <name><surname>Scott</surname><given-names>M. C.</given-names></name>; <name><surname>Hao</surname><given-names>W.</given-names></name>; <name><surname>Baikie</surname><given-names>T.</given-names></name>; <name><surname>Nelson</surname><given-names>C. T.</given-names></name>; <name><surname>Pedireddy</surname><given-names>S.</given-names></name>; <name><surname>Tao</surname><given-names>R.</given-names></name>; <name><surname>Ling</surname><given-names>X.</given-names></name>; <name><surname>Magdassi</surname><given-names>S.</given-names></name>; <name><surname>White</surname><given-names>T.</given-names></name>; <name><surname>Li</surname><given-names>S.</given-names></name>; <name><surname>Minor</surname><given-names>A. M.</given-names></name>; <name><surname>Zheng</surname><given-names>H.</given-names></name>; <name><surname>Wong</surname><given-names>L. H.</given-names></name>
+<article-title>Revealing Cation-Exchange-Induced Phase Transformations in Multielemental
+Chalcogenide Nanoparticles</article-title>. <source>Chem. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>9192</fpage>&#x02013;<lpage>9199</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b03029</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Lesnyak</surname><given-names>V.</given-names></name>; <name><surname>Brescia</surname><given-names>R.</given-names></name>; <name><surname>Messina</surname><given-names>G. C.</given-names></name>; <name><surname>Manna</surname><given-names>L.</given-names></name>
+<article-title>Cu Vacancies Boost Cation Exchange Reactions in Copper Selenide
+Nanocrystals</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>9315</fpage>&#x02013;<lpage>9323</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.5b03868</pub-id>.<pub-id pub-id-type="pmid">26140622</pub-id></mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Fenton</surname><given-names>J. L.</given-names></name>; <name><surname>Steimle</surname><given-names>B. C.</given-names></name>; <name><surname>Schaak</surname><given-names>R. E.</given-names></name>
+<article-title>Tunable Intraparticle Frameworks for Creating Complex Heterostructured
+Nanoparticle Libraries</article-title>. <source>Science</source>
+<year>2018</year>, <volume>360</volume>, <fpage>513</fpage>&#x02013;<lpage>517</lpage>. <pub-id pub-id-type="doi">10.1126/science.aar5597</pub-id>.<pub-id pub-id-type="pmid">29724950</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Brescia</surname><given-names>R.</given-names></name>; <name><surname>Krahne</surname><given-names>R.</given-names></name>; <name><surname>Bertoni</surname><given-names>G.</given-names></name>; <name><surname>Alcocer</surname><given-names>M. J. P.</given-names></name>; <name><surname>D&#x02019;Andrea</surname><given-names>C.</given-names></name>; <name><surname>Scotognella</surname><given-names>F.</given-names></name>; <name><surname>Tassone</surname><given-names>F.</given-names></name>; <name><surname>Zanella</surname><given-names>M.</given-names></name>; <name><surname>De Giorgi</surname><given-names>M.</given-names></name>; <name><surname>Manna</surname><given-names>L.</given-names></name>
+<article-title>Blue-UV-Emitting ZnSe(Dot)/ZnS(Rod) Core/Shell Nanocrystals Prepared from
+CdSe/CdS Nanocrystals by Sequential Cation Exchange</article-title>. <source>ACS Nano</source>
+<year>2012</year>, <volume>6</volume>, <fpage>1637</fpage>&#x02013;<lpage>1647</lpage>. <pub-id pub-id-type="doi">10.1021/nn204601n</pub-id>.<pub-id pub-id-type="pmid">22283644</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Chakraborty</surname><given-names>P.</given-names></name>; <name><surname>Jin</surname><given-names>Y.</given-names></name>; <name><surname>Barrows</surname><given-names>C. J.</given-names></name>; <name><surname>Dunham</surname><given-names>S. T.</given-names></name>; <name><surname>Gamelin</surname><given-names>D. R.</given-names></name>
+<article-title>Kinetics of Isovalent (Cd<sup>2+</sup>) and Aliovalent (In<sup>3+</sup>)
+Cation Exchange in Cd<sub>1-x</sub>Mn<sub>x</sub>Se Nanocrystals</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>12885</fpage>&#x02013;<lpage>12893</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b05949</pub-id>.<pub-id pub-id-type="pmid">27593346</pub-id></mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="book" id="cit56"><person-group person-group-type="allauthors"><name><surname>Zuckerman</surname><given-names>J. J.</given-names></name>;
+<name><surname>Hagen</surname><given-names>A. P.</given-names></name></person-group><source>Inorganic Reactions and Methods: Formation of Bonds to O, S, Se, Te, Po (Part
+1)</source>, <edition>1</edition>st ed.; <publisher-name>VCH Publishers,
+Inc.</publisher-name>: <publisher-loc>New York</publisher-loc>, <year>1992</year>; Vol.
+<volume>5</volume>, p <fpage>217</fpage>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Burt</surname><given-names>J.</given-names></name>; <name><surname>Levason</surname><given-names>W.</given-names></name>; <name><surname>Reid</surname><given-names>G.</given-names></name>
+<article-title>Coordination Chemistry of the Main Group Elements with Phosphine, Arsine
+and Stibine Ligands</article-title>. <source>Coord. Chem. Rev.</source>
+<year>2014</year>, <volume>260</volume>, <fpage>65</fpage>&#x02013;<lpage>115</lpage>. <pub-id pub-id-type="doi">10.1016/j.ccr.2013.09.020</pub-id>.</mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Chen</surname><given-names>F.</given-names></name>; <name><surname>Ma</surname><given-names>G.</given-names></name>; <name><surname>Bernard</surname><given-names>G. M.</given-names></name>; <name><surname>Wasylishen</surname><given-names>R. E.</given-names></name>; <name><surname>Cavell</surname><given-names>R. G.</given-names></name>; <name><surname>McDonald</surname><given-names>R.</given-names></name>; <name><surname>Ferguson</surname><given-names>M. J.</given-names></name>
+<article-title>An Investigation of 1:1 Adducts of Gallium Trihalides with
+Triarylphosphines by Solid-State <sup>69/71</sup>Ga and <sup>31</sup>P NMR
+Spectroscopy</article-title>. <source>Chem. - Eur. J.</source>
+<year>2013</year>, <volume>19</volume>, <fpage>2826</fpage>&#x02013;<lpage>2838</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201202954</pub-id>.<pub-id pub-id-type="pmid">23307415</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="book" id="cit59"><person-group person-group-type="allauthors"><name><surname>Haynes</surname><given-names>W. M.</given-names></name></person-group><source>CRC Handbook of Chemistry and Physics</source>, <edition>95</edition>th ed.;
+<publisher-name>CRC Press</publisher-name>: <publisher-loc>Boca Raton,
+FL</publisher-loc>, <year>2014</year>; section 5&#x02013;11.</mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Clavier</surname><given-names>H.</given-names></name>; <name><surname>Nolan</surname><given-names>S. P.</given-names></name>
+<article-title>Percent Buried Volume for Phosphine and N-Heterocyclic Carbene Ligands:
+Steric Properties in Organometallic Chemistry</article-title>. <source>Chem. Commun. (Cambridge, U. K.)</source>
+<year>2010</year>, <volume>46</volume>, <fpage>841</fpage>&#x02013;<lpage>861</lpage>. <pub-id pub-id-type="doi">10.1039/b922984a</pub-id>.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Snelders</surname><given-names>D. J. M.</given-names></name>; <name><surname>Van Koten</surname><given-names>G.</given-names></name>; <name><surname>Klein Gebbink</surname><given-names>R. J. M.</given-names></name>
+<article-title>Steric, Electronic, and Secondary Effects on the Coordination Chemistry of
+Ionic Phosphine Ligands and the Catalytic Behavior of Their Metal
+Complexes</article-title>. <source>Chem. - Eur. J.</source>
+<year>2011</year>, <volume>17</volume>, <fpage>42</fpage>&#x02013;<lpage>57</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201002508</pub-id>.<pub-id pub-id-type="pmid">21207599</pub-id></mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Chakraborty</surname><given-names>P.</given-names></name>; <name><surname>Jin</surname><given-names>Y.</given-names></name>; <name><surname>Barrows</surname><given-names>C. J.</given-names></name>; <name><surname>Dunham</surname><given-names>S. T.</given-names></name>; <name><surname>Gamelin</surname><given-names>D. R.</given-names></name>
+<article-title>Kinetics of Isovalent (Cd<sup>2+</sup>) and Aliovalent (In<sup>3+</sup>)
+Cation Exchange in Cd<sub>1-x</sub>Mn<sub>x</sub>Se Nanocrystals</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>12885</fpage>&#x02013;<lpage>12893</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.6b05949</pub-id>.<pub-id pub-id-type="pmid">27593346</pub-id></mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Choi</surname><given-names>Y.-M.</given-names></name>; <name><surname>Lee</surname><given-names>Y.-I.</given-names></name>; <name><surname>Kim</surname><given-names>S.</given-names></name>; <name><surname>Choa</surname><given-names>Y.-H.</given-names></name>
+<article-title>Metallic Alloy Nanoparticle-Based Fabrication and Optical Properties of a
+Cu(In<sub>1-x</sub>Ga<sub>x</sub>)S<sub>2</sub> Absorber Layer for Solar
+Cells</article-title>. <source>J. Alloys Compd.</source>
+<year>2014</year>, <volume>615</volume>, <fpage>496</fpage>&#x02013;<lpage>500</lpage>. <pub-id pub-id-type="doi">10.1016/j.jallcom.2014.06.174</pub-id>.</mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Chang</surname><given-names>S.-H.</given-names></name>; <name><surname>Chiang</surname><given-names>M.-Y.</given-names></name>; <name><surname>Chiang</surname><given-names>C.-C.</given-names></name>; <name><surname>Yuan</surname><given-names>F.-W.</given-names></name>; <name><surname>Chen</surname><given-names>C.-Y.</given-names></name>; <name><surname>Chiu</surname><given-names>B.-C.</given-names></name>; <name><surname>Kao</surname><given-names>T.-L.</given-names></name>; <name><surname>Lai</surname><given-names>C.-H.</given-names></name>; <name><surname>Tuan</surname><given-names>H.-Y.</given-names></name>
+<article-title>Facile Colloidal Synthesis of Quinary
+CuIn<sub>1-x</sub>Ga<sub>x</sub>(S<sub>y</sub>Se<sub>1-y</sub>) (CIGSSe) Nanocrystal
+Inks with Tunable Band Gaps for Use in Low-Cost Photovoltaics</article-title>. <source>Energy Environ. Sci.</source>
+<year>2011</year>, <volume>4</volume>, <fpage>4929</fpage>&#x02013;<lpage>4932</lpage>. <pub-id pub-id-type="doi">10.1039/c1ee02341a</pub-id>.</mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="journal" id="cit65"><name><surname>Xia</surname><given-names>C.</given-names></name>; <name><surname>Meeldijk</surname><given-names>J. D.</given-names></name>; <name><surname>Gerritsen</surname><given-names>H. C.</given-names></name>; <name><surname>de Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Highly Luminescent Water-Dispersible NIR-Emitting Wurtzite
+CuInS<sub>2</sub>/ZnS Core/Shell Colloidal Quantum Dots</article-title>. <source>Chem. Mater.</source>
+<year>2017</year>, <volume>29</volume>, <fpage>4940</fpage>&#x02013;<lpage>4951</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b01258</pub-id>.<pub-id pub-id-type="pmid">28638177</pub-id></mixed-citation></ref><ref id="ref66"><mixed-citation publication-type="journal" id="cit66"><name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>; <name><surname>Werder</surname><given-names>D. J.</given-names></name>; <name><surname>Khanal</surname><given-names>B. P.</given-names></name>; <name><surname>Pietryga</surname><given-names>J. M.</given-names></name>; <name><surname>Klimov</surname><given-names>V. I.</given-names></name>
+<article-title>Efficient Synthesis of Highly Luminescent Copper Indium Sulfide-Based
+Core/Shell Nanocrystals with Surprisingly Long-Lived Emission</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2011</year>, <volume>133</volume>, <fpage>1176</fpage>&#x02013;<lpage>1179</lpage>. <pub-id pub-id-type="doi">10.1021/ja108261h</pub-id>.<pub-id pub-id-type="pmid">21207995</pub-id></mixed-citation></ref><ref id="ref67"><mixed-citation publication-type="journal" id="cit67"><name><surname>Berends</surname><given-names>A. C.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>; <name><surname>Spoor</surname><given-names>F. C. M.</given-names></name>; <name><surname>Bladt</surname><given-names>E.</given-names></name>; <name><surname>Grozema</surname><given-names>F. C.</given-names></name>; <name><surname>Houtepen</surname><given-names>A. J.</given-names></name>; <name><surname>Siebbeles</surname><given-names>L. D. A.</given-names></name>; <name><surname>De Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Radiative and Nonradiative Recombination in CuInS<sub>2</sub> Nanocrystals
+and CuInS<sub>2</sub>-Based Core/Shell Nanocrystals</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>3503</fpage>&#x02013;<lpage>3509</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.6b01668</pub-id>.<pub-id pub-id-type="pmid">27552674</pub-id></mixed-citation></ref><ref id="ref68"><mixed-citation publication-type="journal" id="cit68"><name><surname>Bai</surname><given-names>X.</given-names></name>; <name><surname>Purcell-Milton</surname><given-names>F.</given-names></name>; <name><surname>Gun&#x02019;ko</surname><given-names>Y.</given-names></name>
+<article-title>Optical Properties, Synthesis, and Potential Applications of Cu-Based
+Ternary or Quaternary Anisotropic Quantum Dots, Polytypic Nanocrystals, and Core/Shell
+Heterostructures</article-title>. <source>Nanomaterials</source>
+<year>2019</year>, <volume>9</volume>, <fpage>85</fpage><pub-id pub-id-type="doi">10.3390/nano9010085</pub-id>.</mixed-citation></ref><ref id="ref69"><mixed-citation publication-type="journal" id="cit69"><name><surname>Berends</surname><given-names>A. C.</given-names></name>; <name><surname>Mangnus</surname><given-names>M. J. J.</given-names></name>; <name><surname>Xia</surname><given-names>C.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>; <name><surname>De Mello Doneg&#x000e1;</surname><given-names>C.</given-names></name>
+<article-title>Optoelectronic Properties of Ternary I-III-VI<sub>2</sub> Semiconductor
+Nanocrystals: Bright Prospects with Elusive Origins</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>1600</fpage>&#x02013;<lpage>1616</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.8b03653</pub-id>.<pub-id pub-id-type="pmid">30883139</pub-id></mixed-citation></ref><ref id="ref70"><mixed-citation publication-type="journal" id="cit70"><name><surname>Klinger</surname><given-names>M.</given-names></name>; <name><surname>J&#x000e4;ger</surname><given-names>A.</given-names></name>
+<article-title>Crystallographic Tool Box (CrysTBox): Automated Tools for Transmission
+Electron Microscopists and Crystallographers</article-title>. <source>J. Appl. Crystallogr.</source>
+<year>2015</year>, <volume>48</volume>, <fpage>2012</fpage>&#x02013;<lpage>2018</lpage>. <pub-id pub-id-type="doi">10.1107/S1600576715017252</pub-id>.<pub-id pub-id-type="pmid">26664349</pub-id></mixed-citation></ref><ref id="ref71"><mixed-citation publication-type="journal" id="cit71"><name><surname>Momma</surname><given-names>K.</given-names></name>; <name><surname>Izumi</surname><given-names>F.</given-names></name>
+<article-title>VESTA 3 for Three-Dimensional Visualization of Crystal, Volumetric and
+Morphology Data</article-title>. <source>J. Appl. Crystallogr.</source>
+<year>2011</year>, <volume>44</volume>, <fpage>1272</fpage>&#x02013;<lpage>1276</lpage>. <pub-id pub-id-type="doi">10.1107/S0021889811038970</pub-id>.</mixed-citation></ref><ref id="ref72"><mixed-citation publication-type="computer-program" id="cit72"><person-group person-group-type="allauthors"><name><surname>Frisch</surname><given-names>M.
+J.</given-names></name>; <name><surname>Trucks</surname><given-names>G.
+W.</given-names></name>; <name><surname>Schlegel</surname><given-names>H.
+B.</given-names></name>; <name><surname>Scuseria</surname><given-names>G.
+E.</given-names></name>; <name><surname>Robb</surname><given-names>M.
+A.</given-names></name>; <name><surname>Cheeseman</surname><given-names>J.
+R.</given-names></name>; <name><surname>Scalmani</surname><given-names>G.</given-names></name>; <name><surname>Barone</surname><given-names>V.</given-names></name>; <name><surname>Mennucci</surname><given-names>B.</given-names></name>; <name><surname>Petersson</surname><given-names>G.
+A.</given-names></name>; <name><surname>Nakatsuji</surname><given-names>H.</given-names></name>; <name><surname>Caricato</surname><given-names>M.</given-names></name>; <name><surname>Li</surname><given-names>X.</given-names></name>; <name><surname>Hratchian</surname><given-names>H.
+P.</given-names></name>; <name><surname>Izmaylov</surname><given-names>A.
+F.</given-names></name>; <name><surname>Bloino</surname><given-names>J.</given-names></name>;
+<name><surname>Zheng</surname><given-names>G.</given-names></name>;
+<name><surname>Sonnenberg</surname><given-names>J. L.</given-names></name>;
+<name><surname>Hada</surname><given-names>M.</given-names></name>;
+<name><surname>Ehara</surname><given-names>M.</given-names></name></person-group>; <etal/><source>Gaussian 09</source>; <publisher-name>Gaussian Inc.</publisher-name>:
+<publisher-loc>Wallingford, CT</publisher-loc>, <year>2009</year>.</mixed-citation></ref></ref-list></back></article>

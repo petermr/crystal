@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The echo signals are processed with a dechirping manner and residual video phase (RVP) correction, and the expression of the radar echo becomes: 
+ <disp-formula id="FD4-sensors-19-02330">
+  <label>(4)</label>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>s</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>σ</mi>
+      <mi>P</mi>
+     </msub>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">[</mo>
+     <mo>−</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>γ</mi>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>+</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>R</mi>
+        <mrow>
+         <mi>T</mi>
+         <mi>P</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mover accent="true">
+          <mi>t</mi>
+          <mo stretchy="false">^</mo>
+         </mover>
+         <mo>,</mo>
+         <msub>
+          <mi>t</mi>
+          <mi>m</mi>
+         </msub>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mo>+</mo>
+       <msub>
+        <mi>R</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>P</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mover accent="true">
+          <mi>t</mi>
+          <mo stretchy="false">^</mo>
+         </mover>
+         <mo>,</mo>
+         <msub>
+          <mi>t</mi>
+          <mi>m</mi>
+         </msub>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mi>c</mi>
+     </mfrac>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

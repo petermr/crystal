@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Thus, Equation (3) can be obtained:
+ <disp-formula id="FD4-sensors-19-04980">
+  <label>(4)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+     <mo>=</mo>
+     <mi>α</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <msub>
+        <mi>S</mi>
+        <mi>l</mi>
+       </msub>
+      </mrow>
+      <mi>R</mi>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <msub>
+        <mi>S</mi>
+        <mi>l</mi>
+       </msub>
+       <mo>−</mo>
+       <mi mathvariant="script">Δ</mi>
+       <msub>
+        <mi>S</mi>
+        <mi>r</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mi>L</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the changing angle of the delivery robot.
+</p>

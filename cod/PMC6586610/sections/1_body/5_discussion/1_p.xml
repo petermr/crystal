@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">Our calculations are very close to results found in literature
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>. Since our model exclude any other environmental effects such as substrate or crystal structure, we found a little bit lower value for an exciton binding energy. The experimental measurements of an exciton binding energy are based on the photo-excitation of an electron from a valance to a conduction band leaving a hole behind. While the interaction between an electron and a hole is totally attractive, the screening effect allows an exciton to be created. Since we only use the masses of the electron and the hole in our calculations, the calculated value for exciton energy (0.214 eV) is valid in all 2-dimensional systems. Moreover, we presume that the differences between exciton binding energies in the literature (even for the same samples-
+ <italic>WS</italic>
+ <sub>2</sub>
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>,
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>) stem from surrounding environment such as substrate or crystal structure. Moreover, we think that the origin of the differences in experimental results of exciton binding energy is due to screening effect depending on the substrate or the crystal structure. Therefore, experimental measurements include this screening energy. Another interesting result of our calculations is that the interaction energy of 2-fermions possesses imaginary part. By using this imaginary part, one can calculate the decay time (
+ <inline-formula id="IEq36">
+  <alternatives>
+   <tex-math id="M121">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tau $$\end{document}</tex-math>
+   <math id="M122">
+    <mi>τ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq36.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) of an exciton. Based on the definition in 
+ <inline-formula id="IEq37">
+  <alternatives>
+   <tex-math id="M123">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tau \propto \frac{1}{{w}_{(n,j)}}$$\end{document}</tex-math>
+   <math id="M124">
+    <mi>τ</mi>
+    <mo>∝</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>n</mi>
+        <mo>,</mo>
+        <mi>j</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq37.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, we found relaxation time as 0.01 ps for n = 1 condition.
+</p>

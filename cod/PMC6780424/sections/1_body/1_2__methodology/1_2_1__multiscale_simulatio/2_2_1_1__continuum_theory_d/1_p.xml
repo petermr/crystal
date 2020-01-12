@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The shock wave propagation was modelled using the one-dimensional Euler equations for compressible flow [
+ <xref rid="B9-nanomaterials-09-01251" ref-type="bibr">9</xref>,
+ <xref rid="B10-nanomaterials-09-01251" ref-type="bibr">10</xref>], which were represented by the conservation of mass, momentum, and energy, respectively, in the regions before and after the shock wave interface. 
+ <disp-formula id="FD1-nanomaterials-09-01251">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>u</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>s</mi>
+       <mi>h</mi>
+       <mi>o</mi>
+       <mi>c</mi>
+       <mi>k</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>ρ</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mi>ρ</mi>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD2-nanomaterials-09-01251">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>p</mi>
+     <mo>−</mo>
+     <msub>
+      <mi>p</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>s</mi>
+       <mi>h</mi>
+       <mi>o</mi>
+       <mi>c</mi>
+       <mi>k</mi>
+      </mrow>
+     </msub>
+     <msup>
+      <mrow/>
+      <mn>2</mn>
+     </msup>
+     <msub>
+      <mi>ρ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>ρ</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+      <mi>ρ</mi>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD3-nanomaterials-09-01251">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi>e</mi>
+     <mo>−</mo>
+     <msub>
+      <mi>e</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>p</mi>
+      <mn>0</mn>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msub>
+        <mi>ρ</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>−</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mi>ρ</mi>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>v</mi>
+        <mrow>
+         <mi>s</mi>
+         <mi>h</mi>
+         <mi>o</mi>
+         <mi>c</mi>
+         <mi>k</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>ρ</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mi>ρ</mi>
+       </mfrac>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>s</mi>
+       <mi>h</mi>
+       <mi>o</mi>
+       <mi>c</mi>
+       <mi>k</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the shock wave speed, 
+ <italic>u</italic> is the particle velocity, 
+ <italic>ρ</italic> is the material density, 
+ <italic>e</italic> is the energy per unit mass and 
+ <italic>p</italic> is the negative component of the stress tensor along the shock propagation direction. The quantities with 0 subscript describe the states of the unreacted material.
+</p>

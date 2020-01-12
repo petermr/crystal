@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A natural way to investigate the symmetry properties of the CCF is to expand it into the angular Fourier series, see Equation (10):
+ <disp-formula id="FD10-materials-12-03464">
+  <label>(10)</label>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>C</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>n</mi>
+       <mo>=</mo>
+       <mo>−</mo>
+       <mo>∞</mo>
+      </mrow>
+      <mo>∞</mo>
+     </munderover>
+     <msub>
+      <mover accent="true">
+       <mi>C</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the 
+ <italic>n</italic>-th Fourier component is Equation (11):
+ <disp-formula id="FD11-materials-12-03464">
+  <label>(11)</label>
+  <math id="mm97">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>C</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+      </mrow>
+     </mfrac>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∫</mo>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mi>π</mi>
+      </mrow>
+      <mi>π</mi>
+     </munderover>
+     <mover accent="true">
+      <mi>C</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi mathvariant="sans-serif">Δ</mi>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

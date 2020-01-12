@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The KMCS modeling is represented in 
+ <xref rid="fig2" ref-type="fig">Figure 
+  <xref rid="fig2" ref-type="fig">2</xref>
+ </xref>a, where a 3-dimensional 128 × 128 × 
+ <italic>Z</italic> grid is used to represent the cubic (100) surface of STO. For each pulse, atoms are generated on random locations of the grid, and one adatom represents one unit cell of the LLTO perovskite crystal structure or 1/8th unit cell of the LMO spinel crystal structure. After each pulse, the deposited adatoms diffuse over the surface, one at a time. Periodic boundary conditions were used, and hopping can occur in the 6 cubic and 12 diagonal directions, only if a site is unoccupied and there is a path available to it, indicated by the highlighted positions in 
+ <xref rid="fig2" ref-type="fig">Figure 
+  <xref rid="fig2" ref-type="fig">2</xref>
+ </xref>a. The LMO (purple, indicated by the white arrow) adatom in 
+ <xref rid="fig2" ref-type="fig">Figure 
+  <xref rid="fig2" ref-type="fig">2</xref>
+ </xref>a represents an adatom with a hopping rate of zero because its movement would cause a floating adatom. To obtain the accurate activation energies for hopping for all involved materials, a systematic RHEED study was performed during thin-film growth. With three different materials, there are five possible interaction energies: 
+ <italic>E</italic>
+ <sub>LMO–STO</sub>, 
+ <italic>E</italic>
+ <sub>LMO–LMO</sub>, 
+ <italic>E</italic>
+ <sub>LLTO–LMO</sub>, 
+ <italic>E</italic>
+ <sub>LLTO–STO</sub>, and 
+ <italic>E</italic>
+ <sub>LLTO–LLTO</sub>. More details about the algorithm employed in the KMCS model are given in the 
+ <xref rid="sec4" ref-type="other">Method Section</xref>.
+</p>

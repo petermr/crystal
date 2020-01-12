@@ -1,0 +1,402 @@
+{
+  "id": [
+    "30857380"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "30857380"
+  ],
+  "pmcid": [
+    "PMC6471073"
+  ],
+  "doi": [
+    "10.3390/mi10030181"
+  ],
+  "title": [
+    "Dynamic Modeling of the Multiring Disk Resonator Gyroscope."
+  ],
+  "authorString": [
+    "Li Q, Xiao D, Zhou X, Hou Z, Zhuo M, Xu Y, Wu X."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Li Q"
+          ],
+          "firstName": [
+            "Qingsong"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2476-7041",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. liqingsong336@163.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Xiao D"
+          ],
+          "firstName": [
+            "Dingbang"
+          ],
+          "lastName": [
+            "Xiao"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. dingbangxiao@nudt.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou X"
+          ],
+          "firstName": [
+            "Xin"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. zhouxin_schuman@yeah.net."
+          ]
+        },
+        {
+          "fullName": [
+            "Hou Z"
+          ],
+          "firstName": [
+            "Zhanqiang"
+          ],
+          "lastName": [
+            "Hou"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. houzhanqiang@nudt.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhuo M"
+          ],
+          "firstName": [
+            "Ming"
+          ],
+          "lastName": [
+            "Zhuo"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. zhuoming592@163.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Xu Y"
+          ],
+          "firstName": [
+            "Yi"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. xuyi199206@163.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Wu X"
+          ],
+          "firstName": [
+            "Xuezhong"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. xzwu@nudt.edu.cn."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-2476-7041",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2789275"
+      ],
+      "dateOfPublication": [
+        "2019 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Micromachines"
+          ],
+          "ISOAbbreviation": [
+            "Micromachines (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Micromachines (Basel)"
+          ],
+          "NLMid": [
+            "101640903"
+          ],
+          "ISSN": [
+            "2072-666X"
+          ],
+          "ESSN": [
+            "2072-666X"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "The multiring disk resonator gyroscope (DRG) has been a candidate for high performance gyroscopes, however nowadays the finite element method (FEM) is the main method for its analysis due to its complex structure. In this paper we propose a new method to mathematically model the DRG for its vibrating modes and lumped parameters based on the component mode synthesis (CMS) method. Firstly, the natural frequencies and the associated mode shapes of the DRG are mathematically modeled and a comparison with the FEM results is conducted. It shows that the mode shapes of DRG obtained by FEM and mathematical modeling are identical and in the full ranges of geometrical parameters, natural frequency error of the simulation, and calculation results are limited in ±15%. It demonstrates the effectivity and feasibility of the mathematical modeling method. Then, based on the calculated natural frequencies and mode shapes, the lumped mass-spring model of the DRG and effects of geometry parameters on the lumped mass-spring parameters are investigated, which can be used on the design of the DRG. This mathematical modeling method can effectively improve the analyzing efficiency of the DRG and the method can also be used on the analysis of other complex multiring-type resonators."
+  ],
+  "affiliation": [
+    "College of Intelligence Science, National University of Defense Technology, Changsha 410073, China. liqingsong336@163.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "51575521"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "51335011"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Dynamic model",
+        "Mathematical Modeling",
+        "Component Mode Synthesis Method",
+        "Disk Resonator Gyroscope"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6471073?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6471073"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/mi10030181"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-03-13"
+  ],
+  "firstIndexDate": [
+    "2019-03-12"
+  ],
+  "fullTextReceivedDate": [
+    "2019-04-29"
+  ],
+  "dateOfRevision": [
+    "2019-04-28"
+  ],
+  "electronicPublicationDate": [
+    "2019-03-10"
+  ],
+  "firstPublicationDate": [
+    "2019-03-10"
+  ]
+}

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par40">The study of the distribution of particles inside each cluster, within the present approximation of independent particles in a confining potential allows to further understand the origin of some differences between the AOUP and ABP active forces, occurring at large 
+ <italic>U</italic>
+ <sub>0</sub>. We already showed that the constancy of the norm 
+ <italic>U</italic>
+ <sub>0</sub> makes the difference. Another way to see this is by noting that in the AOUP case the fluctuations in the positions are ruled by 
+ <italic>T</italic>
+ <sub>
+  <italic>e</italic>
+ </sub>/
+ <italic>k</italic> given by Eq. (
+ <xref rid="Equ11" ref-type="">11</xref>), which scales as ~
+ <italic>γ</italic>
+ <sup>2</sup>
+ <italic>D</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>/
+ <italic>τk</italic>
+ <sup>2</sup> for large 
+ <italic>τ</italic>. In this case, we can find a particle at 
+ <italic>r</italic> &gt; 
+ <italic>r</italic>
+ <sup>*</sup> with a finite probability, which is controlled by the strength of the active force in the regime of very small 
+ <italic>T</italic>. A large value of 
+ <italic>D</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>/
+ <italic>τ</italic> increases the diameter of the cluster and the probability of finding a particle far away from its most probable value. On the other hand, in the ABP case fluctuations are mostly ruled by 
+ <italic>T</italic>, while 
+ <italic>γU</italic>
+ <sub>0</sub>/
+ <italic>k</italic> only determines the maximal cluster radius, without increasing the particle positions fluctuations. Only fluctuations induced by 
+ <italic>T</italic> could lead a particle to explore radial distances larger than 
+ <italic>γU</italic>
+ <sub>0</sub>/
+ <italic>k</italic> from the center of its cluster. This difference explains why in the regime of negligible 
+ <italic>T</italic>, ABP does not display the particle-exchange phase, at variance with the AOUP model. This is also the main reason for which the AOUP active force has a region of cluster instability for smaller values of 
+ <italic>U</italic>
+ <sub>0</sub> (
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{2{D}_{a}/\tau }$$\end{document}</tex-math>
+   <math id="M54">
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+      <mo>/</mo>
+      <mi>τ</mi>
+     </mrow>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). This description directly agrees with the radial distribution measured in panel Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>), where, despite the same value of 
+ <italic>U</italic>
+ <sub>0</sub>, the probability of finding an AOUP-particle for 
+ <italic>r</italic> ≳ 
+ <italic>r</italic>
+ <sup>*</sup> is consistently larger than the ABP counterpart. The particle-exchange phase could occur only if a “small” fraction of particles has an active force large enough to overcome the effective barrier induced by the neighboring clusters, which for 
+ <italic>T</italic> → 0 can be provided only by the norm fluctuations of 
+ <bold>f</bold>, a mechanism which is absent in the ABP model with 
+ <italic>T</italic> = 0. We remark that “small” has to be considered in relation to the average number of particles inside each cluster
+ <sup>
+  <xref ref-type="bibr" rid="CR86">86</xref>
+ </sup>.
+</p>

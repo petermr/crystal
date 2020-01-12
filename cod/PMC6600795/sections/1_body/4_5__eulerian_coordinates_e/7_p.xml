@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From Equation (4), we obtain principal derivatives with respect to coordinate system x-y as well as the corresponding orientation of principal directions:
+ <disp-formula id="FD5-materials-12-01804">
+  <label>(5)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="bold-italic">u</mi>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="bold-italic">x</mi>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">x</mi>
+            </mrow>
+           </mfrac>
+           <mo>+</mo>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+         <mo>+</mo>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>[</mo>
+              <mrow>
+               <mfrac>
+                <mrow>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">u</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">x</mi>
+                  </mrow>
+                 </mfrac>
+                 <mo>−</mo>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">v</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">y</mi>
+                  </mrow>
+                 </mfrac>
+                </mrow>
+                <mn>2</mn>
+               </mfrac>
+              </mrow>
+              <mo>]</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>[</mo>
+              <mrow>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">u</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">y</mi>
+                  </mrow>
+                 </mfrac>
+                 <mo>+</mo>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">v</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">x</mi>
+                  </mrow>
+                 </mfrac>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mo>]</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="bold-italic">u</mi>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="bold-italic">y</mi>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">x</mi>
+            </mrow>
+           </mfrac>
+           <mo>+</mo>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="bold-italic">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+         <mo>−</mo>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>[</mo>
+              <mrow>
+               <mfrac>
+                <mrow>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">u</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">x</mi>
+                  </mrow>
+                 </mfrac>
+                 <mo>−</mo>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">v</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">y</mi>
+                  </mrow>
+                 </mfrac>
+                </mrow>
+                <mn>2</mn>
+               </mfrac>
+              </mrow>
+              <mo>]</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mrow>
+             <mrow>
+              <mo>[</mo>
+              <mrow>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">u</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">y</mi>
+                  </mrow>
+                 </mfrac>
+                 <mo>+</mo>
+                 <mfrac>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">v</mi>
+                  </mrow>
+                  <mrow>
+                   <mo>∂</mo>
+                   <mi mathvariant="bold-italic">x</mi>
+                  </mrow>
+                 </mfrac>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mo>]</mo>
+             </mrow>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD6-materials-12-01804">
+  <label>(6)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mi>tan</mi>
+     <mn>2</mn>
+     <mi mathvariant="bold-sans-serif">θ</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+       <mo>−</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

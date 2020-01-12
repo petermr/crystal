@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Perturbations of the dielectric tensor caused by photo-polymerization 
+ <inline-formula>
+  <math id="mm154">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>p</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and diffusion 
+ <inline-formula>
+  <math id="mm155">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> processes, can be introduced as the sum of the spatial harmonics:
+ <disp-formula id="FD32-polymers-11-00861">
+  <label>(31)</label>
+  <math id="mm156">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mi>p</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mover accent="true">
+             <mi mathvariant="sans-serif">ε</mi>
+             <mo>^</mo>
+            </mover>
+            <mi>i</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mi>p</mi>
+       </msub>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msubsup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mrow/>
+        <mi>m</mi>
+       </msubsup>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD33-polymers-11-00861">
+  <label>(32)</label>
+  <math id="mm157">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mover accent="true">
+             <mi mathvariant="sans-serif">ε</mi>
+             <mo>^</mo>
+            </mover>
+            <mi>i</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msubsup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mrow/>
+        <mi>m</mi>
+       </msubsup>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where:
+ <disp-formula id="FD34-polymers-11-00861">
+  <label>(33)</label>
+  <math id="mm158">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <mo>Δ</mo>
+             <msubsup>
+              <mover accent="true">
+               <mi mathvariant="sans-serif">ε</mi>
+               <mo>^</mo>
+              </mover>
+              <mi>i</mi>
+              <mi>m</mi>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi mathvariant="sans-serif">τ</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mi>p</mi>
+         </msub>
+         <mo>=</mo>
+         <mn>2</mn>
+         <msub>
+          <mi>n</mi>
+          <mi>p</mi>
+         </msub>
+         <mo>⋅</mo>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <msubsup>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>m</mi>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi mathvariant="sans-serif">τ</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mi>p</mi>
+         </msub>
+         <mo>⋅</mo>
+         <mover accent="true">
+          <mi mathvariant="normal">I</mi>
+          <mo>^</mo>
+         </mover>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <mo>Δ</mo>
+             <msubsup>
+              <mover accent="true">
+               <mi mathvariant="sans-serif">ε</mi>
+               <mo>^</mo>
+              </mover>
+              <mi>i</mi>
+              <mi>o</mi>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi mathvariant="sans-serif">τ</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi>l</mi>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mn>2</mn>
+         <msubsup>
+          <mi>n</mi>
+          <mrow>
+           <mi>l</mi>
+           <mi>c</mi>
+          </mrow>
+          <mi>o</mi>
+         </msubsup>
+         <mo>⋅</mo>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <msubsup>
+              <mi>n</mi>
+              <mi>i</mi>
+              <mi>o</mi>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi mathvariant="sans-serif">τ</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi>l</mi>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+         <mo>⋅</mo>
+         <mover accent="true">
+          <mi mathvariant="normal">I</mi>
+          <mo>^</mo>
+         </mover>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <mo>Δ</mo>
+             <msubsup>
+              <mover accent="true">
+               <mi mathvariant="sans-serif">ε</mi>
+               <mo>^</mo>
+              </mover>
+              <mi>i</mi>
+              <mi>e</mi>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi mathvariant="sans-serif">τ</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi>l</mi>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+         <mo>=</mo>
+         <mn>2</mn>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mi>n</mi>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+            <mi>o</mi>
+           </msubsup>
+           <mo>⋅</mo>
+           <msub>
+            <mrow>
+             <mrow>
+              <mrow>
+               <msubsup>
+                <mi>n</mi>
+                <mi>i</mi>
+                <mi>o</mi>
+               </msubsup>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mstyle mathvariant="bold" mathsize="normal">
+                  <mi>r</mi>
+                 </mstyle>
+                 <mo>,</mo>
+                 <mi mathvariant="sans-serif">τ</mi>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mo>|</mo>
+             </mrow>
+            </mrow>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+           </msub>
+           <mo>−</mo>
+           <msubsup>
+            <mi>n</mi>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+            <mi>e</mi>
+           </msubsup>
+           <mo>⋅</mo>
+           <msub>
+            <mrow>
+             <mrow>
+              <mrow>
+               <msubsup>
+                <mi>n</mi>
+                <mi>i</mi>
+                <mi>e</mi>
+               </msubsup>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mstyle mathvariant="bold" mathsize="normal">
+                  <mi>r</mi>
+                 </mstyle>
+                 <mo>,</mo>
+                 <mi mathvariant="sans-serif">τ</mi>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mo>|</mo>
+             </mrow>
+            </mrow>
+            <mrow>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>⋅</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>C</mi>
+          <mi>C</mi>
+         </mstyle>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> with statistical averaging of dielectric tensor for PDLC.
+</p>

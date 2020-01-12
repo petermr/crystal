@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We have illustrated that the absolute value of 
+ <inline-formula>
+  <math id="mm67">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>φ</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>B</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in Equations (10) and (11) should be less than 
+ <inline-formula>
+  <math id="mm69">
+   <mrow>
+    <mi>π</mi>
+   </mrow>
+  </math>
+ </inline-formula> to avoid phase wrapping. However, the phase wrapping phenomenon often occurs in practical applications. For example, the baseline length, target distance, and maximum target size are 2.1 cm, 4.1 m, and 52 cm respectively in our experiment, then we can calculate that the maximum absolute value of interferometric phase is larger than 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mi>π</mi>
+   </mrow>
+  </math>
+ </inline-formula> (6.14). Thus, it is necessary to perform phase unwrapping operation before InISAR imaging. In the earlier literatures, some one-dimensional (1-D) and two-dimensional (2-D) phase unwrapping methods applied to InSAR and InISAR have been proposed, such as 1-D path integral method and 2-D fast transforms and iterative methods [
+ <xref rid="B34-sensors-19-02330" ref-type="bibr">34</xref>,
+ <xref rid="B35-sensors-19-02330" ref-type="bibr">35</xref>,
+ <xref rid="B36-sensors-19-02330" ref-type="bibr">36</xref>]. However, the inteferometric phases of the weak scatterers in ISAR images are easily contaminated by noise in these methods, and it is difficult to achieve phase unwrapping operation.
+</p>

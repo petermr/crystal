@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After the 200 000 step 
+ <italic>NPT</italic> simulation, the equilibrium crystal structure was obtained with averaging lattice parameters and atom coordinates in last 20 000 step trajectories. 
+ <xref rid="fig3" ref-type="fig">Figure 
+  <xref rid="fig3" ref-type="fig">3</xref>
+ </xref> shows the overlap between simulated and experimental structures. In the 15/15 similarity standard, the displacement between two structures is calculated be 0.16 Å by pymatgen,
+ <sup>
+  <xref ref-type="bibr" rid="ref50">50</xref>
+ </sup> which reflects that the structure from the FF is very similar with that from the experiment. 
+ <xref rid="tbl2" ref-type="other">Table 
+  <xref rid="tbl2" ref-type="other">2</xref>
+ </xref> compares the lattice parameters based on DFT,
+ <sup>
+  <xref ref-type="bibr" rid="ref14">14</xref>,
+  <xref ref-type="bibr" rid="ref16">16</xref>,
+  <xref ref-type="bibr" rid="ref17">17</xref>
+ </sup> FF simulations, and experimental measure.
+ <sup>
+  <xref ref-type="bibr" rid="ref10">10</xref>,
+  <xref ref-type="bibr" rid="ref15">15</xref>,
+  <xref ref-type="bibr" rid="ref16">16</xref>,
+  <xref ref-type="bibr" rid="ref32">32</xref>,
+  <xref ref-type="bibr" rid="ref51">51</xref>,
+  <xref ref-type="bibr" rid="ref52">52</xref>
+ </sup> Compared to the experimental and DFT calculated values, our FF gives a slightly smaller lattice cell. The lattice parameters were predicted to be 5.64, 15.55, and 8.24 Å for a, b, and c axis, respectively. The lengths of a, b, and c decreases by about 0.08, 0.30, and 0.18 Å, or 1.4, 1.9, and 2.1%, respectively, and the lattice angle β varies little, which is predicted to be 100.96°. Because of the little shorter axis, the lattice volume is reduced from 748 Å
+ <sup>3</sup> to 711 Å
+ <sup>3</sup>, by about 5.0%. Although our FF gives a smaller volume, the molecular position and orientation are in good agreement with the experimental measurements.
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> Because of the symmetry, the position is described with the fraction coordinate of the centroid of a chosen molecule, and the orientation is expressed with three angles between 
+ <italic>x</italic>, 
+ <italic>y</italic>, and 
+ <italic>z</italic> axis and the vector from N3 to N4 on the molecule. In the result from the FF, the position is predicted to be (0.560, 0.869, and 0.549) for the molecule, which are very similar with (0.559, 0.867, and 0.553) from the experiment.
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> Also the orientation angles are simulated to be (145.65, 67.38, and 114.38°), which are consistent with those from experimental measures.
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup>
+</p>

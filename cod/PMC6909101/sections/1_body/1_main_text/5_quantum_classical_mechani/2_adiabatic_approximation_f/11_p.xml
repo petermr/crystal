@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0280">We find its minimum:
+ <disp-formula id="ufd3">
+  <math id="M124" altimg="si108.svg">
+   <mrow>
+    <mfrac>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">+</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mfrac>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">=</mo>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>p</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>d</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <msub>
+       <mrow>
+        <mi>F</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <msubsup>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">=</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">&gt;</mo>
+    <mn>0</mn>
+    <mtext>;</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd34">
+  <label>(34)</label>
+  <math id="M125" altimg="si109.svg" alttext="Equation 34.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>U</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M126" altimg="si110.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are given by 
+ <xref rid="fd30" ref-type="disp-formula">Eq. (30)</xref>. Suppose that 
+ <inline-formula>
+  <math id="M127" altimg="si111.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">≈</mo>
+    <mtext>constant</mtext>
+   </mrow>
+  </math>
+ </inline-formula>. We choose this constant in the following form: 
+ <inline-formula>
+  <math id="M128" altimg="si112.svg">
+   <mrow>
+    <mtext>constant</mtext>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mo linebreak="goodbreak" linebreakstyle="after">−</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>. Then, taking
+ <disp-formula id="ufd4">
+  <math id="M129" altimg="si113.svg">
+   <mrow>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo>∫</mo>
+       <mrow>
+        <mi>d</mi>
+        <mi mathvariant="bold">q</mi>
+        <mrow>
+         <mo stretchy="true">|</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ψ</mi>
+           </mrow>
+           <mrow>
+            <mi>s</mi>
+           </mrow>
+          </msub>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mi mathvariant="bold">q</mi>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mo stretchy="true">|</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo linebreak="badbreak">=</mo>
+    <mn>1</mn>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>we obtain
+ <disp-formula id="fd35">
+  <label>(35)</label>
+  <math id="M130" altimg="si114.svg" alttext="Equation 35.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>that is, in the aforementioned assumption, 
+ <inline-formula>
+  <math id="M131" altimg="si94.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the values of the normal phonon coordinates at which the adiabatic potential of 
+ <xref rid="fd24" ref-type="disp-formula">Eq. (24)</xref> for the nuclear wave function 
+ <inline-formula>
+  <math id="M132" altimg="si115.svg">
+   <mrow>
+    <mi>Φ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> has a minimum. Thus, the function 
+ <inline-formula>
+  <math id="M133" altimg="si116.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is assumed to be equal to its average over the electron state in the zero order of perturbation theory with respect to the operator 
+ <inline-formula>
+  <math id="M134" altimg="si95.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>U</mi>
+     <mo>˜</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

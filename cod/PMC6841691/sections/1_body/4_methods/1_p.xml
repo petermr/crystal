@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Firstly, a bcc lattice framework with the atomic coordinates were created for a 18 × 18 × 18 supercell structure containing total of 11664 atoms with a LP of 3.43 Å, determined from the rule of mixture of the elemental atomic volumes. The atomic sites were randomly assigned atom types Ta, Nb, Hf and Zr with probability 0.25 by using a random number generator to create an equimolar random solid-solution structure. The exact real atomic composition in this study for Ta, Nb, Hf and Zr were 25.03%, 25.47%, 24.39%, 25.11%, respectively, which was very close to the targeted atomic composition of 25%. NPT simulations were carried out at 2073 K and 1 atm pressure for 1 ns. From this NPT simulation the lattice parameter for this system at 2073 K was evaluated to be 3.54 Å from the equilibrium simulation box dimensions. For all subsequent hybrid MC/MD simulation steps this particular equilibrium average LP obtained for 2073 K was used. For the MD simulations EAM type potential was used
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>. The energy of the system is described as
+ <disp-formula id="Equa">
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{t}=\sum _{i}{F}_{i}(\sum _{j\ne i}{f}_{j}({r}_{ij}))+\frac{1}{2}\sum _{i,j\,(i\ne j)}{\phi }_{ij}({r}_{ij}),$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <munder>
+     <mo>∑</mo>
+     <mi>i</mi>
+    </munder>
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>j</mi>
+        <mo>≠</mo>
+        <mi>i</mi>
+       </mrow>
+      </munder>
+      <msub>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mrow>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mn>2</mn>
+    </mfrac>
+    <munder>
+     <mo>∑</mo>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>j</mi>
+      <mspace width=".25em"/>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>≠</mo>
+        <mi>j</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </munder>
+    <msub>
+     <mrow>
+      <mi>ϕ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+        <mi>j</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52170_Article_Equa.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>E</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> is the total internal energy of the system, 
+ <italic>F</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the embedding function of the atom type at position 
+ <italic>i</italic>, 
+ <italic>Φ</italic>
+ <sub>
+  <italic>i</italic>
+  <italic>j</italic>
+ </sub> is the pairwise interaction function, 
+ <italic>f</italic> is the spherically symmetric electron density function, 
+ <italic>i</italic> and 
+ <italic>j</italic> are the neighbouring atoms at the vicinity of each other. The pairwise interaction of dissimilar atom types ware modelled by the widely accepted form as below
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>,
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>
+ <disp-formula id="Equb">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }^{ab}(r)=\frac{1}{2}(\frac{{f}^{b}(r)}{{f}^{a}(r)}{\phi }^{aa}(r)+\frac{{f}^{a}(r)}{{f}^{b}(r)}{\phi }^{bb}(r)),$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <msup>
+     <mrow>
+      <mi>ϕ</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+      <mi>b</mi>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mn>2</mn>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>f</mi>
+         </mrow>
+         <mi>b</mi>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>f</mi>
+         </mrow>
+         <mi>a</mi>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mfrac>
+      <msup>
+       <mrow>
+        <mi>ϕ</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+        <mi>a</mi>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mi>r</mi>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>f</mi>
+         </mrow>
+         <mi>a</mi>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>f</mi>
+         </mrow>
+         <mi>b</mi>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mfrac>
+      <msup>
+       <mrow>
+        <mi>ϕ</mi>
+       </mrow>
+       <mrow>
+        <mi>b</mi>
+        <mi>b</mi>
+       </mrow>
+      </msup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mi>r</mi>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52170_Article_Equb.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>φ</italic>
+ <sup>
+  <italic>ab</italic>
+ </sup>(
+ <italic>r</italic>) is the dissimilar type interaction between atom types 
+ <italic>a</italic> and 
+ <italic>b</italic> at a distance 
+ <italic>r</italic>, 
+ <italic>f</italic>
+ <sup>
+  <italic>a</italic>
+ </sup>(
+ <italic>r</italic>) and 
+ <italic>f</italic>
+ <sup>
+  <italic>b</italic>
+ </sup>(
+ <italic>r</italic>) are their electron densities, 
+ <italic>φ</italic>
+ <sup>
+  <italic>aa</italic>
+ </sup>(
+ <italic>r</italic>) and 
+ <italic>φ</italic>
+ <sup>
+  <italic>bb</italic>
+ </sup>(
+ <italic>r</italic>) are the pair interaction energies of the pure element states of atom types 
+ <italic>a</italic> and 
+ <italic>b</italic>, respectively. The first publications on EAM potential was done by Daw 
+ <italic>et al</italic>. in 1984 in which the authors have shown that this type of potential can establish the ground state properties of materials like the lattice parameter, elastic constants, vacancy formation energy etc of single elements
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>. They also established that surface energy and atomic relaxations, H adsorption on metals can be simulated using the EAM potential. Whereas, Bangwei 
+ <italic>et al</italic>. have developed a next-neighbour distance based cubic spline method for EAM type pair interactions for bcc metals and alloys with inputs to the model taken from the ground state physical properties of elements
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>. The versatility of the EAM potential can be evident from the work of Zhou 
+ <italic>et al</italic>. where they have developed a potential for 16 different bcc, fcc and hcp type metals for a complex multi-layer nano-scale atomic vapour deposition process
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. Based on the methods of Bangwei 
+ <italic>et al</italic>., this MD potential was created from elemental physical input parameters like LP, cohesive energy, unrelaxed vacancy formation energy and second order elastic constants as described and tabulated in ref.
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup> Since the lattice framework in this study is bcc, the elastic constants for Hf and Zr were taken from their high temperature bcc phase
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. An example of the accuracy of our developed potential is evident in Table 
+ <xref rid="Tab1" ref-type="table">1</xref> where the input second order elastic stiffness of the pure elements are compared with the MD obtained values. For all the MD simulations LAMMPS package was used
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. The LAMMPS readable format of the EAM potential data file can be found in the supplementary information section.
+</p>

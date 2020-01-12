@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par5">Measurements of the magnetic torque 
+ <bold>τ</bold>  = 
+ <italic>μ</italic>
+ <sub>0</sub>
+ <italic>V</italic>
+ <bold>M</bold> × 
+ <bold>H</bold> have a high sensitivity for the detection of magnetic anisotropy, where 
+ <italic>μ</italic>
+ <sub>0</sub> is space permeability, 
+ <italic>V</italic> is the sample volume, and 
+ <bold>M</bold> is the magnetisation induced by external magnetic field 
+ <bold>H</bold> (Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>, see also Methods section). Torque is a thermodynamic observable that is equal to the derivative of the free energy with respect to angular displacement. Torque measurements performed for a range of directions of 
+ <bold>H</bold> within the tetragonal 
+ <italic>ab</italic> plane of Hg1201 test whether or not the pseudogap state breaks the fourfold crystal symmetry. In this configuration, 
+ <bold>τ</bold> is a periodic function of twice the azimuthal angle 
+ <italic>ϕ</italic> measured from the 
+ <italic>a</italic> axis:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tau _{2\phi } = \frac{1}{2}\mu _0H^2V[(\chi _{aa} - \chi _{bb}){\mathrm{sin}}2\phi - 2\chi _{ab}{\mathrm{cos}}2\phi ]$$\end{document}</tex-math>
+   <math id="M2">
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>ϕ</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mi>V</mi>
+    <mrow>
+     <mo>[</mo>
+     <mrow>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>χ</mi>
+         </mrow>
+         <mrow>
+          <mi>a</mi>
+          <mi>a</mi>
+         </mrow>
+        </msub>
+        <mo>-</mo>
+        <msub>
+         <mrow>
+          <mi>χ</mi>
+         </mrow>
+         <mrow>
+          <mi>b</mi>
+          <mi>b</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+      <mi mathvariant="normal">sin</mi>
+      <mn>2</mn>
+      <mi>ϕ</mi>
+      <mo>-</mo>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>χ</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+        <mi>b</mi>
+       </mrow>
+      </msub>
+      <mi mathvariant="normal">cos</mi>
+      <mn>2</mn>
+      <mi>ϕ</mi>
+     </mrow>
+     <mo>]</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41467_2019_11200_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>χ</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> is the susceptibility tensor defined as 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$M_i = \mathop {\sum}\nolimits_j \chi _{ij}H_j$$\end{document}</tex-math>
+   <math id="M4">
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mo> ∑</mo>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>χ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_11200_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (
+ <italic>i</italic>,
+ <italic>j</italic> = 
+ <italic>a</italic>, 
+ <italic>b</italic>, 
+ <italic>c</italic>). For a tetragonally symmetric system, 
+ <italic>τ</italic>
+ <sub>2
+  <italic>ϕ</italic>
+ </sub> should be zero because 
+ <italic>χ</italic>
+ <sub>
+  <italic>aa</italic>
+ </sub> = 
+ <italic>χ</italic>
+ <sub>
+  <italic>bb</italic>
+ </sub> and 
+ <italic>χ</italic>
+ <sub>
+  <italic>ab</italic>
+ </sub> = 0. Nonzero values of 
+ <italic>τ</italic>
+ <sub>2
+  <italic>ϕ</italic>
+ </sub> appear when the tetragonal symmetry is broken by a new electronic or magnetic state; 
+ <italic>C</italic>
+ <sub>4</sub> rotational symmetry breaking is revealed by 
+ <italic>χ</italic>
+ <sub>
+  <italic>aa</italic>
+ </sub> ≠ 
+ <italic>χ</italic>
+ <sub>
+  <italic>bb</italic>
+ </sub> and/or 
+ <italic>χ</italic>
+ <sub>
+  <italic>ab</italic>
+ </sub> ≠ 0. The former and the latter states are illustrated in Fig. 
+ <xref rid="Fig2" ref-type="fig">2b, c</xref>, where the 
+ <italic>C</italic>
+ <sub>4</sub> symmetry breaking occurs along [100]/[010] direction (bond nematicity with 
+ <italic>B</italic>
+ <sub>1
+  <italic>g</italic>
+ </sub>-symmetry) and [110] direction (diagonal nematicity with 
+ <italic>B</italic>
+ <sub>2
+  <italic>g</italic>
+ </sub>-symmetry) of the CuO
+ <sub>2</sub> plane.
+</p>

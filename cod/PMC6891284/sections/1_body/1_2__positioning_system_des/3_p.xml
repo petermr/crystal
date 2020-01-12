@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As shown in 
+ <xref ref-type="fig" rid="sensors-19-04980-f001">Figure 1</xref>, the server calculates the robot’s current location in accordance with the UWB signal and then calculates the direction and speed of the robot according to the user-preset target point. The embedded firmware in the main control board modifies the speed of the left and right wheels to steer the robot, while the electronic compass provides angle feedback to achieve more precise steering control. Furthermore, the embedded firmware acquires signals from the obstacle avoidance sensor in real time. Thus, the robot operates an emergency brake within a certain distance from the obstacles. Obstacle avoidance is set as the highest priority to ensure the safe operation of the robot.
+</p>

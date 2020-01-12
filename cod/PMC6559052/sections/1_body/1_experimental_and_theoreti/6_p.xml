@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our DFT calculations were performed using the Quantum ESPRESSO package.
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> Main results were obtained using the Perdew–Burke–Ernzerhof (PBE) gradient corrected functional,
+ <sup>
+  <xref ref-type="bibr" rid="ref26">26</xref>
+ </sup> while additional calculations were performed using the DFT + 
+ <italic>U</italic> methodology
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>
+ </sup> using a 
+ <italic>U</italic> value of 3.5 eV, which is in the range of values typically used for TiO
+ <sub>2</sub>.
+ <sup>
+  <xref ref-type="bibr" rid="ref28">28</xref>−
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> Wavefunctions were expanded in planewaves up to a kinetic energy of 25 Ry together with a cutoff of 200 Ry for the augmented density. We used ultrasoft
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>
+ </sup> pseudopotentials with Ti(3s, 3p, 3d, 4s), O(2s, 2p), and H(1s) shells treated as valence electrons and modeled the unreconstructed rutile (011) surface using a 9.213 Å × 10.922 Å (2 × 2) surface supercell using the gamma point only for reciprocal space integration. Our slab model contained 4 TiO
+ <sub>2</sub> tri-layers for a total thickness of 9.07 Å and a vacuum gap of 10.96 Å. For all calculations, the atoms in the bottom-most trilayer were kept fixed at their bulk positions. All other coordinates were relaxed until forces converged below 0.05 eV/Å. Water/OH was adsorbed at monolayer coverage on all under-coordinated Ti
+ <sub>5c</sub> sites on the surface.
+</p>

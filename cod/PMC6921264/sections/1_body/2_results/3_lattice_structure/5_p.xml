@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Although the FF tends to give a smaller lattice volume, we test the FF estimation on pressure response of the crystal structure under pressure in the range from 0 to 20 GPa. Additionally a series of 
+ <italic>NPT</italic> simulations were performed to obtain the equilibrium crystal structure at the different pressures. Using the lattice parameters, the density and relative density of LLM-105 under various pressures are derived as shown in 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02410/suppl_file/ao9b02410_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">Figure S4</ext-link>. The density increases rapidly under low pressures (&lt;3 GPa) and increases slowly but in a nearly linear way under high pressures. The predicted density and relative density are more or less greater than the measured ones but the discrepancies are less than 0.2 g/cm
+ <sup>3</sup> or 3.4%. The pressure-dependent relative cell volumes and lattice parameters are shown in 
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref>a,b, respectively, together with the results of the experimental measurement and theoretical calculations. It is evident that the results agree well with the experimental data and DFT calculations.
+ <sup>
+  <xref ref-type="bibr" rid="ref16">16</xref>
+ </sup> Similar with the experiment, the 
+ <italic>b</italic>-axis is more compressible than 
+ <italic>a</italic> and 
+ <italic>c</italic> axes when pressure is applied. The EOS is critical in describing the properties of materials. Thus, we conducted unweighted fits of the pressure–volume data using a third-order Birch–Murnaghan (B–M) EOS as follow
+ <disp-formula id="eq7">
+  <graphic xlink:href="ao9b02410_m007" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>7</label>
+ </disp-formula>where, 
+ <italic>B</italic>
+ <sub>0</sub> is the bulk modulus and 
+ <italic>B</italic>′ is the pressure derivative of 
+ <italic>B</italic>
+ <sub>0</sub>, 
+ <italic>V</italic> is the volume corresponding the pressure, and 
+ <italic>V</italic>
+ <sub>0</sub> is the equilibrium volume at zero pressure. The fitted 
+ <italic>B</italic>
+ <sub>0</sub> and 
+ <italic>B</italic>′ from the FF are 13.8 GPa and 11.7, respectively, which are close to the experimental values of 15 GPa and 9 in ref (
+ <xref ref-type="bibr" rid="ref16">16</xref>) and 14.6 GPa and 10.6 in ref (
+ <xref ref-type="bibr" rid="ref15">15</xref>). The 
+ <italic>B</italic>
+ <sub>0</sub> and 
+ <italic>B</italic>′ are also summarized in 
+ <xref rid="tbl1" ref-type="other">Table 
+  <xref rid="tbl1" ref-type="other">1</xref>
+ </xref> and compared to the experimental and calculated values. Apparently, the calculated results are in agreement with other experimental
+ <sup>
+  <xref ref-type="bibr" rid="ref10">10</xref>,
+  <xref ref-type="bibr" rid="ref15">15</xref>,
+  <xref ref-type="bibr" rid="ref16">16</xref>
+ </sup> or other theoretical values.
+ <sup>
+  <xref ref-type="bibr" rid="ref16">16</xref>,
+  <xref ref-type="bibr" rid="ref17">17</xref>
+ </sup> Compared with DFT estimations, the FF seem give a better prediction on 
+ <italic>B</italic>
+ <sub>0</sub> and 
+ <italic>B</italic>′.
+</p>

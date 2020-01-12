@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0505">So, using the function 
+ <inline-formula>
+  <math id="M383" altimg="si290.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+      <mo>,</mo>
+      <msup>
+       <mi>l</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msubsup>
+       <mi>ω</mi>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+      <mo>;</mo>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the 
+ <xref rid="fd105" ref-type="disp-formula">formula (105)</xref> for the optical absorption 
+ <inline-formula>
+  <math id="M384" altimg="si284.svg">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> is rewritten as follows:
+ <disp-formula id="fd109">
+  <label>(109)</label>
+  <math id="M385" altimg="si295.svg" alttext="Equation 109.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">≡</mo>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <munderover>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">=</mo>
+      <mo linebreak="badbreak">−</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mrow>
+      <mi>∞</mi>
+     </mrow>
+    </munderover>
+    <mrow>
+     <msup>
+      <mrow>
+       <mi>G</mi>
+      </mrow>
+      <mrow>
+       <mtext>E</mtext>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <mi>L</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <munderover>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msubsup>
+       <mi>ω</mi>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+      <mo linebreak="badbreak">=</mo>
+      <mo linebreak="badbreak">−</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mrow>
+      <mi>∞</mi>
+     </mrow>
+    </munderover>
+    <mrow>
+     <msup>
+      <mrow>
+       <mi>G</mi>
+      </mrow>
+      <mrow>
+       <mtext>E</mtext>
+      </mrow>
+     </msup>
+     <mo linebreak="badbreak">∗</mo>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msubsup>
+        <mi>ω</mi>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+        <mo>′</mo>
+       </msubsup>
+       <mo>,</mo>
+       <mi>L</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <msup>
+       <mi>l</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <msub>
+      <mrow>
+       <mi>R</mi>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mo>,</mo>
+       <msup>
+        <mi>l</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msubsup>
+        <mi>ω</mi>
+        <mrow>
+         <mn>1</mn>
+        </mrow>
+        <mo>′</mo>
+       </msubsup>
+       <mo>;</mo>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mn>12</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

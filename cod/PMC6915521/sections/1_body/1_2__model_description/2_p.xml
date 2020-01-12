@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>There is no thermal motion of the atoms in the cylindrical tip, and the tip can be regarded as a rigid one. Periodic boundary conditions are applied in 
+ <italic>x</italic> and 
+ <italic>y</italic> directions to reduce the size effects and CPU cost. Non-periodic boundary is used in 
+ <italic>z</italic> direction. The substrate is composed of three parts: boundary atoms, thermostat atoms and Newtonian atoms. The boundary atoms are fixed [
+ <xref rid="B35-nanomaterials-09-01617" ref-type="bibr">35</xref>]. Atomic motion occurs in the thermostat and Newtonian atoms, and these two parts obey the classical second Newton’s law, which are integrated using the Velocity–Verlet algorithm [
+ <xref rid="B36-nanomaterials-09-01617" ref-type="bibr">36</xref>] with a time step of 0.01 ps. NVE ensemble is used in the simulation, and the thermostat atoms are set to ensure reasonable outward heat conduction using the direct velocity scaling method. Initially, velocities of atoms, except fixed boundary ones, are set randomly under an equivalent temperature 
+ <italic>T</italic> = 300 K. The simulation process is divided into three phases: relaxation, loading and sliding. Before loading, the system is relaxed to reach its minimum energy configuration. Then, the tip is pressed to the substrate to apply the load, and the tip slides along 
+ <italic>x</italic> direction after loading.
+</p>

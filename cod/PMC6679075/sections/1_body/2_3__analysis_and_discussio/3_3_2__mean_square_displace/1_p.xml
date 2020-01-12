@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The mean square displacement is the mean square of the change in particle position in respect to its initial position at different times, which can reflect the change of particle offset with time [
+ <xref rid="B39-materials-12-02318" ref-type="bibr">39</xref>]. The diffusion coefficient reflects the mobility of the particles, indicating the magnitude of the change in particle position with time, and its magnitude can be derived from the mean square displacement [
+ <xref rid="B40-materials-12-02318" ref-type="bibr">40</xref>]. By analyzing the diffusion of water molecules and Ca
+ <sup>2+</sup> between Ca-montmorillonite layers, the microscopic mechanism of macroscopic hydration characteristics exhibited by montmorillonite can be studied, which provides theoretical guidance for the deep processing and application of montmorillonite. The self-diffusion coefficient of interlayer particles in the montmorillonite interlayer can be derived from the mean square displacement curve of the particle, and the magnitude of the self-diffusion coefficient is proportional to the slope of the mean square displacement curve, i.e., [
+ <xref rid="B41-materials-12-02318" ref-type="bibr">41</xref>]: 
+ <disp-formula id="FD1-materials-12-02318">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">D</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>6</mn>
+       <msub>
+        <mi>N</mi>
+        <mi>α</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <munder>
+      <mrow>
+       <mi>lim</mi>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+       <mo>→</mo>
+       <mo>∞</mo>
+      </mrow>
+     </munder>
+     <mfrac>
+      <mi>d</mi>
+      <mrow>
+       <mi>d</mi>
+       <mi>t</mi>
+      </mrow>
+     </mfrac>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>|</mo>
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <msub>
+          <mi>r</mi>
+          <mi>j</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>|</mo>
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <msub>
+          <mi>r</mi>
+          <mi>j</mi>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the mean square displacement of the molecule, 
+ <italic>N
+  <sub>α</sub>
+ </italic> is the total number of α particles, 
+ <italic>r
+  <sub>i</sub>
+ </italic> denotes the position vector of 
+ <italic>i</italic>th particle and the angular brackets denote an ensemble average, and the self-diffusion coefficient D is 1/6 of the slope of the mean square displacement curve.
+</p>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">As is known, the SA algorithm
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup> is applied to minimize nonlinear target χ
+ <sup>2</sup>-functions. Essentially, it is one of the efficient methods for solving inverse problems with a large number of variables and combinatorial nature of iterative calculations. Starting with a model specified as the initial model and varying pseudo-randomly its parameters, the SA algorithm works until the current model fits best the data set ‘observed’ that means the minimum of the target function is achieved. The advantage of the SA algorithm seems to overcome local minima of the target function, which are the main obstacles for other nonlinear optimization methods, 
+ <italic>e.g</italic>., for the qNGD methods
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>.
+</p>

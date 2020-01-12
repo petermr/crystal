@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A first principle calculation has been employed for further discussion of the interaction between SnO
+ <sub>2</sub> QDs and heavy metal ions. The calculation was implemented based on the density function theory (DFT) in the Cambridge sequential total energy package (CASTEP) [
+ <xref rid="B51-nanomaterials-09-01294" ref-type="bibr">51</xref>]. The Perdew-Burke-Ernzerhof (PBE) function was used to describe the exchange-correlation interaction in the generalized-gradient approximation (GGA). The structural model was established based on rutile SnO
+ <sub>2</sub> tetragonal unit cells with lattice constants of 
+ <italic>a</italic> = 
+ <italic>b</italic> = 4.7373 Å and 
+ <italic>c</italic> = 3.1864 Å [
+ <xref rid="B52-nanomaterials-09-01294" ref-type="bibr">52</xref>]. The (110) plane with the lowest energy [
+ <xref rid="B53-nanomaterials-09-01294" ref-type="bibr">53</xref>,
+ <xref rid="B54-nanomaterials-09-01294" ref-type="bibr">54</xref>,
+ <xref rid="B55-nanomaterials-09-01294" ref-type="bibr">55</xref>] was chosen as the surface interacted with heavy metal ions. The crystal plane was cleaved from the optimized system of SnO
+ <sub>2</sub>, which contained 2 × 2 × 2 matrix of unit cells. A vacuum region of 10 Å was also employed to prevent the interaction between adjacent layers. The Brillouin zone was sampled using a 2 × 2 × 1 k-point Monkhorst-Pack mesh. In order to calculate the adsorption energy of heavy metal ions on SnO
+ <sub>2</sub> surface, one Sn atom was removed from the (110) crystal surface for a point defect as the adsorption site, as shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-01294-f008">Figure 8</xref>a. The system energy was indicated by 
+ <italic>E
+  <sub>def</sub>
+ </italic>. Then, the heavy metal ions were introduced and one of them was adsorbed on the site of defect, as shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-01294-f008">Figure 8</xref>b. The system energy after interaction was denoted by 
+ <italic>E
+  <sub>metal</sub>
+ </italic>. Thus, the adsorption energy (
+ <italic>E
+  <sub>ads</sub>
+ </italic>) of the specific heavy metal ion on the SnO
+ <sub>2</sub> QD surface could be calculated according to Equation (3):
+ <disp-formula id="FD3-nanomaterials-09-01294">
+  <label>(3)</label>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>a</mi>
+       <mi>d</mi>
+       <mi>s</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>m</mi>
+       <mi>e</mi>
+       <mi>t</mi>
+       <mi>a</mi>
+       <mi>l</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>d</mi>
+       <mi>e</mi>
+       <mi>f</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

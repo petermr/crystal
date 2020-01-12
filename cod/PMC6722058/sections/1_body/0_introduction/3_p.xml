@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par5">In most cases, however, the knowledge of the nanoparticle structures does not reach the atom-level resolution and the ligand-metal interfaces may be ill-defined. Only partial structural knowledge may be available, e.g., by high-resolution electron microscopy where only the heavy atoms (metals) of the core may be visible
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>,
+  <xref ref-type="bibr" rid="CR10">10</xref>
+ </sup>. Smallest particles may have low-symmetry or disordered metal cores, and may not be amenable at all to experimental techniques that work well for structural characterization of atomically ordered bulk materials
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup>. A practical solution is then to reach conclusions of potential atomic-scale structures by comparing measured properties, such as powder X-ray diffraction data, and various spectroscopic data, to computed properties based on extensive sets of potential candidate structures. A crucial question is then how realistic is the group of the candidate structures, i.e., can the structure corresponding to the true global total energy minimum be included in that group with a high probability. In general, global optimization methods suffer from limitations arising from a prohibitively (exponentially) increasing number of local energy minima in the structural space for system sizes that are larger than just a few metal atoms and ligand molecules. Another time-constraint arises from the fact that most measurable properties must be calculated numerically from the electronic structure using the platform of the density functional theory (DFT), which limits the number of structural candidates that can be examined. It is thus crucial to develop methods that can effectively suggest realistic atomic-scale structures at a very low computational cost.
+</p>

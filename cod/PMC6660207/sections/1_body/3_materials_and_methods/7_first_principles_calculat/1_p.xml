@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Density functional theory calculations with gradient-corrected Perdew-Burke-Ernzerhof functional (
+ <xref rid="R49" ref-type="bibr">
+  <italic>49</italic>
+ </xref>) were carried out using the Vienna Ab initio Simulation Package (
+ <xref rid="R50" ref-type="bibr">
+  <italic>50</italic>
+ </xref>). The PAW pseudopotentials were used. We used a relatively large cutoff energy of 500 eV. The total energies were converged within 1 meV per atom. We used the atomic coordinates provided by Mitzi’s group (
+ <xref rid="R51" ref-type="bibr">
+  <italic>51</italic>
+ </xref>) to construct an initial structure described by a space group of 
+ <inline-formula>
+  <math id="m5">
+   <mrow>
+    <mrow>
+     <mi>P</mi>
+     <mover accent="true">
+      <mn>1</mn>
+      <mo stretchy="true">¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> that corresponds to a lowest-symmetry triclinic crystal system. Starting from the experimental lattice parameters of 
+ <italic>a</italic> = 8.7398 Å, 
+ <italic>b</italic> = 8.7403 Å, 
+ <italic>c</italic> = 32.9952 Å, α = 84.646°, β = 84.657°, and γ = 89.643°, with a Monkhorst-Pack 
+ <italic>k</italic>-point sampling mesh of 5 × 5 × 1, we used the constant-volume algorithm to search for the lowest-energy state. Subsequently, the volume was either increased or decreased by 3% to start a new constant-volume calculation, where the volume varied between 2815.97 and 2024.01 Å
+ <sup>3</sup>. The total energy as a function of volume was recorded, and pressure was deduced.
+</p>

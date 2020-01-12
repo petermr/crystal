@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The simulation experiment assumes that the delivery robot moves from the origin in the two-dimensional 
+ <italic>X</italic>-
+ <italic>Y</italic> coordinate system, i.e., (0,0) by 25 m along the 
+ <italic>X</italic>-axis direction. The initial direction of the IMU is 0°, and its noise is assumed to be Gaussian white noise. Factors such as magnetic field interference in the environment are not considered temporarily. 
+ <xref ref-type="fig" rid="sensors-19-04980-f004">Figure 4</xref> shows a simulation diagram of the delivery robot motion trajectories obtained by the traditional odometer positioning method and the improved odometer positioning method in the two-dimensional plane.
+</p>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">Reducing the number of attributes is a basic selection process in machine learning. There are various methods for selecting the most significant attributes based on different types of ranking processes. We used the Laplacian score
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> for ranking the 48 topological attributes described in Table 
+ <xref rid="Tab2" ref-type="table">2</xref>. This method acts as a filter for selecting attributes based on their ability of locality preservation. The 26 top Laplacian-ranked attributes and their scores are listed in Table 
+ <xref rid="Tab3" ref-type="table">3</xref>. Our machine learning study was based on these 26 attributes such that the data table was reduced to have 18672 rows by 26 columns. The Appendix provides a figure depicting the ten top attributes and the data table is given in the Supplementary Information.
+</p>

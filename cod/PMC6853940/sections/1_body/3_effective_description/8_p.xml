@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par36">In the case of the ABP active force, in this effective dynamics description in which interparticle forces are replaced by an external confining potential, the solution of the single-particle Fokker-Planck equation is not an easy task even under the simple harmonic potential
+ <sup>
+  <xref ref-type="bibr" rid="CR60">60</xref>,
+  <xref ref-type="bibr" rid="CR62">62</xref>,
+  <xref ref-type="bibr" rid="CR82">82</xref>,
+  <xref ref-type="bibr" rid="CR83">83</xref>
+ </sup>. Recently, such a system has been studied in the presence of hydrodynamic and steric interactions
+ <sup>
+  <xref ref-type="bibr" rid="CR84">84</xref>
+ </sup> by means of the density functional theory
+ <sup>
+  <xref ref-type="bibr" rid="CR85">85</xref>
+ </sup>. In Fig. 
+ <xref rid="Fig3" ref-type="fig">3(a)</xref>, we numerically study the radial density, 
+ <italic>ρ</italic>(
+ <italic>r</italic>) = 2
+ <italic>πrp</italic>(
+ <bold>x</bold>), associated to Eq. (
+ <xref rid="Equ8" ref-type="">8</xref>) with ABP self-propulsion. We identify two regimes: i) when 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> ≫ 
+ <italic>k</italic>/
+ <italic>γ</italic>, the activity plays the role of effective temperature and the particle position density 
+ <italic>p</italic>(
+ <bold>x</bold>), has a Gaussian form as in the case of AOUP and passive suspensions (see the inset of Fig. 
+ <xref rid="Fig3" ref-type="fig">3(a)</xref>). In this regime, the increasing of 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> changes only the effective temperature, 
+ <italic>γU</italic>
+ <sub>0</sub>
+ <sup>2</sup>/2
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> + 
+ <italic>T</italic> (which is equivalent to 
+ <italic>γD</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> + 
+ <italic>T</italic> discussed below Eq. (
+ <xref rid="Equ11" ref-type="">11</xref>)), which determines the variance of the distribution. It is straightforward to check that for large 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> the variances of the ABP and AOUP positions coincide. (ii) When 
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${D}_{r}\lesssim \gamma /k$$\end{document}</tex-math>
+   <math id="M46">
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+    </msub>
+    <mo>≲</mo>
+    <mi>γ</mi>
+    <mo>/</mo>
+    <mi>k</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, particles arrange on a circular crown and the region near the minimum of the harmonic potential becomes empty as in the clusters in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>. The decrease of 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> enhances the accumulation of particles in the proximity of 
+ <italic>r</italic>
+ <sup>*</sup> ≈ 
+ <italic>γU</italic>
+ <sub>0</sub>/
+ <italic>k</italic> (shown in Fig. 
+ <xref rid="Fig3" ref-type="fig">3(a)</xref>), where 
+ <italic>r</italic>
+ <sup>*</sup> corresponds to the radius at which active and the confining harmonic force balance. For 
+ <italic>T</italic> = 0 (or 
+ <italic>T</italic> small enough with respect to 
+ <italic>γU</italic>
+ <sub>0</sub>
+ <sup>2</sup>/
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub>), the distribution is strongly non-Gaussian and can be approximated by a Dirac 
+ <italic>δ</italic>-function centered at 
+ <italic>r</italic> − 
+ <italic>r</italic>
+ <sup>*</sup> in the limit 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> → 0. At 
+ <italic>T</italic> = 0 the asymmetry of 
+ <italic>ρ</italic>(
+ <italic>r</italic>) is quite evident (see Fig. 
+ <xref rid="Fig3" ref-type="fig">3b</xref>)), since as the norm of the active force is fixed at 
+ <italic>U</italic>
+ <sub>0</sub>, particles cannot explore regions with 
+ <italic>r</italic> &gt; 
+ <italic>r</italic>
+ <sup>*</sup>. When 
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${D}_{r}\lesssim \gamma /k$$\end{document}</tex-math>
+   <math id="M48">
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+    </msub>
+    <mo>≲</mo>
+    <mi>γ</mi>
+    <mo>/</mo>
+    <mi>k</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, particles arrange on the circular crown in such a way that their orientational angles, 
+ <italic>θ</italic>, can be approximated by 
+ <italic>θ</italic> ≈ 
+ <italic>ϕ</italic> = arctan(
+ <italic>y</italic>/
+ <italic>x</italic>), i.e. their angular coordinate with respect to the minimum of the potential. In this case, the probability distribution, 
+ <italic>g</italic>(
+ <italic>θ</italic> − 
+ <italic>ϕ</italic>), is a Gaussian which becomes narrower as 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> decreases (Fig. 
+ <xref rid="Fig3" ref-type="fig">3c</xref>)). In Fig. 
+ <xref rid="Fig3" ref-type="fig">3(d)</xref> we study the variance of 
+ <italic>g</italic>(
+ <italic>θ</italic> − 
+ <italic>ϕ</italic>) vs 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> for several values of 
+ <italic>T</italic>, showing a linear scaling (black triangles).
+</p>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The model for a 2D materials on a substrate is shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f001">Figure 1</xref>, where the substrate of 
+ <italic>M</italic> atoms is treated as a thermal bath at temperature 
+ <italic>T</italic>. For calculations of the PF for the 2D materials of 
+ <italic>N</italic> atoms, the total potential is expressed as: 
+ <disp-formula id="FD1-nanomaterials-09-00978">
+  <label>(1)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>U</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mi>V</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mrow>
+       <mn>2</mn>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the potential energy of the 2D material with the coordinates of the atoms denoted by 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>x</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>…</mo>
+       <msub>
+        <mi>x</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <italic>V</italic> is the interaction potential between the 2D material and the substrate with its atoms denoted by 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>X</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>M</mi>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>X</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>X</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>…</mo>
+       <msub>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. 
+</p>

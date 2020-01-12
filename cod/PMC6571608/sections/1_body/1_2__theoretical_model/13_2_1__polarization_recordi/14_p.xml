@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Since the perturbations of the dielectric tensor (16, 17) are periodic, they can be represented as a Fourier series in terms of spatial harmonics:
+ <disp-formula id="FD19-polymers-11-00861">
+  <label>(18)</label>
+  <math id="mm107">
+   <mrow>
+    <mrow>
+     <mi>for</mi>
+     <mo> </mo>
+     <mi>PSLC</mi>
+     <mo> </mo>
+     <mo>–</mo>
+     <mo> </mo>
+     <mo>Δ</mo>
+     <msubsup>
+      <mover accent="true">
+       <mi mathvariant="sans-serif">ε</mi>
+       <mo>^</mo>
+      </mover>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mrow>
+       <mi>p</mi>
+       <mi>o</mi>
+       <mi>l</mi>
+      </mrow>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mover accent="true">
+             <mi mathvariant="sans-serif">ε</mi>
+             <mo>^</mo>
+            </mover>
+            <mi>i</mi>
+            <mrow>
+             <mi>p</mi>
+             <mi>o</mi>
+             <mi>l</mi>
+            </mrow>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>K</mi>
+       </mstyle>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD20-polymers-11-00861">
+  <label>(19)</label>
+  <math id="mm108">
+   <mrow>
+    <mrow>
+     <mi>for</mi>
+     <mo> </mo>
+     <mi>PDLC</mi>
+     <mo> </mo>
+     <mo>–</mo>
+     <mo> </mo>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <mo>Δ</mo>
+       <msubsup>
+        <mover accent="true">
+         <mi mathvariant="sans-serif">ε</mi>
+         <mo>^</mo>
+        </mover>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+        <mrow>
+         <mi>p</mi>
+         <mi>o</mi>
+         <mi>l</mi>
+        </mrow>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <mrow>
+        <mo>〈</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mrow>
+            <mrow>
+             <mo>Δ</mo>
+             <msubsup>
+              <mover accent="true">
+               <mi mathvariant="sans-serif">ε</mi>
+               <mo>^</mo>
+              </mover>
+              <mi>i</mi>
+              <mrow>
+               <mi>p</mi>
+               <mi>o</mi>
+               <mi>l</mi>
+              </mrow>
+             </msubsup>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mstyle mathvariant="bold" mathsize="normal">
+                <mi>r</mi>
+               </mstyle>
+               <mo>,</mo>
+               <mi>t</mi>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+            </mrow>
+            <mo>|</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mi>l</mi>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>〉</mo>
+       </mrow>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>K</mi>
+       </mstyle>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>Δ</mo>
+         <msubsup>
+          <mover accent="true">
+           <mi mathvariant="sans-serif">ε</mi>
+           <mo>^</mo>
+          </mover>
+          <mi>i</mi>
+          <mrow>
+           <mi>p</mi>
+           <mi>o</mi>
+           <mi>l</mi>
+          </mrow>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi mathvariant="sans-serif">π</mi>
+      </mrow>
+     </mfrac>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mrow>
+         <mo>−</mo>
+         <mi mathvariant="sans-serif">π</mi>
+        </mrow>
+        <mi mathvariant="sans-serif">π</mi>
+       </munderover>
+       <mrow>
+        <mo>Δ</mo>
+        <msubsup>
+         <mover accent="true">
+          <mi mathvariant="sans-serif">ε</mi>
+          <mo>^</mo>
+         </mover>
+         <mrow>
+          <mi>l</mi>
+          <mi>c</mi>
+         </mrow>
+         <mrow/>
+        </msubsup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+          <mo>,</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mi>cos</mi>
+        <mo stretchy="false">(</mo>
+        <mi>i</mi>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+        <mo> </mo>
+        <mi>d</mi>
+        <mo stretchy="false">(</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>—harmonics amplitudes for PSLC and 
+ <inline-formula>
+  <math id="mm110">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>〈</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mover accent="true">
+             <mi mathvariant="sans-serif">ε</mi>
+             <mo>^</mo>
+            </mover>
+            <mi>i</mi>
+            <mrow/>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo>〉</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi mathvariant="sans-serif">π</mi>
+      </mrow>
+     </mfrac>
+     <mstyle displaystyle="true">
+      <mrow>
+       <munderover>
+        <mo>∫</mo>
+        <mrow>
+         <mo>−</mo>
+         <mi mathvariant="sans-serif">π</mi>
+        </mrow>
+        <mi mathvariant="sans-serif">π</mi>
+       </munderover>
+       <mrow>
+        <mrow>
+         <mo>〈</mo>
+         <mrow>
+          <mo>Δ</mo>
+          <msubsup>
+           <mover accent="true">
+            <mi mathvariant="sans-serif">ε</mi>
+            <mo>^</mo>
+           </mover>
+           <mrow>
+            <mi>l</mi>
+            <mi>c</mi>
+           </mrow>
+           <mrow/>
+          </msubsup>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo>,</mo>
+            <mi>t</mi>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+         <mo>〉</mo>
+        </mrow>
+        <mi>cos</mi>
+        <mo stretchy="false">(</mo>
+        <mi>i</mi>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+        <mo> </mo>
+        <mi>d</mi>
+        <mo stretchy="false">(</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mo>⋅</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>—harmonics amplitudes for PDLC; 
+ <inline-formula>
+  <math id="mm111">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+     </mstyle>
+     <mo>=</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>k</mi>
+      </mstyle>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>k</mi>
+      </mstyle>
+      <mn>1</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

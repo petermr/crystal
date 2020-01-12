@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="sensors-19-04980-f009">Figure 9</xref> shows a schematic diagram of the operation site. The experimental environment is a square room with a side length of 15 m. The environment has no special requirements, so there is no detailed description. Although the robot has the infrared and ultrasonic obstacle detection module, the obstacle avoidance function is not included in the study. In addition, the obstacles are usually pedestrians. There is no barrier in the experiment room except for some tables and chairs. The operators are in the room but not on the robot’s trajectory and they may affect UWB signal reception. The environment was similar to that of a restaurant. The reference nodes of the UWB positioning system are respectively placed at the four vertices of the square region, and the 
+ <italic>x</italic>-
+ <italic>y</italic> two-dimensional coordinate system is established with reference node 1 as the origin. The remote control delivery robot starts from the point 
+ <inline-formula>
+  <math id="mm160">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>3</mn>
+     <mo>,</mo>
+     <mn>3</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and finally returns to this starting point via the points 
+ <inline-formula>
+  <math id="mm161">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>3</mn>
+     <mo>,</mo>
+     <mn>12</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm162">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>12</mn>
+     <mo>,</mo>
+     <mn>12</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm163">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>12</mn>
+     <mo>,</mo>
+     <mn>3</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The walking trajectory is the edge of a square whose side is 9 m long.
+</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 
+ <italic>Boosting</italic> tracker requires the user to define a subset of the image on the first frame that will then be tracked. An example is shown in 
+ <xref ref-type="fig" rid="pone.0225041.g007">Fig 7(a)</xref> as a red dashed rectangle. This region should contain the region of interest (ROI). Our ROI here is the grain boundary, which appears as a low density linear region on the detector hit maps. Sometimes a part of the grain boundary is not tracked due to the limited size of tracking window. Whilst the size of the tracking window is fixed whilst the size of image of the GB on the detector can change. Therefore if the image of the GB grows too large, the tracking window might not be able to cover it. Even if some parts of the GB have not been identified by 
+ <italic>Boosting</italic>, it can be partly solved by the fitting of the GB plane in the following steps of the algorithm. In addition, data extracted from tracking this complete window would not just contain the GB but also the surrounding matrix. Hence, additional filtering steps in BooT-PCA are required so as to only select the feature of interest within the ROI.
+</p>

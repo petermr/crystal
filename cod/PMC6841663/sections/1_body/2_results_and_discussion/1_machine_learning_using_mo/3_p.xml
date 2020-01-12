@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">Figure 
+ <xref rid="Fig3" ref-type="fig">3</xref> shows the correct answer rate of each order parameter. Note that the results were plotted with respect to each equation giving the same type of order parameter. The 
+ <italic>x</italic>-axis of each graph represents a ranking of each order parameter, which is sorted with respect to the correct answer rate. The dashed line connects the ideal highest accuracy point (rank = 1, 
+ <italic>X</italic> = 1) with the lowest accuracy point (bottom rank, 
+ <italic>X</italic> = 0.5). As mentioned in Section 2.1, the exact form of each order parameter changes with the setting of variables. A simple example is the local McMillan order parameter 
+ <italic>T</italic> that depends on the variable 
+ <italic>d</italic> representing the distance between two smectic-like layers. Changing 
+ <italic>d</italic> obviously affects the performance of 
+ <italic>T</italic>. The description of other variables for order parameters are shown in Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref> in Supporting Information. These variables ensure that the order parameters have different sensitivities for describing the characteristics of the data. Figure 
+ <xref rid="Fig3" ref-type="fig">3</xref> draws the performance of each order parameter. The high correct answer rate indicates few overlapping of the histogram of order parameter values that reflect smectic-like or nematic-like local structures. To help the understanding, the data of order parameter 
+ <italic>S</italic> plotted on the Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref> are displayed in Table 
+ <xref rid="Tab1" ref-type="table">1</xref> as the example. The results sorted by the rank indicate the tendency of the accuracy for each type of order parameter. Focusing on the peak performance of each type of order parameter (i.e., the results at the left side of each graph), all parameters except 
+ <italic>S</italic> can accurately distinguish between the two structures. However, the distribution of the correct answer rate varies among the order parameters. For order parameters 
+ <italic>B</italic>, 
+ <italic>C</italic>, 
+ <italic>F</italic>, 
+ <italic>H</italic>, and 
+ <italic>M</italic>, the accuracy decreases exponentially with the increase of rank, indicating that it is relatively difficult to stably produce good order parameters for various conditions of input data such as coordinates of particles. For order parameter 
+ <italic>S</italic>, the accuracy decreases slowly with the increase of rank, however, the highest performance of 
+ <italic>S</italic> is quite low of 0.93. Order parameter 
+ <italic>Q</italic> displayed the best performance, attaining both high peak performance and a slow decay of accuracy with respect to the 
+ <italic>x</italic>-axis. This slow decay indicates the robustness of this order parameter for local structure analyses. Namely, 
+ <italic>Q</italic> attained to stably produce good order parameters for various conditions of input data.
+</p>

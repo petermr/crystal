@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Precession electron tomography data processing was performed using the PETS program (Palatinus, 
+ <xref rid="ggge21980-bib-0035" ref-type="ref">2011</xref>). After peak hunting on all patterns, the value of the azimuthal angle (i.e., the angle between the horizontal axis and the projection of the tilt axis) was refined. After clustering, a difference vector space analysis was computed to produce a complete representation of the reciprocal space. The program JANA2006 was then used to find the unit cell (
+ <italic>a</italic> = 5.9181(13) Å, 
+ <italic>b</italic> = 10.1141(9) Å, 
+ <italic>c</italic> = 14.3428(13) Å, and 
+ <italic>V</italic> = 858.5(2) Å
+ <sup>3</sup>) and to refine the orientation matrix, allowing integration of the intensities for each pattern by PETS. At this step, Inorganic Crystal Structure Database as well as American Mineralogist Structure Database were consulted with a 5% tolerance on cell parameters. Since no results were returned, an ab initio structure solution was started. In a first step, a kinematical approach was used and intensities belonging to the same reflection on adjacent patterns were integrated together, leading to a list of intensities containing one value per hkl index with the corresponding estimated standard deviation. The reflection conditions are h0l, l=2n and hk0, 
+ <italic>k</italic>=2n, indicating the possible space group 
+ <italic>Pmcb</italic> (number 55, nonstandard setting of 
+ <italic>Pbam</italic>).
+</p>

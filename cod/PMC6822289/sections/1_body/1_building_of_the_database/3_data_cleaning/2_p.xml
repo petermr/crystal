@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our database contains 324 CURATED structures from the literature. Most of them come from the previous collection done by Tong et al.; in particular, we focused on the second version of their CoRE database.
+ <sup>
+  <xref ref-type="bibr" rid="ref17">17</xref>,
+  <xref ref-type="bibr" rid="ref22">22</xref>
+ </sup> In the three versions of their database, Tong et al. collected 187,
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>
+ </sup> 280,
+ <sup>
+  <xref ref-type="bibr" rid="ref17">17</xref>
+ </sup> and, only very recently, a third version of the database containing 309 COF structures.
+ <sup>
+  <xref ref-type="bibr" rid="ref24">24</xref>
+ </sup> Most of these structures were manually parsed from the PDF documents in the Supporting Information of the relative papers, and 
+ <italic>some COFs reported without atomic coordinate files are constructed following the experimental information provided in the corresponding synthetic studies</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="ref23">23</xref>
+ </sup> As mentioned in the introduction, only a few of the known COFs are deposited in the CSD database. Despite the care of the authors in this necessary manual parsing, errors are unavoidable. Indeed, we had to apply ca. 20 corrections to the structures originally provided in the database of Tong et al. As our parsing was also done manually, and is therefore equally prone to errors, we used the Git version-control system to permanently keep track of these modifications.
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> Our repository is built from the 280 structures reported in the second version of Tong et al.’s database.
+ <sup>
+  <xref ref-type="bibr" rid="ref17">17</xref>
+ </sup>
+</p>

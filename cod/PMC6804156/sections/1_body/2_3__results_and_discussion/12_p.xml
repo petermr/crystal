@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The emission stability of the phosphor at elevated temperatures is an important factor determining the phosphors suitability for practical applications. The high power near-UV or blue LEDs can heat up to temperatures as high as 150 °C; therefore, the phosphor considered for such application should emit at this temperature efficiently. Besides, the temperature-dependent integrated emission spectra can also be used to determine the thermal quenching 
+ <italic>TQ
+  <sub>1/2</sub>
+ </italic> (this value shows the temperature at which phosphor loses half of its efficiency) and thermal quenching activation energy 
+ <italic>Ea</italic> values. This is usually done by applying Fermi-Dirac model [
+ <xref rid="B18-materials-12-03275" ref-type="bibr">18</xref>,
+ <xref rid="B44-materials-12-03275" ref-type="bibr">44</xref>]:
+ <disp-formula id="FD3-materials-12-03275">
+  <label>(3)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mi>I</mi>
+       <mo stretchy="false">(</mo>
+       <mi>T</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>I</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>B</mi>
+       <msup>
+        <mi>e</mi>
+        <mrow>
+         <mo>−</mo>
+         <mi>E</mi>
+         <mi>a</mi>
+         <mo>/</mo>
+         <mi>k</mi>
+         <mi>T</mi>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

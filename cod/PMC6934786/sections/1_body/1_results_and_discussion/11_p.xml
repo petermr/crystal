@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">At high bias, all the charge carriers injecting at one electrode are not balanced by those extracting at the other, resulting accumulation of charge carriers (SCLC). Then 
+ <italic>p</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub>(
+ <italic>x</italic>) can be expressed as (see Supplementary Information 
+ <xref rid="MOESM1" ref-type="media">S4</xref>)
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>,
+ <disp-formula id="Equ10">
+  <label>10</label>
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${p}_{DS}(x)=3{V}_{DS}{\varepsilon }_{s}{x}^{-1/2}/4{L}^{3/2}$$\end{document}</tex-math>
+   <math id="M42" display="block">
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi>D</mi>
+      <mi>S</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi>x</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>3</mn>
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>D</mi>
+      <mi>S</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>1</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo>/</mo>
+    <mn>4</mn>
+    <msup>
+     <mrow>
+      <mi>L</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+      <mo>/</mo>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="41598_2019_56558_Article_Equ10.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and the total carrier concentration is given by Eq. 
+ <xref rid="Equ7" ref-type="">7</xref>. Dependence of the Fermi level on the carrier concentration is given by
+ <sup>
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup>,
+ <disp-formula id="Equ11">
+  <label>11</label>
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\int }_{-\infty }^{\infty }\,f(E,{E}_{F})g(E)dE={p}_{tot}$$\end{document}</tex-math>
+   <math id="M44" display="block">
+    <msubsup>
+     <mo>∫</mo>
+     <mrow>
+      <mo>−</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mi>∞</mi>
+    </msubsup>
+    <mspace width=".25em"/>
+    <mi>f</mi>
+    <mo stretchy="false">(</mo>
+    <mi>E</mi>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mi>g</mi>
+    <mo stretchy="false">(</mo>
+    <mi>E</mi>
+    <mo stretchy="false">)</mo>
+    <mi>d</mi>
+    <mi>E</mi>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mi>o</mi>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+   </math>
+   <graphic xlink:href="41598_2019_56558_Article_Equ11.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>f</italic>(
+ <italic>E</italic>, 
+ <italic>E</italic>
+ <sub>
+  <italic>F</italic>
+ </sub>) = [1 + exp(
+ <italic>E</italic>
+ <sub>
+  <italic>F</italic>
+ </sub> − 
+ <italic>E</italic>)/
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>
+ <italic>T</italic>]
+ <sup>−1</sup>, is Fermi function, exhibiting the energetic distribution of the charge carriers at thermal equilibrium. 
+ <italic>g</italic>(
+ <italic>E</italic>) represents the GDOS in HOMO of the organic semiconductor given by
+ <sup>
+  <xref ref-type="bibr" rid="CR7">7</xref>
+ </sup>,
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$g(E)=({N}_{V}/\sqrt{2\pi }\sigma )\,{\exp }\,(-\frac{{E}^{2}}{2{\sigma }^{2}})$$\end{document}</tex-math>
+   <math id="M46" display="block">
+    <mi>g</mi>
+    <mo stretchy="false">(</mo>
+    <mi>E</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+    </msub>
+    <mo>/</mo>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+    </msqrt>
+    <mi>σ</mi>
+    <mo stretchy="false">)</mo>
+    <mspace width=".25em"/>
+    <mi mathvariant="italic">exp</mi>
+    <mspace width=".10em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>σ</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_56558_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <italic>N</italic>
+ <sub>
+  <italic>V</italic>
+ </sub> is effective density of states in the HOMO. Hence, position of 
+ <italic>E</italic>
+ <sub>
+  <italic>F</italic>
+ </sub> depends on three parameters; (i) spatial position (x) between source and drain (ii) magnitude of negative or positive 
+ <italic>V</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub> i.e. |
+ <italic>V</italic>
+ <sub>
+  <italic>DS</italic>
+ </sub>| and (iii) magnitude of 
+ <italic>V</italic>
+ <sub>
+  <italic>G</italic>
+ </sub>. Lets examine the effect of each of these parameters separately.
+</p>

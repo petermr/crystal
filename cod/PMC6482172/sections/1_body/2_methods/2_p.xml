@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">We employ the parallel MD code LAMMPS
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> for the simulations, and the particle-particle particle-mesh solver (pppm) as implemented in LAMMPS is used to compute the long-range Coulombic interactions. For the MgO potential used
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>, a cutoff of 8 
+ <italic>Å</italic> is used. In the UO
+ <sub>2</sub> Morelon empirical potential
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>, a four-ranges potential, is used for O-O interactions, where
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M81">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${V}_{ij}={a}_{ij}{\exp }(\,-\,r/{b}_{ij})\,(r\le 1.2\mathop{A}\limits^{\circ })$$\end{document}</tex-math>
+   <math id="M82" display="block">
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mi mathvariant="italic">exp</mi>
+    <mo stretchy="false">(</mo>
+    <mspace width="-.25em"/>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mi>r</mi>
+    <mo>/</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mspace width=".1em"/>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo>≤</mo>
+    <mn>1.2</mn>
+    <mover>
+     <mi>A</mi>
+     <mo>∘</mo>
+    </mover>
+    <mo stretchy="false">)</mo>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ13">
+  <label>13</label>
+  <alternatives>
+   <tex-math id="M83">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${V}_{ij}={b}_{0}+{b}_{1}r+{b}_{2}{r}^{2}+{b}_{3}{r}^{3}+{b}_{4}{r}^{4}+{b}_{5}{r}^{5}(1.2\mathop{A}\limits^{\circ } &lt; r\le 2.1\mathop{A}\limits^{\circ })$$\end{document}</tex-math>
+   <math id="M84" display="block">
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mi>r</mi>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>3</mn>
+    </msup>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>4</mn>
+    </msup>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>b</mi>
+     </mrow>
+     <mrow>
+      <mn>5</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>5</mn>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mn>1.2</mn>
+    <mover>
+     <mi>A</mi>
+     <mo>∘</mo>
+    </mover>
+    <mo>&lt;</mo>
+    <mi>r</mi>
+    <mo>≤</mo>
+    <mn>2.1</mn>
+    <mover>
+     <mi>A</mi>
+     <mo>∘</mo>
+    </mover>
+    <mo stretchy="false">)</mo>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ13.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ14">
+  <label>14</label>
+  <alternatives>
+   <tex-math id="M85">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${V}_{ij}={a}_{0}+{a}_{1}r+{a}_{2}{r}^{2}+{a}_{3}{r}^{3}(2.1\mathop{A}\limits^{\circ } &lt; r\le 2.6\mathop{A}\limits^{\circ })$$\end{document}</tex-math>
+   <math id="M86" display="block">
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mi>r</mi>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>3</mn>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mn>2.1</mn>
+    <mover>
+     <mi>A</mi>
+     <mo>∘</mo>
+    </mover>
+    <mo>&lt;</mo>
+    <mi>r</mi>
+    <mo>≤</mo>
+    <mn>2.6</mn>
+    <mover>
+     <mi>A</mi>
+     <mo>∘</mo>
+    </mover>
+    <mo stretchy="false">)</mo>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ14.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ15">
+  <label>15</label>
+  <alternatives>
+   <tex-math id="M87">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${V}_{ij}=-\,{c}_{ij}/{r}^{6}(r &gt; 2.6)$$\end{document}</tex-math>
+   <math id="M88" display="block">
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <msub>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+    <mo>/</mo>
+    <msup>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mn>6</mn>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo>&gt;</mo>
+    <mn>2.6</mn>
+    <mo stretchy="false">)</mo>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ15.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">The library has been extended to be able to read custom input file formats, for instance, the Small Animal PET Insert For MRI (SAFIR) list-mode data for a cylindrical scanner, and to histogram them in 3D sinograms [
+ <xref ref-type="bibr" rid="CR14">14</xref>]. This part was adapted to cope with the new block geometry as well. In the cylindrical implementation, sinogram bin parameters are found from the LOR Cartesian coordinates. Bin parameters are segment, axial-position, view, and tangential-position numbers. We overloaded a function to calculate the sinogram bin parameters directly from the detector position numbers.
+</p>

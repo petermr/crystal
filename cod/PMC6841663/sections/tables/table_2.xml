@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Correct answer rate of feature-combined models with respect to the reference condition.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Number of neighborhood particles</th>
+    <th>Number of features</th>
+    <th>Consistency</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>
+     <italic>N</italic> = 4
+    </td>
+    <td>4 (
+     <italic>D</italic>
+     <sub>1</sub>, 
+     <italic>Q</italic>
+     <sub>1</sub>, 
+     <italic>Q</italic>
+     <sub>2</sub>, 
+     <italic>Q</italic>
+     <sub>3</sub>)
+    </td>
+    <td>0.82</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 5
+    </td>
+    <td>4 (
+     <italic>D</italic>
+     <sub>2</sub>, 
+     <italic>Q</italic>
+     <sub>7</sub>, 
+     <italic>Q</italic>
+     <sub>8</sub>, 
+     <italic>T</italic>
+     <sub>1</sub>)
+    </td>
+    <td>0.85</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 6
+    </td>
+    <td>4 (
+     <italic>D</italic>
+     <sub>3</sub>, 
+     <italic>D</italic>
+     <sub>4</sub>, 
+     <italic>Q</italic>
+     <sub>9</sub>, 
+     <italic>Q</italic>
+     <sub>10</sub>)
+    </td>
+    <td>0.87</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 8
+    </td>
+    <td>2 (
+     <italic>Q</italic>
+     <sub>4</sub>, 
+     <italic>Q</italic>
+     <sub>5</sub>)
+    </td>
+    <td>0.89</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 12
+    </td>
+    <td>1 (
+     <italic>Q</italic>
+     <sub>6</sub>)
+    </td>
+    <td>0.92</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 12
+    </td>
+    <td>1 (
+     <italic>T</italic>
+     <sub>2</sub>)
+    </td>
+    <td>0.88</td>
+   </tr>
+   <tr>
+    <td>
+     <italic>N</italic> = 12
+    </td>
+    <td>1 (
+     <italic>S</italic>
+     <sub>1</sub>)
+    </td>
+    <td>0.63</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>The definitions of the order parameters 
+   <italic>D</italic>
+   <sub>1</sub>–
+   <italic>D</italic>
+   <sub>4</sub>, 
+   <italic>Q</italic>
+   <sub>1</sub>–
+   <italic>Q</italic>
+   <sub>10</sub>, 
+   <italic>S</italic>
+   <sub>1</sub>, 
+   <italic>T</italic>
+   <sub>1</sub> and 
+   <italic>T</italic>
+   <sub>2</sub> are shown in the Supporting Information.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

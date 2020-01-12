@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">The calculations were based on the density functional theory (DFT) and performed with the projector-augmented wave (PAW) method
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>,
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup>, as implemented in the Vienna Ab-initio Simulation Package (VASP)
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>,
+  <xref ref-type="bibr" rid="CR52">52</xref>
+ </sup>. The PAW potentials with 3
+ <italic>s</italic> and 3
+ <italic>p</italic> electrons of Si and 2
+ <italic>s</italic> and 2
+ <italic>p</italic> electrons of O treated as valence were used. The AM05 exchange-correlation functional
+ <sup>
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup> was chosen. It provides a very good agreement of the calculated structural properties with the experimental data. We have checked, however, that the principal results of our theoretical simulations regarding the dynamical and thermodynamic stability of the studied phases of silica do not depend on the choice of the local or semi-local exchange-correlation functional: they hold in both local density approximation and the generalized gradient approximation. The Brillouin zone integration was performed on the 8 × 8 × 8 MonkhorstPack
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> grid for stishovite/CaCl
+ <sub>2</sub>-type silica and seifertite (α-PbO
+ <sub>2</sub>-type) structures and on the 3 × 3 × 3 grid for coesite-IV and coesite-V. The plane-wave energy cutoff was set to 600 eV, i.e., by 50% higher than the default VASP value. The energies of the fully relaxed structures were used together with their volumes and pressures to calculate the enthalpies via the standard definition. Stishovite is considered as the ground-state structure of SiO
+ <sub>2</sub> at a pressure below 35 GPa. Assuming the typical accuracy of ab initio calculations of the lattice parameters of ~0.01 Å, our simulations show that it spontaneously undergoes a tetragonal transformation into a CaCl
+ <sub>2</sub>-type structure between 35 and 40 GPa, in agreement with earlier theoretical work. All enthalpies were calculated relative to the enthalpy of the ground-state structure at the corresponding pressure (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">5</xref>). The calculated energies, pressures, and volumes were also used to fit theoretical data using the third-order Birch–Murnaghan equation of state.
+</p>

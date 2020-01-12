@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par35">The last approximation holds if 
+ <italic>T</italic> ≪ 
+ <italic>γD</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>, the regime considered in this manuscript. Note that the result for 
+ <italic>T</italic>
+ <sub>
+  <italic>e</italic>
+ </sub> is in agreement with the scaling with 
+ <italic>τ</italic> recently observed in a dense suspension of active particles with hard-core repulsive interaction, specifically Lennard Jones potentials
+ <sup>
+  <xref ref-type="bibr" rid="CR76">76</xref>,
+  <xref ref-type="bibr" rid="CR77">77</xref>
+ </sup>. We also note that Eq. (
+ <xref rid="Equ11" ref-type="">11</xref>) approaches 
+ <italic>T</italic> + 
+ <italic>γD</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>, in the equilibrium limit, 
+ <italic>τ</italic> → 0, i.e. the effective temperature due to the joint effect of self-propulsion and thermal noise for a free microswimmer
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>,
+  <xref ref-type="bibr" rid="CR78">78</xref>,
+  <xref ref-type="bibr" rid="CR79">79</xref>
+ </sup>. The Gaussianity of the density agrees with the shape of the clusters obtained in Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>). Moreover, the standard deviation of the above distribution, obtained as the square root of Eq. (
+ <xref rid="Equ11" ref-type="">11</xref>), confirms the linear cluster-size scaling with 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{2{D}_{a}/\tau }={U}_{0}$$\end{document}</tex-math>
+   <math id="M44">
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+      <mo>/</mo>
+      <mi>τ</mi>
+     </mrow>
+    </msqrt>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, numerically measured in Fig. 
+ <xref rid="Fig2" ref-type="fig">2(b)</xref>. We note that the authors of 
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup> showed that significant anharmonicity of the trap (for instance 
+ <bold>F</bold>
+ <sub>
+  <italic>eff</italic>
+ </sub> = −∇
+ <italic>U</italic>(
+ <bold>x</bold>), with 
+ <italic>U</italic>(
+ <bold>x</bold>) ∝ |
+ <bold>x</bold>|
+ <sup>2
+  <italic>n</italic>
+ </sup> and 
+ <italic>n</italic> ≥ 2) would lead, under AOUP dynamics, to a “delocalization” phenomenon, in which particles accumulate far from the minimum of the potential, displaying a non-Boltzmann distribution
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>,
+  <xref ref-type="bibr" rid="CR61">61</xref>,
+  <xref ref-type="bibr" rid="CR80">80</xref>,
+  <xref ref-type="bibr" rid="CR81">81</xref>
+ </sup>. The absence of this phenomenon here confirms that the effective trap potential induced by the neighboring clusters is harmonic to a good approximation (see also
+ <sup>
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup>).
+</p>

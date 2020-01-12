@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The transition from MH-III to MH-IV is rather complex and passes through several stages, which involve both H-bond symmetrization and structural reorganization. First, in our previous study (
+ <xref rid="r11" ref-type="bibr">11</xref>), we demonstrated and characterized the methane orientational ordering occurring at 
+ <inline-formula>
+  <math id="i61">
+   <mo>∼</mo>
+   <mn>20</mn>
+  </math>
+ </inline-formula> GPa. The latter induces both a noticeable departure of the methane molecule from the tetrahedral symmetry and a considerable entanglement of methane and water vibrations. This structure was previously guessed and referred to as MH-GOS (guest-ordered state) (
+ <xref rid="r16" ref-type="bibr">16</xref>). Then, in the range 30 to 40 GPa, the system undergoes a transition to symmetric H bonds (
+ <xref rid="r12" ref-type="bibr">12</xref>). We note the 2 phases as MH-III and MH-IIIs, respectively. We used path integral molecular dynamics (PIMD) to characterize this transition, which is driven by NQE as in pure ice (
+ <xref rid="r22" ref-type="bibr">22</xref>, 
+ <xref rid="r23" ref-type="bibr">23</xref>)&gt;. We also adopted 
+ <inline-formula>
+  <math id="i62">
+   <mi>χ</mi>
+   <mo>=</mo>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">d</mi>
+    </mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mi mathvariant="normal">O</mi>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn mathvariant="normal">1</mn>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi mathvariant="normal">D</mi>
+    </mrow>
+   </msub>
+   <mo>−</mo>
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">d</mi>
+    </mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mi mathvariant="normal">O</mi>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn mathvariant="normal">2</mn>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi mathvariant="normal">D</mi>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> as the order parameter, which measures the asymmetry of the 
+ <inline-formula>
+  <math id="i63">
+   <msup>
+    <mrow>
+     <mi mathvariant="normal">O</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn mathvariant="normal">1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+   <mo>−</mo>
+   <mi mathvariant="normal">D</mi>
+   <mo>−</mo>
+   <msup>
+    <mrow>
+     <mi mathvariant="normal">O</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+  </math>
+ </inline-formula> bonds. Comparison of the probability densities, 
+ <inline-formula>
+  <math id="i64">
+   <mi mathvariant="normal">P</mi>
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mi>χ</mi>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula>, calculated from quantum and classical simulations, shows indeed that NQE are not negligible as they downshift the transition pressure by about 15 GPa (
+ <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1904911116/-/DCSupplemental" xlink:show="new" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <italic>SI Appendix</italic>
+ </ext-link>). Then, at 
+ <inline-formula>
+  <math id="i65">
+   <mo>∼</mo>
+  </math>
+ </inline-formula>40 GPa, the MH-IIIs 
+ <inline-formula>
+  <math id="i66">
+   <mo>→</mo>
+  </math>
+ </inline-formula> MH-IV transition occurs. A possible transition mechanism is proposed in 
+ <xref ref-type="fig" rid="fig04">Fig. 4
+  <italic>A</italic>
+ </xref>. It requires a structural reorganization of both the water skeleton and the hydrogen bond water network as well as a significant change of the methane orientation, which essentially impacts half of the unit cell (
+ <xref ref-type="fig" rid="fig04">Fig. 4
+  <italic>A</italic>
+ </xref>, 
+ <italic>Center</italic> panels). According to classical calculations within the nudged elastic band (
+ <xref rid="r24" ref-type="bibr">24</xref>), some hydrogen bonds that form the 4-fold water rings in MH-IIIs break. Then, half of the 
+ <inline-formula>
+  <math id="i67">
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">C</mi>
+     <mi mathvariant="normal">H</mi>
+    </mrow>
+    <mrow>
+     <mn>4</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> molecules reorganize, through translations and rotations, with 1 C–H bond of 4 aligned along 
+ <inline-formula>
+  <math id="i68">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mo>→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>. Finally, the remaining 4-fold water rings are broken to form the MH-IV structure. Quantum corrections, computed through PIMD, change this picture and strongly decrease the barriers corresponding to H-bond breaking, mainly because of deuterium quantum spread due to tunneling and zero-point energy. Indeed, hydrogen bonds undergo massive D tunneling back and forth through the symmetric position 
+ <inline-formula>
+  <math id="i69">
+   <mi>χ</mi>
+   <mo>=</mo>
+   <mn>0</mn>
+  </math>
+ </inline-formula> (see 
+ <inline-formula>
+  <math id="i70">
+   <mi>P</mi>
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mi>χ</mi>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> distributions in 
+ <xref ref-type="fig" rid="fig04">Fig. 4
+  <italic>B</italic>
+ </xref>). Therefore, deuterium ordering in MH-IV cannot be identified, as the water network is more comparable to ice I
+ <italic>h</italic> at the onset of the hydrogen bond symmetrization. The restructuring accompanying the MH-III to MH-IV transition increases the O–O distances in the (
+ <inline-formula>
+  <math id="i71">
+   <mi>a</mi>
+   <mi>b</mi>
+  </math>
+ </inline-formula>) plane. Indeed, although the volume of the structure is reduced at the transition, only the lattice parameter 
+ <inline-formula>
+  <math id="i72">
+   <mi>c</mi>
+  </math>
+ </inline-formula> decreases while the 2 others increase (
+ <xref rid="t01" ref-type="table">Table 1</xref>), giving rise to slightly longer O–O distances, so that hydrogen bonds are almost, but not fully, symmetric. The further pressure increase therefore triggers another transition, from MH-IV to MH-IVs, where hydrogen bonds become symmetric (
+ <xref ref-type="fig" rid="fig04">Fig. 4
+  <italic>B</italic>
+ </xref>).
+</p>

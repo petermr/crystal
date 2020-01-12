@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Imaging ToF spectrometers (demanding pulsed excitation) do not require slits but instead require an isochrone surface with narrow width Δ
+ <italic>t</italic> at their entrance, see Fig. 1(
+ <italic>a</italic>)
+ <xref ref-type="fig" rid="fig1"> ▸</xref>. Energy resolution d
+ <italic>E</italic> and time-of-flight τ are determined by the drift energy 
+ <italic>E</italic>
+ <sub>d</sub> in the ToF section (of length 
+ <italic>L</italic>) and the time resolution dτ of the detector (Oelsner 
+ <italic>et al.</italic>, 2001
+ <xref ref-type="bibr" rid="bb50"> ▸</xref>; Schönhense 
+ <italic>et al.</italic>, 2001
+ <xref ref-type="bibr" rid="bb60"> ▸</xref>),
+ <disp-formula id="fd2">
+  <graphic xlink:href="s-26-01996-efd2.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>Besides 
+ <italic>L</italic>, these equations do not contain any geometry factors (
+ <italic>m</italic>
+ <sub>e</sub> is the free-electron mass). For the instrument used in this work (
+ <italic>L</italic> = 900 mm, detector diameter = 80 mm, dτ &lt; 200 ps), nominal resolutions between 180 meV and 23 meV are reached at drift energies between 80 and 20 eV. The best energy resolution reached so far was 17 meV (using the identical detector in a similar setup). There are no restrictions in beam size or angular spread, as long as the isochrone surfaces in the ToF section are sufficiently planar (
+ <italic>cf</italic>. Fig. 2
+ <xref ref-type="fig" rid="fig2"> ▸</xref> for simulations of the correct lens geometry). In practice, a constant image-field curvature due to the planar detector and an additional intensity-dependent curvature due to the space-charge effect can be corrected as described by Schönhense 
+ <italic>et al.</italic> (2018
+ <italic>b</italic>
+ <xref ref-type="bibr" rid="bb62"> ▸</xref>). The phase-space confinement induced by the entrance slit of a hemispherical analyzer is thus replaced by the demand for sufficiently precise timing conditions of the source (for PETRA III pulse widths of ∼50 ps r.m.s.) and detector [delay-line detector (DLD) resolution ≃ 150 ps (Oelsner 
+ <italic>et al.</italic>, 2001
+ <xref ref-type="bibr" rid="bb50"> ▸</xref>)].
+</p>

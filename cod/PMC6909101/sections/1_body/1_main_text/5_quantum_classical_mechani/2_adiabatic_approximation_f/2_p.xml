@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0235">In comparison with the Hamiltonian in the standard theory of many-phonon transitions (see Ref. [
+ <xref rid="bib72" ref-type="bibr">72</xref>]), in the theory of elementary electron transfers the Hamiltonian is complicated merely by a complementary electron potential well 
+ <inline-formula>
+  <math id="M90" altimg="si76.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> set apart from the original well 
+ <inline-formula>
+  <math id="M91" altimg="si77.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> by the distance 
+ <inline-formula>
+  <math id="M92" altimg="si78.svg">
+   <mrow>
+    <mi>L</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="bib11" ref-type="bibr">11</xref>]:
+ <disp-formula id="fd19">
+  <label>(19)</label>
+  <math id="M93" altimg="si79.svg" alttext="Equation 19.">
+   <mrow>
+    <mtext>H</mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>μ</mi>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">+</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mtext> </mtext>
+     <msub>
+      <mrow>
+       <mi>p</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo>∂</mo>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msubsup>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M94" altimg="si43.svg">
+   <mrow>
+    <mi>μ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the effective mass of an electron, 
+ <inline-formula>
+  <math id="M95" altimg="si80.svg">
+   <mrow>
+    <mi mathvariant="bold">q</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the electron's radius vector, 
+ <inline-formula>
+  <math id="M96" altimg="si81.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the normal phonon coordinates (real), 
+ <inline-formula>
+  <math id="M97" altimg="si82.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the eigenfrequencies of normal oscillations, and 
+ <inline-formula>
+  <math id="M98" altimg="si83.svg">
+   <mrow>
+    <mi>ι</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the phonon index; 
+ <inline-formula>
+  <math id="M99" altimg="si84.svg">
+   <mrow>
+    <munder>
+     <mo>∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mtext> </mtext>
+     <msub>
+      <mrow>
+       <mi>p</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the electron–phonon coupling expression.
+</p>

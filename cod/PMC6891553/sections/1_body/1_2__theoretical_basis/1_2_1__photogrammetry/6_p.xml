@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>With two images the natural vision mechanism and can be artificially reconstructed and the coordinates of the photographed object can be obtained from the coordinates of the center of each camera and the coordinates of the object on the photographed image. Nowadays, the automatic processes of obtaining ground coordinates by photogrammetric correlation is known as structure from motion (SFM). More than two frames are involved in the process of calculating these coordinates. Thus, a third frame would be included the so-called trinocular epipolar condition [
+ <xref rid="B27-sensors-19-04881" ref-type="bibr">27</xref>], where a third projective ray with its origin in the center of the projection of a third camera would also intersect at the same point of the ground (A) as the other two projective rays, as can be seen in 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>c. In the same way, a fourth frame would include one more condition, called the quadrifocal epipolar condition [
+ <xref rid="B28-sensors-19-04881" ref-type="bibr">28</xref>,
+ <xref rid="B29-sensors-19-04881" ref-type="bibr">29</xref>], and so on (see 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>d). In this way, for each camera used, two equations would be obtained for each point of the image (
+ <italic>X
+  <sub>i</sub>
+ </italic>, 
+ <italic>Y
+  <sub>i</sub>
+ </italic>), generating a system of equations for each point of the image from which its three-dimensional coordinates are obtained.
+</p>

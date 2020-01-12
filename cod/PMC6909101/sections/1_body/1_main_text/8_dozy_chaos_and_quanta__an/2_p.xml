@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0665">It follows from the previous sections that dozy chaos is introduced into theoretical physics as a new physical substance for eliminating the singularity in the rate constants of quantum transitions which occurs in molecular quantum mechanics when going beyond the adiabatic approximation. In theoretical physics, a similar procedure for introducing a new physical substance, namely, quanta, was carried out at the very beginning of the last century to eliminate the singularity in the distribution function of blackbody radiation at high frequencies. As is known from the history of physics, this singularity is often referred to as an ultraviolet catastrophe. Let me remind you the reason for ultraviolet catastrophe. Classical physics assumes that each mode of blackbody radiation, regardless of its frequency, has on average the same amount of energy, namely energy (by 
+ <inline-formula>
+  <math id="M607" altimg="si446.svg">
+   <mrow>
+    <mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mtext>B</mtext>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for the electric and magnetic wave energy). In fact, the average energy per mode 
+ <inline-formula>
+  <math id="M608" altimg="si447.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>ε</mi>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> depends on its frequency 
+ <inline-formula>
+  <math id="M609" altimg="si247.svg">
+   <mrow>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> and decreases exponentially with increasing 
+ <inline-formula>
+  <math id="M610" altimg="si247.svg">
+   <mrow>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula>:
+ <disp-formula id="fd164">
+  <label>(164)</label>
+  <math id="M611" altimg="si448.svg" alttext="Equation 164.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>ε</mi>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>Ω</mi>
+     </mrow>
+     <mrow>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mi>ℏ</mi>
+          <mi>Ω</mi>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>k</mi>
+           </mrow>
+           <mrow>
+            <mtext>B</mtext>
+           </mrow>
+          </msub>
+          <mi>T</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <mn>1</mn>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+    <mspace width="1em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>ℏ</mi>
+      <mo linebreak="badbreak">→</mo>
+      <mn>0</mn>
+      <mo>,</mo>
+      <mtext>   </mtext>
+      <mrow>
+       <mover accent="true">
+        <mi>ε</mi>
+        <mo>¯</mo>
+       </mover>
+      </mrow>
+      <mo linebreak="badbreak">=</mo>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mtext>B</mtext>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>Meyer</surname>
+   <given-names>Benjamin</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Barthel</surname>
+   <given-names>Senja</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+  <xref rid="aff3" ref-type="aff">§</xref>
+  <xref rid="notes1" ref-type="notes">#</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Mace</surname>
+   <given-names>Amber</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+  <xref rid="aff3" ref-type="aff">§</xref>
+  <xref rid="aff4" ref-type="aff">∥</xref>
+  <xref rid="notes1" ref-type="notes">#</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath4">
+  <name>
+   <surname>Vannay</surname>
+   <given-names>Laurent</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="notes1" ref-type="notes">#</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath5">
+  <name>
+   <surname>Guillot</surname>
+   <given-names>Benoit</given-names>
+  </name>
+  <xref rid="aff5" ref-type="aff">⊥</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath6">
+  <name>
+   <surname>Smit</surname>
+   <given-names>Berend</given-names>
+  </name>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+  <xref rid="aff3" ref-type="aff">§</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath7">
+  <name>
+   <surname>Corminboeuf</surname>
+   <given-names>Clémence</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>Laboratory for Computational Molecular Design (LCMD), Institute of Chemical Sciences and Engineering (ISIC), 
+  <institution>École Polytechnique Fédérale de Lausanne (EPFL)</institution>, CH-1015 Lausanne, 
+  <country>Switzerland</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>National Center for Computational Design and Discovery of Novel Materials (MARVEL), 
+  <institution>École Polytechnique Fédérale de Lausanne (EPFL)</institution>, CH-1015 Lausanne, 
+  <country>Switzerland</country>
+ </aff>
+ <aff id="aff3">
+  <label>§</label>Laboratory of Molecular Simulation (LSMO), Institute of Chemical Sciences and Engineering (ISIC), 
+  <institution>École Polytechnique Fédérale de Lausanne (EPFL Valais)</institution>, CH-1951 Sion, 
+  <country>Switzerland</country>
+ </aff>
+ <aff id="aff4">
+  <label>∥</label>Department of Materials and Environmental Chemistry, 
+  <institution>Stockholm University</institution>, SE-10691 Stockholm, 
+  <country>Sweden</country>
+ </aff>
+ <aff id="aff5">
+  <label>⊥</label>Laboratoire CRM2, UMR 7036, 
+  <institution>Université de Lorraine</institution>, F-54506 Vandoeuvre-lès-Nancy, 
+  <country>France</country>
+ </aff>
+</contrib-group>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Parameters describing the interaction of jog pairs along a screw dislocation for MgO and UO
+   <sub>2</sub>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th>
+     <italic>a</italic>
+     <sub>0</sub>(
+     <italic>Å</italic>)
+    </th>
+    <th>
+     <italic>h</italic>(
+     <italic>Å</italic>)
+    </th>
+    <th>
+     <italic>b</italic>(
+     <italic>Å</italic>)
+    </th>
+    <th>
+     <italic>μ</italic>(GPa)
+    </th>
+    <th>
+     <italic>ν</italic>
+    </th>
+    <th>
+     <inline-formula id="IEq19">
+      <alternatives>
+       <tex-math id="M59">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\boldsymbol{\epsilon }}$$\end{document}</tex-math>
+       <math id="M60">
+        <mi mathvariant="bold">ϵ</mi>
+       </math>
+       <inline-graphic xlink:href="41598_2019_42926_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </alternatives>
+     </inline-formula>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>MgO</td>
+    <td>4.212</td>
+    <td>1.49</td>
+    <td>2.978</td>
+    <td>144.3</td>
+    <td>0.29</td>
+    <td>7.3</td>
+   </tr>
+   <tr>
+    <td>UO
+     <sub>2</sub>
+    </td>
+    <td>5.447</td>
+    <td>2.72</td>
+    <td>3.85</td>
+    <td>78.5</td>
+    <td>0.27</td>
+    <td>10.2</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>
+   <italic>a</italic>
+   <sub>0</sub> is lattice constant. 
+   <italic>h</italic> is jog height. 
+   <italic>b</italic> is the length of Burgers vector. 
+   <italic>μ</italic> is shear modulus. 
+   <italic>ν</italic> is Poisson’s ratio. 
+   <inline-formula id="IEq20">
+    <alternatives>
+     <tex-math id="M61">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\epsilon $$\end{document}</tex-math>
+     <math id="M62">
+      <mi>ϵ</mi>
+     </math>
+     <inline-graphic xlink:href="41598_2019_42926_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </alternatives>
+   </inline-formula> is the relative permittivity of the material. 
+   <italic>μ</italic>, 
+   <italic>ν</italic>, and 
+   <inline-formula id="IEq21">
+    <alternatives>
+     <tex-math id="M63">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\epsilon $$\end{document}</tex-math>
+     <math id="M64">
+      <mi>ϵ</mi>
+     </math>
+     <inline-graphic xlink:href="41598_2019_42926_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </alternatives>
+   </inline-formula> are calculated using GULP
+   <sup>
+    <xref ref-type="bibr" rid="CR35">35</xref>
+   </sup>.
+  </p>
+ </table-wrap-foot>
+</table-wrap>

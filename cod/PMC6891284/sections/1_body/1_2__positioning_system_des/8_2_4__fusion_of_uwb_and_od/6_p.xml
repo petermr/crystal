@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Here, 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>W</mi>
+      <mrow>
+       <mo>(</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo>)</mo>
+       <mi>x</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>W</mi>
+      <mrow>
+       <mo>(</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo>)</mo>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represent the projection process noise sequences, 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="script">Γ</mi>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+       <mi>x</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi mathvariant="script">Γ</mi>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo>,</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the noise input coefficients, 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>z</mi>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mi>k</mi>
+       </msub>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>z</mi>
+      <mrow>
+       <msub>
+        <mi>y</mi>
+        <mi>k</mi>
+       </msub>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the robot positioning coordinates calculated by the UWB positioning system, and 
+ <inline-formula>
+  <math id="mm80">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>k</mi>
+       <mi>x</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>k</mi>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> represent the equivalent noise sequences of the UWB measurement system.
+</p>

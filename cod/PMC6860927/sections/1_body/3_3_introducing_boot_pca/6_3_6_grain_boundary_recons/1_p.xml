@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The set of GB atoms illustrated in 
+ <xref ref-type="fig" rid="pone.0225041.g008">Fig 8(a)</xref> is not able to fully represent the grain boundary, even if they are mainly located at or in the vicinity of the grain boundary. Therefore, a final step is introduced in the protocol to estimate a realistic GB surface. We set up a fine triangular mesh on the GB plane obtained before. The distance between the mesh vertices is set to 3 nm so that all GB atoms are included. The coordinates of each triangle patch are adjusted to the center-of-mass position of the GB atoms within 3 nm, similar to what was proposed previously in the literature [
+ <xref rid="pone.0225041.ref006" ref-type="bibr">6</xref>, 
+ <xref rid="pone.0225041.ref043" ref-type="bibr">43</xref>]. This final step allows us to finalize the identification of the grain boundary and perform further analyses, such as the measuring its local normal, local curvature, and, importantly, local composition.
+</p>

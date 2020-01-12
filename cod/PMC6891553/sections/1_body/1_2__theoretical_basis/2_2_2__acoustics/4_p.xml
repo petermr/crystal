@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The different impulse-response spectra have to be translated to the frequency space by a Fourier transform, averaged in frequency bands, and then the insertion loss can be calculated. Namely:
+ <disp-formula id="FD7-sensors-19-04881">
+  <label>(7)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mi>L</mi>
+     <mo>=</mo>
+     <mn>20</mn>
+     <mo>·</mo>
+     <msub>
+      <mrow>
+       <mi>log</mi>
+      </mrow>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mi>p</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mrow>
+            <mi>without</mi>
+            <mtext> </mtext>
+            <mi>barrier</mi>
+           </mrow>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mi>p</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mrow>
+            <mi>with</mi>
+            <mtext> </mtext>
+            <mi>barrier</mi>
+           </mrow>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>p</italic> stands for the acoustic pressure.
+</p>

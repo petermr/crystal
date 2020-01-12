@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">A Voronoi tessellation is a segmentation of the available space into cells that fill such space densely
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. This tessellation generates groupings of planes into convex polyhedra (Voronoi cells) such that all points on the cell are closer to the central site than to any other site. The resulting intersection of these planes is a Voronoi cell. We defined the machine learning attributes that described the atomic packing topology based on the Voronoi tessellation of the computational box volume, such that the position of each atom in the computational box was at the center of a Voronoi cell. Thus, a characteristic polyhedron enveloped each atom. Voronoi cells are characterized by the total number of faces CN (coordination number) and the number of 3-, 4-, 5-, and 6-edged faces comprising the cell. For example, CN
+ <italic>n</italic> = 〈
+ <italic>n</italic>
+ <sub>3</sub>, 
+ <italic>n</italic>
+ <sub>4</sub>, 
+ <italic>n</italic>
+ <sub>5</sub>, 
+ <italic>n</italic>
+ <sub>6</sub>〉 specifies a Voronoi cell with 
+ <italic>n</italic> faces, out of which there are 
+ <italic>n</italic>
+ <sub>3</sub> 3-edged faces, 
+ <italic>n</italic>
+ <sub>4</sub> 4-edged faces, etc. Certain Voronoi cells
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>,
+  <xref ref-type="bibr" rid="CR22">22</xref>,
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup> have proven useful in identifying glasses because they give rise to Z and Ze atomic arrangements where the nearest-neighbor atoms to the central atom are connected with fivefold bonds. We have tracked the actual Voronoi cells instead of their associated polytetrahedral atomic arrangements and labeled them as cells of type Z or Ze according to their classification
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup>. All other Voronoi cells were identified by their CN type. Voro++
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>
+ </sup> with periodic boundary conditions was used to generate the tessellation of the atomic configurations saved from the MMC simulation runs. Configurations corresponding to the green points in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref> insets were not included.
+</p>

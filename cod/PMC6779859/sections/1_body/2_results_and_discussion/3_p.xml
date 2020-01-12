@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The experimental implementation of 
+ <bold>1</bold> as a three-qubit quantum processor would require to choose a fixed magnetic field such that each transition is distinguishable from the rest. Thus, the execution of a given algorithm will need to apply pulses of many different frequencies, which could be achieved by an Arbitrary Waveform Generator. Herein, we have explored the magnetic field range 0.0–0.6 T, and the transitions we aim to study are those whose driving energies Δ are inside the frequency range 9–10 GHz, see 
+ <xref ref-type="fig" rid="F2">Figure 2</xref>. Note that Equation (2) would also be valid at any other driving energies, we select these magnetic field and frequency ranges as they are of common use in EPR spectroscopy. The comparison between calculated 
+ <inline-formula>
+  <math id="M13">
+   <msubsup>
+    <mrow>
+     <mi>T</mi>
+    </mrow>
+    <mrow>
+     <mi>m</mi>
+    </mrow>
+    <mrow>
+     <mi>e</mi>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> and experimental 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> values for these particular transitions is depicted in 
+ <xref ref-type="fig" rid="F3">Figure 3</xref>.
+</p>

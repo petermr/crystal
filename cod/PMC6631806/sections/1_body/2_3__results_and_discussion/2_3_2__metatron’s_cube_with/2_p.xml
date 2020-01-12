@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Those reflections are the first two of a crystal with Pa3 symmetry group. Then, the SCFT simulations for the copolymer melts were undertaken in a tentative periodic box of 5 × 5 × 5
+ <inline-formula>
+  <math id="mm131">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>G</mi>
+      <mn>3</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The simulation box was discretized into 32
+ <sup>3</sup> lattice cells, and each chain contour was discretized into 40 + 60 segments. Finite compressibility was turned off. The modified diffusion equation was solved and the iteration at a given condition was continued until the target function (=
+ <inline-formula>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <mstyle displaystyle="true">
+      <mo>∑</mo>
+      <mrow>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <mo>−</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) was less than 
+ <inline-formula>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <mn>2.5</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>7</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In the same computational environment, less than 5k iterations were necessary to reach the target tolerance.
+</p>

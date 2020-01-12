@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">The force 
+ <italic>F</italic>
+ <sub>
+  <italic>S</italic>
+ </sub> may be considered a function of the energy required for the dissociation of helium from He
+ <sub>2</sub>V-SIA complex i.e.
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$2{r}_{W}{F}_{S}\approx \Delta E$$\end{document}</tex-math>
+   <math id="M94" display="block">
+    <mn>2</mn>
+    <msub>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <mi>W</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>S</mi>
+     </mrow>
+    </msub>
+    <mo>≈</mo>
+    <mi mathvariant="normal">Δ</mi>
+    <mi>E</mi>
+   </math>
+   <graphic xlink:href="41598_2019_54753_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where, Δ
+ <italic>E</italic> is the dissociation energy (which includes the binding energy for the helium-vacancy complex and the migration energy of the released helium ion) and 
+ <italic>r</italic>
+ <sub>
+  <italic>W</italic>
+ </sub> the atomic radius. The defect complex, primarily involving nearest neighbours
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>, is estimated to be twice the size of the atomic radius of tungsten. Based on ab-initio studies of the stability of He
+ <sub>2</sub>V, Δ
+ <italic>E</italic> is estimated to be approximately 2.5 eV
+ <sup>
+  <xref ref-type="bibr" rid="CR74">74</xref>
+ </sup>. Given the helium-implantation dose of 3000 appm, the concentration of defects, 
+ <italic>c</italic>, is estimated as 1.5 × 10
+ <sup>−3</sup> (assuming on average 2 helium atoms per Frenkel pair)
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>. Knowing the values of 
+ <italic>b</italic>, Δ
+ <italic>E</italic>, 
+ <italic>r</italic>
+ <sub>
+  <italic>W</italic>
+ </sub>(135 pm
+ <sup>
+  <xref ref-type="bibr" rid="CR75">75</xref>
+ </sup>) and 
+ <italic>c</italic>, 
+ <inline-formula id="IEq40">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{H}^{0}$$\end{document}</tex-math>
+   <math id="M96">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq40.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> can be estimated as
+ <disp-formula id="Equ9">
+  <label>9</label>
+  <alternatives>
+   <tex-math id="M97">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{H}^{0}=\frac{\Delta E\sqrt{c}}{2{r}_{W}{b}^{2}}=750\,{\rm{MPa}}$$\end{document}</tex-math>
+   <math id="M98" display="block">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi mathvariant="normal">Δ</mi>
+      <mi>E</mi>
+      <msqrt>
+       <mi>c</mi>
+      </msqrt>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+       <mrow>
+        <mi>W</mi>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow>
+        <mi>b</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mn>750</mn>
+    <mspace width=".25em"/>
+    <mi mathvariant="normal">MPa</mi>
+   </math>
+   <graphic xlink:href="41598_2019_54753_Article_Equ9.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

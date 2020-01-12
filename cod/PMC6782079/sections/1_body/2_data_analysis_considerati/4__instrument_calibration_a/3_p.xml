@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The upgraded instrument continues the theme of the initial design in having a matching peak resolution between the detectors as they sample different regions of reciprocal space. If the overlapping reflections from the pixels are of similar width, then summing them to generate an overall diffraction pattern will not have a negative effect on the resolution. The resolution function can be derived by taking the partial derivatives in equation (2)
+ <xref ref-type="disp-formula" rid="fd2"/> and can be written as
+ <disp-formula id="fd4">
+  <graphic xlink:href="j-52-01189-efd4.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where 
+ <italic>L</italic> is the total flight path and θ is half the Bragg angle. This is plotted as a function of the Bragg angle in Fig. 5
+ <xref ref-type="fig" rid="fig5"> ▸</xref>. In POWGEN, the locus of the detectors is chosen such that the overlapping reflections have comparable resolution. This is done as the 
+ <italic>Q</italic> coverage in each of the rectangular detector modules is relatively small owing to the short 1 Å bandwidth at 60 Hz. As a result, even though the cotθ term results in broader peaks in the forward scattering detectors, those reflections are not present in backscattering detectors where the peaks are sharper. This is the reason for the variable resolution as a function of 
+ <italic>Q</italic>. However, this mode of operation requires very high precision calibration of the TOF to 
+ <italic>d</italic>-space conversion for each individual pixel so that all of them can be seamlessly combined into one histogram. This is accomplished by measuring a diamond powder (40–60 µm, 99.9% metal basis) in the first frame where the center wavelength is 0.533 Å, so that a sufficiently large number of reflections is present in every single pixel. A total of 19 individual reflections are independently found in TOF and compared with the known 
+ <italic>d</italic> spacings of diamond powder. These are used to create a DIFC [as defined in equation (2)
+ <xref ref-type="disp-formula" rid="fd2"/>] for the individual pixels using the Gauss–Markov process. The 
+ <italic>Mantid</italic> software package is used for the calibration (Arnold 
+ <italic>et al.</italic>, 2014
+ <xref ref-type="bibr" rid="bb4"> ▸</xref>) of every single pixel (∼43 000 in the current instrument). The diffractometer constants are then stored in a file which is used for all data reduction. At present, second-order corrections are not carried out as we have not observed significant improvement from performing them; however, the algorithm exists to do so.
+</p>

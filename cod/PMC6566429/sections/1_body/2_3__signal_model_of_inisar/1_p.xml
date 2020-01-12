@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>After range alignment and auto-focus processing [
+ <xref rid="B32-sensors-19-02330" ref-type="bibr">32</xref>,
+ <xref rid="B33-sensors-19-02330" ref-type="bibr">33</xref>], the InISAR imaging geometry can be simplified as turntable imaging model, and the geometry is shown in 
+ <xref ref-type="fig" rid="sensors-19-02330-f003">Figure 3</xref>. The antenna A, B, and C correspond to the antenna Rx1, Rx2, and Rx3 in 
+ <xref ref-type="fig" rid="sensors-19-02330-f002">Figure 2</xref>. Antenna T acts as the transmitter only, and antennas A, B, and C operate at the receiving mode only. A target coordinate system o-xyz is built on the target, where o denotes the center of turntable. 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>P</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>P</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>y</mi>
+      <mi>P</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>z</mi>
+      <mi>P</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) is an arbitrary scattering point located on the target. 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denotes the vertical distance from coordinate origin o to the antenna plane, 
+ <italic>w</italic> denotes the rotation rate of target, and 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>T</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>B</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mi>C</mi>
+       <mi>P</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denote the initial distances from P to four antennas, respectively. The coordinates of T, A, B, and C are 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>,</mo>
+       <mo>−</mo>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>,</mo>
+       <mo>−</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>,</mo>
+       <mo>−</mo>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>,</mo>
+       <mo>−</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>,</mo>
+       <mo>−</mo>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>,</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+       <mo>,</mo>
+       <mo>−</mo>
+       <msub>
+        <mi>R</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>,</mo>
+       <mi>L</mi>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, respectively. The transmitting LFM pulse from antenna 
+ <italic>T</italic> is: 
+ <disp-formula id="FD1-sensors-19-02330">
+  <label>(1)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <mi>s</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>t</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>,</mo>
+       <msub>
+        <mi>t</mi>
+        <mi>m</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>rect</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mfrac>
+        <mover accent="true">
+         <mi>t</mi>
+         <mo stretchy="false">^</mo>
+        </mover>
+        <mrow>
+         <msub>
+          <mi>T</mi>
+          <mi>p</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mi>e</mi>
+     <mi>x</mi>
+     <mi>p</mi>
+     <mo stretchy="false">[</mo>
+     <mi>j</mi>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+       <mi>t</mi>
+       <mo>+</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mi>γ</mi>
+       <msup>
+        <mover accent="true">
+         <mi>t</mi>
+         <mo stretchy="false">^</mo>
+        </mover>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where: 
+ <disp-formula id="FD2-sensors-19-02330">
+  <label>(2)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi>rect</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>u</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mn>1</mn>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>|</mo>
+           <mi>u</mi>
+           <mo>|</mo>
+          </mrow>
+          <mo>≤</mo>
+          <mn>0.5</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mo>|</mo>
+           <mi>u</mi>
+           <mo>|</mo>
+          </mrow>
+          <mo>&gt;</mo>
+          <mn>0.5</mn>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

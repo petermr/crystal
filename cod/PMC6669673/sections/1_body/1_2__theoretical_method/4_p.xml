@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When the integrand 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msub>
+        <mi>x</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>…</mo>
+       <msub>
+        <mi>x</mi>
+        <mi>N</mi>
+       </msub>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is in a form of 
+ <inline-formula>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi>exp</mi>
+     <mo stretchy="false">[</mo>
+     <mo>−</mo>
+     <mi>U</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>N</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>)] with 
+ <italic>U</italic> (
+ <inline-formula>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>x</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>N</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) being positive definite within the entire integral domain and having the minimum at the origin (
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <mrow>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>), the effective length of 
+ <inline-formula>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>a</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is defined as [
+ <xref rid="B35-nanomaterials-09-00978" ref-type="bibr">35</xref>]: 
+ <disp-formula id="FD4-nanomaterials-09-00978">
+  <label>(4)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>a</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mrow>
+       <msub>
+        <mi>a</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mi>exp</mi>
+     <mo stretchy="false">[</mo>
+     <mo>−</mo>
+     <mi>U</mi>
+     <mo stretchy="false">(</mo>
+     <mn>0</mn>
+     <mo>…</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>…</mo>
+     <mn>0</mn>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">]</mo>
+     <mi>d</mi>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>,</mo>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+       <mo>,</mo>
+       <mn>2</mn>
+       <mo>…</mo>
+       <mi>N</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> and the effective volume approximates to a product 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mo mathsize="70%">∏</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+     </msubsup>
+     <msubsup>
+      <mi>a</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, i.e., 
+ <disp-formula id="FD5-nanomaterials-09-00978">
+  <label>(5)</label>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>I</mi>
+      <mrow>
+       <mi>N</mi>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+     <mo>≅</mo>
+     <msubsup>
+      <mo mathsize="70%">∏</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+     </msubsup>
+     <msubsup>
+      <mi>a</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

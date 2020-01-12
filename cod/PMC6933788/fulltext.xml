@@ -1,0 +1,400 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6933788</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b03490</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O with Large Birefringence</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Aibibula</surname><given-names>Mukeremu</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Wang</surname><given-names>Li</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Huang</surname><given-names>Shuzhao</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><label>&#x02020;</label>College
+of Chemistry and Chemical Engineering, <institution>Xinjiang
+Normal University</institution>, 102 Xinyi Road, Shayibage District, Urumqi 830054, <country>P. R. China</country></aff><aff id="aff2"><label>&#x02021;</label>Key
+Laboratory for Green Processing of Chemical Engineering of Xinjiang
+Bingtuan, School of Chemistry and Chemical Engineering, <institution>Shihezi University</institution>, 221 Beisi Road, Shihezi University Central District, Shihezi 832003, <country>P. R. China</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>wangliresearch@163.com</email>.</corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>12</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>24</day><month>12</month><year>2019</year></pub-date><volume>4</volume><issue>26</issue><fpage>22197</fpage><lpage>22202</lpage><history><date date-type="received"><day>19</day><month>10</month><year>2019</year></date><date date-type="accepted"><day>03</day><month>12</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0005" id="ab-tgr1"/></p><p>A mixed alkali-metal nonlinear optical (NLO) dihydro-cyanurate
+crystal Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O has been synthesized via
+the hydrothermal method. Its calculated birefringence is about 0.368,
+which is very large, its ultraviolet (UV) cutoff edge is down to 230
+nm, and the powder second harmonic generation (SHG) intensity is about
+0.2 &#x000d7; KDP. In addition, a first-principles investigation of the
+electronic properties on Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was
+carried out. The calculated band gap and SHG coefficient values agree
+well with the experimental ones. These results suggest that it could
+be applied as a UV birefringent material.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b03490</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b03490</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Birefringence is one of
+the standards for the materials in which
+a beam of light propagating in an anisotropic crystal splits into
+two beams with different polarization directions and refractive indices.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref4">4</xref></sup> The materials with suitable birefringence have been explored continuously.<sup><xref ref-type="bibr" rid="ref5">5</xref>&#x02212;<xref ref-type="bibr" rid="ref16">16</xref></sup> Recently, numerous scientific endeavors have been made to find new
+birefringent materials with good nonlinear optical (NLO) performance,<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref21">21</xref></sup> and these studies suggest that the molecular construction by using
+large &#x003c0;-conjugated anionic groups like (BO<sub>3</sub>)<sup>3&#x02013;</sup>, (B<sub>3</sub>O<sub>6</sub>)<sup>3&#x02013;</sup>, (NO<sub>2</sub>)<sup>&#x02212;</sup>, (CO<sub>3</sub>)<sup>2&#x02013;</sup>, (NO<sub>3</sub>)<sup>&#x02212;</sup>, (HCOO)<sup>&#x02212;</sup>,
+and (C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>3&#x02013;</sup> would
+be a very efficient way.<sup><xref ref-type="bibr" rid="ref22">22</xref>&#x02212;<xref ref-type="bibr" rid="ref28">28</xref></sup> By exploiting these groups, a number of excellent crystals Ca<sub>3</sub>(BO<sub>3</sub>)<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Ba<sub>2</sub>Ca(B<sub>3</sub>O<sub>6</sub>)<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> KSrCO<sub>3</sub>F,<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Ba<sub>2</sub>NO<sub>3</sub>(OH)<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> K<sub>3</sub>(COOH)<sub>3</sub>[B(OH)<sub>3</sub>]<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> Ba<sub>3</sub>(C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>2</sub>,<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> etc. have been designed and synthesized.</p><p>It is well-known
+that the large &#x003c0;-conjugated (B<sub>3</sub>O<sub>6</sub>)<sup>3&#x02013;</sup> group is a source of excellent
+NLO properties in materials like the famous crystal &#x003b2;-BaB<sub>2</sub>O<sub>4</sub> (BBO).<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> Owing to structural
+similarity, the cyanurate group (C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>3&#x02013;</sup> is a good candidate for the substation of the
+(B<sub>3</sub>O<sub>6</sub>)<sup>3&#x02013;</sup> group. In addition,
+hydro-isocyanurate (HC<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>2&#x02013;</sup>, dihydro-isocyanurate (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> were synthesized via
+a more easy crystal synthesis method compared to none hydrogen bonding
+cyanurates.<sup><xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup> Ye&#x02019;s group reported KLi(HC<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)&#x000b7;2H<sub>2</sub>O with a large
+second harmonic generation (SHG) response that was 5.3 times that
+of KH<sub>2</sub>PO<sub>4</sub> (KDP), and Lin&#x02019;s group calculated
+the birefringence of Cs<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O with the value
+of 0.29 in ab principle plane at 514 nm.<sup><xref ref-type="bibr" rid="ref39">39</xref>,<xref ref-type="bibr" rid="ref40">40</xref></sup> During our manuscript preparation, five compounds in the isohydro-
+and dihydro-cyanurates family including the title compound have been
+reported.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup></p><p>In our article, the single
+crystal of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was obtained by a
+mild-temperature hydrothermal method in
+a short synthesis period. We reported the crystal structure and measured
+the powder X-ray diffractometry (XRD), IR spectrum, UV&#x02013;vis&#x02013;NIR
+spectrum, thermal analysis, SHG properties, and ab initio theoretical
+calculations of the title compound.</p></sec><sec id="sec2"><label>2</label><title>Experimental and Computational Methods</title><sec id="sec2.1"><label>2.1</label><title>Synthesis</title><p>Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was prepared via hydrothermal reaction by using RbF (1.04
+g, 10 mmol), H<sub>3</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub> (1.29
+g, 10 mmol), and NaOH (0.40 g, 10 mmol). These reactants were transferred
+into 120 mL autoclave equipped with teflon liners (5 mL of deionized
+water was added) for 16 h at 190 &#x000b0;C, and the mixtures were cooled
+slowly down to room temperature. The large quantities of crystalline
+bulk crystals were obtained, and the yield of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was about 67% based on Rb.</p></sec><sec id="sec2.2"><label>2.2</label><title>Structure Determination</title><p>Single-crystal
+XRD data were collected on a Bruker SMART APEX II CCD detector equipped
+with graphite-monochromated Mo K&#x003b1; radiation (&#x003bb; = 0.71073
+&#x000c5;) and integrated with the SAINT.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> The crystal structure was identified with programs from SHELXTL-97.<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> Final least-squares refinement on <italic>F</italic><sub>o</sub><sup>2</sup> with data having <italic>F</italic><sub>o</sub><sup>2</sup> &#x02265; 2&#x003c3; (<italic>F</italic><sub>o</sub><sup>2</sup>) includes anisotropic displacement parameters for nonhydrogen
+atoms. The structure was inspected for missing symmetry elements with
+PLATON.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> During the refinement process,
+we found that Na(1) and Na(1B) were in positional disorder in the
+structure of the compound. We restricted the sum of the ratio of Na(1)
+and Na(1B) as 1 and refined them by the least-square method, which
+can help to get better R values. The crystal data and structure refinement
+information are summarized in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Table S1</ext-link>.
+Final atomic coordinates and equivalent isotropic displacement parameters,
+selected bond lengths, and angles are listed in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Tables S2 and S3</ext-link> in the Supporting Information (SI), respectively.</p><p>Powder XRD was performed on a Bruker D2 PHASER X-ray diffractometer.
+The 2&#x003b8; range of 10&#x02013;70&#x000b0; with a scan step width of
+0.02&#x000b0; and a fixed counting time of 0.1 s/step. The experimental
+and calculated powder XRD patterns of the compound are presented in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S2</ext-link>.</p></sec><sec id="sec2.3"><label>2.3</label><title>Thermal Analysis</title><p>The thermogravimetry/differential
+thermal analysis (TG&#x02013;DSC) curves for the Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O crystal were recorded with a NETZSCH STA 449C simultaneous
+thermal analyzer. The sample was placed in an Al<sub>2</sub>O<sub>3</sub> crucible and heated at a rate of 10 &#x000b0;C/min in the range
+of 25&#x02013;800 &#x000b0;C under inflowing nitrogen gas.</p></sec><sec id="sec2.4"><label>2.4</label><title>IR Spectrum Measurement</title><p>The IR spectra
+of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was measured on a Shimadzu IRAffinity-1
+spectrometer, which was mixed with dried KBr. The IR spectra were
+collected in the range of 400&#x02013;4000 cm<sup>&#x02013;1</sup> with
+a resolution of 2 cm<sup>&#x02013;1</sup>.</p></sec><sec id="sec2.5"><label>2.5</label><title>UV&#x02013;vis&#x02013;NIR Diffuse Reflectance
+Measurement</title><p>The UV&#x02013;vis&#x02013;NIR diffuse reflectance
+spectra of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O were measured using
+a Shimadzu Solid Spec-3700 DUV spectrophotometer with the measurement
+range extending from 200 to 1400 nm at room temperature.</p></sec><sec id="sec2.6"><label>2.6</label><title>Theoretical Calculation Methods</title><p>Density
+functional theory based on electronic structure calculations were
+carried out with the total energy mode of CASETEP package from the
+Materials Studio 5.5.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> The exchange and
+correlation effects were implemented via the Perdew&#x02013;Burke&#x02013;Ernzerhof
+functional<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> with the generalized gradient
+approximation (GGA).<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> The relations among
+the ionic cores and the valence electrons were depicted by norm-conserving
+pseudopotentials.<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> The valence electrons
+of title compound were calculated as Rb 4s<sup>2</sup>4p<sup>6</sup>5s<sup>1</sup>, Na 2s<sup>2</sup>2p<sup>6</sup>3s<sup>1</sup>, C
+2s<sup>2</sup>2p<sup>2</sup>, N 2s<sup>2</sup>2p<sup>3</sup>, O 2s<sup>2</sup>2p<sup>4</sup>, and H 1s<sup>1</sup>. The number of plane
+waves included in the basis sets was determined by the cutoff energy
+of 750 eV for Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O. The numerical integration
+of the Brillouin zone was performed using the Monkhorst&#x02013;Pack
+24 <italic>k</italic>-point grids of 3 &#x000d7; 3 &#x000d7; 3. The other
+parameters and convergent criteria were the same as the default values
+of the CASTEP program.</p></sec><sec id="sec2.7"><label>2.7</label><title>Powder Second Harmonic Generation Measurement</title><p>The SHG measurement was investigated via the Kurtz&#x02013;Perry
+method.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> The 1064 nm irradiation was produced
+via a Q-switched Nd: YAG laser. The sample was ground and sieved into
+distinct particle size ranges, &#x0003c;38&#x02013;55, 55&#x02013;88, 88&#x02013;105,
+105&#x02013;150, and 150&#x02013;200 &#x003bc;m. For comparisons, the
+sieved KDP samples were categorized into the same particle size ranges.</p></sec></sec><sec id="sec3"><label>3</label><title>Results and Discussion</title><sec id="sec3.1"><label>3.1</label><title>Single-Crystal Structure</title><p>Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O crystallizes in non-centrosymmetric space group <italic>Pmn</italic>2<sub>1</sub> (No. 31) with unit cell parameters: <italic>a</italic> = 16.020(7) &#x000c5;, <italic>b</italic> = 6.601(3) &#x000c5;, <italic>c</italic> = 11.716(5) &#x000c5; and <italic>Z</italic> = 2. Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O features two-dimensional layers consisting
+of &#x003c0;-conjugated (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> 6-membered rings. The Rb atoms are eight-coordinated
+to O/N atoms with two O atoms from H<sub>2</sub>O, while the Na atoms
+are six-coordinated to form the NaO<sub>6</sub> polyhedron with two
+O atoms from H<sub>2</sub>O. Unfortunately, the Na atoms are split
+off with the ratio of 0.843:0.157, so we mainly discussed the higher
+one in the structure of the compound. Interestingly, the two polyhedra
+form two-dimensional layer resembling &#x0201c;&#x0221a;mark&#x0201d;
+along the <italic>a</italic>-axis in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a. The isolated (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups form a <sub>&#x0221e;</sub><sup>2</sup>[H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>]<sup>&#x02212;</sup> layer along the <italic>b</italic>-axis in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b.
+The Na<sup>+</sup> and Rb<sup>+</sup> cations and H<sub>2</sub>O are
+filled between <sub>&#x0221e;</sub><sup>2</sup>[H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>]<sup>&#x02212;</sup> layers with
+a certain sequence along the <italic>a</italic>-axis in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c. In addition, the positions
+of hydrogen bonds and water molecules in the whole structure of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O is given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S1</ext-link> in the SI. The bond lengths and angles for Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O are listed in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">SI</ext-link>.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a) Coordination of the Rb and Na atoms. (b) <sub>&#x0221e;</sub><sup>2</sup>[H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>]<sup>&#x02212;</sup> layer with H<sub>2</sub>O molecule. (c) Whole
+crystal structure of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0006" id="gr1" position="float"/></fig><p>The experimental powder XRD pattern of the sample
+is in accordance
+with the theoretical one inferred from the single-crystal data (cif),
+implying that the obtained phase is pure (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S2</ext-link>). In addition, the distribution of Rb, Na, C, N, and O elements
+was certified by energy-dispersive X-ray spectroscopy (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S3</ext-link>).</p></sec><sec id="sec3.2"><label>3.2</label><title>IR Spectrum</title><p>The IR spectrum of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O is shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S4</ext-link> in the SI. The peaks around 2700&#x02013;3500 cm<sup>&#x02013;1</sup> can confirm the presence of O&#x02013;H and N&#x02013;H bonds. The
+absorption bands observed at 1706, 1579, and 1466 cm<sup>&#x02013;1</sup> are characteristics of the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> group. The C&#x02013;N, N&#x02013;H,
+and C&#x02013;O bands are located at 1380, 1250, and 1074 cm<sup>&#x02013;1</sup>, respectively. The peak at 883 cm<sup>&#x02013;1</sup> may be due
+to the asymmetrical stretching vibration of the C<sub>3</sub>N<sub>3</sub> groups. The bands at 786 and 692 cm<sup>&#x02013;1</sup> are
+assigned to the N&#x02013;C&#x02013;O and and the peak at 554 cm<sup>&#x02013;1</sup> belongs to the C=O bands.<sup><xref ref-type="bibr" rid="ref50">50</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup></p></sec><sec id="sec3.3"><label>3.3</label><title>UV&#x02013;vis&#x02013;NIR Diffuse Reflectance
+Measurement</title><p>The UV&#x02013;vis&#x02013;IR reflectance spectra
+of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O in the range of 200&#x02013;1400
+nm are shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. Evidently, its cutoff edge is down to 230 nm, with the reflectance
+of 12% at 240 nm, and the energy band gap is about 4.35 eV.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>UV&#x02013;vis&#x02013;NIR
+diffuse reflectance spectrum for Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0003" id="gr2" position="float"/></fig></sec><sec id="sec3.4"><label>3.4</label><title>Thermal Analysis</title><p>Thermal analysis
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S4</ext-link>) indicates that Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O has two main steps of mass loss from the TG
+curve. There are 10% mass losses in the first small stage in the temperature
+range of 150&#x02013;200 &#x000b0;C for the loss of three crystal water
+molecules per formula unit. The second large stage in the temperature
+interval between 350 and 600 &#x000b0;C lost mass is about 40%, which
+is similar to the calculated value and can be assigned to the decomposition
+of the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups.<sup><xref ref-type="bibr" rid="ref52">52</xref></sup> DSC curve shows
+that the smaller peaks at 184 &#x000b0;C and the stronger peaks at 378
+&#x000b0;C represent the endothermic peaks of water molecules and (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups, respectively.</p></sec><sec id="sec3.5"><label>3.5</label><title>Electronic Structures</title><p>To better understand
+the relationship between the structure and property, the first-principle
+calculations (density functional theory) were carried out by using
+the CASTEP package. Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O shows an indirect
+band gap of 4.54 eV by using the GGA method (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a). The partial density of states are drawn
+in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b. From <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b, we can note that
+valence band (VB) is mainly composed of Rb sp states, C sp states,
+H s states, O sp states, and N sp states. The conduction band (CB)
+mainly consists of Na sp states, C sp states O sp states, and N sp
+states. The top of the VB is composed of O p states and N sp states
+and the bottom of CB mainly consists of C sp states N sp states and
+O sp states, which manifests that the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups determine the electronic
+structure and optical properties.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(a) Electronic band structure. (b) Partial
+density of states of
+Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0001" id="gr3" position="float"/></fig></sec><sec id="sec3.6"><label>3.6</label><title>Linear Optical Properties</title><p>Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O has a large birefringence of 0.368 at
+1064 nm (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a).
+The largest reflective index is in the (0 0 1) direction and the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups is in parallel to the light incident direction in the unit
+cell (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b). Thus,
+the largest contribution to birefringence comes from the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> groups.
+The birefringence was further investigated by using visualized total
+electron density and electron localized function map (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>c). It can be inferred that
+(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> holds high electron densities owing to strong covalent C&#x02013;N
+and C&#x02013;O bond. A nonspherical symmetric density distribution
+is clearly presented around each N (no hydrogenation) and O atom,
+which is composed of umbrella-shaped N 2s lone pairs and O nonbonding
+2p electrons. Six parallel p<sub>&#x003c0;</sub> electrons are uniformly
+distributed at the C<sub>3</sub>N<sub>3</sub> ring, thus corresponding
+to a &#x003c0;-conjugated group; the &#x003c0;-conjugated groups produce
+strong anisotropy to be conducive to birefringence. We also calculated
+the bond population of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O, and
+the result is presented in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Table S4</ext-link>. It
+can be found that the bond population of the H&#x02013;O, C&#x02013;O,
+C&#x02013;N, and N&#x02013;H groups are in the range of 0.98&#x02013;0.99,
+0.6&#x02013;1.06, 0.78&#x02013;0.98, and 0.69&#x02013;0.72, respectively.
+It indicates that the H&#x02013;O, C&#x02013;O, C&#x02013;N, and N&#x02013;H
+groups display strong covalent property. As is known to all, the covalent
+property is beneficial for optical anisotropy and generating large
+birefringence for the compounds. In conclusion, the large birefringence
+of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O is mainly triggered by (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> &#x003c0;-conjugated groups. In addition, the phase-matching wavelength
+of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was calculated (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>d). It is remarkable that the
+calculated type I shortest PM wavelength is about 402 nm.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(a) Birefringence
+of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O. (b)
+(0 0 1) Direction of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O in the unit
+cell. (c) Electron localization function map of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O. (d) Birefringence and accordingly predicted shortest PM
+wavelength.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0002" id="gr4" position="float"/></fig></sec><sec id="sec3.7"><label>3.7</label><title>NLO Properties</title><p>Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O crystallizes into a non-centrosymmetric space group (<italic>Pmn</italic>2<sub>1</sub>, No. 31). The SHG intensity of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O goes up with the increasing particle size and
+exhibits the final SHG intensity of about 0.2 &#x000d7; KDP, which indicate
+that the title compound is phase matchable.</p><p>In addition, the
+SHG coefficients (<italic>d</italic><sub>ij</sub>) of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O were computed to further understand the NLO
+properties. The space group <italic>Pmn</italic>2<sub>1</sub> belongs
+to the class <italic>mm</italic>2 point group and possesses 2 nonzero
+independent SHG coefficients (<italic>d</italic><sub>15</sub> = &#x02212;0.0675
+pm/V, <italic>d</italic><sub>33</sub> = 0.136 pm/V) under the restriction
+of Kleinman symmetry. The theoretically estimated value is in good
+agreement with the experimental one in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">Figure S6</ext-link> in the SI.</p><p>To further investigate the origin of the
+SHG effects in Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O, the donation of
+individual atoms in
+virtual-electron (VE) transition process was computed using the SHG-density
+method, and the SHG-density of VE occupied (veocc) and unoccupied
+(veunocc) states are shown in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a,b, respectively. For the occupied state, O p and
+N p orbitals make a significant contribution to the SHG effect. In
+unoccupied states, the O p, N p, and C p orbitals make the main contribution.
+These results indicate that the C&#x02013;O groups and the (H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>&#x02212;</sup> &#x003c0;-conjugated
+groups are the main contributors for Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O with large SHG response.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>(a) VE occupied and (b) VE unoccupied
+orbitals of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_0004" id="gr5" position="float"/></fig></sec></sec><sec id="sec4"><label>4</label><title>Conclusions</title><p>In summary, the single
+crystal of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O was obtained with
+the hydrothermal method in a short synthesis
+period. The calculated birefringence of Rb<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O is about 0.368, its ultraviolet (UV) cutoff edge is down
+to 230 nm, the SHG intensity is about 0.2 &#x000d7; KDP, and phase matchable.
+We believe that this work could contribute to the development of the
+cyanurates and hydro-isocyanurates.</p></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting
+Information
+is available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsomega.9b03490?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsomega.9b03490</ext-link>.<list id="silist" list-type="simple"><list-item><p>Crystal data and structure refinement; the final atomic
+coordinates and equivalent isotropic displacement parameters and the
+bond valence sum for each atom in asymmetric unit; bond lengths and
+angles; bond population; experimentally calculated XRD pattern; elemental
+analysis; IR spectrum; the TG&#x02013;DSC curves; the SHG intensity
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b03490/suppl_file/ao9b03490_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b03490_si_001.pdf"><caption><p>ao9b03490_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e1982-autogenerated"><p>The
+authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work is supported by the National Natural Science Foundation
+of China (Grant No. 51762039) and Xinjiang Xuesong Plan (Grant No.
+2017XS03).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Guoqing</surname><given-names>Z.</given-names></name>; <name><surname>Xu</surname><given-names>J.</given-names></name>; <name><surname>Chen</surname><given-names>X. D.</given-names></name>; <name><surname>Zhong</surname><given-names>H. Y.</given-names></name>; <name><surname>Wang</surname><given-names>S. T.</given-names></name>; <name><surname>Xu</surname><given-names>K.</given-names></name>; <name><surname>Deng</surname><given-names>P. Z.</given-names></name>; <name><surname>Gan</surname><given-names>F. X.</given-names></name>
+<article-title>Growth and Spectrum of a Novel Birefringent
+&#x003b1;-BaB<sub>2</sub>O<sub>4</sub> Crystal</article-title>. <source>J. Cryst. Growth</source>
+<year>1998</year>, <volume>191</volume>, <fpage>517</fpage>&#x02013;<lpage>519</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-0248(98)00162-6</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Han</surname><given-names>S. J.</given-names></name>; <name><surname>Huang</surname><given-names>C. M.</given-names></name>; <name><surname>Tudi</surname><given-names>A.</given-names></name>; <name><surname>Hu</surname><given-names>S.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>&#x003b2;-CsB<sub>9</sub>O<sub>14</sub>: A Triple-Layered
+Borate with Edge-Sharing BO<sub>4</sub> Tetrahedra Exhibiting a Short
+Cutoff Edge and a Large Birefringence</article-title>. <source>Chem.-
+Eur. J.</source>
+<year>2019</year>, <fpage>11614</fpage><pub-id pub-id-type="doi">10.1002/chem.201902527</pub-id>.<pub-id pub-id-type="pmid">31211451</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Mutailipu</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>Wu</surname><given-names>H. P.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Shen</surname><given-names>Y. H.</given-names></name>; <name><surname>Sun</surname><given-names>J. L.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Ba<sub>3</sub>Mg<sub>3</sub>(BO<sub>3</sub>)<sub>3</sub>F<sub>3</sub> Polymorphs with Reversible Phase
+Transition and High Performances as Ultraviolet Nonlinear Optical
+Materials</article-title>. <source>Nat. Commun.</source>
+<year>2018</year>, <volume>9</volume>, <elocation-id>3089</elocation-id><pub-id pub-id-type="doi">10.1038/s41467-018-05575-w</pub-id>.<pub-id pub-id-type="pmid">30082914</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Guo</surname><given-names>J. Y.</given-names></name>; <name><surname>Tudi</surname><given-names>A.</given-names></name>; <name><surname>Han</surname><given-names>S. J.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Sn<sub>2</sub>B<sub>5</sub>O<sub>9</sub>Cl: A Material
+with Large Birefringence
+Enhancement Activated via Alkaline-earth Metal Substitution by Tin</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2019</year>, <fpage>17675</fpage><pub-id pub-id-type="doi">10.1002/anie.201911187</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Chen</surname><given-names>X. L.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Poeppelmeier</surname><given-names>K. R.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Designing an Excellent
+Deep-Ultraviolet Birefringent Material for Light Polarization</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2018</year>, <volume>140</volume>, <fpage>16311</fpage>&#x02013;<lpage>16319</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.8b10009</pub-id>.<pub-id pub-id-type="pmid">30418021</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>An</surname><given-names>D. H.</given-names></name>; <name><surname>Hu</surname><given-names>C.</given-names></name>; <name><surname>Chen</surname><given-names>X. L.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Rational Design via Synergistic Combination Leads to
+an Outstanding Deep-Ultraviolet Birefringent Li<sub>2</sub>Na<sub>2</sub>B<sub>2</sub>O<sub>5</sub> Material with an Unvalued B<sub>2</sub>O<sub>5</sub> Functional Gene</article-title>. <source>J. Am.
+Chem. Soc.</source>
+<year>2019</year>, <volume>141</volume>, <fpage>3258</fpage>&#x02013;<lpage>3264</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.8b13402</pub-id>.<pub-id pub-id-type="pmid">30656929</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Wu</surname><given-names>H. P.</given-names></name>; <name><surname>Yu</surname><given-names>H. W.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Hou</surname><given-names>X. L.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>; <name><surname>Su</surname><given-names>X.</given-names></name>; <name><surname>Poeppelmeier</surname><given-names>K. R.</given-names></name>; <name><surname>Rondinelli</surname><given-names>J. M.</given-names></name>
+<article-title>Designing
+a Deep Ultraviolet Nonlinear Optical Material with Large Second Harmonic
+Generation Response</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2013</year>, <volume>135</volume>, <fpage>4215</fpage>&#x02013;<lpage>4219</lpage>. <pub-id pub-id-type="doi">10.1021/ja400500m</pub-id>.<pub-id pub-id-type="pmid">23448539</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Wu</surname><given-names>H. P.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>; <name><surname>Poeppelmeier</surname><given-names>K. R.</given-names></name>; <name><surname>Li</surname><given-names>H. Y.</given-names></name>; <name><surname>Jia</surname><given-names>D. Z.</given-names></name>; <name><surname>Chen</surname><given-names>Z. H.</given-names></name>; <name><surname>Fan</surname><given-names>X. Y.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; et al. <article-title>K<sub>3</sub>B<sub>6</sub>O<sub>10</sub>Cl: A New Structure Analogous to
+Perovskite with a Large SHG Response and Deep UV Absorption Edge</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2011</year>, <volume>133</volume>, <fpage>7786</fpage>&#x02013;<lpage>7790</lpage>. <pub-id pub-id-type="doi">10.1021/ja111083x</pub-id>.<pub-id pub-id-type="pmid">21534555</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Shi</surname><given-names>G. Q.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Hou</surname><given-names>X. L.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>; <name><surname>Poeppelmeier</surname><given-names>K. R.</given-names></name>
+<article-title>Finding
+the Next Deep-Ultraviolet Nonlinear Optical Material: NH<sub>4</sub>B<sub>4</sub>O<sub>6</sub>F</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>10645</fpage>&#x02013;<lpage>10648</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.7b05943</pub-id>.<pub-id pub-id-type="pmid">28726399</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Shi</surname><given-names>G. Q.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Fluorooxoborates:
+Beryllium-Free Deep-Ultraviolet Nonlinear Optical Materials without
+Layered Growth</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>3916</fpage>&#x02013;<lpage>3919</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201700540</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Wang</surname><given-names>X. F.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>CsB<sub>4</sub>O<sub>6</sub>F: A
+Congruent-Melting
+Deep-Ultraviolet Nonlinear Optical Material by Combining Superior
+Functional Units</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>14119</fpage>&#x02013;<lpage>14123</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201708231</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Mutailipu</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Wang</surname><given-names>L. Y.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Zhou</surname><given-names>X.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>SrB<sub>5</sub>O<sub>7</sub>F<sub>3</sub> Functionalized with [B<sub>5</sub>O<sub>9</sub>F<sub>3</sub>]<sup>6&#x02013;</sup> Chromophores: Accelerating the
+Rational Design
+of Deep-Ultraviolet Nonlinear Optical Materials</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>6095</fpage>&#x02013;<lpage>6099</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201802058</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>Cation-Tuned Synthesis
+of Fluorooxoborates: Towards Optimal Deep-Ultraviolet Nonlinear Optical
+Materials</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>2150</fpage>&#x02013;<lpage>2154</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201712168</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Wu</surname><given-names>S.</given-names></name>; <name><surname>Wang</surname><given-names>G.</given-names></name>; <name><surname>Xie</surname><given-names>J.</given-names></name>; <name><surname>Wu</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Lin</surname><given-names>X.</given-names></name>
+<article-title>Growth of Large Birefringent &#x003b1;-BBO Crystal</article-title>. <source>J. Cryst. Growth</source>
+<year>2002</year>, <volume>245</volume>, <fpage>84</fpage>&#x02013;<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-0248(02)01693-7</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Deshazer</surname><given-names>L. G.</given-names></name>
+<article-title>Improved
+Midinfrared Polarizers Using Yttrium Vanadate</article-title>. <source>Proc. SPIE</source>
+<year>2002</year>, <volume>4481</volume>, <fpage>10</fpage>&#x02013;<lpage>16</lpage>. <pub-id pub-id-type="doi">10.1117/12.452881</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Wu</surname><given-names>L.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Kong</surname><given-names>Y. F.</given-names></name>; <name><surname>Sun</surname><given-names>T. Q.</given-names></name>; <name><surname>Xu</surname><given-names>J. J.</given-names></name>; <name><surname>Chen</surname><given-names>X. L.</given-names></name>
+<article-title>Structure Determination
+of Novel Orthoborate NaMgBO<sub>3</sub>: A Promising Birefringent
+Crystal</article-title>. <source>Inorg. Chem.</source>
+<year>2007</year>, <volume>13</volume>, <fpage>5207</fpage>&#x02013;<lpage>5211</lpage>. <pub-id pub-id-type="doi">10.1021/ic062429i</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Li</surname><given-names>R. K.</given-names></name>; <name><surname>Ma</surname><given-names>Y. Y.</given-names></name>
+<article-title>Chemical Engineering of a Birefringent Crystal Transparent in the
+Deep UV Range</article-title>. <source>CrystEngComm</source>
+<year>2012</year>, <volume>14</volume>, <fpage>5421</fpage>&#x02013;<lpage>5424</lpage>. <pub-id pub-id-type="doi">10.1039/c2ce25240f</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Zhang</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Bian</surname><given-names>Q.</given-names></name>; <name><surname>Hou</surname><given-names>X. L.</given-names></name>; <name><surname>Yu</surname><given-names>H. W.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Wu</surname><given-names>K.</given-names></name>; <name><surname>Yang</surname><given-names>F.</given-names></name>; <name><surname>Peng</surname><given-names>Q. J.</given-names></name>; <name><surname>Xu</surname><given-names>Z. Y.</given-names></name>; <name><surname>Chang</surname><given-names>K. B.</given-names></name>; <name><surname>Poeppelmeier</surname><given-names>K. R.</given-names></name>
+<article-title>Na<sub>3</sub>Ba<sub>2</sub>(B<sub>3</sub>O<sub>6</sub>)<sub>2</sub>F: Next Generation of Deep-Ultraviolet Birefringent
+Materials</article-title>. <source>Cryst. Growth Des.</source>
+<year>2014</year>, <volume>15</volume>, <fpage>523</fpage>&#x02013;<lpage>529</lpage>. <pub-id pub-id-type="doi">10.1021/cg5016912</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Zhang</surname><given-names>Z. Z.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>BaB<sub>8</sub>O<sub>12</sub>F<sub>2</sub>: A Promising Deep-UV Birefringent
+Material</article-title>. <source>Inorg. Chem. Front.</source>
+<year>2019</year>, <volume>6</volume>, <fpage>546</fpage>&#x02013;<lpage>549</lpage>. <pub-id pub-id-type="doi">10.1039/C8QI01263F</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Yu</surname><given-names>H. W.</given-names></name>; <name><surname>Zhang</surname><given-names>W. G.</given-names></name>; <name><surname>Halasyamani</surname><given-names>P. Shiv.</given-names></name>
+<article-title>Large Birefringent Materials, Na<sub>6</sub>Te<sub>4</sub>W<sub>6</sub>O<sub>29</sub> and Na<sub>2</sub>TeW<sub>2</sub>O<sub>9</sub>: Synthesis, Structure, Crystal Growth,
+and Characterization</article-title>. <source>Cryst. Growth Des.</source>
+<year>2016</year>, <volume>16</volume>, <fpage>1081</fpage>&#x02013;<lpage>1087</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.5b01649</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Huang</surname><given-names>L.</given-names></name>; <name><surname>Zou</surname><given-names>G. H.</given-names></name>; <name><surname>Cai</surname><given-names>H.</given-names></name>; <name><surname>Wang</surname><given-names>S. C.</given-names></name>; <name><surname>Lin</surname><given-names>C. S.</given-names></name>; <name><surname>Ye</surname><given-names>N.</given-names></name>
+<article-title>Sr<sub>2</sub>(OH)<sub>3</sub>NO<sub>3</sub>: The First Nitrate as
+a Deep UV Nonlinear Optical Material with Large SHG Responses</article-title>. <source>J. Mater. Chem. C</source>
+<year>2015</year>, <volume>3</volume>, <fpage>5268</fpage>&#x02013;<lpage>5274</lpage>. <pub-id pub-id-type="doi">10.1039/C5TC00344J</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Kang</surname><given-names>L.</given-names></name>; <name><surname>Zhang</surname><given-names>X. Y.</given-names></name>; <name><surname>Lee</surname><given-names>M. H.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Wu</surname><given-names>Y. C.</given-names></name>
+<article-title>Molecular Construction
+Using (C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>3&#x02013;</sup> Anions: Analysis and Prospect for Inorganic
+Metal Cyanurates Nonlinear Optical Materials</article-title>. <source>Cryst. Growth Des.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>4015</fpage>&#x02013;<lpage>4020</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.7b00677</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Wang</surname><given-names>N. Z.</given-names></name>; <name><surname>Liu</surname><given-names>X. M.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Wu</surname><given-names>Y. C.</given-names></name>
+<article-title>Co-crystal
+LiCl&#x000b7;(H<sub>3</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>):
+A Promising Solar-blind Nonlinear Optical Crystals with Giant Nonlinearity
+from Coplanar &#x003c0;-conjugated Groups</article-title>. <source>Chem.
+Commun.</source>
+<year>2019</year>, <volume>55</volume>, <fpage>6257</fpage>&#x02013;<lpage>6260</lpage>. <pub-id pub-id-type="doi">10.1039/C9CC02990G</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Huang</surname><given-names>C. M.</given-names></name>; <name><surname>Han</surname><given-names>G. P.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>F. F.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>A New Barium Fluorooxoborate
+BaB<sub>5</sub>O<sub>8</sub>F&#x000b7;xH<sub>2</sub>O with Large Birefringence
+and Wide UV Transparency
+Window</article-title>. <source>Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>6714</fpage>&#x02013;<lpage>6717</lpage>. <pub-id pub-id-type="doi">10.1039/C9DT00106A</pub-id>.<pub-id pub-id-type="pmid">31063531</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Han</surname><given-names>J.</given-names></name>; <name><surname>Tudi</surname><given-names>A.</given-names></name>; <name><surname>Zhang</surname><given-names>Z. Z.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>CO(NH<sub>2</sub>)<sub>2</sub>NH<sub>4</sub>Cl: An Ultraviolet Birefringent
+Material with the Conjugated C=O Groups</article-title>. <source>CrystEngComm</source>
+<year>2019</year>, <fpage>6072</fpage><pub-id pub-id-type="doi">10.1039/C9CE01350D</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Mutailipu</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>B. B.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>The First
+Lead Fluorooxoborate PbB<sub>5</sub>O<sub>8</sub>F: Achieving the
+Coexistence of Large Birefringence and Deep-Ultraviolet Cutoff Edge</article-title>. <source>Chem. Commun.</source>
+<year>2018</year>, <volume>54</volume>, <fpage>6308</fpage>&#x02013;<lpage>6311</lpage>. <pub-id pub-id-type="doi">10.1039/C8CC02694G</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Liu</surname><given-names>Q.</given-names></name>; <name><surname>Li</surname><given-names>Z.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Su</surname><given-names>X.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>
+<article-title>LiMCO<sub>3</sub> (M = K,Rb,Cs):
+A Series of Mixed Alkali Carbonates with Large
+Birefringence</article-title>. <source>Dalton Trans.</source>
+<year>2017</year>, <volume>46</volume>, <fpage>6894</fpage>&#x02013;<lpage>6899</lpage>. <pub-id pub-id-type="doi">10.1039/C7DT00270J</pub-id>.<pub-id pub-id-type="pmid">28497139</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Bian</surname><given-names>Q.</given-names></name>; <name><surname>Yang</surname><given-names>Z. H.</given-names></name>; <name><surname>Dong</surname><given-names>L. Y.</given-names></name>; <name><surname>Pan</surname><given-names>S. L.</given-names></name>; <name><surname>Zhang</surname><given-names>H.</given-names></name>; <name><surname>Wu</surname><given-names>H. P.</given-names></name>; <name><surname>Yu</surname><given-names>H. W.</given-names></name>; <name><surname>Zhao</surname><given-names>W. W.</given-names></name>; <name><surname>Jing</surname><given-names>Q.</given-names></name>
+<article-title>First Principle
+Assisted Prediction of the Birefringence Values of Functional Inorganic
+Borate Materials</article-title>. <source>J. Phys. Chem. C</source>
+<year>2014</year>, <volume>118</volume>, <fpage>25651</fpage>&#x02013;<lpage>25657</lpage>. <pub-id pub-id-type="doi">10.1021/jp506744s</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Zhang</surname><given-names>S. Y.</given-names></name>; <name><surname>Wu</surname><given-names>X.</given-names></name>; <name><surname>Song</surname><given-names>Y. T.</given-names></name>; <name><surname>Ni</surname><given-names>D. Q.</given-names></name>; <name><surname>Hu</surname><given-names>B. Q.</given-names></name>; <name><surname>Zhou</surname><given-names>T.</given-names></name>
+<article-title>Growth of
+birefringent Ca<sub>3</sub>(BO<sub>3</sub>)<sub>2</sub> crystals by
+the Czochralski method</article-title>. <source>J. Cryst. Growth</source>
+<year>2003</year>, <volume>252</volume>, <fpage>246</fpage>&#x02013;<lpage>250</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-0248(03)00867-4</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Jia</surname><given-names>Z.</given-names></name>; <name><surname>Zhang</surname><given-names>N. N.</given-names></name>; <name><surname>Ma</surname><given-names>Y. Y.</given-names></name>; <name><surname>Zhao</surname><given-names>L. W.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>; <name><surname>Li</surname><given-names>R. K.</given-names></name>
+<article-title>Top-seeded Solution
+Growth and Optical Properties of Deep-UV Birefringent
+Crystal Ba<sub>2</sub>Ca(B<sub>3</sub>O<sub>6</sub>)<sub>2</sub></article-title>. <source>Cryst. Growth Des.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>558</fpage>&#x02013;<lpage>562</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.6b01428</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Zhang</surname><given-names>W.</given-names></name>; <name><surname>Halasyamani</surname><given-names>P. S.</given-names></name>
+<article-title>Crystal
+Growth and Optical Properties of a UV Nonlinear
+Optical Material KSrCO<sub>3</sub>F</article-title>. <source>CrystEngComm</source>
+<year>2017</year>, <volume>19</volume>, <fpage>4742</fpage>&#x02013;<lpage>4748</lpage>. <pub-id pub-id-type="doi">10.1039/C7CE01097D</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Dong</surname><given-names>X. H.</given-names></name>; <name><surname>Huang</surname><given-names>L.</given-names></name>; <name><surname>Liu</surname><given-names>Q. Y.</given-names></name>; <name><surname>Zeng</surname><given-names>H. M.</given-names></name>; <name><surname>Lin</surname><given-names>Z. E.</given-names></name>; <name><surname>Xu</surname><given-names>D. G.</given-names></name>; <name><surname>Zou</surname><given-names>G. H.</given-names></name>
+<article-title>Perfect Balance Harmony in Ba<sub>2</sub>NO<sub>3</sub>(OH)<sub>3</sub>: A Beryllium-Free Nitrate as
+a UV Nonlinear Optical Material</article-title>. <source>Chem. Commun.</source>
+<year>2018</year>, <volume>54</volume>, <fpage>5792</fpage>&#x02013;<lpage>5795</lpage>. <pub-id pub-id-type="doi">10.1039/C8CC03007C</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>He</surname><given-names>F. F.</given-names></name>; <name><surname>Wang</surname><given-names>Q.</given-names></name>; <name><surname>Liu</surname><given-names>M. J.</given-names></name>; <name><surname>Huang</surname><given-names>L.</given-names></name>; <name><surname>Gao</surname><given-names>D. J.</given-names></name>; <name><surname>Bi</surname><given-names>J.</given-names></name>; <name><surname>Zou</surname><given-names>G. H.</given-names></name>
+<article-title>Hydrogen Bonding Assisted Construction of Graphite-like
+Deep-UV Optical Materials with Two Types of Parallel &#x003c0;-Conjugated
+Units</article-title>. <source>Cryst. Growth Des.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>4756</fpage>&#x02013;<lpage>4765</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.8b00804</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Tang</surname><given-names>J.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Meng</surname><given-names>X. H.</given-names></name>; <name><surname>Kang</surname><given-names>K. J.</given-names></name>; <name><surname>Yin</surname><given-names>W. L.</given-names></name>; <name><surname>Zeng</surname><given-names>T. X.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Yao</surname><given-names>J. Y.</given-names></name>; <name><surname>Zhang</surname><given-names>G. C.</given-names></name>; <name><surname>Kang</surname><given-names>B.</given-names></name>
+<article-title>Ba<sub>3</sub>(C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>2</sub>: A New Phase of Barium Cyanurate
+Containing Parallel &#x003c0;-Conjugated Groups as a Birefringent Material
+Replacement for Calcite</article-title>. <source>Cryst. Growth Des.</source>
+<year>2018</year>, <volume>19</volume>, <fpage>568</fpage>&#x02013;<lpage>572</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.8b01782</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Kokh</surname><given-names>A.</given-names></name>; <name><surname>Popov</surname><given-names>V.</given-names></name>; <name><surname>Bekker</surname><given-names>T.</given-names></name>; <name><surname>Kononova</surname><given-names>N.</given-names></name>; <name><surname>Kokh</surname><given-names>K.</given-names></name>; <name><surname>Mokrushnikov</surname><given-names>P.</given-names></name>
+<article-title>Melt-solution BBO Crystal Growth
+under Change of the
+Heat Field Symmetry and its Rotation</article-title>. <source>J. Cryst.
+Growth</source>
+<year>2005</year>, <volume>275</volume>, <fpage>669</fpage>&#x02013;<lpage>674</lpage>. <pub-id pub-id-type="doi">10.1016/j.jcrysgro.2004.11.036</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Qu</surname><given-names>G. Y.</given-names></name>; <name><surname>Hu</surname><given-names>Z. F.</given-names></name>; <name><surname>Wang</surname><given-names>Y. P.</given-names></name>; <name><surname>Yang</surname><given-names>Q.</given-names></name>; <name><surname>Tong</surname><given-names>L. M.</given-names></name>
+<article-title>Synthesis
+of Optical-Quality Single-Crystal &#x003b2;-BaB<sub>2</sub>O<sub>4</sub> Microwires and Nanowires</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2013</year>, <volume>23</volume>, <fpage>1232</fpage>&#x02013;<lpage>1237</lpage>. <pub-id pub-id-type="doi">10.1002/adfm.201201866</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Wang</surname><given-names>N. Z.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>S. Z.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>
+<article-title>A New Ultraviolet
+Transparent Hydra-Cyanurate K<sub>2</sub>(C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>H) with Strong Optical Anisotropy from Delocalized &#x003c0;-Bonds</article-title>. <source>Dalton Trans.</source>
+<year>2019</year>, <volume>48</volume>, <fpage>2271</fpage>&#x02013;<lpage>2274</lpage>. <pub-id pub-id-type="doi">10.1039/C8DT05018J</pub-id>.<pub-id pub-id-type="pmid">30667433</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Xia</surname><given-names>M. J.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Meng</surname><given-names>X. H.</given-names></name>; <name><surname>Wang</surname><given-names>Y. G.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Intrinsic Zero</surname><given-names>A.</given-names></name>
+<article-title>Thermal Expansion
+in Cube Cyanurate K<sub>6</sub>Cd<sub>3</sub>(C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub></article-title>. <source>Inorg. Chem. Front.</source>
+<year>2019</year>, <volume>6</volume>, <fpage>2291</fpage>&#x02013;<lpage>2295</lpage>. <pub-id pub-id-type="doi">10.1039/C9QI00709A</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Lin</surname><given-names>D. H.</given-names></name>; <name><surname>Luo</surname><given-names>M.</given-names></name>; <name><surname>Lin</surname><given-names>C. S.</given-names></name>; <name><surname>Xu</surname><given-names>F.</given-names></name>; <name><surname>Ye</surname><given-names>N.</given-names></name>
+<article-title>KLi(HC<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)&#x000b7;2H<sub>2</sub>O: Solvent-Drop Grinding
+Method toward the Hydro-isocyanurate Nonlinear Optical Crystal</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2019</year>, <volume>141</volume>, <fpage>3390</fpage>&#x02013;<lpage>3394</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.8b13280</pub-id>.<pub-id pub-id-type="pmid">30747533</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Meng</surname><given-names>X. H.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Tang</surname><given-names>J.</given-names></name>; <name><surname>Kang</surname><given-names>K. J.</given-names></name>; <name><surname>Huang</surname><given-names>Q.</given-names></name>; <name><surname>Yin</surname><given-names>W. L.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>
+<article-title>Cs<sub>3</sub>Na(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;3H<sub>2</sub>O: A Mixed Alkali-Metal Hydroisocyanurate Nonlinear Optical
+Material Containing &#x003c0;-Conjugated Six-Membered-Ring Units</article-title>. <source>Eur. J. Inorg. Chem.</source>
+<year>2019</year>, <fpage>2791</fpage><pub-id pub-id-type="doi">10.1002/ejic.201900357</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Lu</surname><given-names>J.</given-names></name>; <name><surname>Lian</surname><given-names>Y. K.</given-names></name>; <name><surname>Xiong</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>Q. R.</given-names></name>; <name><surname>Zhao</surname><given-names>M.</given-names></name>; <name><surname>Shi</surname><given-names>K. X.</given-names></name>; <name><surname>Chen</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>L. M.</given-names></name>
+<article-title>How to Maximize
+Birefringence and Nonlinearity of &#x003c0;-Conjugated Cyanurates</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2019</year>, <pub-id pub-id-type="doi">10.1021/jacs.9b08851</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="computer-program" id="cit42"><source>SAINT</source>, version 7.60A; <publisher-name>Bruker Analytical
+X-ray Instruments. Inc.</publisher-name>: <publisher-loc>Madison,
+WI</publisher-loc>, <year>2008</year>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Sheldrick</surname><given-names>G. M.</given-names></name>
+<article-title>A short
+history of SHELX</article-title>. <source>Acta Crystallogr., Sect. A:
+Found. Crystallogr.</source>
+<year>2008</year>, <volume>64</volume>, <fpage>112</fpage>&#x02013;<lpage>122</lpage>. <pub-id pub-id-type="doi">10.1107/S0108767307043930</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Spek</surname><given-names>A. L.</given-names></name>
+<article-title>Single-crystal
+Structure Validation with the Program PLATON</article-title>. <source>J. Appl. Crystallogr.</source>
+<year>2003</year>, <volume>36</volume>, <fpage>7</fpage>&#x02013;<lpage>13</lpage>. <pub-id pub-id-type="doi">10.1107/S0021889802022112</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Clark</surname><given-names>S. J.</given-names></name>; <name><surname>Segall</surname><given-names>M. D.</given-names></name>; <name><surname>Pickard</surname><given-names>C. J.</given-names></name>; <name><surname>Hasnip</surname><given-names>P. J.</given-names></name>; <name><surname>Probert</surname><given-names>M. J.</given-names></name>; <name><surname>Refson</surname><given-names>K.</given-names></name>; <name><surname>Payne</surname><given-names>M. C.</given-names></name>
+<article-title>First-principles
+Methods Using CASTEP</article-title>. <source>Z. Kristallogr. - Cryst.
+Mater.</source>
+<year>2005</year>, <volume>220</volume>, <fpage>567</fpage>&#x02013;<lpage>570</lpage>. <pub-id pub-id-type="doi">10.1524/zkri.220.5.567.65075</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Rappe</surname><given-names>A. M.</given-names></name>; <name><surname>Rabe</surname><given-names>K. M.</given-names></name>; <name><surname>Kaxiras</surname><given-names>E.</given-names></name>; <name><surname>Joannopoulos</surname><given-names>J. D.</given-names></name>
+<article-title>Optimized
+Pseudopotentials</article-title>. <source>Phys. Rev. B.</source>
+<year>1990</year>, <volume>41</volume>, <elocation-id>1227</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.41.1227</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Perdew, Burke,
+and Ernzerhof Reply</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1998</year>, <volume>80</volume>, <elocation-id>891</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.80.891</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Lin</surname><given-names>J. S.</given-names></name>; <name><surname>Qteish</surname><given-names>A.</given-names></name>; <name><surname>Payne</surname><given-names>M. C.</given-names></name>; <name><surname>Heine</surname><given-names>V.</given-names></name>
+<article-title>Optimized and Transferable
+Nonlocal Separable Ab Initio Pseudopotentials</article-title>. <source>Phys. Rev. B</source>
+<year>1993</year>, <volume>47</volume>, <elocation-id>4174</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.47.4174</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Kurtz</surname><given-names>S. K.</given-names></name>; <name><surname>Perry</surname><given-names>T. T.</given-names></name>
+<article-title>A Powder Technique
+for the Evaluation of Nonlinear
+Optical Materials</article-title>. <source>J. Appl. Phys.</source>
+<year>1968</year>, <volume>39</volume>, <fpage>3798</fpage>&#x02013;<lpage>3813</lpage>. <pub-id pub-id-type="doi">10.1063/1.1656857</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Meng</surname><given-names>X.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Tang</surname><given-names>J.</given-names></name>; <name><surname>Kang</surname><given-names>K.</given-names></name>; <name><surname>Zeng</surname><given-names>T.</given-names></name>; <name><surname>Yin</surname><given-names>W. L.</given-names></name>; <name><surname>Guo</surname><given-names>R. X.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>
+<article-title>Parallel
+Alignment of &#x003c0;-Conjugated Anions in Hydroisocyanurates Enhancing
+Optical Anisotropy</article-title>. <source>Inorg. Chem.</source>
+<year>2019</year>, <fpage>8948</fpage><pub-id pub-id-type="doi">10.1021/acs.inorgchem.9b01646</pub-id>.<pub-id pub-id-type="pmid">31247840</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Meng</surname><given-names>X.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Tang</surname><given-names>J.</given-names></name>; <name><surname>Kang</surname><given-names>K.</given-names></name>; <name><surname>Zeng</surname><given-names>T.</given-names></name>; <name><surname>Guo</surname><given-names>R. X.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>
+<article-title>Facile Growth of
+an Ultraviolet Hydroisocyanurate Crystal with Strong Nonlinearity
+and a Wide Phase-Matching Region from &#x003c0;-Conjugated (HC<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sup>2&#x02013;</sup> Groups</article-title>. <source>Inorg. Chem.</source>
+<year>2019</year>, <fpage>11289</fpage><pub-id pub-id-type="doi">10.1021/acs.inorgchem.9b02152</pub-id>.<pub-id pub-id-type="pmid">31414800</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Meng</surname><given-names>X.</given-names></name>; <name><surname>Liang</surname><given-names>F.</given-names></name>; <name><surname>Kang</surname><given-names>K.</given-names></name>; <name><surname>Tang</surname><given-names>J.</given-names></name>; <name><surname>Huang</surname><given-names>Q.</given-names></name>; <name><surname>Yin</surname><given-names>W. L.</given-names></name>; <name><surname>Lin</surname><given-names>Z. S.</given-names></name>; <name><surname>Xia</surname><given-names>M. J.</given-names></name>
+<article-title>Rich Structural
+Chemistry in &#x003c0;-Conjugated Hydroisocyanurates: Layered Structures
+of A<sub>2</sub>B(H<sub>2</sub>C<sub>3</sub>N<sub>3</sub>O<sub>3</sub>)<sub>4</sub>&#x000b7;nH<sub>2</sub>O (A = K, Rb, Cs; B = Mg, Ca; n
+= 4, 10) with High Ultraviolet Transparency and Strong Optical Anisotropy</article-title>. <source>Dalton Trans.</source>
+<year>2019</year>, <fpage>9048</fpage><pub-id pub-id-type="doi">10.1039/C9DT01871A</pub-id>.<pub-id pub-id-type="pmid">31180107</pub-id></mixed-citation></ref></ref-list></back></article>

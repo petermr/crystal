@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Then the Jones vector of the resulting wave can be found from the expression:
+ <disp-formula id="FD9-polymers-11-00861">
+  <label>(9)</label>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>J</mi>
+      <mrow/>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>j</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+        <mo>,</mo>
+        <mn>1</mn>
+       </mrow>
+      </munder>
+      <mrow>
+       <msubsup>
+        <mi>J</mi>
+        <mi>j</mi>
+        <mi>m</mi>
+       </msubsup>
+       <mo stretchy="false">(</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

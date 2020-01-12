@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">Density functional theory (DFT) calculations were performed on all the structures using the VASP package
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. The exchange-correlation functional used the generalized gradient approximation (GGA) as parametrized by Perdew and Wang
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. All of the calculations accounted for spin-polarization, used the Vosko-Wilk-Nusair local density approximation scheme
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>
+ </sup>, and a cutoff energy for the projector augmented wave
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup> pseudo-potential of 400 eV. Prior to performing 
+ <italic>ab initio</italic> molecular dynamics simulations, the atomic coordinates and lattice parameters of each investigated structure were fully relaxed using a convergence criterion of 10
+ <sup>−5</sup> eV/cell for the total energy and 10
+ <sup>−4</sup> eV/Å for the force components. A 4 × 4 × 2 and 4 × 4 × 4 Monkhorst-Pack
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup>
+ <italic>k</italic>-point sampling of the Brillouin zone was used for the monoclinic and cubic structures respectively.
+</p>

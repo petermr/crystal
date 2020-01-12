@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>TAPSim [
+ <xref rid="pone.0225041.ref031" ref-type="bibr">31</xref>] was then used to simulate the field evaporation process. As detailed in [
+ <xref rid="pone.0225041.ref032" ref-type="bibr">32</xref>–
+ <xref rid="pone.0225041.ref034" ref-type="bibr">34</xref>], this requires the definition of a cascading mesh of integration points. At its finest scale, the mesh resolves the nanoscale dimensions and atomic structure of the specimen. At progressively coarser scales, it bridges to the centimeter-sized chamber of the atom probe. 
+ <xref ref-type="fig" rid="pone.0225041.g003">Fig 3</xref> displays only the three finest scales of this composite mesh: the specimen itself, a finer mesh corresponding to a transition zone with a thickness of 2 nm to accurately capture the ion’s launch trajectories, and an order of magnitude more coarsely sampled support mesh.
+</p>

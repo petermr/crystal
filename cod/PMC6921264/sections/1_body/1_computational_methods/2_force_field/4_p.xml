@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For bonding interactions, a series of perturbed structures were generated based on one of the equilibrium conformations according to the redundant internal coordinates, and optimized with the constrained structural parameters at the PBE0/aug-cc-pVDZ level, and the harmonic style functions were chosen for bond and angle terms (
+ <italic>E</italic>
+ <sub>bond</sub> and 
+ <italic>E</italic>
+ <sub>angle</sub>), as follow
+ <disp-formula id="eq2">
+  <graphic xlink:href="ao9b02410_m002" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>2</label>
+ </disp-formula>
+ <disp-formula id="eq3">
+  <graphic xlink:href="ao9b02410_m003" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>3</label>
+ </disp-formula>where 
+ <italic>k</italic>
+ <sub>b</sub> and 
+ <italic>k</italic>
+ <sub>θ</sub> are the force constants of bond and angle terms, 
+ <italic>b</italic> and 
+ <italic>b</italic>
+ <sub>0</sub> are the actual and balanced bond lengths, while θ and θ
+ <sub>0</sub> are the actual and balanced bond angles. A fourier style potential was chosen to describe dihedral terms (
+ <italic>E</italic>
+ <sub>dihedral</sub>)
+ <disp-formula id="eq4">
+  <graphic xlink:href="ao9b02410_m004" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>4</label>
+ </disp-formula>where 
+ <italic>k</italic>
+ <sub>ϕ
+  <italic>i</italic>
+ </sub>, 
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, ϕ, and 
+ <italic>d</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> are the force constants, scale factor, and actual and balanced dihedral angels. To fix the nitro group planer, a harmonic improper term was chosen for nitro groups (
+ <italic>E</italic>
+ <sub>improper</sub>)
+ <disp-formula id="eq5">
+  <graphic xlink:href="ao9b02410_m005" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>5</label>
+ </disp-formula>where 
+ <italic>k</italic>
+ <sub>ψ</sub> and ψ are the force constants and improper angle, and the initial bonding parameters were obtained from Amber FF parameters. In order to get reliable results, the bounds of parameters were set to be 0.8–1.2 of the initial parameters, and the evolutionary algorithm was employed to optimize the parameters with minimization of the following score function (
+ <italic>E</italic>
+ <sub>score</sub>)
+ <disp-formula id="eq6">
+  <graphic xlink:href="ao9b02410_m006" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>6</label>
+ </disp-formula>where 
+ <italic>K</italic> is the slope determined by the linear fitting between the referenced DFT energy 
+ <italic>E</italic>
+ <sub>ref</sub> and FF calculated energy 
+ <italic>E</italic>
+ <sub>FF</sub> with the optimizations at several structural parameter constraints. The 
+ <italic>E</italic>
+ <sub>score</sub> can be applied to balance between the slope and root mean square error. It is worth noting that all improper force constants 
+ <italic>k</italic>
+ <sub>ψ</sub> were fixed at 1.12 kcal mol
+ <sup>–1</sup> rad
+ <sup>–2</sup> during the parameterization. In all DFT/MM optimization and energy calculation were performed with Gaussian 09
+ <sup>
+  <xref ref-type="bibr" rid="ref48">48</xref>
+ </sup> and LAMMPS
+ <sup>
+  <xref ref-type="bibr" rid="ref49">49</xref>
+ </sup> packages.
+</p>

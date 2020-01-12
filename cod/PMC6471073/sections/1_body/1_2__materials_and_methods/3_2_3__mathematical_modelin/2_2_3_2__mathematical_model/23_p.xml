@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Similar to the ring structure, more mode components will result in higher accuracy but also lead to larger calculation amount. So, based on the accuracy we prefer to achieve, some high order modes can be neglected. In this paper, the first Ns order mode components are used (mode number of spoke 
+ <italic>N
+  <sub>s</sub>
+ </italic> = 5 in this paper). By simplifying the above equation, it can be expressed with the matrix form 
+ <disp-formula id="FD23-micromachines-10-00181">
+  <label>(23)</label>
+  <math id="mm25">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>d</mi>
+        <mi>x</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">χ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mi>s</mi>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mn>1</mn>
+           </mtd>
+           <mtd>
+            <mn>0</mn>
+           </mtd>
+           <mtd>
+            <mn>0</mn>
+           </mtd>
+           <mtd>
+            <mn>0</mn>
+           </mtd>
+           <mtd>
+            <mn>0</mn>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>s</mi>
+        </mstyle>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>d</mi>
+        <mi>y</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">δ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>x</mi>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mi>s</mi>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mn>0</mn>
+           </mtd>
+           <mtd>
+            <mn>1</mn>
+           </mtd>
+           <mtd>
+            <mrow>
+             <mfrac bevelled="true">
+              <mi>x</mi>
+              <mi>L</mi>
+             </mfrac>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <msup>
+              <mrow>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mfrac bevelled="true">
+                  <mi>x</mi>
+                  <mi>L</mi>
+                 </mfrac>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <msup>
+              <mrow>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <mfrac bevelled="true">
+                  <mi>x</mi>
+                  <mi>L</mi>
+                 </mfrac>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+              </mrow>
+              <mn>3</mn>
+             </msup>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>s</mi>
+        </mstyle>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

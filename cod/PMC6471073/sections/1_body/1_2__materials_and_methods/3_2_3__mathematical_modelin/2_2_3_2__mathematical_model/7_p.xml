@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Theoretically, the modes of each ring need to be expressed using the superposition of infinite normal modes, but actually, the high-order modes have smaller proportion than the low-order modes. More mode components will result in higher accuracy but also lead to a larger calculation amount. So, based on the accuracy we prefer to achieve, some high order modes can be neglected. Meanwhile, the 
+ <italic>n</italic> = 2 cosine mode has two basic properties—symmetry and periodicity—as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f003">Figure 3</xref>b. Firstly, the mode shape is symmetrical about the y axis, which means that 
+ <disp-formula id="FD6-micromachines-10-00181">
+  <label>(6)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mfrac>
+      <mi>π</mi>
+      <mn>2</mn>
+     </mfrac>
+     <mo>+</mo>
+     <mi>α</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mfrac>
+      <mi>π</mi>
+      <mn>2</mn>
+     </mfrac>
+     <mo>−</mo>
+     <mi>α</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">We compare the above3D displacement-field function recovery results with the corresponding ones by using the nonlinear qNGD algorithm based on the Levenberg–Marquardt scheme
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>. Further, one utilizes the open access NL2SNO program code as an implementation of the qNGD algorithm (see
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup> for details). The corresponding optimization results of the target function (
+ <xref rid="Equ13" ref-type="">13</xref>) obtained by the qNGD algorithm are listed in Table 
+ <xref rid="Tab2" ref-type="table">2</xref>. It is seen that for the spatial grids, 
+ <italic>i.e</italic>.: {15, 15, 1–6|
+ <bold>7</bold>–
+ <bold>9</bold>|10–15} and {15, 15, 1–5|
+ <bold>6</bold>–
+ <bold>10</bold>|11–15}, the final target function values of order of 10
+ <sup>−22</sup> and the error parameter CP ones of the order of 5 · 10
+ <sup>−5</sup> are obtained. It should be noted that in the case of the spatial grid {15, 15, 15}, the values of the error parameter CP are much more than the initial error CP ones due to the solution ambiguity of the inverse XRDT problem under consideration.
+</p>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Wu and co‐workers studied the effect of the PL peak position and its FWHM on the optical performance of an LCD equipped with QDs.
+ <xref rid="advs1374-bib-0062" ref-type="ref">62</xref> There are two characterization parameters for QD‐based LCDs, the color gamut and the total efficiency of the radiation (TER). Both of these parameters were evaluated in ref. [qv: 62b] using a function of six different parameters of the QDs (e.g., the PL wavelength (
+ <italic>λ
+  <sub>i</sub>
+ </italic>) and FWHM), where 
+ <italic>i</italic> is r (red), g (green) and b (blue), and human eye sensitivity. The two proposed equations are: 
+ <disp-formula id="advs1374-disp-0008">
+  <label>(8)</label>
+  <math id="nlm-math-10">
+   <mrow>
+    <mi mathvariant="normal">Color</mi>
+    <mo> </mo>
+    <mi mathvariant="normal">gamut</mi>
+    <mo>=</mo>
+    <msub>
+     <mi>F</mi>
+     <mn>1</mn>
+    </msub>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">b</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">b</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">g</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">g</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">r</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">r</mi>
+       </msub>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="advs1374-disp-0009">
+  <label>(9)</label>
+  <math id="nlm-math-11">
+   <mrow>
+    <mi mathvariant="normal">TER</mi>
+    <mo>=</mo>
+    <msub>
+     <mi>F</mi>
+     <mn>2</mn>
+    </msub>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">b</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">b</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">g</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">g</mi>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">r</mi>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="normal">Δ</mi>
+       <msub>
+        <mi>λ</mi>
+        <mi mathvariant="normal">r</mi>
+       </msub>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where λ is the wavelength and Δλ is the FWHM for each color, r, g, and b. Since color gamut in the above equation can be defined either in CIE 1931 or CIE 1976 color space, they have performed two separate optimizations, as shown in 
+ <bold>Figure</bold>
+ <xref rid="advs1374-fig-0021" ref-type="fig">
+  <bold>21</bold>
+ </xref>. The performance of the conventional backlight sources is also included in the same figure for comparison. In Figure 
+ <xref rid="advs1374-fig-0021" ref-type="fig">21</xref>a, the black curve represents the so‐called “Pareto front” of QD backlight performance. The QD backlight could vary from low color gamut (77% NTSC) but high TER (32.3 lm W
+ <sup>−1</sup>) to high color gamut (123% NTSC) but low TER (&lt;20 lm W
+ <sup>−1</sup>). The trade‐off between TER and color gamut is obvious because the gain of one metric results from the loss of the other.[qv: 62b] The QD backlight outperforms conventional backlight sources in both system: it can reach a color gamut of 115% of the NTSC standard in CIE1931 color space and 140% of the NTSC standard in CIE 1976 color space, while maintaining the same energy efficiency as conventional light sources. The effect of PL FWHM on the two parameters is shown in Figure 
+ <xref rid="advs1374-fig-0021" ref-type="fig">21</xref>c. Later on, the same group optimized the optical efficiency and color gamut simultaneously to realize Rec. 2020 for QD LCDs;[qv: 62a] 97% of the Rec. 2020 color gamut could be achieved while maintaining a reasonably high optical efficiency for both fringe‐field‐switching and multi‐domain vertical‐alignment LCDs.
+</p>

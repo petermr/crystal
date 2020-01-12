@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0455">Substituting the expression 
+ <xref rid="fd58" ref-type="disp-formula">(58)</xref> for the wave function 
+ <inline-formula>
+  <math id="M277" altimg="si215.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> written in detail in terms of the Green's function according to Eqs. 
+ <xref rid="fd68" ref-type="disp-formula">(68)</xref> and 
+ <xref rid="fd69" ref-type="disp-formula">(69)</xref> and expression 
+ <xref rid="fd42" ref-type="disp-formula">(42)</xref> for the wave function 
+ <inline-formula>
+  <math id="M278" altimg="si216.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in the adiabatic approximation into the amplitude given by 
+ <xref rid="fd64" ref-type="disp-formula">Eq. (64)</xref>, we obtain
+ <disp-formula id="fd80">
+  <label>(80)</label>
+  <math id="M279" altimg="si217.svg" alttext="Equation 80.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <munder>
+      <mo movablelimits="false">∑</mo>
+      <mrow>
+       <mn>...</mn>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mn>...</mn>
+      </mrow>
+     </munder>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>A</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>J</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">+</mo>
+        <munder>
+         <mo movablelimits="false">∑</mo>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </munder>
+        <mrow>
+         <mi>ℏ</mi>
+         <msub>
+          <mrow>
+           <mi>ω</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>m</mi>
+            </mrow>
+            <mrow>
+             <mi>ι</mi>
+            </mrow>
+           </msub>
+           <mo linebreak="badbreak">−</mo>
+           <msub>
+            <mrow>
+             <mi>m</mi>
+            </mrow>
+            <mrow>
+             <mi>ι</mi>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </mrow>
+        <mo>;</mo>
+        <mi>L</mi>
+        <mo>;</mo>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mfrac>
+     <mrow>
+      <mi>o</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mo movablelimits="false">∏</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>r</mi>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mi>r</mi>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where (taking into account 
+ <xref rid="fd35" ref-type="disp-formula">Eq. (35)</xref>)
+ <disp-formula id="fd81">
+  <label>(81)</label>
+  <math id="M280" altimg="si218.svg" alttext="Equation 81.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <munder>
+       <mo movablelimits="false">∑</mo>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <mi>ℏ</mi>
+       <msub>
+        <mrow>
+         <mi>ω</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>m</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+         <mo linebreak="badbreak">−</mo>
+         <msub>
+          <mrow>
+           <mi>m</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+      </mrow>
+      <mo>;</mo>
+      <mi>L</mi>
+      <mo>;</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>∬</mo>
+     <mrow>
+      <mi>d</mi>
+      <mi mathvariant="bold">q</mi>
+      <mi>d</mi>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <msub>
+       <mrow>
+        <mi>G</mi>
+       </mrow>
+       <mrow>
+        <mi>e</mi>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo>,</mo>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+        <mo>;</mo>
+        <mi>α</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mn>...</mn>
+          <mtext> </mtext>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+          <mtext> </mtext>
+          <mn>...</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">∗</mo>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mi mathvariant="bold">L</mi>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd82">
+  <label>(82)</label>
+  <math id="M281" altimg="si219.svg" alttext="Equation 82.">
+   <mrow>
+    <munder>
+     <mo movablelimits="false">∏</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>r</mi>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1,2</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="badbreak">≡</mo>
+    <munder>
+     <mo movablelimits="false">∏</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mrow>
+      <mo>∫</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>φ</mi>
+        </mrow>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>m</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <msub>
+        <mrow>
+         <mi>φ</mi>
+        </mrow>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>m</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+           <mn>1,2</mn>
+          </mrow>
+         </msub>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+         <mo linebreak="badbreak">−</mo>
+         <msub>
+          <mrow>
+           <mover accent="true">
+            <mi>p</mi>
+            <mo>˜</mo>
+           </mover>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mi>d</mi>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <mo>∫</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>Φ</mi>
+       </mrow>
+       <mrow>
+        <mn>0...</mn>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+         </mrow>
+        </msub>
+        <mn>...</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi>Φ</mi>
+       </mrow>
+       <mrow>
+        <mn>1,2...</mn>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>ι</mi>
+          <mn>1,2</mn>
+         </mrow>
+        </msub>
+        <mn>...</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>p</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mi>d</mi>
+      <mi>p</mi>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd83">
+  <label>(83)</label>
+  <math id="M282" altimg="si220.svg" alttext="Equation 83.">
+   <mrow>
+    <mi>o</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">≡</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mrow>
+     <mo>∫</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>φ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msubsup>
+         <mi>p</mi>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+         <mo>′</mo>
+        </msubsup>
+        <mo linebreak="badbreak">−</mo>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>p</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msubsup>
+         <mi>p</mi>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+         <mo>′</mo>
+        </msubsup>
+        <mo linebreak="badbreak">−</mo>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>p</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <msub>
+       <mrow>
+        <mi>φ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msubsup>
+         <mi>p</mi>
+         <mrow>
+          <mi>l</mi>
+         </mrow>
+         <mo>′</mo>
+        </msubsup>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mi>d</mi>
+      <msubsup>
+       <mi>p</mi>
+       <mrow>
+        <mi>l</mi>
+       </mrow>
+       <mo>′</mo>
+      </msubsup>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where, for their part, 
+ <inline-formula>
+  <math id="M283" altimg="si221.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mn>...</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mn>...</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the wave functions of the linear harmonic oscillator (
+ <xref rid="fd41" ref-type="disp-formula">Eq. (41)</xref> for 
+ <inline-formula>
+  <math id="M284" altimg="si192.svg">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>p</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula> and/or 
+ <inline-formula>
+  <math id="M285" altimg="si222.svg">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>p</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">≠</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>). The factor 
+ <inline-formula>
+  <math id="M286" altimg="si223.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in the integrand of 
+ <xref rid="fd81" ref-type="disp-formula">Eq. (81)</xref> comes from the perturbation operator W in the transition amplitude (
+ <xref rid="fd64" ref-type="disp-formula">Eq. (64)</xref>), which is accepted in the long-wave approximation (see Section 
+ <xref rid="sec2.4.3" ref-type="sec">2.4.3</xref>).
+</p>

@@ -1,0 +1,300 @@
+{
+  "id": [
+    "31681834"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31681834"
+  ],
+  "pmcid": [
+    "PMC6822289"
+  ],
+  "doi": [
+    "10.1021/acscentsci.9b00619"
+  ],
+  "title": [
+    "Building a Consistent and Reproducible Database for Adsorption Evaluation in Covalent-Organic Frameworks."
+  ],
+  "authorString": [
+    "Ongari D, Yakutovich AV, Talirz L, Smit B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ongari D"
+          ],
+          "firstName": [
+            "Daniele"
+          ],
+          "lastName": [
+            "Ongari"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, École Polytechnique Fédérale de Lausanne (EPFL), Rue de l'Industrie 17, Sion, CH-1951 Valais, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Yakutovich AV"
+          ],
+          "firstName": [
+            "Aliaksandr V"
+          ],
+          "lastName": [
+            "Yakutovich"
+          ],
+          "initials": [
+            "AV"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, École Polytechnique Fédérale de Lausanne (EPFL), Rue de l'Industrie 17, Sion, CH-1951 Valais, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Talirz L"
+          ],
+          "firstName": [
+            "Leopold"
+          ],
+          "lastName": [
+            "Talirz"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, École Polytechnique Fédérale de Lausanne (EPFL), Rue de l'Industrie 17, Sion, CH-1951 Valais, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Smit B"
+          ],
+          "firstName": [
+            "Berend"
+          ],
+          "lastName": [
+            "Smit"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, École Polytechnique Fédérale de Lausanne (EPFL), Rue de l'Industrie 17, Sion, CH-1951 Valais, Switzerland."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "5"
+      ],
+      "journalIssueId": [
+        "2874753"
+      ],
+      "dateOfPublication": [
+        "2019 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "ACS central science"
+          ],
+          "ISOAbbreviation": [
+            "ACS Cent Sci"
+          ],
+          "medlineAbbreviation": [
+            "ACS Cent Sci"
+          ],
+          "NLMid": [
+            "101660035"
+          ],
+          "ISSN": [
+            "2374-7943"
+          ],
+          "ESSN": [
+            "2374-7951"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "1663-1675"
+  ],
+  "abstractText": [
+    "We present a workflow that traces the path from the bulk structure of a crystalline material to assessing its performance in carbon capture from coal's postcombustion flue gases. This workflow is applied to a database of 324 covalent-organic frameworks (COFs) reported in the literature, to characterize their CO2 adsorption properties using the following steps: (1) optimization of the crystal structure (atomic positions and unit cell) using density functional theory, (2) fitting atomic point charges based on the electron density, (3) characterizing the pore geometry of the structures before and after optimization, (4) computing carbon dioxide and nitrogen isotherms using grand canonical Monte Carlo simulations with an empirical interaction potential, and finally, (5) assessing the CO2 parasitic energy via process modeling. The full workflow has been encoded in the Automated Interactive Infrastructure and Database for Computational Science (AiiDA). Both the workflow and the automatically generated provenance graph of our calculations are made available on the Materials Cloud, allowing peers to inspect every input parameter and result along the workflow, download structures and files at intermediate stages, and start their research right from where this work has left off. In particular, our set of CURATED (Clean, Uniform, and Refined with Automatic Tracking from Experimental Database) COFs, having optimized geometry and high-quality DFT-derived point charges, are available for further investigations of gas adsorption properties. We plan to update the database as new COFs are being reported."
+  ],
+  "affiliation": [
+    "Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, École Polytechnique Fédérale de Lausanne (EPFL), Rue de l'Industrie 17, Sion, CH-1951 Valais, Switzerland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1021/acscentsci.9b00619"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6822289"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6822289?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2019-11-05"
+  ],
+  "firstIndexDate": [
+    "2019-11-05"
+  ],
+  "fullTextReceivedDate": [
+    "2019-11-08"
+  ],
+  "dateOfRevision": [
+    "2019-11-08"
+  ],
+  "electronicPublicationDate": [
+    "2019-09-26"
+  ],
+  "firstPublicationDate": [
+    "2019-09-26"
+  ]
+}

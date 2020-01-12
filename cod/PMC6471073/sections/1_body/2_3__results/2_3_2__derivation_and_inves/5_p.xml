@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the mathematical modeling in 
+ <xref ref-type="sec" rid="sec4-micromachines-10-00181">Section 4</xref>, the generalized coordinates are corresponding to the normal modes of each ring and spoke. The motion equations and generalized coordinates corresponding to the normal modes are shown in Equations (56) and (65). So in order to get the lumped mass-spring model, the generalized coordinates corresponding to the normal modes need to be transferred to the generalized displacement corresponding to the normalized 
+ <italic>n</italic> = 2 flexural modes. By combining Equations (65) and (68), we can obtain the normalized 
+ <italic>n</italic> = 2 flexural modes of each ring:
+ <disp-formula id="FD71-micromachines-10-00181">
+  <label>(70)</label>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mrow>
+       <mi>r</mi>
+       <mn>1</mn>
+       <mo>_</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>u</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mi>max</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mi>u</mi>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>v</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi mathvariant="bold-sans-serif">ψ</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>p</mi>
+      </mstyle>
+      <mi>i</mi>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+     </msubsup>
+     <mo>,</mo>
+     <msub>
+      <mi>ϕ</mi>
+      <mrow>
+       <mi>θ</mi>
+       <mn>1</mn>
+       <mo>_</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>u</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mi>max</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msqrt>
+          <mrow>
+           <msup>
+            <mi>u</mi>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <msup>
+            <mi>v</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </msqrt>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi mathvariant="bold-sans-serif">φ</mi>
+     </mstyle>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo stretchy="false">)</mo>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>p</mi>
+      </mstyle>
+      <mi>i</mi>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the contribution of spokes is neglected in the lumped mass-spring model, the 
+ <italic>n</italic> = 2 sine mode can be obtained by rotating the cosine mode for 45 degrees:
+ <disp-formula id="FD72-micromachines-10-00181">
+  <label>(71)</label>
+  <math id="mm78">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msub>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi mathvariant="bold-sans-serif">ψ</mi>
+        </mstyle>
+        <mn>2</mn>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">ψ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <mrow>
+        <mi>π</mi>
+        <mo>/</mo>
+        <mn>4</mn>
+       </mrow>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mrow>
+             <mo>−</mo>
+             <mn>2</mn>
+             <mi>sin</mi>
+             <mn>2</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <mn>6</mn>
+             <mi>sin</mi>
+             <mn>6</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <mo>−</mo>
+             <mn>10</mn>
+             <mi>sin</mi>
+             <mn>10</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msub>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi mathvariant="bold-sans-serif">φ</mi>
+        </mstyle>
+        <mn>2</mn>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">φ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <mrow>
+        <mi>π</mi>
+        <mo>/</mo>
+        <mn>4</mn>
+       </mrow>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mtable>
+          <mtr>
+           <mtd>
+            <mrow>
+             <mi>cos</mi>
+             <mn>2</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <mo>−</mo>
+             <mi>cos</mi>
+             <mn>6</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+           <mtd>
+            <mrow>
+             <mi>cos</mi>
+             <mn>10</mn>
+             <mi>θ</mi>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

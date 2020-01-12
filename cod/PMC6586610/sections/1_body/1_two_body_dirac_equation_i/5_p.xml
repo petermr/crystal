@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">Here, 
+ <italic>m</italic>
+ <sub>1</sub> and 
+ <italic>m</italic>
+ <sub>2</sub> are the masses of particles where 
+ <italic>X</italic>
+ <sub>1</sub> and 
+ <italic>X</italic>
+ <sub>2</sub> are the magnitudes of position vectors of corresponding particles in 2 + 1 dimensions, respectively. Writing positions of particles in terms of center of mass and relative coordinates
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{X}_{1} &amp; = &amp; \frac{{m}_{2}}{M}(r+\frac{M}{{m}_{2}}R)\\ {X}_{2} &amp; = &amp; \frac{{m}_{1}}{M}(-r+\frac{M}{m1}R)\end{array}$$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>X</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mi>M</mi>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>r</mi>
+          <mo>+</mo>
+          <mfrac>
+           <mi>M</mi>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>m</mi>
+             </mrow>
+             <mrow>
+              <mn>2</mn>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfrac>
+          <mi>R</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>X</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mi>M</mi>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>r</mi>
+          <mo>+</mo>
+          <mfrac>
+           <mi>M</mi>
+           <mrow>
+            <mi>m</mi>
+            <mn>1</mn>
+           </mrow>
+          </mfrac>
+          <mi>R</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and partial derivative of 
+ <italic>X</italic>
+ <sub>1</sub> and 
+ <italic>X</italic>
+ <sub>2</sub> give us the following equations.
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}\frac{{\partial }^{(1)}}{\partial {X}_{\mu }} &amp; = &amp; \frac{\partial }{\partial {r}_{\mu }}+\frac{{m}_{1}}{M}\frac{\partial }{\partial {R}_{\mu }}\\ \frac{{\partial }^{(2)}}{\partial {X}_{\mu }} &amp; = &amp; -\frac{\partial }{\partial {r}_{\mu }}+\frac{{m}_{2}}{M}\frac{\partial }{\partial {R}_{\mu }}\\ \frac{{\partial }^{(1)}}{\partial {X}_{\mu }}+\frac{{\partial }^{(2)}}{\partial {X}_{\mu }} &amp; = &amp; \frac{\partial }{\partial {R}_{\mu }}\\ \frac{\partial }{\partial {r}_{\mu }} &amp; = &amp; \frac{1}{M}({m}_{2}\frac{{\partial }^{(1)}}{\partial {X}_{\mu }}-{m}_{1}\frac{{\partial }^{(2)}}{\partial {X}_{\mu }})\end{array}$$\end{document}</tex-math>
+   <math id="M20" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>∂</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>X</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>r</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mi>M</mi>
+        </mfrac>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>R</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>∂</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mn>2</mn>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>X</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>r</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mi>M</mi>
+        </mfrac>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>R</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>∂</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mn>1</mn>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>X</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>∂</mi>
+           </mrow>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mn>2</mn>
+            <mo stretchy="false">)</mo>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>X</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>R</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>r</mi>
+           </mrow>
+           <mrow>
+            <mi>μ</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mn>1</mn>
+         <mi>M</mi>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msub>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>∂</mi>
+             </mrow>
+             <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>1</mn>
+              <mo stretchy="false">)</mo>
+             </mrow>
+            </msup>
+           </mrow>
+           <mrow>
+            <mi>∂</mi>
+            <msub>
+             <mrow>
+              <mi>X</mi>
+             </mrow>
+             <mrow>
+              <mi>μ</mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfrac>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mfrac>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>∂</mi>
+             </mrow>
+             <mrow>
+              <mo stretchy="false">(</mo>
+              <mn>2</mn>
+              <mo stretchy="false">)</mo>
+             </mrow>
+            </msup>
+           </mrow>
+           <mrow>
+            <mi>∂</mi>
+            <msub>
+             <mrow>
+              <mi>X</mi>
+             </mrow>
+             <mrow>
+              <mi>μ</mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\mu =0,1,2$$\end{document}</tex-math>
+   <math id="M22">
+    <mi>μ</mi>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+    <mn>1</mn>
+    <mo>,</mo>
+    <mn>2</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and
+ <disp-formula id="Equb">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\partial }_{0}={\partial }_{t}/c,\,{\partial }_{1}={\partial }_{x},\,{\partial }_{2}={\partial }_{y}.$$\end{document}</tex-math>
+   <math id="M24" display="block">
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+    <mo>/</mo>
+    <mi>c</mi>
+    <mo>,</mo>
+    <mspace width=".5em"/>
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+    <mspace width=".5em"/>
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>∂</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equb.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

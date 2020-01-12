@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Before introducing machine learning techniques, we developed a feature selection method to ensure that the computer could efficiently learn to track grain boundaries. In the present dataset, the main crystallographic features in detector hit maps comprise poles, zone lines and grain boundaries traces. In order to track the grain boundaries efficiently, we start with reducing the noise (random fluctuation of pixel value in the detector hit map), which can be achieved by convolution of filters with the image [
+ <xref rid="pone.0225041.ref036" ref-type="bibr">36</xref>].
+</p>

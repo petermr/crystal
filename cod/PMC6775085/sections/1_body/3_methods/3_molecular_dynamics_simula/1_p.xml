@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">Direct molecular dynamics simulations with temperature gradient were performed using Large-scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) packages
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>. An Al nanowire model with necking (Φ
+ <sub>w</sub> = 8 nm, Φ
+ <sub>n</sub> = 5 nm) consist of 187,102 atoms was used, which contains tilt grain boundary as shown in Fig. 
+ <xref rid="Fig5" ref-type="fig">5a</xref>. The embedded atom method (EAM) potential
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup> was used for interatomic interaction. The regions above necking and below the substrate surface were maintained constant temperature of 127 °C (400 K) and 527 °C (800 K), respectively. Thus the temperature gradient at necking region was estimated at ~6.3 × 10
+ <sup>10</sup> K/m. Ten nanoseconds of MD simulations were run with and without pulling load along axial direction. The applied load corresponds to nanowire pulling stress of 274 MPa.
+</p>

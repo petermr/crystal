@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The atomic position and velocity at each time step were obtained from the control equation of the simulated cell volume:
+ <disp-formula id="FD5-nanomaterials-09-01251">
+  <label>(5)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>Q</mi>
+     <mover accent="true">
+      <mi>υ</mi>
+      <mo>¨</mo>
+     </mover>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>T</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>υ</mi>
+      </mrow>
+     </mfrac>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>V</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>υ</mi>
+      </mrow>
+     </mfrac>
+     <mo>−</mo>
+     <msub>
+      <mi>p</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>v</mi>
+        <mrow>
+         <mi>s</mi>
+         <mi>h</mi>
+         <mi>o</mi>
+         <mi>c</mi>
+         <mi>k</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>υ</mi>
+        <mn>0</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>υ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <mi>υ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> which degenerates to the Rayleigh line of Equation (2) when the cell volume changes uniformly [
+ <xref rid="B9-nanomaterials-09-01251" ref-type="bibr">9</xref>,
+ <xref rid="B10-nanomaterials-09-01251" ref-type="bibr">10</xref>]. Thus, the system is restrained to fit the shock Hugoniot and the Rayleigh line of the material by changing the volume of the simulated cell.
+</p>

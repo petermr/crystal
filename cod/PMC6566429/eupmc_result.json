@@ -1,0 +1,357 @@
+{
+  "id": [
+    "31137575"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31137575"
+  ],
+  "pmcid": [
+    "PMC6566429"
+  ],
+  "doi": [
+    "10.3390/s19102330"
+  ],
+  "title": [
+    "Experimental Research on Interferometric Inverse Synthetic Aperture Radar Imaging with Multi-Channel Terahertz Radar System."
+  ],
+  "authorString": [
+    "Zhang Y, Yang Q, Deng B, Qin Y, Wang H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhang Y"
+          ],
+          "firstName": [
+            "Ye"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3503-1187",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. fighting_zy10@126.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Yang Q"
+          ],
+          "firstName": [
+            "Qi"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "affiliation": [
+            "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. yangqi_nudt@163.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Deng B"
+          ],
+          "firstName": [
+            "Bin"
+          ],
+          "lastName": [
+            "Deng"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. dengbin_nudt@163.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Qin Y"
+          ],
+          "firstName": [
+            "Yuliang"
+          ],
+          "lastName": [
+            "Qin"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. qinyuliang@nudt.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang H"
+          ],
+          "firstName": [
+            "Hongqiang"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. oliverwhq@tom.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3503-1187",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "19"
+      ],
+      "journalIssueId": [
+        "2817556"
+      ],
+      "dateOfPublication": [
+        "2019 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Sensors (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Sensors (Basel)"
+          ],
+          "NLMid": [
+            "101204366"
+          ],
+          "ISSN": [
+            "1424-8220"
+          ],
+          "ESSN": [
+            "1424-8220"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "The all solid-state terahertz (THz) radar has obvious miniaturized integration and high resolution imaging advantages compared with conventional microwave radar. In this paper, a 0.22 THz active frequency-modulated pulse radar system with one transmission channel and four receiving channels is presented, and interferometric inverse synthetic aperture radar (InISAR) imaging experiments, which can acquire altitude information of objects, are carried out. In order to acquire high-quality InISAR images, a calibration method is presented to solve the nonlinearity of wideband signal frequency and phase inconsistency of different receiving channels together. Furthermore, to deal with the phase wrapping in InISAR imaging of objects with large scale, a novel method based on the dominant scatterers to estimate the objects rotation rate is presented. Finally, to show more information of objects in the InISAR images, the imaging results with a large rotation angle by the convolutional back-projection algorithm are obtained. The imaging results verify the superior performance of the multi-channel THz radar system and the imaging processing method, which can provide support for further research on InISAR imaging in the THz band."
+  ],
+  "affiliation": [
+    "College of Electronic Science and Technology, National University of Defense Technology, Changsha 410073, China. fighting_zy10@126.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "61871386"
+          ],
+          "agency": [
+            "National Nature Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Thz Imaging",
+        "Interferometric Inverse Synthetic Aperture Radar (Inisar)",
+        "Terahertz (Thz) Radar",
+        "Multi-channel Radar"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/s19102330"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6566429"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6566429?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-05-30"
+  ],
+  "firstIndexDate": [
+    "2019-05-30"
+  ],
+  "fullTextReceivedDate": [
+    "2019-06-21"
+  ],
+  "dateOfRevision": [
+    "2019-06-18"
+  ],
+  "electronicPublicationDate": [
+    "2019-05-20"
+  ],
+  "firstPublicationDate": [
+    "2019-05-20"
+  ]
+}

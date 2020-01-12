@@ -1,0 +1,548 @@
+{
+  "id": [
+    "31519901"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31519901"
+  ],
+  "pmcid": [
+    "PMC6744429"
+  ],
+  "doi": [
+    "10.1038/s41467-019-12251-0"
+  ],
+  "title": [
+    "Efficient nonlinear beam shaping in three-dimensional lithium niobate nonlinear photonic crystals."
+  ],
+  "authorString": [
+    "Wei D, Wang C, Xu X, Wang H, Hu Y, Chen P, Li J, Zhu Y, Xin C, Hu X, Zhang Y, Wu D, Chu J, Zhu S, Xiao M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wei D"
+          ],
+          "firstName": [
+            "Dunzhao"
+          ],
+          "lastName": [
+            "Wei"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang C"
+          ],
+          "firstName": [
+            "Chaowei"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Xu X"
+          ],
+          "firstName": [
+            "Xiaoyi"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang H"
+          ],
+          "firstName": [
+            "Huijun"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Hu Y"
+          ],
+          "firstName": [
+            "Yanlei"
+          ],
+          "lastName": [
+            "Hu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Chen P"
+          ],
+          "firstName": [
+            "Pengcheng"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Li J"
+          ],
+          "firstName": [
+            "Jiawen"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhu Y"
+          ],
+          "firstName": [
+            "Yunzhi"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Xin C"
+          ],
+          "firstName": [
+            "Chen"
+          ],
+          "lastName": [
+            "Xin"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Hu X"
+          ],
+          "firstName": [
+            "Xiaopeng"
+          ],
+          "lastName": [
+            "Hu"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Y"
+          ],
+          "firstName": [
+            "Yong"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1158-2248",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China. zhangyong@nju.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Wu D"
+          ],
+          "firstName": [
+            "Dong"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "D"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-0623-1515",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China. dongwu@ustc.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Chu J"
+          ],
+          "firstName": [
+            "Jiaru"
+          ],
+          "lastName": [
+            "Chu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "CAS Key Laboratory of Mechanical Behavior and Design of Materials, Key Laboratory of Precision Scientifc Instrumentation of Anhui Higher Education Institutes, Department of Precision Machinery and Precision Instrumentation, University of Science and Technology of China, Hefei, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhu S"
+          ],
+          "firstName": [
+            "Shining"
+          ],
+          "lastName": [
+            "Zhu"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Xiao M"
+          ],
+          "firstName": [
+            "Min"
+          ],
+          "lastName": [
+            "Xiao"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China. mxiao@uark.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1158-2248",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-0623-1515",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2853973"
+      ],
+      "dateOfPublication": [
+        "2019 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "4193"
+  ],
+  "abstractText": [
+    "Nonlinear beam shaping refers to spatial reconfiguration of a light beam at a new frequency, which can be achieved by using nonlinear photonic crystals (NPCs). Direct nonlinear beam shaping has been achieved to convert second-harmonic waves into focusing spots, vortex beams, and diffraction-free beams. However, previous nonlinear beam shaping configurations in one-dimensional and two-dimensional (2D) NPCs generally suffer from low efficiency because of unfulfilled phase-matching condition. Here, we present efficient generations of second-harmonic vortex and Hermite-Gaussian beams in the recently-developed three-dimensional (3D) lithium niobate NPCs fabricated by using a femtosecond-laser-engineering technique. Since 3D χ(2) modulations can be designed to simultaneously fulfill the requirements of nonlinear wave-front shaping and quasi-phase-matching, the conversion efficiency is enhanced up to two orders of magnitude in a tens-of-microns-long 3D NPC in comparison to the 2D case. Efficient nonlinear beam shaping paves a way for its applications in optical communication, super-resolution imaging, high-dimensional entangled source, etc."
+  ],
+  "affiliation": [
+    "National Laboratory of Solid State Microstructures, College of Engineering and Applied Sciences, School of Physics, and Collaborative Innovation Center of Advanced Microstructures, Nanjing University, Nanjing, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "11874213, 91636106, 11621091, 11674171, 61675190 and 51675503"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China (National Science Foundation of China)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-12251-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6744429"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6744429?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-09-15"
+  ],
+  "firstIndexDate": [
+    "2019-09-17"
+  ],
+  "fullTextReceivedDate": [
+    "2019-09-19"
+  ],
+  "dateOfRevision": [
+    "2019-09-23"
+  ],
+  "electronicPublicationDate": [
+    "2019-09-13"
+  ],
+  "firstPublicationDate": [
+    "2019-09-13"
+  ]
+}

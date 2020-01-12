@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">The ligand size (steric volume) is one of the properties affecting the possible S- or P-atom positions on the metal surface. There are several examples of protected Au-clusters for which isomeric structures with different geometries are found with ligands of different bulkyness. Even cluster transformations driven by a ligand exchange from non-bulky to bulky ligand have been reported. Our algorithm provides a possibility to qualitatively study and understand the triggering conditions for these experimental findings. As an example, two different experimentally known thiolate-protected Au
+ <sub>44</sub> clusters have been reported: one with 26 and the other with 28 thiolates from which the first is made with tertbutylbenzenethiol (TBBT) and the second with dimethylbenzenethiol (DMBT)
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>,
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. These two clusters are completely different by the metal core symmetry and metal-ligand interface structures. Here we tested our algorithm whether it can predict that the true structure and composition of the Au
+ <sub>44</sub>(SR)
+ <sub>28</sub> is achieved only for TBBT ligand and not for the larger DMBT. The parameters used in the prediction and the results are summarized in Supplementary Tables 
+ <xref rid="MOESM1" ref-type="media">7</xref> and 
+ <xref rid="MOESM1" ref-type="media">8</xref>. By varying the radius of the spherical probe from 2.5 Å (for modeling TBBT) to 3.0 Å (DMBT), the maximum number of thiolates at the interface drops from 28 to 26 (Fig. 
+ <xref rid="Fig8" ref-type="fig">8</xref>). The largest ligand that may occupy full 28 ligand sites on the surface corresponds to a 2.8 Å sized spherical probe. Remarkably, this in a perfect match with the true experimentally observed composition of DMBT protected Au-cluster. This can be understood by a competing effects from the interactions of the metal core and the metal-ligand interface and the spatial fitting of organic ligands, both affecting the overall structure. Since the metal core size is almost the same for both clusters and the metal atoms tend to maximize the packing of the core, there is roughly the same amount of free space for the ligands on the surface. This free space gets filled with 26 DMBT ligands if proper parameters for its steric volume are used.
+</p>

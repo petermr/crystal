@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the second stage, the delivery robot rotated through 90°, and the theoretical heading angle after turning was −90°. Then, the robot moved in a straight direction again, reached the second turning point, and rotated through 90°. At this time, the theoretical heading angle should be 180°. The measurement data of the IMU has errors, and the theoretical range of its measurement values is (−180°, 180°]. Hence, measurement data similar to the step signal will be generated at a specific time. The delivery robot will then return to the starting point via the remaining turning points and the straight path. 
+ <xref ref-type="fig" rid="sensors-19-04980-f012">Figure 12</xref> shows the rest 4 sets of heading angles measured by the IMU.
+</p>

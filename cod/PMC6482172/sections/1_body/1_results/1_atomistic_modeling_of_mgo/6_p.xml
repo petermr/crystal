@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">Our previous work
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup> found that, when such structures were heated, the vacancies dissociated. To induce such structures in our simulation cells, we subject each vacancy configuration to a thermal anneal of 1000 K for 10 ps using molecular dynamics (MD). At the end of the thermal anneal, the system is quenched to zero K, and then subjected to energy minimization. The structure is then analyzed using the DXA algorithm
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> as implemented in Ovito
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. The results are summarized in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>, with the label “configuration 1”. In the geometric setup mentioned above, after the MD treatment, the dislocation configuration containing a vacancy at site 1 or 2 exhibits dislocation jogs. However, the dislocation  containing a vacancy at site 3 does not develop  any jog or kink. That is, it remains localized.
+</p>

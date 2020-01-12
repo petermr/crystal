@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">The other reason is the difficulty in the characterization of local structures of LCPs obtained by particle-based simulations. Modeling liquid crystal molecules as coarse-grained anisotropic particles has been regarded as a promising approach for predicting micro- and mesoscopic properties of LCPs
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>–
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>. In previous studies, “voxel” analysis has conventionally been employed for structure analysis (e.g., evaluation of the orientational tensor order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> and visualization of topological defects
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>–
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup>), in which the simulation box is split cuboidal voxels each containing a single mesogenic particle on average. Each local structure is defined by grouping neighboring voxels that contain mesogenic particles oriented in the same direction. However, the local structure determined by voxel analysis could depend on how the simulation box is split into voxels, although voxels are introduced just for analysis purposes and do not have any physical meaning on their own. Note also the difficulty of voxel analyses for a deformable system (indeed the deformation of LCNs in response to external stimuli is an important research subject as already mentioned). Voxels of fixed position and shape cannot trace the deformation of the system. On the other hand, when the voxels are deformed so that they conform to the deformation of the whole system, deformed voxels may not be able to capture the local properties of the systems when their aspect ratio deviates significantly from 1. Therefore, it is highly desirable to develop analysis methods without relying on artificial voxels.
+</p>

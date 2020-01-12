@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">Thermomigration occurs along temperature gradient. Since direct measurement of the nanoscale temperature distribution is still a formidable challenge, we resort to an estimation of the temperature gradient based on the dynamic measurement of nanowire growth. Figure 
+ <xref rid="Fig2" ref-type="fig">2e–f</xref> show the nanowire in the uniform growth stage, with a nearly constant velocity of 
+ <italic>v</italic> = 3.8 nm s
+ <sup>−1</sup> (see Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6</xref>). With this velocity and the nanowire geometry, the atomic flux (
+ <italic>J</italic>
+ <sub>s</sub>) via surface diffusion
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>
+ </sup> can be calculated as
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$J_{\mathrm{s}} = \frac{{dV}}{{dt}}\frac{1}{{\Omega A_{\mathrm{n}}}} = \frac{{\nu A_{\mathrm{w}}}}{{\Omega A_{\mathrm{n}}}} = \frac{{\nu \Phi _{\mathrm{w}}^2}}{{4\Omega\Phi _{\mathrm{n}}\delta _{\mathrm{s}}}}$$\end{document}</tex-math>
+   <math id="M2">
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">s</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>d</mi>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>t</mi>
+     </mrow>
+    </mfrac>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">Ω</mi>
+      <msub>
+       <mrow>
+        <mi>A</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ν</mi>
+      <msub>
+       <mrow>
+        <mi>A</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">w</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">Ω</mi>
+      <msub>
+       <mrow>
+        <mi>A</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ν</mi>
+        <mi mathvariant="normal">Φ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">w</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mn>4</mn>
+        <mi mathvariant="normal">Ω</mi>
+        <mi mathvariant="normal">Φ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>δ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">s</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+   </math>
+   <graphic xlink:href="41467_2019_12416_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where Ω is the atomic volume of Al (1.66 × 10
+ <sup>−29</sup> m
+ <sup>3</sup>), 
+ <italic>A</italic>
+ <sub>n</sub> is the cross-sectional area of the surface pre-melting layer at the neck with a nominal surface layer thickness 
+ <italic>δ</italic>
+ <sub>s</sub> = 3 Å, 
+ <italic>A</italic>
+ <sub>w</sub> is the cross-section area of the nanowire. The resultant 
+ <italic>J</italic>
+ <sub>s</sub> = 4.5 × 10
+ <sup>22</sup> m
+ <sup>−2</sup> s
+ <sup>−1</sup>.
+</p>

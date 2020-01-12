@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="micromachines-10-00288-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">micromachines-10-00288-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>The distribution model of material spring back and/or plastic side flow.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Authors</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Expression</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Illustration</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">He et al. [
+     <xref rid="B28-micromachines-10-00288" ref-type="bibr">28</xref>] 
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm5">
+       <mrow>
+        <mrow>
+         <mi>δ</mi>
+         <msub>
+          <mi>t</mi>
+          <mi mathvariant="normal">c</mi>
+         </msub>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mn>4</mn>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <msub>
+              <mi>w</mi>
+              <mi mathvariant="normal">r</mi>
+             </msub>
+             <mo>−</mo>
+             <msub>
+              <mi>s</mi>
+              <mi mathvariant="normal">r</mi>
+             </msub>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mrow>
+           <msup>
+            <mi>f</mi>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>w</italic>
+     <sub>r</sub> and 
+     <italic>s</italic>
+     <sub>r</sub> are the values of material plastic side flow and material spring back, respectively.
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Zhu et al. [
+     <xref rid="B55-micromachines-10-00288" ref-type="bibr">55</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm6">
+       <mrow>
+        <mrow>
+         <mi>δ</mi>
+         <msub>
+          <mi>t</mi>
+          <mi mathvariant="normal">c</mi>
+         </msub>
+         <mo>=</mo>
+         <mrow>
+          <mo>{</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+               <mo>=</mo>
+               <msub>
+                <mi>ε</mi>
+                <mi>y</mi>
+               </msub>
+               <msub>
+                <mi>h</mi>
+                <mrow>
+                 <mi>D</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mfrac>
+                <mrow>
+                 <mrow>
+                  <mo>(</mo>
+                  <mrow>
+                   <mn>1</mn>
+                   <mo>−</mo>
+                   <msub>
+                    <mi>ε</mi>
+                    <mi mathvariant="normal">p</mi>
+                   </msub>
+                   <msub>
+                    <mi>h</mi>
+                    <mrow>
+                     <mi>D</mi>
+                     <mi>min</mi>
+                    </mrow>
+                   </msub>
+                  </mrow>
+                  <mo>)</mo>
+                 </mrow>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">e</mi>
+                 </msub>
+                </mrow>
+                <mrow>
+                 <msub>
+                  <mi>h</mi>
+                  <mrow>
+                   <mi>D</mi>
+                   <mi>min</mi>
+                  </mrow>
+                 </msub>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">e</mi>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>∈</mo>
+               <mrow>
+                <mo>[</mo>
+                <mrow>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">e</mi>
+                 </msub>
+                 <mo>,</mo>
+                 <msub>
+                  <mi>h</mi>
+                  <mrow>
+                   <mi>D</mi>
+                   <mi>min</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mo>]</mo>
+               </mrow>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&gt;</mo>
+               <msub>
+                <mi>h</mi>
+                <mrow>
+                 <mi>D</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>t</italic>
+     <sub>e</sub> is the elastic deformation limit of the work material; 
+     <italic>t</italic>
+     <sub>c</sub> is the chip thickness and 
+     <italic>h</italic>
+     <sub>Dmin</sub> is the minimum undeformed chip thickness.
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Huang et al. [
+     <xref rid="B56-micromachines-10-00288" ref-type="bibr">56</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm7">
+       <mrow>
+        <mrow>
+         <mi>δ</mi>
+         <msub>
+          <mi>t</mi>
+          <mi mathvariant="normal">c</mi>
+         </msub>
+         <mo>=</mo>
+         <mrow>
+          <mo>{</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mn>0</mn>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+               <mfrac>
+                <mrow>
+                 <msub>
+                  <mi>t</mi>
+                  <mrow>
+                   <mi mathvariant="normal">c</mi>
+                   <mi>max</mi>
+                  </mrow>
+                 </msub>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mrow>
+                   <mi mathvariant="normal">c</mi>
+                   <mi>min</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+                <mrow>
+                 <msub>
+                  <mi>t</mi>
+                  <mrow>
+                   <mi mathvariant="normal">c</mi>
+                   <mi>max</mi>
+                  </mrow>
+                 </msub>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mrow>
+                   <mi mathvariant="normal">c</mi>
+                   <mi>min</mi>
+                  </mrow>
+                 </msub>
+                </mrow>
+               </mfrac>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>max</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mn>0</mn>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&gt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>max</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>t</italic>
+     <sub>cmax</sub> and 
+     <italic>t</italic>
+     <sub>cmin</sub> are the maximum and minimum undeformed chip thickness, i.e. 
+     <italic>t</italic>
+     <sub>cmin</sub> = 
+     <italic>h</italic>
+     <sub>Dmin</sub>. 
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Liu et al. [
+     <xref rid="B57-micromachines-10-00288" ref-type="bibr">57</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm8">
+       <mrow>
+        <mrow>
+         <mi>δ</mi>
+         <msub>
+          <mi>t</mi>
+          <mi mathvariant="normal">c</mi>
+         </msub>
+         <mo>=</mo>
+         <mrow>
+          <mo>{</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mn>0</mn>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>p</mi>
+                <mi>e</mi>
+               </msub>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi>e</mi>
+               </msub>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mn>0</mn>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>≥</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>p</italic>
+     <sub>e</sub> is the elastic recovery rate when ploughing/rubbing occurs. 
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Guo et al. [
+     <xref rid="B58-micromachines-10-00288" ref-type="bibr">58</xref>]
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm9">
+       <mrow>
+        <mrow>
+         <mi>δ</mi>
+         <msub>
+          <mi>t</mi>
+          <mi mathvariant="normal">c</mi>
+         </msub>
+         <mo>=</mo>
+         <mrow>
+          <mo>{</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>p</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">c</mi>
+                 </msub>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">e</mi>
+                 </msub>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+               <mo>+</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi>ce</mi>
+                </mrow>
+               </msub>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mi>η</mi>
+               <mrow>
+                <mo>(</mo>
+                <mrow>
+                 <msub>
+                  <mi>t</mi>
+                  <mrow>
+                   <mi mathvariant="normal">c</mi>
+                   <mi>max</mi>
+                  </mrow>
+                 </msub>
+                 <mo>−</mo>
+                 <msub>
+                  <mi>t</mi>
+                  <mi mathvariant="normal">c</mi>
+                 </msub>
+                </mrow>
+                <mo>)</mo>
+               </mrow>
+               <mo>+</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>min</mi>
+                </mrow>
+               </msub>
+               <mo>≤</mo>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>&lt;</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi>cmax</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">e</mi>
+               </msub>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msub>
+                <mi>t</mi>
+                <mi mathvariant="normal">c</mi>
+               </msub>
+               <mo>≥</mo>
+               <msub>
+                <mi>t</mi>
+                <mrow>
+                 <mi mathvariant="normal">c</mi>
+                 <mi>max</mi>
+                </mrow>
+               </msub>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <italic>p</italic>
+     <sub>e</sub> is the elastic recovery rate of the work material; 
+     <italic>η</italic> is the corresponding linear coefficient and determined by 
+     <italic>t</italic>
+     <sub>cmax</sub>, 
+     <italic>t</italic>
+     <sub>cmin</sub> and 
+     <italic>p</italic>
+     <sub>e</sub>.
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Chen et al. [
+     <xref rid="B60-micromachines-10-00288" ref-type="bibr">60</xref>]
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-formula>
+      <math id="mm10">
+       <mrow>
+        <mrow>
+         <mi>F</mi>
+         <mrow>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+         </mrow>
+         <mo>=</mo>
+         <mi>S</mi>
+         <mi>P</mi>
+         <mo>·</mo>
+         <msub>
+          <mi>R</mi>
+          <mrow>
+           <mi>tew</mi>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mi>x</mi>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </math>
+     </inline-formula>
+    </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>SP</italic> is the swelling ratio.
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

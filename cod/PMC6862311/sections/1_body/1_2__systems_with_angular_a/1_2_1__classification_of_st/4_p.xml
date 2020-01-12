@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In different systems the function 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mi>ρ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi mathvariant="bold-italic">r</mi>
+       <mo>,</mo>
+       <mo mathvariant="bold">Ω</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> can take different forms. For example, in the case of the nematic liquid crystal, in which centers of mass of elongated molecules are essentially randomly distributed but all molecules are oriented along the common direction 
+ <italic>
+  <bold>n</bold>
+ </italic> (
+ <xref ref-type="fig" rid="materials-12-03464-f002">Figure 2</xref>a). Therefore, the distribution function can be written as 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mi>ρ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi mathvariant="bold-italic">r</mi>
+       <mo>,</mo>
+       <mo mathvariant="bold">Ω</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>ρ</mi>
+     <mi>f</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>cos</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mi>ρ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is a constant and the orientation distribution function 
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>cos</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> depends only on the polar angle between 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mo mathvariant="bold">Ω</mo>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <italic>
+  <bold>n</bold>
+ </italic>, i.e., 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <mi>cos</mi>
+     <mi>θ</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo mathvariant="bold">Ω</mo>
+       <mi mathvariant="bold-italic">n</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In this case the orientational order parameter in nematics can be defined by expanding 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>cos</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in series of orthogonal polynomials of 
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mi>cos</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, i.e., the Legendre polynomials 
+ <inline-formula>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mi>l</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>cos</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B25-materials-12-03464" ref-type="bibr">25</xref>].
+</p>

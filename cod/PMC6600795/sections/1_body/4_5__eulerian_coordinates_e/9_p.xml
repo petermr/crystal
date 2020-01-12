@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We have the equivalent of a three-elements rosette with arms at 0°, 120° and 240°. Calling 
+ <bold>e
+  <sub>1</sub>
+ </bold>, 
+ <bold>e
+  <sub>2</sub>
+ </bold> and 
+ <bold>e
+  <sub>3</sub>
+ </bold> the axes of the rosette, principal derivatives of displacement fields are determined as a function of measured derivatives along rosette axes, Equation (7):
+ <disp-formula id="FD7-materials-12-01804">
+  <label>(7)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="bold-italic">u</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="bold-italic">x</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="bold-italic">u</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msub>
+        <mi mathvariant="bold-italic">x</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>3</mn>
+     </mfrac>
+     <mo> </mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">u</mi>
+          <mrow>
+           <mi mathvariant="bold-italic">e</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">e</mi>
+          <mn>1</mn>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">u</mi>
+          <mrow>
+           <mi mathvariant="bold-italic">e</mi>
+           <mn>2</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">e</mi>
+          <mn>2</mn>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">u</mi>
+          <mrow>
+           <mi mathvariant="bold-italic">e</mi>
+           <mn>3</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msub>
+          <mi mathvariant="bold-italic">e</mi>
+          <mn>3</mn>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo> </mo>
+     <mo>±</mo>
+     <mfrac>
+      <mrow>
+       <msqrt>
+        <mn>2</mn>
+       </msqrt>
+      </mrow>
+      <mn>3</mn>
+     </mfrac>
+     <mo> </mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <msqrt>
+        <mrow>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>1</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+             <mo>−</mo>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>2</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>2</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>2</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>2</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+             <mo>−</mo>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>3</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>3</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+         <mo>+</mo>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>3</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>3</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+             <mo>−</mo>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">u</mi>
+                <mrow>
+                 <mi mathvariant="bold-italic">e</mi>
+                 <mn>1</mn>
+                </mrow>
+               </msub>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <msub>
+                <mi mathvariant="bold-italic">e</mi>
+                <mn>1</mn>
+               </msub>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+       </msqrt>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where x
+ <sub>1</sub> and x
+ <sub>2</sub> are the coordinate axes, e
+ <sub>1</sub>≡x
+ <sub>1</sub> and the x
+ <sub>2</sub>-axis is orthogonal to x
+ <sub>1</sub>.
+</p>

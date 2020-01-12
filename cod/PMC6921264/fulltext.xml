@@ -1,0 +1,627 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6921264</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02410</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>First-Principles-Based
+Force Field for 2,6-Diamino-3,5-dinitropyrazine-1-oxide
+(LLM-105)</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Wang</surname><given-names>Xian</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Zeng</surname><given-names>Qun</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Li</surname><given-names>Jinshan</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Yang</surname><given-names>Mingli</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Institute
+of Chemical Materials, <institution>China Academy of
+Engineering Physics (CAEP)</institution>, Mianyang 621900, <country>China</country></aff><aff id="aff2"><label>&#x02021;</label>Institute
+of Atomic and Molecular Physics, <institution>Sichuan
+University</institution>, Chengdu 610065, <country>China</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>zq84229@163.com</email>. Phone: <phone>18683664393</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>12</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>17</day><month>12</month><year>2019</year></pub-date><volume>4</volume><issue>25</issue><fpage>21054</fpage><lpage>21062</lpage><history><date date-type="received"><day>30</day><month>07</month><year>2019</year></date><date date-type="accepted"><day>19</day><month>11</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0009" id="ab-tgr1"/></p><p>2,6-Diamino-3,5-dinitropyrazine-1-oxide (LLM-105) is
+a highly promising
+energetic material (EM) with high safety. Understanding its microscopic
+response mechanisms within the external stimulus is meaningful for
+the design of EMs. In order to comprehend the complicated phenomena,
+it is necessary to employ molecular simulation methods to investigate
+the response mechanisms with the force field (FF) at an atomic level.
+In this work, we developed a tailored FF for LLM-105 based on first-principles
+calculations. The validity of the FF was evaluated by molecular dynamics
+simulations. The structural parameters of LLM-105 predicted by FF
+are in good agreement with the experimental values, such as lattice
+constant, bond length, bond angle, dihedral angle and center of mass,
+and so forth. Moreover, the FF possesses good performance to describe
+the structural response on pressure accurately. In general, our work
+not only builds a balanced FF in gas and condensed phases, but also
+provides a useful tool to study the properties about LLM-105 at a
+large scale, which is helpful to improve the understanding about the
+balance between energy and safety in EMs.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02410</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b02410</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>Energetic materials (EMs),
+including pyrotechnics, propellants,
+and explosives, are widely applied for civil, industrial, and military
+purposes.<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> With the progress and development of the
+society, the requirements for EMs increase, such as high energy density,
+thermal stability, thermal and shock, storability, and low handling
+hazards.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> Because of a delicate balance between high
+energy and high safety, a great challenge is to search a new balance
+point for EMs using chemical synthesis and crystal engineering technology.
+Among EMs, 1,3,5-triamino-2,4,6-trinitrobenzene (TATB) and 1,1-diamino-2,2-dinitroethylene
+(FOX-7) are always considered to be representatives at the balance
+point.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup> Besides TATB and FOX-7, 2,6-diamino-3,5-dinitropyrazine-1-oxide
+(LLM-105) are a highly promising candidate. Compared with main traditional
+EMs like 2,4,6-trinitrotoluene, 1,3,5-trinitro-1,3,5-triazine (RDX),
+and octahydro-1,3,5,7-tetranitro-1,3,5,7-tetrazocine (HMX), LLM-105
+possesses outstanding thermal stability and insensitivity to friction,
+spark, impact, and shock.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup></p><p>It is
+interesting to reveal how to keep the balance in high energy materials with
+great safety. In addition, under the Hugoniot relation, which governs
+the detonation process, the energy, pressure, and volume of an explosive
+before and after a shock are involved. Prediction of the lattice structure
+is therefore, important to locate the detonation performances of EMs.
+As we know, energy release and stability maintenance of EMs should
+be both related to the response under external stimuli. Since the
+discovery of LLM-105 in the mid-1990, numerous studies have been attracting
+attention to thermal studies, equation of state (EOS) measurements,
+and sensitivity of LLM-105.<sup><xref ref-type="bibr" rid="ref8">8</xref>&#x02212;<xref ref-type="bibr" rid="ref11">11</xref></sup> Xu et al.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> measured the
+mechanical and thermal sensitivity of LLM-105. Zhang et al.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> investigated the morphology, particle size distribution,
+internal structure, sensitivity, and thermal decomposition properties
+of submicrometer-sized LLM-105 using scanning electron microscopy
+and X-ray diffraction. Gump et al.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> employed
+synchrotron angle-dispersive X-ray diffraction and diamond anvil cells
+to ascertain the isothermal equations of the state of LLM-105 at static
+high pressure and temperature. Williamson et al.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> presented experiments combined with a range of diagnostic
+instrumentation to describe the impact response of LLM-105, demonstrating
+the low-level reaction in it, consisting of hotspot ignition, comparatively
+little light output, and substantial levels of gas production. Recently,
+Xu et al.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> have studied the structural
+stability of LLM-105 under different pressures and temperatures by
+X-ray diffraction, pressure-dependent Raman and infrared spectra,
+indicating that a structure phase transition occurs at approximately
+30 GPa. Although many experiments have been performed, it is vague
+to comprehend the microscopic response mechanisms within the external
+stimulus.</p><p>It is necessary to apply molecule simulation methods
+to investigate
+the response mechanisms at the microscopic level. Recently, multiple
+studies have employed density functional theory (DFT) methods to simulate
+the structure and EOS under high pressure.<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref17">17</xref></sup> At the B3LYP/6-31G** level, He et al.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> demonstrated systematically the existence of
+the intramolecular hydrogen bonds (HBs) in LLM-105 and revealed the
+influence of H-bonds on its properties. Wu et al.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> reported the effect of high-pressure on the geometric,
+electronic, and absorption properties of LLM-105 at the PW91 level,
+proposing that there exists multiple phase transitions at different
+pressures. Manaa et al.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> performed dispersion-corrected
+DFT calculations on the unreacted EOS of crystal LLM-105 under a hydrostatic
+compression of up to 45 GPa. Stavrou et al.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> implemented dispersion-corrected first-principles molecular dynamics
+(MD) simulations to explore the EOS and the behavior of LLM-105 at
+various pressures, finding that the ambient pressure phase remains
+stable up to 20 GPa. Moreover, Zong et al.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> investigated the structure, mechanical properties, vibrational spectra,
+and EOS of LLM-105 under a hydrostatic pressure of up to 100 GPa with
+the PBE level.</p><p>However, the theoretical research studies mentioned
+are performed
+on the system with a small quantity of atoms. Virtually, many phenomena
+are always largely complicated and consist of thousands of atoms,
+such as shock response, thermal diffusion, hot points, and defects.
+Thus, the methods based on the empirical force field (FF) are usually
+employed to investigate the mechanisms. Generally, some general FFs
+were chosen to simulate the condensed phase of EMs, such as Amber<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> and Compass.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> However,
+to derive more dependable results for a particular material property,
+the tailor-made FFs are always applied to the simulations about the
+specific systems. Smith and Bharadwaj constructed a FF for HMX according
+to the DFT energies.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Mathew and Sewell
+used MD with a tailor-made FF to investigate the surface-initiated
+melting of TATB.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> With the combination
+of symmetry-adapted perturbation theory and DFT [SAPT(DFT)],<sup><xref ref-type="bibr" rid="ref22">22</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> a series of intermolecular interaction potential have been parameterized
+for RDX,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> TATB,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> and FOX-7.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Furthermore, Song et al.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> developed all-atom, nonempirical, and tailor-made
+FFs for &#x003b1;-RDX, which can be reliably applied into crystal and
+density predictions and the sensitivity and detonation estimations.
+Because of its good accuracy, it is successful in describing the phenomenon
+for the respective molecules. However, it is not found that molecule-tailored
+FFs for LLM-105 have been established.</p><p>While the prediction
+of the lattice structures of EMs remains challenging,
+the new FF is helpful for studying the behaviors of neat LLM-105 under
+high pressures, which is crucial for the prediction of its detonation
+performance. In this work, we developed a tailored FF for LLM-105
+based on first-principles calculations. After parameterization has been carried out step by step, the validity
+of the FF has been evaluated by the MD simulations. The FF possesses
+good performance to describe the LLM-105 molecular and crystal structures
+and present structural response on pressure. Our work provides not
+only a tailored FF for LLM-105, but also a powerful tool to explore
+the response mechanisms of LLM-105 at the atomic scale, which is helpful
+to improve the understanding about the balance between energy and
+safety in EMs.</p></sec><sec id="sec2"><label>2</label><title>Computational Methods</title><sec id="sec2.1"><label>2.1</label><title>Force Field</title><p>LLM-105, with four formula
+units per unit cell, is a highly dense molecular solid that crystallizes
+in a monoclinic, P2<sub>1</sub>/<italic>n</italic> space symmetry
+group. It exhibits an extensive network of HBs and &#x003c0;&#x02013;&#x003c0;
+stacking in its crystal structure as shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a, which was drawn by mercury 3.9.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The topology of the LLM-105 molecule has been
+displayed in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b, which possesses only one stable conformation in the gas phase.
+The corresponding atom types are presented in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c. It is noted that a few atom types are
+applied for the FF construction.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a) LLM-105 crystal structure and intermolar
+hydrogen bond in the
+crystal; the atom indexes (b) and atomic type (c) in the force field
+parameters.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0001" id="gr1" position="float"/></fig><p>The initial molecular structure of LLM-105 (Cambridge
+Structural
+Database: refcode YEKQAG03) was obtained from the work by Liu et al.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> After optimization with the PBE0/aug-cc-pVDZ<sup><xref ref-type="bibr" rid="ref33">33</xref>,<xref ref-type="bibr" rid="ref34">34</xref></sup> level, more than 1000 dimer structures were generated randomly referring
+to the method introduced by refs (<xref ref-type="bibr" rid="ref27">27</xref>) and (<xref ref-type="bibr" rid="ref28">28</xref>). To obtain the accurate intermolecular energy, the combination
+with PBE0/aug-cc-pVDZ and exchange-hole dipole moment dispersion correction
+(XDM)<sup><xref ref-type="bibr" rid="ref35">35</xref>&#x02212;<xref ref-type="bibr" rid="ref39">39</xref></sup> were employed. The XDM dispersion model has demonstrated good performance
+in sublimation enthalpies and absolute lattice energies of molecular
+crystals.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> Moreover, some studies<sup><xref ref-type="bibr" rid="ref41">41</xref>&#x02212;<xref ref-type="bibr" rid="ref43">43</xref></sup> obtained accurate energy ranking in the crystal-structure prediction
+of molecular crystals with the DFT&#x02013;XDM method. As a whole,
+the FF form is similar with Amber FF.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> The nonbonding interaction is expressed with the electrostatic and
+van der Waals (vdW) terms. As shown in <xref rid="eq1" ref-type="disp-formula">eq <xref rid="eq1" ref-type="disp-formula">1</xref></xref>, the point charge model and the vdW potential
+were chosen to describe the two terms, respectively. Instead of the
+Lennard-Jones (LJ) potential in Amber, the vdW interaction is expressed
+using the Buckingham (BKH) potential. This FF form has been applied
+to describe HMX by Smith and Bharadwaj.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup><disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m001" position="anchor"/><label>1</label></disp-formula>where, <italic>q</italic><sub><italic>i</italic></sub> is the charge on atom <italic>i</italic>, and <italic>r</italic><sub><italic>ij</italic></sub> is the distance between atom <italic>i</italic> and <italic>j</italic>, <italic>A</italic><sub><italic>ij</italic></sub>, <italic>B</italic><sub><italic>ij</italic></sub>, and <italic>C</italic><sub><italic>ij</italic></sub> are the parameters
+in the BKH potential. A revised electrostatic potential fitting charge
+(RESP) scheme was used to obtain the point charge.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> RESP charges always show good agreement with the electrostatic
+component of the ab initio interaction energies. BKH has more reasonable
+short-range interactions and is more suitable to describe the EMs
+in high pressure. In order to obtain reasonable BKH parameters, the
+FIT potential parameters<sup><xref ref-type="bibr" rid="ref46">46</xref>,<xref ref-type="bibr" rid="ref47">47</xref></sup> were chosen for the
+initial values directly, and the fitting bounds were confined to be
+0.9 and 1.1 times of the parameter. In addition, the least-square
+method was used to optimize the parameter referring to the dimer energies
+in the condition of constrained charge.</p><p>For bonding interactions,
+a series of perturbed structures were
+generated based on one of the equilibrium conformations according
+to the redundant internal coordinates, and optimized with the constrained
+structural parameters at the PBE0/aug-cc-pVDZ level, and the harmonic
+style functions were chosen for bond and angle terms (<italic>E</italic><sub>bond</sub> and <italic>E</italic><sub>angle</sub>), as follow<disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m002" position="anchor"/><label>2</label></disp-formula><disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m003" position="anchor"/><label>3</label></disp-formula>where <italic>k</italic><sub>b</sub> and <italic>k</italic><sub>&#x003b8;</sub> are the force constants of bond and
+angle terms, <italic>b</italic> and <italic>b</italic><sub>0</sub> are the actual and balanced bond lengths, while &#x003b8; and &#x003b8;<sub>0</sub> are the actual and balanced bond angles. A fourier style
+potential was chosen to describe dihedral terms (<italic>E</italic><sub>dihedral</sub>)<disp-formula id="eq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m004" position="anchor"/><label>4</label></disp-formula>where <italic>k</italic><sub>&#x003d5;<italic>i</italic></sub>, <italic>n</italic><sub><italic>i</italic></sub>, &#x003d5;, and <italic>d</italic><sub><italic>i</italic></sub> are
+the force constants, scale factor, and actual and balanced dihedral
+angels. To fix the nitro group planer, a harmonic improper term was
+chosen for nitro groups (<italic>E</italic><sub>improper</sub>)<disp-formula id="eq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m005" position="anchor"/><label>5</label></disp-formula>where <italic>k</italic><sub>&#x003c8;</sub> and &#x003c8; are the force constants and improper angle, and the
+initial bonding parameters were obtained from Amber FF parameters.
+In order to get reliable results, the bounds of parameters were set
+to be 0.8&#x02013;1.2 of the initial parameters, and the evolutionary
+algorithm was employed to optimize the parameters with minimization
+of the following score function (<italic>E</italic><sub>score</sub>)<disp-formula id="eq6"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m006" position="anchor"/><label>6</label></disp-formula>where <italic>K</italic> is
+the slope determined by the linear fitting between the referenced
+DFT energy <italic>E</italic><sub>ref</sub> and FF calculated energy <italic>E</italic><sub>FF</sub> with the optimizations at several structural
+parameter constraints. The <italic>E</italic><sub>score</sub> can
+be applied to balance between the slope and root mean square error.
+It is worth noting that all improper force constants <italic>k</italic><sub>&#x003c8;</sub> were fixed at 1.12 kcal mol<sup>&#x02013;1</sup> rad<sup>&#x02013;2</sup> during the parameterization. In all DFT/MM
+optimization and energy calculation were performed with Gaussian 09<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> and LAMMPS<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> packages.</p></sec><sec id="sec2.2"><label>2.2</label><title>MD Simulation</title><p>In our MD simulations,
+the calculations were carried out with the <italic>NPT</italic> ensemble.
+The time step length and cutoff distance of vdW interaction were set
+to 0.5 fs and 12 &#x000c5;, respectively. In order to ensure that all
+the edge lengths of the cell were at the least twice cutoff distance,
+a bulk supercell of a 5 &#x000d7; 2 &#x000d7; 3 crystallographic unit cell
+was used. All structure relaxations were performed for 100 ps from
+0 to 20 GPa at 300 K. After equilibration at each pressure, atomic
+configurations were recorded every 1000th step, and the last 20&#x02009;000
+step trajectories were gathered. By statistical average, we obtained
+the mean lattice parameters, atom coordinates, volume, center of mass,
+etc. In addition, a gaseous molecular structure was also optimized
+with the FF. All calculations in this part were implemented in the
+LAMMPS program.</p></sec></sec><sec id="sec3"><label>3</label><title>Results</title><sec id="sec3.1"><label>3.1</label><title>Geometry in the Gaseous Phase</title><p>The LLM-105 molecule is a planar structure
+with <italic>C</italic><sub><italic>2v</italic></sub> point group
+symmetry in the gaseous phase. Thus, atom types were defined referring
+to the chemical groups and their connections. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a shows the structural overlap between FF
+and DFT. Overall, the structure from the FF is very similar with that
+from DFT. In detail, <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref> compares the structural parameters optimized at the PBE0/aug-cc-pVDZ
+and fitted FF levels. Because of the planar structure, dihedral and
+improper angles are not included. Obviously, the parameters from the
+FF are in good agreement with those from DFT. The mean error (ME)
+of bond lengths is about 0.006 &#x000c5;, and the ME of bond angles is
+about 0.1&#x000b0;. The root mean squared error (RMSE) of bond lengths
+and angels are 0.015 &#x000c5; and 1.0&#x000b0;. The maximum error (MAXE)
+about bond lengths existing in the bond between C1 and N12 is about
+0.20 &#x000c5;. Among bond angles, the MAXE is about 1.9&#x000b0; in the
+angle C2&#x02013;N3&#x02013;C4.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Overlap for molecules from DFT and FF in the
+gaseous phase (a);
+a front (b) and a lateral view (c) from the experiment and FF in the
+crystal form.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0002" id="gr2" position="float"/></fig><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Structural Parameters Optimized at
+the DFT and FF Levels</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">structural parameters</th><th style="border:none;" align="center" char=".">DFT</th><th style="border:none;" align="center" char=".">FF</th><th style="border:none;" align="center" char=".">&#x00394;(FF&#x02013;DFT)</th></tr></thead><tbody><tr><td colspan="4" style="border:none;" align="center"><bold>Bond Lengths
+(&#x000c5;)</bold></td></tr><tr><td style="border:none;" align="left">B(C1&#x02013;C2)</td><td style="border:none;" align="char" char=".">1.419</td><td style="border:none;" align="char" char=".">1.402</td><td style="border:none;" align="char" char=".">&#x02013;0.018</td></tr><tr><td style="border:none;" align="left">B(C2&#x02013;N3)</td><td style="border:none;" align="char" char=".">1.308</td><td style="border:none;" align="char" char=".">1.323</td><td style="border:none;" align="char" char=".">0.016</td></tr><tr><td style="border:none;" align="left">B(C1&#x02013;N12)</td><td style="border:none;" align="char" char=".">1.371</td><td style="border:none;" align="char" char=".">1.391</td><td style="border:none;" align="char" char=".">0.020</td></tr><tr><td style="border:none;" align="left">B(C1&#x02013;N14)</td><td style="border:none;" align="char" char=".">1.325</td><td style="border:none;" align="char" char=".">1.345</td><td style="border:none;" align="char" char=".">0.020</td></tr><tr><td style="border:none;" align="left">B(C2&#x02013;N6)</td><td style="border:none;" align="char" char=".">1.459</td><td style="border:none;" align="char" char=".">1.464</td><td style="border:none;" align="char" char=".">0.005</td></tr><tr><td style="border:none;" align="left">B(N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">1.015</td><td style="border:none;" align="char" char=".">1.025</td><td style="border:none;" align="char" char=".">0.010</td></tr><tr><td style="border:none;" align="left">B(N14&#x02013;H18)</td><td style="border:none;" align="char" char=".">1.010</td><td style="border:none;" align="char" char=".">1.022</td><td style="border:none;" align="char" char=".">0.013</td></tr><tr><td style="border:none;" align="left">B(N6&#x02013;O8)</td><td style="border:none;" align="char" char=".">1.233</td><td style="border:none;" align="char" char=".">1.224</td><td style="border:none;" align="char" char=".">&#x02013;0.009</td></tr><tr><td style="border:none;" align="left">B(N6&#x02013;O7)</td><td style="border:none;" align="char" char=".">1.206</td><td style="border:none;" align="char" char=".">1.221</td><td style="border:none;" align="char" char=".">0.015</td></tr><tr><td style="border:none;" align="left">B(N12&#x02013;O13)</td><td style="border:none;" align="char" char=".">1.290</td><td style="border:none;" align="char" char=".">1.275</td><td style="border:none;" align="char" char=".">&#x02013;0.015</td></tr><tr><td style="border:none;" align="left">ME</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">0.006</td></tr><tr><td style="border:none;" align="left">RMSE</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">0.015</td></tr><tr><td colspan="4" style="border:none;" align="center"><bold>Angles (deg)</bold></td></tr><tr><td style="border:none;" align="left">A(H18&#x02013;N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">126.0</td><td style="border:none;" align="char" char=".">127.8</td><td style="border:none;" align="char" char=".">1.8</td></tr><tr><td style="border:none;" align="left">A(C2&#x02013;C1&#x02013;N12)</td><td style="border:none;" align="char" char=".">116.2</td><td style="border:none;" align="char" char=".">116.1</td><td style="border:none;" align="char" char=".">&#x02013;0.1</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N12&#x02013;C5)</td><td style="border:none;" align="char" char=".">122.0</td><td style="border:none;" align="char" char=".">122.5</td><td style="border:none;" align="char" char=".">0.5</td></tr><tr><td style="border:none;" align="left">A(N3&#x02013;C2&#x02013;N6)</td><td style="border:none;" align="char" char=".">116.3</td><td style="border:none;" align="char" char=".">116.8</td><td style="border:none;" align="char" char=".">0.5</td></tr><tr><td style="border:none;" align="left">A(C2&#x02013;C1&#x02013;N14)</td><td style="border:none;" align="char" char=".">129.5</td><td style="border:none;" align="char" char=".">130.2</td><td style="border:none;" align="char" char=".">0.7</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">115.4</td><td style="border:none;" align="char" char=".">113.9</td><td style="border:none;" align="char" char=".">&#x02013;1.5</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N14&#x02013;H18)</td><td style="border:none;" align="char" char=".">118.6</td><td style="border:none;" align="char" char=".">118.3</td><td style="border:none;" align="char" char=".">&#x02013;0.3</td></tr><tr><td style="border:none;" align="left">A(C2&#x02013;N3&#x02013;C4)</td><td style="border:none;" align="char" char=".">119.5</td><td style="border:none;" align="char" char=".">121.3</td><td style="border:none;" align="char" char=".">1.9</td></tr><tr><td style="border:none;" align="left">A(N12&#x02013;C1&#x02013;N14)</td><td style="border:none;" align="char" char=".">114.3</td><td style="border:none;" align="char" char=".">113.7</td><td style="border:none;" align="char" char=".">&#x02013;0.6</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;C2&#x02013;N3)</td><td style="border:none;" align="char" char=".">123.1</td><td style="border:none;" align="char" char=".">122.0</td><td style="border:none;" align="char" char=".">&#x02013;1.1</td></tr><tr><td style="border:none;" align="left">A(O7&#x02013;N6&#x02013;O8)</td><td style="border:none;" align="char" char=".">125.0</td><td style="border:none;" align="char" char=".">123.3</td><td style="border:none;" align="char" char=".">&#x02013;1.6</td></tr><tr><td style="border:none;" align="left">A(C2&#x02013;N6&#x02013;O7)</td><td style="border:none;" align="char" char=".">118.5</td><td style="border:none;" align="char" char=".">119.3</td><td style="border:none;" align="char" char=".">0.8</td></tr><tr><td style="border:none;" align="left">A(C2&#x02013;N6&#x02013;O8)</td><td style="border:none;" align="char" char=".">116.5</td><td style="border:none;" align="char" char=".">117.3</td><td style="border:none;" align="char" char=".">0.8</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;C2&#x02013;N6)</td><td style="border:none;" align="char" char=".">120.6</td><td style="border:none;" align="char" char=".">121.2</td><td style="border:none;" align="char" char=".">0.6</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N12&#x02013;O13)</td><td style="border:none;" align="char" char=".">119.0</td><td style="border:none;" align="char" char=".">118.8</td><td style="border:none;" align="char" char=".">&#x02013;0.3</td></tr><tr><td style="border:none;" align="left">ME</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">0.1</td></tr><tr><td style="border:none;" align="left">RMSE</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">1.0</td></tr></tbody></table></table-wrap></sec><sec id="sec3.2"><label>3.2</label><title>Lattice Structure</title><p>After the 200&#x02009;000
+step <italic>NPT</italic> simulation, the equilibrium crystal structure
+was obtained with averaging lattice parameters and atom coordinates
+in last 20&#x02009;000 step trajectories. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> shows the overlap between simulated and
+experimental structures. In the 15/15 similarity standard, the displacement
+between two structures is calculated be 0.16 &#x000c5; by pymatgen,<sup><xref ref-type="bibr" rid="ref50">50</xref></sup> which reflects that the structure from the FF
+is very similar with that from the experiment. <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref> compares the lattice parameters based on
+DFT,<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> FF simulations,
+and experimental measure.<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref52">52</xref></sup> Compared to the experimental and DFT calculated
+values, our FF gives a slightly smaller lattice cell. The lattice
+parameters were predicted to be 5.64, 15.55, and 8.24 &#x000c5; for a,
+b, and c axis, respectively. The lengths of a, b, and c decreases
+by about 0.08, 0.30, and 0.18 &#x000c5;, or 1.4, 1.9, and 2.1%, respectively,
+and the lattice angle &#x003b2; varies little, which is predicted to
+be 100.96&#x000b0;. Because of the little shorter axis, the lattice volume
+is reduced from 748 &#x000c5;<sup>3</sup> to 711 &#x000c5;<sup>3</sup>,
+by about 5.0%. Although our FF gives a smaller volume, the molecular
+position and orientation are in good agreement with the experimental
+measurements.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> Because of the symmetry,
+the position is described with the fraction coordinate of the centroid
+of a chosen molecule, and the orientation is expressed with three
+angles between <italic>x</italic>, <italic>y</italic>, and <italic>z</italic> axis and the vector from N3 to N4 on the molecule. In
+the result from the FF, the position is predicted to be (0.560, 0.869,
+and 0.549) for the molecule, which are very similar with (0.559, 0.867,
+and 0.553) from the experiment.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> Also
+the orientation angles are simulated to be (145.65, 67.38, and 114.38&#x000b0;),
+which are consistent with those from experimental measures.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup></p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Overlap between simulated (normal color) and experimental
+structures
+(green).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0003" id="gr3" position="float"/></fig><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Structural Parameters, Bulk Modulus
+and Its Derivative of the LLM-105 Crystal from FF, DFT, and Experiments</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="center"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="center"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center" char=".">FF</th><th style="border:none;" align="center" char=".">LDA<sup><xref ref-type="bibr" rid="ref14">14</xref></sup></th><th style="border:none;" align="center" char=".">PW91<sup><xref ref-type="bibr" rid="ref14">14</xref></sup></th><th style="border:none;" align="center" char=".">PBE<sup><xref ref-type="bibr" rid="ref17">17</xref></sup></th><th style="border:none;" align="center" char=".">PBE-D2<sup><xref ref-type="bibr" rid="ref16">16</xref></sup></th><th style="border:none;" align="center">EXP<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref51">51</xref>,<xref ref-type="bibr" rid="ref52">52</xref></sup></th></tr></thead><tbody><tr><td style="border:none;" align="center"><italic>a</italic>&#x000a0;(&#x000c5;)</td><td style="border:none;" align="char" char=".">5.64</td><td style="border:none;" align="char" char=".">5.84</td><td style="border:none;" align="char" char=".">6.01</td><td style="border:none;" align="char" char=".">5.64</td><td style="border:none;" align="char" char=".">5.81</td><td style="border:none;" align="center">5.71&#x02013;5.75</td></tr><tr><td style="border:none;" align="center"><italic>b</italic>&#x000a0;(&#x000c5;)</td><td style="border:none;" align="char" char=".">15.55</td><td style="border:none;" align="char" char=".">15.58</td><td style="border:none;" align="char" char=".">18.28</td><td style="border:none;" align="char" char=".">15.96</td><td style="border:none;" align="char" char=".">16.05</td><td style="border:none;" align="center">15.60&#x02013;15.87</td></tr><tr><td style="border:none;" align="center"><italic>c</italic>&#x000a0;(&#x000c5;)</td><td style="border:none;" align="char" char=".">8.24</td><td style="border:none;" align="char" char=".">8.22</td><td style="border:none;" align="char" char=".">8.71</td><td style="border:none;" align="char" char=".">8.46</td><td style="border:none;" align="char" char=".">8.40</td><td style="border:none;" align="center">8.41&#x02013;8.48</td></tr><tr><td style="border:none;" align="center">&#x003b2;&#x000a0;(deg)</td><td style="border:none;" align="char" char=".">100.96</td><td style="border:none;" align="char" char=".">99.51</td><td style="border:none;" align="char" char=".">100.75</td><td style="border:none;" align="char" char=".">100.93</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">101.01&#x02013;101.22</td></tr><tr><td style="border:none;" align="center"><italic>V</italic><sub>0</sub> (&#x000c5;<sup>3</sup>)</td><td style="border:none;" align="char" char=".">711.00</td><td style="border:none;" align="char" char=".">737.24</td><td style="border:none;" align="char" char=".">939.20</td><td style="border:none;" align="char" char=".">747.38</td><td style="border:none;" align="char" char=".">769.51</td><td style="border:none;" align="center">746.21&#x02013;750.08</td></tr><tr><td style="border:none;" align="center">center
+of mass</td><td style="border:none;" align="char" char=".">0.560</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">0.559</td></tr><tr><td style="border:none;" align="center">&#x000a0;</td><td style="border:none;" align="char" char=".">0.869</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">0.867</td></tr><tr><td style="border:none;" align="center">&#x000a0;</td><td style="border:none;" align="char" char=".">0.549</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">0.553</td></tr><tr><td style="border:none;" align="center">orient (deg)</td><td style="border:none;" align="char" char=".">145.65</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">145.65</td></tr><tr><td style="border:none;" align="center">&#x000a0;</td><td style="border:none;" align="char" char=".">67.38</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">67.38</td></tr><tr><td style="border:none;" align="center">&#x000a0;</td><td style="border:none;" align="char" char=".">114.38</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="center">114.38</td></tr><tr><td style="border:none;" align="center"><italic>B</italic><sub>0</sub></td><td style="border:none;" align="char" char=".">13.8</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">16.5</td><td style="border:none;" align="char" char=".">12.7</td><td style="border:none;" align="center">11.19&#x02013;16.2</td></tr><tr><td style="border:none;" align="center"><italic>B</italic>&#x02032;</td><td style="border:none;" align="char" char=".">11.7</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">9.4</td><td style="border:none;" align="char" char=".">9.4</td><td style="border:none;" align="center">8.30&#x02013;18.54</td></tr></tbody></table></table-wrap><p>Further, the charges in the molecular structure between
+those predicted
+by the FF and experimental measure<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> are
+focused on. Because of crystal packing and HB formation, the symmetry
+on molecular structures has been broken, and the molecule is not kept
+with a planar structure longer. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b,c also gives a front view and a side lateral view
+of the overlap structure. The structure from the FF is consistent
+with that from the experiment.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup><xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref> lists the main deformation
+which is found around the interaction sites such as nitro and amino
+groups. Apparently, the FF can also be applied to give similar molecular
+structural parameters with the experimental values.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> The dihedral angle of C1&#x02013;C2&#x02013;N6&#x02013;O8
+varied from 0.00&#x000b0; in gaseous to 18.82&#x000b0; in crystal phase,
+and the FF gave an accurate prediction about the dihedral angle with
+18.82&#x000b0; in the crystal. The other dihedral angle (D(N3&#x02013;C4&#x02013;N9&#x02013;O11))
+about C&#x02013;NO<sub>2</sub> is estimated to be &#x02212;3.48&#x000b0;
+by the FF and in good agreement with the experimental value.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> After the crystal packing, all N&#x02013;H
+bonds are shortened to 0.860 &#x000c5; from 1.010 &#x000c5;, and the angles
+of nitrogen atoms in amino groups increase to about 120&#x000b0;. Also
+the bond N12&#x02013;O13 with the last hydrogen bond O13 bond is lengthened
+from 1.275 to 1.321 &#x000c5;. The experimental values<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> of B(N&#x02013;H), A(H&#x02013;N&#x02013;H), and B(N12&#x02013;O13)
+are 0.860 &#x000c5;, 120.01&#x000b0;, and 1.321 &#x000c5;, respectively.</p><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Structural Parameters Optimized at
+the FF Levels and Experimental Values</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">structural parameter</th><th style="border:none;" align="center" char=".">EXP</th><th style="border:none;" align="center" char=".">FF</th><th style="border:none;" align="center" char=".">&#x00394;(FF-EXP)</th></tr></thead><tbody><tr><td colspan="4" style="border:none;" align="center"><bold>Bond Lengths
+(&#x000c5;)</bold></td></tr><tr><td style="border:none;" align="left">B(N15&#x02013;H16)</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.000</td></tr><tr><td style="border:none;" align="left">B(N15&#x02013;H17)</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.000</td></tr><tr><td style="border:none;" align="left">B(N14&#x02013;H18)</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.000</td></tr><tr><td style="border:none;" align="left">B(N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.860</td><td style="border:none;" align="char" char=".">0.000</td></tr><tr><td style="border:none;" align="left">B(N12&#x02013;O13)</td><td style="border:none;" align="char" char=".">1.321</td><td style="border:none;" align="char" char=".">1.321</td><td style="border:none;" align="char" char=".">0.000</td></tr><tr><td colspan="4" style="border:none;" align="center"><bold>Bond Angles
+(deg)</bold></td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N14&#x02013;H18)</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">&#x02013;0.01</td></tr><tr><td style="border:none;" align="left">A(C1&#x02013;N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">119.98</td><td style="border:none;" align="char" char=".">119.98</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">A(H18&#x02013;N14&#x02013;H19)</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">0.01</td></tr><tr><td style="border:none;" align="left">A(C5&#x02013;N15&#x02013;H16)</td><td style="border:none;" align="char" char=".">120.00</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">A(C5&#x02013;N15&#x02013;H17)</td><td style="border:none;" align="char" char=".">120.02</td><td style="border:none;" align="char" char=".">120.01</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">A(H16&#x02013;N15&#x02013;H17)</td><td style="border:none;" align="char" char=".">119.98</td><td style="border:none;" align="char" char=".">119.98</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td colspan="4" style="border:none;" align="center"><bold>Dihedral
+Angles (deg)</bold></td></tr><tr><td style="border:none;" align="left">D(C1&#x02013;C2&#x02013;N6&#x02013;O8)</td><td style="border:none;" align="char" char=".">18.82</td><td style="border:none;" align="char" char=".">18.82</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">D(N3&#x02013;C2&#x02013;N6&#x02013;O8)</td><td style="border:none;" align="char" char=".">&#x02013;159.43</td><td style="border:none;" align="char" char=".">&#x02013;159.43</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">D(C5&#x02013;C4&#x02013;N9&#x02013;O10)</td><td style="border:none;" align="char" char=".">&#x02013;2.67</td><td style="border:none;" align="char" char=".">&#x02013;2.67</td><td style="border:none;" align="char" char=".">0.00</td></tr><tr><td style="border:none;" align="left">D(N3&#x02013;C4&#x02013;N9&#x02013;O11)</td><td style="border:none;" align="char" char=".">&#x02013;3.48</td><td style="border:none;" align="char" char=".">&#x02013;3.48</td><td style="border:none;" align="char" char=".">0.00</td></tr></tbody></table></table-wrap><p>Because of less charge in the molecule, the cell difference
+between
+the simulation and experiment should be attributed to the description
+about the intermolecular interaction. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> shows four main dimer structures with the
+great intermolecular interaction. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a,b is typical &#x003c0;&#x02013;&#x003c0; stacking
+dimers, called &#x003c0;&#x02013;&#x003c0;1 and &#x003c0;&#x02013;&#x003c0;2,
+respectively. In addition, <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>c,d shows doublet HB systems, marked with HB1 and HB2.
+Three structural parameters are applied to compare the simulated and experimental
+&#x003c0;&#x02013;&#x003c0; stacking dimers:<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> the distance between the two geometry centers of the six-member
+rings (<italic>R</italic><sub>gc</sub>), the distance between the
+two &#x003c0;-planes constructed by the six-member rings (<italic>R</italic><sub>pl</sub>), and the angle between the normal vector of a plane
+and the vector from the center to the other (Anc). Overall, few differences
+can be found on Anc, while both distances are shortened slightly.
+In &#x003c0;&#x02013;&#x003c0;1, the experimental <italic>R</italic><sub>gc</sub> and <italic>R</italic><sub>pl</sub> are 4.113 and 3.212
+&#x000c5;, while the simulated ones are 3.960 and 3.096 &#x000c5;. The <italic>R</italic><sub>gc</sub> and <italic>R</italic><sub>pl</sub> were
+decreased by 0.153 and 0.116 &#x000c5;, respectively. For &#x003c0;&#x02013;&#x003c0;2
+in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b, the differences
+on <italic>R</italic><sub>gc</sub> and <italic>R</italic><sub>pl</sub> were less with 0.102 and 0.052 &#x000c5;. Compared with the structures
+with &#x003c0;&#x02013;&#x003c0; stacking, the HB dimers have slightly
+larger structural charges as shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>c,d. Here, the length (<italic>R</italic><sub>HB</sub>) and angle (<italic>A</italic><sub>HB</sub>) of the
+HB were applied to describe the HB dimer. The <italic>R</italic><sub>HB</sub> between H18(A) and O8(B) is shorten by 0.141 &#x000c5; and
+that between O13(A) and H19(B) is decreased by 0.201 &#x000c5;. However,
+the <italic>A</italic><sub>HB</sub> of N14&#x02013;H19&#x02013;O13 and
+N14&#x02013;H18&#x02013;O8 varied little. Thus, one can conclude that
+shorter equilibrium distances between molecules should contribute
+to the smaller lattice crystal.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Four main dimer structures in intermolecular
+interaction energy:
+(a,b) dimers with &#x003c0;&#x02013;&#x003c0; stacking; (c,d) dimers with
+hydrogen bonds. Estimated values are outside of parentheses, and experimental
+values in the parentheses.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0004" id="gr4" position="float"/></fig><p>Although the FF tends to give a smaller lattice
+volume, we test
+the FF estimation on pressure response of the crystal structure under
+pressure in the range from 0 to 20 GPa. Additionally a series of <italic>NPT</italic> simulations were performed to obtain the equilibrium
+crystal structure at the different pressures. Using the lattice parameters,
+the density and relative density of LLM-105 under various pressures
+are derived as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02410/suppl_file/ao9b02410_si_001.pdf">Figure S4</ext-link>. The
+density increases rapidly under low pressures (&#x0003c;3 GPa) and increases
+slowly but in a nearly linear way under high pressures. The predicted
+density and relative density are more or less greater than the measured
+ones but the discrepancies are less than 0.2 g/cm<sup>3</sup> or 3.4%.
+The pressure-dependent relative cell volumes and lattice parameters
+are shown in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a,b, respectively, together with the results of the experimental
+measurement and theoretical calculations. It is evident that the results
+agree well with the experimental data and DFT calculations.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Similar with the experiment, the <italic>b</italic>-axis is more compressible than <italic>a</italic> and <italic>c</italic> axes when pressure is applied. The EOS is critical in describing
+the properties of materials. Thus, we conducted unweighted fits of
+the pressure&#x02013;volume data using a third-order Birch&#x02013;Murnaghan
+(B&#x02013;M) EOS as follow<disp-formula id="eq7"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m007" position="anchor"/><label>7</label></disp-formula>where, <italic>B</italic><sub>0</sub> is the
+bulk modulus and <italic>B</italic>&#x02032; is the pressure derivative
+of <italic>B</italic><sub>0</sub>, <italic>V</italic> is the volume
+corresponding the pressure, and <italic>V</italic><sub>0</sub> is
+the equilibrium volume at zero pressure. The fitted <italic>B</italic><sub>0</sub> and <italic>B</italic>&#x02032; from the FF are 13.8
+GPa and 11.7, respectively, which are close to the experimental values
+of 15 GPa and 9 in ref (<xref ref-type="bibr" rid="ref16">16</xref>) and 14.6 GPa and 10.6 in ref (<xref ref-type="bibr" rid="ref15">15</xref>). The <italic>B</italic><sub>0</sub> and <italic>B</italic>&#x02032; are also summarized in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref> and compared to the experimental and calculated values.
+Apparently, the calculated results are in agreement with other experimental<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> or other theoretical values.<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> Compared with DFT estimations, the FF seem give a better prediction
+on <italic>B</italic><sub>0</sub> and <italic>B</italic>&#x02032;.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Pressure-dependent
+relative cell volumes (a) and lattice parameters
+(b) from the FF, experiment, and DFT.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0005" id="gr5" position="float"/></fig></sec></sec><sec id="sec4"><label>4</label><title>Discussion</title><p>The packing features of
+a crystal can be expressed using a cluster.
+As a crystal with <italic>P</italic>2<sub>1</sub>/<italic>n</italic> and <italic>Z</italic>&#x02032; = 1, the cluster contains a center
+LLM-105 molecule and its 14 closed neighbors, which form 14 dimers
+as shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>. Further, 14 dimers can be divided into eight groups according to
+the structure similarity. In <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>, the molecules with same color means the same dimer
+can be constructed with one of them and the center molecule. <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref> lists the intermolecular
+interaction energies of the dimers and the corresponding energy decomposition
+with CE-B3LYP<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> based on the experimental
+structure. In the energy decomposition scheme, the interaction energy (<italic>E</italic><sub>int</sub>) is expressed in terms of electrostatic (<italic>E</italic><sub>ele</sub>), polarization (<italic>E</italic><sub>pol</sub>),
+dispersion (<italic>E</italic><sub>disp</sub>), and exchange-repulsion
+(<italic>E</italic><sub>rep</sub>) as the following equation<disp-formula id="eq8"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_m008" position="anchor"/><label>8</label></disp-formula>where, <italic>k</italic><sub>i</sub> (i =
+es, pol, disp, and rep) is the fitted scale factor for the corresponding
+energy component. Because of the lack of explicit physical meanings,
+total energies (<italic>E</italic><sub>tot</sub>) without any scale
+factors were also provided in <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>. Overall, &#x003c0;&#x02013;&#x003c0; stacking and the
+HB should dominate the crystal packing. Among all dimers, &#x003c0;&#x02013;&#x003c0;
+stacking interactions are slightly stronger than those of the HB in
+either <italic>E</italic><sub>tot</sub> or <italic>E</italic><sub>int</sub>. &#x003c0;&#x02013;&#x003c0;1, &#x003c0;&#x02013;&#x003c0;2, HB1,
+and HB2 in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> possess the greatest <italic>E</italic><sub>int</sub>. Although
+the number of &#x003c0;&#x02013;&#x003c0; stacking dimers is less than
+HBs, the overall <italic>E</italic><sub>tot</sub> of &#x003c0;&#x02013;&#x003c0;
+stacking is similar to that of HBs because of their greater strength.
+From the energy decomposition, it is found that the interaction is
+contributed mainly by the electrostatic and dispersion. The dispersion
+effect plays a main role in &#x003c0;&#x02013;&#x003c0; stacking, while
+the electrostatic term governs HB interaction.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>LLM-105 molecule and
+its close neighbors. The center molecule and
+the same color neighbor can construct the same dimer in geometry.
+14 neighbors can be divided into eight groups.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0006" id="gr6" position="float"/></fig><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Intermolecular Interaction Energies
+of the Neighbor Dimers and the Corresponding Energy Decomposion with
+CE-B3LYP (kcal/mol)</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0008" id="gr8" position="float"/></table-wrap><p>To analyze the discerption on intermolecular interaction
+further,
+the potential energy curves about the four main dimers are represented
+in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. As a whole,
+the FF can be used to give a similar description on no-bonding interaction
+with that obtained at the PBE0-XDM/aug-cc-pVDZ level. Except HB2,
+the equilibrium distances and well depths are in great agreement with
+those by DFT. The curves of &#x003c0;&#x02013;&#x003c0;2 from FF and DFT
+are nearly overlapping, and the equilibrium distance of &#x003c0;&#x02013;&#x003c0;2
+should be shorter by less than 0.1 &#x000c5;, and the well depth of HB1
+are increased by less than 0.6 kcal/mol. Although our FF can give
+three reasonable curves, the greater error can be found on HB2. Obviously,
+the equilibrium distance is decreased by about 0.2 &#x000c5;, which is
+very similar with that in the crystal. Despite this, the curve from
+the FF possesses a good shape like that from DFT as shown in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>d. This might be
+why our FF can give a good bulk modulus at the same time of obtaining
+a smaller volume.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Potential energy curves from the FF and DFT for the four
+main dimers:
+(a,b) the dimers with &#x003c0;&#x02013;&#x003c0; stacking; (c,d) dimers
+with hydrogen bonds.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_0007" id="gr7" position="float"/></fig><p>Moreover, the interaction with &#x003c0;&#x02013;&#x003c0;
+stacking
+is stronger than that with HBs, which agrees with results from CE-B3LYP.
+In &#x003c0;&#x02013;&#x003c0;1 and 2, the interaction energies with PBE0-XDM
+are estimated to be &#x02212;11.53 and &#x02212;9.28 kcal/mol, respectively,
+greater than the energy with the doublet HBs of &#x02212;8.05 kcal/mol.
+The greater interaction energy prefers a greater weight during parameterization,
+which might make the no-bonding parameters more suitable to describe
+the &#x003c0;&#x02013;&#x003c0; interaction. Because of the dominance by
+the electrostatic effect, the description accuracy of HB interaction
+should be dependent on the atomic charges. The atomic charges in the
+FF were obtained referring to the gaseous molecular structure rather
+than the structure in the crystal, and the effect of the crystal environment
+on the electrostatic potential were ignored. Moreover, few atomic
+types make a charge average. All of these might be responsible for
+the poorer description on HB interaction. Nevertheless, the parameters
+of the FF are obtained mainly from the unimolecular properties of
+LLM-105 calculated by DFT, which should describe LLM-105 systems without
+any preference. Overall, the FF with a general FF form can be applied
+to investigate the properties of LLM-105.</p></sec><sec id="sec5"><label>5</label><title>Conclusions</title><p>We have developed an all-atom
+FF for LLM-105 compounds. As a remarkable
+energetic crystal, its fundamental properties have been focused on
+using several ab initio methods but the FF. Considering the compatibility
+of the force filed, a modified Amber function form was chosen for
+describing the interaction in LLM-105, in which the BHK vdW potential
+is used instead of the LJ potential. The electrostatic energy was
+represented with the interaction among the RESP charges, and vdW parameters
+were fitted using the potential energies of more than 1000 dimers
+estimated at the PBE0/aug-cc-pVDZ level with the XDM dispersion correction.
+Then, the bonding parameters were fitted from a series of perturbation
+structures based on the equilibrium structure in the gas phase.</p><p>By the MD simulations, the molecular and crystal structures were
+relaxed, and the pressure response of the lattice was predicted. All
+results are in good agreement with the experimental measures. The
+molecular structure from the FF is consistent with that from DFT.
+Although the FF tends to give smaller lattice parameters, the structure,
+orient, and relative position of the molecules in the crystal concur
+with the experiment. Moreover, the bulk modulus and its pressure derivative
+are predicted to be 13.8 GPa and 11.7, which are closer to the experimental
+measure than several DFT results. Moreover, the packing features of
+the LLM-105 crystal were analyzed with the intermolecular interaction
+using an energy decomposition scheme. In LLM-105, the intermolecular
+interaction is contributed mainly by the electrostatic and dispersion
+effects. The &#x003c0;&#x02013;&#x003c0; stacking and HB dominate the crystal
+packing, and &#x003c0;&#x02013;&#x003c0; stacking dimers have greater strength
+than HBs. We found that the FF will give a better equilibrium distance
+of the &#x003c0;&#x02013;&#x003c0; system, but underestimate slightly on
+the bond length of the HB. Because of the underestimation, the FF
+tends to give a decreased volume by about 5%. The developed FF is
+used to simulate the behaviors of neat LLM-105 under a shock. To predict
+its detonation parameters, other FFs have to be developed for the
+reactions and resulting products. In general, we provide a reliable
+FF tool for the complicated phenomenon of LLM-105 at a large scale.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acsomega.9b02410?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acsomega.9b02410</ext-link>.<list id="silist" list-type="simple"><list-item><p>The fitted force field parameters of LLM-105, the test
+results for the vdW parameters fitted in different bounds of FIT parameters,
+the pressure-dependent relative cell volumes from the FF, experiment,
+and DFT, and the structural parameters, bulk modulus and its derivative
+of LLM-105 at different BKH parameters fitted with the bounds (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b02410/suppl_file/ao9b02410_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02410_si_001.pdf"><caption><p>ao9b02410_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e2525-autogenerated"><p>The
+authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors thank financial support from the National
+Natural Science Foundation of China (grant no. 21603203).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Jadhav</surname><given-names>H. S.</given-names></name>; <name><surname>Talawar</surname><given-names>M. B.</given-names></name>; <name><surname>Sivabalan</surname><given-names>R.</given-names></name>; <name><surname>Dhavale</surname><given-names>D. D.</given-names></name>; <name><surname>Asthana</surname><given-names>S. N.</given-names></name>; <name><surname>Krishnamurthy</surname><given-names>V. N.</given-names></name>
+<article-title>Synthesis, characterization and thermolysis studies
+on new derivatives of 2,4,5-trinitroimidazoles: Potential insensitive
+high energy materials</article-title>. <source>J. Hazard. Mater.</source>
+<year>2007</year>, <volume>143</volume>, <fpage>192</fpage>&#x02013;<lpage>197</lpage>. <pub-id pub-id-type="doi">10.1016/j.jhazmat.2006.09.014</pub-id>.<pub-id pub-id-type="pmid">17097226</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Koch</surname><given-names>E.-C.</given-names></name>
+<article-title>Special
+Materials in Pyrotechnics: V. Military Applications of Phosphorus
+and its Compounds</article-title>. <source>Propellants, Explos., Pyrotech.</source>
+<year>2008</year>, <volume>33</volume>, <fpage>165</fpage>&#x02013;<lpage>176</lpage>. <pub-id pub-id-type="doi">10.1002/prep.200700212</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Christe</surname><given-names>K. O.</given-names></name>; <name><surname>Wilson</surname><given-names>W. W.</given-names></name>; <name><surname>Sheehy</surname><given-names>J. A.</given-names></name>; <name><surname>Boatz</surname><given-names>J. A.</given-names></name>
+<article-title>N<sup>5+</sup>:
+A Novel Homoleptic Polynitrogen Ion as a High Energy Density Material</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>1999</year>, <volume>38</volume>, <fpage>2004</fpage>&#x02013;<lpage>2009</lpage>. <pub-id pub-id-type="doi">10.1002/(sici)1521-3773(19990712)38:13/14&#x0003c;2004::aid-anie2004&#x0003e;3.0.co;2-7</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Kr&#x000f6;ber</surname><given-names>H.</given-names></name>; <name><surname>Teipel</surname><given-names>U.</given-names></name>
+<article-title>Crystallization of
+Insensitive HMX</article-title>. <source>Propellants, Explos., Pyrotech.</source>
+<year>2008</year>, <volume>33</volume>, <fpage>33</fpage>&#x02013;<lpage>36</lpage>. <pub-id pub-id-type="doi">10.1002/prep.200800205</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Aminov</surname><given-names>Y. A.</given-names></name>; <name><surname>Gorshkov</surname><given-names>M. M.</given-names></name>; <name><surname>Zaikin</surname><given-names>V. T.</given-names></name>; <name><surname>Kovalenko</surname><given-names>G. V.</given-names></name>; <name><surname>Nikitenko</surname><given-names>Y. R.</given-names></name>; <name><surname>Rykovanov</surname><given-names>G. N.</given-names></name>
+<article-title>Deceleration of Detonation Products
+of a TATB-Based High Explosive</article-title>. <source>Combust., Explos.
+Shock Waves</source>
+<year>2002</year>, <volume>38</volume>, <fpage>235</fpage>&#x02013;<lpage>238</lpage>. <pub-id pub-id-type="doi">10.1023/a:1014915302270</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Sorescu</surname><given-names>D. C.</given-names></name>; <name><surname>Boatz</surname><given-names>J. A.</given-names></name>; <name><surname>Thompson</surname><given-names>D. L.</given-names></name>
+<article-title>Classical
+and Quantum-Mechanical
+Studies of Crystalline FOX-7 (1,1-Diamino-2,2-dinitroethylene)</article-title>. <source>J. Phys. Chem. A</source>
+<year>2001</year>, <volume>105</volume>, <fpage>5010</fpage>&#x02013;<lpage>5021</lpage>. <pub-id pub-id-type="doi">10.1021/jp010289m</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Tarver</surname><given-names>C. M.</given-names></name>; <name><surname>Urtiew</surname><given-names>P. A.</given-names></name>; <name><surname>Tran</surname><given-names>T. D.</given-names></name>
+<article-title>Sensitivity
+of 2,6-Diamino-3,5-Dinitropyrazine-1-Oxide</article-title>. <source>J. Energ. Mater.</source>
+<year>2005</year>, <volume>23</volume>, <fpage>183</fpage>&#x02013;<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1080/07370650591001853</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Xu</surname><given-names>W.</given-names></name>; <name><surname>An</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>J.</given-names></name>; <name><surname>Dong</surname><given-names>J.</given-names></name>; <name><surname>Geng</surname><given-names>X.</given-names></name>
+<article-title>Preparation and Properties
+of An Insensitive Booster Explosive Based on LLM-105</article-title>. <source>Propellants, Explos., Pyrotech.</source>
+<year>2013</year>, <volume>38</volume>, <fpage>136</fpage>&#x02013;<lpage>141</lpage>. <pub-id pub-id-type="doi">10.1002/prep.201100099</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Wu</surname><given-names>P.</given-names></name>; <name><surname>Yang</surname><given-names>Z.</given-names></name>; <name><surname>Gao</surname><given-names>B.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Nie</surname><given-names>F.</given-names></name>; <name><surname>Liao</surname><given-names>L.</given-names></name>
+<article-title>Preparation and Properties of Submicrometer-Sized LLM-105
+via Spray-Crystallization Method</article-title>. <source>Propellants,
+Explos., Pyrotech.</source>
+<year>2014</year>, <volume>39</volume>, <fpage>653</fpage>&#x02013;<lpage>657</lpage>. <pub-id pub-id-type="doi">10.1002/prep.201300174</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Gump</surname><given-names>J. C.</given-names></name>; <name><surname>Stoltz</surname><given-names>C. A.</given-names></name>; <name><surname>Mason</surname><given-names>B. P.</given-names></name>; <name><surname>Freedman</surname><given-names>B. G.</given-names></name>; <name><surname>Ball</surname><given-names>J. R.</given-names></name>; <name><surname>Peiris</surname><given-names>S. M.</given-names></name>
+<article-title>Equations of state
+of 2,6-diamino-3,5-dinitropyrazine-1-oxide</article-title>. <source>J. Appl. Phys.</source>
+<year>2011</year>, <volume>110</volume>, <fpage>073523</fpage><pub-id pub-id-type="doi">10.1063/1.3646492</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Williamson</surname><given-names>D. M.</given-names></name>; <name><surname>Gymer</surname><given-names>S.</given-names></name>; <name><surname>Taylor</surname><given-names>N. E.</given-names></name>; <name><surname>Walley</surname><given-names>S. M.</given-names></name>; <name><surname>Jardine</surname><given-names>A. P.</given-names></name>; <name><surname>Glauser</surname><given-names>A.</given-names></name>; <name><surname>French</surname><given-names>S.</given-names></name>; <name><surname>Wortley</surname><given-names>S.</given-names></name>
+<article-title>Characterisation of
+the impact response of energetic materials: observation of a low-level
+reaction in 2,6-diamino-3,5-dinitropyrazine-1-oxide (LLM-105)</article-title>. <source>RSC Adv.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>27896</fpage>&#x02013;<lpage>27900</lpage>. <pub-id pub-id-type="doi">10.1039/c6ra03096c</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Xu</surname><given-names>Z.</given-names></name>; <name><surname>Su</surname><given-names>H.</given-names></name>; <name><surname>Zhou</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>J.</given-names></name>; <name><surname>Gao</surname><given-names>C.</given-names></name>; <name><surname>Sun</surname><given-names>X.</given-names></name>; <name><surname>Dai</surname><given-names>R.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>Z.</given-names></name>
+<article-title>Pressure-
+and Temperature-Dependent Structural Stability of LLM-105 Crystal</article-title>. <source>J. Phys. Chem. C</source>
+<year>2019</year>, <volume>123</volume>, <fpage>1110</fpage>&#x02013;<lpage>1119</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpcc.8b10837</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>He</surname><given-names>W.-D.</given-names></name>; <name><surname>Zhou</surname><given-names>G.</given-names></name>; <name><surname>Wong</surname><given-names>N.-B.</given-names></name>; <name><surname>Tian</surname><given-names>A.-M.</given-names></name>; <name><surname>Long</surname><given-names>X.-P.</given-names></name>
+<article-title>Intramolecular
+H-bonds in LLM-105 and its derivatives: a DFT study</article-title>. <source>J. Mol. Struct.: THEOCHEM</source>
+<year>2005</year>, <volume>723</volume>, <fpage>217</fpage>&#x02013;<lpage>222</lpage>. <pub-id pub-id-type="doi">10.1016/j.theochem.2004.12.044</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Wu</surname><given-names>Q.</given-names></name>; <name><surname>Yang</surname><given-names>C.</given-names></name>; <name><surname>Pan</surname><given-names>Y.</given-names></name>; <name><surname>Xiang</surname><given-names>F.</given-names></name>; <name><surname>Liu</surname><given-names>Z.</given-names></name>; <name><surname>Zhu</surname><given-names>W.</given-names></name>; <name><surname>Xiao</surname><given-names>H.</given-names></name>
+<article-title>First-principles
+study of the structural transformation,
+electronic structure, and optical properties of crystalline 2,6-diamino-3,5-dinitropyrazine-1-oxide
+under high pressure</article-title>. <source>J. Mol. Model.</source>
+<year>2013</year>, <volume>19</volume>, <fpage>5159</fpage>&#x02013;<lpage>5170</lpage>. <pub-id pub-id-type="doi">10.1007/s00894-013-1995-5</pub-id>.<pub-id pub-id-type="pmid">24105300</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Manaa</surname><given-names>M. R.</given-names></name>; <name><surname>Kuo</surname><given-names>I. F. W.</given-names></name>; <name><surname>Fried</surname><given-names>L. E.</given-names></name>
+<article-title>First-principles
+high-pressure unreacted
+equation of state and heat of formation of crystal 2,6-diamino-3,
+5-dinitropyrazine-1-oxide (LLM-105)</article-title>. <source>J. Chem.
+Phys.</source>
+<year>2014</year>, <volume>141</volume>, <fpage>064702</fpage><pub-id pub-id-type="doi">10.1063/1.4891933</pub-id>.<pub-id pub-id-type="pmid">25134585</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Stavrou</surname><given-names>E.</given-names></name>; <name><surname>Manaa</surname><given-names>M. R.</given-names></name>; <name><surname>Zaug</surname><given-names>J. M.</given-names></name>; <name><surname>Kuo</surname><given-names>I. F. W.</given-names></name>; <name><surname>Pagoria</surname><given-names>P. F.</given-names></name>; <name><surname>Kalkan</surname><given-names>B.</given-names></name>; <name><surname>Crowhurst</surname><given-names>J. C.</given-names></name>; <name><surname>Armstrong</surname><given-names>M. R.</given-names></name>
+<article-title>The high
+pressure structure and equation of state of 2,6-diamino-3,5-dinitropyrazine-1-oxide
+(LLM-105) up to 20 GPa: X-ray diffraction measurements and first principles
+molecular dynamics simulations</article-title>. <source>J. Chem. Phys.</source>
+<year>2015</year>, <volume>143</volume>, <fpage>144506</fpage><pub-id pub-id-type="doi">10.1063/1.4932683</pub-id>.<pub-id pub-id-type="pmid">26472388</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Zong</surname><given-names>H.-H.</given-names></name>; <name><surname>Zhang</surname><given-names>L.</given-names></name>; <name><surname>Zhang</surname><given-names>W.-B.</given-names></name>; <name><surname>Jiang</surname><given-names>S.-L.</given-names></name>; <name><surname>Yu</surname><given-names>Y.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>
+<article-title>Structural, mechanical properties, and vibrational spectra of LLM-105
+under high pressures from a first-principles study</article-title>. <source>J. Mol. Model.</source>
+<year>2017</year>, <volume>23</volume>, <fpage>275</fpage><pub-id pub-id-type="doi">10.1007/s00894-017-3446-1</pub-id>.<pub-id pub-id-type="pmid">28891015</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Bergh</surname><given-names>M.</given-names></name>; <name><surname>Caleman</surname><given-names>C.</given-names></name>
+<article-title>A Validation study
+of the general Amber force field
+applied to energetic molecular crystals</article-title>. <source>J.
+Energ. Mater.</source>
+<year>2016</year>, <volume>34</volume>, <fpage>62</fpage>&#x02013;<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1080/07370652.2014.998797</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Sun</surname><given-names>T.</given-names></name>; <name><surname>Xiao</surname><given-names>J. J.</given-names></name>; <name><surname>Liu</surname><given-names>Q.</given-names></name>; <name><surname>Zhao</surname><given-names>F.</given-names></name>; <name><surname>Xiao</surname><given-names>H. M.</given-names></name>
+<article-title>Comparative
+study on structure, energetic and mechanical properties of a &#x003b5;-CL-20/HMX
+cocrystal and its composite with molecular dynamics simulation</article-title>. <source>J. Mater. Chem. A</source>
+<year>2014</year>, <volume>2</volume>, <fpage>13898</fpage>&#x02013;<lpage>13904</lpage>. <pub-id pub-id-type="doi">10.1039/c4ta01150c</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Smith</surname><given-names>G. D.</given-names></name>; <name><surname>Bharadwaj</surname><given-names>R. K.</given-names></name>
+<article-title>Quantum
+Chemistry Based Force Field for Simulations
+of HMX</article-title>. <source>J. Phys. Chem. B</source>
+<year>1999</year>, <volume>103</volume>, <fpage>3570</fpage>&#x02013;<lpage>3575</lpage>. <pub-id pub-id-type="doi">10.1021/jp984599p</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Mathew</surname><given-names>N.</given-names></name>; <name><surname>Sewell</surname><given-names>T. D.</given-names></name>; <name><surname>Thompson</surname><given-names>D. L.</given-names></name>
+<article-title>Anisotropy in surface-initiated melting
+of the triclinic molecular crystal 1,3,5-triamino-2,4,6-trinitrobenzene:
+A molecular dynamics study</article-title>. <source>J. Chem. Phys.</source>
+<year>2015</year>, <volume>143</volume>, <fpage>094706</fpage><pub-id pub-id-type="doi">10.1063/1.4929806</pub-id>.<pub-id pub-id-type="pmid">26342382</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Misquitta</surname><given-names>A. J.</given-names></name>; <name><surname>Jeziorski</surname><given-names>B.</given-names></name>; <name><surname>Szalewicz</surname><given-names>K.</given-names></name>
+<article-title>Dispersion Energy from Density-Functional
+Theory Description of Monomers</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2003</year>, <volume>91</volume>, <fpage>033201</fpage><pub-id pub-id-type="doi">10.1103/physrevlett.91.033201</pub-id>.<pub-id pub-id-type="pmid">12906414</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Misquitta</surname><given-names>A. J.</given-names></name>; <name><surname>Szalewicz</surname><given-names>K.</given-names></name>
+<article-title>Intermolecular forces from asymptotically
+corrected
+density functional description of monomers</article-title>. <source>Chem. Phys. Lett.</source>
+<year>2002</year>, <volume>357</volume>, <fpage>301</fpage>&#x02013;<lpage>306</lpage>. <pub-id pub-id-type="doi">10.1016/s0009-2614(02)00533-x</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Misquitta</surname><given-names>A. J.</given-names></name>; <name><surname>Szalewicz</surname><given-names>K.</given-names></name>
+<article-title>Symmetry-adapted
+perturbation-theory calculations of
+intermolecular forces employing density-functional description of
+monomers</article-title>. <source>J. Chem. Phys.</source>
+<year>2005</year>, <volume>122</volume>, <fpage>214109</fpage><pub-id pub-id-type="doi">10.1063/1.1924593</pub-id>.<pub-id pub-id-type="pmid">15974730</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>He&#x000df;elmann</surname><given-names>A.</given-names></name>; <name><surname>Jansen</surname><given-names>G.</given-names></name>
+<article-title>First-order
+intermolecular interaction energies from
+Kohn-Sham orbitals</article-title>. <source>Chem. Phys. Lett.</source>
+<year>2002</year>, <volume>357</volume>, <fpage>464</fpage>&#x02013;<lpage>470</lpage>. <pub-id pub-id-type="doi">10.1016/s0009-2614(02)00538-9</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Song</surname><given-names>H.</given-names></name>; <name><surname>Xiao</surname><given-names>H.</given-names></name>; <name><surname>Dong</surname><given-names>H.</given-names></name>
+<article-title>Correlated
+intermolecular interaction
+components from asymptotically corrected Kohn-Sham orbitals</article-title>. <source>Sci. China, Ser. B: Chem.</source>
+<year>2004</year>, <volume>47</volume>, <fpage>466</fpage>&#x02013;<lpage>479</lpage>. <pub-id pub-id-type="doi">10.1360/04yb0078</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Podeszwa</surname><given-names>R.</given-names></name>; <name><surname>Bukowski</surname><given-names>R.</given-names></name>; <name><surname>Rice</surname><given-names>B. M.</given-names></name>; <name><surname>Szalewicz</surname><given-names>K.</given-names></name>
+<article-title>Potential
+energy surface for cyclotrimethylene trinitramine dimer from symmetry-adapted
+perturbation theory</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2007</year>, <volume>9</volume>, <fpage>5561</fpage>&#x02013;<lpage>5569</lpage>. <pub-id pub-id-type="doi">10.1039/b709192c</pub-id>.<pub-id pub-id-type="pmid">17957312</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Taylor</surname><given-names>D. E.</given-names></name>
+<article-title>Intermolecular
+Forces and Molecular Dynamics Simulation of 1,3,5-Triamino-2,4,6-trinitrobenzene
+(TATB) Using Symmetry Adapted Perturbation Theory</article-title>. <source>J. Phys. Chem. A</source>
+<year>2013</year>, <volume>117</volume>, <fpage>3507</fpage>&#x02013;<lpage>3520</lpage>. <pub-id pub-id-type="doi">10.1021/jp4005289</pub-id>.<pub-id pub-id-type="pmid">23565605</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Taylor</surname><given-names>D.
+E.</given-names></name>; <name><surname>Rob</surname><given-names>F.</given-names></name>; <name><surname>Rice</surname><given-names>B. M.</given-names></name>; <name><surname>Podeszwa</surname><given-names>R.</given-names></name>; <name><surname>Szalewicz</surname><given-names>K.</given-names></name>
+<article-title>A molecular
+dynamics study of 1,1-diamino-2,2-dinitroethylene (FOX-7) crystal
+using a symmetry adapted perturbation theory-based intermolecular
+force field</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2011</year>, <volume>13</volume>, <fpage>16629</fpage>&#x02013;<lpage>16636</lpage>. <pub-id pub-id-type="doi">10.1039/c1cp21342c</pub-id>.<pub-id pub-id-type="pmid">21860866</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Song</surname><given-names>H.-J.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.-G.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Zhou</surname><given-names>T.</given-names></name>; <name><surname>Huang</surname><given-names>F.-L.</given-names></name>
+<article-title>All-atom,
+non-empirical, and tailor-made force field for &#x003b1;-RDX from first
+principles</article-title>. <source>RSC Adv.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>40518</fpage>&#x02013;<lpage>40533</lpage>. <pub-id pub-id-type="doi">10.1039/c4ra07195f</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Macrae</surname><given-names>C. F.</given-names></name>; <name><surname>Edgington</surname><given-names>P. R.</given-names></name>; <name><surname>McCabe</surname><given-names>P.</given-names></name>; <name><surname>Pidcock</surname><given-names>E.</given-names></name>; <name><surname>Shields</surname><given-names>G. P.</given-names></name>; <name><surname>Taylor</surname><given-names>R.</given-names></name>; <name><surname>Towler</surname><given-names>M.</given-names></name>; <name><surname>van de Streek</surname><given-names>J.</given-names></name>
+<article-title>Mercury: visualization
+and analysis of crystal structures</article-title>. <source>J. Appl.
+Crystallogr.</source>
+<year>2006</year>, <volume>39</volume>, <fpage>453</fpage>&#x02013;<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1107/s002188980600731x</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Liu</surname><given-names>J.-J.</given-names></name>; <name><surname>Liu</surname><given-names>Z.-L.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>
+<article-title>Synthesis,
+Crystal structure and
+catalytic properties of two energetic complexes containing 2,6-diamino-3,5-dinitropyrazine-1-oxide</article-title>. <source>Chin. J. Inorg. Chem.</source>
+<year>2014</year>, <volume>30</volume>, <fpage>696</fpage>&#x02013;<lpage>704</lpage>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized Gradient Approximation
+Made Simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage>. <pub-id pub-id-type="doi">10.1103/physrevlett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Dunning</surname><given-names>T. H.</given-names></name>
+<article-title>Gaussian
+basis sets for use in correlated molecular calculations. I. The atoms
+boron through neon and hydrogen</article-title>. <source>J. Chem. Phys.</source>
+<year>1989</year>, <volume>90</volume>, <fpage>1007</fpage>&#x02013;<lpage>1023</lpage>. <pub-id pub-id-type="doi">10.1063/1.456153</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Becke</surname><given-names>A. D.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>A density-functional model of the dispersion interaction</article-title>. <source>J. Chem. Phys.</source>
+<year>2005</year>, <volume>123</volume>, <fpage>154101</fpage><pub-id pub-id-type="doi">10.1063/1.2065267</pub-id>.<pub-id pub-id-type="pmid">16252936</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Becke</surname><given-names>A. D.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>Exchange-hole dipole
+moment and the dispersion interaction</article-title>. <source>J. Chem.
+Phys.</source>
+<year>2005</year>, <volume>122</volume>, <fpage>154104</fpage><pub-id pub-id-type="doi">10.1063/1.1884601</pub-id>.<pub-id pub-id-type="pmid">15945622</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Becke</surname><given-names>A. D.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>Exchange-hole dipole moment and the dispersion interaction
+revisited</article-title>. <source>J. Chem. Phys.</source>
+<year>2007</year>, <volume>127</volume>, <fpage>154108</fpage><pub-id pub-id-type="doi">10.1063/1.2795701</pub-id>.<pub-id pub-id-type="pmid">17949133</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>&#x000c1;ngy&#x000e1;n</surname><given-names>J. G.</given-names></name>
+<article-title>On the
+exchange-hole model of London dispersion forces</article-title>. <source>J. Chem. Phys.</source>
+<year>2007</year>, <volume>127</volume>, <fpage>024108</fpage><pub-id pub-id-type="doi">10.1063/1.2749512</pub-id>.<pub-id pub-id-type="pmid">17640120</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>He&#x000df;elmann</surname><given-names>A.</given-names></name>
+<article-title>Derivation
+of the dispersion energy as an explicit density- and exchange-hole
+functional</article-title>. <source>J. Chem. Phys.</source>
+<year>2009</year>, <volume>130</volume>, <fpage>084104</fpage><pub-id pub-id-type="doi">10.1063/1.3077939</pub-id>.<pub-id pub-id-type="pmid">19256594</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Otero-de-la-Roza</surname><given-names>A.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>A benchmark for non-covalent interactions in solids</article-title>. <source>J. Chem. Phys.</source>
+<year>2012</year>, <volume>137</volume>, <fpage>054103</fpage><pub-id pub-id-type="doi">10.1063/1.4738961</pub-id>.<pub-id pub-id-type="pmid">22894328</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Whittleton</surname><given-names>S. R.</given-names></name>; <name><surname>Otero-de-la-Roza</surname><given-names>A.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>Exchange-Hole Dipole Dispersion Model
+for Accurate Energy Ranking in Molecular Crystal Structure Prediction</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2017</year>, <volume>13</volume>, <fpage>441</fpage>&#x02013;<lpage>450</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.6b00679</pub-id>.<pub-id pub-id-type="pmid">27977188</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>LeBlanc</surname><given-names>L. M.</given-names></name>; <name><surname>Otero-de-la-Roza</surname><given-names>A.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>
+<article-title>Composite and Low-Cost Approaches
+for Molecular Crystal Structure Prediction</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2018</year>, <volume>14</volume>, <fpage>2265</fpage>&#x02013;<lpage>2276</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.7b01179</pub-id>.<pub-id pub-id-type="pmid">29498837</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Rice</surname><given-names>B.</given-names></name>; <name><surname>LeBlanc</surname><given-names>L. M.</given-names></name>; <name><surname>Otero-de-la-Roza</surname><given-names>A.</given-names></name>; <name><surname>Fuchter</surname><given-names>M. J.</given-names></name>; <name><surname>Johnson</surname><given-names>E. R.</given-names></name>; <name><surname>Nelson</surname><given-names>J.</given-names></name>; <name><surname>Jelfs</surname><given-names>K. E.</given-names></name>
+<article-title>A computational exploration of the
+crystal energy and charge-carrier mobility landscapes of the chiral
+[6]helicene molecule</article-title>. <source>Nanoscale</source>
+<year>2018</year>, <volume>10</volume>, <fpage>1865</fpage>&#x02013;<lpage>1876</lpage>. <pub-id pub-id-type="doi">10.1039/c7nr08890f</pub-id>.<pub-id pub-id-type="pmid">29313040</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Case</surname><given-names>D. A.</given-names></name>; <name><surname>Cheatham</surname><given-names>T. E.</given-names></name>; <name><surname>Darden</surname><given-names>T.</given-names></name>; <name><surname>Gohlke</surname><given-names>H.</given-names></name>; <name><surname>Luo</surname><given-names>R.</given-names></name>; <name><surname>Merz</surname><given-names>K. M.</given-names></name>; <name><surname>Onufriev</surname><given-names>A.</given-names></name>; <name><surname>Simmerling</surname><given-names>C.</given-names></name>; <name><surname>Wang</surname><given-names>B.</given-names></name>; <name><surname>Woods</surname><given-names>R. J.</given-names></name>
+<article-title>The Amber biomolecular simulation
+programs</article-title>. <source>J. Comput. Chem.</source>
+<year>2005</year>, <volume>26</volume>, <fpage>1668</fpage>&#x02013;<lpage>1688</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.20290</pub-id>.<pub-id pub-id-type="pmid">16200636</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Bayly</surname><given-names>C. I.</given-names></name>; <name><surname>Cieplak</surname><given-names>P.</given-names></name>; <name><surname>Cornell</surname><given-names>W.</given-names></name>; <name><surname>Kollman</surname><given-names>P. A.</given-names></name>
+<article-title>A well-behaved electrostatic
+potential based method using charge restraints for deriving atomic
+charges: the RESP model</article-title>. <source>J. Phys. Chem.</source>
+<year>1993</year>, <volume>97</volume>, <fpage>10269</fpage>&#x02013;<lpage>10280</lpage>. <pub-id pub-id-type="doi">10.1021/j100142a004</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Williams</surname><given-names>D. E.</given-names></name>; <name><surname>Cox</surname><given-names>S. R.</given-names></name>
+<article-title>Nonbonded potentials for azahydrocarbons:
+the importance
+of the Coulombic interaction</article-title>. <source>Acta Crystallogr.,
+Sect. B: Struct. Sci.</source>
+<year>1984</year>, <volume>40</volume>, <fpage>404</fpage>&#x02013;<lpage>417</lpage>. <pub-id pub-id-type="doi">10.1107/s010876818400238x</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Cox</surname><given-names>S. R.</given-names></name>; <name><surname>Hsu</surname><given-names>L.-Y.</given-names></name>; <name><surname>Williams</surname><given-names>D. E.</given-names></name>
+<article-title>Nonbonded
+potential function models
+for crystalline oxohydrocarbons</article-title>. <source>Acta Crystallogr.,
+Sect. A: Cryst. Phys., Diffr., Theor. Gen. Crystallogr.</source>
+<year>1981</year>, <volume>37</volume>, <fpage>293</fpage>&#x02013;<lpage>301</lpage>. <pub-id pub-id-type="doi">10.1107/s0567739481000703</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Rayne</surname><given-names>S.</given-names></name>; <name><surname>Forest</surname><given-names>K.</given-names></name>
+<article-title>Performance of Gaussian-3 and Gaussian-4
+level theoretical
+methods in estimating gas phase enthalpies of formation for representative
+and chlorofluorocarbons and hydrochlorofluorocarbons</article-title>. <source>J. Mol. Struct.: THEOCHEM</source>
+<year>2010</year>, <volume>953</volume>, <fpage>47</fpage>&#x02013;<lpage>48</lpage>. <pub-id pub-id-type="doi">10.1016/j.theochem.2010.04.031</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Plimpton</surname><given-names>S.</given-names></name>
+<article-title>Fast Parallel
+Algorithms for Short-Range Molecular Dynamics</article-title>. <source>J. Comput. Phys.</source>
+<year>1995</year>, <volume>117</volume>, <fpage>1</fpage>&#x02013;<lpage>19</lpage>. <pub-id pub-id-type="doi">10.1006/jcph.1995.1039</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Ong</surname><given-names>S. P.</given-names></name>; <name><surname>Richards</surname><given-names>W. D.</given-names></name>; <name><surname>Jain</surname><given-names>A.</given-names></name>; <name><surname>Hautier</surname><given-names>G.</given-names></name>; <name><surname>Kocher</surname><given-names>M.</given-names></name>; <name><surname>Cholia</surname><given-names>S.</given-names></name>; <name><surname>Gunter</surname><given-names>D.</given-names></name>; <name><surname>Chevrier</surname><given-names>V. L.</given-names></name>; <name><surname>Persson</surname><given-names>K. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Python Materials Genomics
+(pymatgen): A robust, open-source python
+library for materials analysis</article-title>. <source>Comput. Mater.
+Sci.</source>
+<year>2013</year>, <volume>68</volume>, <fpage>314</fpage>&#x02013;<lpage>319</lpage>. <pub-id pub-id-type="doi">10.1016/j.commatsci.2012.10.028</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Gilardi</surname><given-names>R. D.</given-names></name>; <name><surname>Butcher</surname><given-names>R. J.</given-names></name>
+<article-title>2,6-Diamino-3,5-dinitro-1,4-pyrazine
+dimethyl sulfoxide
+solvate</article-title>. <source>Acta Crystallogr., Sect. E: Struct.
+Rep. Online</source>
+<year>2001</year>, <volume>57</volume>, <fpage>o757</fpage>&#x02013;<lpage>o759</lpage>. <pub-id pub-id-type="doi">10.1107/s1600536801014131</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Averkiev</surname><given-names>B. B.</given-names></name>; <name><surname>Antipin</surname><given-names>M. Y.</given-names></name>; <name><surname>Yudin</surname><given-names>I. L.</given-names></name>; <name><surname>Sheremetev</surname><given-names>A. B.</given-names></name>
+<article-title>X-ray structural
+study of three derivatives of dinitropyrazine</article-title>. <source>J. Mol. Struct.</source>
+<year>2002</year>, <volume>606</volume>, <fpage>139</fpage>&#x02013;<lpage>146</lpage>. <pub-id pub-id-type="doi">10.1016/s0022-2860(01)00862-6</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Turner</surname><given-names>M. J.</given-names></name>; <name><surname>Grabowsky</surname><given-names>S.</given-names></name>; <name><surname>Jayatilaka</surname><given-names>D.</given-names></name>; <name><surname>Spackman</surname><given-names>M. A.</given-names></name>
+<article-title>Accurate and Efficient
+Model Energies for Exploring Intermolecular Interactions in Molecular
+Crystals</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>4249</fpage>&#x02013;<lpage>4255</lpage>. <pub-id pub-id-type="doi">10.1021/jz502271c</pub-id>.<pub-id pub-id-type="pmid">26273970</pub-id></mixed-citation></ref></ref-list></back></article>

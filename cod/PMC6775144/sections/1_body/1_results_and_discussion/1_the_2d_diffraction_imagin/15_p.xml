@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">The formulas (
+ <xref rid="Equ10" ref-type="">10</xref>), (
+ <xref rid="Equ11" ref-type="">11</xref>) for the 3D displacement-field function 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M81">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M82">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> are the basic theoretical expressions for solving the inverse problem XRDT under consideration. Finally, one has to determine the error-functional (the target function) and generate its optimization procedure. The latter has to apply to the target function in the standard form as follows
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M83">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{\rm{\chi }}2 &amp; = &amp; \tfrac{1}{n\{X(T)\,\ast \,Y(T)\}}\,\mathop{\sum }\limits_{i=1}^{n}\,n({{\Phi }}_{i})\,\sum _{\{X(T),Y(T)\}}\,\tfrac{{({I}_{h,obs}[X(T),Y(T);{{\Phi }}_{i}]-{I}_{h,calc}[X(T),Y(T);{{\Phi }}_{i}])}^{2}}{{I}_{h,obs}{[X(T),Y(T);{{\Phi }}_{i}]}^{2}}=Min,\\ n({{\Phi }}_{i}) &amp; = &amp; 1,i=1,\ldots n,\end{array}$$\end{document}</tex-math>
+   <math id="M84" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mi mathvariant="normal">χ</mi>
+        <mn>2</mn>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mstyle displaystyle="false">
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <mi>n</mi>
+           <mo stretchy="false">{</mo>
+           <mi>X</mi>
+           <mo stretchy="false">(</mo>
+           <mi>T</mi>
+           <mo stretchy="false">)</mo>
+           <mspace width=".25em"/>
+           <mo>⁎</mo>
+           <mspace width=".25em"/>
+           <mi>Y</mi>
+           <mo stretchy="false">(</mo>
+           <mi>T</mi>
+           <mo stretchy="false">)</mo>
+           <mo stretchy="false">}</mo>
+          </mrow>
+         </mfrac>
+        </mstyle>
+        <mspace width=".1em"/>
+        <munderover>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mi>n</mi>
+        </munderover>
+        <mspace width=".1em"/>
+        <mi>n</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="italic">Φ</mi>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mspace width=".1em"/>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <mo stretchy="true">{</mo>
+          <mrow>
+           <mi>X</mi>
+           <mrow>
+            <mo stretchy="true">(</mo>
+            <mi>T</mi>
+            <mo stretchy="true">)</mo>
+           </mrow>
+           <mo>,</mo>
+           <mi>Y</mi>
+           <mrow>
+            <mo stretchy="true">(</mo>
+            <mi>T</mi>
+            <mo stretchy="true">)</mo>
+           </mrow>
+          </mrow>
+          <mo stretchy="true">}</mo>
+         </mrow>
+        </munder>
+        <mspace width=".1em"/>
+        <mstyle displaystyle="false">
+         <mfrac>
+          <mrow>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mrow>
+               <mi>I</mi>
+              </mrow>
+              <mrow>
+               <mi>h</mi>
+               <mo>,</mo>
+               <mi>o</mi>
+               <mi>b</mi>
+               <mi>s</mi>
+              </mrow>
+             </msub>
+             <mrow>
+              <mo stretchy="true">[</mo>
+              <mrow>
+               <mi>X</mi>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mi>T</mi>
+                <mo stretchy="true">)</mo>
+               </mrow>
+               <mo>,</mo>
+               <mi>Y</mi>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mi>T</mi>
+                <mo stretchy="true">)</mo>
+               </mrow>
+               <mo>;</mo>
+               <msub>
+                <mrow>
+                 <mi mathvariant="italic">Φ</mi>
+                </mrow>
+                <mrow>
+                 <mi>i</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo stretchy="true">]</mo>
+             </mrow>
+             <mspace width=".25em"/>
+             <mo>−</mo>
+             <msub>
+              <mrow>
+               <mi>I</mi>
+              </mrow>
+              <mrow>
+               <mi>h</mi>
+               <mo>,</mo>
+               <mi>c</mi>
+               <mi>a</mi>
+               <mi>l</mi>
+               <mi>c</mi>
+              </mrow>
+             </msub>
+             <mrow>
+              <mo stretchy="true">[</mo>
+              <mrow>
+               <mi>X</mi>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mi>T</mi>
+                <mo stretchy="true">)</mo>
+               </mrow>
+               <mo>,</mo>
+               <mi>Y</mi>
+               <mrow>
+                <mo stretchy="true">(</mo>
+                <mi>T</mi>
+                <mo stretchy="true">)</mo>
+               </mrow>
+               <mo>;</mo>
+               <msub>
+                <mrow>
+                 <mi mathvariant="italic">Φ</mi>
+                </mrow>
+                <mrow>
+                 <mi>i</mi>
+                </mrow>
+               </msub>
+              </mrow>
+              <mo stretchy="true">]</mo>
+             </mrow>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>I</mi>
+            </mrow>
+            <mrow>
+             <mi>h</mi>
+             <mo>,</mo>
+             <mi>o</mi>
+             <mi>b</mi>
+             <mi>s</mi>
+            </mrow>
+           </msub>
+           <msup>
+            <mrow>
+             <mo stretchy="true">[</mo>
+             <mrow>
+              <mi>X</mi>
+              <mrow>
+               <mo stretchy="true">(</mo>
+               <mi>T</mi>
+               <mo stretchy="true">)</mo>
+              </mrow>
+              <mo>,</mo>
+              <mi>Y</mi>
+              <mrow>
+               <mo stretchy="true">(</mo>
+               <mi>T</mi>
+               <mo stretchy="true">)</mo>
+              </mrow>
+              <mo>;</mo>
+              <msub>
+               <mrow>
+                <mi mathvariant="italic">Φ</mi>
+               </mrow>
+               <mrow>
+                <mi>i</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo stretchy="true">]</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+          </mrow>
+         </mfrac>
+        </mstyle>
+        <mo>=</mo>
+        <mi>M</mi>
+        <mi>i</mi>
+        <mi>n</mi>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mi>n</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi mathvariant="italic">Φ</mi>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mi>…</mi>
+        <mi>n</mi>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the rectangular prism with dimensions 0 ≤ 
+ <italic>Z</italic> 
+ <italic>≤</italic> 
+ <italic>T</italic>, −X/2 ≤ 
+ <italic>X(T)</italic> 
+ <italic>≤</italic> X/2, −Y/2 ≤ 
+ <italic>Y</italic>(
+ <italic>T</italic>) ≤ Y/2, summation in the right-hand side of Eq. (
+ <xref rid="Equ12" ref-type="">12</xref>) is carried out over an array of the XRDT 2D-projections, 
+ <italic>n</italic> is the number of the inclined XRDT 2D-projections; the dimensionless thickness T is chosen to be equal to unity.
+</p>

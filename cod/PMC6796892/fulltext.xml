@@ -1,0 +1,915 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6796892</article-id><article-id pub-id-type="pmid">31646219</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b01176</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Giant Magnetoelectric Coupling in Multiferroic PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> from
+Density Functional Calculations</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Patra</surname><given-names>Lokanath</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Vidya</surname><given-names>Ravindran</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Fjellv&#x000e5;g</surname><given-names>Helmer</given-names></name><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath4"><name><surname>Ravindran</surname><given-names>Ponniah</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><sup>&#x02020;</sup>Department
+of Physics and <sup>&#x02021;</sup>Simulation Center for Atomic and Nanoscale MATerials, <institution>Central University of Tamil Nadu</institution>, Thiruvarur 610005, Tamil Nadu, <country>India</country></aff><aff id="aff3"><label>&#x000a7;</label>Department
+of Medical Physics, <institution>Anna University</institution>, Chennai 600025, <country>India</country></aff><aff id="aff4"><label>&#x02225;</label>Center
+for Materials Science and Nanotechnology and Department of Chemistry, <institution>University of Oslo</institution>, P.O. Box 1033, Blindern, N-0315 Oslo, <country>Norway</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>raviphy@cutn.ac.in</email>. Tel: <phone>+91 94890 54267</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>30</day><month>09</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>15</day><month>10</month><year>2019</year></pub-date><volume>4</volume><issue>16</issue><fpage>16743</fpage><lpage>16755</lpage><history><date date-type="received"><day>24</day><month>04</month><year>2019</year></date><date date-type="accepted"><day>12</day><month>07</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0016" id="ab-tgr1"/></p><p>Giant magnetoelectric coupling is
+a very rare phenomenon that has
+gained much attention in the past few decades due to fundamental interest
+as well as practical applications. Here, we have successfully achieved
+giant magnetoelectric coupling in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> (<italic>x</italic> = 0&#x02013;1) using a series of generalized gradient-corrected GGA
+(generalized gradient approximation), including on-site Coulomb repulsion
+(<italic>U</italic>)-corrected spin-polarized calculations based on
+accurate density functional theory. Our total energy calculations
+show that PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> stabilizes in C-type antiferromagnetic
+ground state for <italic>x</italic> &#x0003e; 0.123. With the substitution
+of V into PbTiO<sub>3</sub>, the tetragonal distortion is highly enhanced
+accompanied by a linear increase in polarization. In addition, our
+band structure analysis shows that for lower <italic>x</italic> values,
+the tendency to form two-dimensional magnetism of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> decreases.
+The orbital magnetic polarization was calculated with self-consistent
+field method by including orbital polarization correction in the calculation
+as well as from the computed X-ray magnetic dichroism spectra. A nonmagnetic
+metallic ground state is observed for the paraelectric phase for V
+concentration (<italic>x</italic>) = 1 competing with a volume change
+of 10% showing a large magnetovolume effect. Our orbital-projected
+density of states as well as orbital ordering analysis suggest that
+the orbital ordering plays a major role in the magnetic-to-nonmagnetic
+transition when going from ferroelectric to paraelectric phase. The
+calculated magnetic anisotropic energy shows that the direction [110]
+is the easy axis of magnetization for <italic>x</italic> = 1 composition.
+The partial polarization analysis shows that the Ti/V&#x02013;O hybridization
+majorly contributes to the total electrical polarization. The present
+study adds a new series of compounds to the magnetoelectric family
+with rarely existing giant coupling between electric- and magnetic-order
+parameters. These results show that such kind of materials can be
+used for novel practical applications where one can change the magnetic
+properties drastically (magnetic to nonmagnetic, as shown here) with
+external electric field and vice versa.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b01176</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao9b01176</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>The promising coupling
+between electric- and magnetic-order parameters
+and the potential to manipulate one by the application of the other
+have attracted much attention in the past few decades. Interest in
+the research on materials with such coupling has grown because of
+their wide range of application in multifunctional devices.<sup><xref ref-type="bibr" rid="ref1">1</xref>&#x02212;<xref ref-type="bibr" rid="ref5">5</xref></sup> The ultimate goal of this research is to obtain single-phase multiferroics
+with strong coupling between ferroelectric- and magnetic-order parameters
+at room temperature. There has been a considerable recent interest
+in developing lone pair-based magnetoelectrics because of their high
+value of electrical polarization. Examples of such composites include
+BiFeO<sub>3</sub>&#x02013;LaFeO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> BiFeO<sub>3</sub>&#x02013;SrTiO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref7">7</xref></sup><sup><xref ref-type="bibr" rid="ref7">7</xref></sup> BiFeO<sub>3</sub>PbTiO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup><sup><xref ref-type="bibr" rid="ref8">8</xref></sup> BiFeO<sub>3</sub>&#x02013;BiCoO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> LaFeO<sub>3</sub>&#x02013;PbTiO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref10">10</xref></sup><sup><xref ref-type="bibr" rid="ref10">10</xref></sup> BiFeO<sub>3</sub>&#x02013;BaTiO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref11">11</xref></sup><sup><xref ref-type="bibr" rid="ref11">11</xref></sup> BiCoO<sub>3</sub>&#x02013;BaTiO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> etc. PbTiO<sub>3</sub> (PTO) is a perovskite ferroelectric material with a Curie
+temperature of 490 &#x000b0;C and a large tetragonal distortion with <italic>c</italic>/<italic>a</italic> = 1.06<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> at room temperature. But it is nonmagnetic (NM) due to the absence
+of d electrons. The Ti atom can be substituted with some magnetic
+ions, as a result of which the new compound can be expected to produce
+both magnetic and ferroelectric behaviors. PTO-based magnetoelectrics
+could be much more interesting because of the existence of two types
+of mechanisms for ferroelectricity, i.e., lone pair electrons from
+Pb<sup>2+</sup> and d<sup>0</sup>-ness from Ti<sup>4+</sup>. So, here
+we examine the magnetoelectric properties of a PTO-based multiferroic
+series, i.e., PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> (<italic>x</italic> = 0, 0.25, 0.33,
+0.50, 0.67, 0.75, 1), where the 6s electrons of Pb<sup>2+</sup> and
+the d<sup>0</sup>-ness of Ti<sup>4+</sup> stabilize the ferroelectricity
+and the V induces magnetism.</p><p>On the other hand, PbVO<sub>3</sub> (PVO), which is a member of
+this series (<italic>x</italic> = 1), has gained much interest in
+the last few years as a strong candidate for multiferroic oxide due
+to its large electric polarization. Although it is isostructural with
+PTO, it shows large tetragonal distortion (<italic>c</italic>/<italic>a</italic> = 1.229). Isolated layers of corner-shared VO<sub>5</sub> pyramids form a layer-type perovskite structure with a space group <italic>P</italic>4<italic>mm</italic>.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> PVO
+has been proposed to have an antiferromagnetic ordering and a ferroelectric
+polarization as large as 152 &#x003bc;C/cm<sup>2</sup> due to the presence
+of large structural distortions.<sup><xref ref-type="bibr" rid="ref14">14</xref>&#x02212;<xref ref-type="bibr" rid="ref18">18</xref></sup> To this point, however, the true magnetic structure
+and the multifunctional nature of this material are controversial
+to researchers. Shpanchenko et al.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> found
+no long-range magnetic ordering with their neutron powder diffraction
+measurements down to 1.5 K. Belik et al.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> proposed that PVO is a two-dimensional (2D) spin-half square-lattice
+strongly frustrated antiferromagnet due to the antiferromagnetic interactions
+of the next nearest neighbors. Using magnetic susceptibility and specific
+heat measurements as well as band structure calculations, Tsirlin<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> confirmed that the <italic>S</italic> = 1/2
+square lattice of vanadium 4+ ions in PVO is strongly frustrated due
+to the next-nearest-neighbor antiferromagnetic interactions and no
+long-range magnetic ordering was found down to 1.8 K. Due to the presence
+of defects or ferromagnetic (FM) impurities in the sample, it has
+been very difficult to clarify the intrinsic magnetic property in
+PVO. Oka et al.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> investigated the magnetic
+properties of PVO by preparing a multidomain single crystal without
+any magnetic impurity. The broad maximum centered around 180 K in
+the temperature-dependent magnetization curve indicates the presence
+of two-dimensional antiferromagnetism. Muon spin rotation measurement
+displayed the presence of a long-range order below 43 K. The epitaxial
+thin films of PVO have been grown<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> using
+pulsed laser deposition, which brings a step forward to synthesis
+of multiferroic materials outside of high-temperature and high-pressure
+techniques to realize devices with multifunctionalities. In another
+study on PVO thin films by Kumar et al.,<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> a transition from a ferroelectric-only state to a ferroelectric
+and magnetic state was observed below 100&#x02013;130 K using second-harmonic
+generation and X-ray linear dichroism. Experimental electron energy
+loss spectroscopy investigation on V&#x02013;L edge shows that V in
+the PVO thin films is in the V<sup>4+</sup> state, resulting in a
+d<sup>1</sup> state.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup></p><p>PVO was also
+investigated computationally by different researchers.
+First-principles calculations were made by Uratani et al.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> for PVO along with BiCoO<sub>3</sub>. They found
+that the easy axes of spin are different: [110] in PVO and [001] in
+BiCoO<sub>3</sub> even though both have similar crystal structure.
+A spin spiral structure was predicted by Solovyev<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> to analyze the absence of long-range magnetic ordering
+in PVO. Calculations along with experiments were performed by Parveen
+et al.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> in 2012 to study the thermal properties
+of PVO, and the results confirmed the observations made by Tsirlin
+et al.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Ming et al.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> made a comparative study of the structural, electronic,
+magnetic, and phase-transition properties in which various exchange-correlation
+(XC) functionals were used and found that PVO is a 2D C-type antiferromagnetic
+(C-AF), where the d<sup>1</sup> electron of the V<sup>4+</sup> ion
+occupies the d<sub><italic>xy</italic></sub> orbital. A ferroelectric-to-paraelectric
+phase transition at 1.75 GPa was also noted. Zhou et al.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> revisited the structural transitions in PVO
+using a series of X-ray diffraction measurements and first-principles
+calculations. They found that the C-AF insulating and NM metallic
+states are the ground states for tetragonal and cubic phases, respectively.
+They have also noted a noncentrosymmetric tetragonal-to-centrosymmetric
+cubic perovskite structural phase transition in the pressure range
+of 2.7&#x02013;6.4 GPa.</p><p>Milo&#x00161;evi&#x00107; et al.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> performed
+ab initio calculations to study the electronic structure and optical
+properties of PVO (and BiCoO<sub>3</sub>). Using first-principles
+density functional theory (DFT) calculations, Ming et al.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> showed a first-order tetragonal-to-cubic phase
+transition with a volume collapse of 11.6% under a uniaxial pressure
+of 1.2 GPa accompanied by a C-AF insulator to an NM metal. Kadiri
+et al.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> studied the magnetic properties
+of PVO using first-principles calculations and Monte Carlo simulations
+and determined PVO as an <italic>S</italic> = 1/2 antiferromagnet
+with a N&#x000e9;el temperature (<italic>T</italic><sub>N</sub>) of
+182 K. Recently, Oka et al.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> have examined
+the cubic phase of PVO under high pressure on experimental and theoretical
+bases. They determined the transition pressure to be 3 GPa and showed
+that above this pressure, the semiconductor-to-metal transition associated
+with the structural transition (tetragonal to cubic) occurs.</p><p>There are some reports about the transition-metal substitution
+at the V site of PVO. Tsuchiya et al.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> synthesized PbFe<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub> under
+high pressure and found the crystal structure as a tetragonal perovskite
+with <italic>c</italic>/<italic>a</italic> = 1.18. The magnetic study
+revealed that the compound is an antiferromagnet and the electrical
+polarization is estimated to be as large as 88 &#x003bc;C/cm<sup>2</sup>. Ar&#x000e9;valo et al.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> studied Ti and
+Cr substitutions at V site in PVO. A tetragonal-to-cubic transition
+was observed as the Cr substitution level reaches 0.4, whereas the
+Ti substitution preserves the <italic>P</italic>4<italic>mm</italic> symmetry. The interesting result observed by Ar&#x000e9;valo et al.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> was the temperature-induced phase transition
+from tetragonal to cubic in PbTi<sub>0.8</sub>V<sub>0.2</sub>O<sub>3</sub> at 730 K. But PVO decomposes to Pb<sub>2</sub>V<sub>2</sub>O<sub>7</sub> at 570 K before reaching its transition temperature.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> In another V site, Ti-substituted PbMO<sub>3</sub> system (where M stands for V site substituted with Ti), Ricci<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> predicted multiferroicity in PbTi<sub>0.875</sub>V<sub>0.125</sub>O<sub>3</sub> with a ferromagnetic&#x02013;ferroelectric
+ground state and an electrical polarization of 95 &#x003bc;C/cm<sup>2</sup>. Recently, Pan et al.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> have experimentally
+studied the Pb(Ti,V)O<sub>3</sub> system where the V substitution
+level varies from 0.1 to 0.6. They have found that in the whole composition
+range, the <italic>P</italic>4<italic>mm</italic> symmetry was preserved
+and the tetragonality was abnormally improved (so the spontaneous
+polarization) with the replacement of Ti with V. Interestingly, they
+have also observed an intrinsic giant volume contraction of &#x0223c;3.7%
+for Pb(Ti<sub>0.7</sub>V<sub>0.3</sub>)O<sub>3</sub> during the ferroelectric-to-paraelectric
+phase transition. These observed interesting findings in the substituted
+systems motivated us for the present study.</p><p>In the present work,
+we have shown that the V substitution in PTO
+can induce magnetism, which can lead to multiferroicity in the substituted
+system. Thus, our ultimate aim to design magnetoelectric materials
+from nonmagnetic system is satisfied. The coupling between the electric-
+and magnetic-order parameters is strong due to the presence of two
+ferroelectric mechanisms (lone pair of Pb<sup>2+</sup> as well as
+d<sup>0</sup>-ness of Ti<sup>4+</sup>). The 2D magnetism arises in
+PVO due to the d<sub><italic>xy</italic></sub>-type orbital ordering
+in the ferroelectric ground state. On the other hand, the disorder
+induced by the substitution may release the frustration in PVO, which
+can lead to a long-range magnetic ordering. We hope the substitution
+could reduce the tendency of the system to form a 2D arrangement of
+V cations, which may lead to form three-dimensional (3D) magnetic
+ordering.</p></sec><sec id="sec2"><title>Computational Details</title><p>All of the results presented
+here are obtained from ab initio density
+functional calculations using the Vienna Ab initio Simulation Package<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> or full-potential linearized augmented plane-wave
+(FP-LAPW) method (Wien2k). To obtain the ground-state structural parameters
+for PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub>, we have optimized the crystal structure by minimizing
+the force and stress acting on the system. The generalized gradient
+approximation (GGA)<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> in the scheme of
+Perdew&#x02013;Burke&#x02013;Ernzerhof (PBE)<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> is employed to treat the exchange-correlation as it gives better
+equilibrium structural parameters than the local density approximation.
+The ionic positions and the shape of the crystals were relaxed for
+different unit cell volumes until the energy and force convergence
+criteria were reached, i.e., 10<sup>&#x02013;6</sup> eV per cell and
+1 meV/&#x000c5; per atom, respectively. As the structural parameters
+are very sensitive to electrical polarization, a very high plane-wave
+cutoff energy of 850 eV<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> was used. A 6
+&#x000d7; 6 &#x000d7; 6 Monkhorst&#x02013;Pack <bold>k</bold>-point<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> mesh was used for ferroelectric PTO, and similar
+density of <bold>k</bold>-points was used for all other calculations.
+To find the ground-state magnetic ordering, we have considered nonmagnetic
+(NM), ferromagnetic (FM), A-type antiferromagnetic, C-type antiferromagnetic
+(C-AF), and G-type antiferromagnetic configurations.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> To account for the strong electron correlation associated
+with V 3d electrons on the electronic structure, the GGA + <italic>U</italic> method was used with <italic>U</italic><sub>eff</sub> =
+3 eV. The Born effective charges (BECs) were calculated by the Berry
+phase method with a 8 &#x000d7; 8 &#x000d7; 8 <bold>k</bold>-point mesh
+per f.u. using the modern theory of polarization.<sup><xref ref-type="bibr" rid="ref42">42</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> We have used periodic supercell approach to simulate the substituted
+systems, i.e., for compositions with 33 and 50% V substitutions, 1
+&#x000d7; 1 &#x000d7; 3 and 1 &#x000d7; 1 &#x000d7; 2 supercells were created,
+respectively. Then, one Ti atom was replaced with V to mimic the experimental
+conditions. The supercells are again doubled in each direction to
+incorporate different magnetic orderings. Similar kind of methodology
+was used to model other compositions.</p><p>The orbital moments at
+the transition-metal sites were calculated
+using the orbital polarization correction (SO + OP) method implemented
+in Wien2k.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> In addition, we have simulated
+X-ray circular magnetic dichroism (XMCD)<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> spectra using Wien2k and estimated the site-selective spin and orbital
+magnetic moments of V ions using the XMCD sum rules.<sup><xref ref-type="bibr" rid="ref46">46</xref>,<xref ref-type="bibr" rid="ref47">47</xref></sup> For simulating XMCD, we have used full-potential linearized augmented
+plane-wave (FP-LAPW) method based on density functional theory as
+implemented in the Wien2k code. The generalized gradient approximation
+within the PBE scheme was used as the exchange-correlation potential.
+The muffin tin radii for Pb, V, and O were chosen as 1.66, 2.49, and
+1.50 a.u., respectively. The Brillouin zone integration has been carried
+out with 5000k-points. The energy convergence with a convergence criterion
+of 10<sup>&#x02013;5</sup> was obtained. The spin&#x02013;orbit coupling
+is considered in the calculation. As the ferromagnetic state is a
+metal, the plasma frequency was first calculated and included in the
+XMCD calculation.</p></sec><sec id="sec3"><title>Results and Discussion</title><sec id="sec3.1"><title>Structural Phase Stability</title><p>PVO is a C-type antiferromagnet
+(see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) due
+to the presence of a <italic>d</italic> electron with <italic>S</italic> = 1/2. In oxides, it can either occur in the middle of an octahedron
+cage (CaVO<sub>3</sub>, SrVO<sub>3</sub>)<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> or it can form a strong vanadyl bond with one O with a short bond
+length (ca. 1.55&#x02013;1.60 &#x000c5;).<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> PVO is reported to exhibit a tetragonal-to-cubic phase transition
+under pressure, but no structural transition was observed from 0 K
+to its decomposition temperature.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Moreover,
+the minimum (apical) V&#x02013;O bond length in the VO<sub>5</sub> pyramid
+in tetragonal PVO is 1.68 &#x000c5;. This relatively longer bond shows
+a comparatively weaker vanadyl bond than usual. The average of the
+four planar V&#x02013;O bond lengths is 1.99 &#x000c5;. In agreement with
+these findings, the calculated Goldschmidt tolerance factor for PVO
+also shows a value of 1.036, which usually indicates noncentrosymmetric
+distortion.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>C-type antiferromagnetic structure of PVO. Pb and V atoms are labeled
+on the illustration as green (big) and blue (medium) spheres, respectively.
+Oxygen atoms occur at the corners of the VO<sub>5</sub> square pyramid
+and are labeled as red (small) spheres. Two types of oxygen atoms
+are present in PbVO<sub>3</sub>, one at apical (labeled as O1) and
+the other at the planar (labeled as O2) position. The optimized atomic
+positions are Pb [0, 0, 0], V [0.5, 0.5, 0.5708 (0.5677)], O1 [0,
+0, 0.2128 (0.2087)], and O2 [0, 0, 0.6902 (0.6919)]. The values in
+parentheses are from experimental measurements.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup></p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0001" id="gr1" position="float"/></fig><p>Here, we have made structural
+optimizations for both the ferroelectric
+(<italic>P</italic>4<italic>mm</italic>) and paraelectric (<italic>Pm</italic>&#x00033;&#x00305;<italic>m</italic>) phases of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> for <italic>x</italic> = 0, 0.25, 0.33, 0.50, 0.67, 0.75, and 1 compositions.
+The substitution of V for Ti in PTO does not affect the symmetry of
+the crystal as it retains the tetragonal symmetry for the whole composition
+range.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> With increasing V content (<italic>x</italic>), the lattice parameter <italic>c</italic> increases almost
+linearly and <italic>a</italic> decreases gradually, as shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>. This results in
+an unusual enhancement in the tetragonality of the PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub>. This
+can be understood on the basis of ionic radii of Ti<sup>4+</sup> and
+V<sup>4+</sup> ions. The coordination number of Ti<sup>4+</sup> changes
+from six to five with increasing concentration of vanadium. The ionic
+radius of V<sup>4+</sup> is 0.53 &#x000c5;, whereas the ionic radii of
+Ti<sup>4+</sup> are 0.61 and 0.51 &#x000c5; for sixfold and fivefold
+coordinations, respectively.<sup><xref ref-type="bibr" rid="ref50">50</xref></sup> So, with
+decrease in ionic radii, the lattice parameter <italic>a</italic>(<italic>b</italic>) decreases to accommodate the smaller cation. On the other
+hand, with increase of V concentration, the chance of vanadyl bond
+formation increases, which leads to an increase in the length of <italic>c</italic> axis. This is also the reason behind the increase in volume
+with the increase of <italic>x</italic>. It may be noted that PTO-modified
+ferroelectrics such as (1&#x02013;<italic>x</italic>)PTO&#x02013;<italic>x</italic>Bi(Ni<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub><sup><xref ref-type="bibr" rid="ref51">51</xref></sup> and (1&#x02013;<italic>x</italic>)PTO&#x02013;<italic>x</italic>Bi(Mg<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub><sup><xref ref-type="bibr" rid="ref52">52</xref></sup> usually do not show high value of <italic>c</italic>/<italic>a</italic> ratio. But some of the PTO-based compounds, i.e.,
+(1&#x02013;<italic>x</italic>)PTO&#x02013;<italic>x</italic>BiFeO<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> BiInO<sub>3</sub>&#x02013;PTO,<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> and (1&#x02013;<italic>x</italic>)PTO&#x02013;<italic>x</italic>Bi(Zn<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub><sup><xref ref-type="bibr" rid="ref55">55</xref></sup> show abnormally high tetragonality. In the present
+study, the achieved maximum tetragonality (<italic>c</italic>/<italic>a</italic>) for a PTO-based compound, i.e., PbTi<sub>0.25</sub>V<sub>0.75</sub>O<sub>3</sub>, is 1.24. This value is larger than that
+of some of the conventional perovskite ferroelectrics such as 0.5PTO&#x02013;0.5BiFeO<sub>3</sub> (<italic>c</italic>/<italic>a</italic> = 1.14), 0.85PTO&#x02013;0.15BiInO<sub>3</sub> (1.08), and 0.6PTO&#x02013;0.4Bi(Zn<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub> (<italic>c</italic>/<italic>a</italic> = 1.11). PTO-based
+ferroelectric materials with large <italic>c</italic>/<italic>a</italic> possess interesting physical properties, such as high value of ferroelectric
+polarization (<bold>P</bold><sub>S</sub>), high Curie temperature
+(<italic>T</italic><sub>C</sub>), and enhanced negative thermal expansion
+(NTE). In this study, we have shown that PTO-based material with large <italic>c</italic>/<italic>a</italic> value possesses strong magnetoelectric
+coupling as well as giant magnetovolume effect.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Evolution of lattice
+parameters in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> as a function of <italic>x</italic>. The rapidly increasing <italic>c</italic> and slowly
+decreasing <italic>a</italic> result in unusual enhancement in <italic>c</italic>/<italic>a</italic> value. The inset shows the octahedral
+environment changes into pyramidal one due to increase in tetragonal
+distortion with increasing <italic>x</italic>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0002" id="gr2" position="float"/></fig><p>The unit cell volume is sensitive to structural transition
+in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub>, i.e., it contracts when a ferroelectric-to-paraelectric
+transition takes place. For <italic>x</italic> = 0.25, the volume
+contracts by 4.2% during the phase transition. Most interestingly,
+the volume contraction increases with increase in V content. The volume
+contraction value increases to 6.3% for <italic>x</italic> = 0.50
+and 8.4% for <italic>x</italic> = 0.67. When <italic>x</italic> =
+1, the volume contracts by a value as large as 10.4% at the ferroelectric-to-paraelectric
+phase transition point. One of the main factors for volume contraction
+in this series of compounds at the phase transition is the change
+in bonding between Pb&#x02013;O and Ti/V&#x02013;O, which is discussed
+below. PTO-based composites with a high value of volume contraction
+during phase transition can give rise to interesting properties like
+high NTE. Moreover, a temperature-induced phase transition is observed
+experimentally for <italic>x</italic> &#x02264; 0.3.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> So, it can be said that for higher amount of Ti substitution
+in PbVO<sub>3</sub>, <italic>T</italic><sub>C</sub> can be measurable
+without decomposition.</p><p>The cubic structure of PVO can be considered
+as a special case
+of ideal tetragonal perovskite with <italic>c</italic>/<italic>a</italic> = 1. The ferroelectric polarization is very sensitive to structural
+parameters. So, to calculate the <italic>c</italic>/<italic>a</italic> ratio for various compositions accurately, we have calculated the
+total energy as a function of <italic>c</italic>/<italic>a</italic>. We have performed this calculation with a 1 &#x000d7; 1 &#x000d7; 2 supercell,
+which means we should get a minimum energy for <italic>c</italic>/<italic>a</italic> = 2 for a cubic system. Consistent with this, our <italic>E</italic> &#x0223c; <italic>c</italic>/<italic>a</italic> graph (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figure S1</ext-link> in the Supporting Information) for
+PVO (<italic>x</italic> = 0) shows a minimum energy for <italic>c</italic>/<italic>a</italic> = 2 for the paraelectric phase, whereas for the
+ferroelectric phase, we get a noninteger <italic>c</italic>/<italic>a</italic>. To find the possible polarization path, we have calculated
+the total energy as a function of Pb displacement with respect to
+V/Ti&#x02013;O polyhedra. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> helps us to find the easiest path of the ferroelectric
+polarization and the role of Pb ions in the tetragonal distortion.
+We have plotted the displacement of Pb ion with respect to VO<sub>5</sub> pyramid along the [111] and [001] directions. The energy
+versus displacement curves for both the directions have double-well
+shapes. It can be seen that the lowest energy for the off-center displacements
+is along the [001] direction. It shows that the ferroelectric properties
+are greatly effected by the polarizability of Pb. The energy difference
+between the two directions is very small (about 2 meV/f.u.) compared
+to well-known multiferroic BiFeO<sub>3</sub>.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> So, in principle, the Curie temperature of PVO must be less than
+that of BiFeO<sub>3</sub>. However, the <italic>T</italic><sub>C</sub> for PVO has not been estimated yet, as it decomposes before reaching
+to its paraelectric phase. But the <italic>T</italic><sub>C</sub> of
+PbTi<sub>0.9</sub>V<sub>0.1</sub>O<sub>3</sub> was estimated to be
+823 K by Pan et al.,<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> and it showed an
+increasing trend V concentration (measured <italic>T</italic><sub>C</sub>&#x02019;s for PbTi<sub>0.8</sub>V<sub>0.2</sub>O<sub>3</sub> and PbTi<sub>0.7</sub>V<sub>0.3</sub>O<sub>3</sub> are in between
+823 and 873 K). Compositions with <italic>x</italic> &#x0003e; 0.3 decompose
+before reaching their <italic>T</italic><sub>C</sub>.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Total energy as a function
+of displacement of Pb ion along the
+[001] and [111] directions for the ferroelectric PVO. Structural relaxations
+were considered through selective dynamics.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0003" id="gr3" position="float"/></fig><p>We have also performed nudged elastic band (NEB) calculations
+to
+find out the energetics of ferroelectric-to-paraelectric phase transition
+and to identify a minimum-energy path for the phase transition. To
+calculate the minimum-energy path, we have considered the tetragonal
+phase of PbVO<sub>3</sub> as the initial structure and the cubic phase
+as the tetragonal structure. Different intermediate images were created,
+and the energies for all of the images were calculated considering
+the volume as well as shape variation. The energies obtained are plotted
+versus the images (here mentioned as reaction coordinates). The graph
+given in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> results
+from NEB calculations, which shows that the ferroelectric-to-paraelectric
+transition involves an energy barrier of 127 meV, which is higher
+than the difference between the ground-state total energies of these
+two phases, i.e., &#x0223c;70 meV. It also shows the V&#x02013;O coordinated
+polyhedra. In the case of ferroelectric phase, the V&#x02013;O polyhedron
+is highly distorted and makes a pyramidal arrangement. The intermediate
+images along the FE-to-PE transition path with higher energies than
+the FE phase possess comparatively less distorted polyhedra. Finally,
+the end product, i.e., the paraelectric phase, exhibits an undistorted
+octahedron. The high energy barrier for the phase transition is consistent
+with the high-temperature FE-to-PE phase transition.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Ferroelectric-to-paraelectric
+transition path for PVO obtained
+from nudged elastic band method. Both volume and shape variations
+during the transition are considered. The insets show the V and O
+coordination for the particular images marked by arrows. The atom
+colors are the same as in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0004" id="gr4" position="float"/></fig></sec><sec id="sec3.2"><title>Chemical Bonding</title><p>The chemical bonding analysis in compounds
+similar to PVO, i.e., BaTiO<sub>3</sub> and PTO, shows that the ferroelectric
+instability arises due to the hybridization interaction between Ti
+3d and O 2p states.<sup><xref ref-type="bibr" rid="ref56">56</xref></sup> So, it is interesting
+to analyze the chemical bonding between V/Ti and O in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> to reach
+the depth of the origin of ferroelectricity. Experimental results
+and theoretical analysis also show that a significant hybridization
+is present between Pb and O.<sup><xref ref-type="bibr" rid="ref57">57</xref></sup> This also
+contributes to the Born effective charges (BEC) and, consequently,
+to polarization.</p><p>The charge density plot for <italic>x</italic> = 0, 0.50, and 1 compositions is shown in <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>. It can be seen from <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a&#x02013;c that the charge density between
+the B-site cation and apical oxygen increases as the V concentration
+increases. In PVO, the presence of strong V&#x02013;O1 bond along with
+lone pair electrons at the Pb<sup>2+</sup> site weakens the Pb&#x02013;O1
+bond. Because of these effects, the Pb atom shifts more toward O2
+to maintain the charge balance. Hence, the covalent bonding interaction
+between Pb and O2 shows an increasing trend, which is evident from <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>d&#x02013;f as the
+width of the charge density increases with increase in <italic>x</italic>. These observations indicate that the increase of V concentration
+in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> not only increases the covalent bonding between
+Ti/V and O1 but also that between Pb and O2. As a consequence, the
+tetragonal distortion increases with increase in <italic>x</italic>.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Charge density between (a) Ti and O1 in PbTiO<sub>3</sub>, (b)
+V and O1 in PbTi<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub>, (c) V
+and O1 bond in PbVO<sub>3</sub>, and (d) Pb and O2 in PbTiO<sub>3</sub>, (e) PbTi<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub>, and (f) PbVO<sub>3</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0005" id="gr5" position="float"/></fig><p>The charge density plots for PVO
+in cubic and tetragonal phases
+are shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>a (top and bottom, respectively). It can be seen that the charge
+density distributions at the Pb and O sites are essentially isotropic
+in nature for the paraelectric phase. On the other hand, a finite
+amount of charge can be seen in between Pb and O in the tetragonal
+phase showing the anisotropic nature of charge density distribution.
+So, it can be stated that in cubic phase, the Pb&#x02013;O bond has
+more ionic character and the tetragonal phase has a mixed ionocovalent
+bonding character. On the other hand, the bonding between V and O
+is found to have substantial covalency in both the cubic and tetragonal
+phases as we can find notable charge density between these atomic
+sites. But it may be noted that the covalent interaction between V
+and O in tetragonal phase is stronger than that in the cubic phase.
+Due to this, the V atom is shifted from the center of the octahedron
+stabilizing the ferroelectric state.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>(a) Charge density, (b) charge transfer,
+and (c) electron localization
+function (ELF) for the paraelectric (top) and ferroelectric (bottom)
+structures.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0006" id="gr6" position="float"/></fig><p>Charge transfer distribution
+shows isotropic nature at the Pb and
+O sites (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>b)
+in the cubic phase confirming the ionic bonding between Pb and O.
+The anisotropic nature of charge transfer distribution between V and
+O indicates the presence of finite covalent bonding between these
+atoms in the cubic phase. The charge transfer distribution between
+V and O as well as between Pb and O in tetragonal phase shows anisotropic
+behavior, as shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>b, indicating the presence of finite covalent bonding between
+them. It may be noted that although the covalency between Pb and O
+is weaker than that between V and O in the tetragonal phase, it has
+equal importance in the structural and ferroelectric properties.</p><p>Electron localization function (ELF) also provides important information
+about the bonding interaction between the constituents of a compound.
+It can be seen from <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>c that the ELF is maximum at O sites and minimum at Pb and
+V sites for both the paraelectric and ferroelectric phases. Finite
+ELF can be seen in between V and O in the tetragonal phase showing
+the presence of finite covalent bonding between them. The presence
+of the stereochemically active lone pair electrons at Pb site is also
+clearly visible in the ELF plot for the tetragonal case. So, the bonding
+interaction between Pb and O as well as between V and O in the ferroelectric
+tetragonal phase can be concluded as having dominant ionic character
+with finite covalent bonding. The difference in the bonding behaviors
+of Ti/V&#x02013;O and Pb&#x02013;O bonds for paraelectric and ferroelectric
+phases plays a crucial role for the large volume contraction during
+the ferroelectric-to-paraelectric phase transition. We have also plotted
+the isosurface of the valence electron localization function with
+an ELF value of 0.7, which is shown in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>. This figure shows the lobe like lone pairs
+of hybridized 6s electrons at the Pb site. The charge density and
+charge transfer plots show that finite amount of electrons from Pb
+sites covalently interact with O 2p ensuring that 6s electrons of
+Pb are not completely chemically inert.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Valence electron localization
+function isosurface plotted at a
+value of 0.7 for PVO in the ferroelectric <italic>P</italic>4<italic>mm</italic> structure.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0007" id="gr7" position="float"/></fig><p>The site and orbital-projected densities of states (DOS)
+for paraelectric
+and ferroelectric phases for their respective ground-state magnetic
+configurations are shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>a,b, respectively. It can be seen that the V 3d states
+and O 2p states are spread over in the valence band in a range of
+&#x02212;7 eV to Fermi level (<italic>E</italic><sub>F</sub>). The
+energetically degenerate nature of these two states indicates the
+presence of strong covalent hybridization between V and O. This hybridization
+weakens the short-range repulsion to lower the energy of the ferroelectric
+phase. The filled O 2s states form narrow bands around &#x02212;18
+eV (see <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>b).
+Above that, at around &#x02212;9 eV, the Pb 6s lone pair electronic
+states are present with small contributions from 2p electrons. This
+also confirms that the 6s electrons are stereochemically active and
+not inert. Although the Pb 6p states are well separated from its 6<italic>s</italic> states and are mostly present in conduction band (CB),
+a small amount of Pb 6p states can be seen, which are degenerate with
+O 2p states confirming the Pb&#x02013;O covalency. The hybridization
+between these states enhances the stability of the ferroelectric phase
+by lowering the total energy of the system. The partial DOS for PbTi<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub> calculated with GGA + <italic>U</italic> (<italic>U</italic><sub>eff</sub> = 3 eV) is given as <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figure S2</ext-link> in the Supporting Information. A similar
+kind of DOS distribution can be seen for Pb, V, and O atoms in PbTi<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub> also. The almost empty <italic>d</italic> states indicate the d<sup>0</sup>-ness of Ti<sup>4+</sup>. Due to the covalent interaction between Ti and O, the charges redistribute
+among themselves for which we see very small yet notable DOS in Ti
+valence band.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>Site and orbital-projected density of states (DOS) for
+PVO for
+the respective ground-state magnetic structures in the (a) paraelectric
+and (b) ferroelectric phases. The Fermi level is set to zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0008" id="gr8" position="float"/></fig><p>The nature and strength of the
+bonding can also be determined by
+crystal orbital Hamilton population (COHP) analysis where the negative
+and positive COHP values indicate bonding and antibonding interactions,
+respectively. We have calculated the COHP among the constituents of
+PVO (Pb&#x02013;O, Pb&#x02013;O2, V&#x02013;O1, V&#x02013;O2, O1&#x02013;O2)
+as shown in <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>. It can be seen that all of the occupied states for Pb&#x02013;O
+and V&#x02013;O interactions have bonding states for both paraelectric
+and ferroelectric phases. The Pb&#x02013;O2 interaction for both the
+paraelectric and ferroelectric phases are almost the same. But the
+interaction between Pb and O1 in the ferroelectric case has more bonding
+states, which are due to the hybridization between O 2p and Pb 6s/6p
+states. This indicates the presence of stronger covalency between
+Pb and O1 in the case of the ferroelectric phase compared to the paraelectric
+one, which is also consistent with our charge density and partial
+DOS analyses. In the ferroelectric phase, the V&#x02013;O1 bonding
+interaction is stronger than V&#x02013;O2 bonding interaction, which
+is due to the off-center displacement of V atom toward the O1 atom.</p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>Crystal
+orbital Hamilton population (COHP) for PVO in the paraelectric
+and ferroelectric phases describing Pb&#x02013;O, Pb&#x02013;O2, V&#x02013;O1,
+V&#x02013;O2, O1&#x02013;O2. O1 and O2 are the planar and apical oxygen
+atoms, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0009" id="gr9" position="float"/></fig></sec><sec id="sec3.3"><title>Electronic Structure</title><p>The total DOS given in <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>a for the paraelectric
+phase shows a metallic behavior for all magnetic configurations. From
+the total DOS of the ferroelectric phase (<xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>b), it can be seen that the nonmagnetic
+phase shows a metallic state, whereas the ferromagnetic case is a
+half metal with a gap of &#x0223c;0.5 eV in the down-spin channel.
+But when the antiferromagnetic ordering is introduced, the exchange
+potential produced by the exchange interaction pushes the V 3d states
+toward the lower-energy side, which results in an insulating state
+with a narrow gap. So, a combination of spin polarization, magnetic
+ordering, and crystal structure plays important roles in stabilizing
+the ferroelectric phase of PVO. The broad band spreading from &#x02212;7
+to &#x02212;2 eV is mainly due to the strong hybridization between
+V 3d and O 2p electrons. The localized states at around &#x02212;9
+eV are generated from the hybridized Pb 6s lone pair electrons. After
+including the correlation effect through the Hubbard <italic>U</italic> into the Hamiltonian matrix, the states get more localized to give
+a larger band gap, and this localization of the d electrons produces
+a larger magnetic moment.</p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Total density of states for PVO in the non-spin-polarized,
+ferromagnetic,
+A-, C-, and G-type antiferromagnetic configurations for (a) paraelectric
+and (b) ferroelectric phases. The Fermi level is set to zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0010" id="gr10" position="float"/></fig><p>The total DOS for <italic>x</italic> = 0.33, 0.50, and 0.67 compositions
+were calculated with the GGA + <italic>U</italic> method, as shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figure S3</ext-link> in the Supporting Information.
+The band gap value decreases with increase in <italic>x</italic>.
+As it is known that the bond lengths and lattice parameters have direct
+impact on band gaps, the decreasing band gap may be attributed to
+the increase in the average Ti/V&#x02013;O bond length with <italic>x</italic> in Ti/V&#x02013;O<sub>6</sub> polyhedra. (The average Ti&#x02013;O
+bond length is 2.07 &#x000c5; in PTO, whereas the V&#x02013;O bond length
+is 2.11 &#x000c5; in the case of PVO.) The lattice parameter <italic>c</italic> also increases with <italic>x</italic>.</p><p>The band
+structures for both the para- and ferroelectric phases
+of <italic>x</italic> = 1 composition are shown in <xref rid="fig11" ref-type="fig">Figure <xref rid="fig11" ref-type="fig">11</xref></xref>. The <bold>k</bold>-path
+considered in the band structure is shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figure S4</ext-link> in the Supporting Information. The lowest bands seen around
+9 eV below the <italic>E</italic><sub>F</sub> are due to the Pb 6s
+states. It is to be noted that these bands are broader in the paraelectric
+phase, whereas in the ferroelectric phase, they are more localized
+in a small energy range. This explains the effect of 6s lone pair
+in stabilizing the ferroelectric state. A manifold of occupied O 2p
+bands are spread over a range of &#x02212;7 to &#x02212;2 eV. A pair
+of bands separated from O 2p bands are localized just below <italic>E</italic><sub>F</sub>. These are having V 3d character with no dispersion
+along &#x00393;&#x02013;<italic>Z</italic> direction and a very weak
+dispersion along <italic>X</italic>&#x02013;<italic>R</italic> as well
+as <italic>M</italic>&#x02013;<italic>A</italic> directions indicating
+a 2D characteristic in the <italic>ab</italic> plane.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> Above these band features, a narrow gap with the value
+of 0.2 eV is present in the ferroelectric phase. The conduction bands
+located in the vicinity of CB edge are derived from V 3d states, but
+the bands at higher energy (&#x0223c;3 eV) have mainly Pb 6p character.
+We have also calculated the band structure with the GGA + <italic>U</italic> method. The GGA + <italic>U</italic> band structures for <italic>x</italic> = 0.5 and 1 compositions are given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figures S5 and S6</ext-link> in the Supporting Information. It can be
+seen that when the V concentration is low, the vanadyl bond weakens
+and therefore the d<sub><italic>xy</italic></sub> band gets dispersed
+along the &#x00393;&#x02013;<italic>Z</italic>, <italic>X</italic>&#x02013;<italic>R</italic>, and <italic>M</italic>&#x02013;<italic>A</italic> directions.
+This indicates that the tendency of the system to form the 2D magnetism
+is reduced for lower <italic>x</italic> values.</p><fig id="fig11" position="float"><label>Figure 11</label><caption><p>Electronic band dispersion
+for PVO in the (left) paraelectric and
+(right) ferroelectric phases. The Fermi level is set to zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0011" id="gr11" position="float"/></fig></sec><sec id="sec3.4"><title>Magnetic Properties</title><p>We have calculated total energies
+for nonmagnetic and all of the magnetic orderings mentioned above
+for PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> in both paraelectric and ferroelectric phases,
+as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Table S1</ext-link> in the Supporting
+Information. PTO is a well-known nonmagnetic compound. Our total energy
+calculation reveals that the C-AF is the ground state for other compositions.
+It is to be noted that the C-AF and G-AF states are almost degenerate
+(see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Table S1</ext-link> in the Supporting Information).
+The present observation of C-AF state as a magnetic ground state for
+PVO is consistent with experimental observation of a two-dimensional
+C-AF phase and also with other theoretical studies.<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> To identify the exact composition where the nonmagnetic-to-magnetic
+transition occurs, we have plotted &#x00394;<italic>E</italic> versus <italic>x</italic> (where &#x00394;<italic>E</italic> = <italic>E</italic><sub>C-AF</sub> &#x02013; <italic>E</italic><sub>NM</sub>) for the
+ferroelectric phase, as shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Figure S7</ext-link> in the Supporting Information. The energy difference increases linearly
+as the concentration of V increases due to the increase in localized
+d electrons density per cell making the antiferromagnetic state more
+stable. We have extrapolated the &#x00394;<italic>E</italic> versus <italic>x</italic> curve, and the magnetic transition point is found to be <italic>x</italic> &#x0223c; 0.123. This is in agreement with previous theoretical
+finding by Ricci et al.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> using similar
+calculations that the magnetic ground state stabilizes in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> for <italic>x</italic> = 12.5%.</p><p>The total energy shows
+a nonmagnetic ground state for the paraelectric phase of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub>. So, the ferroelectric-to-paraelectric phase transition is
+associated with a magnetic-to-nonmagnetic transition, which shows
+a strong coupling between the electric and magnetic-order parameters
+for <italic>x</italic> &#x0003e; 0.123. Now, the large values of volume
+contraction
+during the structural transition can also be attributed to the associated
+magnetic phase transition. So, it can be said that this series of
+compounds possess not only giant magnetoelectric effect but also giant
+magnetovolume effect. It is to be noted that compounds with strong
+magnetovolume effect can be used to convert magnetic energy into kinetic
+energy or vice versa and are used to build actuators and sensors.</p><p>The orbital-projected DOS for the V 3d electrons for both paraelectric
+and ferroelectric phases in PVO are given in <xref rid="fig12" ref-type="fig">Figure <xref rid="fig12" ref-type="fig">12</xref></xref>a,b, respectively. In the presence of a
+cubic octahedral crystal field, the d level of transition-metal cation
+splits into t<sub>2g</sub> (with degenerate d<sub><italic>xy</italic></sub>, d<sub><italic>xy</italic></sub>, and d<sub><italic>zx</italic></sub> orbitals) and e<sub>g</sub> (with degenerate d<sub><italic>x</italic><sup>2</sup>&#x02013;<italic>y</italic><sup>2</sup></sub> and d<sub><italic>z</italic><sup>2</sup></sub>) orbitals. The e<sub>g</sub> levels are completely empty, whereas the t<sub>2g</sub> states
+are partially filled in the paraelectric phase resulting in a metallic
+state. The ferroelectric phase of PVO has a square pyramidal coordination
+(<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) because
+of the off-center displacement of V. Due to the presence of VO<sub>5</sub> square pyramidal environment, the t<sub>2g</sub> level of
+V 3d electrons splits into b<sub>2g</sub> (d<sub><italic>xy</italic></sub>) and doubly degenerate e<sub>g</sub> (d<sub><italic>yz</italic></sub>, d<sub><italic>xz</italic></sub>) levels with an energy difference
+of &#x0223c;1 eV. Similarly, the degeneracy of e<sub>g</sub> level
+breaks to produce separate b<sub>1g</sub> (d<sub><italic>x</italic><sup>2</sup>&#x02013;<italic>y</italic><sup>2</sup></sub>) and a<sub>1g</sub> (d<sub><italic>z</italic><sup>2</sup></sub>) levels.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> The orbital degeneracy is broken because of
+the second-order Jahn&#x02013;Teller ordering. This was also noted
+in the YTiO<sub>3</sub> with d<sup>1</sup> configuration of Ti<sup>3+</sup> similar to V<sup>4+</sup> in our study.<sup><xref ref-type="bibr" rid="ref58">58</xref></sup> The orbital-projected DOS for the ferroelectric phase given
+in <xref rid="fig12" ref-type="fig">Figure <xref rid="fig12" ref-type="fig">12</xref></xref>b shows
+that the localized V 3d electrons are present in the lowest-lying
+d<sub><italic>xy</italic></sub> orbital, which is separated from other <italic>d</italic> orbitals by crystal field splitting, making a spin 1/2
+antiferromagnetic ordering in the <italic>ab</italic> plane. Due to
+the localized nature of this d-electron, there is a strong intraatomic
+exchange splitting that shifts the unoccupied d<sub><italic>xy</italic></sub> states to relatively higher energy.</p><fig id="fig12" position="float"><label>Figure 12</label><caption><p>Orbital-projected density
+of states for the 3d electrons in the
+V site of PbVO<sub>3</sub> in the (a) paraelectric and (b) ferroelectric
+phases for their respective ground-state magnetic structures. The
+Fermi level is set to zero.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0012" id="gr12" position="float"/></fig><p>We know that the electrons present in the vicinity of Fermi
+level
+actively participate in electrical conduction and magnetic exchange
+interactions. So we have used the integrated values of the orbital-projected
+DOS, i.e., from <italic>E</italic><sub>F</sub> to &#x02212;1 eV, to
+study the orbital ordering. We have used the same procedure for OO
+study as given in our previous studies,<sup><xref ref-type="bibr" rid="ref59">59</xref>,<xref ref-type="bibr" rid="ref60">60</xref></sup> and such analysis
+provides not only the OO pattern but also a pictorial illustration
+of the orientation of a particular d orbital. The OO patterns for
+ferroelectric and paraelectric phases are shown in <xref rid="fig13" ref-type="fig">Figure <xref rid="fig13" ref-type="fig">13</xref></xref>. It can be seen that the
+V atom has a d<sub><italic>xy</italic></sub> pattern OO in the ferroelectric
+phase. This type of orbital ordering in PVO strengthens the intraplanar
+V&#x02013;O&#x02013;V interactions and also stabilizes the 2D magnetism.
+Hence, the magnetic and orbital ordering are ingeniously coupled with
+the lattice distortion and ionic displacements that result in strong
+magnetoelectric coupling. But in the cubic paraelectric case, the
+V&#x02013;O&#x02013;V interactions are strong enough to create an itinerant-electron
+band with all of the t<sub>2g</sub> orbitals partially filled. So,
+the OO pattern for paraelectric phase does not show a particular manner
+of ordering from any of the t<sub>2g</sub> orbitals. This weakens
+the exchange coupling and stabilizes a nonmagnetic ground state.</p><fig id="fig13" position="float"><label>Figure 13</label><caption><p>Orbital
+ordering pattern of PVO in (left) the ferroelectric and
+(right) paraelectric phases as derived from full-potential calculations.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0013" id="gr13" position="float"/></fig><p>The calculated magnetic moment
+at the V site is 0.93 &#x003bc;<sub>B</sub> for the ferroelectric phase.
+The covalency present between
+V and O induces a magnetic moment of 0.05 &#x003bc;<sub>B</sub> at the
+O site. The orbital magnetic moment at the V site evaluated using
+the SO + OP method is estimated to be &#x02212;0.045 &#x003bc;<sub>B</sub>. This indicates that the orbital magnetic moment is aligned antiparallelly
+with the spin magnetic moment. The magnitude of the orbital moment
+of PVO is almost 5 times less than that of BiCoO<sub>3</sub>.<sup><xref ref-type="bibr" rid="ref61">61</xref></sup> This is due to the presence of relatively larger
+spin moment and stronger spin&#x02013;orbit coupling in BiCoO<sub>3</sub>.</p><p>We have calculated the magnetic anisotropy energy<sup><xref ref-type="bibr" rid="ref62">62</xref>,<xref ref-type="bibr" rid="ref63">63</xref></sup> for <italic>x</italic> = 0.5 and 1 in their ground-state C-AF configurations.
+For this, we have calculated the variation of total energy by changing
+the direction of the magnetization with the force theorem for the
+compositions <italic>x</italic> = 0.5 and 1. The calculated relative
+magneto anisotropy energies for <italic>x</italic> = 0.5 with respect
+to the easy axis are 0, 0.125, 0.070, and 0.048 meV/f.u. and 0.592,
+1.630, 0, and 0.185 meV/f.u. for <italic>x</italic> = 1 in the [001],
+[100], [110], and [111] directions, respectively. Therefore, the easy
+axis for PbTi<sub>0.5</sub>V<sub>0.5</sub>O<sub>3</sub> and PVO are
+[001] and [110], respectively. The change in magnetic easy axis from <italic>x</italic> = 0.5 to 1 can be attributed to the formation of vanadyl
+bond with increase in V concentration, i.e., the <italic>x</italic> = 0.5 composition is a BiCoO<sub>3</sub> like C-AF (so it shows
+similar easy axis), and with increase in V concentration, the tendency
+to form a 2D antiferromagnetism increases (which also reflects in
+our band structure).</p><p>To get deeper understanding of the magnetic
+properties of PVO,
+we have simulated the XMCD and X-ray absorption spectra (XAS) at the
+L<sub>2,3</sub> edges of V in the ferromagnetic configuration of PVO.
+The XMCD and XAS spectra along with the left- and right-polarized
+spectra for V atom in PVO are given in <xref rid="fig14" ref-type="fig">Figure <xref rid="fig14" ref-type="fig">14</xref></xref>. By applying the sum rules<sup><xref ref-type="bibr" rid="ref46">46</xref>,<xref ref-type="bibr" rid="ref47">47</xref></sup> given in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">Supporting Information</ext-link>,
+we have evaluated the spin and orbital moments at the V site. The
+obtained orbital moment of &#x02212;0.039 &#x003bc;<sub>B</sub> for V
+is consistent with that obtained directly from the self-consistent
+calculations (&#x02212;0.045 &#x003bc;<sub>B</sub>). The sum rule analysis
+results in a spin moment of 0.8 &#x003bc;<sub>B</sub>/V for the V L<sub>2,3</sub> edges. However, this varies notably from the value calculated
+by the self-consistent field (SCF) method, which is &#x0223c;1 &#x003bc;<sub>B</sub>/V. Detailed analysis on different 3d compounds by Wende et
+al.<sup><xref ref-type="bibr" rid="ref64">64</xref></sup> shows that the deviation of the sum
+rule results from the SCF predictions is larger for lighter 3d elements<sup><xref ref-type="bibr" rid="ref65">65</xref>&#x02212;<xref ref-type="bibr" rid="ref67">67</xref></sup> as integral sum rule analysis ignores the spectral shape of the
+XMCD. So, the detailed fine structure in the XMCD of V should be fitted
+with the multipole moment analysis, as explained in ref (<xref ref-type="bibr" rid="ref67">67</xref>).</p><fig id="fig14" position="float"><label>Figure 14</label><caption><p>Absorption spectra at
+the V L<sub>2,3</sub> edges for right circular
+and left circular polarization of the exciting X-rays, X-ray magnetic
+circular dichroism, and X-ray absorption spectra in PVO.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0014" id="gr14" position="float"/></fig></sec><sec id="sec3.5"><title>Born Effective Charge and Spontaneous Polarization</title><p>We have calculated BECs for all of the compositions mentioned above.
+The diagonal components of the BECs for <italic>x</italic> = 0, 0.5,
+and 1.0 compositions are given in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>. The formal valences for Pb, V, Ti, and
+O in PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> are +2, +4, +4, and &#x02212;2, respectively.
+But the diagonal components of the calculated BEC tensors for the
+atoms are much larger than their nominal ionic values. This reveals
+that there is large dynamic contribution superimposed to the static
+charge. This is due to the strong covalency effect, where a large
+amount of nonrigid delocalized charge flows across this compound during
+the ionic displacement. This results in additional charges with respect
+to the nominal ionic values (anomalous contribution), which are obtained
+at the atomic sites. A large BEC value at the oxygen site also suggests
+that a large force can be generated by applying a small field which
+can stabilize the polarized state. In an effort to shed light on the
+polarization of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> and its origin, we have evaluated the
+polarization of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> for <italic>x</italic> = 0&#x02013;1.
+PTO and PVO are well-studied ferroelectrics with polarization values
+of 92 and 147 &#x003bc;C/cm<sup>2</sup>, respectively. The calculated
+polarization values increase from 92 &#x003bc;C/cm<sup>2</sup> for pure
+PTO to 105, 110, 118, 130, 135, and 147 &#x003bc;C/cm<sup>2</sup> for <italic>x</italic> = 0.25, 0.33, 0.5, 0.67, 0.75, and 1, respectively. This
+is due to the increase in tetragonal distortion with <italic>x</italic> as discussed above. The polarization calculated with point charges
+showed comparatively low values. The reduction in polarization values
+using point charges indicates that the covalency effect plays an important
+role in deciding the polarization of these materials.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Calculated Diagonal Components of
+the Born Effective Charge Tensors for <italic>x</italic> = 0, 0.5,
+and 1 of PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> in the Ferroelectric Phase with Ground-State
+Magnetic Ordering</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center"><italic>x</italic>&#x000a0;&#x02192;</th><th colspan="3" align="center" char=".">0<hr/></th><th colspan="3" align="center" char=".">0.5<hr/></th><th colspan="3" align="center" char=".">1<hr/></th></tr><tr><th style="border:none;" align="center">atom</th><th style="border:none;" align="center" char="."><italic>xx</italic></th><th style="border:none;" align="center" char="."><italic>yy</italic></th><th style="border:none;" align="center" char="."><italic>zz</italic></th><th style="border:none;" align="center" char="."><italic>xx</italic></th><th style="border:none;" align="center" char="."><italic>yy</italic></th><th style="border:none;" align="center" char="."><italic>zz</italic></th><th style="border:none;" align="center" char="."><italic>xx</italic></th><th style="border:none;" align="center" char="."><italic>yy</italic></th><th style="border:none;" align="center" char="."><italic>zz</italic></th></tr></thead><tbody><tr><td style="border:none;" align="left">Pb</td><td style="border:none;" align="char" char=".">3.641</td><td style="border:none;" align="char" char=".">3.641</td><td style="border:none;" align="char" char=".">3.331</td><td style="border:none;" align="char" char=".">3.623</td><td style="border:none;" align="char" char=".">3.617</td><td style="border:none;" align="char" char=".">3.664</td><td style="border:none;" align="char" char=".">3.251</td><td style="border:none;" align="char" char=".">3.232</td><td style="border:none;" align="char" char=".">3.275</td></tr><tr><td style="border:none;" align="left">Ti</td><td style="border:none;" align="char" char=".">6.166</td><td style="border:none;" align="char" char=".">6.166</td><td style="border:none;" align="char" char=".">4.961</td><td style="border:none;" align="char" char=".">5.480</td><td style="border:none;" align="char" char=".">5.406</td><td style="border:none;" align="char" char=".">4.778</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left">V</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="char" char=".">4.348</td><td style="border:none;" align="char" char=".">4.440</td><td style="border:none;" align="char" char=".">4.435</td><td style="border:none;" align="char" char=".">4.880</td><td style="border:none;" align="char" char=".">4.824</td><td style="border:none;" align="char" char=".">3.749</td></tr><tr><td style="border:none;" align="left">O1</td><td style="border:none;" align="char" char=".">&#x02013;1.938</td><td style="border:none;" align="char" char=".">&#x02013;1.938</td><td style="border:none;" align="char" char=".">&#x02013;4.245</td><td style="border:none;" align="char" char=".">&#x02013;1.148</td><td style="border:none;" align="char" char=".">&#x02013;1.154</td><td style="border:none;" align="char" char=".">&#x02013;3.098</td><td style="border:none;" align="char" char=".">&#x02013;1.442</td><td style="border:none;" align="char" char=".">&#x02013;1.525</td><td style="border:none;" align="char" char=".">&#x02013;3.720</td></tr><tr><td style="border:none;" align="left">O2</td><td style="border:none;" align="char" char=".">&#x02013;2.603</td><td style="border:none;" align="char" char=".">&#x02013;5.266</td><td style="border:none;" align="char" char=".">&#x02013;2.024</td><td style="border:none;" align="char" char=".">&#x02013;2.078</td><td style="border:none;" align="char" char=".">&#x02013;3.875</td><td style="border:none;" align="char" char=".">&#x02013;1.417</td><td style="border:none;" align="char" char=".">&#x02013;2.209</td><td style="border:none;" align="char" char=".">&#x02013;4.029</td><td style="border:none;" align="char" char=".">&#x02013;1.764</td></tr><tr><td style="border:none;" align="left">O3</td><td style="border:none;" align="char" char=".">&#x02013;5.266</td><td style="border:none;" align="char" char=".">&#x02013;2.603</td><td style="border:none;" align="char" char=".">&#x02013;2.024</td><td style="border:none;" align="char" char=".">&#x02013;3.716</td><td style="border:none;" align="char" char=".">&#x02013;1.899</td><td style="border:none;" align="char" char=".">&#x02013;1.423</td><td style="border:none;" align="char" char=".">&#x02013;3.877</td><td style="border:none;" align="char" char=".">&#x02013;2.513</td><td style="border:none;" align="char" char=".">&#x02013;1.724</td></tr></tbody></table></table-wrap><p>The atom-decomposed spontaneous polarization is given
+for <italic>x</italic> = 0, 0.5, and 1 compositions in <xref rid="fig15" ref-type="fig">Figure <xref rid="fig15" ref-type="fig">15</xref></xref>. The major contribution toward
+the polarization
+is coming from the displacement of the O atom from its centrosymmetric
+position. It can be seen that the polarization contribution of Ti
+toward higher <italic>x</italic> value decreases. In contrast, an
+opposite trend is seen for V atom. This is because of the enhancement
+of covalency between B-site cation and O with V substitution at Ti
+site.</p><fig id="fig15" position="float"><label>Figure 15</label><caption><p>Calculated site-projected spontaneous electric polarization of
+PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> for <italic>x</italic> = 0 (top), 0.5 (middle),
+and 1 (bottom).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_0015" id="gr15" position="float"/></fig></sec></sec><sec id="sec4"><title>Conclusions</title><p>PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> possesses strong coupling between magnetic- and
+electric-order parameters for V concentration &#x0003e; 12.3%. Lower substituted
+compositions are nonmagnetic ferroelectrics. Also, from the other
+side, the inclusion of Ti at the V site increases the chance of forming
+a 3D arrangement of V cations rather than 2D. The strong covalency
+between Ti/V and O and notable covalency between Pb and O bring the
+noncentrosymmetric distortion and stabilize the ferroelectric ground
+state. The ferroelectric-to-paraelectric transition is accompanied
+by a magnetic-to-nonmagnetic transition for <italic>x</italic> &#x0003e;
+0.123.
+There is a large volume contraction during the above transition, indicating
+a strong lattice&#x02013;ferroelectric coupling and strong magnetovolume
+effect. The calculations show high values of spontaneous electrical
+polarizations, which are mainly due to the displacement of the apical
+oxygen in the BO<sub>6</sub> octahedra in the paraelectric phase due
+to strong Ti/V&#x02013;O covalent interaction. Therefore, PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> is aseries of multifunctional compounds having giant magnetoelectric
+effect where one can change the magnetic properties drastically (even
+from magnetic to nonmagnetic, as shown here) by applying electric
+field and vice versa, strong magnetovolume effect, induce 2D magnetism
+as well as orbital ordering by electric field, strong ferroelectric&#x02013;lattice
+coupling, etc. Also, recent experimental studies by Pan et al.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> show that for lower V concentration, this series
+shows good NTE response, and also a temperature-induced tetragonal-to-cubic
+transition occurs, which makes this series more interesting for the
+researchers to investigate its magneto/electro/multicaloric properties.
+With all of these properties coexisting in the series, PbTi<sub>1&#x02013;<italic>x</italic></sub>V<sub><italic>x</italic></sub>O<sub>3</sub> can be
+useful for many multifunctional device applications.</p></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b01176">10.1021/acsomega.9b01176</ext-link>.<list id="silist" list-type="simple"><list-item><p>Energy vs <italic>c</italic>/<italic>a</italic> ratio
+curves, partial DOS for <italic>x</italic> = 0.50 with the GGA + <italic>U</italic> method, total DOS for <italic>x</italic> = 0.33, 0.50,
+and 0.67 with the GGA + <italic>U</italic> method, the Brillouin zone
+path used for band calculations, electronic band structure for <italic>x</italic> = 0.50 with the GGA + <italic>U</italic> method, electronic
+band structure for <italic>x</italic> = 1 with the GGA + <italic>U</italic> method, variation of energy difference between magnetic and nonmagnetic
+states with <italic>x</italic>, and sum rule analysis (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b01176/suppl_file/ao9b01176_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b01176_si_001.pdf"><caption><p>ao9b01176_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e2432-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors are grateful to the Research Council of
+Norway
+for computing facilities (under project number NN2875k) at the Norwegian
+supercomputer consortium (NOTUR). This research was supported by the
+Indo-Norwegian Cooperative Program (INCP) via Grant No. F. 58-12/2014(IC).
+L.P. thanks Prof. Anja Olafsen Sj&#x000e5;stad for her fruitful discussions.
+L.P. also thanks M.R. Ashwin Kishore and A. Krishnamoorthy for critical
+reading of the manuscript.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Fiebig</surname><given-names>M.</given-names></name>
+<article-title>Revival of
+the magnetoelectric effect</article-title>. <source>J. Phys. D: Appl.
+Phys.</source>
+<year>2005</year>, <volume>38</volume>, <fpage>R123</fpage><pub-id pub-id-type="doi">10.1088/0022-3727/38/8/R01</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Spaldin</surname><given-names>N. A.</given-names></name>; <name><surname>Fiebig</surname><given-names>M.</given-names></name>
+<article-title>The renaissance of
+magnetoelectric multiferroics</article-title>. <source>Science</source>
+<year>2005</year>, <volume>309</volume>, <fpage>391</fpage>&#x02013;<lpage>392</lpage>. <pub-id pub-id-type="doi">10.1126/science.1113357</pub-id>.<pub-id pub-id-type="pmid">16020720</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Cheong</surname><given-names>S.-W.</given-names></name>; <name><surname>Mostovoy</surname><given-names>M.</given-names></name>
+<article-title>Multiferroics: a magnetic twist for
+ferroelectricity</article-title>. <source>Nat. Mater.</source>
+<year>2007</year>, <volume>6</volume>, <fpage>13</fpage>&#x02013;<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1038/nmat1804</pub-id>.<pub-id pub-id-type="pmid">17199121</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Ramesh</surname><given-names>R.</given-names></name>; <name><surname>Spaldin</surname><given-names>N. A.</given-names></name>
+<article-title>Multiferroics: progress and prospects in thin films</article-title>. <source>Nat. Mater.</source>
+<year>2007</year>, <volume>6</volume>, <fpage>21</fpage>&#x02013;<lpage>29</lpage>. <pub-id pub-id-type="doi">10.1038/nmat1805</pub-id>.<pub-id pub-id-type="pmid">17199122</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Bibes</surname><given-names>M.</given-names></name>; <name><surname>Barth&#x000e9;l&#x000e9;my</surname><given-names>A.</given-names></name>
+<article-title>Multiferroics:
+Towards a magnetoelectric
+memory</article-title>. <source>Nat. Mater.</source>
+<year>2008</year>, <volume>7</volume>, <fpage>425</fpage>&#x02013;<lpage>426</lpage>. <pub-id pub-id-type="doi">10.1038/nmat2189</pub-id>.<pub-id pub-id-type="pmid">18497843</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Gonz&#x000e1;lez-V&#x000e1;zquez</surname><given-names>O.</given-names></name>; <name><surname>Wojde&#x00142;</surname><given-names>J. C.</given-names></name>; <name><surname>Di&#x000e9;guez</surname><given-names>O.</given-names></name>; <name><surname>&#x000cd;&#x000f1;iguez</surname><given-names>J.</given-names></name>
+<article-title>First-principles
+investigation of the structural phases and enhanced response properties
+of the BiFeO<sub>3</sub>-LaFeO<sub>3</sub> multiferroic solid solution</article-title>. <source>Phys. Rev. B</source>
+<year>2012</year>, <volume>85</volume>, <elocation-id>064119</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.85.064119</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Ma</surname><given-names>Z.</given-names></name>; <name><surname>Tian</surname><given-names>Z.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>C.</given-names></name>; <name><surname>Huo</surname><given-names>S.</given-names></name>; <name><surname>Duan</surname><given-names>H.</given-names></name>; <name><surname>Yuan</surname><given-names>S.</given-names></name>
+<article-title>Enhanced polarization
+and magnetization
+in multiferroic (1-<italic>x</italic>)BiFeO<sub>3</sub>-<italic>x</italic>SrTiO<sub>3</sub> solid solution</article-title>. <source>Solid State
+Sci.</source>
+<year>2011</year>, <volume>13</volume>, <fpage>2196</fpage>&#x02013;<lpage>2200</lpage>. <pub-id pub-id-type="doi">10.1016/j.solidstatesciences.2011.10.008</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Zhu</surname><given-names>W.-M.</given-names></name>; <name><surname>Guo</surname><given-names>H.-Y.</given-names></name>; <name><surname>Ye</surname><given-names>Z.-G.</given-names></name>
+<article-title>Structural
+and magnetic characterization
+of multiferroic (BiFeO<sub>3</sub>)<sub>1&#x02013;<italic>x</italic></sub>(PbTiO<sub>3</sub>)<sub><italic>x</italic></sub> solid solutions</article-title>. <source>Phys. Rev. B</source>
+<year>2008</year>, <volume>78</volume>, <elocation-id>014401</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.78.014401</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Di&#x000e9;guez</surname><given-names>O.</given-names></name>; <name><surname>&#x000cd;&#x000f1;iguez</surname><given-names>J.</given-names></name>
+<article-title>First-Principles
+Investigation of
+Morphotropic Transitions and Phase-Change Functional Responses in
+BiFeO<sub>3</sub>-BiCoO<sub>3</sub> Multiferroic Solid Solutions</article-title>. <source>Phys. Rev. Lett.</source>
+<year>2011</year>, <volume>107</volume>, <elocation-id>057601</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.107.057601</pub-id>.<pub-id pub-id-type="pmid">21867098</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Singh</surname><given-names>A.</given-names></name>; <name><surname>Chatterjee</surname><given-names>R.</given-names></name>
+<article-title>Magnetization
+induced dielectric anomaly in multiferroic
+LaFeO<sub>3</sub>-PbTiO<sub>3</sub> solid solution</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2008</year>, <volume>93</volume>, <elocation-id>182908</elocation-id><pub-id pub-id-type="doi">10.1063/1.3012389</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Hang</surname><given-names>Q.</given-names></name>; <name><surname>Xing</surname><given-names>Z.</given-names></name>; <name><surname>Zhu</surname><given-names>X.</given-names></name>; <name><surname>Yu</surname><given-names>M.</given-names></name>; <name><surname>Song</surname><given-names>Y.</given-names></name>; <name><surname>Zhu</surname><given-names>J.</given-names></name>; <name><surname>Liu</surname><given-names>Z.</given-names></name>
+<article-title>Dielectric properties
+and related ferroelectric domain
+configurations in multiferroic BiFeO<sub>3</sub>-BaTiO<sub>3</sub> solid solutions</article-title>. <source>Ceram. Int.</source>
+<year>2012</year>, <volume>38</volume>, <fpage>S411</fpage>&#x02013;<lpage>S414</lpage>. <pub-id pub-id-type="doi">10.1016/j.ceramint.2011.05.022</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Patra</surname><given-names>L.</given-names></name>; <name><surname>Pan</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Azuma</surname><given-names>M.</given-names></name>; <name><surname>Ravindran</surname><given-names>P.</given-names></name>
+<article-title>Metamagnetism
+stabilized giant magnetoelectric coupling in ferroelectric <italic>x</italic>BaTiO<sub>3</sub>-(1-<italic>x</italic>)BiCoO<sub>3</sub> solid solution</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2018</year>, <volume>20</volume>, <fpage>7021</fpage>&#x02013;<lpage>7032</lpage>. <pub-id pub-id-type="doi">10.1039/C7CP07677K</pub-id>.<pub-id pub-id-type="pmid">29469917</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Hu</surname><given-names>L.</given-names></name>; <name><surname>Deng</surname><given-names>J.</given-names></name>; <name><surname>Xing</surname><given-names>X.</given-names></name>
+<article-title>Negative thermal expansion in functional
+materials: controllable thermal expansion by chemical modifications</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2015</year>, <volume>44</volume>, <fpage>3522</fpage>&#x02013;<lpage>3567</lpage>. <pub-id pub-id-type="doi">10.1039/C4CS00461B</pub-id>.<pub-id pub-id-type="pmid">25864730</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Shpanchenko</surname><given-names>R. V.</given-names></name>; <name><surname>Chernaya</surname><given-names>V. V.</given-names></name>; <name><surname>Tsirlin</surname><given-names>A. A.</given-names></name>; <name><surname>Chizhov</surname><given-names>P. S.</given-names></name>; <name><surname>Sklovsky</surname><given-names>D. E.</given-names></name>; <name><surname>Antipov</surname><given-names>E. V.</given-names></name>; <name><surname>Khlybov</surname><given-names>E. P.</given-names></name>; <name><surname>Pomjakushin</surname><given-names>V.</given-names></name>; <name><surname>Balagurov</surname><given-names>A. M.</given-names></name>; <name><surname>Medvedeva</surname><given-names>J. E.</given-names></name>; <name><surname>Kaul</surname><given-names>E. E.</given-names></name>; <name><surname>Geibel</surname><given-names>C.</given-names></name>
+<article-title>Synthesis,
+structure, and properties of new perovskite PbVO<sub>3</sub></article-title>. <source>Chem. Mater.</source>
+<year>2004</year>, <volume>16</volume>, <fpage>3267</fpage>&#x02013;<lpage>3273</lpage>. <pub-id pub-id-type="doi">10.1021/cm049310x</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="thesis" id="cit15"><person-group person-group-type="allauthors"><name><surname>Okos</surname><given-names>A.</given-names></name></person-group><article-title>Synthesis and
+Characterization of Pb(V<sub>1&#x02013;<italic>x</italic></sub>M<sub><italic>x</italic></sub>)O<sub>3</sub> Compounds</article-title>.
+Ph.D. thesis, <publisher-name>Universit&#x000e9; de Grenoble</publisher-name>, <year>2014</year>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Belik</surname><given-names>A. A.</given-names></name>; <name><surname>Azuma</surname><given-names>M.</given-names></name>; <name><surname>Saito</surname><given-names>T.</given-names></name>; <name><surname>Shimakawa</surname><given-names>Y.</given-names></name>; <name><surname>Takano</surname><given-names>M.</given-names></name>
+<article-title>Crystallographic features and tetragonal
+phase stability
+of PbVO<sub>3</sub>, a new member of PbTiO<sub>3</sub> family</article-title>. <source>Chem. Mater.</source>
+<year>2005</year>, <volume>17</volume>, <fpage>269</fpage>&#x02013;<lpage>273</lpage>. <pub-id pub-id-type="doi">10.1021/cm048387i</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Uratani</surname><given-names>Y.</given-names></name>; <name><surname>Shishidou</surname><given-names>T.</given-names></name>; <name><surname>Oguchi</surname><given-names>T.</given-names></name>
+<article-title>First-principles study on the magnetic
+anisotropy in multiferroic PbVO<sub>3</sub> and BiCoO<sub>3</sub></article-title>. <source>J. Phys. Soc. Jpn.</source>
+<year>2009</year>, <volume>78</volume>, <elocation-id>084709</elocation-id><pub-id pub-id-type="doi">10.1143/JPSJ.78.084709</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Singh</surname><given-names>D. J.</given-names></name>
+<article-title>Electronic
+structure and bond competition in the polar magnet PbVO<sub>3</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2006</year>, <volume>73</volume>, <elocation-id>094102</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.73.094102</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Tsirlin</surname><given-names>A. A.</given-names></name>; <name><surname>Belik</surname><given-names>A. A.</given-names></name>; <name><surname>Shpanchenko</surname><given-names>R. V.</given-names></name>; <name><surname>Antipov</surname><given-names>E. V.</given-names></name>; <name><surname>Takayama-Muromachi</surname><given-names>E.</given-names></name>; <name><surname>Rosner</surname><given-names>H.</given-names></name>
+<article-title>Frustrated spin-1/2
+square lattice in the layered perovskite
+PbVO<sub>3</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2008</year>, <volume>77</volume>, <elocation-id>092402</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.77.092402</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Oka</surname><given-names>K.</given-names></name>; <name><surname>Yamada</surname><given-names>I.</given-names></name>; <name><surname>Azuma</surname><given-names>M.</given-names></name>; <name><surname>Takeshita</surname><given-names>S.</given-names></name>; <name><surname>Satoh</surname><given-names>K. H.</given-names></name>; <name><surname>Koda</surname><given-names>A.</given-names></name>; <name><surname>Kadono</surname><given-names>R.</given-names></name>; <name><surname>Takano</surname><given-names>M.</given-names></name>; <name><surname>Shimakawa</surname><given-names>Y.</given-names></name>
+<article-title>Magnetic ground-state of perovskite PbVO<sub>3</sub> with large tetragonal distortion</article-title>. <source>Inorg. Chem.</source>
+<year>2008</year>, <volume>47</volume>, <fpage>7355</fpage>&#x02013;<lpage>7359</lpage>. <pub-id pub-id-type="doi">10.1021/ic800649a</pub-id>.<pub-id pub-id-type="pmid">18642895</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Martin</surname><given-names>L. W.</given-names></name>; <name><surname>Zhan</surname><given-names>Q.</given-names></name>; <name><surname>Suzuki</surname><given-names>Y.</given-names></name>; <name><surname>Ramesh</surname><given-names>R.</given-names></name>; <name><surname>Chi</surname><given-names>M.</given-names></name>; <name><surname>Browning</surname><given-names>N.</given-names></name>; <name><surname>Mizoguchi</surname><given-names>T.</given-names></name>; <name><surname>Kreisel</surname><given-names>J.</given-names></name>
+<article-title>Growth and structure
+of PbVO<sub>3</sub> thin films</article-title>. <source>Appl. Phys.
+Lett.</source>
+<year>2007</year>, <volume>90</volume>, <elocation-id>062903</elocation-id><pub-id pub-id-type="doi">10.1063/1.2435944</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Kumar</surname><given-names>A.</given-names></name>; <name><surname>Martin</surname><given-names>L. W.</given-names></name>; <name><surname>Denev</surname><given-names>S.</given-names></name>; <name><surname>Kortright</surname><given-names>J. B.</given-names></name>; <name><surname>Suzuki</surname><given-names>Y.</given-names></name>; <name><surname>Ramesh</surname><given-names>R.</given-names></name>; <name><surname>Gopalan</surname><given-names>V.</given-names></name>
+<article-title>Polar and magnetic
+properties of PbVO<sub>3</sub> thin films</article-title>. <source>Phys.
+Rev. B</source>
+<year>2007</year>, <volume>75</volume>, <elocation-id>060101</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.75.060101</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Chi</surname><given-names>M.</given-names></name>; <name><surname>Mizoguchi</surname><given-names>T.</given-names></name>; <name><surname>Martin</surname><given-names>L.</given-names></name>; <name><surname>Ramesh</surname><given-names>R.</given-names></name>; <name><surname>Browning</surname><given-names>N.</given-names></name>
+<article-title>Studying Thin-film
+Perovskite Vanadates by EELS</article-title>. <source>Microsc. Microanal.</source>
+<year>2007</year>, <volume>13</volume>, <fpage>1234</fpage>&#x02013;<lpage>1235</lpage>. <pub-id pub-id-type="doi">10.1017/S1431927607073114</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Solovyev</surname><given-names>I.</given-names></name>
+<article-title>Magnetic structure
+of the noncentrosymmetric perovskites PbVO<sub>3</sub> and BiCoO<sub>3</sub>: Theoretical analysis</article-title>. <source>Phys. Rev. B</source>
+<year>2012</year>, <volume>85</volume>, <elocation-id>054420</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.85.054420</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Parveen</surname><given-names>A.</given-names></name>; <name><surname>Srivastava</surname><given-names>A.</given-names></name>; <name><surname>Gaur</surname><given-names>N.</given-names></name>
+<article-title>Thermal properties of a novel compound
+PbVO<sub>3</sub></article-title>. <source>J. Phys.: Conf. Ser.</source>
+<year>2012</year>, <volume>377</volume>, <elocation-id>012059</elocation-id><pub-id pub-id-type="doi">10.1088/1742-6596/377/1/012059</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Ming</surname><given-names>X.</given-names></name>; <name><surname>Yin</surname><given-names>J.-W.</given-names></name>; <name><surname>Wang</surname><given-names>X.-L.</given-names></name>; <name><surname>Wang</surname><given-names>C.-Z.</given-names></name>; <name><surname>Huang</surname><given-names>Z.-F.</given-names></name>; <name><surname>Chen</surname><given-names>G.</given-names></name>
+<article-title>First-principles comparative
+study of multiferroic compound PbVO<sub>3</sub></article-title>. <source>Solid State Sci.</source>
+<year>2010</year>, <volume>12</volume>, <fpage>938</fpage>&#x02013;<lpage>945</lpage>. <pub-id pub-id-type="doi">10.1016/j.solidstatesciences.2010.01.027</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Zhou</surname><given-names>W.</given-names></name>; <name><surname>Tan</surname><given-names>D.</given-names></name>; <name><surname>Xiao</surname><given-names>W.</given-names></name>; <name><surname>Song</surname><given-names>M.</given-names></name>; <name><surname>Chen</surname><given-names>M.</given-names></name>; <name><surname>Xiong</surname><given-names>X.</given-names></name>; <name><surname>Xu</surname><given-names>J.</given-names></name>
+<article-title>Structural
+properties of PbVO<sub>3</sub> perovskites under hydrostatic
+pressure conditions up to 10.6 GPa</article-title>. <source>J. Phys.:
+Condens. Matter</source>
+<year>2012</year>, <volume>24</volume>, <elocation-id>435403</elocation-id><pub-id pub-id-type="doi">10.1088/0953-8984/24/43/435403</pub-id>.<pub-id pub-id-type="pmid">23041755</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Milo&#x00161;evi&#x00107;</surname><given-names>A. S.</given-names></name>; <name><surname>Lali&#x00107;</surname><given-names>M. V.</given-names></name>; <name><surname>Popovi&#x00107;</surname><given-names>Z. S.</given-names></name>; <name><surname>Vukajlovi&#x00107;</surname><given-names>F.
+R.</given-names></name>
+<article-title>An ab initio
+study of electronic structure and optical properties of multiferroic
+perovskites PbVO<sub>3</sub> and BiCoO<sub>3</sub></article-title>. <source>Opt. Mater.</source>
+<year>2013</year>, <volume>35</volume>, <fpage>1765</fpage>&#x02013;<lpage>1771</lpage>. <pub-id pub-id-type="doi">10.1016/j.optmat.2013.04.033</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Ming</surname><given-names>X.</given-names></name>; <name><surname>Hu</surname><given-names>F.</given-names></name>; <name><surname>Du</surname><given-names>F.</given-names></name>; <name><surname>Wei</surname><given-names>Y.-J.</given-names></name>; <name><surname>Chen</surname><given-names>G.</given-names></name>
+<article-title>First-principles study
+of multiferroic material PbVO<sub>3</sub> under uniaxial pressure</article-title>. <source>Eur. Phys. J. B</source>
+<year>2015</year>, <volume>88</volume>, <fpage>212</fpage><pub-id pub-id-type="doi">10.1140/epjb/e2015-60399-3</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Kadiri</surname><given-names>A.</given-names></name>; <name><surname>Arejdal</surname><given-names>M.</given-names></name>; <name><surname>Abbassi</surname><given-names>A.</given-names></name>; <name><surname>El Amraoui</surname><given-names>Y.</given-names></name>; <name><surname>Ez-Zahraouy</surname><given-names>H.</given-names></name>; <name><surname>Benyoussef</surname><given-names>A.</given-names></name>
+<article-title>Calculated
+Magnetic Properties of
+the Compound PbVO<sub>3</sub></article-title>. <source>J. Supercond.
+Novel Magn.</source>
+<year>2017</year>, <volume>30</volume>, <fpage>2247</fpage>&#x02013;<lpage>2253</lpage>. <pub-id pub-id-type="doi">10.1007/s10948-017-4029-1</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Oka</surname><given-names>K.</given-names></name>; <name><surname>Yamauchi</surname><given-names>T.</given-names></name>; <name><surname>Kanungo</surname><given-names>S.</given-names></name>; <name><surname>Shimazu</surname><given-names>T.</given-names></name>; <name><surname>Oh-ishi</surname><given-names>K.</given-names></name>; <name><surname>Uwatoko</surname><given-names>Y.</given-names></name>; <name><surname>Azuma</surname><given-names>M.</given-names></name>; <name><surname>Saha-Dasgupta</surname><given-names>T.</given-names></name>
+<article-title>Experimental
+and Theoretical Studies of the Metallic Conductivity in Cubic PbVO<sub>3</sub> under High Pressure</article-title>. <source>J. Phys. Soc.
+Jpn.</source>
+<year>2018</year>, <volume>87</volume>, <elocation-id>024801</elocation-id><pub-id pub-id-type="doi">10.7566/JPSJ.87.024801</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Tsuchiya</surname><given-names>T.</given-names></name>; <name><surname>Katsumata</surname><given-names>T.</given-names></name>; <name><surname>Ohba</surname><given-names>T.</given-names></name>; <name><surname>Inaguma</surname><given-names>Y.</given-names></name>
+<article-title>High-pressure
+synthesis
+and characterization of a novel perovskite PbFe<sub>1/2</sub>V<sub>1/2</sub>O<sub>3</sub></article-title>. <source>J. Ceram. Soc. Jpn.</source>
+<year>2009</year>, <volume>117</volume>, <fpage>102</fpage>&#x02013;<lpage>105</lpage>. <pub-id pub-id-type="doi">10.2109/jcersj2.117.102</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Ar&#x000e9;valo-L&#x000f3;pez</surname><given-names>A. M.</given-names></name>; <name><surname>Alario-Franco</surname><given-names>M. A.</given-names></name>
+<article-title>Structural
+Percolation in the PbMO<sub>1&#x02013;<italic>x</italic></sub>MO<sub><italic>x</italic></sub>O<sub>3</sub> (<italic>M</italic>, <italic>M</italic> = Ti, Cr, and V) Perovskites</article-title>. <source>Inorg.
+Chem.</source>
+<year>2011</year>, <volume>50</volume>, <fpage>7136</fpage>&#x02013;<lpage>7141</lpage>. <pub-id pub-id-type="doi">10.1021/ic200680u</pub-id>.<pub-id pub-id-type="pmid">21699225</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Ricci</surname><given-names>F.</given-names></name>; <name><surname>Fiorentini</surname><given-names>V.</given-names></name>
+<article-title>Multiferroicity
+in V-doped PbTiO<sub>3</sub></article-title>. <source>J. Phys.: Conf.
+Ser.</source>
+<year>2013</year>, <volume>470</volume>, <elocation-id>012013</elocation-id><pub-id pub-id-type="doi">10.1088/1742-6596/470/1/012013</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Pan</surname><given-names>Z.</given-names></name>; et al. <article-title>Colossal Volume Contraction
+in Strong Polar Perovskites of Pb(Ti,V)O<sub>3</sub></article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2017</year>, <volume>139</volume>, <fpage>14865</fpage>&#x02013;<lpage>14868</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.7b08625</pub-id>.<pub-id pub-id-type="pmid">28994586</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficient iterative schemes for ab initio total-energy
+calculations using a plane-wave basis set</article-title>. <source>Phys.
+Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1996</year>, <volume>54</volume>, <fpage>11169</fpage>&#x02013;<lpage>11186</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.54.11169</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized
+gradient approximation
+made simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Ernzerhof</surname><given-names>M.</given-names></name>; <name><surname>Scuseria</surname><given-names>G. E.</given-names></name>
+<article-title>Assessment of the Perdew-Burke-Ernzerhof
+exchange-correlation
+functional</article-title>. <source>J. Chem. Phys</source>
+<year>1999</year>, <volume>110</volume>, <fpage>5029</fpage>&#x02013;<lpage>5036</lpage>. <pub-id pub-id-type="doi">10.1063/1.478401</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Ravindran</surname><given-names>P.</given-names></name>; <name><surname>Vidya</surname><given-names>R.</given-names></name>; <name><surname>Kjekshus</surname><given-names>A.</given-names></name>; <name><surname>Fjellv&#x000e5;g</surname><given-names>H.</given-names></name>; <name><surname>Eriksson</surname><given-names>O.</given-names></name>
+<article-title>Theoretical investigation of magnetoelectric behavior
+in BiFeO<sub>3</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2006</year>, <volume>74</volume>, <elocation-id>224412</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.74.224412</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Monkhorst</surname><given-names>H. J.</given-names></name>; <name><surname>Pack</surname><given-names>J. D.</given-names></name>
+<article-title>Special points for Brillouin-zone
+integrations</article-title>. <source>Phys. Rev. B</source>
+<year>1976</year>, <volume>13</volume>, <fpage>5188</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.13.5188</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Patra</surname><given-names>L.</given-names></name>; <name><surname>Kishore</surname><given-names>M. A.</given-names></name>; <name><surname>Vidya</surname><given-names>R.</given-names></name>; <name><surname>Sj&#x000e5;stad</surname><given-names>A. O.</given-names></name>; <name><surname>Fjellv&#x000e5;g</surname><given-names>H.</given-names></name>; <name><surname>Ravindran</surname><given-names>P.</given-names></name>
+<article-title>Electronic and Magnetic Structures
+of Hole Doped Trilayer La<sub>4&#x02013;<italic>x</italic></sub>Sr<sub><italic>x</italic></sub>Ni<sub>3</sub>O<sub>8</sub> from First-Principles
+Calculations</article-title>. <source>Inorg. Chem.</source>
+<year>2016</year>, <volume>55</volume>, <fpage>11898</fpage>&#x02013;<lpage>11907</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.6b01938</pub-id>.<pub-id pub-id-type="pmid">27809483</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Resta</surname><given-names>R.</given-names></name>
+<article-title>Macroscopic
+polarization in crystalline dielectrics: the geometric phase approach</article-title>. <source>Rev. Mod. Phys.</source>
+<year>1994</year>, <volume>66</volume>, <fpage>899</fpage><pub-id pub-id-type="doi">10.1103/RevModPhys.66.899</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>King-Smith</surname><given-names>R.</given-names></name>; <name><surname>Vanderbilt</surname><given-names>D.</given-names></name>
+<article-title>Theory of
+polarization of crystalline solids</article-title>. <source>Phys. Rev.
+B</source>
+<year>1993</year>, <volume>47</volume>, <fpage>1651</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.47.1651</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="book" id="cit44"><person-group person-group-type="allauthors"><name><surname>Blaha</surname><given-names>P.</given-names></name>; <name><surname>Schwarz</surname><given-names>K.</given-names></name>; <name><surname>Madsen</surname><given-names>G. K.</given-names></name>; <name><surname>Kvasnicka</surname><given-names>D.</given-names></name>; <name><surname>Luitz</surname><given-names>J.</given-names></name></person-group> In <source>WIEN2k: An Augmented Plane Wave
+Plus Local Orbitals Program for Calculating Crystal Properties</source>; <person-group person-group-type="editor"><name><surname>Schwarz</surname><given-names>K.</given-names></name></person-group>, Ed.; <publisher-name>Vienna University of Technology</publisher-name>: <publisher-loc>Austria</publisher-loc>, <year>2001</year>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Erskine</surname><given-names>J.</given-names></name>; <name><surname>Stern</surname><given-names>E.</given-names></name>
+<article-title>Calculation of the M<sub>23</sub> magneto-optical absorption spectrum
+of ferromagnetic nickel</article-title>. <source>Phys. Rev. B</source>
+<year>1975</year>, <volume>12</volume>, <fpage>5016</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.12.5016</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Carra</surname><given-names>P.</given-names></name>; <name><surname>Thole</surname><given-names>B.</given-names></name>; <name><surname>Altarelli</surname><given-names>M.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>
+<article-title>X-ray circular dichroism
+and local magnetic fields</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1993</year>, <volume>70</volume>, <fpage>694</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.70.694</pub-id>.<pub-id pub-id-type="pmid">10054179</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Thole</surname><given-names>B.</given-names></name>; <name><surname>Carra</surname><given-names>P.</given-names></name>; <name><surname>Sette</surname><given-names>F.</given-names></name>; <name><surname>van der
+Laan</surname><given-names>G.</given-names></name>
+<article-title>X-ray circular
+dichroism as a probe of orbital magnetization</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1992</year>, <volume>68</volume>, <fpage>1943</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.68.1943</pub-id>.<pub-id pub-id-type="pmid">10045260</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Nekrasov</surname><given-names>I.</given-names></name>; <name><surname>Keller</surname><given-names>G.</given-names></name>; <name><surname>Kondakov</surname><given-names>D.</given-names></name>; <name><surname>Kozhevnikov</surname><given-names>A.</given-names></name>; <name><surname>Pruschke</surname><given-names>T.</given-names></name>; <name><surname>Held</surname><given-names>K.</given-names></name>; <name><surname>Vollhardt</surname><given-names>D.</given-names></name>; <name><surname>Anisimov</surname><given-names>V.</given-names></name>
+<article-title>Comparative study of correlation effects in CaVO<sub>3</sub> and SrVO<sub>3</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2005</year>, <volume>72</volume>, <elocation-id>155106</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.72.155106</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Schindler</surname><given-names>M.</given-names></name>; <name><surname>Hawthorne</surname><given-names>F.</given-names></name>; <name><surname>Baur</surname><given-names>W.</given-names></name>
+<article-title>Crystal chemical aspects of vanadium:
+polyhedral geometries, characteristic bond valences, and polymerization
+of (VO<sub><italic>n</italic></sub>) polyhedra</article-title>. <source>Chem. Mater.</source>
+<year>2000</year>, <volume>12</volume>, <fpage>1248</fpage>&#x02013;<lpage>1259</lpage>. <pub-id pub-id-type="doi">10.1021/cm990490y</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Shannon</surname><given-names>R. D.</given-names></name>
+<article-title>Revised
+effective ionic radii and systematic studies of interatomic distances
+in halides and chalcogenides</article-title>. <source>Acta Crystallogr.,
+Sect. A: Found. Adv.</source>
+<year>1976</year>, <volume>32</volume>, <fpage>751</fpage>&#x02013;<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1107/S0567739476001551</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Choi</surname><given-names>S. M.</given-names></name>; <name><surname>Stringer</surname><given-names>C. J.</given-names></name>; <name><surname>Shrout</surname><given-names>T. R.</given-names></name>; <name><surname>Randall</surname><given-names>C. A.</given-names></name>
+<article-title>Structure and property
+investigation of a Bi-based perovskite solid solution:(1-<italic>x</italic>)Bi(Ni<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub>-<italic>x</italic>PbTiO<sub>3</sub></article-title>. <source>J. Appl. Phys.</source>
+<year>2005</year>, <volume>98</volume>, <elocation-id>034108</elocation-id><pub-id pub-id-type="doi">10.1063/1.1978985</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Randall</surname><given-names>C.</given-names></name>; <name><surname>Eitel</surname><given-names>R.</given-names></name>; <name><surname>Jones</surname><given-names>B.</given-names></name>; <name><surname>Shrout</surname><given-names>T.</given-names></name>; <name><surname>Woodward</surname><given-names>D.</given-names></name>; <name><surname>Reaney</surname><given-names>I.</given-names></name>
+<article-title>Investigation of a high T c piezoelectric system:(1-<italic>x</italic>)Bi(Mg<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub>-(<italic>x</italic>)PbTiO<sub>3</sub></article-title>. <source>J. Appl. Phys.</source>
+<year>2004</year>, <volume>95</volume>, <fpage>3633</fpage>&#x02013;<lpage>3639</lpage>. <pub-id pub-id-type="doi">10.1063/1.1625089</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Chen</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Huang</surname><given-names>Q.</given-names></name>; <name><surname>Hu</surname><given-names>L.</given-names></name>; <name><surname>Song</surname><given-names>X.</given-names></name>; <name><surname>Deng</surname><given-names>J.</given-names></name>; <name><surname>Yu</surname><given-names>R.</given-names></name>; <name><surname>Xing</surname><given-names>X.</given-names></name>
+<article-title>Effectively control
+negative thermal expansion of single-phase ferroelectrics of PbTiO<sub>3</sub>-(Bi,La)FeO<sub>3</sub> over a giant range</article-title>. <source>Sci. Rep.</source>
+<year>2013</year>, <volume>3</volume>, <elocation-id>2458</elocation-id><pub-id pub-id-type="doi">10.1038/srep02458</pub-id>.<pub-id pub-id-type="pmid">23949238</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Eitel</surname><given-names>R. E.</given-names></name>; <name><surname>Randall</surname><given-names>C. A.</given-names></name>; <name><surname>Shrout</surname><given-names>T. R.</given-names></name>; <name><surname>Rehrig</surname><given-names>P. W.</given-names></name>; <name><surname>Hackenberger</surname><given-names>W.</given-names></name>; <name><surname>Park</surname><given-names>S.-E.</given-names></name>
+<article-title>New high temperature
+morphotropic phase boundary piezoelectrics
+based on Bi(Me)O<sub>3</sub>-PbTiO<sub>3</sub> ceramics</article-title>. <source>Jpn. J. Appl. Phys.</source>
+<year>2001</year>, <volume>40</volume>, <fpage>5999</fpage>&#x02013;<lpage>6002</lpage>. <pub-id pub-id-type="doi">10.1143/JJAP.40.5999</pub-id>.</mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Suchomel</surname><given-names>M. R.</given-names></name>; <name><surname>Davies</surname><given-names>P. K.</given-names></name>
+<article-title>Enhanced tetragonality in (<italic>x</italic>)PbTiO<sub>3</sub>-(1-<italic>x</italic>)Bi(Zn<sub>1/2</sub>Ti<sub>1/2</sub>)O<sub>3</sub> and related solid solution systems</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2005</year>, <volume>86</volume>, <elocation-id>262905</elocation-id><pub-id pub-id-type="doi">10.1063/1.1978980</pub-id>.</mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Cohen</surname><given-names>R. E.</given-names></name>
+<article-title>Origin
+of ferroelectricity in perovskite oxides</article-title>. <source>Nature</source>
+<year>1992</year>, <volume>358</volume>, <fpage>136</fpage><pub-id pub-id-type="doi">10.1038/358136a0</pub-id>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Kuroiwa</surname><given-names>Y.</given-names></name>; <name><surname>Aoyagi</surname><given-names>S.</given-names></name>; <name><surname>Sawada</surname><given-names>A.</given-names></name>; <name><surname>Harada</surname><given-names>J.</given-names></name>; <name><surname>Nishibori</surname><given-names>E.</given-names></name>; <name><surname>Takata</surname><given-names>M.</given-names></name>; <name><surname>Sakata</surname><given-names>M.</given-names></name>
+<article-title>Evidence for Pb-O covalency in tetragonal
+PbTiO<sub>3</sub></article-title>. <source>Phys. Rev. Lett.</source>
+<year>2001</year>, <volume>87</volume>, <elocation-id>217601</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevLett.87.217601</pub-id>.<pub-id pub-id-type="pmid">11736378</pub-id></mixed-citation></ref><ref id="ref58"><mixed-citation publication-type="journal" id="cit58"><name><surname>Goodenough</surname><given-names>J. B.</given-names></name>; <name><surname>Zhou</surname><given-names>J.</given-names></name>
+<article-title>Varied roles of Pb in transition-metal
+PbMO<sub>3</sub> perovskites
+(M = Ti, V, Cr, Mn, Fe, Ni, Ru)</article-title>. <source>Sci. Technol.
+Adv. Mater.</source>
+<year>2015</year>, <volume>16</volume>, <elocation-id>036003</elocation-id><pub-id pub-id-type="doi">10.1088/1468-6996/16/3/036003</pub-id>.<pub-id pub-id-type="pmid">27877814</pub-id></mixed-citation></ref><ref id="ref59"><mixed-citation publication-type="journal" id="cit59"><name><surname>Vidya</surname><given-names>R.</given-names></name>; <name><surname>Ravindran</surname><given-names>P.</given-names></name>; <name><surname>Knizek</surname><given-names>K.</given-names></name>; <name><surname>Kjekshus</surname><given-names>A.</given-names></name>; <name><surname>Fjellv&#x000e5;g</surname><given-names>H.</given-names></name>
+<article-title>Density Functional
+Theory Studies of Spin, Charge, and Orbital Ordering in YBaT<sub>2</sub>O<sub>2</sub> (T = Mn, Fe, Co)</article-title>. <source>Inorg. Chem.</source>
+<year>2008</year>, <volume>47</volume>, <fpage>6608</fpage>&#x02013;<lpage>6620</lpage>. <pub-id pub-id-type="doi">10.1021/ic702025c</pub-id>.<pub-id pub-id-type="pmid">18611004</pub-id></mixed-citation></ref><ref id="ref60"><mixed-citation publication-type="journal" id="cit60"><name><surname>Vidya</surname><given-names>R.</given-names></name>; <name><surname>Ravindran</surname><given-names>P.</given-names></name>; <name><surname>Kjekshus</surname><given-names>A.</given-names></name>; <name><surname>Fjellv&#x000e5;g</surname><given-names>H.</given-names></name>
+<article-title>Spin, charge,
+and orbital ordering in the ferrimagnetic insulator YBaMn<sub>2</sub>O<sub>2</sub></article-title>. <source>Phys. Rev. B</source>
+<year>2002</year>, <volume>65</volume>, <elocation-id>144422</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.65.144422</pub-id>.</mixed-citation></ref><ref id="ref61"><mixed-citation publication-type="journal" id="cit61"><name><surname>Ravindran</surname><given-names>P.</given-names></name>; <name><surname>Vidya</surname><given-names>R.</given-names></name>; <name><surname>Eriksson</surname><given-names>O.</given-names></name>; <name><surname>Fjellv&#x000e5;g</surname><given-names>H.</given-names></name>
+<article-title>Magnetic-Instability-Induced
+Giant Magnetoelectric Coupling</article-title>. <source>Adv. Mater.</source>
+<year>2008</year>, <volume>20</volume>, <fpage>1353</fpage>&#x02013;<lpage>1356</lpage>. <pub-id pub-id-type="doi">10.1002/adma.200701889</pub-id>.</mixed-citation></ref><ref id="ref62"><mixed-citation publication-type="journal" id="cit62"><name><surname>Brooks</surname><given-names>H.</given-names></name>
+<article-title>Ferromagnetic
+anisotropy and the itinerant electron model</article-title>. <source>Phys. Rev.</source>
+<year>1940</year>, <volume>58</volume>, <fpage>909</fpage><pub-id pub-id-type="doi">10.1103/PhysRev.58.909</pub-id>.</mixed-citation></ref><ref id="ref63"><mixed-citation publication-type="journal" id="cit63"><name><surname>Bozorth</surname><given-names>R.</given-names></name>
+<article-title>Directional
+ferromagnetic properties of metals</article-title>. <source>J. Appl.
+Phys.</source>
+<year>1937</year>, <volume>8</volume>, <fpage>575</fpage>&#x02013;<lpage>588</lpage>. <pub-id pub-id-type="doi">10.1063/1.1710344</pub-id>.</mixed-citation></ref><ref id="ref64"><mixed-citation publication-type="journal" id="cit64"><name><surname>Scherz</surname><given-names>A.</given-names></name>; <name><surname>Wende</surname><given-names>H.</given-names></name>; <name><surname>Baberschke</surname><given-names>K.</given-names></name>
+<article-title>Fine structure
+of X-ray magnetic
+circular dichroism for early 3d transition metals</article-title>. <source>Appl. Phys. A: Mater. Sci. Process.</source>
+<year>2004</year>, <volume>78</volume>, <fpage>843</fpage>&#x02013;<lpage>846</lpage>. <pub-id pub-id-type="doi">10.1007/s00339-003-2440-x</pub-id>.</mixed-citation></ref><ref id="ref65"><mixed-citation publication-type="journal" id="cit65"><name><surname>Wende</surname><given-names>H.</given-names></name>
+<article-title>Recent advances
+in X-ray absorption spectroscopy</article-title>. <source>Rep. Prog.
+Phys.</source>
+<year>2004</year>, <volume>67</volume>, <fpage>2105</fpage><pub-id pub-id-type="doi">10.1088/0034-4885/67/12/R01</pub-id>.</mixed-citation></ref><ref id="ref66"><mixed-citation publication-type="journal" id="cit66"><name><surname>Scherz</surname><given-names>A.</given-names></name>; <name><surname>Wende</surname><given-names>H.</given-names></name>; <name><surname>Sorg</surname><given-names>C.</given-names></name>; <name><surname>Baberschke</surname><given-names>K.</given-names></name>; <name><surname>Minr</surname><given-names>J.</given-names></name>; <name><surname>Benea</surname><given-names>D.</given-names></name>; <name><surname>Ebert</surname><given-names>H.</given-names></name>
+<article-title>Limitations
+of integral
+XMCD sum-rules for the early 3d elements</article-title>. <source>Phys.
+Scr.</source>
+<year>2005</year>, <fpage>586</fpage><pub-id pub-id-type="doi">10.1238/Physica.Topical.115a00586</pub-id>.</mixed-citation></ref><ref id="ref67"><mixed-citation publication-type="journal" id="cit67"><name><surname>Wende</surname><given-names>H.</given-names></name>; <name><surname>Scherz</surname><given-names>A.</given-names></name>; <name><surname>Sorg</surname><given-names>C.</given-names></name>; <name><surname>Baberschke</surname><given-names>K.</given-names></name>; <name><surname>Gross</surname><given-names>E.</given-names></name>; <name><surname>Appel</surname><given-names>H.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Min&#x000e1;r</surname><given-names>J.</given-names></name>; <name><surname>Ebert</surname><given-names>H.</given-names></name>; <name><surname>Ankudinov</surname><given-names>A.</given-names></name>; <name><surname>Rehr</surname><given-names>J.</given-names></name>
+<article-title>XMCD analysis beyond
+standard procedures</article-title>. <source>AIP Conf. Proc.</source>
+<year>2007</year>, <volume>882</volume>, <fpage>78</fpage>&#x02013;<lpage>82</lpage>. <pub-id pub-id-type="doi">10.1063/1.2644435</pub-id>.</mixed-citation></ref></ref-list></back></article>

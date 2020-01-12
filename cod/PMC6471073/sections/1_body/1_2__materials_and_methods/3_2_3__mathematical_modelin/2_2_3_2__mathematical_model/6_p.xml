@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This means that in the cosine mode of the DRG, the vibration mode of any ring only consists of cosine modes while sine modes do not exist. So the vibration mode of any ring can be expressed as 
+ <disp-formula id="FD5-micromachines-10-00181">
+  <label>(5)</label>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mi>v</mi>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo>,</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>N</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo>∞</mo>
+          </munderover>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <msubsup>
+              <mi>p</mi>
+              <mi>N</mi>
+              <mi>r</mi>
+             </msubsup>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+             <mi>sin</mi>
+             <mi>N</mi>
+             <mi>θ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+           <mo>,</mo>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mtd>
+       <mtd>
+        <mrow>
+         <mi>u</mi>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo>,</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>N</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo>∞</mo>
+          </munderover>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <msubsup>
+              <mi>p</mi>
+              <mi>N</mi>
+              <mi>r</mi>
+             </msubsup>
+             <mo stretchy="false">(</mo>
+             <mi>t</mi>
+             <mo stretchy="false">)</mo>
+             <mi>N</mi>
+             <mi>cos</mi>
+             <mi>N</mi>
+             <mi>θ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

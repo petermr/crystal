@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The cumulative parameter 
+ <inline-formula>
+  <math id="mm90">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="molecules-24-04387-f006">Figure 6</xref>) is calculated as a function of the molecule index 
+ <italic>i</italic> within the stack by using the group/group command of LAMMPS [
+ <xref rid="B74-molecules-24-04387" ref-type="bibr">74</xref>]. For each molecule in the column-shaped cluster the pairwise interactions with all the other azobenzene stars are calculated, excluding any self-interactions within molecule 
+ <italic>i</italic>. More precisely, considering a molecule with index 
+ <italic>i</italic>, all pairwise Coulombic and Lennard–Jones energy contributions coming from the 
+ <italic>N</italic>-1 surrounding molecules (with indices ≠ 
+ <italic>i</italic>) are summed up to 
+ <inline-formula>
+  <math id="mm91">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula>(
+ <italic>i</italic>). The parameter 
+ <inline-formula>
+  <math id="mm92">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula>(
+ <italic>i</italic>) therefore describes the strength of binding of the 
+ <italic>i</italic>-th azo star with the entire rest of the cluster. Please note, that the sum of 
+ <inline-formula>
+  <math id="mm93">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula>(
+ <italic>i</italic>) over all molecules 
+ <italic>i</italic> in the stack is clearly not equal to the binding energy 
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <msub>
+     <mi>E</mi>
+     <mi mathvariant="normal">B</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> of a cluster as defined above. This occurs, since for any molecules 
+ <italic>i</italic> and 
+ <italic>j</italic> in the stack there are reappearing energy contributions to 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula>(
+ <italic>i</italic>) or 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mi mathvariant="normal">Σ</mi>
+   </mrow>
+  </math>
+ </inline-formula>(
+ <italic>j</italic>), respectively, for example from another nearby molecule 
+ <italic>k</italic>. The results for the cumulative parameter are obtained by averaging over an ensemble of three independent simulations of 10 ns for each cluster size.
+</p>

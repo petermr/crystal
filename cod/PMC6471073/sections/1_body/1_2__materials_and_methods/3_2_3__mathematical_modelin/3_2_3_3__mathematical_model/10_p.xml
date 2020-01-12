@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The mode number of each ring is 
+ <italic>N
+  <sub>r</sub>
+ </italic> (
+ <italic>N
+  <sub>r</sub>
+ </italic> = 3) and the mode number of each spoke is 
+ <italic>N
+  <sub>s</sub>
+ </italic> (
+ <italic>N
+  <sub>s</sub>
+ </italic> = 5), thus there are 12 rows and 2(
+ <italic>N
+  <sub>r</sub>
+ </italic> + 
+ <italic>N
+  <sub>s</sub>
+ </italic>) columns in the coupling matrix and there are 2(
+ <italic>N
+  <sub>r</sub>
+ </italic> + 
+ <italic>N
+  <sub>s</sub>
+ </italic>) generalized coordinates. However, due to the coupling between the rings and spokes, the number of the independent generalized coordinates is less than 2(
+ <italic>N
+  <sub>r</sub>
+ </italic> + 
+ <italic>N
+  <sub>s</sub>
+ </italic>), which is the difference of the total mode numbers and rank of the coupling matrix 
+ <italic>R</italic>(
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>):
+ <disp-formula id="FD39-micromachines-10-00181">
+  <label>(39)</label>
+  <math id="mm41">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mn>2</mn>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mi>r</mi>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>N</mi>
+        <mi>s</mi>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mi>R</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>C</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

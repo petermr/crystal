@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>N</italic>
+ <sub>
+  <italic>I</italic>
+ </sub>(
+ <italic>n</italic>) is the number of interior atoms. This information (Eq. (
+ <xref rid="Equ11" ref-type="">11</xref>)) is contained in the adjacency matrix, as well as Eqs. (
+ <xref rid="Equ3" ref-type="">3</xref>, 
+ <xref rid="Equ4" ref-type="">4</xref>, 
+ <xref rid="Equ5" ref-type="">5</xref>). These equations are a check of the results from the adjacency matrix data. For centered polyhedra, we also have 
+ <disp-formula id="Equ12">
+  <label>12</label>
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document} $$ N_{I}(n) = N_{T}(n-1), $$ \end{document}</tex-math>
+   <math id="M28">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>−</mo>
+    <mn>1</mn>
+    <mo>)</mo>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="11671_2019_2939_Article_Equ12.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

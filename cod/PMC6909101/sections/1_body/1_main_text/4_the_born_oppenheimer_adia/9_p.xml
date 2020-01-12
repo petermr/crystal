@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0215">The adiabatic approximation agrees with the disregard for the term 
+ <inline-formula>
+  <math id="M78" altimg="si66.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <mi>ϕ</mi>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>L</mi>
+      <mo>ˆ</mo>
+     </mover>
+    </mrow>
+    <mi>ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd12" ref-type="disp-formula">Eq. (12)</xref>, which is called the nonadiabaticity operator. Hence the system of adiabatic equations has the form
+ <disp-formula id="fd14">
+  <label>(14)</label>
+  <math id="M79" altimg="si67.svg" alttext="Equation 14.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>T</mi>
+          <mo>ˆ</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>e</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mtext> </mtext>
+      <mo linebreak="badbreak">+</mo>
+      <mtext> </mtext>
+      <mi>U</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>q</mi>
+        <mo>,</mo>
+        <mi>p</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd15">
+  <label>(15)</label>
+  <math id="M80" altimg="si68.svg" alttext="Equation 15.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mrow>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>T</mi>
+          <mo>ˆ</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>N</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mtext> </mtext>
+      <mo linebreak="badbreak">+</mo>
+      <mtext> </mtext>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>ϕ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>ϕ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

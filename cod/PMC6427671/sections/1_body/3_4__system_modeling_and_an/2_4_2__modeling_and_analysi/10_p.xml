@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The ARMAX modeling results are shown in Equations (20)–(22). The system transfer function is shown in Equation (23). 
+ <disp-formula id="FD23-sensors-19-01052">
+  <label>(20)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <mn>1.889</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mn>0.8907</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD24-sensors-19-01052">
+  <label>(21)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mi>B</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0.00000334</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD25-sensors-19-01052">
+  <label>(22)</label>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi>q</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>+</mo>
+     <mn>1.489</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo>+</mo>
+     <mn>0.6147</mn>
+     <mo>×</mo>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD26-sensors-19-01052">
+  <label>(23)</label>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mi>G</mi>
+     <mo stretchy="false">(</mo>
+     <mi>z</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mn>0.000003334</mn>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+       </msup>
+       <mo>−</mo>
+       <mn>1.889</mn>
+       <mo>×</mo>
+       <mi>z</mi>
+       <mo>+</mo>
+       <mn>0.8907</mn>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

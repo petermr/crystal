@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In Matrix (29), the following parameter is introduced:
+ <disp-formula id="FD31-polymers-11-00861">
+  <label>(30)</label>
+  <math id="mm150">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>b</mi>
+      <mrow/>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mrow>
+       <msubsup>
+        <mi>T</mi>
+        <mi>P</mi>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>/</mo>
+      <mrow>
+       <msubsup>
+        <mi>T</mi>
+        <mi>M</mi>
+        <mi>m</mi>
+       </msubsup>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm151">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>T</mi>
+      <mi>P</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mi>h</mi>
+       <mo>⋅</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msup>
+            <mi mathvariant="normal">I</mi>
+            <mi>m</mi>
+           </msup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mi>k</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–characteristic time of photo-polymerization process; 
+ <inline-formula>
+  <math id="mm152">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>T</mi>
+      <mi>M</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msubsup>
+        <mi>D</mi>
+        <mrow>
+         <mi>M</mi>
+         <mi>n</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mo>⋅</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mrow/>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–characteristic time of diffusion process.
+</p>

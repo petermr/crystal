@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We can rotate the above tensor along the directions of the three versors 
+ <bold>a
+  <sub>i</sub>
+ </bold>, 
+ <disp-formula id="FD4-materials-12-01804">
+  <label>(4)</label>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">u</mi>
+            <mrow>
+             <mi mathvariant="normal">a</mi>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">a</mi>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">u</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">x</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>cos</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">v</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">y</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>sin</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+           <mo>+</mo>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+         <mi>cos</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mi>sin</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">u</mi>
+            <mrow>
+             <mi mathvariant="normal">a</mi>
+             <mn>2</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">a</mi>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">u</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">x</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>cos</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>2</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">v</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">y</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>sin</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>2</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+           <mo>+</mo>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+         <mi>cos</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>2</mn>
+          </mrow>
+         </msub>
+         <mi>sin</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>2</mn>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">u</mi>
+            <mrow>
+             <mi mathvariant="normal">a</mi>
+             <mn>3</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <msub>
+            <mi mathvariant="normal">a</mi>
+            <mn>3</mn>
+           </msub>
+          </mrow>
+         </mfrac>
+         <mo>=</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">u</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">x</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>cos</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>3</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">v</mi>
+          </mrow>
+          <mrow>
+           <mo>∂</mo>
+           <mi mathvariant="normal">y</mi>
+          </mrow>
+         </mfrac>
+         <msup>
+          <mi>sin</mi>
+          <mn>2</mn>
+         </msup>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>3</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+           <mo>+</mo>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+         <mi>cos</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>3</mn>
+          </mrow>
+         </msub>
+         <mi>sin</mi>
+         <msub>
+          <mi mathvariant="sans-serif">θ</mi>
+          <mrow>
+           <mi mathvariant="normal">a</mi>
+           <mn>3</mn>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

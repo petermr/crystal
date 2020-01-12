@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par22">In an XPS experiment, a sample is irradiated with X-ray photons of known energy, and the resulting photoelectrons liberated by this process are collected and their kinetic energy is recorded with an electron spectrometer. A spectrum is generated of electron counts per second as a function of kinetic energy and then, using Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>), converted into binding energy (see Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>).
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M67">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${}_{KE}=h\nu -{E}_{BE}-e\phi ,$$\end{document}</tex-math>
+   <math id="M68" display="block">
+    <msub>
+     <mrow>
+      <mspace width=".25em"/>
+     </mrow>
+     <mrow>
+      <mi>K</mi>
+      <mi>E</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>h</mi>
+    <mi>ν</mi>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+      <mi>E</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mi>e</mi>
+    <mi>ϕ</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_54419_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>E</italic>
+ <sub>
+  <italic>KE</italic>
+ </sub> is the kinetic energy of the emitted electron, 
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$h\nu $$\end{document}</tex-math>
+   <math id="M70">
+    <mi>h</mi>
+    <mi>ν</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the excitation photon energy, 
+ <italic>E</italic>
+ <sub>
+  <italic>BE</italic>
+ </sub> is the binding energy of the core state with respect to the Fermi level and 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M71">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi $$\end{document}</tex-math>
+   <math id="M72">
+    <mi>ϕ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the work function of the spectrometer.
+</p>

@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0395">The infinitesimal imaginary additive 
+ <inline-formula>
+  <math id="M198" altimg="si1.svg">
+   <mrow>
+    <mi>i</mi>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> specified in 
+ <inline-formula>
+  <math id="M199" altimg="si140.svg">
+   <mrow>
+    <mi>G</mi>
+   </mrow>
+  </math>
+ </inline-formula> is ordinarily written in the spectral representation of the Green's function in order to escape zero in the energy denominator. In our case, the spectral representation of the Green's function has the form:
+ <disp-formula id="fd59">
+  <label>(59)</label>
+  <math id="M200" altimg="si164.svg" alttext="Equation 59.">
+   <mrow>
+    <mi>G</mi>
+    <mo linebreak="badbreak">≡</mo>
+    <mi>G</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <mtext> </mtext>
+      <mi>p</mi>
+      <mo>,</mo>
+      <msup>
+       <mi>p</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <mtext> H</mtext>
+      <mo linebreak="badbreak">−</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>U</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mtext> </mtext>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mtext> </mtext>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>Ψ</mi>
+        </mrow>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi mathvariant="bold">q</mi>
+         <mo>,</mo>
+         <mi>p</mi>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mtext> </mtext>
+       <msub>
+        <mrow>
+         <mi>Ψ</mi>
+        </mrow>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">∗</mo>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msup>
+          <mi mathvariant="bold">q</mi>
+          <mo>′</mo>
+         </msup>
+         <mo>,</mo>
+         <msup>
+          <mi>p</mi>
+          <mo>′</mo>
+         </msup>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>E</mi>
+        </mrow>
+        <mrow>
+         <mtext>H</mtext>
+        </mrow>
+        <mrow>
+         <mtext>BO</mtext>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msub>
+          <mrow>
+           <mi>E</mi>
+          </mrow>
+          <mrow>
+           <mi>s</mi>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+         <mo linebreak="badbreak">−</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>U</mi>
+           <mo>˜</mo>
+          </mover>
+         </mrow>
+         <mmultiscripts>
+          <mrow>
+           <mrow>
+            <mo stretchy="true">(</mo>
+            <mrow>
+             <mi>p</mi>
+            </mrow>
+            <mo stretchy="true">)</mo>
+           </mrow>
+          </mrow>
+          <mprescripts/>
+          <mrow>
+           <mi>s</mi>
+          </mrow>
+          <none/>
+         </mmultiscripts>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mo linebreak="badbreak">−</mo>
+       <mi>i</mi>
+       <mi>γ</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M201" altimg="si165.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the eigenfunctions of the Hamiltonian 
+ <xref rid="fd55" ref-type="disp-formula">(55)</xref> and 
+ <inline-formula>
+  <math id="M202" altimg="si166.svg">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+     <mrow>
+      <mtext>BO</mtext>
+     </mrow>
+    </msubsup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see Section 
+ <xref rid="sec2.4.1" ref-type="sec">2.4.1</xref>); the energy denominator vanishes when 
+ <inline-formula>
+  <math id="M203" altimg="si167.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>U</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="M204" altimg="si168.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>U</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <munder>
+     <mo>∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+       <mi>s</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, see 
+ <xref rid="fd31" ref-type="disp-formula">Eq. (31)</xref>) and 
+ <inline-formula>
+  <math id="M205" altimg="si169.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>. We, however, ascribe a finite value to the value of 
+ <inline-formula>
+  <math id="M206" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, as a result of which 
+ <inline-formula>
+  <math id="M207" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> acquires the physical meaning of the degree of chaos in the reorganization of the nuclei of the medium, provoked by the motion of the electron from the donor towards the acceptor.
+ <xref rid="fn9" ref-type="fn">9</xref> Thus, for the elementary electron transfers, along with the energy of reorganization 
+ <inline-formula>
+  <math id="M208" altimg="si170.svg">
+   <mrow>
+    <mi>E</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mo>∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fd37" ref-type="disp-formula">Eq. (37)</xref>) of the nuclei of a medium, a dissipation energy 
+ <inline-formula>
+  <math id="M209" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is introduced into the theory, which characterizes the degree of chaos in the motion of nuclei in a transient state. The implementation of the finite quantity 
+ <inline-formula>
+  <math id="M210" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> makes it possible to escape the singularity in the rates of elementary electron transfers, which is formally associated with the vanishing of the energy denominator of the complete Green's function of the system at 
+ <inline-formula>
+  <math id="M211" altimg="si169.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>, and which is physically associated with the incomparability of the masses of the electron and nuclei of the environment,
+ <xref rid="fn10" ref-type="fn">10</xref> and it indicates physically insertion, to the transient state, of a process for the transformation, at first, of a portion of the vibrational motion of the nuclei into their translational motion, and after that, in the course of completing the “quantum” transition, of the emerged translational motion of the nuclei back into their vibrational motion. Since the chaos in the electron-nuclear movement is absent in the initial and final states and occurs merely in the transient state, it is called 
+ <bold>
+  <italic>dozy chaos</italic>
+ </bold>, and the appropriate dissipation energy 
+ <inline-formula>
+  <math id="M212" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> can be called the 
+ <bold>
+  <italic>dozy-chaos energy</italic>
+ </bold> [
+ <xref rid="bib14" ref-type="bibr">14</xref>, 
+ <xref rid="bib28" ref-type="bibr">28</xref>].
+</p>

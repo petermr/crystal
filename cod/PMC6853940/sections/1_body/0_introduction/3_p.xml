@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par4">The self-propulsion is often modeled by means of an effective stochastic force. Perhaps, the simplest model introduced in the literature to describe the behavior of some bacteria populations is represented by the discrete run-and-tumble particle dynamics
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>,
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>. Recently, suitable descriptions in terms of continuous stochastic processes have received large attention for the possibility of applying well-known tools of statistical mechanics towards the development of the thermodynamic of active microswimmers. In this framework, we mention the active Brownian particles (ABPs)
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>,
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup> and the active Ornstein-Uhlenbeck particles (AOUPs)
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>–
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup> models. Regarding the observed phenomenology, there is a strong resemblance between ABP and AOUP, but they also display important differences: (a) the ABP active force has a fixed strength whereas its orientation fluctuates in a diffusive fashion, while in the AOUP there is no such a constraint and the propulsive force fluctuates both in strength and direction; (b) the correlations are of Gaussian type in the AOUP and non-Gaussian in ABP, in spite of the fact that they share the same two-time self-correlation of the active force
+ <sup>
+  <xref ref-type="bibr" rid="CR37">37</xref>,
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>. So far, the practical consequences of these differences have not been completely elucidated. One can say that in the majority of cases the two models display a similar phenomenology, whose characteristics are:
+ <list list-type="simple">
+  <list-item>
+   <label>(i)</label>
+   <p id="Par5">In the absence of external forces some single particle properties such as the diffusion and the mean square displacement have the same form in ABP
+    <sup>
+     <xref ref-type="bibr" rid="CR31">31</xref>,
+     <xref ref-type="bibr" rid="CR39">39</xref>,
+     <xref ref-type="bibr" rid="CR40">40</xref>
+    </sup> and AOUP
+    <sup>
+     <xref ref-type="bibr" rid="CR41">41</xref>
+    </sup>.
+   </p>
+  </list-item>
+  <list-item>
+   <label>(ii)</label>
+   <p id="Par6">Both models undergo the so-called motility induced phase separation
+    <sup>
+     <xref ref-type="bibr" rid="CR42">42</xref>–
+     <xref ref-type="bibr" rid="CR45">45</xref>
+    </sup>. While such a topic has been well studied in the ABP case, with steric interactions
+    <sup>
+     <xref ref-type="bibr" rid="CR46">46</xref>–
+     <xref ref-type="bibr" rid="CR49">49</xref>
+    </sup>, in the presence of an attractive component of the potential
+    <sup>
+     <xref ref-type="bibr" rid="CR50">50</xref>,
+     <xref ref-type="bibr" rid="CR51">51</xref>
+    </sup> and for more complex interactions
+    <sup>
+     <xref ref-type="bibr" rid="CR52">52</xref>,
+     <xref ref-type="bibr" rid="CR53">53</xref>
+    </sup>, the result with AOUP model appeared only in
+    <sup>
+     <xref ref-type="bibr" rid="CR54">54</xref>
+    </sup>.
+   </p>
+  </list-item>
+  <list-item>
+   <label>(iii)</label>
+   <p id="Par7">In the two models particles accumulate in the proximity of walls
+    <sup>
+     <xref ref-type="bibr" rid="CR55">55</xref>,
+     <xref ref-type="bibr" rid="CR56">56</xref>
+    </sup>. In particular, the wall induces a non-uniform density profile decaying with a characteristic length-scale
+    <sup>
+     <xref ref-type="bibr" rid="CR57">57</xref>–
+     <xref ref-type="bibr" rid="CR59">59</xref>
+    </sup>.
+   </p>
+  </list-item>
+  <list-item>
+   <label>(iv)</label>
+   <p id="Par8">The dynamics in the presence of a convex, radial and non-harmonic potential shows particle accumulation far from the minimum of the potential
+    <sup>
+     <xref ref-type="bibr" rid="CR12">12</xref>,
+     <xref ref-type="bibr" rid="CR37">37</xref>,
+     <xref ref-type="bibr" rid="CR60">60</xref>
+    </sup> when the activity is large, in such a way that the particle distribution is not Boltzmann-like
+    <sup>
+     <xref ref-type="bibr" rid="CR61">61</xref>,
+     <xref ref-type="bibr" rid="CR62">62</xref>
+    </sup>.
+   </p>
+  </list-item>
+ </list>
+</p>

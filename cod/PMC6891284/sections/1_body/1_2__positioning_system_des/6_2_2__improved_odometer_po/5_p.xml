@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Assume that the sampling interval of the master control system is 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the distance traveled by the delivery robot is 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>S</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>V</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>o</mi>
+       <mi>b</mi>
+      </mrow>
+     </msub>
+     <mo>×</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the change in the heading angle is 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. If the delivery robot moves from the origin 
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>0</mn>
+     <mo>,</mo>
+     <mn>0</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> by 1 m to the coordinate point 
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mn>0</mn>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the theoretical displacement 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mi>S</mi>
+   </mrow>
+  </math>
+ </inline-formula> is 1 m and the actual displacement 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>S</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>+</mo>
+     <msub>
+      <mi>e</mi>
+      <mi>s</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> m. The theoretical heading angle variation is 0° and the actual heading angle variation 
+ <inline-formula>
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is 
+ <inline-formula>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <mn>0</mn>
+     <mo>+</mo>
+     <msub>
+      <mi>e</mi>
+      <mi>s</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>°, where 
+ <inline-formula>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>e</mi>
+      <mi>s</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm40">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>e</mi>
+      <mi>θ</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the errors in the distance and heading angle variation, respectively.
+</p>

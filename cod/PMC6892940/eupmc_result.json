@@ -1,0 +1,536 @@
+{
+  "id": [
+    "31797876"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31797876"
+  ],
+  "pmcid": [
+    "PMC6892940"
+  ],
+  "doi": [
+    "10.1038/s41598-019-54427-0"
+  ],
+  "title": [
+    "Revisiting Goodenough-Kanamori rules in a new series of double perovskites LaSr1-xCaxNiReO6."
+  ],
+  "authorString": [
+    "Jana S, Aich P, Kumar PA, Forslund OK, Nocerino E, Pomjakushin V, Månsson M, Sassa Y, Svedlindh P, Karis O, Siruguri V, Ray S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Jana S"
+          ],
+          "firstName": [
+            "Somnath"
+          ],
+          "lastName": [
+            "Jana"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8655-0545",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Centre for Advanced Materials, Indian Association for the Cultivation of Science, Jadavpur, Kolkata, 700032, India. sj.phys@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Aich P"
+          ],
+          "firstName": [
+            "Payel"
+          ],
+          "lastName": [
+            "Aich"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3277-0096",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Materials Science, Indian Association for the Cultivation of Science, Jadavpur, Kolkata, 700032, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Kumar PA"
+          ],
+          "firstName": [
+            "P Anil"
+          ],
+          "lastName": [
+            "Kumar"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Department of Engineering Sciences, Uppsala University, 752 36, Uppsala, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Forslund OK"
+          ],
+          "firstName": [
+            "O K"
+          ],
+          "lastName": [
+            "Forslund"
+          ],
+          "initials": [
+            "OK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8879-7875",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Applied Physics, KTH Royal Institute of Technology, SE-164 40, Stockholm, Kista, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Nocerino E"
+          ],
+          "firstName": [
+            "E"
+          ],
+          "lastName": [
+            "Nocerino"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Applied Physics, KTH Royal Institute of Technology, SE-164 40, Stockholm, Kista, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Pomjakushin V"
+          ],
+          "firstName": [
+            "V"
+          ],
+          "lastName": [
+            "Pomjakushin"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "Laboratory for Neutron Scattering & Imaging, Paul Scherrer Institute, CH-5232, Villigen, PSI, Switzerland."
+          ]
+        },
+        {
+          "fullName": [
+            "Månsson M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Månsson"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3086-9642",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Applied Physics, KTH Royal Institute of Technology, SE-164 40, Stockholm, Kista, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Sassa Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Sassa"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1416-5642",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physics Chalmers University Of Technology, SE-412 96, Gteborg, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Svedlindh P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Svedlindh"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Engineering Sciences, Uppsala University, 752 36, Uppsala, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Karis O"
+          ],
+          "firstName": [
+            "Olof"
+          ],
+          "lastName": [
+            "Karis"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Department of Physics and Astronomy, Uppsala University, 752 36, Uppsala, Sweden."
+          ]
+        },
+        {
+          "fullName": [
+            "Siruguri V"
+          ],
+          "firstName": [
+            "Vasudeva"
+          ],
+          "lastName": [
+            "Siruguri"
+          ],
+          "initials": [
+            "V"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7123-933X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "UGC-DAE-Consortium for Scientific Research Mumbai Centre, 246C 2nd floor Common Facility Building (CFB), Bhabha Atomic Research Centre, Mumbai, 400085, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Ray S"
+          ],
+          "firstName": [
+            "Sugata"
+          ],
+          "lastName": [
+            "Ray"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centre for Advanced Materials, Indian Association for the Cultivation of Science, Jadavpur, Kolkata, 700032, India."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8655-0545",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3277-0096",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3086-9642",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8879-7875",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1416-5642",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7123-933X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2887502"
+      ],
+      "dateOfPublication": [
+        "2019 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "18296"
+  ],
+  "abstractText": [
+    "The magnetic ground states in highly ordered double perovskites LaSr1-xCaxNiReO6 (x = 0.0, 0.5, 1.0) are studied in view of the Goodenough-Kanamori rules of superexchange interactions in this paper. In LaSrNiReO6, Ni and Re sublattices are found to exhibit curious magnetic states separately, but no long range magnetic ordering is achieved. The magnetic transition at ~255 K is identified with the independent Re sublattice magnetic ordering. Interestingly, the sublattice interactions are tuned by modifying the Ni-O-Re bond angles through Ca doping. Upon Ca doping, the Ni and Re sublattices start to display a ferrimagnetically ordered state at low temperature. The neutron powder diffraction data reveals long range ferrimagnetic ordering of the Ni and Re magnetic sublattices along the crystallographic b-axis. The transition temperature of the ferrimagnetic phase increases monotonically with increasing Ca concentration."
+  ],
+  "affiliation": [
+    "Centre for Advanced Materials, Indian Association for the Cultivation of Science, Jadavpur, Kolkata, 700032, India. sj.phys@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-54427-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6892940"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6892940?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "N"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-12-05"
+  ],
+  "firstIndexDate": [
+    "2019-12-05"
+  ],
+  "fullTextReceivedDate": [
+    "2019-12-15"
+  ],
+  "dateOfRevision": [
+    "2019-12-04"
+  ],
+  "electronicPublicationDate": [
+    "2019-12-04"
+  ],
+  "firstPublicationDate": [
+    "2019-12-04"
+  ]
+}

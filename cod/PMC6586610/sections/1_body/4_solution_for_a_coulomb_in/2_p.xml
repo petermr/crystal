@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par23">Here we defined a new dimensionless variable; 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M105">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z=\frac{iwr}{2\alpha c}$$\end{document}</tex-math>
+   <math id="M106">
+    <mi>z</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>i</mi>
+      <mi>w</mi>
+      <mi>r</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>α</mi>
+      <mi>c</mi>
+     </mrow>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> for 
+ <inline-formula id="IEq31">
+  <alternatives>
+   <tex-math id="M107">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${V}_{t}(r)=-\,2\frac{\alpha }{r}$$\end{document}</tex-math>
+   <math id="M108">
+    <msub>
+     <mrow>
+      <mi>V</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mn>2</mn>
+    <mfrac>
+     <mi>α</mi>
+     <mi>r</mi>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq31.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Then, the solution of simplified Eq. 
+ <xref rid="Equ20" ref-type="">20</xref> becomes a HeunC
+ <inline-formula id="IEq32">
+  <alternatives>
+   <tex-math id="M109">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$({\alpha }_{1},\beta ,\gamma ,\delta ,\eta ,{\rm{z}})$$\end{document}</tex-math>
+   <math id="M110">
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+    <mi>β</mi>
+    <mo>,</mo>
+    <mi>γ</mi>
+    <mo>,</mo>
+    <mi>δ</mi>
+    <mo>,</mo>
+    <mi>η</mi>
+    <mo>,</mo>
+    <mi mathvariant="normal">z</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq32.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> function. In this function, frequency relation is found by using 
+ <inline-formula id="IEq33">
+  <alternatives>
+   <tex-math id="M111">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\delta =-\,(n+\frac{\beta +\gamma +2}{2}){\alpha }_{1}$$\end{document}</tex-math>
+   <math id="M112">
+    <mi>δ</mi>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>n</mi>
+      <mo>+</mo>
+      <mfrac>
+       <mrow>
+        <mi>β</mi>
+        <mo>+</mo>
+        <mi>γ</mi>
+        <mo>+</mo>
+        <mn>2</mn>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq33.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> expression. The following parameters;
+ <disp-formula id="Equd">
+  <alternatives>
+   <tex-math id="M113">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{\alpha }_{1} &amp; = &amp; 2\alpha ,\\ \beta &amp; = &amp; -\,2\sqrt{{\alpha }^{2}+{j}^{2}},\\ \gamma &amp; = &amp; \frac{2}{(w)}\sqrt{-\,4iN{c}^{2}j\alpha +{(w)}^{2}},\\ \delta &amp; = &amp; 2{\alpha }^{2}\\ 2{\alpha }^{2} &amp; + &amp; 2(n-\sqrt{{\alpha }^{2}-{j}^{2}}+\tfrac{\sqrt{-\,4iN\alpha {c}^{2}j+{w}^{2}}}{w})\alpha =0\end{array}$$\end{document}</tex-math>
+   <math id="M114" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mn>2</mn>
+        <mi>α</mi>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mi>β</mi>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mspace width="-.25em"/>
+        <mn>2</mn>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mi>j</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mi>γ</mi>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mn>2</mn>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>w</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </mfrac>
+        <msqrt>
+         <mrow>
+          <mo>−</mo>
+          <mspace width="-.25em"/>
+          <mn>4</mn>
+          <mi>i</mi>
+          <mi>N</mi>
+          <msup>
+           <mrow>
+            <mi>c</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mi>j</mi>
+          <mi>α</mi>
+          <mo>+</mo>
+          <msup>
+           <mrow>
+            <mo stretchy="false">(</mo>
+            <mi>w</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mi>δ</mi>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="left">
+       <mrow>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>α</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mtd>
+      <mtd columnalign="left">
+       <mo>+</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mn>2</mn>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>n</mi>
+          <mo>−</mo>
+          <msqrt>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <mo>−</mo>
+            <msup>
+             <mrow>
+              <mi>j</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </msqrt>
+          <mo>+</mo>
+          <mstyle displaystyle="false">
+           <mfrac>
+            <mrow>
+             <msqrt>
+              <mrow>
+               <mo>−</mo>
+               <mspace width="-.25em"/>
+               <mn>4</mn>
+               <mi>i</mi>
+               <mi>N</mi>
+               <mi>α</mi>
+               <msup>
+                <mrow>
+                 <mi>c</mi>
+                </mrow>
+                <mn>2</mn>
+               </msup>
+               <mi>j</mi>
+               <mo>+</mo>
+               <msup>
+                <mrow>
+                 <mi>w</mi>
+                </mrow>
+                <mn>2</mn>
+               </msup>
+              </mrow>
+             </msqrt>
+            </mrow>
+            <mi>w</mi>
+           </mfrac>
+          </mstyle>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mi>α</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equd.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>yields
+ <disp-formula id="Equ21">
+  <label>21</label>
+  <alternatives>
+   <tex-math id="M115">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{w}_{(n,j)} &amp; = &amp; \pm 2\sqrt{iN{c}^{2}\alpha j}[2\sqrt{{\alpha }^{2}-{j}^{2}}\alpha +2\sqrt{{\alpha }^{2}-{j}^{2}}n-2{\alpha }^{2}\\ &amp; &amp; {-2\alpha n-{j}^{2}-{n}^{2}+2\sqrt{{\alpha }^{2}-{j}^{2}}-2\alpha -2n]}^{-1/2}\end{array}$$\end{document}</tex-math>
+   <math id="M116" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mi>n</mi>
+           <mo>,</mo>
+           <mi>j</mi>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>±</mo>
+        <mn>2</mn>
+        <msqrt>
+         <mrow>
+          <mi>i</mi>
+          <mi>N</mi>
+          <msup>
+           <mrow>
+            <mi>c</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <mi>α</mi>
+          <mi>j</mi>
+         </mrow>
+        </msqrt>
+        <mrow>
+         <mo stretchy="true">[</mo>
+         <mrow>
+          <mn>2</mn>
+          <msqrt>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <mo>−</mo>
+            <msup>
+             <mrow>
+              <mi>j</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </msqrt>
+          <mi>α</mi>
+          <mo>+</mo>
+          <mn>2</mn>
+          <msqrt>
+           <mrow>
+            <msup>
+             <mrow>
+              <mi>α</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <mo>−</mo>
+            <msup>
+             <mrow>
+              <mi>j</mi>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </msqrt>
+          <mi>n</mi>
+          <mo>−</mo>
+          <mn>2</mn>
+          <msup>
+           <mrow>
+            <mi>α</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="left"/>
+      <mtd columnalign="left"/>
+      <mtd columnalign="left">
+       <mrow>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo>−</mo>
+           <mspace width=".25em"/>
+           <mn>2</mn>
+           <mi>α</mi>
+           <mi>n</mi>
+           <mo>−</mo>
+           <msup>
+            <mrow>
+             <mi>j</mi>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>−</mo>
+           <msup>
+            <mrow>
+             <mi>n</mi>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <mn>2</mn>
+           <msqrt>
+            <mrow>
+             <msup>
+              <mrow>
+               <mi>α</mi>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+             <mo>−</mo>
+             <msup>
+              <mrow>
+               <mi>j</mi>
+              </mrow>
+              <mn>2</mn>
+             </msup>
+            </mrow>
+           </msqrt>
+           <mo>−</mo>
+           <mn>2</mn>
+           <mi>α</mi>
+           <mo>−</mo>
+           <mn>2</mn>
+           <mi>n</mi>
+          </mrow>
+          <mo stretchy="true">]</mo>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+          <mo>/</mo>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ21.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq34">
+  <alternatives>
+   <tex-math id="M117">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$N=\frac{Mc}{\hslash }$$\end{document}</tex-math>
+   <math id="M118">
+    <mi>N</mi>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>M</mi>
+      <mi>c</mi>
+     </mrow>
+     <mi>ℏ</mi>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq34.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq35">
+  <alternatives>
+   <tex-math id="M119">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$M={m}_{1}+{m}_{2}$$\end{document}</tex-math>
+   <math id="M120">
+    <mi>M</mi>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq35.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

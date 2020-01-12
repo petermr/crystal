@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0475">Here, the dependence of the amplitude 
+ <inline-formula>
+  <math id="M326" altimg="si253.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> on all transient (tunneling and above-barrier) states 
+ <inline-formula>
+  <math id="M327" altimg="si254.svg">
+   <mrow>
+    <mn>...</mn>
+    <msub>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mn>...</mn>
+   </mrow>
+  </math>
+ </inline-formula> is determined by 
+ <xref rid="fd80" ref-type="disp-formula">Eq. (80)</xref> [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib79" ref-type="bibr">79</xref>], the external summation is performed over all final states 
+ <inline-formula>
+  <math id="M328" altimg="si255.svg">
+   <mrow>
+    <mn>...</mn>
+    <msub>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mn>...</mn>
+   </mrow>
+  </math>
+ </inline-formula> on the surface
+ <disp-formula id="fd95">
+  <label>(95)</label>
+  <math id="M329" altimg="si256.svg" alttext="Equation 95.">
+   <mrow>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>2</mn>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>in concordance with the law of energy conservation
+ <disp-formula id="fd96">
+  <label>(96)</label>
+  <math id="M330" altimg="si257.svg" alttext="Equation 96.">
+   <mrow>
+    <mi>ℏ</mi>
+    <mi>Ω</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">−</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">+</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </disp-formula>(
+ <inline-formula>
+  <math id="M331" altimg="si258.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M332" altimg="si259.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the electron binding energies in the initial and final states 1 and 2, see also Section 
+ <xref rid="sec2.4.1" ref-type="sec">2.4.1</xref> above), 
+ <inline-formula>
+  <math id="M333" altimg="si260.svg">
+   <mrow>
+    <mi>A</mi>
+    <mi>v</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the average of the initial states 
+ <inline-formula>
+  <math id="M334" altimg="si261.svg">
+   <mrow>
+    <mn>...</mn>
+    <msub>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mn>...</mn>
+   </mrow>
+  </math>
+ </inline-formula> over the distribution function of Planck. The wavelength 
+ <inline-formula>
+  <math id="M335" altimg="si262.svg">
+   <mrow>
+    <mi>λ</mi>
+   </mrow>
+  </math>
+ </inline-formula> (see Section 
+ <xref rid="sec1" ref-type="sec">1</xref> above, Figs. 
+ <xref rid="fig1" ref-type="fig">1</xref> and 
+ <xref rid="fig2" ref-type="fig">2</xref>) refers to the frequency 
+ <inline-formula>
+  <math id="M336" altimg="si247.svg">
+   <mrow>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd96" ref-type="disp-formula">Eq. (96)</xref> by the formula 
+ <inline-formula>
+  <math id="M337" altimg="si263.svg">
+   <mrow>
+    <mi>λ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msub>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mn>2</mn>
+        <mi>π</mi>
+        <mi>c</mi>
+       </mrow>
+       <mo>/</mo>
+       <mrow>
+        <mi>Ω</mi>
+        <mi>n</mi>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mtext>ref</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

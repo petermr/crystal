@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">To mimic the effect of electronic excitation, several electrons have been removed from the higher valence band states and a jellium background has been used to compensate for the loss of charge. A similar procedure has been used previously to investigate the role of electronic excitation in the amorphization of Ge-Sb-Te alloys
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> and titanate pyrochlores
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>. The electronic excitation concentration has been defined as the percentage ratio of removed electrons with respect to the total number of electrons in the system. For the monoclinic LTO and cubic LZO crystals, the total number of electrons for a cell containing 88 atoms was 1712 and 2000, respectively, and the number of removed electrons varied from 7 to 35 for LTO and 8 to 40 for LZO, such that the excitation concentration investigated in the structures varied from 0.4% to 2% by steps of 0.4%. The electronic excitation concentration in the intermediate SQS structures followed a similar calculation. To determine the temperature at which the crystalline to amorphous transition occurs for each structure and electronic excitation conditions, 
+ <italic>ab initio</italic> molecular dynamic simulations have been performed at the Γ-point of the Brillouin zone in the NVT ensemble with a Nosé-Hoover thermostat for temperatures ranging from 200 K to 1000 K by step of 100 K. Monitoring the variations of the system energy as function of time, as shown for example in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref> for cubic LZO at 200 K, allows to clearly identify the excitation concentration at which a transition is obtained for that particular temperature. Figure 
+ <xref rid="Fig1" ref-type="fig">1</xref> indicates that no transition occurs at 1.2% (and lower) excitation concentration, while it does at 1.6% and 2.0% excitation concentration. For each case, a three-step procedure was followed for a total simulation time of 27 ps with a time step of 2 fs. First, 6 ps were used to thermalize the crystal at the given temperature. Second, 15 ps were given to allow structural modifications associated with electronic excitation. This time lapse was tested in each structure and proven long enough to allow the system to reach an equilibrium state. For example, Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref> shows that an equilibrium is reached after 2 ps and 3 ps for 1.6% and 2.0% excitation concentration respectively. Third, 6 ps were used to allow electron-hole recombination.
+</p>

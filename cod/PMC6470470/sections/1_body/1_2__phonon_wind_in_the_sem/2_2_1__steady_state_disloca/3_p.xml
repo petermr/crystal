@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The slip systems we have considered here are: 
+ <disp-formula id="FD4-materials-12-00948">
+  <label>(4)</label>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd columnalign="left">
+        <mrow>
+         <msup>
+          <mover accent="true">
+           <mi>b</mi>
+           <mo>→</mo>
+          </mover>
+          <mi>fcc</mi>
+         </msup>
+         <mo>=</mo>
+         <mfrac>
+          <msup>
+           <mi>b</mi>
+           <mi>fcc</mi>
+          </msup>
+          <msqrt>
+           <mn>2</mn>
+          </msqrt>
+         </mfrac>
+         <mfenced separators="" open="(" close=")">
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>0</mn>
+         </mfenced>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+       <mtd columnalign="left">
+        <mrow>
+         <msup>
+          <mi>b</mi>
+          <mi>fcc</mi>
+         </msup>
+         <mo>=</mo>
+         <mfrac>
+          <mi>a</mi>
+          <msqrt>
+           <mn>2</mn>
+          </msqrt>
+         </mfrac>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+       <mtd columnalign="left">
+        <mrow>
+         <msubsup>
+          <mover accent="true">
+           <mi>n</mi>
+           <mo>→</mo>
+          </mover>
+          <mn>0</mn>
+          <mi>fcc</mi>
+         </msubsup>
+         <mo>=</mo>
+         <mfrac>
+          <mn>1</mn>
+          <msqrt>
+           <mn>3</mn>
+          </msqrt>
+         </mfrac>
+         <mfenced separators="" open="(" close=")">
+          <mo>−</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mo>−</mo>
+          <mn>1</mn>
+         </mfenced>
+         <mo>,</mo>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd columnalign="left">
+        <msup>
+         <mover accent="true">
+          <mi>b</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>bcc</mi>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <msup>
+          <mi>b</mi>
+          <mi>bcc</mi>
+         </msup>
+         <msqrt>
+          <mn>3</mn>
+         </msqrt>
+        </mfrac>
+        <mfenced separators="" open="(" close=")">
+         <mn>1</mn>
+         <mo>,</mo>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mn>1</mn>
+        </mfenced>
+        <mo>,</mo>
+       </mtd>
+       <mtd columnalign="left">
+        <msup>
+         <mi>b</mi>
+         <mi>bcc</mi>
+        </msup>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mi>a</mi>
+          <msqrt>
+           <mn>3</mn>
+          </msqrt>
+         </mrow>
+         <mn>2</mn>
+        </mfrac>
+        <mo>,</mo>
+       </mtd>
+       <mtd columnalign="left">
+        <msubsup>
+         <mover accent="true">
+          <mi>n</mi>
+          <mo>→</mo>
+         </mover>
+         <mn>0</mn>
+         <mi>bcc</mi>
+        </msubsup>
+        <mo>=</mo>
+        <mfrac>
+         <mn>1</mn>
+         <msqrt>
+          <mn>2</mn>
+         </msqrt>
+        </mfrac>
+        <mfenced separators="" open="(" close=")">
+         <mn>1</mn>
+         <mo>,</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mfenced>
+        <mo>,</mo>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd columnalign="left">
+        <msup>
+         <mover accent="true">
+          <mi>b</mi>
+          <mo>→</mo>
+         </mover>
+         <mi>hcp</mi>
+        </msup>
+        <mo>=</mo>
+        <msup>
+         <mi>b</mi>
+         <mi>hcp</mi>
+        </msup>
+        <mfenced separators="" open="(" close=")">
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mfenced>
+        <mo>,</mo>
+       </mtd>
+       <mtd columnalign="left">
+        <msup>
+         <mi>b</mi>
+         <mi>hcp</mi>
+        </msup>
+        <mo>=</mo>
+        <mi>a</mi>
+        <mo>,</mo>
+       </mtd>
+       <mtd columnalign="left">
+        <msubsup>
+         <mover accent="true">
+          <mi>n</mi>
+          <mo>→</mo>
+         </mover>
+         <mn>0</mn>
+         <mtext>hcp-basal</mtext>
+        </msubsup>
+        <mo>=</mo>
+        <mfenced separators="" open="(" close=")">
+         <mn>0</mn>
+         <mo>,</mo>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mn>1</mn>
+        </mfenced>
+        <mo>,</mo>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd columnalign="left">
+        <msubsup>
+         <mover accent="true">
+          <mi>n</mi>
+          <mo>→</mo>
+         </mover>
+         <mn>0</mn>
+         <mtext>hcp-prismatic</mtext>
+        </msubsup>
+        <mo>=</mo>
+        <mfenced separators="" open="(" close=")">
+         <mn>0</mn>
+         <mo>,</mo>
+         <mo>−</mo>
+         <mn>1</mn>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mfenced>
+        <mo>,</mo>
+       </mtd>
+       <mtd columnalign="left">
+        <msubsup>
+         <mover accent="true">
+          <mi>n</mi>
+          <mo>→</mo>
+         </mover>
+         <mn>0</mn>
+         <mtext>hcp-pyramidal</mtext>
+        </msubsup>
+        <mo>=</mo>
+        <mfenced separators="" open="(" close=")">
+         <mn>0</mn>
+         <mo>,</mo>
+         <mo>−</mo>
+         <mi>a</mi>
+         <mo>,</mo>
+         <mi>c</mi>
+        </mfenced>
+        <mo>/</mo>
+        <msqrt>
+         <mrow>
+          <msup>
+           <mi>a</mi>
+           <mn>2</mn>
+          </msup>
+          <mo>+</mo>
+          <msup>
+           <mi>c</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </msqrt>
+       </mtd>
+       <mtd/>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>a</italic> and 
+ <italic>c</italic> are the lattice constants given in 
+ <xref rid="materials-12-00948-t001" ref-type="table">Table 1</xref> and 
+ <xref rid="materials-12-00948-t002" ref-type="table">Table 2</xref>, and 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mover accent="true">
+     <mi>b</mi>
+     <mo>→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm80">
+   <mrow>
+    <msub>
+     <mover accent="true">
+      <mi>n</mi>
+      <mo>→</mo>
+     </mover>
+     <mn>0</mn>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> denote the Burgers vector and slip plane normals, respectively (see Refs. [
+ <xref rid="B13-materials-12-00948" ref-type="bibr">13</xref>,
+ <xref rid="B20-materials-12-00948" ref-type="bibr">20</xref>] for details). For the case of close-packed hexagonal (hcp) crystals, we assume the basal plane is normal to the third axis in Cartesian crystal coordinates. The three hcp slip systems we consider, basal, prismatic, and pyramidal slip, share the same Burgers vector but have different slip plane normals. All except for the bcc slip system above lead to expressions that are symmetric with respect to 
+ <inline-formula>
+  <math id="mm81">
+   <mrow>
+    <mrow>
+     <mi>ϑ</mi>
+     <mo>→</mo>
+     <mo>−</mo>
+     <mi>ϑ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and all slip systems are 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mi>π</mi>
+   </mrow>
+  </math>
+ </inline-formula>-periodic.
+</p>

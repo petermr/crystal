@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To obtain a deeper understanding of 
+ <inline-formula>
+  <math id="i93">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>4</mn>
+    </mrow>
+   </msub>
+   <mo>=</mo>
+   <mn>2</mn>
+  </math>
+ </inline-formula>, we provide an intuitive physical picture that connects the band inversion property to the rotational-symmetry–protected topology along the lines of the physics discussed in ref. 
+ <xref rid="r41" ref-type="bibr">41</xref>. Recall that a single band inversion at 
+ <inline-formula>
+  <math id="i94">
+   <mi mathvariant="normal">Γ</mi>
+  </math>
+ </inline-formula> can lead to a strong TI state. Therefore, the double band inversions in bismuth can be viewed as representing two sets of strong TI band structures, where each strong TI contributes a surface Dirac cone at 
+ <inline-formula>
+  <math id="i95">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mi mathvariant="normal">Γ</mi>
+     </mrow>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="fig02">Fig. 2
+  <italic>C</italic>
+ </xref>). The nontrivial topology protected by the twofold rotation 
+ <inline-formula>
+  <math id="i96">
+   <msub>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mn>1</mn>
+       <mrow>
+        <mover accent="true">
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mn>0</mn>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> then yields the double Dirac cones, which remain gapless on the 
+ <inline-formula>
+  <math id="i97">
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mn>1</mn>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mn>0</mn>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> surface. To further connect the above intuitive picture to the symmetry indicators, we provide a more detailed analysis of the representations at the TRIM points. For this purpose, it is helpful to rearrange the Fu–Kane formula (
+ <xref rid="r63" ref-type="bibr">63</xref>) (
+ <xref ref-type="disp-formula" rid="eq1">Eq. 
+  <bold>1</bold>
+ </xref>) as
+ <disp-formula id="eq1">
+  <math id="me1">
+   <msup>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ν</mi>
+      </mrow>
+      <mrow>
+       <mn>0</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </msup>
+   <mo>=</mo>
+   <msup>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mrow>
+       <mo>∑</mo>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mo>∈</mo>
+       <mi mathvariant="normal">T</mi>
+       <mi mathvariant="normal">R</mi>
+       <mi mathvariant="normal">I</mi>
+       <mi mathvariant="normal">M</mi>
+       <mi mathvariant="normal">s</mi>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </msup>
+  </math>
+  <label>[1]</label>
+ </disp-formula>
+ <disp-formula id="eq2">
+  <math id="me2">
+   <mo>=</mo>
+   <msup>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mrow>
+       <mo>∑</mo>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mo>∈</mo>
+       <mi mathvariant="normal">T</mi>
+       <mi mathvariant="normal">R</mi>
+       <mi mathvariant="normal">I</mi>
+       <mi mathvariant="normal">M</mi>
+       <mi mathvariant="normal">s</mi>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mrow>
+       <mi mathvariant="script">C</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mo>+</mo>
+       <mo>,</mo>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+     </msubsup>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mrow>
+       <mo>∑</mo>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mo>∈</mo>
+       <mi mathvariant="normal">T</mi>
+       <mi mathvariant="normal">R</mi>
+       <mi mathvariant="normal">I</mi>
+       <mi mathvariant="normal">M</mi>
+       <mi mathvariant="normal">s</mi>
+      </mrow>
+     </msub>
+     <msubsup>
+      <mrow>
+       <mi mathvariant="script">C</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mo>−</mo>
+       <mo>,</mo>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </msup>
+  </math>
+  <label>[2]</label>
+ </disp-formula>
+ <disp-formula id="eq3">
+  <math id="me3">
+   <mo>=</mo>
+   <msup>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msup>
+        <mrow>
+         <mi>ν</mi>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mo>+</mo>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mi>ν</mi>
+        </mrow>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mo>−</mo>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+   <mo>,</mo>
+  </math>
+  <label>[3]</label>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="i98">
+   <msub>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mn>0</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> is the strong TI (STI) index, and 
+ <inline-formula>
+  <math id="i99">
+   <msubsup>
+    <mrow>
+     <mi>n</mi>
+    </mrow>
+    <mrow>
+     <mi>k</mi>
+    </mrow>
+    <mrow>
+     <mo>−</mo>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> is the number of occupied bands with negative parity eigenvalue. For space group 
+ <inline-formula>
+  <math id="i100">
+   <mi>#</mi>
+  </math>
+ </inline-formula>166, only TRIMs 
+ <inline-formula>
+  <math id="i101">
+   <mrow>
+    <mo>{</mo>
+    <mrow>
+     <mi mathvariant="normal">Γ</mi>
+     <mo>,</mo>
+     <mi>T</mi>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>L</mi>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>}</mo>
+   </mrow>
+  </math>
+ </inline-formula> are invariant under one of the three 
+ <inline-formula>
+  <math id="i102">
+   <msubsup>
+    <mrow>
+     <mi mathvariant="script">C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+    <mrow>
+     <mi>i</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1,2,3</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> axes. However, states at the other pairs of 
+ <inline-formula>
+  <math id="i103">
+   <mrow>
+    <mo>{</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>L</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>L</mi>
+      </mrow>
+      <mrow>
+       <mn>3</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>}</mo>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="i104">
+   <mrow>
+    <mo>{</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>F</mi>
+      </mrow>
+      <mrow>
+       <mn>3</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>}</mo>
+   </mrow>
+  </math>
+ </inline-formula> can be linearly combined into states invariant under 
+ <inline-formula>
+  <math id="i105">
+   <msubsup>
+    <mrow>
+     <mi mathvariant="script">C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula>. Thus, the occupied bands can be separated into two subspaces according to their respective 
+ <inline-formula>
+  <math id="i106">
+   <msub>
+    <mrow>
+     <mi mathvariant="script">C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> eigenvalues (
+ <inline-formula>
+  <math id="i107">
+   <mo>±</mo>
+  </math>
+ </inline-formula>), which are 
+ <inline-formula>
+  <math id="i108">
+   <mfenced open="{" close="}">
+    <mrow>
+     <msubsup>
+      <mrow>
+       <mi mathvariant="script">C</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mo>+</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </mfenced>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="i109">
+   <mfenced open="{" close="}">
+    <mrow>
+     <msubsup>
+      <mrow>
+       <mi mathvariant="script">C</mi>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <mo>−</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+     </msubsup>
+    </mrow>
+   </mfenced>
+  </math>
+ </inline-formula> (
+ <xref ref-type="disp-formula" rid="eq2">Eq. 
+  <bold>2</bold>
+ </xref>). This rearrangement may lead to new topology beyond the 
+ <inline-formula>
+  <math id="i110">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> TI state, but it can be made only when the system is 
+ <inline-formula>
+  <math id="i111">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> trivial (
+ <inline-formula>
+  <math id="i112">
+   <msub>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mn>0</mn>
+    </mrow>
+   </msub>
+   <mo>=</mo>
+   <mn>0</mn>
+  </math>
+ </inline-formula>). From 
+ <xref ref-type="disp-formula" rid="eq3">Eq. 
+  <bold>3</bold>
+ </xref>, we see that 
+ <inline-formula>
+  <math id="i113">
+   <msup>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>+</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+  </math>
+ </inline-formula> plays a role similar to that of 
+ <inline-formula>
+  <math id="i114">
+   <msub>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mn>0</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> within each of the 
+ <inline-formula>
+  <math id="i115">
+   <msub>
+    <mrow>
+     <mi mathvariant="script">C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> subspaces. 
+ <inline-formula>
+  <math id="i116">
+   <msup>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>±</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+  </math>
+ </inline-formula> can be directly obtained from the symmetry indicator 
+ <inline-formula>
+  <math id="i117">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>4</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> (
+ <xref rid="r37" ref-type="bibr">37</xref>, 
+ <xref rid="r46" ref-type="bibr">46</xref>
+ <xref rid="r47" ref-type="bibr"/>–
+ <xref rid="r48" ref-type="bibr">48</xref>), using
+ <disp-formula id="eq4">
+  <math id="me4">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>4</mn>
+    </mrow>
+   </msub>
+   <mo>=</mo>
+   <munder>
+    <mrow>
+     <mo largeop="true" movablelimits="false" symmetric="true">∑</mo>
+    </mrow>
+    <mrow>
+     <mi>k</mi>
+     <mo>∈</mo>
+     <mi mathvariant="normal">T</mi>
+     <mi mathvariant="normal">R</mi>
+     <mi mathvariant="normal">I</mi>
+     <mi mathvariant="normal">M</mi>
+     <mi mathvariant="normal">s</mi>
+    </mrow>
+   </munder>
+   <msubsup>
+    <mrow>
+     <mi>C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+     <mo>+</mo>
+     <mo>,</mo>
+     <mi>k</mi>
+    </mrow>
+    <mrow>
+     <mo>−</mo>
+    </mrow>
+   </msubsup>
+   <mo> </mo>
+   <mi>mod</mi>
+   <mo> </mo>
+   <mn>4</mn>
+   <mo>.</mo>
+  </math>
+  <label>[4]</label>
+ </disp-formula>
+ <xref ref-type="disp-formula" rid="eq4">Eq. 
+  <bold>4</bold>
+ </xref> shows that 
+ <inline-formula>
+  <math id="i118">
+   <msub>
+    <mrow>
+     <mi mathvariant="double-struck">Z</mi>
+    </mrow>
+    <mrow>
+     <mn>4</mn>
+    </mrow>
+   </msub>
+   <mo>=</mo>
+   <mn>2</mn>
+  </math>
+ </inline-formula> corresponds to 
+ <inline-formula>
+  <math id="i119">
+   <msup>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>+</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+   <mo>=</mo>
+   <msup>
+    <mrow>
+     <mi>ν</mi>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </msup>
+   <mo>=</mo>
+   <mn>1</mn>
+  </math>
+ </inline-formula>. In other words, the band structure in each 
+ <inline-formula>
+  <math id="i120">
+   <msub>
+    <mrow>
+     <mi mathvariant="script">C</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> subspace can be viewed as a strong TI. The hybridization between the two strong TI surface states in the presence of the 
+ <inline-formula>
+  <math id="i121">
+   <msub>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mn>1</mn>
+       <mrow>
+        <mover accent="true">
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mn>0</mn>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> rotational symmetry thus leads to the pair of unpinned Dirac surface states on the 
+ <inline-formula>
+  <math id="i122">
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mn>1</mn>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mn>0</mn>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> surface.
+</p>

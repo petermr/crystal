@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the same model, Wo-R is the resistance to the ionic diffusion, and Wo-T and Wo-P are the coefficients according to the Warburg impedance equation (Equation (2)):
+ <disp-formula id="FD4-nanomaterials-09-01156">
+  <label>(2)</label>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Z</mi>
+      <mrow>
+       <mi>W</mi>
+       <mi>o</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>R</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mi>c</mi>
+         <mi>t</mi>
+         <mi>g</mi>
+         <mi>h</mi>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mi>I</mi>
+             <mo>×</mo>
+             <mi>T</mi>
+             <mo>×</mo>
+             <mi>ω</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mi>P</mi>
+         </msup>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mi>I</mi>
+           <mo>×</mo>
+           <mi>T</mi>
+           <mo>×</mo>
+           <mi>ω</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mi>P</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>Zw
+  <sub>o</sub>
+ </italic> is the impedance for the Warburg open element, 
+ <italic>R</italic> describes the diffusion resistance (Ω), 
+ <italic>P</italic> is the exponential coefficient, and 
+ <italic>T</italic> is described through Equation (3): 
+ <disp-formula id="FD5-nanomaterials-09-01156">
+  <label>(3)</label>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>W</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <mi>T</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>L</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mi>D</mi>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>W</italic>
+ <sub>0</sub> − 
+ <italic>T</italic> is the Warburg 
+ <italic>T</italic> coefficient, 
+ <italic>L</italic> is the effective diffusion thickness (m
+ <sup>2</sup>), and 
+ <italic>D</italic> (m
+ <sup>2</sup>s
+ <sup>−1</sup>) is the effective diffusion coefficient of the charge carrier. The contribution of the charge transport processes, and their accumulation at the grain boundaries of the Birnessite particle’s aggregates, overlap with the “bulk” contribution because of the proximity of the particles, which was produced by the sample preparation for the electrical experiments (
+ <xref ref-type="fig" rid="nanomaterials-09-01156-f003">Figure 3</xref>). Because of this reason, the CPE2 and R2 elements were introduced into the circuital model.
+</p>

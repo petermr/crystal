@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this work, firstly we document the performance of two widely employed DFT implementations (AE–LCAO and PP–PW) for computing the electronic structure of the defective (101) anatase surface using different exchange-correlation functionals. The defects considered are the dominant intrinsic ones for this system: single-atom oxygen sub-surface vacancies and hydrogen adsorbates (Setvin et al., 
+ <xref rid="B47" ref-type="bibr">2013</xref>). The implementation of hybrid-exchange functionals using local atomic basis sets, in the CRYSTAL code (Dovesi et al., 
+ <xref rid="B12" ref-type="bibr">2014</xref>), is very efficient, even when a high quality all-electron basis sets are used. CRYSTAL has therefore been used to investigate the stoichiometric and defective (101) anatase surface and upon hydrogen and H2Pc adsorption using the Perdew-Burke-Ernzerhof (PBE Perdew et al., 
+ <xref rid="B40" ref-type="bibr">1996a</xref>) functional and the hybrid [PBE0 (Perdew et al., 
+ <xref rid="B41" ref-type="bibr">1996b</xref>), B3LYP (Becke, 
+ <xref rid="B6" ref-type="bibr">1988</xref>), and HSE (Heyd et al., 
+ <xref rid="B21" ref-type="bibr">2003</xref>)] functionals. For the PP–PW calculations, only the PBE and PBE+U levels have been considered, rather than hybrid exchange functionals, due to the high computational cost of using hybrid functionals for systematic studies (Wu et al., 
+ <xref rid="B52" ref-type="bibr">2009</xref>). In our experience, for PW calculations of the anatase bulk crystal, the computational time increases by three orders of magnitude when using hybrid exchange functionals compared to the AE–LCAO approximation. The comparison of the two approaches allows us to document the effects of the choice of basis set, the pseudopotential and the validity of the empirical PBE+U approach in this system. The PBE+U formalism has been shown to describe qualitatively correctly the defective rutile phase of TiO
+ <sub>2</sub>, both in the bulk and on the surface, but the results for anatase surface remain ambiguous (Haa and Alexandrova, 
+ <xref rid="B19" ref-type="bibr">2016</xref>). A similar analysis to the one presented here have been reported for bulk anatase (Finazzi et al., 
+ <xref rid="B13" ref-type="bibr">2008</xref>; Valentin et al., 
+ <xref rid="B50" ref-type="bibr">2009</xref>), but the complexity of the surface chemistry makes clear the value of the present study.
+</p>

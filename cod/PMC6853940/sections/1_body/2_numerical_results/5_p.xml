@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par25">In the AOUP case, 
+ <italic>p</italic>(
+ <bold>x</bold>) is fitted by a Gaussian centered at 
+ <bold>x</bold> = 0, while in ABP case 
+ <italic>p</italic>(
+ <bold>x</bold>) is close to a Gaussian in 
+ <italic>r</italic> = |
+ <bold>x</bold>| centered at a typical radius larger than zero, and displays a smaller variance. For both ABP and AOUP the angular location of the particles in the clusters, i.e. the angular coordinates 
+ <italic>ϕ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> computed for each particle 
+ <italic>i</italic> with respect to the center of its cluster, is approximatively equal to the orientational angle of the active force, 
+ <italic>θ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>. This feature is illustrated in the insets of Fig. 
+ <xref rid="Fig1" ref-type="fig">1c,d</xref>, where black arrows represent the vectors of the active forces for each particle, which point radially with respect to the center of the cluster. Despite the apparent analogies between the clusters obtained with the AOUP model and the passive systems
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup> (both are non-empty), we note the difference between these two cases: in the large persistence regime, 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> ≪ 
+ <italic>γ</italic> an AOUP particle is stuck to its radial position with respect to the center of its cluster only for a time ~
+ <italic>τ</italic>. After this correlation time, the active force is consistently modified and, as a consequence, a large variation in the radial coordinate of the particle occurs. In fact, the non-existence of ring-like clusters in the AOUP is due to the fluctuating norm of the active force at variance with the ABP where it remains constant. This fact is confirmed by simulations (not shown) where a force with the angular time-dependence of the AOUP but a fixed norm is used in analogy with
+ <sup>
+  <xref ref-type="bibr" rid="CR38">38</xref>
+ </sup>. In this case, empty clusters are obtained. Also, for some particular initial conditions in Eq. (
+ <xref rid="Equ4" ref-type="">4</xref>), ring-like clusters are observed for the standard AOUP, but only as a short-lived (for a time of the order of 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub>
+ <sup>−1</sup>) transient state.
+</p>

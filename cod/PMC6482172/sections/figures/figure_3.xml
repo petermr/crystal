@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig3">
+ <label>Figure 3</label>
+ <caption>
+  <p>(
+   <bold>a</bold>) The differencial displacement map of the relaxed atomic coordinates through energy minimization for a screw dislocation in UO
+   <sub>2</sub>. The x direction is [001], the y direction is 
+   <inline-formula id="IEq24">
+    <alternatives>
+     <tex-math id="M69">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$[\bar{1}10]$$\end{document}</tex-math>
+     <math id="M70">
+      <mo stretchy="false">[</mo>
+      <mover accent="true">
+       <mn>1</mn>
+       <mo>¯</mo>
+      </mover>
+      <mn>10</mn>
+      <mo stretchy="false">]</mo>
+     </math>
+     <inline-graphic xlink:href="41598_2019_42926_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </alternatives>
+   </inline-formula>, and the screw dislocation line direction (parallel to z) is [110]. Selected vacancy sites near the dislocation core, analyzed in the text, are labeled. (
+   <bold>b</bold>) A typical dislocation jog pair as observed in the MD simulations of a U vacancy on the screw dislocation (in the middle of the figure). The structure was determined by the DXA algorithm
+   <sup>
+    <xref ref-type="bibr" rid="CR22">22</xref>
+   </sup> as implemented in Ovito and the view is skewed slightly to emphasize the jog structure. The dislocation lines are indicated with thick blue lines. The grey atoms are U atoms not in fcc, bcc, or hcp coordination environments. The fcc lattice U atoms are hidden for clarity. Inset: an enlarged view of the bottom jog of the jog pair.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2019_42926_Fig3_HTML" id="d29e2664" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

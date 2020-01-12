@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">The comparison of the emission spectra of LED1 and LED2 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4c</xref>) reveals three main features: (1) an additional peak appears at ~490 nm in the spectrum of LED2, and it truly compensates for the cyan gap between 470 nm and 500 nm; (2) this cyan-emitting spectrum shows a decrease in the intensity of the two peaks at 455 nm and 550 nm, indicating the noticeable increase in absorption of the blue part in the range of 380–600 nm; and (3) narrow high-intensity peaks in the range of 600–650 nm stay almost unchanged, causing the relative intensity of the red part to increase compared with that of the blue part. The spectral evolution characteristics are complex, and then it was decided to calculate the difference between the spectra to predict the theoretical maximum of 
+ <italic>R</italic>
+ <sub>a</sub>. Herein, we define the following relationship: DIFF(λ) = LED2(λ) – LED1(λ), where LED2(λ) is the experimental spectrum of LED2 and LED1(λ) is the experimental spectrum of LED1. The different theoretical spectrum THEOR(λ) can therefore be presented as the sum of spectrum LED(λ) without sample and different additions of DIFF(λ) with scaling coefficient 
+ <italic>x</italic>: THEOR(λ) = LED1(λ) + 
+ <italic>x</italic> × DIFF(λ). It should be noted that 
+ <italic>x</italic> = 0 means a pure LED1(λ) spectrum and 
+ <italic>x</italic> = 1 is a pure LED2(λ) spectrum. Several theoretical spectra were obtained by varying 
+ <italic>x</italic> in the range of 
+ <italic>x</italic> = 0–2 with a step size of 0.1. The 
+ <italic>R</italic>
+ <sub>a</sub> index of each spectrum was calculated, and the dependence of 
+ <italic>R</italic>
+ <sub>a</sub> on 
+ <italic>x</italic> was plotted (Fig. 
+ <xref rid="Fig4" ref-type="fig">4d</xref>). The maximum in the 
+ <italic>R</italic>
+ <sub>a</sub>(
+ <italic>x</italic>) function is 
+ <italic>x</italic> = 0.9 with 
+ <italic>R</italic>
+ <sub>a</sub>(max) = 95.7. Therefore, the 
+ <italic>R</italic>
+ <sub>a</sub> of a LED with cyan phosphor NKLSO:Eu
+ <sup>2+</sup> can be raised to 95.7, and the fabricated LED2 with 
+ <italic>R</italic>
+ <sub>a</sub> = 95.2 is close to this maximum (Fig. 
+ <xref rid="Fig4" ref-type="fig">4d</xref>). The spectrum with this theoretical maximum was calculated using the equation of THEOR(λ) and 
+ <italic>x</italic> = 0.9, and it also showed similarity with the spectrum of LED2 (Fig. 
+ <xref rid="Fig4" ref-type="fig">4c</xref>), which indicates that the theoretical prediction is reasonable. However, the simulation of optimal peak emission and optimal emission band width is far from reality. Accordingly, by determining the optimal peak emission wavelength in combination with the optimal emission band width of a special cyan-emitting phosphor, the idea mentioned above can be used in future work, especially for similar compounds, by revealing the mechanism that improves the 
+ <italic>R</italic>
+ <sub>a</sub> value.
+</p>

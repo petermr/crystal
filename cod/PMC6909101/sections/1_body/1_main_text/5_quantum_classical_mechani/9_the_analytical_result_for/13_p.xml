@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0605">The quantity 
+ <inline-formula>
+  <math id="M552" altimg="si413.svg">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd141" ref-type="disp-formula">Eq. (141)</xref>) and the corresponding optical extinction (
+ <xref rid="fd93" ref-type="disp-formula">Eq. (93)</xref>) have a singularity at the point 
+ <inline-formula>
+  <math id="M553" altimg="si463.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Δ</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>E</mi>
+      <mo>,</mo>
+      <mtext> </mtext>
+      <mi>γ</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mtext>0</mtext>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> or 
+ <inline-formula>
+  <math id="M554" altimg="si415.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mn>1</mn>
+      <mo>,</mo>
+      <mtext> </mtext>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">=</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The nature of this singularity is controlled by singularities of the functions 
+ <inline-formula>
+  <math id="M555" altimg="si416.svg">
+   <mrow>
+    <mi>t</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>t</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd144" ref-type="disp-formula">Eq. (144)</xref> and 
+ <inline-formula>
+  <math id="M556" altimg="si417.svg">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in 
+ <xref rid="fd157" ref-type="disp-formula">Eq. (157)</xref>. The singularity in the function 
+ <inline-formula>
+  <math id="M557" altimg="si417.svg">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is removable:
+ <disp-formula id="fd162">
+  <label>(162)</label>
+  <math id="M558" altimg="si418.svg" alttext="Equation 162.">
+   <mrow>
+    <mfrac>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>K</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mrow>
+        <mi>e</mi>
+       </mrow>
+      </msubsup>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>Θ</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mtext> </mtext>
+        <msub>
+         <mrow>
+          <mi>θ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">→</mo>
+        <mi>∞</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mn>2</mn>
+        <msup>
+         <mrow>
+          <mi>τ</mi>
+         </mrow>
+         <mrow>
+          <mn>3</mn>
+         </mrow>
+        </msup>
+        <msub>
+         <mrow>
+          <mi>J</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mfrac>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ξ</mi>
+     </mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mn>2</mn>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+            <mo linebreak="badbreak">+</mo>
+            <mi>ξ</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo linebreak="badbreak">−</mo>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mfrac>
+        <mo linebreak="badbreak">−</mo>
+        <mi>θ</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mn>1</mn>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mspace width="0.25em"/>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mn>4</mn>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+        <mo linebreak="badbreak">−</mo>
+        <msup>
+         <mrow>
+          <mi>ξ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

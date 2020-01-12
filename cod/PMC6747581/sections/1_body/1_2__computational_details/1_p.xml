@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Total energies of TlGaTe
+ <sub>2</sub> were determined by the projected augmented plane-wave (PAW) utilization of the Vienna ab initio simulation package (VASP) [
+ <xref rid="B10-materials-12-02667" ref-type="bibr">10</xref>]. We used the Perde-Burke-Ernzerhof (PBE) of the generalized gradient approximation (GGA) to achieve the structure relaxations [
+ <xref rid="B11-materials-12-02667" ref-type="bibr">11</xref>]. The ionic coordinates are fully relaxed until the total energy is changed 10
+ <sup>−6</sup> eV per atom. Ground-state geometries were calculated by minimizing stresses and Hellman-Feynman forces using the conjugate-gradient algorithm with a force convergence threshold of 10
+ <sup>−3</sup> eV Å
+ <sup>−1</sup>. We used the screened-exchange Heyd-Scuseria-Ernzerhof hybrid function (HSE06) to study the electronic properties of TlGaTe
+ <sub>2</sub>. The screened parameter was set to 0.2 Å
+ <sup>−1</sup> and 30% of the screened Hartree-Fock (HF) exchange was mixed with the PBE exchange functional in the HSE06 method [
+ <xref rid="B12-materials-12-02667" ref-type="bibr">12</xref>]. We applied a 10 × 10 × 10 Γ-centered Monkhorst-pack k-point mesh, which is used in HSE06 self-consistent calculations for TlGaTe
+ <sub>2</sub>. For the calculation of vibrational properties, the software PHONOPY along with VASP, was utilized [
+ <xref rid="B13-materials-12-02667" ref-type="bibr">13</xref>,
+ <xref rid="B14-materials-12-02667" ref-type="bibr">14</xref>]. For vibrational properties, we used 2 × 2 × 2 supercell (64 atoms). Solving the Casida’s equation is the best approach for calculating the dielectric function [
+ <xref rid="B15-materials-12-02667" ref-type="bibr">15</xref>]. We used a 16 × 16 × 16 -centered grid for both GW (green function with Coulomb interaction) and the Bethe-Salpeter equation (BSE). For all these calculations, a plane-wave cut off of 500 eV was used. The Raman activity was obtained by calculating the polarizability for the vibrational modes [
+ <xref rid="B16-materials-12-02667" ref-type="bibr">16</xref>]. The IR spectra is simulated with the analytic formula of Baroni et al. (using the Born effective charge tensor) [
+ <xref rid="B17-materials-12-02667" ref-type="bibr">17</xref>].
+</p>

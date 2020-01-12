@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Applying the 120° rosette equations, principal strains at the level of elementary cell are determined. From measured principal values and utilizing mechanical properties of SiC, it is possible to compute principal stresses. The following values have been adopted, modulus of elasticity E = 402 GPa and Poisson’s ratio ν= 0.18. Applying the plane stress equations, 
+ <disp-formula id="FD9-materials-12-01804">
+  <label>(9)</label>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">σ</mi>
+      <mrow>
+       <mi>p</mi>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mi mathvariant="normal">E</mi>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <msup>
+        <mi mathvariant="bold-italic">ν</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <msubsup>
+        <mi mathvariant="bold-italic">ε</mi>
+        <mrow>
+         <mi>p</mi>
+         <mn>1</mn>
+        </mrow>
+        <mi mathvariant="normal">E</mi>
+       </msubsup>
+       <mo>+</mo>
+       <mi mathvariant="bold-italic">ν</mi>
+       <msubsup>
+        <mi mathvariant="bold-italic">ε</mi>
+        <mrow>
+         <mi>p</mi>
+         <mn>2</mn>
+        </mrow>
+        <mi mathvariant="normal">E</mi>
+       </msubsup>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD10-materials-12-01804">
+  <label>(10)</label>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">σ</mi>
+      <mrow>
+       <mi>p</mi>
+       <mn>2</mn>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mi mathvariant="normal">E</mi>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <msup>
+        <mi mathvariant="bold-italic">ν</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <msubsup>
+        <mi mathvariant="bold-italic">ε</mi>
+        <mrow>
+         <mi>p</mi>
+         <mn>2</mn>
+        </mrow>
+        <mi mathvariant="normal">E</mi>
+       </msubsup>
+       <mo>+</mo>
+       <mi mathvariant="bold-italic">ν</mi>
+       <msubsup>
+        <mi mathvariant="bold-italic">ε</mi>
+        <mrow>
+         <mi>p</mi>
+         <mn>2</mn>
+        </mrow>
+        <mi mathvariant="normal">E</mi>
+       </msubsup>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> we obtained the results given in 
+ <xref rid="materials-12-01804-t001" ref-type="table">Table 1</xref>.
+</p>

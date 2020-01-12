@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">In this work the effect of high-temperature long-term annealing of TaNbHfZr HEA has been successfully simulated and analysed for the closeness of validation with respect to real experimental characterizations. The methodologies used for simulating the HEA based on MC/MD simulations can investigate tens of thousands of atoms for their real nano-scale structure evolutions. On the TaNbHfZr system, a multi-cell Monte Carlo simulation was tried out recently by Niu 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>. But since their technique involved DFT based 
+ <italic>ab-initio</italic> calculations, only a tiny structure containing 64 atoms could be simulated for predictive phase separation at low temperatures. Although efforts have been made to model local chemical SRO/SRC in HEAs for a few systems in the literature, there had hardly been any supportive experimental evidences provided as validations with respect to APT, X-ray diffuse scattering analysis, complementary HRTEM for simulated nanostructure study reported
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>,
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. The earlier work on this HEA by Maiti 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup> tried to address these aspects by manually introducing SRCs into the model atomic structure. But the local chemical composition of the evolved SRCs for their role on local structural distortions were based on experimental APT and HRTEM characterizations as a simple presumed model. In this work all the structure of SRCs are evolved automatically by computer using the MC/MD method with no experimental inputs. The nano-scale morphology of the evolved structure after 15 MC swaps closely resembled the actual nanostructure captured by HRTEM and APT atom map after 1 day and 4 days of annealing
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The early stages of ordering morphology by 10–15 MC swaps were also similar to the Zr clustering atom map obtained from APT after 6 hours of annealing. The evolved SRCs maintained a 3-d cubic symmetry (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>) in their evolved morphology as evidenced by HRTEM, APT and diffuse X-ray scattering studies established
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. This indicates that the applied MC/MD technique not only captured the final state of the nano-scale morphology of SRCs, but it also captured the sequence of evolution of SRCs together with their morphology as compared with the experimental results. For a close and direct comparison of the simulated structure and nano-scale real microstructure, scaled and oriented images are presented in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref> for evolved morphologies. This was possible because of the sampling of the configurations using Metropolis type configuration acceptance criterion, which gradually decreased the energy of the system and progressed through the different stages of the structure evolution sequentially as shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>. After each attempted atomic swap of the MC/MD trial, the local structure was subjected to energy minimization by conjugate gradient (CG) relaxation keeping the LP constant for 1800 °C. This allowed many surrounding atoms of the swapping atoms to move to relaxed positions simultaneously. The multiple local small atomic displacements involved in each CG energy minimization can be compared to many MC displacements achieved in one trial swap. This helps in accelerating the simulation of hybrid MC/MD runs as discussed earlier in the literature
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. The surprising feature of this MC/MD structure evolution of the HEA is the realistic evolution of the SRCs along the {1 0 0} habit planes as experimentally observed. In many GP-zone forming alloys this kind of orientation relationships are found and attributed to the elastic anisotropy
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>,
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>. By analysing the simulated growth evolution of Cu-rich SRC type GP zones in Al alloys, it was found that the main factor contributing to the &lt;1 0 0&gt; orientation of SRC is the elastic anisotropy rather than the possible interfacial chemical energy between the SRC and the matrix
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>. Also for spinodal decomposition of alloys, the composition fluctuation and clustering found in {1 0 0} planes are also attributed to the elastic anisotropy, 
+ <italic>A</italic> &gt; 
+ <italic>1</italic> of the matrix
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup>. The MC/MD methodology presented in this work could successfully demonstrate planer clustering of Zr and Hf atoms along the {1 0 0} planes because the MD potential accounted for the elastic anisotropy of the average matrix structure like in Al-Cu alloys as well
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>. Table 
+ <xref rid="Tab1" ref-type="table">1</xref> summarizes the second order elastic constants of the pure elements and the alloy at different stages of evolution obtained by utilizing the EAM potential used in this work. It can be found that the MD obtained stiffness constants reproduced very well the experimental values for the pure elements, which were utilised as input to build up the EAM potentials
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. The elastic anisotropy of the average structure is in the range 2.15–2.26, which indicates a lower elastic strain energy along &lt;1 0 0&gt; direction than other directions. This anisotropic factor promotes the Zr and Hf-rich SRCs to grow more in the {1 0 0} planes to form tiny local clusters and relax along &lt;1 0 0&gt; directions as observed both in simulation and experiments.
+</p>

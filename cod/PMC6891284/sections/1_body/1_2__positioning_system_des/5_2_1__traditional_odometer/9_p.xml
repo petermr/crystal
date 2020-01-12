@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From the analysis presented above, if the delivery robot is described by the function 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <mi>f</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo>,</mo>
+     <mi>θ</mi>
+     <mo>,</mo>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>l</mi>
+     </msub>
+     <mo>,</mo>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>r</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at point p’, the following equation can be obtained:
+ <disp-formula id="FD10-sensors-19-04980">
+  <label>(10)</label>
+  <math id="mm21">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>p</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <mi>f</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo>,</mo>
+     <mi>θ</mi>
+     <mo>,</mo>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>l</mi>
+     </msub>
+     <mo>,</mo>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>r</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mi>x</mi>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mi>y</mi>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mi>θ</mi>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <mrow>
+      <mo>(</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mi>x</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>l</mi>
+           </msub>
+           <mo>+</mo>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>r</mi>
+           </msub>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+         <mi>cos</mi>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>l</mi>
+           </msub>
+           <mo>−</mo>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>r</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <mn>4</mn>
+           <mi>L</mi>
+          </mrow>
+         </mfrac>
+         <mo stretchy="false">)</mo>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mi>y</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>l</mi>
+           </msub>
+           <mo>+</mo>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>r</mi>
+           </msub>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+         <mi>sin</mi>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>l</mi>
+           </msub>
+           <mo>−</mo>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>r</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <mn>4</mn>
+           <mi>L</mi>
+          </mrow>
+         </mfrac>
+         <mo stretchy="false">)</mo>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mi>θ</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mrow>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>r</mi>
+           </msub>
+           <mo>+</mo>
+           <mi mathvariant="script">Δ</mi>
+           <msub>
+            <mi>S</mi>
+            <mi>l</mi>
+           </msub>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+           <mi>L</mi>
+          </mrow>
+         </mfrac>
+        </mtd>
+       </mtr>
+      </mtable>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

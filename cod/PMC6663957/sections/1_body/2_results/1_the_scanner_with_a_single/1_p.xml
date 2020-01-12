@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par47">The comparison of the new implementation with the standard cylindrical implementation in STIR was performed without correcting data prior or during image reconstruction. The results from block and cylindrical model show equal reconstruction performance, however, not identical (Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>). The reason is that the cylindrical model even for such a scanner design uses approximation to calculate LOR coordinates given sinogram bins. For instance, it assigns the same azimuthal angle to two tangentially adjacent LORs with slightly different azimuthal angles. The difference image in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>c illustrates this rotational difference between the images. The line profile plotted across images indicates the difference between voxel values across the line. Maximum relative difference between the images calculated over a cylindrical ROI (6 mm × 50 mm Ø) was 10%.
+</p>

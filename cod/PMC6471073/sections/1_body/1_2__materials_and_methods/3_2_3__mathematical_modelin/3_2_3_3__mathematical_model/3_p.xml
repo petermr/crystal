@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Joints of the rings and spokes are shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f006">Figure 6</xref>a. As the ring width is much smaller than the length of spoke and the radius of rings, it can be elucidated that the inner ring (ring 
+ <italic>i</italic>) and the spoke α (α = A, B, …, H) are connected together at the point T, which is also the cross point of the central line of the ring and spoke. Similarly, the spoke and the outer ring (ring 
+ <italic>i</italic> + 1) are connected at point T′. For the small flexural deformation as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f006">Figure 6</xref>b, to ensure that the structure is still continuous, the rings and spokes must have the same radial displacement, tangential displacement, and rotating angle at points T and T′. So, the coupling condition on the interface of ring and spoke can be expressed as 
+ <disp-formula id="FD32-micromachines-10-00181">
+  <label>(32)</label>
+  <math id="mm34">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mtable columnalign="left">
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>u</mi>
+            <mi>i</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>d</mi>
+            <mi>x</mi>
+           </msub>
+           <msub>
+            <mrow/>
+            <mi>α</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+           <mo>,</mo>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>v</mi>
+            <mi>i</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>d</mi>
+            <mrow>
+             <mi>y</mi>
+             <mi>α</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+           <mo>,</mo>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>ϕ</mi>
+            <mi>i</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>σ</mi>
+            <mi>α</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mn>0</mn>
+           <mo stretchy="false">)</mo>
+           <mo>,</mo>
+          </mtd>
+         </mtr>
+        </mtable>
+       </mtd>
+       <mtd>
+        <mtable columnalign="left">
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>u</mi>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>d</mi>
+            <mi>x</mi>
+           </msub>
+           <msub>
+            <mrow/>
+            <mi>α</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>v</mi>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>d</mi>
+            <mrow>
+             <mi>y</mi>
+             <mi>α</mi>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mtd>
+         </mtr>
+         <mtr>
+          <mtd>
+           <msub>
+            <mi>ϕ</mi>
+            <mrow>
+             <mi>i</mi>
+             <mo>+</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <msub>
+            <mi>θ</mi>
+            <mi>T</mi>
+           </msub>
+           <mo stretchy="false">)</mo>
+           <mo>=</mo>
+           <msub>
+            <mi>σ</mi>
+            <mi>α</mi>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mi>L</mi>
+           <mo stretchy="false">)</mo>
+          </mtd>
+         </mtr>
+        </mtable>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

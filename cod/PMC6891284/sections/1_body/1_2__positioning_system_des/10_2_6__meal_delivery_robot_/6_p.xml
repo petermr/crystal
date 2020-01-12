@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>During motion, the system error and random errors may cause a shift in the trajectory of the robot. Hence, adjustment is required. Within the predetermined track range, the running attitude is maintained. Outside the predetermined track range, the running attitude is adjusted. The adjustment method is as follows. If the robot moves to the left (right) beyond the predetermined trajectory, the left (right) wheel speed will be increased. Using the fuzzy logic control strategy, the system achieves real-time online fuzzy control in the case of the speed difference between the left and right wheels [
+ <xref rid="B18-sensors-19-04980" ref-type="bibr">18</xref>].
+</p>

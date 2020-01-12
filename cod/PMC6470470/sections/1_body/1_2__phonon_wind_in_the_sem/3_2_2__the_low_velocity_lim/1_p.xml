@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the limit of small velocity 
+ <italic>v</italic>, small meaning 
+ <inline-formula>
+  <math id="mm86">
+   <mrow>
+    <mrow>
+     <mi>v</mi>
+     <mo>≪</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <mrow>
+     <mi>v</mi>
+     <mo>≪</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">S</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (where 
+ <inline-formula>
+  <math id="mm88">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">T</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the effective polycrystalline transverse sound speed and 
+ <inline-formula>
+  <math id="mm89">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">S</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the lowest shear wave speed of the single crystal in the direction of 
+ <inline-formula>
+  <math id="mm90">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mspace width="0.0pt"/>
+      <mi>v</mi>
+     </mrow>
+     <mo>→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>), drag coefficient 
+ <italic>B</italic> simplifies to 
+ <disp-formula id="FD5-materials-12-00948">
+  <label>(5)</label>
+  <math id="mm91">
+   <mrow>
+    <mtable displaystyle="true">
+     <mtr>
+      <mtd columnalign="right">
+       <mi>B</mi>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>≈</mo>
+        <mfrac>
+         <mrow>
+          <mn>4</mn>
+          <mi>π</mi>
+         </mrow>
+         <mi>ℏ</mi>
+        </mfrac>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+          <mo>,</mo>
+          <msup>
+           <mi>s</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </mrow>
+        </munder>
+        <msub>
+         <mo>∫</mo>
+         <mi>BZ</mi>
+        </msub>
+        <mspace width="-0.166667em"/>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>3</mn>
+          </msup>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <msup>
+          <mrow>
+           <mo>(</mo>
+           <mn>2</mn>
+           <mi>π</mi>
+           <mo>)</mo>
+          </mrow>
+          <mn>3</mn>
+         </msup>
+        </mfrac>
+        <msub>
+         <mo>∫</mo>
+         <mi>BZ</mi>
+        </msub>
+        <mspace width="-0.166667em"/>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mi>d</mi>
+           <mn>2</mn>
+          </msup>
+          <mi>q</mi>
+         </mrow>
+         <msup>
+          <mrow>
+           <mo>(</mo>
+           <mn>2</mn>
+           <mi>π</mi>
+           <mo>)</mo>
+          </mrow>
+          <mn>2</mn>
+         </msup>
+        </mfrac>
+        <mspace width="0.277778em"/>
+        <msup>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msub>
+            <mo>Γ</mo>
+            <mrow>
+             <msup>
+              <mi>s</mi>
+              <mo>′</mo>
+             </msup>
+             <msup>
+              <mi>s</mi>
+              <mrow>
+               <mo>′</mo>
+               <mo>′</mo>
+              </mrow>
+             </msup>
+            </mrow>
+           </msub>
+           <mrow>
+            <mo>(</mo>
+            <mover accent="true">
+             <mrow>
+              <mspace width="0.0pt"/>
+              <mi>q</mi>
+             </mrow>
+             <mo>→</mo>
+            </mover>
+            <msup>
+             <mspace width="0.166667em"/>
+             <msup>
+              <mspace width="-0.166667em"/>
+              <mo>′</mo>
+             </msup>
+            </msup>
+            <mo>,</mo>
+            <mover accent="true">
+             <mrow>
+              <mspace width="0.0pt"/>
+              <mi>q</mi>
+             </mrow>
+             <mo>→</mo>
+            </mover>
+            <msup>
+             <mspace width="0.166667em"/>
+             <msup>
+              <mspace width="-0.166667em"/>
+              <mo>′</mo>
+             </msup>
+            </msup>
+            <mspace width="-0.166667em"/>
+            <mspace width="-0.166667em"/>
+            <mo>−</mo>
+            <mover accent="true">
+             <mrow>
+              <mspace width="0.0pt"/>
+              <mi>q</mi>
+             </mrow>
+             <mo>→</mo>
+            </mover>
+            <mo>,</mo>
+            <mover accent="true">
+             <mrow>
+              <mspace width="0.0pt"/>
+              <mi>q</mi>
+             </mrow>
+             <mo>→</mo>
+            </mover>
+            <mo>,</mo>
+            <mi>v</mi>
+            <mo>=</mo>
+            <mn>0</mn>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd/>
+      <mtd columnalign="left">
+       <mrow>
+        <mspace width="1.em"/>
+        <mo>×</mo>
+        <msup>
+         <mrow>
+          <mo>(</mo>
+          <mover accent="true">
+           <mrow>
+            <mspace width="0.0pt"/>
+            <mi>q</mi>
+           </mrow>
+           <mo>→</mo>
+          </mover>
+          <mo>·</mo>
+          <mover accent="true">
+           <mi>v</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mfrac>
+         <mrow>
+          <mo>∂</mo>
+          <mo>(</mo>
+          <mo>−</mo>
+          <msub>
+           <mi>n</mi>
+           <msup>
+            <mi>q</mi>
+            <mo>′</mo>
+           </msup>
+          </msub>
+          <mo>)</mo>
+         </mrow>
+         <mrow>
+          <mo>∂</mo>
+          <msub>
+           <mi>ω</mi>
+           <msup>
+            <mi>q</mi>
+            <mo>′</mo>
+           </msup>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mi>δ</mi>
+        <mrow>
+         <mo>(</mo>
+         <msub>
+          <mi>ω</mi>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>ω</mi>
+          <mrow>
+           <msup>
+            <mi>q</mi>
+            <mo>′</mo>
+           </msup>
+           <mo>−</mo>
+           <mi>q</mi>
+          </mrow>
+         </msub>
+         <mo>)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>C</mi>
+        <mspace width="0.166667em"/>
+        <mi>v</mi>
+        <mo>+</mo>
+        <mi mathvariant="script">O</mi>
+        <mrow>
+         <mo>(</mo>
+         <msup>
+          <mi>v</mi>
+          <mn>2</mn>
+         </msup>
+         <mo>)</mo>
+        </mrow>
+       </mrow>
+       <mo>,</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm93">
+   <mrow>
+    <mover accent="true">
+     <mi>v</mi>
+     <mo stretchy="false">^</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> denotes the unit vector in the direction of 
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mspace width="0.0pt"/>
+      <mi>v</mi>
+     </mrow>
+     <mo>→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>. Explicit numerical calculations for a number of metals show that the first order velocity correction has a 
+ <italic>negative</italic> coefficient 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <mi>C</mi>
+     <mo>&lt;</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. To understand why this is the case, we note that the dislocation field itself depends only on the square of its velocity and thus its Taylor expansion around small 
+ <italic>v</italic> has no linear term. Furthermore, since 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ω</mi>
+      <msup>
+       <mi>q</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>c</mi>
+      <msup>
+       <mi>s</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <msup>
+      <mi>q</mi>
+      <mo>′</mo>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <mo>Γ</mo>
+   </mrow>
+  </math>
+ </inline-formula> scales as 
+ <inline-formula>
+  <math id="mm98">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>/</mo>
+     <msub>
+      <mi>ω</mi>
+      <msup>
+       <mi>q</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <msub>
+      <mi>ω</mi>
+      <msup>
+       <mi>q</mi>
+       <mrow>
+        <mo>″</mo>
+       </mrow>
+      </msup>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the drag coefficient depends on the sound speeds as 
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <mrow>
+     <mn>1</mn>
+     <mo>/</mo>
+     <msubsup>
+      <mi>c</mi>
+      <mrow>
+       <msup>
+        <mi>s</mi>
+        <mo>′</mo>
+       </msup>
+      </mrow>
+      <mn>3</mn>
+     </msubsup>
+     <msubsup>
+      <mi>c</mi>
+      <mrow>
+       <msup>
+        <mi>s</mi>
+        <mrow>
+         <mo>″</mo>
+        </mrow>
+       </msup>
+      </mrow>
+      <mn>2</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Since 
+ <inline-formula>
+  <math id="mm100">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">T</mi>
+     </msub>
+     <mo>∼</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">L</mi>
+     </msub>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the largest contribution to 
+ <italic>B</italic> at low velocity 
+ <italic>v</italic> is due to the purely transverse branch (where both incoming and outgoing phonons are transverse), as already observed in earlier work [
+ <xref rid="B13-materials-12-00948" ref-type="bibr">13</xref>,
+ <xref rid="B14-materials-12-00948" ref-type="bibr">14</xref>,
+ <xref rid="B25-materials-12-00948" ref-type="bibr">25</xref>]. In this case, it is convenient to introduce a dimensionless integration variable proportional to the ratio 
+ <inline-formula>
+  <math id="mm101">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi>t</mi>
+      <mo>∝</mo>
+      <mo>|</mo>
+     </mrow>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mspace width="0.0pt"/>
+        <mi>q</mi>
+       </mrow>
+       <mo>→</mo>
+      </mover>
+      <msup>
+       <mspace width="0.166667em"/>
+       <msup>
+        <mspace width="-0.166667em"/>
+        <mo>′</mo>
+       </msup>
+      </msup>
+     </mrow>
+     <mrow>
+      <mo>|</mo>
+      <mo>/</mo>
+      <mo>|</mo>
+     </mrow>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mi>q</mi>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+     <mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The energy conserving delta function then restricts the integration range of this new variable 
+ <italic>t</italic> such that it shrinks with growing dislocation velocity 
+ <italic>v</italic> (see [
+ <xref rid="B13-materials-12-00948" ref-type="bibr">13</xref>,
+ <xref rid="B14-materials-12-00948" ref-type="bibr">14</xref>]). This is the dominating effect and the reason for negative 
+ <italic>C</italic>.
+</p>

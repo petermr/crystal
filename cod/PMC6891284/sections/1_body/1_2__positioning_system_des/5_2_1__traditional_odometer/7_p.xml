@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When the distance traveled by the delivery robot is extremely small, the incremental arc length 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>S</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is equivalent to a small straight line of length 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>d</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The following formula can be deduced from 
+ <xref ref-type="fig" rid="sensors-19-04980-f003">Figure 3</xref>b. 
+ <disp-formula id="FD5-sensors-19-04980">
+  <label>(5)</label>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>x</mi>
+     <mo>=</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>d</mi>
+     <mi>cos</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD6-sensors-19-04980">
+  <label>(6)</label>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>y</mi>
+     <mo>=</mo>
+     <mi mathvariant="script">Δ</mi>
+     <mi>d</mi>
+     <mi>sin</mi>
+     <mo stretchy="false">(</mo>
+     <mi>θ</mi>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mi mathvariant="script">Δ</mi>
+       <mi>θ</mi>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

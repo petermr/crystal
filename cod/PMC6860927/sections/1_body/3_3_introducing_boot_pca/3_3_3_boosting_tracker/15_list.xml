@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="order">
+ <list-item>
+  <p>The training set contains 
+   <italic>m</italic> samples where all 
+   <italic>x</italic> inputs are patches from the images and y outputs are an element of a set comprising of only two values, 1 (The grain boundary) and -1 (others).
+  </p>
+ </list-item>
+ <list-item>
+  <p>Initialize all weights of the samples to 1 divided by the number of patches (
+   <italic>m</italic>).
+  </p>
+ </list-item>
+ <list-item>
+  <p>From 
+   <italic>t</italic> = 1 to 
+   <italic>T</italic> classifier, fit it to the training data (where each prediction is either -1 or 1) and select the classifier with the lowest weighted classification error.
+  </p>
+ </list-item>
+</list>

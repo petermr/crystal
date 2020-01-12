@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">2. A list of possible positions for interface atoms (here S or P) around the metal core is built. The local chemical bonding determines the acceptance of a point of a dense grid (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">1</xref>) as a possible interface atom position, based on comparison to bond lengths and angles found in the training set (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">2</xref>). In addition, a spatial fitting of the molecule (ligand) attached to the interface is required for acceptance. Here, fitting of the organic part of thiolates and phosphines is tested with a specific sized rigid sphere in the most prominent bonding direction with respect to the nearest neighbor Au–S, Ag–S or Ag–P bonds as visualized in Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>. Finally, the list of all possible interface atom positions is saved and used as a basis for the random multi-start selection process in step 3.
+</p>

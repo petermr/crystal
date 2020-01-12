@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Herein, 
+ <bold>M
+  <sub>0</sub>
+ </bold>, 
+ <bold>K
+  <sub>0</sub>
+ </bold>, and 
+ <bold>Q</bold> are the uncoupled mass matrix, stiffness matrix, and generalized coordinate of the whole sensing structure, respectively. Thus, 
+ <disp-formula id="FD48-micromachines-10-00181">
+  <label>(48)</label>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msub>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>M</mi>
+          </mstyle>
+          <mn>0</mn>
+         </msub>
+         <mo>=</mo>
+         <mi>d</mi>
+         <mi>i</mi>
+         <mi>a</mi>
+         <mi>g</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>M</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+           <mo>,</mo>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>M</mi>
+            </mstyle>
+            <mn>2</mn>
+           </msub>
+           <mo>,</mo>
+           <mo>⋯</mo>
+           <mo>,</mo>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>M</mi>
+            </mstyle>
+            <mrow>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>,</mo>
+         <msub>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>K</mi>
+          </mstyle>
+          <mn>0</mn>
+         </msub>
+         <mo>=</mo>
+         <mi>d</mi>
+         <mi>i</mi>
+         <mi>a</mi>
+         <mi>g</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+           <mo>,</mo>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mn>2</mn>
+           </msub>
+           <mo>,</mo>
+           <mo>⋯</mo>
+           <mo>,</mo>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mrow>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>Q</mi>
+         </mstyle>
+         <mo>=</mo>
+         <msup>
+          <mrow>
+           <mrow>
+            <mo>[</mo>
+            <mrow>
+             <mtable>
+              <mtr>
+               <mtd>
+                <mrow>
+                 <msub>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>Q</mi>
+                  </mstyle>
+                  <mn>1</mn>
+                 </msub>
+                </mrow>
+               </mtd>
+               <mtd>
+                <mrow>
+                 <msub>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>Q</mi>
+                  </mstyle>
+                  <mn>2</mn>
+                 </msub>
+                </mrow>
+               </mtd>
+               <mtd>
+                <mo>⋯</mo>
+               </mtd>
+               <mtd>
+                <mrow>
+                 <msub>
+                  <mstyle mathvariant="bold" mathsize="normal">
+                   <mi>Q</mi>
+                  </mstyle>
+                  <mrow>
+                   <mi>n</mi>
+                   <mo>−</mo>
+                   <mn>1</mn>
+                  </mrow>
+                 </msub>
+                </mrow>
+               </mtd>
+              </mtr>
+             </mtable>
+            </mrow>
+            <mo>]</mo>
+           </mrow>
+          </mrow>
+          <mi>T</mi>
+         </msup>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

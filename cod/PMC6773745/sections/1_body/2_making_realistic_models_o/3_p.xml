@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">An obvious means of correcting this bias so as to favour physical solutions is to exploit energy calculations during the modelling process. The conventional approach is to include simple empirical potentials e.g. to constrain bond lengths and angles
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>
+ </sup>, but newer frameworks anticipate the possibility for incorporating calculations based on higher-level theory
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>. A particularly exciting opportunity is the interface with efficient machine-learned potentials that allow energy calculations with density functional theory accuracy even for large atomistic configurations
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>. Whatever methodology one might use, the relative likelihood 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$p$$\end{document}</tex-math>
+   <math id="M18">
+    <mi>p</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12422_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> of any two competing models (A and B, say) is in principle entirely determined by the difference in corresponding (free) energies 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$E$$\end{document}</tex-math>
+   <math id="M20">
+    <mi>E</mi>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12422_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>: 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${p}_{{\rm{A}}}/{p}_{{\rm{B}}}=\exp [-({E}_{{\rm{A}}}-{E}_{{\rm{B}}})/{k}_{{\rm{B}}}T]$$\end{document}</tex-math>
+   <math id="M22">
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+     </mrow>
+    </msub>
+    <mo>∕</mo>
+    <msub>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">B</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>exp</mi>
+    <mrow>
+     <mo>[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">A</mi>
+         </mrow>
+        </msub>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi mathvariant="normal">B</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+      <mo>∕</mo>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">B</mi>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+     <mo>]</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12422_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Bayes’ theorem could then be used to weight experiment and theory (exactly) in the case that experimental uncertainties are properly handled. Given the recent developments in both experiment-driven and computation-driven complex structure solution, we now have the right mise en place for a truly integrated methodology that promises the most realistic structural models possible. Two particular challenges remain: one is the computational difficulty of accounting for the contribution of entropy (doable, but slow), and the second is the trickier problem that complex materials need not be equilibrium phases.
+</p>

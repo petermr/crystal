@@ -1,0 +1,753 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6648860</article-id><article-id pub-id-type="pmid">31459982</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b00770</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>On the Study of Ca and Mg Deintercalation from Ternary
+Tantalum Nitrides</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Verrelli</surname><given-names>Roberta</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Black</surname><given-names>Ashley Philip</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Frontera</surname><given-names>Carlos</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Or&#x000f3;-Sol&#x000e9;</surname><given-names>Judith</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Arroyo-de Dompablo</surname><given-names>Maria Elena</given-names></name><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath6"><name><surname>Fuertes</surname><given-names>Amparo</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath7"><name><surname>Palac&#x000ed;n</surname><given-names>M. Rosa</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><label>&#x02020;</label><institution>Institut
+de Ci&#x000e8;ncia de Materials de Barcelona (ICMAB-CSIC) Campus UAB</institution>, E-08193 Bellaterra, Catalonia, <country>Spain</country></aff><aff id="aff2"><label>&#x02021;</label><institution>ALISTORE-ERI
+European Research Institute, CNRS FR 3104, Hub de l&#x02019;Energie</institution>, Rue Baudelocque, 80039 Amiens Cedex, <country>France</country></aff><aff id="aff3"><label>&#x000a7;</label>Departamento
+de Qu&#x000ed;mica Inorg&#x000e1;nica, Facultad de Cc. Qu&#x000ed;micas, <institution>Universidad Complutense de Madrid</institution>, 28040 Madrid, <country>Spain</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>amparo.fuertes@icmab.es</email> (A.F.).</corresp><corresp id="cor2"><label>*</label>E-mail: <email>rosa.palacin@icmab.es</email> (M.R.P.).</corresp></author-notes><pub-date pub-type="epub"><day>22</day><month>05</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>31</day><month>05</month><year>2019</year></pub-date><volume>4</volume><issue>5</issue><fpage>8943</fpage><lpage>8952</lpage><history><date date-type="received"><day>20</day><month>03</month><year>2019</year></date><date date-type="accepted"><day>09</day><month>05</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical
+Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical
+Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0007" id="ab-tgr1"/></p><p>Layered CaTaN<sub>2</sub> and MgTa<sub>2</sub>N<sub>3</sub> and
+cubic Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> were prepared by direct
+solid state reaction from the binary nitrides Ta<sub>3</sub>N<sub>5</sub> and A<sub>3</sub>N<sub>2</sub> (A: Mg, Ca). CaTaN<sub>2</sub> showed a slight Ca deficiency (0.11 moles per formula), and a monoclinic
+distortion from previously reported <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> symmetry, with space group <italic>C</italic>2/<italic>m</italic> and cell parameters <italic>a</italic> = 5.4011(2), <italic>b</italic> = 3.1434(1), <italic>c</italic> = 5.9464(2) &#x000c5; and
+&#x003b2; = 107.91(3)&#x000b0;. Ca<sup>2+</sup> and Mg<sup>2+</sup> deintercalation
+was investigated in the three compounds both chemically and electrochemically.
+No significant Mg<sup>2+</sup> extraction could be inferred for MgTa<sub>2</sub>N<sub>3</sub> and Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub>, neither after reaction with NO<sub>2</sub>BF<sub>4</sub> nor after
+electrochemical oxidation at 100 &#x000b0;C in alkyl carbonate electrolytes.
+Rietveld refinement of the X-ray powder diffraction pattern of chemically
+oxidized Ca<sub>0.89</sub>TaN<sub>2</sub> indicates a decrease of
+the Ca content to 0.34 concomitant to the disappearance of the monoclinic
+distortion and expansion of the interlayer space from 5.658 to 5.762
+&#x000c5;, space group <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> and
+cell parameters <italic>a</italic> = 3.1103(1) and <italic>c</italic> = 17.287(1) &#x000c5;. Deintercalation in this compound was also achieved
+electrochemically at 100 &#x000b0;C. Results of density functional theory
+calculations seem to indicate that reaction mechanisms for CaTaN<sub>2</sub> oxidation additional and/or alternative to deintercalation
+are taking place, which is likely related to the loss of crystallinity
+observed upon oxidation and the irreversibility of the process.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b00770</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-00770s</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><label>1</label><title>Introduction</title><p>The
+transition from mono- to multivalent ion-based batteries is
+a key strategy to substantially enhance the energy density of currently
+available battery technologies, especially if metal anodes can be
+used.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> This concept becomes particularly
+attractive if earth-abundant and nontoxic metals are used as the overall
+battery technology would benefit from reduced cost and lower environmental
+impact. Ca and Mg are the fifth and eighth most abundant elements
+on the earth&#x02019;s crust, respectively, and the metals display
+theoretical volumetric energy densities of 3833 and 2073 mA h/mL,
+significantly larger than that of graphite, which is used as the negative
+electrode material in most commercial lithium ion batteries (&#x0223c;800
+mA h/mL).<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> On the positive electrode side,
+divalent charge carriers would enable to double the capacities when
+compared to single valent ones for the same amount of reacted ions.
+Alternatively, reaction of only a half of the ions would be needed
+to achieve the same capacity. These prospects have been prompting
+increased interest from the scientific community, with Mg batteries
+having deserved the most attention so far.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Progress in this topic is difficult, as significant bottlenecks
+exist both at a fundamental and technical level, and the understanding
+of the multivalent battery chemistry is still elusive in many aspects.
+Indeed, know-how gained in the development of Li-ion batteries cannot
+be directly imported and even a reliable electrochemical full cell
+setup is missing.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> On the crystal chemistry
+side, unraveling materials allowing fast and reversible ion mobility
+is a major challenge to address. The main issues arise from the high
+polarizing character of multivalent ions inducing strong Coulombic
+interactions within the electrode host framework and high (de)-solvation
+energy barriers, which dramatically affect the electrode intercalation
+kinetics and power performances. The use of Mo<sub>6</sub>S<sub>8&#x02013;<italic>y</italic></sub>Se<sub><italic>y</italic></sub> (<italic>y</italic> = 1, 2) Chevrel phases exhibiting fast and reversible Mg<sup>2+</sup> migration as positive electrode materials represents a milestone
+in Mg battery chemistry,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> despite its redox
+potential being rather low. A vast array of other materials, including
+layered and spinel oxides, chalcogenides, Prussian blue analogues,
+vanadates, silicates, and polyanionic phosphates, have been studied,
+but none of them has resulted in suitable performance.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Calcium systems are even less explored, as the feasibility
+of reversible calcium plating/stripping got only recently unveiled.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup> Encouraging results have been achieved with traditional layered
+materials such as TiS<sub>2</sub>, for which reversible insertion
+of Ca<sup>2+</sup> at 100 &#x000b0;C has been recently demonstrated.<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> Traditional layered oxides such as V<sub>2</sub>O<sub>5</sub> and MoO<sub>3</sub> have been recently revisited for
+applications in Ca batteries: while poor (if any) Ca<sup>2+</sup> intercalation
+has been proved in V<sub>2</sub>O<sub>5</sub>,<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> reversible electrochemical activity has been reported for MoO<sub>3</sub>.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> Calcium transition metal ternary
+oxides have also drawn increasing attention: while too high Ca<sup>2+</sup> migration barriers were determined for CaMoO<sub>3</sub> and CaMn<sub>2</sub>O<sub>4</sub>,<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> electrochemical
+extraction of Ca<sup>2+</sup> from 1D Ca<sub>3</sub>Co<sub>2</sub>O<sub>6</sub> was achieved at high potential (3.2&#x02013;3.6 V vs
+Ca), encouraging further optimization of the cathode and electrolyte
+compositions to achieve reversibility of the process.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup></p><p>Within this research context, we decided to further
+explore non-oxidic
+compounds, turning our attention to ternary A<sub><italic>x</italic></sub>Ta<sub><italic>y</italic></sub>N<sub><italic>z</italic></sub> (A: Mg, Ca) tantalum nitrides. As compared to transition metal oxides,
+nitrides exhibit analogous crystal chemistry and a higher degree of
+covalency of the metal&#x02013;anion bonds, which results into unique
+chemical, magnetic, and optical properties.<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> The high covalency of transition metal nitrides can be conceived
+as a tool to mitigate coulombic interactions with multivalent ions
+and hence facilitate their solid state migration. Furthermore, the
+high electronic conductivity exhibited by several transition metal
+nitrides could play a key role in promoting fast multivalent ion migration
+kinetics, in agreement with what has been recently evidenced for the
+Mg<sub><italic>x</italic></sub>Zr<sub>2</sub>S<sub>4</sub> thiospinel
+phase,<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> exhibiting, despite its large
+unit cell volume and almost zero-strain upon insertion, lower Mg<sup>2+</sup> diffusion coefficient than the Mg<sub><italic>x</italic></sub>Ti<sub>2</sub>S<sub>4</sub> phase<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> as a consequence of its much lower electronic conductivity. While
+covalency is also expected to result in a penalty in the redox operating
+voltage, this can be in principle compensated by the proper selection
+of transition metal redox centers. Although few reports on the study
+of ternary alkali transition metal nitrides as Li-ion battery electrode
+materials exist,<sup><xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> such compounds have not been
+considered for multivalent technologies, the only exception being
+MgMoN<sub>2</sub>, for which Mg<sup>2+</sup> extraction was not possible.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> Among the available alkaline earth metal transition
+metal nitrides, the ternary A&#x02013;Ta&#x02013;N (A: Ca, Mg) system
+represents an interesting playground for research, as the electronic
+configuration of tantalum allows in principle to explore a broad spectrum
+of phase compositions, with potentially high operating voltage and
+high specific capacities. Hexagonal Mg<sub>1&#x02013;<italic>x</italic></sub>Ta<sub>2+<italic>x</italic></sub>N<sub>3</sub> and cubic Mg<sub>2.6&#x02013;<italic>x</italic></sub>Ta<sub>2+<italic>x</italic></sub>N<sub>3</sub> phases were originally prepared by Brokamp and Jacobs
+by solid state reaction between Mg(NH<sub>2</sub>)<sub>2</sub> or
+Mg<sub>3</sub>N<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub>.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> Analogously, CaTaN<sub>2</sub> was synthesized
+by Disalvo et al.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> from Ca(NH<sub>2</sub>)<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub> and suggested to have
+rhombohedral symmetry, being isostructural to &#x003b1;-NaFeO<sub>2</sub>.</p><p>Herein, we present a study of such phases prepared from Ta<sub>3</sub>N<sub>5</sub> and binary nitrides A<sub>3</sub>N<sub>2</sub> (A: Mg, Ca) instead of the alkaline earth amides as reactants, and
+determination of the crystal structure for the calcium compound. The
+feasibility of Ca and Mg ion extraction from CaTaN<sub>2</sub>, MgTa<sub>2</sub>N<sub>3</sub>, and Mg<sub><italic>x</italic></sub>Ta<sub>2</sub>N<sub>4</sub> was studied both chemically and electrochemically.
+Finally, in light of the results achieved, the feasibility of Ca deintercalation
+form CaTaN<sub>2</sub> is also investigated using first principles
+calculations within the density functional theory (DFT) approximation.</p></sec><sec id="sec2"><label>2</label><title>Results and Discussion</title><p>The achievement of ternary transition
+metal nitrides is far from
+being trivial, as high temperatures and prolonged treatments are needed
+in order to obtain crystalline samples and nitrides are inherently
+less stable than oxides due to their lower free energies of formation.<sup><xref ref-type="bibr" rid="ref26">26</xref>&#x02212;<xref ref-type="bibr" rid="ref30">30</xref></sup> In the synthesis of alkaline or alkaline earth transition metal
+nitrides, these long thermal treatments may result in significant
+losses of the most electropositive metal, which trigger the control
+over the product composition. The list of the ternary Ca and Mg tantalum
+nitrides studied in this work and of the experimental conditions employed
+for their synthesis is given in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>, together with the synthetic methods previously reported.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Synthesis Conditions for Tantalum
+Alkaline Earth Ternary Nitrides</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">phase</th><th style="border:none;" align="center">reactants</th><th style="border:none;" align="center">A/Ta&#x000a0;(A:&#x000a0;Ca,&#x000a0;Mg)</th><th style="border:none;" align="center"><italic>T</italic>&#x000a0;(&#x000b0;C)</th><th style="border:none;" align="center">reaction
+time(h)</th><th style="border:none;" align="center">atmosphere
+sample holder</th><th style="border:none;" align="center">refs</th></tr></thead><tbody><tr><td style="border:none;" align="left">CaTaN<sub>2</sub></td><td style="border:none;" align="left">Ca<sub>3</sub>N<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">1.2/1</td><td style="border:none;" align="left">1080</td><td style="border:none;" align="left">20</td><td style="border:none;" align="left">N<sub>2</sub> flow, Mo crucible</td><td style="border:none;" align="left">this work</td></tr><tr><td style="border:none;" align="left">CaTaN<sub>2</sub></td><td style="border:none;" align="left">Ca(NH<sub>2</sub>)<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">1 to 1.15/1</td><td style="border:none;" align="left">1450</td><td style="border:none;" align="left">3</td><td style="border:none;" align="left">N<sub>2</sub>, Nb crucible</td><td style="border:none;" align="left">(<xref ref-type="bibr" rid="ref18">18</xref>)</td></tr><tr><td style="border:none;" align="left">MgTa<sub>2</sub>N<sub>3</sub></td><td style="border:none;" align="left">Mg<sub>3</sub>N<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">1.2/2</td><td style="border:none;" align="left">850</td><td style="border:none;" align="left">20</td><td style="border:none;" align="left">N<sub>2</sub> flow, Mo crucible</td><td style="border:none;" align="left">this work</td></tr><tr><td style="border:none;" align="left">MgTa<sub>2</sub>N<sub>3</sub></td><td style="border:none;" align="left">Mg(NH)<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">1.2/2</td><td style="border:none;" align="left">1200</td><td style="border:none;" align="left">24</td><td style="border:none;" align="left">N<sub>2</sub> flow, Ni crucible</td><td style="border:none;" align="left">(<xref ref-type="bibr" rid="ref31">31</xref>)</td></tr><tr><td style="border:none;" align="left">Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub></td><td style="border:none;" align="left">Mg<sub>3</sub>N<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">1/1</td><td style="border:none;" align="left">850</td><td style="border:none;" align="left">20</td><td style="border:none;" align="left">N<sub>2</sub> flow, Mo crucible</td><td style="border:none;" align="left">this work</td></tr><tr><td style="border:none;" align="left">Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub></td><td style="border:none;" align="left">Mg(NH)<sub>2</sub> or Mg<sub>3</sub>N<sub>2</sub>; Ta<sub>3</sub>N<sub>5</sub></td><td style="border:none;" align="left">6/1</td><td style="border:none;" align="left">1050</td><td style="border:none;" align="left">24</td><td style="border:none;" align="left">N<sub>2</sub> flow, Mo crucible</td><td style="border:none;" align="left">(<xref ref-type="bibr" rid="ref31">31</xref>)</td></tr></tbody></table></table-wrap><sec id="sec2.1"><label>2.1</label><title>Magnesium
+Tantalum Nitrides</title><sec id="sec2.1.1"><label>2.1.1</label><title>MgTa<sub>2</sub>N<sub>3</sub></title><p>Attempts
+to extract Mg<sup>2+</sup> from this phase were carried out both by
+chemical oxidation with NO<sub>2</sub>BF<sub>4</sub> and by electrochemical
+methods at room temperature and 100 &#x000b0;C. The characteristic potential
+versus capacity signature of the MgTa<sub>2</sub>N<sub>3</sub> electrode
+(15% wt of Super P carbon) upon extended oxidation using an electrochemical
+potential spectroscopy (EPS) protocol at 100 &#x000b0;C in Li three-electrode
+cell [in 1 <italic>m</italic> LiBOB, ethylene carbonate (EC)/propylene
+carbonate (PC) 1:1 vol electrolyte] is shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>C. A plateau-like region centered at about
+4.2 V versus Li<sup>+</sup>/Li is observed in the oxidation profile,
+with a capacity approaching 100 mA h g<sup>&#x02013;1</sup> (corresponding
+to about 0.8 mol of virtually extracted Mg<sup>2+</sup> considering
+this as the only redox reaction taking place).</p><p>MgTa<sub>2</sub>N<sub>3</sub> was obtained by reacting Mg<sub>3</sub>N<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub> in 1:2 mol ratio at 850 &#x000b0;C
+for 20 h (see the <xref rid="sec4" ref-type="other">Experimental Section</xref> for
+details). The as-prepared sample consists of homogenous micrometric
+aggregates of sub-micrometric and nanometric particles (see <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>B). The Mg/Ta ratio
+determined from energy-dispersive X-ray (EDX) spectroscopy was 0.45
+with distribution of both elements being homogeneous (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Figure S1D</ext-link>). The Rietveld refinement using synchrotron
+X-ray diffraction (SXRD) patterns of the as-prepared sample is depicted
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Figure S1A</ext-link>. Refinement has been done
+starting from previously reported structure with <italic>P</italic>6<sub>3</sub>/<italic>mcm</italic> space group.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The refined cell parameters are <italic>a</italic> = 5.2106(2)
+&#x000c5; and <italic>c</italic> = 10.4328(4) &#x000c5;, which are in agreement
+with those previously reported for Mg<sub>1&#x02013;<italic>x</italic></sub>Ta<sub>2+<italic>x</italic></sub>N<sub>3</sub> (ca. 0 &#x0003c; <italic>x</italic> &#x0003c; 0.06). A Mg/Ta ratio slightly lower than 1/2 could
+be inferred by the refinement of the occupation factors, while a nitrogen
+content of 9.6% wt was obtained by elemental analysis (i.e., approaching
+theoretical 9.8% wt value for MgTa<sub>2</sub>N<sub>3</sub>). The
+crystal structure of MgTa<sub>2</sub>N<sub>3</sub> is represented
+in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>A. It consists of (TaN<sub>2</sub>)<sup>3&#x02013;</sup> layers between which both Mg<sup>2+</sup> and Ta<sup>5+</sup> ions
+occupy octahedral holes. The structure exhibits partial cation ordering,
+as Wyckoff position 4d is mainly occupied by Mg<sup>2+</sup> ions
+(i.e., for ca. 90% by Mg and 10% by Ta) while positions 2a and 6g
+are occupied only by tantalum. Some of the peaks in the SXRD patterns
+of the as-prepared sample (such as the 104 reflection at <italic>d</italic> = 2.258 &#x000c5; corresponding to sin(&#x003b8;)/&#x003bb; = 0.2214 &#x000c5;<sup>&#x02013;1</sup>, see Figure S1B in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Supporting Information</ext-link>) exhibited a broad, asymmetric shape which prevented
+proper fitting by Rietveld refinement, neither by considering micro-absorption
+nor anisotropic strain effects. Such anisotropic broadening might
+be due to the presence of stacking faults, in line with observations
+in other layered compounds reported in the literature.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> This is also consistent with the observation
+of streaking along [001]* in the electron diffraction patterns (see
+Figure S1F in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Supporting Information</ext-link>), which indicate stacking disorder along <italic>c</italic>.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(A) Refined
+crystal structure of MgTa<sub>2</sub>N<sub>3</sub>;
+N, Mg, and Ta atoms are represented as orange, pink, and gray spheres.
+(B) Backscattered electron SEM micrograph of MgTa<sub>2</sub>N<sub>3</sub> powder. (C) Characteristic EPS potential profile vs specific
+capacity (bottom axis) and vs moles of virtually extracted Mg<sup>2+</sup> (top axis), calculated considering that this is the only
+redox phenomenon taking place, for MgTa<sub>2</sub>N<sub>3</sub> electrode
+(with 15% wt of Super P carbon) in Li cell, with 1 <italic>m</italic> LiBOB, EC/PC (1:1 vol) electrolyte at 100 &#x000b0;C and C/100 rate
+and corresponding ex situ X-ray powder diffraction patterns (D). Diffraction
+patterns of the pristine and chemically oxidized samples are also
+shown in (D) for comparison.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0001" id="gr1" position="float"/></fig><p>The ex situ X-ray powder diffraction patterns of the MgTa<sub>2</sub>N<sub>3</sub> sample collected after the electrochemical and
+chemical
+oxidation tests are shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>D. Compared with the pristine phase, neither peak shifts
+nor formation of extra phases are observed, this pointing to insignificant
+(if any) Mg de-insertion from MgTa<sub>2</sub>N<sub>3</sub>, even
+under the severe oxidizing conditions employed and the electrochemical
+capacity observed being related to side reactions most likely involving
+electrolyte decomposition. Attempts to insert additional Mg<sup>2+</sup> ions in the MgTa<sub>2</sub>N<sub>3</sub> structure were carried
+out by electrochemical reduction in Mg cells at 100 &#x000b0;C, using
+a 0.3 M Mg(TFSI)<sub>2</sub>, EC/PC 1:1 electrolyte, which resulted
+in very low capacities and no changes in the X-ray powder diffraction patterns.</p></sec><sec id="sec2.1.2"><label>2.1.2</label><title>Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub></title><p>Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> was obtained
+by solid state reaction at 1080 &#x000b0;C from Ta<sub>3</sub>N<sub>5</sub> and Mg<sub>3</sub>N<sub>2</sub> in 1:1 molar ratio (see the <xref rid="sec4" ref-type="other">Experimental Section</xref> for details). The as-prepared
+Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> exhibits a cation-disordered
+cubic crystal structure (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>A) with Mg and Ta in octahedral
+coordination and cell parameter <italic>a</italic> = 4.35329(6) &#x000c5;,
+as determined by Rietveld refinement of the SXRD data (see Figure
+S2A in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Supporting Information</ext-link>. Refinement
+was made using <italic>Fm</italic>&#x00033;&#x00305;<italic>m</italic> space
+group as reported in ref (<xref ref-type="bibr" rid="ref26">26</xref>)). An Mg/Ta ratio of about 0.8 and 0.7 was obtained by EDX
+analysis, and N content
+of 9.5%
+wt was obtained from chemical analysis, in agreement with the nominal
+composition. A typical scanning electron microscopy (SEM) micrograph
+of the Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> sample is shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>B, displaying nanometric
+particles forming micrometric size aggregates with distribution of
+Mg and Ta being homogeneous (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Figure S2B</ext-link>).</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Refined crystal structure (A) and backscattered electron SEM micrographs
+(B) of Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub><sup><xref ref-type="bibr" rid="ref31">31</xref></sup> prepared at 1080 &#x000b0;C from binary nitrides. (C) X-ray
+powder diffraction patterns of pristine (a), chemically (b) and electrochemically
+oxidized (c) and reduced (d) Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> samples.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0002" id="gr2" position="float"/></fig><p>When subjected to oxidation using
+an electrochemical potential
+spectroscopy (EPS) protocol at 100 &#x000b0;C in Li three-electrode cells
+in 1 <italic>m</italic> LiBOB, EC/PC 1:1 vol electrolyte, the electrodes
+containing Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> exhibited a potential
+profile displaying a plateau around 4.2 V versus Li<sup>+</sup>/Li
+and specific capacities close to 90 mA h g<sup>&#x02013;1</sup> corresponding
+to &#x00394;<italic>x</italic> of virtually de-inserted Mg<sup>2+</sup> of about 0.7 mol. However, no significant change in the X-ray powder
+diffraction pattern was observed, neither after electrochemical nor
+after chemical oxidation, which points at the amount of Mg<sup>2+</sup> deintercalated being insignificant, if any, and the electrochemical
+capacity observed being again related to side reactions. Attempts
+to electrochemically reduce Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> in Mg cell were not successful either.</p></sec></sec><sec id="sec2.1.3"><label>2.2</label><title>Magnesium Calcium Nitrides</title><p>CaTaN<sub>2</sub> was prepared
+by solid state reaction at 1080 &#x000b0;C between
+Ca<sub>3</sub>N<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub> (see the <xref rid="sec4" ref-type="other">Experimental Section</xref> for details) and was found
+to be stable in ambient air. We initially attempted to fit the X-ray
+powder diffraction pattern using the structural model previously reported
+by Balbarin et al.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> in space group <italic>R</italic>&#x00033;&#x00305;<italic>m</italic>.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> However, several diffraction peaks show a clear splitting [e.g.,
+reflections 012, 015, 018 of <italic>R</italic>&#x00033;&#x00305;<italic>m</italic>] indicating lower symmetry. As an alternative, we used the structural
+model with monoclinic space group <italic>C</italic>2/<italic>m</italic> that was reported for Na<sub><italic>x</italic></sub>FeO<sub>2</sub>.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> This provided a better fitting of
+the X-ray diffraction data and split reflections. The observed and
+calculated X-ray diffraction patterns are plotted in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>. The inset shows in detail
+the peak at ca. 0.236 &#x000c5;<sup>&#x02013;1</sup> corresponding to
+&#x00031;&#x00305;12/201 reflections in <italic>C</italic>2/<italic>m</italic> group and 015 reflection in <italic>R</italic>&#x00033;&#x00305;<italic>m</italic>, emphasizing the need of reducing the symmetry from rhombohedral
+to monoclinic. Results of the Rietveld refinement are listed in <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>. This monoclinic
+distortion might arise from Jahn&#x02013;Teller effect (as reported
+in other layered oxides<sup><xref ref-type="bibr" rid="ref34">34</xref></sup>) or, most likely
+in view of DFT results (see below), to vacancy/calcium ordering related
+to Ca deficiency<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> as typically occurs in the triangular lattice of Na sites in &#x003b1;-Na<sub><italic>x</italic></sub>FeO<sub>2</sub>-type compounds.<sup><xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup> Besides, the background of the pattern indicates presence of a relevant
+amount of amorphous phase, which was quantified (by adding a 20% wt
+of SiO<sub>2</sub>) to be about 25% wt (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Supporting Information</ext-link>).</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Observed and calculated SXRPD patterns of Ca<sub>0.89</sub>TaN<sub>2</sub> (&#x003bb; = 0.4133 &#x000c5;) in space group <italic>C</italic>2/<italic>m</italic>. Vertical ticks denote the Bragg positions.
+Inset: Zoom of the (&#x00031;&#x00305;13) and (202) doublet of <italic>C</italic>2/<italic>m</italic> SG, a single reflection (015) would be present
+in this region for <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> SG.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0003" id="gr3" position="float"/></fig><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Atomic Coordinates
+in Space Group <italic>C</italic>2/<italic>m</italic> for Ca<sub>0.89</sub>TaN<sub>2</sub> from the Refinement of X-ray Diffraction Data at
+298 K Using Radiation
+with &#x003bb; = 0.4133 &#x000c5;<xref rid="t2fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">atom</th><th style="border:none;" align="center">Wyckoff site</th><th style="border:none;" align="center" char="."><italic>x</italic></th><th style="border:none;" align="center" char="."><italic>y</italic></th><th style="border:none;" align="center" char="."><italic>z</italic></th><th style="border:none;" align="center"><italic>B</italic><sub>iso</sub></th><th style="border:none;" align="center">Occ.
+factor</th></tr></thead><tbody><tr><td style="border:none;" align="left">Ca</td><td style="border:none;" align="left">2d</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0.5</td><td style="border:none;" align="char" char=".">0.5</td><td style="border:none;" align="left">2.5(2)</td><td style="border:none;" align="left">0.888(4)</td></tr><tr><td style="border:none;" align="left">Ta</td><td style="border:none;" align="left">2a</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="left">0.39(3)</td><td style="border:none;" align="left">1</td></tr><tr><td style="border:none;" align="left">N</td><td style="border:none;" align="left">4i</td><td style="border:none;" align="char" char=".">0.278</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">0.795</td><td style="border:none;" align="left">0.8(3)</td><td style="border:none;" align="left">1</td></tr></tbody></table><table-wrap-foot><fn id="t2fn1"><label>a</label><p>Refined cell parameters were <italic>a</italic> = 5.40108(2), <italic>b</italic> = 3.1434(1), <italic>c</italic> = 5.9464(2) &#x000c5; and
+&#x003b2; = 107.908(3)&#x000b0;. Agreement
+factors: &#x003c7;<sup>2</sup> = 7.34; <italic>R</italic><sub>wp</sub> = 8.75%; <italic>R</italic><sub>Bragg</sub> = 3.23%. Average bond
+distances: &#x027e8;<italic>d</italic><sub>Ta&#x02013;N</sub>&#x027e9;
+= 2.15(3) &#x000c5;; &#x027e8;<italic>d</italic><sub>Ca&#x02013;N</sub>&#x027e9; = 2.46(1) &#x000c5;.</p></fn></table-wrap-foot></table-wrap><p>The Ca&#x02013;N and Ta&#x02013;N bond distances (see <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>) are consistent with ionic
+radii values. The refinement of the occupation factors resulted in
+a slight Ca deficiency, with Ca/Ta ratio being 0.89(1). The presence
+of a minor impurity phase with main diffraction peaks at sin(&#x003b8;)/&#x003bb;
+of ca. 0.208 and 0.246 &#x000c5;<sup>&#x02013;1</sup> was also detected,
+which may correspond either to CaO or TaN. A Ca/Ta ratio close to
+1 was also inferred from EDX with distribution of both elements being
+homogeneous (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Figure S5A</ext-link>), while a nitrogen
+content of 10.5% wt was determined by combustion analysis which is
+close (1.82 N per formula) to that expected for the stoichiometry
+Ca<sub>0.89</sub>TaN<sub>2</sub>. These results are consistent with
+previous findings by Balbarin et al. who observed slight calcium deficiency
+and presence of TaN, TaN<sub>0.1</sub>, or Ca<sub>2</sub>TaN<sub>3</sub> as secondary phases.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup></p><p>The crystal
+structure of Ca<sub>0.89</sub>TaN<sub>2</sub> is represented
+in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>A. Ca and
+Ta occupy alternating octahedral sites between close packed nitrogen
+slabs. The ordered distribution of cations within the layers has been
+reported to be at the origin of anisotropy of electrical resistivity.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup></p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(A) Projection of the refined crystal structure of Ca<sub>0.89</sub>TaN<sub>2</sub> along the [210] direction. N, Ca, and Ta
+atoms are
+represented, respectively, as orange, magenta, and gray spheres. (B)
+Backscattered electron SEM image of CaTaN<sub>2</sub> sample. (C)
+Characteristic GCPL voltage profiles vs specific capacity (bottom)
+and vs moles of virtually de-inserted Ca<sup>2+</sup> (&#x00394;<italic>x</italic>) (top) of Ca/0.45 M Ca(BF<sub>4</sub>)<sub>2</sub>, EC/PC
+(1:1 vol)/CaTaN<sub>2</sub> (with 15% wt of Super P carbon) cells
+at 100 &#x000b0;C and C/100 rate and corresponding ex situ XRD patterns
+(b,c). (D) X-ray powder diffraction patterns of the pristine (a) and
+chemically oxidized samples are also displayed in (D). (*) denotes
+reflections corresponding to CaF<sub>2</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0004" id="gr4" position="float"/></fig><p>The as-prepared sample consists of micrometric aggregates
+of nanometric
+and sub-micrometric particles (<xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>B) with homogeneous composition, as confirmed by EDX
+analysis. Attempts to extract Ca<sup>2+</sup> from this phase were
+carried out, both by chemical oxidation reaction with NO<sub>2</sub>BF<sub>4</sub> and by electrochemical methods. For the electrochemical
+experiments, Ca<sub>0.89</sub>TaN<sub>2</sub> was mixed with conductive
+Super P carbon in 85:15% wt ratio and subjected to electrochemical
+oxidation (de-insertion) tests in Ca metal cells under various conditions.
+As no electrochemical activity could be observed at RT, additional
+experiments were carried out at moderate temperature (100 &#x000b0;C). <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>C displays the characteristic
+potential versus capacity profiles observed for Ca<sub>0.89</sub>TaN<sub>2</sub> electrode at 100 &#x000b0;C and C/100 rate in Ca three-electrode
+cell with Ca reference and counter electrodes, in dry 0.45 M Ca(BF<sub>4</sub>)<sub>2</sub>, EC/PC 1:1 vol electrolyte. The potential signature
+displayed is the measured potential difference between the working
+and the counter electrodes (each measured vs passivated Ca reference).
+A full oxidation up to capacity values of about 170 mA h g<sup>&#x02013;1</sup> (corresponding to &#x00394;<italic>x</italic> mol of virtually extracted
+Ca<sup>2+</sup> ions of about 0.7) is reported in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>C, together with an oxidation&#x02013;reduction
+limited to lower values of delivered specific capacity (i.e. about
+0.3 mol of virtually exchange Ca<sup>2+</sup> ions). A plateau centered
+at about 4.5 V is observed upon oxidation with high polarization upon
+further reduction, both using tape or powder electrodes. A variation
+of the powder sample color from dark gray to light brown was detected
+both after the chemical and electrochemical oxidation tests, reasonably
+suggesting a variation of the tantalum oxidation state. The X-ray
+powder diffraction patterns of Ca<sub>0.89</sub>TaN<sub>2</sub> at
+the end of the oxidation (de-insertion) process and after oxidation&#x02013;reduction
+are reported in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>D, together with the patterns corresponding to the pristine phase
+and the powder recovered after 10 h of reaction with NO<sub>2</sub>BF<sub>4</sub> at 80 &#x000b0;C in acetonitrile (ACN).</p><p>Significant
+loss of crystallinity is observed, especially for the
+sample oxidized for longer time. An increase of the amorphous content
+from about 25% wt in the pristine sample to 50% wt after oxidation
+was estimated from Rietveld refinement of the XRD data, by using an
+internal standard of SiO<sub>2</sub> quartz (see Figures S3 and S4
+in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Supporting Information</ext-link>). A strong
+decrease of the integrated intensity of the &#x00032;&#x00305;02/111 reflections
+(104 in the <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> cell) [sin(&#x003b8;)/&#x003bb;
+= 0.219 &#x000c5;<sup>&#x02013;1</sup>, <italic>d</italic> = 2.285 &#x000c5;]
+is clearly detected after the oxidation (see <xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref>D and <xref rid="fig5" ref-type="fig">5</xref>), together
+with an increase in the intensity of the 001 reflection (003 in <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> cell) [sin(&#x003b8;)/&#x003bb;
+= 0.089&#x000c5;<sup>&#x02013;1</sup>, <italic>d</italic> = 5.762 &#x000c5;]
+and changes in the relative intensities of 110/&#x00032;&#x00305;01 [sin(&#x003b8;)/&#x003bb;
+= 0.187 &#x000c5;<sup>&#x02013;1</sup>, <italic>d</italic> = 2.660 &#x000c5;,
+101 in the <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> cell] and
+&#x00031;&#x00305;11/200 [sin(&#x003b8;)/&#x003bb; = 0.194 &#x000c5;<sup>&#x02013;1</sup>, <italic>d</italic> = 2.570 &#x000c5;, 102 in the <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> cell] reflections. An additional peak
+is observed at sin(&#x003b8;)/&#x003bb; around 0.158 &#x000c5;<sup>&#x02013;1</sup>, which is assigned to CaF<sub>2</sub> derived from BF<sub>4</sub><sup>&#x02013;</sup> decomposition side reactions. The patterns corresponding
+to the chemically oxidized sample exhibit main peaks at values of
+sin(&#x003b8;)/&#x003bb; of 0.087, 0.188, 0.195, and 0.219 &#x000c5;<sup>&#x02013;1</sup> and can be fitted using a structural model with space
+group <italic>R</italic>&#x00033;&#x00305;<italic>m</italic>, with refined cell
+parameters <italic>a</italic> = 3.1103(1) and <italic>c</italic> =
+17.287(1) &#x000c5; (see <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> and <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>). The stabilization of <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> structure in the chemically oxidized sample is consistent with the
+disappearance of the ordered vacancy-Ca configuration in the interlayer
+space, a feature well described in layered-LiMO<sub>2</sub> materials
+where the lithium content drives the stabilization of particular Li-vacancy
+orderings and subsequent crystal symmetry changes.<sup><xref ref-type="bibr" rid="ref39">39</xref>,<xref ref-type="bibr" rid="ref40">40</xref></sup> The changes in the cell parameters are similar to those observed
+in &#x003b1;-NaFeO<sub>2</sub> and NaVO<sub>2</sub> during sodium deintercalation,<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup> which lead to layered phases with composition Na<sub>0.5</sub>MO<sub>2</sub>. Expanded <italic>c</italic> axis (as mentioned, interlayer
+distance in Ca<sub>0.89</sub>TaN<sub>2</sub>, 5.658 &#x000c5; would correspond
+to a hexagonal <italic>c</italic> axis of 16.974 &#x000c5;) resulting
+from increasing coulombic repulsions as the amount of ions in the
+interslab space decreases. The refined calcium occupancy for the chemically
+oxidized sample is 0.34(2), which agrees with the Ca/Ta ratio of 0.4
+obtained from XESD analysis. The poor crystallinity of the electrochemically
+oxidized sample prevents reliable refinement of the Ca occupancy.
+Nonetheless, the pattern is quite similar to the one of the chemically
+oxidized sample with <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> symmetry
+and cell parameters <italic>a</italic> = 3.107(1) and <italic>c</italic> = 17.363(5) &#x000c5;, indicating a slightly larger expansion along <italic>c</italic>. The X-ray diffraction patterns of samples obtained by
+reduction of oxidized Ca<sub>0.89</sub>TaN<sub>2</sub> did not show
+any additional change, which is a clear indication that calcium deintercalation
+is an irreversible process. Interestingly, very similar behavior has
+been reported for NaTaN<sub>2</sub><sup><xref ref-type="bibr" rid="ref43">43</xref></sup> which
+was also oxidized chemically (in that case using NO<sub>2</sub>PF<sub>6</sub>) with significant amorphization and decrease in the relative
+intensity of some peaks with respect to others. In that case, no Rietveld
+refinement was possible even for pristine NaTaN<sub>2</sub>, despite
+a hexagonal cell being suggested and hence no values for sodium occupancy
+were available either. Yet, the <italic>c</italic> contraction together
+with a gradual loss of crystallinity upon progressive oxidation was
+clearly established. Moreover, all attempts to reintroduce sodium
+in the structure were also unsuccessful. As for NaTaN<sub>2</sub>,
+tantalum is in its highest oxidation state, the authors do speculate
+that the redox reaction may involve nitrogen as well, despite not
+being able to confirm this hypothesis. The elemental analysis of the
+Ca<sub>0.89</sub>TaN<sub>2</sub> sample after chemical oxidation revealed
+a nitrogen content of 7.7% wt, that is slightly lower than the one
+determined for the pristine phase (10.5% wt) while distribution of
+Ca and Ta remains homogeneous (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">Figure S5B</ext-link>).</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Observed and calculated X-ray powder diffraction patterns of the
+chemically oxidized Ca<sub>0.89</sub>TaN<sub>2</sub> phase. Vertical
+ticks denote the Bragg positions for Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> and for CaF<sub>2</sub> impurity phase, respectively,
+in green (top) and in orange (bottom).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0005" id="gr5" position="float"/></fig><table-wrap id="tbl3" position="float"><label>Table 3</label><caption><title>Atomic Coordinates in Space Group <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> for Chemically Oxidized Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> from the Refinement of X-ray
+Diffraction Data at 298 K Using Radiation with &#x003bb; = 0.41338 &#x000c5;<xref rid="t3fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">atom</th><th style="border:none;" align="center">Wyckoff site</th><th style="border:none;" align="center"><italic>x</italic></th><th style="border:none;" align="center"><italic>y</italic></th><th style="border:none;" align="center"><italic>z</italic></th><th style="border:none;" align="center">Occ.
+factor</th></tr></thead><tbody><tr><td style="border:none;" align="left">Ca</td><td style="border:none;" align="left">3a</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0.34(2)</td></tr><tr><td style="border:none;" align="left">Ta</td><td style="border:none;" align="left">3b</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0.5</td><td style="border:none;" align="left">1</td></tr><tr><td style="border:none;" align="left">N</td><td style="border:none;" align="left">6c</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0</td><td style="border:none;" align="left">0.252(1)</td><td style="border:none;" align="left">1</td></tr></tbody></table><table-wrap-foot><fn id="t3fn1"><label>a</label><p>Refined cell parameters were <italic>a</italic> = 3.1103(1) and <italic>c</italic> = 17.287(1) &#x000c5;.
+Overall temperature factor <italic>B</italic> = 0.40(1) &#x000c5;<sup>2</sup>. Agreement factors: &#x003c7;<sup>2</sup> = 8.26; <italic>R</italic><sub>wp</sub> = 12.7%; <italic>R</italic><sub>Bragg</sub> = 4.43%.</p></fn></table-wrap-foot></table-wrap><p>At this point, a legitimate
+question was whether reversibility
+of the deintercalation process may be prevented by large calcium desolvation
+energies in the electrolyte used, as was suggested in the case of
+Ca<sub>3</sub>Co<sub>2</sub>O<sub>6</sub>,<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> or else the mechanism was more complex and involved some sort of
+decomposition upon oxidation, which may well explain the progressive
+amorphization.</p><p>In order to shed some light into this issue,
+calculations have
+been performed for the stoichiometric CaTaN<sub>2</sub> and the hypothetical
+de-inserted phase Ca<sub>0.5</sub>TaN<sub>2</sub> (see relevant results
+in <xref rid="tbl4" ref-type="other">Table <xref rid="tbl4" ref-type="other">4</xref></xref>). For CaTaN<sub>2</sub>, the monoclinic and hexagonal models yield similar total
+energies, with a negligible energy difference of 3 meV/f.u. in favor
+of the latter (note that the energy difference is within the error
+range of the calculation). Interestingly, in both cases the optimized
+structure shows six almost equivalent Ta&#x02013;N distances excluding
+the presence of a Jahn&#x02013;Teller distorted Ta d<sup>1</sup> cation.
+This is in line with detailed band structure calculations,<sup><xref ref-type="bibr" rid="ref44">44</xref>&#x02212;<xref ref-type="bibr" rid="ref46">46</xref></sup> showing that in CaTaN<sub>2</sub> the three t<sub>2g</sub>-like
+Ta-based bands are practically degenerate, due to the very regular
+octahedral coordination for the Ta atoms.</p><table-wrap id="tbl4" position="float"><label>Table 4</label><caption><title>Calculated
+Lattice Parameters and
+Selected Bond Distances for CaTaN<sub>2</sub> and Ca<sub>0.5</sub>TaN<sub>2</sub></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th colspan="2" align="center">CaTaN<sub>2</sub><hr/></th><th style="border:none;" align="center">Ca<sub>0.5</sub>TaN<sub>2</sub></th></tr><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center"><italic>R</italic>&#x00033;&#x00305;<italic>m</italic></th><th style="border:none;" align="center"><italic>C</italic>2/<italic>m</italic></th><th style="border:none;" align="center"><italic>C</italic>2/<italic>m</italic></th></tr></thead><tbody><tr><td style="border:none;" align="left">lattice parameters</td><td style="border:none;" align="left"><italic>a</italic>&#x000a0;=&#x000a0;3.181&#x000a0;&#x000c5;,&#x000a0;<italic>c</italic>&#x000a0;=&#x000a0;16.723&#x000a0;&#x000c5;</td><td style="border:none;" align="left"><italic>a</italic>&#x000a0;=&#x000a0;5.506&#x000a0;&#x000c5;,&#x000a0;<italic>b</italic>&#x000a0;=&#x000a0;3.179&#x000a0;&#x000c5;,&#x000a0;<italic>c</italic>&#x000a0;=&#x000a0;5.874&#x000a0;&#x000c5;,&#x000a0;&#x003b2;&#x000a0;=&#x000a0;108.216&#x000b0;</td><td style="border:none;" align="left"><italic>a</italic>&#x000a0;=&#x000a0;5.343&#x000c5;,&#x000a0;<italic>b</italic>&#x000a0;=&#x000a0;3.155&#x000c5;,&#x000a0;<italic>c</italic>&#x000a0;=&#x000a0;6.004&#x000c5;,&#x000a0;&#x003b2;&#x000a0;=&#x000a0;107.492&#x000b0;</td></tr><tr><td style="border:none;" align="left">Ca&#x02013;N distance
+(&#x000c5;)</td><td style="border:none;" align="left">2.4365&#x000a0;&#x000d7;&#x000a0;6</td><td style="border:none;" align="left">2.4351&#x000a0;&#x000d7;&#x000a0;4,&#x000a0;2.4366&#x000a0;&#x000d7;&#x000a0;2</td><td style="border:none;" align="left">2.4920&#x000a0;&#x000d7;&#x000a0;4,&#x000a0;2.5285&#x000a0;&#x000d7;&#x000a0;2</td></tr><tr><td style="border:none;" align="left">Ta&#x02013;N distance
+(&#x000c5;)</td><td style="border:none;" align="left">2.1862&#x000a0;&#x000d7;&#x000a0;6</td><td style="border:none;" align="left">2.1863&#x000a0;&#x000d7;&#x000a0;2,&#x000a0;2.1878&#x000a0;&#x000d7;&#x000a0;4</td><td style="border:none;" align="left">2.0848&#x000a0;&#x000d7;&#x000a0;2,&#x000a0;2.1445&#x000a0;&#x000d7;&#x000a0;4</td></tr></tbody></table></table-wrap><p>In order to probe the role of the Ca-vacancy
+ordering in deviations
+from the <italic>R</italic>&#x00033;&#x00305;<italic>m</italic> symmetry, we
+have considered a virtual composition Ca<sub>0.5</sub>TaN<sub>2</sub> with <italic>C</italic>2/<italic>m</italic> symmetry Ca and vacancies
+ordered in rows (see <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>A). Noteworthy, in the optimized structure of this material,
+both the TaN and CaN octahedra are distorted (see <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref>), which is consistent with
+the monoclinic distortion observed experimentally in the pristine
+sample being driven by the Ca-vacancy ordering.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> Confrontation of the calculated data given in <xref rid="tbl3" ref-type="other">Table <xref rid="tbl3" ref-type="other">3</xref></xref> to the experimentally
+achieved values, (<italic>a</italic> = 5.4182(4), <italic>b</italic> = 3.1416(2), <italic>c</italic> = 5.9428(4) &#x000c5; and &#x003b2; =
+108.18(3)&#x000b0;) <italic>d</italic>(Ta&#x02013;N) = 2.18(3) &#x000c5;, <italic>d</italic>(Ca&#x02013;N) = 2.47(2), are consistent with the Ca content
+(<italic>x</italic>) in the as-prepared Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> being between 0.5 and 1 as experimentally observed.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>(A) Structural
+model used for the calculation of <italic>C</italic>2/<italic>m</italic>-Ca<sub>0.5</sub>TaN<sub>2</sub>. (B) Calculated
+DOS of monoclinic Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> with <italic>x</italic> = 1 and <italic>x</italic> = 0.5. The Fermi level is set
+as the zero of energy. (C) Diffusion pathway and calculated energy
+migration barrier for CaTaN<sub>2</sub> (SG <italic>C</italic>2/<italic>m</italic>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_0006" id="gr6" position="float"/></fig><p>Upon Ca deintercalation
+from CaTaN<sub>2</sub>, electrons should
+be removed from the band structure. The calculated density of states
+(DOSs) for CaTaN<sub>2</sub> (<xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>B) shows that the N(2p) and Ta(5d) states largely hybridize
+below the Fermi level suggesting strong covalent bonding in within
+the TaN<sub>2</sub> layers. As previously reported,<sup><xref ref-type="bibr" rid="ref43">43</xref>&#x02212;<xref ref-type="bibr" rid="ref45">45</xref></sup> CaTaN<sub>2</sub> is a bidimensional metal (no localized JT active Ta d<sup>1</sup> cations) with the Ca ions ionically bonded to the (TaN<sub>2</sub>)<sup>2&#x02013;</sup> layers. Two wide bands appear in the DOS: the
+upper and partially filled band dominated by the Ta d-states and the
+lower band (between &#x02212;2 and &#x02212;7 eV) which is mostly of
+N p character. Ca deintercalation from CaTaN<sub>2</sub> to form Ca<sub>0.5</sub>TaN<sub>2</sub> would imply the upper band, this is to say,
+the oxidation from the formal state Ta<sup>4+</sup> to Ta<sup>5+</sup>. Beyond the Ca<sub>0.5</sub>TaN<sub>2</sub> composition (or NaTaN<sub>2</sub> for the analogous phase), Ca de-insertion would reduce the
+occupancy of the lower N(2p)-band producing a large amount of holes
+and in the end nitrogen oxidation with concomitant structural degradation.</p><p>Yet, and in line with the experimental findings discussed above,
+a mechanism for CaTaN<sub>2</sub> oxidation additional and/or alternative
+to deintercalation should also be considered. Thus, one can postulate
+possible oxidation/decomposition reactions for Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> yielding other known phases in the Ca&#x02013;Ta&#x02013;N
+system, which are the potential stable phases according to the calculated
+phase diagram in the Materials Project database.<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup> The calculated total energies for such reactions are<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_m001" position="anchor"/><label>1</label></disp-formula><disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2019-00770s_m002" position="anchor"/><label>2</label></disp-formula></p><p>While CaTaN<sub>2</sub> is predicted
+as a stable phase in the ternary
+Ca&#x02013;Ta&#x02013;N phase diagram at 0 K, the negative total energy
+of reaction <xref rid="eq2" ref-type="disp-formula">2</xref> reflects the thermodynamic trend
+of Ca<sub>0.5</sub>TaN<sub>2</sub> to decompose. Moreover, under the
+severe oxidizing conditions employed, the formation of oxygen containing
+alternative phases cannot be completely excluded either.</p><p>Finally,
+it should be noted that deintercalation of Ca ions from
+CaTaN<sub>2</sub> would require them to migrate in the space between
+the (TaN<sub>2</sub>)<sup>2&#x02013;</sup> layers. The simplest pathway
+for Ca diffusion in the structure is the octahedral&#x02013;tetrahedral&#x02013;octahedral
+hopping mechanism in the Ca layer (see <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>C). The large calculated energy barrier (1.7
+eV) is indicative of a hampered Ca diffusion. Thus, it seems that
+other oxidation/decomposition reactions which may involve evolution
+of N<sub>2</sub> (as suggested by the decrease in N content from 10.5
+to 7.7% revealed by EDX) are likely to occur instead or concomitant
+to deintercalation. These would most likely be related to the progressive
+amorphization observed upon oxidation.</p></sec></sec><sec id="sec3"><label>3</label><title>Conclusions</title><p>Ternary phases in the Ca&#x02013;Mg&#x02013;Ta&#x02013;N system with
+different compositions and crystal structures can be easily prepared
+by a proper tuning of the binary nitride precursors ratio and by using
+excess amounts of the alkaline earth metal in order to compensate
+its losses during the high temperature treatments. The extraction
+of Ca and Mg ions from the ternary nitrides was attempted both by
+chemically and electrochemically. Oxidation of MgTa<sub>2</sub>N<sub>3</sub> and Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub> could not be
+achieved, with the observed electrochemical capacity arising from
+parasitic side reactions involving the electrolyte, exacerbated at
+100 &#x000b0;C when compared to RT. In contrast, oxidation of Ca<sub>0.89</sub>TaN<sub>2</sub> was found to be possible both chemically
+and electrochemically. Unfortunately, this process was found to be
+irreversible. The differences observed in the behavior of Ca and Mg
+phases cannot easily be rationalized, as the crystal structures are
+significantly different. According to DFT calculations, the covalent
+(TaN<sub>2</sub>)<sup>2&#x02013;</sup> in the Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> crystal structure might be oxidized to some
+extent, while for Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub>, the disorder
+of Mg and Ta ions would most likely disrupt the formation of an analogous
+band structure.</p><p>Overall, the present work represents an additional
+step in multivalent
+cathode exploration. Indeed, despite the unsuccessful results, ternary
+nitrides constitute an interesting alternative to oxides, as the electrons
+compensating multivalent intercalation are donated to a wider band
+arising from the strong covalent interaction between the N p states
+and the transition metal ion, which, as inferred from DFT calculations,
+may result in redox processes and hence lead to high energy densities.</p></sec><sec id="sec4"><label>4</label><title>Experimental Section</title><sec id="sec4.1"><label>4.1</label><title>Synthesis</title><p>All
+samples were prepared
+in batches of 250 mg. Commercial Mg<sub>3</sub>N<sub>2</sub> (Sigma-Aldrich,
+&#x0003e;99.5%) and Ca<sub>3</sub>N<sub>2</sub> (Sigma-Aldrich, &#x0003e;99.5%)
+and
+Ta<sub>3</sub>N<sub>5</sub> were used as reactants. Ta<sub>3</sub>N<sub>5</sub> was prepared by ammonolysis of Ta<sub>2</sub>O<sub>5</sub> (Sigma-Aldrich, &#x0003e;99.5%), through two repeated treatments
+at 850 &#x000b0;C for 15 h, under a NH<sub>3</sub> flow of 600 cm<sup>3</sup>/min, using 300 &#x000b0;C/h heating rate and natural cooling
+in the furnace. All the manipulations of the nitride reactants were
+carried out in a glovebox under an Ar atmosphere.</p><p>CaTaN<sub>2</sub> was prepared by mixing Ca<sub>3</sub>N<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub> using a 15% (w/w) excess of Ca<sub>3</sub>N<sub>2</sub>. For the synthesis of Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub>, Mg<sub>3</sub>N<sub>2</sub> and Ta<sub>3</sub>N<sub>5</sub> were
+mixed in 1:1 stoichiometric ratios while a 1.2:2 ratio was used for
+the preparation of MgTa<sub>2</sub>N<sub>3</sub>. After grinding,
+the reactant powders were pressed into pellets at 10 ton and annealed
+for 20 h under flowing N<sub>2</sub> (Air Products, ALPHAGAZ, &#x0003e;99.9999%)
+atmosphere. Temperatures of 1080, 850, and 1100 &#x000b0;C were employed
+for the synthesis of CaTaN<sub>2</sub>, MgTa<sub>2</sub>N<sub>3</sub>, and Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub>, respectively, with
+300 &#x000b0;C/h heating rate. After the thermal treatment, the samples
+were naturally cooled in the furnace. All the thermal treatments were
+carried out in Mo (Alfa Aesar, 99.95%) crucibles inside a silica tube,
+using Zr foil (Goodfellow, 99.2%) as sample holder caps and tube inlet
+traps in order to avoid water and oxygen contaminations.</p></sec><sec id="sec4.2"><label>4.2</label><title>Structural, Morphological, and Composition
+Characterization</title><p>X-ray powder diffraction data were acquired
+using borosilicate glass capillaries of 0.3 or 0.5 mm diameter as
+sample holders. Laboratory X-ray powder diffraction data were collected
+using a Bruker D8 Advance A25 diffractometer in a Debye Scherrer configuration
+equipped with Mo K&#x003b1;<sub>1</sub> radiation source (&#x003bb; =
+0.7093 &#x000c5;) and Johansson monochromator. Synchrotron X-ray powder
+diffraction (SXRPD) patterns were collected at the MSPD beamline<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> of ALBA Synchrotron light source (Cerdanyola
+del Vall&#x000e8;s, Spain) using mythen bank of detectors with &#x003bb;
+= 0.6199 &#x000c5; (MgTa<sub>2</sub>N<sub>3</sub> and Mg<sub>2</sub>Ta<sub>2</sub>N<sub>4</sub>) or 0.41338 &#x000c5; (Ca<sub><italic>x</italic></sub>TaN<sub>2</sub>). The capillaries were rotated during data
+acquisition. Rietveld refinements were performed using the program
+FullProf.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup></p><p>The amorphous content
+of Ca<sub><italic>x</italic></sub>TaN<sub>2</sub> was determined by
+full-quantitative analysis, adding to the samples a known amount (20%
+wt) of purely crystalline SiO<sub>2</sub> standard.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup></p><p>N contents were determined by combustion analysis
+in oxygen in
+a Thermo Fisher Scientific instrument, heating the samples in oxygen
+up to 1060 &#x000b0;C.</p><p>SEM images and EDX analyses were performed
+by using an FEI Quanta
+200 FEG microscope under high vacuum operating at 20 kV; secondary
+and backscattered electron detectors were used. EDX elemental mappings
+of Mg, Ca, and Ta were carried out over a representative area of the
+samples and quantitative atomic ratios were inferred accordingly.</p><p>Selected area electron diffraction was carried out by using a JEOL
+1210 transmission electron microscope operating at 120 kV, equipped
+with a Gatan double tilt sample holder, with typically 20 crystals
+being examined per sample. The powder samples were finely dispersed
+in ACN and deposited as droplets on carbon-coated films supported
+on copper grids.</p></sec><sec id="sec4.3"><label>4.3</label><title>Chemical and Electrochemical
+Oxidation Tests</title><p>Chemical oxidation tests were performed by
+reacting 200 mg of the
+sample with NO<sub>2</sub>BF<sub>4</sub> (Alfa Aesar, 96%) in 1:4
+mol/mol ratio, in 50 mL of anhydrous ACN (Alfa Aesar, 98%). The reaction
+was carried out under reflux, with continuous Ar bubbling within the
+reaction vessel. After 10 h, the obtained dispersion was vacuum-filtered
+and the collected powder was rinsed with anhydrous ACN and dried under
+vacuum before being subjected to XRD analysis.</p><p>Electrochemical
+oxidation tests were carried out in three-electrode Swagelok cells,
+by using metal discs (Li, Mg, or Ca) as counter and reference electrode
+and the active phase as working electrode either as a powder mixture
+(85:15% w/w) with Super P carbon or as tape (with 80% wt of active
+material, 10% wt of Super P carbon and 10% wt of polyvinylidene fluoride
+binder). Al and stainless steel current collectors were used for the
+working and reference/counter electrodes, respectively, and Whatman
+glass fiber discs soaked in 0.6 mL of electrolyte solution were used
+as separators.</p><p>LiPF<sub>6</sub> (1 M) in EC/dimethyl carbonate
+(DMC) (1:1 vol,
+LP30 Sigma-Aldrich) and home-prepared 1 <italic>m</italic> LiBOB in
+EC/PC (1:1 vol) electrolytes were used as electrolyte solutions for
+the tests carried out in Li cells at RT and 100 &#x000b0;C, respectively.
+The use of Li cell configurations for the tests aiming to oxidize
+magnesium ternary nitride phases stems from the impossibility to achieve
+Mg plating at the counter electrode in the alkyl carbonate-based electrolyte
+employed. In contrast, the Li and Ca electrolytes used enabled, respectively,
+Li and Ca metal plating at the counter electrode, thus allowing reliable
+measurements. Dry (&#x0003c;50 ppm H<sub>2</sub>O), 0.3 M magnesium bis
+trifluoromethane sulphonyl imide (Mg(TFSI)<sub>2</sub>, Solvionic,
+99.5%) in a 1:1 vol mixture of EC (Sigma-Aldrich, 99%) and PC (Solvionic,
+99.9%) was used as electrolyte for the reduction (magnesiation) tests
+carried out in Mg cells. Ca metal three-electrode cells and 0.45 M
+Ca(BF<sub>4</sub>)<sub>2</sub> in EC/PC (1:1 vol) electrolyte with
+H<sub>2</sub>O content &#x0003c;25 ppm were used for the electrochemical
+tests on CaTaN<sub>2</sub>. Galvanostatic cycling with potential limitation
+(GCPL) and EPS steps tests were run on a Bio-Logic VMP3 and MPG2 potentiostat/galvanostat.
+Potential steps of 5 mV and current threshold of C/100 (equivalent
+to intercalation of 1 mol of divalent ions in 100 h) and C/100 rate
+were used in the EPS and GCPL tests, respectively. A temperature equilibration
+of 5 h at the open circuit potential was completed prior to measurements.
+The active material mass loadings were of about 3&#x02013;4 mg.</p><p>Once tested, the cells were disassembled in an Ar-filled dry box
+and the electrodes or active material powder were washed with DMC
+solvent (Sigma-Aldrich, &#x02265;99%) before being dried and sealed
+in borosilicate glass capillaries for the ex situ XRD measurements.</p></sec><sec id="sec4.4"><label>4.4</label><title>Computational</title><p>First-principles calculations
+have been performed using the ab initio total-energy and molecular
+dynamics program Vienna Ab initio Simulation Program (VASP) developed
+at the Universit&#x000e4;t Wien.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Total
+energy calculations based on DFT were performed for CaTaN<sub>2</sub> within the general gradient approximation, with the exchange and
+correlation functional form developed by Perdew, Burke, and Ernzerhof.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> The interaction of core electrons with the nuclei
+is described by the projector augmented wave method.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> The pseudopotentials used were Ca_sv (3s<sup>2</sup>p<sup>6</sup>4s<sup>2</sup>), Ta_sv (5p<sup>6</sup>6s<sup>2</sup>5d<sup>3</sup>), and N (2s<sup>2</sup>p<sup>3</sup>). The energy cut off
+for the plane wave basis set was kept fix at a constant value of 600
+eV throughout the calculations. The integration in the Brillouin zone
+is done on an appropriate set of <italic>k</italic>-points determined
+by the Monkhorst&#x02013;Pack scheme. A convergence of the total energy
+close to 10 meV per formula unit is achieved with such parameters.
+All calculations are spin-polarized. The initial positions for CaTaN<sub>2</sub> models were taken from Na<sub>0.5</sub>FeO<sub>2</sub> (<italic>C</italic>2/<italic>m</italic>) and delafossite-NaFeO<sub>2</sub> (<italic>R</italic>&#x00033;&#x00305;<italic>m</italic>).<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> All crystal structures were fully relaxed (atomic positions,
+cell parameters, and volume). The final energies of the optimized
+geometries were recalculated to correct the changes in the basis set
+of wave functions during relaxation. To investigate diffusion, the
+energy barriers for Ca hops between adjacent octahedral sites in <italic>C</italic>2/<italic>m</italic>-CaTaN<sub>2</sub> were calculated
+using the nudged elastic band method as implemented in VASP. A Ca<sub>17</sub>Ta<sub>18</sub>N<sub>36</sub> supercell was considered, where
+one Ca atom has been removed leaving a vacant octahedral site. Constant
+volume calculations were performed for five intermediate images. To
+calculate the energy at the saddle point, cubic splines were fit through
+the images along each hop.</p></sec></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>The
+Supporting Information is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.9b00770">10.1021/acsomega.9b00770</ext-link>.<list id="silist" list-type="simple"><list-item><p>Observed and calculated
+SXRPD patterns; SEM micrographs;
+and EDX mappings (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.9b00770/suppl_file/ao9b00770_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b00770_si_001.pdf"><caption><p>ao9b00770_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e3052-autogenerated"><p>The authors
+declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors acknowledge funding from Ministry of
+Science, Innovation and Universities through grant MAT2017-86616-R,
+from the &#x0201c;Severo Ochoa&#x0201d; Programme for Centres of Excellence
+in R&#x00026;D (SEV-2015-0496), and from Generalitat de Catalunya (grant
+2017SGR581). Funding from the European Union&#x02019;s Horizon 2020
+research and innovation program H2020 FETOPEN-1-2016-2017 (CARBAT,
+grant agreement no. 766617) is also acknowledged. We are grateful
+to ALBA synchrotron for beamtime allocation at MSPD beamline (proposal
+2016021576) and to Dr. Fran&#x000e7;ois Fauth for his assistance during
+data collection.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Canepa</surname><given-names>P.</given-names></name>; <name><surname>Sai Gautam</surname><given-names>G.</given-names></name>; <name><surname>Hannah</surname><given-names>D. C.</given-names></name>; <name><surname>Malik</surname><given-names>R.</given-names></name>; <name><surname>Liu</surname><given-names>M.</given-names></name>; <name><surname>Gallagher</surname><given-names>K. G.</given-names></name>; <name><surname>Persson</surname><given-names>K. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Odyssey of Multivalent
+Cathode Materials: Open Questions and Future Challenges</article-title>. <source>Chem. Rev.</source>
+<year>2017</year>, <volume>117</volume>, <fpage>4287</fpage>&#x02013;<lpage>4341</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.6b00614</pub-id>.<pub-id pub-id-type="pmid">28269988</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Muldoon</surname><given-names>J.</given-names></name>; <name><surname>Bucur</surname><given-names>C. B.</given-names></name>; <name><surname>Gregory</surname><given-names>T.</given-names></name>
+<article-title>Quest for
+Nonaqueous Multivalent
+Secondary Batteries: Magnesium and Beyond</article-title>. <source>Chem.
+Rev.</source>
+<year>2014</year>, <volume>114</volume>, <fpage>11683</fpage>&#x02013;<lpage>11720</lpage>. <pub-id pub-id-type="doi">10.1021/cr500049y</pub-id>.<pub-id pub-id-type="pmid">25343313</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Ponrouch</surname><given-names>A.</given-names></name>; <name><surname>Palacin</surname><given-names>M. R.</given-names></name>
+<article-title>On the Road toward
+Calcium-Based Batteries</article-title>. <source>Curr. Opin. Electrochem.</source>
+<year>2018</year>, <volume>9</volume>, <fpage>1</fpage>&#x02013;<lpage>7</lpage>. <pub-id pub-id-type="doi">10.1016/j.coelec.2018.02.001</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Aurbach</surname><given-names>D.</given-names></name>; <name><surname>Lu</surname><given-names>Z.</given-names></name>; <name><surname>Schechter</surname><given-names>A.</given-names></name>; <name><surname>Gofer</surname><given-names>Y.</given-names></name>; <name><surname>Gizbar</surname><given-names>H.</given-names></name>; <name><surname>Turgeman</surname><given-names>R.</given-names></name>; <name><surname>Cohen</surname><given-names>Y.</given-names></name>; <name><surname>Moshkovich</surname><given-names>M.</given-names></name>; <name><surname>Levi</surname><given-names>E.</given-names></name>
+<article-title>Prototype Systems for
+Rechargeable Magnesium Batteries</article-title>. <source>Nature</source>
+<year>2000</year>, <volume>407</volume>, <fpage>724</fpage>&#x02013;<lpage>727</lpage>. <pub-id pub-id-type="doi">10.1038/35037553</pub-id>.<pub-id pub-id-type="pmid">11048714</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Ponrouch</surname><given-names>A.</given-names></name>; <name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Bard&#x000e9;</surname><given-names>F.</given-names></name>; <name><surname>Palac&#x000ed;n</surname><given-names>M. R.</given-names></name>
+<article-title>Towards
+a Calcium-Based Rechargeable Battery</article-title>. <source>Nat. Mater.</source>
+<year>2016</year>, <volume>15</volume>, <fpage>169</fpage>&#x02013;<lpage>172</lpage>. <pub-id pub-id-type="doi">10.1038/nmat4462</pub-id>.<pub-id pub-id-type="pmid">26501412</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Wang</surname><given-names>D.</given-names></name>; <name><surname>Gao</surname><given-names>X.</given-names></name>; <name><surname>Chen</surname><given-names>Y.</given-names></name>; <name><surname>Jin</surname><given-names>L.</given-names></name>; <name><surname>Kuss</surname><given-names>C.</given-names></name>; <name><surname>Bruce</surname><given-names>P. G.</given-names></name>
+<article-title>Plating
+and Stripping Calcium in an Organic Electrolyte</article-title>. <source>Nat. Mater.</source>
+<year>2018</year>, <volume>17</volume>, <fpage>16</fpage>&#x02013;<lpage>20</lpage>. <pub-id pub-id-type="doi">10.1038/nmat5036</pub-id>.<pub-id pub-id-type="pmid">29180779</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Tchitchekova</surname><given-names>D. S.</given-names></name>; <name><surname>Ponrouch</surname><given-names>A.</given-names></name>; <name><surname>Verrelli</surname><given-names>R.</given-names></name>; <name><surname>Broux</surname><given-names>T.</given-names></name>; <name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Sorrentino</surname><given-names>A.</given-names></name>; <name><surname>Bard&#x000e9;</surname><given-names>F.</given-names></name>; <name><surname>Biskup</surname><given-names>N.</given-names></name>; <name><surname>Arroyo-de
+Dompablo</surname><given-names>M. E.</given-names></name>; <name><surname>Palac&#x000ed;n</surname><given-names>M. R.</given-names></name>
+<article-title>On the Electrochemical Intercalation
+of Calcium and Magnesium in TiS<sub>2</sub>: Fundamental Studies Related
+to Multivalent Battery Applications</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>847</fpage>&#x02013;<lpage>856</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b04406</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Verrelli</surname><given-names>R.</given-names></name>; <name><surname>Black</surname><given-names>A. P.</given-names></name>; <name><surname>Pattanathummasid</surname><given-names>C.</given-names></name>; <name><surname>Tchitchekova</surname><given-names>D. S.</given-names></name>; <name><surname>Ponrouch</surname><given-names>A.</given-names></name>; <name><surname>Or&#x000f3;-Sol&#x000e9;</surname><given-names>J.</given-names></name>; <name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Bard&#x000e9;</surname><given-names>F.</given-names></name>; <name><surname>Rozier</surname><given-names>P.</given-names></name>; <name><surname>Palac&#x000ed;n</surname><given-names>M. R.</given-names></name>
+<article-title>On the
+Strange Case of Divalent Ions Intercalation in V<sub>2</sub>O<sub>5</sub></article-title>. <source>J. Power Sources</source>
+<year>2018</year>, <volume>407</volume>, <fpage>162</fpage>&#x02013;<lpage>172</lpage>. <pub-id pub-id-type="doi">10.1016/j.jpowsour.2018.08.024</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Cabello</surname><given-names>M.</given-names></name>; <name><surname>Nacimiento</surname><given-names>F.</given-names></name>; <name><surname>Alc&#x000e1;ntara</surname><given-names>R.</given-names></name>; <name><surname>Lavela</surname><given-names>P.</given-names></name>; <name><surname>P&#x000e9;rez
+Vicente</surname><given-names>C.</given-names></name>; <name><surname>Tirado</surname><given-names>J. L.</given-names></name>
+<article-title>On the Applicability of Molybdite
+as an Electrode Material in Calcium Batteries: A Structural Study
+of Layer-Type Ca<sub><italic>x</italic></sub>MoO<sub>3</sub></article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>5853</fpage>&#x02013;<lpage>5861</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.8b01116</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Dompablo</surname><given-names>M. E. A.-d.</given-names></name>; <name><surname>Krich</surname><given-names>C.</given-names></name>; <name><surname>Nava-Avenda&#x000f1;o</surname><given-names>J.</given-names></name>; <name><surname>Bi&#x00161;kup</surname><given-names>N.</given-names></name>; <name><surname>Palac&#x000ed;n</surname><given-names>M. R.</given-names></name>; <name><surname>Bard&#x000e9;</surname><given-names>F.</given-names></name>
+<article-title>A Joint Computational
+and Experimental
+Evaluation of CaMn<sub>2</sub>O<sub>4</sub> Polymorphs as Cathode
+Materials for Ca Ion Batteries</article-title>. <source>Chem. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>6886</fpage>&#x02013;<lpage>6893</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.6b02146</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Tchitchekova</surname><given-names>D. S.</given-names></name>; <name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Ponrouch</surname><given-names>A.</given-names></name>; <name><surname>Krich</surname><given-names>C.</given-names></name>; <name><surname>Bard&#x000e9;</surname><given-names>F.</given-names></name>; <name><surname>Palac&#x000ed;n</surname><given-names>M. R.</given-names></name>
+<article-title>Electrochemical
+Calcium Extraction from 1D-Ca<sub>3</sub>Co<sub>2</sub>O<sub>6</sub></article-title>. <source>Dalton Trans.</source>
+<year>2018</year>, <volume>47</volume>, <fpage>11298</fpage>&#x02013;<lpage>11302</lpage>. <pub-id pub-id-type="doi">10.1039/c8dt01754a</pub-id>.<pub-id pub-id-type="pmid">30010171</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Fuertes</surname><given-names>A.</given-names></name>
+<article-title>Metal oxynitrides
+as emerging materials with photocatalytic and electronic properties</article-title>. <source>Mater. Horiz.</source>
+<year>2015</year>, <volume>2</volume>, <fpage>453</fpage>&#x02013;<lpage>461</lpage>. <pub-id pub-id-type="doi">10.1039/c5mh00046g</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Bonnick</surname><given-names>P.</given-names></name>; <name><surname>Blanc</surname><given-names>L.</given-names></name>; <name><surname>Vajargah</surname><given-names>S. H.</given-names></name>; <name><surname>Lee</surname><given-names>C.-W.</given-names></name>; <name><surname>Sun</surname><given-names>X.</given-names></name>; <name><surname>Balasubramanian</surname><given-names>M.</given-names></name>; <name><surname>Nazar</surname><given-names>L. F.</given-names></name>
+<article-title>Insights into Mg2+Intercalation in
+a Zero-Strain Material: Thiospinel Mg<sub><italic>x</italic></sub>Zr<sub>2</sub>S<sub>4</sub></article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>4683</fpage>&#x02013;<lpage>4693</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.8b01345</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Sun</surname><given-names>X.</given-names></name>; <name><surname>Bonnick</surname><given-names>P.</given-names></name>; <name><surname>Duffort</surname><given-names>V.</given-names></name>; <name><surname>Liu</surname><given-names>M.</given-names></name>; <name><surname>Rong</surname><given-names>Z.</given-names></name>; <name><surname>Persson</surname><given-names>K. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>; <name><surname>Nazar</surname><given-names>L. F.</given-names></name>
+<article-title>A high
+capacity
+thiospinel cathode for Mg batteries</article-title>. <source>Energy
+Environ. Sci.</source>
+<year>2016</year>, <volume>9</volume>, <fpage>2273</fpage>&#x02013;<lpage>2277</lpage>. <pub-id pub-id-type="doi">10.1039/c6ee00724d</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Elder</surname><given-names>S. H.</given-names></name>; <name><surname>Doerrer</surname><given-names>L. H.</given-names></name>; <name><surname>Disalvo</surname><given-names>F. J.</given-names></name>; <name><surname>Parise</surname><given-names>J. B.</given-names></name>; <name><surname>Guyomard</surname><given-names>D.</given-names></name>; <name><surname>Tarascon</surname><given-names>J. M.</given-names></name>
+<article-title>Lithium molybdenum
+nitride (LiMoN<sub>2</sub>): The
+1st Metallic Layered Nitride</article-title>. <source>Chem. Mater.</source>
+<year>1992</year>, <volume>4</volume>, <fpage>928</fpage>&#x02013;<lpage>937</lpage>. <pub-id pub-id-type="doi">10.1021/cm00022a033</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Verrelli</surname><given-names>R.</given-names></name>; <name><surname>Arroyo-de-Dompablo</surname><given-names>M.
+E.</given-names></name>; <name><surname>Tchitchekova</surname><given-names>D.</given-names></name>; <name><surname>Black</surname><given-names>A. P.</given-names></name>; <name><surname>Frontera</surname><given-names>C.</given-names></name>; <name><surname>Fuertes</surname><given-names>A.</given-names></name>; <name><surname>Palacin</surname><given-names>M. R.</given-names></name>
+<article-title>On the
+Viability of Mg Extraction in MgMoN2: A Combined Experimental and
+Theoretical Approach</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2017</year>, <volume>19</volume>, <fpage>26435</fpage>&#x02013;<lpage>26441</lpage>. <pub-id pub-id-type="doi">10.1039/c7cp04850e</pub-id>.<pub-id pub-id-type="pmid">28944795</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Brokamp</surname><given-names>T.</given-names></name>; <name><surname>Jacobs</surname><given-names>H.</given-names></name>
+<article-title>Darstellung und Struktur einiger Gemischtvalenter tern&#x000e4;rer
+Tantalnitride mit Lithium und Magnesium</article-title>. <source>J.
+Alloys Compd.</source>
+<year>1992</year>, <volume>183</volume>, <fpage>325</fpage>&#x02013;<lpage>344</lpage>. <pub-id pub-id-type="doi">10.1016/0925-8388(92)90756-y</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Balbarin</surname><given-names>V.</given-names></name>; <name><surname>Van Dover</surname><given-names>R. B.</given-names></name>; <name><surname>Disalvo</surname><given-names>F. J.</given-names></name>
+<article-title>The High Temperature Preparation
+and Property Measurements of CaTaN<sub>2</sub>: A Ternary Superconducting
+Nitride</article-title>. <source>J. Phys. Chem. Solids</source>
+<year>1996</year>, <volume>57</volume>, <fpage>1919</fpage>&#x02013;<lpage>1927</lpage>. <pub-id pub-id-type="doi">10.1016/s0022-3697(96)00066-2</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Fauth</surname><given-names>F.</given-names></name>; <name><surname>Peral</surname><given-names>I.</given-names></name>; <name><surname>Popescu</surname><given-names>C.</given-names></name>; <name><surname>Knapp</surname><given-names>M.</given-names></name>
+<article-title>The New Material Science
+Powder Diffraction Beamline at ALBA Synchrotron</article-title>. <source>Powder Diffr.</source>
+<year>2013</year>, <volume>28</volume>, <fpage>S360</fpage>&#x02013;<lpage>S370</lpage>. <pub-id pub-id-type="doi">10.1017/s0885715613000900</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Rodr&#x000ed;guez-Carvajal</surname><given-names>J.</given-names></name>
+<article-title>Recent Advances
+in Magnetic Structure Determination by Neutron Powder Diffraction</article-title>. <source>Phys. B Condens. Matter</source>
+<year>1993</year>, <volume>192</volume>, <fpage>55</fpage>&#x02013;<lpage>69</lpage>. <pub-id pub-id-type="doi">10.1016/0921-4526(93)90108-i</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Bish</surname><given-names>D. L.</given-names></name>; <name><surname>Howard</surname><given-names>S. A.</given-names></name>
+<article-title>Quantitative Phase
+Analysis Using the Rietveld Method</article-title>. <source>J. Appl.
+Crystallogr.</source>
+<year>1988</year>, <volume>21</volume>, <fpage>86</fpage>&#x02013;<lpage>91</lpage>. <pub-id pub-id-type="doi">10.1107/s0021889887009415</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficient
+iterative schemes forab initiototal-energy
+calculations using a plane-wave basis set</article-title>. <source>Phys.
+Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1996</year>, <volume>54</volume>, <fpage>11169</fpage>&#x02013;<lpage>11186</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.54.11169</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized
+Gradient Approximation
+Made Simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage>. <pub-id pub-id-type="doi">10.1103/physrevlett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Bl&#x000f6;chl</surname><given-names>P. E.</given-names></name>
+<article-title>Projector
+Augmented-Wave Method</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>1994</year>, <volume>50</volume>, <fpage>17953</fpage>&#x02013;<lpage>17979</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.50.17953</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Takeda</surname><given-names>Y.</given-names></name>; <name><surname>Nakahara</surname><given-names>K.</given-names></name>; <name><surname>Nishijima</surname><given-names>M.</given-names></name>; <name><surname>Imanishi</surname><given-names>N.</given-names></name>; <name><surname>Yamamoto</surname><given-names>O.</given-names></name>; <name><surname>Takano</surname><given-names>M.</given-names></name>; <name><surname>Kanno</surname><given-names>R.</given-names></name>; <name><surname>Takano</surname><given-names>M.</given-names></name>; <name><surname>Kanno</surname><given-names>R.</given-names></name>
+<article-title>Sodium Deintercalation
+from Sodium Iron Oxide</article-title>. <source>Mater. Res. Bull.</source>
+<year>1994</year>, <volume>29</volume>, <fpage>659</fpage>&#x02013;<lpage>666</lpage>. <pub-id pub-id-type="doi">10.1016/0025-5408(94)90122-8</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>McHale</surname><given-names>J. M.</given-names></name>; <name><surname>Navrotsky</surname><given-names>A.</given-names></name>; <name><surname>Kowach</surname><given-names>G. R.</given-names></name>; <name><surname>Balbarin</surname><given-names>V. E.</given-names></name>; <name><surname>Disalvo</surname><given-names>F. J.</given-names></name>
+<article-title>Energetics
+of Ternary Nitrides: Li&#x02013;Ca&#x02013;Zn&#x02013;N and Ca&#x02013;Ta&#x02013;N
+Systems</article-title>. <source>Chem. Mater.</source>
+<year>1997</year>, <volume>9</volume>, <fpage>1538</fpage>&#x02013;<lpage>1546</lpage>. <pub-id pub-id-type="doi">10.1021/cm970244r</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Niewa</surname><given-names>R.</given-names></name>; <name><surname>Jacobs</surname><given-names>H.</given-names></name>
+<article-title>Group V and VI Alkali Nitridometalates: A Growing Class
+of Compounds with Structures Related to Silicate Chemistry</article-title>. <source>Chem. Rev.</source>
+<year>1996</year>, <volume>96</volume>, <fpage>2053</fpage>&#x02013;<lpage>2062</lpage>. <pub-id pub-id-type="doi">10.1021/cr9405157</pub-id>.<pub-id pub-id-type="pmid">11848821</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>DiSalvo</surname><given-names>F. J.</given-names></name>; <name><surname>Clarke</surname><given-names>S. J.</given-names></name>
+<article-title>Ternary Nitrides:
+A Rapidly Growing Class of New Materials</article-title>. <source>Curr.
+Opin. Solid State Mater. Sci.</source>
+<year>1996</year>, <volume>1</volume>, <fpage>241</fpage>&#x02013;<lpage>249</lpage>. <pub-id pub-id-type="doi">10.1016/s1359-0286(96)80091-x</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Gregory</surname><given-names>D. H.</given-names></name>; <name><surname>Gregory</surname><given-names>D. H.</given-names></name>
+<article-title>Structural Families
+in Nitride Chemistry</article-title>. <source>J. Chem. Soc., Dalton
+Trans.</source>
+<year>1999</year>, <fpage>259</fpage>&#x02013;<lpage>270</lpage>. <pub-id pub-id-type="doi">10.1039/a807732k</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Yamane</surname><given-names>H.</given-names></name>; <name><surname>DiSalvo</surname><given-names>F. J.</given-names></name>
+<article-title>Sodium Flux Synthesis of Nitrides</article-title>. <source>Prog. Solid State Chem.</source>
+<year>2018</year>, <volume>51</volume>, <fpage>27</fpage>&#x02013;<lpage>40</lpage>. <pub-id pub-id-type="doi">10.1016/j.progsolidstchem.2017.08.002</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Wachsmann</surname><given-names>C.</given-names></name>; <name><surname>Brokamp</surname><given-names>T.</given-names></name>; <name><surname>Jacobs</surname><given-names>H.</given-names></name>
+<article-title>Darstellung
+Und Struktur Eines Neuen
+Nitridoxides Mit Lithium Und Tantal: Li<sub>16</sub>Ta<sub>2</sub>N<sub>8</sub>O</article-title>. <source>J. Alloys Compd.</source>
+<year>1992</year>, <volume>185</volume>, <fpage>109</fpage>&#x02013;<lpage>119</lpage>. <pub-id pub-id-type="doi">10.1016/0925-8388(92)90559-r</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Serrano-Sevillano</surname><given-names>J.</given-names></name>; <name><surname>Reynaud</surname><given-names>M.</given-names></name>; <name><surname>Saracibar</surname><given-names>A.</given-names></name>; <name><surname>Altantzis</surname><given-names>T.</given-names></name>; <name><surname>Bals</surname><given-names>S.</given-names></name>; <name><surname>Van Tendeloo</surname><given-names>G.</given-names></name>; <name><surname>Casas-Cabanas</surname><given-names>M.</given-names></name>
+<article-title>Enhanced Electrochemical
+Performance of Li-Rich Cathode Materials through Microstructural Control</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2018</year>, <volume>20</volume>, <fpage>23112</fpage>&#x02013;<lpage>23122</lpage>. <pub-id pub-id-type="doi">10.1039/c8cp04181d</pub-id>.<pub-id pub-id-type="pmid">30168545</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Jacobs</surname><given-names>H.</given-names></name>; <name><surname>von Pinkowski</surname><given-names>E.</given-names></name>
+<article-title>Synthese Tern&#x000e4;rer
+Nitride von Alkalimetallen:
+Verbindungen Mit Tantal, MTaN<sub>2</sub> Mit M &#x02261; Na, K, Rb
+Und Cs</article-title>. <source>J. Less Common Met.</source>
+<year>1989</year>, <volume>146</volume>, <fpage>147</fpage>&#x02013;<lpage>160</lpage>. <pub-id pub-id-type="doi">10.1016/0022-5088(89)90371-8</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Marianetti</surname><given-names>C. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>; <name><surname>Morgan</surname><given-names>D.</given-names></name>
+<article-title>First-Principles Investigation
+of
+the Cooperative Jahn-Teller Effect for Octahedrally Coordinated Transition-Metal
+Ions</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2001</year>, <volume>63</volume>, <fpage>224304</fpage><pub-id pub-id-type="doi">10.1103/physrevb.63.224304</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Radin</surname><given-names>M. D.</given-names></name>; <name><surname>Alvarado</surname><given-names>J.</given-names></name>; <name><surname>Meng</surname><given-names>Y. S.</given-names></name>; <name><surname>Van Der
+Ven</surname><given-names>A.</given-names></name>
+<article-title>Role of Crystal
+Symmetry in the Reversibility of Stacking-Sequence Changes in Layered
+Intercalation Electrodes</article-title>. <source>Nano Lett.</source>
+<year>2017</year>, <volume>17</volume>, <fpage>7789</fpage>&#x02013;<lpage>7795</lpage>. <pub-id pub-id-type="doi">10.1021/acs.nanolett.7b03989</pub-id>.<pub-id pub-id-type="pmid">29083195</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Shao-Horn</surname><given-names>Y.</given-names></name>; <name><surname>Levasseur</surname><given-names>S.</given-names></name>; <name><surname>Weill</surname><given-names>F.</given-names></name>; <name><surname>Delmas</surname><given-names>C.</given-names></name>
+<article-title>Probing Lithium and
+Vacancy Ordering in O3 Layered Li<sub><italic>x</italic></sub>CoO<sub>2</sub> (X&#x02248;0.5)</article-title>. <source>J. Electrochem. Soc.</source>
+<year>2003</year>, <volume>150</volume>, <fpage>A366</fpage><pub-id pub-id-type="doi">10.1149/1.1553787</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Ceder</surname><given-names>G.</given-names></name>; <name><surname>Van der Ven</surname><given-names>A.</given-names></name>
+<article-title>Phase Diagrams of Lithium Transition Metal Oxides:
+Investigations from First Principles</article-title>. <source>Electrochim.
+Acta</source>
+<year>1999</year>, <volume>45</volume>, <fpage>131</fpage>&#x02013;<lpage>150</lpage>. <pub-id pub-id-type="doi">10.1016/s0013-4686(99)00199-1</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Kaburagi</surname><given-names>M.</given-names></name>; <name><surname>Kanamori</surname><given-names>J.</given-names></name>
+<article-title>Ground State Structure
+of Triangular Lattice Gas Model
+with up to 3rd Neighbor Interactions</article-title>. <source>J. Phys.
+Soc. Jpn.</source>
+<year>1978</year>, <volume>44</volume>, <fpage>718</fpage>&#x02013;<lpage>727</lpage>. <pub-id pub-id-type="doi">10.1143/jpsj.44.718</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Van
+der Ven</surname><given-names>A.</given-names></name>; <name><surname>Aydinol</surname><given-names>M. K.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>; <name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Hafner</surname><given-names>J.</given-names></name>
+<article-title>First-Principles Investigation of Phase Stability in
+Li<sub><italic>x</italic></sub>CoO<sub>2</sub></article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1998</year>, <volume>58</volume>, <fpage>2975</fpage>&#x02013;<lpage>2987</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.58.2975</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Arroyo
+y de Dompablo</surname><given-names>M. E.</given-names></name>; <name><surname>Van der Ven</surname><given-names>A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>First-Principles Calculations
+of Lithium Ordering and Phase Stability on Li<sub><italic>x</italic></sub>NiO<sub>2</sub></article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>2002</year>, <volume>66</volume>, <fpage>064112</fpage><pub-id pub-id-type="doi">10.1103/physrevb.66.064112</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Nishijima</surname><given-names>M.</given-names></name>; <name><surname>Tadokoro</surname><given-names>N.</given-names></name>; <name><surname>Takeda</surname><given-names>Y.</given-names></name>; <name><surname>Imanishi</surname><given-names>N.</given-names></name>; <name><surname>Yamamoto</surname><given-names>O.</given-names></name>
+<article-title>Li Deintercalation-Intercalation
+Reaction and Structural Change in Lithium Transition Metal Nitride,
+Li<sub>7</sub>MnN<sub>4</sub></article-title>. <source>J. Electrochem.
+Soc.</source>
+<year>1994</year>, <volume>141</volume>, <fpage>2966</fpage>&#x02013;<lpage>2971</lpage>. <pub-id pub-id-type="doi">10.1149/1.2059266</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Didier</surname><given-names>C.</given-names></name>; <name><surname>Guignard</surname><given-names>M.</given-names></name>; <name><surname>Darriet</surname><given-names>J.</given-names></name>; <name><surname>Delmas</surname><given-names>C.</given-names></name>
+<article-title>O3-Na<sub><italic>x</italic></sub>VO<sub>2</sub> system:
+A Superstructure for Na<sub>1/2</sub>VO<sub>2</sub></article-title>. <source>Inorg. Chem.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>11007</fpage>&#x02013;<lpage>11016</lpage>. <pub-id pub-id-type="doi">10.1021/ic301505e</pub-id>.<pub-id pub-id-type="pmid">23009092</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Rauch</surname><given-names>P. E.</given-names></name>; <name><surname>DiSalvo</surname><given-names>F. J.</given-names></name>
+<article-title>Ambient pressure
+synthesis of ternary group(V) nitrides</article-title>. <source>J. Solid
+State Chem.</source>
+<year>1992</year>, <volume>100</volume>, <fpage>160</fpage>&#x02013;<lpage>165</lpage>. <pub-id pub-id-type="doi">10.1016/0022-4596(92)90166-s</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Smolinski</surname><given-names>H.</given-names></name>; <name><surname>Weber</surname><given-names>W.</given-names></name>
+<article-title>Electrons and Phonons
+in the New 10K Superconductor CaTaN<sub>2</sub></article-title>. <source>Z. Phys. B: Condens. Matter</source>
+<year>1997</year>, <volume>104</volume>, <fpage>741</fpage>&#x02013;<lpage>743</lpage>. <pub-id pub-id-type="doi">10.1007/s002570050519</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Orisakwe</surname><given-names>E.</given-names></name>; <name><surname>Fontaine</surname><given-names>B.</given-names></name>; <name><surname>Gregory</surname><given-names>D. H.</given-names></name>; <name><surname>Gautier</surname><given-names>R.</given-names></name>; <name><surname>Halet</surname><given-names>J.-F.</given-names></name>
+<article-title>Theoretical
+Study on the Structural, Electronic and Physical Properties of Layered
+Alkaline-Earth-Group-4 Transition-Metal Nitrides AEMN<sub>2</sub></article-title>. <source>RSC Adv.</source>
+<year>2014</year>, <volume>4</volume>, <fpage>31981</fpage>&#x02013;<lpage>31987</lpage>. <pub-id pub-id-type="doi">10.1039/c4ra05395h</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Oliva</surname><given-names>J. M.</given-names></name>; <name><surname>Weht</surname><given-names>R.</given-names></name>; <name><surname>Ordej&#x000f3;n</surname><given-names>P.</given-names></name>; <name><surname>Canadell</surname><given-names>E.</given-names></name>
+<article-title>Electronic Structure
+of the Superconducting Layered Ternary Nitrides CaTaN<sub>2</sub> and
+CaNbN<sub>2</sub></article-title>. <source>Phys. Rev. B: Condens. Matter
+Mater. Phys.</source>
+<year>2000</year>, <volume>62</volume>, <fpage>1512</fpage>&#x02013;<lpage>1515</lpage>. <pub-id pub-id-type="doi">10.1103/physrevb.62.1512</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Arroyo
+y de Dompablo</surname><given-names>M. E.</given-names></name>; <name><surname>Marianetti</surname><given-names>C.</given-names></name>; <name><surname>Van der Ven</surname><given-names>A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Jahn-Teller Mediated Ordering in Layered Li<sub><italic>x</italic></sub>MO<sub>2</sub> Compounds</article-title>. <source>Phys. Rev.
+B: Condens. Matter Mater. Phys.</source>
+<year>2001</year>, <volume>63</volume>, <fpage>144107</fpage><pub-id pub-id-type="doi">10.1103/physrevb.63.144107</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Hautier</surname><given-names>G.</given-names></name>; <name><surname>Fischer</surname><given-names>C.</given-names></name>; <name><surname>Ehrlacher</surname><given-names>V.</given-names></name>; <name><surname>Jain</surname><given-names>A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Data Mined
+Ionic Substitutions for the Discovery of New Compounds</article-title>. <source>Inorg. Chem.</source>
+<year>2011</year>, <volume>50</volume>, <fpage>656</fpage>&#x02013;<lpage>663</lpage>. <pub-id pub-id-type="doi">10.1021/ic102031h</pub-id>.<pub-id pub-id-type="pmid">21142147</pub-id></mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Jain</surname><given-names>A.</given-names></name>; <name><surname>Hautier</surname><given-names>G.</given-names></name>; <name><surname>Ong</surname><given-names>S. P.</given-names></name>; <name><surname>Moore</surname><given-names>C. J.</given-names></name>; <name><surname>Fischer</surname><given-names>C. C.</given-names></name>; <name><surname>Persson</surname><given-names>K. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Formation
+Enthalpies by Mixing GGA
+and GGA + U Calculations</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>2011</year>, <volume>84</volume>, <fpage>045115</fpage><pub-id pub-id-type="doi">10.1103/physrevb.84.045115</pub-id>.</mixed-citation></ref></ref-list></back></article>

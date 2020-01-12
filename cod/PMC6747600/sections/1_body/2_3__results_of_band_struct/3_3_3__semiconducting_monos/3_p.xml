@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Density functional theory in GGA approximation commonly underestimates the band gap of semiconductors due to many-body effects. Usually, this underestimation can be corrected by using hybrid functionals, better describing nonlocal exchange effects in electron–electron interactions. For FeSi, a B3LYP hybrid functional and Hartree–Fock calculations were performed in Ref. [
+ <xref rid="B84-materials-12-02710" ref-type="bibr">84</xref>]. As expected, they gave larger band gaps compared to the PBE calculations: 1.531 and 3.362 eV, respectively [
+ <xref rid="B84-materials-12-02710" ref-type="bibr">84</xref>]. Our calculations using a HSE03 hybrid functional also led to a similar result, 
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϵ</mi>
+      <mi>g</mi>
+     </msub>
+     <mo>=</mo>
+     <mn>1.13</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> eV. Thus, using a hybrid functional in this case did not lead to any improvement in band-gap description.
+</p>

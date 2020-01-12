@@ -1,0 +1,615 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6761743</article-id><article-id pub-id-type="pmid">31572875</article-id><article-id pub-id-type="doi">10.1021/acsomega.9b02368</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Identifying the Origins of Vacancies in the Crystal
+Structures of Rock Salt-type Chalcogenide Superconductors</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Simons</surname><given-names>Jasmin</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath2"><name><surname>Steinberg</surname><given-names>Simon</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><aff id="aff1">Institute of Inorganic Chemistry, <institution>RWTH Aachen University</institution>, Landoltweg 1, D-52074 Aachen, <country>Germany</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>simon.steinberg@ac.rwth-aachen.de</email>.</corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>09</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>24</day><month>09</month><year>2019</year></pub-date><volume>4</volume><issue>13</issue><fpage>15721</fpage><lpage>15728</lpage><history><date date-type="received"><day>28</day><month>07</month><year>2019</year></date><date date-type="accepted"><day>30</day><month>08</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0006" id="ab-tgr1"/></p><p>The
+tailored (computational) design of materials addressing future
+challenges requires a thorough understanding of their electronic structures.
+This becomes very apparent for a given material existing in a certain
+homogeneity range, as its particular composition influences its electronic
+structure and, eventually, its physical properties. This led us to
+explore the influence and, furthermore, the origin of vacancies in
+the crystal structures of rock salt-type superconductors by means
+of quantum-chemical techniques. In doing so, we examined the vibrational
+properties, electronic band structures, and nature of bonding for
+a series of superconducting transition-metal sulfides, i.e., MS (M
+= Sc, Y, Zr, Lu), which were identified to exist over certain homogeneity
+ranges. The outcome of our research indicates that the subtle competing
+interplay between two electronically unfavorable situations at the
+Fermi levels, i.e., the occupations of flat bands and the populations
+of antibonding states, appears to control the presence of vacancies
+in the crystal structures of the sulfides.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao9b02368</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2019-02368a</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>To date, the full understanding of superconductivity
+has posed
+a challenge for chemists as well as physicists.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Even after the first conceptions<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> had
+provided adequate explanations for this phenomenon, the discoveries<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> of unanticipated superconducting states in cuprates
+have raised further questions and, hence, induced massive explorative
+efforts. To account for the findings of superconductivity in cuprates,
+considerable attention was paid to the influence of electron spectrum
+instabilities (&#x0201c;singularities&#x0201d;), which are located at
+the Fermi levels of superconductors.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup> Namely, the
+aforementioned electron spectrum instabilities are assumed to induce
+a structural distortion, which is counterbalanced by electrons residing
+in steep bands (&#x0201c;flat band/steep band scenario&#x0201d;).<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> The latter idea<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> implies that the occurrence
+of a superconducting state tends to be linked to the presence of a
+flat band at the Fermi level in a given material. In this context,
+one may also consider that a particular composition could affect the
+position of a flat band relative to the Fermi levels in a given series
+of isostructural compounds, as atomic substitutions and/or structural
+defects influence the chemical compositions and, furthermore, the
+electronic (band) structures within such a set of materials.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> Indeed, previous<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup> temperature-dependent
+electric resistance measurements for series of isostructural compounds
+revealed that metal-to-superconductor transitions are observed solely
+for those species for which singularities are &#x0201c;pinned&#x0201d;
+to the Fermi levels.</p><p>Besides atomic substitutions,<sup><xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref13">13</xref></sup> structural
+defects (&#x0201c;vacancies&#x0201d;) also influence the chemical compositions,
+electronic band structures, and, ultimately, the physical properties
+of compounds existing over certain homogeneity ranges. For instance,
+previous research<sup><xref ref-type="bibr" rid="ref14">14</xref>&#x02212;<xref ref-type="bibr" rid="ref16">16</xref></sup> on cuprates forming over certain homogeneity ranges
+showed that the presence and, furthermore, temperatures of metal-to-superconductor
+transitions are linked to the amounts of oxygen vacancies in the crystal
+structures. Another series of superconductors, which form over certain
+homogeneity ranges, has been identified for chalcogenides crystallizing
+with the rock salt-type structure.<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> More recent
+research<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> on the electronic band structures
+of such rock salt-type chalcogenides based on initial, defect-free
+structure models revealed that flat bands were located near, but not
+at the Fermi levels in several of these compounds. In the flat band/steep
+band scenario,<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> such an outcome suggested an absence
+of metal-to-superconductor transitions being in stark contrast to
+the experimentally determined<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> results. This apparent
+discrepancy was explained by additional investigations showing that
+the locations of flat bands relative to the Fermi levels ought to
+be manipulated by the presence of vacancies in the crystal structures
+of these chalcogenides. But, what are the driving forces to crystallize
+with compositions that are related to vacancies in the crystal structures
+of the respective rock salt-type chalcogenides? To answer this question,
+we sought to investigate the electronic as well as vibrational properties,
+and the nature of bonding for a series of prototypical chalcogenide
+superconductors, i.e., MS (M = Sc, Y, Zr, Lu). In this contribution,
+we present the results of our explorations.</p></sec><sec id="sec2"><title>Computational Details</title><p>To provide an insight into the origins of the structural defects
+in chalcogenide superconductors, the electronic and vibrational features
+of four prototypical rock salt-type superconductors, that is, MS (M
+= Sc, Y, Zr, Lu), were examined. In addition to the quantum-chemical
+computations for MS (M = Sc, Y, Zr, Lu), the electronic and vibrational
+properties were also explored for metal-deficient structure models,
+i.e., M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub>, which were generated based on 2 &#x000d7; 2 &#x000d7; 2
+expansions of the unit cells of MS (M = Sc, Y, Zr, Lu). To provide
+greater insight into the vibrational properties of the zirconium-containing
+sulfides, the vibrational properties were also examined for Zr<sub>3</sub>S<sub>4</sub>, which has been previously reported<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> to crystallize with a superstructure of the
+respective rock salt-type sulfide. The compositions of the aforementioned,
+metal-deficient structure models were chosen considering the experimentally
+determined phase widths of the superconducting sulfides, which have
+been reported elsewhere.<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> Full structural optimizations,
+which included lattice parameters and atomic positions, were carried
+out for all materials using the projector-augmented wave method<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> as implemented in the Vienna ab initio simulation
+package<sup><xref ref-type="bibr" rid="ref22">22</xref>&#x02212;<xref ref-type="bibr" rid="ref26">26</xref></sup> (VASP). Correlation and exchange in all computations were described
+by the generalized gradient approximation of Pedrew, Burke, and Ernzerhof,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> and the energy cutoff of the plane wave basis
+sets was 500 eV. In the cases of the electronic band structure computations
+of constituting elements, i.e., Sc, Y, Lu, Zr, and S, sets of up to
+16 &#x000d7; 16 &#x000d7; 16 <italic>k</italic>-points were used, while
+sets of 16 &#x000d7; 16 &#x000d7; 16 and 8 &#x000d7; 8 &#x000d7; 8 <italic>k</italic>-points were employed for MS (M = Sc, Y, Zr, Lu) and M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu), Zr<sub>29</sub>S<sub>32</sub>, and
+Zr<sub>3</sub>S<sub>4</sub>, respectively. All computations were considered
+to have converged as the energy difference between two iterative steps
+fell below 10<sup>&#x02013;8</sup> (and 10<sup>&#x02013;6</sup>) eV/cell
+for the electronic (and ionic) relaxations. The coordinates of the
+high-symmetry <italic>k</italic>-paths within the Brillouin zones
+were generated utilizing the AFLOW<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> code,
+and the electronic band structures of all sulfides were visualized
+with the aid of the Python Materials genomics<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> (pymatgen) program.</p><p>The vibrational properties of MS (M =
+Sc, Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu), Zr<sub>29</sub>S<sub>32</sub>, and
+Zr<sub>3</sub>S<sub>4</sub> were examined using the Parlinski&#x02013;Li&#x02013;Kawazoe<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> method as implemented in the Phonopy<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> code. In this approach, the phonon frequencies
+are determined based on force constant matrices, after the corresponding
+sets of the interatomic forces have been computed within supercells,
+in which a particular atom had been elongated. The interatomic forces
+were calculated using VASP in the &#x00393;-point approximation, an
+approach that has largely been employed elsewhere.<sup><xref ref-type="bibr" rid="ref32">32</xref>&#x02212;<xref ref-type="bibr" rid="ref34">34</xref></sup> The supercells
+employed in the computations corresponded to 4 &#x000d7; 4 &#x000d7; 4 and
+2 &#x000d7; 2 &#x000d7; 2 expansions of the structurally optimized unit
+cells of MS (M = Sc, Y, Zr, Lu) and M<sub>31</sub>S<sub>32</sub> (M
+= Sc, Y, Lu), Zr<sub>3</sub>S<sub>4</sub> as well as Zr<sub>29</sub>S<sub>32</sub>, respectively.</p><p>Chemical bonding analyses for
+MS (M = Sc, Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu),
+and Zr<sub>29</sub>S<sub>32</sub> were accomplished based on the crystal
+orbital Hamilton populations
+(COHP) and their respective integrated values. In the framework of
+the COHP<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> technique, the off-site projected densities-of-states
+(DOS) are weighted with the respective Hamilton matrix elements to
+indicate bonding, nonbonding, and antibonding interactions. Herein,
+the projected crystal orbital Hamilton population (pCOHP) technique,<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> which is a variant of the COHP method, has been
+employed. Namely, the Hamilton-weighted populations had to be projected
+from the outcome of the plane-wave-based calculations with the aid
+of the Local Orbital Basis Suite Towards Electronic Structure Reconstruction
+program (LOBSTER<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref37">37</xref>&#x02212;<xref ref-type="bibr" rid="ref39">39</xref></sup>) because the
+crystal orbitals, which are employed in the COHP procedure, are constructed
+from local basis sets. The representations of the densities-of-states
+(DOS) as well as pCOHP curves were plotted using the wxDragon<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> code.</p></sec><sec id="sec3"><title>Results and Discussion</title><p>To understand
+the causes of the structural defects in rock salt-type
+superconductors at the atomic scale, the vibrational properties, the
+electronic structures, and the nature of bonding were explored for
+a series of superconducting sulfides, for which certain homogeneity
+ranges have been determined. In this context, the superconducting
+MS (M = Sc, Y, Zr, Lu) were chosen for the examinations because previous
+explorations<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref41">41</xref>&#x02212;<xref ref-type="bibr" rid="ref43">43</xref></sup> on the existence ranges of the sulfides revealed
+phase widths of 0.07 &#x02265; <italic>x</italic> &#x02265; 0, 0.05
+&#x02265; <italic>x</italic> &#x02265; &#x02212;0.07, 0.34 &#x02265; <italic>x</italic> &#x02265; &#x02212;0.11, and 0.17 &#x02265; <italic>x</italic> &#x02265; &#x02212;0.33 for the superconducting, NaCl-type Sc<sub>1&#x02013;<italic>x</italic></sub>S, Y<sub>1&#x02013;<italic>x</italic></sub>S, Zr<sub>1&#x02013;<italic>x</italic></sub>S, and Lu<sub>1&#x02013;<italic>x</italic></sub>S, respectively. Furthermore, it should be noted
+that additional explorations identified even metal-poorer sulfides,
+i.e., Sc<sub>2</sub>S<sub>3</sub>,<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> Lu<sub>3</sub>S<sub>4</sub>,<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> and Zr<sub>3</sub>S<sub>4</sub>,<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> whose crystal structures
+were determined to be superstructures of those corresponding to the
+NaCl-type sulfides.</p><p>Also, understanding the origins of the structural
+defects in the
+aforementioned sulfides at the atomic scale requires to reveal the
+dissimilarities between the electronic and vibrational properties
+of MS (M = Sc, Y, Zr, Lu) and those of sulfides that are metal-poorer
+relative to the former. To do so, the phonon band structures, electronic
+band structures, and crystal orbital Hamilton populations (COHP) were
+examined for MS (M = Sc, Y, Zr, Lu) and metal-deficient models whose
+crystal structures were generated based on those of MS (M = Sc, Y,
+Zr, Lu). More precisely, the unit cells of the models that are metal-deficient
+relative to MS (M = Sc, Y, Zr, Lu) correspond to 2 &#x000d7; 2 &#x000d7;
+2 expansions of the unit cells of MS (M = Sc, Y, Zr, Lu) (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>), but comprise one
+(and three) metal atoms less per cell for M = Sc, Y, Lu, (and Zr),
+respectively. Accordingly, the stoichiometry corresponding to a given
+metal-deficient model (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>) is located within the experimentally determined homogeneity
+range (see above) of the respective superconducting sulfide. To provide
+an insight into the stability trends for MS (M = Sc, Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu), and Zr<sub>29</sub>S<sub>32</sub>, we first inspected the respective enthalpies of formation
+and phonon band structures of the diverse sulfides.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Representations of the
+crystal structures of (a) the rock salt-type
+MS (M = Sc, Y, Zr, Lu) and (b) the metal-deficient structure models
+M<sub>31</sub>S<sub>32</sub> &#x02261; M<sub>0.97</sub>S (M = Sc, Y,
+Lu) and Zr<sub>29</sub>S<sub>32</sub> &#x02261; Zr<sub>0.91</sub>S.
+The structure models of M<sub>31</sub>S<sub>32</sub> and Zr<sub>29</sub>S<sub>32</sub> are derived from those of MS (M = Sc, Y, Zr, Lu),
+as the unit cells of M<sub>31</sub>S<sub>32</sub> and Zr<sub>29</sub>S<sub>32</sub> correspond to 2 &#x000d7; 2 &#x000d7; 2 expansions of the
+unit cells related to MS (M = Sc, Y, Zr, and Lu). In the cases of
+M<sub>31</sub>S<sub>32</sub>, one transition-metal atom has been removed,
+while three zirconium atoms have been eliminated, leading to the Zr<sub>29</sub>S<sub>32</sub> model.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0001" id="gr1" position="float"/></fig><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Quantum-Chemically Computed Enthalpies
+of Formation, &#x00394;<italic>H</italic><sub>f</sub>, for MS (M = Sc,
+Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub>, and Zr<sub>29</sub>S<sub>32</sub><xref rid="t1fn1" ref-type="table-fn">a</xref>,<xref rid="t1fn2" ref-type="table-fn">b</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">compound</th><th style="border:none;" align="center">&#x00394;<italic>H</italic><sub>f</sub> (kJ/mol)</th><th style="border:none;" align="center">compound</th><th style="border:none;" align="center">&#x00394;<italic>H</italic><sub>f</sub> (kJ/mol)</th><th style="border:none;" align="center" char=".">&#x00394;<italic>H</italic><sub>f</sub>&#x000a0;(M<sub>32</sub>S<sub>32</sub>)&#x000a0;&#x02013;&#x000a0;[&#x00394;<italic>H</italic><sub>f</sub>&#x000a0;(M<sub>31</sub>S<sub>32</sub>)&#x000a0;+&#x000a0;&#x00394;<italic>H</italic><sub>f</sub>&#x000a0;(M)] (kJ/mol)</th></tr></thead><tbody><tr><td style="border:none;" align="left">ScS &#x02261; Sc<sub>32</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;11&#x02009;618.97</td><td style="border:none;" align="left">Sc<sub>0.97</sub>S &#x02261;
+Sc<sub>31</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;11&#x02009;520.12</td><td style="border:none;" align="char" char=".">499.59</td></tr><tr><td style="border:none;" align="left">YS &#x02261; Y<sub>32</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;12&#x02009;466.07</td><td style="border:none;" align="left">Y<sub>0.97</sub>S &#x02261;
+Y<sub>31</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;12&#x02009;359.59</td><td style="border:none;" align="char" char=".">514.24</td></tr><tr><td style="border:none;" align="left">ZrS &#x02261; Zr<sub>32</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;8422.59</td><td style="border:none;" align="left">Zr<sub>0.91</sub>S &#x02261;
+Zr<sub>29</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;8542.75</td><td style="border:none;" align="char" char=".">2573.95</td></tr><tr><td style="border:none;" align="left">LuS &#x02261; Lu<sub>32</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;11&#x02009;521.80</td><td style="border:none;" align="left">Lu<sub>0.97</sub>S &#x02261;
+Lu<sub>31</sub>S<sub>32</sub></td><td style="border:none;" align="left">&#x02013;11&#x02009;496.90</td><td style="border:none;" align="char" char=".">404.83</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>The enthalpies of formation of MS
+(M = Sc, Y, Zr, Lu) have been calculated for M<sub>32</sub>S<sub>32</sub> (see the main text).</p></fn><fn id="t1fn2"><label>b</label><p>In
+the case of the zirconium-containing
+species, &#x00394;<italic>H</italic><sub>f</sub> (Zr<sub>29</sub>S<sub>32</sub>) and three &#x00394;<italic>H</italic><sub>f</sub> (Zr) were
+subtracted from &#x00394;<italic>H</italic><sub>f</sub> (Zr<sub>32</sub>S<sub>32</sub>).</p></fn></table-wrap-foot></table-wrap><sec id="sec3.1"><title>Enthalpies
+of Formation and Phonon Band Structures</title><p>The enthalpies of
+formation at zero temperature were calculated based
+on the total (electronic ground state) energies because the pressure-dependent
+zero-temperature enthalpy, i.e., <italic>H</italic><sub>el</sub>(<italic>p</italic>) = <italic>E</italic><sub>el</sub>(<italic>V</italic>(<italic>p</italic>)) + <italic>pV</italic>(<italic>p</italic>), approaches <italic>E</italic><sub>el</sub> as the pressure vanishes.<sup><xref ref-type="bibr" rid="ref46">46</xref>,<xref ref-type="bibr" rid="ref47">47</xref></sup> In this context, it should also be mentioned that this approach
+could be used since <italic>E</italic><sub>el</sub> approximates the
+internal energy at zero temperature.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> Thus,
+the enthalpies of formation of MS (M = Sc, Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu), and Zr<sub>29</sub>S<sub>32</sub> were computed by subtracting the sum of the total energies of all
+constituting elements from the total energy of the respective sulfide<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_m001" position="anchor"/></disp-formula>and<disp-formula id="ueq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_m002" position="anchor"/></disp-formula>for <italic>p</italic> =
+0 bar and <italic>T</italic> = 0 K. Notably, the enthalpy of formation
+of the zirconium-deficient sulfide has been calculated based on total
+energies of Zr<sub>29</sub>S<sub>32</sub> and 29 zirconium atoms.
+A comparison of the enthalpies of formation for all sulfides reveals
+negative values of &#x00394;<italic>H</italic><sub>f</sub> for all materials
+such that the formations of these compounds tend to be preferred.
+Because the differences between &#x00394;<italic>H</italic><sub>f</sub> (M<sub>32</sub>S<sub>32</sub>) and &#x00394;<italic>H</italic><sub>f</sub> (M<sub>31</sub>S<sub>32</sub>), which have been evaluated
+according to<disp-formula id="ueq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_m003" position="anchor"/></disp-formula>are
+positive for all inspected sulfides, one
+may infer that the formations of the metal-deficient species are preferred
+(note that enthalpies of formation of Zr<sub>29</sub>S<sub>32</sub> and three zirconium atoms have been used in the case of the zirconium-containing
+sulfides).</p><p>An examination of the phonon band structures and
+densities-of-states for MS and M<sub>31</sub>S<sub>32</sub> (M = Sc,
+Y, Lu; <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>) reveals
+that no negative values of the wavenumbers are evident for these sulfides.
+Because the presence of negative values of the phonon frequencies
+is typically indicative of a dynamic instability for a given material,<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> it can be concluded that MS and M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) are dynamically stable. Under consideration
+of the differences between &#x00394;<italic>H</italic><sub>f</sub> (M<sub>32</sub>S<sub>32</sub>) and &#x00394;<italic>H</italic><sub>f</sub> (M<sub>31</sub>S<sub>32</sub>), the absence of dynamic instabilities
+for MS and M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) implies that
+the tendency to form the metal-deficient sulfide is rather influenced
+by subtle effects in the electronic (band) structures. An inspection
+of the phonon densities-of-states for the zirconium-containing sulfides,
+i.e., ZrS and Zr<sub>29</sub>S<sub>32</sub> (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>), shows that imaginary wavenumbers are evident
+for both sulfides, which, accordingly, should be dynamically unstable.
+Note that the phonon frequencies in ZrS correspond to more negative
+values than those in the zirconium-deficient Zr<sub>29</sub>S<sub>32</sub>. This outcome suggests that the incorporation of zirconium
+vacancies may alleviate the dynamic instability. In this context,
+it is also remarkable that the experimentally determined phase width
+of the zirconium sulfide spans a more metal-deficient existence range
+relative to the remaining sulfides (see above).</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Phonon densities-of-states
+(DOS) curves of (a) ScS, (b) YS, (c)
+ZrS, (d) LuS, (e) Sc<sub>31</sub>S<sub>32</sub>, (f) Y<sub>31</sub>S<sub>32</sub>, (g) Zr<sub>29</sub>S<sub>32</sub>, and (h) Lu<sub>31</sub>S<sub>32</sub>: negative values of the wavenumbers (shaded
+in gray) correspond to imaginary modes, which typically point to a
+dynamically unfavorable situation for a given material.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0002" id="gr2" position="float"/></fig><p>To examine the influence of vacancies on the dynamic stabilities
+of zirconium sulfides in more detail, the vibrational properties were
+also investigated for Zr<sub>3</sub>S<sub>4</sub>, which has been
+reported<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> to crystallize with a superstructure
+of the NaCl-type sulfide and is zirconium-poorer relative to the other
+zirconium sulfides. An examination of the phonon DOS for Zr<sub>3</sub>S<sub>4</sub> (<xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>) shows that the phonon frequencies in Zr<sub>3</sub>S<sub>4</sub> indeed correspond to less negative values than those in ZrS and
+Zr<sub>29</sub>S<sub>32</sub>. Accordingly, it may be inferred that
+the presence of vacancies in the crystal structures of the zirconium
+sulfides alleviates this dynamic instability. The existence of negative
+values in the phonon DOS of Zr<sub>3</sub>S<sub>4</sub> still indicates
+that this material should be dynamically unstable. This result raises
+the question of whether this dynamic instability could also be reduced
+through adopting a different, but closely related type of structure;<sup><xref ref-type="bibr" rid="ref48">48</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup> yet, that prediction requires further explorations. To understand
+the tendencies to form the metal-deficient sulfides at the atomic
+level, we followed up with an analysis of the electronic band structures,
+densities-of-states, and projected crystal orbital Hamilton populations
+(pCOHP) for all sulfides.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Phonon densities-of-states curve of Zr<sub>3</sub>S<sub>4</sub>: negative values of the wavenumbers (shaded in gray)
+correspond
+to imaginary modes.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0003" id="gr3" position="float"/></fig></sec><sec id="sec3.2"><title>Electronic Band Structures
+and Densities of States</title><p>An examination of the densities-of-states
+(DOS) curves for all sulfides
+(<xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref> and <xref rid="fig5" ref-type="fig">5</xref>) shows that the states close to the Fermi levels
+mostly originate from the M-d as well as S-p atomic orbitals (AOs).
+More precisely, the M-d states primarily reside in the energy regions
+around the Fermi levels, while the bands arising from the S-p AOs
+are located in energy regions below those ranges, which stem from
+the M-d states. Because a number of bands cross the Fermi level in
+each sulfide, all of the inspected sulfides should be metals. In the
+flat band/steep band scenario,<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> one would expect that
+these atomic orbitals contribute to flat bands as well as steep bands,
+which cross the Fermi levels of these rock salt-type sulfide-superconductors.
+Yet, an inspection of the electronic band structures shows that flat
+bands, which intersect the &#x00393;-point in the electronic band structures
+of MS (M = Sc, Y, Zr), are positioned close to, but not at the Fermi
+levels in the respective sulfides. Notably, a maximum, which crosses
+the W-point in the electronic band structure of ZrS, is also located
+close to, but not at the Fermi level. In the case of LuS, a flat band
+crosses the Fermi level at the &#x00393;-point. As pointed out by previous
+research,<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> the absence of flat bands at
+the Fermi levels in MS (M = Sc, Y, Zr) may lead to a discrepancy between
+the observed metal-to-superconductor-transitions and an anticipated
+flat band/steep band scenario. Previous research<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> on the electronic band structures of chalcogenide superconductors
+existing over certain homogeneity ranges, however, demonstrated that
+the electronic structures and, furthermore, positions of flat bands
+relative to the Fermi levels are influenced by the presence of vacancies
+in the crystal structures of the chalcogenides. Indeed, an inspection
+of the electronic band structures for the metal-deficient M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub> indicates
+that flat bands cross the Fermi levels in these sulfides. Furthermore,
+an examination of the DOS curves for M<sub>31</sub>S<sub>32</sub> (M
+= Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub> shows that the Fermi
+levels fall at peaks of the DOS. In this connection, it should also
+be noted that the presence of flat bands at the Fermi level in a given
+material is typically related to electronic instabilities (see <xref rid="sec1" ref-type="other">Introduction</xref>) such that the electronic situations
+encountered for M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub> should be less favorable than those observed
+for MS (M = Sc, Y, Zr, Lu). Why, then, should the former sulfides
+be formed?</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(a) Electronic band structures, (b) densities-of-states (DOS) curves,
+and (c) projected crystal orbital Hamilton population curves (pCOHP)
+of (I) ScS, (II) YS, (III) ZrS, and (IV) LuS: the Fermi levels, <italic>E</italic><sub>F</sub>, are represented by the black horizontal lines.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>(a) Electronic band structures, (b) densities-of-states
+(DOS),
+and (c) projected crystal orbital Hamilton populations (pCOHP) curves
+of (I) Sc<sub>31</sub>S<sub>32</sub>, (II) Y<sub>31</sub>S<sub>32</sub>, (III) Zr<sub>29</sub>S<sub>32</sub>, and (IV) Lu<sub>31</sub>S<sub>32</sub>: the black horizontal lines represent the Fermi levels, <italic>E</italic><sub>F</sub>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao9b02368_0005" id="gr5" position="float"/></fig><p>To answer this question,
+we followed up with a chemical bonding
+analysis for these sulfides. In this context, we also examined the
+prospect of M&#x02013;M bonding interactions because the locations
+of the occupied M-d states at the Fermi levels may also imply that
+these orbitals interact via M&#x02013;M bonds.</p></sec><sec id="sec3.3"><title>Bonding Analysis</title><p>A (chemical) bonding analysis for
+all sulfides was accomplished based on the projected crystal orbital
+Hamilton populations (pCOHP) and their respective integrated values
+(<xref rid="fig4" ref-type="fig">Figures <xref rid="fig4" ref-type="fig">4</xref></xref> and <xref rid="fig5" ref-type="fig">5</xref>). In the framework of the pCOHP approach that is
+a variant of the COHP technique, the bonding information is gained
+from the plane-wave-based computations (see <xref rid="sec2" ref-type="other">Computational
+Details</xref>).</p><p>An examination of the &#x02212;pCOHP curves
+for all sulfides reveals that the transition-metal&#x02013;sulfide
+interactions near the Fermi levels stem essentially from contributions
+of the M-d and S-p atomic orbitals. The heteroatomic M&#x02013;S interactions
+change from bonding to antibonding states below the Fermi levels in
+all sulfides and, hence, are of an antibonding nature at the Fermi
+levels. The antibonding M&#x02013;S interactions are &#x0201c;counterbalanced&#x0201d;
+by bonding M&#x02013;M interactions. The latter homoatomic interactions
+arise mainly from the M-d bands located around the Fermi levels. An
+integration of the heteroatomic M&#x02013;S and homoatomic M&#x02013;M
+interactions indicates net bonding characters for these interactions
+(see <xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). Yet,
+how can these interactions affect the presence of vacancies and, furthermore,
+the chemical compositions of these sulfides?</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Average
+&#x02212;IpCOHP/Bond Values,
+Cumulative &#x02212;IpCOHP/Cell Values, and Percentage Contributions
+to the Respective Net Bonding Capabilities of Diverse Interactions
+in MS (M = Sc, Y, Zr, Lu), M<sub>31</sub>S<sub>32</sub> (M = Sc, Y,
+Lu), and Zr<sub>29</sub>S<sub>32</sub></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">interaction</th><th style="border:none;" align="center" char=".">Ave.&#x000a0;&#x02212;IpCOHP/bond</th><th style="border:none;" align="center" char=".">Cum.&#x000a0;&#x02212;IpCOHP/cell</th><th style="border:none;" align="center" char=".">%</th><th style="border:none;" align="center">interaction</th><th style="border:none;" align="center" char=".">Ave.&#x000a0;&#x02212;IpCOHP/bond</th><th style="border:none;" align="center" char=".">Cum.&#x000a0;&#x02212;IpCOHP/cell</th><th style="border:none;" align="center" char=".">%</th></tr></thead><tbody><tr><td colspan="4" style="border:none;" align="center">ScS
+&#x02261; Sc<sub>32</sub>S<sub>32</sub></td><td colspan="4" style="border:none;" align="center">Sc<sub>0.97</sub>S &#x02261; Sc<sub>31</sub>S<sub>32</sub></td></tr><tr><td style="border:none;" align="left">Sc&#x000a0;3d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">0.8741</td><td style="border:none;" align="char" char=".">20.9777</td><td style="border:none;" align="char" char=".">86.72</td><td style="border:none;" align="left">Sc&#x000a0;3d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">0.8881</td><td style="border:none;" align="char" char=".">165.1856</td><td style="border:none;" align="char" char=".">87.46</td></tr><tr><td style="border:none;" align="left">Sc&#x000a0;3d&#x02013;Sc&#x000a0;3d</td><td style="border:none;" align="char" char=".">0.1338</td><td style="border:none;" align="char" char=".">3.2117</td><td style="border:none;" align="char" char=".">13.28</td><td style="border:none;" align="left">Sc&#x000a0;3d&#x02013;Sc&#x000a0;3d</td><td style="border:none;" align="char" char=".">0.1316</td><td style="border:none;" align="char" char=".">23.6933</td><td style="border:none;" align="char" char=".">12.54</td></tr><tr><td colspan="4" style="border:none;" align="center">YS &#x02261; Y<sub>32</sub>S<sub>32</sub></td><td colspan="4" style="border:none;" align="center">Y<sub>0.97</sub>S &#x02261; Y<sub>31</sub>S<sub>32</sub></td></tr><tr><td style="border:none;" align="left">Y&#x000a0;4d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.0665</td><td style="border:none;" align="char" char=".">25.5959</td><td style="border:none;" align="char" char=".">83.16</td><td style="border:none;" align="left">Y&#x000a0;4d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.0807</td><td style="border:none;" align="char" char=".">201.0076</td><td style="border:none;" align="char" char=".">83.98</td></tr><tr><td style="border:none;" align="left">Y&#x000a0;4d&#x02013;Y&#x000a0;4d</td><td style="border:none;" align="char" char=".">0.2159</td><td style="border:none;" align="char" char=".">5.1818</td><td style="border:none;" align="char" char=".">16.84</td><td style="border:none;" align="left">Y&#x000a0;4d&#x02013;Y&#x000a0;4d</td><td style="border:none;" align="char" char=".">0.2131</td><td style="border:none;" align="char" char=".">38.3508</td><td style="border:none;" align="char" char=".">16.02</td></tr><tr><td colspan="4" style="border:none;" align="center">ZrS &#x02261; Zr<sub>32</sub>S<sub>32</sub></td><td colspan="4" style="border:none;" align="center">Zr<sub>0.91</sub>S &#x02261; Zr<sub>29</sub>S<sub>32</sub></td></tr><tr><td style="border:none;" align="left">Zr&#x000a0;4d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.1381</td><td style="border:none;" align="char" char=".">27.3148</td><td style="border:none;" align="char" char=".">82.24</td><td style="border:none;" align="left">Zr&#x000a0;4d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.1967</td><td style="border:none;" align="char" char=".">208.2256</td><td style="border:none;" align="char" char=".">83.85</td></tr><tr><td style="border:none;" align="left">Zr&#x000a0;4d&#x02013;Zr&#x000a0;4d</td><td style="border:none;" align="char" char=".">0.2459</td><td style="border:none;" align="char" char=".">5.9004</td><td style="border:none;" align="char" char=".">17.76</td><td style="border:none;" align="left">Zr&#x000a0;4d&#x02013;Zr&#x000a0;4d</td><td style="border:none;" align="char" char=".">0.2571</td><td style="border:none;" align="char" char=".">40.1046</td><td style="border:none;" align="char" char=".">16.15</td></tr><tr><td colspan="4" style="border:none;" align="center">LuS &#x02261; Lu<sub>32</sub>S<sub>32</sub></td><td colspan="4" style="border:none;" align="center">Lu<sub>0.97</sub>S &#x02261; Lu<sub>31</sub>S<sub>32</sub></td></tr><tr><td style="border:none;" align="left">Lu&#x000a0;5d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.1743</td><td style="border:none;" align="char" char=".">28.1843</td><td style="border:none;" align="char" char=".">82.07</td><td style="border:none;" align="left">Lu&#x000a0;5d&#x02013;S&#x000a0;3p</td><td style="border:none;" align="char" char=".">1.1901</td><td style="border:none;" align="char" char=".">221.3638</td><td style="border:none;" align="char" char=".">82.96</td></tr><tr><td style="border:none;" align="left">Lu&#x000a0;5d&#x02013;Lu&#x000a0;5d</td><td style="border:none;" align="char" char=".">0.2565</td><td style="border:none;" align="char" char=".">6.1565</td><td style="border:none;" align="char" char=".">17.93</td><td style="border:none;" align="left">Lu&#x000a0;5d&#x02013;Lu&#x000a0;5d</td><td style="border:none;" align="char" char=".">0.2526</td><td style="border:none;" align="char" char=".">45.4686</td><td style="border:none;" align="char" char=".">17.04</td></tr></tbody></table></table-wrap><p>To answer this question, we followed
+up with a closer examination
+of the &#x02212;IpCOHP values for the sulfides. A direct comparison
+between the &#x02212;IpCOHP values of compounds with dissimilar compositions
+cannot be made because the average electrostatic potential in each
+density functional theory-based computation is set to an arbitrary
+&#x0201c;zero&#x0201d; energy, whose relative position may vary from
+system to system.<sup><xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref50">50</xref></sup> In the lack of a true reference
+energy, the cumulative &#x02212;IpCOHP/cell values, i.e., the sums
+of all negative IpCOHP/bond values for one particular type of nearest
+neighbor, interatomic interaction within one unit cell, were projected
+as percentages of the respective net bonding capabilities, a procedure
+that has been largely described elsewhere.<sup><xref ref-type="bibr" rid="ref36">36</xref>,<xref ref-type="bibr" rid="ref51">51</xref></sup></p><p>A comparison of the negative integrated pCOHP values (&#x02212;IpCOHP)
+for all inspected sulfides demonstrates that the &#x02212;IpCOHP values
+of the heteroatomic M-d&#x02013;S 3p interactions are larger than those
+related to the homoatomic M-d&#x02013;M-d separations (<xref rid="tbl2" ref-type="other">Table <xref rid="tbl2" ref-type="other">2</xref></xref>). Because of such broad differences
+between the &#x02212;IpCOHP values, the M-d&#x02013;S 3p interactions
+have much larger percentage contributions to the net bonding capabilities
+than the homoatomic M-d&#x02013;M-d interactions in all sulfides. Accordingly,
+this outcome suggests that the majority of the bonding interactions
+occurs between the M&#x02013;S contacts beside minor, but evident M&#x02013;M
+bonding, a circumstance that has also been encountered for certain
+reduced (divalent) rare-earth-metal halides<sup><xref ref-type="bibr" rid="ref52">52</xref></sup> and transition-metal oxides.<sup><xref ref-type="bibr" rid="ref53">53</xref></sup> A comparison
+between the percentage contributions of the rock salt-type sulfides
+and the corresponding metal-deficient species reveals that the percentages
+of the M-d&#x02013;S 3p interactions are larger in the metal-deficient
+sulfides than in the respective (parental) non-metal-deficient sulfides.
+This result indicates that the occupations of antibonding M-d&#x02013;S
+3p states at the Fermi level in a given sulfide are reduced as the
+number of vacancies in the crystal structure of the respective sulfide
+increases. Notably, such a tendency has also been observed by previous
+research on the interdependence between the electronic structures
+of phase change materials and the presence of vacancies in their crystal
+structures.<sup><xref ref-type="bibr" rid="ref54">54</xref></sup></p><p>At this point, one
+may expect that the formations of the metal-deficient
+species are favored because of the aforementioned depletion of destabilizing,
+antibonding M&#x02013;S states, which correspond to the largest percentages
+to the net bonding capabilities. Indeed, that conclusion is in accordance
+with previous<sup><xref ref-type="bibr" rid="ref55">55</xref></sup> research, which implied
+that the presence of metal vacancies corresponds to an increase of
+metal cation&#x02013;chalcogenide anion orbital mixing and, eventually,
+the stabilization of an entire defect (transition-metal chalcogenide)
+crystal structure. Yet, why do the nonmetal-deficient transition-metal
+sulfides exist? Actually, the differences between the percentage contributions
+of the M&#x02013;S interactions in MS (M = Sc, Y, Zr, Lu) and those
+in the respective metal-deficient sulfides are rather small such that
+the latter rather tend to be preferred. Furthermore, electronically
+unfavorable situations have been identified for all metal-deficient
+sulfides because occupied flat bands are located at the Fermi levels
+in M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub> (see above). Thus, it may be inferred that the interplay
+between the occupations of flat bands at the Fermi level, which typically
+signify electronic instabilities, and the populations of antibonding
+M-d&#x02013;S 3p states appears to control the presence of vacancies
+in the crystal structures of these sulfides.</p></sec></sec><sec id="sec4"><title>Conclusions</title><p>In the light of (computational) materials design, there is a need
+to understand the origins of vacancies in the crystal structures of
+compounds existing over certain homogeneity ranges because the electronic
+structure and, ultimately, the physical properties of such a material
+depend on the particular composition. In this connection, the origins
+of structural defects have been explored for the examples of rock
+salt-type sulfide-superconductors, i.e., MS (M = Sc, Y, Zr, Lu), by
+means of quantum-chemical techniques. Because the aforementioned sulfides
+have been reported to exist over certain homogeneity ranges, the vibrational
+properties, electronic band structures, and nature of bonding were
+examined for MS (M = Sc, Y, Zr, Lu) as well as M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) and Zr<sub>29</sub>S<sub>32</sub>. The crystal
+structures of the latter sulfides were derived from those of the former
+sulfides, but comprise fewer metal atoms than the rock salt-type sulfides
+in accordance with the experimentally determined crystal structures
+and phase widths.</p><p>An examination of the vibrational properties
+revealed that MS and
+M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu) are dynamically stable
+such that the formation of a given metal-deficient sulfide appears
+to be controlled by effects in the electronic (band) structures. In
+the case of the zirconium-containing sulfides, an inspection of the
+phonon densities-of-states showed that the presence of vacancies apparently
+alleviates a dynamic instability for that sulfide; yet, the negative
+values of the phonon frequencies indicate that all of the inspected
+zirconium sulfides should be dynamically unstable. In the electronic
+band structures of LuS, M<sub>31</sub>S<sub>32</sub> (M = Sc, Y, Lu),
+and Zr<sub>29</sub>S<sub>32</sub>, the Fermi levels are crossed by
+flat bands, which are in good agreement with a flat band/steep band
+scenario expected for superconductors. Because the populations of
+flat bands at the Fermi level in a given material are indicative of
+an electronically unfavorable situation, the nature of bonding was
+examined for all sulfides to explain the trends for the formation
+of the metal-deficient sulfides.</p><p>A bonding analysis based on
+the &#x02212;pCOHP approach demonstrated
+that the bonding situations in all sulfides are dominated by strong
+M-d&#x02013;S 3p bonding interactions, besides minor, but evident,
+M-d&#x02013;M-d interactions. The M-d&#x02013;S 3p interactions are
+antibonding around the Fermi levels, and the occupations of these
+antibonding states are reduced as the metal contents of the sulfides
+decrease. Accordingly, it may be concluded that the subtle interplay
+between the populations of flat bands and antibonding M-d&#x02013;S
+3p states at the Fermi levels appears to control the presence of vacancies
+in the crystal structures of the sulfides.</p></sec></body><back><notes notes-type="" id="notes-1"><title>Author Contributions</title><p>J.S. conducted
+the first-principles-based computations, while S.S. supervised the
+project and prepared the initial draft of the manuscript. The manuscript
+was written with contributions from all the authors, who have approved
+the final version of the manuscript.</p></notes><notes notes-type="funding-statement" id="notes-2"><p>This work was
+supported by the Fonds der Chemischen Industrie e.V. (VCI), Frankfurt
+a. M. through a Liebig-stipend to S.S.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e1920-autogenerated"><p>The authors declare
+no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>The authors
+wish to thank Prof. Dr. R. Dronskowski for valuable
+advice as well as the allocation of the computer cluster of the Chemistry
+Department of RWTH Aachen, and, furthermore, the IT Center of RWTH
+Aachen for the computational resources (JARA-HPC project jara0167).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Zaanen</surname><given-names>J.</given-names></name>; <name><surname>Chakravarty</surname><given-names>S.</given-names></name>; <name><surname>Senthil</surname><given-names>T.</given-names></name>; <name><surname>Anderson</surname><given-names>P.</given-names></name>; <name><surname>Lee</surname><given-names>P.</given-names></name>; <name><surname>Schmalian</surname><given-names>J.</given-names></name>; <name><surname>Imada</surname><given-names>M.</given-names></name>; <name><surname>Pines</surname><given-names>D.</given-names></name>; <name><surname>Randeria</surname><given-names>M.</given-names></name>; <name><surname>Varma</surname><given-names>C.</given-names></name>; <name><surname>Vojta</surname><given-names>M.</given-names></name>; <name><surname>Rice</surname><given-names>M.</given-names></name>
+<article-title>Towards a complete
+theory of high <italic>T</italic><sub>c</sub></article-title>. <source>Nat. Phys.</source>
+<year>2006</year>, <volume>2</volume>, <fpage>138</fpage>&#x02013;<lpage>143</lpage>. <pub-id pub-id-type="doi">10.1038/nphys253</pub-id>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Bardeen</surname><given-names>J.</given-names></name>; <name><surname>Cooper</surname><given-names>L. N.</given-names></name>; <name><surname>Schrieffer</surname><given-names>J. R.</given-names></name>
+<article-title>Theory
+of Superconductivity</article-title>. <source>Phys. Rev.</source>
+<year>1957</year>, <volume>108</volume>, <fpage>1175</fpage>&#x02013;<lpage>1204</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRev.108.1175</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="book" id="cit3"><person-group person-group-type="allauthors"><name><surname>Ginzburg</surname><given-names>V. L.</given-names></name>; <name><surname>Landau</surname><given-names>L. D.</given-names></name></person-group><article-title>On the Theory
+of Superconductivity</article-title>. In <source>On Superconductivtiy
+and Superfluidity</source>; <person-group person-group-type="editor"><name><surname>Ginzburg</surname><given-names>V. L.</given-names></name></person-group>, Ed.; <publisher-name>Springer-Verlag</publisher-name>: <publisher-loc>Berlin, Germany</publisher-loc>, <year>2009</year>; pp <fpage>113</fpage>&#x02013;<lpage>137</lpage>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Bednorz</surname><given-names>J. G.</given-names></name>; <name><surname>M&#x000fc;ller</surname><given-names>K. A.</given-names></name>
+<article-title>Possible high Tc superconductivity in the Ba&#x02013;La&#x02013;Cu&#x02013;O
+system</article-title>. <source>Z. Phys. B: Condens. Matter</source>
+<year>1986</year>, <volume>64</volume>, <fpage>189</fpage>&#x02013;<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1007/BF01303701</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Markiewicz</surname><given-names>R. S.</given-names></name>
+<article-title>A SURVEY
+OF THE VAN HOVE SCENARIO FOR HIGH-T<sub><italic>c</italic></sub> SUPERCONDUCTIVITY
+WITH SPECIAL EMPHASIS ON PSEUDOGAPS AND STRIPED PHASES</article-title>. <source>J. Phys. Chem. Solids</source>
+<year>1997</year>, <volume>58</volume>, <fpage>1179</fpage>&#x02013;<lpage>1310</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-3697(97)00025-5</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Gabovich</surname><given-names>A. M.</given-names></name>; <name><surname>Voitenko</surname><given-names>A. I.</given-names></name>; <name><surname>Ausloos</surname><given-names>M.</given-names></name>
+<article-title>Charge- and spin-density waves in
+existing superconductors: competition between Cooper pairing and Peierls
+or excitonic instabilities</article-title>. <source>Phys. Rep.</source>
+<year>2002</year>, <volume>367</volume>, <fpage>583</fpage>&#x02013;<lpage>709</lpage>. <pub-id pub-id-type="doi">10.1016/S0370-1573(02)00029-7</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Simon</surname><given-names>A.</given-names></name>
+<article-title>Superconductivity
+and Chemistry</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>1997</year>, <volume>36</volume>, <fpage>1788</fpage>&#x02013;<lpage>1806</lpage>. <pub-id pub-id-type="doi">10.1002/anie.199717881</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Simon</surname><given-names>A.</given-names></name>
+<article-title>Superconductivity
+&#x02014; a source of surprises</article-title>. <source>Solid State
+Sci.</source>
+<year>2005</year>, <volume>7</volume>, <fpage>1451</fpage>&#x02013;<lpage>1455</lpage>. <pub-id pub-id-type="doi">10.1016/j.solidstatesciences.2005.04.019</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="book" id="cit9"><person-group person-group-type="allauthors"><name><surname>Dronskowski</surname><given-names>R.</given-names></name></person-group><source>Computational
+Chemistry of Solid State Materials</source>; <publisher-name>WILEY-VCH</publisher-name>: <publisher-loc>Weinheim, Germany</publisher-loc>, <year>2007</year>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Johrendt</surname><given-names>D.</given-names></name>; <name><surname>Felser</surname><given-names>C.</given-names></name>; <name><surname>Jepsen</surname><given-names>O.</given-names></name>; <name><surname>Andersen</surname><given-names>O. K.</given-names></name>; <name><surname>Mewis</surname><given-names>A.</given-names></name>; <name><surname>Rouxel</surname><given-names>J.</given-names></name>
+<article-title>LMTO Band Structure
+Calculations of ThCr<sub>2</sub>Si<sub>2</sub>-Type Transition Metal
+Compounds</article-title>. <source>J. Solid State Chem.</source>
+<year>1997</year>, <volume>130</volume>, <fpage>254</fpage>&#x02013;<lpage>265</lpage>. <pub-id pub-id-type="doi">10.1006/jssc.1997.7300</pub-id>.</mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Provino</surname><given-names>A.</given-names></name>; <name><surname>Steinberg</surname><given-names>S.</given-names></name>; <name><surname>Smetana</surname><given-names>V.</given-names></name>; <name><surname>Kulkarni</surname><given-names>R.</given-names></name>; <name><surname>Dhar</surname><given-names>S. K.</given-names></name>; <name><surname>Manfrinetti</surname><given-names>P.</given-names></name>; <name><surname>Mudring</surname><given-names>A.-V.</given-names></name>
+<article-title>Gold-rich <italic>R</italic><sub>3</sub>Au<sub>7</sub>Sn<sub>3</sub>: establishing
+the interdependence
+between electronic features and physical properties</article-title>. <source>J. Mater. Chem. C</source>
+<year>2015</year>, <volume>3</volume>, <fpage>8311</fpage>&#x02013;<lpage>8321</lpage>. <pub-id pub-id-type="doi">10.1039/C5TC00884K</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Schmitt</surname><given-names>D.
+C.</given-names></name>; <name><surname>Drake</surname><given-names>B. L.</given-names></name>; <name><surname>McCandless</surname><given-names>G. T.</given-names></name>; <name><surname>Chan</surname><given-names>J. Y.</given-names></name>
+<article-title>Targeted Crystal
+Growth of Rare Earth Intermetallics with Synergistic Magnetic and
+Electrical Properties: Structural Complexity to Simplicity</article-title>. <source>Acc. Chem. Res.</source>
+<year>2015</year>, <volume>48</volume>, <fpage>612</fpage>&#x02013;<lpage>618</lpage>. <pub-id pub-id-type="doi">10.1021/ar5003895</pub-id>.<pub-id pub-id-type="pmid">25730512</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Miller</surname><given-names>G. J.</given-names></name>
+<article-title>The &#x0201c;Coloring
+Problem&#x0201d; in Solids: How it Affects Structure, Composition and
+Properties</article-title>. <source>Eur. J. Inorg. Chem.</source>
+<year>1998</year>, <volume>1998</volume>, <fpage>523</fpage>&#x02013;<lpage>536</lpage>. <pub-id pub-id-type="doi">10.1002/(SICI)1099-0682(199805)1998:5&#x0003c;523::AID-EJIC523&#x0003e;3.0.CO;2-L</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Tarascon</surname><given-names>J. M.</given-names></name>; <name><surname>Greene</surname><given-names>L. H.</given-names></name>; <name><surname>McKinnon</surname><given-names>W. R.</given-names></name>; <name><surname>Hull</surname><given-names>G. W.</given-names></name>; <name><surname>Geballe</surname><given-names>T. H.</given-names></name>
+<article-title>Superconductivity
+at 40 K in the Oxygen-Defect Perovskites La<sub>2-<italic>x</italic></sub>Sr<sub><italic>x</italic></sub>CuO<sub>4-<italic>y</italic></sub></article-title>. <source>Science</source>
+<year>1987</year>, <volume>235</volume>, <fpage>1373</fpage>&#x02013;<lpage>1376</lpage>. <pub-id pub-id-type="doi">10.1126/science.235.4794.1373</pub-id>.<pub-id pub-id-type="pmid">17829979</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Oyanagi</surname><given-names>H.</given-names></name>; <name><surname>Ihara</surname><given-names>H.</given-names></name>; <name><surname>Matsubara</surname><given-names>T.</given-names></name>; <name><surname>Tokumoto</surname><given-names>M.</given-names></name>; <name><surname>Matsushita</surname><given-names>T.</given-names></name>; <name><surname>Hirabayashi</surname><given-names>M.</given-names></name>; <name><surname>Murata</surname><given-names>K.</given-names></name>; <name><surname>Terada</surname><given-names>N.</given-names></name>; <name><surname>Yao</surname><given-names>T.</given-names></name>; <name><surname>Iwasaki</surname><given-names>H.</given-names></name>; <name><surname>Kimura</surname><given-names>Y.</given-names></name>
+<article-title>Valence Study of Orthorhombic and
+Tetragonal Ba<sub>2</sub>YCu<sub>3</sub>O<sub><italic>y</italic></sub>: The Role of Oxygen Vacancies in High-<italic>T</italic><sub>c</sub> Superconductivity</article-title>. <source>Jpn. J. Appl. Phys.</source>
+<year>1987</year>, <volume>26</volume>, <fpage>L1561</fpage>&#x02013;<lpage>L1564</lpage>. <pub-id pub-id-type="doi">10.1143/JJAP.26.L1561</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Novikov</surname><given-names>D. L.</given-names></name>; <name><surname>Freeman</surname><given-names>A. J.</given-names></name>
+<article-title>Van Hove singularities and the role
+of doping in the
+stabilization, synthesis and superconductivity of HgBa<sub>2</sub>Ca<sub><italic>n</italic>-1</sub>Cu<sub><italic>n</italic></sub>O<sub>2<italic>n</italic>+2+&#x003b4;</sub></article-title>. <source>Phys. C</source>
+<year>1993</year>, <volume>216</volume>, <fpage>273</fpage>&#x02013;<lpage>283</lpage>. <pub-id pub-id-type="doi">10.1016/0921-4534(93)90071-W</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Hulliger</surname><given-names>F.</given-names></name>; <name><surname>Hull</surname><given-names>G. W.</given-names></name>
+<article-title>Superconductivity
+in rocksalt-type compounds</article-title>. <source>Solid State Commun.</source>
+<year>1970</year>, <volume>8</volume>, <fpage>1379</fpage>&#x02013;<lpage>1382</lpage>. <pub-id pub-id-type="doi">10.1016/0038-1098(70)90046-3</pub-id>.</mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Moodenbaugh</surname><given-names>A. R.</given-names></name>; <name><surname>Johnston</surname><given-names>D. C.</given-names></name>; <name><surname>Viswanathan</surname><given-names>R.</given-names></name>; <name><surname>Shelton</surname><given-names>R. N.</given-names></name>; <name><surname>DeLong</surname><given-names>L. E.</given-names></name>; <name><surname>Fertig</surname><given-names>W. A.</given-names></name>
+<article-title>Superconductivity
+of Transition Metal Sulfides, Selenides
+and Phosphides with the NaCl Structure</article-title>. <source>J. Low
+Temp. Phys.</source>
+<year>1978</year>, <volume>33</volume>, <fpage>175</fpage>&#x02013;<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1007/BF00117075</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Fries</surname><given-names>K. S.</given-names></name>; <name><surname>Steinberg</surname><given-names>S.</given-names></name>
+<article-title>Fermi-Level
+Characteristics of Potential Chalcogenide
+Superconductors</article-title>. <source>Chem. Mater.</source>
+<year>2018</year>, <volume>30</volume>, <fpage>2251</fpage>&#x02013;<lpage>2261</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemmater.7b04767</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Hahn</surname><given-names>H.</given-names></name>; <name><surname>Harder</surname><given-names>B.</given-names></name>; <name><surname>Mutschke</surname><given-names>U.</given-names></name>; <name><surname>Ness</surname><given-names>P.</given-names></name>
+<article-title>Zur Kristallstruktur
+einiger Verbindungen und Phase des Systems Zirkon/Schwefel</article-title>. <source>Z. Anorg. Allg. Chem.</source>
+<year>1957</year>, <volume>292</volume>, <fpage>82</fpage>&#x02013;<lpage>96</lpage>. <pub-id pub-id-type="doi">10.1002/zaac.19572920112</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Bl&#x000f6;chl</surname><given-names>P. E.</given-names></name>
+<article-title>Projector
+augmented wave method</article-title>. <source>Phys. Rev. B: Condens.
+Matter Mater. Phys.</source>
+<year>1994</year>, <volume>50</volume>, <fpage>17953</fpage>&#x02013;<lpage>17979</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.50.17953</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="book" id="cit22"><person-group person-group-type="allauthors"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Marsman</surname><given-names>M.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name></person-group><article-title>Vienna
+Ab Initio Simulation Package (VASP), The Guide</article-title>. In <source>Computational Materials Physics</source>; <publisher-name>Faculty
+of Physics, Universit&#x000e4;t Wien</publisher-name>: <publisher-loc>Vienna, Austria</publisher-loc>, <year>2014</year>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficiency of ab-initio total energy calculations for
+metals and semiconductors using a plane-wave basis set</article-title>. <source>Comput. Mater. Sci.</source>
+<year>1996</year>, <volume>6</volume>, <fpage>15</fpage>&#x02013;<lpage>50</lpage>. <pub-id pub-id-type="doi">10.1016/0927-0256(96)00008-0</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Furthm&#x000fc;ller</surname><given-names>J.</given-names></name>
+<article-title>Efficient
+iterative schemes for ab initio total-energy
+calculations using a plane-wave basis set</article-title>. <source>Phys.
+Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1996</year>, <volume>54</volume>, <fpage>11169</fpage>&#x02013;<lpage>11186</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.54.11169</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Hafner</surname><given-names>J.</given-names></name>
+<article-title>Ab initio molecular dynamics for
+liquid metals</article-title>. <source>Phys. Rev. B: Condens. Matter
+Mater. Phys.</source>
+<year>1993</year>, <volume>47</volume>, <fpage>558</fpage>&#x02013;<lpage>561</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.47.558</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Kresse</surname><given-names>G.</given-names></name>; <name><surname>Joubert</surname><given-names>D.</given-names></name>
+<article-title>From ultrasoft pseudopotentials
+to the projector augmented-wave
+method</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>1999</year>, <volume>59</volume>, <fpage>1758</fpage>&#x02013;<lpage>1775</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.59.1758</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Perdew</surname><given-names>J. P.</given-names></name>; <name><surname>Burke</surname><given-names>K.</given-names></name>; <name><surname>Ernzerhof</surname><given-names>M.</given-names></name>
+<article-title>Generalized
+gradient approximation
+made simple</article-title>. <source>Phys. Rev. Lett.</source>
+<year>1996</year>, <volume>77</volume>, <fpage>3865</fpage>&#x02013;<lpage>3868</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevLett.77.3865</pub-id>.<pub-id pub-id-type="pmid">10062328</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Setyawan</surname><given-names>W.</given-names></name>; <name><surname>Curtarolo</surname><given-names>S.</given-names></name>
+<article-title>High-throughput
+electronic band structure calculations:
+Challenges and tools</article-title>. <source>Comput. Mater. Sci.</source>
+<year>2010</year>, <volume>49</volume>, <fpage>299</fpage>&#x02013;<lpage>312</lpage>. <pub-id pub-id-type="doi">10.1016/j.commatsci.2010.05.010</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Ong</surname><given-names>S. P.</given-names></name>; <name><surname>Richards</surname><given-names>W. D.</given-names></name>; <name><surname>Jain</surname><given-names>A.</given-names></name>; <name><surname>Hautier</surname><given-names>G.</given-names></name>; <name><surname>Kocher</surname><given-names>M.</given-names></name>; <name><surname>Cholia</surname><given-names>S.</given-names></name>; <name><surname>Gunter</surname><given-names>D.</given-names></name>; <name><surname>Chevrier</surname><given-names>V. L.</given-names></name>; <name><surname>Persson</surname><given-names>K. A.</given-names></name>; <name><surname>Ceder</surname><given-names>G.</given-names></name>
+<article-title>Python Materials Genomics
+(pymatgen): A robust, open-source python
+library for materials analysis</article-title>. <source>Comput. Mater.
+Sci.</source>
+<year>2013</year>, <volume>68</volume>, <fpage>314</fpage>&#x02013;<lpage>319</lpage>. <pub-id pub-id-type="doi">10.1016/j.commatsci.2012.10.028</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Parlinski</surname><given-names>K.</given-names></name>; <name><surname>Li</surname><given-names>Z. Q.</given-names></name>; <name><surname>Kawazoe</surname><given-names>Y.</given-names></name>
+<article-title>First-Principles
+Determination of
+the Soft Mode in Cubic ZrO<sub>2</sub></article-title>. <source>Phys.
+Rev. Lett.</source>
+<year>1997</year>, <volume>78</volume>, <fpage>4063</fpage>&#x02013;<lpage>4066</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevLett.78.4063</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Togo</surname><given-names>A.</given-names></name>; <name><surname>Oba</surname><given-names>F.</given-names></name>; <name><surname>Tanaka</surname><given-names>I.</given-names></name>
+<article-title>First-principles
+calculations of the ferroelastic transition
+between rutile-type and CaCl<sub>2</sub>-type SiO<sub>2</sub> at high
+pressures</article-title>. <source>Phys. Rev. B: Condens. Matter Mater.
+Phys.</source>
+<year>2008</year>, <volume>78</volume>, <elocation-id>134106</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.78.134106</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Deringer</surname><given-names>V. L.</given-names></name>; <name><surname>Stoffel</surname><given-names>R. P.</given-names></name>; <name><surname>Wuttig</surname><given-names>M.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>Vibrational
+properties and bonding nature of Sb<sub>2</sub>Se<sub>3</sub> and
+their implications for chalcogenide materials</article-title>. <source>Chem. Sci.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>5255</fpage>&#x02013;<lpage>5262</lpage>. <pub-id pub-id-type="doi">10.1039/C5SC00825E</pub-id>.<pub-id pub-id-type="pmid">29449929</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>G&#x000f6;bgen</surname><given-names>K. C.</given-names></name>; <name><surname>Steinberg</surname><given-names>S.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>Revisting the Si-Te System: SiTe<sub>2</sub> Finally
+Found by Means of Experimental and Quantum-Chemical
+Techniques</article-title>. <source>Inorg. Chem.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>11398</fpage>&#x02013;<lpage>11405</lpage>. <pub-id pub-id-type="doi">10.1021/acs.inorgchem.7b01847</pub-id>.<pub-id pub-id-type="pmid">28846402</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Clark</surname><given-names>W. P.</given-names></name>; <name><surname>Steinberg</surname><given-names>S.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>; <name><surname>McCammon</surname><given-names>C.</given-names></name>; <name><surname>Kupenko</surname><given-names>I.</given-names></name>; <name><surname>Bykov</surname><given-names>M.</given-names></name>; <name><surname>Dubrovinsky</surname><given-names>L.</given-names></name>; <name><surname>Akselrud</surname><given-names>L. G.</given-names></name>; <name><surname>Schwarz</surname><given-names>U.</given-names></name>; <name><surname>Niewa</surname><given-names>R.</given-names></name>
+<article-title>High-Pressure NiAs-Type
+Modification of FeN</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2017</year>, <volume>56</volume>, <fpage>7302</fpage>&#x02013;<lpage>7306</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201702440</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Dronskowski</surname><given-names>R.</given-names></name>; <name><surname>Bl&#x000f6;chl</surname><given-names>P. E.</given-names></name>
+<article-title>Crystal Orbital Hamilton Populations
+(COHP). Energy-Resolved
+Visualization of Chemical Bonding in Solids Based on Density-Functional
+Calculations</article-title>. <source>J. Phys. Chem.</source>
+<year>1993</year>, <volume>97</volume>, <fpage>8617</fpage>&#x02013;<lpage>8624</lpage>. <pub-id pub-id-type="doi">10.1021/j100135a014</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Steinberg</surname><given-names>S.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>The Crystal Orbital Hamilton Population (COHP) Method
+as a Tool to Visualize and Analyze Chemcial Bonding in Intermetallic
+Compounds</article-title>. <source>Crystals</source>
+<year>2018</year>, <volume>8</volume>, <fpage>225</fpage><pub-id pub-id-type="doi">10.3390/cryst8050225</pub-id>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Deringer</surname><given-names>V. L.</given-names></name>; <name><surname>Tchougr&#x000e9;eff</surname><given-names>A. L.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>Crystal Orbital
+Hamilton Population (COHP) Analysis As Projected from Plane-Wave Basis
+Sets</article-title>. <source>J. Phys. Chem. A</source>
+<year>2011</year>, <volume>115</volume>, <fpage>5461</fpage>&#x02013;<lpage>5466</lpage>. <pub-id pub-id-type="doi">10.1021/jp202489s</pub-id>.<pub-id pub-id-type="pmid">21548594</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Maintz</surname><given-names>S.</given-names></name>; <name><surname>Deringer</surname><given-names>V. L.</given-names></name>; <name><surname>Tchougr&#x000e9;eff</surname><given-names>A.
+L.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>Analytic Projection
+From Plane-Wave and PAW Wavefunctions and Application to Chemical-Bonding
+Analysis in Solids</article-title>. <source>J. Comput. Chem.</source>
+<year>2013</year>, <volume>34</volume>, <fpage>2557</fpage>&#x02013;<lpage>2567</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.23424</pub-id>.<pub-id pub-id-type="pmid">24022911</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Maintz</surname><given-names>S.</given-names></name>; <name><surname>Deringer</surname><given-names>V. L.</given-names></name>; <name><surname>Tchougr&#x000e9;eff</surname><given-names>A.
+L.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>LOBSTER: A
+Tool to Extract Chemical Bonding from Plane-Wave Based DFT</article-title>. <source>J. Comput. Chem.</source>
+<year>2016</year>, <volume>37</volume>, <fpage>1030</fpage>&#x02013;<lpage>1035</lpage>. <pub-id pub-id-type="doi">10.1002/jcc.24300</pub-id>.<pub-id pub-id-type="pmid">26914535</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="computer-program" id="cit40"><person-group person-group-type="allauthors"><name><surname>Eck</surname><given-names>B.</given-names></name></person-group><source>wxDragon
+2.1.2</source>; <publisher-name>RWTH Aachen University</publisher-name>: <publisher-loc>Aachen, Germany</publisher-loc>, <year>2017</year>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Johnston</surname><given-names>D. C.</given-names></name>; <name><surname>Moodenbaugh</surname><given-names>A.</given-names></name>
+<article-title>Zr<sub>3+x</sub>S<sub>4</sub>: A NEW SUPERCONDUCTING
+BINARY SULFIDE</article-title>. <source>Phys. Lett. A</source>
+<year>1972</year>, <volume>41</volume>, <fpage>447</fpage>&#x02013;<lpage>448</lpage>. <pub-id pub-id-type="doi">10.1016/0375-9601(72)90398-2</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Moodenbaugh</surname><given-names>A. R.</given-names></name>; <name><surname>Johnston</surname><given-names>D. C.</given-names></name>; <name><surname>Viswanathan</surname><given-names>R.</given-names></name>
+<article-title>Super conductivity
+in two NaCl structure
+compounds: &#x003b1;-ZrP and ScS<sub>1+x</sub></article-title>. <source>Mater. Res. Bull.</source>
+<year>1974</year>, <volume>9</volume>, <fpage>1671</fpage>&#x02013;<lpage>1675</lpage>. <pub-id pub-id-type="doi">10.1016/0025-5408(74)90160-3</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Stocks</surname><given-names>K.</given-names></name>; <name><surname>Eulenberger</surname><given-names>G.</given-names></name>; <name><surname>Hahn</surname><given-names>H.</given-names></name>
+<article-title>Darstellung und Kristallstruktur
+der Phasen Zr<sub>3</sub>S<sub>4</sub> und Hf<sub>3</sub>S<sub>4</sub></article-title>. <source>Z. Anorg. Allg. Chem.</source>
+<year>1970</year>, <volume>374</volume>, <fpage>318</fpage>&#x02013;<lpage>325</lpage>. <pub-id pub-id-type="doi">10.1002/zaac.19703740312</pub-id>.</mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Dismukes</surname><given-names>J. P.</given-names></name>; <name><surname>White</surname><given-names>J. G.</given-names></name>
+<article-title>The Preparation, Properties, and
+Crystal Structures
+of Some Scandium Sulfides in the Range Sc<sub>2</sub>S<sub>3</sub>&#x02013;ScS</article-title>. <source>Inorg. Chem.</source>
+<year>1964</year>, <volume>3</volume>, <fpage>1220</fpage>&#x02013;<lpage>1228</lpage>. <pub-id pub-id-type="doi">10.1021/ic50019a004</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Franzen</surname><given-names>H. F.</given-names></name>; <name><surname>Hariharan</surname><given-names>A. V.</given-names></name>
+<article-title>An X-Ray Photoelectron Study of Nonstoichiometric Lutetium
+Monosulfides</article-title>. <source>J. Solid State Chem.</source>
+<year>1978</year>, <volume>26</volume>, <fpage>189</fpage>&#x02013;<lpage>193</lpage>. <pub-id pub-id-type="doi">10.1016/0022-4596(78)90151-2</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Stoffel</surname><given-names>R. P.</given-names></name>; <name><surname>Wessel</surname><given-names>C.</given-names></name>; <name><surname>Lumey</surname><given-names>M.-W.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>Ab Initio
+Thermochemistry of Solid-State Materials</article-title>. <source>Angew.
+Chem., Int. Ed.</source>
+<year>2010</year>, <volume>49</volume>, <fpage>5242</fpage>&#x02013;<lpage>5266</lpage>. <pub-id pub-id-type="doi">10.1002/anie.200906780</pub-id>.</mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="book" id="cit47"><person-group person-group-type="allauthors"><name><surname>Stoffel</surname><given-names>R. P.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name></person-group><article-title>Lattice Dynamics
+and Thermochemistry of Solid-State Materials from First-Principles
+Quantum-Chemical Calculations</article-title>. In <source>Handbook
+of Solid State Chemistry</source>; <person-group person-group-type="editor"><name><surname>Dronskowski</surname><given-names>R.</given-names></name>; <name><surname>Kikkawa</surname><given-names>S.</given-names></name>; <name><surname>Stein</surname><given-names>A.</given-names></name></person-group>, Eds.; <publisher-name>Wiley-VCH GmbH &#x00026;
+Co KGaA</publisher-name>, <year>2017</year>; pp <fpage>491</fpage>&#x02013;<lpage>526</lpage>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>McTaggart</surname><given-names>F. K.</given-names></name>; <name><surname>Wadsley</surname><given-names>A. D.</given-names></name>
+<article-title>The sulphides, selenides, and tellurides of titanium,
+zirconium, hafnium, and thorium I. Preparation and characterization</article-title>. <source>Aust. J. Chem.</source>
+<year>1958</year>, <volume>11</volume>, <fpage>445</fpage>&#x02013;<lpage>457</lpage>. <pub-id pub-id-type="doi">10.1071/CH9580445</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Nguyen</surname><given-names>T.-H.</given-names></name>; <name><surname>Franzen</surname><given-names>H.</given-names></name>; <name><surname>Harmon</surname><given-names>B. N.</given-names></name>
+<article-title>The electronic
+structure of zirconium
+monosulfide</article-title>. <source>J. Chem. Phys.</source>
+<year>1980</year>, <volume>73</volume>, <fpage>425</fpage>&#x02013;<lpage>437</lpage>. <pub-id pub-id-type="doi">10.1063/1.439892</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>B&#x000f6;rnsen</surname><given-names>N.</given-names></name>; <name><surname>Meyer</surname><given-names>B.</given-names></name>; <name><surname>Grotheer</surname><given-names>O.</given-names></name>; <name><surname>F&#x000e4;hnle</surname><given-names>M.</given-names></name>
+<article-title><italic>E</italic><sub>cov</sub> &#x02013; a new tool for the analysis of electronic
+structure data in a chemical language</article-title>. <source>J. Phys.:
+Condens. Matter</source>
+<year>1999</year>, <volume>11</volume>, <fpage>L287</fpage>&#x02013;<lpage>L293</lpage>. <pub-id pub-id-type="doi">10.1088/0953-8984/11/25/105</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Gladisch</surname><given-names>F. C.</given-names></name>; <name><surname>Steinberg</surname><given-names>S.</given-names></name>
+<article-title>Revealing
+Tendencies in the Electronic Structures of
+Polar Intermetallic Compounds</article-title>. <source>Crystals</source>
+<year>2018</year>, <volume>8</volume>, <fpage>80</fpage><pub-id pub-id-type="doi">10.3390/cryst8020080</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Gerlitzki</surname><given-names>N.</given-names></name>; <name><surname>Meyer</surname><given-names>G.</given-names></name>; <name><surname>Mudring</surname><given-names>A.-V.</given-names></name>; <name><surname>Corbett</surname><given-names>J. D.</given-names></name>
+<article-title>Praseodymium diiodide,
+PrI<sub>2</sub>, revisited by synthesis, structure determination and
+theory</article-title>. <source>J. Alloys Compd.</source>
+<year>2004</year>, <volume>380</volume>, <fpage>211</fpage>&#x02013;<lpage>218</lpage>. <pub-id pub-id-type="doi">10.1016/j.jallcom.2004.03.046</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Burdett</surname><given-names>J. K.</given-names></name>; <name><surname>Hughbanks</surname><given-names>T.</given-names></name>
+<article-title>NbO and TiO: Structural and Electronic
+Stability of
+Structures Derived from Rock Salt</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<year>1984</year>, <volume>106</volume>, <fpage>3101</fpage>&#x02013;<lpage>3113</lpage>. <pub-id pub-id-type="doi">10.1021/ja00323a006</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Wuttig</surname><given-names>M.</given-names></name>; <name><surname>L&#x000fc;sebrink</surname><given-names>D.</given-names></name>; <name><surname>Wamwangi</surname><given-names>D.</given-names></name>; <name><surname>We&#x00142;nic</surname><given-names>W.</given-names></name>; <name><surname>Gille&#x000df;en</surname><given-names>M.</given-names></name>; <name><surname>Dronskowski</surname><given-names>R.</given-names></name>
+<article-title>The role of vacancies and local distortions
+in the design of new phase-change materials</article-title>. <source>Nat. Mater.</source>
+<year>2007</year>, <volume>6</volume>, <fpage>122</fpage>&#x02013;<lpage>128</lpage>. <pub-id pub-id-type="doi">10.1038/nmat1807</pub-id>.<pub-id pub-id-type="pmid">17173032</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Burdett</surname><given-names>J. K.</given-names></name>; <name><surname>Mitchell</surname><given-names>J. F.</given-names></name>
+<article-title>Electronic Origin
+of Nonstoichiometry in Early-Transition-Metal
+Chalcogenids</article-title>. <source>Chem. Mater.</source>
+<year>1993</year>, <volume>5</volume>, <fpage>1465</fpage>&#x02013;<lpage>1473</lpage>. <pub-id pub-id-type="doi">10.1021/cm00034a016</pub-id>.</mixed-citation></ref></ref-list></back></article>

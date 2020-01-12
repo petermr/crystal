@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par34">where 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathscr{N}}$$\end{document}</tex-math>
+   <math id="M40">
+    <mi mathvariant="script">N</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a normalization factor. Formula (10) implies that the clusters have a Gaussian shape with 〈
+ <italic>x</italic>〉 = 〈
+ <italic>y</italic>〉 = 0 and defines an effective temperature of the system
+ <sup>
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>:
+ <disp-formula id="Equ11">
+  <label>11</label>
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${T}_{e}=k\langle {x}^{2}\rangle =k\langle {y}^{2}\rangle ={D}_{a}\gamma (\frac{T}{\gamma {D}_{a}}+\frac{1}{1+k\tau /\gamma })\approx \frac{{D}_{a}\gamma }{1+k\tau /\gamma }.$$\end{document}</tex-math>
+   <math id="M42" display="block">
+    <msub>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>k</mi>
+    <mo stretchy="false">〈</mo>
+    <msup>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo stretchy="false">〉</mo>
+    <mo>=</mo>
+    <mi>k</mi>
+    <mo stretchy="false">〈</mo>
+    <msup>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo stretchy="false">〉</mo>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mrow>
+      <mi>a</mi>
+     </mrow>
+    </msub>
+    <mi>γ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mi>T</mi>
+       <mrow>
+        <mi>γ</mi>
+        <msub>
+         <mrow>
+          <mi>D</mi>
+         </mrow>
+         <mrow>
+          <mi>a</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mrow>
+        <mn>1</mn>
+        <mo>+</mo>
+        <mi>k</mi>
+        <mi>τ</mi>
+        <mo>/</mo>
+        <mi>γ</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>≈</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+      <mi>γ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi>k</mi>
+      <mi>τ</mi>
+      <mo>/</mo>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ11.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

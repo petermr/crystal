@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Besides, in this paper, the first 
+ <italic>N
+  <sub>r</sub>
+ </italic> orders of normal modes are selected as the mode components of each ring for the trade-off between the calculation amount and accuracy (mode number of ring 
+ <italic>N
+  <sub>r</sub>
+ </italic> = 3 in this paper). So displacements of each ring can be briefly expressed as 
+ <disp-formula id="FD14-micromachines-10-00181">
+  <label>(14)</label>
+  <math id="mm16">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <mi>v</mi>
+       <mo>=</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>1</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mi>sin</mi>
+       <mn>2</mn>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>2</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mi>sin</mi>
+       <mn>6</mn>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>3</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mi>sin</mi>
+       <mn>10</mn>
+       <mi>θ</mi>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">φ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mi>u</mi>
+       <mo>=</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>1</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mn>2</mn>
+       <mi>cos</mi>
+       <mn>2</mn>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>2</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mn>6</mn>
+       <mi>cos</mi>
+       <mn>6</mn>
+       <mi>θ</mi>
+       <mo>+</mo>
+       <msubsup>
+        <mi>p</mi>
+        <mn>3</mn>
+        <mi>r</mi>
+       </msubsup>
+       <mn>10</mn>
+       <mi>cos</mi>
+       <mn>10</mn>
+       <mi>θ</mi>
+       <mo>=</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi mathvariant="bold-sans-serif">ψ</mi>
+       </mstyle>
+       <mo stretchy="false">(</mo>
+       <mi>θ</mi>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>p</mi>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+       </msup>
+       <mo stretchy="false">(</mo>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

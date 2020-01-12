@@ -1,0 +1,330 @@
+{
+  "id": [
+    "31704976"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31704976"
+  ],
+  "pmcid": [
+    "PMC6841691"
+  ],
+  "doi": [
+    "10.1038/s41598-019-52170-0"
+  ],
+  "title": [
+    "Realistic microstructure evolution of complex Ta-Nb-Hf-Zr high-entropy alloys by simulation techniques."
+  ],
+  "authorString": [
+    "Mishra S, Maiti S, Dwadasi BS, Rai B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Mishra S"
+          ],
+          "firstName": [
+            "Shashank"
+          ],
+          "lastName": [
+            "Mishra"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "TCS Research, Tata Research Development and Design Center, 54-B Hadapsar Industrial Estate, Hadapsar, Pune, 411013, Maharashtra, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Maiti S"
+          ],
+          "firstName": [
+            "Soumyadipta"
+          ],
+          "lastName": [
+            "Maiti"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "TCS Research, Tata Research Development and Design Center, 54-B Hadapsar Industrial Estate, Hadapsar, Pune, 411013, Maharashtra, India. soumya.maiti@tcs.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Dwadasi BS"
+          ],
+          "firstName": [
+            "Balarama Sridhar"
+          ],
+          "lastName": [
+            "Dwadasi"
+          ],
+          "initials": [
+            "BS"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8552-9285",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "TCS Research, Tata Research Development and Design Center, 54-B Hadapsar Industrial Estate, Hadapsar, Pune, 411013, Maharashtra, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Rai B"
+          ],
+          "firstName": [
+            "Beena"
+          ],
+          "lastName": [
+            "Rai"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "TCS Research, Tata Research Development and Design Center, 54-B Hadapsar Industrial Estate, Hadapsar, Pune, 411013, Maharashtra, India."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8552-9285",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2875678"
+      ],
+      "dateOfPublication": [
+        "2019 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "16337"
+  ],
+  "abstractText": [
+    "Over last 15 years high-entropy alloys (HEAs) and complex concentrated alloys (CCAs) have gained much appreciation for their numerous superior properties. In this paper we have shown a novel simulation methodology to realistically predict the nanometer level local structural features of complex Ta0.25Nb0.25Hf0.25Zr0.25 HEA. This involves prediction of the morphology of the short-range clustering (SRCs), their quantitative atomic composition at the nano level and the thermodynamic aspects. An alloy structure model containing 11664 atoms was created and this was subjected to structure evolution at 1800 °C. The structure evolution technique is based on a combined hybrid Monte Carlo and molecular dynamics (MC/MD) approach. The simulated results from this work are further validated against experiments and material characterizations reported in literature and done by high-resolution transmission electron micrograph (HRTEM) for the nano-level microstructure, atom probe tomography (APT) for the local chemical compositions and X-ray diffraction at synchrotron sources for the local lattice relaxation effects. This work qualitatively and quantitatively reproduces the materials characterization results reasonably well from the developed simulation methodologies. The structure evolution methods as described in this work are based on independent computer simulations and does not involve any manual intervention for input based on experiments on evolving SRCs. This work shows the potential of utilizing MC/MD based computational methods to reduce the number of costly experimental characterizations and accelerate the pace for materials development."
+  ],
+  "affiliation": [
+    "TCS Research, Tata Research Development and Design Center, 54-B Hadapsar Industrial Estate, Hadapsar, Pune, 411013, Maharashtra, India."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-52170-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6841691"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6841691?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-11-10"
+  ],
+  "firstIndexDate": [
+    "2019-11-10"
+  ],
+  "fullTextReceivedDate": [
+    "2019-11-16"
+  ],
+  "dateOfRevision": [
+    "2019-11-15"
+  ],
+  "electronicPublicationDate": [
+    "2019-11-08"
+  ],
+  "firstPublicationDate": [
+    "2019-11-08"
+  ]
+}

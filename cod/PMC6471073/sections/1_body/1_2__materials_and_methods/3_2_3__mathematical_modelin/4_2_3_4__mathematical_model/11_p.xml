@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Therefore, the matrix form of the above equations is 
+ <disp-formula id="FD55-micromachines-10-00181">
+  <label>(54)</label>
+  <math id="mm61">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mn>2</mn>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mn>3</mn>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mrow>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>I</mi>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋯</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>F</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>G</mi>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋯</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>F</mi>
+            </mstyle>
+            <mn>2</mn>
+           </msub>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>F</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>F</mi>
+            </mstyle>
+            <mn>2</mn>
+           </msub>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>G</mi>
+           </mstyle>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>G</mi>
+          </mstyle>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋯</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <mstyle displaystyle="true">
+            <munderover>
+             <mo>∏</mo>
+             <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mi>n</mi>
+              <mo>−</mo>
+              <mn>2</mn>
+             </mrow>
+             <mn>1</mn>
+            </munderover>
+            <mrow>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>F</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+            </mrow>
+           </mstyle>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mrow>
+           <mstyle displaystyle="true">
+            <munderover>
+             <mo>∏</mo>
+             <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mi>n</mi>
+              <mo>−</mo>
+              <mn>2</mn>
+             </mrow>
+             <mn>2</mn>
+            </munderover>
+            <mrow>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>F</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+            </mrow>
+           </mstyle>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>G</mi>
+           </mstyle>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mrow>
+           <mstyle displaystyle="true">
+            <munderover>
+             <mo>∏</mo>
+             <mrow>
+              <mi>i</mi>
+              <mo>=</mo>
+              <mi>n</mi>
+              <mo>−</mo>
+              <mn>2</mn>
+             </mrow>
+             <mn>3</mn>
+            </munderover>
+            <mrow>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>F</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+            </mrow>
+           </mstyle>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>G</mi>
+           </mstyle>
+          </mrow>
+         </mtd>
+         <mtd columnalign="left">
+          <mo>⋯</mo>
+         </mtd>
+         <mtd columnalign="left">
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>G</mi>
+          </mstyle>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable columnalign="left">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mn>2</mn>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mn>3</mn>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mo>⋮</mo>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

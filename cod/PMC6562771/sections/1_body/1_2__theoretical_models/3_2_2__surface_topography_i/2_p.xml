@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The ‘trim principle’ is that the final height coordinate at point 
+ <italic>B</italic> is the minimum value among all these height coordinates induced by these tool profiles duplication. More precisely, on the current configurations in 
+ <xref ref-type="fig" rid="micromachines-10-00288-f006">Figure 6</xref>b, the height coordinate at point 
+ <italic>B</italic> is given by 
+ <disp-formula id="FD5-micromachines-10-00288">
+  <label>(5)</label>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>z</mi>
+      <mi mathvariant="normal">B</mi>
+     </msub>
+     <mo>=</mo>
+     <mi>min</mi>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mi>F</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>B</mi>
+          <mi mathvariant="normal">m</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>+</mo>
+       <msub>
+        <mi>z</mi>
+        <mi mathvariant="normal">v</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mrow>
+           <mi>Bm</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>,</mo>
+       <mi>F</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>B</mi>
+          <mi mathvariant="normal">M</mi>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>+</mo>
+       <msub>
+        <mi>z</mi>
+        <mi mathvariant="normal">v</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msub>
+          <mi>t</mi>
+          <mrow>
+           <mi>BM</mi>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>}</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>F</italic>(
+ <italic>B</italic>
+ <sub>m</sub>) and 
+ <italic>F</italic>(
+ <italic>B</italic>
+ <sub>M</sub>) are the height coordinates of point 
+ <italic>B</italic> when the tool tip locates respectively at point 
+ <italic>B</italic>
+ <sub>m</sub> and 
+ <italic>B</italic>
+ <sub>M</sub>, which can be acquired from the theoretical models discussed in 
+ <xref ref-type="sec" rid="sec2dot1-micromachines-10-00288">Section 2.1</xref>; 
+ <italic>z</italic>
+ <sub>v</sub>(
+ <italic>t</italic>) is the vibration component at the cutting time 
+ <italic>t</italic>, which will be systematically studied in the this section; 
+ <italic>t</italic>
+ <sub>Bm</sub> and 
+ <italic>t</italic>
+ <sub>BM</sub> are the corresponding times points when the diamond tool locates at the two points.
+</p>

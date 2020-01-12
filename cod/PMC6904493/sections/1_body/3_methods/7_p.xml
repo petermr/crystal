@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">From the DFT total-energy-derived forces and PHONOPY we obtain real-space force constants. The dynamical matrices are then constructed using the force constants and phonon frequencies or other thermodynamical properties such as the heat capacity can readily be obtained. A total of 32 different supercells are required to determine the complete set of force constants necessary for computing the phonon frequencies in this fashion. In addition, the optimized α-plutonium structure is close but not in exact equilibrium and consequently some atoms have small residual forces (&lt;0.1 eV/Å). These residual forces are subtracted off when establishing the force constants. This subtraction, however, did not change the phonons significantly. Finally, the phonon density of states, in Figs. 
+ <xref rid="Fig1" ref-type="fig">1</xref> and 
+ <xref rid="Fig5" ref-type="fig">5</xref>, are broadened with a Gaussian function with an energy-width of 0.5 meV.
+</p>

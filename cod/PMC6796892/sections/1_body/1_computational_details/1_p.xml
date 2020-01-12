@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All of the results presented here are obtained from ab initio density functional calculations using the Vienna Ab initio Simulation Package
+ <sup>
+  <xref ref-type="bibr" rid="ref36">36</xref>
+ </sup> or full-potential linearized augmented plane-wave (FP-LAPW) method (Wien2k). To obtain the ground-state structural parameters for PbTi
+ <sub>1–
+  <italic>x</italic>
+ </sub>V
+ <sub>
+  <italic>x</italic>
+ </sub>O
+ <sub>3</sub>, we have optimized the crystal structure by minimizing the force and stress acting on the system. The generalized gradient approximation (GGA)
+ <sup>
+  <xref ref-type="bibr" rid="ref37">37</xref>
+ </sup> in the scheme of Perdew–Burke–Ernzerhof (PBE)
+ <sup>
+  <xref ref-type="bibr" rid="ref38">38</xref>
+ </sup> is employed to treat the exchange-correlation as it gives better equilibrium structural parameters than the local density approximation. The ionic positions and the shape of the crystals were relaxed for different unit cell volumes until the energy and force convergence criteria were reached, i.e., 10
+ <sup>–6</sup> eV per cell and 1 meV/Å per atom, respectively. As the structural parameters are very sensitive to electrical polarization, a very high plane-wave cutoff energy of 850 eV
+ <sup>
+  <xref ref-type="bibr" rid="ref39">39</xref>
+ </sup> was used. A 6 × 6 × 6 Monkhorst–Pack 
+ <bold>k</bold>-point
+ <sup>
+  <xref ref-type="bibr" rid="ref40">40</xref>
+ </sup> mesh was used for ferroelectric PTO, and similar density of 
+ <bold>k</bold>-points was used for all other calculations. To find the ground-state magnetic ordering, we have considered nonmagnetic (NM), ferromagnetic (FM), A-type antiferromagnetic, C-type antiferromagnetic (C-AF), and G-type antiferromagnetic configurations.
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> To account for the strong electron correlation associated with V 3d electrons on the electronic structure, the GGA + 
+ <italic>U</italic> method was used with 
+ <italic>U</italic>
+ <sub>eff</sub> = 3 eV. The Born effective charges (BECs) were calculated by the Berry phase method with a 8 × 8 × 8 
+ <bold>k</bold>-point mesh per f.u. using the modern theory of polarization.
+ <sup>
+  <xref ref-type="bibr" rid="ref42">42</xref>,
+  <xref ref-type="bibr" rid="ref43">43</xref>
+ </sup> We have used periodic supercell approach to simulate the substituted systems, i.e., for compositions with 33 and 50% V substitutions, 1 × 1 × 3 and 1 × 1 × 2 supercells were created, respectively. Then, one Ti atom was replaced with V to mimic the experimental conditions. The supercells are again doubled in each direction to incorporate different magnetic orderings. Similar kind of methodology was used to model other compositions.
+</p>

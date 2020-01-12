@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Like any other scalar field on a 3D domain, the representation of DORI requires a fourth dimension (three dimensions for 
+ <inline-formula id="d30e441">
+  <inline-graphic xlink:href="jz-2019-00220n_m003.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> and one for the value of the function). To visualize the essential features of DORI in three dimensions, one selects a meaningful function value 
+ <italic>f</italic> and displays the closed isosurfaces for 
+ <italic>f</italic>. These surfaces are the boundaries of the [
+ <italic>f</italic>] domains (i.e., the points with DORI(
+ <italic>
+  <bold>r</bold>
+ </italic>) = 
+ <italic>f</italic>), where [
+ <italic>f</italic>] domains are all points in space with the DORI value greater than or equal to the chosen isovalue 
+ <italic>f</italic> (i.e., the points with DORI(
+ <bold>r</bold>) ≥ 
+ <italic>f</italic>)). The DORI basins correspond to chemical interactions, which can be quantified by integrating the electron density that is enclosed in each basin
+ <disp-formula id="eq3">
+  <graphic xlink:href="jz-2019-00220n_m004" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>3</label>
+ </disp-formula>
+</p>

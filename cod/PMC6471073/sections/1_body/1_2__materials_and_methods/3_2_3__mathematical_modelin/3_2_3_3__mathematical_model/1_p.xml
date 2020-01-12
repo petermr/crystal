@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Schematic of the level-1 substructures are shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f005">Figure 5</xref>. Based on the difference in the spokes’ orientations, they can be divided into two types: type I, in which the spoke A locates at −22.5°, and type II, in which the spoke A locates at 0°. In the 
+ <italic>n</italic> = 2 flexural mode of the DRG, the displacement will be reversed after 90 degrees, so spokes A and E have the same mode shape, while A, C, and G have reverse-phase mode shapes. Similarly, B and F have the same mode shape, while B, D, and H have reverse-phase mode shapes. So only the mode shapes of spokes A and B need to be analyzed. Uncoupled dynamic equation of the level-1 substructure 
+ <italic>i</italic> (including the ring 
+ <italic>i</italic>, ring 
+ <italic>i</italic> + 1 and the interconnected spokes) can be expressed as 
+ <disp-formula id="FD30-micromachines-10-00181">
+  <label>(30)</label>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>M</mi>
+      </mstyle>
+      <mrow>
+       <mn>0</mn>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mover accent="true">
+        <mi>P</mi>
+        <mo>¨</mo>
+       </mover>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>K</mi>
+      </mstyle>
+      <mrow>
+       <mn>0</mn>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>P</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

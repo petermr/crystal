@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Herein, 
+ <disp-formula id="FD15-micromachines-10-00181">
+  <label>(15)</label>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi mathvariant="bold-sans-serif">φ</mi>
+         </mstyle>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mi>sin</mi>
+               <mn>2</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi>sin</mi>
+               <mn>6</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mi>sin</mi>
+               <mn>10</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+         <mo>,</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi mathvariant="bold-sans-serif">ψ</mi>
+         </mstyle>
+         <mo stretchy="false">(</mo>
+         <mi>θ</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <mn>2</mn>
+               <mi>cos</mi>
+               <mn>2</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mn>6</mn>
+               <mi>cos</mi>
+               <mn>6</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <mn>10</mn>
+               <mi>cos</mi>
+               <mn>10</mn>
+               <mi>θ</mi>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+        </mrow>
+       </mtd>
+      </mtr>
+      <mtr>
+       <mtd>
+        <mrow>
+         <msup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>p</mi>
+          </mstyle>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+         <mo>=</mo>
+         <msup>
+          <mrow>
+           <mo stretchy="false">[</mo>
+           <mtable>
+            <mtr>
+             <mtd>
+              <mrow>
+               <msubsup>
+                <mi>p</mi>
+                <mn>1</mn>
+                <mi>r</mi>
+               </msubsup>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msubsup>
+                <mi>p</mi>
+                <mn>2</mn>
+                <mi>r</mi>
+               </msubsup>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+             </mtd>
+             <mtd>
+              <mrow>
+               <msubsup>
+                <mi>p</mi>
+                <mn>3</mn>
+                <mi>r</mi>
+               </msubsup>
+               <mo stretchy="false">(</mo>
+               <mi>t</mi>
+               <mo stretchy="false">)</mo>
+              </mrow>
+             </mtd>
+            </mtr>
+           </mtable>
+           <mo stretchy="false">]</mo>
+          </mrow>
+          <mi>T</mi>
+         </msup>
+        </mrow>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

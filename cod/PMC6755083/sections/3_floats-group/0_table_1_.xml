@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>New (vs. original) data collection and refinement statistics</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1"/>
+    <th rowspan="1" colspan="1">
+     <bold>PDB 6S84</bold>
+    </th>
+    <th rowspan="1" colspan="1">
+     <bold>PDB 6FPE</bold>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">Wavelength (Å)</td>
+    <td rowspan="1" colspan="1">0.978570</td>
+    <td rowspan="1" colspan="1">0.9801</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Resolution range (Å)</td>
+    <td rowspan="1" colspan="1">46.14–2.90 (3.00–2.90)</td>
+    <td rowspan="1" colspan="1">48.44–3.14 (3.33–3.14)</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Space group</td>
+    <td rowspan="1" colspan="1">P 2
+     <sub>1</sub> 2
+     <sub>1</sub> 2
+     <sub>1</sub>
+    </td>
+    <td rowspan="1" colspan="1">P 2
+     <sub>1</sub> 2
+     <sub>1</sub> 2
+     <sub>1</sub>
+    </td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Unit cell a,b,c (Å)</td>
+    <td rowspan="1" colspan="1">a = 85.16, b = 108.21, c = 176.65</td>
+    <td rowspan="1" colspan="1">a = 84.31, b = 113.94, c = 177.62</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Total reflections</td>
+    <td rowspan="1" colspan="1">324005</td>
+    <td rowspan="1" colspan="1">138146</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Unique reflections</td>
+    <td rowspan="1" colspan="1">36849</td>
+    <td rowspan="1" colspan="1">30297</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Completeness (%)</td>
+    <td rowspan="1" colspan="1">99.1 (94.8)</td>
+    <td rowspan="1" colspan="1">99.1 (95.2)</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Mean I/sigma(I)</td>
+    <td rowspan="1" colspan="1">9.1 (0.87)</td>
+    <td rowspan="1" colspan="1">7.1 (1.03)</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">R-meas</td>
+    <td rowspan="1" colspan="1">0.23</td>
+    <td rowspan="1" colspan="1">0.19</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">CC1/2</td>
+    <td rowspan="1" colspan="1">99.7 (42.1)</td>
+    <td rowspan="1" colspan="1">99.2 (43.9)</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">R-work</td>
+    <td rowspan="1" colspan="1">0.209</td>
+    <td rowspan="1" colspan="1">0.23</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">R-free</td>
+    <td rowspan="1" colspan="1">0.282</td>
+    <td rowspan="1" colspan="1">0.29</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Number of non-hydrogen atoms</td>
+    <td rowspan="1" colspan="1">10678</td>
+    <td rowspan="1" colspan="1">10418</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">RMSD bonds (Å)</td>
+    <td rowspan="1" colspan="1">0.003</td>
+    <td rowspan="1" colspan="1">0.011</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">RMSD angles (°)</td>
+    <td rowspan="1" colspan="1">1.011</td>
+    <td rowspan="1" colspan="1">1.258</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Ramachandran favored (%)</td>
+    <td rowspan="1" colspan="1">94.77</td>
+    <td rowspan="1" colspan="1">95.3</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">Average B-factor (Å
+     <sup>2</sup>)
+    </td>
+    <td rowspan="1" colspan="1">89.66</td>
+    <td rowspan="1" colspan="1">80.67</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="T1TFN1">
+   <p>Statistics for the highest-resolution shell are shown in parentheses.</p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The accuracy of the EKF fusion algorithm using first-order Taylor expansion depends on the target state dynamic model and the previous state estimation. If 
+ <inline-formula>
+  <math id="mm111">
+   <mrow>
+    <mrow>
+     <mi>x</mi>
+     <mo>−</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is sufficiently small, the output of the system is the optimal solution.
+</p>

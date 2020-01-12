@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For a more detailed study of the band structure, transport and topological properties, a tight-binding Hamiltonian was obtained using the Wannier90 software package [
+ <xref rid="B62-materials-12-02710" ref-type="bibr">62</xref>], which includes the highest s- and d-states of transition metals and s- and p-states of silicon. Wannier interpolation [
+ <xref rid="B62-materials-12-02710" ref-type="bibr">62</xref>] was used for plotting constant energy surfaces on a 50 × 50 × 50 
+ <italic>k</italic>-point grid. The visualization of Fermi surfaces and crystal structure was made in XCrySDen [
+ <xref rid="B63-materials-12-02710" ref-type="bibr">63</xref>]. Using a tight-binding Hamiltonian, topological properties were calculated with the help of the Wannier Tools package [
+ <xref rid="B64-materials-12-02710" ref-type="bibr">64</xref>]. The Seebeck coefficient was calculated in BoltzWann program [
+ <xref rid="B62-materials-12-02710" ref-type="bibr">62</xref>] in constant relaxation time approximation, using Wannier interpolation on 192 × 192 × 192 
+ <italic>k</italic>-point grid.
+</p>

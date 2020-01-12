@@ -1,0 +1,604 @@
+{
+  "id": [
+    "31366883"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31366883"
+  ],
+  "pmcid": [
+    "PMC6668437"
+  ],
+  "doi": [
+    "10.1038/s41467-019-11393-5"
+  ],
+  "title": [
+    "Time-reversal symmetry breaking type-II Weyl state in YbMnBi2."
+  ],
+  "authorString": [
+    "Borisenko S, Evtushinsky D, Gibson Q, Yaresko A, Koepernik K, Kim T, Ali M, van den Brink J, Hoesch M, Fedorov A, Haubold E, Kushnirenko Y, Soldatov I, Schäfer R, Cava RJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Borisenko S"
+          ],
+          "firstName": [
+            "Sergey"
+          ],
+          "lastName": [
+            "Borisenko"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5046-4829",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany. S.Borisenko@ifw-dresden.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Evtushinsky D"
+          ],
+          "firstName": [
+            "Daniil"
+          ],
+          "lastName": [
+            "Evtushinsky"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Gibson Q"
+          ],
+          "firstName": [
+            "Quinn"
+          ],
+          "lastName": [
+            "Gibson"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "affiliation": [
+            "Department of Chemistry, Princeton University, Princeton, NJ, 08544, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Yaresko A"
+          ],
+          "firstName": [
+            "Alexander"
+          ],
+          "lastName": [
+            "Yaresko"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7256-6519",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Max-Planck-Institute for Solid State Research, Heisenbergstrasse 1, 70569, Stuttgart, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Koepernik K"
+          ],
+          "firstName": [
+            "Klaus"
+          ],
+          "lastName": [
+            "Koepernik"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Institute for Theoretical Solid State Physics, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Kim T"
+          ],
+          "firstName": [
+            "Timur"
+          ],
+          "lastName": [
+            "Kim"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4201-4462",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Diamond Light Source, Harwell Campus, Didcot, OX11 0DE, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Ali M"
+          ],
+          "firstName": [
+            "Mazhar"
+          ],
+          "lastName": [
+            "Ali"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1129-6105",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Chemistry, Princeton University, Princeton, NJ, 08544, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "van den Brink J"
+          ],
+          "firstName": [
+            "Jeroen"
+          ],
+          "lastName": [
+            "van den Brink"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute for Theoretical Solid State Physics, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Hoesch M"
+          ],
+          "firstName": [
+            "Moritz"
+          ],
+          "lastName": [
+            "Hoesch"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Diamond Light Source, Harwell Campus, Didcot, OX11 0DE, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Fedorov A"
+          ],
+          "firstName": [
+            "Alexander"
+          ],
+          "lastName": [
+            "Fedorov"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Haubold E"
+          ],
+          "firstName": [
+            "Erik"
+          ],
+          "lastName": [
+            "Haubold"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Kushnirenko Y"
+          ],
+          "firstName": [
+            "Yevhen"
+          ],
+          "lastName": [
+            "Kushnirenko"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7420-6488",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Soldatov I"
+          ],
+          "firstName": [
+            "Ivan"
+          ],
+          "lastName": [
+            "Soldatov"
+          ],
+          "initials": [
+            "I"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2911-1842",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Metallic Materials, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Schäfer R"
+          ],
+          "firstName": [
+            "Rudolf"
+          ],
+          "lastName": [
+            "Schäfer"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Institute for Metallic Materials, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Cava RJ"
+          ],
+          "firstName": [
+            "Robert J"
+          ],
+          "lastName": [
+            "Cava"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Department of Chemistry, Princeton University, Princeton, NJ, 08544, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-4201-4462",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1129-6105",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7256-6519",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7420-6488",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2911-1842",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5046-4829",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2833191"
+      ],
+      "dateOfPublication": [
+        "2019 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "3424"
+  ],
+  "abstractText": [
+    "Spectroscopic detection of Dirac and Weyl fermions in real materials is vital for both, promising applications and fundamental bridge between high-energy and condensed-matter physics. While the presence of Dirac and noncentrosymmetric Weyl fermions is well established in many materials, the magnetic Weyl semimetals still escape direct experimental detection. In order to find a time-reversal symmetry breaking Weyl state we design two materials and present here experimental and theoretical evidence of realization of such a state in one of them, YbMnBi2. We model the time-reversal symmetry breaking observed by magnetization and magneto-optical microscopy measurements by canted antiferromagnetism and find a number of Weyl points. Using angle-resolved photoemission, we directly observe two pairs of Weyl points connected by the Fermi arcs. Our results not only provide a fundamental link between the two areas of physics, but also demonstrate the practical way to design novel materials with exotic properties."
+  ],
+  "affiliation": [
+    "Institute for Solid State Research, Leibniz IFW Dresden, Helmholtzstr. 20, 01069, Dresden, Germany. S.Borisenko@ifw-dresden.de."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BO1912/7-1"
+          ],
+          "agency": [
+            "Deutsche Forschungsgemeinschaft (German Research Foundation)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-11393-5"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6668437"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6668437?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-08-02"
+  ],
+  "firstIndexDate": [
+    "2019-08-02"
+  ],
+  "fullTextReceivedDate": [
+    "2019-08-03"
+  ],
+  "dateOfRevision": [
+    "2019-09-23"
+  ],
+  "electronicPublicationDate": [
+    "2019-07-31"
+  ],
+  "firstPublicationDate": [
+    "2019-07-31"
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0055">The geometry optimizations were performed using the standard bulk-optimized DZP basis set, with energy shift parameter set to 100 meV and split norm set to 0.25. The constant-current STM images were produced based on the Tersoff-Hamann approximation [
+ <xref rid="bib7" ref-type="bibr">7</xref>] using the eigenvalues and eigenfunctions of the Kohn-Sham equation [
+ <xref rid="bib8" ref-type="bibr">8</xref>] for a relaxed atomic structure. For this purpose we performed additional SCF-calculation using the relaxed atomic structure and the surface optimized basis set (cut-off radii for s-, p-, and d-orbitals are Rs = 9 Bohr, Rpd = 11 Bohr for Si) [
+ <xref rid="bib10" ref-type="bibr">10</xref>]. The resulting local density of electronic states (LDOS) files were used to produce the calculated STM images in the WSxM software [
+ <xref rid="bib9" ref-type="bibr">9</xref>].
+</p>

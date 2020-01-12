@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0420">The series for the transition rate constant, which corresponds to the Green's function series (
+ <xref rid="fd50" ref-type="disp-formula">Eq. (50)</xref>), according to relationship 
+ <xref rid="fd60" ref-type="disp-formula">(60)</xref> has a small parameter
+ <disp-formula id="fd65">
+  <label>(65)</label>
+  <math id="M222" altimg="si178.svg" alttext="Equation 65.">
+   <mrow>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mover accent="true">
+             <mi>m</mi>
+             <mo>¯</mo>
+            </mover>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mi>ℏ</mi>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mi>ι</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mo linebreak="badbreak">&lt;</mo>
+    <mn>1</mn>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M223" altimg="si179.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>m</mi>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the distribution function of Planck.
+ <xref rid="fn12" ref-type="fn">12</xref> Therefore, in our problem for 
+ <inline-formula>
+  <math id="M224" altimg="si180.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mtext>B</mtext>
+     </mrow>
+    </msub>
+    <mi>T</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">&gt;</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, as a small parameter, we have
+ <disp-formula id="fd66">
+  <label>(66)</label>
+  <math id="M225" altimg="si181.svg" alttext="Equation 66.">
+   <mrow>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>k</mi>
+           </mrow>
+           <mrow>
+            <mtext>B</mtext>
+           </mrow>
+          </msub>
+          <mi>T</mi>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mo linebreak="badbreak">&lt;</mo>
+    <mn>1</mn>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

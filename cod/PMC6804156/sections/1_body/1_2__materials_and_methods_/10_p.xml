@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Quantum efficiency (QE) values were obtained by measuring emission spectrum of BaSO
+ <sub>4</sub> sample (99% Sigma-Aldrich) in integration sphere coated with Teflon. Samples were excited at 260, 393.5, and 464.5 nm. The step width and integration time was 0.5 nm and 0.4 s, respectively. Measurements were repeated three times for each phosphor sample. The QE values were calculated from equation 1 [
+ <xref rid="B17-materials-12-03275" ref-type="bibr">17</xref>]:
+ <disp-formula id="FD1-materials-12-03275">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mi>Q</mi>
+     <mi>E</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <msub>
+           <mi>I</mi>
+           <mrow>
+            <mi>e</mi>
+            <mi>m</mi>
+            <mo>,</mo>
+            <mo> </mo>
+            <mi>s</mi>
+            <mi>a</mi>
+            <mi>m</mi>
+            <mi>p</mi>
+            <mi>l</mi>
+            <mi>e</mi>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <mstyle displaystyle="true">
+           <mrow>
+            <mo>∫</mo>
+            <mrow>
+             <msub>
+              <mi>I</mi>
+              <mrow>
+               <mi>e</mi>
+               <mi>m</mi>
+               <mo>,</mo>
+               <mo> </mo>
+               <mi>B</mi>
+               <mi>a</mi>
+               <mi>S</mi>
+               <msub>
+                <mi>O</mi>
+                <mn>4</mn>
+               </msub>
+              </mrow>
+             </msub>
+            </mrow>
+           </mrow>
+          </mstyle>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+      <mrow>
+       <mstyle displaystyle="true">
+        <mrow>
+         <mo>∫</mo>
+         <mrow>
+          <msub>
+           <mi>I</mi>
+           <mrow>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>f</mi>
+            <mo>,</mo>
+            <mo> </mo>
+            <mi>B</mi>
+            <mi>a</mi>
+            <mi>S</mi>
+            <msub>
+             <mi>O</mi>
+             <mn>4</mn>
+            </msub>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <mstyle displaystyle="true">
+           <mrow>
+            <mo>∫</mo>
+            <mrow>
+             <msub>
+              <mi>I</mi>
+              <mrow>
+               <mi>r</mi>
+               <mi>e</mi>
+               <mi>f</mi>
+               <mo>,</mo>
+               <mo> </mo>
+               <mi>s</mi>
+               <mi>a</mi>
+               <mi>m</mi>
+               <mi>p</mi>
+               <mi>l</mi>
+               <mi>e</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </mrow>
+          </mstyle>
+         </mrow>
+        </mrow>
+       </mstyle>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+     <mo>%</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>m</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mrow>
+         <mi>a</mi>
+         <mi>b</mi>
+         <mi>s</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+     <mo>%</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

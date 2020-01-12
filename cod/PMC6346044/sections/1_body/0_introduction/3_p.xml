@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par4">Our preliminary MMC simulations of the eutectic NaK alloy gave the thermal behavior of the enthalpy and the mass density along a computational procedure that annealed the system spanning high-to-low temperatures
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>. Now we analayze the thermodynamic parameters (structure, enthalpy, system volume) exhaustively from the MMC atomistic simulations with the goal of neatly identifying the liquid, crystalline, and amorphous phases that develop along the annealing process. An independent machine learning analysis using exclusively the atomic Cartesian coordinates obtained in the simulation runs is undertaken with the goal of verifying the identification of the three condensed phases predicted by the simulation. Our machine learning strategy is based on topological parameters determined by Voronoi-tessellating
+ <sup>
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup> the 3D space occupied by the atoms inside the computational box. The Voronoi tessellation has been utilized for identifying topological characteristics of liquids
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>–
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>, glasses
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>,
+  <xref ref-type="bibr" rid="CR21">21</xref>,
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>, zeolites
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>, clusters
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>, among several others.
+</p>

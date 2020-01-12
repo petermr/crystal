@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">By pursuing above mathematical procedures and substituting 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M75">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Psi }}}_{g}(r,{\rm{\Phi }})$$\end{document}</tex-math>
+   <math id="M76">
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>g</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo>,</mo>
+    <mi mathvariant="normal">Φ</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, we obtained the following equations for general central potentials.
+ <disp-formula id="Equ16">
+  <label>16</label>
+  <alternatives>
+   <tex-math id="M77">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(U{(r)}^{2}-{M}_{1}^{2}){{\rm{\Psi }}}^{+}(r)+2({M}_{1}\frac{j}{r}+U(r)\frac{d}{dr}){{\rm{\Psi }}}_{0}(r)=0$$\end{document}</tex-math>
+   <math id="M78" display="block">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <msubsup>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>+</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <mn>2</mn>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mi>j</mi>
+       <mi>r</mi>
+      </mfrac>
+      <mo>+</mo>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+      <mfrac>
+       <mi>d</mi>
+       <mrow>
+        <mi>d</mi>
+        <mi>r</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ16.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ17">
+  <label>17</label>
+  <alternatives>
+   <tex-math id="M79">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(U{(r)}^{2}-{M}_{1}^{2}){{\rm{\Psi }}}^{-}(r)+2(U(r)\frac{j}{r}+{M}_{1}\frac{d}{dr}){{\rm{\Psi }}}_{0}(r)=0$$\end{document}</tex-math>
+   <math id="M80" display="block">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <msubsup>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>−</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <mn>2</mn>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+      <mfrac>
+       <mi>j</mi>
+       <mi>r</mi>
+      </mfrac>
+      <mo>+</mo>
+      <msub>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mi>d</mi>
+       <mrow>
+        <mi>d</mi>
+        <mi>r</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ17.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ18">
+  <label>18</label>
+  <alternatives>
+   <tex-math id="M81">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(U{(r)}^{2}-{M}_{2}^{2}){{\rm{\Psi }}}_{0}(r)+2({M}_{2}\frac{j}{r}){{\rm{\Psi }}}^{-}(r)-2{M}_{2}\frac{d}{dr}{{\rm{\Psi }}}^{+}(r)=0$$\end{document}</tex-math>
+   <math id="M82" display="block">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <msubsup>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <mn>2</mn>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mi>j</mi>
+       <mi>r</mi>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>−</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>−</mo>
+    <mn>2</mn>
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mfrac>
+     <mi>d</mi>
+     <mrow>
+      <mi>d</mi>
+      <mi>r</mi>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>+</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ18.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ19">
+  <label>19</label>
+  <alternatives>
+   <tex-math id="M83">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(U{(r)}^{2}-{M}_{2}^{2}){{\rm{\Psi }}}_{0}(r)+2(U(r)\frac{j}{r}){{\rm{\Psi }}}^{-}(r)-2U(r)\frac{d}{dr}{{\rm{\Psi }}}^{+}(r)=0$$\end{document}</tex-math>
+   <math id="M84" display="block">
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>−</mo>
+      <msubsup>
+       <mrow>
+        <mi>M</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mi>r</mi>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <mn>2</mn>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>U</mi>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+      <mfrac>
+       <mi>j</mi>
+       <mi>r</mi>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>−</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>−</mo>
+    <mn>2</mn>
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mfrac>
+     <mi>d</mi>
+     <mrow>
+      <mi>d</mi>
+      <mi>r</mi>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>+</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ19.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M85">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${M}_{1}=\frac{Mc}{\hslash }$$\end{document}</tex-math>
+   <math id="M86">
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi>M</mi>
+      <mi>c</mi>
+     </mrow>
+     <mi>ℏ</mi>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M87">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${M}_{2}=\frac{{\rm{\Delta }}mc}{\hslash }$$\end{document}</tex-math>
+   <math id="M88">
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi mathvariant="normal">Δ</mi>
+      <mi>m</mi>
+      <mi>c</mi>
+     </mrow>
+     <mi>ℏ</mi>
+    </mfrac>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, and 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M89">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$U(r)=(\frac{w}{c}-i{V}_{t}(r))$$\end{document}</tex-math>
+   <math id="M90">
+    <mi>U</mi>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mi>w</mi>
+       <mi>c</mi>
+      </mfrac>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. From Eqs 
+ <xref rid="Equ16" ref-type="">16</xref> and 
+ <xref rid="Equ17" ref-type="">17</xref>, we rewrite 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M91">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Psi }}}^{+}(r)$$\end{document}</tex-math>
+   <math id="M92">
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>+</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq26">
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Psi }}}^{-}(r)$$\end{document}</tex-math>
+   <math id="M94">
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mo>−</mo>
+    </msup>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq26.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> in terms of 
+ <inline-formula id="IEq27">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Psi }}}_{0}(r)$$\end{document}</tex-math>
+   <math id="M96">
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi>r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45478_Article_IEq27.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+ <disp-formula id="Equc">
+  <alternatives>
+   <tex-math id="M97">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{{\rm{\Psi }}}^{+}(r) &amp; = &amp; -\frac{2}{(U{(r)}^{2}-{M}_{1}^{2})}({M}_{1}\frac{j}{r}+U(r)\frac{d}{dr}){{\rm{\Psi }}}_{0}(r),\\ {{\rm{\Psi }}}^{-}(r) &amp; = &amp; -\frac{2}{(U{(r)}^{2}-{M}_{1}^{2})}(U(r)\frac{j}{r}r+{M}_{1}\frac{d}{dr}){{\rm{\Psi }}}_{0}(r)\end{array}$$\end{document}</tex-math>
+   <math id="M98" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">Ψ</mi>
+         </mrow>
+         <mo>+</mo>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mfrac>
+         <mn>2</mn>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mrow>
+           <mi>U</mi>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>−</mo>
+           <msubsup>
+            <mrow>
+             <mi>M</mi>
+            </mrow>
+            <mrow>
+             <mn>1</mn>
+            </mrow>
+            <mrow>
+             <mn>2</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>M</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mfrac>
+           <mi>j</mi>
+           <mi>r</mi>
+          </mfrac>
+          <mo>+</mo>
+          <mi>U</mi>
+          <mo stretchy="false">(</mo>
+          <mi>r</mi>
+          <mo stretchy="false">)</mo>
+          <mfrac>
+           <mi>d</mi>
+           <mrow>
+            <mi>d</mi>
+            <mi>r</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">Ψ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mi>r</mi>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">Ψ</mi>
+         </mrow>
+         <mo>−</mo>
+        </msup>
+        <mo stretchy="false">(</mo>
+        <mi>r</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mfrac>
+         <mn>2</mn>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mrow>
+           <mi>U</mi>
+           <msup>
+            <mrow>
+             <mo stretchy="false">(</mo>
+             <mi>r</mi>
+             <mo stretchy="false">)</mo>
+            </mrow>
+            <mn>2</mn>
+           </msup>
+           <mo>−</mo>
+           <msubsup>
+            <mrow>
+             <mi>M</mi>
+            </mrow>
+            <mrow>
+             <mn>1</mn>
+            </mrow>
+            <mrow>
+             <mn>2</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>U</mi>
+          <mo stretchy="false">(</mo>
+          <mi>r</mi>
+          <mo stretchy="false">)</mo>
+          <mfrac>
+           <mi>j</mi>
+           <mi>r</mi>
+          </mfrac>
+          <mi>r</mi>
+          <mo>+</mo>
+          <msub>
+           <mrow>
+            <mi>M</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mfrac>
+           <mi>d</mi>
+           <mrow>
+            <mi>d</mi>
+            <mi>r</mi>
+           </mrow>
+          </mfrac>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">Ψ</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mi>r</mi>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equc.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<results title="compchem">
+ <result pre="the frameworks. In addition, we have analyzed the results from" exact="DFT" post="calculations to spot and correct errors in the structure"/>
+ <result pre="to achieve a robust and automated procedure to perform the" exact="DFT" post="modeling and the optimization. DFT-derived partial charges of the"/>
+ <result pre="of a single structure can be seen as a routine" exact="DFT" post="calculation, the optimization of over 300 hundred structures, including"/>
+ <result pre="COFs), and another set containing the structures that succeeded the" exact="DFT" post="optimization (&quot; CURATED DFT-optimized&quot;, 308 COFs). The whole design"/>
+ <result pre="after a visual inspection or a suspect failure in the" exact="DFT" post="optimization. Our database contains 324 CURATED structures from the"/>
+ <result pre="errors were found by warnings in the convergence of the" exact="DFT" post="optimization and subsequently manually corrected. It was therefore important"/>
+ <result pre="this detection and correction of typos. In three cases the" exact="DFT" post="calculation failed, and from visual inspection we observed unphysical"/>
+ <result pre="this would make the optimization even more CPU-intensive. For the" exact="DFT" post="optimization, it is important to mention that the unit"/>
+ <result pre="theory in a high-throughput context, informing our choice for the" exact="DFT" post="code. Therefore, our choice of the CP2K package is"/>
+ <result pre="choice for the DFT code. Therefore, our choice of the" exact="CP2K" post="package is motivated by its efficient DFT implementation, that"/>
+ <result pre="choice of the CP2K package is motivated by its efficient" exact="DFT" post="implementation, that exploits the mixed Gaussian and plane waves"/>
+ <result pre="motivated by its efficient DFT implementation, that exploits the mixed" exact="Gaussian" post="and plane waves (GPW) method based on pseudopotentials, and"/>
+ <result pre="OT method is not suited for structures with a vanishing" exact="DFT" post="gap, in the case of a final band gap"/>
+ <result pre="violates the collective knowledge of quantum chemistry. This either implies" exact="DFT" post="to have some severe inaccuracies in modeling the crystal"/>
+ <result pre="in the previous section, most of the problems in the" exact="DFT" post="optimization routine were solved after a careful inspection and"/>
+ <result pre="structures. The problems that could be effectively attributed to the" exact="DFT" post="implementation are related to only two structures: 18081N2 and"/>
+ <result pre="of the problem and reporting of the issue to the" exact="CP2K" post="developers. Given that more than 99% of the structures"/>
+ <result pre="99% of the structures in the database converged, our three-stage" exact="DFT" post="optimization routine is suitable for high-throughput calculations. For comparison,"/>
+ <result pre="for the band gap. Figure 5 shows the evolution of" exact="DFT" post="energy over our three-stage structure optimization workchain for two"/>
+ <result pre="on the Optimization Process of the 308 COFs that Succeeded" exact="DFT" post="Optimization 2D COFs 3D COFs all COFs number of"/>
+ <result pre="(red) structures. We can see that in many cases the" exact="DFT" post="optimization leads to lower density, corresponding to a shrinking"/>
+ <result pre="need to face more complex challenges, e.g., dealing with the" exact="DFT" post="modeling of transition metals, or tuning the standard force"/>
+ <result pre="that need to model more and more complex systems. Methods" exact="DFT" post="Calculations DFT calculations were performed using the Perdew–Burke–Ernzerhof (PBE)"/>
+ <result pre="to model more and more complex systems. Methods DFT Calculations" exact="DFT" post="calculations were performed using the Perdew–Burke–Ernzerhof (PBE) exchange-correlation functional"/>
+ <result pre="with DFT-D3(BJ) dispersion corrections. 40 The Quickstep code of the" exact="CP2K" post="package was used, 41 employing GTH pseudopotentials, 42 DZVP-MOLOPT-SR"/>
+ <result pre="package was used, 41 employing GTH pseudopotentials, 42 DZVP-MOLOPT-SR contracted" exact="Gaussian" post="basis sets, and an auxiliary plane wave basis set."/>
+ <result pre="to Prof. J. Hutter for the helpful discussions, to the" exact="CP2K" post="user forum, and to the AiiDA developers team for"/>
+ <result pre="Quickstep: fast and accurate density functional calculations using a mixed" exact="Gaussian" post="and plane waves approach . Comput. Phys. Commun. 2005,"/>
+ <result pre="128. 10.1016/j.cpc.2004.12.014 . Goedecker S. ; Teter M. Separable dual-space" exact="Gaussian" post="pseudopotentials. Phys. Rev. B: Condens. Matter Mater. Phys. 1996,"/>
+ <result pre="Condens. Matter Mater. Phys. 1996, 54, 1703– 1710. 10.1103/PhysRevB.54.1703 ." exact="CP2K" post="user manual . manual.cp2k.org/cp2k-5_1-branch/CP2K_INPUT/MOTION/MD.html (accessed April, 2019). Bussi G."/>
+</results>

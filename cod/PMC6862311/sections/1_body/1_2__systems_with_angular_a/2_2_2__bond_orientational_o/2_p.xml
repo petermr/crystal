@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To illustrate the simplest case of the BO order, let us consider a dense 2D system of particles, as shown in 
+ <xref ref-type="fig" rid="materials-12-03464-f003">Figure 3</xref>a. The local orientation of bonds at the spatial position 
+ <inline-formula>
+  <math id="mm47">
+   <mrow>
+    <mi mathvariant="bold-italic">r</mi>
+   </mrow>
+  </math>
+ </inline-formula> can be described by the angle 
+ <inline-formula>
+  <math id="mm48">
+   <mrow>
+    <mrow>
+     <mi>θ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> between the bond and some reference axis. If local 
+ <italic>n</italic>-fold rotational symmetry is present in the system, one can introduce the BO order parameters as Equation (3):
+ <disp-formula id="FD3-materials-12-03464">
+  <label>(3)</label>
+  <math id="mm49">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi mathvariant="normal">n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mo stretchy="false">〈</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+       <mi>θ</mi>
+       <mrow>
+        <mo>(</mo>
+        <mi mathvariant="bold-italic">r</mi>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mo stretchy="false">〉</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the brackets 〈…〉 indicate a coarse grain average [
+ <xref rid="B1-materials-12-03464" ref-type="bibr">1</xref>,
+ <xref rid="B32-materials-12-03464" ref-type="bibr">32</xref>]. In the case of the 
+ <italic>n</italic>-fold rotational symmetry, the average angle between the bonds is equal to 
+ <inline-formula>
+  <math id="mm51">
+   <mrow>
+    <mrow>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mo>/</mo>
+     <mi>n</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, so all exponential terms corresponding to different bonds in the coarse grain average will have the same phase and they will sum up constructively. In contrast, for a completely disordered system the angles between bonds are random, and the coarse grain average in Equation (3) will lead to a zero value of 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi mathvariant="normal">n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Thus, it is natural to combine the magnitude and the phase of the BO ordering field within the complex BO order parameter, see Equation (4):
+ <disp-formula id="FD4-materials-12-03464">
+  <label>(4)</label>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi mathvariant="normal">n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>ψ</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>n</mi>
+       <msub>
+        <mi>θ</mi>
+        <mi>n</mi>
+       </msub>
+       <mrow>
+        <mo>(</mo>
+        <mi mathvariant="bold-italic">r</mi>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> Here the value of 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <mn>0</mn>
+     <mo>≤</mo>
+     <msub>
+      <mi>ψ</mi>
+      <mi>n</mi>
+     </msub>
+     <mo>≤</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> determines the magnitude of the BO order, while the phase 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>θ</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> corresponds to the local orientation of the bond with respect to the reference axis.
+</p>

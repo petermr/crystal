@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The BooT-PCA method is based on the possibility to track a grain boundary observed as density variations in successive detector hit maps (see 
+ <xref ref-type="fig" rid="pone.0225041.g004">Fig 4</xref>), in order to extract the position and mass-to-charge ratio of the atoms in the specimen’s space that belong to this specific grain boundary. Because the commercially available software allows to routinely retrieve RGB (red-green-blue) detector hit maps, the input in BooT-PCA is a series of such images instead of the raw detector hits. BooT-PCA combines the 
+ <italic>boosting</italic> tracker and principal component analysis (PCA) for automatically extracting the spatial coordinates of grain boundaries. We show here how additional filters can be introduced if necessary, with an example of a filter based on the Hough transform. The general framework of BooT-PCA is laid out in the flowchart displayed in 
+ <xref ref-type="fig" rid="pone.0225041.g005">Fig 5</xref>.
+</p>

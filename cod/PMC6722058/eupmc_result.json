@@ -1,0 +1,378 @@
+{
+  "id": [
+    "31481712"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31481712"
+  ],
+  "pmcid": [
+    "PMC6722058"
+  ],
+  "doi": [
+    "10.1038/s41467-019-12031-w"
+  ],
+  "title": [
+    "A method for structure prediction of metal-ligand interfaces of hybrid nanoparticles."
+  ],
+  "authorString": [
+    "Malola S, Nieminen P, Pihlajamäki A, Hämäläinen J, Kärkkäinen T, Häkkinen H."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Malola S"
+          ],
+          "firstName": [
+            "Sami"
+          ],
+          "lastName": [
+            "Malola"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Physics, Nanoscience Center, University of Jyväskylä, FI-40014, Jyväskylä, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Nieminen P"
+          ],
+          "firstName": [
+            "Paavo"
+          ],
+          "lastName": [
+            "Nieminen"
+          ],
+          "initials": [
+            "P"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3581-3736",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Faculty of Information Technology, University of Jyväskylä, FI-40014, Jyväskylä, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Pihlajamäki A"
+          ],
+          "firstName": [
+            "Antti"
+          ],
+          "lastName": [
+            "Pihlajamäki"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Physics, Nanoscience Center, University of Jyväskylä, FI-40014, Jyväskylä, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Hämäläinen J"
+          ],
+          "firstName": [
+            "Joonas"
+          ],
+          "lastName": [
+            "Hämäläinen"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Faculty of Information Technology, University of Jyväskylä, FI-40014, Jyväskylä, Finland."
+          ]
+        },
+        {
+          "fullName": [
+            "Kärkkäinen T"
+          ],
+          "firstName": [
+            "Tommi"
+          ],
+          "lastName": [
+            "Kärkkäinen"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Faculty of Information Technology, University of Jyväskylä, FI-40014, Jyväskylä, Finland. tommi.karkkainen@jyu.fi."
+          ]
+        },
+        {
+          "fullName": [
+            "Häkkinen H"
+          ],
+          "firstName": [
+            "Hannu"
+          ],
+          "lastName": [
+            "Häkkinen"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8558-5436",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physics, Nanoscience Center, University of Jyväskylä, FI-40014, Jyväskylä, Finland. hannu.j.hakkinen@jyu.fi."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3581-3736",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8558-5436",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2853973"
+      ],
+      "dateOfPublication": [
+        "2019 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "3973"
+  ],
+  "abstractText": [
+    "Hybrid metal nanoparticles, consisting of a nano-crystalline metal core and a protecting shell of organic ligand molecules, have applications in diverse areas such as biolabeling, catalysis, nanomedicine, and solar energy. Despite a rapidly growing database of experimentally determined atom-precise nanoparticle structures and their properties, there has been no successful, systematic way to predict the atomistic structure of the metal-ligand interface. Here, we devise and validate a general method to predict the structure of the metal-ligand interface of ligand-stabilized gold and silver nanoparticles, based on information about local chemical environments of atoms in experimental data. In addition to predicting realistic interface structures, our method is useful for investigations on the steric effects at the metal-ligand interface, as well as for predicting isomers and intermediate structures induced by thermal dynamics or interactions with the environment. Our method is applicable to other hybrid nanomaterials once a suitable set of reference structures is available."
+  ],
+  "affiliation": [
+    "Department of Physics, Nanoscience Center, University of Jyväskylä, FI-40014, Jyväskylä, Finland."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-12031-w"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6722058"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6722058?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-09-05"
+  ],
+  "firstIndexDate": [
+    "2019-09-05"
+  ],
+  "fullTextReceivedDate": [
+    "2019-09-07"
+  ],
+  "dateOfRevision": [
+    "2019-09-23"
+  ],
+  "electronicPublicationDate": [
+    "2019-09-03"
+  ],
+  "firstPublicationDate": [
+    "2019-09-03"
+  ]
+}

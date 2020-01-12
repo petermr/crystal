@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The total and partial phonon density of states (pDOS) of β-SiB
+ <sub>3</sub> and of the most stable configurations of α-SiB
+ <sub>2.5</sub> (as derived from the CE method) were obtained at the level of the harmonic approximation using the finite-displacement method, as implemented in the PHONOPY package for phonon calculations.
+ <sup>
+  <xref ref-type="bibr" rid="ref64">64</xref>,
+  <xref ref-type="bibr" rid="ref65">65</xref>
+ </sup> Force constants were calculated within 2 × 2 × 2 orthorhombic (triclinic) primitive unit cells using the Parlinski–Li–Kawazoe method with an atomic displacement of 0.01 Å.
+ <sup>
+  <xref ref-type="bibr" rid="ref66">66</xref>
+ </sup> To ensure the convergence of the phonon calculations, the supercells of α-SiB
+ <sub>2.5</sub> and β-SiB
+ <sub>3</sub> were fully relaxed so that the total forces acting on each atom within the supercells were less than 10
+ <sup>
+  <italic>–</italic>6
+ </sup> eV/Å. A 35 × 35 × 35 Monkhorst–Pack 
+ <italic>k</italic>-point grid was used to sample the supercells for deriving the phonon frequencies and vibrational free energy as a function of temperature.
+</p>

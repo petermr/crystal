@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All the first principle calculations were performed in the framework of density functional theory (DFT) with the projector-augmented wave method under the periodic boundary conditions described in VASP [
+ <xref rid="B12-materials-12-03612" ref-type="bibr">12</xref>]. The exchange–correction functional was described with a generalized gradient approximation (GGA). Considering the van der Waals interaction between the two layers, we adopted an optB88-vdW functional to correctly describe the van der Waals interactions [
+ <xref rid="B13-materials-12-03612" ref-type="bibr">13</xref>]. The kinetic energy cutoff for the plane-wave basis was set to 600 eV. The Γ-point centered Monkhorst–Pack k-mesh of 5 × 15 × 15, which included 192 irreducible k-points in the first irreducible Brillouin zone, was used for the structural relaxation and energy calculations. The convergence criteria for the atomic force and the total energy were 10
+ <sup>−3</sup> eV/Å and 10
+ <sup>−6</sup> eV, respectively. The primitive structure was fully relaxed at zero pressure to gain the optimized structure. With the same optimization approach, the hydrostatic pressure was applied to the optimized structure at zero pressure and obtained the fully relaxed structure at the certain pressure. To outline the evolution of structural features in the pressure-induced structural phase transition, the hydrostatic pressure was gradually applied to 50 GPa. Using the standard strain–stress method [
+ <xref rid="B14-materials-12-03612" ref-type="bibr">14</xref>], the elastic constants of GeSe were obtained in the same computational program, VASP.
+</p>

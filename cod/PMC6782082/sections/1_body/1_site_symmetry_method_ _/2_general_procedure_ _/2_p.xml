@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The site-symmetry approach establishes the symmetry relations between the crystal extended states induced by localized states of some of the constituent structural units. The procedure for the determination of such a relationship is very useful, as it allows the prediction of the symmetry of the possible extended states starting from the crystal structural data. This task requires the derivation of the irreps of a space group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> at any point in reciprocal space (which classify the extended states of the structure) induced by the irreps of the site-symmetry group of a Wyckoff position (according to which localized states are classified). In group-theoretical terms, the procedure relating localized and extended crystalline states can be described by induction of a representation of a space group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> from the irreps of a finite subgroup 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, followed by its reduction into irreps of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. In other words, the induction method permits the calculation of the symmetry of the compatible extended states transforming according to irreps of crystal space group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> induced by a localized state described by an irrep of the local or site-symmetry group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> = 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. The induction procedure can be applied to any group–subgroup pair 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi8.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, but in the site-symmetry approach, as its name suggests, a site-symmetry group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> is taken as the subgroup of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. The calculation of the space-group irreps induced by the irreps of a site-symmetry group is not straightforward, because the site-symmetry group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> (isomorphic with a point group) is a subgroup of infinite index of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. This implies that the representation of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> induced by an irrep of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi7.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> must be of infinite dimension and therefore difficult to calculate directly. This problem is solved by applying the ‘Frobenius reciprocity theorem’ (Serre, 1977
+ <xref ref-type="bibr" rid="bb40"> ▸</xref>), which states that the multiplicities of the irreps of a group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> in the induced representation from an irrep of a subgroup 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> can be determined from the multiplicities of the irreps of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> in the representations subduced from 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> to 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>. Therefore, the site-symmetry method is based on subduction and induction, two basic concepts of representation theory, and on the Frobenius reciprocity theorem.
+</p>

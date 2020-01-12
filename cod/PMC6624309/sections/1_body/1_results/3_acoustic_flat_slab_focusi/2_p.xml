@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Using the 2π range phase shifts for reflected waves, we can design different metamaterials to achieve the wavefront manipulation with the combination of the generalized Snell’s law:
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k[\sin ({\theta }_{r})-\,\sin ({\theta }_{i})]=\frac{1}{{n}_{i}}\frac{d\varphi }{dy},$$\end{document}</tex-math>
+   <math id="M34" display="block">
+    <mi>k</mi>
+    <mo stretchy="false">[</mo>
+    <mi>sin</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>−</mo>
+    <mspace width=".25em"/>
+    <mi>sin</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo stretchy="false">]</mo>
+    <mo>=</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>n</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mfrac>
+     <mrow>
+      <mi>d</mi>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>y</mi>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_46467_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$k=2\pi /\lambda $$\end{document}</tex-math>
+   <math id="M36">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+    <mi>π</mi>
+    <mo>/</mo>
+    <mi>λ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the wave vector in the background medium (water), 
+ <italic>θ</italic>
+ <sub>
+  <italic>r</italic>
+ </sub>(
+ <italic>θ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>) is the angle of reflection (incidence), 
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the refractive indices of the media, and 
+ <italic>dϕ</italic>/
+ <italic>dy</italic> is the phase shift per unit distance along the y direction. When the plane wave is normally incident on the metamaterials, Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) can be rewritten as:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\theta }_{r}=\arcsin (\frac{\lambda }{2\pi {n}_{i}}\frac{d\varphi }{dy}).$$\end{document}</tex-math>
+   <math id="M38" display="block">
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mi>r</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mi>arcsin</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mi>λ</mi>
+       <mrow>
+        <mn>2</mn>
+        <mi>π</mi>
+        <msub>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>φ</mi>
+       </mrow>
+       <mrow>
+        <mi>d</mi>
+        <mi>y</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_46467_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>Equation (
+ <xref rid="Equ4" ref-type="">4</xref>) demonstrates that the reflected angle can be freely controlled by designing the appropriate phase profile along the y direction.
+</p>

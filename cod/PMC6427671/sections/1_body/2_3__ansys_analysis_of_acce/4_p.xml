@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="sec" rid="sec2-sensors-19-01052">Section 2</xref> indicates the acceleration-induced effect on pressure sensor theoretically. In general, insulation pads and the sensor body of sensors have an insignificant influence on acceleration-induced effects; the diaphragm of sensor is therefore considered when building an ANSYS simulation for the sensor [
+ <xref rid="B15-sensors-19-01052" ref-type="bibr">15</xref>,
+ <xref rid="B16-sensors-19-01052" ref-type="bibr">16</xref>]. Since the effect of the diaphragm on the quartz crystal can be equivalent to a pressure, we choose only quartz crystal for building the model. The model radius was 9 mm and the thickness was 1 mm, as shown in 
+ <xref ref-type="fig" rid="sensors-19-01052-f003">Figure 3</xref>. The finite element type of the model was selected as Solid 5.
+</p>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the THz radar system, the nonlinearities of 
+ <inline-formula>
+  <math id="mm52">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are not the same, and the phase term 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>ξ</mi>
+      <mrow>
+       <mi>R</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>τ</mi>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> will deteriorate the system performance even if the time delay 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is small enough to be neglected. The existence of 
+ <inline-formula>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> brings an error to the interferometric phase in Equations (10) and (11), which will lead to coordinates location error even phase wrapping in the InISAR imaging results.
+</p>

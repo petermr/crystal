@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">In the case of the Coulomb-type point defect the recovery of the 3D displacement-field function 
+ <inline-formula id="IEq55">
+  <alternatives>
+   <tex-math id="M137">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M138">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq55.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> has been obtained. With certain limitations on a class of the searched functions 
+ <inline-formula id="IEq56">
+  <alternatives>
+   <tex-math id="M139">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M140">
+    <mi>f</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq56.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> specified in both the analytical and numerical forms, the iterative SA and qNGD algorithm codes 
+ <italic>in use</italic> work well even for the one XRDT 2D projection.
+</p>

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The structural evolution of LiAl
+ <sub>2</sub>(OH)
+ <sub>6</sub>Cl was studied by AIMD simulations at simulated temperatures ranging from 300 K to 1400 K with an increment of 50 K. To monitor the changes of the structure with increasing temperature, we calculated the pair distribution function (PDF), 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which gives the probability of finding a 
+ <italic>j</italic>-type atom at a distance, 
+ <italic>r</italic>, from an 
+ <italic>i</italic>-type atom [
+ <xref rid="B24-molecules-24-02667" ref-type="bibr">24</xref>,
+ <xref rid="B25-molecules-24-02667" ref-type="bibr">25</xref>]. The 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is defined as: 
+ <disp-formula id="FD1-molecules-24-02667">
+  <label>(1)</label>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mi>V</mi>
+      <mrow>
+       <mn>4</mn>
+       <mi>π</mi>
+       <msup>
+        <mi>r</mi>
+        <mn>2</mn>
+       </msup>
+       <msub>
+        <mi>N</mi>
+        <mi>i</mi>
+       </msub>
+       <msub>
+        <mi>N</mi>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <msubsup>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </msubsup>
+     <msubsup>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>j</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>N</mi>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+     </msubsup>
+     <mi>δ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>r</mi>
+        <mrow>
+         <mi>i</mi>
+         <mi>j</mi>
+        </mrow>
+       </msub>
+       <mo>−</mo>
+       <mi>r</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>V</italic> is the volume of the system, and 
+ <italic>N</italic>
+ <sub>i</sub> and 
+ <italic>N</italic>
+ <sub>j</sub> are the numbers of the 
+ <italic>i</italic>-type and 
+ <italic>j</italic>-type atoms, respectively. 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the length of a vector connecting atom 
+ <italic>i</italic> and atom 
+ <italic>j</italic>. 
+ <xref ref-type="fig" rid="molecules-24-02667-f003">Figure 3</xref> shows the PDF of Li–O and Al–O at various temperatures. The three relatively sharp peaks for both 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>i</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>l</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at 400 K correspond to the atomic distances between the nearest, second, and third nearest neighbors of O atoms around Li and Al, respectively, in LiAl
+ <sub>2</sub>(OH)
+ <sub>6</sub>Cl, as expected. All three peaks of both 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>i</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>l</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> get broader in peak width and lower in intensity with increasing temperature, indicating that the Li–O and Al–O interactions become weaker at high temperatures. Due to the lower charge of Li compared to Al, the changes for 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>i</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are much larger than for 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>l</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. For 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>l</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the peak positions remain nearly unchanged in our simulations. In contrast, the situation is different for 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>i</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where the Li–O distance of around ~2.0 Å, indicated by the first peak contracts slightly with the increase of the temperature (
+ <xref ref-type="fig" rid="molecules-24-02667-f003">Figure 3</xref>a). It is worth mentioning that in the 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>g</mi>
+      <mrow>
+       <mi>L</mi>
+       <mi>i</mi>
+       <mi>O</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> curve at 400 K, the first, second, and third nearest neighbor Li–O distances are still well defined, whereas at higher temperatures, the peaks are smeared out, indicating a higher dynamics of the Li atoms. This demonstrates that octahedral coordination around the Li atoms is not regular any more above 600 K. A similar situation was found in experiments by Hou and Kirkpatrick [
+ <xref rid="B23-molecules-24-02667" ref-type="bibr">23</xref>], where the decomposition of LiAl-LDH began at temperatures slightly below 573 K.
+</p>

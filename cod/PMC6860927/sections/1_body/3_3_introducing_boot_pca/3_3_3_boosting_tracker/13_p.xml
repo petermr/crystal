@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When the weak classifier 
+ <italic>h</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> and its corresponding weight are received, 
+ <italic>boosting</italic> choose a parameter 
+ <italic>α</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> (as shown in the pseudocode) to measure the importance that is assigned to 
+ <italic>h</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>. It is noteworthy that 
+ <italic>α</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> gets larger as 
+ <italic>ϵ</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> gets smaller. The distribution 
+ <italic>D</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> is then updated using the rule shown in the pseudocode. The aim of this procedure is to increase the weight of misclassified examples (by 
+ <italic>h</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>), and to decrease the weight of correctly classified examples. In such a way, the hard examples are gaining more weight from the learner. The final hypothesis H is calculated as a weighted majority of the T weak classifiers where 
+ <italic>α</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> is the weight assigned to 
+ <italic>h</italic>
+ <sub>
+  <italic>t</italic>
+ </sub>.
+</p>

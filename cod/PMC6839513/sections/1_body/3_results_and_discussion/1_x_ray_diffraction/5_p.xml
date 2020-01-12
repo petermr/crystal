@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Knowing the unit cell dimensions gives some insight on the new phase, but no molecular or atomic arrangement can be derived. In a single crystal X-ray diffraction experiment, the next step would be extracting all the intensities of Bragg reflections accessible from the experiment (integration). In principle this can be done on GIXD data too. However, the data quality in comparison to single crystal results is still low, as the diffracting volume is small. Together with the decrease in intensity at large scattering vectors (
+ <italic>q</italic>) due to polarization and area factor effects, this makes the extraction very uncertain. Furthermore, the number of quality peaks is low, about 20 in our case. Note that this does not allow using any of the standard procedures typically at hand for single crystal determination; as a rule of thumb the number of peaks required should be five times the number of atoms, which in our case would mean at least 100 high quality peaks. Therefore, we joined experimental and computational approaches to derive the packing information of 
+ <bold>form II</bold>.
+</p>

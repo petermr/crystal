@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Displays using patterned red-green-blue emitters without color filters can realize excellent color purity and a wider color reproduction range with higher emission efficiencies compared to those exploiting a white backlight passed through color filters.
+ <sup>
+  <xref ref-type="bibr" rid="ref1">1</xref>,
+  <xref ref-type="bibr" rid="ref2">2</xref>
+ </sup> In the former method, a blue light-emitting diode (LED) is used as a blue light source, and green- and red-emitting phosphors are excited by the blue light to obtain green and red colors, respectively. BT.2020, which is a next-generation color standard for 4/8 K broadcasting, has a significantly larger range in the green than the conventional color system BT.709.
+ <sup>
+  <xref ref-type="bibr" rid="ref3">3</xref>,
+  <xref ref-type="bibr" rid="ref4">4</xref>
+ </sup> To satisfy the BT.2020 standard, green-emitting phosphors with extremely high color purities are required for the green emitters in displays. Traditional lanthanide-doped green phosphors show photoluminescence (PL) from Tb
+ <sup>3+</sup> through 4f–4f transitions
+ <sup>
+  <xref ref-type="bibr" rid="ref5">5</xref>
+ </sup> and from Eu
+ <sup>2+</sup> and Ce
+ <sup>3+</sup> through 4f–5d transitions;
+ <sup>
+  <xref ref-type="bibr" rid="ref6">6</xref>,
+  <xref ref-type="bibr" rid="ref7">7</xref>
+ </sup> however, these phosphors cannot realize the required color purity because of their unnecessary PL peaks outside of the green region and broad PL peak widths. CdSe quantum dots (QDs) are the most commonly used nanophosphors that exhibit visible emission, including green emission,
+ <sup>
+  <xref ref-type="bibr" rid="ref8">8</xref>
+ </sup> although Cd is highly toxic; therefore, other visible-emitting QDs such as CuInS
+ <sub>2</sub> and InP have been identified as Cd-free alternative materials.
+ <sup>
+  <xref ref-type="bibr" rid="ref9">9</xref>−
+  <xref ref-type="bibr" rid="ref11">11</xref>
+ </sup> Green-emitting InP QDs are one of the candidates for application in wide color gamut displays; however, the full width at half-maximum (FWHM) of their green PL peak is ∼50 nm, which is too broad to satisfy the green range of the BT.2020 standard.
+ <sup>
+  <xref ref-type="bibr" rid="ref11">11</xref>
+ </sup>
+</p>

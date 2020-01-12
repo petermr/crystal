@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract>
+ <p>
+  <italic>Boosting</italic> is a family of supervised learning algorithm that convert a set of weak learners into a single strong one. It is popular in the field of object tracking, where its main purpose is to extract the position, motion, and trajectory from various features of interest within a sequence of video frames. A scientific application explored in this study is to combine the 
+  <italic>boosting</italic> tracker and the Hough transformation, followed by principal component analysis, to extract the location and trace of grain boundaries within atom probe data. Before the implementation of this method, these information could only be extracted manually, which is time-consuming and error-prone. The effectiveness of this method is demonstrated on an experimental dataset obtained from a pure aluminum bi-crystal and validated on simulated data. The information gained from this method can be combined with crystallographic information directly contained within the data, to fully define the grain boundary character to its 5 degrees of freedom at near-atomic resolution in three dimensions. It also enables local atomic compositional and geometric information, i.e. curvature, to be extracted directly at the interface.
+ </p>
+</abstract>

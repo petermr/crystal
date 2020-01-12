@@ -1,0 +1,382 @@
+{
+  "id": [
+    "31394760"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31394760"
+  ],
+  "pmcid": [
+    "PMC6720299"
+  ],
+  "doi": [
+    "10.3390/ma12162508"
+  ],
+  "title": [
+    "Shift of Creep Mechanism in Nanocrystalline NiAl Alloy."
+  ],
+  "authorString": [
+    "Sun Z, Liu B, He C, Xie L, Peng Q."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sun Z"
+          ],
+          "firstName": [
+            "Zhihui"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "affiliation": [
+            "School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Liu B"
+          ],
+          "firstName": [
+            "Baoshu"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+          ]
+        },
+        {
+          "fullName": [
+            "He C"
+          ],
+          "firstName": [
+            "Chenwei"
+          ],
+          "lastName": [
+            "He"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Reactor Engineering and safety research center, China nuclear power technology research institute Co., Shenzhen Ltd., Shenzhen 518031, China. hechenwei@cgnpc.com.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Xie L"
+          ],
+          "firstName": [
+            "Lu"
+          ],
+          "lastName": [
+            "Xie"
+          ],
+          "initials": [
+            "L"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0012-2927",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China. xielu@ustb.edu.cn."
+          ]
+        },
+        {
+          "fullName": [
+            "Peng Q"
+          ],
+          "firstName": [
+            "Qing"
+          ],
+          "lastName": [
+            "Peng"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8281-8636",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Nuclear Engineering and Radiological Sciences, University of Michigan, Ann Arbor, MI 48108, USA. qpeng.org@gmail.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8281-8636",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0012-2927",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "16"
+      ],
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2847291"
+      ],
+      "dateOfPublication": [
+        "2019 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Materials (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "medlineAbbreviation": [
+            "Materials (Basel)"
+          ],
+          "NLMid": [
+            "101555929"
+          ],
+          "ISSN": [
+            "1996-1944"
+          ],
+          "ESSN": [
+            "1996-1944"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "We have examined the effects of temperature, stress, and grain size on the creep process including creep strain, crystal structure, dislocations and diffusions of nanocrystalline NiAl alloy through molecular dynamics simulations. A smaller grain size accelerates the creep process due to the large volume fraction of grain boundaries. Higher temperatures and stress levels also speed up this process in terms of dislocation changes and atom diffusion. In both primary creep and steady-state creep stages, atomic diffusion at the grain boundary could be seen and the dislocation density increased gradually, indicating that the creep mechanism at these stages is Coble creep controlled by grain boundary diffusion while accompanied by dislocation nucleation. When the model enters the tertiary creep stage, it can be observed that the diffusion of atoms in the grain boundary and in the crystal and the dislocation density gradually decreases, implying that the creep mechanisms at this stage are Coble creep, controlled by grain boundary diffusion, and Nabarro-Herring creep, controlled by lattice diffusion."
+  ],
+  "affiliation": [
+    "School of Mechanical Engineering, University of Science and Technology Beijing, Beijing 100083, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "21703007"
+          ],
+          "agency": [
+            "National Natural Science Foundation of China"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "FRF-GF-18-011B"
+          ],
+          "agency": [
+            "Fundamental Research Funds for the Central Universities"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Molecular dynamics simulation",
+        "Nanocrystalline",
+        "Nial",
+        "Creep Mechanism"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/ma12162508"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6720299"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6720299?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-08-10"
+  ],
+  "firstIndexDate": [
+    "2019-08-10"
+  ],
+  "fullTextReceivedDate": [
+    "2019-11-06"
+  ],
+  "dateOfRevision": [
+    "2019-11-01"
+  ],
+  "electronicPublicationDate": [
+    "2019-08-07"
+  ],
+  "firstPublicationDate": [
+    "2019-08-07"
+  ]
+}

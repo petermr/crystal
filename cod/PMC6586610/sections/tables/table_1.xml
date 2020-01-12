@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Interaction energies for an exciton.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>n</th>
+    <th>j</th>
+    <th>E (eV)</th>
+    <th>Decay Time (ps)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="2">1</td>
+    <td>−1/2</td>
+    <td>(0.214 + i 0.214)</td>
+    <td>0.01</td>
+   </tr>
+   <tr>
+    <td>1/2</td>
+    <td>(0.214 − i 0.214)</td>
+    <td/>
+   </tr>
+   <tr>
+    <td rowspan="3">2</td>
+    <td>−1/2</td>
+    <td>(0.105 + i 0.105)</td>
+    <td>0.02</td>
+   </tr>
+   <tr>
+    <td>1/2</td>
+    <td>(0.105 − i 0.105)</td>
+    <td/>
+   </tr>
+   <tr>
+    <td>3/2</td>
+    <td>(0.370 − i 0.370)</td>
+    <td>0.005</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <p>(The masses of electron and hole (
+   <italic>m</italic>
+   <sub>1</sub> and 
+   <italic>m</italic>
+   <sub>2</sub>) are taken to be equal as 
+   <italic>m</italic>
+   <sub>1</sub> = 
+   <italic>m</italic>
+   <sub>2</sub> = 9.10938 × 10
+   <sup>−31</sup> kg).
+  </p>
+ </table-wrap-foot>
+</table-wrap>

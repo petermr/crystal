@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From 
+ <xref ref-type="fig" rid="sensors-19-04980-f006">Figure 6</xref>, we can see that the position of the intersection of the three circles is the position of the mobile node D. Assuming the coordinates as 
+ <inline-formula>
+  <math id="mm130">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo>,</mo>
+     <mi>z</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the coordinates of the reference nodes A, B, and C are 
+ <inline-formula>
+  <math id="mm131">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>y</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>z</mi>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>,</mo>
+     <mn>2</mn>
+     <mo>,</mo>
+     <mn>3</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. According to the Euclidean distance formula, the distance between the mobile node and the reference node is calculated as 
+ <disp-formula id="FD42-sensors-19-04980">
+  <label>(38)</label>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <msqrt>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>x</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>−</mo>
+         <mi>x</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>−</mo>
+         <mi>y</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>z</mi>
+          <mi>i</mi>
+         </msub>
+         <mo>−</mo>
+         <mi>z</mi>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

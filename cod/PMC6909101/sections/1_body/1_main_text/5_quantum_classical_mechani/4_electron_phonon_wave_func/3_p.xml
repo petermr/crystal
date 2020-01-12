@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0390">We recall that in the solution 
+ <inline-formula>
+  <math id="M189" altimg="si139.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fd50" ref-type="disp-formula">Eq. (50)</xref>) of the Dyson 
+ <xref rid="fd49" ref-type="disp-formula">Eq. (49)</xref> the Green's function 
+ <inline-formula>
+  <math id="M190" altimg="si140.svg">
+   <mrow>
+    <mi>G</mi>
+   </mrow>
+  </math>
+ </inline-formula> is determined by the Hamiltonian 
+ <xref rid="fd55" ref-type="disp-formula">(55)</xref> with the separating variables 
+ <inline-formula>
+  <math id="M191" altimg="si80.svg">
+   <mrow>
+    <mi mathvariant="bold">q</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M192" altimg="si51.svg">
+   <mrow>
+    <mi>p</mi>
+   </mrow>
+  </math>
+ </inline-formula>. So, in the Green's function 
+ <inline-formula>
+  <math id="M193" altimg="si139.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> it remains to find only the value of the total energy 
+ <inline-formula>
+  <math id="M194" altimg="si160.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> of the system. This energy is taken in the adiabatic approximation corresponding to the wave function 
+ <inline-formula>
+  <math id="M195" altimg="si161.svg">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mtext>BO</mtext>
+     </mrow>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula> (see Eqs. 
+ <xref rid="fd24" ref-type="disp-formula">(24)</xref> and 
+ <xref rid="fd42" ref-type="disp-formula">(40, 41, 42)</xref>). As a result, we obtain the wave function 
+ <xref rid="fd58" ref-type="disp-formula">(58)</xref>, where the Green's function 
+ <inline-formula>
+  <math id="M196" altimg="si162.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">=</mo>
+      <msubsup>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+       <mrow>
+        <mtext>BO</mtext>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is expressed in terms of 
+ <inline-formula>
+  <math id="M197" altimg="si163.svg">
+   <mrow>
+    <mi>G</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>G</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">=</mo>
+      <msubsup>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+       <mrow>
+        <mtext>BO</mtext>
+       </mrow>
+      </msubsup>
+      <mo>,</mo>
+      <mtext> </mtext>
+      <mi>i</mi>
+      <mi>γ</mi>
+      <mo linebreak="badbreak">→</mo>
+      <mn>0</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> as a series 
+ <xref rid="fd50" ref-type="disp-formula">(50)</xref>.
+</p>

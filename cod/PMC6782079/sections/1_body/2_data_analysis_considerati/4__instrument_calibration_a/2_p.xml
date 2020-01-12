@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A successful powder diffraction measurement relies on being able to measure the peak positions and intensities accurately and being able to model them to extract structural parameters. In a TOF diffractometer, a white beam is chosen by the speed and frequency of the bandwidth choppers. Combining Bragg’s law and de Broglie’s equation gives us
+ <disp-formula id="fd1">
+  <graphic xlink:href="j-52-01189-efd1.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where λ is the wavelength, 
+ <italic>m</italic> is the mass of a neutron, 
+ <italic>h</italic> is Planck’s constant, 
+ <italic>L</italic> is the total flight path, θ is the scattering angle and 
+ <italic>d</italic> is the interatomic spacing in the crystal structure. Therefore,
+ <disp-formula id="fd2">
+  <graphic xlink:href="j-52-01189-efd2.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where DIFC = 
+ <italic>KL</italic>sinθ and 
+ <italic>K</italic> = 2
+ <italic>m</italic>/
+ <italic>h</italic> = 505.554 µs m
+ <sup>−1</sup> Å
+ <sup>−1</sup>. Since the diffraction pattern collected in each individual pixel in a detector does not, in reasonable measurement time, detect enough neutrons for sufficient statistics for a Rietveld refinement, the process of time focusing is applied. This is done by applying corrections to the data on a per-pixel basis, before converting to 
+ <italic>d</italic> spacing and summing. Then the resulting spectrum is assigned an effective detector position, 2Θ, and secondary flight path, before being converted back to an effective TOF. This method of time focusing data is mathematically equivalent to the traditional method of multiplying the time of flight of the detector pixels with an offset value. Time focusing is necessary as Rietveld refinement programs (Rietveld, 1969
+ <xref ref-type="bibr" rid="bb34"> ▸</xref>) fit the data in TOF rather than 
+ <italic>d</italic> spacing. This results in the lining up of all the diffraction peaks in effective TOF. Previous studies have shown that failing to align the individual spectra well manifests as an unusual peak shape in the summed spectra (Olds 
+ <italic>et al.</italic>, 2018
+ <xref ref-type="bibr" rid="bb29"> ▸</xref>). Then the single summed spectrum is treated according to the equation scheme
+ <disp-formula id="fd3">
+  <graphic xlink:href="j-52-01189-efd3.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>Here the empty measurements can also be smoothed to eliminate noise from the low counts of the empty measurements. If needed, users can also measure the empty cans for a longer time as the science dictates. The denominator in this equation accounts for the instrument response (such as incident spectrum, correction for solid angle and detector efficiency 
+ <italic>etc</italic>.) and is determined using a vanadium rod of diameter 6.35 mm, measuring for several hours to collect appropriate statistics. Before summing, a multiple scattering and absorption correction is applied to the vanadium measurement (Mildner &amp; Carpenter, 1990
+ <xref ref-type="bibr" rid="bb24"> ▸</xref>). After time focusing, as described above, the Bragg peaks are stripped from the vanadium measurement, and a Butterworth low-pass filter for smoothing the data (Butterworth, 1930
+ <xref ref-type="bibr" rid="bb7"> ▸</xref>) is applied to decrease noise in the reduced data. Measurements for empty vanadium cans and the empty sample environment setting for the vanadium rod are also collected at the beginning of the cycle in the sample changer for the standard settings in Table 1
+ <xref ref-type="table" rid="table1"> ▸</xref>. For all other sample environments, the empty-can measurements are carried out prior to sample measurements. The data are automatically reduced according to this scheme as individual raw data files (
+ <italic>i.e.</italic> event files) are saved, but data can easily be combined or split after the measurement if the experiment requires it.
+</p>

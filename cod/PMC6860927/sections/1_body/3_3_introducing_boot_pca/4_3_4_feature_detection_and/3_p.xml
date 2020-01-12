@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As shown in 
+ <xref ref-type="fig" rid="pone.0225041.g007">Fig 7(b)</xref> we collect all points along the detected linear features (red-dotted lines) using Hough transform, then direct 3D reconstruction is performed. However, here, not every linear feature detected in the ROI is necessarily a section of the grain boundary trace. The strong patterning associated to the field evaporation of pure-Al results in several zone lines being present beside the grain boundary line in the tracking window. As a result, the direct reconstruction appears to be in disorder. On the other hand, zone lines have a different slope in comparison to the GB line. We can therefore improve the reconstruction process by implementing a slope-based filter, which discards the lines whose slopes are significantly different from that of the GB line (shown in 
+ <xref ref-type="fig" rid="pone.0225041.g007">Fig 7(d)</xref>). The filtered data is displayed in 
+ <xref ref-type="fig" rid="pone.0225041.g007">Fig 7(c)</xref>, and reveals a planar feature that corresponds to the GB itself.
+</p>

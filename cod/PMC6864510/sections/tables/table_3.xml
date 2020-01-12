@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="advs1307-tbl-0003" xml:lang="en" orientation="portrait" position="float">
+ <label>Table 3</label>
+ <caption>
+  <p>(Quasi‐) 2D perovskite–based LEDs and their performances</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <col align="left" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <col align="center" span="1"/>
+  <thead>
+   <tr style="border-bottom:solid 1px #000000">
+    <th align="left" rowspan="1" colspan="1">Year</th>
+    <th align="center" rowspan="1" colspan="1">Emitting material</th>
+    <th align="center" rowspan="1" colspan="1">Device structure</th>
+    <th align="center" rowspan="1" colspan="1">EL [nm]</th>
+    <th align="center" rowspan="1" colspan="1">EQE
+     <sub>max</sub> [%]
+    </th>
+    <th align="center" rowspan="1" colspan="1">CE
+     <sub>max</sub> [cd A
+     <sup>−1</sup>]
+    </th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>L</italic>
+     <sub>max</sub> [cd m
+     <sup>−2</sup>]
+    </th>
+    <th align="center" rowspan="1" colspan="1">Ref.</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">1994</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>PbI
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/EM/OXD7/Mg/Ag</td>
+    <td align="center" rowspan="1" colspan="1">520</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">10 000</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0118" ref-type="ref">118</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>PbBr
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Al/Ca</td>
+    <td align="center" rowspan="1" colspan="1">410</td>
+    <td align="center" rowspan="1" colspan="1">0.04</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0087" ref-type="ref">87</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>MA
+     <sub>4</sub>Pb
+     <sub>5</sub>I
+     <sub>16</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/TiO
+     <sub>2</sub>/EM/F8/MoO
+     <sub>3</sub>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">≈760</td>
+    <td align="center" rowspan="1" colspan="1">8.80</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">[qv: 15b]</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">(PBA)CsPbBr</td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Al
+    </td>
+    <td align="center" rowspan="1" colspan="1">491</td>
+    <td align="center" rowspan="1" colspan="1">0.015</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">186</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0119" ref-type="ref">119</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>(BA)
+      <sub>2</sub>(MA)
+      <sub>2</sub>Pb
+      <sub>3</sub>I
+      <sub>10</sub>
+     </p>
+     <p>(BA)
+      <sub>2</sub>(MA)
+      <sub>4</sub>Pb
+      <sub>5</sub>Br
+      <sub>16</sub>
+     </p>
+     <p>(BA)
+      <sub>2</sub>(MA)
+      <sub>2</sub>Pb
+      <sub>3</sub>Br
+      <sub>7</sub>Cl
+      <sub>3</sub>
+     </p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/poly‐TPD/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>700</p>
+     <p>523</p>
+     <p>468</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>2.29</p>
+     <p>1.01</p>
+     <p>0.01</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>0.10</p>
+     <p>3.48</p>
+     <p>0.006</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>214</p>
+     <p>2246</p>
+     <p>21</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0120" ref-type="ref">120</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>NFPI
+      <sub>7</sub>
+     </p>
+     <p>NFPI
+      <sub>6</sub>Br
+     </p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>786</p>
+     <p>763</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>9.60</p>
+     <p>11.70</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0121" ref-type="ref">121</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>MAPbBr
+      <sub>3</sub> (
+      <italic>n</italic> = 7–10)
+     </p>
+     <p>MAPbBr
+      <sub>3</sub> (
+      <italic>n</italic> = 5)
+     </p>
+     <p>MAPbBr
+      <sub>3</sub> (
+      <italic>n</italic> = 3)
+     </p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PVK/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>520</p>
+     <p>492</p>
+     <p>456</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>2.31</p>
+     <p>0.233</p>
+     <p>0.024</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>8.10</p>
+     <p>0.28</p>
+     <p>0.049</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>1115</p>
+     <p>8.5</p>
+     <p>≈1</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">[qv: 17b]</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>POEA (30%):MAPbBr
+      <sub>3</sub>
+     </p>
+     <p>POEA (10%):MAPbBr
+      <sub>3</sub>
+     </p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Ba/Al</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>506/520</p>
+     <p>524</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>2.82</p>
+     <p>0.31</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>8.23</p>
+     <p>1.21</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>64.2</p>
+     <p>2146.11</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0122" ref-type="ref">122</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">MAPbBr
+     <sub>3</sub>:(PEA)
+     <sub>2</sub>PbBr
+     <sub>4</sub> (1:6)
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/Buf‐HIL/EM/TPBi/Al</td>
+    <td align="center" rowspan="1" colspan="1">510–520</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">4.90</td>
+    <td align="center" rowspan="1" colspan="1">2935</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0123" ref-type="ref">123</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2016</td>
+    <td align="center" rowspan="1" colspan="1">(PMA)
+     <sub>2</sub>PbI
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/Bphen/Al</td>
+    <td align="center" rowspan="1" colspan="1">526</td>
+    <td align="center" rowspan="1" colspan="1">0.05</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">9</td>
+    <td align="center" rowspan="1" colspan="1">[qv: 89b]</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">NCPI
+     <sub>6</sub>Cl
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">689</td>
+    <td align="center" rowspan="1" colspan="1">3.70</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">440</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0124" ref-type="ref">124</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">(BA)
+     <sub>2</sub>(MA)
+     <sub>4</sub>Pb
+     <sub>5</sub>Br
+     <sub>16</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/BmPyPhB/Ba/Ag</td>
+    <td align="center" rowspan="1" colspan="1">515</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">3.3</td>
+    <td align="center" rowspan="1" colspan="1">1000</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0107" ref-type="ref">107</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">PEA
+     <sub>2</sub>MA
+     <sub>4</sub>Pb
+     <sub>5</sub>Br
+     <sub>16</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">526</td>
+    <td align="center" rowspan="1" colspan="1">7.40</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">8400</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0125" ref-type="ref">125</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">(EA)
+     <sub>2</sub>(MA)
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TmPyPB/CsF/Al</td>
+    <td align="center" rowspan="1" colspan="1">473/485</td>
+    <td align="center" rowspan="1" colspan="1">2.60</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">200</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0126" ref-type="ref">126</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">PEABr (80%):CsPbBr
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">514</td>
+    <td align="center" rowspan="1" colspan="1">1.97</td>
+    <td align="center" rowspan="1" colspan="1">6.16</td>
+    <td align="center" rowspan="1" colspan="1">9957</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0127" ref-type="ref">127</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">BABr(20):MAPbBr
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PVK/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">513</td>
+    <td align="center" rowspan="1" colspan="1">9.30</td>
+    <td align="center" rowspan="1" colspan="1">17.1</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0128" ref-type="ref">128</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">BAI(20):MAPbI
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/poly‐TPD/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">748</td>
+    <td align="center" rowspan="1" colspan="1">10.4</td>
+    <td align="center" rowspan="1" colspan="1">0.09</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1"/>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">PbS–(BA)
+     <sub>2</sub>PbI
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/TiO
+     <sub>2</sub>/EM/F8/MoO
+     <sub>3</sub>/Ag
+    </td>
+    <td align="center" rowspan="1" colspan="1">1280</td>
+    <td align="center" rowspan="1" colspan="1">2.06</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">[qv: 79c]</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">FAPbBr
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/poly‐TPD/EM + PMMA/3TPYMB/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">530</td>
+    <td align="center" rowspan="1" colspan="1">2.00</td>
+    <td align="center" rowspan="1" colspan="1">8.22</td>
+    <td align="center" rowspan="1" colspan="1">4425</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0129" ref-type="ref">129</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2017</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>SnI
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/F8/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">618</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">0.003</td>
+    <td align="center" rowspan="1" colspan="1">0.15</td>
+    <td align="center" rowspan="1" colspan="1">[qv: 45b]</td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(BA)
+     <sub>2</sub>(MA)
+     <sub>4</sub>Pb
+     <sub>5</sub>I
+     <sub>16</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT/EM/PCBM/Al</td>
+    <td align="center" rowspan="1" colspan="1">744</td>
+    <td align="center" rowspan="1" colspan="1">0.50</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0116" ref-type="ref">116</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(NMA)
+     <sub>2</sub>Cs
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>I
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">694</td>
+    <td align="center" rowspan="1" colspan="1">7.30</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">732</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0130" ref-type="ref">130</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>(FA)
+     <sub>2</sub>Pb
+     <sub>3</sub>Br
+     <sub>10</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TOPO–TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">532</td>
+    <td align="center" rowspan="1" colspan="1">14.36</td>
+    <td align="center" rowspan="1" colspan="1">62.4</td>
+    <td align="center" rowspan="1" colspan="1">9120</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0108" ref-type="ref">108</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(OA)
+     <sub>2</sub>(FA)
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/PO‐T2T/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">530</td>
+    <td align="center" rowspan="1" colspan="1">13.40</td>
+    <td align="center" rowspan="1" colspan="1">57.6</td>
+    <td align="center" rowspan="1" colspan="1">34 480</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0131" ref-type="ref">131</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">NFPI7</td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">≈790</td>
+    <td align="center" rowspan="1" colspan="1">12.7</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0132" ref-type="ref">132</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">PEO:(BA)
+     <sub>2</sub>(Cs)
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>I
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/poly‐TPD/EM/BCP/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">680</td>
+    <td align="center" rowspan="1" colspan="1">6.23</td>
+    <td align="center" rowspan="1" colspan="1">1.74</td>
+    <td align="center" rowspan="1" colspan="1">1392</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0060" ref-type="ref">60</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">NF
+     <sub>0.93</sub>C
+     <sub>0.07</sub>PI
+     <sub>7</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–ZnO/EM/TFB/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">783</td>
+    <td align="center" rowspan="1" colspan="1">7.80</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0133" ref-type="ref">133</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(OA)
+     <sub>2</sub>((FA)
+     <sub>2</sub>)
+     <italic>
+      <sub>m</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>m</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>m</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/LiF/EM/PO‐T2T/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">540</td>
+    <td align="center" rowspan="1" colspan="1">5.00</td>
+    <td align="center" rowspan="1" colspan="1">22.9</td>
+    <td align="center" rowspan="1" colspan="1">≈2000</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0085" ref-type="ref">85</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">PEABr:CsPbBr
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/poly‐TPD/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">510</td>
+    <td align="center" rowspan="1" colspan="1">15.5</td>
+    <td align="center" rowspan="1" colspan="1">49.1</td>
+    <td align="center" rowspan="1" colspan="1">7000</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0134" ref-type="ref">134</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">3BBAI:MAPb(I/Cl)
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PTAA/EM/PC
+     <sub>61</sub>BM/Cr/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">760</td>
+    <td align="center" rowspan="1" colspan="1">3.85</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0135" ref-type="ref">135</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(NMA)
+     <sub>2</sub>(FA)Pb
+     <sub>2</sub>I
+     <sub>7</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEIE–MZO/EM/TFB–PFO/MoO
+     <italic>
+      <sub>x</sub>
+     </italic>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">≈795</td>
+    <td align="center" rowspan="1" colspan="1">20.1</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0136" ref-type="ref">136</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(BIZ)
+     <sub>2</sub>(FA)
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PVK/EM/TmPyPB/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">≈535</td>
+    <td align="center" rowspan="1" colspan="1">7.70</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">30 000</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0137" ref-type="ref">137</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">PA
+     <sub>2</sub>CsPb
+     <sub>2</sub>I
+     <sub>7</sub>–CsPb(Br,Cl)
+     <sub>3</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PA
+     <sub>2</sub>CsPb
+     <sub>2</sub>I
+     <sub>7</sub>/BIPO/poly‐TPD/PC
+     <sub>61</sub>BM/CsPb(Br,Cl)
+     <sub>3</sub>/TPBi/LiF/Al
+    </td>
+    <td align="center" rowspan="1" colspan="1">693/493</td>
+    <td align="center" rowspan="1" colspan="1">0.22</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0092" ref-type="ref">92</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">BA
+     <sub>2</sub>Cs
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">514</td>
+    <td align="center" rowspan="1" colspan="1">8.42</td>
+    <td align="center" rowspan="1" colspan="1">25.1</td>
+    <td align="center" rowspan="1" colspan="1">33 532</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0138" ref-type="ref">138</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>PbCl
+     <sub>2</sub>Br
+     <sub>2</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">425/500</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">70</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0139" ref-type="ref">139</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(PEA)
+     <sub>2</sub>MA
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/Ca/Al</td>
+    <td align="center" rowspan="1" colspan="1">524</td>
+    <td align="center" rowspan="1" colspan="1">2.50</td>
+    <td align="center" rowspan="1" colspan="1">8.63</td>
+    <td align="center" rowspan="1" colspan="1">59 213</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0140" ref-type="ref">140</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(NMA)
+     <sub>2</sub>PbBr
+     <sub>4</sub>:FABr
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/TFB/PVK/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">514</td>
+    <td align="center" rowspan="1" colspan="1">14.9</td>
+    <td align="center" rowspan="1" colspan="1">46.8</td>
+    <td align="center" rowspan="1" colspan="1">2056</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0141" ref-type="ref">141</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(TFA)
+     <sub>2</sub>MA
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>−1</sub>Pb
+     <italic>
+      <sub>n</sub>
+     </italic>Br
+     <sub>3</sub>
+     <italic>
+      <sub>n</sub>
+     </italic>
+     <sub>+1</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PVK/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">532</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">0.3</td>
+    <td align="center" rowspan="1" colspan="1">1200</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0142" ref-type="ref">142</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">(OAm)
+     <sub>2</sub>SnBr
+     <sub>4</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEI–ZnO/EM/TCTA/MoO
+     <sub>3</sub>/Au
+    </td>
+    <td align="center" rowspan="1" colspan="1">625</td>
+    <td align="center" rowspan="1" colspan="1">0.1</td>
+    <td align="center" rowspan="1" colspan="1">0.029</td>
+    <td align="center" rowspan="1" colspan="1">350</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0056" ref-type="ref">56</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2018</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>BA
+      <sub>2</sub>Cs
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>−1</sub>Pb
+      <italic>
+       <sub>n</sub>
+      </italic>(Br/Cl)
+      <sub>3</sub>
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>+1</sub>
+     </p>
+     <p>BA
+      <sub>2</sub>Cs
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>−1</sub>Pb
+      <italic>
+       <sub>n</sub>
+      </italic>Br
+      <sub>3</sub>
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>+1</sub>
+     </p>
+     <p>BA
+      <sub>2</sub>Cs
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>−1</sub>Pb
+      <italic>
+       <sub>n</sub>
+      </italic>(Br/I)
+      <sub>3</sub>
+      <italic>
+       <sub>n</sub>
+      </italic>
+      <sub>+1</sub>
+     </p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/PVK/EM/TPBi/Al</td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>487</p>
+     <p>506</p>
+     <p>649</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>6.2</p>
+     <p>10.1</p>
+     <p>0.13</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>–</p>
+     <p>23.3</p>
+     <p>–</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <p>3340</p>
+     <p>3810</p>
+     <p>18.5</p>
+    </td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0143" ref-type="ref">143</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2019</td>
+    <td align="center" rowspan="1" colspan="1">BA
+     <sub>2</sub>MA
+     <sub>3</sub>Pb
+     <sub>4</sub>Br
+     <sub>13</sub>
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">525</td>
+    <td align="center" rowspan="1" colspan="1">–</td>
+    <td align="center" rowspan="1" colspan="1">5.01</td>
+    <td align="center" rowspan="1" colspan="1">2819</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0144" ref-type="ref">144</xref>
+    </td>
+   </tr>
+   <tr>
+    <td align="left" rowspan="1" colspan="1">2019</td>
+    <td align="center" rowspan="1" colspan="1">CsPbCl
+     <sub>0.9</sub>Br
+     <sub>2.1</sub>:PEABr
+    </td>
+    <td align="center" rowspan="1" colspan="1">ITO/PEDOT:PSS/EM/TPBi/LiF/Al</td>
+    <td align="center" rowspan="1" colspan="1">480</td>
+    <td align="center" rowspan="1" colspan="1">5.7</td>
+    <td align="center" rowspan="1" colspan="1">6.1</td>
+    <td align="center" rowspan="1" colspan="1">3780</td>
+    <td align="center" rowspan="1" colspan="1">
+     <xref rid="advs1307-bib-0145" ref-type="ref">145</xref>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+ <permissions>
+  <copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder>
+ </permissions>
+</table-wrap>

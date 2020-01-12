@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the imaginary external potential 
+ <inline-formula>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <mi>i</mi>
+     <mo>⋅</mo>
+     <mi>ω</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <italic>q</italic> satisfies a modified diffusion equation as:
+ <disp-formula id="FD3-polymers-11-01081">
+  <label>(3)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mn>1</mn>
+      <mi>N</mi>
+     </mfrac>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>q</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <mi>s</mi>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>σ</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mn>6</mn>
+     </mfrac>
+     <msup>
+      <mo>∇</mo>
+      <mn>2</mn>
+     </msup>
+     <mi>q</mi>
+     <mo>−</mo>
+     <mi>i</mi>
+     <mo>⋅</mo>
+     <mi>ω</mi>
+     <mo>⋅</mo>
+     <mi>q</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> along with 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mrow>
+     <mi>q</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>,</mo>
+     <mn>0</mn>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In Equation (3), 
+ <italic>ω</italic> takes 
+ <italic>ω</italic>
+ <italic>
+  <sub>A</sub>
+ </italic>, 
+ <italic>ω
+  <sub>B</sub>
+ </italic>, and 
+ <italic>ω</italic>
+ <italic>
+  <sub>C</sub>
+ </italic> in turn as the contour variable 
+ <italic>s</italic> passes through A, B, and then C blocks. It needs to be recalled that there is another function 
+ <italic>q</italic>
+ <sup>+</sup> conjugate to 
+ <italic>q</italic>, so that 
+ <italic>q</italic>
+ <sup>+</sup> starts reversely from the other chain end with 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>q</mi>
+      <mo>+</mo>
+     </msup>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo>,</mo>
+     <mn>1</mn>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. 
+</p>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The most basic component for quantum information storage and processing is the so-called qubit, the quantum version of the bit (Nielsen and Chuang, 
+ <xref rid="B19" ref-type="bibr">2010</xref>). The combination of several entangled qubits–generally, two or three–gives rise to a logical gate, the most elementary unit in any quantum algorithm devoted to execute a specific task. Indeed, an algorithm is nothing but a sequence of logical gates. The possibility of developing more sophisticated algorithms, hence involving a larger number of logical gates, critically depends on our ability to entangle an increasing number of qubits without damaging the encoded information. This is what is known as scalability. For this purpose, it is crucial to control both the position and the orientation of the relevant physical qubits in space so that they can properly communicate with each other.
+</p>

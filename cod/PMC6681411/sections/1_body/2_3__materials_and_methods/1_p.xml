@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All calculations were performed with the Vienna ab initio simulation package [
+ <xref rid="B32-molecules-24-02667" ref-type="bibr">32</xref>,
+ <xref rid="B33-molecules-24-02667" ref-type="bibr">33</xref>] (VASP, Fakultät für Physik of Universität Wien, Wien, Austria) and the Perdew–Burke–Ernzerhof (PBE) type generalized gradient approximation [
+ <xref rid="B34-molecules-24-02667" ref-type="bibr">34</xref>] (GGA) was applied to describe the exchange-correlation energy. We used a projector-augmented-wave method [
+ <xref rid="B32-molecules-24-02667" ref-type="bibr">32</xref>] for the ionic pseudo-potentials. Monkhorst-Pack [
+ <xref rid="B35-molecules-24-02667" ref-type="bibr">35</xref>] meshes of 4 × 4 × 4 was used to sample the reciprocal space. The energy cutoff was set to be 700 eV for both LiAl
+ <sub>2</sub>(OH)
+ <sub>6</sub>Cl and 
+ <italic>γ</italic>-Al(OH)
+ <sub>3</sub>. These settings ensure the calculated total energy of the system converges to 1 meV. The energy cutoff and convergence criteria for the energy and force were set to be 1 × 10
+ <sup>−5</sup> eV and 0.001 eV/Å, respectively. The bonding properties were analyzed by using the LOBSTER code with the crystal orbital Hamilton population (COHP) [
+ <xref rid="B36-molecules-24-02667" ref-type="bibr">36</xref>,
+ <xref rid="B37-molecules-24-02667" ref-type="bibr">37</xref>,
+ <xref rid="B38-molecules-24-02667" ref-type="bibr">38</xref>,
+ <xref rid="B39-molecules-24-02667" ref-type="bibr">39</xref>]. The basis set of the employed pseudopotentials of H, O, Al, Cl, and Li are 1s
+ <sup>1</sup>, 2s
+ <sup>2</sup>2p
+ <sup>4</sup>, 3s
+ <sup>2</sup>3p
+ <sup>1</sup>, 3s
+ <sup>2</sup>3p
+ <sup>5</sup>, and 2s
+ <sup>1</sup>. For AIMD simulations, only the Г point was used to sample the Brillouin zone of the 2 × 2 × 1 supercell containing 128 atoms. The simulation was conducted in a canonical ensemble with a Nosé thermostat to control the temperature. Newton’s equations of motion were integrated using the Verlet algorithm with a time step of 1 fs in a simulation range of 10 ps.
+</p>

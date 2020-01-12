@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pone.0225041.g005" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0225041.g005</object-id>
+ <label>Fig 5</label>
+ <caption>
+  <title>A flowchart of the BooT-PCA on an aluminum bi-crystal dataset: Firstly, image processing is performed on a series of detector hit maps, secondly tracking and line detection are performed.</title>
+  <p>Next the collected data is reconstructed into 3D Cartesian coordinates, thirdly, a slope filter, PCA and triangulation (consists of mesh vertices) are applied sequentially to filter out zone lines atoms and fully reconstruct the GB surface.</p>
+ </caption>
+ <graphic xlink:href="pone.0225041.g005" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

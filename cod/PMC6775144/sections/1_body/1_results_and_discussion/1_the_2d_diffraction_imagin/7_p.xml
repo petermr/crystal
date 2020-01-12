@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Further, we will choose a plane-parallel single crystal Si(111) sample with diffraction vector 
+ <bold>
+  <italic>h</italic>
+ </bold> = [
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{2}$$\end{document}</tex-math>
+   <math id="M42">
+    <mover accent="true">
+     <mn>2</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>20]; the wavelength λ of incident characteristic X-ray radiation equal to 0.071 nm of the characteristic X-ray 
+ <italic>Mo K</italic>
+ <sub>α1</sub>-radiation, photon energy of 17.48 keV. Correspondingly, the susceptibility coefficients 
+ <italic>Re</italic>(χ
+ <sub>
+  <italic>h</italic>
+ </sub>) = 
+ <italic>Re</italic>(χ
+ <sub>−
+  <italic>h</italic>
+ </sub>) = −1.921 × 10
+ <sup>−6</sup> and 
+ <italic>Im</italic>(χ
+ <sub>
+  <italic>h</italic>
+ </sub>) = 
+ <italic>Im</italic>(χ
+ <sub>-
+  <italic>h</italic>
+ </sub>) = 1.55 × 10
+ <sup>−8</sup>; the Bragg angle 
+ <italic>θ</italic>
+ <sub>B</sub> = 10,65°; the X-ray extinction length 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\ell \,=\pi {\Lambda }cos{\theta }_{B}$$\end{document}</tex-math>
+   <math id="M44">
+    <mi>ℓ</mi>
+    <mspace width=".25em"/>
+    <mo>=</mo>
+    <mi>π</mi>
+    <mi mathvariant="italic">Λ</mi>
+    <mi>c</mi>
+    <mi>o</mi>
+    <mi>s</mi>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <italic>ℓ</italic> = 36.287 μm; 
+ <italic>C</italic> = 1 for the σ-polarized X-ray plane wave. The vector elastic displacement field of a Coulomb-type point defect, 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{u}}({\bf{r}}-{{\bf{r}}}_{0})$$\end{document}</tex-math>
+   <math id="M46">
+    <mi mathvariant="bold">u</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> has a form
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{u}}({\bf{r}}-{{\bf{r}}}_{0})=\frac{F}{4{\rm{\pi }}}\frac{{\bf{r}}-{{\bf{r}}}_{0}}{{|{\bf{r}}-{{\bf{r}}}_{0}|}^{3}},F={\rm{const}},$$\end{document}</tex-math>
+   <math id="M48" display="block">
+    <mi mathvariant="bold">u</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+     <mi>F</mi>
+     <mrow>
+      <mn>4</mn>
+      <mi mathvariant="normal">π</mi>
+     </mrow>
+    </mfrac>
+    <mfrac>
+     <mrow>
+      <mi mathvariant="bold">r</mi>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="bold">r</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mo stretchy="true">|</mo>
+        <mrow>
+         <mi mathvariant="bold">r</mi>
+         <mo>−</mo>
+         <msub>
+          <mrow>
+           <mi mathvariant="bold">r</mi>
+          </mrow>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+         </msub>
+        </mrow>
+        <mo stretchy="true">|</mo>
+       </mrow>
+       <mn>3</mn>
+      </msup>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+    <mi>F</mi>
+    <mo>=</mo>
+    <mi mathvariant="normal">const</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <bold>r</bold>
+ <sub>0</sub> is the radius vector of the point defect in a crystal.
+</p>

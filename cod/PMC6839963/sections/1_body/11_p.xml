@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="P13">To pinpoint the energetic contributions which govern the effect, we analyze the classical dispersion and Coulomb interactions in the 
+ <bold>COS-0</bold> system. The dispersion is evaluated according to Grimme’s model (D3).
+ <sup>
+  <xref rid="R14" ref-type="bibr">14
+   <italic>d</italic>
+  </xref>
+ </sup> Electrostatic interactions were evaluated with absolutely-localized molecular orbital energy decomposition analysis (ALMO EDA) as implemented in the Q-chem4.4 code.
+ <sup>
+  <xref rid="R16" ref-type="bibr">16</xref>
+ </sup> The results are summed up in 
+ <xref ref-type="fig" rid="F4">Fig. 4</xref>. The median of the relative dispersion energy in the 
+ <bold>COS-0</bold> set is close to 2.5 kJ mol
+ <sup>−1</sup> with no preference for any particular value of 
+ <italic>Θ</italic> (
+ <xref ref-type="fig" rid="F4">Fig. 4 (G)</xref>). Differently, the frozen density Coulomb repulsion energy gives a stronger discrimination of the conformers and is able to indicate a few of the most stable structures. However, not all stable structures would be selected based on this criterion, as it appears from the direct comparison in 
+ <xref ref-type="fig" rid="F4">Fig. 4</xref>. This discrepancy comes from more complex interactions and cannot be accounted for within the ALMO EDA model, which focuses on electrostatic effects, 
+ <italic>e.g.</italic>, charge–charge, charge–dipole, and charge–induced dipole interactions. Moreover, an additional discrepancy can arise due to the lack of long-range Coulomb interactions in the current ALMO EDA model.
+</p>

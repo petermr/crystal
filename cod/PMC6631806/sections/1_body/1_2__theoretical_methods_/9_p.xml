@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The segregation strengths in the compressible approach can be monitored through a proper effective Flory–Huggins 
+ <italic>χ</italic> that carries its dependence not only on temperature but also on pressure. It has been suggested in our previous works that 
+ <italic>χ</italic> consists of two terms as 
+ <inline-formula>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <mi>χ</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>χ</mi>
+      <mi>H</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>χ</mi>
+      <mi>S</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B34-polymers-11-01081" ref-type="bibr">34</xref>,
+ <xref rid="B35-polymers-11-01081" ref-type="bibr">35</xref>]. The former 
+ <inline-formula>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>χ</mi>
+      <mi>H</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (=
+ <inline-formula>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <mi>β</mi>
+     <mo>Δ</mo>
+     <mover accent="true">
+      <mi>ε</mi>
+      <mo>¯</mo>
+     </mover>
+     <mo>⋅</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mi>u</mi>
+       <mo stretchy="false">(</mo>
+       <mi>η</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) indicates the conventional enthalpic term with density dependence, where 
+ <inline-formula>
+  <math id="mm67">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mover accent="true">
+      <mi>ε</mi>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the exchange energy between 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>’s as 
+ <inline-formula>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mover accent="true">
+      <mi>ε</mi>
+      <mo>¯</mo>
+     </mover>
+     <mo>≡</mo>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>j</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <mn>2</mn>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The latter 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>χ</mi>
+      <mi>S</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (=
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>P</mi>
+      <mi>φ</mi>
+      <mn>2</mn>
+     </msubsup>
+     <mi mathvariant="normal">v</mi>
+     <mo>*</mo>
+     <mo>/</mo>
+     <mn>2</mn>
+     <mi>k</mi>
+     <mi>T</mi>
+     <mi>η</mi>
+     <msub>
+      <mi>B</mi>
+      <mi>T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) indicates the entropic term, where 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>P</mi>
+      <mi>ϕ</mi>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the composition coefficient of pressure as 
+ <inline-formula>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>P</mi>
+      <mi>ϕ</mi>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> 
+ <inline-formula>
+  <math id="mm74">
+   <mrow>
+    <mrow>
+     <mo>≡</mo>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi>P</mi>
+         <mo>/</mo>
+         <mo>∂</mo>
+         <mi>ϕ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>T</mi>
+       <mo>,</mo>
+       <mi mathvariant="normal">v</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm75">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>B</mi>
+      <mi>T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the bulk modulus as 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>B</mi>
+      <mi>T</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <mo>≡</mo>
+     <mi>η</mi>
+     <mo>⋅</mo>
+     <mo>∂</mo>
+     <mi>P</mi>
+     <mo>/</mo>
+     <mo>∂</mo>
+     <mi>η</mi>
+     <msub>
+      <mo stretchy="false">)</mo>
+      <mrow>
+       <mi>T</mi>
+       <mo>,</mo>
+       <mi>ϕ</mi>
+       <mo>’</mo>
+       <mi>s</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>P</mi>
+      <mi>ϕ</mi>
+      <mrow/>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> gives the compressibility difference between components as 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mi>φ</mi>
+     </msub>
+     <mo>∝</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>i</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mover accent="true">
+       <mi>ε</mi>
+       <mo>¯</mo>
+      </mover>
+      <mrow>
+       <mi>j</mi>
+       <mi>j</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at 
+ <inline-formula>
+  <math id="mm80">
+   <mrow>
+    <mrow>
+     <mi>ϕ</mi>
+     <mo stretchy="false">→</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. It needs to be mentioned that the given notion of the effective 
+ <inline-formula>
+  <math id="mm81">
+   <mrow>
+    <mi>χ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is perfectly harmonious with that from Sanchez–Lacombe theory [
+ <xref rid="B36-polymers-11-01081" ref-type="bibr">36</xref>,
+ <xref rid="B37-polymers-11-01081" ref-type="bibr">37</xref>,
+ <xref rid="B38-polymers-11-01081" ref-type="bibr">38</xref>].
+</p>

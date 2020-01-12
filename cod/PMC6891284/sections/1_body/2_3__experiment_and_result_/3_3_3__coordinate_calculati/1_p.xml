@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>When the improved odometer positioning method calculates the coordinates, it needs to use the heading angle calculated by the traditional odometer positioning method and the heading angle measured by the IMU as the input. Therefore, the heading angle is first calculated to obtain two sets of heading angles. Then, the coordinates are calculated.</p>

@@ -1,0 +1,571 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Omega</journal-id><journal-id journal-id-type="iso-abbrev">ACS Omega</journal-id><journal-id journal-id-type="publisher-id">ao</journal-id><journal-id journal-id-type="coden">acsodf</journal-id><journal-title-group><journal-title>ACS Omega</journal-title></journal-title-group><issn pub-type="epub">2470-1343</issn><publisher><publisher-name>American Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6648638</article-id><article-id pub-id-type="pmid">31459540</article-id><article-id pub-id-type="doi">10.1021/acsomega.8b03241</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Quantum Dot&#x02013;Acrylic Acrylate Oligomer Hybrid
+Films for Stable White Light-Emitting Diodes</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Chou</surname><given-names>Cheng-Chun</given-names></name><xref rid="notes-2" ref-type="notes">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Wang</surname><given-names>Tzong-Liu</given-names></name><xref rid="notes-2" ref-type="notes">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Chen</surname><given-names>Wen-Janq</given-names></name><xref rid="notes-2" ref-type="notes">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath4"><name><surname>Yang</surname><given-names>Chien-Hsin</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="notes-2" ref-type="notes">&#x02020;</xref></contrib><aff id="aff1">Department of Chemical and
+Materials Engineering, <institution>National University
+of Kaohsiung</institution>, 700, Kaohsiung University Road, Nanzih District, Kaohsiung City 811, <country>Taiwan</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>yangch@nuk.edu.tw</email>. Tel: <phone>+886-7-5919420</phone>.</corresp></author-notes><pub-date pub-type="epub"><day>14</day><month>02</month><year>2019</year></pub-date><pub-date pub-type="collection"><day>28</day><month>02</month><year>2019</year></pub-date><volume>4</volume><issue>2</issue><fpage>3234</fpage><lpage>3243</lpage><history><date date-type="received"><day>20</day><month>11</month><year>2018</year></date><date date-type="accepted"><day>31</day><month>01</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0013" id="ab-tgr1"/></p><p>White
+light-emitting diodes (LEDs) have been achieved using photopolymerization.
+Red and green CdSe/ZnS core&#x02013;shell quantum dots (QDs) are dispersed
+in photopolymerized aliphatic acrylic acrylate resins, cured by using
+36 W UV light for 1.5 min producing QD&#x02013;acrylate nanocomposites,
+and then a hybrid LED device is achieved using the QD&#x02013;acrylate
+nanocomposite with two emission wavelengths excited by using a blue
+InGaN LED chip. The cured QD&#x02013;acrylate nanocomposite films are
+characterized by using ultraviolet&#x02013;visible, fluorescence, scanning
+electron microscopy, atomic force microscopy, and thermogravimetric
+analysis measurements. Photopolymerization is conveniently employed
+to adjust several parameters of the CIE-1931 coordinate (<italic>x</italic>, <italic>y</italic>), color temperature, and color rending index
+(CRI). Good white balance of the red-green hybrid device achieves
+a luminance of 7976 lm/m<sup>2</sup> at a 30 mA working current. The
+light emission efficiency, CRI, and color temperature of 14%, 47,
+and 11&#x02009;204 K, respectively, are attained at this working current.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ao8b03241</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ao-2018-03241p</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Efficient
+white light-emitting diodes (LEDs) have attracted considerable
+attention in solid-state illumination recently. Several methods are
+developed to fabricate white light LEDs, the phosphor-converted emission
+is the most commonly used technique.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Up
+to now, various materials such as inorganic phosphors,<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> organic dyes,<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> and quantum dots
+(QDs)<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> have been employed to test the possibility
+to replace the common phosphors in white LEDs. In these materials,
+QD is an innovative material because it has advantages over the commonly
+used phosphors. The emission wavelength adjustment of the QDs is generally
+completed by controlling the size of the crystal or varying the chemical
+composition. In addition, the scattering effects of QDs are rarely
+observed because the size of QD particles is relatively small compared
+to inorganic phosphors. Compared to organic dyes, QDs are not easily
+bleached, demonstrating a longer lifetime and a wider absorption range.
+A QD-based white LED is generally fabricated using a spin-coating
+technique, in which QDs are mixed with epoxy resins and are then coated
+on the excited chips.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> However, an alternative
+photoactive packaging (PAP) method has also been used to fabricate
+the white LEDs.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> In the PAP method, a bare
+blue LED chip was covered with a red and green QD-dispersed photosensitive
+resin film to make the white LED illuminate when the current is passed
+through the blue LED chip. This packaging method eliminates the additional
+facilities that are used to package LEDs in the present process. Here,
+the white balance of this hybrid LED was achieved by mixing red and
+green QDs in the photosensitive resins.</p><p>Quantum dots possess
+some characteristics such as a size-tunable
+energy bandgap, high quantum efficiency of photoluminescence (PL),
+solution processing, and adjustable absorption and emission wavelength.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> QDs have been widely used in photoelectronic
+devices of solar cells<sup><xref ref-type="bibr" rid="ref6">6</xref>&#x02212;<xref ref-type="bibr" rid="ref8">8</xref></sup> and light-emitting diodes.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> Encapsulation of quantum dots (QDs) into polymers can improve the
+photoluminescence stability and device performance of optoelectronic
+and light-emitting diodes (LEDs).<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref11">11</xref></sup> In the fabrication
+of LEDs, the dispersion and quantum efficiency of QDs in the polymer
+matrix are the most important factors. The optical properties of QDs
+are affected by several factors, such as the QD size, the type of
+ligand molecule, and the type of matrix. The structure and interaction
+of organic compounds on the surface of the QD affect the fluorescence
+of the QD. Green&#x02019;s group<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> has reviewed
+the properties of capped ligands such as trioctylphosphine oxide,
+amines, carboxylic acids, or thiols on the surface of the QDs. The
+defects on the surface of the QDs can work as the hole of electrons
+or holes. Therefore, surface passivation of quantum dots can reduce
+their recombination leading to the enhancement of fluorescence. A
+common method of surface passivation of CdSe-QDs is made using a thin
+shell of a wider bandgap material such as ZnS for surface protection,<sup><xref ref-type="bibr" rid="ref13">13</xref></sup> thereby forming a core&#x02013;shell structure.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> The shell forms a more passivated surface, resulting
+in the reduction in nonradiative pathways with an effective increase
+in quantum efficiency. One-step synthesis has been employed to prepare
+CdSe/ZnS quantum dots.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> The one-step synthesis
+method is much faster than the two-step in the manufacturing process,
+which is in favor of mass production in the future. Because the quantum
+confinement effect and the core&#x02013;shell structure existed in
+the QDs having few defects on the crystal surface, the light-emitting
+efficiency of photoexcitation is extremely high. Another approach
+uses a dangling bond formed by a suitable surface passivation ligand
+to reduce surface traps.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> There are two
+challenges in the incorporation of QDs into the polymer matrix, that
+is, QD aggregation and fluorescence quenching. QDs can be incorporated
+into the polymeric matrix by a number of methods, including the in
+situ synthesis of QDs in the polymer,<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> the direct incorporation of QDs into the polymer,<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> and the in situ polymerization of monomer-containing QDs
+forming a cured resin hybrid.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup> The structure and molecular
+polarity of the polymer matrix have obvious interactions with the
+capping ligands on the surface of QDs. It needs to select the molecular
+structure and molecular polarity to be completely miscible with the
+prepared quantum dots, forming a uniformly transparent precursor solution.
+After curing, the coating of the precursor solution generates a hybrid
+film of the light-emitting diode with good light transmittance. Recently,
+the incorporation of phosphine ligand-coupled CdSe and CdSe/ZnS QDs
+into poly(methyl methacrylate) demonstrated no phase separation during
+polymerization.<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> Without modification
+of the surface of the QDs, a stable and bright green photoluminescent
+CdSe/poly(butyl acrylate) nanocomposite was obtained by in-situ miniemulsion
+polymerization.<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> Wang et al. dispersed
+CdSe/ZnS QDs in photosensitive epoxy resin to produce a white LED
+by means of an active packaging method.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> On the other hand, the incorporation of CdSe/ZnS QDs into poly(2-methoxy-5(2-ethylhexyloxy))
+to produce organic LEDs can significantly improve the performance
+of this hybrid device.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Organic silicone
+resins have good transparency, flexibility, stress relief, thermal
+stability, moisture resistance, and high gas permeability, which have
+been widely used in packaging CdSe/ZnS QD LEDs.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> The quantum dots are directly dispersed in the organic resin and
+mounted on the surface of the semiconductor chip to emit white light.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> The CdSe/ZnS core&#x02013;shell QDs are encapsulated
+in the polymer matrix of cyanoacrylate and epoxy resin, resulting
+in the loss or increase of QD light emission in these polymers.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> The QD light-emitting film was commonly prepared
+by adding the solution of quantum dots into the polymer, coating on
+the substrate, and then heating to remove the solvent. This process
+often takes much time to perform the polymerization/curing reaction
+at relatively high temperatures (&#x0223c;120&#x02013;150 &#x000b0;C),
+leading to a decline in QDs. Alternatively, in 2008, an epoxy acrylate
+monomer using photopolymerization has been employed to make QD light-emitting
+films achieve a white LED.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> This epoxy
+resin system having benzene rings in the polymer chains would result
+in the yellowing phenomenon by extending the use time, leading to
+a decline of the light-emitting efficiency.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup></p><p>Because the photopolymerization of the acrylic system is easier
+to control compared to the epoxy system, we employed the photopolymerization
+process using an aliphatic acrylic acrylate oligomer and an acrylic
+monomer to prepare red and green QDs involving the aliphatic polymer
+film in this study, avoiding yellowing of the polymer matrix. In this
+work, we directly dispersed tri-<italic>n</italic>-octylphosphine
+(TOP)-capped CdSe/ZnS QDs into an acrylic acrylate oligomer using
+the solution mixing method, followed by solvent removal, and then
+coating this mixture on a blue LED chip and curing by UV light to
+achieve a QD&#x02013;acrylate hybrid LED device. In addition, we report
+the optical, morphological, topological, and thermal properties of
+UV-cured acrylate resin-CdSe/ZnS QD nanocomposites in this work. These
+fluorescent nanocomposites consisted of a small number of quantum
+dots exhibiting optical features and thermal stability, so these processes
+and materials are worth promoting in LED applications.</p></sec><sec id="sec2"><title>Results and Discussion</title><sec id="sec2.1"><title>One-Step
+Synthesis of CdSe/ZnS Core&#x02013;Shell QDs</title><p><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a,b present
+the transmission electron microscope (TEM) images of the synthesized
+red and green quantum dots, respectively. Although the chemical composition
+gradient of red and green quantum dots is different, both QDs had
+a spherical shape and a narrow size ranging from 7 to 9 nm. In our
+experimental conditions, the QDs exhibited a stable size distribution
+of 7&#x02013;9 nm corresponding to a shell (ZnS) thickness of about
+1.5 nm.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup><xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c shows the X-ray diffraction (XRD) of CdSe/ZnS
+quantum dots. The standard XRD patterns of CdSe and ZnS are labeled
+at the bottom and top of <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>, respectively. The indicated diffraction signals (2&#x003b8;)
+of 26.3, 42.6, and 51.9&#x000b0; at the bottom represent the respective
+(111), (220), and (311) crystal planes (JCPDS 19-0191) of the zinc
+blende cubic crystal structure of CdSe. The indicated diffraction
+signals of 28.5, 47.515, and 56.28&#x000b0; at the top represent the
+respective (111), (220), and (311) crystal planes (JCPDS 05-0566)
+of the zinc blende cubic crystal structure of ZnS. Note that the diffraction
+signals of the quantum dots prepared in this work are present at 28.14,
+47.13, and 55.78&#x000b0;, respectively. Compared with the standard diffraction
+signals of CdSe and ZnS, the CdSe/ZnS diffraction peaks slightly shifted
+from smaller angles (corresponding to the CdSe crystal) to larger
+angles (corresponding to the ZnS crystal). This implies that the synthesized
+quantum dots have a core&#x02013;shell structure.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup></p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>TEM images of red CdSe/ZnS quantum dots (a) and green CdSe/ZnS
+quantum dots (b). X-ray diffraction of green and red-mixed CdSe/ZnS
+quantum dots (c).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0001" id="gr3" position="float"/></fig><p><xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> demonstrates
+a picture of synthesized quantum dots irradiated by sun light and
+green (532 nm) and red (628 nm) light emission excited by ultraviolet
+light. As shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a, UV&#x02013;visible spectra were measured using toluene as
+the background and then the synthesized quantum dots were diluted
+in toluene to measure the corresponding absorption spectra. <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b shows the fluorescence
+spectra of the synthesized CdSe/ZnS excited at a wavelength of 440
+nm, exhibiting that the peak positions of CdSe/ZnS are present at
+532 and 628 nm with full width at half maximum (FWHM) of 28, respectively,
+corresponding to green and red emitting light. Note that a plurality
+of exciton peaks appears in the UV&#x02013;vis absorption spectrum
+and the luminescence spectrum shows a single narrow Gaussian PL peak
+having a FWHM of less than 35 nm. This implies that the synthesized
+QD is uniform in size and shape, so it can be inferred that the chemical
+composition of these QDs is also uniform. This result is consistent
+with TEM results with uniform size and shape.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>UV&#x02013;visible spectra
+(a) and PL spectra of CdSe/ZnS quantum
+dots (b).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0002" id="gr4" position="float"/></fig></sec><sec id="sec2.2"><title>Quantum Dot&#x02013;Polyacrylate
+Hybrid Light-Emitting Films</title><p><xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> demonstrates
+the cross-sectional energy dispersive spectrometer (EDS) mapping of
+CdSe/ZnS (0.1 wt %) quantum dot&#x02013;polymer hybrid light-emitting
+films. To identify the dispersibility of quantum dots in the polymer
+matrix, the cross-section of the QD&#x02013;polymer hybrid light-emitting
+film was characterized by EDS. The elements of Zn, S, and Se are uniformly
+distributed in the polymer matrix, suggesting that the quantum dots
+are well-dispersed in the B2 polymer. But, the signal of Cd is less
+obvious, presumably because Cd has a higher bind energy.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Cross-sectional
+EDS mapping of the green and red-mixed CdSe/ZnS
+(0.1 wt %) quantum dot&#x02013;polymer hybrid light-emitting films.
+Scale bar: 8 &#x003bc;m.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0003" id="gr5" position="float"/></fig><p><xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> shows
+a
+topographic atomic force microscopy (AFM) image and a three-dimensional
+surface profile of the CdSe/ZnS-B2 polymer nanocomposite film prepared
+by spin-coating and UV curing. In <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a, the bright spots correspond to the QD
+particles and the dark areas correspond to the B2 polymer matrix.
+The examination of <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a reveals that the spherical aggregates have a relatively
+uniform spot distribution due to the QD aggregates separated within
+the polymer domain. The particle size distribution at about 33 nm
+corresponds to a QD cluster comprising several individual QDs (diameter
+7&#x02013;10 nm, see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a,b), indicating that the oleic acid (OA)-capped QDs tend
+to aggregate generating QD clusters, but these QDs are relatively
+uniformly distributed in the cured polymer matrix. In addition, some
+small hillocks are relatively uniformly distributed in the three-dimensional
+image of the nanocomposite film as shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b, corresponding to an average roughness
+of about &#x0223c;6 nm.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(a) Topographical AFM image and (b) a three-dimensional
+surface
+profile image of the green and red-mixed CdSe/ZnS QD (0.1 wt %) polymer
+hybrid light-emitting films.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0004" id="gr6" position="float"/></fig><p><xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> shows
+the
+results of thermal thermogravimetric analysis (TGA) and differential
+thermogravimetry (DTG). It can be seen from <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>a that the 5% decomposition temperature of
+the CdSe/ZnS QD&#x02013;polymer hybrid film and the neat polymer film
+presented at 257.9 and 287.6 &#x000b0;C, respectively, indicative of
+the significant ligands of TOP/oleic acid-capped QDs. Our result is
+similar to the previous study of TGA followed by Fourier transform
+infrared analysis.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> In <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>b, the maximum decomposition
+temperature (446.5 &#x000b0;C) of the CdSe/ZnS QD&#x02013;polymer hybrid
+film was slightly higher than that (431.6 &#x000b0;C) of the neat polymer,
+reflecting that the involvement of inorganic CdSe/ZnS QDs in the polymer
+matrix would increase the maximum decomposition temperature. Consequently,
+the thermal stability can be improved in CdSe/ZnS QD&#x02013;polymer
+hybrid films.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Green and red-mixed CdSe/ZnS (0.1 wt %) quantum dot&#x02013;polymer
+hybrid light-emitting films: (a) TGA and (b) DTG analysis. B2: UV-cured
+polymer; B2/QD: quantum dot&#x02013;polymer hybrid film.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0005" id="gr7" position="float"/></fig><p>In this study, photopolymerization was used to
+rapidly prepare
+a smooth surface of QD&#x02013;polymer hybrid light-emitting films.
+In order to increase compatibility, the functional groups of the oligomers
+in the above hybrid films should match well with the polarity of the
+ligands on quantum dots. Then, the photoinitiator was added to the
+mixture of quantum dots and oligomer and uniformly mixed. The above
+mixture was spin-coated on a glass substrate and then subjected to
+ultraviolet light irradiation. A single-color QD&#x02013;polymer hybrid
+light-emitting film can be obtained using this photopolymerization. <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> shows the CIE-1931
+coordinates and PL spectra of the green and red quantum dot&#x02013;polymer
+hybrid light-emitting films. It can be seen that the quantum dots
+are well-dispersed in the B2 polymer. This is evidenced by the fact
+that the emission wavelength (green at 532 nm and red at 628 nm, respectively)
+of QD&#x02013;polymer hybrid films is almost the same as that of the
+quantum dots dispersed in toluene, which ensures that the quantum
+dots are well compatible with the B2 polymer leading to no suspicion
+on the emission wavelength shift in subsequent applications. The CIE-1931
+coordinates of green and red QD&#x02013;polymer hybrid films located
+at (0.13, 0.64) and (0.67, 0.32) corresponds to the wavelength of
+532 and 628 nm, respectively.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>CIE coordinates and PL spectra of CdSe/ZnS QD&#x02013;polymer
+hybrid
+light-emitting films (&#x0223c;1 mm thickness), emission wavelength:
+(a) 532 nm and (b) 628 nm.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0006" id="gr8" position="float"/></fig><p>In general, the PL emission intensity of quantum dots decreases
+with increasing temperature. Because heating makes the ligands peel
+off the surface of the quantum dot, resulting in agglomeration of
+the quantum dots, and thus reducing their luminous intensity. In addition,
+thermal energy also affects electronic transitions, especially the
+recombination of electron&#x02013;holes, which in turn leads to a significant
+drop in the luminous intensity. This fluorescence heat quenching of
+quantum dots presents in a silicone package using the conventional
+thermal curing process.<sup><xref ref-type="bibr" rid="ref29">29</xref>&#x02212;<xref ref-type="bibr" rid="ref33">33</xref></sup> To reduce the above disadvantages of fluorescence heat quenching,
+we have tried to employ a photopolymerization process. In <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, the emission intensity
+of green quantum dots in the B2 polymer matrix after photopolymerization
+retains about 90% intensity before photopolymerization. Compared with
+a silicone package using the conventional thermal curing process,
+this result fully demonstrates that the use of photopolymerization
+has a major advantage of emission stability over the thermal curing
+process. It can be explained that the preparation of the QD&#x02013;polymer
+hybrid light-emitting film by the photopolymerization method not only
+has a fast process speed but can also reduce the damage to the materials
+of quantum dots. Red quantum dots have a similar result to that of
+green quantum dots.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Green CdSe/ZnS (0.1 wt %) quantum dot&#x02013;polymer hybrid
+light-emitting
+films. (a) PL spectra and (b) samples of before and after photopolymerization.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0007" id="gr9" position="float"/></fig><p>Red and green quantum dots are
+added with an appropriate ratio
+to the mixture of oligomer, monomer, and photoinitiator. The well-mixed
+dispersion was spin-coated on the surface of the blue LED chip and
+subjected to ultraviolet light irradiation to complete a white light
+LED device. In lighting the blue chip, the emitted blue light excited
+the mixed QDs to emit green and red lights, whereas the blue light,
+green light, and red light are mixed together to obtain white light
+emitting LED (as shown in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref> also shows the PL spectra and the CIE-1931 coordinate of
+the white LED. PL spectra exhibit blue, green, and red peaks corresponding
+to the blue chip, green QD, and red QD emission, respectively. The
+above three primary colors are mixed to obtain white light located
+at CIE-1931 coordinate of 0.3339 and 0.3192 in the present study.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>PL spectra
+and CIE coordinate of white light LED devices derived
+from red and green CdSe/ZnS QD&#x02013;polymer hybrid films excited
+by a blue chip.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0008" id="gr10" position="float"/></fig><p>We also investigate
+the variation of the color rendering index
+(CRI), color temperature (<italic>T</italic><sub>c</sub>), and light
+extraction efficiency of the white LEDs operated at different current
+densities. In <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>a, the value of the CRI increases with the increase in the operating
+current density, because the increased operating current density results
+in an increase of the emission band width which eventually leads to
+an increase in the CRI value.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup><xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>b shows the corresponding
+color temperature of the sample operating at different current densities,
+revealing that the value of <italic>T</italic><sub>c</sub> decreases
+with the increase in the operating current density from 14&#x02009;500
+(refer to 10 mA) to 5600 K (refer to 50 mA) corresponding clear sky
+and blazing sun at noon, respectively. <xref rid="fig9" ref-type="fig">Figure <xref rid="fig9" ref-type="fig">9</xref></xref>c shows the light extraction efficiency of
+the sample operating at different current densities, revealing that
+the efficiency reaches a maximum of 14% at a current density of 30
+mA, whereas the overall value falls on average around 10&#x02013;12%.
+This value is similar to other matrix materials (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>).</p><fig id="fig9" position="float"><label>Figure 9</label><caption><p>(a) Color rendering index (CRI), (b) color temperature (<italic>T</italic><sub>c</sub>), and (c) light extraction efficiency of white
+light LED devices derived from red and green CdSe/ZnS QD&#x02013;polymer
+hybrid films at different current densities.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0009" id="gr11" position="float"/></fig><fig id="sch1" position="float"><label>Scheme 1</label><caption><title>Chemical Structure of the B2 Aliphatic Acrylic Acrylate Oligomer</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0011" id="gr1" position="float"/></fig><p>A traditional liquid crystal
+television using a white light-emitting
+diode (WLED) as a backlight is called an &#x0201c;LED-TV&#x0201d;, which
+uses a color filter to generate three colors of RGB light. Therefore,
+red and green quantum dots can be directly printed between the two
+poly(ethylene terephthalate) (PET) films to replace the role of the
+backlight on the panel. High adhesion of the quantum dot&#x02013;polymer
+hybrid is required in the real application. The 3-(trimethoxysilyl)propyl
+methacrylate (TMSPMA) monomer having methoxysilyl groups is generally
+considered to enhance the adhesion on PET sheets. Furthermore, the
+light extraction efficiency of the quantum dot&#x02013;polymer composite
+films would not be significantly influenced by the addition of TMSPMA
+lower than 10 wt %. In this work, the TMSPMA monomer was added into
+the mixture of CdSe/ZnS (0.1 wt %) quantum dot&#x02013;B2 oligomer
+hybrid white light-emitting formulation to enhance adhesion between
+the two PET plastic substrates (2 cm &#x000d7; 2 cm) after photopolymerization.
+The pull-off strength was measured by a universal material testing
+machine to obtain the relationship between the TMSPMA content and
+pull-off strength. As shown in <xref rid="fig10" ref-type="fig">Figure <xref rid="fig10" ref-type="fig">10</xref></xref>, it can be observed that the pull-off strength
+increases with the increasing TMSPMA addition to reach a maximum value
+of 8.9 N/cm<sup>2</sup> at 5 wt % TMSPMA. The enhancement is just
+43.5% higher compared to that (6.2 N/cm<sup>2</sup>) without the addition
+of TMSPMA. This result arises from the hydrolysis of Si&#x02013;(OCH<sub>3</sub>)<sub>3</sub> forming Si&#x02013;(OH)<sub>3</sub> as shown
+in <xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>,I, the
+dehydrated condensation between Si&#x02013;OH and hydrogen bonding
+between Si&#x02013;OH and &#x02212;OH groups on the surface of the PET
+substrate is as shown in <xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>,II. These sequence reactions can be expressed in <xref rid="sch2" ref-type="scheme">Scheme <xref rid="sch2" ref-type="scheme">2</xref></xref>.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p><fig id="fig10" position="float"><label>Figure 10</label><caption><p>Plot of pull-off strength (adhesion) against 3-(trimethoxysilyl)propyl
+methacrylate monomer addition in the CdSe/ZnS (0.1 wt %) quantum dot&#x02013;polymer
+hybrid white light-emitting layer between the two plasma-pretreated
+PET films.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0010" id="gr12" position="float"/></fig><fig id="sch2" position="float"><label>Scheme 2</label><caption><title>Sequence Reactions
+between TMSPMA with the Surface of Plasma-Treated
+PET Films</title><p id="s2fn1">(I) The hydrolysis of trimethoxysilyl
+groups and (II) dehydrated condensation between Si&#x02013;OH and &#x02212;OH
+groups on the surface of the PET substrate.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao-2018-03241p_0012" id="gr2" position="float"/></fig><p>However, the amount of TMSPMA added more than 5 wt % TMSPMA, the
+pull-off strength does not keep rising but decreases from 8.9 to 7.25
+N/cm<sup>2</sup> at 10 wt % TMSPMA. The enhancement is just 16.9%
+higher compared to that (6.2 N/cm<sup>2</sup>) without the addition
+of TMSPMA. This is because TMSPMA is a monofunctional monomer. When
+the addition of TMSPMA is increased higher than 5 wt %, the polymer
+chains formed by photopolymerization is not long as that of 5 wt %
+TMSPMA addition. It is worth noting that the addition of 5 wt % TMSPMA
+has no significant effect on the transparency of the hybrid film and
+the light extraction efficiency of white LEDs.</p></sec></sec><sec id="sec3"><title>Conclusions</title><p>In this study, oleic acid-capped CdSe/ZnS core&#x02013;shell QDs
+were incorporated into an aliphatic acrylate polymer by the solution
+mixing method, followed by photopolymerization. The small amounts
+of QD clusters were uniformly dispersed in the polymer matrix. The
+prepared nanocomposite consisted of 0.1 wt % of CdSe/ZnS QDs showing
+stable optical properties, achieving high white LED performance of
+7976 lm/m<sup>2</sup> under a 30 mA working current. The light emission
+efficiency, CRI, and the color temperature of 14%, 47, and 11&#x02009;204
+K, were obtained at this current. Meanwhile, the incorporation of
+a small amount of QDs improved the thermal stability of the polymer
+matrix. These results are important for the practical application
+of electroluminescent LED devices using the QD package.</p></sec><sec id="sec4"><title>Experimental
+Section</title><sec id="sec4.1"><title>Chemicals</title><p>Cadmium oxide (CdO), tri-<italic>n</italic>-octylphosphine (TOP, purity &#x0003e;97%), and 3-(trimethoxysilyl)propyl
+methacrylate were purchased from Sigma-Aldrich. Octadecene (ODE, Acros),
+oleic acid (OA, Showa), selenium (Se, Alfa Aesar), zinc acetate (Riedel-de
+Ha&#x000eb;n), and sulfur (purity &#x0003e;99%, Riedel-de Ha&#x000eb;n) were
+of reagent grade. Analytic-grade solvents of toluene and ethanol were
+purchased from Echo. A sample of commercially available acrylic acrylate
+oligomer (trade mark, B2) was kindly provided by Hopax Company in
+Taiwan to prepare the QD composites. Diphenyl(2,4,6-trimethylbenzoyl)-phosphine
+oxide (TPO, Darocur), 1-hydroxy-cyclohexyl-phenyl-ketone (Irgacure
+184, Ciba), and 2-methyl-1-[4-(methylthio)phenyl]-2-(4-morpholinyl)-1-propanone
+(Irgacure 907, Ciba) were used as photoinitiators. All chemicals were
+used as received without further purification.</p></sec><sec id="sec4.2"><title>Single-Step Synthesis of
+CdSe/ZnS Quantum Dots with Chemical
+Composition Gradients</title><p>The single-step synthesis method, a
+typical synthetic procedure to synthesize green QDs,<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref26">26</xref></sup> was employed to synthesize CdSe/ZnS quantum dots in this work. In
+brief, 0.4 mmol of cadmium oxide, 4 mmol of zinc acetate, and 4.971
+g (17.6 mmol) of oleic acid (OA) were placed in a 250 mL three-necked
+flask. The mixture was heated to 150 &#x000b0;C, degassed 0.1 Torr pressure
+to remove water for 30 min, purged with N<sub>2</sub> gas, and heated
+to 300 &#x000b0;C and 10 mL of 1-octadecene (ODE) was injected into the
+reacted mixture forming a clear solution of Cd(OA)<sub>2</sub> and
+Zn(OA)<sub>2</sub>. At 300 &#x000b0;C, 0.4 mmol of selenium and 4 mmol
+of sulfur powder were dissolved in 3 mL of trioctylphosphine and were
+rapidly injected into the above reactor. The reaction was set at 300
+&#x000b0;C for 10 min to promote the growth of CdSe/ZnS core&#x02013;shell
+QDs and the reactor was cooled to room temperature to stop the reaction.
+These QDs were further purified by the addition of toluene (20 mL)
+and excess ethanol three times; they were finally redispersed in toluene.</p><p>To synthesize red QDs,<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> 1 mmol of cadmium
+oxide, 4 mmol of zinc acetate, and 5 mL of oleic acid were placed
+in a 250 mL three-necked flask. The mixture was heated to 150 &#x000b0;C,
+degassed 0.1 Torr pressure to remove water for 30 min, purged with
+N<sub>2</sub> gas, and heated to 300 &#x000b0;C and 15 mL of 1-octadecene
+(ODE) was injected into the reacted mixture forming a clear solution
+of Cd(OA)<sub>2</sub> and Zn(OA)<sub>2</sub>. At 300 &#x000b0;C, 0.4
+mL of 1 M selenium-dissolved trioctylphosphine solution was added
+to the above mixture, 4 mmol of sulfur powder was dissolved in 4 mL
+of trioctylphosphine and were injected into the reactor in 30 s. The
+reaction was set at 300 &#x000b0;C for 10 min to promote the growth of
+CdSe/ZnS core&#x02013;shell QDs, and the reactor was cooled to room
+temperature to stop the reaction. These QDs were further purified
+by the addition of toluene (20 mL) and excess ethanol three times;
+they were finally redispersed in toluene.</p></sec><sec id="sec4.3"><title>Preparation of QD&#x02013;Polyacrylate
+Hybrid Light-Emitting
+Films</title><p>A mixed photoinitiator (5 wt % for total mixture, TPO/Irgacure
+184/Irgacure 907 = 2:2:1, by weight ratio) was added to the mixture
+of quantum dots, B2 oligomer (<xref rid="sch1" ref-type="scheme">Scheme <xref rid="sch1" ref-type="scheme">1</xref></xref>, molecular distribution refers to <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.8b03241/suppl_file/ao8b03241_si_001.pdf">Supporting Information</ext-link>), and monomers. The mixture was uniformly
+mixed and then spin-coated on the glass substrate. The single-color
+organic light-emitting film was obtained by photopolymerization using
+36 W UV light for 1.5 min. The thickness of the organic light-emitting
+film was controlled at about 1 mm by adjusting the speed of spin-coating.</p></sec><sec id="sec4.4"><title>Fabrication of White LEDs</title><p>Red and green quantum dots
+were blended with an appropriate ratio and added to a mixture of oligomer,
+monomer, and photoinitiator. This mixture was stirred to obtain a
+uniform dispersion of QDs and dropped on the surface of a blue LED
+chip (emitting wavelength at 460 nm) which was then photopolymerized
+through irradiation for 90 s on 36 WLED-bulb UV light. When the switch
+of the QD-hybrid film covered blue chip was turned on, a white light-emitting
+LED was obtained and the PL spectrum and CIE-1931 coordinates were
+measured.</p></sec><sec id="sec4.5"><title>Characterization and Measurements</title><p>Particle shape and
+size of the quantum dots were estimated by using a transmission electron
+microscope (TEM, JEM-1230, JEOL Ltd., Japan) using an acceleration
+voltage of 80 kV. The film surface morphology was observed on a field
+emission scanning electron microscope (FESEM, Hitachi, S4800). An
+energy dispersive spectrometer (EDS, Genesis XM 4i Energy Dispersive
+X-ray Analysis System, FEI) was used to observe elemental distribution
+of cross-section in QD&#x02013;polymer hybrid films, confirming the
+dispersion of QDs in the polymer matrix. Atomic force microscopy (AFM)
+images were taken for samples on a NT-MDT Solver PRO-M AFM operated
+at 200 kV. The crystal structures of CdSe-QDs were measured using
+an X-ray diffractometer (Bruker D8 ADVANCE X) with Cu radiation. UV&#x02013;vis
+absorption and transmittance spectra were measured using a Perkin-Elmer
+Lambda UV&#x02013;vis spectrophotometer using toluene as a background.
+The as-prepared quantum dots were diluted using toluene and placed
+in a quartz cell for measurement. The as-prepared quantum dots were
+diluted using toluene and placed in a quartz cell, and the prepared
+organic light-emitting film was placed on a solid stand. Photoluminescence
+(PL) spectra were recorded using a Hitachi F-7000 fluorescence spectrophotometer
+exciting at a wavelength of 440 nm to confirm the peak position of
+the fluorescence emission spectrum of the material. Thermogravimetric
+analysis (TGA) was measured on a thermogravimetric analyzer (SDT-Q600,
+TA) scanning from 25 to 800 &#x000b0;C. The analysis was performed at
+initial temperatures of 25 and 120 &#x000b0;C for 10 min to remove water
+at a heating rate of 20 &#x000b0;C/min. The CIE coordinates of a white
+LED device and QD-hybrid light-emitting film were determined on a
+lighting spectrometer (Model 14-1, Lighting Passport) using a UV light
+source excited at a wavelength of 365 nm. The fabricated white LEDs
+were employed to measure the color rendering index (CRI) and color
+temperature at different current densities from 10 to 50 mA. The luminous
+flux was measured by different current densities of 10&#x02013;50 mA
+for the fabricated white LEDs and the original blue LED chip, respectively.
+The light extraction efficiency was calculated using the ratio of
+the above two luminous flux.</p></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsomega.8b03241">10.1021/acsomega.8b03241</ext-link>.<list id="silist" list-type="simple"><list-item><p>Gel permeation
+chromatography for B2 aliphatic acrylic
+acrylate; GPC results of B2 aliphatic acrylic acrylate; CdSe/ZnS QDs
+in a mixture of B2 oligomer, TMSPMA monomer, and photoinitiators;
+red and green CdSe/ZnS QD/polymer-based WLED (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsomega.8b03241/suppl_file/ao8b03241_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ao8b03241_si_001.pdf"><caption><p>ao8b03241_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes-2"><title>Author Contributions</title><p><sup>&#x02020;</sup> C.-C.C.,
+T.-L.W., W.-J.C., and C.-H.Y. contributed equally.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e618-autogenerated"><p>The authors declare
+no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work was funded by the Ministry of Science and Technology,
+Taiwan (Grant Nos. MOST 107-2221-E-390-012 and MOST 106-2221-E-390-025).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="patent" id="cit1"><person-group person-group-type="allauthors"><name><surname>Shimizu</surname><given-names>Y.</given-names></name>; <name><surname>Sakano</surname><given-names>K.</given-names></name>; <name><surname>Noguchi</surname><given-names>Y.</given-names></name>; <name><surname>Moriguchi</surname><given-names>T.</given-names></name></person-group><article-title>Light Emitting
+Device Having a Nitride Compound Semiconductor and a Phosphor Containing
+a Garnet Fluorescent Material</article-title>. U.S. Patent <patent>US5998925A</patent>, <year>1999</year>.</mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Heliotis</surname><given-names>G.</given-names></name>; <name><surname>Stavrinou</surname><given-names>P. N.</given-names></name>; <name><surname>Bradley</surname><given-names>D. D. C.</given-names></name>; <name><surname>Gu</surname><given-names>E.</given-names></name>; <name><surname>Griffin</surname><given-names>C.</given-names></name>; <name><surname>Jeon</surname><given-names>C. W.</given-names></name>; <name><surname>Dawson</surname><given-names>M. D.</given-names></name>
+<article-title>Spectral Conversion of InGaN Ultraviolet
+Microarray Light-Emitting Diodes Using Fluorene-Based Red-, Green-,
+Blue-, and White-Light-Emitting Polymer Overlayer Films</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2005</year>, <volume>87</volume>, <elocation-id>103505</elocation-id><pub-id pub-id-type="doi">10.1063/1.2039991</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Nizamoglu</surname><given-names>S.</given-names></name>; <name><surname>Ozel</surname><given-names>T.</given-names></name>; <name><surname>Sari</surname><given-names>E.</given-names></name>; <name><surname>Demir</surname><given-names>H. V.</given-names></name>
+<article-title>White light generation
+using CdSe/ZnS core&#x02013;shell nanocrystals hybridized with InGaN/GaN
+light emitting diodes</article-title>. <source>Nanotechnology</source>
+<year>2007</year>, <volume>18</volume>, <elocation-id>065709</elocation-id><pub-id pub-id-type="doi">10.1088/0957-4484/18/6/065709</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Wang</surname><given-names>H.</given-names></name>; <name><surname>Lee</surname><given-names>K. S.</given-names></name>; <name><surname>Ryu</surname><given-names>J. H.</given-names></name>; <name><surname>Hong</surname><given-names>C. H.</given-names></name>; <name><surname>Cho</surname><given-names>Y. H.</given-names></name>
+<article-title>White Light
+Emitting Diodes Realized by Using an Active Packaging Method with
+CdSe/ZnS Quantum Dots Dispersed in Photosensitive Epoxy Resins</article-title>. <source>Nanotechnology</source>
+<year>2008</year>, <volume>19</volume>, <elocation-id>145202</elocation-id><pub-id pub-id-type="doi">10.1088/0957-4484/19/14/145202</pub-id>.<pub-id pub-id-type="pmid">21817754</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Doneg&#x000e1;</surname><given-names>C. D. M.</given-names></name>
+<article-title>Synthesis
+and Properties of Colloidal Heteronanocrystals</article-title>. <source>Chem. Soc. Rev.</source>
+<year>2011</year>, <volume>40</volume>, <fpage>1512</fpage>&#x02013;<lpage>1546</lpage>. <pub-id pub-id-type="doi">10.1039/C0CS00055H</pub-id>.<pub-id pub-id-type="pmid">20972490</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Jin</surname><given-names>X.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Wang</surname><given-names>H.</given-names></name>; <name><surname>Xu</surname><given-names>H.</given-names></name>; <name><surname>Cheng</surname><given-names>Y.</given-names></name>; <name><surname>Wei</surname><given-names>T.</given-names></name>; <name><surname>Qin</surname><given-names>Y.</given-names></name>; <name><surname>Luo</surname><given-names>X.</given-names></name>; <name><surname>Sun</surname><given-names>W.</given-names></name>; <name><surname>Luo</surname><given-names>S.</given-names></name>
+<article-title>Nd<sub>2</sub>(S, Se,
+Te)<sub>3</sub> Colloidal Quantum Dots: Synthesis, Energy
+Level Alignment, Charge Transfer Dynamics, and Their Applications
+to Solar Cells</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2016</year>, <volume>26</volume>, <fpage>254</fpage>&#x02013;<lpage>266</lpage>. <pub-id pub-id-type="doi">10.1002/adfm.201503433</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Jin</surname><given-names>X.</given-names></name>; <name><surname>Yang</surname><given-names>X.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Chen</surname><given-names>Z.</given-names></name>; <name><surname>Qin</surname><given-names>Y.</given-names></name>; <name><surname>Wei</surname><given-names>T.</given-names></name>; <name><surname>Sun</surname><given-names>W.</given-names></name>
+<article-title>Reducing the Excess Energy Offset in Organic/Inorganic
+Hybrid Solar Cells: Toward Faster Electron Transfer</article-title>. <source>Appl. Catal., B</source>
+<year>2015</year>, <volume>162</volume>, <fpage>524</fpage>&#x02013;<lpage>531</lpage>. <pub-id pub-id-type="doi">10.1016/j.apcatb.2014.07.025</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Bai</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>T.</given-names></name>; <name><surname>Nie</surname><given-names>C.</given-names></name>; <name><surname>Duan</surname><given-names>J.</given-names></name>; <name><surname>Tang</surname><given-names>Q.</given-names></name>
+<article-title>CdZnSe@ZnSe
+Colloidal Alloy Quantum Dots for High-Efficiency All-Inorganic Perovskite
+Solar Cells</article-title>. <source>Chem. Commun.</source>
+<year>2018</year>, <volume>54</volume>, <fpage>9575</fpage>&#x02013;<lpage>9578</lpage>. <pub-id pub-id-type="doi">10.1039/C8CC05517C</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Li</surname><given-names>Q.</given-names></name>; <name><surname>Li</surname><given-names>H.</given-names></name>; <name><surname>Shen</surname><given-names>H.</given-names></name>; <name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Zhao</surname><given-names>F.</given-names></name>; <name><surname>Li</surname><given-names>F.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Li</surname><given-names>D.</given-names></name>; <name><surname>Jin</surname><given-names>X.</given-names></name>; <name><surname>Sun</surname><given-names>W.</given-names></name>
+<article-title>Solid Ligand-Assisted
+Storage of Air-Stable Formamidinium Lead Halide Quantum Dots via Restraining
+the Highly Dynamic Surface toward Brightly Luminescent Light-Emitting
+Diodes</article-title>. <source>ACS Photonics</source>
+<year>2017</year>, <volume>4</volume>, <fpage>2504</fpage>&#x02013;<lpage>2512</lpage>. <pub-id pub-id-type="doi">10.1021/acsphotonics.7b00743</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Weaver</surname><given-names>J.</given-names></name>; <name><surname>Zakeri</surname><given-names>R.</given-names></name>; <name><surname>Aouadi</surname><given-names>S.</given-names></name>; <name><surname>Kohli</surname><given-names>P.</given-names></name>
+<article-title>Synthesis
+and Characterization
+of Quantum Dot&#x02013;Polymer Composites</article-title>. <source>J.
+Mater. Chem.</source>
+<year>2009</year>, <volume>19</volume>, <fpage>3198</fpage>&#x02013;<lpage>3206</lpage>. <pub-id pub-id-type="doi">10.1039/b820204d</pub-id>.<pub-id pub-id-type="pmid">19936033</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Shi</surname><given-names>H. Q.</given-names></name>; <name><surname>Lia</surname><given-names>W. N.</given-names></name>; <name><surname>Xiao</surname><given-names>H. M.</given-names></name>; <name><surname>Luo</surname><given-names>Y. S.</given-names></name>; <name><surname>Fu</surname><given-names>S. Y.</given-names></name>; <name><surname>Liu</surname><given-names>T. X.</given-names></name>
+<article-title>Tunable
+Photo-Luminescent Properties
+of Novel Transparent CdSe-QD/Silicone Nanocomposites</article-title>. <source>Compos. Sci. Technol.</source>
+<year>2011</year>, <volume>71</volume>, <fpage>1652</fpage>&#x02013;<lpage>1658</lpage>. <pub-id pub-id-type="doi">10.1016/j.compscitech.2011.07.015</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Green</surname><given-names>M.</given-names></name>
+<article-title>The nature
+of quantum dot capping ligands</article-title>. <source>J. Mater. Chem.</source>
+<year>2010</year>, <volume>20</volume>, <fpage>5797</fpage>&#x02013;<lpage>5809</lpage>. <pub-id pub-id-type="doi">10.1039/c0jm00007h</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Kloepfer</surname><given-names>J. A.</given-names></name>; <name><surname>Bradforth</surname><given-names>S. E.</given-names></name>; <name><surname>Nadeau</surname><given-names>J. L.</given-names></name>
+<article-title>Photophysical Properties of Biologically
+Compatible CdSe Quantum Dot Structures</article-title>. <source>J. Phys.
+Chem. B</source>
+<year>2005</year>, <volume>109</volume>, <fpage>9996</fpage>&#x02013;<lpage>10003</lpage>. <pub-id pub-id-type="doi">10.1021/jp044581g</pub-id>.<pub-id pub-id-type="pmid">16852208</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Hines</surname><given-names>M. A.</given-names></name>; <name><surname>Guyot-Sionnest</surname><given-names>P.</given-names></name>
+<article-title>Synthesis
+and Characterization of Strongly Luminescing
+ZnS-Capped CdSe Nanocrystals</article-title>. <source>J. Phys. Chem.</source>
+<year>1996</year>, <volume>100</volume>, <fpage>468</fpage>&#x02013;<lpage>471</lpage>. <pub-id pub-id-type="doi">10.1021/jp9530562</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Carrillo-Carri&#x000f3;n</surname><given-names>C.</given-names></name>; <name><surname>Cardenas</surname><given-names>S.</given-names></name>; <name><surname>Simonet</surname><given-names>B. M.</given-names></name>; <name><surname>Valcarcel</surname><given-names>M.</given-names></name>
+<article-title>Quantum Dots
+Luminescence Enhancement due to Illumination with UV/Vis Light</article-title>. <source>Chem. Commun.</source>
+<year>2009</year>, <fpage>5214</fpage>&#x02013;<lpage>5226</lpage>. <pub-id pub-id-type="doi">10.1039/b904381k</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Karan</surname><given-names>S.</given-names></name>; <name><surname>Majumder</surname><given-names>M.</given-names></name>; <name><surname>Mallik</surname><given-names>B.</given-names></name>
+<article-title>Controlled
+Surface Trap State Photoluminescence
+from CdS QDs Impregnated in Poly(methyl methacrylate)</article-title>. <source>Photochem. Photobiol. Sci.</source>
+<year>2012</year>, <volume>11</volume>, <fpage>1220</fpage>&#x02013;<lpage>1232</lpage>. <pub-id pub-id-type="doi">10.1039/c2pp25023c</pub-id>.<pub-id pub-id-type="pmid">22544362</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Su&#x000e1;rez</surname><given-names>I.</given-names></name>; <name><surname>Gordillo</surname><given-names>H.</given-names></name>; <name><surname>Abargues</surname><given-names>R.</given-names></name>; <name><surname>Albert</surname><given-names>S.</given-names></name>; <name><surname>Pastor</surname><given-names>J. M.</given-names></name>
+<article-title>Photoluminescence
+Waveguiding in CdSe and CdTe QDs&#x02013;PMMA Nanocomposite Films</article-title>. <source>Nanotechnology</source>
+<year>2011</year>, <volume>22</volume>, <elocation-id>435202</elocation-id><pub-id pub-id-type="doi">10.1088/0957-4484/22/43/435202</pub-id>.<pub-id pub-id-type="pmid">21955572</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Ghoswami</surname><given-names>M.</given-names></name>; <name><surname>Ghosh</surname><given-names>R.</given-names></name>; <name><surname>Chakraborty</surname><given-names>G.</given-names></name>; <name><surname>Gupta</surname><given-names>K.</given-names></name>; <name><surname>Meikap</surname><given-names>A. K.</given-names></name>
+<article-title>Optical
+and Electrical Properties of Polyaniline-Cadmium Sulfide Nanocomposite</article-title>. <source>Polym. Compos.</source>
+<year>2011</year>, <volume>32</volume>, <fpage>2017</fpage>&#x02013;<lpage>2028</lpage>. <pub-id pub-id-type="doi">10.1002/pc.21235</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Sun</surname><given-names>D.</given-names></name>; <name><surname>Everett</surname><given-names>W. N.</given-names></name>; <name><surname>Wong</surname><given-names>M.</given-names></name>; <name><surname>Sue</surname><given-names>H. J.</given-names></name>; <name><surname>Miyatak</surname><given-names>N.</given-names></name>
+<article-title>Tuning of
+the Dispersion of Ligand-Free ZnO Quantum Dots in Polymer Matrices
+with Exfoliated Nanoplatelets</article-title>. <source>Macromolecules</source>
+<year>2009</year>, <volume>42</volume>, <fpage>1665</fpage>&#x02013;<lpage>1671</lpage>. <pub-id pub-id-type="doi">10.1021/ma801979c</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Song</surname><given-names>H.</given-names></name>; <name><surname>Lee</surname><given-names>S.</given-names></name>
+<article-title>Photoluminescent (CdSe)ZnS quantum dot&#x02013;polymethylmethacrylate
+polymer composite thin films in the visible spectral range</article-title>. <source>Nanotechnology</source>
+<year>2007</year>, <volume>18</volume>, <elocation-id>055402</elocation-id><pub-id pub-id-type="doi">10.1088/0957-4484/18/5/055402</pub-id>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Peres</surname><given-names>M.</given-names></name>; <name><surname>Costa</surname><given-names>L. C.</given-names></name>; <name><surname>Neves</surname><given-names>A.</given-names></name>; <name><surname>Soares</surname><given-names>M. J.</given-names></name>; <name><surname>Monteiro</surname><given-names>T.</given-names></name>; <name><surname>Esteves</surname><given-names>A. C.</given-names></name>; <name><surname>Timmon</surname><given-names>A. B.</given-names></name>; <name><surname>Trindade</surname><given-names>T.</given-names></name>; <name><surname>Kholkin</surname><given-names>A.</given-names></name>; <name><surname>Alves</surname><given-names>E.</given-names></name>
+<article-title>A Green-Emitting CdSe/Poly(butyl
+acrylate) Nanocomposite</article-title>. <source>Nanotechnology</source>
+<year>2005</year>, <volume>16</volume>, <fpage>1969</fpage>&#x02013;<lpage>1973</lpage>. <pub-id pub-id-type="doi">10.1088/0957-4484/16/9/091</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Lee</surname><given-names>C. W.</given-names></name>; <name><surname>Renaud</surname><given-names>C.</given-names></name>; <name><surname>Hsu</surname><given-names>C. S.</given-names></name>; <name><surname>Nguyen</surname><given-names>T. P.</given-names></name>
+<article-title>Traps and Performance
+of MEH-PPV/CdSe(ZnS) Nanocomposite-Based Organic Light-Emitting Diodes</article-title>. <source>Nanotechnology</source>
+<year>2008</year>, <volume>19</volume>, <elocation-id>455202</elocation-id><pub-id pub-id-type="doi">10.1088/0957-4484/19/45/455202</pub-id>.<pub-id pub-id-type="pmid">21832764</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Li</surname><given-names>W. N.</given-names></name>; <name><surname>Luo</surname><given-names>Y. S.</given-names></name>; <name><surname>Xiao</surname><given-names>H. M.</given-names></name>; <name><surname>Fu</surname><given-names>S. Y.</given-names></name>; <name><surname>Mai</surname><given-names>Y. W.</given-names></name>
+<article-title>Novel Ultraviolet-Opaque,
+Visible-Transparent and Light-Emitting
+ZnO-QD/Silicone Composites with Tunable Luminescence Colors</article-title>. <source>Polymer</source>
+<year>2010</year>, <volume>51</volume>, <fpage>2755</fpage>&#x02013;<lpage>2762</lpage>. <pub-id pub-id-type="doi">10.1016/j.polymer.2010.03.056</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Chen</surname><given-names>H. S.</given-names></name>; <name><surname>Hong</surname><given-names>H. Y.</given-names></name>; <name><surname>Kumar</surname><given-names>R. V.</given-names></name>
+<article-title>White Light
+Emission from Semiconductor
+Nanocrystals by <italic>In Situ</italic> Colour Tuning in an Alternating
+Thermodynamic&#x02013;Kinetic Fashion</article-title>. <source>J. Mater.
+Chem.</source>
+<year>2011</year>, <volume>21</volume>, <fpage>5928</fpage>&#x02013;<lpage>5932</lpage>. <pub-id pub-id-type="doi">10.1039/c1jm10310e</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Bae</surname><given-names>W. K.</given-names></name>; <name><surname>Char</surname><given-names>K.</given-names></name>; <name><surname>Hur</surname><given-names>H.</given-names></name>; <name><surname>Lee</surname><given-names>S. H.</given-names></name>
+<article-title>Single-Step Synthesis
+of Quantum Dots with Chemical Composition Gradients</article-title>. <source>Chem. Mater.</source>
+<year>2008</year>, <volume>20</volume>, <fpage>531</fpage>&#x02013;<lpage>539</lpage>. <pub-id pub-id-type="doi">10.1021/cm070754d</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Bae</surname><given-names>W. K.</given-names></name>; <name><surname>Kwak</surname><given-names>J.</given-names></name>; <name><surname>Park</surname><given-names>J. W.</given-names></name>; <name><surname>Char</surname><given-names>K.</given-names></name>; <name><surname>Lee</surname><given-names>C.</given-names></name>; <name><surname>Lee</surname><given-names>S.</given-names></name>
+<article-title>Highly Efficient Green-Light-Emitting
+Diodes Based on CdSe@ZnS Quantum
+Dots with a Chemical-Composition Gradient</article-title>. <source>Adv.
+Mater.</source>
+<year>2009</year>, <volume>21</volume>, <fpage>1690</fpage>&#x02013;<lpage>1694</lpage>. <pub-id pub-id-type="doi">10.1002/adma.200801908</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Cho</surname><given-names>J.</given-names></name>; <name><surname>Jung</surname><given-names>Y. K.</given-names></name>; <name><surname>Lee</surname><given-names>J. K.</given-names></name>
+<article-title>Kinetic
+Studies on the Formation
+of Various II&#x02013;VI Semiconductor Nanocrystals and Synthesis of
+Gradient Alloy Quantum Dots Emitting in the Entire Visible Range</article-title>. <source>J. Mater. Chem.</source>
+<year>2012</year>, <volume>22</volume>, <fpage>10827</fpage>&#x02013;<lpage>10833</lpage>. <pub-id pub-id-type="doi">10.1039/c2jm16448e</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Korala</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>Z.</given-names></name>; <name><surname>Liu</surname><given-names>Y.</given-names></name>; <name><surname>Maldonado</surname><given-names>S.</given-names></name>; <name><surname>Brock</surname><given-names>S. L.</given-names></name>
+<article-title>Uniform Thin Films of CdSe and CdSe(ZnS)
+Core(Shell)
+Quantum Dots by Sol-Gel Assembly: Enabling Photoelectrochemical Characterization
+and Electronic Applications</article-title>. <source>ACS Nano</source>
+<year>2013</year>, <volume>7</volume>, <fpage>1215</fpage>&#x02013;<lpage>1223</lpage>. <pub-id pub-id-type="doi">10.1021/nn304563j</pub-id>.<pub-id pub-id-type="pmid">23350924</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Biju</surname><given-names>V.</given-names></name>; <name><surname>Makita</surname><given-names>Y.</given-names></name>; <name><surname>Sonoda</surname><given-names>A.</given-names></name>; <name><surname>Yokoyama</surname><given-names>H.</given-names></name>; <name><surname>Baba</surname><given-names>Y.</given-names></name>; <name><surname>Ishikawa</surname><given-names>M.</given-names></name>
+<article-title>Temperature-Sensitive Photoluminescence of CdSe Quantum
+Dot Clusters</article-title>. <source>J. Phys. Chem. B</source>
+<year>2005</year>, <volume>109</volume>, <fpage>13899</fpage>&#x02013;<lpage>13905</lpage>. <pub-id pub-id-type="doi">10.1021/jp050424l</pub-id>.<pub-id pub-id-type="pmid">16852744</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Zhong</surname><given-names>K.</given-names></name>; <name><surname>Meng</surname><given-names>L.</given-names></name>; <name><surname>Van Hemelrijck</surname><given-names>D.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>Glorieux</surname><given-names>C.</given-names></name>
+<article-title>Temperature-Sensitive Photoluminescent
+CdSe-ZnS Polymer Composite Film for Lock-in Photothermal Characterization</article-title>. <source>J. Appl. Phys.</source>
+<year>2016</year>, <volume>119</volume>, <elocation-id>224902</elocation-id><pub-id pub-id-type="doi">10.1063/1.4953591</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Valerini</surname><given-names>D.</given-names></name>; <name><surname>Cret&#x000ed;</surname><given-names>A.</given-names></name>; <name><surname>Lomascolo</surname><given-names>M.</given-names></name>; <name><surname>Manna</surname><given-names>L.</given-names></name>; <name><surname>Cingolani</surname><given-names>R.</given-names></name>; <name><surname>Anni</surname><given-names>M.</given-names></name>
+<article-title>Temperature Dependence of the Photoluminescence Properties of Colloidal
+CdSe/ZnS Core/Shell Quantum Dots Embedded in a Polystyrene Matrix</article-title>. <source>Phys. Rev. B</source>
+<year>2005</year>, <volume>71</volume>, <elocation-id>235409</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.71.235409</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Joshi</surname><given-names>A.</given-names></name>; <name><surname>Narsingi</surname><given-names>K. Y.</given-names></name>; <name><surname>Manasreh</surname><given-names>M. O.</given-names></name>; <name><surname>Davis</surname><given-names>E. A.</given-names></name>; <name><surname>Weaver</surname><given-names>B. D.</given-names></name>
+<article-title>Temperature
+Dependence of the Band Gap of Colloidal CdSe/ZnS Core/Shell Nanocrystals
+Embedded into an Ultraviolet Curable Resin</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2006</year>, <volume>89</volume>, <elocation-id>131907</elocation-id><pub-id pub-id-type="doi">10.1063/1.2357856</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Trung</surname><given-names>N. N.</given-names></name>; <name><surname>Luu</surname><given-names>Q. P.</given-names></name>; <name><surname>Son</surname><given-names>B. T.</given-names></name>; <name><surname>Sinh</surname><given-names>L. H.</given-names></name>; <name><surname>Bae</surname><given-names>J. Y.</given-names></name>
+<article-title>Preparation
+and Characterization of Silicone Resin Nanocomposite Containing CdSe/ZnS
+Quantum Dots</article-title>. <source>Polym. Compos.</source>
+<year>2012</year>, <volume>33</volume>, <fpage>1785</fpage>&#x02013;<lpage>1791</lpage>. <pub-id pub-id-type="doi">10.1002/pc.22320</pub-id>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Kim</surname><given-names>S.</given-names></name>; <name><surname>Cho</surname><given-names>A.</given-names></name>; <name><surname>Kim</surname><given-names>S.</given-names></name>; <name><surname>Cho</surname><given-names>W.</given-names></name>; <name><surname>Chung</surname><given-names>M. H.</given-names></name>; <name><surname>Kim</surname><given-names>F. S.</given-names></name>; <name><surname>Kim</surname><given-names>J. H.</given-names></name>
+<article-title>Multi-Purpose Overcoating Layers Based on PVA/Silane
+Hybrid Composites for Highly Transparent, Flexible, and Durable AgNW/PEDOT:PSS
+Films</article-title>. <source>RSC Adv.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>19280</fpage>&#x02013;<lpage>19287</lpage>. <pub-id pub-id-type="doi">10.1039/C5RA27311K</pub-id>.</mixed-citation></ref></ref-list></back></article>

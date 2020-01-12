@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Therefore, 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>X</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>Y</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mn>0</mn>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The effective length of 
+ <italic>a</italic> and 
+ <italic>b</italic> is defined by: 
+ <disp-formula id="FD9-nanomaterials-09-00978">
+  <math id="mm37">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>a</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>a</mi>
+     </msubsup>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mi>ξ</mi>
+         <mo>,</mo>
+         <mn>0</mn>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi>ξ</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD10-nanomaterials-09-00978">
+  <label>(8)</label>
+  <math id="mm38">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>b</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>=</mo>
+     <msubsup>
+      <mo mathsize="small">∫</mo>
+      <mn>0</mn>
+      <mi>b</mi>
+     </msubsup>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>U</mi>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>ξ</mi>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+     </msup>
+     <mi>d</mi>
+     <mi>ξ</mi>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

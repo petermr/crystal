@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>This comparison would not be complete without considering the time structure required for the ToF methods. Modern high-performance photon sources (storage rings, FELs, laser-based HHG sources, low-energy laser sources) are all characterized by a time-structure with pulse widths sufficiently small for ToF operation. The time resolution is limited not by the source but by the detector. The present generation of DLDs have time resolutions of ∼150 ps which will soon be improved by a factor of two in a new generation of DLDs with different recording architecture [
+ <ext-link ext-link-type="uri" xlink:href="http://www.surface-concept.de" xmlns:xlink="http://www.w3.org/1999/xlink">http://www.surface-concept.de</ext-link>]. An obstacle is posed by the repetition rate, because the desired spectrum has to be ‘squeezed’ into the time interval between adjacent photon pulses. Aiming at 1000 resolvable points in a full energy spectrum (more precisely, 1000 resolvable time slices), intervals of 200 ns or more are fine. This translates into pulse rates of 5 MHz or less. The data shown below have been recorded using the 40-bunch mode of PETRA III (5 MHz); this criterion is also fulfilled at the free-electron laser FLASH [1 MHz, where ToF 
+ <italic>k</italic>-microscopy has been successfully implemented (Kutnyakhov 
+ <italic>et al.</italic>, 2019
+ <xref ref-type="bibr" rid="bb38"> ▸</xref>)], the European XFEL (where such a microscope will be installed at SASE3), and further upcoming FEL sources like LCLS II. The most common 500 MHz filling pattern of most storage rings is not directly suitable for ToF-recording. However, the effective pulse rate can be reduced by a synchronized mechanical chopper, selecting, for example, the camshaft pulse in the filling pattern (Kühn 
+ <italic>et al.</italic>, 2018
+ <xref ref-type="bibr" rid="bb36"> ▸</xref>). Another approach is based on the generation of ‘transverse-resonance island buckets’ on a second stable orbit in the ring that can be filled with a lower bunch number. The latter approach was implemented at BESSY II in a test beam time (Goslawski 
+ <italic>et al.</italic>, 2019
+ <xref ref-type="bibr" rid="bb22"> ▸</xref>) and the second orbit filled by a single bunch could be used in the ToF 
+ <italic>k</italic>-microscope parallel to standard multi-bunch operation of the main orbit.
+</p>

@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0165">The series for the transition amplitude 
+ <inline-formula>
+  <math id="M36" altimg="si29.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is as follows
+ <disp-formula id="fd2">
+  <label>(2)</label>
+  <math id="M37" altimg="si30.svg" alttext="Equation 2.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munderover>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>n</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>∞</mi>
+     </mrow>
+    </munderover>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mrow>
+        <mo>〈</mo>
+        <mrow>
+         <mi>f</mi>
+        </mrow>
+        <mrow>
+         <mo stretchy="true">|</mo>
+        </mrow>
+        <msub>
+         <mrow>
+          <mi>I</mi>
+         </mrow>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mrow>
+         <mo stretchy="true">|</mo>
+        </mrow>
+        <mrow>
+         <mi>l</mi>
+        </mrow>
+        <mo>〉</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mo>!</mo>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where
+ <disp-formula id="fd3">
+  <label>(3)</label>
+  <math id="M38" altimg="si31.svg" alttext="Equation 3.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>i</mi>
+          <mi>ℏ</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msup>
+    <mi>P</mi>
+    <mrow>
+     <munderover>
+      <mo movablelimits="false">∫</mo>
+      <mrow>
+       <mn>0</mn>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+      </mrow>
+     </munderover>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mrow>
+    <mrow>
+     <munderover>
+      <mo movablelimits="false">∫</mo>
+      <mrow>
+       <mn>0</mn>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+      </mrow>
+     </munderover>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mrow>
+    <mn>...</mn>
+    <mrow>
+     <munderover>
+      <mo movablelimits="false">∫</mo>
+      <mrow>
+       <mn>0</mn>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+      </mrow>
+     </munderover>
+     <mrow>
+      <mi>d</mi>
+      <msub>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mi>n</mi>
+       </mrow>
+      </msub>
+      <mrow>
+       <mover accent="true">
+        <mi>W</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>t</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mrow>
+       <mover accent="true">
+        <mi>W</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>t</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mn>...</mn>
+      <mrow>
+       <mover accent="true">
+        <mi>W</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>t</mi>
+         </mrow>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+ <inline-formula>
+  <math id="M39" altimg="si32.svg">
+   <mrow>
+    <mi>P</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the Dyson's chronological operator and
+ <disp-formula id="fd4">
+  <label>(4)</label>
+  <math id="M40" altimg="si33.svg" alttext="Equation 4.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>W</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mi>t</mi>
+     </mrow>
+    </msup>
+    <mi>W</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mi>t</mi>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </disp-formula>is the perturbation operator in the interaction representation. The series of TDPT converges in atomic and nuclear physics, as in the matrix elements of transitions 
+ <inline-formula>
+  <math id="M41" altimg="si34.svg">
+   <mrow>
+    <mrow>
+     <mo>〈</mo>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <msub>
+      <mrow>
+       <mi>I</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi>t</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">|</mo>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in the amplitude 
+ <xref rid="fd2" ref-type="disp-formula">(2)</xref>, due to quantum jumps, the dynamics of quantum transitions is not contained by definition, and for many problems it suffices to confine oneself to the first order of TDPT. The probability of a quantum transition from state 
+ <inline-formula>
+  <math id="M42" altimg="si35.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> to state 
+ <inline-formula>
+  <math id="M43" altimg="si36.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> during the time of the perturbation 
+ <inline-formula>
+  <math id="M44" altimg="si37.svg">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is determined by the formula (“Fermi's golden rule”, see Ref. [
+ <xref rid="bib61" ref-type="bibr">61</xref>])
+ <disp-formula id="fd5">
+  <label>(5)</label>
+  <math id="M45" altimg="si38.svg" alttext="Equation 5.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ℑ</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi>A</mi>
+         </mrow>
+         <mrow>
+          <mi>f</mi>
+          <mi>l</mi>
+         </mrow>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>τ</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo movablelimits="false">∫</mo>
+          <mrow>
+           <mn>0</mn>
+          </mrow>
+          <mrow>
+           <mi>τ</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mrow>
+           <mo>〈</mo>
+           <mrow>
+            <mi>f</mi>
+           </mrow>
+           <mo stretchy="true">|</mo>
+          </mrow>
+          <mrow>
+           <mover accent="true">
+            <mi>W</mi>
+            <mo>˜</mo>
+           </mover>
+          </mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mi>t</mi>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+          <mrow>
+           <mo stretchy="true">|</mo>
+           <mrow>
+            <mi>l</mi>
+           </mrow>
+           <mo>〉</mo>
+          </mrow>
+          <msup>
+           <mrow>
+            <mi>e</mi>
+           </mrow>
+           <mrow>
+            <mi>i</mi>
+            <msub>
+             <mrow>
+              <mi>ω</mi>
+             </mrow>
+             <mrow>
+              <mi>f</mi>
+              <mi>l</mi>
+             </mrow>
+            </msub>
+            <mi>t</mi>
+           </mrow>
+          </msup>
+          <mi>d</mi>
+          <mi>t</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M46" altimg="si39.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">−</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M47" altimg="si40.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M48" altimg="si41.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the energies of stationary states.
+</p>

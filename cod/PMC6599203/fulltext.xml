@@ -1,0 +1,653 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//Springer-Verlag//DTD A++ V2.4//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName A++V2.4.dtd?><?SourceDTD.Version 2.4?><?ConverterInfo.XSLTName springer2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group UK</publisher-name><publisher-loc>London</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6599203</article-id><article-id pub-id-type="publisher-id">45782</article-id><article-id pub-id-type="doi">10.1038/s41598-019-45782-z</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Raman scattering yields cubic crystal grain orientation</article-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7537-9906</contrib-id><name><surname>Tesar</surname><given-names>K.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref><xref ref-type="aff" rid="Aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Gregora</surname><given-names>I.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Beresova</surname><given-names>P.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Vanek</surname><given-names>P.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8542-0685</contrib-id><name><surname>Ondrejkovic</surname><given-names>P.</given-names></name><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author" corresp="yes"><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9293-4462</contrib-id><name><surname>Hlinka</surname><given-names>J.</given-names></name><address><email>hlinka@fzu.cz</email></address><xref ref-type="aff" rid="Aff1">1</xref></contrib><aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0634 148X</institution-id><institution-id institution-id-type="GRID">grid.424881.3</institution-id><institution>Institute of Physics of the Czech Academy of Sciences, </institution></institution-wrap>Na Slovance 2, Prague 8, 182 21 Czech Republic </aff><aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000000121738213</institution-id><institution-id institution-id-type="GRID">grid.6652.7</institution-id><institution>Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering, Department of Materials, </institution></institution-wrap>Trojanova 13, Praha 2, 120 00 Czech Republic </aff></contrib-group><pub-date pub-type="epub"><day>28</day><month>6</month><year>2019</year></pub-date><pub-date pub-type="pmc-release"><day>28</day><month>6</month><year>2019</year></pub-date><pub-date pub-type="collection"><year>2019</year></pub-date><volume>9</volume><elocation-id>9385</elocation-id><history><date date-type="received"><day>23</day><month>4</month><year>2019</year></date><date date-type="accepted"><day>14</day><month>6</month><year>2019</year></date></history><permissions><copyright-statement>&#x000a9; The Author(s) 2019</copyright-statement><license license-type="OpenAccess"><license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article&#x02019;s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article&#x02019;s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p></license></permissions><abstract id="Abs1"><p id="Par1">The paper proposes a fully optical method for determination of a cubic crystal grain orientation in a sample inspected by a Raman microscope. The method is based on a universal and strong polarisation anisotropy of the Raman scattering by doubly degenerate optic phonon modes and it only requires a standard Raman microscope equipped with a polarisation analysis. Explicit formulas for the orientation of the crystal grain are derived. The feasibility of the approach is demonstrated by comparing grain orientations in a polycrystalline cubic lacunar spinel GaV<sub>4</sub>S<sub>8</sub> determined independently using electron backscatter diffraction and Raman scattering methods.</p></abstract><kwd-group kwd-group-type="npg-subject"><title>Subject terms</title><kwd>Ceramics</kwd><kwd>Ferroelectrics and multiferroics</kwd><kwd>Phase transitions and critical phenomena</kwd><kwd>Structure of solids and liquids</kwd></kwd-group><funding-group><award-group><funding-source><institution>Czech Science Foundation 17-11494J</institution></funding-source></award-group></funding-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; The Author(s) 2019</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1" sec-type="introduction"><title>Introduction</title><p id="Par2">Optical microscope is a standard laboratory tool for inspection of the sample geometry and its internal microstructure at <italic>&#x003bc;</italic>m to mm dimensions. Raman microscope is an instrument that allows, on the top of it, recording Raman spectra from the area selected by the focus of the objective. In this way, Raman microscopy provides a complementary, spatially resolved information about the structure and chemical composition.</p><p id="Par3">Another important characteristic of the investigated material could be the orientation of the crystal structure within the optically inspected area. For example, optically uniaxial domains in crystals exist in several orientation variants that can be easily distinguished by polarisation sensitivity of Raman scattering. Also the crystal grain orientations in optically uniaxial polycrystalline materials can be determined by Raman scattering. In particular, the angle between the local principal optical axis and the sample surface normal can be calculated from the fine spectral shifts caused by dipole-dipole interaction among polar Raman modes (oblique phonon mode method)<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Among others, combination of the oblique phonon mode method with the piezoforce scanning microscopy allowed us to assign the ferroelectric domain wall types in BiFeO<sub>3</sub> ceramics<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>.</p><p id="Par4">Let us stress that none of the above methods can be applied to cubic crystalline materials, because the optical indicatrix of cubic crystals does not have any special direction and these crystals have no oblique phonon eigenmodes. Fortunately, there is still another possibility, which is applicable to cubic crystals. We are suggesting here a method for detection of a completely arbitrary crystallite orientation by relying only on the universal polarisation dependence of Raman scattering by their doubly degenerate nonpolar phonon modes. The procedure is demonstrated here on a polycrystalline ceramic pellet of a cubic lacunar spinel GaV<sub>4</sub>S<sub>8</sub>. We have chosen GaV<sub>4</sub>S<sub>8</sub> since it is a cubic substance with well-separated Raman active doublet modes and at the same time it is known to be one of the very few hosts of magnetoelectric skyrmion phases<sup><xref ref-type="bibr" rid="CR3">3</xref>&#x02013;<xref ref-type="bibr" rid="CR5">5</xref></sup>. Currently, this fascinating lacunar spinel family is attracting more and more attention<sup><xref ref-type="bibr" rid="CR6">6</xref>&#x02013;<xref ref-type="bibr" rid="CR11">11</xref></sup>. Nevertheless, the same approach is applicable for any other cubic material with a well-defined doubly degenerate Raman active optic phonon mode.</p><p id="Par5">The paper is organised as follows. At first, we introduce GaV<sub>4</sub>S<sub>8</sub> and summarise the known polarisation dependence of its Raman active modes. Then we briefly describe the orientation texture of our specimen obtained by the well established electron backscatter diffraction (EBSD) and we explain how the orientation can be obtained by Raman scattering only. Finally, we compare the results and conclude the paper by discussing the advantages of this fully optical method.</p></sec><sec id="Sec2" sec-type="results"><title>Results</title><sec id="Sec3"><title>Raman scattering spectra of GaV<sub>4</sub>S<sub>8</sub></title><p id="Par6">Our demonstration material GaV<sub>4</sub>S<sub>8</sub> crystallizes in a non-centrosymmetric cubic structure with the <inline-formula id="IEq1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F\bar{4}3m\,({T}_{d}^{2})$$\end{document}</tex-math><mml:math id="M2"><mml:mi>F</mml:mi><mml:mover accent="true"><mml:mn>4</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mn>3</mml:mn><mml:mi>m</mml:mi><mml:mspace width=".25em"/><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mrow><mml:mi>T</mml:mi></mml:mrow><mml:mrow><mml:mi>d</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq1.gif"/></alternatives></inline-formula> symmetry. Below about &#x02248;40&#x02009;K it undergoes a phase transition to a rhombohedral <inline-formula id="IEq2"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R3m\,({C}_{3v}^{5})$$\end{document}</tex-math><mml:math id="M4"><mml:mi>R</mml:mi><mml:mn>3</mml:mn><mml:mi>m</mml:mi><mml:mspace width=".25em"/><mml:mo stretchy="false">(</mml:mo><mml:msubsup><mml:mrow><mml:mi>C</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn><mml:mi>v</mml:mi></mml:mrow><mml:mrow><mml:mn>5</mml:mn></mml:mrow></mml:msubsup><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq2.gif"/></alternatives></inline-formula> phase. This rhombohedral distortion, driven by Jahn-Teller effect in vanadium tetrahedra, causes ferroelectric polarisation in the low-temprature phase<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. On the top of it, magnetic ordering with helicoidal and skyrmion<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup> arrangements observed at moderate magnetic fields and at temperatures below about 15&#x02009;K attracted a great attention to the whole lacunar spinel family<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>.</p><p id="Par7">Here we only deal with the ambient temperature <inline-formula id="IEq3"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$F\bar{4}3m$$\end{document}</tex-math><mml:math id="M6"><mml:mi>F</mml:mi><mml:mover accent="true"><mml:mn>4</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mn>3</mml:mn><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq3.gif"/></alternatives></inline-formula> phase. The factor group analysis predicts 3A<sub>1</sub>&#x02009;+&#x02009;3E&#x02009;+&#x02009;3F<sub>1</sub>&#x02009;+&#x02009;6F<sub>2</sub> Brillouin zone centre optic modes there, out of which 3A<sub>1</sub>&#x02009;+&#x02009;3E are nonpolar Raman active modes and 6F<sub>2</sub> are simultaneously Raman and IR active modes. Previous single crystal spectroscopic and theory investigations<sup><xref ref-type="bibr" rid="CR14">14</xref></sup> allowed us to estimate frequencies of all its Raman active modes. For the purpose of the grain orientation analysis, it is practical to inspect well separated and strongly scattering modes, such as the <italic>A</italic><sub>1</sub> phonon mode near 277&#x02009;cm<sup>&#x02212;1</sup> and the <italic>E</italic> phonon mode near 330&#x02009;cm<sup>&#x02212;1</sup> (see Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>).<fig id="Fig1"><label>Figure 1</label><caption><p>Typical parallel-polarised Raman spectrum detected from an arbitrarily oriented grain.</p></caption><graphic xlink:href="41598_2019_45782_Fig1_HTML" id="d29e480"/></fig></p><p id="Par8">The modes belonging to different irreducible representations are known to be conveniently distinguishable by the polarisation analysis<sup><xref ref-type="bibr" rid="CR15">15</xref></sup>. In the case of GaV<sub>4</sub>S<sub>8</sub>, within its natural crystallographic reference frame, Raman tensor <italic>R</italic> of the <italic>A</italic><sub>1</sub> modes has a general form of<disp-formula id="Equ1"><label>1</label><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R=(\begin{array}{ccc}a &#x00026; 0 &#x00026; 0\\ 0 &#x00026; a &#x00026; 0\\ 0 &#x00026; 0 &#x00026; a\end{array}).$$\end{document}</tex-math><mml:math id="M8" display="block"><mml:mi>R</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>a</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>a</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>a</mml:mi></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par9">Raman tensors <italic>R</italic><sub><italic>&#x003b1;</italic></sub> of the <italic>E</italic>-symmetry mode components read<disp-formula id="Equ2"><label>2</label><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${R}_{1}=(\begin{array}{ccc}b &#x00026; 0 &#x00026; 0\\ 0 &#x00026; b &#x00026; 0\\ 0 &#x00026; 0 &#x00026; -2b\end{array}),\,{R}_{2}=(\begin{array}{ccc}-\sqrt{3}b &#x00026; 0 &#x00026; 0\\ 0 &#x00026; \sqrt{3}b &#x00026; 0\\ 0 &#x00026; 0 &#x00026; 0\end{array}),$$\end{document}</tex-math><mml:math id="M10" display="block"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mi>b</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>b</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:mn>2</mml:mn><mml:mi>b</mml:mi></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mspace width=".5em"/><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mrow><mml:mo>&#x02212;</mml:mo><mml:msqrt><mml:mn>3</mml:mn></mml:msqrt><mml:mi>b</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mrow><mml:msqrt><mml:mn>3</mml:mn></mml:msqrt><mml:mi>b</mml:mi></mml:mrow></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>and the Raman tensor of the <italic>F</italic><sub>2</sub> mode components can be expressed as<disp-formula id="Equ3"><label>3</label><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${R}_{1}=(\begin{array}{ccc}0 &#x00026; 0 &#x00026; 0\\ 0 &#x00026; 0 &#x00026; c\\ 0 &#x00026; c &#x00026; 0\end{array}),\,{R}_{2}=(\begin{array}{ccc}0 &#x00026; 0 &#x00026; c\\ 0 &#x00026; 0 &#x00026; 0\\ c &#x00026; 0 &#x00026; 0\end{array}),\,{R}_{3}=(\begin{array}{ccc}0 &#x00026; c &#x00026; 0\\ c &#x00026; 0 &#x00026; 0\\ 0 &#x00026; 0 &#x00026; 0\end{array}).$$\end{document}</tex-math><mml:math id="M12" display="block"><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>c</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>c</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mspace width=".5em"/><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>c</mml:mi></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>c</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mspace width=".5em"/><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mtable><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mi>c</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mi>c</mml:mi></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr><mml:mtr><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd><mml:mtd><mml:mn>0</mml:mn></mml:mtd></mml:mtr></mml:mtable></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par10">In the following it will be important that the polarisation dependence of the first-order Raman scattering intensity by a phonon mode spanned by one or more orthogonal components <italic>&#x003b1;</italic> is given by a simple prefactor <inline-formula id="IEq4"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}$$\end{document}</tex-math><mml:math id="M14"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">out</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq4.gif"/></alternatives></inline-formula> given by the sum of the squared moduli of the corresponding Raman tensors <inline-formula id="IEq5"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${({R}_{\alpha })}_{ij}$$\end{document}</tex-math><mml:math id="M16"><mml:msub><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq5.gif"/></alternatives></inline-formula>, contracted by the incoming and outgoing photon polarisation vectors <bold>e</bold><sub><italic>in</italic></sub>, <bold>e</bold><sub><italic>out</italic></sub>, as follows<disp-formula id="Equ4"><label>4</label><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}=\sum _{\alpha }\,|{{\bf{e}}}_{{\rm{in}}}{R}_{\alpha }{{\bf{e}}}_{{\rm{out}}}{|}^{2}.$$\end{document}</tex-math><mml:math id="M18" display="block"><mml:msub><mml:mrow><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi><mml:mo>,</mml:mo><mml:mi mathvariant="normal">out</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mrow><mml:munder><mml:mo>&#x02211;</mml:mo><mml:mi>&#x003b1;</mml:mi></mml:munder></mml:mrow><mml:mspace width=".1em"/><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">in</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">out</mml:mi></mml:mrow></mml:msub><mml:msup><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par11">In this paper, we have only considered parallel-polarised scattering configuration, where <inline-formula id="IEq6"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\bf{e}}}_{in}={{\bf{e}}}_{out}={\bf{e}}$$\end{document}</tex-math><mml:math id="M20"><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi><mml:mi>n</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">e</mml:mi></mml:mrow><mml:mrow><mml:mi>o</mml:mi><mml:mi>u</mml:mi><mml:mi>t</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi mathvariant="bold">e</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq6.gif"/></alternatives></inline-formula>, and the equation (<xref rid="Equ4" ref-type="">4</xref>) reduces to<disp-formula id="Equ5"><label>5</label><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}=\sum _{\alpha }\,|{\bf{e}}{R}_{\alpha }{\bf{e}}{|}^{2}.$$\end{document}</tex-math><mml:math id="M22" display="block"><mml:mi mathvariant="normal">&#x0039b;</mml:mi><mml:mo>=</mml:mo><mml:mrow><mml:munder><mml:mo>&#x02211;</mml:mo><mml:mi>&#x003b1;</mml:mi></mml:munder></mml:mrow><mml:mspace width=".1em"/><mml:mo stretchy="false">|</mml:mo><mml:mi mathvariant="bold">e</mml:mi><mml:msub><mml:mrow><mml:mi>R</mml:mi></mml:mrow><mml:mrow><mml:mi>&#x003b1;</mml:mi></mml:mrow></mml:msub><mml:mi mathvariant="bold">e</mml:mi><mml:msup><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par12">The polar plot of the parallel-polarised Raman intensity prefactor <inline-formula id="IEq7"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M24"><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq7.gif"/></alternatives></inline-formula> is plot in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref> for the case of <italic>A</italic><sub>1</sub> and <italic>E</italic> modes, respectively. The scattering by the <italic>E</italic> mode is strongly enhanced when the photon polarisation is parallel to one of the fourfold axes. It is this universal strong anisotropy that is exploited in this paper in order to determine the orientation of the crystallographic axes within the scattering volume.<fig id="Fig2"><label>Figure 2</label><caption><p>Polar plot of the polarisation-dependent factor <inline-formula id="IEq8"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M26"><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq8.gif"/></alternatives></inline-formula> of Raman scattering by (<bold>a</bold>) <italic>A</italic><sub>1</sub> and (<bold>b</bold>) <italic>E</italic>-symmetry modes in a cubic crystal calculated using equations (<xref rid="Equ1" ref-type="">1</xref>, <xref rid="Equ2" ref-type="">2</xref>, <xref rid="Equ4" ref-type="">4</xref> and <xref rid="Equ5" ref-type="">5</xref>) for <italic>a</italic>&#x02009;=&#x02009;<italic>b</italic>&#x02009;=&#x02009;1. <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>3 stand for the three perpendicular directions parallel to the fourfold symmetry axes of the crystal. Projections along the <italic>B</italic>3 axis are shown in (c and d) panels, respectively.</p></caption><graphic xlink:href="41598_2019_45782_Fig2_HTML" id="d29e1140"/></fig></p></sec><sec id="Sec4"><title>Crystal grain orientations from EBSD</title><p id="Par13">To inspect the GaV<sub>4</sub>S<sub>8</sub> ceramics surface we used the EBSD technique. The scanning electron microscope image in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3a</xref> shows the surface morphology of the sample covering 250&#x02009;&#x000d7;&#x02009;500&#x02009;<italic>&#x003bc;</italic>m<sup>2</sup>. As can be seen, some smaller grains were removed from the surface by the polishing. Figure&#x000a0;<xref rid="Fig3" ref-type="fig">3b</xref> shows an EBSD micrograph (inverse pole figure map) of the above area. The average grain size of this material is (6.8&#x02009;&#x000b1;&#x02009;3.8)&#x02009;<italic>&#x003bc;</italic>m, according to the EBSD data. However, it is necessary to point out that several grains within the map reach the size of &#x02248;25&#x02009;<italic>&#x003bc;</italic>m. Some of these grains were thereafter chosen for further analysis. The selected grains, labelled A, B, C, D, are shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3c</xref> with their respective orientation. The colour coding of the inverse pole figure map refers to the standard unit triangle shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3d</xref>. The positions of grains A, B, C, D in this unit triangle are presented in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3e</xref>. The EBSD imaged area has been marked by focused ion beam (FIB) in order to facilitate its localisation under the optical microscope (not shown in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>).<fig id="Fig3"><label>Figure 3</label><caption><p>Grain morphology of the investigated GaV<sub>4</sub>S<sub>8</sub> ceramics. (<bold>a</bold>) Scanning electron microscope image of an area of interest with sample coordinate system as an inset; (<bold>b</bold>) Inverse pole figure map from EBSD analysis of the area in (<bold>a</bold>); (<bold>c</bold>) positions of four grains chosen for detailed Raman measurements (<inline-formula id="IEq9"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$A:\{1\,\bar{15}\,1\}\langle \bar{5}\,\bar{1}\,\bar{10}\rangle $$\end{document}</tex-math><mml:math id="M28"><mml:mi>A</mml:mi><mml:mo>:</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:mn>1</mml:mn><mml:mspace width=".1em"/><mml:mover><mml:mrow><mml:mn>15</mml:mn></mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mn>1</mml:mn><mml:mo stretchy="false">}</mml:mo><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mover accent="true"><mml:mn>5</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mover accent="true"><mml:mn>1</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mover accent="true"><mml:mn>10</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq9.gif"/></alternatives></inline-formula>, <inline-formula id="IEq10"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$B:\{\bar{7}\,0\,8\}\langle 8\,\bar{11}\,7\rangle $$\end{document}</tex-math><mml:math id="M30"><mml:mi>B</mml:mi><mml:mo>:</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:mover accent="true"><mml:mn>7</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mn>0</mml:mn><mml:mspace width=".1em"/><mml:mn>8</mml:mn><mml:mo stretchy="false">}</mml:mo><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mn>8</mml:mn><mml:mspace width=".1em"/><mml:mover><mml:mrow><mml:mn>11</mml:mn></mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mn>7</mml:mn><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq10.gif"/></alternatives></inline-formula>, <inline-formula id="IEq11"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$C:\{7\,\bar{3}\,12\}\langle 0\,4\,1\rangle $$\end{document}</tex-math><mml:math id="M32"><mml:mi>C</mml:mi><mml:mo>:</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:mn>7</mml:mn><mml:mspace width=".1em"/><mml:mover accent="true"><mml:mn>3</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mn>12</mml:mn><mml:mo stretchy="false">}</mml:mo><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mn>0</mml:mn><mml:mspace width=".1em"/><mml:mn>4</mml:mn><mml:mspace width=".1em"/><mml:mn>1</mml:mn><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq11.gif"/></alternatives></inline-formula>, <inline-formula id="IEq12"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$D:\{\bar{17}\,14\,\bar{10}\}\langle 8\,9\,\bar{1}\rangle $$\end{document}</tex-math><mml:math id="M34"><mml:mi>D</mml:mi><mml:mo>:</mml:mo><mml:mo stretchy="false">{</mml:mo><mml:mover><mml:mrow><mml:mn>17</mml:mn></mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mspace width=".1em"/><mml:mn>14</mml:mn><mml:mspace width=".1em"/><mml:mover><mml:mrow><mml:mn>10</mml:mn></mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mo stretchy="false">}</mml:mo><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mn>8</mml:mn><mml:mspace width=".1em"/><mml:mn>9</mml:mn><mml:mspace width=".1em"/><mml:mover accent="true"><mml:mn>1</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq12.gif"/></alternatives></inline-formula>), indicated projections of elementary cubic cells clarify their crystallographic orientation; (<bold>d</bold>) unit triangle with the color code of the inverse pole figure map; (<bold>e</bold>) surface normals of the chosen grains as determined from EBSD.</p></caption><graphic xlink:href="41598_2019_45782_Fig3_HTML" id="d29e1400"/></fig></p><p id="Par14">In general, the crystal grain orientation relates the laboratory Cartesian reference frame <italic>A</italic>1&#x02009;&#x02212;&#x02009;<italic>A</italic>2&#x02009;&#x02212;&#x02009;<italic>A</italic>3 (see Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3a</xref>) with the local Cartesian reference frame <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3, attached to the crystal grain axes. The crystallographic orientation of the individual crystal grains identified by EBSD is typically given in the standard texture notation (<italic>hkl</italic>) [uvw].</p><p id="Par15">The first three indices (<italic>hkl</italic>) define the crystallographic orientation of the sample surface facet (<italic>A</italic>3 in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3a</xref>) in the <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3 frame. This local <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3 Cartesian frame is attached to the three mutually perpendicular fourfold axes of the grain. Since the EBSD scattering intensity is invariant with respect to symmetry operations of the <inline-formula id="IEq13"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$m\bar{3}m$$\end{document}</tex-math><mml:math id="M36"><mml:mi>m</mml:mi><mml:mover accent="true"><mml:mn>3</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq13.gif"/></alternatives></inline-formula> Laue symmetry class of the <inline-formula id="IEq14"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\bar{4}3m$$\end{document}</tex-math><mml:math id="M38"><mml:mover accent="true"><mml:mn>4</mml:mn><mml:mo>&#x000af;</mml:mo></mml:mover><mml:mn>3</mml:mn><mml:mi>m</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq14.gif"/></alternatives></inline-formula> point group symmetry of the grain, one can choose the crystal grain axes <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3 in a way that the Miller indices of the surface comply with<disp-formula id="Equ6"><label>6</label><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$0\le k\le h\le l.$$\end{document}</tex-math><mml:math id="M40" display="block"><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:mi>k</mml:mi><mml:mo>&#x02264;</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x02264;</mml:mo><mml:mi>l</mml:mi><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par16">In this case, the local crystal grain coordinates of the surface unit normal <bold>n</bold> can be expressed as<disp-formula id="Equ7"><label>7</label><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{n}}=({n}_{1},{n}_{2},{n}_{3})=\frac{(h,k,l)}{\sqrt{{h}^{2}+{k}^{2}+{l}^{2}}},$$\end{document}</tex-math><mml:math id="M42" display="block"><mml:mi mathvariant="bold">n</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>h</mml:mi><mml:mo>,</mml:mo><mml:mi>k</mml:mi><mml:mo>,</mml:mo><mml:mi>l</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mi>h</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>k</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>l</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>where the directional cosines are ordered and non-negative:<disp-formula id="Equ8"><label>8</label><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$0\le {n}_{2}\le {n}_{1}\le {n}_{3}\le 1,\,1/\sqrt{3}\le {n}_{3}\le 1.$$\end{document}</tex-math><mml:math id="M44" display="block"><mml:mn>0</mml:mn><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mspace width=".5em"/><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:msqrt><mml:mn>3</mml:mn></mml:msqrt><mml:mo>&#x02264;</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>&#x02264;</mml:mo><mml:mn>1.</mml:mn></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par17">Each such vector <bold>n</bold> is then uniquely associated with one point in the inverse pole figure triangle (Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3d</xref>).</p><p id="Par18">The other part of the (<italic>hkl</italic>) [<italic>uvw</italic>] symbol defines the three Miller indices [<italic>uvw</italic>] of the conventionally chosen reference direction in the sample surface (<italic>A</italic>1 in the case of Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3a</xref>). Local crystallographic coordinates of the corresponding unit vector <bold>b</bold> read<disp-formula id="Equ9"><label>9</label><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{b}}=\frac{(u,v,w)}{\sqrt{{u}^{2}+{v}^{2}+{w}^{2}}}.$$\end{document}</tex-math><mml:math id="M46" display="block"><mml:mi mathvariant="bold">b</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>u</mml:mi><mml:mo>,</mml:mo><mml:mi>v</mml:mi><mml:mo>,</mml:mo><mml:mi>w</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:msqrt><mml:mrow><mml:msup><mml:mrow><mml:mi>u</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>v</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:mrow></mml:mfrac><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula></p></sec><sec id="Sec5"><title>Crystal grain orientations from Raman scattering</title><p id="Par19">We have selected grains with larger top surfaces which have been well observable in the optical microscope (such as those marked in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3c</xref>). The Raman scattering intensity <italic>I</italic>, detected at the resonant frequency of the selected phonon mode, is mostly given by the first order Raman scattering by that mode. Therefore, its dependence on <bold>e</bold> is proportional to the corresponding factor <inline-formula id="IEq15"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M48"><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq15.gif"/></alternatives></inline-formula> of equation (<xref rid="Equ5" ref-type="">5</xref>). The angular dependence of <inline-formula id="IEq16"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M50"><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq16.gif"/></alternatives></inline-formula>, shown in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>, suggests that for an <italic>E</italic> symmetry mode the intensity <italic>I</italic> is maximised when <bold>e</bold> is close to the direction of one the local fourfold symmetry axes.</p><p id="Par20">By rotation of the sample stage around the axis of the objective of the microscope, we could collect Raman spectra from the selected grain as a function of the oriented precession angle <inline-formula id="IEq17"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\phi $$\end{document}</tex-math><mml:math id="M52"><mml:mi>&#x003d5;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq17.gif"/></alternatives></inline-formula> between the reference direction <bold>b</bold> and the photon polarisation <inline-formula id="IEq18"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{e}}(\phi )$$\end{document}</tex-math><mml:math id="M54"><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq18.gif"/></alternatives></inline-formula>, where<disp-formula id="Equ10"><label>10</label><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{e}}(\phi )={\bf{b}}\,\cos \,\phi +{\bf{t}}\,\sin \,\phi ,$$\end{document}</tex-math><mml:math id="M56" display="block"><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">b</mml:mi><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003d5;</mml:mi><mml:mo>+</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mspace width=".1em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003d5;</mml:mi><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>where <bold>t</bold>&#x02009;=&#x02009;<bold>n</bold>&#x02009;&#x000d7;&#x02009;<bold>b</bold>.</p><p id="Par21">Since the scattering intensity at frequencies corresponding to the <italic>A</italic><sub>1</sub> is isotropic, it is convenient to get rid of overall geometrical factors by inspecting the <italic>E</italic> to <italic>A</italic><sub>1</sub> intensity ratio instead of the <italic>E</italic>-mode intensity alone. The angular dependence of such ratio <italic>I</italic><sub>330</sub>/<italic>I</italic><sub>277</sub> of Raman scattering intensities at frequencies 330 and 277&#x02009;cm<sup>&#x02212;1</sup>, corresponding to the selected strong <italic>A</italic><sub>1</sub> and <italic>E</italic> modes, is shown in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref> for several selected grains. As expected, the angular dependence of the intensity near the frequency of the <italic>E</italic> mode is rather pronounced, and it allows us to extract the angles <inline-formula id="IEq19"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M58"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq19.gif"/></alternatives></inline-formula> and <inline-formula id="IEq20"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M60"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq20.gif"/></alternatives></inline-formula> at which the <inline-formula id="IEq21"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${I}_{330}(\phi )$$\end{document}</tex-math><mml:math id="M62"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mn>330</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq21.gif"/></alternatives></inline-formula> has the highest and the second highest maxima.<fig id="Fig4"><label>Figure 4</label><caption><p>Parallel-polarised Raman scattering intensity ratios detected from the grain A (circles), B (squares) and C (triangles with vertex down) and D (triangles with vertex up) at selected frequencies as a function of the angle <inline-formula id="IEq22"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\phi $$\end{document}</tex-math><mml:math id="M64"><mml:mi>&#x003d5;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq22.gif"/></alternatives></inline-formula> between the polariser and the reference direction <italic>A</italic>1 on the sample surface (indicated in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>). The intensity ratios are obtained from the raw measured data after the flat background subtraction as the integrated intensity at 330&#x02009;&#x000b1;&#x02009;5&#x02009;cm<sup>&#x02212;1</sup>, divided by the integrated intensity at 277&#x02009;&#x000b1;&#x02009;5&#x02009;cm<sup>&#x02212;1</sup>, <italic>I</italic><sub>330</sub>/<italic>I</italic><sub>277</sub>.</p></caption><graphic xlink:href="41598_2019_45782_Fig4_HTML" id="d29e2044"/></fig></p><p id="Par22">For the sake of quantitative estimation of the crystal grain orientation, it is convenient to extract not only the angles <inline-formula id="IEq23"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{M}}}$$\end{document}</tex-math><mml:math id="M66"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq23.gif"/></alternatives></inline-formula> and <inline-formula id="IEq24"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M68"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq24.gif"/></alternatives></inline-formula> but also the corresponding values of <inline-formula id="IEq25"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${I}_{{\rm{m}}}=I({\phi }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M70"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq25.gif"/></alternatives></inline-formula> and <inline-formula id="IEq26"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${I}_{{\rm{m}}}=I({\phi }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M72"><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq26.gif"/></alternatives></inline-formula>. By comparing these values to the <italic>E</italic>-mode intensity <italic>I</italic><sub>0</sub> detected for a special configuration with <inline-formula id="IEq27"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{e}}\parallel \langle 100\rangle $$\end{document}</tex-math><mml:math id="M74"><mml:mi mathvariant="bold">e</mml:mi><mml:mo>&#x02225;</mml:mo><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mn>100</mml:mn><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq27.gif"/></alternatives></inline-formula>, one can derive directly the desired values of the reduced polarisation factor <italic>&#x003bb;</italic><disp-formula id="Equ11"><label>11</label><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{l}{\lambda }_{{\rm{M}}}=\lambda ({\phi }_{{\rm{M}}})={I}_{{\rm{M}}}/{I}_{0},\\ {\lambda }_{{\rm{m}}}=\lambda ({\phi }_{{\rm{M}}})={I}_{{\rm{m}}}/{I}_{0}.\end{array}$$\end{document}</tex-math><mml:math id="M76" display="block"><mml:mtable columnalign="left"><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003bb;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003bb;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:msub><mml:mrow><mml:mi>&#x003bb;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003bb;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>/</mml:mo><mml:msub><mml:mrow><mml:mi>I</mml:mi></mml:mrow><mml:mrow><mml:mn>0</mml:mn></mml:mrow></mml:msub><mml:mo>.</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par23">To achieve a higher precision, the spectra at <inline-formula id="IEq28"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{M}}}$$\end{document}</tex-math><mml:math id="M78"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq28.gif"/></alternatives></inline-formula> and <inline-formula id="IEq29"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M80"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq29.gif"/></alternatives></inline-formula> were fitted to the standard model of a superposition of damped harmonic oscillators response functions and the ratio of damped harmonic oscillator amplitude prefactors associated with the selected <italic>E</italic> to <italic>A</italic><sub>1</sub> modes was then used as the <inline-formula id="IEq30"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I({\phi }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M82"><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq30.gif"/></alternatives></inline-formula> and <inline-formula id="IEq31"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I({\phi }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M84"><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq31.gif"/></alternatives></inline-formula> values. The normalisation factor <italic>I</italic><sub>0</sub> has been determined here as the global maximum of <italic>E</italic> to <italic>A</italic><sub>1</sub> mode intensity ratios in the ensemble of all spectra taken in different orientations, but it could have been equally well set up from a spectrum measured on a selected calibration grain or on an oriented single crystal with a precisely known surface orientation.</p><p id="Par24">In fact, each of the six lobes of the <inline-formula id="IEq32"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M86"><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq32.gif"/></alternatives></inline-formula> function for an <italic>E</italic>-symmetry mode has an almost perfect rotational symmetry so that in the vicinity of the given fourfold axis it can be well approximated by an expression depending only on the deviation angle <italic>&#x003b4;</italic> between <bold>e</bold> and that axis. After inserting the equation (<xref rid="Equ2" ref-type="">2</xref>) into equation (<xref rid="Equ5" ref-type="">5</xref>), it is convenient to express the unit polarisation vector <bold>e</bold> in spherical coordinates <inline-formula id="IEq33"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\bf{e}}=(\cos \,\delta \,\sin \,\varepsilon ,\,\sin \,\delta \,\sin \,\varepsilon ,\,\cos \,\varepsilon )$$\end{document}</tex-math><mml:math id="M88"><mml:mi mathvariant="bold">e</mml:mi><mml:mo>=</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003b4;</mml:mi><mml:mspace width=".1em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003b5;</mml:mi><mml:mo>,</mml:mo><mml:mspace width=".25em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003b4;</mml:mi><mml:mspace width=".1em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003b5;</mml:mi><mml:mo>,</mml:mo><mml:mspace width=".25em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:mi>&#x003b5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq33.gif"/></alternatives></inline-formula> of the local Cartesian reference frame <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3 and by keeping only the leading-order terms in <italic>&#x003b4;</italic> up to <italic>o</italic>(<italic>&#x003b4;</italic><sup>2</sup>), the dependence on the azimuthal angle <inline-formula id="IEq34"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\varepsilon $$\end{document}</tex-math><mml:math id="M90"><mml:mi>&#x003b5;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq34.gif"/></alternatives></inline-formula> drops out and the reduced prefactor <inline-formula id="IEq35"><alternatives><tex-math id="M91">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda ={\rm{\Lambda }}$$\end{document}</tex-math><mml:math id="M92"><mml:mi>&#x003bb;</mml:mi><mml:mo>=</mml:mo><mml:mi mathvariant="normal">&#x0039b;</mml:mi></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq35.gif"/></alternatives></inline-formula>/<inline-formula id="IEq36"><alternatives><tex-math id="M93">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$4|b{|}^{2}$$\end{document}</tex-math><mml:math id="M94"><mml:mn>4</mml:mn><mml:mo stretchy="false">|</mml:mo><mml:mi>b</mml:mi><mml:msup><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq36.gif"/></alternatives></inline-formula> can be expressed as<disp-formula id="Equ12"><label>12</label><alternatives><tex-math id="M95">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\lambda \doteq {|(\frac{1}{4}+\frac{3}{4}\cos 2\delta )|}^{2}.$$\end{document}</tex-math><mml:math id="M96" display="block"><mml:mi>&#x003bb;</mml:mi><mml:mo>&#x02250;</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="true">|</mml:mo><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:mfrac><mml:mn>1</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mo>+</mml:mo><mml:mfrac><mml:mn>3</mml:mn><mml:mn>4</mml:mn></mml:mfrac><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:mn>2</mml:mn><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo stretchy="true">|</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par25">Therefore, when the photon polarisation <bold>e</bold> is close to the direction of a fourfold axis, the corresponding angle <italic>&#x003b4;</italic> can be determined from the reduced scattering intensity <italic>&#x003bb;</italic> using the inverse of the equation (<xref rid="Equ12" ref-type="">12</xref>),<disp-formula id="Equ13"><label>13</label><alternatives><tex-math id="M97">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta \doteq \frac{1}{2}\,\arccos \,[\frac{4}{3}\sqrt{\lambda }-\frac{1}{3}].$$\end{document}</tex-math><mml:math id="M98" display="block"><mml:mi>&#x003b4;</mml:mi><mml:mo>&#x02250;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>2</mml:mn></mml:mfrac><mml:mspace width=".1em"/><mml:mi>arccos</mml:mi><mml:mspace width=".1em"/><mml:mrow><mml:mo stretchy="true">[</mml:mo><mml:mrow><mml:mfrac><mml:mn>4</mml:mn><mml:mn>3</mml:mn></mml:mfrac><mml:msqrt><mml:mi>&#x003bb;</mml:mi></mml:msqrt><mml:mo>&#x02212;</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mn>3</mml:mn></mml:mfrac></mml:mrow><mml:mo stretchy="true">]</mml:mo></mml:mrow><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par26">Since <italic>&#x003b4;</italic>(<italic>&#x003bb;</italic>) is also a monotonous function, it is clear that <inline-formula id="IEq37"><alternatives><tex-math id="M99">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\delta (\phi )$$\end{document}</tex-math><mml:math id="M100"><mml:mi>&#x003b4;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq37.gif"/></alternatives></inline-formula> has a minimum where <inline-formula id="IEq38"><alternatives><tex-math id="M101">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I(\phi )$$\end{document}</tex-math><mml:math id="M102"><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq38.gif"/></alternatives></inline-formula> has a maximum, and, therefore, <inline-formula id="IEq39"><alternatives><tex-math id="M103">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\delta }_{{\rm{m}}}=\delta ({\lambda }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M104"><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003bb;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq39.gif"/></alternatives></inline-formula> and <inline-formula id="IEq40"><alternatives><tex-math id="M105">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\delta }_{{\rm{m}}}=\delta ({\lambda }_{{\rm{m}}})$$\end{document}</tex-math><mml:math id="M106"><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mi>&#x003b4;</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003bb;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq40.gif"/></alternatives></inline-formula> correspond to the deviation of the closest and second closest local fourfold axes from the surface of the sample. In other terms, <inline-formula id="IEq41"><alternatives><tex-math id="M107">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${n}_{1}=\,\sin \,{\delta }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M108"><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mspace width=".25em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq41.gif"/></alternatives></inline-formula> and <inline-formula id="IEq42"><alternatives><tex-math id="M109">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${n}_{2}=\,\sin \,{\delta }_{{\rm{M}}}$$\end{document}</tex-math><mml:math id="M110"><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mspace width=".25em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq42.gif"/></alternatives></inline-formula> and both angles in the arguments are taken positive due to the inequalities assumed in equation (<xref rid="Equ8" ref-type="">8</xref>). The normalisation condition <inline-formula id="IEq43"><alternatives><tex-math id="M111">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$|n|=1$$\end{document}</tex-math><mml:math id="M112"><mml:mo stretchy="false">|</mml:mo><mml:mi>n</mml:mi><mml:mo stretchy="false">|</mml:mo><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq43.gif"/></alternatives></inline-formula> then allows us to determine the missing component <italic>n</italic><sub>3</sub>. The surface normal in the local crystallographic basis of the <italic>B</italic>1&#x02009;&#x02212;&#x02009;<italic>B</italic>2&#x02009;&#x02212;&#x02009;<italic>B</italic>3 Cartesian frame can be thus expressed as<disp-formula id="Equ14"><label>14</label><alternatives><tex-math id="M113">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\bf{n}}}_{{\rm{Raman}}}\doteq (\sin \,{\delta }_{{\rm{m}}},\,\sin \,{\delta }_{{\rm{M}}},\sqrt{1-{(\sin {\delta }_{{\rm{M}}})}^{2}-{(\sin {\delta }_{{\rm{m}}})}^{2}}).$$\end{document}</tex-math><mml:math id="M114" display="block"><mml:msub><mml:mrow><mml:mi mathvariant="bold">n</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Raman</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02250;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:mspace width=".25em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msqrt><mml:mrow><mml:mn>1</mml:mn><mml:mo>&#x02212;</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup><mml:mo>&#x02212;</mml:mo><mml:msup><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt><mml:mo stretchy="false">)</mml:mo><mml:mo>.</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par27">Similarly, first two directional cosines of the unit vector <italic>b</italic> can be determined from the set of equations<disp-formula id="Equ15"><label>15</label><alternatives><tex-math id="M115">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{l}{\bf{e}}({\phi }_{{\rm{m}}})={\bf{b}}\,\cos \,{\phi }_{{\rm{m}}}+{\bf{t}}\,\sin \,{\phi }_{{\rm{m}}},\\ {\bf{e}}({\phi }_{{\rm{M}}})={\bf{b}}\,\cos \,{\phi }_{{\rm{M}}}+{\bf{t}}\,\sin \,{\phi }_{{\rm{M}}},\end{array}$$\end{document}</tex-math><mml:math id="M116" display="block"><mml:mtable columnalign="left"><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">b</mml:mi><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mspace width=".1em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr><mml:mtr columnalign="left"><mml:mtd columnalign="left"><mml:mrow><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>=</mml:mo><mml:mi mathvariant="bold">b</mml:mi><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mi mathvariant="bold">t</mml:mi><mml:mspace width=".1em"/><mml:mi>sin</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo></mml:mrow></mml:mtd></mml:mtr></mml:mtable></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ15.gif" position="anchor"/></alternatives></disp-formula>yielding finally<disp-formula id="Equ16"><label>16</label><alternatives><tex-math id="M117">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\bf{b}}}_{{\rm{Raman}}}\doteq ({s}_{1}\,\cos \,{\delta }_{{\rm{m}}}\,\cos \,{\phi }_{{\rm{m}}},{s}_{2}\,\cos \,{\delta }_{{\rm{M}}}\,\cos \,{\phi }_{{\rm{M}}},{b}_{3}),$$\end{document}</tex-math><mml:math id="M118" display="block"><mml:msub><mml:mrow><mml:mi mathvariant="bold">b</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Raman</mml:mi></mml:mrow></mml:msub><mml:mo>&#x02250;</mml:mo><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003b4;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mspace width=".1em"/><mml:mi>cos</mml:mi><mml:mspace width=".1em"/><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>b</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula>where the unknown signs <inline-formula id="IEq44"><alternatives><tex-math id="M119">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${s}_{i}=\pm \,1$$\end{document}</tex-math><mml:math id="M120"><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x000b1;</mml:mo><mml:mspace width="-.25em"/><mml:mn>1</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq44.gif"/></alternatives></inline-formula> should be chosen in a way that <italic>B</italic>1 and <italic>B</italic>2 axes are mutually orthogonal, which means that<disp-formula id="Equ17"><label>17</label><alternatives><tex-math id="M121">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${s}_{1}{s}_{2}{\bf{e}}({\phi }_{{\rm{m}}})\cdot {\bf{e}}({\phi }_{{\rm{M}}})+{n}_{1}{n}_{2}=0,$$\end{document}</tex-math><mml:math id="M122" display="block"><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x022c5;</mml:mo><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ17.gif" position="anchor"/></alternatives></disp-formula>what together with <inline-formula id="IEq45"><alternatives><tex-math id="M123">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${n}_{1} &#x0003e; 0$$\end{document}</tex-math><mml:math id="M124"><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>&#x0003e;</mml:mo><mml:mn>0</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq45.gif"/></alternatives></inline-formula> and <inline-formula id="IEq46"><alternatives><tex-math id="M125">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${n}_{2} &#x0003e; 0$$\end{document}</tex-math><mml:math id="M126"><mml:msub><mml:mrow><mml:mi>n</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>&#x0003e;</mml:mo><mml:mn>0</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq46.gif"/></alternatives></inline-formula> implies that one should select <inline-formula id="IEq47"><alternatives><tex-math id="M127">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${s}_{i}=\pm \,1$$\end{document}</tex-math><mml:math id="M128"><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mi>i</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mo>&#x000b1;</mml:mo><mml:mspace width="-.25em"/><mml:mn>1</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq47.gif"/></alternatives></inline-formula> in agreement with<disp-formula id="Equ18"><label>18</label><alternatives><tex-math id="M129">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${s}_{1}{s}_{2}{\bf{e}}({\phi }_{{\rm{m}}})\cdot {\bf{e}}({\phi }_{{\rm{M}}}) &#x0003c; 0$$\end{document}</tex-math><mml:math id="M130" display="block"><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mi>s</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x022c5;</mml:mo><mml:mi mathvariant="bold">e</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x0003c;</mml:mo><mml:mn>0</mml:mn></mml:math><graphic xlink:href="41598_2019_45782_Article_Equ18.gif" position="anchor"/></alternatives></disp-formula></p><p id="Par28">Finally, <italic>b</italic><sub>3</sub> can be determined from the orthonormality condition <inline-formula id="IEq48"><alternatives><tex-math id="M131">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${{\bf{b}}}_{{\rm{Raman}}}\cdot {{\bf{n}}}_{{\rm{Raman}}}=0$$\end{document}</tex-math><mml:math id="M132"><mml:msub><mml:mrow><mml:mi mathvariant="bold">b</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Raman</mml:mi></mml:mrow></mml:msub><mml:mo>&#x022c5;</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold">n</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">Raman</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq48.gif"/></alternatives></inline-formula>.</p><p id="Par29">The obtained values of <italic>&#x003bb;</italic><sub>M</sub> and <italic>&#x003bb;</italic><sub>m</sub> for several selected grains from Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>, together with the resulting local coordinates of vectors <bold>n</bold>, determined from equation (<xref rid="Equ14" ref-type="">14</xref>), are given in Table&#x000a0;<xref rid="Tab1" ref-type="table">1</xref>. Additional information about the vectors <bold>b</bold>, obtained from <inline-formula id="IEq49"><alternatives><tex-math id="M133">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{M}}}$$\end{document}</tex-math><mml:math id="M134"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">M</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq49.gif"/></alternatives></inline-formula> and <inline-formula id="IEq50"><alternatives><tex-math id="M135">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\phi }_{{\rm{m}}}$$\end{document}</tex-math><mml:math id="M136"><mml:msub><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">m</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq50.gif"/></alternatives></inline-formula> with the help of equation (<xref rid="Equ16" ref-type="">16</xref>), are given in Table&#x000a0;<xref rid="Tab2" ref-type="table">2</xref>.<table-wrap id="Tab1"><label>Table 1</label><caption><p>Orientation of the grain with respect to the surface normal.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Grain</th><th>
+<italic>&#x003bb;</italic>
+<sub>M</sub>
+</th><th>
+<italic>&#x003bb;</italic>
+<sub>m</sub>
+</th><th>n<sub>Raman</sub></th><th>n<sub>EBSD</sub></th></tr></thead><tbody><tr><td>A</td><td>0.98</td><td>0.99</td><td>0.07, 0.09, 0.99</td><td>0.06, 0.06, 1.00</td></tr><tr><td>B</td><td>0.87</td><td>0.24</td><td>0.58, 0.21, 0.78</td><td>0.66, 0.01, 0.75</td></tr><tr><td>C</td><td>0.92</td><td>0.50</td><td>0.44, 0.16, 0.88</td><td>0.49, 0.21, 0.85</td></tr><tr><td>D</td><td>0.58</td><td>0.27</td><td>0.57, 0.40, 0.72</td><td>0.59, 0.41, 0.69</td></tr></tbody></table><table-wrap-foot><p>Grains labels are those of Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>, <italic>&#x003bb;</italic><sub>M</sub> and <italic>&#x003bb;</italic><sub>M</sub> are the reduced polarization factors in equation (<xref rid="Equ11" ref-type="">11</xref>) at the principal and secondary maxima of the angular dependence of the intensity of the strongest <italic>E</italic>-symmetry Raman mode in the parallel-polarised Raman spectrum. The crystallographic coordinates of the surface normal unit vector <bold>n</bold><sub>Raman</sub> and <bold>n</bold><sub>EBSD</sub> are determined from Raman scattering and EBSD, respectively.</p></table-wrap-foot></table-wrap><table-wrap id="Tab2"><label>Table 2</label><caption><p>Orientation of the grain with respect to the reference direction on the surface.</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Grain</th><th>
+<italic>&#x003c6;</italic>
+<sub>M</sub>
+</th><th>
+<italic>&#x003c6;</italic>
+<sub>m</sub>
+</th><th>b<sub>Raman</sub></th><th>b<sub>EBSD</sub></th></tr></thead><tbody><tr><td>A</td><td>27</td><td>&#x02212;60</td><td>&#x02212;0.50, &#x02212;0.89, 0.12</td><td>&#x02212;0.45, &#x02212;0.89, 0.08</td></tr><tr><td>B</td><td>&#x02212;41</td><td>48</td><td>&#x02212;0.54, &#x02212;0.74, 0.60</td><td>&#x02212;0.52, &#x02212;0.72, 0.46</td></tr><tr><td>C</td><td>&#x02212;7</td><td>88</td><td>0.03, &#x02212;0.98, 0.16</td><td>0.00, &#x02212;0.97, 0.24</td></tr><tr><td>D</td><td>89</td><td>&#x02212;10</td><td>0.82, 0.02, &#x02212;0.66</td><td>0.74, 0.05, &#x02212;0.67</td></tr></tbody></table><table-wrap-foot><p>Grains labels are those of Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>, <italic>&#x003c6;</italic><sub>M</sub> and <italic>&#x003c6;</italic><sub>m</sub> are the angles (in degrees) of the principal and secondary maxima of the angular dependence of the intensity of the strongest <italic>E</italic>-symmetry Raman mode in the parallel-polarised Raman spectrum. The crystallographic coordinates of the reference direction vector <bold>b</bold><sub>Raman</sub> and <bold>b</bold><sub>EBSD</sub> are determined from Raman scattering and EBSD, respectively.</p></table-wrap-foot></table-wrap></p></sec></sec><sec id="Sec6" sec-type="discussion"><title>Discussion</title><p id="Par30">The grain orientations obtained from Raman scattering are in a quite good agreement with the results obtained from EBSD technique. It is worth noting that GaV<sub>4</sub>S<sub>8</sub> is a semiconductor with a sizeable absorption at the wavelength of the laser used for the present Raman scattering experiment. Consequently, the Raman scattering is collected from the top submicron layer of the investigated surface. In more transparent materials, optic method may show more deviations from the EBSD technique simply because the Raman scattering would be averaging a deeper volume. To some extent, if needed, the penetration depth could be tuned by selection of the laser wavelength. The vertical resolution would be more coarse but, in principle, one can possibly seek information about the depth profile by using confocal Raman microscopy.</p><p id="Par31">On the practical side, application of this Raman spectroscopy method generally requires an optically polished or a naturally flat incident surface and, in absorbing materials like GaV<sub>4</sub>S<sub>8</sub>, one have to limit the laser power in the focused area in a way to avoid local heating or even laser-induced surface degradation. Since cubic materials are optically isotropic, one might also expect that when using a uniformly polished surface of the pellet and when paying an attention to maintain the same focus, power and similar geometrical conditions, one could perhaps directly use the recorded <italic>E</italic>-mode intensities, without their normalisation to the intensity of <italic>A</italic><sub>1</sub>-mode. However, in the case of our GaV<sub>4</sub>S<sub>8</sub> ceramics, this strategy was not successful, and in spite of our utmost care, the overall scattering intensity considerably varied from grain to grain, and we had to use the relative mode intensities.</p><p id="Par32">It should be noted that the protocol described above fails for grains accidentally oriented with domain normal very close to the <inline-formula id="IEq51"><alternatives><tex-math id="M137">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\langle 111\rangle $$\end{document}</tex-math><mml:math id="M138"><mml:mo stretchy="false">&#x02329;</mml:mo><mml:mn>111</mml:mn><mml:mo stretchy="false">&#x0232a;</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq51.gif"/></alternatives></inline-formula> directions, because then the <inline-formula id="IEq52"><alternatives><tex-math id="M139">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I(\phi )$$\end{document}</tex-math><mml:math id="M140"><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq52.gif"/></alternatives></inline-formula> is constant and therefore the positions of the maxima cannot be well determined. However, the expression for the surface normal <bold>n</bold> is still reasonably estimated by this method. For determination of the in-plane orientation of such grain, that is for the <bold>b</bold>-vector coordinates, this protocol is not suitable, but one can still use the angular dependence of <italic>F</italic>-symmetry modes instead. In either case, if a high precision in crystal grain orientation is needed, one can always abandon equation (<xref rid="Equ12" ref-type="">12</xref>) and resort to a direct numerical fitting of the measured <inline-formula id="IEq53"><alternatives><tex-math id="M141">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I(\phi )$$\end{document}</tex-math><mml:math id="M142"><mml:mi>I</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:mi>&#x003d5;</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:math><inline-graphic xlink:href="41598_2019_45782_Article_IEq53.gif"/></alternatives></inline-formula> profiles to the exact expressions given by equations (<xref rid="Equ5" ref-type="">5</xref>).</p><p id="Par33">Finally, we would like to stress that the form of the Raman tensor given in equation (<xref rid="Equ2" ref-type="">2</xref>) is common to a doubly degenerate Raman mode in any of the five cubic point groups. Therefore, the present method and the equations (<xref rid="Equ7" ref-type="">7</xref>&#x02013;<xref rid="Equ16" ref-type="">16</xref>) are valid for all cubic crystals having a first-order Raman active mode transforming as a two-dimensional irreducible representation (as a mode of <italic>E</italic> or <italic>E</italic><sub><italic>g</italic></sub> symmetry). In particular, it applies to both centrosymmetric and noncentrosymmetric cubic crystal structures. Obviously, the simplest cubic structures like rock-salt or cubic perovskite have no Raman active modes at all. On the other hand, a similar approach can be adopted even for certain noncubic crystals, for example the angular dependence of the pure transverse optic mode of rhombohedral BiFeO<sub>3</sub>, located at 520&#x02009;cm<sup>&#x02212;1</sup>, seems to have almost identical polarization dependence with respect to the pseudocubic axes as the cubic doublet modes investigated here<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. Nevertheless, as mentioned in the introduction, there are other, more straightforward optic and Raman scattering methods available for noncubic crystals, too.</p><p id="Par34">In conclusion, we have realised that the strong polarisation dependence of Raman scattering by <italic>E</italic> or <italic>E</italic><sub><italic>g</italic></sub> symmetry modes in cubic materials could be used to determine crystallographic orientation of an arbitrarily oriented crystal facet. We have derived and tested approximate analytic expressions that allow of determining both the crystallographic orientation of the surface normal as well as the crystallographic orientation of a selected direction in the crystal surface. The method can be applied to any cubic material with <italic>E</italic> or <italic>E</italic><sub><italic>g</italic></sub> symmetry Raman modes. Comparison of Raman scattering and EBSD techniques applied to the same grains on a selected surface of GVS ceramics indicates that the method is functional and reasonably precise. The method can be very useful when a polycrystalline sample is used to determine anisotropic properties. In particular, we believe that this fully optical method can have advantage as a relatively cheap alternative to EBSD or in a limited experimental environment, for example when in-situ EBSD is not available but optical microscopy can be arranged.</p></sec><sec id="Sec7"><title>Methods</title><p id="Par35">GaV<sub>4</sub>S<sub>8</sub> was synthesised by direct single-step synthesis from elements. Sulphur and vanadium powders were mixed with lumps of gallium. The mixture was heated slightly by infrared lamp to melt gallium and thereafter ground and mixed in an agate mortar. The reaction mixture was put into the silica glass ampoule previously filled with argon. The ampoule was evacuated by a rotary pump, filled with argon, again evacuated, filled with argon, finally evacuated to residual argon pressure of about 2 mbar and sealed. The ampoule with reaction mixture was slowly heated at a rate of 40&#x02009;K/h to 1270&#x02009;K in a chamber furnace, annealed for 7 days and cooled at 10&#x02009;K/min. The slow heating is necessary to allow the reaction of sulphur, since at quick heating the high pressure of sulphur can burst the ampoule. Unlike the experience of other authors this single-step synthesis resulted in pure single-phase GaV<sub>4</sub>S<sub>8</sub> powders as was proved by X-ray diffraction. The powder was axially pressed at a pressure of 380&#x02009;MPa. The sintering was done again in a sealed silica glass ampoule by the same annealing procedure as for the synthesis of powders. The resulting ceramic GaV<sub>4</sub>S<sub>8</sub> pellet has 99% purity according to X-ray diffraction. Samples were cut from the sintered pellet with a diamond cut-off wheel and then mechanically polished using diamond suspensions with particle sizes of 9 and 3&#x02009;<italic>&#x003bc;</italic>m. Final mechanical-chemical polishing was performed using a solution of colloidal silica (Struers OP-S).</p><p id="Par36">The electron microscopy imaging and EBSD measurements were performed at 15&#x02009;kV using an FEI Quanta 3D FEG scanning electron microscope equipped with TSL/EDAX Hikari camera. The EBSD analysis was done using the GaV<sub>4</sub>S<sub>8</sub> room temperature crystal structure data<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>.</p><p id="Par37">Raman scattering measurements were carried out using a Renishaw Raman microscope with 514&#x02009;nm Argon laser in back-scattering geometry and a very similar set-up as the one used in our previous systematic polarised Raman scattering investigations<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>.</p></sec></body><back><fn-group><fn><p><bold>Publisher&#x02019;s note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p></fn></fn-group><ack><title>Acknowledgements</title><p>This work has been supported by the Czech Science Foundation (project no. 17-11494J).</p></ack><notes notes-type="author-contribution"><title>Author Contributions</title><p>P.V. synthesised and sintered the sample, K.T. performed EBSD analysis and contributed to Raman scattering experiments, P.B. and I.G. performed and analysed the most of the Raman scattering experiments, P.O. verified the mathematical expressions and helped with improving the manuscript, J.H. conceived the principal idea and wrote the main text of the manuscript. All authors reviewed the manuscript.</p></notes><notes notes-type="data-availability"><title>Data Availability</title><p>The datasets generated and/or analysed during the current study are available from the corresponding author on reasonable request.</p></notes><notes notes-type="COI-statement"><title>Competing Interests</title><p id="Par38">The authors declare no competing interests.</p></notes><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hlinka</surname><given-names>J</given-names></name><name><surname>Pokorny</surname><given-names>J</given-names></name><name><surname>Karimi</surname><given-names>S</given-names></name><name><surname>Reaney</surname><given-names>IM</given-names></name></person-group><article-title>Angular dispersion of oblique phonon modes in BiFeO<sub>3</sub> from micro-Raman scattering</article-title><source>Phys. Rev. B</source><year>2011</year><volume>83</volume><fpage>020101</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.83.020101</pub-id></element-citation></ref><ref id="CR2"><label>2.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Borodavka</surname><given-names>F</given-names></name><name><surname>Pokorny</surname><given-names>J</given-names></name><name><surname>Hlinka</surname><given-names>J</given-names></name></person-group><article-title>Combined piezoresponse force microscopy and Raman scattering investigation of domain boundaries in BiFeO<sub>3</sub> ceramics</article-title><source>Phase Transitions</source><year>2016</year><volume>89</volume><fpage>746</fpage><lpage>751</lpage><pub-id pub-id-type="doi">10.1080/01411594.2016.1206544</pub-id></element-citation></ref><ref id="CR3"><label>3.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>K&#x000e9;zsm&#x000e1;rki</surname><given-names>I</given-names></name><etal/></person-group><article-title>N&#x000e9;el-type skyrmion lattice with confined orientation in the polar magnetic semiconductor GaV<sub>4</sub>S<sub>8</sub></article-title><source>Nat. Mater.</source><year>2015</year><volume>14</volume><fpage>1116</fpage><lpage>1122</lpage><pub-id pub-id-type="doi">10.1038/nmat4402</pub-id><pub-id pub-id-type="pmid">26343913</pub-id></element-citation></ref><ref id="CR4"><label>4.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bord&#x000e1;cs</surname><given-names>S</given-names></name><etal/></person-group><article-title>Equilibrium Skyrmion Lattice Ground State in a Polar Easy-plane Magnet</article-title><source>Sci. Reports</source><year>2017</year><volume>7</volume><fpage>7584</fpage><pub-id pub-id-type="doi">10.1038/s41598-017-07996-x</pub-id></element-citation></ref><ref id="CR5"><label>5.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Butykai</surname><given-names>A</given-names></name><etal/></person-group><article-title>Characteristics of ferroelectric-ferroelastic domains in N&#x000e9;el-type skyrmion host GaV<sub>4</sub>S<sub>8</sub></article-title><source>Sci. Reports</source><year>2017</year><volume>7</volume><fpage>44663</fpage><pub-id pub-id-type="doi">10.1038/srep44663</pub-id></element-citation></ref><ref id="CR6"><label>6.</label><mixed-citation publication-type="other">Wang, Y., Puggioni, D. &#x00026; Rondinelli, J. M. Assessing exchange-correlation functional performance in the chalcogenide lacunar spinels GaM<sub>4</sub>Q<sub>8</sub> (M = Mo, V, Nb, Ta; Q = S, Se). arXiv:1905.09170 [cond-mat.mtrl-sci] (2019).</mixed-citation></ref><ref id="CR7"><label>7.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Nikolaev</surname><given-names>SA</given-names></name><name><surname>Solovyev</surname><given-names>IV</given-names></name></person-group><article-title>Microscopic theory of electric polarization induced by skyrmionic order in GaV<sub>4</sub>S<sub>8</sub></article-title><source>Phys. Rev. B</source><year>2019</year><volume>99</volume><fpage>100401(R)</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.99.100401</pub-id></element-citation></ref><ref id="CR8"><label>8.</label><mixed-citation publication-type="other">Kim, H.-S., Haule, K. &#x00026; Vanderbilt, D. Molecular Mott state in the deficient spinel GaV<sub>4</sub>S<sub>8</sub>. arXiv:1810.09495 [cond-mat.str-el] (2018).</mixed-citation></ref><ref id="CR9"><label>9.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lee</surname><given-names>H</given-names></name><etal/></person-group><article-title>Charge density functional plus U calculation of lacunar spinel GaM<sub>4</sub>Se<sub>8</sub> (M = Nb, Mo, Ta, and W)</article-title><source>EPL</source><year>2019</year><volume>125</volume><fpage>47005</fpage><pub-id pub-id-type="doi">10.1209/0295-5075/125/47005</pub-id></element-citation></ref><ref id="CR10"><label>10.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Padmanabhan</surname><given-names>P</given-names></name><etal/></person-group><article-title>Optically Driven Collective Spin Excitations and Magnetization Dynamics in the N&#x000e9;el-type Skyrmion Host GaV<sub>4</sub>S<sub>8</sub></article-title><source>Phys. Rev. Lett.</source><year>2019</year><volume>122</volume><fpage>107203</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.122.107203</pub-id><pub-id pub-id-type="pmid">30932635</pub-id></element-citation></ref><ref id="CR11"><label>11.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Okamura</surname><given-names>Y</given-names></name><etal/></person-group><article-title>Microwave Directional Dichroism Resonant with Spin Excitations in the Polar Ferromagnet GaV<sub>4</sub>S<sub>8</sub></article-title><source>Phys. Rev. Lett.</source><year>2019</year><volume>122</volume><fpage>057202</fpage><pub-id pub-id-type="doi">10.1103/PhysRevLett.122.057202</pub-id><pub-id pub-id-type="pmid">30822005</pub-id></element-citation></ref><ref id="CR12"><label>12.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bogdanov</surname><given-names>A</given-names></name><name><surname>Hubert</surname><given-names>A</given-names></name></person-group><article-title>Thermodynamically stable magnetic vortex states in magnetic crystals</article-title><source>J. Magn. Magn. Mater.</source><year>1994</year><volume>138</volume><fpage>255</fpage><lpage>269</lpage><pub-id pub-id-type="doi">10.1016/0304-8853(94)90046-9</pub-id></element-citation></ref><ref id="CR13"><label>13.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Leonov</surname><given-names>AO</given-names></name><etal/></person-group><article-title>The properties of isolated chiral skyrmions in thin magnetic films</article-title><source>New J. Phys.</source><year>2016</year><volume>18</volume><fpage>065003</fpage><pub-id pub-id-type="doi">10.1088/1367-2630/18/6/065003</pub-id></element-citation></ref><ref id="CR14"><label>14.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hlinka</surname><given-names>J</given-names></name><etal/></person-group><article-title>Lattice modes and the Jahn-Teller ferroelectric transition of GaV<sub>4</sub>S<sub>8</sub></article-title><source>Phys. Rev. B</source><year>2016</year><volume>94</volume><fpage>060104</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.94.060104</pub-id></element-citation></ref><ref id="CR15"><label>15.</label><mixed-citation publication-type="other">Gregora, I. <italic>Raman scattering</italic>, Part of the International tables for crystallography. Vol. D, <italic>Physical properties of crystals</italic>. (ed. Authier, A.) 314&#x02013;328 (Springer Netherlands, Dordrecht, 2003).</mixed-citation></ref><ref id="CR16"><label>16.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Himcinschi</surname><given-names>C</given-names></name><etal/></person-group><article-title>Ferroelastic domain identification in BiFeO<sub>3</sub> crystals using Raman spectroscopy</article-title><source>Scientific Reports</source><year>2019</year><volume>9</volume><fpage>379</fpage><pub-id pub-id-type="doi">10.1038/s41598-018-36462-5</pub-id><pub-id pub-id-type="pmid">30674911</pub-id></element-citation></ref><ref id="CR17"><label>17.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pocha</surname><given-names>R</given-names></name><name><surname>Johrendt</surname><given-names>D</given-names></name><name><surname>P&#x000f6;ttgen</surname><given-names>R</given-names></name></person-group><article-title>Electronic and Structural Instabilities in GaV4S8 and GaMo4S8</article-title><source>Chem. Mater.</source><year>2000</year><volume>12</volume><fpage>2882</fpage><lpage>2887</lpage><pub-id pub-id-type="doi">10.1021/cm001099b</pub-id></element-citation></ref><ref id="CR18"><label>18.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rafalovskyi</surname><given-names>I</given-names></name><name><surname>Guennou</surname><given-names>M</given-names></name><name><surname>Gregora</surname><given-names>I</given-names></name><name><surname>Hlinka</surname><given-names>J</given-names></name></person-group><article-title>Macroscopic lamellar heterophase pattern in Pb(Mg<sub>1/3</sub>Nb<sub>2/3</sub>)O<sub>3</sub> &#x02212; PbTiO<sub>3</sub> single crystals</article-title><source>Phys. Rev. B</source><year>2016</year><volume>93</volume><fpage>064110</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.93.064110</pub-id></element-citation></ref><ref id="CR19"><label>19.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pokorn&#x000fd;</surname><given-names>J</given-names></name><etal/></person-group><article-title>Polarized Raman scattering study of PSN single crystals and epitaxial thin films</article-title><source>J. Adv. Dielectr.</source><year>2015</year><volume>5</volume><fpage>1550013</fpage><pub-id pub-id-type="doi">10.1142/S2010135X15500137</pub-id></element-citation></ref></ref-list></back></article>

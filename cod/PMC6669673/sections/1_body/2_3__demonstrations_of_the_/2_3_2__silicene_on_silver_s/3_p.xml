@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f006">Figure 6</xref>, the internal energy (
+ <inline-formula>
+  <math id="mm115">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>P</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) derived from the PF was in excellent agreement with that (
+ <inline-formula>
+  <math id="mm116">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>M</mi>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) obtained by the MD simulations with a relative standard deviation of 0.008%, which is too small to be shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f006">Figure 6</xref>. For temperatures lower than 500 K, the relative error (
+ <inline-formula>
+  <math id="mm117">
+   <mrow>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mo stretchy="false">|</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>P</mi>
+         <mi>F</mi>
+        </mrow>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>M</mi>
+         <mi>D</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">|</mo>
+      </mrow>
+      <mrow>
+       <mo stretchy="false">|</mo>
+       <msub>
+        <mi>E</mi>
+        <mrow>
+         <mi>M</mi>
+         <mi>D</mi>
+        </mrow>
+       </msub>
+       <mo stretchy="false">|</mo>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+     <mo>%</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) was only 0.001% and gradually increased up to 0.021% for 1300 K. It may be expected that the relative error would get smaller if the effective length 
+ <inline-formula>
+  <math id="mm118">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of the edge atoms was calculated, instead of replacing 
+ <inline-formula>
+  <math id="mm119">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> with the one of the center atom, to calculate Q by Equation (11). 
+</p>

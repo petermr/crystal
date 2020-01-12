@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the above discussion , at a first glimpse, one might expect that overall auxetic properties weaken with increasing 
+ <inline-formula>
+  <math id="mm133">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. To investigate this, the surfaces of the Poisson’s ratio in the spherical coordinate system have been plotted (
+ <inline-formula>
+  <math id="mm134">
+   <mrow>
+    <mi>ν</mi>
+   </mrow>
+  </math>
+ </inline-formula> values have been sampled in ~
+ <inline-formula>
+  <math id="mm135">
+   <mrow>
+    <mrow>
+     <mn>5</mn>
+     <mo>×</mo>
+     <msup>
+      <mn>10</mn>
+      <mn>5</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> directions for each plot). 
+ <xref ref-type="fig" rid="materials-12-00700-f006">Figure 6</xref> presents: (a) the surfaces of maximal, (b) average, and (c) the negative part of the minimal Poisson’s ratio for selected values of 
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (in respective columns). The 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mover accent="true">
+     <mi mathvariant="bold">n</mi>
+     <mo stretchy="false">→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>-directions (in which the external stress is applied) are represented on each plot by polar and azimuthal angles 
+ <inline-formula>
+  <math id="mm138">
+   <mrow>
+    <mi>θ</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm139">
+   <mrow>
+    <mi>φ</mi>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref ref-type="fig" rid="materials-12-00700-f002">Figure 2</xref>), and the distance 
+ <italic>l</italic> between the point on the surface and the origin of the coordinate system is, respectively, equal to 
+ <inline-formula>
+  <math id="mm140">
+   <mrow>
+    <msubsup>
+     <mi>ν</mi>
+     <mi>n</mi>
+     <mi>max</mi>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula> for (a), 
+ <inline-formula>
+  <math id="mm141">
+   <mrow>
+    <mrow>
+     <mo>〈</mo>
+     <msub>
+      <mi>ν</mi>
+      <mi>n</mi>
+     </msub>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for (b), and the following for (c):
+ <disp-formula id="FD7-materials-12-00700">
+  <label>(7)</label>
+  <math id="mm142">
+   <mrow>
+    <mrow>
+     <mi>l</mi>
+     <mo>=</mo>
+     <mfenced separators="" open="{" close="">
+      <mtable>
+       <mtr>
+        <mtd columnalign="left">
+         <mrow>
+          <mrow>
+           <mo>|</mo>
+          </mrow>
+          <msubsup>
+           <mi>ν</mi>
+           <mi>n</mi>
+           <mi>min</mi>
+          </msubsup>
+          <mrow>
+           <mo>|</mo>
+          </mrow>
+         </mrow>
+        </mtd>
+        <mtd columnalign="left">
+         <mrow>
+          <mi>when</mi>
+          <mspace width="4pt"/>
+          <msubsup>
+           <mi>ν</mi>
+           <mi>n</mi>
+           <mi>min</mi>
+          </msubsup>
+          <mo>&lt;</mo>
+          <mn>0</mn>
+          <mo>,</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="left">
+         <mn>0</mn>
+        </mtd>
+        <mtd columnalign="left">
+         <mrow>
+          <mi>when</mi>
+          <mspace width="4pt"/>
+          <msubsup>
+           <mi>ν</mi>
+           <mi>n</mi>
+           <mi>min</mi>
+          </msubsup>
+          <mo>≥</mo>
+          <mn>0</mn>
+          <mo>.</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

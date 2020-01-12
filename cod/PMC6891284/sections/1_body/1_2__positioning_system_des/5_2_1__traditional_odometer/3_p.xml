@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If the extension lines of the two wheels when the robot is at points p and p’ intersect, their intersection point is the center of the circle where the delivery robot’s movement trajectory is located. The radius of the circle is 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mi>R</mi>
+   </mrow>
+  </math>
+ </inline-formula>, the actual walking arc length is 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>S</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the left wheel moving arc length is 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>l</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the left wheel moving arc length is 
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <msub>
+      <mi>S</mi>
+      <mi>r</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the changing angle is 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mi>α</mi>
+   </mrow>
+  </math>
+ </inline-formula>. 
+ <xref ref-type="fig" rid="sensors-19-04980-f003">Figure 3</xref>a shows the changing central angle of the robot in time 
+ <italic>t</italic>. 
+ <xref ref-type="fig" rid="sensors-19-04980-f003">Figure 3</xref>b shows the changing heading angle of the robot in time 
+ <italic>t</italic>.
+</p>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">The complex structure of the unknown phase was determined by employing the approach described in ref.
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>
+ </sup>. Using standard space group peak-matching techniques to analyze the XRD pattern shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1(b)</xref>, we initially identify the unit cell as body-centered tetragonal with lattice parameters, a = 13.33 Å and c = 9.59 Å. Based on an assumed density equal to that of the glass (0.051 atoms/Å
+ <sup>3</sup>), we estimate the number of atoms per unit cell to be approximately 90. Using a classical interatomic potential for computational expediency
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup>, we perform a GA search, seeking low-energy structures with the tetragonal unit cell and the space group of 
+ <italic>I</italic>4 and 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I\bar{4}$$\end{document}</tex-math>
+   <math id="M8">
+    <mi>I</mi>
+    <mover accent="true">
+     <mn>4</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The search is followed by computing an XRD pattern for each structure in the GA pool using the Rietveld program RIETAN-FP
+ <sup>
+  <xref ref-type="bibr" rid="CR12">12</xref>
+ </sup> and first-principles density function theory (DFT) energy calculations
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>–
+  <xref ref-type="bibr" rid="CR17">17</xref>
+ </sup>. A profile factor 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${F}_{XRD}$$\end{document}</tex-math>
+   <math id="M10">
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>X</mi>
+      <mi>R</mi>
+      <mi>D</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is calculated to assess how well the computed pattern fits the experiment measurements
+ <sup>
+  <xref ref-type="bibr" rid="CR8">8</xref>,
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>. A lower 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${F}_{XRD}$$\end{document}</tex-math>
+   <math id="M12">
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>X</mi>
+      <mi>R</mi>
+      <mi>D</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> indicates a better match with the experimental XRD pattern. After selecting a small set of candidate structures based on the 
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${F}_{XRD}$$\end{document}</tex-math>
+   <math id="M14">
+    <msub>
+     <mrow>
+      <mi>F</mi>
+     </mrow>
+     <mrow>
+      <mi>X</mi>
+      <mi>R</mi>
+      <mi>D</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, a more accurate DFT energy is calculated
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup> for each structure.
+</p>

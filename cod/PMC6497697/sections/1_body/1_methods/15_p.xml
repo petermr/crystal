@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From these equations, we can derive the magic formulas for each of the clusters as follows. After computing the topological (0,1)-adjacency matrix 
+ <bold>A</bold> for a cluster with 
+ <italic>n</italic> shells as described, we know that its size 
+ <italic>N</italic>=
+ <italic>N</italic>
+ <sub>
+  <italic>T</italic>
+ </sub>(
+ <italic>n</italic>) indicates the total number of atoms. The sum of the entries in column 
+ <italic>i</italic> gives the number of bonds 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>n</italic>) for atom 
+ <italic>i</italic> and counting the the number of column sums equal to 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>n</italic>) gives obviously 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\phantom {\dot {i}\!}N_{{cn}_{i}}(n)$\end{document}</tex-math>
+   <math id="M32">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+   </math>
+   <inline-graphic xlink:href="11671_2019_2939_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Since we know that these depend on 
+ <italic>n</italic> as a polynomial of degree at most 3, we can compute 
+ <italic>N</italic>
+ <sub>
+  <italic>T</italic>
+ </sub>(
+ <italic>n</italic>) and 
+ <italic>c</italic>
+ <italic>n</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>n</italic>) for 4 consecutive values of 
+ <italic>n</italic>, say 
+ <italic>n</italic>=
+ <italic>n</italic>
+ <sub>0</sub>+
+ <italic>j</italic>, 
+ <italic>j</italic>=0,1,2,3. A simple interpolating polynomial will then give the polynomial coefficients. It has to be verified that by increasing 
+ <italic>n</italic>
+ <sub>0</sub>, which is usually equal to 1, the formulas do not change. If the formulas become stable from 
+ <italic>n</italic>
+ <sub>0</sub> on, then they hold for all 
+ <italic>n</italic>≥
+ <italic>n</italic>
+ <sub>0</sub>. In some cases, the polynomial relation only holds for the even 
+ <italic>n</italic> values or the odd ones. For example, for the fcc rhombic dodecahedron (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>), the successive shells have eight atoms with coordination 3 when 
+ <italic>n</italic>≥2 is even, and none if 
+ <italic>n</italic> is odd. In such cases different polynomial relations will hold for 
+ <italic>n</italic> even and 
+ <italic>n</italic> odd, but the data are used for 
+ <italic>n</italic>=
+ <italic>n</italic>
+ <sub>0</sub>+
+ <italic>j</italic>, 
+ <italic>j</italic>=0,2,4,6 with 
+ <italic>n</italic>
+ <sub>0</sub> odd (e.g., 
+ <italic>n</italic>
+ <sub>0</sub>=1) or 
+ <italic>n</italic>
+ <sub>0</sub> even (
+ <italic>n</italic>
+ <sub>0</sub>=2). To get the exact rational coefficients, one needs to solve the Vandermonde system for the coefficients in exact arithmetic using MATLAB’s symbolic toolbox. This is how the Tables 
+ <xref rid="Tab2" ref-type="table">2</xref>, 
+ <xref rid="Tab3" ref-type="table">3</xref>, 
+ <xref rid="Tab4" ref-type="table">4</xref>, 
+ <xref rid="Tab5" ref-type="table">5</xref>, 
+ <xref rid="Tab1" ref-type="table">1</xref>, 
+ <xref rid="Tab6" ref-type="table">6</xref>, 
+ <xref rid="Tab7" ref-type="table">7</xref>, 
+ <xref rid="Tab8" ref-type="table">8</xref>, 
+ <xref rid="Tab9" ref-type="table">9</xref>, 
+ <xref rid="Tab10" ref-type="table">10</xref>, 
+ <xref rid="Tab11" ref-type="table">11</xref>, 
+ <xref rid="Tab12" ref-type="table">12</xref>, 
+ <xref rid="Tab13" ref-type="table">13</xref>, 
+ <xref rid="Tab14" ref-type="table">14</xref>, 
+ <xref rid="Tab15" ref-type="table">15</xref>, 
+ <xref rid="Tab16" ref-type="table">16</xref>, 
+ <xref rid="Tab17" ref-type="table">17</xref>, 
+ <xref rid="Tab18" ref-type="table">18</xref>, and 
+ <xref rid="Tab19" ref-type="table">19</xref> are computed. In the next section, we determine magic formulas for 
+ <italic>N</italic>
+ <sub>
+  <italic>T</italic>
+ </sub>(
+ <italic>n</italic>), 
+ <italic>N</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>(
+ <italic>n</italic>), and for 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$\phantom {\dot {i}\!}N_{{cn}_{i}}(n)$\end{document}</tex-math>
+   <math id="M34">
+    <msub>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+     <mrow>
+      <msub>
+       <mrow>
+        <mtext mathvariant="italic">cn</mtext>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msub>
+    <mo>(</mo>
+    <mi>n</mi>
+    <mo>)</mo>
+   </math>
+   <inline-graphic xlink:href="11671_2019_2939_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> according to the proscribed recipe. 
+</p>

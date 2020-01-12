@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>With the preceding discussion in mind, we computed the surface band structure throughout the 
+ <inline-formula>
+  <math id="i136">
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mn>1</mn>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mn>0</mn>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> surface BZ (
+ <xref ref-type="fig" rid="fig02">Fig. 2</xref>). As expected, we found two sets of surface Dirac cones, whose Dirac points are located at (
+ <inline-formula>
+  <math id="i137">
+   <mo>±</mo>
+   <mn>0.01</mn>
+   <mo> </mo>
+   <mi>π</mi>
+   <mo>,</mo>
+   <mo>∓</mo>
+   <mn>0.269</mn>
+   <mo> </mo>
+   <mi>π</mi>
+  </math>
+ </inline-formula>) of (
+ <inline-formula>
+  <math id="i138">
+   <msub>
+    <mrow>
+     <mi>k</mi>
+    </mrow>
+    <mrow>
+     <mi>y</mi>
+    </mrow>
+   </msub>
+   <mo>,</mo>
+   <msub>
+    <mrow>
+     <mi>k</mi>
+    </mrow>
+    <mrow>
+     <mi>z</mi>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula>) axes indicated in 
+ <xref ref-type="fig" rid="fig01">Fig. 1
+  <italic>B</italic>
+ </xref>. These are generic 
+ <inline-formula>
+  <math id="i139">
+   <mi>k</mi>
+  </math>
+ </inline-formula> points, which are related only by the twofold rotational symmetry 
+ <inline-formula>
+  <math id="i140">
+   <msub>
+    <mrow>
+     <mn>2</mn>
+    </mrow>
+    <mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mn>1</mn>
+       <mrow>
+        <mover accent="true">
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mn>0</mn>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula>. The calculated surface states along the 
+ <inline-formula>
+  <math id="i141">
+   <mi>k</mi>
+  </math>
+ </inline-formula> paths passing through the Dirac points (DPs) (
+ <xref ref-type="fig" rid="fig02">Fig. 2 
+  <italic>E</italic> and 
+  <italic>F</italic>
+ </xref>) directly show the presence of gapless Dirac surface states. Interestingly, these unpinned Dirac fermions are of type II (
+ <xref rid="r64" ref-type="bibr">64</xref>) in that the velocities of the two surface bands that cross possess the same sign. By contrast, along the path 
+ <inline-formula>
+  <math id="i142">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+   <mo>−</mo>
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mi mathvariant="normal">Γ</mi>
+     </mrow>
+     <mo>¯</mo>
+    </mover>
+   </mrow>
+   <mo>−</mo>
+   <msub>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <mi>L</mi>
+      </mrow>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mn>1</mn>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> that does not go through the DP, the surface states are gapped (
+ <xref ref-type="fig" rid="fig02">Fig. 2
+  <italic>D</italic>
+ </xref>). To further confirm the nontrivial nature of these states, we studied the Wannier charge centers (WCCs) (
+ <xref rid="r65" ref-type="bibr">65</xref>
+ <xref rid="r66" ref-type="bibr"/>–
+ <xref rid="r67" ref-type="bibr">67</xref>) 
+ <inline-formula>
+  <math id="i143">
+   <msub>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <mi>x</mi>
+      </mrow>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mi>n</mi>
+    </mrow>
+   </msub>
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mi>z</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+   <mo>=</mo>
+   <mrow>
+    <mo>⟨</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>W</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mn>0</mn>
+      </mrow>
+     </msub>
+     <mo>|</mo>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+       <mo stretchy="false">^</mo>
+      </mover>
+     </mrow>
+     <mo>|</mo>
+     <msub>
+      <mrow>
+       <mi>W</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mn>0</mn>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>⟩</mo>
+   </mrow>
+  </math>
+ </inline-formula> on the 
+ <inline-formula>
+  <math id="i144">
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mn>1</mn>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mo>¯</mo>
+      </mover>
+     </mrow>
+     <mn>0</mn>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> surface, where 
+ <inline-formula>
+  <math id="i145">
+   <mfenced open="|" close="⟩">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>W</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+       <mn>0</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mfenced>
+  </math>
+ </inline-formula> is the 
+ <inline-formula>
+  <math id="i146">
+   <mi>n</mi>
+  </math>
+ </inline-formula>th Wannier state in the unit cell of 
+ <inline-formula>
+  <math id="i147">
+   <msub>
+    <mrow>
+     <mi>R</mi>
+    </mrow>
+    <mrow>
+     <mi>x</mi>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> = 0 and 
+ <inline-formula>
+  <math id="i148">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+     <mo stretchy="false">^</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is the position operator (
+ <xref rid="r68" ref-type="bibr">68</xref>). Two dominant WCC sheets, marked by A and B in 
+ <xref ref-type="fig" rid="fig02">Fig. 2 
+  <italic>G</italic> and 
+  <italic>H</italic>
+ </xref>, are seen to be disjointed in the whole surface Brillouin zone, except at 
+ <inline-formula>
+  <math id="i149">
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mi>y</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mrow>
+       <mi>k</mi>
+      </mrow>
+      <mrow>
+       <mi>z</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+   <mo>=</mo>
+   <mrow>
+    <mo>(</mo>
+    <mrow>
+     <mn>1.195</mn>
+     <mo> </mo>
+     <mfrac>
+      <mrow>
+       <mi>π</mi>
+      </mrow>
+      <mrow>
+       <mi>b</mi>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+     <mn>1.28</mn>
+     <mo> </mo>
+     <mfrac>
+      <mrow>
+       <mi>π</mi>
+      </mrow>
+      <mrow>
+       <mi>c</mi>
+      </mrow>
+     </mfrac>
+    </mrow>
+    <mo>)</mo>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref ref-type="fig" rid="fig02">Fig. 2
+  <italic>H</italic>
+ </xref>). These results unambiguously demonstrate the presence of unpinned Dirac surface states associated with the twofold rotational-symmetry–protected topology.
+</p>

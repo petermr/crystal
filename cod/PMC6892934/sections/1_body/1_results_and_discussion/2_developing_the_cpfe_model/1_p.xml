@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">The proposed hypothesis for the interaction of glide dislocations with He
+ <sub>2</sub>V-SIA complexes was used to develop a user material (UMAT) for helium-implanted tungsten to allow CPFE simulations of nano-indentation of this material. Details of the UMAT code are provided in Section 4.6. Briefly, the UMAT uses a physically-based constitutive law governing the thermally activated glide of dislocations through a field of pinning dislocations and He
+ <sub>2</sub>V-SIA complexes. When the resolved shear stress on a given slip system 
+ <italic>τ</italic>
+ <sup>
+  <italic>λ</italic>
+ </sup> is greater than the critically resolved shear stress 
+ <italic>τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub>, slip is allowed. 
+ <italic>τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub> is modified incrementally as
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{c}={\tau }_{c}^{0}+C^{\prime} \,G\,b\sqrt{{\rho }_{GND}}+{\tau }_{H}$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+    <mo>+</mo>
+    <mrow>
+     <mi>C</mi>
+     <mo>′</mo>
+    </mrow>
+    <mspace width=".25em"/>
+    <mi>G</mi>
+    <mspace width=".25em"/>
+    <mi>b</mi>
+    <msqrt>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ρ</mi>
+       </mrow>
+       <mrow>
+        <mi>G</mi>
+        <mi>N</mi>
+        <mi>D</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+    </msub>
+   </math>
+   <graphic xlink:href="41598_2019_54753_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the term 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$C^{\prime} G\,b\sqrt{{\rho }_{GND}}$$\end{document}</tex-math>
+   <math id="M4">
+    <mrow>
+     <mi>C</mi>
+     <mo>′</mo>
+    </mrow>
+    <mi>G</mi>
+    <mspace width=".25em"/>
+    <mi>b</mi>
+    <msqrt>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ρ</mi>
+       </mrow>
+       <mrow>
+        <mi>G</mi>
+        <mi>N</mi>
+        <mi>D</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> accounts for strain hardening using a Taylor hardening law
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup> and 
+ <italic>τ</italic>
+ <sub>
+  <italic>H</italic>
+ </sub> (with initial value 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{H}^{0}$$\end{document}</tex-math>
+   <math id="M6">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> a
+ <italic>t t</italic> = 
+ <italic>0</italic>) accounts for the increased resistance to dislocation glide by the helium-implantation-induced defects. 
+ <italic>G</italic> is the shear modulus of tungsten, 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{c}^{0}$$\end{document}</tex-math>
+   <math id="M8">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> the initial critically resolved shear stress (CRSS
+ <italic>)</italic>, 
+ <italic>ρ</italic>
+ <sub>
+  <italic>GND</italic>
+ </sub> the sum of the GNDs produced on all slip-systems and 
+ <italic>C</italic>′ the proportion of GNDs considered contributing to hardening. For unimplanted pure tungsten
+ <italic>, τ</italic>
+ <sub>
+  <italic>c</italic>
+ </sub> is evolved using Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>), but without the 
+ <italic>τ</italic>
+ <sub>
+  <italic>H</italic>
+ </sub> term. Strain-softening in helium-implanted tungsten i.e. removal of He
+ <sub>2</sub>V-SIA complexes, is implemented by reducing 
+ <italic>τ</italic>
+ <sub>
+  <italic>H</italic>
+ </sub> incrementally
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{H}^{t+\Delta t}={\tau }_{H}^{0}{e}^{-({\beta }_{p}^{t+\Delta t}/\gamma )}$$\end{document}</tex-math>
+   <math id="M10" display="block">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mo>+</mo>
+      <mi mathvariant="normal">Δ</mi>
+      <mi>t</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mo stretchy="false">(</mo>
+      <msubsup>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>p</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+        <mo>+</mo>
+        <mi mathvariant="normal">Δ</mi>
+        <mi>t</mi>
+       </mrow>
+      </msubsup>
+      <mo>/</mo>
+      <mi>γ</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msup>
+   </math>
+   <graphic xlink:href="41598_2019_54753_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\beta }_{p}^{t+\Delta t}$$\end{document}</tex-math>
+   <math id="M12">
+    <msubsup>
+     <mrow>
+      <mi>β</mi>
+     </mrow>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mrow>
+      <mi>t</mi>
+      <mo>+</mo>
+      <mi mathvariant="normal">Δ</mi>
+      <mi>t</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the accumulated crystallographic slip and 
+ <italic>γ</italic> the softening rate. The rate of decrease of 
+ <italic>τ</italic>
+ <sub>
+  <italic>H</italic>
+ </sub> is estimated to be proportional to its current value i.e. the current helium-defect concentration 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(\frac{\partial {\tau }_{H}}{\partial {\beta }_{p}}=-\,{\tau }_{H}/\gamma )$$\end{document}</tex-math>
+   <math id="M14">
+    <mo stretchy="true">(</mo>
+    <mrow>
+     <mfrac>
+      <mrow>
+       <mi>∂</mi>
+       <msub>
+        <mrow>
+         <mi>τ</mi>
+        </mrow>
+        <mrow>
+         <mi>H</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mi>∂</mi>
+       <msub>
+        <mrow>
+         <mi>β</mi>
+        </mrow>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mspace width="-.25em"/>
+     <msub>
+      <mrow>
+       <mi>τ</mi>
+      </mrow>
+      <mrow>
+       <mi>H</mi>
+      </mrow>
+     </msub>
+     <mo>/</mo>
+     <mi>γ</mi>
+    </mrow>
+    <mo stretchy="true">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, suggesting the exponential softening rate in Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>).
+</p>

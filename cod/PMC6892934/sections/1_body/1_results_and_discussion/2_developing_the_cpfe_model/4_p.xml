@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">Additional boundary conditions, 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\sigma }_{xx}^{BC}={\sigma }_{yy}^{BC}\approx -\,260$$\end{document}</tex-math>
+   <math id="M24">
+    <msubsup>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+      <mi>C</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+      <mi>C</mi>
+     </mrow>
+    </msubsup>
+    <mo>≈</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mn>260</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> MPa are applied to the helium-implanted layer to account for the restricted in-plane displacement to maintain geometrical continuity between the implanted layer and substrate (calculations in Appendix A in Supplementary Material)
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. It is interesting to compare the CPFE predicted load-displacement curves for the implanted material with and without these stress boundary conditions, keeping all other UMAT parameters the same. The indentation load predicted without the residual stresses is ~16% lower than the experimental observation. This implies that large residual stresses (here ~75% of 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tau }_{c}^{0}$$\end{document}</tex-math>
+   <math id="M26">
+    <msubsup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) must be accounted for in CPFE, to yield accurate predictions. Prior studies on hardness of mild steel, probed through micro-indentation, showed a similar dependence on residual stress state
+ <sup>
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. Interestingly our CPFE calculations highlight that the impact of residual stress on indentation response continues to be important even at the nano-scale.
+</p>

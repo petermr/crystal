@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Computational methods have become a valuable tool in crystallography, partly triggered by the steadily improving computer power. Examples include relativistic Hartree–Fock calculations of atomic form factors as listed in the 
+ <italic>Inter­national Tables for X-ray Crystallography</italic> (Doyle &amp; Turner, 1968
+ <xref ref-type="bibr" rid="bb23"> ▸</xref>), the estimation of anisotropic displacement parameters (ADPs) from phonon calculations (Madsen 
+ <italic>et al.</italic>, 2013
+ <xref ref-type="bibr" rid="bb47"> ▸</xref>) or the investigation of phase diagrams (Wang 
+ <italic>et al.</italic>, 2005
+ <xref ref-type="bibr" rid="bb83"> ▸</xref>). All computational methods applied to crystal structure models require invariably fully occupied sites because fractional atoms lack a physical basis. If there are partially occupied atomic sites in the average structure, large defect structures can be generated with random or systematic approaches (Proffen &amp; Neder, 1997
+ <xref ref-type="bibr" rid="bb63"> ▸</xref>; Okhotnikov 
+ <italic>et al.</italic>, 2016
+ <xref ref-type="bibr" rid="bb53"> ▸</xref>) for further investigation including the simulation of diffuse scattering (Proffen &amp; Neder, 1997
+ <xref ref-type="bibr" rid="bb63"> ▸</xref>) or molecular dynamics (Matsui, 1996
+ <xref ref-type="bibr" rid="bb48"> ▸</xref>; Lacks 
+ <italic>et al.</italic>, 2005
+ <xref ref-type="bibr" rid="bb44"> ▸</xref>; Adabifiroozjaei 
+ <italic>et al.</italic>, 2018
+ <xref ref-type="bibr" rid="bb1"> ▸</xref>). For example, to study the structure of highly disordered meta-kaolin an 18-fold supercell with 282 atoms was used for calculations applying density functional theory (DFT) to support the refinement of the pair distribution function (White 
+ <italic>et al.</italic>, 2010
+ <xref ref-type="bibr" rid="bb85"> ▸</xref>). The size of those systems quickly exceeds the possibilities of current 
+ <italic>ab initio</italic> calculations on modern clusters, although algorithms were developed to increase the number of atoms per unit cell to a few thousand (Goedecker, 1999
+ <xref ref-type="bibr" rid="bb29"> ▸</xref>; Mohr 
+ <italic>et al.</italic>, 2018
+ <xref ref-type="bibr" rid="bb49"> ▸</xref>). For even larger systems, force-field (FF) methods are the only choice as these are significantly less demanding in terms of computational cost, but the accuracy is limited and depends strongly on the reliability of the FF parameters with which the atomic and molecular interactions are modelled (Leach, 2001
+ <xref ref-type="bibr" rid="bb45"> ▸</xref>). Nowadays, DFT methods have become the standard tool to study the structural and electronic properties of crystals when accuracy is essential (Sholl &amp; Steckel, 2009
+ <xref ref-type="bibr" rid="bb74"> ▸</xref>). First-principles calculations have been applied successfully to a wide range of crystals: from systematic searches of potentially stable phases in multiferroic materials (Diéguez 
+ <italic>et al.</italic>, 2011
+ <xref ref-type="bibr" rid="bb22"> ▸</xref>) to the validation of the structures of molecular crystals (van de Streek &amp; Neumann, 2014
+ <xref ref-type="bibr" rid="bb77"> ▸</xref>).
+</p>

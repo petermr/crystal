@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="undtbl1">
+ <caption>
+  <p>Specifications Table</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <tbody>
+   <tr>
+    <td>Subject</td>
+    <td>Chemistry</td>
+   </tr>
+   <tr>
+    <td>Specific subject area</td>
+    <td>Computational and structural chemistry.</td>
+   </tr>
+   <tr>
+    <td>Type of data</td>
+    <td>Table
+     <break/>Image
+     <break/>Figure
+    </td>
+   </tr>
+   <tr>
+    <td>How data were acquired</td>
+    <td>Electronic structure calculations, using the Amsterdam Density Functional (ADF) 2018 programme.</td>
+   </tr>
+   <tr>
+    <td>Data format</td>
+    <td>Raw
+     <break/>Analyzed
+    </td>
+   </tr>
+   <tr>
+    <td>Parameters for data collection</td>
+    <td>Suitable xyz coordinates for the input geometries were constructed using CHEMCRAFT. The input coordinates were used in the input file of the ADF program, an example input file is provided in the supplementary information.</td>
+   </tr>
+   <tr>
+    <td>Description of data collection</td>
+    <td>Data were collected from ADF output files</td>
+   </tr>
+   <tr>
+    <td>Data source location</td>
+    <td>Department of Chemistry, University of the Free State, Nelson Mandela Street, Bloemfontein, South Africa</td>
+   </tr>
+   <tr>
+    <td>Data accessibility</td>
+    <td>With the article</td>
+   </tr>
+   <tr>
+    <td>Related research article</td>
+    <td>Roxanne Gostynski, Petrus H.van Rooyen, Jeanet Conradie
+     <break/>X-ray diffraction and QTAIM calculations of the non-covalent intermolecular fluorine-fluorine interactions in tris(trifluoroacetylacetonato)-manganese(III).
+     <break/>Journal of Molecular Structure 1201 (2020) 127119, 
+     <ext-link ext-link-type="uri" xlink:href="https://doi.org/10.1016/j.molstruc.2019.127119" id="intref0010" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.1016/j.molstruc.2019.127119</ext-link>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

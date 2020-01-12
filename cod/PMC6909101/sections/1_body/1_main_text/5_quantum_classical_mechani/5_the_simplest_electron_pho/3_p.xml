@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0435">The general expression for the electron Green's function (
+ <xref rid="fd69" ref-type="disp-formula">Eq. (69)</xref>) has the form (see Ref. [
+ <xref rid="bib80" ref-type="bibr">80</xref>])
+ <disp-formula id="fd71">
+  <label>(71)</label>
+  <math id="M245" altimg="si196.svg" alttext="Equation 71.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mtext>free</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+    <mo linebreak="goodbreak">−</mo>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mtext>free</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+    <mrow>
+     <mover accent="true">
+      <mi>T</mi>
+      <mo>ˆ</mo>
+     </mover>
+    </mrow>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mtext>free</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where
+ <disp-formula id="fd72">
+  <label>(72)</label>
+  <math id="M246" altimg="si197.svg" alttext="Equation 72.">
+   <mrow>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mtext>free</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+    <mo linebreak="badbreak">≡</mo>
+    <msup>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mtext>free</mtext>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <msup>
+       <mi mathvariant="bold">q</mi>
+       <mo>′</mo>
+      </msup>
+      <mo>;</mo>
+      <mi>k</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>μ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <msup>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+    </mfrac>
+    <mfrac>
+     <mrow>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>±</mo>
+        <mi>i</mi>
+        <mi>k</mi>
+        <mrow>
+         <mo stretchy="true">|</mo>
+         <mrow>
+          <mi mathvariant="bold">q</mi>
+          <mo linebreak="badbreak">−</mo>
+          <msup>
+           <mi mathvariant="bold">q</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+         <mo stretchy="true">|</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo linebreak="badbreak">−</mo>
+        <msup>
+         <mi mathvariant="bold">q</mi>
+         <mo>′</mo>
+        </msup>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula>is the propagator or the Green's function of the free motion of an electron with energy 
+ <inline-formula>
+  <math id="M247" altimg="si198.svg">
+   <mrow>
+    <mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <msup>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+      <mi>μ</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="M248" altimg="si199.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>T</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> denotes the 
+ <inline-formula>
+  <math id="M249" altimg="si21.svg">
+   <mrow>
+    <mi>T</mi>
+   </mrow>
+  </math>
+ </inline-formula>-operator (scattering operator). In our case, in the denominator of 
+ <inline-formula>
+  <math id="M250" altimg="si200.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fd69" ref-type="disp-formula">Eq. (69)</xref>), according to Eqs. 
+ <xref rid="fd40" ref-type="disp-formula">(40)</xref> and 
+ <xref rid="fd70" ref-type="disp-formula">(70)</xref>, we have the electron energy
+ <disp-formula id="fd73">
+  <label>(73)</label>
+  <math id="M251" altimg="si201.svg" alttext="Equation 73.">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+     <mrow>
+      <mtext>BO</mtext>
+     </mrow>
+    </msubsup>
+    <mo linebreak="badbreak">−</mo>
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mn>...</mn>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </msub>
+      <mn>...</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">−</mo>
+    <mi>i</mi>
+    <mi>γ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <mi>ℏ</mi>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <mi>i</mi>
+      <mi>γ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where
+ <disp-formula id="fd74">
+  <label>(74)</label>
+  <math id="M252" altimg="si202.svg" alttext="Equation 74.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">≡</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mi>m</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>From here
+ <disp-formula id="fd75">
+  <label>(75)</label>
+  <math id="M253" altimg="si203.svg" alttext="Equation 75.">
+   <mrow>
+    <mi>k</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="goodbreak">±</mo>
+    <mi>i</mi>
+    <mrow>
+     <mrow>
+      <msup>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">[</mo>
+         <mrow>
+          <mn>2</mn>
+          <mi>μ</mi>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>J</mi>
+             </mrow>
+             <mrow>
+              <mn>1</mn>
+             </mrow>
+            </msub>
+            <mo linebreak="badbreak">+</mo>
+            <mi>ℏ</mi>
+            <msub>
+             <mrow>
+              <mi>ω</mi>
+             </mrow>
+             <mrow>
+              <mn>1</mn>
+             </mrow>
+            </msub>
+            <mo linebreak="badbreak">+</mo>
+            <mi>i</mi>
+            <mi>γ</mi>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mo stretchy="true">]</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo linebreak="badbreak">/</mo>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

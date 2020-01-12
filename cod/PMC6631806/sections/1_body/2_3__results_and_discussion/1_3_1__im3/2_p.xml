@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Starting with the pre-determined BCC spheres, the SCFT simulations for the copolymer melts were undertaken in a periodic cubic box of 12 × 12 × 12
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>G</mi>
+      <mn>3</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mi>G</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> was the copolymer gyration radius as 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>G</mi>
+      <mrow/>
+     </msubsup>
+     <mo>=</mo>
+     <mi>σ</mi>
+     <mo>⋅</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>N</mi>
+       <mo>/</mo>
+       <mn>6</mn>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The simulation box was discretized into 32
+ <sup>3</sup> lattice cells, and each chain contour was discretized into 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mi>A</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>B</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mi>N</mi>
+      <mi>C</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> segments for A, B, and C blocks, respectively. The modified diffusion equation in Equation (3) along with Equations (7)–(9) were solved via the pseudospectral scheme [
+ <xref rid="B39-polymers-11-01081" ref-type="bibr">39</xref>]. The iteration at a given condition is continued until the variation of 
+ <inline-formula>
+  <math id="mm98">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ω</mi>
+      <mi>j</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>’s is less than ~2.5 × 10
+ <sup>−6</sup>. Using the single core of the Intel Xeon processor, it takes ~24 min per 1k iterations for the copolymer melts, and 40k iterations are necessary to reach the target tolerance. In the early stage, BCC stays, but eventually at the present compositions, there evolved a totally different and new morphology. Using Biovia Material Studio Mesodyn package, we visualized the 3-dimensional morphology of the copolymer melt, which is depicted in 
+ <xref ref-type="fig" rid="polymers-11-01081-f001">Figure 1</xref>. It is seen that the unit cell of the structure seems only 6 × 6 × 6
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>G</mi>
+      <mn>3</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> just as that of BCC. In our first look at the morphology, it possesses holey layers, not the dispersed micellar spheres. 
+</p>

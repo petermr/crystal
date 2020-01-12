@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fn-group>
+ <fn id="fn1">
+  <label>1</label>
+  <p id="ntpara0010">The simplicity is associated herein with approximating the electron's Green's function by it in the case of a free electron and considering merely non-local vibrations of nuclei and disregarding their local vibrations (see above) [
+   <xref rid="bib11" ref-type="bibr">11</xref>, 
+   <xref rid="bib18" ref-type="bibr">18</xref>].
+  </p>
+ </fn>
+ <fn id="fn2">
+  <label>2</label>
+  <p id="ntpara0015">One exception is the Lamb shift in atomic spectroscopy [
+   <xref rid="bib58" ref-type="bibr">58</xref>, 
+   <xref rid="bib59" ref-type="bibr">59</xref>].
+  </p>
+ </fn>
+ <fn id="fn3">
+  <label>3</label>
+  <p id="ntpara0020">Formally, there are no quantum transition dynamics in the Franck-Condon principle. This principle simply assumes that, as the initial and final states enter the matrix element of the quantum transition, the wave functions are considered in the adiabatic approximation. However, this assumption can be interpreted physically as previously indicated.</p>
+ </fn>
+ <fn id="fn4">
+  <label>4</label>
+  <p id="ntpara0025">For example, why do nuclei with substantial inertia follow the new distribution of the electron charge rather than returning the excited electron to the initial state? See details below.</p>
+ </fn>
+ <fn id="fn5">
+  <label>5</label>
+  <p id="ntpara0030">The usual reasoning is: “It is obvious that the nuclei spend most of their time near the turning points. Therefore, the probability of the electron and ‘intended’ vertical transition near these points will be maximal.”</p>
+ </fn>
+ <fn id="fn6">
+  <label>6</label>
+  <p id="ntpara0035">Since the energy of the rotational quantum is much less than the energy of the vibrational quantum, for simplicity, hereinafter, we take into account only the vibrational system of degrees of freedom and ignore the rotational one.</p>
+ </fn>
+ <fn id="fn7">
+  <label>7</label>
+  <p id="ntpara0040">In this section and throughout this article, we assign the names of the pioneers of the theory of molecules, namely, the names of Born and Oppenheimer, to the adiabatic approximation, although between the adiabatic theory of Born and Oppenheimer [
+   <xref rid="bib53" ref-type="bibr">53</xref>] and the modern interpretation of the adiabatic approximation [
+   <xref rid="bib65" ref-type="bibr">65</xref>, 
+   <xref rid="bib66" ref-type="bibr">66</xref>, 
+   <xref rid="bib67" ref-type="bibr">67</xref>], which we cite here, there are some differences, which are discussed, for example, in Refs. [
+   <xref rid="bib66" ref-type="bibr">66</xref>, 
+   <xref rid="bib67" ref-type="bibr">67</xref>].
+  </p>
+ </fn>
+ <fn id="fn8">
+  <label>8</label>
+  <p id="ntpara0045">The adiabatic approximation is often disturbed even in the ground state, for example, due to vibronic interactions [
+   <xref rid="bib66" ref-type="bibr">66</xref>, 
+   <xref rid="bib68" ref-type="bibr">68</xref>, 
+   <xref rid="bib69" ref-type="bibr">69</xref>] and in non-rigid molecular systems [
+   <xref rid="bib70" ref-type="bibr">70</xref>, 
+   <xref rid="bib71" ref-type="bibr">71</xref>].
+  </p>
+ </fn>
+ <fn id="fn9">
+  <label>9</label>
+  <p id="ntpara0050">Usually, the quantity 
+   <inline-formula>
+    <math id="M629" altimg="si2.svg">
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </math>
+   </inline-formula> specifies the rule for bypassing singular points in contour integration. However, in our theory of charge transfers [
+   <xref rid="bib11" ref-type="bibr">11</xref>], some mathematical technique [
+   <xref rid="bib52" ref-type="bibr">52</xref>, 
+   <xref rid="bib75" ref-type="bibr">75</xref>] (see Section 
+   <xref rid="sec2.4.6" ref-type="sec">2.4.6</xref>) manages to perform an exact summation over the intermediate states that are associated with 
+   <inline-formula>
+    <math id="M630" altimg="si2.svg">
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </math>
+   </inline-formula>. This “releases 
+   <inline-formula>
+    <math id="M631" altimg="si2.svg">
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </math>
+   </inline-formula> from former duties” and lets it to gain a new status. The author's mathematical technique [
+   <xref rid="bib52" ref-type="bibr">52</xref>, 
+   <xref rid="bib75" ref-type="bibr">75</xref>] is a substantial development of the generating polynomial (generating function) technique of Krivoglaz and Pekar [
+   <xref rid="bib76" ref-type="bibr">76</xref>, 
+   <xref rid="bib77" ref-type="bibr">77</xref>], and the Krivoglaz-Pekar technique [
+   <xref rid="bib76" ref-type="bibr">76</xref>, 
+   <xref rid="bib77" ref-type="bibr">77</xref>] in its turn is analogous to computing the thermodynamic quantities by the Darwin-Fowler technique [
+   <xref rid="bib72" ref-type="bibr">72</xref>, 
+   <xref rid="bib78" ref-type="bibr">78</xref>], known from statistical physics.
+  </p>
+ </fn>
+ <fn id="fn10">
+  <label>10</label>
+  <p id="ntpara0055">We note that, in analogy with the standard theory of many-phonon transitions [
+   <xref rid="bib72" ref-type="bibr">72</xref>], our original Hamiltonian (
+   <xref rid="fd19" ref-type="disp-formula">Eq. (19)</xref>) depends on the electronic and normal phonon coordinates of the system, and in solving this problem on its basis it is not clear how exactly, because of the incomparability of the masses of the electron and nuclei, a singularity is “formed” in the observed physical quantities, the emergence of which follows from the above analysis of the problem on a qualitative physical level (see Section 
+   <xref rid="sec2.1" ref-type="sec">2.1</xref>). This singularity manifests itself formally in the observed physical quantities, either as 
+   <inline-formula>
+    <math id="M632" altimg="si2.svg">
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </math>
+   </inline-formula> tends to zero (
+   <inline-formula>
+    <math id="M633" altimg="si429.svg">
+     <mrow>
+      <mi>γ</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula>) (see 
+   <xref rid="fig4" ref-type="fig">Fig. 4</xref> in Section 
+   <xref rid="sec2.6" ref-type="sec">2.6</xref>) or for 
+   <inline-formula>
+    <math id="M634" altimg="si455.svg">
+     <mrow>
+      <mi>γ</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula> in the whole of the original theory.
+  </p>
+ </fn>
+ <fn id="fn11">
+  <label>11</label>
+  <p id="ntpara0060">For optical transitions, the perturbation in 
+   <xref rid="fd64" ref-type="disp-formula">Eq. (64)</xref> is accepted in the regular long-wave approximation: 
+   <inline-formula>
+    <math id="M635" altimg="si460.svg">
+     <mrow>
+      <mtext>W</mtext>
+      <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+      <mtext>p</mtext>
+     </mrow>
+    </math>
+   </inline-formula>, where 
+   <inline-formula>
+    <math id="M636" altimg="si461.svg">
+     <mrow>
+      <mtext>p</mtext>
+     </mrow>
+    </math>
+   </inline-formula> is the momentum operator of the electron (see Ref. [
+   <xref rid="bib61" ref-type="bibr">61</xref>]).
+  </p>
+ </fn>
+ <fn id="fn12">
+  <label>12</label>
+  <p id="ntpara0065">The factor 
+   <inline-formula>
+    <math id="M637" altimg="si179.svg">
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </math>
+   </inline-formula> appears from considering the equilibrium distribution of the population for 
+   <inline-formula>
+    <math id="M638" altimg="si332.svg">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </math>
+   </inline-formula> initial states of phonons.
+  </p>
+ </fn>
+ <fn id="fn13">
+  <label>13</label>
+  <p id="ntpara0070">That is, they coincide with the eigenfunctions of the electronic Schrödinger's 
+   <xref rid="fd22" ref-type="disp-formula">Eq. (22)</xref>, which are obtained in the zero order of the adiabatic perturbation theory of Pekar [
+   <xref rid="bib72" ref-type="bibr">72</xref>, 
+   <xref rid="bib73" ref-type="bibr">73</xref>] with respect to the operator 
+   <xref rid="fd25" ref-type="disp-formula">(25)</xref>.
+  </p>
+ </fn>
+ <fn id="fn14">
+  <label>14</label>
+  <p id="ntpara0075">Heat energy 
+   <inline-formula>
+    <math id="M639" altimg="si462.svg">
+     <mrow>
+      <mi>Δ</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">&lt;</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula> matches the acts of luminescence, research of which is beyond the scope of this article. See also the latest reference in this article.
+  </p>
+ </fn>
+ <fn id="fn15">
+  <label>15</label>
+  <p id="ntpara0080">Inter alia, the restriction 
+   <xref rid="fd136" ref-type="disp-formula">(136)</xref> here means that we neglect the well-known zero-phonon line (on zero-phonon lines, see Refs. [
+   <xref rid="bib65" ref-type="bibr">65</xref>, 
+   <xref rid="bib66" ref-type="bibr">66</xref>, 
+   <xref rid="bib84" ref-type="bibr">84</xref>]).
+  </p>
+ </fn>
+ <fn id="fn16">
+  <label>16</label>
+  <p id="ntpara0085">Condition 
+   <xref rid="fd145" ref-type="disp-formula">(145)</xref> does not allow us to make this limit in our result 
+   <xref rid="fd141" ref-type="disp-formula">(141</xref>, 
+   <xref rid="fd142" ref-type="disp-formula">142</xref>, 
+   <xref rid="fd143" ref-type="disp-formula">143</xref>, 
+   <xref rid="fd144" ref-type="disp-formula">144</xref>, 
+   <xref rid="fd145" ref-type="disp-formula">145</xref>, 
+   <xref rid="fd146" ref-type="disp-formula">146</xref>, 
+   <xref rid="fd147" ref-type="disp-formula">147</xref>, 
+   <xref rid="fd148" ref-type="disp-formula">148</xref>, 
+   <xref rid="fd149" ref-type="disp-formula">149</xref>, 
+   <xref rid="fd150" ref-type="disp-formula">150</xref>, 
+   <xref rid="fd151" ref-type="disp-formula">151</xref>, 
+   <xref rid="fd152" ref-type="disp-formula">152</xref>, 
+   <xref rid="fd153" ref-type="disp-formula">153</xref>, 
+   <xref rid="fd154" ref-type="disp-formula">154</xref>, 
+   <xref rid="fd155" ref-type="disp-formula">155</xref>, 
+   <xref rid="fd156" ref-type="disp-formula">156</xref>, 
+   <xref rid="fd157" ref-type="disp-formula">157</xref>, 
+   <xref rid="fd158" ref-type="disp-formula">158)</xref> as the gamma tends to infinity (
+   <inline-formula>
+    <math id="M640" altimg="si430.svg">
+     <mrow>
+      <mi>γ</mi>
+      <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+      <mi>∞</mi>
+     </mrow>
+    </math>
+   </inline-formula>). However, this condition is not fundamental and is related only to routine simplification of calculations, namely it is connected, as previously indicated, with the expansion of the radical into a series of smallness 
+   <inline-formula>
+    <math id="M641" altimg="si383.svg">
+     <mrow>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">|</mo>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+         <mo stretchy="true">|</mo>
+        </mrow>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>J</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </mrow>
+     </mrow>
+    </math>
+   </inline-formula> in the exponent of the Gamow exponent, which is limited to the zero-order approximation. If this simplification is refused, then the result of the limiting transition under discussion is the same as here: 
+   <inline-formula>
+    <math id="M642" altimg="si432.svg">
+     <mrow>
+      <mi>K</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>γ</mi>
+        <mo linebreak="badbreak">→</mo>
+        <mi>∞</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula>. In this connection, the rejection of the aforementioned expansion would lead to an unjustified complication of the result, which is significant only in an uninteresting, from the perspective of applications, asymptotic parameter range (that is, in the region 
+   <inline-formula>
+    <math id="M643" altimg="si432.svg">
+     <mrow>
+      <mi>K</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi>γ</mi>
+        <mo linebreak="badbreak">→</mo>
+        <mi>∞</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+      <mn>0</mn>
+     </mrow>
+    </math>
+   </inline-formula>).
+  </p>
+ </fn>
+ <fn id="fn17">
+  <label>17</label>
+  <p id="ntpara0090">The incomparability of the masses of electrons and nuclei is present in the Franck-Condon picture and “substantiates” it, but here, first of all, we start in our reasoning from the internal inconsistency of the Franck-Condon picture itself, when the incomparability of the masses of electrons and nuclei recedes into the background.</p>
+ </fn>
+ <fn id="fn18">
+  <label>18</label>
+  <p id="ntpara0095">For a system with 
+   <italic>M</italic> nuclear coordinates, this intersection occurs on an (
+   <italic>M</italic> – 1)-dimensional surface.
+  </p>
+ </fn>
+ <fn id="fn19">
+  <label>19</label>
+  <p id="ntpara0100">We are only talking about the outer electrons that are involved in the creation of chemical bonds between atoms. Internal electrons, like in atoms, are tightly bound by their single nucleus.</p>
+ </fn>
+ <fn id="fn20">
+  <label>20</label>
+  <p id="ntpara0105">For non-local vibrations of nuclei (crystal lattice phonons), the many-phonon transitions with phonon occupation numbers changing by over 1 do not contribute to the result for the rate constant of quantum transitions and can be neglected. In the case of localized phonons (local vibrations), the many-phonon transitions with all phonon occupation numbers varying from zero “ad infinitum” make the contribution to the result and hence many of them must be taken into account. About the difference in the interaction of the electronic transition with non-local and local phonons, you can see Section 
+   <xref rid="sec2.4.7" ref-type="sec">2.4.7</xref> and a review by Perlin [
+   <xref rid="bib72" ref-type="bibr">72</xref>].
+  </p>
+ </fn>
+ <fn id="fn21">
+  <label>21</label>
+  <p id="ntpara0110">Nevertheless, the erroneous Franck-Condon picture for simulation of the transient state of MQT can continue to be used even after the correct solution of the MQT problem will also be obtained in the general case taking local vibrations into account. For example, in our daily life we successfully use the erroneous idea that every day the Sun rises in the East and sets in the West, although in reality it is not about the motion of the Sun in the sky, but the rotation of the Earth around its axis. However, when we go beyond the surface of the Earth into Space, the use of the correct physical picture becomes absolutely necessary. In the simplest case of MQT, this “entry into Space” corresponds to the construction of the theory of the shape of the optical bands in polymethine dyes and their aggregates (see Section 
+   <xref rid="sec1" ref-type="sec">1</xref>).
+  </p>
+ </fn>
+ <fn id="fn22">
+  <label>22</label>
+  <p id="ntpara0115">An 
+   <italic>a posteriori</italic> quantum-classical problem.
+  </p>
+ </fn>
+ <fn id="fn23">
+  <label>23</label>
+  <p id="ntpara0120">More precisely, in quantum mechanics energy 
+   <inline-formula>
+    <math id="M644" altimg="si2.svg">
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </math>
+   </inline-formula> is an infinitely small value.
+  </p>
+ </fn>
+ <fn id="fn24">
+  <label>24</label>
+  <p id="ntpara0125">As a rule, these theoretical approaches do not demonstrate clear applications to the experiment.</p>
+ </fn>
+ <fn id="fn25">
+  <label>25</label>
+  <p id="ntpara0130">The remark in parentheses does not apply, for example, to elementary electron-charge transfers or elementary chemical reactions, in which “quantum” transitions from one adiabatic ground state to another adiabatic ground state take place.</p>
+ </fn>
+</fn-group>

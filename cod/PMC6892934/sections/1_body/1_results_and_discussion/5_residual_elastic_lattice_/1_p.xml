@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par26">The deviatoric residual lattice strain (
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\boldsymbol{\varepsilon }}}_{dev}^{e}$$\end{document}</tex-math>
+   <math id="M30">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) is measured by both Laue diffraction (Laue data used from prior study for comparison
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>) and HR-EBSD. To directly compare the CPFE predictions with the experimental measurements, 
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\boldsymbol{\varepsilon }}}_{dev}^{e}$$\end{document}</tex-math>
+   <math id="M32">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is calculated from the total elastic strain tensor (
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\boldsymbol{\varepsilon }}}_{\,}^{e}$$\end{document}</tex-math>
+   <math id="M34">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mspace width=".25em"/>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) given by CPFE:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\boldsymbol{\varepsilon }}}_{dev}^{e}={{\boldsymbol{\varepsilon }}}^{e}-\,{{\boldsymbol{\varepsilon }}}_{vol}^{e}={{\boldsymbol{\varepsilon }}}^{e}-\,1/3\,{\rm{Tr}}\,({{\boldsymbol{\varepsilon }}}^{e}){\boldsymbol{I}}$$\end{document}</tex-math>
+   <math id="M36" display="block">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mi>e</mi>
+    </msup>
+    <mo>−</mo>
+    <mspace width=".25em"/>
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mi>v</mi>
+      <mi>o</mi>
+      <mi>l</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mi>e</mi>
+    </msup>
+    <mo>−</mo>
+    <mspace width=".25em"/>
+    <mn>1</mn>
+    <mo>/</mo>
+    <mn>3</mn>
+    <mspace width=".25em"/>
+    <mi mathvariant="normal">Tr</mi>
+    <mspace width=".25em"/>
+    <mo stretchy="false">(</mo>
+    <msup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mi>e</mi>
+    </msup>
+    <mo stretchy="false">)</mo>
+    <mi mathvariant="bold-italic">I</mi>
+   </math>
+   <graphic xlink:href="41598_2019_54753_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\boldsymbol{\varepsilon }}}_{vol}^{e}$$\end{document}</tex-math>
+   <math id="M38">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">ε</mi>
+     </mrow>
+     <mrow>
+      <mi>v</mi>
+      <mi>o</mi>
+      <mi>l</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the volumetric strain. Helium-implantation induces an out-of-plane lattice swelling i.e. positive 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{zz}^{e}$$\end{document}</tex-math>
+   <math id="M40">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>z</mi>
+      <mi>z</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>,while constraints imposed on the implanted layer along X and Y directions (to maintain continuity with the substrate) means that 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{xx}^{\,}=\,{\varepsilon }_{yy}^{\,}\,\approx 0$$\end{document}</tex-math>
+   <math id="M42">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mspace width=".25em"/>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mspace width=".25em"/>
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mspace width=".25em"/>
+     </mrow>
+    </msubsup>
+    <mspace width=".25em"/>
+    <mo>≈</mo>
+    <mn>0</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>,
+  <xref ref-type="bibr" rid="CR35">35</xref>
+ </sup>. As 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{Tr}}\,({{\boldsymbol{\varepsilon }}}_{dev}^{e})=0$$\end{document}</tex-math>
+   <math id="M44">
+    <mi mathvariant="normal">Tr</mi>
+    <mspace width=".25em"/>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi mathvariant="bold-italic">ε</mi>
+       </mrow>
+       <mrow>
+        <mi>d</mi>
+        <mi>e</mi>
+        <mi>v</mi>
+       </mrow>
+       <mrow>
+        <mi>e</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, it may be estimated that, far from the indent in the implanted material, 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{dev\,xx}^{e}={\varepsilon }_{dev\,yy}^{e}=-\,0.5{\varepsilon }_{dev\,zz}^{e}$$\end{document}</tex-math>
+   <math id="M46">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>x</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mn>0.5</mn>
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>z</mi>
+      <mi>z</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. This implantation-induced deviatoric strain is clearly seen in Laue measurements of the implanted sample (Fig. 
+ <xref rid="Fig5" ref-type="fig">5(d)</xref>); a tensile 
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{dev\,zz}^{e}$$\end{document}</tex-math>
+   <math id="M48">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>z</mi>
+      <mi>z</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (~5.5 × 10
+ <sup>−4</sup>) and compressive 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{dev\,zz}^{e}$$\end{document}</tex-math>
+   <math id="M50">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>z</mi>
+      <mi>z</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{dev\,yy}^{e}$$\end{document}</tex-math>
+   <math id="M52">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>d</mi>
+      <mi>e</mi>
+      <mi>v</mi>
+      <mspace width=".25em"/>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> (~−2.75 × 10
+ <sup>−4</sup>) in the implanted layer
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>. It is worth noting that the CPFE formulation for the implanted sample does not explicitly include the helium-induced lattice swelling. Rather the corrective stress, arising due to restricted deformation in the X and Y directions, is included in the CPFE model as an additional boundary condition (details in Appendix A in Supplementary Material). Consequently, the CPFE predicted strains are purely indentation-induced (direct components of the indentation-induced deviatoric strain referred to as 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{xx}$$\end{document}</tex-math>
+   <math id="M54">
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{yy}$$\end{document}</tex-math>
+   <math id="M56">
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M57">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{zz}$$\end{document}</tex-math>
+   <math id="M58">
+    <msub>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>z</mi>
+      <mi>z</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). Thus, the CPFE predicted out-of-plane strain for the implanted layer is somewhat smaller than that measured by Laue, where both indentation and implantation induced strains are captured (Fig. 
+ <xref rid="Fig5" ref-type="fig">5(d)</xref>).
+</p>

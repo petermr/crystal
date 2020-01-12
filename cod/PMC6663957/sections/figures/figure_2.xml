@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig2">
+ <label>Fig. 2</label>
+ <caption>
+  <p>Class hierarchy related to sinogram data. Arrows indicate the parent class. Gray boxes show the new classes added to the library. The classes 
+   <italic>ProjDataInfoBlocksOnCylindrical</italic> and 
+   <italic>ProjDataInfoBlocksOnCylindricalNoArcCorr</italic> store and calculate the sinogram LOR and bin information for the block geometry. The class 
+   <italic>GeometryBlocksOnCylindrical</italic> builds a map of Cartesian coordinates of detectors according to the scanner geometry
+  </p>
+ </caption>
+ <graphic xlink:href="40658_2019_248_Fig2_HTML" id="MO2" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

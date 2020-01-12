@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The motion control schedule includes the following steps:
+ <list list-type="simple">
+  <list-item>
+   <label>(1)</label>
+   <p>According to the restaurant layout, the tables’ location coordinates and meal delivery robot trajectory coordinates are confirmed.</p>
+  </list-item>
+  <list-item>
+   <label>(2)</label>
+   <p>Initially, the odometer heading and attitude sensor data are cleared to ensure that no cumulative error exists.</p>
+  </list-item>
+  <list-item>
+   <label>(3)</label>
+   <p>The EKF fusion algorithm is used to get accurate real-time coordinates via the UWB GPS coordinates and odometer.</p>
+  </list-item>
+  <list-item>
+   <label>(4)</label>
+   <p>Considering the actual error caused by a “single cumulative error”, the actual driving process adjusts the attitude heading sensor readings in real time to determine the direction of the robot if the error is less than the allowable error [
+    <xref rid="B17-sensors-19-04980" ref-type="bibr">17</xref>].
+   </p>
+  </list-item>
+ </list>
+</p>

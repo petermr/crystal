@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>(iv) Obtaining the dense point cloud: Starting from the orientation elements obtained in the adjustment of the dispersed cloud to improve the coordinates of the projection centers, the photogrammetric correlation is carried out pixel by pixel. For this purpose, algorithms of the type path-based multi-view stereo (PVMS) are used, which is based on an adjustment by least squares with geometric constraints [
+ <xref rid="B35-sensors-19-04881" ref-type="bibr">35</xref>]; multi image correspondance par méthodes automátiques de corrélation (MIC MAC), which allows the correlation of points from pyramidal images [
+ <xref rid="B26-sensors-19-04881" ref-type="bibr">26</xref>]; or semi-global matching (SGM), which performs calculations by pairs of images, as shown in 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>f [
+ <xref rid="B36-sensors-19-04881" ref-type="bibr">36</xref>].
+</p>

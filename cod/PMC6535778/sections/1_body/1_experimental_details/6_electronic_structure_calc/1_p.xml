@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The bulk electronic structure calculations for EuSn
+ <sub>2</sub>P
+ <sub>2</sub> were performed by using the projector augmented wave method as implemented in the VASP package within the generalized gradient approximation (GGA) scheme.
+ <sup>
+  <xref ref-type="bibr" rid="ref34">34</xref>,
+  <xref ref-type="bibr" rid="ref35">35</xref>
+ </sup> The experimental structural parameters were employed. Spin–orbit coupling was included self-consistently in some of the calculations for comparison to the expected electronic structure with SOC absent. Spin polarization using GGA+
+ <italic>U</italic> (
+ <italic>U</italic> = 4 eV) was employed for the magnetic models investigated.
+ <sup>
+  <xref ref-type="bibr" rid="ref36">36</xref>
+ </sup> How f electron states are treated in DFT calculations is of interest because when considered as valence electrons then they are always found at the Fermi energy for partly filled f orbitals, which, except in very rare cases such as for heavy fermion materials,
+ <sup>
+  <xref ref-type="bibr" rid="ref37">37</xref>,
+  <xref ref-type="bibr" rid="ref38">38</xref>
+ </sup> is not a realistic picture for their relative position in energy—in our calculations, the energies of the calculated Eu f electron states are tested to match with the experimental ARPES measurements. A Monkhorst–Pack 11 × 11 × 7 
+ <italic>k</italic>-point mesh was used for the 
+ <italic>k</italic>-space integrations.
+ <sup>
+  <xref ref-type="bibr" rid="ref39">39</xref>
+ </sup> With these settings, the calculated total energy converged to less than 0.1 meV per atom. For the surface spectral weight calculations, a semi-infinite Green’s function method, terminated by (001) surfaces, was employed. Calculations were made for Sn-, P-, and Eu-terminated (001) surfaces. The median line of the Sn bilayer is selected as the Sn-terminated surface.
+</p>

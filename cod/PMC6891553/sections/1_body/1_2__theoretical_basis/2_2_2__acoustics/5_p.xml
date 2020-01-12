@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The insertion loss (
+ <italic>IL</italic>) parameter was used for the acoustic assessment. 
+ <italic>IL</italic> can be defined as the difference between the sound pressure level (
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>P</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> created by the noise source, recorded at the same point with and without the AB:
+ <disp-formula id="FD8-sensors-19-04881">
+  <label>(8)</label>
+  <math id="mm10">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mi>L</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>L</mi>
+      <mi>P</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mrow>
+        <mi>without</mi>
+        <mtext> </mtext>
+       </mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>−</mo>
+     <mtext> </mtext>
+     <msub>
+      <mi>L</mi>
+      <mi>P</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mrow>
+        <mi>with</mi>
+        <mtext> </mtext>
+       </mrow>
+       <mi>A</mi>
+       <mi>B</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

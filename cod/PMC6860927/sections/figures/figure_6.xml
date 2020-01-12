@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="pone.0225041.g006" orientation="portrait" position="float">
+ <object-id pub-id-type="doi">10.1371/journal.pone.0225041.g006</object-id>
+ <label>Fig 6</label>
+ <caption>
+  <title>Principle of the 
+   <italic>boosting</italic> tracker: At each frame, positive and negative samples are collected and fed into the 
+   <italic>boosting</italic> algorithm to create a strong classifier, then the classifier predicts the position of the target in the next frame.
+  </title>
+  <p>(
+   <bold>X</bold>
+   <sub>
+    <italic>n</italic>
+   </sub>, 
+   <bold>1</bold>/
+   <bold>0</bold>) indicates group n that contains either positive (1) or negative (0) samples.
+  </p>
+ </caption>
+ <graphic xlink:href="pone.0225041.g006" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

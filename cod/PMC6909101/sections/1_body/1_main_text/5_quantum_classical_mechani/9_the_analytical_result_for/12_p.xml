@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0600">that are elements in Eqs. 
+ <xref rid="fd141" ref-type="disp-formula">(141)</xref>, 
+ <xref rid="fd142" ref-type="disp-formula">(142)</xref>, 
+ <xref rid="fd143" ref-type="disp-formula">(143)</xref>, 
+ <xref rid="fd144" ref-type="disp-formula">(144)</xref>, 
+ <xref rid="fd145" ref-type="disp-formula">(145)</xref>, 
+ <xref rid="fd146" ref-type="disp-formula">(146)</xref>, 
+ <xref rid="fd147" ref-type="disp-formula">(147)</xref>, 
+ <xref rid="fd148" ref-type="disp-formula">(148)</xref>, 
+ <xref rid="fd149" ref-type="disp-formula">(149)</xref>, 
+ <xref rid="fd150" ref-type="disp-formula">(150)</xref>, 
+ <xref rid="fd151" ref-type="disp-formula">(151)</xref>, 
+ <xref rid="fd152" ref-type="disp-formula">(152)</xref>, 
+ <xref rid="fd153" ref-type="disp-formula">(153)</xref>, 
+ <xref rid="fd154" ref-type="disp-formula">(154)</xref>, 
+ <xref rid="fd155" ref-type="disp-formula">(155)</xref>, 
+ <xref rid="fd156" ref-type="disp-formula">(156)</xref>, 
+ <xref rid="fd157" ref-type="disp-formula">(157)</xref>, and 
+ <xref rid="fd158" ref-type="disp-formula">(158)</xref> for computing optical absorption spectra (
+ <xref rid="fd147" ref-type="disp-formula">Eq. (147)</xref>). The time 
+ <inline-formula>
+  <math id="M511" altimg="si387.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mtext>e</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the specific time of an electron movement between the donor and the acceptor, set apart by distance 
+ <inline-formula>
+  <math id="M512" altimg="si214.svg">
+   <mrow>
+    <mi>L</mi>
+   </mrow>
+  </math>
+ </inline-formula>. The time 
+ <inline-formula>
+  <math id="M513" altimg="si37.svg">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the specific time of the environmental nuclear reorganization. In the case
+ <disp-formula id="fd161">
+  <label>(161)</label>
+  <math id="M514" altimg="si388.svg" alttext="Equation 161.">
+   <mrow>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>τ</mi>
+         </mrow>
+         <mrow>
+          <mi>e</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn mathvariant="normal">1</mn>
+     </mrow>
+    </msup>
+    <mo linebreak="badbreak">=</mo>
+    <msup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn mathvariant="normal">1</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </disp-formula>the so-called transferon resonance [
+ <xref rid="bib12" ref-type="bibr">12</xref>, 
+ <xref rid="bib13" ref-type="bibr">13</xref>] occurs between the respective frequencies 
+ <inline-formula>
+  <math id="M515" altimg="si389.svg">
+   <mrow>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>τ</mi>
+         </mrow>
+         <mrow>
+          <mtext>e</mtext>
+         </mrow>
+        </msub>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M516" altimg="si390.svg">
+   <mrow>
+    <msup>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <mn>1</mn>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>. We considered one of the implications of the resonance under discussion as an example in Ref. [
+ <xref rid="bib18" ref-type="bibr">18</xref>], Section 2.4 (optical absorption spectra as solution-dependent [
+ <xref rid="bib17" ref-type="bibr">17</xref>, 
+ <xref rid="bib44" ref-type="bibr">44</xref>]). Other its impacts are considered in Refs. [
+ <xref rid="bib10" ref-type="bibr">10</xref>, 
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib12" ref-type="bibr">12</xref>, 
+ <xref rid="bib14" ref-type="bibr">14</xref>, 
+ <xref rid="bib17" ref-type="bibr">17</xref>, 
+ <xref rid="bib28" ref-type="bibr">28</xref>]. Farther, in 
+ <xref rid="fd147" ref-type="disp-formula">Eq. (147)</xref>, the time 
+ <inline-formula>
+  <math id="M517" altimg="si391.svg">
+   <mrow>
+    <msup>
+     <mi>τ</mi>
+     <mo>′</mo>
+    </msup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </inline-formula> is the specific time of transformation of the energy 
+ <inline-formula>
+  <math id="M518" altimg="si392.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> of light into the excitation energy 
+ <inline-formula>
+  <math id="M519" altimg="si393.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">−</mo>
+    <msub>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> of electron and the heat energy 
+ <inline-formula>
+  <math id="M520" altimg="si394.svg">
+   <mrow>
+    <mi>Δ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> in elementary electron-transfer processes (see 
+ <xref rid="fd96" ref-type="disp-formula">Eq. (96)</xref>), and the time 
+ <inline-formula>
+  <math id="M521" altimg="si395.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </inline-formula> is the specific time of transformation of a movement (energy) of electron into a movement (energy) of nuclear reorganization (
+ <inline-formula>
+  <math id="M522" altimg="si396.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">&gt;</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>) and/or of the reverse acts (
+ <inline-formula>
+  <math id="M523" altimg="si397.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">&lt;</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>) in the transient dozy-chaos state (the sign of 
+ <inline-formula>
+  <math id="M524" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is discussed below). The non-dimensional parameters 
+ <inline-formula>
+  <math id="M525" altimg="si398.svg">
+   <mrow>
+    <mi>θ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M526" altimg="si399.svg">
+   <mrow>
+    <mi>Θ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M527" altimg="si400.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd146" ref-type="disp-formula">Eq. (146)</xref>) are related to the aforementioned specific times 
+ <inline-formula>
+  <math id="M528" altimg="si387.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mtext>e</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M529" altimg="si401.svg">
+   <mrow>
+    <msup>
+     <mi>τ</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M530" altimg="si402.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, which are divided by the specific time 
+ <inline-formula>
+  <math id="M531" altimg="si37.svg">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd160" ref-type="disp-formula">Eq. (160)</xref>). The quantities 
+ <inline-formula>
+  <math id="M532" altimg="si403.svg">
+   <mrow>
+    <mi>Λ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>Λ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M533" altimg="si404.svg">
+   <mrow>
+    <mi>μ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>μ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M534" altimg="si405.svg">
+   <mrow>
+    <mi>ν</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>ν</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see Eqs. 
+ <xref rid="fd152" ref-type="disp-formula">(152)</xref>, 
+ <xref rid="fd153" ref-type="disp-formula">(153)</xref>, and 
+ <xref rid="fd154" ref-type="disp-formula">(154)</xref>), being independent of the parameter 
+ <inline-formula>
+  <math id="M535" altimg="si400.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and the dozy-chaos energy 
+ <inline-formula>
+  <math id="M536" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, do not involve the chaos of the electron-nuclear movements in the transient state and describe merely the regular motion of the electron and nuclei. The functions 
+ <inline-formula>
+  <math id="M537" altimg="si406.svg">
+   <mrow>
+    <mi>A</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>A</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M538" altimg="si407.svg">
+   <mrow>
+    <mi>B</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>B</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="M539" altimg="si408.svg">
+   <mrow>
+    <mi>C</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>C</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M540" altimg="si409.svg">
+   <mrow>
+    <mi>D</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mi>D</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>θ</mi>
+      <mo>,</mo>
+      <mi>Θ</mi>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see Eqs. 
+ <xref rid="fd148" ref-type="disp-formula">(148)</xref>, 
+ <xref rid="fd149" ref-type="disp-formula">(149)</xref>, and 
+ <xref rid="fd150" ref-type="disp-formula">(150)</xref>), being dependent on the parameter 
+ <inline-formula>
+  <math id="M541" altimg="si400.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, already involve the chaos of the electron-nuclear movements in the transient state. The Eqs. 
+ <xref rid="fd144" ref-type="disp-formula">(144)</xref>, 
+ <xref rid="fd145" ref-type="disp-formula">(145)</xref>, 
+ <xref rid="fd146" ref-type="disp-formula">(146)</xref>, 
+ <xref rid="fd147" ref-type="disp-formula">(147)</xref>, 
+ <xref rid="fd148" ref-type="disp-formula">(148)</xref>, 
+ <xref rid="fd149" ref-type="disp-formula">(149)</xref>, 
+ <xref rid="fd150" ref-type="disp-formula">(150)</xref>, 
+ <xref rid="fd151" ref-type="disp-formula">(151)</xref>, 
+ <xref rid="fd152" ref-type="disp-formula">(152)</xref>, 
+ <xref rid="fd153" ref-type="disp-formula">(153)</xref>, 
+ <xref rid="fd154" ref-type="disp-formula">(154)</xref>, 
+ <xref rid="fd155" ref-type="disp-formula">(155)</xref>, and 
+ <xref rid="fd157" ref-type="disp-formula">(157)</xref> are independent of the parameter 
+ <inline-formula>
+  <math id="M542" altimg="si362.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>β</mi>
+     </mrow>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>ω</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mtext>B</mtext>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the absolute temperature 
+ <inline-formula>
+  <math id="M543" altimg="si21.svg">
+   <mrow>
+    <mi>T</mi>
+   </mrow>
+  </math>
+ </inline-formula>, therefore, they do not include the averaging over the equilibrium distribution of the initial states in the ensemble of the donor-acceptor systems. By contrast, the Eqs. 
+ <xref rid="fd142" ref-type="disp-formula">(142)</xref> and 
+ <xref rid="fd158" ref-type="disp-formula">(158)</xref>, being dependent on the parameter 
+ <inline-formula>
+  <math id="M544" altimg="si362.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>β</mi>
+     </mrow>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>ω</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mtext>B</mtext>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, already include the averaging over the equilibrium distribution of the initial states. All donor-acceptor systems in the ensemble have their own values of the parameter 
+ <inline-formula>
+  <math id="M545" altimg="si399.svg">
+   <mrow>
+    <mi>Θ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, the corresponding thermal effect 
+ <inline-formula>
+  <math id="M546" altimg="si410.svg">
+   <mrow>
+    <mi>Δ</mi>
+   </mrow>
+  </math>
+ </inline-formula> and absorption frequency 
+ <inline-formula>
+  <math id="M547" altimg="si247.svg">
+   <mrow>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> of light (see 
+ <xref rid="fd96" ref-type="disp-formula">Eq. (96)</xref>). These values, together with the other parameters of a donor-acceptor system in the ensemble, determine the position, width, intensity and shape of optical absorption bands. From the formula 
+ <inline-formula>
+  <math id="M548" altimg="si391.svg">
+   <mrow>
+    <msup>
+     <mi>τ</mi>
+     <mo>′</mo>
+    </msup>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </inline-formula> for the specific time of transformation of the light energy 
+ <inline-formula>
+  <math id="M549" altimg="si392.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <mi>Ω</mi>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fd147" ref-type="disp-formula">Eq. (147)</xref>) and from the law of energy conservation (see 
+ <xref rid="fd96" ref-type="disp-formula">Eq. (96)</xref>) it follows that the dynamics of producing the shape of optical bands is fastest in the high-frequency tail of the optical bands and is slowest in their low-frequency tail. Lastly, in 
+ <xref rid="fd157" ref-type="disp-formula">Eq. (157)</xref>, 
+ <inline-formula>
+  <math id="M550" altimg="si411.svg">
+   <mrow>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mrow>
+       <mrow>
+        <mn>4</mn>
+        <mi>θ</mi>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mn>1</mn>
+          <mo linebreak="badbreak">−</mo>
+          <msup>
+           <mrow>
+            <mi>ξ</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mo>−</mo>
+      <mrow>
+       <mrow>
+        <mn>2</mn>
+        <mi>L</mi>
+       </mrow>
+       <mo linebreak="badbreak">/</mo>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the Gamow tunnel factor (
+ <inline-formula>
+  <math id="M551" altimg="si412.svg">
+   <mrow>
+    <mi>a</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mn>2</mn>
+        <mi>m</mi>
+        <msub>
+         <mrow>
+          <mi>J</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>).
+</p>

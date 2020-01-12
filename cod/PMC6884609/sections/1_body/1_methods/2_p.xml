@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">The interatomic interactions were described by the corresponding embedded atom method (EAM) potentials [
+ <xref ref-type="bibr" rid="CR18">18</xref>–
+ <xref ref-type="bibr" rid="CR22">22</xref>]. The initial models were first quasi-statically relaxed to a local minimum energy state through the conjugate gradient method (CGM). After full relaxation, continuous heating was simulated in a canonical (NVT) ensemble using LAMMPS, and the quantities of state (energy and stress tensor) are correspondingly exported. The temperature was set to increase from 1 to 300 K (or higher) with an increment of 1 K. Under a timestep of 2 fs, the relaxation time of 200 ps at each temperature is employed, and the statistically averaged quantities are taken from the last 8 ps. The uncertainty of the simulations mainly comes from two aspects: the accuracy of the potentials and the convergency of the energy at each temperature. Note that the potentials we used have been widely adopted in molecular simulations and repeatedly verified [
+ <xref ref-type="bibr" rid="CR23">23</xref>–
+ <xref ref-type="bibr" rid="CR27">27</xref>], mean while 200 ps is examined to be sufficient allowing the system to reach its thermal equilibrium, we hence believe our simulations are reliable.
+</p>

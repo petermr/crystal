@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For a 2D material sheet on a substrate (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f001">Figure 1</xref>), however, the effective length 
+ <inline-formula>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>z</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> might be different from 
+ <inline-formula>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>y</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> or 
+ <inline-formula>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>x</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the edge atoms (
+ <inline-formula>
+  <math id="mm67">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mn>1</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) should have different effective lengths from the ones of the atoms (
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mn>2</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) in the center region. In such a case, Equation (15) turns into: 
+ <disp-formula id="FD19-nanomaterials-09-00978">
+  <label>(17)</label>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <msubsup>
+        <mi>L</mi>
+        <mi>x</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>y</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>z</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msup>
+        <mo stretchy="false">]</mo>
+        <mrow>
+         <mi>N</mi>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+       <mo>·</mo>
+      </mrow>
+      <mo stretchy="false">[</mo>
+     </mrow>
+     <msubsup>
+      <mi>L</mi>
+      <mi>x</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msubsup>
+      <mi>L</mi>
+      <mi>y</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msubsup>
+      <mi>L</mi>
+      <mi>z</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msup>
+      <mo stretchy="false">]</mo>
+      <mrow>
+       <mi>N</mi>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

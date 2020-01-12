@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="sensors-19-04881-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">sensors-19-04881-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>Material used in acoustic measurements (
+   <italic>IL</italic>).
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Image</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Features</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Loudspeakers</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-graphic xlink:href="sensors-19-04881-i001.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Total Watt (RMS): 2.2 W</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Condenser microphone</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-graphic xlink:href="sensors-19-04881-i002.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Prepolarized
+     <break/>Nominal Sensitivity 6 mV/Pa
+     <break/>Frequency Response 10–20,000 Hz
+     <break/>Class 1
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Soundcard</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-graphic xlink:href="sensors-19-04881-i003.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">XLR Inputs
+     <break/>Signal to Noise Ratio: 97 dB
+     <break/>THD+N: 0.005%
+     <break/>Freq. Response: ±0.35 dB
+    </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Software Cool Edit 2000</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">
+     <inline-graphic xlink:href="sensors-19-04881-i004.jpg" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+    </td>
+    <td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Record signal
+     <break/>Manipulating signal
+     <break/>Mix signal
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">The first-principles results presented in this work are obtained in the framework of density-functional theory (DFT) and many-body perturbation theory (MBPT). DFT is based on the Hohenberg-Kohn theorems
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> and is implemented according to the Kohn-Sham (KS) scheme
+ <sup>
+  <xref ref-type="bibr" rid="CR31">31</xref>
+ </sup>, which consists of mapping the many-electron problem into a set of independent-particle equations for the electronic wave-functions of each electron 
+ <italic>n</italic> in the system at each 
+ <bold>k</bold>-point in the Brillouin zone:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M43">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$[\,-\,\frac{{\nabla }^{2}}{2}+{v}_{s}({\bf{r}})]\,{\varphi }_{n{\bf{k}}}({\bf{r}})={\varepsilon }_{n{\bf{k}}}^{KS}{\varphi }_{n{\bf{k}}}({\bf{r}}),$$\end{document}</tex-math>
+   <math id="M44" display="block">
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mspace width="-.25em"/>
+      <mo>−</mo>
+      <mspace width="-.25em"/>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mo>∇</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <msub>
+       <mrow>
+        <mi>v</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi mathvariant="bold">r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mspace width=".1em"/>
+    <msub>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mi>K</mi>
+      <mi>S</mi>
+     </mrow>
+    </msubsup>
+    <msub>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_54419_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq22">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\varepsilon }_{n{\bf{k}}}^{KS}$$\end{document}</tex-math>
+   <math id="M46">
+    <msubsup>
+     <mrow>
+      <mi>ε</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mi>K</mi>
+      <mi>S</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq22.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the KS energy per particle. Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>) is expressed in atomic units, which are adopted from now on. On the left-hand side of Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>), in addition to the kinetic-energy operator, we find the effective potential per particle 
+ <inline-formula id="IEq23">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${v}_{s}({\bf{r}})$$\end{document}</tex-math>
+   <math id="M48">
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq23.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, which consists of the sum of three terms: 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${v}_{s}({\bf{r}})={v}_{ext}({\bf{r}})+{v}_{H}({\bf{r}})+{v}_{xc}({\bf{r}})$$\end{document}</tex-math>
+   <math id="M50">
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>x</mi>
+      <mi>t</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The external potential 
+ <italic>v</italic>
+ <sub>
+  <italic>ext</italic>
+ </sub> (
+ <bold>r</bold>) includes the interaction between the negatively-charged electrons and the positively-charged nuclei. The Hartree potential 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${v}_{H}({\bf{r}})$$\end{document}</tex-math>
+   <math id="M52">
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>H</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> accounts for the (mean-field) Coulomb between the electrons, and 
+ <inline-formula id="IEq26">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${v}_{xc}({\bf{r}})$$\end{document}</tex-math>
+   <math id="M54">
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq26.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the exchange-correlation (xc) potential. Since the exact form of 
+ <inline-formula id="IEq27">
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${v}_{xc}({\bf{r}})$$\end{document}</tex-math>
+   <math id="M56">
+    <msub>
+     <mrow>
+      <mi>v</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="bold">r</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54419_Article_IEq27.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is unknown, this term in Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>) has to be approximated. In this work, we adopt the generalised gradient approximation (GGA) as implemented in the Perdew-Burke-Ernzerhof parameterisation
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. A relevant aspect in the solution of Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>) is the choice of the basis set. Here, we adopt the linearized augmented planewave plus local-orbital (LAPW + lo) method, which allows for an explicit treatment of core electrons. Their wave-functions are described by solution of the Dirac equation in the spherically symmetric potential given by the nuclei. Further details are provided in refs. 
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>.
+</p>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">as confirmed in Fig. 
+ <xref rid="Fig3" ref-type="fig">3(b)</xref>. On the other hand, even if 
+ <italic>T</italic> does not change the Gaussian shape of 
+ <italic>g</italic>(
+ <italic>θ</italic> − 
+ <italic>ϕ</italic>), its value can determine the variance of the distribution. For large 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> the variance is independent of the value of 
+ <italic>T</italic> (Fig. 
+ <xref rid="Fig3" ref-type="fig">3d</xref>)). A decrease of 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> determines a deviation from the linear behavior until a 
+ <italic>T</italic>-dependent plateau is reached. The shape of 
+ <italic>g</italic>(
+ <italic>θ</italic> − 
+ <italic>ϕ</italic>) is approximatively described by a Gaussian distribution:
+ <disp-formula id="Equ13">
+  <label>13</label>
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$g(\theta -\varphi )\approx {\mathscr{N}}\,\exp (\frac{{r}^{\ast }}{2}\frac{\gamma {U}_{0}}{T+\gamma {D}_{r}{({r}^{\ast })}^{2}}{(\varphi -\theta )}^{2}),$$\end{document}</tex-math>
+   <math id="M52" display="block">
+    <mi>g</mi>
+    <mo stretchy="false">(</mo>
+    <mi>θ</mi>
+    <mo>−</mo>
+    <mi>φ</mi>
+    <mo stretchy="false">)</mo>
+    <mo>≈</mo>
+    <mi mathvariant="script">N</mi>
+    <mspace width=".25em"/>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mo>⁎</mo>
+        </msup>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+      <mfrac>
+       <mrow>
+        <mi>γ</mi>
+        <msub>
+         <mrow>
+          <mi>U</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+        <mo>+</mo>
+        <mi>γ</mi>
+        <msub>
+         <mrow>
+          <mi>D</mi>
+         </mrow>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+        </msub>
+        <msup>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <msup>
+           <mrow>
+            <mi>r</mi>
+           </mrow>
+           <mo>⁎</mo>
+          </msup>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+       </mrow>
+      </mfrac>
+      <msup>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi>φ</mi>
+         <mo>−</mo>
+         <mi>θ</mi>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ13.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

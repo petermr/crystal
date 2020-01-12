@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0355">This integral equation is the Lippmann-Schwinger equation. It is identical to the original Schrödinger 
+ <xref rid="fd20" ref-type="disp-formula">Eq. (20)</xref> or 
+ <xref rid="fd44" ref-type="disp-formula">(44)</xref> (this can be easily verified by acting the operator 
+ <inline-formula>
+  <math id="M170" altimg="si144.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mtext>H</mtext>
+      <mo linebreak="badbreak">−</mo>
+      <mrow>
+       <mover accent="true">
+        <mi>U</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mo linebreak="badbreak">−</mo>
+      <msub>
+       <mrow>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mtext>H</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>on the left and right sides of the equation and taking into account 
+ <xref rid="fd45" ref-type="disp-formula">Eq. (45)</xref>). We rewrite the Lippmann-Schwinger equation (
+ <xref rid="fd51" ref-type="disp-formula">Eq. (51)</xref>) in the symbolic form
+ <disp-formula id="fd52">
+  <label>(52)</label>
+  <math id="M171" altimg="si149.svg" alttext="Equation 52.">
+   <mrow>
+    <mi>Ψ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mi>G</mi>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mi>Ψ</mi>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

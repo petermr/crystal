@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">For the small-displacement method, forces on atoms that experience small displacements from their equilibrium positions need to be known. Here, we compute these atomic forces directly from the total-energy response to very small movements (±~ 0.01 Å) of each atom (4 displacements each for the three coordinates). A 4
+ <sup>th</sup>-degree polynomial is then adapted to the energies and the force component is extracted from an analytical differentiation. Hence, there is no need to compute Hellman-Feynman forces that are troublesome to determine accurately and also not easily defined when substantial spin–orbit interaction and orbital polarization are present. This total-energy-derived forces scheme was initially employed for studying phonons in relativistic γ-uranium
+ <sup>
+  <xref ref-type="bibr" rid="CR39">39</xref>
+ </sup> and has proven to be both robust and accurate in many applications since then.
+</p>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Our calculations were performed using the project-augmented wave method
+ <sup>
+  <xref ref-type="bibr" rid="ref27">27</xref>
+ </sup> and the generalized gradient approximation in the Perdew–Burke–Ernzerhof scheme,
+ <sup>
+  <xref ref-type="bibr" rid="ref28">28</xref>
+ </sup> with the Hubbard-
+ <italic>U</italic> correction as implemented in the Vienna ab initio simulation package code.
+ <sup>
+  <xref ref-type="bibr" rid="ref29">29</xref>
+ </sup> A rotationally invariant +
+ <italic>U</italic> method was applied for the Co 3d states. In general, the 
+ <italic>U</italic>-values are taken from the literature or are selected in a specific way such as to calibrate the values, which reproduce the experimentally measured magnetic moments in the given system.
+ <sup>
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> Here, we considered the former and the effective 
+ <italic>U</italic>-value (
+ <italic>U</italic>
+ <sub>eff</sub>) of 5.0 eV, which provides reliable results in the related materials.
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>,
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> The electronic wave functions were expanded in a plane wave basis set with an energy cutoff of 400 eV. The calculations were performed using PrBaCo
+ <sub>2</sub>O
+ <sub>5.5</sub> unit cells containing 19 atoms with one oxygen vacancy. The integrations over the Brillouin zone were carried out using an 8 × 8 × 4 
+ <italic>k</italic>-point grid. All of the lattice parameters and atomic coordinates were fully optimized until the Hellmann–Feynman forces were less than 0.02 eV/Å. For simulating oxygen ion diffusion, 2 × 2 × 1 supercells containing 40 atoms and a 4 × 4 × 4 
+ <italic>k</italic>-point grid were used.
+</p>

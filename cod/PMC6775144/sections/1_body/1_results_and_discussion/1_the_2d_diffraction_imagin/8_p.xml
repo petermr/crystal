@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">The differential Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) describing the diffracted wave propagation through an imperfect crystal can be cast in the integral form
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{E}_{h}({S}_{0},{S}_{h}) &amp; = &amp; {E}_{h}^{(id)}({S}_{0},{S}_{h})\\ &amp; &amp; +\,{\int }_{-{S}_{0}}^{{S}_{h}}\,d{P}_{h}\,{\int }_{-{P}_{h}}^{{S}_{0}}\,d{P}_{0}{K}_{hh}^{(id)}({S}_{h}-{P}_{h},{S}_{0}-{P}_{0})\\ &amp; &amp; \times \,\frac{\partial }{\partial {P}_{0}}[\frac{\partial }{\partial {P}_{h}}[if({P}_{0},{P}_{h})]{E}_{h}({P}_{0},{P}_{h})],\end{array}$$\end{document}</tex-math>
+   <math id="M50" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mi>i</mi>
+           <mi>d</mi>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="left"/>
+      <mtd columnalign="left"/>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>+</mo>
+        <mspace width=".25em"/>
+        <msubsup>
+         <mo>∫</mo>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </msubsup>
+        <mspace width=".1em"/>
+        <mi>d</mi>
+        <msub>
+         <mrow>
+          <mi>P</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+        <mspace width=".1em"/>
+        <msubsup>
+         <mo>∫</mo>
+         <mrow>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </msubsup>
+        <mspace width=".1em"/>
+        <mi>d</mi>
+        <msub>
+         <mrow>
+          <mi>P</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <msubsup>
+         <mrow>
+          <mi>K</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+          <mi>h</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="true">(</mo>
+          <mrow>
+           <mi>i</mi>
+           <mi>d</mi>
+          </mrow>
+          <mo stretchy="true">)</mo>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="left"/>
+      <mtd columnalign="left"/>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>×</mo>
+        <mspace width=".25em"/>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">[</mo>
+         <mrow>
+          <mfrac>
+           <mi>∂</mi>
+           <mrow>
+            <mi>∂</mi>
+            <msub>
+             <mrow>
+              <mi>P</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfrac>
+          <mrow>
+           <mo stretchy="true">[</mo>
+           <mrow>
+            <mi>i</mi>
+            <mi>f</mi>
+            <mrow>
+             <mo stretchy="true">(</mo>
+             <mrow>
+              <msub>
+               <mrow>
+                <mi>P</mi>
+               </mrow>
+               <mrow>
+                <mn>0</mn>
+               </mrow>
+              </msub>
+              <mo>,</mo>
+              <msub>
+               <mrow>
+                <mi>P</mi>
+               </mrow>
+               <mrow>
+                <mi>h</mi>
+               </mrow>
+              </msub>
+             </mrow>
+             <mo stretchy="true">)</mo>
+            </mrow>
+           </mrow>
+           <mo stretchy="true">]</mo>
+          </mrow>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>P</mi>
+             </mrow>
+             <mrow>
+              <mn>0</mn>
+             </mrow>
+            </msub>
+            <mo>,</mo>
+            <msub>
+             <mrow>
+              <mi>P</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mo stretchy="true">]</mo>
+        </mrow>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where the 
+ <italic>dynamical</italic> diffracted wave amplitude 
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{h}^{(id)}({S}_{0},{S}_{h})$$\end{document}</tex-math>
+   <math id="M52">
+    <msubsup>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>i</mi>
+      <mi>d</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> within a perfect crystal and the kernel function 
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${K}_{hh}^{(id)}({S}_{h}-{P}_{h},{S}_{0}-{P}_{0})$$\end{document}</tex-math>
+   <math id="M54">
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+      <mi>h</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>i</mi>
+      <mi>d</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>P</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>P</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> take the form (see, 
+ <italic>e.g</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>,
+  <xref ref-type="bibr" rid="CR3">3</xref>
+ </sup> for details)
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{E}_{h}^{(id)}({S}_{0},{S}_{h}) &amp; = &amp; \frac{i{{\Gamma }}_{h}}{{\Gamma }}\,\sin [({S}_{0}+{S}_{h}){\Gamma }],\,({S}_{0}+{S}_{h}\ge 0),\\ {K}_{hh}^{(id)}({S}_{h}-{P}_{h},{S}_{0}-{P}_{0}) &amp; = &amp; {J}_{0}(2{\Gamma }\sqrt{({S}_{h}-{P}_{h})({S}_{0}-{P}_{0})}),\end{array}$$\end{document}</tex-math>
+   <math id="M56" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>i</mi>
+          <mi>d</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>i</mi>
+          <msub>
+           <mrow>
+            <mi mathvariant="italic">Γ</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mi mathvariant="italic">Γ</mi>
+        </mfrac>
+        <mspace width=".25em"/>
+        <mi>sin</mi>
+        <mrow>
+         <mo stretchy="true">[</mo>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mrow>
+              <mn>0</mn>
+             </mrow>
+            </msub>
+            <mo>+</mo>
+            <msub>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+          <mi mathvariant="italic">Γ</mi>
+         </mrow>
+         <mo stretchy="true">]</mo>
+        </mrow>
+        <mo>,</mo>
+        <mspace width=".25em"/>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>+</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mo>≥</mo>
+          <mn>0</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi>K</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+          <mi>h</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>i</mi>
+          <mi>d</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </msubsup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>−</mo>
+          <msub>
+           <mrow>
+            <mi>P</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>J</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mn>2</mn>
+        <mi mathvariant="italic">Γ</mi>
+        <msqrt>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+            <mo>−</mo>
+            <msub>
+             <mrow>
+              <mi>P</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <msub>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mrow>
+              <mn>0</mn>
+             </mrow>
+            </msub>
+            <mo>−</mo>
+            <msub>
+             <mrow>
+              <mi>P</mi>
+             </mrow>
+             <mrow>
+              <mn>0</mn>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+        </msqrt>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>respectively.
+</p>

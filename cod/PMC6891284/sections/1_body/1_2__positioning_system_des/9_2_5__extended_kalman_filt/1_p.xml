@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Owing to the presence of external interference and noise, a measurement error exists in the sensor itself as well as in the model. The traditional Kalman filter fusion algorithm introduced above cannot eliminate these errors in practical engineering applications [
+ <xref rid="B26-sensors-19-04980" ref-type="bibr">26</xref>]. Hence, the result will not be the optimal solution. At the same time, only a linear system can use the traditional Kalman filter fusion algorithm, and the noise must be Gaussian white noise. However, this is not straightforward in practical engineering applications. Therefore, we propose an optimized Kalman filter fusion algorithm.
+</p>

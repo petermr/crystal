@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">Table 
+ <xref rid="Tab1" ref-type="table">1</xref> shows the results. The success of prediction was determined as a ratio of the correct structures to all generated model structures, varying notably much, from 0.67 to 94.0%. The maximum number of S-atoms found in the protecting units and in total are in a very good agreement with the compositions of the true structures. This indicates that the true stable structures maximize the number of ligands on the surface to best protect the metal core from the degradation. The lowest RMSD (root mean square deviation) values of the correct model structures range from 0.261 to 0.545 Å, and the corresponding structures are shown in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>. The algorithm is flexible to be used with different kind of sets of reference structures, as indicated for Au
+ <sub>102</sub>(SR)
+ <sub>44</sub>, where only conformations of one short SR-Au-SR unit and one long unit SR–Au–SR–Au–SR unit were used successfully for the prediction. For all other systems the complete set of reference structures were used omitting always the cluster in question.
+</p>

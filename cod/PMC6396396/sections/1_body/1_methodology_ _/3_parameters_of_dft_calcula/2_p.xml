@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DFT calculations were carried out using the ‘
+ <italic>Vienna Ab initio Simulation Package</italic>’ (
+ <italic>VASP</italic>) code (Kresse &amp; Furthmüller, 1996
+ <xref ref-type="bibr" rid="bb41"> ▸</xref>; Kresse &amp; Joubert, 1999
+ <xref ref-type="bibr" rid="bb42"> ▸</xref>). Exchange and correlation effects were parameterized within the generalized gradient approximation (GGA) using the Perdew–Burke–Ernzerhof functional (PBE) or the PBEsol variant optimized for solids (Perdew 
+ <italic>et al.</italic>, 1996
+ <xref ref-type="bibr" rid="bb57"> ▸</xref>, 2008
+ <xref ref-type="bibr" rid="bb56"> ▸</xref>). Calculations for which the dispersion correction after Grimme 
+ <italic>et al.</italic> (2010
+ <xref ref-type="bibr" rid="bb30"> ▸</xref>) was applied are labelled ‘PBE-D’ or ‘PBEsol-D’. In all cases the same set of ultrasoft pseudopotentials provided by the 
+ <italic>VASP</italic> program was used. We used a Monkhorst–Pack grid (Monkhorst &amp; Pack, 1976
+ <xref ref-type="bibr" rid="bb50"> ▸</xref>) for orthorhombic lattices and a gamma-centred 
+ <italic>k</italic> mesh for hexagonal lattices (quartz and corundum). Wavefunctions were represented in a plane-wave basis truncated at 520 eV. For each structure several short optimizations were performed at the beginning to redefine the set of plane waves according to the new cell size until the initial pressure was less than 10 kbar (1 kbar = 100 MPa).
+</p>

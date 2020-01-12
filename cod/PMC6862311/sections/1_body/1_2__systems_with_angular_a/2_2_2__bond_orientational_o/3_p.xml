@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>We note that even in the simplest case of densely packed non-interacting spheres in 2D, the local value of 
+ <inline-formula>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is non-zero for 
+ <inline-formula>
+  <math id="mm57">
+   <mrow>
+    <mrow>
+     <mi>n</mi>
+     <mo>=</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, due to the fact that the hexagonal arrangement of particles allows the highest packing density. This corresponds to the short-range hexatic order in isotropic liquids. However, even if the local arrangement of the particles resembles ideal hexagons, the orientational alignment of the hexagons rapidly falls off with the distance 
+ <inline-formula>
+  <math id="mm58">
+   <mrow>
+    <mi mathvariant="bold-italic">r</mi>
+   </mrow>
+  </math>
+ </inline-formula>. To quantify the persistence in orientation of local arrangement of particles across the entire system, the following orientational correlation function can be defined in Equation (5):
+ <disp-formula id="FD5-materials-12-03464">
+  <label>(5)</label>
+  <math id="mm59">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>G</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mtext> </mtext>
+     <mo stretchy="false">〈</mo>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <msub>
+      <mi mathvariant="sans-serif">Ψ</mi>
+      <mi>n</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+     </mrow>
+     <mo stretchy="false">〉</mo>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

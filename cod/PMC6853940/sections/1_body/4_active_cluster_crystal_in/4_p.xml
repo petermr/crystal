@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">We consider a channel of infinite length in the 
+ <italic>y</italic>-direction, and width 2
+ <italic>L</italic> in the transverse 
+ <italic>x</italic>-direction and model two parallel walls by means of external repulsive potentials at positions 
+ <italic>x</italic> = ±
+ <italic>L</italic>. For the sake of simplicity, we choose a truncated harmonic wall-shape in such a way that the force exerted on the particle, 
+ <bold>F</bold>
+ <sub>
+  <italic>w</italic>
+ </sub>, is linear and directed along the direction of the unit vector 
+ <bold>xˆ</bold>. In detail:
+ <disp-formula id="Equ14">
+  <label>14</label>
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{l}{{\bf{F}}}_{w}^{l,r}=-k(x\pm L)\theta (x\pm L)\hat{{\bf{x}}}\,,\end{array}$$\end{document}</tex-math>
+   <math id="M56" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="left">
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mi mathvariant="bold">F</mi>
+         </mrow>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mo>,</mo>
+          <mi>r</mi>
+         </mrow>
+        </msubsup>
+        <mo>=</mo>
+        <mo>−</mo>
+        <mspace width="-0.25em"/>
+        <mi>k</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo>±</mo>
+        <mi>L</mi>
+        <mo stretchy="false">)</mo>
+        <mi>θ</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo>±</mo>
+        <mi>L</mi>
+        <mo stretchy="false">)</mo>
+        <mover accent="true">
+         <mi mathvariant="bold">x</mi>
+         <mo mathvariant="bold">ˆ</mo>
+        </mover>
+        <mspace width=".25em"/>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ14.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

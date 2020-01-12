@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>If in Expression (5), the vectors 
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>E</mi>
+      </mstyle>
+      <mrow>
+       <msub>
+        <mrow/>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are not orthogonal, then in the media a periodic interference pattern will be observed, the intensity distribution of which can be represented as [
+ <xref rid="B31-polymers-11-00861" ref-type="bibr">31</xref>]:
+ <disp-formula id="FD21-polymers-11-00861">
+  <label>(20)</label>
+  <math id="mm113">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>m</mi>
+        <mo>=</mo>
+        <mi>o</mi>
+        <mo>,</mo>
+        <mi>e</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msubsup>
+        <mi>I</mi>
+        <mrow/>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi>t</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mo>⋅</mo>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <mn>1</mn>
+         <mo>+</mo>
+         <msubsup>
+          <mi>m</mi>
+          <mrow/>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+          <mo>)</mo>
+         </mrow>
+         <mi>cos</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mrow/>
+            <mi>m</mi>
+           </msubsup>
+           <mo>⋅</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm114">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>m</mi>
+      <mrow/>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mrow>
+      <mrow>
+       <mn>2</mn>
+       <msqrt>
+        <mrow>
+         <msubsup>
+          <mi>I</mi>
+          <mn>0</mn>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>⋅</mo>
+         <msubsup>
+          <mi>I</mi>
+          <mn>1</mn>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </msqrt>
+       <mo>⋅</mo>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msubsup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>e</mi>
+          </mstyle>
+          <mn>0</mn>
+          <mi>m</mi>
+         </msubsup>
+         <mo>⋅</mo>
+         <msubsup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>e</mi>
+          </mstyle>
+          <mn>1</mn>
+          <mi>m</mi>
+         </msubsup>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>/</mo>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <msubsup>
+          <mi>I</mi>
+          <mn>0</mn>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>+</mo>
+         <msubsup>
+          <mi>I</mi>
+          <mn>1</mn>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–local contrast of interference pattern; 
+ <inline-formula>
+  <math id="mm115">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>I</mi>
+      <mrow/>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msubsup>
+      <mi>I</mi>
+      <mn>0</mn>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <msubsup>
+      <mi>I</mi>
+      <mn>1</mn>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–total intensity; 
+ <inline-formula>
+  <math id="mm116">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>I</mi>
+      <mi>j</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi>t</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>|</mo>
+        <mrow>
+         <msubsup>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>E</mi>
+          </mstyle>
+          <mi>j</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>; as before, 
+ <italic>m = o</italic> corresponds to own ordinary wave in the sample, 
+ <italic>m = e</italic> corresponds to own extraordinary wave in the sample.
+</p>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p content-type="flushleft">We performed Raman spectroscopy measurements in diamond anvil cells (DACs) on a CH
+ <sub>4</sub>–D
+ <sub>2</sub>O methane hydrate sample at room temperature and pressures between 3 and 150 GPa, with pressure steps of about 5 GPa. Measurements of the same sample up to 45 GPa were previously performed by our group, using the same experimental apparatus but different diamonds, and are reported in ref. 
+ <xref rid="r11" ref-type="bibr">11</xref>. Details of sample preparation and Raman spectra are shown in 
+ <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1904911116/-/DCSupplemental" xlink:show="new" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <italic>SI Appendix</italic>
+ </ext-link>. The frequencies of the Raman-active modes, derived from a fit of the Raman spectra, are reported in 
+ <xref ref-type="fig" rid="fig01">Fig. 1</xref> as a function of pressure. With increasing pressure, the 2 symmetric and antisymmetric CH
+ <sub>4</sub> stretching modes shifted to higher frequencies and could be clearly observed up to the maximum investigated pressure of 150 GPa. The lattice mode also shifted to higher frequencies upon compression. It weakened considerably and became undetectable above 50 GPa. Similarly, the CH
+ <sub>4</sub> rocking mode shifted to higher frequencies upon compression and broadened considerably above 35 GPa. It had almost no detectable intensity above 50 to 60 GPa. The 2 D
+ <sub>2</sub>O stretching modes shifted to smaller frequencies and lost intensity swiftly between 35 and 45 GPa, as previously reported in the literature for methane hydrate (
+ <xref rid="r15" ref-type="bibr">15</xref>, 
+ <xref rid="r16" ref-type="bibr">16</xref>)&gt; and in strong analogy to what is commonly observed in pure ice (
+ <xref rid="r19" ref-type="bibr">19</xref>) and salt-doped ices (
+ <xref rid="r20" ref-type="bibr">20</xref>). In our previous work (
+ <xref rid="r11" ref-type="bibr">11</xref>), we described in detail the mode mixing occurring between the stretching mode of D
+ <sub>2</sub>O and the rocking mode of CH
+ <sub>4</sub> in this pressure range. A peak at 950 
+ <inline-formula>
+  <math id="i17">
+   <msup>
+    <mtext>cm</mtext>
+    <mrow>
+     <mo>−</mo>
+     <mn>1</mn>
+    </mrow>
+   </msup>
+  </math>
+ </inline-formula> appeared upon pressure increase at 
+ <inline-formula>
+  <math id="i18">
+   <mo>∼</mo>
+   <mn>100</mn>
+  </math>
+ </inline-formula> GPa. As shown in 
+ <xref ref-type="fig" rid="fig01">Fig. 1</xref>, 
+ <italic>Inset</italic> the peak has 2 components and is well fitted by 2 pseudo-Voigt functions. By its frequency range and pressure variation, the lower-frequency excitation might correspond to the O–O vibrational mode of 
+ <inline-formula>
+  <math id="i19">
+   <msub>
+    <mrow>
+     <mi mathvariant="normal">t</mi>
+    </mrow>
+    <mrow>
+     <mn>2</mn>
+     <mi>g</mi>
+    </mrow>
+   </msub>
+  </math>
+ </inline-formula> symmetry that is a marker of the transition to the symmetric H-bonded cubic phase of pure ice (ice X) (
+ <xref rid="r19" ref-type="bibr">19</xref>). It must be noted that our hydrate sample contained excess D
+ <sub>2</sub>O—formed during the sI to sH and sH to MH-III transitions—which was in the form of ice VII or ice X in the probed pressure range and contributed substantially to the measured lattice and D
+ <sub>2</sub>O stretching modes. However, the appearance of the higher-frequency excitation, which stems neither from pure ice nor from MH-III, suggests the existence of a high-pressure phase of methane hydrate above 100 GPa. The first indication of a high-pressure phase of methane hydrate (for 
+ <inline-formula>
+  <math id="i20">
+   <mi>P</mi>
+   <mo>&gt;</mo>
+   <mn>40</mn>
+  </math>
+ </inline-formula> GPa) was provided by X-ray diffraction experiments (
+ <xref rid="r14" ref-type="bibr">14</xref>
+ <xref rid="r15" ref-type="bibr"/>–
+ <xref rid="r16" ref-type="bibr">16</xref>). They showed peaks appearing in the diffraction patterns beyond 40 GPa, which are not compatible with the MH-III structure. Moreover, MH-III presents nonnegligible angular frustration for the water and methane molecules (
+ <xref rid="r11" ref-type="bibr">11</xref>), which increases upon compression and might weaken the whole structure. All of the previous results indicate that a different MH structure is formed, although experiments did not allow identifying it uniquely. To determine this phase, we performed AIMD simulations including NQE (
+ <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1904911116/-/DCSupplemental" xlink:show="new" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <italic>SI Appendix</italic>
+ </ext-link>) for pressures up to 150 GPa at room temperature. We explored several candidate structures, inspired from other ice and filled-ice phases. Along the simulations of MH-III at high pressures, we observed changes of the H-bonded network during a few dynamical events. By following this route, we found a structure, the MH-IV phase, shown in 
+ <xref ref-type="fig" rid="fig02">Fig. 2</xref>, which becomes more stable than MH-III around 
+ <inline-formula>
+  <math id="i21">
+   <mo>∼</mo>
+  </math>
+ </inline-formula>30 GPa (
+ <xref ref-type="fig" rid="fig03">Fig. 3
+  <italic>C</italic>
+ </xref>). This structure reproduces all of the features of our Raman study and previous X-ray diffraction data (
+ <xref ref-type="fig" rid="fig01">Figs. 1</xref> and 
+ <xref ref-type="fig" rid="fig03">3
+  <italic>A</italic>
+ </xref>).
+</p>

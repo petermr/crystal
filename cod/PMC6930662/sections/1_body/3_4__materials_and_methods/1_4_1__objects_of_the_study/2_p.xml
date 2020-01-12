@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The columns, which vary in their size between two and 20 molecules, are manually assembled for the subsequent MD simulations. The columns are built by repeatedly placing centrally aligned stars at a distance of 5.0 
+ <inline-formula>
+  <math id="mm82">
+   <mrow>
+    <mover accent="true">
+     <mi>A</mi>
+     <mo>˚</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> from each other. Later, during the minimization process and MD simulations, the molecules find their preferred distances. Using the Forcite module of Materials Studio [
+ <xref rid="B70-molecules-24-04387" ref-type="bibr">70</xref>], the preformed clusters are placed into a rectangular box with side lengths of 
+ <italic>L</italic>
+ <sub>x</sub> = 
+ <italic>L</italic>
+ <sub>B</sub> = 81 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <mover accent="true">
+     <mi>A</mi>
+     <mo>˚</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <italic>L</italic>
+ <sub>z</sub> = 140 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <mover accent="true">
+     <mi>A</mi>
+     <mo>˚</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> for the initial setup. Subsequently, to achieve an overall density of 1.0 g cm
+ <sup>−3</sup>, a total of 28978 water molecules are randomly and homogeneously distributed to solvate the columnar cluster. Finally, the configurations are transferred to LAMMPS to simulate each system for 10 ns. All simulations are performed in the NPT ensemble (Nos
+ <italic>é</italic>–Hoover barostat and thermostat) at the temperature 
+ <italic>T</italic> = 298 K and pressure 
+ <italic>P</italic> = 1 atm while using a time step of 1 fs. More details on the MD protocols, polymer consistent force field (PCFF) parameters, etc. can be found in ref. [
+ <xref rid="B29-molecules-24-04387" ref-type="bibr">29</xref>].
+</p>

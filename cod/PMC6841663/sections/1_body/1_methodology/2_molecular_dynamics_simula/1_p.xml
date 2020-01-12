@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">We performed coarse-grained MD simulations for LCPs using the SCGB model
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. The units and dimensions of the values introduced below are exactly the same as in ref.
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. The simulations were performed using constant particle-number, volume, and temperature conditions. The monomer density of the GB particle 
+ <italic>ρ</italic> was set to 0.3. The velocity Verlet integrator
+ <sup>
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> was used with three-dimensional periodic boundary conditions and a time step of 0.01. The LCPs were expressed by the combination of 5-mer GB main chains, and the monomer density of LCPs was fixed to 0.15. The LCP systems were swelled by monomeric GB particles, and the density of swelling GB particles was fixed to 0.15 (
+ <italic>i.e</italic>., a degree of swelling was kept to 50%). In this study, two types of LCP systems were considered: (i) small systems for obtaining the ML model, (ii) large systems for simulating the microscopic structure changes induced by temperature changes. For small systems, the equilibrated trajectories of 972 GB particles were computed under temperature conditions of 
+ <italic>θ</italic> = 1.5 and 2.0 to form smectic- and nematic-like structures, respectively (see Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref> in next section). The ML model was constructed from the trajectory given by a system of GB particles with aspect ratios of 3.0. The accuracy of the model was then examined through the classification of structures for systems of GB particles with aspect ratios of 2.8, 3.0, and 3.2. For large systems, GB particles with aspect ratios of 3.0 were used. The equilibrated isotropic structures of 62,204 GB particles at 
+ <italic>θ</italic> = 5.5 were gradually quenched to the condition 
+ <italic>θ</italic> = 1.5 over 100,000 simulation steps.
+</p>

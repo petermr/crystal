@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">Note that the boundary conditions (
+ <xref rid="Equ2" ref-type="">2</xref>) are automatically followed from the modified Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>) with the added term 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$-\frac{2i}{k}{\rm{\delta }}({s}_{0}+{s}_{h})$$\end{document}</tex-math>
+   <math id="M20">
+    <mo>−</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>i</mi>
+     </mrow>
+     <mi>k</mi>
+    </mfrac>
+    <mi mathvariant="normal">δ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> in the right-hand side of the first line equation. Using the well-known substitutions 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{0}\to {E}_{0}\,{{\rm{e}}}^{ik{{\rm{\chi }}}_{0}\frac{{s}_{0}+{s}_{h}}{2}},{E}_{h}\to {E}_{h}\,{{\rm{e}}}^{ik{{\rm{\chi }}}_{0}\frac{{s}_{0}+{s}_{h}}{2}-if({\boldsymbol{r}})}$$\end{document}</tex-math>
+   <math id="M22">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>→</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mspace width=".1em"/>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>k</mi>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">χ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+     </mrow>
+    </msup>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+    </msub>
+    <mo>→</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+    </msub>
+    <mspace width=".1em"/>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>k</mi>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">χ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+         <mrow>
+          <mn>0</mn>
+         </mrow>
+        </msub>
+        <mo>+</mo>
+        <msub>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mn>2</mn>
+      </mfrac>
+      <mspace width=".25em"/>
+      <mo>−</mo>
+      <mspace width=".25em"/>
+      <mi>i</mi>
+      <mi>f</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mi mathvariant="bold-italic">r</mi>
+       <mo stretchy="true">)</mo>
+      </mrow>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and retaining the previous designations for the amplitudes of transmitted and diffracted waves, 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{0}({s}_{0},{s}_{h}),{E}_{h}({s}_{0},{s}_{h})$$\end{document}</tex-math>
+   <math id="M24">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, one can easily show that the diffracted amplitude 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${E}_{h}({S}_{0},{S}_{h})$$\end{document}</tex-math>
+   <math id="M26">
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>h</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>h</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50833_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> satisfies the inhomogeneous differential hyperbolic-type second-order equation in the partial derivatives over the dimensionless variables 
+ <italic>S</italic>
+ <sub>0</sub> and 
+ <italic>S</italic>
+ <sub>h</sub> (
+ <italic>S</italic>
+ <sub>0</sub> = 
+ <bold>
+  <italic>s</italic>
+ </bold>
+ <sub>0</sub>/Λ, 
+ <italic>S</italic>
+ <sub>h</sub> = 
+ <bold>
+  <italic>s</italic>
+ </bold>
+ <sub>h</sub>/Λ)
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}\frac{{\partial }^{2}{E}_{h}}{\partial {S}_{h}\partial {S}_{0}}+{{\Gamma }}^{2}{E}_{h} &amp; = &amp; i\frac{\partial }{\partial {S}_{0}}[\frac{\partial }{\partial {S}_{h}}[f({\boldsymbol{r}})]{E}_{h}]+i{{\Gamma }}_{h}\delta ({S}_{0}+{S}_{h}),\\ &amp; &amp; ({\Gamma }^{2}\equiv {{\Gamma }}_{h}\,{{\Gamma }}_{\bar{h}},\,{\rm{Re}}({\Gamma })=1){\rm{.}}\end{array}$$\end{document}</tex-math>
+   <math id="M28" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msup>
+           <mrow>
+            <mi>∂</mi>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mi mathvariant="italic">Γ</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <msub>
+         <mrow>
+          <mi>E</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mi>i</mi>
+        <mfrac>
+         <mi>∂</mi>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mrow>
+         <mo stretchy="true">[</mo>
+         <mrow>
+          <mfrac>
+           <mi>∂</mi>
+           <mrow>
+            <mi>∂</mi>
+            <msub>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mrow>
+              <mi>h</mi>
+             </mrow>
+            </msub>
+           </mrow>
+          </mfrac>
+          <mrow>
+           <mo stretchy="true">[</mo>
+           <mrow>
+            <mi>f</mi>
+            <mrow>
+             <mo stretchy="true">(</mo>
+             <mi mathvariant="bold-italic">r</mi>
+             <mo stretchy="true">)</mo>
+            </mrow>
+           </mrow>
+           <mo stretchy="true">]</mo>
+          </mrow>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">]</mo>
+        </mrow>
+        <mo>+</mo>
+        <mi>i</mi>
+        <msub>
+         <mrow>
+          <mi mathvariant="italic">Γ</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+        <mi>δ</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+          <mo>+</mo>
+          <msub>
+           <mrow>
+            <mi>S</mi>
+           </mrow>
+           <mrow>
+            <mi>h</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="left"/>
+      <mtd columnalign="left"/>
+      <mtd columnalign="left">
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">Γ</mi>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mo>≡</mo>
+        <msub>
+         <mrow>
+          <mi mathvariant="italic">Γ</mi>
+         </mrow>
+         <mrow>
+          <mi>h</mi>
+         </mrow>
+        </msub>
+        <mspace width=".1em"/>
+        <msub>
+         <mrow>
+          <mi mathvariant="italic">Γ</mi>
+         </mrow>
+         <mrow>
+          <mover accent="true">
+           <mi>h</mi>
+           <mo>¯</mo>
+          </mover>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+        <mspace width=".25em"/>
+        <mi mathvariant="normal">Re</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mi mathvariant="italic">Γ</mi>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+        <mo stretchy="false">)</mo>
+        <mi mathvariant="normal">.</mi>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

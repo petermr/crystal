@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to test the accuracy, a common procedure for MD simulations of a canonical ensemble [
+ <xref rid="B43-nanomaterials-09-00978" ref-type="bibr">43</xref>,
+ <xref rid="B44-nanomaterials-09-00978" ref-type="bibr">44</xref>] was employed to produce the internal energy of the 2D materials in contact with a thermal bath at a given temperature 
+ <italic>T</italic>. Specifically, the atoms of the substrate (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f001">Figure 1</xref>) were fixed while the C atoms moved according to classical equations of motion, which were solved by the Verlet algorithm with a time step of 0.2 fs. Within the first 400 fs, all the carbon atoms were assigned velocities every 40 fs according to the Maxwell velocity distribution at temperature 
+ <italic>T</italic>, and then, the internal energy (
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>M</mi>
+       <mi>D</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) and the temperature were recorded every 30 fs to perform the average over 100 records. 
+</p>

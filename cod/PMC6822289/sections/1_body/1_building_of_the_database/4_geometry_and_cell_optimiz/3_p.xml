@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the unit cell and geometry optimization we designed within AiiDA an advanced workchain that ensures a more robust convergence by performing a “three-stage” optimization. First, a preliminary cell optimization with a fixed unit cell angle is run for a maximum of 20 steps. Then, 100 steps of flexible cell 
+ <italic>ab initio</italic> molecular dynamics (AIMD) were performed to give a “shake” to the structure and escape from metastable states. At the end, a final cell optimization is performed without constraints on the unit cell’s angles. All the details on the parameters can be found in the reported workchain on the Materials Cloud and are summarized in the 
+ <xref rid="sec5" ref-type="other">Methods</xref> section.
+</p>

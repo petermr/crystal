@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">To further verify the correlation between the existing luminescent centers and the crystallographic sites in the crystal structure, the PL spectrum of NKLSO:8%Eu
+ <sup>2+</sup> at 80 K was measured. It is commonly known that fine emission spectra can be observed at low temperatures owing to decreased thermal broadening. As shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>, three emission bands located at 486 nm, 495 nm, and 529 nm are clearly observed, which can be ascribed to the existence of three luminescence centers originating from three cation sites occupied by Eu
+ <sup>2+</sup>, as elucidated in the crystal structure analysis. Furthermore, the PL spectrum at 80 K can be divided into three Gaussian peaks (Fig. 
+ <xref rid="Fig2" ref-type="fig">2c</xref>). Two narrow peaks with FWHM~4.7/14.3 nm can be associated with the high cubic symmetry sites, K1 and K2/Na2 sites occupied by Eu
+ <sup>2+</sup>, and the slightly broad emission band with FWHM~51.8 nm can be associated with Na3 sites occupied by Eu
+ <sup>2+</sup> owing to the distorted cubic sites. Since we could not refine Eu occupancies in different cation sites using Rietveld refinement due to the very low Eu concentration, the well-known empirical equation given by Van Uitert can be used to further understand the origin of the three emission bands, which provides a good fit to the emission peak for Eu
+ <sup>2+</sup> discussed hereafter
+ <sup>
+  <xref ref-type="bibr" rid="CR28">28</xref>
+ </sup>.
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$E = Q\left[ {1 - \left( {\frac{V}{4}} \right)^{\frac{1}{V}}10^{ - \frac{{n \times {\rm{EA}} \times r}}{{80}}}} \right]$$\end{document}</tex-math>
+   <math id="M2">
+    <mi>E</mi>
+    <mo>=</mo>
+    <mi>Q</mi>
+    <mfenced close="]" open="[" separators="">
+     <mrow>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msup>
+       <mrow>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>V</mi>
+           </mrow>
+           <mrow>
+            <mn>4</mn>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfenced>
+       </mrow>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>V</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </msup>
+      <mn>1</mn>
+      <msup>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+       <mrow>
+        <mo>-</mo>
+        <mfrac>
+         <mrow>
+          <mi>n</mi>
+          <mo>×</mo>
+          <mi mathvariant="normal">EA</mi>
+          <mo>×</mo>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>80</mn>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </msup>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="41377_2019_148_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>E</italic> denotes the position of the 
+ <italic>d</italic>-band edge in energy (cm
+ <sup>−1</sup>), 
+ <italic>Q</italic> represents the position in energy for the lower 
+ <italic>d</italic>-band edge of the free ions, 
+ <italic>Q</italic> is 34,000 cm−1 for Eu
+ <sup>2+</sup> and 50,000 cm
+ <sup>−1</sup> for Ce
+ <sup>3+</sup>, 
+ <italic>V</italic> is the valence of the active ion (here, 
+ <italic>V</italic> = 2), 
+ <italic>n</italic> is the number of anions in the immediate shell around, 
+ <italic>EA</italic> is the electron affinity of the atoms that form anions, and 
+ <italic>r</italic> is the radius of the host cation replaced by the active cation. Here, 
+ <italic>n</italic> = 8 for the K1, K2/Na2, and Na3 sites, 
+ <italic>EA</italic> should have the same values for K1, K2/Na2, and Na3 in this host, and 
+ <italic>r</italic> (K1) &gt; 
+ <italic>r</italic> (K2/Na2) &gt; 
+ <italic>r</italic> (Na3). From the equation, we can see that the larger the value of 
+ <italic>r</italic> is, the larger the value of 
+ <italic>E</italic>, and the smaller the emission wavelength. Hence, the first peak (486 nm) in the PL spectrum can be assigned to K1 sites, the second peak (495 nm) can be assigned to K2/Na2 sites, and the third broad peak (529 nm) can be assigned to Na3 sites, which is consistent with the previous analysis results depending on different symmetries. Furthermore, the decay behaviors of Eu
+ <sup>2+</sup> at various sites are generally different depending on the variable chemical environment. To further verify the existence of three Eu
+ <sup>2+</sup> emissions in NKLSO:Eu
+ <sup>2+</sup>, the decay curves at 80 K monitored at 486, 495, and 529 nm under 400 nm excitation are measured (Fig. 
+ <xref rid="Fig2" ref-type="fig">2d</xref>). The decay times are determined to be 0.843, 0.852, and 0.965 μs for the peaks at 486, 495, and 529 nm, respectively. The different lifetimes demonstrated that the emissions arise from Eu
+ <sup>2+</sup> in different lattice sites, and the close decay times (0.843 and 0.852 μs) are ascribed to the quite similar 4 /
+ <italic>m</italic> sites (K1, K2/Na) in the lattice, while the value of 0.965 μs should be ascribed to Eu
+ <sup>2+</sup> at the different Na3 sites with a relatively low symmetry of –4.
+</p>

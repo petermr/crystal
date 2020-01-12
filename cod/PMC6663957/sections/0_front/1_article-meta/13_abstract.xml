@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<abstract id="Abs1">
+ <sec>
+  <title>Background</title>
+  <p id="Par1">Software for Tomographic Image Reconstruction (STIR) is an open-source library for PET and SPECT image reconstruction, implementing iterative reconstruction as well as 2D- and 3D-filtered back projection. Quantitative reconstruction of PET data requires the knowledge of the scanner geometry. Typical scanners, clinical as well as pre-clinical ones, use a block-type geometry. Several rectangular blocks of crystals are arranged into regular polygons. Multiple of such polygons are arranged along the scanner axis. However, the geometrical representation of a scanner provided by STIR is a cylinder made of rings of individual crystals equally distributed in axial and transaxial directions. The data of realistic scanners are projected onto such virtual scanners prior to image reconstruction. This results in reduced quality of the reconstructed image. In this study, we implemented the above-described block geometry into the STIR library, permitting the image reconstruction without the interpolation step. In order to evaluate the difference in image quality, we performed Monte Carlo simulation studies of three different scanner designs: two scanners with multiple crystals per block and one with a single crystal per block. Simulated data were reconstructed using the standard STIR method and the newly implemented block geometry.</p>
+ </sec>
+ <sec>
+  <title>Results</title>
+  <p id="Par2">Visual comparison between the images reconstructed by the two models for the block-type scanners shows that the new implementation enhances the image quality to the extent that the results before normalization correction are comparable with those after normalization correction. The simulation result of a uniform cylinder shows that the coefficient of variation decreases from 25.8% to 20.9% by using the new implementation in STIR. Spatial resolution is enhanced resulting in a lower partial loss of intensity in sources of small size, e.g., the spill-over ratio for spherical sources of 1.8 mm diameter is 0.19 in the block and 0.34 in the cylindrical model.</p>
+ </sec>
+ <sec>
+  <title>Conclusions</title>
+  <p id="Par3">Results indicate a significant improvement for the new model in comparison with the old one which mapped the polygonal geometry into a cylinder. The new implementation was tested and is available for use via the library of Swiss Federal Institute of Technology in Zurich (ETH).</p>
+ </sec>
+</abstract>

@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">The dynamical behavior of the normal-modes was investigated under light pulse with a specific polarization direction. Since the motion of the 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> mode is much faster than that of the 
+ <italic>Q</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub>, the 
+ <italic>Q</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub> modes experience the effective potential asserted by the rapidly oscillating 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> mode; i.e., time-averaged potential energy surface depending on 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub>(
+ <italic>t</italic>). The dynamics of the nonlinearly coupled modes were simulated by the following coupled equations of motion,
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M57">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{rcl}{\ddot{Q}}_{IR} &amp; = &amp; -\,\frac{\partial V({Q}_{IR},{Q}_{LSx},{Q}_{LSy})}{\partial {Q}_{IR}}-{\gamma }_{IR}{\dot{Q}}_{IR}+F(t),\,{\rm{where}}\,{Q}_{IR}=\{{Q}_{IRx},{Q}_{IRy}\},\\ {\ddot{Q}}_{LSx} &amp; = &amp; -\,\frac{\partial V({Q}_{IR},{Q}_{LSx},{Q}_{LSy})}{\partial {Q}_{LSx}}-{\gamma }_{LS}{\dot{Q}}_{LSx},\\ {\ddot{Q}}_{LSy} &amp; = &amp; -\,\frac{\partial V({Q}_{IR},{Q}_{LSx},{Q}_{LSy})}{\partial {Q}_{LSy}}-{\gamma }_{LS}{\dot{Q}}_{LSy},\end{array}$$\end{document}</tex-math>
+   <math id="M58" display="block">
+    <mtable columnalign="left">
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>¨</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mspace width="-.25em"/>
+        <mfrac>
+         <mrow>
+          <mi>∂</mi>
+          <mi>V</mi>
+          <mo stretchy="false">(</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>I</mi>
+            <mi>R</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>y</mi>
+           </mrow>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>I</mi>
+            <mi>R</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>˙</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+         </mrow>
+        </msub>
+        <mo>+</mo>
+        <mi>F</mi>
+        <mo stretchy="false">(</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+        <mo>,</mo>
+        <mspace width=".25em"/>
+        <mi mathvariant="normal">where</mi>
+        <mspace width=".25em"/>
+        <msub>
+         <mrow>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+         </mrow>
+        </msub>
+        <mo>=</mo>
+        <mo stretchy="false">{</mo>
+        <msub>
+         <mrow>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+        <msub>
+         <mrow>
+          <mi>Q</mi>
+         </mrow>
+         <mrow>
+          <mi>I</mi>
+          <mi>R</mi>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mo stretchy="false">}</mo>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>¨</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mspace width="-.25em"/>
+        <mfrac>
+         <mrow>
+          <mi>∂</mi>
+          <mi>V</mi>
+          <mo stretchy="false">(</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>I</mi>
+            <mi>R</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>y</mi>
+           </mrow>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>˙</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr columnalign="left">
+      <mtd columnalign="right">
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>¨</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mtd>
+      <mtd columnalign="center">
+       <mo>=</mo>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>−</mo>
+        <mspace width="-.25em"/>
+        <mfrac>
+         <mrow>
+          <mi>∂</mi>
+          <mi>V</mi>
+          <mo stretchy="false">(</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>I</mi>
+            <mi>R</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>x</mi>
+           </mrow>
+          </msub>
+          <mo>,</mo>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>y</mi>
+           </mrow>
+          </msub>
+          <mo stretchy="false">)</mo>
+         </mrow>
+         <mrow>
+          <mi>∂</mi>
+          <msub>
+           <mrow>
+            <mi>Q</mi>
+           </mrow>
+           <mrow>
+            <mi>L</mi>
+            <mi>S</mi>
+            <mi>y</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+        <mo>−</mo>
+        <msub>
+         <mrow>
+          <mi>γ</mi>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>Q</mi>
+           <mo>˙</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mi>L</mi>
+          <mi>S</mi>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </math>
+   <graphic xlink:href="41598_2019_50293_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>γ</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> and 
+ <italic>γ</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub> are the damping coefficients for each mode, and 
+ <italic>F</italic>(
+ <italic>t</italic>) is the optical driving force on the 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> mode. We used Gaussian pulse 
+ <inline-formula id="IEq28">
+  <alternatives>
+   <tex-math id="M59">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F(t)={Z}_{IR}^{\ast }{E}_{0}\,\sin \,(\Omega t){e}^{-{t}^{2}/2{\sigma }^{2}}/\sigma \sqrt{2\pi }$$\end{document}</tex-math>
+   <math id="M60">
+    <mi>F</mi>
+    <mo stretchy="false">(</mo>
+    <mi>t</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mi>Z</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mo>⁎</mo>
+     </mrow>
+    </msubsup>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mspace width=".25em"/>
+    <mi>sin</mi>
+    <mspace width=".10em"/>
+    <mo stretchy="false">(</mo>
+    <mi mathvariant="normal">Ω</mi>
+    <mi>t</mi>
+    <mo stretchy="false">)</mo>
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mo>−</mo>
+      <msup>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>/</mo>
+      <mn>2</mn>
+      <msup>
+       <mrow>
+        <mi>σ</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+    </msup>
+    <mo>/</mo>
+    <mi>σ</mi>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq28.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <italic>E</italic>
+ <sub>0</sub> is the amplitude of the electric field, σ is the duration of the pulse and Ω is the frequency.
+</p>

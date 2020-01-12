@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>d</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> is the length of the shortest path in the graph from 
+ <italic>i</italic> to 
+ <italic>j</italic>. An efficient algorithm for the calculation of the distance matrix from the adjacency matrix exists [
+ <xref ref-type="bibr" rid="CR13">13</xref>]. Using these definitions, we can calculate the Wiener index, 
+ <italic>W</italic>(
+ <italic>G</italic>), the hyper-Wiener index, 
+ <italic>W</italic>
+ <italic>W</italic>(
+ <italic>G</italic>), the reverse Wiener index 
+ <italic>rW</italic>(
+ <italic>G</italic>), and the Szeged index, 
+ <italic>Sz</italic>(
+ <italic>G</italic>), as previously detailed [
+ <xref ref-type="bibr" rid="CR14">14</xref>]. These calculations use the the same algorithm that we have previously used for topological indices and nanoclusters [
+ <xref ref-type="bibr" rid="CR12">12</xref>].
+</p>

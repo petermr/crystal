@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The orientation of the fringes in the space has been changed because the direction 
+ <bold>e</bold>
+ <sub>1</sub> has been made horizontal. As mentioned before, three systems of fringes at orientation 120° to each other can be extracted from the FFT of 
+ <xref ref-type="fig" rid="materials-12-01804-f006">Figure 6</xref>a: this configuration is the equivalent of the three-arm rosette in the elementary cell analysis extended to the full field. The interpretation of the procedure to extract information from these patterns changes depends on adopted paths. One can follow the traditional interpretation based on the Cartesian coordinate system of reference. From the patterns of 
+ <xref ref-type="fig" rid="materials-12-01804-f010">Figure 10</xref>, it is possible to obtain the necessary derivatives for getting components of the 
+ <bold>J</bold> tensor, Equation (2). Then, by utilizing Equations (2) through (8), one can compute the Euler-Almansi strain tensor components in the Eulerian description of the deformed continuum using in 2D the coordinate system x-y-z, 
+ <disp-formula id="FD11-materials-12-01804">
+  <label>(11)</label>
+  <math id="mm22">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="bold-italic">ε</mi>
+      <mi mathvariant="normal">x</mi>
+      <mi mathvariant="normal">E</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <msqrt>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mn>2</mn>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD12-materials-12-01804">
+  <label>(12)</label>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="bold-italic">ε</mi>
+      <mi mathvariant="normal">y</mi>
+      <mi mathvariant="normal">E</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>−</mo>
+     <msqrt>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mn>2</mn>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD13-materials-12-01804">
+  <label>(13)</label>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msubsup>
+        <mi mathvariant="bold-italic">ε</mi>
+        <mrow>
+         <mi>xy</mi>
+        </mrow>
+        <mi mathvariant="normal">E</mi>
+       </msubsup>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi mathvariant="bold">arcsin</mi>
+     <mfrac>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+       <mo>−</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">u</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+       <mo>−</mo>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">x</mi>
+        </mrow>
+       </mfrac>
+       <mfrac>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">v</mi>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <mi mathvariant="normal">y</mi>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mn>1</mn>
+         <mo>−</mo>
+         <msubsup>
+          <mi mathvariant="bold-italic">ε</mi>
+          <mi mathvariant="normal">x</mi>
+          <mi mathvariant="normal">E</mi>
+         </msubsup>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mo> </mo>
+         <mn>1</mn>
+         <mo>−</mo>
+         <msubsup>
+          <mi mathvariant="bold-italic">ε</mi>
+          <mi mathvariant="normal">y</mi>
+          <mi mathvariant="normal">E</mi>
+         </msubsup>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

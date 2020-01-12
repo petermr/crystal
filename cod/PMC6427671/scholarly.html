@@ -1,0 +1,836 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head> <style type="text/css">
+         	     		 
+         	    a                          {background : #ffffff; }
+         	    article                    {border-style : dotted; border-width : 2px; }
+         		 	
+         		 	div                        {background : #ffffcc;}
+         		 	div.abstract-title         {font-weight : bold ; font-size : 16pt;}
+         		 	div.ack                    {border-style : solid ; border-color : red; margin
+         : 2em; }
+         		 	div.article-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.boxed-text             {margin : 5em; border-style : solid;}
+         		 	div.contrib-group          {margin : 1em; }
+         		 	div.fig                    {border-style : solid; border-width : 2px; margin :
+         2em; }
+         		 	div.funding                {font-weight : bold ; font-size : 16pt;}
+         		 	div.given-names            {font-style : italic;}
+         		 	div.intro                  {border-style : inset; margin : 5px;}
+         		 	div.introduction           {border-style : inset; margin : 5px;}
+         		 	div.journal-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.journal-title-group    {background : #ffeeee;}
+         		 	div.article-title          {font-weight : bold ; font-size : 18pt;}
+         		 	div.kwd                    {font-style : italic}
+         		 	div.meta-name              {font-weight : bold ; font-size : 16pt;}
+         		 	div.name                   {font-weight : bold;}
+         		 	div.alt-title              {font-style : italic; font-size : 12px;}
+         		 	
+         		 	div.sec                    {border : 2px; margin 5px; padding 2px;}
+         		 	div.title                  {font-family : courier; font-weight : bold;
+         		 	                            font-size : 16pt; margin : 5px;}
+         		 	
+         		 	div.materials_methods      {border-style : double; margin : 5px; }
+         		 	div.methods                {border-style : double; margin : 5px; }
+         		 	
+         		 	div.results                {border-style : solid; margin : 5px;}
+         		 	div.background             {border-style : dotted; margin : 5px;}
+         		 	
+         		 	div.discussion             {border-style : groove; margin : 5px;}
+         		 	div.conclusion             {border-style : ridge; margin : 5px;}
+         		 	div.conclusions             {border-style : ridge; margin : 5px;}
+         		 	div.supplementary-material {border-style : inset; margin : 5px;}
+         		 	div.abbreviations          {border-style : double; border-color : red; margin
+         : 5px;}
+         		 	div.competinginterests     {border-style : double; border-color : blue; margin
+         : 5px;}
+         		 	div.acknowledgements       {border-style : double; border-color : green; margin
+         : 5px;}
+         		 	div.authors_contributions   {border-style : double; border-color : purple; margin
+         : 5px;}
+         		 	
+         		 	div.publisher              {border-style : outset; margin : 5px;}
+         		 	div.fn-type-conflict       {background : #f88; }
+         		 	div.fn-type-con            {background : #ddf; }
+         		 	div.fn-type-other          {background : #ddd; }
+         		 	
+         		 	div.unknown                {background : #ffd;
+         									 	  border-style : solid;
+         									 	  border-width : 1px;
+         									 	  padding : 2 px;}
+         		 	  
+         	    table                      {background : #ffffdd;}
+         		 	tr                         {background : #ddddff; padding : 1px;}
+         		 	
+         		 	span                       {background : #ffcccc;}
+         		 	
+         		 	span.citation-author       {font-family : helvetica; background : #ffeeee;}
+         		 	span.collab                {background : #ddffff; }
+         		 	span.comment               {font-family : courier; font-size : 6px; background
+         : #ffaaff;}
+         		 	span.contrib               {background : #ffffff;}
+         		 	span.corresp               {background : #ddffdd; }
+         		 	span.doi                   {background : #ffffff;}
+         		 	span.email                 {font-family : courier; }
+         		 	span.etal                  {font-style : italic;}
+         		 	span.fpage                 {font-family : courier;}
+         		 	span.given-names           {background : #ffffff;}
+         		 	span.iso-abbrev            {background : #ffffff;}
+         		 	span.issn-epub             {background : #ffffff;}
+         		 	span.issn-ppub             {background : #ffffff;}
+         		 	span.journal-title         {background : #ffffff;}
+         		 	span.lpage                 {font-family : courier;}
+         		 	span.mixed-article-title   {font-style : italic ;}
+         		 	span.nlm-ta                {background : #ffffff;}
+         		 	span.pmc                   {background : #ffffff;}
+         		 	span.pmcid                 {background : #ffffff;}
+         		 	span.pmid                  {background : #ffffff;}
+         		 	span.publisher             {background : #ffffff;}
+         		 	span.publisher-id          {background : #ffffff;}
+         		 	span.publisher-name        {background : #ffffff;}
+         		 	span.source                {background : #ffffff;}
+         		 	span.subject               {background : #ffffff;}
+         		 	span.surname               {background : #ffffff;}
+         		 	span.volume                {font-family : courier; font-weight : bold;}
+         		 	span.year                  {font-family : courier ; font-style : italic;}
+         			
+      </style> </head> <body> <div class="front" title="front"> <div class="journal-meta" tagx="journal-meta" title="journal-meta"> <span class="nlm-ta" title="nlm-ta">Sensors (Basel)</span> <span class="iso-abbrev" title="iso-abbrev">Sensors (Basel)</span> <span class="publisher-id" title="publisher-id">sensors</span> <div class="journal-title-group" tagx="journal-title-group" title="journal-title-group"> <span class="journal-title" tagx="journal-title" title="journal-title">Sensors (Basel, Switzerland)</span> </div> <span class="issn-epub" tagx="issn" title="issn-epub">1424-8220</span> <div class="publisher" tagx="publisher" title="publisher"> <span class="publisher-name" tagx="publisher-name" title="publisher-name">MDPI</span> </div> </div> <div class="article-meta" tagx="article-meta" title="article-meta"> <span class="pmcid" title="pmcid"> pmcid: <a href="http://www.ncbi.nlm.nih.gov/pubmed/6427671">6427671</a> </span> <span class="doi" title="doi"> doi: <a href="https://dx.doi.org/10.3390/s19051052">10.3390/s19051052</a> </span> <span class="publisher-id" title="publisher-id">sensors-19-01052</span> <div class="article-categories" title="article-categories">
+: <span class="subject" title="subject">Article</span> </div> <div class="title-group"> <div class="article-title" title="article-title">
+Modeling and Studying Acceleration-Induced Effects of Piezoelectric Pressure Sensors Using System Identification Theory </div> </div> <div class="contrib-group" title="contrib-group"> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Xu</span> <span class="given-names" tagx="given-names" title="given-names">Fujing</span> </span> <a href="#af1-sensors-19-01052">1</a> <a href="#c1-sensors-19-01052">*</a> </span> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ma</span> <span class="given-names" tagx="given-names" title="given-names">Tiehua</span> </span> <a href="#af2-sensors-19-01052">2</a> </span> </div> <span class="citation_author_institution" id="af1-sensors-19-01052">[1], </span> <span class="citation_author_institution" id="af2-sensors-19-01052">[2], <span class="email" tagx="email" title="email">matiehua@nuc.edu.cn</span> </span> <div class="author-notes" title="author-notes"> <div class="corresp" title="corresp"> <span class="label" tagx="label" title="label">*</span>Correspondence: <span class="email" tagx="email" title="email">xufujing@126.com</span>; Tel.: +86-351-2646-018 </div> </div> <span class="pub-date-epub" title="pub-date-epub">epub: <span>2019-3-3</span> </span> <span class="pub-date-collection" title="pub-date-collection">collection: <span>2019-3</span> </span> <span class="volume" tagx="volume" title="volume">19</span> <span class="issue" tagx="issue" title="issue">5</span> <span class="elocation-id" tagx="elocation-id" title="elocation-id">1052</span> <span class="history" title="history"> <span class="received" title="received">received: 2019-1-27</span> <span class="accepted" title="accepted">accepted: 2019-2-26</span> </span> <div class="permissions"> <span class="copyright" title="copyright">(C) , <span class="copyright-year" tagx="copyright-year" title="copyright-year">2019</span> </span> <span class="license" title="license"> <span class="license-p" title="license-p">Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>). </span> </span> </div> <div class="abstract" title="abstract"> <div class="abstract-title" title="abstract-title">
+Abstract</div> <p>Transient pressure testing is often accompanied by shock acceleration. Aiming at the acceleration-induced effects of pressure sensors, a dynamic compensation method combining empirical mode decomposition (EMD) with system identification theory (SIT) is proposed in this paper. This method is more effective at reducing the error of the acceleration-induced effects without affecting the sensor’s sensitivity and inherent frequency. The principle and theoretical basis of acceleration-induced effects is analyzed, and the static and dynamic acceleration-induced effects on the quartz crystal of a piezoelectric pressure sensor are performed. An acceleration-induced effects dynamic calibration system is built using a Machete hammer, which generates acceleration signals with larger amplitude and narrower pulse width, and an autoregressive exogenous (ARX)mathematical model of acceleration-induced effects is obtained using empirical mode decomposition-system identification theory (EMD-SIT). A digital compensation filter for acceleration-induced effects is designed on the basis of this model. Experimental results explain that the acceleration-induced effects of the pressure sensor were less than 11% after using the digital compensation filter. A series of test data verify the accuracy, reliability, and generality of the model. </p> </div> <div class="kwd-group"> <div class="kwd" title="kwd">
+pressure sensor</div> <div class="kwd" title="kwd">
+acceleration-induced effects</div> <div class="kwd" title="kwd">
+finite element analysis</div> <div class="kwd" title="kwd">
+system identification</div> </div> </div> </div> <div class="body" title="body"> <div class="intro" title="intro"> <div class="title" tagx="title" title="title">
+1. Introduction</div> <p>In many science and engineering applications, including the measurement of shock waves, compression stress near the projectile base, and pressure of combustion chambers, dynamic transient pressure is tested. Transience is a universality of these pressure signals, which are usually accompanied by huge shocks [ <a href="#B1-sensors-19-01052">1</a>]. The problem is that the effects of the pressure sensor caused by acceleration (acceleration-induced effects) will lead to a large margin of measurement error. Consequently, it is meaningful to explore the acceleration-induced effects of pressure sensors for higher measurement accuracy and precision [ <a href="#B2-sensors-19-01052">2</a>, <a href="#B3-sensors-19-01052">3</a>]. </p> <p>Piezoelectric pressure sensors are widely used in various pressure tests because of their simple structure, high sensitivity, and high precision. However, the nature structure of piezoelectric sensors makes them sensitive to acceleration, especially to axial acceleration. To measure transient pressure accurately, piezoelectric pressure sensors must compensate for the acceleration-induced effects. Typical methods to eliminate the acceleration-induced effects mainly focus on reducing the mass of the piezoelectric element or improving the mechanical rigidity of the piezoelectric element [ <a href="#B4-sensors-19-01052">4</a>, <a href="#B5-sensors-19-01052">5</a>]. This inevitably leads to a decrease in the sensitivity of the sensor. For keeping the sensitivity of the sensor constant, an increasing compensation element of the pressure sensor is presented [ <a href="#B6-sensors-19-01052">6</a>]. Nevertheless, this method reduces the inherent frequency of the sensor [ <a href="#B7-sensors-19-01052">7</a>]. The acceleration-induced effect of the pressure sensor was statically calibrated by Zu et al. [ <a href="#B8-sensors-19-01052">8</a>]. However, to eliminate the acceleration-induced error, the acceleration signal must be measured at the meantime, which makes the test system too complicated. Fortunately, this problem can be solved by designing proper digital filters. Hence, a reliable mathematical model might be a big challenge. Shang et al. adopted an empirical mode decomposition (EMD) method to model the acceleration-induced error of piezoelectric sensor [ <a href="#B9-sensors-19-01052">9</a>]. The EMD has many advantages, such as it is intuitive and can be deduced without a preset basis function. In addition, the random noises mixed in the output signal of pressure sensors can be eliminated effectively. Due to a lack of theoretical foundation, the empirical mode decomposition for acceleration-induced effects still has shortcomings in accuracy and reliability. </p> <p>For these reasons, this paper proposes a new method to compensate the acceleration-induced effects of pressure sensors. The theoretical foundation of acceleration-induced effects is analyzed, and an ANSYS simulation of acceleration-induced effects is performed. Then, an acceleration-induced effects dynamic calibration system is built using a Machete hammer and a series of tests for a piezoelectric pressure sensor are carried out. On the basis of this, a mathematical model is obtained in conjunction with measured data by using empirical mode decomposition (EMD) and system identification theory (SIT). First, the EMD is used to reconstruct the de-noised output of pressure sensors. Second, a suitable mathematical model with optimal parameters is established with SIT. Lastly, a digital compensation filter based on this model is designed to compensate the acceleration-induced effects of pressure sensors. Through the proposed filter, the acceleration-induced effects can be well filtered out. On one hand, this method does not affect the sensor’s sensitivity and natural frequency. On the other hand, EMD-SIT is more effective than the EMD at reducing the error of the acceleration-induced effects. </p> </div> <div class="2.theoreticalmodelforacceleration-inducedeffectsofpressuresensors" title="sec"> <div class="title" tagx="title" title="title">
+2. Theoretical Model for Acceleration-Induced Effects of Pressure Sensors</div> <p>Because of the lack of theoretical basis, the acceleration-induced effects cannot be effectively corrected. Piezoelectric pressure sensors are generally composed of piezoelectric crystal, diaphragm, anvil plate, and other components [ <a href="#B10-sensors-19-01052">10</a>], as shown in <a href="#sensors-19-01052-f001">Figure 1</a>. The diaphragm delivers pressure and preloads the crystal. When the diaphragm is under pressure, the pressure is passed to the crystal through the anvil plate, which ensures that the pressure on the crystal itself is uniform and prevents local damage from pressure concentrations [ <a href="#B11-sensors-19-01052">11</a>]. </p> <p>For the purpose of theoretical research, the pressure sensor is equivalent to the model shown in <a href="#sensors-19-01052-f002">Figure 2</a>a, where <i>m</i> is the equivalent mass of the diaphragm, and S is the piezoelectric element. </p> <p> <a href="#sensors-19-01052-f002">Figure 2</a>b shows the mechanics principle diagram, where <i>k</i> and <i>c</i> are the piezoelectric element axial stiffness and damping coefficient, respectively. The <i>x</i> and <i>y</i> are the geodetic stationary coordinates and internal relative motion coordinates, respectively. From mechanics principles, we obtain the following equation: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(1)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+y</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+c</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+y</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+t</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+k</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+m</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+x</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> where <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+t</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+x</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+t</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </span> Then, the Laplace transform of Equation (1) is: <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(2)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+c</div> <div class="mi_UNKNOWN">
+s</div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+k</div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+Y</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+m</div> <div class="mi_UNKNOWN">
+A</div> </div> </div> </div> </div> where <i>Y</i> is Laplace transform of <i>y</i>( <i>t</i>), and <i>A</i> is Laplace transform of <i>a</i>( <i>t</i>). From Equation (2), it can be seen that acceleration signals do affect the pressure sensor. We may set <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msqrt_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+k</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> </div> </div> </div> </span> as the undamped natural angular frequency, with <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+k</div> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> </div> </div> </div> </div> </span> as the damping ratio. Therefore, the system transfer function can be written as: <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(3)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+H</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+s</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+ε</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mi_UNKNOWN">
+s</div> <div class="mo_UNKNOWN">
++</div> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> <p /> <p>The output charge of the piezoelectric element is proportional to <i>y</i>( <i>t</i>). Thus, Equation (3) describes the input–output relationship of the pressure sensor and the theoretical model of the acceleration-induced effect of pressure sensor is a second-order linear system. The corresponding amplitude–frequency and phase–frequency characteristics can be described as: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(4)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+w</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+ε</div> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(5)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+w</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+π</div> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+a</div> <div class="mi_UNKNOWN">
+r</div> <div class="mi_UNKNOWN">
+c</div> <div class="mi_UNKNOWN">
+t</div> <div class="mi_UNKNOWN">
+g</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> <p /> </div> <div class="3.ansysanalysisofacceleration-inducedeffectsofpiezoelectricelement" title="sec"> <div class="title" tagx="title" title="title">
+3. ANSYS Analysis of Acceleration-Induced Effects of Piezoelectric Element</div> <p>The sensitive unit of piezoelectric pressure sensors is the piezoelectric element. When the piezoelectric element is subjected to an external pressure and deforms in a given direction, the material surface produces an opposite charge because of polarization. Once the external pressure disappears, the material returns to the uncharged state. If the external pressure changes direction, the polarity of the charge is also changed. This phenomenon is the measurement principle of a piezoelectric pressure sensor [ <a href="#B12-sensors-19-01052">12</a>]. </p> <p>The polarization charge can be calculated as Ref. [ <a href="#B13-sensors-19-01052">13</a>]: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(6)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Q</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+d</div> <div class="mi_UNKNOWN">
+F</div> </div> </div> </div> </div> where <i>d</i> is the piezoelectric coefficient, and <i>F</i> is the pressure. There are many types of piezoelectric materials, such as piezoelectric ceramics, polyvinylidene fluoride (PVDF), quartz crystal, etc. However, quartz crystal has the advantages of stable piezoelectric performance, high mechanical strength, and high insulation impedance, and is commonly used as the sensitive unit of piezoelectric pressure sensor [ <a href="#B14-sensors-19-01052">14</a>]. For quartz crystals, the piezoelectric coefficient matrix can be simplified into a 3 × 6 matrix as follows: <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(7)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> <div class="mi_UNKNOWN">
+l</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+11</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+12</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+13</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+14</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+15</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+16</div> </div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+21</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+22</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+23</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+24</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+25</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+26</div> </div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+31</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+32</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+33</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+34</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+35</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+36</div> </div> </div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> </div> </div> </div> <p /> <p>The coefficients for quartz crystals in the <i>x</i>-direction are shown in <a href="#sensors-19-01052-t001">Table 1</a>. </p> <p> <a href="#sec2-sensors-19-01052">Section 2</a> indicates the acceleration-induced effect on pressure sensor theoretically. In general, insulation pads and the sensor body of sensors have an insignificant influence on acceleration-induced effects; the diaphragm of sensor is therefore considered when building an ANSYS simulation for the sensor [ <a href="#B15-sensors-19-01052">15</a>, <a href="#B16-sensors-19-01052">16</a>]. Since the effect of the diaphragm on the quartz crystal can be equivalent to a pressure, we choose only quartz crystal for building the model. The model radius was 9 mm and the thickness was 1 mm, as shown in <a href="#sensors-19-01052-f003">Figure 3</a>. The finite element type of the model was selected as Solid 5. </p> <p>Under this condition, the output result of the quartz crystal is shown in <a href="#sensors-19-01052-f004">Figure 4</a>, with a 2 MPa pressure exerted on the ANYSYS model. Considering the effect of acceleration on the quartz crystal, <a href="#sensors-19-01052-f005">Figure 5</a> and <a href="#sensors-19-01052-f006">Figure 6</a> show the cases for additional 1000× and 5000× <i>g</i> static acceleration, respectively [ <a href="#B17-sensors-19-01052">17</a>]. Since potential difference is often used to analyze data, the following figures give the ANSYS simulation results of potential. </p> <p>In practical applications, the acceleration signals are mostly dynamic signals with a mathematical form that is usually a half-sine-wave form. <a href="#sensors-19-01052-f007">Figure 7</a> and <a href="#sensors-19-01052-f008">Figure 8</a> show the case for 2 MPa of pressure applied with 1000× and 5000× <i>g</i> dynamic acceleration, respectively. The pulse width of acceleration signals was 1.6 ms. </p> <p>The ANSYS simulation results show that quartz crystal had an obvious potential difference output under the action of acceleration signals. The relationship between electric potential difference and charge is shown in Equations (8) and (9) [ <a href="#B18-sensors-19-01052">18</a>]: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(8)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+C</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mo_UNKNOWN">
+⋅</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mi_UNKNOWN">
+r</div> </div> <div class="mo_UNKNOWN">
+⋅</div> <div class="mi_UNKNOWN">
+A</div> </div> <div class="mi_UNKNOWN">
+d</div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(9)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Q</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+C</div> <div class="mo_UNKNOWN">
+×</div> <div class="mi_UNKNOWN">
+U</div> </div> </div> </div> </div> <p /> <p>The output charge was 9.4 × 10 <sup>−13</sup> C under 1000× <i>g</i> static acceleration signal action and 4.8 × 10 <sup>−12</sup> C under 5000× <i>g</i> static acceleration. In general, the output increased with the acceleration signal increase. For the same acceleration amplitude, the output charge of the dynamic load was generally larger than that of the static load. For example, the output charge was 9.4 × 10 <sup>−13</sup> C under 1000× <i>g</i> static acceleration signal action, while that of 1000× <i>g</i> dynamic acceleration signal action was 9.6 × 10 <sup>−13</sup> C. Actually, the quartz crystal of piezoelectric pressure sensor was usually thicker than the ANSYS model, which produced a more significant acceleration-induced effect. </p> </div> <div class="4.systemmodelingandanalysis" title="sec"> <div class="title" tagx="title" title="title">
+4. System Modeling and Analysis</div> <div class="4.1.experimentsandresults" title="sec"> <div class="title" tagx="title" title="title">
+4.1. Experiments and Results</div> <p>The key of establishing a reliable dynamic mathematical model to describe acceleration- induced effects of pressure sensor is the accurate experimental data. As a common excitation device, a Machete hammer is able to generate a half-sinusoidal acceleration signal with a near millisecond pulse width, which reliably guarantees the transient of the pressure signals [ <a href="#B19-sensors-19-01052">19</a>]. An experimental system for acceleration-induced effects of pressure sensor based on a Machete hammer is designed in this paper. The Machete hammer is composed of hammer, anvil, semicircle round, and counter weight, among others. <a href="#sensors-19-01052-f009">Figure 9</a> shows the principle diagram of a Machete hammer. A half-sinusoidal acceleration signal is produced when the hammer hits the anvil. The indicator on the semicircle round shows the magnitude of the acceleration. Apparently, the higher the hammer rises, the larger the acceleration amplitude will be. By adjusting the thickness of the felt between the hammer and the anvil, the pulse width of the acceleration signal can be changed. </p> <p>The 8502 piezoelectric pressure sensor, produced by Qi Shi Yuan (Mianyang, China), is widely used in the transient pressure testing. Therefore, it was selected as the test pressure sensor. The 8309 piezoelectric accelerometer (Kistler, Switzerland) which has a sensitivity of 0.04 pC/ <i>g</i> was selected to measure the additional acceleration. During the test, the 8502 and 8309 sensors were rigidly fixed in the Machete hammer. When the acceleration signal was generated, the output charge of the two sensors were converted into voltage signals by the Kistler charge amplifier 5011, which had a 3 dB bandwidth of 200 KHz, then a high-speed multi-channel oscilloscope whose sampling frequency of data acquisition was 100 MHz, and was adopted to record the pressure and acceleration signal data. The experimental outcomes are detailed in <a href="#sensors-19-01052-t002">Table 2</a>. </p> <p>For a constant felt, as the acceleration signal increased, pulse width narrowed, and output charge and pressure amplitude increased. When the acceleration signal was constant, as the thickness of felt increased, pulse width, charge, and pressure amplitude decreased. </p> <p>In the context of engineering measurements, 1000× <i>g</i> is not a large acceleration. However, experimental results indicated that the acceleration-induced effect for the pressure sensor was already 0.1402 MPa, with a corresponding output charge of 14.33 pC, i.e., the acceleration sensitivity of pressure sensor was approximately 0.014 pC/ <i>g</i>. </p> <p>A set of Machete hammer test data was selected to analyze. The acceleration acceleration-induced effect of the pressure sensor is shown in <a href="#sensors-19-01052-f010">Figure 10</a>. The maximum pressure of the signal was 0.1402 Mpa while the pulse width was 1.13 ms. </p> </div> <div class="4.2.modelingandanalysis" title="sec"> <div class="title" tagx="title" title="title">
+4.2. Modeling and Analysis</div> <p>With the interference of the various random noise, the output of pressure sensor is usually disordered and unreliable models often occur if directly using the original output for modeling. Therefore, EMD is used to remove the noise from the original signals, which decompose the original output into some specific components with different frequency bands. Considering environmental factors, the relationship between output signal and acceleration is not usually linear. The acceleration-induced effects of a pressure sensor can be modeled using an ARX model [ <a href="#B20-sensors-19-01052">20</a>]: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(10)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+B</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> or using an autoregressive moving average model (ARMAX) model: <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(11)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+B</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+C</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> where <i>u</i>( <i>k</i>) represents the input measured acceleration, <i>y</i>( <i>k</i>) represents the output pressure, <i> ε</i>( <i>k</i>) is the random white noise, <i>n</i> is the model order, and <i>d</i> <sup>−1</sup> is the backward shift operator, i.e., <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(12)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mo_UNKNOWN">
+…</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mi_UNKNOWN">
+n</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="mi_UNKNOWN">
+B</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mo_UNKNOWN">
+…</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mi_UNKNOWN">
+n</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="mi_UNKNOWN">
+C</div> <div class="mo_UNKNOWN">
+(</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mo_UNKNOWN">
+…</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mi_UNKNOWN">
+n</div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> </div> </div> </div> </div> </div> <p /> <p> <i>u</i>( <i>k</i>) and <i>y</i>( <i>k</i>) are obtained from experimental measured data. We model the acceleration curve using an ARX or ARMAX model. To overcome the shortcomings of the least square method, the generalized least squares method is used to estimate optimal model parameters [ <a href="#B21-sensors-19-01052">21</a>]. The steps to calculate the model parameters are given as follows [ <a href="#B22-sensors-19-01052">22</a>]: </p> <p>Step 1: Based on the input measured acceleration <i>u</i>( <i>k</i>) and the output pressure <i>y</i>( <i>k</i>), the least square estimation forms the initial values, i.e., </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(13)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mi_UNKNOWN">
+S</div> </div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mi_UNKNOWN">
+S</div> </div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+L</div> <div class="mi_UNKNOWN">
+S</div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> </div> </div> </div> <p /> <p>Step 2: In the <i>l</i>th iteration, the model parameters are written as: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(14)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+…</div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mi_UNKNOWN">
+T</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mn_UNKNOWN">
+0</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+…</div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mi_UNKNOWN">
+T</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN"> </div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mn_UNKNOWN">
+0</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mn_UNKNOWN">
+1</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+…</div> <div class="msubsup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mi_UNKNOWN">
+n</div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mi_UNKNOWN">
+T</div> </div> </div> </div> </div> </div> </div> <p /> <p>Accordingly, <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </span> are calculated by: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(15)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+{</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+y</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+/</div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+/</div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> <p /> <p>Subsequently, <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+{</div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+,</div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+,</div> <div class="mo_UNKNOWN">
+…</div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+N</div> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mo_UNKNOWN">
+}</div> </div> </div> </div> </span>. </p> <p>Step 3: Update <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> </div> </span>, <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> <div class="mo_UNKNOWN">
+^</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> </div> </span> by performing a least squares method for the following equation. </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(16)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+y</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+B</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="msup_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+˜</div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+C</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> </div> <p /> <p>Step 4: We set <i>l</i> = <i>l</i> + 1 and repeat Step (2) until the iteration converges or reaches the maximum loops. <a href="#sensors-19-01052-f011">Figure 11</a> illustrates the whole flowchart of the EMD-SIT method. </p> <p>The ARX modeling results are shown in Equations (17) and (18). The system transfer function is shown in Equation (19). </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(17)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+q</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+0.5675</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+0.4075</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(18)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+B</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+q</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0.000004037</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(19)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+G</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+z</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0.000004037</div> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+z</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+0.5675</div> <div class="mo_UNKNOWN">
+×</div> <div class="mi_UNKNOWN">
+z</div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+0.4075</div> </div> </div> </div> </div> </div> </div> <p /> <p>The ARMAX modeling results are shown in Equations (20)–(22). The system transfer function is shown in Equation (23). </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(20)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+q</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1.889</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+0.8907</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(21)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+B</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+q</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0.00000334</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(22)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+C</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+q</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+1.489</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+0.6147</div> <div class="mo_UNKNOWN">
+×</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+q</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(23)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+G</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+z</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0.000003334</div> </div> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+z</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+1.889</div> <div class="mo_UNKNOWN">
+×</div> <div class="mi_UNKNOWN">
+z</div> <div class="mo_UNKNOWN">
++</div> <div class="mn_UNKNOWN">
+0.8907</div> </div> </div> </div> </div> </div> </div> <p /> <p>The modeling results of ARX and ARXMA are both second-order systems. The difference is that the ARMAX model gives a clearer representation of the error <i>ε</i>( <i>k</i>). Comparatively, the experimental data, the outputs of ARX, and outputs of ARMAX models are shown in <a href="#sensors-19-01052-f012">Figure 12</a>. </p> <p>It can be seen from <a href="#sensors-19-01052-f012">Figure 12</a>. that the maximum pressure of the ARX model was 0.1448 MPa, while that of the ARMAX model was 0.1439 MPa. The matching rate of ARM model and ARMAX model was 92.72% and 92.57%, respectively, which results in the ARMAX model being slightly more accurate than the ARM model. </p> <p>For more characteristics of the models, the frequency response of the two models was calculated as shown in <a href="#sensors-19-01052-f013">Figure 13</a>. The step response of the two models is shown in <a href="#sensors-19-01052-f014">Figure 14</a>. </p> <p>Comparing the effective bandwidth of the two models, it is clear the ARX had a wider bandwidth. In addition, the step response of ARX model was faster than that of ARMAX model. All these characteristics are crucial for dynamic testing of pressure. In conclusion, to model the acceleration-induced effects of pressure sensors, ARM model was more suitable than the others. Then, a digital compensation filter can be designed according to the ARX model. With the filter in series, the pressure sensor can effectively reduce the acceleration-induced effects. After compensation, the acceleration-induced effects on piezoelectric pressure sensors are shown in <a href="#sensors-19-01052-f015">Figure 15</a>. </p> <p> <a href="#sensors-19-01052-f015">Figure 15</a> shows that the pressure maximum of the acceleration-induced effects was reduced to 0.016 MPa, i.e., less than 11%, which illustrates that the characteristics of the acceleration-induced effects could be described perfectly by the ARX model. In order to validate the reliability and universality of the model, acceleration data with different amplitudes were selected for modeling. Excluding certain experimental errors, their mathematical model of acceleration-induced effects was basically consistent. This approach is also applicable to solving the acceleration-induced effects of other pressure sensors. </p> </div> </div> <div class="conclusions" title="conclusions"> <div class="title" tagx="title" title="title">
+5. Conclusions</div> <p>Due to the transient characteristic of transient pressure testing, the acceleration-induced effects of pressure sensors are not negligible. Aiming at offsetting the acceleration-induced effects of pressure sensors, a new dynamic compensation method combining empirical mode decomposition (EMD) with system identification theory (SIT) was proposed. The principle and theoretical basis of acceleration-induced effects was researched, then the static and dynamic acceleration-induced effects on the quartz crystal of a piezoelectric pressure sensor were analyzed by ANSYS. To demonstrate the feasibility of this method, an acceleration-induced effects dynamic calibration system was built using a Machete hammer, which generates acceleration signals with different amplitudes and pulse widths. A series of tests for the 8502 piezoelectric pressure sensor were carried out, and an ARX mathematical model of acceleration-induced effects was obtained using EMD-SIT. A digital compensation filter for acceleration-induced effects was designed on the basis of this model. After compensation, the acceleration-induced effects on pressure sensors were less than 11%. Thus, the correctness, accuracy and reliability of the model were validated. The superiority of our method is that it does not affect the sensor’s sensitivity and inherent frequency. At the same time, EMD-SIT was more effective than the EMD to reduce the error of the acceleration-induced effects. This method is also suitable for many other types of pressure sensors, such as piezoresistive sensors, fiber optic pressure sensors, and so on. </p> </div> </div> <div class="back" title="back"> <div class="title" tagx="title" title="title">
+Author Contributions</div> <p>The work presented in this paper was a collaboration of all authors. F.X. and T.M. researched the principle and theoretical basis of acceleration-induced effects; F.X. analyzed the acceleration-induced effects on the quartz crystal by ANSYS; F.X., designed and performed the acceleration-induced effects experiment system; F.X. modeled the experimental data and designed the digital compensation filter for acceleration-induced effects. F.X. wrote the paper, which was read and discussed by all authors. </p> <div class="title" tagx="title" title="title">
+Funding</div> <p>This study was supported by the National Science Foundation of China under grant 51605321.</p> <div class="title" tagx="title" title="title">
+Conflicts of Interest</div> <p>The authors declare no conflict of interest.</p> <div class="references">
+References</div> <div tag="ref-list"> <ul> <div class="title" tagx="title" title="title">
+References</div> <li tag="ref"> <a name="B1-sensors-19-01052" /> <span class="label" tagx="label" title="label">1.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Patel</span> <span class="given-names" tagx="given-names" title="given-names">S.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Majumder</span> <span class="given-names" tagx="given-names" title="given-names">S.K.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Prediction of transient pressure change during natural gas hydrate formation</span> <span class="source" tagx="source" title="source">Pet. Sci. Technol.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">36</span> <span class="fpage" tagx="fpage" title="fpage">1820</span> <span class="lpage" tagx="lpage" title="lpage">1828</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1080/10916466.2018.1514410">10.1080/10916466.2018.1514410</a> </span> </span> </li> <li tag="ref"> <a name="B2-sensors-19-01052" /> <span class="label" tagx="label" title="label">2.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tian</span> <span class="given-names" tagx="given-names" title="given-names">B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhao</span> <span class="given-names" tagx="given-names" title="given-names">Y.L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Niu</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">The study of acceleration effect for piezoresistive micro pressure sensor</span> <span class="source" tagx="source" title="source">Appl. Mech. Mater.</span> <span class="year" tagx="year" title="year">2013</span> <span class="volume" tagx="volume" title="volume">455</span> <span class="fpage" tagx="fpage" title="fpage">455</span> <span class="lpage" tagx="lpage" title="lpage">459</span> <span class="pub-id"> <a href="https://dx.doi.org/10.4028/www.scientific.net/AMM.455.455">10.4028/www.scientific.net/AMM.455.455</a> </span> </span> </li> <li tag="ref"> <a name="B3-sensors-19-01052" /> <span class="label" tagx="label" title="label">3.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ohtani</span> <span class="given-names" tagx="given-names" title="given-names">K.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ogawa</span> <span class="given-names" tagx="given-names" title="given-names">T.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Micro-explosive-induced underwater shock wave propagation and reflection at the interface</span> <span class="source" tagx="source" title="source">Sci. Technol. Energy. Mater.</span> <span class="year" tagx="year" title="year">2015</span> <span class="volume" tagx="volume" title="volume">76</span> <span class="fpage" tagx="fpage" title="fpage">139</span> <span class="lpage" tagx="lpage" title="lpage">143</span> </span> </li> <li tag="ref"> <a name="B4-sensors-19-01052" /> <span class="label" tagx="label" title="label">4.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Li</span> <span class="given-names" tagx="given-names" title="given-names">C.Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Li</span> <span class="given-names" tagx="given-names" title="given-names">D.H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Li</span> <span class="given-names" tagx="given-names" title="given-names">J.A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Research on transverse sensitivity property of cymbal piezoelectric vibration acceleration sensor </span> <span class="source" tagx="source" title="source">Adv. Mater. Res.</span> <span class="year" tagx="year" title="year">2011</span> <span class="volume" tagx="volume" title="volume">303</span> <span class="fpage" tagx="fpage" title="fpage">1495</span> <span class="lpage" tagx="lpage" title="lpage">1500</span> <span class="pub-id"> <a href="https://dx.doi.org/10.4028/www.scientific.net/AMR.301-303.1495">10.4028/www.scientific.net/AMR.301-303.1495</a> </span> </span> </li> <li tag="ref"> <a name="B5-sensors-19-01052" /> <span class="label" tagx="label" title="label">5.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhu</span> <span class="given-names" tagx="given-names" title="given-names">M.W.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Dynamic characteristics of active acceleration-compensated piezoelectric pressure sensors </span> <span class="source" tagx="source" title="source">Metrol. Meas. Technol.</span> <span class="year" tagx="year" title="year">2012</span> <span class="volume" tagx="volume" title="volume">32</span> <span class="fpage" tagx="fpage" title="fpage">73</span> <span class="lpage" tagx="lpage" title="lpage">77</span> </span> </li> <li tag="ref"> <a name="B6-sensors-19-01052" /> <span class="label" tagx="label" title="label">6.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Dang</span> <span class="given-names" tagx="given-names" title="given-names">X.H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ebert</span> <span class="given-names" tagx="given-names" title="given-names">I.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Active acceleration compensation for transport vehicles carrying delicate objects</span> <span class="source" tagx="source" title="source">IEEE Trans. Robot. Autom.</span> <span class="year" tagx="year" title="year">2004</span> <span class="volume" tagx="volume" title="volume">20</span> <span class="fpage" tagx="fpage" title="fpage">830</span> <span class="lpage" tagx="lpage" title="lpage">839</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1109/TRO.2004.832791">10.1109/TRO.2004.832791</a> </span> </span> </li> <li tag="ref"> <a name="B7-sensors-19-01052" /> <span class="label" tagx="label" title="label">7.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Yang</span> <span class="given-names" tagx="given-names" title="given-names">H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Shen</span> <span class="given-names" tagx="given-names" title="given-names">D.W.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zu</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">The Acceleration effect and calibration method of pressure sensor in the test of pressure on the bottom of the projectile </span> <span class="source" tagx="source" title="source">Chin. J. Sens. Actuators</span> <span class="year" tagx="year" title="year">2011</span> <span class="volume" tagx="volume" title="volume">24</span> <span class="fpage" tagx="fpage" title="fpage">1256</span> <span class="lpage" tagx="lpage" title="lpage">1259</span> </span> </li> <li tag="ref"> <a name="B8-sensors-19-01052" /> <span class="label" tagx="label" title="label">8.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zu</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ma</span> <span class="given-names" tagx="given-names" title="given-names">T.H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pei</span> <span class="given-names" tagx="given-names" title="given-names">D.X.</span> </span> </span> <span class="source" tagx="source" title="source">New Concept Dynamic Test</span> <span class="edition" tagx="edition" title="edition">1st ed.</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">National Defense Industry Press</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Beijing, China</span> <span class="year" tagx="year" title="year">2016</span> <span class="fpage" tagx="fpage" title="fpage">191</span> <span class="lpage" tagx="lpage" title="lpage">195</span> <span class="isbn" tagx="isbn" title="isbn">978-7-118-10775-3</span> </span> </li> <li tag="ref"> <a name="B9-sensors-19-01052" /> <span class="label" tagx="label" title="label">9.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ren</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Jia</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhang</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Shang</span> <span class="given-names" tagx="given-names" title="given-names">Y.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Gao</span> <span class="given-names" tagx="given-names" title="given-names">S.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Research on the dynamic error and acceleration compensation for the piezoelectric sensor </span> <span class="source" tagx="source" title="source">Sens. Transducers J.</span> <span class="year" tagx="year" title="year">2013</span> <span class="volume" tagx="volume" title="volume">153</span> <span class="fpage" tagx="fpage" title="fpage">118</span> <span class="lpage" tagx="lpage" title="lpage">123</span> </span> </li> <li tag="ref"> <a name="B10-sensors-19-01052" /> <span class="label" tagx="label" title="label">10.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Gu</span> <span class="given-names" tagx="given-names" title="given-names">T.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Kong</span> <span class="given-names" tagx="given-names" title="given-names">D.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Jiang</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Shang</span> <span class="given-names" tagx="given-names" title="given-names">F.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Chen</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Pressure prediction model based on artificial neural network optimized by genetic algorithm and its application in quasi-static calibration of piezoelectric high-pressure sensor </span> <span class="source" tagx="source" title="source">Rev. Sci. Instrum.</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">87</span> <span class="fpage" tagx="fpage" title="fpage">86</span> <span class="lpage" tagx="lpage" title="lpage">94</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1063/1.4972826">10.1063/1.4972826</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/28040905">28040905</a> </span> </span> </li> <li tag="ref"> <a name="B11-sensors-19-01052" /> <span class="label" tagx="label" title="label">11.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Mprales</span> <span class="given-names" tagx="given-names" title="given-names">A.R.R.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zaghloul</span> <span class="given-names" tagx="given-names" title="given-names">M.E.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Highly sensitive wearable piezoelectric force sensor with quasi-static load testing</span> <span class="source" tagx="source" title="source">IEEE Sens. J.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">18</span> <span class="fpage" tagx="fpage" title="fpage">9910</span> <span class="lpage" tagx="lpage" title="lpage">9918</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1109/JSEN.2018.2870396">10.1109/JSEN.2018.2870396</a> </span> </span> </li> <li tag="ref"> <a name="B12-sensors-19-01052" /> <span class="label" tagx="label" title="label">12.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Joseph</span> <span class="given-names" tagx="given-names" title="given-names">R.P.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Wang</span> <span class="given-names" tagx="given-names" title="given-names">B.L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Samali</span> <span class="given-names" tagx="given-names" title="given-names">B.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Large deformation and strain gradient fracture analysis of double cantilever beams with piezoelectric effect </span> <span class="source" tagx="source" title="source">J. Eng. Mech.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">144</span> <span class="fpage" tagx="fpage" title="fpage">67</span> <span class="lpage" tagx="lpage" title="lpage">81</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1061/(ASCE)EM.1943-7889.0001497">10.1061/(ASCE)EM.1943-7889.0001497</a> </span> </span> </li> <li tag="ref"> <a name="B13-sensors-19-01052" /> <span class="label" tagx="label" title="label">13.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhou</span> <span class="given-names" tagx="given-names" title="given-names">Y.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Li</span> <span class="given-names" tagx="given-names" title="given-names">S.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhou</span> <span class="given-names" tagx="given-names" title="given-names">H.B.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">State space finite element analysis for piezoelectric precision positioning considering secondary converse piezoelectric effect </span> <span class="source" tagx="source" title="source">Finite Elem. Anal. Des.</span> <span class="year" tagx="year" title="year">2015</span> <span class="volume" tagx="volume" title="volume">102</span> <span class="fpage" tagx="fpage" title="fpage">85</span> <span class="lpage" tagx="lpage" title="lpage">94</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.finel.2015.04.010">10.1016/j.finel.2015.04.010</a> </span> </span> </li> <li tag="ref"> <a name="B14-sensors-19-01052" /> <span class="label" tagx="label" title="label">14.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">He</span> <span class="given-names" tagx="given-names" title="given-names">C.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Chen</span> <span class="given-names" tagx="given-names" title="given-names">W.G.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Fabrication and research and application of piezoelectric materials</span> <span class="source" tagx="source" title="source">J. Func. Mat.</span> <span class="year" tagx="year" title="year">2010</span> <span class="volume" tagx="volume" title="volume">41</span> <span class="fpage" tagx="fpage" title="fpage">11</span> <span class="lpage" tagx="lpage" title="lpage">13</span> </span> </li> <li tag="ref"> <a name="B15-sensors-19-01052" /> <span class="label" tagx="label" title="label">15.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Kutis</span> <span class="given-names" tagx="given-names" title="given-names">V.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Dzuba</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">MEMS piezoelectric pressure sensor modeling and simulation</span> <span class="source" tagx="source" title="source">Procedia Eng.</span> <span class="year" tagx="year" title="year">2012</span> <span class="volume" tagx="volume" title="volume">48</span> <span class="fpage" tagx="fpage" title="fpage">338</span> <span class="lpage" tagx="lpage" title="lpage">345</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.proeng.2012.09.523">10.1016/j.proeng.2012.09.523</a> </span> </span> </li> <li tag="ref"> <a name="B16-sensors-19-01052" /> <span class="label" tagx="label" title="label">16.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lu</span> <span class="given-names" tagx="given-names" title="given-names">F.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lee</span> <span class="given-names" tagx="given-names" title="given-names">H.P.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lu</span> <span class="given-names" tagx="given-names" title="given-names">P.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lim</span> <span class="given-names" tagx="given-names" title="given-names">S.P.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Finite element analysis of interference for the laterally coupled quartz crystal microbalances</span> <span class="source" tagx="source" title="source">Sens. Actuators A-Phys.</span> <span class="year" tagx="year" title="year">2005</span> <span class="volume" tagx="volume" title="volume">119</span> <span class="fpage" tagx="fpage" title="fpage">90</span> <span class="lpage" tagx="lpage" title="lpage">99</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.sna.2004.09.013">10.1016/j.sna.2004.09.013</a> </span> </span> </li> <li tag="ref"> <a name="B17-sensors-19-01052" /> <span class="label" tagx="label" title="label">17.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tian</span> <span class="given-names" tagx="given-names" title="given-names">B.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Micro pressure sensor dynamic performance analysis</span> <span class="source" tagx="source" title="source">Sens. Rev.</span> <span class="year" tagx="year" title="year">2014</span> <span class="volume" tagx="volume" title="volume">34</span> <span class="fpage" tagx="fpage" title="fpage">367</span> <span class="lpage" tagx="lpage" title="lpage">373</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1108/SR-11-2013-748">10.1108/SR-11-2013-748</a> </span> </span> </li> <li tag="ref"> <a name="B18-sensors-19-01052" /> <span class="label" tagx="label" title="label">18.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Matko</span> <span class="given-names" tagx="given-names" title="given-names">V.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Jezernik</span> <span class="given-names" tagx="given-names" title="given-names">K.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Greatly improved small inductance measurement using quartz crystal parasitic capacitance compensation </span> <span class="source" tagx="source" title="source">Sensors</span> <span class="year" tagx="year" title="year">2010</span> <span class="volume" tagx="volume" title="volume">10</span> <span class="fpage" tagx="fpage" title="fpage">3954</span> <span class="lpage" tagx="lpage" title="lpage">3960</span> <span class="pub-id"> <a href="https://dx.doi.org/10.3390/s100403954">10.3390/s100403954</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/22319335">22319335</a> </span> </span> </li> <li tag="ref"> <a name="B19-sensors-19-01052" /> <span class="label" tagx="label" title="label">19.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhou</span> <span class="given-names" tagx="given-names" title="given-names">Z.J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Shi</span> <span class="given-names" tagx="given-names" title="given-names">Y.B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tang</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Performance testing of a high range accelerometer</span> <span class="source" tagx="source" title="source">Chin. J. Sens. Actuators</span> <span class="year" tagx="year" title="year">2013</span> <span class="volume" tagx="volume" title="volume">26</span> <span class="fpage" tagx="fpage" title="fpage">834</span> <span class="lpage" tagx="lpage" title="lpage">847</span> </span> </li> <li tag="ref"> <a name="B20-sensors-19-01052" /> <span class="label" tagx="label" title="label">20.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Chang</span> <span class="given-names" tagx="given-names" title="given-names">H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tzenog</span> <span class="given-names" tagx="given-names" title="given-names">P.K.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Analysis of the dynamic characteristics of pressure sensors using ARX system identification</span> <span class="source" tagx="source" title="source">Sens. Actuators A-Phys.</span> <span class="year" tagx="year" title="year">2013</span> <span class="volume" tagx="volume" title="volume">141</span> <span class="fpage" tagx="fpage" title="fpage">367</span> <span class="lpage" tagx="lpage" title="lpage">375</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.sna.2007.10.022">10.1016/j.sna.2007.10.022</a> </span> </span> </li> <li tag="ref"> <a name="B21-sensors-19-01052" /> <span class="label" tagx="label" title="label">21.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Yao</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Wang</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Forrest</span> <span class="given-names" tagx="given-names" title="given-names">J.Y.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Wang</span> <span class="given-names" tagx="given-names" title="given-names">Q.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lv</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Empirical mode decomposition-adaptive least squares method for dynamic calibration of pressure sensors </span> <span class="source" tagx="source" title="source">Meas. Sci. Technol.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">28</span> <span class="fpage" tagx="fpage" title="fpage">1</span> <span class="lpage" tagx="lpage" title="lpage">9</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1088/1361-6501/aa5c25">10.1088/1361-6501/aa5c25</a> </span> </span> </li> <li tag="ref"> <a name="B22-sensors-19-01052" /> <span class="label" tagx="label" title="label">22.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Li</span> <span class="given-names" tagx="given-names" title="given-names">Y.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhang</span> <span class="given-names" tagx="given-names" title="given-names">Z.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hao</span> <span class="given-names" tagx="given-names" title="given-names">X.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Cheng</span> <span class="given-names" tagx="given-names" title="given-names">H.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Dynamic calibration method of temperature sensor based on Quasi-δ pulse temperature excitation </span> <span class="source" tagx="source" title="source">Microw. Opt. Technol. Lett.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">60</span> <span class="fpage" tagx="fpage" title="fpage">212</span> <span class="lpage" tagx="lpage" title="lpage">219</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1002/mop.30944">10.1002/mop.30944</a> </span> </span> </li> </ul> </div> </div> <div class="floats-group" title="floats-group"> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 1</span> </a> </div>   <p>Structure of piezoelectric pressure sensor.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 2</span> </a> </div>   <p>( <b>a</b>) Working principle diagram. ( <b>b</b>) Mechanics principle diagram. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 3</span> </a> </div>   <p>ANSYS model of quartz crystal.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 4</span> </a> </div>   <p>Potential diagram of quartz crystal under 2 MPa of pressure.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 5</span> </a> </div>   <p>Potential diagram of quartz crystal under 2 MPa of pressure and 1000× <i>g</i> static acceleration. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 6</span> </a> </div>   <p>Potential diagram of quartz crystal under 2 MPa of pressure and 5000× <i>g</i> static acceleration. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 7</span> </a> </div>   <p>Potential diagram of quartz crystal under 2 MPa of pressure and 1000× <i>g</i> dynamic acceleration. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 8</span> </a> </div>   <p>Potential diagram of quartz crystal under 2 MPa of pressure and 5000× <i>g</i> dynamic acceleration. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 9</span> </a> </div>   <p>( <b>a</b>) Machete hammer principle diagram. ( <b>b</b>) Test system. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 10</span> </a> </div>   <p>Pressure test data.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 11</span> </a> </div>   <p>Flowchart of the EMD-SIT.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 12</span> </a> </div>   <p>Outputs of the two models.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 13</span> </a> </div>   <p>Frequency response of the two models.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 14</span> </a> </div>   <p>Step response of the two models.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 15</span> </a> </div>   <p>Error curve after compensation.</p>   </div> <div class="table-wrap_UNKNOWN">
+sensors-19-01052-t001_Table 1 <span class="label" tagx="label" title="label">Table 1</span>  <p>Coefficient of quartz crystals in <i>x</i>-direction. </p>  <table> <thead> <tr> <th>d <sub>11</sub> (10 <sup>−12</sup> C/N) </th> <th>e <sub>11</sub> (C/m <sup>2</sup>) </th> <th>g <sub>11</sub> (m <sup>2</sup>/C) </th> <th>h <sub>11</sub> (10 <sup>9</sup> N/C) </th> <th>s <sub>11</sub> (10 <sup>−12</sup> m <sup>2</sup>/N) </th> </tr> </thead> <tbody> <tr> <td>2.31</td> <td>0.171</td> <td>0.0578</td> <td>4.36</td> <td>12.77</td> </tr> </tbody> </table> </div> <div class="table-wrap_UNKNOWN">
+sensors-19-01052-t002_Table 2 <span class="label" tagx="label" title="label">Table 2</span>  <p>Test results of acceleration-induced effects of pressure sensors.</p>  <table> <thead> <tr> <th>No.</th> <th>Acceleration ( <i>g</i>) </th> <th>Pulse Width (ms)</th> <th>Output Charge (pC)</th> <th>Maximum Pressure (MPa)</th> <th>Mode of Sensor</th> </tr> </thead> <tbody> <tr> <td>1</td> <td>One layer of felt pad </td> <td>380.9</td> <td>1.504</td> <td>6.62</td> <td>0.07</td> <td>normal</td> </tr> <tr> <td>2</td> <td>500.6</td> <td>1.423</td> <td>8.42</td> <td>0.089</td> <td>normal</td> </tr> <tr> <td>3</td> <td>699.3</td> <td>1.275</td> <td>10.41</td> <td>0.11</td> <td>normal</td> </tr> <tr> <td>4</td> <td>1080</td> <td>1.044</td> <td>15.80</td> <td>0.167</td> <td>normal</td> </tr> <tr> <td>5</td> <td>1963</td> <td>0.989</td> <td>18.28</td> <td>0.1932</td> <td>normal</td> </tr> <tr> <td>6</td> <td>Two layers of felt pad </td> <td>180.4</td> <td>2.936</td> <td>3.88</td> <td>0.041</td> <td>normal</td> </tr> <tr> <td>7</td> <td>519.7</td> <td>1.525</td> <td>8.14</td> <td>0.086</td> <td>normal</td> </tr> <tr> <td>8</td> <td>672.5</td> <td>1.327</td> <td>10.29</td> <td>0.1087</td> <td>normal</td> </tr> <tr> <td>9</td> <td>1006</td> <td>1.13</td> <td>14.33</td> <td>0.1402</td> <td>normal</td> </tr> <tr> <td>10</td> <td>2185</td> <td>0.942</td> <td>18.07</td> <td>0.191</td> <td>normal</td> </tr> </tbody> </table> </div> </div>  </body></html>

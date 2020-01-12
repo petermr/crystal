@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From 
+ <xref ref-type="fig" rid="micromachines-10-00181-f010">Figure 10</xref>, 
+ <xref ref-type="fig" rid="micromachines-10-00181-f011">Figure 11</xref>, 
+ <xref ref-type="fig" rid="micromachines-10-00181-f012">Figure 12</xref> and 
+ <xref ref-type="fig" rid="micromachines-10-00181-f013">Figure 13</xref>, it can be learnt that the mathematical modeling algorithm for the analysis of the DRG natural frequencies and mode shapes proposed in this paper is effective and feasible. Although the FEA can also be used for the calculation of DRG natural frequencies, the mode shape function of every point in the structure cannot be obtained by this way. Furthermore, in order to get more accurate results, the meshing density of the FEA should be increased; however it will take a longer time for computation. For example, to get one group of frequency and mode shape of a DRG with certain structural parameters, it takes ~15 min with COMSOL; it only takes less than half a minute with MATLAB. To obtain the results in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f010">Figure 10</xref>a, we spend more than 7 days with COMSOL while only about 6 h is needed with MATLAB.
+</p>

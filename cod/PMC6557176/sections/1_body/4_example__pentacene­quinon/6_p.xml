@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the next step, one can sum the intensities of all images pixel by pixel to construct an integrated image [Fig. 5
+ <xref ref-type="fig" rid="fig5"> ▸</xref>(
+ <italic>a</italic>)]. Such data then allow the identification of the contact plane, 
+ <italic>i.e.</italic> the crystallographic plane parallel to the substrate surface, and the polymorphic phase. A comparison of the measured peak positions with the expected positions from literature crystal structure solutions reveals the presence of the crystal phase reported by Dzyabchenko 
+ <italic>et al.</italic> (1979
+ <xref ref-type="bibr" rid="bb8"> ▸</xref>) with a (140) contact plane. 
+ <italic>GIDVis</italic> can directly plot the expected peak positions (centres of the rings) together with the squared absolute values of the structure factors (proportional to the areas of the rings) (
+ <italic>cf</italic>. Fig. 5
+ <xref ref-type="fig" rid="fig5"> ▸</xref>). Note that the measured intensity is corrected in terms of geometric factors, 
+ <italic>i.e.</italic> Lorentz and polarization factor, solid angle, pixel distance and detector efficiency corrections are applied. Using 
+ <italic>GIDVis</italic>, extracting the intensities by fitting a two-dimensional Gaussian function with a background plane is easily done and allows us to compare the measured intensity with the available structure solution using other representations [
+ <italic>cf</italic>. Fig. 5
+ <xref ref-type="fig" rid="fig5"> ▸</xref>(
+ <italic>b</italic>)]. The intensities of most of the peaks are reproduced with good agreement, except for the 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-00683-efi2.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, 111, 011 and 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-00683-efi3.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> peaks where no intensity could be extracted, 
+ <italic>i.e.</italic> the fit did not return a result. Note that the expected intensities of these peaks are very small.
+</p>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">The present study was performed through total energy ab initio simulations with the Vienna ab initio simulation package (VASP) plane-wave pseudopotential program
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>–
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup>. We have employed the Born-Oppenheimer approximation and the electrons were quantum-mechanical treated by solving the Khon-Sham equations of density functional theory (DFT)
+ <sup>
+  <xref ref-type="bibr" rid="CR57">57</xref>
+ </sup>. The exchange-correlation energy was described with the generalized gradient approximation (GGA), according to the Perdew-Burke-Ernzerhof for solids (PBEsol)
+ <sup>
+  <xref ref-type="bibr" rid="CR58">58</xref>
+ </sup> prescription. The projector augmented wave (PAW)
+ <sup>
+  <xref ref-type="bibr" rid="CR59">59</xref>,
+  <xref ref-type="bibr" rid="CR60">60</xref>
+ </sup> was used to take into account the electron-ion interactions, and the plane waves basis set was extended up to a cutoff energy of 530 eV in order to obtain accurate results. The Brillouin zone integrations were carried out by means of a grid of Monkhorst-Pack
+ <sup>
+  <xref ref-type="bibr" rid="CR61">61</xref>
+ </sup> (4 × 2 × 2) k-special points that provided well converged results due to the large size of the primitive cell, that contains 88 atoms, with a great number of degrees of freedom. For a set of different volumes, we achieved a total relaxation of all these free degrees to obtain the optimized structural parameters. The total energy was converged to 0.001 eV, the Hellman-Feynman forces on the atoms were lower than 0.004 eV/Å, and hydrostatic conditions were obtained, it means that the stress tensor was diagonal with an accuracy of 0.1 GPa. After these simulations for the set of volume-fixed cells, we got the volumes, total energies and pressures, as well as the cell parameters and the fractional atomic coordinates of the atoms. This allowed using an equation of state, EOS, to fit the data and to obtain the bulk modulus and its derivatives. This method was applied with very good results to the study of phase stability of many semiconductors compounds under high pressure
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>
+ </sup>.
+</p>

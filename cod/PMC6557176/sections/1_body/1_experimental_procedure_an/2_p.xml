@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>GIDVis</italic> uses various details from the experimental setup, including angles, distances, wavelength and the pixel size of the detector, to convert the diffraction data from the pixel space of the detector into reciprocal space. A summary of the required experimental parameters is provided in Fig. 2
+ <xref ref-type="fig" rid="fig2"> ▸</xref>. The detector is described by 
+ <italic>detlenx</italic> times 
+ <italic>detlenz</italic> pixels of size 
+ <italic>psx</italic> and 
+ <italic>psz</italic>. Their positions are defined by the goniometer angles δ and γ and the sample-to-detector distance sdd. Any non-orthogonality of the detector relative to the primary beam for δ = γ = 0° is described by the rotations 
+ <italic>rx</italic>, 
+ <italic>ry</italic> and 
+ <italic>rz</italic>. The sample position is set by the angular movements ω, χ and Φ. Additionally, the wavelength and the centre pixel position 
+ <italic>cpx</italic>/
+ <italic>cpz</italic>, 
+ <italic>i.e.</italic> the pixel position of the direct beam, must be known. From these parameters one can directly calculate all necessary transformations so that finally the diffraction information is present in reciprocal-space coordinates. This has the advantage that measurements from other experimental stations or experimental setups are directly comparable without requiring knowledge about the specific setup. While such a procedure is directly accessible, inaccuracies in the angles or distances used have a large influence on the correctness and quality of the reciprocal data. Therefore, it is best practice to perform an additional detector calibration measurement beforehand. Here, 
+ <italic>GIDVis</italic> provides the possibility of extracting the necessary parameters using standards like lanthanum hexaboride (LaB
+ <sub>6</sub>; Black 
+ <italic>et al.</italic>, 2010
+ <xref ref-type="bibr" rid="bb5"> ▸</xref>), silver behenate (Huang 
+ <italic>et al.</italic>, 1993
+ <xref ref-type="bibr" rid="bb15"> ▸</xref>), silicon standards (Black 
+ <italic>et al.</italic>, 2010
+ <xref ref-type="bibr" rid="bb4"> ▸</xref>) or custom calibrants. Based on these data, the transformation to reciprocal space is quite precise.
+</p>

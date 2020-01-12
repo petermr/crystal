@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par32">where 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathscr c}$$\end{document}</tex-math>
+   <math id="M36">
+    <mstyle mathvariant="normal">
+     <mi>𝒞</mi>
+    </mstyle>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a normalization and Γ = 1 + 
+ <italic>kτ</italic>/
+ <italic>γ</italic> is a numerical factor which depends on 
+ <italic>kτ</italic>/
+ <italic>γ</italic> ≫ 1, i.e. the ratio between the correlation time of the activity, 
+ <italic>τ</italic>, and the relaxation time, 
+ <italic>γ</italic>/
+ <italic>k</italic>, due to the harmonic potential. The result is a multivariate Gaussian distribution with non-zero correlations between each component of 
+ <bold>x</bold> and 
+ <bold>f</bold>. In other words, a non-zero conditioned first moment of the spatial distribution appears, so that 〈
+ <bold>x</bold>〉 ∝ 
+ <bold>f</bold>, meaning that particles prefer to spend their life far from the minimum of the potential in a fixed position determined by the value of 
+ <bold>f</bold>. Since the active force is an Ornstein-Uhlenbeck process, 
+ <bold>f</bold> can explore large values depending on its variance, 
+ <italic>D</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>/
+ <italic>τ</italic>, even if the most probable values remains 
+ <bold>f</bold> = 0. Instead, its persistence time, 
+ <italic>τ</italic>, rules how long the particle remains close to the particular position determined by the value of 
+ <bold>f</bold>.
+</p>

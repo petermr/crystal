@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">The the Commission Internationale de L’Eclairage (CIE) color coordinate and correlated color temperature (CCT) are two important indicators directly inspecting accurate color emission, color purity and its temperature of phosphors. These CIE chromaticity coordinates were calculated based on their PL spectrum, and the results are shown on Table 
+ <xref rid="Tab2" ref-type="table">2</xref> with CCT. The correlated color temperature can be estimated by following McCamy empirical formula
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>,
+  <xref ref-type="bibr" rid="CR33">33</xref>
+ </sup>:
+ <disp-formula id="Equ9">
+  <label>9</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{CCT}}=-\,{\rm{449}}{n}^{3}+3525{n}^{2}-6823n+5520.33$$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <mi mathvariant="normal">CCT</mi>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-.25em"/>
+    <mn mathvariant="normal">449</mn>
+    <msup>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+     <mn>3</mn>
+    </msup>
+    <mo>+</mo>
+    <mn>3525</mn>
+    <msup>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>−</mo>
+    <mn>6823</mn>
+    <mi>n</mi>
+    <mo>+</mo>
+    <mn>5520.33</mn>
+   </math>
+   <graphic xlink:href="41598_2019_51915_Article_Equ9.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where n equals (x − x
+ <sub>e</sub>)/(y − y
+ <sub>e</sub>), and the chromaticity epicenter (x
+ <sub>e</sub>, y
+ <sub>e</sub>) is (0.3320,0.1858). All of CCT of CLSO apatite phosphors are over 5000 K, which is boundary temperature, CCT of white light emission less than 5000 K named warn white light used for household lighting or appliances and conversely clod white light more suitable for commercial application for lighting purposes. From Table 
+ <xref rid="Tab2" ref-type="table">2</xref>, it can be observed that CLSO:0.20Dy
+ <sup>3+</sup>/0.20Sm
+ <sup>3+</sup> apatite phosphor exhibits better chromaticity coordinate than others at 365 nm excitation, being closet to the ideal white light emission point (0.333,0.333). Figure 
+ <xref rid="Fig6" ref-type="fig">6(B)</xref> shows the chromaticity diagram of CLSO:0.20Dy
+ <sup>3+</sup> and CLSO:0.20Dy
+ <sup>3+</sup>/0.20Sm
+ <sup>3+</sup> phosphors excited at 365 nm, which are consistent with display light emission in the insert digital photograph, of which “FU” spelled by CLSO:0.20Dy
+ <sup>3+</sup> phosphor and “JIE” spelled by CLSO:0.20Dy
+ <sup>3+</sup>/0.20Sm
+ <sup>3+</sup> phosphors at 365 nm excitation as well. Those emission characteristics our CLSO:Dy
+ <sup>3+</sup>/Sm
+ <sup>3+</sup> phosphors demonstrated indicate that they can use for commercial w-LEDs application.
+</p>

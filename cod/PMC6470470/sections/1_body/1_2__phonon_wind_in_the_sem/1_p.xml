@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The drag coefficient 
+ <italic>B</italic> of a dislocation is defined as the proportionality coefficient of the force 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi>F</mi>
+     <mo>=</mo>
+     <mi>B</mi>
+     <mi>v</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> needed to maintain dislocation velocity 
+ <italic>v</italic>. It is related to the dissipation 
+ <italic>D</italic> per unit length due to phonon scattering via 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi>D</mi>
+     <mo>=</mo>
+     <mi>B</mi>
+     <msup>
+      <mi>v</mi>
+      <mn>2</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and takes the form [
+ <xref rid="B25-materials-12-00948" ref-type="bibr">25</xref>,
+ <xref rid="B26-materials-12-00948" ref-type="bibr">26</xref>] 
+ <disp-formula id="FD1-materials-12-00948">
+  <label>(1)</label>
+  <math id="mm14">
+   <mrow>
+    <mtable displaystyle="true">
+     <mtr>
+      <mtd columnalign="left">
+       <mrow>
+        <mi>B</mi>
+        <mo>=</mo>
+        <mfrac>
+         <mrow>
+          <mn>4</mn>
+          <mi>π</mi>
+         </mrow>
+         <mrow>
+          <mi>ℏ</mi>
+          <msup>
+           <mi>v</mi>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+          <mo>,</mo>
+          <msup>
+           <mi>s</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </mrow>
+        </munder>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+          <mo>,</mo>
+          <msup>
+           <mi>q</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </mrow>
+        </munder>
+        <mo>∫</mo>
+        <mspace width="-0.166667em"/>
+        <mspace width="-0.166667em"/>
+        <msup>
+         <mi>d</mi>
+         <mn>2</mn>
+        </msup>
+        <mi>q</mi>
+        <mspace width="0.166667em"/>
+        <msub>
+         <mo>Ω</mo>
+         <mi>q</mi>
+        </msub>
+        <msup>
+         <mrow>
+          <mo>|</mo>
+          <msub>
+           <mo>Γ</mo>
+           <mrow>
+            <msup>
+             <mi>s</mi>
+             <mo>′</mo>
+            </msup>
+            <msup>
+             <mi>s</mi>
+             <mrow>
+              <mo>″</mo>
+             </mrow>
+            </msup>
+           </mrow>
+          </msub>
+          <mrow>
+           <mo>(</mo>
+           <mover accent="true">
+            <mrow>
+             <mspace width="0.0pt"/>
+             <mi>q</mi>
+            </mrow>
+            <mo>→</mo>
+           </mover>
+           <msup>
+            <mspace width="0.166667em"/>
+            <msup>
+             <mspace width="-0.166667em"/>
+             <mo>′</mo>
+            </msup>
+           </msup>
+           <mo>,</mo>
+           <mover accent="true">
+            <mrow>
+             <mspace width="0.0pt"/>
+             <mi>q</mi>
+            </mrow>
+            <mo>→</mo>
+           </mover>
+           <msup>
+            <mspace width="0.166667em"/>
+            <msup>
+             <mspace width="-0.166667em"/>
+             <mrow>
+              <mo>″</mo>
+             </mrow>
+            </msup>
+           </msup>
+           <mo>,</mo>
+           <mover accent="true">
+            <mrow>
+             <mspace width="0.0pt"/>
+             <mi>q</mi>
+            </mrow>
+            <mo>→</mo>
+           </mover>
+           <mo>)</mo>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+         <mn>2</mn>
+        </msup>
+        <mrow>
+         <mo>(</mo>
+         <msub>
+          <mi>n</mi>
+          <msup>
+           <mi>q</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>n</mi>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+         </msub>
+         <mo>)</mo>
+        </mrow>
+        <mi>δ</mi>
+        <mrow>
+         <mo>(</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <msup>
+          <mspace width="0.166667em"/>
+          <msup>
+           <mspace width="-0.166667em"/>
+           <mo>′</mo>
+          </msup>
+         </msup>
+         <mo>−</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <msup>
+          <mspace width="0.166667em"/>
+          <msup>
+           <mspace width="-0.166667em"/>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </msup>
+         <mo>−</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <mo>)</mo>
+        </mrow>
+        <mi>δ</mi>
+        <mrow>
+         <mo>(</mo>
+         <msub>
+          <mi>ω</mi>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>ω</mi>
+          <msup>
+           <mi>q</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mo>Ω</mo>
+          <mi>q</mi>
+         </msub>
+         <mo>)</mo>
+        </mrow>
+        <mspace width="0.166667em"/>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd columnalign="left">
+       <mrow>
+        <msub>
+         <mo>Γ</mo>
+         <mrow>
+          <msup>
+           <mi>s</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>s</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <msup>
+          <mspace width="0.166667em"/>
+          <msup>
+           <mspace width="-0.166667em"/>
+           <mo>′</mo>
+          </msup>
+         </msup>
+         <mo>,</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <msup>
+          <mspace width="0.166667em"/>
+          <msup>
+           <mspace width="-0.166667em"/>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+         </msup>
+         <mo>,</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mfrac>
+         <mi>ℏ</mi>
+         <mrow>
+          <mn>4</mn>
+          <mi>ρ</mi>
+          <msqrt>
+           <mrow>
+            <msub>
+             <mi>ω</mi>
+             <msup>
+              <mi>q</mi>
+              <mo>′</mo>
+             </msup>
+            </msub>
+            <msub>
+             <mi>ω</mi>
+             <msup>
+              <mi>q</mi>
+              <mrow>
+               <mo>′</mo>
+               <mo>′</mo>
+              </mrow>
+             </msup>
+            </msub>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </mfrac>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>,</mo>
+          <mi>j</mi>
+          <mo>,</mo>
+          <mi>k</mi>
+         </mrow>
+        </munder>
+        <msub>
+         <mi>d</mi>
+         <mrow>
+          <mi>k</mi>
+          <msup>
+           <mi>k</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mover accent="true">
+          <mrow>
+           <mspace width="0.0pt"/>
+           <mi>q</mi>
+          </mrow>
+          <mo>→</mo>
+         </mover>
+         <mo>)</mo>
+        </mrow>
+        <msubsup>
+         <mi mathvariant="bold">w</mi>
+         <mrow>
+          <msup>
+           <mi>q</mi>
+           <mo>′</mo>
+          </msup>
+          <mi>i</mi>
+         </mrow>
+         <mo>*</mo>
+        </msubsup>
+        <msub>
+         <mi mathvariant="bold">w</mi>
+         <mrow>
+          <msup>
+           <mi>q</mi>
+           <mrow>
+            <mo>″</mo>
+           </mrow>
+          </msup>
+          <mi>j</mi>
+         </mrow>
+        </msub>
+        <munder>
+         <mo>∑</mo>
+         <mrow>
+          <msup>
+           <mi>i</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>j</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>k</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </munder>
+        <msubsup>
+         <mi>q</mi>
+         <msup>
+          <mi>i</mi>
+          <mo>′</mo>
+         </msup>
+         <mo>′</mo>
+        </msubsup>
+        <msubsup>
+         <mi>q</mi>
+         <msup>
+          <mi>j</mi>
+          <mo>′</mo>
+         </msup>
+         <mrow>
+          <mo>″</mo>
+         </mrow>
+        </msubsup>
+        <msubsup>
+         <mover accent="true">
+          <mi>A</mi>
+          <mo stretchy="false">˜</mo>
+         </mover>
+         <mrow>
+          <mi>i</mi>
+          <mi>j</mi>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <msup>
+           <mi>i</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>j</mi>
+           <mo>′</mo>
+          </msup>
+          <msup>
+           <mi>k</mi>
+           <mo>′</mo>
+          </msup>
+         </mrow>
+        </msubsup>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mi>q</mi>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+     <msup>
+      <mspace width="0.166667em"/>
+      <msup>
+       <mspace width="-0.166667em"/>
+       <mrow>
+        <mo>′</mo>
+        <mo>′</mo>
+       </mrow>
+      </msup>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mi>q</mi>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+     <msup>
+      <mspace width="0.166667em"/>
+      <msup>
+       <mspace width="-0.166667em"/>
+       <mo>′</mo>
+      </msup>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are the wave vectors of incoming and outgoing phonons, 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <msup>
+     <mi>s</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <msup>
+     <mi>s</mi>
+     <mrow>
+      <mo>″</mo>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> label their polarizations (two transverse and one longitudinal), and 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mover accent="true">
+     <mrow>
+      <mspace width="0.0pt"/>
+      <mi>q</mi>
+     </mrow>
+     <mo>→</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is the wave vector associated with the dislocation field in Fourier space, 
+ <inline-formula>
+  <math id="mm21">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mrow>
+      <mi>k</mi>
+      <msup>
+       <mi>k</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>. In contrast to the phonons (which are quantized and have discrete wave vectors determined from the perfect lattice), the dislocation is modeled as a classical field in the continuum limit. Assuming an infinitely long, straight dislocation, its only spatial dependence is within the plane perpendicular to the dislocation line. The sums over discrete phonon momenta can subsequently be approximated as integrals over the first Brillouin zone. 
+ <inline-formula>
+  <math id="mm22">
+   <mrow>
+    <msub>
+     <mi>ω</mi>
+     <msup>
+      <mi>q</mi>
+      <mo>′</mo>
+     </msup>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm23">
+   <mrow>
+    <msub>
+     <mi>ω</mi>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mo>″</mo>
+      </mrow>
+     </msup>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are the phonon frequencies presently depending linearly on the wave vector length in accordance with the isotropic Debye approximation, i.e., 
+ <inline-formula>
+  <math id="mm24">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ω</mi>
+      <msup>
+       <mi>q</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>c</mi>
+      <msup>
+       <mi>s</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mover accent="true">
+        <mrow>
+         <mspace width="0.0pt"/>
+         <mi>q</mi>
+        </mrow>
+        <mo>→</mo>
+       </mover>
+       <msup>
+        <mspace width="0.166667em"/>
+        <msup>
+         <mspace width="-0.166667em"/>
+         <mo>′</mo>
+        </msup>
+       </msup>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> where 
+ <inline-formula>
+  <math id="mm25">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <msup>
+      <mi>s</mi>
+      <mo>′</mo>
+     </msup>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the sound speed of a phonon with polarization 
+ <inline-formula>
+  <math id="mm26">
+   <mrow>
+    <msup>
+     <mi>s</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> (either transverse 
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">T</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> or longitudinal 
+ <inline-formula>
+  <math id="mm28">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">L</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>). 
+ <inline-formula>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <msub>
+      <mo>Ω</mo>
+      <mi>q</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>|</mo>
+      <mrow>
+       <mover accent="true">
+        <mrow>
+         <mspace width="0.0pt"/>
+         <mi>q</mi>
+        </mrow>
+        <mo>→</mo>
+       </mover>
+       <mo>·</mo>
+       <mover accent="true">
+        <mrow>
+         <mspace width="0.0pt"/>
+         <mi>v</mi>
+        </mrow>
+        <mo>→</mo>
+       </mover>
+      </mrow>
+      <mo>|</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the energy transfer whenever a phonon scatters on the dislocation. 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <msub>
+     <mi>n</mi>
+     <msup>
+      <mi>q</mi>
+      <mo>′</mo>
+     </msup>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> denotes the equilibrium phonon distribution function 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>n</mi>
+      <msup>
+       <mi>q</mi>
+       <mo>′</mo>
+      </msup>
+     </msub>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mo>(</mo>
+       <mo form="prefix">exp</mo>
+       <mrow>
+        <mo>(</mo>
+        <mi>ℏ</mi>
+        <msub>
+         <mi>ω</mi>
+         <msup>
+          <mi>q</mi>
+          <mo>′</mo>
+         </msup>
+        </msub>
+        <mo>/</mo>
+        <msub>
+         <mi>k</mi>
+         <mi>B</mi>
+        </msub>
+        <mi>T</mi>
+        <mo>)</mo>
+       </mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo>)</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which controls the number of scattering events per unit time. 
+ <italic>ℏ</italic> is Planck’s constant, 
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mi>ρ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the material density, and the two Dirac delta functions in the second line of Equation (
+ <xref ref-type="disp-formula" rid="FD1-materials-12-00948">1</xref>) encode momentum and energy conservation within each scattering event. 
+ <inline-formula>
+  <math id="mm33">
+   <mrow>
+    <mo>Γ</mo>
+   </mrow>
+  </math>
+ </inline-formula> finally represents the associated matrix element, or scattering probability. As such, it depends on the (anisotropic) dislocation displacement gradient field 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mrow>
+      <mi>k</mi>
+      <msup>
+       <mi>k</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, the (quantized, isotropic) phonons whose orthonormal polarization vectors are presently denoted by 
+ <inline-formula>
+  <math id="mm35">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="bold">w</mi>
+      <mrow>
+       <mi>q</mi>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo> </mo>
+     <mo>:</mo>
+     <mo>=</mo>
+     <msub>
+      <mi mathvariant="bold">w</mi>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mover accent="true">
+       <mrow>
+        <mspace width="0.0pt"/>
+        <mi>q</mi>
+       </mrow>
+       <mo>→</mo>
+      </mover>
+      <mo>,</mo>
+      <mi>s</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and a linear combination of second (SOEC) and third order elastic constants (TOEC) of the anisotropic single crystal grains of a polycrystal, 
+ <inline-formula>
+  <math id="mm36">
+   <mrow>
+    <msubsup>
+     <mover accent="true">
+      <mi>A</mi>
+      <mo stretchy="false">˜</mo>
+     </mover>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <msup>
+       <mi>i</mi>
+       <mo>′</mo>
+      </msup>
+      <msup>
+       <mi>j</mi>
+       <mo>′</mo>
+      </msup>
+      <msup>
+       <mi>k</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula>. For technical details on the theory, we refer to [
+ <xref rid="B13-materials-12-00948" ref-type="bibr">13</xref>] as well as [
+ <xref rid="B14-materials-12-00948" ref-type="bibr">14</xref>,
+ <xref rid="B15-materials-12-00948" ref-type="bibr">15</xref>].
+</p>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In simulations, the PT barriers and diffusion coefficients also depend on the underlying computational method.
+ <xref rid="cit6" ref-type="bibr">6</xref> Here, we used a neural network potential fitted to reproduce a dispersion-corrected density-functional-theory-calculated potential energy surface. In a recent work, Chen 
+ <italic>et al.</italic>
+ <xref rid="cit9" ref-type="bibr">9</xref> compared several different computational methods for the estimated diffusion coefficients of H
+ <sub>3</sub>O
+ <sup>+</sup> and OH
+ <sup>–</sup> in aqueous solution, and found that a particular dispersion-corrected flavor of density functional theory overestimated the diffusion coefficients somewhat. Thus, although our present simulations on the one hand underestimate the diffusion coefficients because of the lack of nuclear quantum effects, they may well overestimate the diffusion coefficients as a result of the chosen reference method for the neural network parameterization, resulting in a partial cancellation of errors.
+</p>

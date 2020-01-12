@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In any dense system, the positional and BO orders are coupled with each other, so for a complete description of the structure, one has to consider both of them. The most natural way for such a description is provided by the pair distribution function (PDF) [
+ <xref rid="B1-materials-12-03464" ref-type="bibr">1</xref>,
+ <xref rid="B74-materials-12-03464" ref-type="bibr">74</xref>], which in homogeneous systems can be determined as Equation (19):
+ <disp-formula id="FD20-materials-12-03464">
+  <label>(19)</label>
+  <math id="mm177">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msup>
+        <mrow>
+         <mo stretchy="false">〈</mo>
+         <mi>n</mi>
+         <mo stretchy="false">〉</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mi>V</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">〈</mo>
+     <munder>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>i</mi>
+       <mo>≠</mo>
+       <mi>j</mi>
+      </mrow>
+     </munder>
+     <mi>δ</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi mathvariant="bold-italic">r</mi>
+       <mo>−</mo>
+       <msub>
+        <mi mathvariant="bold-italic">r</mi>
+        <mi>i</mi>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi mathvariant="bold-italic">r</mi>
+        <mi>j</mi>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+      <mo stretchy="false">〉</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 〈
+ <italic>n</italic>〉 is an average density of particles, 
+ <inline-formula>
+  <math id="mm179">
+   <mrow>
+    <mi>V</mi>
+   </mrow>
+  </math>
+ </inline-formula> is a volume of the system, angular brackets 〈…〉 denote ensemble averaging, the indexes 
+ <inline-formula>
+  <math id="mm181">
+   <mrow>
+    <mi>i</mi>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm182">
+   <mrow>
+    <mi>j</mi>
+   </mrow>
+  </math>
+ </inline-formula> enumerate all particles in the system, and 
+ <inline-formula>
+  <math id="mm183">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="bold-italic">r</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the position of the 
+ <italic>i</italic>-th particle. The PDF 
+ <inline-formula>
+  <math id="mm184">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> defines the probability of finding a particle at the separation 
+ <inline-formula>
+  <math id="mm185">
+   <mrow>
+    <mi mathvariant="bold-italic">r</mi>
+   </mrow>
+  </math>
+ </inline-formula> from any other arbitrarily chosen particle. Usually for isotropic systems, e.g., simple liquids, due to ensemble averaging in Equation (19) the angular dependence of 
+ <inline-formula>
+  <math id="mm186">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> washes out, so one considers the so-called radial distribution function 
+ <inline-formula>
+  <math id="mm187">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which is the PDF 
+ <inline-formula>
+  <math id="mm188">
+   <mrow>
+    <mrow>
+     <mi>g</mi>
+     <mrow>
+      <mo>(</mo>
+      <mi mathvariant="bold-italic">r</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> averaged over all possible directions of the vector 
+ <inline-formula>
+  <math id="mm189">
+   <mrow>
+    <mi mathvariant="bold-italic">r</mi>
+   </mrow>
+  </math>
+ </inline-formula>. However, in the case of a system exhibiting the BO order, such angular averaging will lead to the loss of structural information. Thus, below we will consider non-averaged angular-dependent PDF.
+</p>

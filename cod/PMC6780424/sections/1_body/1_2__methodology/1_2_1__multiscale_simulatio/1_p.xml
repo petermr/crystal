@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="nanomaterials-09-01251-f001">Figure 1</xref>a schematically shows the simulated dynamical shock process in a single crystal. At the beginning when the shock wave reaches the single crystal, the simulation region starts to undergo lattice and molecular deformation. With the increase of simulation time, the simulation region gradually leaves the wave front relative to the unshocked material. The molecules in the simulated region are then compressed to react, eventually reaching the Chapman–Jouguet (CJ) state when the shock wave propagates steadily. We implemented the multiscale shock technique (MSST) [
+ <xref rid="B9-nanomaterials-09-01251" ref-type="bibr">9</xref>,
+ <xref rid="B10-nanomaterials-09-01251" ref-type="bibr">10</xref>] in the High Accuracy atomistic Simulation for Energetic Materials (HASEM) package [
+ <xref rid="B8-nanomaterials-09-01251" ref-type="bibr">8</xref>], so as to capture the atomic motions and the chemical reactions of inner/inter molecules on the density functional theory (DFT) accuracy level.
+</p>

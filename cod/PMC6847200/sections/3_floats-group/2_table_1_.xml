@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>ITC analysis of 2′-dG and rG binding to purine family riboswitches</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th rowspan="1" colspan="1">Riboswitch</th>
+    <th align="center" rowspan="1" colspan="1">Class</th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>K</italic>
+     <sub>D,2′-dG</sub> (nM)
+    </th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>K</italic>
+     <sub>D,rG</sub> (nM)
+    </th>
+    <th align="center" rowspan="1" colspan="1">
+     <italic>K</italic>
+     <sub>rel</sub> (rG/2′-dG)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>env1</italic>
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">2′-dG-II</td>
+    <td align="center" rowspan="1" colspan="1">34 ± 1</td>
+    <td align="center" rowspan="1" colspan="1">89 ± 10</td>
+    <td align="center" rowspan="1" colspan="1">2.6</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>B. subtilis xpt</italic>
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">G/A</td>
+    <td align="center" rowspan="1" colspan="1">7700 ± 100</td>
+    <td align="center" rowspan="1" colspan="1">36 000 ± 1000</td>
+    <td align="center" rowspan="1" colspan="1">2.6</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>env30</italic>
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">2′-dG-II</td>
+    <td align="center" rowspan="1" colspan="1">2400 ± 900</td>
+    <td align="center" rowspan="1" colspan="1">36 000 ± 1000</td>
+    <td align="center" rowspan="1" colspan="1">15</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>M. florum</italic> I-A
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">2′-dG-I</td>
+    <td align="center" rowspan="1" colspan="1">190 ± 10</td>
+    <td align="center" rowspan="1" colspan="1">5000 ± 600
+     <sup>a</sup>
+    </td>
+    <td align="center" rowspan="1" colspan="1">27</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>xpt</italic> GdG 5B
+     </bold>
+     <sup>a</sup>
+    </td>
+    <td align="center" rowspan="1" colspan="1">synthetic</td>
+    <td align="center" rowspan="1" colspan="1">350 ± 100</td>
+    <td align="center" rowspan="1" colspan="1">10 000 ± 100</td>
+    <td align="center" rowspan="1" colspan="1">29</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>env6</italic>
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">2′-dG-II</td>
+    <td align="center" rowspan="1" colspan="1">88 ± 3</td>
+    <td align="center" rowspan="1" colspan="1">3000 ± 200</td>
+    <td align="center" rowspan="1" colspan="1">35</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">
+     <bold>
+      <italic>env23</italic>
+     </bold>
+    </td>
+    <td align="center" rowspan="1" colspan="1">2′-dG-II</td>
+    <td align="center" rowspan="1" colspan="1">290 ± 50</td>
+    <td align="center" rowspan="1" colspan="1">51 000 ± 4000</td>
+    <td align="center" rowspan="1" colspan="1">180</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn id="T1TFN1">
+   <p>
+    <sup>a</sup>Data from reference (
+    <xref rid="B11" ref-type="bibr">11</xref>).
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

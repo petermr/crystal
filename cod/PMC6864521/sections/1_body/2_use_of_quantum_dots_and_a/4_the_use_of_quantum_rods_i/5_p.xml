@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The absorption 
+ <italic>A</italic> of a QR in the LCP matrix is related to the intrinsic absorption coefficient, 
+ <italic>µ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>: 
+ <disp-formula id="advs1374-disp-0004">
+  <label>(4)</label>
+  <math id="nlm-math-6">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mi>i</mi>
+    </msub>
+    <mo>=</mo>
+    <mi mathvariant="normal">ln</mi>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+     </mfenced>
+    </mrow>
+    <mfrac>
+     <mi>A</mi>
+     <mrow>
+      <mi>f</mi>
+      <mi>L</mi>
+     </mrow>
+    </mfrac>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>L</italic> is the propagation distance of the impinging light, and 
+ <italic>f</italic> is the QR volume fraction in the film. Within the Maxwell Garnett model, the absorption coefficients of 
+ <italic>c</italic>‐ and 
+ <italic>a</italic>‐axis can be expressed in terms of the refractive indices and the dielectric functions of the surrounding molecules:
+ <xref rid="advs1374-bib-0021" ref-type="ref">21</xref>
+ <disp-formula id="advs1374-disp-0005">
+  <label>(5)</label>
+  <math id="nlm-math-7">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>c</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo> </mo>
+      <msubsup>
+       <mi>ε</mi>
+       <mrow>
+        <mi mathvariant="normal">rod</mi>
+       </mrow>
+       <mrow>
+        <mo>′</mo>
+        <mo>′</mo>
+       </mrow>
+      </msubsup>
+      <msup>
+       <mrow/>
+       <mrow/>
+      </msup>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mo>⊥</mo>
+      </msub>
+      <mi>λ</mi>
+     </mrow>
+    </mfrac>
+    <mo> </mo>
+    <mo> </mo>
+    <mo> </mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mfenced open="|" close="|">
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mrow>
+           <mi mathvariant="normal">LF</mi>
+           <mo>,</mo>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="advs1374-disp-0006">
+  <label>(6)</label>
+  <math id="nlm-math-8">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi>a</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo> </mo>
+      <msub>
+       <mi>ε</mi>
+       <mrow>
+        <mi mathvariant="normal">rod</mi>
+       </mrow>
+      </msub>
+      <msup>
+       <mrow/>
+       <mrow>
+        <mo>′</mo>
+        <mo>′</mo>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mo>∥</mo>
+      </msub>
+      <mi>λ</mi>
+     </mrow>
+    </mfrac>
+    <mo> </mo>
+    <mo> </mo>
+    <mo> </mo>
+    <msup>
+     <mrow>
+      <mrow>
+       <mfenced open="|" close="|">
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mrow>
+           <mi mathvariant="normal">LF</mi>
+           <mo>,</mo>
+           <mi>a</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

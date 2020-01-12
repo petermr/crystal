@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Using the temperature difference across the neck from FEM simulation, ~400 °C to ~200 °C, a back-stress difference of 134 MPa can thus completely cancel the thermomigration flux in regions away from the GB. The logic here is that if GB diffusion/deposition is very sluggish (interfacial reaction controlled overall kinetics), but is nonetheless required to match the surface diffusion influx at steady-state, what will happen is that stress 
+ <italic>σ</italic> will be auto-generated in the GB, that is telegraphed to the rest of the solid surfaces to slow down the surface influx. A detailed mathematical treatment coupling 
+ <italic>σ</italic>(
+ <bold>x</bold>), surface curvature, 
+ <italic>μ</italic>(
+ <bold>x</bold>), 
+ <italic>T</italic>(
+ <bold>x</bold>), and the imposed displacement rate 
+ <italic>v</italic> is beyond the scope of the present paper. But we know such a level of back stress is not uncommon, as a similar magnitude was found before in study on electromigration of interconnects
+ <sup>
+  <xref ref-type="bibr" rid="CR40">40</xref>,
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup>, where plating into the GB is sluggish and hence rate-limiting step. The ~100 MPa back-stress difference generated inside the neck region thus regulates themomigration away from the neck in a stiff negative feedback. The discrepancy in ∇
+ <italic>T</italic> above, by as much as four orders of magnitude, indicates that 99.99% of the thermomigration driving force (off-diagonal term) is canceled out by the auto-generated back-stress and/or surface curvature effect on ∇
+ <italic>μ</italic> (on-diagonal Fickian diffusion term). The estimated ~100 MPa normal stress at the narrowest section Φ
+ <sub>n</sub> = 7 nm is consistent with the estimated stress magnitude of a few tens of MPa at the uniform section Φ
+ <sub>w</sub> = 40 nm in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6</xref>.
+</p>

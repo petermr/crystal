@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="sensors-19-04980-f010">Figure 10</xref>a–e show the 5 times track of the delivery robot positioned by the ultra-wide band (UWB) positioning system. From 
+ <xref ref-type="fig" rid="sensors-19-04980-f010">Figure 10</xref> it can be seen the coordinate data indicates that the accuracy and stability of the positioning coordinates obtained by the UWB positioning system are poor. The main reasons are as follows:
+ <list list-type="simple">
+  <list-item>
+   <label>(1)</label>
+   <p>Although the TDOA algorithm is used in the UWB positioning system, it is difficult to achieve full synchronization in the initial state owing to the influence of the hardware circuits (mainly, crystal oscillators) and temperature. With time, clock drift will be generated, and the original synchronous clock system becomes unsynchronized. Although the system corrects this error, it still affects the final positioning accuracy.</p>
+  </list-item>
+  <list-item>
+   <label>(2)</label>
+   <p>In the UWB signal transmission process, it is difficult to ensure that the environment is completely LOS. The signal will be reflected and refracted owing to obstacles and other factors, and it will become NLOS. This will lead to a reduction in the final positioning accuracy.</p>
+  </list-item>
+  <list-item>
+   <label>(3)</label>
+   <p>Because the system in an indoor environment and the moving node is close to the motor power supply, the noise level of the entire system is increased, which reduces the positioning accuracy. At the same time, the randomness of the noise itself may lead to the appearance of some anomalies.</p>
+  </list-item>
+ </list>
+</p>

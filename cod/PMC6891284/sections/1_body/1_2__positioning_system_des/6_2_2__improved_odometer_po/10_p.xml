@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>It can be seen that 
+ <inline-formula>
+  <math id="mm53">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>e</mi>
+      <mi>θ</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> affects both the 
+ <italic>X</italic>-axis and the 
+ <italic>Y</italic>-axis values. With time, the error along the two axes will be introduced once in each interval 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which will contribute to the cumulative error of the final positioning result. Thus, the cumulative error will increase with time. The longer the running time and the longer the operating distance, the larger is the error in the positioning coordinates.
+</p>

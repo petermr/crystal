@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From 
+ <xref ref-type="fig" rid="sensors-19-04980-f014">Figure 14</xref>, the heading angles measured by IMU and by the odometer data are used to calculate the coordinates of the robot, the connection part of the coordinate image is not a straight line. This is because the heading angle measured by the IMU changes under the influence of the error. Considering that the IMU is sensitive to magnetic fields and metals, the data will still fluctuate when these two interference sources are suddenly encountered. Possible sources of interference are metal shelves, elevators, etc. The stability of the IMU is poor, and it is easily affected by environmental factors. The heading angle measured by the IMU will affect the final positioning coordinate data of the improved odometer positioning method.
+</p>

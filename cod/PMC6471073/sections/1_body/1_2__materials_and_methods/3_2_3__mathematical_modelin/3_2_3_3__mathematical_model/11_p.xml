@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In this paper, 
+ <italic>R</italic>(
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>) is 11 and the number of independent generalized coordinates Nin is 5. By applying row elementary transformation on the coupling matrix 
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>, the linearly independent coupling equation can be arranged at the first 
+ <italic>R</italic>(
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>) rows. Then, the coupling matrix 
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic> can be divided into four parts:
+ <disp-formula id="FD40-micromachines-10-00181">
+  <label>(40)</label>
+  <math id="mm42">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>C</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>P</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable rowlines="dashed dashed none none" columnlines="dashed none dashed none">
+        <mtr>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>C</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+             <mo>×</mo>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>C</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+             <mo>×</mo>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+         <mtd>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mn>0</mn>
+          </mstyle>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable rowlines="dashed none" columnlines="none none">
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>P</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <msub>
+              <mi>N</mi>
+              <mrow>
+               <mi>i</mi>
+               <mi>n</mi>
+              </mrow>
+             </msub>
+             <mo>×</mo>
+             <mn>1</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr columnalign="left">
+         <mtd columnalign="left">
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>P</mi>
+            </mstyle>
+            <mi>i</mi>
+            <mrow>
+             <mi>R</mi>
+             <mo stretchy="false">(</mo>
+             <msub>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>C</mi>
+              </mstyle>
+              <mi>i</mi>
+             </msub>
+             <mo stretchy="false">)</mo>
+             <mo>×</mo>
+             <mn>1</mn>
+            </mrow>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,463 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="rapid-communication" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Phys Chem Lett</journal-id><journal-id journal-id-type="iso-abbrev">J Phys Chem Lett</journal-id><journal-id journal-id-type="publisher-id">jz</journal-id><journal-id journal-id-type="coden">jpclcd</journal-id><journal-title-group><journal-title>The Journal of Physical Chemistry Letters</journal-title></journal-title-group><issn pub-type="epub">1948-7185</issn><publisher><publisher-name>American Chemical
+Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6452419</article-id><article-id pub-id-type="doi">10.1021/acs.jpclett.9b00220</article-id><article-categories><subj-group><subject>Letter</subject></subj-group></article-categories><title-group><article-title>DORI Reveals the Influence of Noncovalent Interactions
+on Covalent Bonding Patterns in Molecular Crystals Under Pressure</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Meyer</surname><given-names>Benjamin</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Barthel</surname><given-names>Senja</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref><xref rid="notes1" ref-type="notes">#</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Mace</surname><given-names>Amber</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref><xref rid="aff4" ref-type="aff">&#x02225;</xref><xref rid="notes1" ref-type="notes">#</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Vannay</surname><given-names>Laurent</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes1" ref-type="notes">#</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Guillot</surname><given-names>Benoit</given-names></name><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Smit</surname><given-names>Berend</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath7"><name><surname>Corminboeuf</surname><given-names>Cl&#x000e9;mence</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Laboratory
+for Computational Molecular Design (LCMD), Institute of Chemical Sciences
+and Engineering (ISIC), <institution>&#x000c9;cole Polytechnique
+F&#x000e9;d&#x000e9;rale de Lausanne (EPFL)</institution>, CH-1015 Lausanne, <country>Switzerland</country></aff><aff id="aff2"><label>&#x02021;</label>National
+Center for Computational Design and Discovery of Novel Materials (MARVEL), <institution>&#x000c9;cole Polytechnique F&#x000e9;d&#x000e9;rale
+de Lausanne (EPFL)</institution>, CH-1015 Lausanne, <country>Switzerland</country></aff><aff id="aff3"><label>&#x000a7;</label>Laboratory
+of Molecular Simulation (LSMO), Institute of Chemical Sciences and
+Engineering (ISIC), <institution>&#x000c9;cole Polytechnique
+F&#x000e9;d&#x000e9;rale de Lausanne (EPFL Valais)</institution>, CH-1951 Sion, <country>Switzerland</country></aff><aff id="aff4"><label>&#x02225;</label>Department
+of Materials and Environmental Chemistry, <institution>Stockholm University</institution>, SE-10691 Stockholm, <country>Sweden</country></aff><aff id="aff5"><label>&#x022a5;</label>Laboratoire
+CRM2, UMR 7036, <institution>Universit&#x000e9; de Lorraine</institution>, F-54506 Vandoeuvre-l&#x000e8;s-Nancy, <country>France</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>clemence.corminboeuf@epfl.ch</email>. Tel: <phone>+41 (0)21 693 93 57</phone>. Fax: <fax>+41 (0)21 693
+97 00</fax>.</corresp></author-notes><pub-date pub-type="epub"><day>13</day><month>03</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>04</day><month>04</month><year>2019</year></pub-date><volume>10</volume><issue>7</issue><fpage>1482</fpage><lpage>1488</lpage><history><date date-type="received"><day>24</day><month>01</month><year>2019</year></date><date date-type="accepted"><day>13</day><month>03</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0009" id="ab-tgr1"/></p><p>The
+study of organic molecular crystals under high pressure provides
+fundamental insight into crystal packing distortions and reveals mechanisms
+of phase transitions and the crystallization of polymorphs. These
+solid-state transformations can be monitored directly by analyzing
+electron charge densities that are experimentally obtained at high
+pressure. However, restricting the analysis to the featureless electron
+density does not reveal the chemical bonding nature and the existence
+of intermolecular interactions. This shortcoming can be resolved by
+the use of the DORI (density overlap region indicator) descriptor,
+which is capable of simultaneously detecting both covalent patterns
+and noncovalent interactions from electron density and its derivatives.
+Using the biscarbonyl[14]annulene crystal under pressure as an example,
+we demonstrate how DORI can be exploited on experimental electron
+densities to reveal and monitor changes in electronic structure patterns
+resulting from molecular compression. A novel approach based on a
+flood-fill-type algorithm is proposed for analyzing the topology of
+the DORI isosurface. This approach avoids the arbitrary selection
+of DORI isovalues and provides an intuitive way to assess how compression
+packing affects covalent bonding in organic solids.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>jz9b00220</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>jz-2019-00220n</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><p>Studies of matter under high
+pressure have long been the realm of geoscientists, solid-state physicists,
+and astrophysicists who examine the extreme conditions of Earth<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> and extraterrestrial environments.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> In materials science, pressure is also exploited
+to control the properties of materials, for instance, by reducing
+interatomic or intramolecular distances.<sup><xref ref-type="bibr" rid="ref3">3</xref>&#x02212;<xref ref-type="bibr" rid="ref6">6</xref></sup> This leads to a host of interesting applications,
+ranging from superhard<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> and high-energy density materials<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> to hydrogen storage.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> We are interested in the behavior of molecular organic and metal&#x02013;organic
+crystals under pressure.<sup><xref ref-type="bibr" rid="ref11">11</xref>&#x02212;<xref ref-type="bibr" rid="ref13">13</xref></sup> Such an understanding provides
+deep insight into the pressure-induced distortions of crystal packing,
+the switching of molecular conformations, and the exploration of new
+polymorphic forms (e.g., chemisorption in metal&#x02013;organic frameworks,<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> piezochromic switches,<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> photovoltaic hybrid
+perovskites,<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref19">19</xref></sup> the crystal engineering of pharmaceuticals,<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> as well as amino acids<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> and sugars<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref></sup>).</p><p>During variable pressure
+experiments, changes appear in the molecular
+geometries<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> (e.g., interatomic distances
+and angles) due to the compression of molecular packing.<sup><xref ref-type="bibr" rid="ref26">26</xref>&#x02212;<xref ref-type="bibr" rid="ref28">28</xref></sup> But these geometrical changes do not directly allow the deduction
+of changes in the electronic structure, which represents perhaps the
+most appealing and sensitive way of examining inter- and intramolecular
+interactions of compressed molecular crystals. The ability to experimentally
+observe electronic structure modifications under pressure is relatively
+recent.<sup><xref ref-type="bibr" rid="ref29">29</xref>&#x02212;<xref ref-type="bibr" rid="ref32">32</xref></sup> Macchi&#x02019;s work on <italic>syn</italic>-1,6:8,13-biscarbonyl[14]annulene
+(BCA) (see <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>) represents a major breakthrough.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> This
+BCA crystal was chosen to be studied because its charge density at
+ambient pressure revealed an unusual bond path that links the two
+bridgehead carbonyl groups in almost <italic>C</italic><sub>2<italic>v</italic></sub> molecular symmetry but shifts toward one of the
+resonant forms<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> of an ideal aromatic system
+when high pressure is applied, as shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. Applying pressure weakens the electron
+delocalization in the double bonds of the annulene ring that is observed
+at ambient pressure, distorting the systems to the <italic>C</italic><sub><italic>s</italic></sub> subsymmetry point group of <italic>C</italic><sub>2<italic>v</italic></sub>. As for the packing, BCA
+crystallizes with four molecules in the unit cell, with no change
+in space group (monoclinic <italic>P</italic>2<sub>1</sub>/<italic>n</italic>) detected when increasing the pressure up to 7.7 GPa.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Ideal
+aromatic representation (left) and resonance structure (right)
+for the <italic>syn</italic>-1,6:8,13-biscarbonyl[14]annulene (BCA)
+molecule.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0001" id="gr1" position="float"/></fig><p>Whereas the geometric perturbations
+caused by placing the BCA crystal
+under pressure are easy to observe, a subtle computational analysis
+is required to determine the bond type and to illuminate the interplay
+between chemical bonds and the crystal packing<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> from the experimental electron density.<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> Several methods for analyzing electron charge densities
+have been proposed in the literature: topological analysis,<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> quantum crystallography,<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> and the use of molecular scalar fields.<sup><xref ref-type="bibr" rid="ref38">38</xref>&#x02212;<xref ref-type="bibr" rid="ref40">40</xref></sup> Among the latter,
+the density overlap region indicator (DORI)<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> (derived from the single exponential decay detector (SEDD)<sup><xref ref-type="bibr" rid="ref42">42</xref></sup>) is a specific and ideally suited example because
+it reveals both covalent and noncovalent interactions directly from
+the charge density, &#x003c1;(<bold>r</bold>), (and its derivatives)
+that is accessible from experiment. DORI is defined as<disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_m001" position="anchor"/><label>1</label></disp-formula>where<disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_m002" position="anchor"/><label>2</label></disp-formula>Intuitively, DORI captures
+the deviations from the single-exponential behavior of the density
+in real space and reveals density overlaps between atomic shells,
+atoms, or molecules.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> The regions of these
+overlapping charge densities can be directly interpreted as covalent
+bonds (if the regions lie between atoms) or noncovalent interactions
+(if the regions lie between molecules).<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> Plotting the DORI values on the 0 to 1 scale leads to unambiguous
+representations of these overlaps, as shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>2D DORI maps (DORI(<bold>r</bold>) = <italic>f</italic>) in the <italic>&#x003c3;</italic><sub><italic>h</italic></sub> plane of butadiene
+with <italic>f</italic> = 0.99 isocontour in white (left). 3D representation
+of the parallel-displaced benzene dimer for <italic>f</italic> = 0.95
+(right) with covalent and noncovalent DORI [<italic>f</italic>] domains
+depicted in white and red, respectively. These examples are adapted
+and&#x000a0;reprinted with permission from ref<sup><xref ref-type="bibr" rid="ref43">43</xref></sup>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0002" id="gr2" position="float"/></fig><p>Like any other scalar field on a 3D domain, the representation
+of DORI requires a fourth dimension (three dimensions for <inline-formula id="d30e441"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_m003.gif"/></inline-formula> and one for the value
+of the function).
+To visualize the essential features of DORI in three dimensions, one
+selects a meaningful function value <italic>f</italic> and displays
+the closed isosurfaces for <italic>f</italic>. These surfaces are
+the boundaries of the [<italic>f</italic>] domains (i.e., the points
+with DORI(<italic><bold>r</bold></italic>) = <italic>f</italic>),
+where [<italic>f</italic>] domains are all points in space with the
+DORI value greater than or equal to the chosen isovalue <italic>f</italic> (i.e., the points with DORI(<bold>r</bold>) &#x02265; <italic>f</italic>)). The DORI basins correspond to chemical interactions, which can
+be quantified by integrating the electron density that is enclosed
+in each basin<disp-formula id="eq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_m004" position="anchor"/><label>3</label></disp-formula></p><p>Noncovalent
+interactions and bonding patterns are then directly
+compared using the integral of the electron density (DORI(<bold>r</bold>)<sub>int</sub>) and the volume of the DORI basins (<italic>V</italic><sub>[<italic>f</italic>]</sub>). However, as evident from <xref rid="eq3" ref-type="disp-formula">eq <xref rid="eq3" ref-type="disp-formula">3</xref></xref>, the size and even the
+number of DORI basins directly depends on the chosen <italic>f</italic> value. Lowering <italic>f</italic>, for instance, results in the
+merging of previously distinct domains. This type of behavior has
+been rationalized by Savin and Marx,<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> who
+used bifurcation diagrams to depict maxima and saddle points (the
+points where basins occur and merge) for the electron localization
+function (ELF). Heuristic examinations of these bifurcation diagrams
+have led to a more comprehensive picture of covalent bonding in alkene,<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> aromatic,<sup><xref ref-type="bibr" rid="ref46">46</xref></sup> and biologically
+relevant<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> systems. However, the bifurcation
+points (of ELF) were never automatically detected using an algorithmic
+approach.</p><p>Up to now, we generally considered two or three distinct <italic>f</italic> values to ensure the robustness of any observation of
+trends associated with DORI fingerprints.<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> Such arbitrary choices are, in the best case, nonideal and, in the
+worst case, may lead to inaccurate conclusions. Picking a single DORI-<italic>f</italic> value would be especially inconsistent when the experimentally
+measured electron density is obtained under different thermodynamic
+conditions (e.g., pressure and temperature) and is therefore not one-to-one
+comparable. Here we overcome the arbitrariness of selecting DORI isovalues
+by exploiting an algorithm that continuously and automatically monitors
+the DORI basins and the positions of their merging points while decreasing
+the <italic>f</italic> value. Taking the average of the DORI-<italic>f</italic> values of all of the bond merging points gives a meaningful
+and unique choice of the <italic>f</italic> value at which the covalent
+bonds are analyzed. This uniqueness together with the ability of DORI
+to simultaneously reveal covalent and noncovalent regions provides
+a breakthrough in assessing how high pressure affects the peculiar
+interplay between bonding patterns and compression packing.</p><p>Inspired by the idea of the bifurcation diagram but adopting an
+algorithmic approach, we analyzed the BCA covalent bonding pattern
+under ambient and high pressure using a connected component search
+algorithm<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> (see <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>). The algorithm performs a topological analysis
+of the DORI function based on 3-manifold decomposition theory and
+identifies its critical points (e.g., maxima and saddle point; see
+the details in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>). A similar algorithm has recently been applied to study methane
+diffusion in nanoporous materials from a potential energy field.<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> In short, while decreasing the DORI values,
+the connected component search algorithm lists the coordinates of
+the grid points belonging to the growing DORI [<italic>f</italic>]
+domains and detects the merging points (i.e., both their DORI values
+and their coordinates) between any pair of different basins.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Schematic outline
+of the search for merging points. The boxes are
+colored as orange = input (I), blue = output (O), green = processes
+(P1&#x02013;P5), and red = decision (D).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0003" id="gr3" position="float"/></fig><p><xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> provides
+a schematic illustration of the algorithm on a BCA C&#x02013;C bond.
+The volume of the DORI domains (in blue) associated with the bond
+increases with decreasing DORI-<italic>f</italic> until the merging
+occurs (visible in red). This covalent bond is properly captured at
+DORI-<italic>f</italic> values, for which the three basins defining
+this bond are merged into one basin. Because the annulene ring of
+the BCA is composed of 14 C&#x02013;C bonds, the value used to study
+the pressure-induced bonding modifications corresponds to the average <italic>f</italic> value of the 28 merging points (see <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>, DORI(<bold>r</bold>) = 0.994 and DORI(<bold>r</bold>) = 0.999 isovalues for the ambient and the high-pressure
+conditions; all merging point&#x02019;s DORI-<italic>f</italic> values
+are provided in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>).</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>3D illustration and its schematic 2D analogue of DORI [<italic>f</italic>] domains for a given C&#x02013;C bond (a) of BCA at ambient
+pressure with <italic>f</italic> = 0.9990 (b), <italic>f</italic> =
+0.9984 (c), <italic>f</italic> = 0.9980 (d), <italic>f</italic> =
+0.9978 (e), <italic>f</italic> = 0.9966 (f), and <italic>f</italic> = 0.9940 (g). The gray lines represent DORI isocontours for each
+step. For each step, the grid points (in black) with DORI values higher
+than <italic>f</italic> are shown in blue. Red encircled grid points
+correspond to the basin merging points (e.g., three basins merged
+in two points in panels d and f).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>DORI isosurface (DORI(<bold>r</bold>) = <italic>f</italic>) of
+BCA at high pressure is shown for <italic>f</italic> = 0.999 with
+28 detected merging points associated with the 14 covalent C&#x02013;C
+bonds. Each carbon&#x02013;carbon bond can be assimilated to three
+growing basins (e.g., between C1 and C2) that merge into one (e.g.,
+between C10 and C11). The first point that connects two basins is
+selected as their merging point. The top-right corner is a reminder
+of the underlying BCA molecule.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0005" id="gr5" position="float"/></fig><p>With 14 conjugated carbon atoms, the BCA annulene backbone
+is pseudo-H&#x000fc;ckel
+aromatic (4<italic>n</italic>+2 &#x003c0; electrons) with a distortion
+from planarity imposed by the two carbonyl bridges.<sup><xref ref-type="bibr" rid="ref49">49</xref></sup> Under ambient conditions, BCA has an experimentally verified <italic>C</italic><sub>2<italic>v</italic></sub> symmetry.<sup><xref ref-type="bibr" rid="ref50">50</xref></sup> In <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> (where the basins are colored proportionally to the maximum DORI<sub>int</sub> found under each condition), the insight obtained from
+the DORI domains goes beyond geometrical effects. DORI captures the
+&#x0201c;electronic&#x0201d; equivalence of the bonds that is imposed
+by the symmetry. At high pressure, the additional stress perturbs
+the BCA electron delocalization and distorts the electron density
+of the annulene electron skeleton. This results in an inhomogeneous
+contraction of the C&#x02013;C bonds reflected by the drastic changes
+in the DORI covalent patterns. (All DORI<sub>int</sub> and DORI<sub>vol</sub> are given in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>.) In particular, as attested by the electron density integrated
+within the DORI [<italic>f</italic>] domains (i.e., DORI<sub>int</sub>), the left side of the molecule shows an alternation between compressed
+(e.g., C1&#x02013;C14, C2&#x02013;C3, C4&#x02013;C5, C6&#x02013;C7) and
+loose (e.g., C2&#x02013;C1, C5&#x02013;C6) bonds, whereas the right
+side maintains a partial electron delocalization and smaller electronic
+compression of the C&#x02013;C bonds (see <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>). Those observations are in line with other
+indicators (e.g., electron density at the bond critical points,<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> delocalization indices,<sup><xref ref-type="bibr" rid="ref51">51</xref></sup> and extremely localized molecular orbitals<sup><xref ref-type="bibr" rid="ref52">52</xref></sup>) and with quantum-chemical computations (see comparisons with gas-phase
+and periodic density functional theory (DFT) computations in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>). The electron density
+measured at high pressure integrated within the DORI [<italic>f</italic>] domains attests to the charge density accumulation in specific
+bonds of the annulene ring (see <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>), which desymmetrizes the molecule. DORI, however,
+has the advantage of giving a more intuitive visual picture of the
+pressure-induced modifications of the covalent pattern using an experimental
+electron density as the sole ingredient.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Annulene skeleton at
+the experimental symmetries: <italic>C</italic><sub>2<italic>v</italic></sub> very close to the configuration at
+ambient pressure (top left) and one of the <italic>C</italic><sub>s</sub> subsymmetry close to the molecule in the crystal at high
+pressure (top right). DORI basins of each C&#x02013;C bond are color-coded
+to represent the relative percentage of the electron density integrals
+(DORI<sub>int</sub>) within the basins (relative to the maximum found)
+at ambient (bottom left) and high pressure (bottom right). All integral
+values (DORI<sub>int</sub>) and volumes of the basins (DORI<sub>vol</sub>) are given in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0006" id="gr6" position="float"/></fig><p>More relevantly, DORI not only
+captures the symmetry break and
+the charge-density accumulation but also identifies their cause, which
+lies in the distinct packing environment on the left and right sides
+of the BCA. Whereas the fact that high-pressure crystal packing would
+somehow induce an anisotropy within the &#x003c0;-conjugation covalent
+pattern is rather intuitive,<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref53">53</xref></sup> only indirect measurements
+of this phenomenon based on two photon spectroscopy<sup><xref ref-type="bibr" rid="ref54">54</xref>,<xref ref-type="bibr" rid="ref55">55</xref></sup> or geometrical parameters<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref56">56</xref>,<xref ref-type="bibr" rid="ref57">57</xref></sup> have been observed. The cause
+and effects are here revealed directly and unambiguously.</p><p>At
+ambient pressure, DORI captures a rich network of noncovalent
+interactions around a single BCA molecule (see <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>) and distinguishes between CH&#x000b7;&#x000b7;&#x000b7;O
+interactions, pseudo &#x003c0;&#x02013;&#x003c0; stacks, and hydrogen contacts.
+The seven nonredundant CH&#x000b7;&#x000b7;&#x000b7;O interactions experimentally
+characterized in the BCA crystal<sup><xref ref-type="bibr" rid="ref50">50</xref></sup> are
+reflected by the directional DORI domains (see red basins in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>), typical for hydrogen
+bonding.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> (Integral values, DORI<sub>int</sub>, and volume of the basins, DORI<sub>vol</sub>, are given in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">Supporting Information</ext-link>.) Many nondirectional
+van der Waals regions that span all around each BCA at ambient and
+high pressure are also clearly visible in blue. The monitoring of
+this noncovalent network upon compression discloses which interactions
+cause the largest changes in the covalent bonding patterns.</p><fig id="fig7" position="float"><label>Figure 7</label><caption><p>(a) BCA geometry.
+Noncovalent (DORI(<bold>r</bold>) = <italic>f</italic>) domains of
+a single BCA molecule in (b) an ambient and (c) a high-pressure
+crystal environment. van der Waals interactions are colored in blue,
+CH&#x000b7;&#x000b7;&#x000b7;O in red, and covalent bonds in yellow. <italic>f</italic> = 0.994 and 0.999 for ambient and high pressure, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0007" id="gr7" position="float"/></fig><p>The rearrangement of directional
+interactions (e.g., OH&#x000b7;&#x000b7;&#x000b7;O,
+NH&#x000b7;&#x000b7;&#x000b7;O, and CH&#x000b7;&#x000b7;&#x000b7;O bonds or O&#x000b7;&#x000b7;&#x000b7;O
+contacts) is especially essential to interpret the modifications of
+compressed molecular crystals.<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref56">56</xref>,<xref ref-type="bibr" rid="ref57">57</xref></sup> From the DORI viewpoint, the
+CH&#x000b7;&#x000b7;&#x000b7;O bridges are the key to rationalize the BCA covalent
+pattern. As pressure is applied, several CH&#x000b7;&#x000b7;&#x000b7;O DORI
+domains slide from the typical CH&#x000b7;&#x000b7;&#x000b7;O to the unconventional <inline-formula id="d30e805"><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_m005.gif"/></inline-formula> contact,
+where the interacting basin now
+points to the carbon&#x02013;hydrogen bond. In particular, two of these
+interactions occur out of the pseudoplane of BCA, pushing the neighboring
+carbon atom forward (see <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>). The C2 and C5 carbon atoms involved in those noncovalent
+contacts are both located in the same seven-membered ring (C1&#x02013;C2&#x02013;C3&#x02013;C4&#x02013;C5&#x02013;C6&#x02013;C15),
+explaining the stronger bond length alternation in the left part of
+the molecule. The right side of the BCA molecule is involved in strong
+CH&#x000b7;&#x000b7;&#x000b7;O contacts that remain in the annulene plane,
+disturbing the C&#x02013;C covalent patterns to a lesser extent. At
+even higher pressure, we can expect those interactions to slide out
+of the pseudoplane, disturbing the symmetry on both sides.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>DORI = 0.999
+isosurfaces associated with the CH&#x02013;O interactions
+of a BCA molecule in a crystal environment at high pressure. Red arrows
+indicate out-of-plane interactions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz-2019-00220n_0008" id="gr8" position="float"/></fig><p>In summary, we analyzed the experimental electron densities
+of
+the BCA crystal under high pressure and demonstrated how DORI intuitively
+captures the dramatic effects of noncovalent interactions on bonding
+patterns. Our approach relies on a connected component search algorithm,
+which avoids the arbitrary selection of the DORI isovalue and provides
+a general framework for the cause&#x02013;effect analysis of electronic
+structure patterns in molecular crystals under pressure or under any
+distinct (e.g., temperature, condensed environment) conditions.</p></body><back><notes id="notes2" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acs.jpclett.9b00220">10.1021/acs.jpclett.9b00220</ext-link>.<list id="silist" list-type="simple"><list-item><p>Details of the
+electron density refinement and of the
+flood-fill-type algorithm, all merging points of covalent [<italic>f</italic>] domains, volume and integral of the electron density
+within covalent and noncovalent DORI [<italic>f</italic>] domains,
+and additional 2D and 3D DORI representations (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jpclett.9b00220/suppl_file/jz9b00220_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="jz9b00220_si_001.pdf"><caption><p>jz9b00220_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="" id="notes1"><title>Author Contributions</title><p><sup>#</sup> S.B, A.M., and L.V. contributed equally to this
+work.</p></notes><notes notes-type="COI-statement" id="NOTES-d7e1119-autogenerated"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work has been supported by
+EPFL and the National
+Centre of Competence in Research (NCCR) Materials Revolution: Computational
+Design and Discovery of Novel Materials (MARVEL) of the Swiss National
+Science Foundation (SNSF). S.B. and B.S. are supported by the European
+Research Council (ERC) under the European Unions Horizon 2020 research
+and innovation program (grant agreement no. 666983, MaGic). A.M. thanks
+the Swedish Council (VR) for financing (project number 2015-06320).
+This work was supported by a grant from the Swiss National Supercomputing
+Centre (CSCS) under project ID s761. We thank Ganna Gryn&#x02019;ova
+for the graphical content. We thank Piotr de Silva for his past contribution
+and discussions associated with DORI.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Ohta</surname><given-names>K.</given-names></name>; <name><surname>Kuwayama</surname><given-names>Y.</given-names></name>; <name><surname>Hirose</surname><given-names>K.</given-names></name>; <name><surname>Shimizu</surname><given-names>K.</given-names></name>; <name><surname>Ohishi</surname><given-names>Y.</given-names></name>
+<article-title>Experimental
+Determination of the Electrical Resistivity of Iron at Earth&#x02019;s
+Core Conditions</article-title>. <source>Nature</source>
+<year>2016</year>, <volume>534</volume>, <fpage>95</fpage>&#x02013;<lpage>98</lpage>. <pub-id pub-id-type="doi">10.1038/nature17957</pub-id>.<pub-id pub-id-type="pmid">27251282</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Rozel</surname><given-names>A. B.</given-names></name>; <name><surname>Golabek</surname><given-names>G. J.</given-names></name>; <name><surname>Jain</surname><given-names>C.</given-names></name>; <name><surname>Tackley</surname><given-names>P. J.</given-names></name>; <name><surname>Gerya</surname><given-names>T.</given-names></name>
+<article-title>Continental
+Crust Formation on Early Earth Controlled by Intrusive Magmatism</article-title>. <source>Nature</source>
+<year>2017</year>, <volume>545</volume>, <fpage>332</fpage>&#x02013;<lpage>335</lpage>. <pub-id pub-id-type="doi">10.1038/nature22042</pub-id>.<pub-id pub-id-type="pmid">28482358</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Zhang</surname><given-names>L.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Lv</surname><given-names>J.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>
+<article-title>Materials Discovery
+at High Pressures</article-title>. <source>Nat. Rev. Mater.</source>
+<year>2017</year>, <volume>2</volume>, <fpage>17005</fpage><pub-id pub-id-type="doi">10.1038/natrevmats.2017.5</pub-id>.</mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Hemley</surname><given-names>R. J.</given-names></name>
+<article-title>Effects
+of High Pressure on Molecules</article-title>. <source>Annu. Rev. Phys.
+Chem.</source>
+<year>2000</year>, <volume>51</volume>, <fpage>763</fpage>&#x02013;<lpage>800</lpage>. <pub-id pub-id-type="doi">10.1146/annurev.physchem.51.1.763</pub-id>.<pub-id pub-id-type="pmid">11031299</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Grochala</surname><given-names>W.</given-names></name>; <name><surname>Hoffmann</surname><given-names>R.</given-names></name>; <name><surname>Feng</surname><given-names>J.</given-names></name>; <name><surname>Ashcroft</surname><given-names>N.</given-names></name>
+<article-title>The Chemical Imagination
+at Work in Very Tight Places</article-title>. <source>Angew. Chem.,
+Int. Ed.</source>
+<year>2007</year>, <volume>46</volume>, <fpage>3620</fpage>&#x02013;<lpage>3642</lpage>. <pub-id pub-id-type="doi">10.1002/anie.200602485</pub-id>.</mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Pickard</surname><given-names>C. J.</given-names></name>; <name><surname>Needs</surname><given-names>R. J.</given-names></name>
+<article-title>Highly compressed ammonia forms an ionic crystal</article-title>. <source>Nat. Mater.</source>
+<year>2008</year>, <volume>7</volume>, <fpage>775</fpage>&#x02013;<lpage>779</lpage>. <pub-id pub-id-type="doi">10.1038/nmat2261</pub-id>.<pub-id pub-id-type="pmid">18724375</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Zhao</surname><given-names>Z.</given-names></name>; <name><surname>Xu</surname><given-names>B.</given-names></name>; <name><surname>Tian</surname><given-names>Y.</given-names></name>
+<article-title>Recent Advances in Superhard Materials</article-title>. <source>Annu. Rev. Mater. Res.</source>
+<year>2016</year>, <volume>46</volume>, <fpage>383</fpage>&#x02013;<lpage>406</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-matsci-070115-031649</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Pickard</surname><given-names>C. J.</given-names></name>; <name><surname>Salamat</surname><given-names>A.</given-names></name>; <name><surname>Bojdys</surname><given-names>M. J.</given-names></name>; <name><surname>Needs</surname><given-names>R. J.</given-names></name>; <name><surname>McMillan</surname><given-names>P. F.</given-names></name>
+<article-title>Carbon
+nitride frameworks and dense crystalline polymorphs</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2016</year>, <volume>94</volume>, <elocation-id>094104</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.94.094104</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Peng</surname><given-names>F.</given-names></name>; <name><surname>Yao</surname><given-names>Y.</given-names></name>; <name><surname>Liu</surname><given-names>H.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>
+<article-title>Crystalline LiN<sub>5</sub> Predicted
+from First-Principles as a Possible High-Energy Material</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>2363</fpage>&#x02013;<lpage>2366</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.5b00995</pub-id>.<pub-id pub-id-type="pmid">26266618</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Song</surname><given-names>Y.</given-names></name>
+<article-title>New Perspectives
+on Potential Hydrogen Storage Materials Using High Pressure</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2013</year>, <volume>15</volume>, <fpage>14524</fpage>&#x02013;<lpage>14547</lpage>. <pub-id pub-id-type="doi">10.1039/c3cp52154k</pub-id>.<pub-id pub-id-type="pmid">23817539</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Naumov</surname><given-names>P.</given-names></name>; <name><surname>Chizhik</surname><given-names>S.</given-names></name>; <name><surname>Panda</surname><given-names>M. K.</given-names></name>; <name><surname>Nath</surname><given-names>N. K.</given-names></name>; <name><surname>Boldyreva</surname><given-names>E.</given-names></name>
+<article-title>Mechanically
+Responsive Molecular Crystals</article-title>. <source>Chem. Rev.</source>
+<year>2015</year>, <volume>115</volume>, <fpage>12440</fpage>&#x02013;<lpage>12490</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.5b00398</pub-id>.<pub-id pub-id-type="pmid">26535606</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Boldyreva</surname><given-names>E. V.</given-names></name>
+<article-title>High-Pressure
+Diffraction Studies of Molecular Organic Solids. A Personal View</article-title>. <source>Acta Crystallogr., Sect. A: Found. Crystallogr.</source>
+<year>2008</year>, <volume>64</volume>, <fpage>218</fpage>&#x02013;<lpage>231</lpage>. <pub-id pub-id-type="doi">10.1107/S0108767307065786</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>High-Pressure
+Crystallography</article-title>. <source>Acta Crystallogr., Sect. A:
+Found. Crystallogr.</source>
+<year>2008</year>, <volume>64</volume>, <fpage>135</fpage>&#x02013;<lpage>148</lpage>. <pub-id pub-id-type="doi">10.1107/S0108767307061181</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Cai</surname><given-names>W.</given-names></name>; <name><surname>Gladysiak</surname><given-names>A.</given-names></name>; <name><surname>Aniola</surname><given-names>M.</given-names></name>; <name><surname>Smith</surname><given-names>V. J.</given-names></name>; <name><surname>Barbour</surname><given-names>L. J.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Giant Negative Area Compressibility Tunable in a Soft
+Porous Framework Material</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>9296</fpage>&#x02013;<lpage>9301</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.5b03280</pub-id>.<pub-id pub-id-type="pmid">25945394</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Lanza</surname><given-names>A.</given-names></name>; <name><surname>Germann</surname><given-names>L. S.</given-names></name>; <name><surname>Fisch</surname><given-names>M.</given-names></name>; <name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>
+<article-title>Solid-State
+Reversible Nucleophilic Addition in a Highly Flexible MOF</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>13072</fpage>&#x02013;<lpage>13078</lpage>. <pub-id pub-id-type="doi">10.1021/jacs.5b09231</pub-id>.<pub-id pub-id-type="pmid">26401722</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Andrzejewski</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Piezochromic Topology Switch in a Coordination Polymer</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>929</fpage>&#x02013;<lpage>935</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.7b00019</pub-id>.<pub-id pub-id-type="pmid">28170266</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Andrzejewski</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Piezochromic Porous Metal-Organic
+Framework</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>279</fpage>&#x02013;<lpage>284</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.6b02458</pub-id>.<pub-id pub-id-type="pmid">27982604</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Szafranski</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Mechanism
+of Pressure-Induced Phase Transitions, Amorphization,
+and Absorption-Edge Shift in Photovoltaic Methylammonium Lead Iodide</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>3458</fpage>&#x02013;<lpage>3466</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.6b01648</pub-id>.<pub-id pub-id-type="pmid">27538989</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Szafranski</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Photovoltaic Hybrid Perovskites under
+Pressure</article-title>. <source>J. Phys. Chem. Lett.</source>
+<year>2017</year>, <volume>8</volume>, <fpage>2496</fpage>&#x02013;<lpage>2506</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jpclett.7b00520</pub-id>.<pub-id pub-id-type="pmid">28498672</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Minkov</surname><given-names>V. S.</given-names></name>; <name><surname>Boldyreva</surname><given-names>E. V.</given-names></name>
+<article-title>Weak Hydrogen
+Bonds Formed by Thiol Groups in N-Acetyl-Cysteine
+and Their Response to the Crystal Structure Distortion on Increasing
+Pressure</article-title>. <source>J. Phys. Chem. B</source>
+<year>2013</year>, <volume>117</volume>, <fpage>14247</fpage>&#x02013;<lpage>14260</lpage>. <pub-id pub-id-type="doi">10.1021/jp4068872</pub-id>.<pub-id pub-id-type="pmid">24102610</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Boldyreva</surname><given-names>E.</given-names></name>
+<article-title>Combined X-ray
+Diffraction and Raman Spectroscopy Studies of Phase Transitions in
+Crystalline Amino Acids at Low Temperatures and High Pressures: Selected
+Examples</article-title>. <source>Phase Transitions</source>
+<year>2009</year>, <volume>82</volume>, <fpage>303</fpage>&#x02013;<lpage>321</lpage>. <pub-id pub-id-type="doi">10.1080/01411590902838656</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Fisch</surname><given-names>M.</given-names></name>; <name><surname>Lanza</surname><given-names>A.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>; <name><surname>Casati</surname><given-names>N.</given-names></name>
+<article-title>The Benefits of One-Dimensional
+Detectors for High-Pressure Powder X-ray Diffraction</article-title>. <source>J. Appl. Crystallogr.</source>
+<year>2015</year>, <volume>48</volume>, <fpage>1956</fpage>&#x02013;<lpage>1963</lpage>. <pub-id pub-id-type="doi">10.1107/S1600576715020865</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Patyk</surname><given-names>E.</given-names></name>; <name><surname>Skumiel</surname><given-names>J.</given-names></name>; <name><surname>Podsiadlo</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>High-Pressure
+(+)-Sucrose Polymorph</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>2146</fpage>&#x02013;<lpage>2150</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201107283</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Patyk</surname><given-names>E.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Transformable
+H-Bonds and Conformation in Compressed
+Glucose</article-title>. <source>Chem. Sci.</source>
+<year>2015</year>, <volume>6</volume>, <fpage>1991</fpage>&#x02013;<lpage>1995</lpage>. <pub-id pub-id-type="doi">10.1039/C4SC03588G</pub-id>.<pub-id pub-id-type="pmid">28717456</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="book" id="cit25"><person-group person-group-type="allauthors"><name><surname>Boldyreva</surname><given-names>E.</given-names></name>; <name><surname>Dera</surname><given-names>P.</given-names></name></person-group><source>High-Pressure Crystallography, From
+Fundamental Phenomena to Technological Applications</source>; <publisher-name>Springer</publisher-name>, <year>2009</year>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>; <name><surname>Sironi</surname><given-names>A.</given-names></name>
+<article-title>Molecular Crystals under High Pressure:
+Theoretical and Experimental Investigations of the Solid-Solid Phase
+Transitions in [Co<sub>2</sub> (CO)<sub>6</sub>(XPh<sub>3</sub>)<sub>2</sub>](X = P, As)</article-title>. <source>Chem. - Eur. J.</source>
+<year>2009</year>, <volume>15</volume>, <fpage>4446</fpage>&#x02013;<lpage>4457</lpage>. <pub-id pub-id-type="doi">10.1002/chem.200801528</pub-id>.<pub-id pub-id-type="pmid">19266520</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Montisci</surname><given-names>F.</given-names></name>; <name><surname>Lanza</surname><given-names>A.</given-names></name>; <name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>
+<article-title>NO<sub>2</sub>NO<sub>2</sub> Contacts under Compression:
+Testing the Forces in Soft Donor-Acceptor
+Interactions</article-title>. <source>Cryst. Growth Des.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>7579</fpage>&#x02013;<lpage>7589</lpage>. <pub-id pub-id-type="doi">10.1021/acs.cgd.8b01392</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Dziubek</surname><given-names>K.</given-names></name>; <name><surname>Podsiadlo</surname><given-names>M.</given-names></name>; <name><surname>Katrusiak</surname><given-names>A.</given-names></name>
+<article-title>Nearly Isostructural Polymorphs of
+Ethynylbenzene: Resolution of CH&#x003c0;(Arene) and Cooperative CH&#x003c0;(C-C)
+Interactions by Pressure Freezing</article-title>. <source>J. Am. Chem.
+Soc.</source>
+<year>2007</year>, <volume>129</volume>, <fpage>12620</fpage>&#x02013;<lpage>12621</lpage>. <pub-id pub-id-type="doi">10.1021/ja074885r</pub-id>.<pub-id pub-id-type="pmid">17900119</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Tse</surname><given-names>J. S.</given-names></name>; <name><surname>Klug</surname><given-names>D. D.</given-names></name>; <name><surname>Patchkovskii</surname><given-names>S.</given-names></name>; <name><surname>Ma</surname><given-names>Y.</given-names></name>; <name><surname>Dewhurst</surname><given-names>J. K.</given-names></name>
+<article-title>Chemical
+Bonding, Electron-Phonon Coupling, and Structural Transformations
+in High-Pressure Phases of Si</article-title>. <source>J. Phys. Chem.
+B</source>
+<year>2006</year>, <volume>110</volume>, <fpage>3721</fpage>&#x02013;<lpage>3726</lpage>. <pub-id pub-id-type="doi">10.1021/jp0554341</pub-id>.<pub-id pub-id-type="pmid">16494429</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Yamanaka</surname><given-names>T.</given-names></name>; <name><surname>Okada</surname><given-names>T.</given-names></name>; <name><surname>Nakamoto</surname><given-names>Y.</given-names></name>
+<article-title>Electron Density
+Distribution and
+Static Dipole Moment of KNbO<sub>3</sub> at High Pressure</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2009</year>, <volume>80</volume>, <elocation-id>094108</elocation-id><pub-id pub-id-type="doi">10.1103/PhysRevB.80.094108</pub-id>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Fabbiani</surname><given-names>F. P. A.</given-names></name>; <name><surname>Dittrich</surname><given-names>B.</given-names></name>; <name><surname>Pulham</surname><given-names>C. R.</given-names></name>; <name><surname>Warren</surname><given-names>J. E.</given-names></name>
+<article-title>Towards Charge-Density
+Analysis of High-Pressure Molecular Crystal Structures</article-title>. <source>Acta Crystallogr., Sect. A: Found. Crystallogr.</source>
+<year>2011</year>, <volume>67</volume>, <fpage>C376</fpage>&#x02013;<lpage>C376</lpage>. <pub-id pub-id-type="doi">10.1107/S0108767311090532</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Macchi</surname><given-names>P.</given-names></name>; <name><surname>Casati</surname><given-names>N.</given-names></name>
+<article-title>Strong Hydrogen Bonds
+in Crystals under High Pressure</article-title>. <source>Acta Crystallogr.,
+Sect. A: Found. Crystallogr.</source>
+<year>2011</year>, <volume>67</volume>, <fpage>C163</fpage>&#x02013;<lpage>C164</lpage>. <pub-id pub-id-type="doi">10.1107/S0108767311095961</pub-id>.</mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Kleppe</surname><given-names>A.</given-names></name>; <name><surname>Jephcoat</surname><given-names>A. P.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>
+<article-title>Putting Pressure
+on
+Aromaticity along with In Situ Experimental Electron Density of a
+Molecular Crystal</article-title>. <source>Nat. Commun.</source>
+<year>2016</year>, <volume>7</volume>, <fpage>10901</fpage><pub-id pub-id-type="doi">10.1038/ncomms10901</pub-id>.<pub-id pub-id-type="pmid">26979750</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Genoni</surname><given-names>A.</given-names></name>; <name><surname>Meyer</surname><given-names>B.</given-names></name>; <name><surname>Krawczuk</surname><given-names>A.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>
+<article-title>Exploring
+Charge Density Analysis in Crystals at High Pressure: Data Collection,
+Data Analysis and Advanced Modelling</article-title>. <source>Acta Crystallogr.,
+Sect. B: Struct. Sci., Cryst. Eng. Mater.</source>
+<year>2017</year>, <volume>73</volume>, <fpage>584</fpage>&#x02013;<lpage>597</lpage>. <pub-id pub-id-type="doi">10.1107/S2052520617008356</pub-id>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Pastorczak</surname><given-names>E.</given-names></name>; <name><surname>Corminboeuf</surname><given-names>C.</given-names></name>
+<article-title>Perspective:
+Found in Translation: Quantum Chemical
+Tools for Grasping Non-Covalent Interactions</article-title>. <source>J. Chem. Phys.</source>
+<year>2017</year>, <volume>146</volume>, <fpage>120901</fpage><pub-id pub-id-type="doi">10.1063/1.4978951</pub-id>.<pub-id pub-id-type="pmid">28388098</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="book" id="cit36"><person-group person-group-type="allauthors"><name><surname>Bader</surname><given-names>R. F. W.</given-names></name></person-group><source>Atoms in Molecules:
+A Quantum Theory</source>; <publisher-name>Oxford University Press</publisher-name>, <year>1990</year>.</mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Genoni</surname><given-names>A.</given-names></name>; <name><surname>Bucinsky</surname><given-names>L.</given-names></name>; <name><surname>Claiser</surname><given-names>N.</given-names></name>; <name><surname>Contreras-Garc&#x000ed;a</surname><given-names>J.</given-names></name>; <name><surname>Dittrich</surname><given-names>B.</given-names></name>; <name><surname>Dominiak</surname><given-names>P. M.</given-names></name>; <name><surname>Espinosa</surname><given-names>E.</given-names></name>; <name><surname>Gatti</surname><given-names>C.</given-names></name>; <name><surname>Giannozzi</surname><given-names>P.</given-names></name>; <name><surname>Gillet</surname><given-names>J.-M.</given-names></name>; et al. <article-title>Quantum Crystallography:
+Current Developments and Future Perspectives</article-title>. <source>Chem. - Eur. J.</source>
+<year>2018</year>, <volume>24</volume>, <fpage>10881</fpage>&#x02013;<lpage>10905</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201705952</pub-id>.<pub-id pub-id-type="pmid">29488652</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Grabowsky</surname><given-names>S.</given-names></name>; <name><surname>Luger</surname><given-names>P.</given-names></name>; <name><surname>Buschmann</surname><given-names>J.</given-names></name>; <name><surname>Schneider</surname><given-names>T.</given-names></name>; <name><surname>Schirmeister</surname><given-names>T.</given-names></name>; <name><surname>Sobolev</surname><given-names>A. N.</given-names></name>; <name><surname>Jayatilaka</surname><given-names>D.</given-names></name>
+<article-title>The Significance
+of Ionic Bonding in Sulfur Dioxide: Bond Orders from X-ray Diffraction
+Data</article-title>. <source>Angew. Chem., Int. Ed.</source>
+<year>2012</year>, <volume>51</volume>, <fpage>6776</fpage>&#x02013;<lpage>6779</lpage>. <pub-id pub-id-type="doi">10.1002/anie.201200745</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Ch&#x00229;ci&#x00144;ska</surname><given-names>L.</given-names></name>; <name><surname>Mebs</surname><given-names>S.</given-names></name>; <name><surname>O&#x0015b;mia-lowski</surname><given-names>B.</given-names></name>; <name><surname>Zakrzewska</surname><given-names>A.</given-names></name>; <name><surname>Ejsmont</surname><given-names>K.</given-names></name>; <name><surname>Kohout</surname><given-names>M.</given-names></name>
+<article-title>Tuning the
+Electronic Properties
+of the Dative NB Bond with Associated OB Interaction: Electron Localizability
+Indicator from X-Ray Wavefunction Refinement</article-title>. <source>ChemPhysChem</source>
+<year>2016</year>, <volume>17</volume>, <fpage>2395</fpage>&#x02013;<lpage>2406</lpage>. <pub-id pub-id-type="doi">10.1002/cphc.201600223</pub-id>.<pub-id pub-id-type="pmid">27145972</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Saleh</surname><given-names>G.</given-names></name>; <name><surname>Gatti</surname><given-names>C.</given-names></name>; <name><surname>LoPresti</surname><given-names>L.</given-names></name>; <name><surname>Contreras-Garc&#x000ed;a</surname><given-names>J.</given-names></name>
+<article-title>Revealing
+Non-covalent Interactions in Molecular Crystals through Their Experimental
+Electron Densities</article-title>. <source>Chem. - Eur. J.</source>
+<year>2012</year>, <volume>18</volume>, <fpage>15523</fpage>&#x02013;<lpage>15536</lpage>. <pub-id pub-id-type="doi">10.1002/chem.201201290</pub-id>.<pub-id pub-id-type="pmid">23038653</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>de
+Silva</surname><given-names>P.</given-names></name>; <name><surname>Corminboeuf</surname><given-names>C.</given-names></name>
+<article-title>Simultaneous Visualization of Covalent
+and Noncovalent Interactions Using Regions of Density Overlap</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2014</year>, <volume>10</volume>, <fpage>3745</fpage>&#x02013;<lpage>3756</lpage>. <pub-id pub-id-type="doi">10.1021/ct500490b</pub-id>.<pub-id pub-id-type="pmid">25221443</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>de
+Silva</surname><given-names>P.</given-names></name>; <name><surname>Korchowiec</surname><given-names>J.</given-names></name>; <name><surname>Wesolowski</surname><given-names>T. A.</given-names></name>
+<article-title>Atomic
+Shell Structure from the Single-Exponential Decay Detector</article-title>. <source>J. Chem. Phys.</source>
+<year>2014</year>, <volume>140</volume>, <fpage>164301</fpage><pub-id pub-id-type="doi">10.1063/1.4871501</pub-id>.<pub-id pub-id-type="pmid">24784264</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Vannay</surname><given-names>L.</given-names></name>; <name><surname>Meyer</surname><given-names>B.</given-names></name>; <name><surname>Petraglia</surname><given-names>R.</given-names></name>; <name><surname>Sforazzini</surname><given-names>G.</given-names></name>; <name><surname>Ceriotti</surname><given-names>M.</given-names></name>; <name><surname>Corminboeuf</surname><given-names>C.</given-names></name>
+<article-title>Analyzing
+Fluxional Molecules Using
+DORI</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2018</year>, <volume>14</volume>, <fpage>2370</fpage>&#x02013;<lpage>2379</lpage>. <pub-id pub-id-type="doi">10.1021/acs.jctc.7b01176</pub-id>.<pub-id pub-id-type="pmid">29570294</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Marx</surname><given-names>D.</given-names></name>; <name><surname>Savin</surname><given-names>A.</given-names></name>
+<article-title>Topological Bifurcation
+Analysis: Electronic Structure of CH</article-title>. <source>Angew.
+Chem., Int. Ed. Engl.</source>
+<year>1997</year>, <volume>36</volume>, <fpage>2077</fpage>&#x02013;<lpage>2080</lpage>. <pub-id pub-id-type="doi">10.1002/anie.199720771</pub-id>.</mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Savin</surname><given-names>A.</given-names></name>; <name><surname>Silvi</surname><given-names>B.</given-names></name>; <name><surname>Colonna</surname><given-names>F.</given-names></name>
+<article-title>Topological Analysis of the Electron
+Localization Function Applied to Delocalized Bonds</article-title>. <source>Can. J. Chem.</source>
+<year>1996</year>, <volume>74</volume>, <fpage>1088</fpage>&#x02013;<lpage>1096</lpage>. <pub-id pub-id-type="doi">10.1139/v96-122</pub-id>.</mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Poater</surname><given-names>J.</given-names></name>; <name><surname>Duran</surname><given-names>M.</given-names></name>; <name><surname>Sola</surname><given-names>M.</given-names></name>; <name><surname>Silvi</surname><given-names>B.</given-names></name>
+<article-title>Theoretical Evaluation
+of Electron Delocalization in Aromatic Molecules by Means of Atoms
+in Molecules (AIM) and Electron Localization Function (ELF) Topological
+Approaches</article-title>. <source>Chem. Rev.</source>
+<year>2005</year>, <volume>105</volume>, <fpage>3911</fpage>&#x02013;<lpage>3947</lpage>. <pub-id pub-id-type="doi">10.1021/cr030085x</pub-id>.<pub-id pub-id-type="pmid">16218571</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Piquemal</surname><given-names>J.-P.</given-names></name>; <name><surname>Pilme</surname><given-names>J.</given-names></name>; <name><surname>Parisel</surname><given-names>O.</given-names></name>; <name><surname>Gerard</surname><given-names>H.</given-names></name>; <name><surname>Fourre</surname><given-names>I.</given-names></name>; <name><surname>Berges</surname><given-names>J.</given-names></name>; <name><surname>Gourlaouen</surname><given-names>C.</given-names></name>; <name><surname>De La Lande</surname><given-names>A.</given-names></name>; <name><surname>Van Severen</surname><given-names>M.-C.</given-names></name>; <name><surname>Silvi</surname><given-names>B.</given-names></name>
+<article-title>What Can Be Learnt
+on Biologically
+Relevant Systems from the Topological Analysis of the Electron Localization
+Function?</article-title>. <source>Int. J. Quantum Chem.</source>
+<year>2008</year>, <volume>108</volume>, <fpage>1951</fpage>&#x02013;<lpage>1969</lpage>. <pub-id pub-id-type="doi">10.1002/qua.21711</pub-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Mace</surname><given-names>A.</given-names></name>; <name><surname>Barthel</surname><given-names>S.</given-names></name>; <name><surname>Smit</surname><given-names>B.</given-names></name>
+<article-title>Automated
+Multiscale Approach To
+Predict Self-Diffusion from a Potential Energy Field</article-title>. <source>J. Chem. Theory Comput.</source>
+<year>2019</year>, <pub-id pub-id-type="doi">10.1021/acs.jctc.8b01255</pub-id>.</mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Destro</surname><given-names>R.</given-names></name>; <name><surname>Pilati</surname><given-names>T.</given-names></name>; <name><surname>Simonetta</surname><given-names>M.</given-names></name>
+<article-title>Another Aromaticity
+vs Non-Aromaticity
+Dilemma: The Structure of Anti-1,6:8,13-biscarbonyl[14]annulene</article-title>. <source>Tetrahedron</source>
+<year>1980</year>, <volume>36</volume>, <fpage>3301</fpage>&#x02013;<lpage>3304</lpage>. <pub-id pub-id-type="doi">10.1016/0040-4020(80)80180-3</pub-id>.</mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Destro</surname><given-names>R.</given-names></name>; <name><surname>Merati</surname><given-names>F.</given-names></name>
+<article-title>Bond Lengths, and Beyond</article-title>. <source>Acta
+Crystallogr., Sect. B: Struct. Sci.</source>
+<year>1995</year>, <volume>51</volume>, <fpage>559</fpage>&#x02013;<lpage>570</lpage>. <pub-id pub-id-type="doi">10.1107/S0108768195005088</pub-id>.</mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Bader</surname><given-names>R. F.</given-names></name>; <name><surname>Stephens</surname><given-names>M. E.</given-names></name>
+<article-title>Spatial Localization
+of the Electronic Pair and Number
+Distributions in Molecules</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>1975</year>, <volume>97</volume>, <fpage>7391</fpage>&#x02013;<lpage>7399</lpage>. <pub-id pub-id-type="doi">10.1021/ja00859a001</pub-id>.</mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Stoll</surname><given-names>H.</given-names></name>; <name><surname>Wagenblast</surname><given-names>G.</given-names></name>; <name><surname>Preuss</surname><given-names>H.</given-names></name>
+<article-title>On the Use of Local Basis Sets for
+Localized Molecular Orbitals</article-title>. <source>Theor. Chim. Acta</source>
+<year>1980</year>, <volume>57</volume>, <fpage>169</fpage>&#x02013;<lpage>178</lpage>. <pub-id pub-id-type="doi">10.1007/BF00574903</pub-id>.</mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Boldyreva</surname><given-names>E. V.</given-names></name>
+<article-title>High-Pressure
+Studies of the Hydrogen Bond Networks in Molecular Crystals</article-title>. <source>J. Mol. Struct.</source>
+<year>2004</year>, <volume>700</volume>, <fpage>151</fpage>&#x02013;<lpage>155</lpage>. <pub-id pub-id-type="doi">10.1016/j.molstruc.2004.03.026</pub-id>.</mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Fanetti</surname><given-names>S.</given-names></name>; <name><surname>Citroni</surname><given-names>M.</given-names></name>; <name><surname>Bini</surname><given-names>R.</given-names></name>
+<article-title>Pressure-Induced
+Fluorescence of
+Pyridine</article-title>. <source>J. Phys. Chem. B</source>
+<year>2011</year>, <volume>115</volume>, <fpage>12051</fpage>&#x02013;<lpage>12058</lpage>. <pub-id pub-id-type="doi">10.1021/jp2068864</pub-id>.<pub-id pub-id-type="pmid">21936571</pub-id></mixed-citation></ref><ref id="ref55"><mixed-citation publication-type="journal" id="cit55"><name><surname>Fanetti</surname><given-names>S.</given-names></name>; <name><surname>Citroni</surname><given-names>M.</given-names></name>; <name><surname>Bini</surname><given-names>R.</given-names></name>
+<article-title>Tuning the
+Aromaticity of <italic>s</italic>-Triazine in the Crystal Phase by
+Pressure</article-title>. <source>J. Phys. Chem. C</source>
+<year>2014</year>, <volume>118</volume>, <fpage>13764</fpage>&#x02013;<lpage>13768</lpage>. <pub-id pub-id-type="doi">10.1021/jp502020g</pub-id>.</mixed-citation></ref><ref id="ref56"><mixed-citation publication-type="journal" id="cit56"><name><surname>Casati</surname><given-names>N.</given-names></name>; <name><surname>Macchi</surname><given-names>P.</given-names></name>; <name><surname>Sironi</surname><given-names>A.</given-names></name>
+<article-title>Hydrogen Migration
+in Oxalic Acid
+Di-Hydrate at High Pressure?</article-title>. <source>Chem. Commun.</source>
+<year>2009</year>, <volume>0</volume>, <fpage>2679</fpage>&#x02013;<lpage>2681</lpage>. <pub-id pub-id-type="doi">10.1039/b823458b</pub-id>.</mixed-citation></ref><ref id="ref57"><mixed-citation publication-type="journal" id="cit57"><name><surname>Boldyreva</surname><given-names>E. V.</given-names></name>
+<article-title>High-Pressure
+Studies of the Anisotropy of Structural Distortion of Molecular Crystals</article-title>. <source>J. Mol. Struct.</source>
+<year>2003</year>, <volume>647</volume>, <fpage>159</fpage>&#x02013;<lpage>179</lpage>. <pub-id pub-id-type="doi">10.1016/S0022-2860(02)00520-3</pub-id>.</mixed-citation></ref></ref-list></back></article>

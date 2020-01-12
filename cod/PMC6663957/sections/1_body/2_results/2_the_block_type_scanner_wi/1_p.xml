@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par48">For each angular position of the plane source, we simulated about 4.175 × 10
+ <sup>15</sup> counts in total. The maximum number of counts per sinogram bin for the block model was about 8.3 × 10
+ <sup>3</sup> and for the cylindrical one about 2 × 10
+ <sup>4</sup>. Figure 
+ <xref rid="Fig4" ref-type="fig">4</xref> shows direct sinograms from the plane source located perpendicular to the 
+ <italic>y</italic>-axis. Some of the bin values in the cylindrical model are always zero since no coincidence events fell into these bins. This is due to mapping the block-type scanner into a virtual cylindrical scanner. Normalization factors were calculated and histogrammed in sinogram bins. The zero bins in the measured sinograms of the cylindrical model have the highest intensity in the normalization sinograms as shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>c. The reason is because of the way the normalization sinograms are calculated, as inversions of the measured data. With a measured value of zero, we obtain the normalization value of infinity which is replaced in practice by a maximum value.
+</p>

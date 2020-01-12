@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Here, we reexamine the calculations originally described in our previous work
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>. In that work, the energetics of the dissociated vacancy, as a function of dissociated segment length, are determined by manual construction, in which a given number of O ions are displaced by an appropriate distance and subsequently minimized to create the separated jog structure. We repeat that calculation here with and without the stress correction to the computational supercell as described above. For the atomistic results obtained from the supercell without the stress correction, the stress migration energy calculated from Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) is also added, and compared to the atomistic results obtained from the supercell with the stress correction. The calculated atomistic energies of the dissociated vacancy as a function of separation of the two jogs in MgO are shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>. The direct atomistic result 
+ <italic>without</italic> stress correction in the system shows a monotonic and nearly linearly decreasing behavior, resulting in an energy decrease of approximately −1.2 eV when the separation is about 18 Å compared to when the separation is only one nearest neighbor distance, or 2.97 Å, which is the same as the atomistic result of our previous work
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>. In contrast, when the energy change due to the stress migration from Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) is added to the above atomistic simulation result (with the stress level determined from atomistic simulations, approximately on the order of 2.7 GPa), the corrected result is not monotonic anymore (see Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>), and the energy is substantially shifted upward depending on the jog separation distance. This corrected result is also in good agreement with the atomistic simulation result with stress correction in the computational supercell, as shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>. Thus, the significant reduction in energy observed in the original calculations is a consequence of the stress in the cell. Once corrected for, the change in energy as a function of jog separation is relatively small.
+</p>

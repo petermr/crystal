@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">Integrations of the partial atom-resolved pDOS from this LCAO base set yield atom charges that correctly sum up to zero. Additionally, we calculated the atom charges using the Bader atom-in-molecules (AIM) approach
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>. The results are listed below in Supplemenary Table 
+ <xref rid="MOESM1" ref-type="media">9</xref>. The differences between the values obtained by the pDOS and Bader approach arise from the respective methods for charge calculation. The pDOS approach sums the occupied electronic states at specified atoms up to the Fermi level while the Bader charges result from integrations of the electronic charge density inside the atomic basins, which are bound by the zero flux surfaces of the charge density. The deviations of these values are well within the expected scope.
+</p>

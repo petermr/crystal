@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Considering that the electronic compass can measure the accuracy of the heading to meet the navigation requirements, using the Kalman filter for the integrated navigation system operation [
+ <xref rid="B12-sensors-19-04980" ref-type="bibr">12</xref>] involves only one displacement:
+ <disp-formula id="FD22-sensors-19-04980">
+  <label>(18)</label>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <msub>
+          <mi>x</mi>
+          <mi>k</mi>
+         </msub>
+         <mo>=</mo>
+         <msub>
+          <mi>x</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mi mathvariant="script">Δ</mi>
+         <msub>
+          <mi>d</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>,</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mi>cos</mi>
+         <msub>
+          <mi>θ</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <msub>
+          <mi mathvariant="script">Γ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo>,</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+           <mo stretchy="false">)</mo>
+           <mi>x</mi>
+          </mrow>
+         </msub>
+         <msub>
+          <mi>W</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+           <mo stretchy="false">)</mo>
+           <mi>x</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <msub>
+          <mi>y</mi>
+          <mi>k</mi>
+         </msub>
+         <mo>=</mo>
+         <msub>
+          <mi>y</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <mi mathvariant="script">Δ</mi>
+         <msub>
+          <mi>d</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>,</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mi>sin</mi>
+         <msub>
+          <mi>θ</mi>
+          <mrow>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <msub>
+          <mi mathvariant="script">Γ</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo>,</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+           <mo stretchy="false">)</mo>
+           <mi>y</mi>
+          </mrow>
+         </msub>
+         <msub>
+          <mi>W</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mi>k</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+           <mo stretchy="false">)</mo>
+           <mi>y</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Generalized coordinate 
+ <bold>Q</bold> is the periodic function of the time t 
+ <disp-formula id="FD59-micromachines-10-00181">
+  <label>(58)</label>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mover accent="true">
+       <mi>Q</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+     </mstyle>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi mathvariant="bold-sans-serif">ξ</mi>
+     </mstyle>
+     <mi>sin</mi>
+     <mo stretchy="false">(</mo>
+     <mi>ω</mi>
+     <mi>t</mi>
+     <mo>+</mo>
+     <mi>φ</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where, ω is the natural frequency, φ is the phase, and ξ is the undetermined coefficient vector. Taking (58) into (56):
+ <disp-formula id="FD60-micromachines-10-00181">
+  <label>(59)</label>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+      <mi mathvariant="bold-sans-serif">ξ</mi>
+     </mstyle>
+     <mo>−</mo>
+     <msup>
+      <mi>ω</mi>
+      <mn>2</mn>
+     </msup>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>M</mi>
+      <mi mathvariant="bold-sans-serif">ξ</mi>
+     </mstyle>
+     <mo>=</mo>
+     <mn>0</mn>
+     <mo>⇒</mo>
+     <msup>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>M</mi>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+      <mi mathvariant="bold-sans-serif">ξ</mi>
+     </mstyle>
+     <mo>=</mo>
+     <msup>
+      <mi>ω</mi>
+      <mn>2</mn>
+     </msup>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi mathvariant="bold-sans-serif">ξ</mi>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Hereinafter, for definiteness and simplicity, the following conditions of numerical simulation are taken:
+ <list list-type="bullet">
+  <list-item>
+   <p>spatial harmonics’ amplitudes are calculated for one dielectric tensor element 
+    <inline-formula>
+     <math id="mm164">
+      <mrow>
+       <mrow>
+        <mo>Δ</mo>
+        <msubsup>
+         <mover accent="true">
+          <mi mathvariant="sans-serif">ε</mi>
+          <mo>^</mo>
+         </mover>
+         <mi>i</mi>
+         <mi>m</mi>
+        </msubsup>
+        <msubsup>
+         <mrow/>
+         <mrow/>
+         <mrow>
+          <mrow>
+           <mo>[</mo>
+           <mrow>
+            <mn>1</mn>
+            <mo>,</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo>]</mo>
+          </mrow>
+         </mrow>
+        </msubsup>
+        <mo>=</mo>
+        <msubsup>
+         <mrow>
+          <mrow>
+           <mrow>
+            <mo>Δ</mo>
+            <msubsup>
+             <mover accent="true">
+              <mi mathvariant="sans-serif">ε</mi>
+              <mo>^</mo>
+             </mover>
+             <mi>i</mi>
+             <mi>m</mi>
+            </msubsup>
+           </mrow>
+           <mo>|</mo>
+          </mrow>
+         </mrow>
+         <mi>p</mi>
+         <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo stretchy="false">]</mo>
+         </mrow>
+        </msubsup>
+        <mo>+</mo>
+        <msubsup>
+         <mrow>
+          <mrow>
+           <mrow>
+            <mo>Δ</mo>
+            <msubsup>
+             <mover accent="true">
+              <mi mathvariant="sans-serif">ε</mi>
+              <mo>^</mo>
+             </mover>
+             <mi>i</mi>
+             <mi>m</mi>
+            </msubsup>
+           </mrow>
+           <mo>|</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mi>c</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo stretchy="false">]</mo>
+         </mrow>
+        </msubsup>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> for phase and 
+    <inline-formula>
+     <math id="mm165">
+      <mrow>
+       <mrow>
+        <msubsup>
+         <mrow>
+          <mrow>
+           <mrow>
+            <mo>Δ</mo>
+            <msubsup>
+             <mover accent="true">
+              <mi mathvariant="sans-serif">ε</mi>
+              <mo>^</mo>
+             </mover>
+             <mi>i</mi>
+             <mrow>
+              <mi>p</mi>
+              <mi>o</mi>
+              <mi>l</mi>
+             </mrow>
+            </msubsup>
+           </mrow>
+           <mo>|</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mi>l</mi>
+          <mi>c</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">[</mo>
+          <mn>1</mn>
+          <mo>,</mo>
+          <mn>1</mn>
+          <mo stretchy="false">]</mo>
+         </mrow>
+        </msubsup>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula> for polarization gratings;
+   </p>
+  </list-item>
+  <list-item>
+   <p>calculations are made at the end of HDS formation (all of the photo-polymerization processes are finished);</p>
+  </list-item>
+  <list-item>
+   <p>light-induced absorption coefficient change is negligible;</p>
+  </list-item>
+  <list-item>
+   <p>intensities of formation waves are equal;</p>
+   <p>formation light waves are flat 
+    <inline-formula>
+     <math id="mm166">
+      <mrow>
+       <mrow>
+        <msubsup>
+         <mi>A</mi>
+         <mi>j</mi>
+         <mrow/>
+        </msubsup>
+        <mrow>
+         <mo>(</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>1</mn>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula>, 
+    <inline-formula>
+     <math id="mm167">
+      <mrow>
+       <mrow>
+        <msub>
+         <mi mathvariant="sans-serif">φ</mi>
+         <mi>j</mi>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi mathvariant="bold">r</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula>, coherent, and monochromatic.
+   </p>
+   <p>Taken conditions make it possible to simplify parameter 
+    <inline-formula>
+     <math id="mm168">
+      <mrow>
+       <mrow>
+        <msubsup>
+         <mi>b</mi>
+         <mrow/>
+         <mi>m</mi>
+        </msubsup>
+        <mrow>
+         <mo>(</mo>
+         <mrow>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+          <mo>,</mo>
+          <mi mathvariant="sans-serif">τ</mi>
+         </mrow>
+         <mo>)</mo>
+        </mrow>
+        <mo>=</mo>
+        <msubsup>
+         <mi>b</mi>
+         <mrow/>
+         <mi>m</mi>
+        </msubsup>
+       </mrow>
+      </mrow>
+     </math>
+    </inline-formula>.
+   </p>
+  </list-item>
+ </list>
+</p>

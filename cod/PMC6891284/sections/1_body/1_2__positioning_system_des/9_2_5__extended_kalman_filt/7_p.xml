@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Equation (27) is substituted into Equation (28) to get the approximate linearization model:
+ <disp-formula id="FD33-sensors-19-04980">
+  <label>(29)</label>
+  <math id="mm105">
+   <mrow>
+    <mrow>
+     <mi>z</mi>
+     <mo>=</mo>
+     <mi>H</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mi>x</mi>
+     <mo>+</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>−</mo>
+     <mi>H</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo>+</mo>
+     <mi>v</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0570">Within the framework of Einstein's model of the vibrations of nuclei 
+ <inline-formula>
+  <math id="M481" altimg="si358.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mtext>constant</mtext>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mi>ω</mi>
+   </mrow>
+  </math>
+ </inline-formula>, in 
+ <xref rid="fd137" ref-type="disp-formula">Eq. (137)</xref> the contour integral is calculated exactly. In order to obtain the result, one can use, for example, the well-known expansion in a series [
+ <xref rid="bib85" ref-type="bibr">85</xref>]:
+ <disp-formula id="fd138">
+  <label>(138)</label>
+  <math id="M482" altimg="si359.svg" alttext="Equation 138.">
+   <mrow>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>A</mi>
+      <mi>z</mi>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <mi>B</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munderover>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>n</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mo linebreak="badbreak">−</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mrow>
+      <mi>∞</mi>
+     </mrow>
+    </munderover>
+    <mrow>
+     <msup>
+      <mrow>
+       <mi>z</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mfrac>
+          <mrow>
+           <mi>A</mi>
+          </mrow>
+          <mrow>
+           <mi>B</mi>
+          </mrow>
+         </mfrac>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mi>n</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </msup>
+     <msub>
+      <mrow>
+       <mi>I</mi>
+      </mrow>
+      <mrow>
+       <mi>n</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mn>2</mn>
+       <msqrt>
+        <mrow>
+         <mi>A</mi>
+         <mi>B</mi>
+        </mrow>
+       </msqrt>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M483" altimg="si360.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mn>...</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the modified Bessel function. Applying once again the Cauchy theorem with respect to the Laurent series (see 
+ <xref rid="fd101" ref-type="disp-formula">Eq. (101)</xref>), from 
+ <xref rid="fd137" ref-type="disp-formula">Eq. (137)</xref>, taking 
+ <xref rid="fd138" ref-type="disp-formula">Eq. (138)</xref> into account, we get
+ <disp-formula id="fd139">
+  <label>(139)</label>
+  <math id="M484" altimg="si361.svg" alttext="Equation 139.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mtext>E</mtext>
+         </mrow>
+        </msup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mo>;</mo>
+          <mi>L</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>w</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>E</mi>
+       </mrow>
+       <mrow>
+        <mi>ℏ</mi>
+        <mi>ω</mi>
+       </mrow>
+      </mfrac>
+      <mtext>cth </mtext>
+      <msub>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mspace width="0.25em"/>
+        <msub>
+         <mrow>
+          <mi>β</mi>
+         </mrow>
+         <mrow>
+          <mi>T</mi>
+         </mrow>
+        </msub>
+        <mo linebreak="badbreak">−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mn>12</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext> </mtext>
+    <msub>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mn>12</mn>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>E</mi>
+        <mtext> ch </mtext>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mi>ℏ</mi>
+        <mi>ω</mi>
+        <mtext> sh </mtext>
+        <msub>
+         <mrow>
+          <mi>β</mi>
+         </mrow>
+         <mrow>
+          <mi>T</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M485" altimg="si362.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>β</mi>
+     </mrow>
+     <mrow>
+      <mi>T</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>ω</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mtext>B</mtext>
+       </mrow>
+      </msub>
+      <mi>T</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Further, using the well-known asymptotic formula [
+ <xref rid="bib85" ref-type="bibr">85</xref>, 
+ <xref rid="bib86" ref-type="bibr">86</xref>]
+ <disp-formula id="fd140">
+  <label>(140)</label>
+  <math id="M486" altimg="si363.svg" alttext="Equation 140.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>I</mi>
+     </mrow>
+     <mrow>
+      <mi>κ</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>u</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">≈</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mn>2</mn>
+        <mi>π</mi>
+        <mi>u</mi>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>u</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>κ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <mi>u</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mi>u</mi>
+    <mo linebreak="badbreak">&gt;</mo>
+    <mo linebreak="badbreak">&gt;</mo>
+    <mn>1</mn>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mi>κ</mi>
+    <mo linebreak="goodbreak">≤</mo>
+    <mi>u</mi>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

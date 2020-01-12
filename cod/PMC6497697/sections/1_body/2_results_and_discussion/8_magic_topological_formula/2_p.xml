@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>where 
+ <italic>a</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the degree (coordination) of the 
+ <italic>i</italic>th vertex and summation proceeds along all 
+ <italic>v</italic> vertices, of the quotient graph. This parameter uses an infinite crystal as opposed to the clusters we have been considering, but is useful to measure the relative complexity of different crystal structures. Thus, the higher the number, or the more information content in the graph, the more complex it is. In Table 
+ <xref rid="Tab22" ref-type="table">22</xref>, we show values of 
+ <italic>I</italic>
+ <sub>
+  <italic>vd</italic>
+ </sub> obtained from ToposPro derived from cif files for crystal structures in the Crystallographic Open Database. Polonium is the only element that crystallizes in the simple cubic structure and the value is zero, i.e., the quotient graph has one vertex and zero edges, in agreement with what we expect, that the simple cubic structure is indeed the least complex structure. The salt, NaCl, is also shown, with two elements in the simple cubic structure, along with silicon in the diamond cubic, gold in fcc, iron in bcc, and cobalt in hcp structures. We mention that another complexity measure related to the Shannon entropy [
+ <xref ref-type="bibr" rid="CR34">34</xref>] is not useful because this measure for all the elements is identically zero. 
+</p>

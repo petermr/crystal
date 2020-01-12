@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">Next, we analyze the dynamics of ferroelectric switching based on the 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub>-
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> coupling under the x-polarized pulse. First, we considered a case neglecting the damping of normal modes to simply show the essential consequences of the 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub>-
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> coupling on the dynamics of 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> mode. Figure 
+ <xref rid="Fig4" ref-type="fig">4a,b</xref> show the motions of 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> modes at 0 K and 300 K, respectively, without damping under the x-polarized pulse with 
+ <italic>E</italic>
+ <sub>0</sub> = 34 MVcm
+ <sup>−1</sup> and σ = 100 fs. The initial vibration amplitudes were set as the mean-square-displacement 
+ <inline-formula id="IEq45">
+  <alternatives>
+   <tex-math id="M93">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\langle {Q}_{v}^{2}\rangle }=\sqrt{\frac{\hslash }{{\Omega }_{v}}\frac{2}{{e}^{(\hslash {\Omega }_{v}/{k}_{B}T)}-1}}$$\end{document}</tex-math>
+   <math id="M94">
+    <msqrt>
+     <mrow>
+      <mo stretchy="true">〈</mo>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>Q</mi>
+        </mrow>
+        <mrow>
+         <mi>v</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msubsup>
+      </mrow>
+      <mo stretchy="true">〉</mo>
+     </mrow>
+    </msqrt>
+    <mo>=</mo>
+    <msqrt>
+     <mrow>
+      <mfrac>
+       <mi>ℏ</mi>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi mathvariant="normal">Ω</mi>
+         </mrow>
+         <mrow>
+          <mi>v</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+      <mfrac>
+       <mn>2</mn>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>e</mi>
+         </mrow>
+         <mrow>
+          <mo stretchy="false">(</mo>
+          <mi>ℏ</mi>
+          <msub>
+           <mrow>
+            <mi mathvariant="normal">Ω</mi>
+           </mrow>
+           <mrow>
+            <mi>v</mi>
+           </mrow>
+          </msub>
+          <mo>/</mo>
+          <msub>
+           <mrow>
+            <mi>k</mi>
+           </mrow>
+           <mrow>
+            <mi>B</mi>
+           </mrow>
+          </msub>
+          <mi>T</mi>
+          <mo stretchy="false">)</mo>
+         </mrow>
+        </msup>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq45.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> according to the Bose-Einstein distribution at each temperature. The initial vibration of 
+ <italic>Q</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub> was assumed to be aligned to the y-axis by setting the initial coordinate as 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSx</italic>
+ </sub> = 0 Å
+ <inline-formula id="IEq46">
+  <alternatives>
+   <tex-math id="M95">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M96">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq46.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. This results in the initial amplitudes of 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> = 0.21 Å
+ <inline-formula id="IEq47">
+  <alternatives>
+   <tex-math id="M97">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M98">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq47.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> = 0.91 Å
+ <inline-formula id="IEq48">
+  <alternatives>
+   <tex-math id="M99">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M100">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq48.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> at 0 K, while 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> = 0.28 Å
+ <inline-formula id="IEq49">
+  <alternatives>
+   <tex-math id="M101">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M102">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq49.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> = 5.70 Å
+ <inline-formula id="IEq50">
+  <alternatives>
+   <tex-math id="M103">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M104">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq50.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> at 300 K, respectively.
+</p>

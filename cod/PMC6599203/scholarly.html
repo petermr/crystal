@@ -1,0 +1,864 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head> <style type="text/css">
+         	     		 
+         	    a                          {background : #ffffff; }
+         	    article                    {border-style : dotted; border-width : 2px; }
+         		 	
+         		 	div                        {background : #ffffcc;}
+         		 	div.abstract-title         {font-weight : bold ; font-size : 16pt;}
+         		 	div.ack                    {border-style : solid ; border-color : red; margin
+         : 2em; }
+         		 	div.article-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.boxed-text             {margin : 5em; border-style : solid;}
+         		 	div.contrib-group          {margin : 1em; }
+         		 	div.fig                    {border-style : solid; border-width : 2px; margin :
+         2em; }
+         		 	div.funding                {font-weight : bold ; font-size : 16pt;}
+         		 	div.given-names            {font-style : italic;}
+         		 	div.intro                  {border-style : inset; margin : 5px;}
+         		 	div.introduction           {border-style : inset; margin : 5px;}
+         		 	div.journal-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.journal-title-group    {background : #ffeeee;}
+         		 	div.article-title          {font-weight : bold ; font-size : 18pt;}
+         		 	div.kwd                    {font-style : italic}
+         		 	div.meta-name              {font-weight : bold ; font-size : 16pt;}
+         		 	div.name                   {font-weight : bold;}
+         		 	div.alt-title              {font-style : italic; font-size : 12px;}
+         		 	
+         		 	div.sec                    {border : 2px; margin 5px; padding 2px;}
+         		 	div.title                  {font-family : courier; font-weight : bold;
+         		 	                            font-size : 16pt; margin : 5px;}
+         		 	
+         		 	div.materials_methods      {border-style : double; margin : 5px; }
+         		 	div.methods                {border-style : double; margin : 5px; }
+         		 	
+         		 	div.results                {border-style : solid; margin : 5px;}
+         		 	div.background             {border-style : dotted; margin : 5px;}
+         		 	
+         		 	div.discussion             {border-style : groove; margin : 5px;}
+         		 	div.conclusion             {border-style : ridge; margin : 5px;}
+         		 	div.conclusions             {border-style : ridge; margin : 5px;}
+         		 	div.supplementary-material {border-style : inset; margin : 5px;}
+         		 	div.abbreviations          {border-style : double; border-color : red; margin
+         : 5px;}
+         		 	div.competinginterests     {border-style : double; border-color : blue; margin
+         : 5px;}
+         		 	div.acknowledgements       {border-style : double; border-color : green; margin
+         : 5px;}
+         		 	div.authors_contributions   {border-style : double; border-color : purple; margin
+         : 5px;}
+         		 	
+         		 	div.publisher              {border-style : outset; margin : 5px;}
+         		 	div.fn-type-conflict       {background : #f88; }
+         		 	div.fn-type-con            {background : #ddf; }
+         		 	div.fn-type-other          {background : #ddd; }
+         		 	
+         		 	div.unknown                {background : #ffd;
+         									 	  border-style : solid;
+         									 	  border-width : 1px;
+         									 	  padding : 2 px;}
+         		 	  
+         	    table                      {background : #ffffdd;}
+         		 	tr                         {background : #ddddff; padding : 1px;}
+         		 	
+         		 	span                       {background : #ffcccc;}
+         		 	
+         		 	span.citation-author       {font-family : helvetica; background : #ffeeee;}
+         		 	span.collab                {background : #ddffff; }
+         		 	span.comment               {font-family : courier; font-size : 6px; background
+         : #ffaaff;}
+         		 	span.contrib               {background : #ffffff;}
+         		 	span.corresp               {background : #ddffdd; }
+         		 	span.doi                   {background : #ffffff;}
+         		 	span.email                 {font-family : courier; }
+         		 	span.etal                  {font-style : italic;}
+         		 	span.fpage                 {font-family : courier;}
+         		 	span.given-names           {background : #ffffff;}
+         		 	span.iso-abbrev            {background : #ffffff;}
+         		 	span.issn-epub             {background : #ffffff;}
+         		 	span.issn-ppub             {background : #ffffff;}
+         		 	span.journal-title         {background : #ffffff;}
+         		 	span.lpage                 {font-family : courier;}
+         		 	span.mixed-article-title   {font-style : italic ;}
+         		 	span.nlm-ta                {background : #ffffff;}
+         		 	span.pmc                   {background : #ffffff;}
+         		 	span.pmcid                 {background : #ffffff;}
+         		 	span.pmid                  {background : #ffffff;}
+         		 	span.publisher             {background : #ffffff;}
+         		 	span.publisher-id          {background : #ffffff;}
+         		 	span.publisher-name        {background : #ffffff;}
+         		 	span.source                {background : #ffffff;}
+         		 	span.subject               {background : #ffffff;}
+         		 	span.surname               {background : #ffffff;}
+         		 	span.volume                {font-family : courier; font-weight : bold;}
+         		 	span.year                  {font-family : courier ; font-style : italic;}
+         			
+      </style> </head> <body> <div class="front" title="front"> <div class="journal-meta" tagx="journal-meta" title="journal-meta"> <span class="nlm-ta" title="nlm-ta">Sci Rep</span> <span class="iso-abbrev" title="iso-abbrev">Sci Rep</span> <div class="journal-title-group" tagx="journal-title-group" title="journal-title-group"> <span class="journal-title" tagx="journal-title" title="journal-title">Scientific Reports</span> </div> <span class="issn-epub" tagx="issn" title="issn-epub">2045-2322</span> <div class="publisher" tagx="publisher" title="publisher"> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Nature Publishing Group UK</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">London</span> </div> </div> <div class="article-meta" tagx="article-meta" title="article-meta"> <span class="pmcid" title="pmcid"> pmcid: <a href="http://www.ncbi.nlm.nih.gov/pubmed/6599203">6599203</a> </span> <span class="publisher-id" title="publisher-id">45782</span> <span class="doi" title="doi"> doi: <a href="https://dx.doi.org/10.1038/s41598-019-45782-z">10.1038/s41598-019-45782-z</a> </span> <div class="article-categories" title="article-categories">
+: <span class="subject" title="subject">Article</span> </div> <div class="title-group"> <div class="article-title" title="article-title">
+Raman scattering yields cubic crystal grain orientation</div> </div> <div class="contrib-group" title="contrib-group"> <span class="contrib" title="contrib"> <span class="contrib-id" tagx="contrib-id" title="contrib-id">http://orcid.org/0000-0001-7537-9906</span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tesar</span> <span class="given-names" tagx="given-names" title="given-names">K.</span> </span> <a href="#Aff1">1</a> <a href="#Aff2">2</a> </span> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Gregora</span> <span class="given-names" tagx="given-names" title="given-names">I.</span> </span> <a href="#Aff1">1</a> </span> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Beresova</span> <span class="given-names" tagx="given-names" title="given-names">P.</span> </span> <a href="#Aff1">1</a> </span> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Vanek</span> <span class="given-names" tagx="given-names" title="given-names">P.</span> </span> <a href="#Aff1">1</a> </span> <span class="contrib" title="contrib"> <span class="contrib-id" tagx="contrib-id" title="contrib-id">http://orcid.org/0000-0001-8542-0685</span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ondrejkovic</span> <span class="given-names" tagx="given-names" title="given-names">P.</span> </span> <a href="#Aff1">1</a> </span> <span class="contrib" title="contrib"> <span class="contrib-id" tagx="contrib-id" title="contrib-id">http://orcid.org/0000-0002-9293-4462</span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hlinka</span> <span class="given-names" tagx="given-names" title="given-names">J.</span> </span> <span class="address" title="address"> <span class="email" tagx="email" title="email">hlinka@fzu.cz</span> </span> <a href="#Aff1">1</a> </span> <span class="citation_author_institution" id="Aff1">[1], <div class="institution-wrap" title="institution-wrap"> <span class="institution-id" title="institution-id">0000 0004 0634 148X</span> <span class="institution-id" title="institution-id">grid.424881.3</span> <span class="institution" title="institution">Institute of Physics of the Czech Academy of Sciences, </span> </div> </span> <span class="citation_author_institution" id="Aff2">[2], <div class="institution-wrap" title="institution-wrap"> <span class="institution-id" title="institution-id">0000000121738213</span> <span class="institution-id" title="institution-id">grid.6652.7</span> <span class="institution" title="institution">Czech Technical University in Prague, Faculty of Nuclear Sciences and Physical Engineering, Department of Materials, </span> </div> </span> </div> <span class="pub-date-epub" title="pub-date-epub">epub: <span>2019-6-6</span> </span> <span class="pub-date-pmc-release" title="pub-date-pmc-release">pmc-release: <span>2019-6-6</span> </span> <span class="pub-date-collection" title="pub-date-collection">collection: <span>2019</span> </span> <span class="volume" tagx="volume" title="volume">9</span> <span class="elocation-id" tagx="elocation-id" title="elocation-id">9385</span> <span class="history" title="history"> <span class="received" title="received">received: 2019-4-23</span> <span class="accepted" title="accepted">accepted: 2019-6-14</span> </span> <div class="permissions"> <span class="copyright" title="copyright">(C) , </span> <span class="license" title="license"> <span class="license-p" title="license-p"> <b>Open Access</b> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>. </span> </span> </div> <div class="abstract" title="abstract"> <div class="abstract-title" title="abstract-title">
+Abstract</div> <p>The paper proposes a fully optical method for determination of a cubic crystal grain orientation in a sample inspected by a Raman microscope. The method is based on a universal and strong polarisation anisotropy of the Raman scattering by doubly degenerate optic phonon modes and it only requires a standard Raman microscope equipped with a polarisation analysis. Explicit formulas for the orientation of the crystal grain are derived. The feasibility of the approach is demonstrated by comparing grain orientations in a polycrystalline cubic lacunar spinel GaV <sub>4</sub>S <sub>8</sub> determined independently using electron backscatter diffraction and Raman scattering methods. </p> </div> <div class="kwd-group"> <div class="title" tagx="title" title="title">
+Subject terms</div> <div class="kwd" title="kwd">
+Ceramics</div> <div class="kwd" title="kwd">
+Ferroelectrics and multiferroics</div> <div class="kwd" title="kwd">
+Phase transitions and critical phenomena</div> <div class="kwd" title="kwd">
+Structure of solids and liquids</div> </div> <div class="funding-group" title="funding-group"> <div class="funding" title="funding">
+Funding</div> <div class="award-group" title="award-group"> <div class="funding-source" title="funding-source"> <span class="institution" title="institution">Czech Science Foundation 17-11494J</span> </div> </div> </div> <div class="custom-meta-group" title="custom-meta-group"> <meta name="issue-copyright-statement" value="© The Author(s) 2019" /> </div> </div> </div> <div class="body" title="body"> <div class="introduction" title="introduction"> <div class="title" tagx="title" title="title">
+Introduction</div> <p>Optical microscope is a standard laboratory tool for inspection of the sample geometry and its internal microstructure at <i>μ</i>m to mm dimensions. Raman microscope is an instrument that allows, on the top of it, recording Raman spectra from the area selected by the focus of the objective. In this way, Raman microscopy provides a complementary, spatially resolved information about the structure and chemical composition. </p> <p>Another important characteristic of the investigated material could be the orientation of the crystal structure within the optically inspected area. For example, optically uniaxial domains in crystals exist in several orientation variants that can be easily distinguished by polarisation sensitivity of Raman scattering. Also the crystal grain orientations in optically uniaxial polycrystalline materials can be determined by Raman scattering. In particular, the angle between the local principal optical axis and the sample surface normal can be calculated from the fine spectral shifts caused by dipole-dipole interaction among polar Raman modes (oblique phonon mode method) <sup> <a href="#CR1">1</a> </sup>. Among others, combination of the oblique phonon mode method with the piezoforce scanning microscopy allowed us to assign the ferroelectric domain wall types in BiFeO <sub>3</sub> ceramics <sup> <a href="#CR2">2</a> </sup>. </p> <p>Let us stress that none of the above methods can be applied to cubic crystalline materials, because the optical indicatrix of cubic crystals does not have any special direction and these crystals have no oblique phonon eigenmodes. Fortunately, there is still another possibility, which is applicable to cubic crystals. We are suggesting here a method for detection of a completely arbitrary crystallite orientation by relying only on the universal polarisation dependence of Raman scattering by their doubly degenerate nonpolar phonon modes. The procedure is demonstrated here on a polycrystalline ceramic pellet of a cubic lacunar spinel GaV <sub>4</sub>S <sub>8</sub>. We have chosen GaV <sub>4</sub>S <sub>8</sub> since it is a cubic substance with well-separated Raman active doublet modes and at the same time it is known to be one of the very few hosts of magnetoelectric skyrmion phases <sup> <a href="#CR3">3</a>– <a href="#CR5">5</a> </sup>. Currently, this fascinating lacunar spinel family is attracting more and more attention <sup> <a href="#CR6">6</a>– <a href="#CR11">11</a> </sup>. Nevertheless, the same approach is applicable for any other cubic material with a well-defined doubly degenerate Raman active optic phonon mode. </p> <p>The paper is organised as follows. At first, we introduce GaV <sub>4</sub>S <sub>8</sub> and summarise the known polarisation dependence of its Raman active modes. Then we briefly describe the orientation texture of our specimen obtained by the well established electron backscatter diffraction (EBSD) and we explain how the orientation can be obtained by Raman scattering only. Finally, we compare the results and conclude the paper by discussing the advantages of this fully optical method. </p> </div> <div class="results" title="results"> <div class="title" tagx="title" title="title">
+Results</div> <div class="ramanscatteringspectraofgav4s8" title="sec"> <div class="title" tagx="title" title="title">
+Raman scattering spectra of GaV <sub>4</sub>S <sub>8</sub> </div> <p>Our demonstration material GaV <sub>4</sub>S <sub>8</sub> crystallizes in a non-centrosymmetric cubic structure with the <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M1">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F\bar{4}3m\,({T}_{d}^{2})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+4</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+m</div> <div class="mspace_UNKNOWN" /> <div class="mo_UNKNOWN">
+(</div> <div class="msubsup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+T</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+d</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  symmetry. Below about ≈40 K it undergoes a phase transition to a rhombohedral <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M3">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R3m\,({C}_{3v}^{5})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+m</div> <div class="mspace_UNKNOWN" /> <div class="mo_UNKNOWN">
+(</div> <div class="msubsup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+C</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+5</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> phase. This rhombohedral distortion, driven by Jahn-Teller effect in vanadium tetrahedra, causes ferroelectric polarisation in the low-temprature phase <sup> <a href="#CR3">3</a>, <a href="#CR4">4</a> </sup>. On the top of it, magnetic ordering with helicoidal and skyrmion <sup> <a href="#CR12">12</a>, <a href="#CR13">13</a> </sup> arrangements observed at moderate magnetic fields and at temperatures below about 15 K attracted a great attention to the whole lacunar spinel family <sup> <a href="#CR3">3</a>, <a href="#CR4">4</a> </sup>. <p /> <p>Here we only deal with the ambient temperature <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M5">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F\bar{4}3m$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+F</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+4</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+m</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  phase. The factor group analysis predicts 3A <sub>1</sub> + 3E + 3F <sub>1</sub> + 6F <sub>2</sub> Brillouin zone centre optic modes there, out of which 3A <sub>1</sub> + 3E are nonpolar Raman active modes and 6F <sub>2</sub> are simultaneously Raman and IR active modes. Previous single crystal spectroscopic and theory investigations <sup> <a href="#CR14">14</a> </sup> allowed us to estimate frequencies of all its Raman active modes. For the purpose of the grain orientation analysis, it is practical to inspect well separated and strongly scattering modes, such as the <i>A</i> <sub>1</sub> phonon mode near 277 cm <sup>−1</sup> and the <i>E</i> phonon mode near 330 cm <sup>−1</sup> (see Fig. <a href="#Fig1">1</a>). <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 1</span> </a> </div>   <p>Typical parallel-polarised Raman spectrum detected from an arbitrarily oriented grain.</p>   </div> <p /> <p>The modes belonging to different irreducible representations are known to be conveniently distinguishable by the polarisation analysis <sup> <a href="#CR15">15</a> </sup>. In the case of GaV <sub>4</sub>S <sub>8</sub>, within its natural crystallographic reference frame, Raman tensor <i>R</i> of the <i>A</i> <sub>1</sub> modes has a general form of </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">1</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M7">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$R=(\begin{array}{ccc}a &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; a &amp;amp; 0\\ 0 &amp;amp; 0 &amp;amp; a\end{array}).$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Raman tensors <i>R</i> <sub> <i>α</i> </sub> of the <i>E</i>-symmetry mode components read </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">2</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M9">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${R}_{1}=(\begin{array}{ccc}b &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; b &amp;amp; 0\\ 0 &amp;amp; 0 &amp;amp; -2b\end{array}),\,{R}_{2}=(\begin{array}{ccc}-\sqrt{3}b &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; \sqrt{3}b &amp;amp; 0\\ 0 &amp;amp; 0 &amp;amp; 0\end{array}),$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+b</div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+−</div> <div class="msqrt_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mi_UNKNOWN">
+b</div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mi_UNKNOWN">
+b</div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+,</div> </div> <div class="graphic_UNKNOWN" /> </div> </div>and the Raman tensor of the <i>F</i> <sub>2</sub> mode components can be expressed as <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">3</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M11">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${R}_{1}=(\begin{array}{ccc}0 &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; 0 &amp;amp; c\\ 0 &amp;amp; c &amp;amp; 0\end{array}),\,{R}_{2}=(\begin{array}{ccc}0 &amp;amp; 0 &amp;amp; c\\ 0 &amp;amp; 0 &amp;amp; 0\\ c &amp;amp; 0 &amp;amp; 0\end{array}),\,{R}_{3}=(\begin{array}{ccc}0 &amp;amp; c &amp;amp; 0\\ c &amp;amp; 0 &amp;amp; 0\\ 0 &amp;amp; 0 &amp;amp; 0\end{array}).$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mi_UNKNOWN">
+c</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> <div class="mtd_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>In the following it will be important that the polarisation dependence of the first-order Raman scattering intensity by a phonon mode spanned by one or more orthogonal components <i>α</i> is given by a simple prefactor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M13">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+in</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+out</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  given by the sum of the squared moduli of the corresponding Raman tensors <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M15">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${({R}_{\alpha })}_{ij}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+α</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div> <div class="mi_UNKNOWN">
+j</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, contracted by the incoming and outgoing photon polarisation vectors <b>e</b> <sub> <i>in</i> </sub>, <b>e</b> <sub> <i>out</i> </sub>, as follows <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">4</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M17">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}=\sum _{\alpha }\,|{{\bf{e}}}_{{\rm{in}}}{R}_{\alpha }{{\bf{e}}}_{{\rm{out}}}{|}^{2}.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+in</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+out</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="munder_UNKNOWN"> <div class="mo_UNKNOWN">
+∑</div> <div class="mi_UNKNOWN">
+α</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mo_UNKNOWN">
+|</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+in</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+α</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+out</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>In this paper, we have only considered parallel-polarised scattering configuration, where <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M19">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\bf{e}}}_{in}={{\bf{e}}}_{out}={\bf{e}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div> <div class="mi_UNKNOWN">
+n</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+o</div> <div class="mi_UNKNOWN">
+u</div> <div class="mi_UNKNOWN">
+t</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+e</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> , and the equation ( <a href="#Equ4">4</a>) reduces to <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">5</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M21">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}=\sum _{\alpha }\,|{\bf{e}}{R}_{\alpha }{\bf{e}}{|}^{2}.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="munder_UNKNOWN"> <div class="mo_UNKNOWN">
+∑</div> <div class="mi_UNKNOWN">
+α</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+e</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+R</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+α</div> </div> </div> <div class="mi_UNKNOWN">
+e</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>The polar plot of the parallel-polarised Raman intensity prefactor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M23">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  is plot in Fig. <a href="#Fig2">2</a> for the case of <i>A</i> <sub>1</sub> and <i>E</i> modes, respectively. The scattering by the <i>E</i> mode is strongly enhanced when the photon polarisation is parallel to one of the fourfold axes. It is this universal strong anisotropy that is exploited in this paper in order to determine the orientation of the crystallographic axes within the scattering volume. <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 2</span> </a> </div>   <p>Polar plot of the polarisation-dependent factor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M25">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  of Raman scattering by ( <b>a</b>) <i>A</i> <sub>1</sub> and ( <b>b</b>) <i>E</i>-symmetry modes in a cubic crystal calculated using equations ( <a href="#Equ1">1</a>, <a href="#Equ2">2</a>, <a href="#Equ4">4</a> and <a href="#Equ5">5</a>) for <i>a</i> =  <i>b</i> = 1. <i>B</i>1 −  <i>B</i>3 stand for the three perpendicular directions parallel to the fourfold symmetry axes of the crystal. Projections along the <i>B</i>3 axis are shown in (c and d) panels, respectively. <p />   </div> <p /> </div> <div class="crystalgrainorientationsfromebsd" title="sec"> <div class="title" tagx="title" title="title">
+Crystal grain orientations from EBSD</div> <p>To inspect the GaV <sub>4</sub>S <sub>8</sub> ceramics surface we used the EBSD technique. The scanning electron microscope image in Fig. <a href="#Fig3">3a</a> shows the surface morphology of the sample covering 250 × 500  <i>μ</i>m <sup>2</sup>. As can be seen, some smaller grains were removed from the surface by the polishing. Figure <a href="#Fig3">3b</a> shows an EBSD micrograph (inverse pole figure map) of the above area. The average grain size of this material is (6.8 ± 3.8)  <i>μ</i>m, according to the EBSD data. However, it is necessary to point out that several grains within the map reach the size of ≈25  <i>μ</i>m. Some of these grains were thereafter chosen for further analysis. The selected grains, labelled A, B, C, D, are shown in Fig. <a href="#Fig3">3c</a> with their respective orientation. The colour coding of the inverse pole figure map refers to the standard unit triangle shown in Fig. <a href="#Fig3">3d</a>. The positions of grains A, B, C, D in this unit triangle are presented in Fig. <a href="#Fig3">3e</a>. The EBSD imaged area has been marked by focused ion beam (FIB) in order to facilitate its localisation under the optical microscope (not shown in Fig. <a href="#Fig3">3</a>). </p><div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 3</span> </a> </div>   <p>Grain morphology of the investigated GaV <sub>4</sub>S <sub>8</sub> ceramics. ( <b>a</b>) Scanning electron microscope image of an area of interest with sample coordinate system as an inset; ( <b>b</b>) Inverse pole figure map from EBSD analysis of the area in ( <b>a</b>); ( <b>c</b>) positions of four grains chosen for detailed Raman measurements ( <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M27">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$A:\{1\,\bar{15}\,1\}\langle \bar{5}\,\bar{1}\,\bar{10}\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+A</div> <div class="mo_UNKNOWN">
+:</div> <div class="mo_UNKNOWN">
+{</div> <div class="mn_UNKNOWN">
+1</div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+15</div> </div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+}</div> <div class="mo_UNKNOWN">
+〈</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+5</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+10</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> , <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M29">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$B:\{\bar{7}\,0\,8\}\langle 8\,\bar{11}\,7\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+B</div> <div class="mo_UNKNOWN">
+:</div> <div class="mo_UNKNOWN">
+{</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+7</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+0</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+8</div> <div class="mo_UNKNOWN">
+}</div> <div class="mo_UNKNOWN">
+〈</div> <div class="mn_UNKNOWN">
+8</div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+11</div> </div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+7</div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M31">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$C:\{7\,\bar{3}\,12\}\langle 0\,4\,1\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+C</div> <div class="mo_UNKNOWN">
+:</div> <div class="mo_UNKNOWN">
+{</div> <div class="mn_UNKNOWN">
+7</div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+12</div> <div class="mo_UNKNOWN">
+}</div> <div class="mo_UNKNOWN">
+〈</div> <div class="mn_UNKNOWN">
+0</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+4</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M33">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$D:\{\bar{17}\,14\,\bar{10}\}\langle 8\,9\,\bar{1}\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+D</div> <div class="mo_UNKNOWN">
+:</div> <div class="mo_UNKNOWN">
+{</div> <div class="mover_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+17</div> </div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+14</div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+10</div> </div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mo_UNKNOWN">
+}</div> <div class="mo_UNKNOWN">
+〈</div> <div class="mn_UNKNOWN">
+8</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+9</div> <div class="mspace_UNKNOWN" /> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>), indicated projections of elementary cubic cells clarify their crystallographic orientation; ( <b>d</b>) unit triangle with the color code of the inverse pole figure map; ( <b>e</b>) surface normals of the chosen grains as determined from EBSD. <p />   </div> <p /> <p>In general, the crystal grain orientation relates the laboratory Cartesian reference frame <i>A</i>1 −  <i>A</i>2 −  <i>A</i>3 (see Fig. <a href="#Fig3">3a</a>) with the local Cartesian reference frame <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3, attached to the crystal grain axes. The crystallographic orientation of the individual crystal grains identified by EBSD is typically given in the standard texture notation ( <i>hkl</i>) [uvw]. </p> <p>The first three indices ( <i>hkl</i>) define the crystallographic orientation of the sample surface facet ( <i>A</i>3 in Fig. <a href="#Fig3">3a</a>) in the <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3 frame. This local <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3 Cartesian frame is attached to the three mutually perpendicular fourfold axes of the grain. Since the EBSD scattering intensity is invariant with respect to symmetry operations of the <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M35">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$m\bar{3}m$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mi_UNKNOWN">
+m</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  Laue symmetry class of the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M37">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{4}3m$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+4</div> <div class="mo_UNKNOWN">
+¯</div> </div> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+m</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> point group symmetry of the grain, one can choose the crystal grain axes <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3 in a way that the Miller indices of the surface comply with <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">6</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M39">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$0\le k\le h\le l.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+≤</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+≤</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+≤</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>In this case, the local crystal grain coordinates of the surface unit normal <b>n</b> can be expressed as </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">7</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M41">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{n}}=({n}_{1},{n}_{2},{n}_{3})=\frac{(h,k,l)}{\sqrt{{h}^{2}+{k}^{2}+{l}^{2}}},$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+h</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+k</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+l</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+h</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+k</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+l</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+,</div> </div> <div class="graphic_UNKNOWN" /> </div> </div>where the directional cosines are ordered and non-negative: <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">8</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M43">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$0\le {n}_{2}\le {n}_{1}\le {n}_{3}\le 1,\,1/\sqrt{3}\le {n}_{3}\le 1.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+≤</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+≤</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+≤</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+≤</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+/</div> <div class="msqrt_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mo_UNKNOWN">
+≤</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+≤</div> <div class="mn_UNKNOWN">
+1.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Each such vector <b>n</b> is then uniquely associated with one point in the inverse pole figure triangle (Fig. <a href="#Fig3">3d</a>). </p> <p>The other part of the ( <i>hkl</i>) [ <i>uvw</i>] symbol defines the three Miller indices [ <i>uvw</i>] of the conventionally chosen reference direction in the sample surface ( <i>A</i>1 in the case of Fig. <a href="#Fig3">3a</a>). Local crystallographic coordinates of the corresponding unit vector <b>b</b> read </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">9</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M45">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{b}}=\frac{(u,v,w)}{\sqrt{{u}^{2}+{v}^{2}+{w}^{2}}}.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+v</div> <div class="mo_UNKNOWN">
+,</div> <div class="mi_UNKNOWN">
+w</div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+w</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> </div> <div class="crystalgrainorientationsfromramanscattering" title="sec"> <div class="title" tagx="title" title="title">
+Crystal grain orientations from Raman scattering</div> <p>We have selected grains with larger top surfaces which have been well observable in the optical microscope (such as those marked in Fig. <a href="#Fig3">3c</a>). The Raman scattering intensity <i>I</i>, detected at the resonant frequency of the selected phonon mode, is mostly given by the first order Raman scattering by that mode. Therefore, its dependence on <b>e</b> is proportional to the corresponding factor <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M47">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  of equation ( <a href="#Equ5">5</a>). The angular dependence of <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M49">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, shown in Fig. <a href="#Fig2">2</a>, suggests that for an <i>E</i> symmetry mode the intensity <i>I</i> is maximised when <b>e</b> is close to the direction of one the local fourfold symmetry axes. <p /> <p>By rotation of the sample stage around the axis of the objective of the microscope, we could collect Raman spectra from the selected grain as a function of the oriented precession angle <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M51">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  between the reference direction <b>b</b> and the photon polarisation <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M53">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{e}}(\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, where <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">10</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M55">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{e}}(\phi )={\bf{b}}\,\cos \,\phi +{\bf{t}}\,\sin \,\phi ,$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+b</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+t</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+,</div> </div> <div class="graphic_UNKNOWN" /> </div> </div>where <b>t</b> =  <b>n</b> ×  <b>b</b>. <p /> <p>Since the scattering intensity at frequencies corresponding to the <i>A</i> <sub>1</sub> is isotropic, it is convenient to get rid of overall geometrical factors by inspecting the <i>E</i> to <i>A</i> <sub>1</sub> intensity ratio instead of the <i>E</i>-mode intensity alone. The angular dependence of such ratio <i>I</i> <sub>330</sub>/ <i>I</i> <sub>277</sub> of Raman scattering intensities at frequencies 330 and 277 cm <sup>−1</sup>, corresponding to the selected strong <i>A</i> <sub>1</sub> and <i>E</i> modes, is shown in Fig. <a href="#Fig4">4</a> for several selected grains. As expected, the angular dependence of the intensity near the frequency of the <i>E</i> mode is rather pronounced, and it allows us to extract the angles <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M57">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M59">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> at which the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M61">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${I}_{330}(\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+330</div> </div> </div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> has the highest and the second highest maxima. <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 4</span> </a> </div>   <p>Parallel-polarised Raman scattering intensity ratios detected from the grain A (circles), B (squares) and C (triangles with vertex down) and D (triangles with vertex up) at selected frequencies as a function of the angle <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M63">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\phi $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  between the polariser and the reference direction <i>A</i>1 on the sample surface (indicated in Fig. <a href="#Fig3">3</a>). The intensity ratios are obtained from the raw measured data after the flat background subtraction as the integrated intensity at 330 ± 5 cm <sup>−1</sup>, divided by the integrated intensity at 277 ± 5 cm <sup>−1</sup>, <i>I</i> <sub>330</sub>/ <i>I</i> <sub>277</sub>. <p />   </div> <p /> <p>For the sake of quantitative estimation of the crystal grain orientation, it is convenient to extract not only the angles <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M65">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{M}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M67">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> but also the corresponding values of <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M69">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${I}_{{\rm{m}}}=I({\phi }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M71">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${I}_{{\rm{m}}}=I({\phi }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>. By comparing these values to the <i>E</i>-mode intensity <i>I</i> <sub>0</sub> detected for a special configuration with <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M73">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{e}}\parallel \langle 100\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+∥</div> <div class="mo_UNKNOWN">
+〈</div> <div class="mn_UNKNOWN">
+100</div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>, one can derive directly the desired values of the reduced polarisation factor <i>λ</i> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">11</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M75">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{l}{\lambda }_{{\rm{M}}}=\lambda ({\phi }_{{\rm{M}}})={I}_{{\rm{M}}}/{I}_{0},\\ {\lambda }_{{\rm{m}}}=\lambda ({\phi }_{{\rm{M}}})={I}_{{\rm{m}}}/{I}_{0}.\end{array}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+λ</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+/</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+λ</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+/</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+0</div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>To achieve a higher precision, the spectra at <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M77">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{M}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M79">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> were fitted to the standard model of a superposition of damped harmonic oscillators response functions and the ratio of damped harmonic oscillator amplitude prefactors associated with the selected <i>E</i> to <i>A</i> <sub>1</sub> modes was then used as the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M81">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I({\phi }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M83">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I({\phi }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> values. The normalisation factor <i>I</i> <sub>0</sub> has been determined here as the global maximum of <i>E</i> to <i>A</i> <sub>1</sub> mode intensity ratios in the ensemble of all spectra taken in different orientations, but it could have been equally well set up from a spectrum measured on a selected calibration grain or on an oriented single crystal with a precisely known surface orientation. <p /> <p>In fact, each of the six lobes of the <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M85">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  function for an <i>E</i>-symmetry mode has an almost perfect rotational symmetry so that in the vicinity of the given fourfold axis it can be well approximated by an expression depending only on the deviation angle <i>δ</i> between <b>e</b> and that axis. After inserting the equation ( <a href="#Equ2">2</a>) into equation ( <a href="#Equ5">5</a>), it is convenient to express the unit polarisation vector <b>e</b> in spherical coordinates <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M87">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{e}}=(\cos \,\delta \,\sin \,\varepsilon ,\,\sin \,\delta \,\sin \,\varepsilon ,\,\cos \,\varepsilon )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+δ</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+δ</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+ε</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> of the local Cartesian reference frame <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3 and by keeping only the leading-order terms in <i>δ</i> up to <i>o</i>( <i>δ</i> <sup>2</sup>), the dependence on the azimuthal angle <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M89">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varepsilon $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> drops out and the reduced prefactor <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M91">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\lambda ={\rm{\Lambda }}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+Λ</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span>/ <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M93">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$4|b{|}^{2}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mn_UNKNOWN">
+4</div> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+b</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> can be expressed as <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">12</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M95">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\lambda \doteq {|(\frac{1}{4}+\frac{3}{4}\cos 2\delta )|}^{2}.$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> <div class="mo_UNKNOWN">
+≐</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+4</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> <div class="mn_UNKNOWN">
+4</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+|</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Therefore, when the photon polarisation <b>e</b> is close to the direction of a fourfold axis, the corresponding angle <i>δ</i> can be determined from the reduced scattering intensity <i>λ</i> using the inverse of the equation ( <a href="#Equ12">12</a>), </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">13</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M97">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\delta \doteq \frac{1}{2}\,\arccos \,[\frac{4}{3}\sqrt{\lambda }-\frac{1}{3}].$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> <div class="mo_UNKNOWN">
+≐</div> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+arccos</div> <div class="mspace_UNKNOWN" /> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+4</div> <div class="mn_UNKNOWN">
+3</div> </div> <div class="msqrt_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Since <i>δ</i>( <i>λ</i>) is also a monotonous function, it is clear that <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M99">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\delta (\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  has a minimum where <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M101">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I(\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> has a maximum, and, therefore, <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M103">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\delta }_{{\rm{m}}}=\delta ({\lambda }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+δ</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M105">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\delta }_{{\rm{m}}}=\delta ({\lambda }_{{\rm{m}}})$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+δ</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+λ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> correspond to the deviation of the closest and second closest local fourfold axes from the surface of the sample. In other terms, <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M107">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${n}_{1}=\,\sin \,{\delta }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M109">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${n}_{2}=\,\sin \,{\delta }_{{\rm{M}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and both angles in the arguments are taken positive due to the inequalities assumed in equation ( <a href="#Equ8">8</a>). The normalisation condition <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M111">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|n|=1$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mo_UNKNOWN">
+|</div> <div class="mi_UNKNOWN">
+n</div> <div class="mo_UNKNOWN">
+|</div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> then allows us to determine the missing component <i>n</i> <sub>3</sub>. The surface normal in the local crystallographic basis of the <i>B</i>1 −  <i>B</i>2 −  <i>B</i>3 Cartesian frame can be thus expressed as <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">14</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M113">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\bf{n}}}_{{\rm{Raman}}}\doteq (\sin \,{\delta }_{{\rm{m}}},\,\sin \,{\delta }_{{\rm{M}}},\sqrt{1-{(\sin {\delta }_{{\rm{M}}})}^{2}-{(\sin {\delta }_{{\rm{m}}})}^{2}}).$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Raman</div> </div> </div> <div class="mo_UNKNOWN">
+≐</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+.</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Similarly, first two directional cosines of the unit vector <i>b</i> can be determined from the set of equations </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">15</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M115">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\begin{array}{l}{\bf{e}}({\phi }_{{\rm{m}}})={\bf{b}}\,\cos \,{\phi }_{{\rm{m}}}+{\bf{t}}\,\sin \,{\phi }_{{\rm{m}}},\\ {\bf{e}}({\phi }_{{\rm{M}}})={\bf{b}}\,\cos \,{\phi }_{{\rm{M}}}+{\bf{t}}\,\sin \,{\phi }_{{\rm{M}}},\end{array}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+b</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+t</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+b</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+t</div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+sin</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> </div> </div> </div> </div> </div> <div class="graphic_UNKNOWN" /> </div> </div>yielding finally <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">16</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M117">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\bf{b}}}_{{\rm{Raman}}}\doteq ({s}_{1}\,\cos \,{\delta }_{{\rm{m}}}\,\cos \,{\phi }_{{\rm{m}}},{s}_{2}\,\cos \,{\delta }_{{\rm{M}}}\,\cos \,{\phi }_{{\rm{M}}},{b}_{3}),$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Raman</div> </div> </div> <div class="mo_UNKNOWN">
+≐</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+δ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mspace_UNKNOWN" /> <div class="mi_UNKNOWN">
+cos</div> <div class="mspace_UNKNOWN" /> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+,</div> </div> <div class="graphic_UNKNOWN" /> </div> </div>where the unknown signs <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M119">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${s}_{i}=\pm \,1$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+±</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+1</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> should be chosen in a way that <i>B</i>1 and <i>B</i>2 axes are mutually orthogonal, which means that <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">17</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M121">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${s}_{1}{s}_{2}{\bf{e}}({\phi }_{{\rm{m}}})\cdot {\bf{e}}({\phi }_{{\rm{M}}})+{n}_{1}{n}_{2}=0,$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+⋅</div> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+,</div> </div> <div class="graphic_UNKNOWN" /> </div> </div>what together with <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M123">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${n}_{1} &amp;gt; 0$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+&amp;gt;</div> <div class="mn_UNKNOWN">
+0</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M125">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${n}_{2} &amp;gt; 0$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+&amp;gt;</div> <div class="mn_UNKNOWN">
+0</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> implies that one should select <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M127">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${s}_{i}=\pm \,1$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+i</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+±</div> <div class="mspace_UNKNOWN" /> <div class="mn_UNKNOWN">
+1</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> in agreement with <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">18</span> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M129">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${s}_{1}{s}_{2}{\bf{e}}({\phi }_{{\rm{m}}})\cdot {\bf{e}}({\phi }_{{\rm{M}}}) &amp;lt; 0$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+⋅</div> <div class="mi_UNKNOWN">
+e</div> <div class="mo_UNKNOWN">
+(</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> <div class="mo_UNKNOWN">
+&amp;lt;</div> <div class="mn_UNKNOWN">
+0</div> </div> <div class="graphic_UNKNOWN" /> </div> </div> <p /> <p>Finally, <i>b</i> <sub>3</sub> can be determined from the orthonormality condition <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M131">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\bf{b}}}_{{\rm{Raman}}}\cdot {{\bf{n}}}_{{\rm{Raman}}}=0$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+b</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Raman</div> </div> </div> <div class="mo_UNKNOWN">
+⋅</div> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+n</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+Raman</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+0</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> . <p /> <p>The obtained values of <i>λ</i> <sub>M</sub> and <i>λ</i> <sub>m</sub> for several selected grains from Fig. <a href="#Fig3">3</a>, together with the resulting local coordinates of vectors <b>n</b>, determined from equation ( <a href="#Equ14">14</a>), are given in Table <a href="#Tab1">1</a>. Additional information about the vectors <b>b</b>, obtained from <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M133">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{M}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+M</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  and <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M135">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\phi }_{{\rm{m}}}$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+ϕ</div> </div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+m</div> </div> </div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> with the help of equation ( <a href="#Equ16">16</a>), are given in Table <a href="#Tab2">2</a>. <div class="table-wrap_UNKNOWN"> <span class="label" tagx="label" title="label">Table 1</span>  <p>Orientation of the grain with respect to the surface normal.</p>  <table> <thead> <tr> <th>Grain</th> <th> <i>λ</i> <sub>M</sub> </th> <th> <i>λ</i> <sub>m</sub> </th> <th>n <sub>Raman</sub> </th> <th>n <sub>EBSD</sub> </th> </tr> </thead> <tbody> <tr> <td>A</td> <td>0.98</td> <td>0.99</td> <td>0.07, 0.09, 0.99</td> <td>0.06, 0.06, 1.00</td> </tr> <tr> <td>B</td> <td>0.87</td> <td>0.24</td> <td>0.58, 0.21, 0.78</td> <td>0.66, 0.01, 0.75</td> </tr> <tr> <td>C</td> <td>0.92</td> <td>0.50</td> <td>0.44, 0.16, 0.88</td> <td>0.49, 0.21, 0.85</td> </tr> <tr> <td>D</td> <td>0.58</td> <td>0.27</td> <td>0.57, 0.40, 0.72</td> <td>0.59, 0.41, 0.69</td> </tr> </tbody> </table> <div class="table-wrap-foot_UNKNOWN"> <p>Grains labels are those of Fig. <a href="#Fig3">3</a>, <i>λ</i> <sub>M</sub> and <i>λ</i> <sub>M</sub> are the reduced polarization factors in equation ( <a href="#Equ11">11</a>) at the principal and secondary maxima of the angular dependence of the intensity of the strongest <i>E</i>-symmetry Raman mode in the parallel-polarised Raman spectrum. The crystallographic coordinates of the surface normal unit vector <b>n</b> <sub>Raman</sub> and <b>n</b> <sub>EBSD</sub> are determined from Raman scattering and EBSD, respectively. </p> </div> </div> <div class="table-wrap_UNKNOWN"> <span class="label" tagx="label" title="label">Table 2</span>  <p>Orientation of the grain with respect to the reference direction on the surface.</p>  <table> <thead> <tr> <th>Grain</th> <th> <i>φ</i> <sub>M</sub> </th> <th> <i>φ</i> <sub>m</sub> </th> <th>b <sub>Raman</sub> </th> <th>b <sub>EBSD</sub> </th> </tr> </thead> <tbody> <tr> <td>A</td> <td>27</td> <td>−60</td> <td>−0.50, −0.89, 0.12</td> <td>−0.45, −0.89, 0.08</td> </tr> <tr> <td>B</td> <td>−41</td> <td>48</td> <td>−0.54, −0.74, 0.60</td> <td>−0.52, −0.72, 0.46</td> </tr> <tr> <td>C</td> <td>−7</td> <td>88</td> <td>0.03, −0.98, 0.16</td> <td>0.00, −0.97, 0.24</td> </tr> <tr> <td>D</td> <td>89</td> <td>−10</td> <td>0.82, 0.02, −0.66</td> <td>0.74, 0.05, −0.67</td> </tr> </tbody> </table> <div class="table-wrap-foot_UNKNOWN"> <p>Grains labels are those of Fig. <a href="#Fig3">3</a>, <i>φ</i> <sub>M</sub> and <i>φ</i> <sub>m</sub> are the angles (in degrees) of the principal and secondary maxima of the angular dependence of the intensity of the strongest <i>E</i>-symmetry Raman mode in the parallel-polarised Raman spectrum. The crystallographic coordinates of the reference direction vector <b>b</b> <sub>Raman</sub> and <b>b</b> <sub>EBSD</sub> are determined from Raman scattering and EBSD, respectively. </p> </div> </div> <p /> </div> </div> <div class="discussion" title="discussion"> <div class="title" tagx="title" title="title">
+Discussion</div> <p>The grain orientations obtained from Raman scattering are in a quite good agreement with the results obtained from EBSD technique. It is worth noting that GaV <sub>4</sub>S <sub>8</sub> is a semiconductor with a sizeable absorption at the wavelength of the laser used for the present Raman scattering experiment. Consequently, the Raman scattering is collected from the top submicron layer of the investigated surface. In more transparent materials, optic method may show more deviations from the EBSD technique simply because the Raman scattering would be averaging a deeper volume. To some extent, if needed, the penetration depth could be tuned by selection of the laser wavelength. The vertical resolution would be more coarse but, in principle, one can possibly seek information about the depth profile by using confocal Raman microscopy. </p> <p>On the practical side, application of this Raman spectroscopy method generally requires an optically polished or a naturally flat incident surface and, in absorbing materials like GaV <sub>4</sub>S <sub>8</sub>, one have to limit the laser power in the focused area in a way to avoid local heating or even laser-induced surface degradation. Since cubic materials are optically isotropic, one might also expect that when using a uniformly polished surface of the pellet and when paying an attention to maintain the same focus, power and similar geometrical conditions, one could perhaps directly use the recorded <i>E</i>-mode intensities, without their normalisation to the intensity of <i>A</i> <sub>1</sub>-mode. However, in the case of our GaV <sub>4</sub>S <sub>8</sub> ceramics, this strategy was not successful, and in spite of our utmost care, the overall scattering intensity considerably varied from grain to grain, and we had to use the relative mode intensities. </p> <p>It should be noted that the protocol described above fails for grains accidentally oriented with domain normal very close to the <span class="inline-formula" title="inline-formula"> </span></p><div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M137">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\langle 111\rangle $$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mo_UNKNOWN">
+〈</div> <div class="mn_UNKNOWN">
+111</div> <div class="mo_UNKNOWN">
+〉</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div>  directions, because then the <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M139">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I(\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> is constant and therefore the positions of the maxima cannot be well determined. However, the expression for the surface normal <b>n</b> is still reasonably estimated by this method. For determination of the in-plane orientation of such grain, that is for the <b>b</b>-vector coordinates, this protocol is not suitable, but one can still use the angular dependence of <i>F</i>-symmetry modes instead. In either case, if a high precision in crystal grain orientation is needed, one can always abandon equation ( <a href="#Equ12">12</a>) and resort to a direct numerical fitting of the measured <span class="inline-formula" title="inline-formula"> <div class="alternatives" title="alternatives"> <div class="tex" title="tex"> <div class="tex-math_UNKNOWN" id="M141">
+\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$I(\phi )$$\end{document} </div> </div> <div class="math_UNKNOWN"> <div class="mi_UNKNOWN">
+I</div> <div class="mo_UNKNOWN">
+(</div> <div class="mi_UNKNOWN">
+ϕ</div> <div class="mo_UNKNOWN">
+)</div> </div> <span class="inline-graphic" title="inline-graphic" /> </div> </span> profiles to the exact expressions given by equations ( <a href="#Equ5">5</a>). <p /> <p>Finally, we would like to stress that the form of the Raman tensor given in equation ( <a href="#Equ2">2</a>) is common to a doubly degenerate Raman mode in any of the five cubic point groups. Therefore, the present method and the equations ( <a href="#Equ7">7</a>– <a href="#Equ16">16</a>) are valid for all cubic crystals having a first-order Raman active mode transforming as a two-dimensional irreducible representation (as a mode of <i>E</i> or <i>E</i> <sub> <i>g</i> </sub> symmetry). In particular, it applies to both centrosymmetric and noncentrosymmetric cubic crystal structures. Obviously, the simplest cubic structures like rock-salt or cubic perovskite have no Raman active modes at all. On the other hand, a similar approach can be adopted even for certain noncubic crystals, for example the angular dependence of the pure transverse optic mode of rhombohedral BiFeO <sub>3</sub>, located at 520 cm <sup>−1</sup>, seems to have almost identical polarization dependence with respect to the pseudocubic axes as the cubic doublet modes investigated here <sup> <a href="#CR16">16</a> </sup>. Nevertheless, as mentioned in the introduction, there are other, more straightforward optic and Raman scattering methods available for noncubic crystals, too. </p> <p>In conclusion, we have realised that the strong polarisation dependence of Raman scattering by <i>E</i> or <i>E</i> <sub> <i>g</i> </sub> symmetry modes in cubic materials could be used to determine crystallographic orientation of an arbitrarily oriented crystal facet. We have derived and tested approximate analytic expressions that allow of determining both the crystallographic orientation of the surface normal as well as the crystallographic orientation of a selected direction in the crystal surface. The method can be applied to any cubic material with <i>E</i> or <i>E</i> <sub> <i>g</i> </sub> symmetry Raman modes. Comparison of Raman scattering and EBSD techniques applied to the same grains on a selected surface of GVS ceramics indicates that the method is functional and reasonably precise. The method can be very useful when a polycrystalline sample is used to determine anisotropic properties. In particular, we believe that this fully optical method can have advantage as a relatively cheap alternative to EBSD or in a limited experimental environment, for example when in-situ EBSD is not available but optical microscopy can be arranged. </p> </div> <div class="methods" title="sec"> <div class="title" tagx="title" title="title">
+Methods</div> <p>GaV <sub>4</sub>S <sub>8</sub> was synthesised by direct single-step synthesis from elements. Sulphur and vanadium powders were mixed with lumps of gallium. The mixture was heated slightly by infrared lamp to melt gallium and thereafter ground and mixed in an agate mortar. The reaction mixture was put into the silica glass ampoule previously filled with argon. The ampoule was evacuated by a rotary pump, filled with argon, again evacuated, filled with argon, finally evacuated to residual argon pressure of about 2 mbar and sealed. The ampoule with reaction mixture was slowly heated at a rate of 40 K/h to 1270 K in a chamber furnace, annealed for 7 days and cooled at 10 K/min. The slow heating is necessary to allow the reaction of sulphur, since at quick heating the high pressure of sulphur can burst the ampoule. Unlike the experience of other authors this single-step synthesis resulted in pure single-phase GaV <sub>4</sub>S <sub>8</sub> powders as was proved by X-ray diffraction. The powder was axially pressed at a pressure of 380 MPa. The sintering was done again in a sealed silica glass ampoule by the same annealing procedure as for the synthesis of powders. The resulting ceramic GaV <sub>4</sub>S <sub>8</sub> pellet has 99% purity according to X-ray diffraction. Samples were cut from the sintered pellet with a diamond cut-off wheel and then mechanically polished using diamond suspensions with particle sizes of 9 and 3  <i>μ</i>m. Final mechanical-chemical polishing was performed using a solution of colloidal silica (Struers OP-S). </p> <p>The electron microscopy imaging and EBSD measurements were performed at 15 kV using an FEI Quanta 3D FEG scanning electron microscope equipped with TSL/EDAX Hikari camera. The EBSD analysis was done using the GaV <sub>4</sub>S <sub>8</sub> room temperature crystal structure data <sup> <a href="#CR17">17</a> </sup>. </p> <p>Raman scattering measurements were carried out using a Renishaw Raman microscope with 514 nm Argon laser in back-scattering geometry and a very similar set-up as the one used in our previous systematic polarised Raman scattering investigations <sup> <a href="#CR18">18</a>, <a href="#CR19">19</a> </sup>. </p> </div> </div> <div class="back" title="back"> <div class="fn-group" title="fn-group"> <div class="fn-type-" title=""> <p> <b>Publisher’s note:</b> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations. </p> </div> </div> <div class="ack" title="ack"> <div class="title" tagx="title" title="title">
+Acknowledgements</div> <p>This work has been supported by the Czech Science Foundation (project no. 17-11494J).</p> </div> <div class="title" tagx="title" title="title">
+Author Contributions</div> <p>P.V. synthesised and sintered the sample, K.T. performed EBSD analysis and contributed to Raman scattering experiments, P.B. and I.G. performed and analysed the most of the Raman scattering experiments, P.O. verified the mathematical expressions and helped with improving the manuscript, J.H. conceived the principal idea and wrote the main text of the manuscript. All authors reviewed the manuscript. </p> <div class="title" tagx="title" title="title">
+Data Availability</div> <p>The datasets generated and/or analysed during the current study are available from the corresponding author on reasonable request. </p> <div class="title" tagx="title" title="title">
+Competing Interests</div> <p>The authors declare no competing interests.</p> <div class="references">
+References</div> <div tag="ref-list"> <ul> <div class="title" tagx="title" title="title">
+References</div> <li tag="ref"> <a name="CR1" /> <span class="label" tagx="label" title="label">1.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hlinka</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pokorny</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Karimi</span> <span class="given-names" tagx="given-names" title="given-names">S</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Reaney</span> <span class="given-names" tagx="given-names" title="given-names">IM</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Angular dispersion of oblique phonon modes in BiFeO <sub>3</sub> from micro-Raman scattering </span> <span class="source" tagx="source" title="source">Phys. Rev. B</span> <span class="year" tagx="year" title="year">2011</span> <span class="volume" tagx="volume" title="volume">83</span> <span class="fpage" tagx="fpage" title="fpage">020101</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevB.83.020101">10.1103/PhysRevB.83.020101</a> </span> </span> </li> <li tag="ref"> <a name="CR2" /> <span class="label" tagx="label" title="label">2.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Borodavka</span> <span class="given-names" tagx="given-names" title="given-names">F</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pokorny</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hlinka</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Combined piezoresponse force microscopy and Raman scattering investigation of domain boundaries in BiFeO <sub>3</sub> ceramics </span> <span class="source" tagx="source" title="source">Phase Transitions</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">89</span> <span class="fpage" tagx="fpage" title="fpage">746</span> <span class="lpage" tagx="lpage" title="lpage">751</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1080/01411594.2016.1206544">10.1080/01411594.2016.1206544</a> </span> </span> </li> <li tag="ref"> <a name="CR3" /> <span class="label" tagx="label" title="label">3.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Kézsmárki</span> <span class="given-names" tagx="given-names" title="given-names">I</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Néel-type skyrmion lattice with confined orientation in the polar magnetic semiconductor GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Nat. Mater.</span> <span class="year" tagx="year" title="year">2015</span> <span class="volume" tagx="volume" title="volume">14</span> <span class="fpage" tagx="fpage" title="fpage">1116</span> <span class="lpage" tagx="lpage" title="lpage">1122</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1038/nmat4402">10.1038/nmat4402</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/26343913">26343913</a> </span> </span> </li> <li tag="ref"> <a name="CR4" /> <span class="label" tagx="label" title="label">4.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Bordács</span> <span class="given-names" tagx="given-names" title="given-names">S</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Equilibrium Skyrmion Lattice Ground State in a Polar Easy-plane Magnet</span> <span class="source" tagx="source" title="source">Sci. Reports</span> <span class="year" tagx="year" title="year">2017</span> <span class="volume" tagx="volume" title="volume">7</span> <span class="fpage" tagx="fpage" title="fpage">7584</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1038/s41598-017-07996-x">10.1038/s41598-017-07996-x</a> </span> </span> </li> <li tag="ref"> <a name="CR5" /> <span class="label" tagx="label" title="label">5.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Butykai</span> <span class="given-names" tagx="given-names" title="given-names">A</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Characteristics of ferroelectric-ferroelastic domains in Néel-type skyrmion host GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Sci. Reports</span> <span class="year" tagx="year" title="year">2017</span> <span class="volume" tagx="volume" title="volume">7</span> <span class="fpage" tagx="fpage" title="fpage">44663</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1038/srep44663">10.1038/srep44663</a> </span> </span> </li> <li tag="ref"> <a name="CR6" /> <span class="label" tagx="label" title="label">6.</span> <span class="mixed-citation" tagx="mixed-citation" title="mixed-citation">Wang, Y., Puggioni, D. &amp;amp; Rondinelli, J. M. Assessing exchange-correlation functional performance in the chalcogenide lacunar spinels GaM <sub>4</sub>Q <sub>8</sub> (M = Mo, V, Nb, Ta; Q = S, Se). arXiv:1905.09170 [cond-mat.mtrl-sci] (2019). </span> </li> <li tag="ref"> <a name="CR7" /> <span class="label" tagx="label" title="label">7.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Nikolaev</span> <span class="given-names" tagx="given-names" title="given-names">SA</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Solovyev</span> <span class="given-names" tagx="given-names" title="given-names">IV</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Microscopic theory of electric polarization induced by skyrmionic order in GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Phys. Rev. B</span> <span class="year" tagx="year" title="year">2019</span> <span class="volume" tagx="volume" title="volume">99</span> <span class="fpage" tagx="fpage" title="fpage">100401(R)</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevB.99.100401">10.1103/PhysRevB.99.100401</a> </span> </span> </li> <li tag="ref"> <a name="CR8" /> <span class="label" tagx="label" title="label">8.</span> <span class="mixed-citation" tagx="mixed-citation" title="mixed-citation">Kim, H.-S., Haule, K. &amp;amp; Vanderbilt, D. Molecular Mott state in the deficient spinel GaV <sub>4</sub>S <sub>8</sub>. arXiv:1810.09495 [cond-mat.str-el] (2018). </span> </li> <li tag="ref"> <a name="CR9" /> <span class="label" tagx="label" title="label">9.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lee</span> <span class="given-names" tagx="given-names" title="given-names">H</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Charge density functional plus U calculation of lacunar spinel GaM <sub>4</sub>Se <sub>8</sub> (M = Nb, Mo, Ta, and W) </span> <span class="source" tagx="source" title="source">EPL</span> <span class="year" tagx="year" title="year">2019</span> <span class="volume" tagx="volume" title="volume">125</span> <span class="fpage" tagx="fpage" title="fpage">47005</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1209/0295-5075/125/47005">10.1209/0295-5075/125/47005</a> </span> </span> </li> <li tag="ref"> <a name="CR10" /> <span class="label" tagx="label" title="label">10.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Padmanabhan</span> <span class="given-names" tagx="given-names" title="given-names">P</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Optically Driven Collective Spin Excitations and Magnetization Dynamics in the Néel-type Skyrmion Host GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Phys. Rev. Lett.</span> <span class="year" tagx="year" title="year">2019</span> <span class="volume" tagx="volume" title="volume">122</span> <span class="fpage" tagx="fpage" title="fpage">107203</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevLett.122.107203">10.1103/PhysRevLett.122.107203</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/30932635">30932635</a> </span> </span> </li> <li tag="ref"> <a name="CR11" /> <span class="label" tagx="label" title="label">11.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Okamura</span> <span class="given-names" tagx="given-names" title="given-names">Y</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Microwave Directional Dichroism Resonant with Spin Excitations in the Polar Ferromagnet GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Phys. Rev. Lett.</span> <span class="year" tagx="year" title="year">2019</span> <span class="volume" tagx="volume" title="volume">122</span> <span class="fpage" tagx="fpage" title="fpage">057202</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevLett.122.057202">10.1103/PhysRevLett.122.057202</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/30822005">30822005</a> </span> </span> </li> <li tag="ref"> <a name="CR12" /> <span class="label" tagx="label" title="label">12.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Bogdanov</span> <span class="given-names" tagx="given-names" title="given-names">A</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hubert</span> <span class="given-names" tagx="given-names" title="given-names">A</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Thermodynamically stable magnetic vortex states in magnetic crystals</span> <span class="source" tagx="source" title="source">J. Magn. Magn. Mater.</span> <span class="year" tagx="year" title="year">1994</span> <span class="volume" tagx="volume" title="volume">138</span> <span class="fpage" tagx="fpage" title="fpage">255</span> <span class="lpage" tagx="lpage" title="lpage">269</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/0304-8853(94)90046-9">10.1016/0304-8853(94)90046-9</a> </span> </span> </li> <li tag="ref"> <a name="CR13" /> <span class="label" tagx="label" title="label">13.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Leonov</span> <span class="given-names" tagx="given-names" title="given-names">AO</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">The properties of isolated chiral skyrmions in thin magnetic films</span> <span class="source" tagx="source" title="source">New J. Phys.</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">18</span> <span class="fpage" tagx="fpage" title="fpage">065003</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1088/1367-2630/18/6/065003">10.1088/1367-2630/18/6/065003</a> </span> </span> </li> <li tag="ref"> <a name="CR14" /> <span class="label" tagx="label" title="label">14.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hlinka</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Lattice modes and the Jahn-Teller ferroelectric transition of GaV <sub>4</sub>S <sub>8</sub> </span> <span class="source" tagx="source" title="source">Phys. Rev. B</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">94</span> <span class="fpage" tagx="fpage" title="fpage">060104</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevB.94.060104">10.1103/PhysRevB.94.060104</a> </span> </span> </li> <li tag="ref"> <a name="CR15" /> <span class="label" tagx="label" title="label">15.</span> <span class="mixed-citation" tagx="mixed-citation" title="mixed-citation">Gregora, I. <i>Raman scattering</i>, Part of the International tables for crystallography. Vol. D, <i>Physical properties of crystals</i>. (ed. Authier, A.) 314–328 (Springer Netherlands, Dordrecht, 2003). </span> </li> <li tag="ref"> <a name="CR16" /> <span class="label" tagx="label" title="label">16.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Himcinschi</span> <span class="given-names" tagx="given-names" title="given-names">C</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Ferroelastic domain identification in BiFeO <sub>3</sub> crystals using Raman spectroscopy </span> <span class="source" tagx="source" title="source">Scientific Reports</span> <span class="year" tagx="year" title="year">2019</span> <span class="volume" tagx="volume" title="volume">9</span> <span class="fpage" tagx="fpage" title="fpage">379</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1038/s41598-018-36462-5">10.1038/s41598-018-36462-5</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/30674911">30674911</a> </span> </span> </li> <li tag="ref"> <a name="CR17" /> <span class="label" tagx="label" title="label">17.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pocha</span> <span class="given-names" tagx="given-names" title="given-names">R</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Johrendt</span> <span class="given-names" tagx="given-names" title="given-names">D</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pöttgen</span> <span class="given-names" tagx="given-names" title="given-names">R</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Electronic and Structural Instabilities in GaV4S8 and GaMo4S8</span> <span class="source" tagx="source" title="source">Chem. Mater.</span> <span class="year" tagx="year" title="year">2000</span> <span class="volume" tagx="volume" title="volume">12</span> <span class="fpage" tagx="fpage" title="fpage">2882</span> <span class="lpage" tagx="lpage" title="lpage">2887</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1021/cm001099b">10.1021/cm001099b</a> </span> </span> </li> <li tag="ref"> <a name="CR18" /> <span class="label" tagx="label" title="label">18.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Rafalovskyi</span> <span class="given-names" tagx="given-names" title="given-names">I</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Guennou</span> <span class="given-names" tagx="given-names" title="given-names">M</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Gregora</span> <span class="given-names" tagx="given-names" title="given-names">I</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hlinka</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Macroscopic lamellar heterophase pattern in Pb(Mg <sub>1/3</sub>Nb <sub>2/3</sub>)O <sub>3</sub> − PbTiO <sub>3</sub> single crystals </span> <span class="source" tagx="source" title="source">Phys. Rev. B</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">93</span> <span class="fpage" tagx="fpage" title="fpage">064110</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevB.93.064110">10.1103/PhysRevB.93.064110</a> </span> </span> </li> <li tag="ref"> <a name="CR19" /> <span class="label" tagx="label" title="label">19.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Pokorný</span> <span class="given-names" tagx="given-names" title="given-names">J</span> </span> <span class="etal" title="etal"> <i>et al.</i> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Polarized Raman scattering study of PSN single crystals and epitaxial thin films</span> <span class="source" tagx="source" title="source">J. Adv. Dielectr.</span> <span class="year" tagx="year" title="year">2015</span> <span class="volume" tagx="volume" title="volume">5</span> <span class="fpage" tagx="fpage" title="fpage">1550013</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1142/S2010135X15500137">10.1142/S2010135X15500137</a> </span> </span> </li> </ul> </div> </div>  </body></html>

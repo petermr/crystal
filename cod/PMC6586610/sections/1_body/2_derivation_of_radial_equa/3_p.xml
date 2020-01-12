@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">In the second part of calculations, we reorganized the coupled equation set by inserting Eq. 
+ <xref rid="Equ5" ref-type="">5</xref> and definition of 
+ <italic>D</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, we obtained the following equations.
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(\frac{w}{c}-\frac{Mc}{\hslash }-i{V}_{t}(r)){{\rm{\Psi }}}_{1}+({\partial }_{{r}_{1}}-i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{2}-({\partial }_{{r}_{1}}-i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{3}=0,$$\end{document}</tex-math>
+   <math id="M34" display="block">
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mi>w</mi>
+       <mi>c</mi>
+      </mfrac>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mi>M</mi>
+        <mi>c</mi>
+       </mrow>
+       <mi>ℏ</mi>
+      </mfrac>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(\,-\,\frac{w}{c}+\frac{{\rm{\Delta }}mc}{\hslash }+i{V}_{t}(r)){{\rm{\Psi }}}_{2}+({\partial }_{{r}_{1}}+i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{1}+({\partial }_{{r}_{1}}-i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{4}=0,$$\end{document}</tex-math>
+   <math id="M36" display="block">
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mspace width="-.25em"/>
+      <mo>−</mo>
+      <mspace width="-.25em"/>
+      <mfrac>
+       <mi>w</mi>
+       <mi>c</mi>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+       <mrow>
+        <mi mathvariant="normal">Δ</mi>
+        <mi>m</mi>
+        <mi>c</mi>
+       </mrow>
+       <mi>ℏ</mi>
+      </mfrac>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ8">
+  <label>8</label>
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(\,-\,\frac{w}{c}-\frac{{\rm{\Delta }}mc}{\hslash }+i{V}_{t}(r)){{\rm{\Psi }}}_{3}-({\partial }_{{r}_{1}}-i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{4}-({\partial }_{{r}_{1}}+i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{1}=0,$$\end{document}</tex-math>
+   <math id="M38" display="block">
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mspace width="-.25em"/>
+      <mo>−</mo>
+      <mspace width="-.25em"/>
+      <mfrac>
+       <mi>w</mi>
+       <mi>c</mi>
+      </mfrac>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mi mathvariant="normal">Δ</mi>
+        <mi>m</mi>
+        <mi>c</mi>
+       </mrow>
+       <mi>ℏ</mi>
+      </mfrac>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>0</mn>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ8.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+ <disp-formula id="Equ9">
+  <label>9</label>
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$(\frac{w}{c}+\frac{Mc}{\hslash }-i{V}_{t}(r)){{\rm{\Psi }}}_{4}-({\partial }_{{r}_{1}}+i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{3}+({\partial }_{{r}_{1}}+i{\partial }_{{r}_{2}}){{\rm{\Psi }}}_{2}=0$$\end{document}</tex-math>
+   <math id="M40" display="block">
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mi>w</mi>
+       <mi>c</mi>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+       <mrow>
+        <mi>M</mi>
+        <mi>c</mi>
+       </mrow>
+       <mi>ℏ</mi>
+      </mfrac>
+      <mo>−</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>V</mi>
+       </mrow>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>r</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+      <mo>+</mo>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>∂</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>r</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msub>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Ψ</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>0</mn>
+   </math>
+   <graphic xlink:href="41598_2019_45478_Article_Equ9.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

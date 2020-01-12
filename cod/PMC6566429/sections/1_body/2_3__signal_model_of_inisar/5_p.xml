@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the InISAR imaging, the distance from antennas to the turntable center is far larger than the size of target, thus the assumption of plane wave model is generally applied to simplify the signal expression. In this assumption, the radar echo can be expressed as: 
+ <disp-formula id="FD5-sensors-19-02330">
+  <label>(5)</label>
+  <math id="mm23">
+   <mrow>
+    <mrow>
+     <mtable>
+      <mtr>
+       <mtd>
+        <msub>
+         <mi>s</mi>
+         <mi>i</mi>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>t</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>,</mo>
+          <msub>
+           <mi>t</mi>
+           <mi>m</mi>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>=</mo>
+        <msub>
+         <mi>σ</mi>
+         <mi>P</mi>
+        </msub>
+        <mi>e</mi>
+        <mi>x</mi>
+        <mi>p</mi>
+        <mo stretchy="false">[</mo>
+        <mo>−</mo>
+        <mi>j</mi>
+        <mfrac>
+         <mrow>
+          <mn>2</mn>
+          <mi>π</mi>
+          <mrow>
+           <mo stretchy="false">(</mo>
+           <mrow>
+            <mi>γ</mi>
+            <mover accent="true">
+             <mi>t</mi>
+             <mo stretchy="false">^</mo>
+            </mover>
+            <mo>+</mo>
+            <msub>
+             <mi>f</mi>
+             <mi>c</mi>
+            </msub>
+           </mrow>
+           <mo stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+         <mi>c</mi>
+        </mfrac>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mn>2</mn>
+          <msub>
+           <mi>R</mi>
+           <mn>0</mn>
+          </msub>
+          <mo>+</mo>
+          <mn>2</mn>
+          <msub>
+           <mi>x</mi>
+           <mi>p</mi>
+          </msub>
+          <mi>s</mi>
+          <mi>i</mi>
+          <mi>n</mi>
+          <mo stretchy="false">(</mo>
+          <mi>w</mi>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>+</mo>
+        <mn>2</mn>
+        <msub>
+         <mi>y</mi>
+         <mi>p</mi>
+        </msub>
+        <mi>c</mi>
+        <mi>o</mi>
+        <mi>s</mi>
+        <mo stretchy="false">(</mo>
+        <mi>w</mi>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+        <mo>+</mo>
+        <msub>
+         <mi>R</mi>
+         <mrow>
+          <mi>i</mi>
+          <mi>P</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>t</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>,</mo>
+          <msub>
+           <mi>t</mi>
+           <mi>m</mi>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo>−</mo>
+        <msub>
+         <mi>R</mi>
+         <mrow>
+          <mi>B</mi>
+          <mi>P</mi>
+         </mrow>
+        </msub>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <mrow>
+          <mover accent="true">
+           <mi>t</mi>
+           <mo stretchy="false">^</mo>
+          </mover>
+          <mo>,</mo>
+          <msub>
+           <mi>t</mi>
+           <mi>m</mi>
+          </msub>
+         </mrow>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">)</mo>
+        <mo stretchy="false">]</mo>
+       </mtd>
+      </mtr>
+     </mtable>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

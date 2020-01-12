@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the simulated region, the atomic motions were simulated using the molecular dynamics (MD) method. The Lagrangian per unit mass is 
+ <disp-formula id="FD4-nanomaterials-09-01251">
+  <label>(4)</label>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <mi>L</mi>
+     <mo>=</mo>
+     <msub>
+      <mi>T</mi>
+      <mi>e</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mo stretchy="false">{</mo>
+     <msub>
+      <mover accent="true">
+       <mover accent="true">
+        <mi>r</mi>
+        <mo>→</mo>
+       </mover>
+       <mo>˙</mo>
+      </mover>
+      <mi mathvariant="normal">i</mi>
+     </msub>
+     <mo stretchy="false">}</mo>
+     <mo stretchy="false">)</mo>
+     <mo>−</mo>
+     <msub>
+      <mi>V</mi>
+      <mi>e</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mo stretchy="false">{</mo>
+     <msub>
+      <mover accent="true">
+       <mi>r</mi>
+       <mo>→</mo>
+      </mover>
+      <mi mathvariant="normal">i</mi>
+     </msub>
+     <mo stretchy="false">}</mo>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mi>Q</mi>
+     <msup>
+      <mover accent="true">
+       <mi>υ</mi>
+       <mo>˙</mo>
+      </mover>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>v</mi>
+        <mrow>
+         <mi>s</mi>
+         <mi>h</mi>
+         <mi>o</mi>
+         <mi>c</mi>
+         <mi>k</mi>
+        </mrow>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>υ</mi>
+        <mn>0</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msup>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>υ</mi>
+        <mn>0</mn>
+       </msub>
+       <mo>−</mo>
+       <mi>υ</mi>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo>+</mo>
+     <msub>
+      <mi>p</mi>
+      <mn>0</mn>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>υ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <mi>υ</mi>
+     <mo stretchy="false">)</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>υ</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mi>ρ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the specific volume; 
+ <italic>T
+  <sub>e</sub>
+ </italic> and 
+ <italic>V
+  <sub>e</sub>
+ </italic> are kinetic and potential energies, respectively, and their sum equals to 
+ <italic>e</italic>; 
+ <italic>Q</italic> is a parameter related to the mass of the simulated cell. When the volume of the simulated cell was fixed, that is, when 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>υ</mi>
+      <mo>˙</mo>
+     </mover>
+     <mo>=</mo>
+     <mn>0</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the Lagrangian expression is equivalent to the continuum Hugoniot relation of Equation (3).
+</p>

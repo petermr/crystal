@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par6">For achieving higher CRI, the emission spectrum should be as broad as it can. On the other hand, the broader the emission spectrum, the luminance efficacy of radiation (LER) will be low. The trade-off between CRI and LER is usually represented using the following function that optimizes CRI and LER
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>.
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{F}}}_{{\rm{\sigma }}}({{\rm{\lambda }}}_{1}\ldots .\,,{{\rm{\lambda }}}_{{\rm{n}}},\,{\Delta {\rm{\lambda }}}_{1}\ldots .\,,{\Delta {\rm{\lambda }}}_{{\rm{n}}},\,{{\rm{I}}}_{1}\ldots \mathrm{..}{{\rm{I}}}_{{\rm{n}}})={\rm{\sigma }}\mathrm{LER}+(1-{\rm{\sigma }}){\rm{CRI}}$$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">F</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">σ</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">λ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mi>…</mi>
+      <mo>.</mo>
+      <mspace width="-.25em"/>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">λ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <mspace width=".25em"/>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">Δ</mi>
+        <mi mathvariant="normal">λ</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mi>…</mi>
+      <mo>.</mo>
+      <mspace width="-.25em"/>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">Δ</mi>
+        <mi mathvariant="normal">λ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <mspace width=".25em"/>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">I</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mi>…</mi>
+      <mn>..</mn>
+      <msub>
+       <mrow>
+        <mi mathvariant="normal">I</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">n</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mi mathvariant="normal">σ</mi>
+    <mi>LER</mi>
+    <mo>+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mn>1</mn>
+      <mo>−</mo>
+      <mi mathvariant="normal">σ</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi mathvariant="normal">CRI</mi>
+   </math>
+   <graphic xlink:href="41598_2019_53269_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>Where σ corresponds to the weighting factor (0 ≤ σ  ≤ 1), n – number of primary LEDs, λ
+ <sub>1</sub>, λ
+ <sub>2</sub>, Δλ
+ <sub>1</sub>, Δλ
+ <sub>2</sub>, and I
+ <sub>1</sub>, I
+ <sub>2,</sub> etc. are peak wavelengths, spectral line widths, and the luminous fluxes. Trichromatic white LED lamps are usually used to achieve a balance between CRI and LER. Please note that in Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>) the CRI is CRI R
+ <sub>
+  <italic>a</italic>
+ </sub>. The individual CRI points are not considered in the equation. Furthermore, CRI R
+ <sub>
+  <italic>a</italic>
+ </sub> can still show very high value even though some of the CRI points are very low. To achieve CRI points above 95 and LER ~ 100 lm/W simultaneously, we fabricated various WLEDs via the combination of the blue LED, UV LED, and phosphors. We investigated how each CRI point changes with the green/red phosphor weight ratio and the current through each LED chip.
+</p>

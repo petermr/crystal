@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the CRYSTAL (Dovesi et al., 
+ <xref rid="B12" ref-type="bibr">2014</xref>) calculations, integration over the reciprocal space was carried out using Monkhorst-Pack (MP) meshes of 8 × 8 × 8 for the anatase bulk and 4 × 4 × 1 for the periodic slab representing the surface. The Coulomb and exchange series are summed directly in direct space and truncated using overlap criteria with thresholds of [7,7,7,7,14] (Pisani et al., 
+ <xref rid="B42" ref-type="bibr">1988</xref>). The self-consistent field (SCF) algorithm was set to converge at the point at which the change in energy was &lt; 10
+ <sup>−7</sup> Hartree per unit cell. Structural optimisation of both the bulk cell parameters and internal coordinates was performed using the Broyden-Fletcher-Goldfarb-Shanno scheme. Convergence was determined from the root-mean-square (rms) and the absolute value of the largest component of the forces. The thresholds for the maximum and the rms forces (the maximum and the rms atomic displacements) have been set to 0.00045 and 0.00030 (0.00180 and 0.0012) in atomic units. Geometry optimisation was terminated when all four conditions were satisfied simultaneously.
+</p>

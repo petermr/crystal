@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Further, it is necessary to determine the angle of the droplets rotation in the PDLC under the action of the electric field of the recording wave. The deformation of the quasi-ellipsoidal droplets is not taken into account in this model. The following expression describes the desired angle [
+ <xref rid="B38-polymers-11-00861" ref-type="bibr">38</xref>]:
+ <disp-formula id="FD14-polymers-11-00861">
+  <label>(13)</label>
+  <math id="mm92">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mi>E</mi>
+      <mrow/>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi mathvariant="sans-serif">ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mo>⋅</mo>
+     <mi>a</mi>
+     <mi>r</mi>
+     <mi>c</mi>
+     <mi>t</mi>
+     <mi>g</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mi>sin</mi>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mn>2</mn>
+           <msub>
+            <mi mathvariant="sans-serif">ϑ</mi>
+            <mn>0</mn>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi>e</mi>
+          <mn>2</mn>
+         </msup>
+         <mo stretchy="false">(</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi>t</mi>
+         <mo stretchy="false">)</mo>
+         <mo>+</mo>
+         <mi>cos</mi>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <mn>2</mn>
+           <msub>
+            <mi mathvariant="sans-serif">ϑ</mi>
+            <mn>0</mn>
+           </msub>
+           <mo stretchy="false">(</mo>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo stretchy="false">)</mo>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm93">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="sans-serif">ϑ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msub>
+      <mi mathvariant="sans-serif">φ</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>−</mo>
+     <mi mathvariant="sans-serif">ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–angle between vectors 
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <mstyle mathvariant="bold" mathsize="normal">
+     <mi>E</mi>
+    </mstyle>
+   </mrow>
+  </math>
+ </inline-formula> and at the initial moment of time (before the recording process); 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <mi>e</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>E</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mi>R</mi>
+     <msqrt>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>Δ</mo>
+         <mover accent="true">
+          <mi mathvariant="sans-serif">ε</mi>
+          <mo>¯</mo>
+         </mover>
+        </mrow>
+        <mo>/</mo>
+        <mrow>
+         <msub>
+          <mi>K</mi>
+          <mrow>
+           <mn>33</mn>
+          </mrow>
+         </msub>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mn>5.7</mn>
+           <msup>
+            <mi mathvariant="sans-serif">δ</mi>
+            <mn>2</mn>
+           </msup>
+           <mo>+</mo>
+           <mn>2.1</mn>
+           <mi mathvariant="sans-serif">λ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </msqrt>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–parameter characterizing the effect of an electric field on a bipolar LC droplet; 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mi>R</mi>
+   </mrow>
+  </math>
+ </inline-formula>–droplet radius; 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <mi mathvariant="sans-serif">δ</mi>
+   </mrow>
+  </math>
+ </inline-formula>–droplet eccentricity; 
+ <inline-formula>
+  <math id="mm98">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">λ</mi>
+     <mo>=</mo>
+     <mrow>
+      <mrow>
+       <mi>R</mi>
+       <msub>
+        <mi>W</mi>
+        <mi>a</mi>
+       </msub>
+      </mrow>
+      <mo>/</mo>
+      <mrow>
+       <msub>
+        <mi>K</mi>
+        <mrow>
+         <mn>33</mn>
+        </mrow>
+       </msub>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–surface adhesion parameter; 
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>W</mi>
+      <mi>a</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–azimuth surface coupling coefficient; and 
+ <inline-formula>
+  <math id="mm100">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mover accent="true">
+      <mi mathvariant="sans-serif">ε</mi>
+      <mo>¯</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–effective dielectric anisotropy of a bipolar droplet [
+ <xref rid="B38-polymers-11-00861" ref-type="bibr">38</xref>].
+</p>

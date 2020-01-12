@@ -1,0 +1,570 @@
+{
+  "id": [
+    "31664018"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31664018"
+  ],
+  "pmcid": [
+    "PMC6820771"
+  ],
+  "doi": [
+    "10.1038/s41467-019-12831-0"
+  ],
+  "title": [
+    "The rapid electrochemical activation of MoTe2 for the hydrogen evolution reaction."
+  ],
+  "authorString": [
+    "McGlynn JC, Dankwort T, Kienle L, Bandeira NAG, Fraser JP, Gibson EK, Cascallana-Matías I, Kamarás K, Symes MD, Miras HN, Ganin AY."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "McGlynn JC"
+          ],
+          "firstName": [
+            "Jessica C"
+          ],
+          "lastName": [
+            "McGlynn"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK. jessicamcglynn112@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Dankwort T"
+          ],
+          "firstName": [
+            "Torben"
+          ],
+          "lastName": [
+            "Dankwort"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Institute for Materials Science, University of Kiel, Kaiserstraße 2, 24143, Kiel, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Kienle L"
+          ],
+          "firstName": [
+            "Lorenz"
+          ],
+          "lastName": [
+            "Kienle"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Institute for Materials Science, University of Kiel, Kaiserstraße 2, 24143, Kiel, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Bandeira NAG"
+          ],
+          "firstName": [
+            "Nuno A G"
+          ],
+          "lastName": [
+            "Bandeira"
+          ],
+          "initials": [
+            "NAG"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-5754-7328",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "BioISI-BioSystems and Integrative Sciences Institute and Centro de Química e Bioquímica, C8-Faculdade de Ciências da Universidade de Lisboa, Campo Grande, 1749-016, Lisboa, Portugal."
+          ]
+        },
+        {
+          "fullName": [
+            "Fraser JP"
+          ],
+          "firstName": [
+            "James P"
+          ],
+          "lastName": [
+            "Fraser"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7751-4593",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Gibson EK"
+          ],
+          "firstName": [
+            "Emma K"
+          ],
+          "lastName": [
+            "Gibson"
+          ],
+          "initials": [
+            "EK"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-7839-3786",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Cascallana-Matías I"
+          ],
+          "firstName": [
+            "Irene"
+          ],
+          "lastName": [
+            "Cascallana-Matías"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Kamarás K"
+          ],
+          "firstName": [
+            "Katalin"
+          ],
+          "lastName": [
+            "Kamarás"
+          ],
+          "initials": [
+            "K"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0390-3331",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Institute for Solid State Physics and Optics, Wigner Research Centre for Physics, Hungarian Academy of Sciences, P.O. Box 49, Budapest, 1525, Hungary."
+          ]
+        },
+        {
+          "fullName": [
+            "Symes MD"
+          ],
+          "firstName": [
+            "Mark D"
+          ],
+          "lastName": [
+            "Symes"
+          ],
+          "initials": [
+            "MD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8067-5240",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Miras HN"
+          ],
+          "firstName": [
+            "Haralampos N"
+          ],
+          "lastName": [
+            "Miras"
+          ],
+          "initials": [
+            "HN"
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Ganin AY"
+          ],
+          "firstName": [
+            "Alexey Y"
+          ],
+          "lastName": [
+            "Ganin"
+          ],
+          "initials": [
+            "AY"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3754-5819",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK. alexey.ganin@glasgow.ac.uk."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3754-5819",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7751-4593",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8067-5240",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-5754-7328",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7839-3786",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0390-3331",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2866016"
+      ],
+      "dateOfPublication": [
+        "2019 Oct"
+      ],
+      "monthOfPublication": [
+        "10"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-10-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "4916"
+  ],
+  "abstractText": [
+    "The electrochemical generation of hydrogen is a key enabling technology for the production of sustainable fuels. Transition metal chalcogenides show considerable promise as catalysts for this reaction, but to date there are very few reports of tellurides in this context, and none of these transition metal telluride catalysts are especially active. Here, we show that the catalytic performance of metallic 1T'-MoTe2 is improved dramatically when the electrode is held at cathodic bias. As a result, the overpotential required to maintain a current density of 10 mA cm-2 decreases from 320 mV to just 178 mV. We show that this rapid and reversible activation process has its origins in adsorption of H onto Te sites on the surface of 1T'-MoTe2. This activation process highlights the importance of subtle changes in the electronic structure of an electrode material and how these can influence the subsequent electrocatalytic activity that is displayed."
+  ],
+  "affiliation": [
+    "School of Chemistry, University of Glasgow, Glasgow, G12 8QQ, UK. jessicamcglynn112@gmail.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "EP/P001653/1"
+          ],
+          "agency": [
+            "RCUK | Engineering and Physical Sciences Research Council (EPSRC)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "RIG007428"
+          ],
+          "agency": [
+            "Carnegie Trust for the Universities of Scotland"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-12831-0"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6820771"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6820771?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "31748540"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Nat Commun. 2019 Nov 20;10(1):5336"
+          ],
+          "type": [
+            "Erratum in"
+          ],
+          "orderIn": [
+            "1"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-10-31"
+  ],
+  "firstIndexDate": [
+    "2019-10-31"
+  ],
+  "fullTextReceivedDate": [
+    "2019-11-06"
+  ],
+  "dateOfRevision": [
+    "2019-11-21"
+  ],
+  "electronicPublicationDate": [
+    "2019-10-29"
+  ],
+  "firstPublicationDate": [
+    "2019-10-29"
+  ]
+}

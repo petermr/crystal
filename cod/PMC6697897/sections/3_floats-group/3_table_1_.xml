@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="t01" orientation="portrait" position="float">
+ <label>Table 1.</label>
+ <caption>
+  <p>Space group and fractional coordinates of oxygen and carbon atoms in the MH-III, MH-IIIs, MH-IV, and MH-IVs phases of methane hydrate at 40 GPa, as obtained from the AIMD simulations</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <td rowspan="1" colspan="1">Phase</td>
+    <td align="center" rowspan="1" colspan="1">Group</td>
+    <td align="center" rowspan="1" colspan="1">Atom</td>
+    <td align="center" rowspan="1" colspan="1">Site</td>
+    <td align="center" rowspan="1" colspan="1">x</td>
+    <td align="center" rowspan="1" colspan="1">y</td>
+    <td align="center" rowspan="1" colspan="1">z</td>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="1" colspan="1">MH-III</td>
+    <td align="center" rowspan="1" colspan="1">Imcm</td>
+    <td align="center" rowspan="1" colspan="1">O</td>
+    <td align="center" rowspan="1" colspan="1">8i</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.080</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.830</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">74</td>
+    <td align="center" rowspan="1" colspan="1">C</td>
+    <td align="center" rowspan="1" colspan="1">4e</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.680</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.000</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">MH-IIIs</td>
+    <td align="center" rowspan="1" colspan="1">Pmcn</td>
+    <td align="center" rowspan="1" colspan="1">O</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.400</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.190</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">62</td>
+    <td align="center" rowspan="1" colspan="1">O</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.420</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.810</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">C</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.800</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.980</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">MH-IV</td>
+    <td align="center" rowspan="1" colspan="1">Pmcn</td>
+    <td align="center" rowspan="1" colspan="1">O</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.420</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.045</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1">MH-IVs</td>
+    <td align="center" rowspan="1" colspan="1">62</td>
+    <td align="center" rowspan="1" colspan="1">O</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.420</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.455</td>
+   </tr>
+   <tr>
+    <td rowspan="1" colspan="1"/>
+    <td rowspan="1" colspan="1"/>
+    <td align="center" rowspan="1" colspan="1">C</td>
+    <td align="center" rowspan="1" colspan="1">4c</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.250</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.750</td>
+    <td align="char" char="." rowspan="1" colspan="1">0.715</td>
+   </tr>
+  </tbody>
+ </table>
+ <table-wrap-foot>
+  <fn>
+   <p>For coherence with Imcm, the space group of the higher-pressure phases is given in the nonconventional representation. The uncertainty on the fractional coordinates is ±0.005. Despite the different space group between MH-III and MH-IIIs, the full oxygen positions are very similar. In MH-IVs (H-bond symmetric phase IV), the oxygen and carbon atomic positions do not change significantly from those in MH-IV. Computed lattice parameters: MH-IIIs (40 GPa), a=4:006 Ǻ , b=6:911 Ǻ , c=6:249 Ǻ ; MH-IV (40 GPa), a=4:063 Ǻ , b=6:981 Ǻ , c=6:063 Ǻ . Lattice parameter trends with pressure are reported in 
+    <ext-link ext-link-type="uri" xlink:href="https://www.pnas.org/lookup/suppl/doi:10.1073/pnas.1904911116/-/DCSupplemental" xlink:show="new" xmlns:xlink="http://www.w3.org/1999/xlink">
+     <italic>SI Appendix</italic>
+    </ext-link>.
+   </p>
+  </fn>
+ </table-wrap-foot>
+</table-wrap>

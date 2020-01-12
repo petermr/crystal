@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Self-propulsion can be modeled by means of a force vector, applied on the center of mass of each microswimmer with dynamics independent on the particle position
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>,
+  <xref ref-type="bibr" rid="CR3">3</xref>
+ </sup>. In particular, we consider a two-dimensional system of 
+ <italic>N</italic> interacting active particles, whose dynamics is described by over-damped Langevin equations for the positions, 
+ <bold>x</bold>
+ <sub>
+  <italic>i</italic>
+ </sub>, of each particle:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma {\dot{{\bf{x}}}}_{i}={{\boldsymbol{F}}}_{i}+\sqrt{2\gamma T}\,{\eta }_{i}+\gamma {{\bf{f}}}_{i},$$\end{document}</tex-math>
+   <math id="M4" display="block">
+    <mi>γ</mi>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi mathvariant="bold">x</mi>
+       <mo mathvariant="bold">˙</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">F</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mi>γ</mi>
+      <mi>T</mi>
+     </mrow>
+    </msqrt>
+    <mspace width=".25em"/>
+    <msub>
+     <mrow>
+      <mi>η</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <mi>γ</mi>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">f</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <bold>
+  <italic>F</italic>
+ </bold>
+ <sub>
+  <italic>i</italic>
+ </sub> = −▽
+ <sub>
+  <italic>i</italic>
+ </sub>
+ <italic>V</italic> is the total force exerted on the particle 
+ <italic>i</italic> by the rest of the particles due to the repulsive potential 
+ <italic>V</italic> (as given by Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>)). The term 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{2\gamma T}{{\boldsymbol{\eta }}}_{i}$$\end{document}</tex-math>
+   <math id="M6">
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mi>γ</mi>
+      <mi>T</mi>
+     </mrow>
+    </msqrt>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">η</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_52420_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> represents the effect of a thermal bath at temperature 
+ <italic>T</italic> where active particles are immersed, 
+ <italic>η</italic> = (
+ <italic>η</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>
+ <italic>,η</italic>
+ <sub>
+  <italic>y</italic>
+ </sub>) is a two-dimensional Gaussian white noise vector with zero average and correlations 〈
+ <italic>η</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>t)η</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>(
+ <italic>t</italic>')〉 = II
+ <italic>δ</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>
+ <italic>δ</italic>(
+ <italic>t</italic> − 
+ <italic>t</italic>'), with II the 2d identity matrix. The constant 
+ <italic>γ</italic> is the drag coefficient. The last term, 
+ <bold>f</bold>
+ <sub>
+  <italic>i</italic>
+ </sub>, models the self-propulsion mechanism of the microswimmers, and here is where the ABP and AOUP approaches enter into the modelling. In the ABP, 
+ <bold>f</bold>
+ <sub>
+  <italic>i</italic>
+ </sub> is given by a vector of fixed norm: 
+ <bold>f</bold>
+ <sub>
+  <italic>i</italic>
+ </sub> = 
+ <italic>U</italic>
+ <sub>0</sub>
+ <bold>nˆ</bold>
+ <sub>
+  <italic>i</italic>
+ </sub>, where 
+ <bold>nˆ</bold>
+ <sub>
+  <italic>i</italic>
+ </sub> = (cos
+ <italic>θ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, sin
+ <italic>θ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>) is a unit vector whose angle, 
+ <italic>θ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, evolves as a Wiener process
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\dot{\theta }}_{i}=\sqrt{2{D}_{r}}{\xi }_{i}.$$\end{document}</tex-math>
+   <math id="M8" display="block">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>θ</mi>
+       <mo>˙</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <mi>r</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <msub>
+     <mrow>
+      <mi>ξ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

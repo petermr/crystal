@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Hydrated Na-bir and partially dehydrated Na-bir electrodes were prepared from slurries with the following composition: active material (80 wt%); acetylene black (10 wt%), which was used as a conductive agent, and a binder (polyvinylidenedifluoride, 10 wt%), which was dissolved in N-methyl-2-pyrrolidone (NMP). This slurry was pasted onto an aluminum-foil current collector and dried at 70 °C for 5 h under vacuum (10
+ <sup>−3</sup> Torr). Electrodes with a diameter of 12 mm were punched, and the average active material loading density of hydrated Na-bir and dehydrated Na-bir electrodes corresponded to 1.91 mg cm
+ <sup>−2</sup>. The electrochemical properties of the prepared electrodes were evaluated using CR2032 coin-type cells assembled in an Ar-filled glove box. Na metal was used as a counter electrode, and a solution of NaPF
+ <sub>6</sub> (1 M) in ethylene carbonate (EC) and diethyl carbonate (DEC) (1:1, v/v) was employed as the electrolyte. Charge/discharge tests were performed in a range of 1.5–4.3 V (vs. Na/Na
+ <sup>+</sup>) at 0.1 C. A rate of 1 C corresponded to about 200 mA g
+ <sup>−1</sup>. The GITT measurement was performed at an electrochemical workstation (WonATech, WBCS3000) by applying a constant current flux (20 mA g
+ <sup>−1</sup>) for 12 min, followed by open-circuit equilibration time for 2.5 h. Diffusion coefficient values are calculated from GITT curve by using the following equation:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde D} = \frac{4}{{\pi \tau }}\left( {\frac{{m_{\mathrm{{B}}}V_{\mathrm{{M}}}}}{{M_{\mathrm{{B}}}S}}} \right)^2\left( {\frac{{\Delta E_{\mathrm{{s}}}}}{\Delta{E_{\mathrm{{t}}}}}} \right)^2\quad \left( {\tau \ll \frac{{L^2}}{{{\tilde D}}}} \right)$$\end{document}</tex-math>
+   <math id="M2">
+    <mover accent="true">
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+     <mrow>
+      <mi>π</mi>
+      <mi>τ</mi>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mfenced close=")" open="(" separators="">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>m</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">B</mi>
+           </mrow>
+          </msub>
+          <msub>
+           <mrow>
+            <mi>V</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">M</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>M</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">B</mi>
+           </mrow>
+          </msub>
+          <mi>S</mi>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfenced>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <msup>
+     <mrow>
+      <mfenced close=")" open="(" separators="">
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mi>Δ</mi>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">s</mi>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mi>Δ</mi>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mi mathvariant="normal">t</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mfenced>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mspace width="1.0em"/>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>τ</mi>
+      <mo>≪</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>L</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mover accent="true">
+         <mrow>
+          <mi>D</mi>
+         </mrow>
+         <mo>~</mo>
+        </mover>
+       </mrow>
+      </mfrac>
+     </mrow>
+    </mfenced>
+   </math>
+   <graphic xlink:href="41467_2019_11195_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde D}$$\end{document}</tex-math>
+   <math id="M4">
+    <mover accent="true">
+     <mrow>
+      <mi>D</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_11195_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the chemical diffusion coefficient, 
+ <italic>m</italic>
+ <sub>B</sub> is the mass of active material, 
+ <italic>M</italic>
+ <sub>B</sub> is the atomic weight, 
+ <italic>V</italic>
+ <sub>M</sub> is the molar volume, 
+ <italic>S</italic> is the surface area of the electrode, Δ
+ <italic>E</italic>
+ <sub>t</sub> is the total change of voltage during the discharge at constant current, and Δ
+ <italic>E</italic>
+ <sub>s</sub> is the change of the steady-state voltage. For in situ XRD measurements, the prepared electrode was incorporated into coin cells with a Kapton window.
+</p>

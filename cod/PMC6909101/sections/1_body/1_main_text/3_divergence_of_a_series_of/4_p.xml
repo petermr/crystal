@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0170">The series of TDPT converges also in the case of molecular quantum transitions (and electronic transitions in condensed matter), which occur in accordance with the Franck-Condon principle [
+ <xref rid="bib54" ref-type="bibr">54</xref>, 
+ <xref rid="bib55" ref-type="bibr">55</xref>, 
+ <xref rid="bib56" ref-type="bibr">56</xref>, 
+ <xref rid="bib57" ref-type="bibr">57</xref>], that is, when the states 
+ <inline-formula>
+  <math id="M49" altimg="si35.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="M50" altimg="si36.svg">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <mi>f</mi>
+     </mrow>
+     <mo>〉</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> in the amplitude 
+ <xref rid="fd2" ref-type="disp-formula">(2)</xref> are taken in the Born-Oppenheimer adiabatic approximation [
+ <xref rid="bib53" ref-type="bibr">53</xref>]. In other words, the physical picture of quantum transitions in molecular physics is usually represented as quantum jumps, which are similar to quantum jumps in atomic and nuclear physics. (A small parameter that ensures the convergence of the series is a small perturbation time 
+ <inline-formula>
+  <math id="M51" altimg="si37.svg">
+   <mrow>
+    <mi>τ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, see 
+ <xref rid="fd1" ref-type="disp-formula">Eq. (1)</xref>.) The resulting theoretical (Franck-Condon [
+ <xref rid="bib54" ref-type="bibr">54</xref>, 
+ <xref rid="bib55" ref-type="bibr">55</xref>, 
+ <xref rid="bib56" ref-type="bibr">56</xref>, 
+ <xref rid="bib57" ref-type="bibr">57</xref>]) transition probabilities (per unit time) that follow from 
+ <xref rid="fd5" ref-type="disp-formula">Eq. (5)</xref> often explain the experimental data well, for example, in molecular spectroscopy (see 
+ <italic>e.g.</italic> Refs. [
+ <xref rid="bib62" ref-type="bibr">62</xref>, 
+ <xref rid="bib63" ref-type="bibr">63</xref>, 
+ <xref rid="bib64" ref-type="bibr">64</xref>]). However, in chemistry, for example, there are many experimental data (see 
+ <italic>e.g.</italic> Section 
+ <xref rid="sec1" ref-type="sec">1</xref>), which can not be explained within the adiabatic approximation. This forces us to go beyond the adiabatic approximation. But such an exit beyond the adiabatic approximation leads to divergence of the series of TDPT in quantum mechanics, which is associated with the incomparability of the masses of electrons and nuclei, jointly participating in the dynamics of the transition, which, unlike to atomic and nuclear transitions, is contained here by definition. To verify this fact, the divergence of the series of TDPT is enough to demonstrate by any one example. As such an example, it is convenient to consider the simplest problem in the theory of quantum transitions, which goes beyond the adiabatic approximation. Such a simple problem, as it turned out, is the problem of the theoretical description of the elementary electron transfers in condensed matter [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib18" ref-type="bibr">18</xref>]. As previously mentioned (Section 
+ <xref rid="sec1" ref-type="sec">1</xref> and 
+ <xref rid="fn1" ref-type="fn">footnote 1</xref>), the simplicity of this problem is related to the sufficiency of taking into account only the non-local phonons in the matter and the possibility of approximating the electron Green's function by the propagator (see Sections 
+ <xref rid="sec2.4.7" ref-type="sec">2.4.7</xref> and 
+ <xref rid="sec2.4.4" ref-type="sec">2.4.4</xref> below) [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib18" ref-type="bibr">18</xref>].
+</p>

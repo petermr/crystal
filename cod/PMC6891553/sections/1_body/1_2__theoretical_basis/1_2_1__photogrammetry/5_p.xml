@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>These expressions relate the image coordinates (
+ <italic>X
+  <sub>i</sub>
+ </italic>, 
+ <italic>Y
+  <sub>i</sub>
+ </italic>), with the coordinates of the center of the projection (
+ <italic>X</italic>
+ <sub>0</sub>, 
+ <italic>Y</italic>
+ <sub>0</sub>, 
+ <italic>Z</italic>
+ <sub>0</sub>) and the ground coordinates (
+ <italic>X</italic>, 
+ <italic>Y</italic>, 
+ <italic>Z</italic>). Note that a rotation matrix 
+ <bold>M</bold> has been applied in order to place the photographic image in the same position in which it was made on the ground and to force, in this way, the intersection of the projective rays coming from each camera on the same point of the ground (A). Under these conditions, it is considered that the homologous straight line is the one that passes through the central projection points of the right camera (
+ <italic>X</italic>
+ <sub>1</sub>, 
+ <italic>Y</italic>
+ <sub>1</sub>, 
+ <italic>Z</italic>
+ <sub>1</sub>), the point in the right image (
+ <italic>X</italic>
+ <sub>d</sub>, 
+ <italic>Y</italic>
+ <sub>d</sub>, 
+ <italic>Z</italic>
+ <sub>d</sub>), and the same point of the ground (A) (
+ <italic>X</italic>, 
+ <italic>Y</italic>, 
+ <italic>Z</italic>) [
+ <xref rid="B26-sensors-19-04881" ref-type="bibr">26</xref>]. An outline of this process can be seen in 
+ <xref ref-type="fig" rid="sensors-19-04881-f002">Figure 2</xref>b.
+</p>

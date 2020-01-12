@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="sensors-19-04881-t001" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">sensors-19-04881-t001_Table 1</object-id>
+ <label>Table 1</label>
+ <caption>
+  <p>Design parameters of thin and thick barriers based on sonic crystals at a scaling factor of 1:8.</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Name</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Scaling Factor</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Bragg Frequency (Hz)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Lattice Constant (cm)</th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Tube Diameter (cm)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">Thin SCAS</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1:8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8000</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">2.125</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1.2</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Thick SCAS</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1:8</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8000</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2.125</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1.6</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

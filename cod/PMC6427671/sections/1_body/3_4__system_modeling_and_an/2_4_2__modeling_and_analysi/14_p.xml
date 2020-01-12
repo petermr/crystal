@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Comparing the effective bandwidth of the two models, it is clear the ARX had a wider bandwidth. In addition, the step response of ARX model was faster than that of ARMAX model. All these characteristics are crucial for dynamic testing of pressure. In conclusion, to model the acceleration-induced effects of pressure sensors, ARM model was more suitable than the others. Then, a digital compensation filter can be designed according to the ARX model. With the filter in series, the pressure sensor can effectively reduce the acceleration-induced effects. After compensation, the acceleration-induced effects on piezoelectric pressure sensors are shown in 
+ <xref ref-type="fig" rid="sensors-19-01052-f015">Figure 15</xref>. 
+</p>

@@ -1,0 +1,616 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?properties open_access?><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">ACS Appl Electron Mater</journal-id><journal-id journal-id-type="iso-abbrev">ACS Appl Electron Mater</journal-id><journal-id journal-id-type="publisher-id">el</journal-id><journal-id journal-id-type="coden">aaembp</journal-id><journal-title-group><journal-title>ACS Applied Electronic Materials</journal-title></journal-title-group><issn pub-type="epub">2637-6113</issn><publisher><publisher-name>American
+Chemical Society</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6881904</article-id><article-id pub-id-type="doi">10.1021/acsaelm.9b00527</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Non-Rare-Earth Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> Phosphors for Far-Red Light-Emitting Diodes</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes" id="ath1"><name><surname>Yu</surname><given-names>Dechao</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Zhou</surname><given-names>Yuanshu</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Ma</surname><given-names>Chenshuo</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Melman</surname><given-names>Jonathan H.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Baroudi</surname><given-names>Kristen M.</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>LaCapra</surname><given-names>Mikio</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath7"><name><surname>Riman</surname><given-names>Richard E.</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Department
+of Materials Science and Engineering, <institution>Rutgers,
+The State University of New Jersey</institution>, 607 Taylor Road, Piscataway, New Jersey 08854, <country>United States</country></aff><aff id="aff2"><label>&#x02021;</label>Lumenari, Inc., 1501
+Bull Lea Road, Suite 105, Lexington, Kentucky 40511, <country>United
+States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail <email>d.yu@uu.nl</email>.</corresp><corresp id="cor2"><label>*</label>E-mail <email>riman@rutgers.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>07</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>26</day><month>11</month><year>2019</year></pub-date><volume>1</volume><issue>11</issue><fpage>2325</fpage><lpage>2333</lpage><history><date date-type="received"><day>18</day><month>08</month><year>2019</year></date><date date-type="accepted"><day>06</day><month>10</month><year>2019</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2019 American Chemical Society</copyright-statement><copyright-year>2019</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under a Creative Commons Non-Commercial No Derivative Works (CC-BY-NC-ND) Attribution <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_ccbyncnd_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article, and creation of adaptations, all for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_0005" id="ab-tgr1"/></p><p>Emerging
+phototherapy in a clinic and plant photomorphogenesis
+call for efficient red/far-red light resources to target and/or actuate
+the interaction of light and living organisms. Rare-earth-doped phosphors
+are generally promising candidates for efficient light-emitting diodes
+but still bear lower quantum yield for the far-red components, potential
+supply risks, and high-cost issues. Thus, the design and preparation
+of efficient non-rare-earth activated phosphors becomes extremely
+important and arouses great interest. Fabrication of Cr<sup>3+</sup>-doped Na<sub>3</sub>AlF<sub>6</sub> phosphors significantly promotes
+the potential applications by efficiently converting blue excitation
+light of a commercial InGaN chip to far-red broadband emission in
+the 640&#x02013;850 nm region. The action response of phototherapy
+(&#x0223c;667&#x02013;683 nm; &#x0223c;750&#x02013;772 nm) and that of
+photomorphogenesis (&#x0223c;700&#x02013;760 nm) are well overlapped.
+Based on the temperature-dependent steady luminescence and time-resolved
+spectroscopies, energy transfer models are rationally established
+by means of the configurational coordinate diagram of Cr<sup>3+</sup> ions. An optimal sample of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphor generates a notable QY of 75 &#x000b1; 5%. Additionally,
+an InGaN LED device encapsulated by using Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphor was fabricated. The current exploration
+will pave a promising way to engineer non-rare-earth activated optoelectronic
+devices for all kinds of photobiological applications.</p></abstract><kwd-group><kwd>fluorescence</kwd><kwd>non-rare-earth</kwd><kwd>Cr<sup>3+</sup></kwd><kwd>far-red</kwd><kwd>LEDs</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>el9b00527</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>el9b00527</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Plant cultivation in
+horticulture, as well as phototherapy to treat
+physical illness, has been significantly stimulated by the emergence
+of efficient red and far-red light-emitting diodes (LEDs).<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> For plant growth, photosynthesis requires red light radiation in
+the 600&#x02013;690 nm range to overlap well with the respective absorption
+peaks of chlorophylls <italic>a</italic> and <italic>b</italic> at
+662 and 642 nm.<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> Particularly, plant morphogenesis
+encompasses the light-mediated seed germination, seedling development,
+and photoperiodism, which is critical to healthy plant development.
+On the other hand, for phototherapy, there exist several active response
+bands located in the red and far-red light regions: (i) 613&#x02013;623
+nm, (ii) 667&#x02013;683 nm, and (iii) 750&#x02013;772 nm.<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref5">5</xref></sup> A growing body of evidence indicates photoacceptors in cells, like
+cytochrome <italic>c</italic> oxidase and the terminal enzyme of mitochondrial
+electron transport chain, exhibit response to low-intensity red light
+and even near-infrared light.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup> Exposure
+to 670 or 726 nm LEDs red light was reported to decrease the healing
+time in chronic ischemic ulcers in rats.<sup><xref ref-type="bibr" rid="ref7">7</xref>,<xref ref-type="bibr" rid="ref8">8</xref></sup> Therefore,
+achievement of novel red/far-red sources would significantly promote
+the development of plant cultivation and phototherapy.</p><p>Phosphor-converted
+light-emitting diodes (pc-LEDs) have been emerging
+as indispensable solid state light sources because of their unique
+merits such as energy savings, environment-friendliness, small footprint,
+long operational lifetime, and so on.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> However,
+the deficiency of far-red light components limits LEDs applications
+in natural light sources, plant cultivation, phototherapy, and so
+on.<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> Typically, rare-earth (RE) ions like
+Eu<sup>3+</sup>, Eu<sup>2+</sup>, Pr<sup>3+</sup>, and Sm<sup>3+</sup> are doped as activators into numerous hosts for red/far-red emissions
+under ultraviolet (UV) or blue excitation,<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> but the wide applications are limited by the following features:
+(i) Eu<sup>3+</sup>, Pr<sup>3+</sup>, and Sm<sup>3+</sup> ions feature
+intra-4f parity-forbidden electronic transitions which have relatively
+weak absorption and therefore a low external quantum yield (QY);<sup><xref ref-type="bibr" rid="ref12">12</xref>&#x02212;<xref ref-type="bibr" rid="ref14">14</xref></sup> (ii) Eu<sup>2+</sup> has an allowed 4f<sup>7</sup> &#x02192; 4f<sup>6</sup>5d<sup>1</sup> transition with about 1000 times larger absorption
+than the intra-4f parity-forbidden transitions, but nearly all Eu<sup>2+</sup>-doped red/far-red phosphors exhibit a relatively low external
+QY &#x02264; 70%.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref16">16</xref></sup> Besides, RE elements have additional issues due to potential supply
+risk and high cost, and hence non-RE activated phosphors become extremely
+important and currently arouse great interest.<sup><xref ref-type="bibr" rid="ref17">17</xref>&#x02212;<xref ref-type="bibr" rid="ref19">19</xref></sup> Moreover, the
+recent commercial success of potassium fluorosilicate-based phosphors
+(K<sub>2</sub>SiF<sub>6</sub>:Mn<sup>4+</sup>) in LED applications
+has spurred new interest in the properties of non-oxide materials.<sup><xref ref-type="bibr" rid="ref20">20</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> The manganese(IV) system has shown that peak emission wavelengths
+can be broadly modified when moving from an oxide system to a fluoride
+system.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup></p><p>The&#x000a0;Cr<sup>3+</sup> ion has been well studied since the first
+generation of working lasers, i.e., the ruby (&#x003b1;-Al<sub>2</sub>O<sub>3</sub>:Cr<sup>3+</sup>) laser&#x02019;s coherent far-red light
+at 694.3 nm.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Absorption bands of Cr<sup>3+</sup> originate from interconfiguration spin-allowed transitions
+of <sup>4</sup>A<sub>2</sub> &#x02192; <sup>4</sup>T<sub>2</sub> (4F), <sup>4</sup>A<sub>2</sub> &#x02192; <sup>4</sup>T<sub>1</sub> (4F), and <sup>4</sup>A<sub>2</sub> &#x02192; <sup>4</sup>T<sub>1</sub> (4P). Their
+oscillator strengths are typically on the order of 10<sup>&#x02013;4</sup>,<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> which is at least hundreds of times
+more than that of the representative intra-4f transitions of RE ions,
+such as Eu<sup>3+</sup>: <sup>7</sup>F<sub>0</sub> &#x02192; <sup>5</sup>D<sub>0</sub> about 1.3 &#x000d7; 10<sup>&#x02013;8</sup>,<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Pr<sup>3+</sup>: <sup>3</sup>H<sub>4</sub> &#x02192; <sup>1</sup>D<sub>2</sub> about (0.3&#x02013;1.5) &#x000d7; 10<sup>&#x02013;6</sup>,<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> and Sm<sup>3+</sup>: <sup>6</sup>H<sub>5/2</sub> &#x02192; <sup>6</sup>P<sub>3/2</sub>,<sup>4</sup>F<sub>7/2</sub> about 9.3 &#x000d7; 10<sup>&#x02013;6</sup>.<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> Therefore, Cr<sup>3+</sup>-activated materials feature
+a significantly larger absorption cross-section, especially the <sup>4</sup>A<sub>2</sub> &#x02192; <sup>4</sup>T<sub>1</sub>(4F) blue
+absorption on the order of 10<sup>&#x02013;18</sup> cm<sup>2</sup>,<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> about 1000-fold greater than that of the RE
+ions on the order of 10<sup>&#x02013;21</sup> cm<sup>2</sup>.<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> Additionally, in the case of low crystal field
+surrounding Cr<sup>3+</sup>, the site emitting will occur from the <sup>4</sup>T<sub>2</sub> (4F) level to the <sup>4</sup>A<sub>2</sub> ground
+level, which is a spin-allowed transition.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> Manipulation of the environment surrounding Cr<sup>3+</sup> can
+tailor the emission peak of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> in the 650&#x02013;1600 nm range.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Also, the <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> transition of Cr<sup>3+</sup> is typically about
+2 orders of magnitude stronger than the <sup>2</sup>E &#x02192; <sup>4</sup>A<sub>2</sub> parity-forbidden transition of Cr<sup>3+</sup> occurring in high crystal field.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> Accordingly,
+these optical advantages of Cr<sup>3+</sup> significantly enable the
+fabrication of efficient, advanced red/far-red emitting phosphors
+for blue-light-excited LEDs for photobiology.</p><p>In the current
+work, we synthesized a series of polycrystalline
+Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 0&#x02013;100) phosphors by means of a facile hydrothermal
+reaction. A broad <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> emission band spanning 640&#x02013;850 nm can be efficiently
+generated under excitation of UV/blue/orange light. Moreover, emission
+peak of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> was obtained with a continuous red-shifting from 710 to 745 nm as
+Cr<sup>3+</sup> concentration increases to <italic>x</italic> &#x0223c;
+100. It is of great interest that the intensity of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> monotonically increase
+until higher Cr<sup>3+</sup> concentration <italic>x</italic> &#x0223c;
+60 with a maximum QY of 75 &#x000b1; 5%. Energy transfer dynamics of
+Cr<sup>3+</sup> ions and the capabilities of photobiological application
+were systematically analyzed by means of time-resolved spectra and
+by an encapsulated blue light InGaN LED device, respectively.</p></sec><sec id="sec2"><title>Experimental Section</title><sec id="sec2.1"><title>Hydrothermal Synthesis
+of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> Particles</title><p>Utilizing NH<sub>4</sub>F (&#x02265;98%), NaF
+(&#x02265;98%)], Al(NO<sub>3</sub>)<sub>3</sub>&#x000b7;9H<sub>2</sub>O (&#x02265;98%), and Cr(NO<sub>3</sub>)<sub>3</sub>&#x000b7;9H<sub>2</sub>O (99%) as raw materials (all purchased from
+Sigma-Aldrich), we synthesized a series of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 0.5, 1,
+5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100) phosphors by a hydrothermal
+reaction. In all cases, the percentages given for Cr<sup>3+</sup> dopant
+is in mol % with respect to the&#x000a0;Al<sup>3+</sup>&#x000a0;site. First,
+the specified stoichiometric Al(NO<sub>3</sub>)<sub>3</sub>&#x000b7;9H<sub>2</sub>O and Cr(NO<sub>3</sub>)<sub>3</sub>&#x000b7;9H<sub>2</sub>O
+were weighed and then dissolved by 30 mL of deionized (DI) water (18.2
+M&#x003a9;) under magnetic stirring in a glass beaker. Second, excess
+NaF and NH<sub>4</sub>F with &#x0003e;9 times molar ratio to metal ions
+(Al<sup>3+</sup> and/or Cr<sup>3+</sup>) were measured and added into
+another
+30 mL of DI water for dissolution. Third, the NaF and NH<sub>4</sub>F solution was transferred into the above Al(NO<sub>3</sub>)<sub>3</sub> and Cr(NO<sub>3</sub>)<sub>3</sub> solution for reaction,
+and then 10 mL of absolute ethanol was added additionally. At last,
+after vigorous stirring for about 30 min, the resultant white suspension
+was transferred into a 125 mL Teflon-lined stainless-steel autoclave
+(Parr Instrument Company), filled up to 70% of its capacity, sealed
+tightly, and heated at 240 &#x000b0;C in an electrical furnace for 15
+h. After being slowly cooled to room temperature, the filtered precipitate
+was centrifuged several times with DI water to remove any possible
+ionic remnant and finally dried at 80 &#x000b0;C for 24 h in an ambient
+atmosphere.</p></sec><sec id="sec2.2"><title>Post-Heat Treatment of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> Powder</title><p>The as-obtained Na<sub>3</sub>AlF<sub>6</sub>: 60% Cr<sup>3+</sup> phosphor was pressed
+into a quarter inch diameter
+pellet by using a hydraulic press and then placed in a quartz ampule
+which was sealed under vacuum for post-heat treatment. The ampule
+was inserted into a furnace and heated from room temperature to 700
+&#x000b0;C for 2.5 h, dwelled at 700 &#x000b0;C for 36 h, and cooled to
+room temperature over 2.5 h. After heating, the ampule was opened
+in the air and the pellet was removed. The pellet was ground in an
+agate mortar and pestle for several minutes to produce a powder. The
+powder was stored with a desiccant after grinding.</p></sec><sec id="sec2.3"><title>Characterization</title><p>Phase identification of all the as-obtained
+phosphor samples were performed on a Siemens D500 X-ray powder diffractometer
+(XRD, Bruker AXS Inc., Madison, WI) using Cu K&#x003b1; (&#x003bb; = 1.5406
+&#x000c5;) radiation at 40 kV and 40 mA. XRD patterns were collected
+with a resolution of 0.018&#x000b0;/step and 2 s/step in a 2&#x003b8; range
+of 10&#x000b0;&#x02013;60&#x000b0;.&#x000a0;Scanning electron microscopy (SEM)
+images of the respective powder samples were taken by means of the
+Carl Zeiss Sigma field emission SEM (Carl Zeiss, Carl Zeiss SMT Inc.,
+Peabody, MA) using the secondary electron detector and operating at
+an accelerating voltage of 5.0 kV with a working distance of 8.8 mm.
+Energy-dispersive X-ray (EDX) spectroscopy area scans of the Na<sub>3</sub>AlF<sub>6</sub>: <italic>x</italic>% Cr<sup>3+</sup> powder
+samples were further performed to determine the elemental composition
+using an accelerated voltage of 15 kV and a reduced working distance
+of 8.5 mm for an aperture of 60 &#x003bc;m.</p><p>Steady photoluminescence
+and excitation spectra were determined via single photon counting
+technique on a FSP920 spectrometer (Edinburgh Instruments, Livingston,
+UK) equipped with a 450 W xenon (Xe) lamp, TMS300 monochromators,
+and thermo-electronic cooled Hamamatsu R928P photomultiplier tube
+(PMT) detector. Time-resolved spectra were measured by time-correlated
+single photon counting technique on the FSP920 system with pulsed
+excitation sources of a microsecond &#x003bc;F900 Xe lamp. To eliminate
+signal noise from excitation sources, long-pass filters of 400, 490,
+695, and 710 nm were appropriately applied in the front of detectors.
+Temperature-dependent fluorescence spectra of Na<sub>3</sub>AlF<sub>6</sub>: 60% Cr<sup>3+</sup> were measured by using a Fluorolog-3
+spectrophotometer (Horiba Jobin Yvon) equipped with a FL-1073 PMT
+detector and a SPEX DM302 P.C. Acq. module. The phosphors were heated
+on an external hot plate, and each temperature point was allowed to
+equilibrate as monitored by a thermocouple in a sand bath adjacent
+to the phosphors. Once the temperature was equilibrated, the emission
+spectrum of the hot sample was measured (&#x003bb;<sub>ex</sub> = 450
+nm) and compared to a room temperature sample of the phosphor to eliminate
+the impact of lamp intensity fluctuations. For comparison, all optical
+measurements were rigorously performed under identical conditions
+for each series of testing.</p><p>Fluorescence QY of phosphors was
+measured on a C9220-03 system
+(Hamamatsu, Bridgewater, NJ) with a 150 W Xe monochromatic lamp and
+an integrating sphere. A high-intensity 365 nm UV lamp (B-100A, UVP,
+LLC, CA) was used to shine phosphors for optical photographs. LEDs
+devices were fabricated by applying a 25 wt % phosphor slurry composed
+of the phosphor powder and Dow Corning OE-6550 silicone on top of
+a blue-emitting InGaN based LED mounted in a 2835 PLCC package (Power
+Opto Co., Taiwan), followed by thermal curing of the LEDs package
+on a hot plate at 125 &#x000b0;C.</p></sec></sec><sec id="sec3"><title>Results and Discussion</title><p>As shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S1</ext-link>, all the XRD profiles
+of as-obtained Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 0.5, 1, 5, 10, 20, 40, 60, 80, 100)
+powders can be indexed as peaks corresponding to pure cryolites of
+Na<sub>3</sub>AlF<sub>6</sub> with PDF card no. 01-082-0218 (also
+ICSD card no. 74202) and Na<sub>3</sub>CrF<sub>6</sub> (PDF card no.
+27-0675). When&#x000a0;the Cr<sup>3+</sup> concentration exceeds 60&#x02013;70%,
+a secondary phase emerges with observed XRD patterns around 17&#x000b0;,
+20.8&#x000b0;, and 29.7&#x000b0; (see the frame labels in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S1</ext-link>). By completely going through XRD database, the impurities
+can be well indexed into the phase of (NH<sub>4</sub>)<sub>2</sub>NaAlF<sub>6</sub> (PDF #97-024-9157; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figures S1 and S2a</ext-link>). Crystalline Na<sub>3</sub>AlF<sub>6</sub> and
+Na<sub>3</sub>CrF<sub>6</sub> both have structures with space group
+of <italic>P</italic>2<sub>1</sub>/<italic>n</italic> and space group
+number of 14 (monoclinic Na<sub>3</sub>AlF<sub>6</sub> for ICSD #74202: <italic>a</italic> = 5.454 &#x000c5;, <italic>b</italic> = 5.616 &#x000c5;, <italic>c</italic> = 7.822 &#x000c5;, &#x003b1; = &#x003b3; = 90&#x000b0;, and &#x003b2;
+= 90.118&#x000b0;; orthorhombic Na<sub>3</sub>CrF<sub>6</sub>: <italic>a</italic> = 5.460 &#x000c5;, <italic>b</italic> = 5.680 &#x000c5;, <italic>c</italic> = 7.880 &#x000c5;, and &#x003b1; = &#x003b2; = &#x003b3; = 90&#x000b0;).
+Powder XRD pattern Rietveld refinement for Na<sub>3</sub>AlF<sub>6</sub>:5% Cr<sup>3+</sup> and Na<sub>3</sub>AlF<sub>6</sub>:80% Cr<sup>3+</sup> was further performed to gain more structural information
+(<xref rid="fig1" ref-type="fig">Figures <xref rid="fig1" ref-type="fig">1</xref></xref>b and <xref rid="fig1" ref-type="fig">1</xref>c). The main parameters of processing and refinement
+of the Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 5, 80) samples are listed in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Table S1</ext-link>. The refinement results in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b reveal that the as-obtained Na<sub>3</sub>AlF<sub>6</sub>:5% Cr<sup>3+</sup> sample is all pure monoclinic
+Na<sub>3</sub>AlF<sub>6</sub> (pink short vertical line in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b), and the weighted <italic>R</italic>-factor (<italic>R</italic><sub>wp</sub>) and profile <italic>R</italic>-factor (<italic>R</italic><sub>p</sub>) are determined
+to be 3.76% and 2.74%, respectively, indicating that the refined results
+are reliable. Whereas for Na<sub>3</sub>AlF<sub>6</sub>:80% Cr<sup>3+</sup>, the Rietveld refinements from XRD patterns of Na<sub>3</sub>CrF<sub>6</sub> phase (pink short vertical line in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c) and (NH<sub>4</sub>)<sub>2</sub>NaAlF<sub>6</sub> phase (neon blue vertical lines in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c) further confirm
+that the concentrated Cr<sup>3+</sup> doping, such as more than 60&#x02013;70%,
+does introduce a secondary phase of byproducts, (NH<sub>4</sub>)<sub>2</sub>NaAlF<sub>6</sub> and/or (NH<sub>4</sub>)<sub>2</sub>NaCrF<sub>6</sub>. Through calculation, there generally exists more than 3%
+impurities in the Na<sub>3</sub>AlF<sub>6</sub>:80% Cr<sup>3+</sup> phosphors, which will not influence the following studies on the
+optical properties of Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphors (see fluorescence comparison in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S2b</ext-link> and <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a) XRD patterns of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 1, 5, 20, 60, 100) representatives
+and that of Na<sub>3</sub>AlF<sub>6</sub> (PDF #01-082-0218) and Na<sub>3</sub>CrF<sub>6</sub> (PDF #27-0675) standards. The green frames
+label the coexisting byproducts, (NH<sub>4</sub>)<sub>2</sub>NaCrF<sub>6</sub>, as the Cr<sup>3+</sup> doping concentration exceeds 60&#x02013;70%
+(see detailed discussion in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figures S1 and S2</ext-link>). (b, c) XRD Rietveld refinement results for the samples of 5% Cr<sup>3+</sup> (b) and 80% Cr<sup>3+</sup> (c) doped Na<sub>3</sub>AlF<sub>6</sub> showing raw data (black crosses) and calculated (red solid
+line) XRD profiles, difference between the raw data and calculated
+patterns (blue solid line), and Bragg reflection positions (pink and
+neon blue short vertical lines). (d) SEM micrographs and (e) EDX spectra
+analysis of the as-prepared Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> sample.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_0001" id="gr1" position="float"/></fig><fig id="fig2" position="float"><label>Figure 2</label><caption><p>(a) Excitation (&#x003bb;<sub>em</sub>: 720 nm) and emission (&#x003bb;<sub>ex</sub>: 420 and 580
+nm) spectra of Na<sub>3</sub>AlF<sub>6</sub>:1% Cr<sup>3+</sup> phosphors.
+The pink star labels the sharp interference
+light peaks typically from Xe lamp around 467 nm. (b) Time-resolved
+emission spectra of Na<sub>3</sub>AlF<sub>6</sub>:10% Cr<sup>3+</sup> under pulsed light excitation of 420 nm. (c) Emission spectra and
+(d) decay curves of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 1, 5, 10, 20, 40, 60, 80,
+100) phosphors. The inset of (c) shows the normalized emission peaks
+of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> phosphors.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_0002" id="gr2" position="float"/></fig><p>Given that the effective ionic
+radius of Al<sup>3+</sup> [<italic>r</italic> = 0.535 &#x000c5;, coordination
+number (CN) = 6] is considerably
+close to that of Cr<sup>3+</sup> (<italic>r</italic> = 0.615 &#x000c5;,
+CN = 6)<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> and that no charge compensation
+needed during substitution,&#x000a0;Na<sub>3</sub>AlF<sub>6</sub> is
+a perfect host to continuously vary Cr<sup>3+</sup> concentration
+from a regime where it acts as a dopant to a regime where it likely
+serves as a constituent. As a direct proof of the solid solution,
+increasing substitution of Al<sup>3+</sup> (smaller radius) by Cr<sup>3+</sup> (larger radius) from 1% to 100%, the XRD peaks like (002)
+profile of the as-prepared phosphors smoothly shift toward smaller
+angle relative to the peaks of pure Na<sub>3</sub>AlF<sub>6</sub> and
+finally match well with that of pure Na<sub>3</sub>CrF<sub>6</sub> (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S1</ext-link>). This phenomenon verifies the incorporation
+of Cr into the lattice. Furthermore, the lattice parameters (<italic>a</italic>, <italic>b</italic>, <italic>c</italic>, and <italic>V</italic>) refined from the measured XRD patterns feature increasing behaviors
+with increasing <italic>x</italic> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S3</ext-link>), which, well consistent with Vegard&#x02019;s rule,<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> demonstrate the Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 0.5&#x02013;100) solid solutions
+are formed by us. Within the monoclinic &#x02018;&#x02018;mixed-cation
+fluoride perovskite&#x02019;&#x02019; structure of Na<sub>3</sub>AlF<sub>6</sub> cryolite crystals, the corner-sharing octahedral network
+comprises alternating [AlF<sub>6</sub>]<sup>3&#x02013;</sup> and [NaF<sub>6</sub>]<sup>5&#x02013;</sup> octahedra with Na<sup>+</sup> ions in
+interstitial sites (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S4</ext-link>).<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> The low symmetry of the [AlF<sub>6</sub>]<sup>3&#x02013;</sup> octahedral site in this structure that would be further
+disordered by Cr<sup>3+</sup> doping (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S4</ext-link>) is expected to benefit the spin-allowed transitions of Cr<sup>3+</sup>, especially the <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> red/far-red emission in a low crystal field.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p><p>From the SEM micrograph of Na<sub>3</sub>AlF<sub>6</sub>: 60% Cr<sup>3+</sup> representative in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>d, it can be seen that the
+prepared phosphors are well
+crystallized into polyhedron and have size distribution from 250 nm
+to 1.25 &#x003bc;m. To explore elemental composition as well as its
+distribution of Cr<sup>3+</sup>-doped Na<sub>3</sub>AlF<sub>6</sub> phosphors, EDX mapping analysis was done for the Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> sample (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>e and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S5</ext-link>). The EDX elemental composition was determined by comparing relative
+peak intensities together with the corresponding sensitivity factors
+of each element and assuming their total intensities to be 100%. All
+the elements of Na<sup>+</sup>, Al<sup>3+</sup>, F<sup>&#x02013;</sup>, and Cr<sup>3+</sup> were clearly detected (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>e) and homogeneously mapped in the as-obtained
+phosphors (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S5</ext-link>). EDX results reveal
+the mole percent of Cr<sup>3+</sup> and that of Al<sup>3+</sup> are
+further calculated to be about 66% and 34%, respectively, which are
+very close to the stoichiometric compositions of 60% Cr<sup>3+</sup> and 40% Al<sup>3+</sup> in the prepared sample.</p><p>To investigate
+the photoluminescence properties of Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphors, excitation and emission
+spectra were recorded for the Na<sub>3</sub>AlF<sub>6</sub>:1% Cr<sup>3+</sup> representative, shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a. By monitoring the emission wavelength
+at 720 nm, we detected two excitation peaks (420 and 620 nm) due to
+the d&#x02013;d inner transitions of Cr<sup>3+</sup> from the <sup>4</sup>A<sub>2</sub> ground state to the <sup>4</sup>T<sub>1</sub>(4F) and T<sub>2</sub>(4F) intermediate states,<sup><xref ref-type="bibr" rid="ref35">35</xref>&#x02212;<xref ref-type="bibr" rid="ref37">37</xref></sup> respectively.
+By increasing Cr<sup>3+</sup> concentration, the excitation peaks
+were observed to performs noticeable red-shift after normalizing all
+the excitation spectra at wavelength &#x0223c;420 nm (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S6a</ext-link>). Under excitation of 282, 420, and 580 nm, the
+Na<sub>3</sub>AlF<sub>6</sub>:1% Cr<sup>3+</sup> phosphors yield one
+single broad peak at about 720 nm (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S6b</ext-link>) due to the spin-allowed transition of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> in the case of Cr<sup>3+</sup> located in the low crystal field.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> The
+color rendering index of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> phosphors was calculated to be around (0.723, 0.276)
+and displayed by CIE chromaticity coordinates in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S7</ext-link>. Taking into account the crystal field strength
+and site symmetry of Na<sub>3</sub>AlF<sub>6</sub> host, the underlying
+mechanisms of photoexcitation and energy transfer of Cr<sup>3+</sup> activators were discussed and illustrated by a simplified Tanabe&#x02013;Sugano
+diagram of 3d<sup>3</sup> electron configuration in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S8</ext-link>. It is noted that the broadband emission of Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> generally spans from 640 to
+850 nm, has a full width at half-maximum of about 95 nm, and overlaps
+well with the &#x0201c;active&#x0201d; peaks at about 670, 760, and
+825 nm of cells and DNA/RNA synthesis for phototherapy.<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup></p><p>To explore whether or not any different Cr<sup>3+</sup> luminescent
+centers exist in Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>%
+Cr<sup>3+</sup>, time-resolved emission spectra with a fine time interval
+of 0.5 &#x003bc;s were recorded for the sample of Na<sub>3</sub>AlF<sub>6</sub>:10% Cr<sup>3+</sup> under pulsed light excitation of 420
+nm (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>b). At
+initial delay time around 106 &#x003bc;s, no emission band appears,
+while a single broad band centered at about 720 nm emerges clearly
+at delay time around 107 &#x003bc;s due to the energy depopulation of
+excited Cr<sup>3+</sup> ions. By prolonging delay time, the intensity
+of the whole Cr<sup>3+</sup> characteristic band monotonically increases
+to a maximum at about 120 &#x003bc;s and then decreases. Notably, the
+band shapes and peak position of all the emissions remain unchanged
+at different delay time points. These results suggest that all the
+Cr<sup>3+</sup> activators do have similar surrounding environments.</p><p>To optimize the Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup>, a series of emission spectra were recorded under
+excitation of 420 nm, as shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>c. The emission intensity of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> increases to
+a maximum until an elevated concentration of 60% Cr<sup>3+</sup> and
+then decreases obviously because of the concentration quenching effect.
+Such an effect mainly results from the energy consumption via energy
+migration over Cr<sup>3+</sup> sublattice sites and finally to the
+quenching sites, like impurities/defects particularly as the higher
+Cr<sup>3+</sup> concentration in Na<sub>3</sub>AlF<sub>6</sub> makes
+the Cr<sup>3+</sup>-to-Cr<sup>3+</sup> interatomic distance much smaller.<sup><xref ref-type="bibr" rid="ref38">38</xref>,<xref ref-type="bibr" rid="ref39">39</xref></sup> In comparison with the emission intensity of Na<sub>3</sub>AlF<sub>6</sub>:1% Cr<sup>3+</sup>, that of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> exhibits about 5-fold enhancement. The QY value
+was measured to be 75 &#x000b1; 5% under excitation of 420 nm, which
+is comparable to the QY value &#x0223c;68% reported by Torchia et al.<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> It is of great interest that the normalized
+emission peaks in the inset of <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>c show the distinct red-shift from 715 to 745 nm, which
+would benefit the color component manipulation according to the varied
+specific applications like in phototherapy and/or photomorphogenesis.
+The red-shift results from the perturbation effects of crystal field
+strength on the <sup>4</sup>T<sub>2</sub>(4F) spin-allowed state of
+Cr<sup>3+</sup> with increasing Cr<sup>3+</sup> concentration in Na<sub>3</sub>AlF<sub>6</sub>. Generally, the crystal field strength (<italic>D</italic><sub><italic>q</italic></sub>) can be formulized as<sup><xref ref-type="bibr" rid="ref41">41</xref>,<xref ref-type="bibr" rid="ref42">42</xref></sup><disp-formula id="eq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_m001" position="anchor"/><label>1</label></disp-formula>where <italic>Z</italic> is the anion charge
+or valence, <italic>e</italic> is the electron charge, <italic>r</italic> is the radius of the <italic>d</italic> wave function, and <italic>R</italic> is the bond length. So the dependence of <italic>D<sub>q</sub></italic> on bond length can be generalized as <italic>D</italic><sub><italic>q</italic></sub> &#x0221d; 1/<italic>R</italic><sup>5</sup> in a specific host. Doping Cr<sup>3+</sup> ions (radius &#x0223c;0.615
+&#x000c5;) into Na<sub>3</sub>AlF<sub>6</sub> by substituting Al<sup>3+</sup> sites (radius &#x0223c;0.535 &#x000c5;) will lead to a longer <italic>R</italic> of the Cr&#x02013;F bond and therefore a weaker <italic>D<sub>q</sub></italic> crystal strength. Correspondingly, a smaller <italic>D<sub>q</sub></italic> leads to emission at lower energy, namely,
+the resultant red-shift at higher Cr<sup>3+</sup> concentration. Experimentally,
+the obvious red-shift of absorption peaks of Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphors (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S6</ext-link>) well demonstrate such an effect of weaker <italic>Dq</italic> on
+lowering the energy of <sup>4</sup>T<sub>2</sub>(4F) spin-allowed
+state of Cr<sup>3+</sup>. Besides, by greatly increasing Cr<sup>3+</sup> concentration, the severe reabsorption occuring in the 650&#x02013;710
+nm range (see the overlapping range between absorption and emission
+in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>a) would
+be another promotion to this red-shift for the photoluminescence of
+Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphors.</p><p>To
+give insight into energy-transfer process of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> =
+1, 5, 10, 20, 40, 60, 80, 100) phosphors, the decay curve of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> was recorded
+versus Cr<sup>3+</sup> concentration upon 420 nm pulsed light excitation.
+As shown in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>d, the decay curve of dilute 1% Cr<sup>3+</sup> doping behaves single
+exponential (similar behaviors in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S9</ext-link> for the 0.5% Cr<sup>3+</sup> and 2% Cr<sup>3+</sup> doping), and
+that of concentrated <italic>x</italic>% Cr<sup>3+</sup> doping (<italic>x</italic> &#x0223c; 5&#x02013;100) has a faster decline and becomes
+obviously nonexponential. These phenomena are typically caused by
+the introduction of additional energy decay paths as Cr<sup>3+</sup>-doping concentration increases, like cross-relaxation, energy migration,
+and the impurity/defect-induced nonradiative relaxation&#x000a0;(NR)
+process, especially for the concentrated dopants.<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> In practice, the monoexponential decay curve can be well
+fitted to a first-order exponential function of <italic>I</italic> = <italic>A</italic><sub>0</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>0</sub>), and the nonexponential one is well fitted to a second-order
+exponential function of <italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>) + <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>), where <italic>I</italic> is the luminescence intensity; <italic>A</italic><sub>0</sub>, <italic>A</italic><sub>1</sub>, and <italic>A</italic><sub>2</sub> are constants of fitting parameters, respectively; <italic>t</italic> is time; &#x003c4;<sub>0</sub> is the lifetime for the monoexponential
+decay curve; and &#x003c4;<sub>1</sub> and &#x003c4;<sub>1</sub> are fast
+and slow lifetime of exponential components for the nonexponential
+decay curve, respectively. Using the formula &#x003c4; = (<italic>A</italic><sub>1</sub>&#x003c4;<sub>1</sub><sup arrange="stagger">2</sup> + <italic>A</italic><sub>2</sub>&#x003c4;<sub>2</sub><sup arrange="stagger">2</sup>)/(<italic>A</italic><sub>1</sub>&#x003c4;<sub>1</sub> + <italic>A</italic><sub>2</sub>&#x003c4;<sub>2</sub>), we can obtain the average decay time (&#x003c4;) of the second-order
+exponential decay for the Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> samples. The <italic>t</italic><sub>rise</sub>,
+fitting function, <italic>R</italic>-squared (<italic>R</italic><sup>2</sup>), fitting parameters, and &#x003c4; are summarized as a function
+of Cr<sup>3+</sup> concentration in <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>Fitting Functions, <italic>R</italic>-Squared (<italic>R</italic><sup>2</sup>), Fitting Parameters,
+and
+the Calculated Decay Time of Decay Curve of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> Luminescence as a Function
+of Cr<sup>3+</sup> Concentration in Na<sub>3</sub>AlF<sub>6</sub> under
+Pulsed Light Excitation of 420 nm</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="char" char="."/><col align="left"/><col align="char" char="."/><col align="left"/><col align="left"/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center" char=".">Cr<sup>3+</sup> (%)</th><th style="border:none;" align="center">fitting function</th><th style="border:none;" align="center" char="."><italic>R</italic><sup>2</sup></th><th style="border:none;" align="center">component lifetime (&#x003bc;s)</th><th style="border:none;" align="center">fitting parameter</th><th style="border:none;" align="center" char=".">decay time (&#x003bc;s)</th></tr></thead><tbody><tr><td style="border:none;" align="char" char=".">1</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>0</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>0</sub>)</td><td style="border:none;" align="char" char=".">0.9992</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><italic>A</italic><sub>0</sub>&#x000a0;&#x0223c;&#x000a0;1.4826</td><td style="border:none;" align="char" char=".">312.9</td></tr><tr><td style="border:none;" align="char" char=".">5</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>) + <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9993</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub>&#x000a0;=&#x000a0;116.7</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 0.8176</td><td style="border:none;" align="char" char=".">283.3</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 329.6</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 1.0421</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">10</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9993</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+136.1</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 1.1364</td><td style="border:none;" align="char" char=".">257.5</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 333.1</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.7446</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">20</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9992</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+127.2</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 1.4922</td><td style="border:none;" align="char" char=".">240.6</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 349.2</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.5678</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">40</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9992</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+79.5</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 2.0832</td><td style="border:none;" align="char" char=".">219.7</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 320.8</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.7158</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">60</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9991</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+87.7</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 2.1914</td><td style="border:none;" align="char" char=".">213.7</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 342.8</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.5477</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">80</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9992</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+65.7</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 2.7234</td><td style="border:none;" align="char" char=".">194.4</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 304.7</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.6856</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="char" char=".">100</td><td style="border:none;" align="left"><italic>I</italic> = <italic>A</italic><sub>1</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>1</sub>)
++ <italic>A</italic><sub>2</sub> exp(&#x02212;<italic>t</italic>/&#x003c4;<sub>2</sub>)</td><td style="border:none;" align="char" char=".">0.9985</td><td style="border:none;" align="left">&#x003c4;<sub>1</sub> =
+30.1</td><td style="border:none;" align="left"><italic>A</italic><sub>1</sub> &#x0223c; 19.6474</td><td style="border:none;" align="char" char=".">85.2</td></tr><tr><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="char" char=".">&#x000a0;</td><td style="border:none;" align="left">&#x003c4;<sub>2</sub> = 267.9</td><td style="border:none;" align="left"><italic>A</italic><sub>2</sub> &#x0223c; 0.6666</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr></tbody></table></table-wrap><p>To further optimize the emission
+properties of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> phosphors, the sample
+of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> was heat-treated
+at 700 &#x000b0;C for 36 h in a quartz ampule under vacuum. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>a shows that the
+particle size of heat-treated Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> clearly becomes larger (up to 2&#x02013;3 &#x003bc;m) than
+that before. The EDX result in <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b validates the detection of all elements of Na<sup>+</sup>, Al<sup>3+</sup>, Cr<sup>3+</sup>, and F<sup>&#x02013;</sup>. As expected, all elements were homogeneously distributed over the
+heat-treated Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S10</ext-link>). Transformation of wt % (at.
+%) Cr<sup>3+</sup> and wt % (at. %) Al<sup>3+</sup> recorded by EDX
+element mapping (inset of <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>b) to mole percent in cryolite formula results in the
+respective values of 57.9% and 42.1%, which are close to the stoichiometric
+composition of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup>.
+These results indicate that the heat treatment at a higher temperature
+&#x0223c;700 &#x000b0;C does not change the composition of phosphors. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>c comparatively shows
+the emission spectra of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors before and after heat treatment. These two spectra have
+same band shape in the same region, but the heat treatment process
+increases emission intensity by about 11%. Also, the luminescence
+decay of heat-treated Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> (average &#x003c4; &#x0223c; 263.7 &#x003bc;s) becomes obviously slower
+than that of sample without heat treatment (<xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref> and <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref>d). This phenomenon results from the decreased amount
+of additional energy quenching centers, such as typical lattice/surface
+defects and impurities introduced by higher 60% Cr<sup>3+</sup> dopants.
+It is believed that a continuous increase of particle size will greatly
+increase luminescence intensity and efficiency of our synthesized
+Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphors.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(a) SEM micrograph
+and (b) EDX spectra analysis of the Na<sub>3</sub>AlF<sub>6</sub>:60%
+Cr<sup>3+</sup> phosphors heat-treated at 700
+&#x000b0;C for 36 h. (c) Comparative emission spectra and (d) decay curves
+of the Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> before (green
+dotted curve) and after (red dotted curve) heat treatment.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_0003" id="gr3" position="float"/></fig><p>For lighting phosphors, the working temperature would be
+much higher
+than room temperature. Although pc-LEDs are significantly more energy
+efficient light source than incandescent lighting, about 50&#x02013;70%
+of the electricity supplied to an LED still becomes heat rather than
+light, and in high power packages in a more confined space, this can
+lead to an operating temperature of 150&#x02013;200 &#x000b0;C during
+LEDs operation, which efficiently quenches photoluminescence via fast
+NR of excited electrons to the ground state of activators.<sup><xref ref-type="bibr" rid="ref43">43</xref>,<xref ref-type="bibr" rid="ref44">44</xref></sup> Thus, study of thermal stability on the far-red emission of Na<sub>3</sub>AlF<sub>6</sub>:Cr<sup>3+</sup> phosphor is extremely important. <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>a shows the decay
+curves of the <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> for Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> sample,
+and obviously the decay becomes much faster as temperature increases.
+By calculation, a shortest average lifetime was obtained to be 126.7
+&#x003bc;s at 470 K (&#x0223c;200 &#x000b0;C) (blue sphere symbols in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b), which suggests
+that the nonradiative decay of the Cr<sup>3+</sup>:<sup>4</sup>T<sub>2</sub>(4F) excited state is thermally promoted at elevated temperature.
+Besides, <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b
+exhibited the integrated emission intensity of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> as a function of temperature
+for Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> under excitation
+of 420 nm (red star symbols in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>b). The far-red emission of Cr<sup>3+</sup> is clearly
+quenched with increasing temperature and decreases to about 60% at
+470 K. The reason could be that a much higher 60% Cr<sup>3+</sup> concentration
+in Na<sub>3</sub>AlF<sub>6</sub> would feature severe energy migration
+among Cr<sup>3+</sup> sublattice sites,<sup><xref ref-type="bibr" rid="ref38">38</xref>,<xref ref-type="bibr" rid="ref39">39</xref></sup> and energy
+is quenched on defects/impurities.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>(a) Decay curves of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors against temperature. (b) Thermal
+characteristics
+of <sup>4</sup>T<sub>2</sub>(4F) &#x02192; <sup>4</sup>A<sub>2</sub> of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup>: emission intensity
+marked by red stars and the corresponding lifetime by blue spheres.
+(c) Single configurational coordinate model for Cr<sup>3+</sup> far-red
+emission under effect of temperature increment in Na<sub>3</sub>AlF<sub>6</sub> low-field crystal. <italic>R</italic> denotes the configurational
+coordinate, the green arrow indicates the thermal activation process,
+and the pink curved arrow represents the NR process. (d) Optical images
+of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors shined
+by natural white light (left top) and UV light (left bottom) and that
+of a bare blue-emitting InGaN LED device (right top) and the InGaN
+LED device encapsulated with a silicone Na<sub>3</sub>AlF<sub>6</sub>: 60% Cr<sup>3+</sup> phosphor slurry (right bottom).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_0004" id="gr4" position="float"/></fig><p>A single configurational coordinate model of Cr<sup>3+</sup> (simplified
+with only one <sup>4</sup>T<sub>2</sub>(4F) excited state) in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>c describes the effects
+of thermal quenching on the far-red emission of Cr<sup>3+</sup> qualitatively.
+Once Cr<sup>3+</sup> is excited from the <sup>4</sup>A<sub>2</sub> ground state to the <sup>4</sup>T<sub>2</sub>(4F) state, energy
+will go through a fast NR process to populate the lowest energy point
+of the <sup>4</sup>T<sub>2</sub>(4F). Basically, the energy in <sup>4</sup>T<sub>2</sub>(4F) excited state radiatively decays to the <sup>4</sup>A<sub>2</sub> ground state by efficiently yielding far-red
+photons at room/lower temperature. However, in the case of an elevated
+temperature, the absorbed energy in <sup>4</sup>T<sub>2</sub>(4F)
+excited state is feasibly promoted to the intersystem crossing (Q)
+of <sup>4</sup>T<sub>2</sub>(4F) excited state and <sup>4</sup>A<sub>2</sub> ground state by thermal activation (T-activation) and then
+is quenched by fast nonradiative decay to the bottom of <sup>4</sup>A<sub>2</sub> ground state. Typically, the temperature-dependent
+fluorescence intensity can be expressed as<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref></sup><disp-formula id="eq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_m002" position="anchor"/><label>2</label></disp-formula>where <italic>I</italic><sub>0</sub> is initial
+fluorescence intensity recorded at ideal case with negligible thermal
+quenching, &#x00394;<italic>E</italic><sub>q</sub> is the thermal activation
+barrier to the level crossing Q, <italic>k</italic> is the Boltzmann
+constant, <italic>T</italic> is the absolute temperature, and the
+unit e<sup>&#x02013;&#x00394;<italic>E</italic><sub>q</sub>/<italic>kT</italic></sup> therefore represents the probability of an excited ion being
+elevated over &#x00394;<italic>E</italic><sub>q</sub> barrier to the
+Q crossing. Accordingly, a higher temperature will thermally promote
+more excited ions to easily reach the level crossing Q, and meanwhile,
+the stronger NR process happens. On the assumption that the photon
+absorption and scattering of luminescent sample keep constant in the
+temperature region,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> fluorescence intensity
+of the phosphors will definitely decrease with increasing temperature
+under the same excitation conditions. These theoretical analyses well
+reveal why our Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphor
+exhibits descending emission intensity by raising temperature from
+300 to 470 K.</p><p><xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>d shows
+optical photographs of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors illuminated by natural white light (top panel) and UV
+lamp (bottom panel). The distinct observation of deep red color to
+the naked eye confirms that the Na<sub>3</sub>AlF<sub>6</sub>:60%
+Cr<sup>3+</sup> radiates efficiently. The obtained deep red color
+nearly features the&#x000a0;same color effects as Color Hex Color Codes
+of #960000.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> Also, optical photographs
+of commercial blue-emitting InGaN LED packages encapsulated in silicone
+without and with inclusion of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphor are shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>d. The performance of four LEDs devices operated at
+constant current (drive voltage 2.72 V, drive current 14 mA) is shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">Figure S11</ext-link>. The first device is the
+bare blue LED; devices 1&#x02013;3 are blue LEDs encapsulated with
+increasing amounts of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors, which efficiently convert a higher percentage of the
+blue light to far-red light.</p></sec><sec id="sec4"><title>Conclusions</title><p>Polycrystalline Cr<sup>3+</sup>-doped Na<sub>3</sub>AlF<sub>6</sub> phosphors are synthesized
+by means of a facile hydrothermal reaction.
+Tunable broadband far-red fluorescence of Cr<sup>3+</sup> was feasibly
+achieved under blue light excitation by increasing the substitution
+of Cr<sup>3+</sup> ions into Al<sup>3+</sup> sublattice sites. Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> phosphors exhibit an appreciable
+QY &#x0223c; 75% which is more efficient than some typical Eu<sup>2+</sup>-doped red/far-red phosphors, and the luminescence intensity and
+efficiency further increased by heat treatment. ET mechanisms, as
+well as energy decay dynamics of Cr<sup>3+</sup>, are rationally analyzed
+on the basis of photoemission, excitation, and time-resolved spectra.
+Non-RE activated red/far-red emitting phosphors in commercial LED
+further promote the design and fabrication of advanced pc-LEDs for
+photobiological applications.</p></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acsaelm.9b00527">10.1021/acsaelm.9b00527</ext-link>.<list id="silist" list-type="simple"><list-item><p>XRD patterns of
+as-synthesized Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> phosphors (Figure S1),
+XRD patterns of (NH<sub>4</sub>)<sub>2</sub>NaAlF<sub>6</sub> and
+emission spectra of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> and (NH<sub>4</sub>)<sub>2</sub>NaAlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 1, 60) phosphors (Figure
+S2), main parameters of processing and refinement of the Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic> % Cr<sup>3+</sup> (<italic>x</italic> = 5, 80) samples (Table S1), calculated lattice parameters of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> samples
+(Figure S3), crystal structures of monoclinic Na<sub>3</sub>AlF<sub>6</sub> cryolite crystal (Figure S4), EDX mapping analysis of Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> sample (Figure S5), emission
+and normalized excitation spectra for Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (Figure S6), CIE chromaticity
+coordinates of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (Figure S7), a simplified Tanabe&#x02013;Sugano diagram of
+3d<sup>3</sup> electron configuration (Figure S8), decay curves of
+Cr<sup>3+</sup>: <sup>4</sup>T<sub>1</sub>(4F) &#x02192; <sup>4</sup>T<sub>2</sub>(4F) emission of Na<sub>3</sub>AlF<sub>6</sub>:<italic>x</italic>% Cr<sup>3+</sup> (<italic>x</italic> = 0.5, 1, 2) samples
+(Figure S9), EDX mapping analysis of post-heat-treated Na<sub>3</sub>AlF<sub>6</sub>:60% Cr<sup>3+</sup> samples (Figure S10), luminescence
+spectra of the bare blue-emitting InGaN LED device and three pc-LED
+devices with increasing phosphor loading (Figure S11) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acsaelm.9b00527/suppl_file/el9b00527_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="el9b00527_si_001.pdf"><caption><p>el9b00527_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d7e3463-autogenerated"><p>The authors declare
+no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work is financially supported by the National Science
+Foundation, National Institutes of Health, NIH NIBIB EB018378-01 (R.E.R.
+and D.Y.) and the Department of Energy through the Critical Materials
+Institute. This material is based upon work supported by the National
+Science Foundation under Grant # IIP-1059286 to the American Society
+for Engineering Education. D.Y. thanks Peixin Li and Ting Yu for the
+&#x0201c;cryolite&#x0201d; crystal structure analysis, Xinxin Han for
+the XRD Rietveld refinement, and Atul D. Sontakke for helpful discussions.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Bula</surname><given-names>R. J.</given-names></name>; <name><surname>Morrow</surname><given-names>R. C.</given-names></name>; <name><surname>Tibbitts</surname><given-names>T. W.</given-names></name>; <name><surname>Barta</surname><given-names>D. J.</given-names></name>; <name><surname>Ignatius</surname><given-names>R. W.</given-names></name>; <name><surname>Martin</surname><given-names>T. S.</given-names></name>
+<article-title>Light-Emitting Diodes
+as A Radiation Source for Plants</article-title>. <source>HortScience</source>
+<year>1991</year>, <volume>26</volume>, <fpage>203</fpage>&#x02013;<lpage>205</lpage>. <pub-id pub-id-type="doi">10.21273/HORTSCI.26.2.203</pub-id>.<pub-id pub-id-type="pmid">11537727</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Yeh</surname><given-names>N.</given-names></name>; <name><surname>Chung</surname><given-names>J. P.</given-names></name>
+<article-title>High-brightness
+LEDs-Energy Efficient Lighting Sources
+and Their Potential in Indoor Plant Cultivation</article-title>. <source>Renewable Sustainable Energy Rev.</source>
+<year>2009</year>, <volume>13</volume>, <fpage>2175</fpage>&#x02013;<lpage>2180</lpage>. <pub-id pub-id-type="doi">10.1016/j.rser.2009.01.027</pub-id>.</mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Zabili&#x00075;&#x00305;t&#x00117;</surname><given-names>A.</given-names></name>; <name><surname>Butkut&#x00117;</surname><given-names>S.</given-names></name>; <name><surname>&#x0017d;ukauskas</surname><given-names>A.</given-names></name>; <name><surname>Vitta</surname><given-names>P.</given-names></name>; <name><surname>Kareiva</surname><given-names>A.</given-names></name>
+<article-title>Sol-Gel Synthesized
+Far-Red Chromium-Doped Garnet Phosphors for Phosphor-Conversion Light-Emitting
+Diodes that Meet the Photomorphogenetic Needs of Plants</article-title>. <source>Appl. Opt.</source>
+<year>2014</year>, <volume>53</volume>, <fpage>907</fpage>&#x02013;<lpage>914</lpage>. <pub-id pub-id-type="doi">10.1364/AO.53.000907</pub-id>.<pub-id pub-id-type="pmid">24663271</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Kreslavski</surname><given-names>V. D.</given-names></name>; <name><surname>Fomina</surname><given-names>I. R.</given-names></name>; <name><surname>Los</surname><given-names>D. A.</given-names></name>; <name><surname>Carpentier</surname><given-names>R.</given-names></name>; <name><surname>Kuznetsov</surname><given-names>V. V.</given-names></name>; <name><surname>Allakhverdiev</surname><given-names>S. I.</given-names></name>
+<article-title>Red and Near Infra-Red Signaling:
+Hypothesis and Perspectives</article-title>. <source>J. Photochem. Photobiol.,
+C</source>
+<year>2012</year>, <volume>13</volume>, <fpage>190</fpage>&#x02013;<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1016/j.jphotochemrev.2012.01.002</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Karu</surname><given-names>T. I.</given-names></name>; <name><surname>Kolyakov</surname><given-names>S. F.</given-names></name>
+<article-title>Exact Action Spectra
+for Cellular Responses Relevant
+to Phototherapy</article-title>. <source>Photomed. Laser Surg.</source>
+<year>2005</year>, <volume>23</volume>, <fpage>355</fpage>&#x02013;<lpage>361</lpage>. <pub-id pub-id-type="doi">10.1089/pho.2005.23.355</pub-id>.<pub-id pub-id-type="pmid">16144476</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="undeclared" id="cit6"><person-group person-group-type="allauthors"><name><surname>Sontea</surname><given-names>V.</given-names></name>; <name><surname>Pocaznoi</surname><given-names>I.</given-names></name>; <name><surname>Furtuna</surname><given-names>D.</given-names></name>; <name><surname>Seryakov</surname><given-names>A.</given-names></name>; <name><surname>Barun</surname><given-names>V.</given-names></name>; <name><surname>Dick</surname><given-names>S.</given-names></name></person-group><article-title>Effects of The Low-Level Light Therapy
+on Skin Wound Using LED</article-title>. IEEE E-Health and Bioengineering
+Conference, <year>2013</year>; pp <fpage>1</fpage>&#x02013;<lpage>4</lpage>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Whelan</surname><given-names>H. T.</given-names></name>; <name><surname>Smits</surname><given-names>R. L.</given-names></name>; <name><surname>Buchman</surname><given-names>E. V.</given-names></name>; <name><surname>Whelan</surname><given-names>N. T.</given-names></name>; <name><surname>Turner</surname><given-names>S. G.</given-names></name>; <name><surname>Margolis</surname><given-names>D. A.</given-names></name>; <name><surname>Cevenini</surname><given-names>V.</given-names></name>; <name><surname>Stinson</surname><given-names>H.</given-names></name>; <name><surname>Ignatius</surname><given-names>R.</given-names></name>; <name><surname>Martin</surname><given-names>T.</given-names></name>; <name><surname>Cwiklinski</surname><given-names>J.</given-names></name>; <name><surname>Philippi</surname><given-names>A. F.</given-names></name>; <name><surname>Graf</surname><given-names>W. R.</given-names></name>; <name><surname>Hodgson</surname><given-names>B.</given-names></name>; <name><surname>Gould</surname><given-names>L.</given-names></name>; <name><surname>Kane</surname><given-names>M.</given-names></name>; <name><surname>Chen</surname><given-names>G.</given-names></name>; <name><surname>Caviness</surname><given-names>J.</given-names></name>
+<article-title>Effect of NASA Light-Emitting
+Diode Irradiation on
+Wound Healing</article-title>. <source>J. Clin. Laser Med. Surg.</source>
+<year>2001</year>, <volume>19</volume>, <fpage>305</fpage>&#x02013;<lpage>314</lpage>. <pub-id pub-id-type="doi">10.1089/104454701753342758</pub-id>.<pub-id pub-id-type="pmid">11776448</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Eells</surname><given-names>J. T.</given-names></name>; <name><surname>Henry</surname><given-names>M. M.</given-names></name>; <name><surname>Summerfelt</surname><given-names>P.</given-names></name>; <name><surname>Wong-Riley</surname><given-names>M. T. T.</given-names></name>; <name><surname>Buchmann</surname><given-names>E. V.</given-names></name>; <name><surname>Kane</surname><given-names>M.</given-names></name>; <name><surname>Whelan</surname><given-names>N. T.</given-names></name>; <name><surname>Whelan</surname><given-names>H. T.</given-names></name>
+<article-title>Therapeutic
+Photobiomodulation for Methanol-Induced Retinal Toxicity</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<year>2003</year>, <volume>100</volume>, <fpage>3439</fpage>&#x02013;<lpage>3444</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.0534746100</pub-id>.<pub-id pub-id-type="pmid">12626762</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Ye</surname><given-names>S.</given-names></name>; <name><surname>Xiao</surname><given-names>F.</given-names></name>; <name><surname>Pan</surname><given-names>Y. X.</given-names></name>; <name><surname>Ma</surname><given-names>Y. Y.</given-names></name>; <name><surname>Zhang</surname><given-names>Q. Y.</given-names></name>
+<article-title>Phosphors
+in Phosphor-Converted White Light-Emitting Diodes: Recent Advances
+in Materials, Techniques and Properties</article-title>. <source>Mater.
+Sci. Eng., R</source>
+<year>2010</year>, <volume>71</volume>, <fpage>1</fpage>&#x02013;<lpage>34</lpage>. <pub-id pub-id-type="doi">10.1016/j.mser.2010.07.001</pub-id>.</mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Chen</surname><given-names>J. Y.</given-names></name>; <name><surname>Zhang</surname><given-names>N. M.</given-names></name>; <name><surname>Guo</surname><given-names>C. F.</given-names></name>; <name><surname>Pan</surname><given-names>F. J.</given-names></name>; <name><surname>Zhou</surname><given-names>X. J.</given-names></name>; <name><surname>Suo</surname><given-names>H.</given-names></name>; <name><surname>Zhao</surname><given-names>X. Q.</given-names></name>; <name><surname>Goldys</surname><given-names>E. M.</given-names></name>
+<article-title>Site-Dependent Luminescence and Thermal
+Stability of Eu<sup>2+</sup> Doped Fluorophosphates toward White LEDs
+for Plant Growth</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2016</year>, <volume>8</volume>, <fpage>20856</fpage>&#x02013;<lpage>20864</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.6b06102</pub-id>.<pub-id pub-id-type="pmid">27439901</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Li</surname><given-names>J. H.</given-names></name>; <name><surname>Yan</surname><given-names>J.</given-names></name>; <name><surname>Wen</surname><given-names>D. W.</given-names></name>; <name><surname>Khan</surname><given-names>W. U.</given-names></name>; <name><surname>Shi</surname><given-names>J. X.</given-names></name>; <name><surname>Wu</surname><given-names>M. M.</given-names></name>; <name><surname>Su</surname><given-names>Q.</given-names></name>; <name><surname>Tanner</surname><given-names>P. A.</given-names></name>
+<article-title>Advanced Red Phosphors for White Light-Emitting Diodes</article-title>. <source>J. Mater. Chem. C</source>
+<year>2016</year>, <volume>4</volume>, <fpage>8611</fpage>&#x02013;<lpage>8623</lpage>. <pub-id pub-id-type="doi">10.1039/C6TC02695H</pub-id>.</mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>van
+der Ende</surname><given-names>B. M.</given-names></name>; <name><surname>Aarts</surname><given-names>L.</given-names></name>; <name><surname>Meijerink</surname><given-names>A.</given-names></name>
+<article-title>Lanthanide
+Ions as Spectral Converters for Solar Cells</article-title>. <source>Phys. Chem. Chem. Phys.</source>
+<year>2009</year>, <volume>11</volume>, <fpage>11081</fpage>&#x02013;<lpage>11095</lpage>. <pub-id pub-id-type="doi">10.1039/b913877c</pub-id>.<pub-id pub-id-type="pmid">20024374</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Van
+de Haar</surname><given-names>M. A.</given-names></name>; <name><surname>Werner</surname><given-names>J.</given-names></name>; <name><surname>Kratz</surname><given-names>N.</given-names></name>; <name><surname>Hilgerink</surname><given-names>T.</given-names></name>; <name><surname>Tachikirt</surname><given-names>M.</given-names></name>; <name><surname>Honold</surname><given-names>J.</given-names></name>; <name><surname>Krames</surname><given-names>M. R.</given-names></name>
+<article-title>Increasing The Effective
+Absorption of Eu<sup>3+</sup>-Doped Luminescent Materials towards
+Practical Light Emitting Diodes for Illumination Applications</article-title>. <source>Appl. Phys. Lett.</source>
+<year>2018</year>, <volume>112</volume>, <fpage>132101</fpage><pub-id pub-id-type="doi">10.1063/1.5016948</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>McAuslan</surname><given-names>D.
+L.</given-names></name>; <name><surname>Longdell</surname><given-names>J. J.</given-names></name>; <name><surname>Sellars</surname><given-names>M. J.</given-names></name>
+<article-title>Strong-Coupling Cavity QED Using
+Rare-Earth-Metal-Ion Dopants in Monolithic Resonators: What You Can
+Do with A Weak Oscillator</article-title>. <source>Phys. Rev. A: At.,
+Mol., Opt. Phys.</source>
+<year>2009</year>, <volume>80</volume>, <fpage>162307</fpage><pub-id pub-id-type="doi">10.1103/PhysRevA.80.062307</pub-id>.</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Piao</surname><given-names>X. Q.</given-names></name>; <name><surname>Machida</surname><given-names>K. I.</given-names></name>; <name><surname>Horikawa</surname><given-names>T.</given-names></name>; <name><surname>Hanzawa</surname><given-names>H.</given-names></name>; <name><surname>Shimomura</surname><given-names>Y.</given-names></name>; <name><surname>Kijima</surname><given-names>N.</given-names></name>
+<article-title>Preparation of CaAlSiN<sub>3</sub>:Eu<sup>2+</sup> Phosphors
+by The Self-Propagating High-Temperature Synthesis and Their Luminescent
+Properties</article-title>. <source>Chem. Mater.</source>
+<year>2007</year>, <volume>19</volume>, <fpage>4592</fpage>&#x02013;<lpage>4599</lpage>. <pub-id pub-id-type="doi">10.1021/cm070623c</pub-id>.</mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Qin</surname><given-names>X.</given-names></name>; <name><surname>Liu</surname><given-names>X. W.</given-names></name>; <name><surname>Huang</surname><given-names>W.</given-names></name>; <name><surname>Bettinelli</surname><given-names>M.</given-names></name>; <name><surname>Liu</surname><given-names>X. G.</given-names></name>
+<article-title>Lanthanide-Activated Phosphors Based
+on 4<italic>f</italic>-5<italic>d</italic> Optical Transitions: Theoretical
+and Experimental
+Aspects</article-title>. <source>Chem. Rev.</source>
+<year>2017</year>, <volume>117</volume>, <fpage>4488</fpage>&#x02013;<lpage>4527</lpage>. <pub-id pub-id-type="doi">10.1021/acs.chemrev.6b00691</pub-id>.<pub-id pub-id-type="pmid">28240879</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Fang</surname><given-names>Y.</given-names></name>; <name><surname>Sojdak</surname><given-names>C. A.</given-names></name>; <name><surname>Dey</surname><given-names>G.</given-names></name>; <name><surname>Teat</surname><given-names>S. J.</given-names></name>; <name><surname>Li</surname><given-names>M.</given-names></name>; <name><surname>Cotlet</surname><given-names>M.</given-names></name>; <name><surname>Zhu</surname><given-names>K.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>O&#x02019;Carroll</surname><given-names>D. M.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>
+<article-title>Highly Efficient and
+Stable Blue-Excitable
+Yellow Phosphors Built on Multiple-Stranded One-Dimensional Inorganic-Organic
+Hybrid Chains</article-title>. <source>Chem. Sci.</source>
+<year>2019</year>, <volume>10</volume>, <fpage>5363</fpage>&#x02013;<lpage>5372</lpage>. <pub-id pub-id-type="doi">10.1039/C9SC00970A</pub-id>.<pub-id pub-id-type="pmid">31191894</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Fang</surname><given-names>Y.</given-names></name>; <name><surname>Liu</surname><given-names>W.</given-names></name>; <name><surname>Teat</surname><given-names>S. J.</given-names></name>; <name><surname>Dey</surname><given-names>G.</given-names></name>; <name><surname>Shen</surname><given-names>Z. Q.</given-names></name>; <name><surname>An</surname><given-names>L. T.</given-names></name>; <name><surname>Yu</surname><given-names>D. C.</given-names></name>; <name><surname>Wang</surname><given-names>L.</given-names></name>; <name><surname>O&#x02019;Carroll</surname><given-names>D. M.</given-names></name>; <name><surname>Li</surname><given-names>J.</given-names></name>
+<article-title>A Systematic Approach to Achieving
+High Performance Hybrid Lighting
+Phosphors with Excellent Thermal- and Photostability</article-title>. <source>Adv. Funct. Mater.</source>
+<year>2017</year>, <volume>27</volume>, <fpage>1603444</fpage><pub-id pub-id-type="doi">10.1002/adfm.201603444</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Zhu</surname><given-names>H. M.</given-names></name>; <name><surname>Lin</surname><given-names>C. C.</given-names></name>; <name><surname>Luo</surname><given-names>W. Q.</given-names></name>; <name><surname>Shu</surname><given-names>S. T.</given-names></name>; <name><surname>Liu</surname><given-names>Z. G.</given-names></name>; <name><surname>Liu</surname><given-names>Y. R.</given-names></name>; <name><surname>Kong</surname><given-names>J. T.</given-names></name>; <name><surname>Ma</surname><given-names>E.</given-names></name>; <name><surname>Cao</surname><given-names>Y. G.</given-names></name>; <name><surname>Liu</surname><given-names>R. S.</given-names></name>; <name><surname>Chen</surname><given-names>X. Y.</given-names></name>
+<article-title>Highly Efficient Non-Rare-Earth Red
+Emitting Phosphor for Warm White Light-Emitting Diodes</article-title>. <source>Nat. Commun.</source>
+<year>2014</year>, <volume>5</volume>, <fpage>4312</fpage><pub-id pub-id-type="doi">10.1038/ncomms5312</pub-id>.<pub-id pub-id-type="pmid">25002064</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="weblink" id="cit20">GE Highlights
+Next Generation PFS/KSF Technologies at Display Week 2019. Website: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.genewsroom.com/press-releases/ge-highlights-next-generation-pfsksf-technologies-display-week-2019">https://www.genewsroom.com/press-releases/ge-highlights-next-generation-pfsksf-technologies-display-week-2019</uri>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="undeclared" id="cit21"><person-group person-group-type="allauthors"><name><surname>Murphy</surname><given-names>J.</given-names></name></person-group> GE RadiantRed Technology: Market
+Leading Wide Color Gamut Phosphor &#x00026; Path Towards Enabling Next
+Generation Displays; SID/DSSC Business Conference, Display Week 2019,
+San Jose.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Maiman</surname><given-names>T. H.</given-names></name>
+<article-title>Stimulated
+Optical Radiation in Ruby</article-title>. <source>Nature</source>
+<year>1960</year>, <volume>187</volume>, <fpage>493</fpage>&#x02013;<lpage>494</lpage>. <pub-id pub-id-type="doi">10.1038/187493a0</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Nie</surname><given-names>Z. G.</given-names></name>; <name><surname>Lim</surname><given-names>K. S.</given-names></name>; <name><surname>Zhang</surname><given-names>J. H.</given-names></name>; <name><surname>Wang</surname><given-names>X. J.</given-names></name>
+<article-title>Pr<sup>3+1</sup>S<sub>0</sub>&#x02192;Cr<sup>3+</sup> Energy Transfer and ESR Investigation
+in Pr<sup>3+</sup> ad Cr<sup>3+</sup> Activated SrAl<sub>12</sub>O<sub>19</sub> quantum cutting phosphor</article-title>. <source>J. Lumin.</source>
+<year>2009</year>, <volume>129</volume>, <fpage>844</fpage>&#x02013;<lpage>849</lpage>. <pub-id pub-id-type="doi">10.1016/j.jlumin.2009.03.010</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>K&#x000f6;nz</surname><given-names>F.</given-names></name>; <name><surname>Sun</surname><given-names>Y.</given-names></name>; <name><surname>Thiel</surname><given-names>C. W.</given-names></name>; <name><surname>Cone</surname><given-names>R. L.</given-names></name>; <name><surname>Equall</surname><given-names>R. W.</given-names></name>; <name><surname>Hutcheson</surname><given-names>R. L.</given-names></name>; <name><surname>Macfarlane</surname><given-names>R. M.</given-names></name>
+<article-title>Temperature and Concentration Dependence of Optical
+Dephasing Spectral-Hole Lifetime, and Anisotropic Absorption in Eu<sup>3+</sup>: Y<sub>2</sub>SiO<sub>5</sub></article-title>. <source>Phys.
+Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2003</year>, <volume>68</volume>, <fpage>085409</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.68.085109</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Bindu</surname><given-names>H. S.</given-names></name>; <name><surname>Rao</surname><given-names>T. R.</given-names></name>; <name><surname>Raju</surname><given-names>C. L.</given-names></name>
+<article-title>Spectroscopic and
+Radiative Properties
+of Sm<sup>3+</sup> Ions in Zinc Borophosphate Glasses</article-title>. <source>Phys. Scr.</source>
+<year>2015</year>, <volume>90</volume>, <fpage>065802</fpage><pub-id pub-id-type="doi">10.1088/0031-8949/90/6/065802</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Sok&#x000f3;lska</surname><given-names>I.</given-names></name>; <name><surname>K&#x000fc;ck</surname><given-names>S.</given-names></name>
+<article-title>Optical Characterization of Cr<sup>3+</sup> Doped LiTaO<sub>3</sub> Crystals Relevant for Laser Application</article-title>. <source>Spectrochim. Acta, Part A</source>
+<year>1998</year>, <volume>54</volume>, <fpage>1695</fpage>&#x02013;<lpage>1700</lpage>. <pub-id pub-id-type="doi">10.1016/S1386-1425(98)00099-7</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Yu</surname><given-names>D. C.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>; <name><surname>Boon</surname><given-names>W. Q.</given-names></name>; <name><surname>Kieboom</surname><given-names>T.</given-names></name>; <name><surname>Ye</surname><given-names>S.</given-names></name>; <name><surname>Zhang</surname><given-names>Q. Y.</given-names></name>; <name><surname>Meijerink</surname><given-names>A.</given-names></name>
+<article-title>Insights into The Energy Transfer
+Mechanism in Ce<sup>3+</sup>-Yb<sup>3+</sup> Codoped YAG Phosphors</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>2014</year>, <volume>90</volume>, <fpage>165126</fpage><pub-id pub-id-type="doi">10.1103/PhysRevB.90.165126</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Zhang</surname><given-names>Z. Y.</given-names></name>; <name><surname>Grattan</surname><given-names>K. T. V.</given-names></name>; <name><surname>Palmer</surname><given-names>A. W.</given-names></name>
+<article-title>Temperature Dependence
+of Fluorescence
+Lifetime in Cr<sup>3+</sup>-Doped Insulating Crystals</article-title>. <source>Phys. Rev. B: Condens. Matter Mater. Phys.</source>
+<year>1993</year>, <volume>48</volume>, <fpage>7772</fpage>&#x02013;<lpage>7778</lpage>. <pub-id pub-id-type="doi">10.1103/PhysRevB.48.7772</pub-id>.</mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Yamaga</surname><given-names>M.</given-names></name>; <name><surname>Macfarlane</surname><given-names>P. I.</given-names></name>; <name><surname>Henderson</surname><given-names>B.</given-names></name>; <name><surname>Holliday</surname><given-names>K.</given-names></name>; <name><surname>Takeuchi</surname><given-names>H.</given-names></name>; <name><surname>Yosida</surname><given-names>T.</given-names></name>; <name><surname>Fukui</surname><given-names>M.</given-names></name>
+<article-title>Substitutional Disorder and The Ground
+State Spectroscopy of Gallogermanate Crystals</article-title>. <source>J. Phys.: Condens. Matter</source>
+<year>1997</year>, <volume>9</volume>, <fpage>569</fpage>&#x02013;<lpage>578</lpage>. <pub-id pub-id-type="doi">10.1088/0953-8984/9/2/024</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="book" id="cit30"><person-group person-group-type="allauthors"><name><surname>Blasse</surname><given-names>G.</given-names></name>; <name><surname>Grabmaier</surname><given-names>B. C.</given-names></name></person-group><source>Luminescent Materials</source>; <publisher-name>Springer-Verlag</publisher-name>: <publisher-loc>Berlin</publisher-loc>, <year>1994</year>.</mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Shannon</surname><given-names>R. D.</given-names></name>
+<article-title>Revised
+Effective Ionic Radii and Systematic Studies of Interatomic Distances
+in Halides and Chalcogenides</article-title>. <source>Acta Crystallogr.,
+Sect. A: Cryst. Phys., Diffr., Theor. Gen. Crystallogr.</source>
+<year>1976</year>, <volume>32</volume>, <fpage>751</fpage>&#x02013;<lpage>767</lpage>. <pub-id pub-id-type="doi">10.1107/S0567739476001551</pub-id>.</mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Yeh</surname><given-names>C. W.</given-names></name>; <name><surname>Chen</surname><given-names>W. T.</given-names></name>; <name><surname>Liu</surname><given-names>R. S.</given-names></name>; <name><surname>Hu</surname><given-names>S. F.</given-names></name>; <name><surname>Sheu</surname><given-names>H. S.</given-names></name>; <name><surname>Chen</surname><given-names>J. M.</given-names></name>; <name><surname>Hintzen</surname><given-names>H. T.</given-names></name>
+<article-title>Origin
+of Thermal Degradation of
+Sr<sub>2-x</sub>Si<sub>5</sub>N<sub>8</sub>: Eu<sub>x</sub> Phosphors in Air for Light-Emitting Diodes</article-title>. <source>J. Am. Chem. Soc.</source>
+<year>2012</year>, <volume>134</volume>, <fpage>14108</fpage>&#x02013;<lpage>14117</lpage>. <pub-id pub-id-type="doi">10.1021/ja304754b</pub-id>.<pub-id pub-id-type="pmid">22831180</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Spearing</surname><given-names>D. R.</given-names></name>; <name><surname>Stebbins</surname><given-names>J. F.</given-names></name>; <name><surname>Farnan</surname><given-names>I.</given-names></name>
+<article-title>Diffusion and The Dynamics of Displacive
+Phase Transitions in Cryolite (Na<sub>3</sub>AlF<sub>6</sub>) and
+Chiolite (Na<sub>5</sub>Al<sub>3</sub>F<sub>14</sub>): Multi-Nuclear
+NMR Studies</article-title>. <source>Phys. Chem. Miner.</source>
+<year>1994</year>, <volume>21</volume>, <fpage>373</fpage>&#x02013;<lpage>386</lpage>.</mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Wei</surname><given-names>L. L.</given-names></name>; <name><surname>Lin</surname><given-names>C. C.</given-names></name>; <name><surname>Wang</surname><given-names>Y. Y.</given-names></name>; <name><surname>Fang</surname><given-names>M. H.</given-names></name>; <name><surname>Jiao</surname><given-names>H.</given-names></name>; <name><surname>Liu</surname><given-names>R. S.</given-names></name>
+<article-title>Photoluminescent
+Evolution Induced by Structural Transformation
+Through Thermal Treating in The Red Narrow-Band Phosphor K<sub>2</sub>GeF<sub>6</sub>: Mn<sup>4+</sup></article-title>. <source>ACS Appl.
+Mater. Interfaces</source>
+<year>2015</year>, <volume>7</volume>, <fpage>10656</fpage><pub-id pub-id-type="doi">10.1021/acsami.5b02212</pub-id>.<pub-id pub-id-type="pmid">25961499</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Payne</surname><given-names>S. A.</given-names></name>; <name><surname>Chase</surname><given-names>L. L.</given-names></name>; <name><surname>Smith</surname><given-names>L. K.</given-names></name>; <name><surname>Kway</surname><given-names>W. L.</given-names></name>; <name><surname>Newkirk</surname><given-names>H. W.</given-names></name>
+<article-title>Laser Performance
+of LiSrAlF<sub>6</sub>: Cr<sup>3+</sup></article-title>. <source>J.
+Appl. Phys.</source>
+<year>1989</year>, <volume>66</volume>, <fpage>1051</fpage>&#x02013;<lpage>1506</lpage>. <pub-id pub-id-type="doi">10.1063/1.343491</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Liu</surname><given-names>C. Y.</given-names></name>; <name><surname>Xia</surname><given-names>Z. G.</given-names></name>; <name><surname>Chen</surname><given-names>M. Y.</given-names></name>; <name><surname>Molokeev</surname><given-names>M. S.</given-names></name>; <name><surname>Liu</surname><given-names>Q. L.</given-names></name>
+<article-title>Near-Infrared
+Luminescence and Color Tunable Chromophores Based on Cr<sup>3+</sup>-Doped Mullite-Type Bi<sub>2</sub>(Ga,Al)<sub>4</sub>O<sub>9</sub> Solid Solutions</article-title>. <source>Inorg. Chem.</source>
+<year>2015</year>, <volume>54</volume>, <fpage>1876</fpage>&#x02013;<lpage>1882</lpage>. <pub-id pub-id-type="doi">10.1021/ic502779d</pub-id>.<pub-id pub-id-type="pmid">25622046</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Chen</surname><given-names>D. Q.</given-names></name>; <name><surname>Wan</surname><given-names>Z. Y.</given-names></name>; <name><surname>Zhou</surname><given-names>Y.</given-names></name>; <name><surname>Zhou</surname><given-names>X. Z.</given-names></name>; <name><surname>Yu</surname><given-names>Y. L.</given-names></name>; <name><surname>Zhong</surname><given-names>J. S.</given-names></name>; <name><surname>Ding</surname><given-names>M. Y.</given-names></name>; <name><surname>Ji</surname><given-names>Z. G.</given-names></name>
+<article-title>Dual-Phase Glass
+Ceramic: Structure, Dual-Modal Luminescence, and Temperature Sensing
+Behaviors</article-title>. <source>ACS Appl. Mater. Interfaces</source>
+<year>2015</year>, <volume>7</volume>, <fpage>19484</fpage>&#x02013;<lpage>19493</lpage>. <pub-id pub-id-type="doi">10.1021/acsami.5b06036</pub-id>.<pub-id pub-id-type="pmid">26287513</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Malysa</surname><given-names>B.</given-names></name>; <name><surname>Meijerink</surname><given-names>A.</given-names></name>; <name><surname>J&#x000fc;stel</surname><given-names>T.</given-names></name>
+<article-title>Temperature Dependent Cr<sup>3+</sup> Photoluminescence
+in Garnets of The Type <italic>X</italic><sub>3</sub>Sc<sub>2</sub>Ga<sub>3</sub>O<sub>12</sub> (<italic>X</italic> = Lu, Y, Gd, La)</article-title>. <source>J. Lumin.</source>
+<year>2018</year>, <volume>202</volume>, <fpage>523</fpage>&#x02013;<lpage>531</lpage>. <pub-id pub-id-type="doi">10.1016/j.jlumin.2018.05.076</pub-id>.</mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Yu</surname><given-names>D. C.</given-names></name>; <name><surname>Mar&#x000ed;n-Rod&#x000ed;guez</surname><given-names>R.</given-names></name>; <name><surname>Zhang</surname><given-names>Q. Y.</given-names></name>; <name><surname>Meijerink</surname><given-names>A.</given-names></name>; <name><surname>Rabouw</surname><given-names>F. T.</given-names></name>
+<article-title>Multi-Photon Quantum
+Cutting in Gd<sub>2</sub>O<sub>2</sub>S: Tm<sup>3+</sup> to Enhance
+The Photo-Response of Solar
+Cells</article-title>. <source>Light: Sci. Appl.</source>
+<year>2015</year>, <volume>4</volume>, <fpage>e344</fpage><pub-id pub-id-type="doi">10.1038/lsa.2015.117</pub-id>.</mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Torchia</surname><given-names>G. A.</given-names></name>; <name><surname>Schinca</surname><given-names>D.</given-names></name>; <name><surname>Khaidukov</surname><given-names>N. M.</given-names></name>; <name><surname>Tocho</surname><given-names>J. O.</given-names></name>
+<article-title>The Luminescent
+Quantum Efficiency of Cr<sup>3+</sup> Ions in Cs<sub>2</sub>NaAlF<sub>6</sub> Single Crystals</article-title>. <source>Opt. Mater.</source>
+<year>2002</year>, <volume>20</volume>, <fpage>301</fpage>&#x02013;<lpage>304</lpage>. <pub-id pub-id-type="doi">10.1016/S0925-3467(02)00091-5</pub-id>.</mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Wei</surname><given-names>Y.</given-names></name>; <name><surname>Qi</surname><given-names>X. H.</given-names></name>; <name><surname>Xiao</surname><given-names>H.</given-names></name>; <name><surname>Luo</surname><given-names>W. Z.</given-names></name>; <name><surname>Yao</surname><given-names>H.</given-names></name>; <name><surname>Lv</surname><given-names>L. F.</given-names></name>; <name><surname>Li</surname><given-names>G. G.</given-names></name>; <name><surname>Lin</surname><given-names>J.</given-names></name>
+<article-title>Site-Preferential Occupancy
+Induced Photoluminescence Tuning in (Ca,Ba)<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>Cl:Eu<sup>2+</sup> Phosphors</article-title>. <source>RSC Adv.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>43771</fpage>&#x02013;<lpage>43779</lpage>. <pub-id pub-id-type="doi">10.1039/C6RA08053G</pub-id>.</mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Dorenbos</surname><given-names>P.</given-names></name>
+<article-title>A Review on
+How Lanthanide Impurity Levels Change With Chemistry and Structure
+of Inorganic Compounds</article-title>. <source>ECS J. Solid State Sci.
+Technol.</source>
+<year>2013</year>, <volume>2</volume>, <fpage>R3001</fpage>&#x02013;<lpage>R3011</lpage>. <pub-id pub-id-type="doi">10.1149/2.001302jss</pub-id>.</mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Pust</surname><given-names>P.</given-names></name>; <name><surname>Weiler</surname><given-names>V.</given-names></name>; <name><surname>Hecht</surname><given-names>C.</given-names></name>; <name><surname>T&#x000fc;cks</surname><given-names>A.</given-names></name>; <name><surname>Wochnik</surname><given-names>A. S.</given-names></name>; <name><surname>Hen&#x003b2;</surname><given-names>A.-K.</given-names></name>; <name><surname>Wiechert</surname><given-names>D.</given-names></name>; <name><surname>Scheu</surname><given-names>C.</given-names></name>; <name><surname>Schmidt</surname><given-names>P. J.</given-names></name>; <name><surname>Schnick</surname><given-names>W.</given-names></name>
+<article-title>Narrow-Band Red-Emitting Sr[LiAl<sub>3</sub>N<sub>4</sub>]: Eu<sup>2+</sup> as A Next-Generation LED-Phosphor
+Material</article-title>. <source>Nat. Mater.</source>
+<year>2014</year>, <volume>13</volume>, <fpage>891</fpage>&#x02013;<lpage>896</lpage>. <pub-id pub-id-type="doi">10.1038/nmat4012</pub-id>.<pub-id pub-id-type="pmid">24952748</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Kim</surname><given-names>Y. H.</given-names></name>; <name><surname>Arunkumar</surname><given-names>P.</given-names></name>; <name><surname>Kim</surname><given-names>B. Y.</given-names></name>; <name><surname>Unithrattil</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>E.</given-names></name>; <name><surname>Moon</surname><given-names>S.-H.</given-names></name>; <name><surname>Hyun</surname><given-names>J. Y.</given-names></name>; <name><surname>Kim</surname><given-names>K. H.</given-names></name>; <name><surname>Lee</surname><given-names>D.</given-names></name>; <name><surname>Lee</surname><given-names>J.-S.</given-names></name>; <name><surname>Im</surname><given-names>W. B.</given-names></name>
+<article-title>A Zero-Thermal-Quenching Phosphor</article-title>. <source>Nat. Mater.</source>
+<year>2017</year>, <volume>16</volume>, <fpage>543</fpage>&#x02013;<lpage>550</lpage>. <pub-id pub-id-type="doi">10.1038/nmat4843</pub-id>.<pub-id pub-id-type="pmid">28191898</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="weblink" id="cit45">#960000
+Color Hex. Website: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.color-hex.com/color/960000">http://www.color-hex.com/color/960000</uri>.</mixed-citation></ref></ref-list></back></article>

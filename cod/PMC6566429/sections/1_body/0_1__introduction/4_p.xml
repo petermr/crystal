@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>SAR/ISAR systems acquire the target image through relative motion between the radar and target [
+ <xref rid="B17-sensors-19-02330" ref-type="bibr">17</xref>,
+ <xref rid="B18-sensors-19-02330" ref-type="bibr">18</xref>,
+ <xref rid="B19-sensors-19-02330" ref-type="bibr">19</xref>,
+ <xref rid="B20-sensors-19-02330" ref-type="bibr">20</xref>]. The resolution depends on the bandwidth of sweep signal and the length or relative rotation angle of synthetic aperture. The Research Institute for High Frequency Physics and Radar Techniques (FGAN-FHR, Dortmund, Germany) has performed serious studies on SAR/ISAR imaging systems in the THz band. In 2007, they presented a 0.22 THz terahertz imaging radar system COBRA-220 which realized a 1.8 cm resolution at a distance of 135 m [
+ <xref rid="B21-sensors-19-02330" ref-type="bibr">21</xref>]. In 2013 and 2015, they continuously developed a 0.3 THz system and carried out SAR/ISAR imaging experiments on complex targets such as car and bicycle [
+ <xref rid="B4-sensors-19-02330" ref-type="bibr">4</xref>,
+ <xref rid="B22-sensors-19-02330" ref-type="bibr">22</xref>]. The system bandwidth is 40 GHz which realizes a 3.75 mm resolution. In 2012, the US Defense Advanced Research Projects Agency (DARPA, Arlington, Virginia, USA) presented the ViSAR program. The program aims to achieve moving targets tracking and imaging with video frame rate. They have carried out the ViSAR experiments with a 0.235 THz one-input four-output system, and obtained the real-time high-resolution SAR image of moving targets [
+ <xref rid="B23-sensors-19-02330" ref-type="bibr">23</xref>]. Beside the above two forerunners, other organizations also started to develop SAR/ISAR systems and many remarkable achievements had been made [
+ <xref rid="B5-sensors-19-02330" ref-type="bibr">5</xref>,
+ <xref rid="B24-sensors-19-02330" ref-type="bibr">24</xref>,
+ <xref rid="B25-sensors-19-02330" ref-type="bibr">25</xref>,
+ <xref rid="B26-sensors-19-02330" ref-type="bibr">26</xref>,
+ <xref rid="B27-sensors-19-02330" ref-type="bibr">27</xref>,
+ <xref rid="B28-sensors-19-02330" ref-type="bibr">28</xref>]. Compared to the other THz radar systems, the SAR/ISAR system has a relative simple system structure and low hardware cost, and has no limitation of target distance. However, The SAR/ISAR system can only capture the projected two-dimensional (2-D) characteristics of the target, which lose the altitude information.
+</p>

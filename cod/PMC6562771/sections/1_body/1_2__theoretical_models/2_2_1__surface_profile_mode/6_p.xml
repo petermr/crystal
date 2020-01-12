@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As demonstrated in 
+ <xref ref-type="fig" rid="micromachines-10-00288-f003">Figure 3</xref>a, due to the existence of the minimum undeformed chip thickness, the work material below the stagnant point 
+ <italic>F</italic> undergoes an extensive ploughing and rubbing process, which is a type of plastic deformation without the formation of continuous cutting chips, and further results in some of the work material flowing to the side of the turning mark [
+ <xref rid="B38-micromachines-10-00288" ref-type="bibr">38</xref>,
+ <xref rid="B39-micromachines-10-00288" ref-type="bibr">39</xref>]. Subsequently, the phenomena of material plastic side flow and material spring back occur and the machined surface finally forms [
+ <xref rid="B40-micromachines-10-00288" ref-type="bibr">40</xref>,
+ <xref rid="B41-micromachines-10-00288" ref-type="bibr">41</xref>]. To calculate the material spring back, Arcona et al. once performed systematic experiments and proposed an empirical model, which demonstrated that the amount of material spring back in metal cutting can be expressed as a proportional function of tool cutting edge radius 
+ <italic>r</italic>
+ <sub>n</sub>, the ratio of work material hardness and Yong’s modulus (
+ <italic>H</italic>/
+ <italic>E</italic>) [
+ <xref rid="B42-micromachines-10-00288" ref-type="bibr">42</xref>,
+ <xref rid="B43-micromachines-10-00288" ref-type="bibr">43</xref>]. Furthermore, to study the material side flow behavior during the scratch test, Jardret et al. proposed a linear relationship between the height component 
+ <italic>h</italic>
+ <sub>a</sub> induced by the material side flow and the contact depth 
+ <italic>h</italic> as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00288-f003">Figure 3</xref>b, and the expression is given by [
+ <xref rid="B44-micromachines-10-00288" ref-type="bibr">44</xref>] 
+ <disp-formula id="FD2-micromachines-10-00288">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>p</mi>
+      <mi mathvariant="normal">e</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>h</mi>
+        <mi mathvariant="normal">a</mi>
+       </msub>
+      </mrow>
+      <mi>h</mi>
+     </mfrac>
+     <mo>=</mo>
+     <msub>
+      <mi>k</mi>
+      <mn>1</mn>
+     </msub>
+     <mi>ln</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mi>E</mi>
+         <mi>cot</mi>
+         <msub>
+          <mi>θ</mi>
+          <mi>s</mi>
+         </msub>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>σ</mi>
+          <mi>y</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>+</mo>
+     <msub>
+      <mi>k</mi>
+      <mn>2</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>p</italic>
+ <sub>e</sub> is the elastic recovery rate, i.e., the ratio of 
+ <italic>h</italic>
+ <sub>a</sub> to 
+ <italic>h</italic>; 
+ <italic>θ
+  <sub>s</sub>
+ </italic> is the semi-apical angle of the indenter; 
+ <italic>E</italic> and 
+ <italic>σ
+  <sub>y</sub>
+ </italic> are the Young’s modulus and the yield stress of the work material; 
+ <italic>k</italic>
+ <sub>1</sub> and 
+ <italic>k</italic>
+ <sub>2</sub> are the corresponding coefficients acquired from the fitting process, respectively. 
+</p>

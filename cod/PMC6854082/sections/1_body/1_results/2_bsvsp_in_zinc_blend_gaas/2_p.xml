@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">The vanishing spin polarizations can be rationalized by considering the band symmetry properties. Along the Λ symmetry line, the little point group is 
+ <italic>C</italic>
+ <sub>3v</sub>. According to our previous analysis, 
+ <italic>C</italic>
+ <sub>3v</sub> is classified as non-pseudo-polar. Therefore, the 
+ <italic>x</italic>, 
+ <italic>y</italic>, and 
+ <italic>z</italic> components of spin polarizations must vanish. Here, we illustrate why the spin polarization along the symmetry line Λ should vanish in another clear way. Adopting a 
+ <italic>xyz</italic>-coordinate system with the local z-axis along the [111] direction of the cubic cell of bulk GaAs, the point group 
+ <italic>C</italic>
+ <sub>3v</sub> has six symmetry operations, including a mirror symmetry 
+ <italic>M</italic>
+ <sub>1</sub> which consists of reflection about the 
+ <italic>y</italic> = 0 plane
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$M_1:\left( {S_x,S_y,S_z} \right) \to \left( { - S_x,S_y, - S_z} \right),$$\end{document}</tex-math>
+   <math id="M24">
+    <msub>
+     <mrow>
+      <mi>M</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mo>:</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>→</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_13197_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>and a three-fold rotation 
+ <italic>C</italic>
+ <sub>3z</sub> which consists of π/3 rotation around the 
+ <italic>z</italic> axis:
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$C_{3z}:\left( {S_x,S_y,S_z} \right) \to \left( { - \frac{1}{2}S_x - \frac{{\sqrt 3 }}{2}S_y,\frac{{\sqrt 3 }}{2}S_x - \frac{1}{2}S_y,S_z} \right),$$\end{document}</tex-math>
+   <math id="M26">
+    <msub>
+     <mrow>
+      <mi>C</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+      <mi>z</mi>
+     </mrow>
+    </msub>
+    <mo>:</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>→</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msqrt>
+         <mn>3</mn>
+        </msqrt>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <mfrac>
+       <mrow>
+        <msqrt>
+         <mn>3</mn>
+        </msqrt>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+      </msub>
+      <mo>,</mo>
+      <msub>
+       <mrow>
+        <mi>S</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_13197_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where, 
+ <italic>S</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>, 
+ <italic>S</italic>
+ <sub>
+  <italic>y</italic>
+ </sub>, and 
+ <italic>S</italic>
+ <sub>
+  <italic>z</italic>
+ </sub> are the cartesian components of the spin polarization. The reflection 
+ <italic>M</italic>
+ <sub>1</sub> ensures the vanishing 
+ <italic>x</italic> and 
+ <italic>z</italic> components of spin polarizations, while the three-fold screw rotation 
+ <italic>C</italic>
+ <sub>3z</sub> ensures the vanishing 
+ <italic>x</italic> and 
+ <italic>y</italic> components of spin polarizations. Overall, the spin polarization should be zero.
+</p>

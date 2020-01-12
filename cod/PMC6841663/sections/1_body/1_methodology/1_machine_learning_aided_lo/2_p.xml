@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">Note that we do not use NN, just use random forest. For two-dimensional problems, the NN has proven to be a powerful method for machine learning: it does not need order parameters for classifying some kinds of phases/structures. However, from the “curse of dimensionality”, there is a high possibility that the NN becomes computationally expensive for three dimensional problems. Therefore, we developed the combination of supervised ML and order parameters rather than using NN.</p>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list list-type="simple">
+ <list-item>
+  <label>(1)</label>
+  <p>For the surface profile model corresponding to one feed, in addition to the known factors, such as feed rate per revolution and tool corner nose radius, the tool edge waviness and material dependent factors including the material spring back and material plastic side flow should also be given enough attention. Furthermore, the influence mechanism and the corresponding modeling methods of the other factors, such as depth of cut and spindle speed, are deserved to further clarified and subsequently integrated into the surface topography model.</p>
+ </list-item>
+ <list-item>
+  <label>(2)</label>
+  <p>For the surface topography in the radial direction, the ‘trim principle’ is extensively employed in the calculation of the coordinate values in the height direction. Furthermore, researchers have made great effort on the impact of vibration between diamond tool and workpiece, and the expression of harmonic vibration develops from the mono-frequency vibration to the multi-frequency vibration and multi-direction vibration. Herein, to improve the prediction accuracy, the real-time vibration signal and error components related to machine tool as well as cutting tool are recommended to be cooperated into the future surface topography model.</p>
+ </list-item>
+ <list-item>
+  <label>(3)</label>
+  <p>Defects in the work material matrix have a great impact on the final achieved surface topography in diamond turning process, which is closely associated with work material solidification process. For the single crystal material, the influence of the grain orientation should be further taken into account. For the polycrystalline work material, different experimental results are observed for the aluminium alloy and copper material when considering the grain boundary. Hard particles within the polycrystalline work material are responsible for the scratches and raised structures on the machined surface. Furthermore, influencing factors in relation to the ambient environment and the validation for the prediction accuracy should also be concerned on the surface topography model.</p>
+ </list-item>
+</list>

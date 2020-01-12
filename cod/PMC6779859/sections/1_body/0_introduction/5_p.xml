@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The successful implementation of 
+ <bold>1</bold> in a device devoted to perform generic quantum algorithms will require close enough copies of 
+ <bold>1</bold> to allow inter-qubit communication, but with a weak enough magnetic noise to keep quantum information -either stored or under processing- safe. The timescale in which this information -encoded in the form of superpositions between pairs of energy levels- is safe from decoherence is characterized by the so-called phase memory time 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>. This characteristic time can be determined by means of EPR experiments (Schweiger and Jeschke, 
+ <xref rid="B21" ref-type="bibr">2001</xref>), and of course, should be larger than the execution time of the algorithm. In these experiments, the in-plane magnetization decay 
+ <italic>M</italic>
+ <sub>⊥</sub>(
+ <italic>t</italic>) of the sample is measured as a function of time. The phase memory time 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> is routinely extracted by fitting the plot 
+ <italic>M</italic>
+ <sub>⊥</sub>(
+ <italic>t</italic>) vs. 
+ <italic>t</italic> to an exponential function of the form exp(−
+ <italic>t</italic>/
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>). Thus, one of the current key goals is to design magnetic molecules with long enough phase memory times.
+</p>

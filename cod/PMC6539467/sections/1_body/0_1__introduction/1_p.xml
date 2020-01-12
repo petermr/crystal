@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The 
+ <sup>1</sup>H chemical shielding anisotropy (CSA) is expected to be one of the SSNMR parameters that should be particularly useful in describing local structural and dynamical effects experienced by the investigated protons [
+ <xref rid="B1-molecules-24-01731" ref-type="bibr">1</xref>]. However, accurate experimental determination of the CSA is difficult (in a typical system, the dipolar 
+ <sup>1</sup>H–
+ <sup>1</sup>H interactions are present which are much stronger than the CSA). Most of the 
+ <sup>1</sup>H CSA data was obtained by analyzing the rotation patterns from the single-crystal (SC) measurements performed with the decoupling of 
+ <sup>1</sup>H–
+ <sup>1</sup>H dipolar interactions [
+ <xref rid="B2-molecules-24-01731" ref-type="bibr">2</xref>]. Only relatively recently an important alternative to tedious and obviously limited SC experiments appeared, when it became possible to apply the magic-angle spinning (MAS) SSNMR technique with fast rotation rates to powder samples and reliably assess the 
+ <sup>1</sup>H CSA parameters (several other options are surveyed in Reference [
+ <xref rid="B3-molecules-24-01731" ref-type="bibr">3</xref>], which also mentions the solution NMR studies of the 
+ <sup>1</sup>H CSA). The 
+ <sup>1</sup>H CSA data gleaned from this type of the MAS SSNMR measurements during the 2007–ca. mid-2017 period were summarized in Reference [
+ <xref rid="B4-molecules-24-01731" ref-type="bibr">4</xref>]. Later, the ultrafast MAS experiments on pharmaceutically active hydrates [
+ <xref rid="B5-molecules-24-01731" ref-type="bibr">5</xref>] and small peptides [
+ <xref rid="B6-molecules-24-01731" ref-type="bibr">6</xref>] also led to the 
+ <sup>1</sup>H CSA values. It should be noted that above-mentioned SC measurements directly characterize the full 
+ <sup>1</sup>H-NMR chemical shielding tensor, 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <msup>
+     <mi>σ</mi>
+     <mo>⃡</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, in terms of its three eigenvalues, 
+ <inline-formula>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>11</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm3">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>22</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="mm5">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>11</mn>
+      </mrow>
+     </msub>
+     <mo>≤</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>22</mn>
+      </mrow>
+     </msub>
+     <mo>≤</mo>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the eigenvectors, 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>1</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>2</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mrow>
+       <msub>
+        <mi>ξ</mi>
+        <mn>3</mn>
+       </msub>
+      </mrow>
+      <mo stretchy="true">→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, associated with them (the eigenvectors are then used to describe an orientation of 
+ <inline-formula>
+  <math id="mm10">
+   <mrow>
+    <msup>
+     <mi>σ</mi>
+     <mo>⃡</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> in the reference frame of an investigated crystal). However, the tensorial information from the MAS experiments performed with high spinning rates is available only through fitting of the CSA recoupled line shapes, with the implementation of the underlying theory currently developed in terms of the anisotropy parameter, 
+ <inline-formula>
+  <math id="mm11">
+   <mrow>
+    <mi>ζ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi>ζ</mi>
+     <mo>=</mo>
+     <mo> </mo>
+     <msub>
+      <mi>σ</mi>
+      <mrow>
+       <mn>33</mn>
+      </mrow>
+     </msub>
+     <mo>−</mo>
+     <msup>
+      <mi>σ</mi>
+      <mrow>
+       <mi>iso</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mrow>
+       <mi>iso</mi>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the isotropic chemical shielding, 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mrow>
+       <mi>iso</mi>
+      </mrow>
+     </msup>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>3</mn>
+       <mfenced>
+        <mrow>
+         <msub>
+          <mi>σ</mi>
+          <mrow>
+           <mn>11</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <msub>
+          <mi>σ</mi>
+          <mrow>
+           <mn>22</mn>
+          </mrow>
+         </msub>
+         <mo>+</mo>
+         <msub>
+          <mi>σ</mi>
+          <mrow>
+           <mn>33</mn>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and of the asymmetry factor, 
+ <inline-formula>
+  <math id="mm15">
+   <mrow>
+    <mi>η</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <mi>η</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mfenced>
+        <mrow>
+         <msub>
+          <mi>σ</mi>
+          <mrow>
+           <mn>22</mn>
+          </mrow>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>σ</mi>
+          <mrow>
+           <mn>11</mn>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+      <mi>ζ</mi>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. An evaluation of the simulated spectra yields only an absolute value, 
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mrow>
+     <mfenced close="|" open="|">
+      <mi>ζ</mi>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, of the anisotropy 
+ <inline-formula>
+  <math id="mm18">
+   <mrow>
+    <mi>ζ</mi>
+   </mrow>
+  </math>
+ </inline-formula> (due to symmetry properties of the involved Hamiltonian [
+ <xref rid="B7-molecules-24-01731" ref-type="bibr">7</xref>]), while uncertainty in the 
+ <inline-formula>
+  <math id="mm19">
+   <mrow>
+    <mi>η</mi>
+   </mrow>
+  </math>
+ </inline-formula> data can sometimes be quite large (several tenths of a value which is between 0 and 1, see Table 2 in Reference [
+ <xref rid="B3-molecules-24-01731" ref-type="bibr">3</xref>]). It is thus of keen interest to employ the results of the MAS and of generally more reliable SC SSNMR measurements and to establish accuracy limits of state-of-the-art quantum chemical methods when applied to the prediction of the 
+ <sup>1</sup>H CSA in molecular crystals. This confrontation of theory with two types of experiments not only provides an assessment of the computational methods, but it also enables to address possible uncertainties in the MAS SSNMR results. In this investigation, the plane-wave (PW) density functional theory (DFT) is combined with the gauge-including projector augmented-wave (GIPAW) [
+ <xref rid="B8-molecules-24-01731" ref-type="bibr">8</xref>,
+ <xref rid="B9-molecules-24-01731" ref-type="bibr">9</xref>] method in order to reproduce two types of experimental data. The first type concerns the CSA of protons in maleic and malonic acids accurately characterized by the SC SSNMR experiments long ago by Haeberlen et al. [
+ <xref rid="B10-molecules-24-01731" ref-type="bibr">10</xref>,
+ <xref rid="B11-molecules-24-01731" ref-type="bibr">11</xref>]. The second type pertains to the frequently studied L-histidine hydrochloride monohydrate, of which precisely measured isotropic {
+ <sup>1</sup>H, 
+ <sup>13</sup>C, 
+ <sup>15</sup>N} [
+ <xref rid="B12-molecules-24-01731" ref-type="bibr">12</xref>] and 
+ <sup>15</sup>N anisotropic [
+ <xref rid="B13-molecules-24-01731" ref-type="bibr">13</xref>] data are considered together with the 
+ <sup>1</sup>H CSA from the MAS experiments [
+ <xref rid="B3-molecules-24-01731" ref-type="bibr">3</xref>,
+ <xref rid="B14-molecules-24-01731" ref-type="bibr">14</xref>]. In addition, the 
+ <sup>1</sup>H CSA information obtained for citric acid from the ultrafast MAS three-dimensional (3D) correlations is addressed [
+ <xref rid="B15-molecules-24-01731" ref-type="bibr">15</xref>].
+</p>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The quantitative analysis, and correct interpretation, of these processes has been assisted by the use of 
+ <italic>ab initio</italic> calculations of the surface structure and electronic properties. Anatase, as other reducible oxides, represents a challenge for standard implementations of DFT. Generalized gradient approximations (GGA) functionals often underestimate the band gap (Reshak et al., 
+ <xref rid="B44" ref-type="bibr">2010</xref>) and provide a poor description of the localized gap states which are essentially lattice Ti
+ <sup>4+</sup>(3
+ <italic>d</italic>
+ <sup>0</sup>) ions reduced to Ti
+ <sup>3+</sup>(3
+ <italic>d</italic>
+ <sup>1</sup>) ions (Wang and Doren, 
+ <xref rid="B51" ref-type="bibr">2005</xref>). It has been previously shown that the use of hybrid exchange functionals (where a proportion of Fock exchange is included in the exchange functional) provides a qualitatively correct description of the structure, energetics and electronic properties for many different materials, and in particular, for transition metal oxides (Patel et al., 
+ <xref rid="B38" ref-type="bibr">2012</xref>, 
+ <xref rid="B39" ref-type="bibr">2014</xref>; Sanches et al., 
+ <xref rid="B45" ref-type="bibr">2014</xref>). However, in plane-wave codes, the use of hybrid exchange functionals increases dramatically the computational cost to an extent that prevents studies of complex geometries. For this reason, it is common to use the so-called DFT+U (Anisimov et al., 
+ <xref rid="B2" ref-type="bibr">1993</xref>; Stetsovych et al., 
+ <xref rid="B48" ref-type="bibr">2015</xref>) approximation, where LDA or GGA functionals are supplemented by an on-site local repulsion term U, representing the Coulombic self-interaction of the Ti 3
+ <italic>d</italic> orbitals. This term partially corrects for the electronic self-interaction error inherent in local approximations to DFT and thus provides a more reliable, if somewhat 
+ <italic>ad hoc</italic>, description of the electron localization around Ti
+ <sup>3+</sup> ions.
+</p>

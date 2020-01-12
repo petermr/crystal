@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to understand the problem of overlapping signals we recall some essentials of ToF recording. The 
+ <italic>kinetic energy in the drift section</italic>
+ <italic>E</italic>
+ <sub>d</sub> is given by
+ <disp-formula id="fd3">
+  <graphic xlink:href="s-26-01996-efd3.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>for the condition
+ <disp-formula id="fdu1">
+  <graphic xlink:href="s-26-01996-efd4.jpg" mimetype="image" mime-subtype="gif" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>where Φ
+ <sub>sa</sub> is the work function of the sample and ΔΦ the work function difference between sample and drift tube; 
+ <italic>U</italic>
+ <sub>sa</sub> and 
+ <italic>U</italic>
+ <sub>d</sub> are the voltages at the sample and the drift tube. Then, only electrons in a band between 
+ <italic>E</italic>
+ <sub>F</sub> and 
+ <italic>E</italic>
+ <sub>B</sub> = 
+ <italic>eU</italic>
+ <sub>d</sub> are transmitted, with the topmost 8 eV being well focused. By using another lens as high-pass cut-off it is possible to restrict the energy interval further, as described by Tusche 
+ <italic>et al.</italic> (2016
+ <xref ref-type="bibr" rid="bb75"> ▸</xref>).
+</p>

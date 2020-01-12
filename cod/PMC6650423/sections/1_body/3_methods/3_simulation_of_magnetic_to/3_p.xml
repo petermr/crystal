@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par24">Next, we discuss the effect of the misalignment of the magnetic field with respect to the sample plane (field misalignment) as a mixing of the out-of-plane torque components occurs only when both mount misalignment and field misalignment are present. Although this field misalignment can be eliminated in our experiment by using 2D vector magnet (
+ <italic>θ</italic>
+ <sub>0</sub> &lt; 0.1°), here we hypothetically assume that the magnetic field is applied in a plane with a much larger misalignment of 
+ <italic>θ</italic>
+ <sub>0</sub> = 5°, which is tilted in an arbitrary 
+ <italic>ϕ</italic>
+ <sub>0</sub> direction (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">6b</xref>). The field angle from the 
+ <italic>ab</italic> plane is then given by Δ
+ <italic>θ</italic> = 
+ <italic>θ</italic>
+ <sub>0</sub> cos(
+ <italic>ϕ</italic> − 
+ <italic>ϕ</italic>
+ <sub>0</sub>). Below we calculate the expected torque response, 
+ <italic>τ</italic>
+ <sup>lever</sup>, as a function of the field misalignment (
+ <italic>θ</italic>, 
+ <italic>ϕ</italic>) for the following cases assuming that the mount misalignment of the sample with respect to the lever is as large as the apparent misalignment from the 
+ <italic>XY</italic> plane found at 80 K (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3b</xref>, 
+ <italic>Θ</italic>
+ <sub>
+  <italic>m</italic>
+ </sub> = −11.9° and 
+ <italic>Φ</italic>
+ <sub>0</sub> = 109°).
+ <list list-type="simple">
+  <list-item>
+   <label>(A)</label>
+   <p id="Par25">The system preserves the fourfold rotational symmetry, i.e., 
+    <italic>χ</italic>
+    <sub>
+     <italic>ab</italic>
+    </sub> = 0. Thus, when we rotate the magnetic field, only the out-of-plane component of the magnetic torque contributes to the signal (Supplementary Fig. 
+    <xref rid="MOESM1" ref-type="media">6c, d</xref>).
+   </p>
+  </list-item>
+  <list-item>
+   <label>(B)</label>
+   <p id="Par26">The system breaks rotational symmetry, i.e., 
+    <italic>χ</italic>
+    <sub>
+     <italic>ab</italic>
+    </sub> ≠ 0. By using 
+    <italic>χ</italic>
+    <sub>
+     <italic>ab</italic>
+    </sub> shown in Fig. 
+    <xref rid="Fig4" ref-type="fig">4</xref>, we calculate the torque response for the ideal case without mount misalignment between the sample and the cantilever (Supplementary Fig. 
+    <xref rid="MOESM1" ref-type="media">6e, f</xref>).
+   </p>
+  </list-item>
+  <list-item>
+   <label>(C)</label>
+   <p id="Par27">The system breaks rotational symmetry, i.e., 
+    <italic>χ</italic>
+    <sub>
+     <italic>ab</italic>
+    </sub> ≠ 0. We also include an apparent mount misalignment of the sample with respect to the lever (Supplementary Fig. 
+    <xref rid="MOESM1" ref-type="media">6g, h</xref>).
+   </p>
+  </list-item>
+ </list>
+</p>

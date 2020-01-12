@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">The possibility of the ferroelectric switching hinges on how much the 
+ <italic>Q</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub> mode can be amplified along the desired direction for the AB ↔ AC stacking change by the coupling with 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub>. Here, the anharmonic coupling property was investigated from the potential energy surfaces as a function of normal-mode coordinates. The potential energy surfaces 
+ <italic>V</italic>(
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub>, 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSx</italic>
+ </sub>, 
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub>) for each 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRy</italic>
+ </sub> were calculated using DFT on 21 × 21 × 23 points with steps of 0.82 Å
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M26">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> for 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> and 1.63 Å
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sqrt{\mu }$$\end{document}</tex-math>
+   <math id="M28">
+    <msqrt>
+     <mi>μ</mi>
+    </msqrt>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> for 
+ <italic>Q</italic>
+ <sub>
+  <italic>LS</italic>
+ </sub> modes. The energy surface was then fitted to the polynomial function as
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$V({Q}_{IR},{Q}_{LSx},{Q}_{LSy})=\sum _{\{l,m,n\}}{c}_{lmn}{Q}_{IR}^{l}{Q}_{LSx}^{m}{Q}_{LSy}^{n}$$\end{document}</tex-math>
+   <math id="M30" display="block">
+    <mi>V</mi>
+    <mo stretchy="false">(</mo>
+    <msub>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+      <mi>R</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+    <msub>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mrow>
+     <munder>
+      <mo>∑</mo>
+      <mrow>
+       <mo stretchy="false">{</mo>
+       <mi>l</mi>
+       <mo>,</mo>
+       <mi>m</mi>
+       <mo>,</mo>
+       <mi>n</mi>
+       <mo stretchy="false">}</mo>
+      </mrow>
+     </munder>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>c</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+        <mi>m</mi>
+        <mi>n</mi>
+       </mrow>
+      </msub>
+      <msubsup>
+       <mrow>
+        <mi>Q</mi>
+       </mrow>
+       <mrow>
+        <mi>I</mi>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>Q</mi>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+        <mi>S</mi>
+        <mi>x</mi>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>Q</mi>
+       </mrow>
+       <mrow>
+        <mi>L</mi>
+        <mi>S</mi>
+        <mi>y</mi>
+       </mrow>
+       <mrow>
+        <mi>n</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mrow>
+   </math>
+   <graphic xlink:href="41598_2019_50293_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>Q</italic>
+ <sub>
+  <italic>IR</italic>
+ </sub> is either 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> or 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRy</italic>
+ </sub>, and 
+ <italic>c</italic>
+ <sub>
+  <italic>lmn</italic>
+ </sub> is the anharmonic coefficient, and 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${Q}_{IR}^{l}$$\end{document}</tex-math>
+   <math id="M32">
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${Q}_{LSx}^{m}\,\mathrm{and}\,{Q}_{LSy}^{n}$$\end{document}</tex-math>
+   <math id="M34">
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+    </msubsup>
+    <mspace width="0.25em"/>
+    <mrow>
+     <mi>and</mi>
+    </mrow>
+    <mspace width="0.25em"/>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> denote the 
+ <italic>l</italic>, 
+ <italic>m</italic> and 
+ <italic>n</italic> powers of the normal-mode coordinates, respectively. Using this expression, we analyze the effect of the irradiating light pulse with the linear polarization along the x- or y-axis, thus exciting 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub> or 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRy</italic>
+ </sub> mode, respectively. Note that the normal-modes in the cartesian basis are classified into the odd parity modes (
+ <italic>Q</italic>
+ <sub>
+  <italic>LSx</italic>
+ </sub> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRx</italic>
+ </sub>) and even parity modes (
+ <italic>Q</italic>
+ <sub>
+  <italic>LSy</italic>
+ </sub> and 
+ <italic>Q</italic>
+ <sub>
+  <italic>IRy</italic>
+ </sub>
+ <underline>)</underline> under the mirror symmetry 
+ <italic>σ</italic>
+ <sub>1</sub> shown in Fig. 
+ <xref rid="Fig2" ref-type="fig">2a</xref>. The mirror parity imposes the polarization-dependent selection rule on 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${Q}_{IRx}^{l}{Q}_{LSx}^{m}{Q}_{LSy}^{n}$$\end{document}</tex-math>
+   <math id="M36">
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+      <mi>R</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msubsup>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+    </msubsup>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$({Q}_{IRy}^{l}{Q}_{LSx}^{m}{Q}_{LSy}^{n})$$\end{document}</tex-math>
+   <math id="M38">
+    <mo stretchy="false">(</mo>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>I</mi>
+      <mi>R</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msubsup>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>x</mi>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+    </msubsup>
+    <msubsup>
+     <mrow>
+      <mi>Q</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mi>S</mi>
+      <mi>y</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msubsup>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_50293_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> coupling such that 
+ <italic>c</italic>
+ <sub>
+  <italic>lmn</italic>
+ </sub> is nonzero only for 
+ <italic>l</italic> + 
+ <italic>m</italic> = even (
+ <italic>m</italic> = even). The terms were included up to 15
+ <sup>th</sup> power terms (
+ <italic>l</italic> + 
+ <italic>m</italic> + 
+ <italic>n</italic> = 15) in the polynomial function, which fits the DFT potential energy surface accurately. The representative coupling terms are displayed in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>.
+</p>

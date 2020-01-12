@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">For assessing cooling rates, we determine a rough estimate of the time equivalent to one MMC passage over all atoms (referred to as lattice-step). A system of N = 2000 potassium atoms was first NPT-equilibrated at 337 K and 101.325 kPa. Next, six NVT runs at the same temperature were run from different initial configurations to collect the atomic mean square displacement (MSD) as a function of lattice-steps. From the 
+ <inline-formula id="IEq3">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{M}}{\rm{S}}{\rm{D}}\,({\rm{t}})={\sum }_{m=1}^{6}\,{\sum }_{i=1}^{N}$$\end{document}</tex-math>
+   <math id="M8">
+    <mrow>
+     <mrow>
+      <mi mathvariant="normal">M</mi>
+      <mi mathvariant="normal">S</mi>
+      <mi mathvariant="normal">D</mi>
+     </mrow>
+    </mrow>
+    <mspace width="thinmathspace"/>
+    <mo stretchy="false">(</mo>
+    <mrow>
+     <mrow>
+      <mi mathvariant="normal">t</mi>
+     </mrow>
+    </mrow>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <msubsup>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>m</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>6</mn>
+     </mrow>
+    </msubsup>
+    <mspace width="thinmathspace"/>
+    <msubsup>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mo>=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi>N</mi>
+     </mrow>
+    </msubsup>
+   </math>
+   <inline-graphic xlink:href="41598_2018_36574_Article_IEq3.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${[{{\bf{r}}}_{{\bf{i}}}(t)-{{\bf{r}}}_{{\bf{i}}}{({t}_{o})}_{m}]}^{2}/(6N)=6{\rm{t}}{{\rm{D}}}_{self}$$\end{document}</tex-math>
+   <math id="M10">
+    <msup>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <msub>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mi mathvariant="bold">r</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mi mathvariant="bold">i</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msub>
+      <mo stretchy="false">(</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mi mathvariant="bold">r</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mi mathvariant="bold">i</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <msub>
+         <mrow>
+          <mi>t</mi>
+         </mrow>
+         <mrow>
+          <mi>o</mi>
+         </mrow>
+        </msub>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mrow>
+        <mi>m</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mrow>
+     <mo>/</mo>
+    </mrow>
+    <mo stretchy="false">(</mo>
+    <mn>6</mn>
+    <mi>N</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mn>6</mn>
+    <mrow>
+     <mrow>
+      <mi mathvariant="normal">t</mi>
+     </mrow>
+    </mrow>
+    <msub>
+     <mrow>
+      <mrow>
+       <mrow>
+        <mi mathvariant="normal">D</mi>
+       </mrow>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+      <mi>e</mi>
+      <mi>l</mi>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2018_36574_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and the potassium empirical value
+ <sup>
+  <xref ref-type="bibr" rid="CR30">30</xref>
+ </sup> D
+ <sub>
+  <italic>self</italic>
+ </sub> = 3.59 × 10
+ <sup>−9</sup> m
+ <sup>2</sup>/s, we very roughly estimate 33 × 10
+ <sup>6</sup> lattice-steps ≈1 
+ <italic>μ</italic>s in the liquid phase. This estimate will be used in the next section when referring to cooling rates.
+</p>

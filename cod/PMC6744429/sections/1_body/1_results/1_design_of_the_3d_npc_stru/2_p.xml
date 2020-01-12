@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par7">In our configuration, a fundamental wave propagates along the 
+ <italic>y</italic>-axis and polarizes along the 
+ <italic>z</italic>-axis to utilize the maximal nonlinear coefficient 
+ <italic>d</italic>
+ <sub>33</sub>. Based on a binary computer-generated-hologram theory
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup> and assuming a reference plane wave of 
+ <inline-formula id="IEq1">
+  <alternatives>
+   <tex-math id="M3">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$e^{iG_{x}x}$$\end{document}</tex-math>
+   <math id="M4">
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <msub>
+       <mrow>
+        <mi>G</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mi>x</mi>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12251_Article_IEq1.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, the structure function 
+ <italic>f</italic>(
+ <italic>x</italic>, 
+ <italic>y</italic>, 
+ <italic>z</italic>) of a 3D NPC for efficiently generating a SH beam of 
+ <italic>E</italic>
+ <sub>2
+  <italic>ω</italic>
+ </sub> is given by
+ <sup>
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup> (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">1</xref> for details)
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M5">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$f\left( {x,y,z} \right) = \,\, T\left\{ {\cos \left[ {G_xx - {\mathrm{arg}}\left( {E_{2\omega }} \right)} \right] - \cos \left[ {{\mathrm{sin}}^{ - 1}{\mathrm{amp}}\left( {E_{2\omega }} \right)} \right]} \right\} \\ \times T\left[ {{\mathrm{cos}}\left( {G_yy} \right)} \right],$$\end{document}</tex-math>
+   <math id="M6">
+    <mi>f</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>x</mi>
+      <mo>,</mo>
+      <mi>y</mi>
+      <mo>,</mo>
+      <mi>z</mi>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <mspace width="0.25em"/>
+    <mspace width="0.25em"/>
+    <mi>T</mi>
+    <mfenced close="}" open="{" separators="">
+     <mrow>
+      <mi>cos</mi>
+      <mfenced close="]" open="[" separators="">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+        <mi>x</mi>
+        <mo>−</mo>
+        <mi mathvariant="normal">arg</mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+            <mi>ω</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </mfenced>
+      <mo>−</mo>
+      <mi>cos</mi>
+      <mfenced close="]" open="[" separators="">
+       <mrow>
+        <msup>
+         <mrow>
+          <mi mathvariant="normal">sin</mi>
+         </mrow>
+         <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+         </mrow>
+        </msup>
+        <mi mathvariant="normal">amp</mi>
+        <mfenced close=")" open="(" separators="">
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>E</mi>
+           </mrow>
+           <mrow>
+            <mn>2</mn>
+            <mi>ω</mi>
+           </mrow>
+          </msub>
+         </mrow>
+        </mfenced>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfenced>
+    <mo>×</mo>
+    <mi>T</mi>
+    <mfenced close="]" open="[" separators="">
+     <mrow>
+      <mi mathvariant="normal">cos</mi>
+      <mfenced close=")" open="(" separators="">
+       <mrow>
+        <msub>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mi>y</mi>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_12251_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where function 
+ <italic>T</italic> is defined as
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$T\left( X \right) = \left\{ {\begin{array}{*{20}{c}} {1,{\mathrm{ }}X \ge 0} \\ {0,{\mathrm{ }}X \, &lt; \, 0} \end{array}} \right..$$\end{document}</tex-math>
+   <math id="M8">
+    <mi>T</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>X</mi>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <mfenced close="" open="{" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <mn>1</mn>
+         <mo>,</mo>
+         <mi mathvariant="normal"/>
+         <mi>X</mi>
+         <mo>≥</mo>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi mathvariant="normal"/>
+         <mi>X</mi>
+         <mspace width="0.25em"/>
+         <mo>&lt;</mo>
+         <mspace width="0.25em"/>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41467_2019_12251_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

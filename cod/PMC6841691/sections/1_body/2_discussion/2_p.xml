@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">This type of MC/MD techniques have been reported to be more ergodic which helps to sample larger configuration space
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. The other hybrid MC/MD studies done by Widom 
+ <italic>et al</italic>.
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup> in the field of HEAs involved 
+ <italic>ab-initio</italic> MD demanding lots of computing resource, ultimately limiting the total number of MC swaps and the NVT MD steps possible between the swaps. This could be the main reason why in the literature the hybrid MC/MD method based evolved HEAs and other high-concentration alloy structures were mainly limited to 128 atoms
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. Other than the qualitative comparison of the nature of SRC morphology evolution, this work also investigated into the local compositions along the SRC and surrounding regions. The local chemical composition scan perpendicular to the SRCs from experiments and simulations match well in terms of the composition curve, values of elemental compositions and width of the SRCs (Fig. 
+ <xref rid="Fig4" ref-type="fig">4</xref>). Especially the values of Zr, Ta and Nb concentration at the SRCs match well between the APT composition scan and the MC/MD evolved structures. Only the clustering of Hf appears to be bit more pronounced in the MC/MD evolved SRCs than the experimental values. The composition scan in the simulated structures done along the 3 principal crystallographic directions along the X, Y and Z directions are plotted in Fig. 
+ <xref rid="Fig4" ref-type="fig">4c–e</xref> and it can be seen that there are marked similarity regarding the pattern of chemical composition profile both qualitatively and quantitatively. As Zr and Hf are having larger atomic volume than Ta and Nb, it is expected that it will have some effect in local static distortions due to atomic relaxations at the SRCs and the adjacent regions. This was experimentally evidenced by the presence of streak-like diffuse scattering intensities along the &lt;1 0 0&gt; directions in single-crystal XRD and selected area electron diffraction (SAED)
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. Even similar streak-like diffuse scattering along &lt;1 0 0&gt; directions adjacent to the Bragg reflections are also observed in GP zone forming Al-Cu alloys
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. As the Cu atoms are smaller than Al in size, the Cu-rich GP zone SRCs had local contraction, causing the diffuse streaks to be asymmetric and emerging towards higher reciprocal space dimensions. Here in the TaNbHfZr HEA, the diffuse scattering streaks appear to be emerging towards lower reciprocal lattice dimensions, opposite to the behaviour compared to Al-Cu alloys. This could be intuitive from the fact that in this HEA, the Zr and co-clustering Hf atoms have larger atomic volumes compared to the average alloys atoms, which in term causes tetragonal type lattice expansion relaxations at the SRCs unlike the lattice contractions at the GP zones in Al-Cu alloys. In literature the simulated XRD pattern from the manually introduced SRO structure had similar features of asymmetric streak-like diffuse intensities around the Bragg spots, but the extent of the stretch of the diffuse scattering was not as much as experimentally observed
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>. Also the thickness of the diffuse streaks did not match up so well compared to the experimentally reconstructed reciprocal lattice layer. In this study after 25 MC swaps, the MC/MD evolved structure was taken for diffuse scattering simulations because the morphology of the structure looked similar to that observed after 4 days of annealing in close comparison to the HRTEM in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref>. The calculated diffraction intensity in the 
+ <italic>hk</italic>0 reciprocal lattice layer was compared to the corresponding experimental results obtained from single-crystal XRD at ambient temperature (Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>). The thermal Debye-Waller factor was kept as zero and the MC/MD evolved structure was relaxed to 0 K to remove the effects of thermal diffuse scattering. The diffuse scattering intensities from the simulated reciprocal layer is only dependent on the local static atomic displacements and substitutional disorder
+ <sup>
+  <xref ref-type="bibr" rid="CR32">32</xref>
+ </sup>. This will help to better analyse diffuse intensities from higher order reciprocal space to be compared with experimental intensities. It can be observed that in the simulated 
+ <italic>hk</italic>0 layer the streak-like diffuse intensities are getting elongated asymmetrically towards lower reciprocal lattice vector to the extent comparable to the experimentally obtained 
+ <italic>hk0</italic> layer (shown with small arrows in Fig. 
+ <xref rid="Fig5" ref-type="fig">5</xref>). Also the thickness of the simulated diffuse streaks is comparable to the experimental ones. This indicates that the average structural relaxation effects from the matrix and SRCs are well reproduced even in the nano-scale simulated structures compared to the XRD based diffuse intensities originating from the whole single-crystal bulk sample of dimension 30–40 μm. The coherent domain size determined from neutron diffraction experiments of this system was 10 nm
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>, while the MC/MD simulated system size dimension was around 6.4 nm. Since the domain sizes of both real and the simulated structures were in comparable range, the simulated structure could accurately reproduce the evolution of nano-scale morphology of the SRCs, local composition scan, local structural relaxation effects when compare with the experimental results. This study of the application of hybrid MC/MD techniques for investigation into the HEAs and other high-concentration alloys can greatly reduce the need for conducting costly and cumbersome experiments like HRTEM, APT, STEM, synchrotron X-ray diffraction, neutron diffractions on single-crystals and powder samples. By reducing the number of experiments for correlative characterization studies for a system, this MC/MD technique will expedite the materials development pace by greatly reducing the development cost and time.
+</p>

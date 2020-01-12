@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The nonlinear measurement formula is 
+ <disp-formula id="FD44-sensors-19-04980">
+  <label>(40)</label>
+  <math id="mm135">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>Z</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>=</mo>
+     <msub>
+      <mi>h</mi>
+      <mi>k</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>X</mi>
+      <mi>k</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <msub>
+      <mi>V</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>V</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>~</mo>
+     <mi>N</mi>
+     <mo stretchy="false">(</mo>
+     <mn>0</mn>
+     <mo>,</mo>
+     <msub>
+      <mi>R</mi>
+      <mi>k</mi>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>X</mi>
+      <mi>k</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the velocity vector of the moving node relative to the coordinate system. This vector orthogonally decomposes the corresponding velocity and corresponding coordinates of the 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mrow>
+     <mi>X</mi>
+     <mo>,</mo>
+     <mi>Y</mi>
+     <mo>,</mo>
+     <mi>Z</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> axes. 
+ <disp-formula id="FD45-sensors-19-04980">
+  <label>(41)</label>
+  <math id="mm138">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>X</mi>
+      <mi>k</mi>
+     </msub>
+     <mo>=</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <mi>x</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>,</mo>
+       <mi>y</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>,</mo>
+       <mi>z</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>,</mo>
+       <msub>
+        <mi>v</mi>
+        <mi>x</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>,</mo>
+       <msub>
+        <mi>v</mi>
+        <mi>y</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>,</mo>
+       <msub>
+        <mi>v</mi>
+        <mi>z</mi>
+       </msub>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>T</mi>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD46-sensors-19-04980">
+  <label>(42)</label>
+  <math id="mm139">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo stretchy="false">)</mo>
+       <mo>−</mo>
+       <mi>i</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+       <mo stretchy="false">)</mo>
+      </mrow>
+      <mi>T</mi>
+     </mfrac>
+     <mo>,</mo>
+     <mi>i</mi>
+     <mo>=</mo>
+     <mi>x</mi>
+     <mo>,</mo>
+     <mi>y</mi>
+     <mo>,</mo>
+     <mi>z</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">By using a certain amount of information for the monodomain local structures, we have shown that a single feature (i.e., a single order parameter) can attain a high correct answer rate for distinguishing between the two structures. For higher computational efficiency, however, the reduction of local information, such as the value of 
+ <italic>N</italic>, should be examined. To attain a suitable level of accuracy while reducing 
+ <italic>N</italic>, the selection of an efficient combination of features is a promising approach. However, choosing components of the efficient combination is non-trivial task because the results of random forest itself do not suggest any information for relationships among features. A sequential forward selection (SFS) algorithm
+ <sup>
+  <xref ref-type="bibr" rid="CR51">51</xref>
+ </sup> is one possible way to identify high-performance feature sets for classification using random forest classifier. In SFS, one feature is firstly selected, which displays the best performance on the single feature ML model. Then the second feature is selected, which displays the best performance on the two feature ML model by combining with the first feature. The third and subsequent features can be sequentially selected the same manner, until the performance is saturated. From this sequential selection, the small set of effective features can be determined. The SFS was performed for the results of random forest. All of the order parameters were prepared for the nematic- and smectic-like trajectories under the neighborhood conditions 
+ <italic>N</italic> = 4, 5, 6, 8, 12. SFS was then performed to decrease the large number of order parameters to five features. Figure 
+ <xref rid="Fig5" ref-type="fig">5</xref> shows the correct answer rate for the combination of features selected by SFS. Overall, the accuracy increased with respect to 
+ <italic>N</italic> and the number of features. For 
+ <italic>N</italic> = 4, 5, and 6, an increase in the number of features up to four was effective in improving the accuracy. The addition of the fifth feature did not improve the results. For 
+ <italic>N</italic> = 8, the accuracy was saturated with two or more features. For 
+ <italic>N</italic> = 12, the accuracy was almost ideal regardless of the number of features. The condition 
+ <italic>N</italic> = 8 with two features and the condition 
+ <italic>N</italic> = 6 with four features came close to the accuracy of the condition 
+ <italic>N</italic> = 12. Figure 
+ <xref rid="Fig6" ref-type="fig">6</xref> visualizes the results of SFS through pair-plots of features under the conditions 
+ <italic>N</italic> = 4 with four features, 
+ <italic>N</italic> = 8 with two features, and 
+ <italic>N</italic> = 12 with one feature. For 
+ <italic>N</italic> = 4, the data for all pair-plots slightly overlap, indicating that one or two features could not completely distinguish between the nematic- and smectic-like structures. Note that the accuracy of this condition reached 0.98 using all four features. Importantly, 
+ <italic>D</italic>
+ <sub>1</sub> was selected as an efficient feature together with 
+ <italic>Q</italic>
+ <sub>1</sub>, 
+ <italic>Q</italic>
+ <sub>2</sub>, and 
+ <italic>Q</italic>
+ <sub>3</sub>. This shows that the combination of different types of order parameters can improve the accuracy of classification. For 
+ <italic>N</italic> = 8, the data for the pair-plots almost separate into two regions, indicating good performance by this combination of features. In contrast, the data for a single feature only slightly overlap. This means that the combination of two features, 
+ <italic>Q</italic>
+ <sub>4</sub> and 
+ <italic>Q</italic>
+ <sub>5</sub>, improved the accuracy. For 
+ <italic>N</italic> = 12, the data for the single feature completely separate into two fields. This means that 
+ <italic>Q</italic>
+ <sub>6</sub> is an excellent feature for classification. Overall, 
+ <italic>Q</italic> produced excellent order parameters when selected as features.
+</p>

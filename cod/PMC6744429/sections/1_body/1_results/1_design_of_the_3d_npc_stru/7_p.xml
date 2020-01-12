@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par12">It should be noted that due to the use of 
+ <italic>d</italic>
+ <sub>33</sub>, the Cartesian coordinates for our 3D NPC (Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref>) orient differently from those in the 2D case (Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>). Considering the reciprocal vectors provided by the phase term 
+ <inline-formula id="IEq2">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$e^{i\left( {mG_xx + nG_yy} \right )}$$\end{document}</tex-math>
+   <math id="M18">
+    <msup>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mfenced close=")" open="(" separators="">
+       <mrow>
+        <mi>m</mi>
+        <msub>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mi>x</mi>
+         </mrow>
+        </msub>
+        <mi>x</mi>
+        <mo>+</mo>
+        <mi>n</mi>
+        <msub>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mi>y</mi>
+         </mrow>
+        </msub>
+        <mi>y</mi>
+       </mrow>
+      </mfenced>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_12251_Article_IEq2.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> in Eq. (
+ <xref rid="Equ5" ref-type="">5</xref>), the full QPM condition is given by
+ <disp-formula id="Equ6">
+  <label>6</label>
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\mathbf{k}}_{2\omega } - 2{\mathbf{k}}_\omega - m{\mathbf{G}}_x - n{\mathbf{G}}_y{\mathrm{ = 0,}}$$\end{document}</tex-math>
+   <math id="M20">
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>ω</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mn>2</mn>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mi>m</mi>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">G</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <mi>n</mi>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">G</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mi mathvariant="normal">= 0,</mi>
+   </math>
+   <graphic xlink:href="41467_2019_12251_Article_Equ6.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <bold>k</bold>
+ <sub>
+  <italic>ω</italic>
+ </sub> and 
+ <bold>k</bold>
+ <sub>2
+  <italic>ω</italic>
+ </sub> are wavevectors of the fundamental beam and the diffracted SH beam, respectively. For 3D nonlinear beam shaping, the laser-engineered nonlinear fork-grating structure in the 
+ <italic>x–z</italic> plane is used to introduce wavefront shaping into the SH beams, which is similar to the 2D case. The advantage of 3D nonlinear beam shaping lies in that the target SH beam is significantly enhanced because the longitudinal phase mismatch can be compensated for the designed diffraction order. Figure 
+ <xref rid="Fig1" ref-type="fig">1b</xref> shows an example case that the longitudinal reciprocal vector 
+ <bold>G</bold>
+ <sub>
+  <italic>y</italic>
+ </sub> compensates the phase mismatches for the ± 2nd nonlinear diffraction orders.
+</p>

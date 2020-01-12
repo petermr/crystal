@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The PW DFT computational approach, which directly includes crystal-lattice effects upon the investigated parameters of solids (see References [
+ <xref rid="B39-molecules-24-01731" ref-type="bibr">39</xref>,
+ <xref rid="B40-molecules-24-01731" ref-type="bibr">40</xref>,
+ <xref rid="B41-molecules-24-01731" ref-type="bibr">41</xref>] for details), was used as implemented in the CASTEP version 16.1 program package [
+ <xref rid="B41-molecules-24-01731" ref-type="bibr">41</xref>]. The coordinates of the 
+ <italic>P2</italic>
+ <sub>1</sub>/
+ <italic>c</italic> polymorph of maleic acid [
+ <xref rid="B29-molecules-24-01731" ref-type="bibr">29</xref>], the 
+ <italic>β</italic> polymorph of malonic acid [
+ <xref rid="B30-molecules-24-01731" ref-type="bibr">30</xref>], and the 
+ <italic>P2</italic>
+ <sub>1</sub>/
+ <italic>n</italic> structure of citric acid [
+ <xref rid="B32-molecules-24-01731" ref-type="bibr">32</xref>] were taken from the XRD studies, and the coordinates of the neutron diffraction structure were considered in case of 
+ <sc>l</sc>-histidine hydrochloride monohydrate [
+ <xref rid="B31-molecules-24-01731" ref-type="bibr">31</xref>]. They served as input for the minimizations of the lattice energy with respect to all internal coordinates, with unit cell parameters fixed at experimental values. Both the PBE [
+ <xref rid="B42-molecules-24-01731" ref-type="bibr">42</xref>] and the revPBE (‘revised PBE’) [
+ <xref rid="B43-molecules-24-01731" ref-type="bibr">43</xref>] DFT exchange-correlation functionals were employed together with the CASTEP settings consistent with the ‘Fine’ level of accuracy of the Materials Studio 5.0 software (the technical assistance was provided by Dr. M. Hušák, University of Chemistry and Technology, Prague). In particular, the cut-off value of 550 eV for the plane-waves energy was applied, and the Monhorst–Pack grids [
+ <xref rid="B44-molecules-24-01731" ref-type="bibr">44</xref>] for maleic acid, malonic acid, citric acid, and L-histidine hydrochloride monohydrate calculations were respectively 4 × 2 × 4, 8 k-points; 7 × 5 × 3, 53; 2 × 4 × 2, 4; and 2 × 3 × 4, 4. The default on-the-fly generation of ultrasoft pseudopotentials was adopted. For the structures thus obtained, the corresponding GIPAW-PBE and GIPAW-revPBE chemical shielding tensors were predicted in the CASTEP NMR module while also using the ‘Fine’ settings. Molecular complexes were studied using the Gaussian 09 suite of quantum chemical programs [
+ <xref rid="B45-molecules-24-01731" ref-type="bibr">45</xref>]. The citric acid cluster was investigated at the standard B3LYP/6-311++G(2d, 2p) level with the GIAO (gauge-independent atomic orbitals) [
+ <xref rid="B46-molecules-24-01731" ref-type="bibr">46</xref>,
+ <xref rid="B47-molecules-24-01731" ref-type="bibr">47</xref>] technique applied to overcome the gauge problem of chemical shielding calculations. The atomic coordinates of this cluster were generated from the periodic structure optimized using the PBE functional. The model of phenol–water dimer was prepared using interactive computer graphics (Insight II (2000), Accelrys Inc., San Diego, CA, USA) approximately in an arrangement of ‘Structure 1′ from Reference [
+ <xref rid="B48-molecules-24-01731" ref-type="bibr">48</xref>], and its potential energy minimum was located at the standard MP2/aug-cc-pVTZ level. This structure was then used for an unrelaxed scan of the 
+ <sup>1</sup>H chemical shielding tensor of phenolic hydrogen. Namely, the distance between the two oxygens was varied in the interval from 261 to 351 pm, and at each point, both the GIAO-MP2 and GIAO-B3LYP chemical shielding was predicted with the 6-311++G(2d, 2p) basis set. The eigenvectors of the 
+ <sup>1</sup>H chemical shielding tensors were processed by the INFOR software [
+ <xref rid="B49-molecules-24-01731" ref-type="bibr">49</xref>] for visualization.
+</p>

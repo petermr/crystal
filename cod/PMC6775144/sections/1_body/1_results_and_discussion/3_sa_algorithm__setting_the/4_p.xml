@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par27">For simplicity, without the loss of generality, the scaling coefficient G can be set to unity in formula (
+ <xref rid="Equ11" ref-type="">11</xref>). Besides, to estimate the convergence of the iterative optimization procedure, one uses the error parameter CP, which is defined as
+ <disp-formula id="Equ14">
+  <label>14</label>
+  <alternatives>
+   <tex-math id="M91">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{CP}}=1/N\{X,Y,Z\}\,\sum _{\{X,Y,Z\}}\,\begin{array}{c}\frac{|{f}_{true}\{X,Y,Z;0\}-{f}_{calc}\{X,Y,Z;0\}|}{|{f}_{true}\{X,Y,Z;0\}|}\end{array}.$$\end{document}</tex-math>
+   <math id="M92" display="block">
+    <mi mathvariant="normal">CP</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <mi>N</mi>
+    <mo stretchy="false">{</mo>
+    <mi>X</mi>
+    <mo>,</mo>
+    <mi>Y</mi>
+    <mo>,</mo>
+    <mi>Z</mi>
+    <mo stretchy="false">}</mo>
+    <mspace width=".1em"/>
+    <munder>
+     <mo>∑</mo>
+     <mrow>
+      <mo stretchy="false">{</mo>
+      <mi>X</mi>
+      <mo>,</mo>
+      <mi>Y</mi>
+      <mo>,</mo>
+      <mi>Z</mi>
+      <mo stretchy="false">}</mo>
+     </mrow>
+    </munder>
+    <mspace width=".1em"/>
+    <mtable>
+     <mtr>
+      <mtd>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mo stretchy="true">|</mo>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>f</mi>
+            </mrow>
+            <mrow>
+             <mi>t</mi>
+             <mi>r</mi>
+             <mi>u</mi>
+             <mi>e</mi>
+            </mrow>
+           </msub>
+           <mrow>
+            <mo stretchy="true">{</mo>
+            <mrow>
+             <mi>X</mi>
+             <mo>,</mo>
+             <mi>Y</mi>
+             <mo>,</mo>
+             <mi>Z</mi>
+             <mo>;</mo>
+             <mn>0</mn>
+            </mrow>
+            <mo stretchy="true">}</mo>
+           </mrow>
+           <mo>−</mo>
+           <msub>
+            <mrow>
+             <mi>f</mi>
+            </mrow>
+            <mrow>
+             <mi>c</mi>
+             <mi>a</mi>
+             <mi>l</mi>
+             <mi>c</mi>
+            </mrow>
+           </msub>
+           <mrow>
+            <mo stretchy="true">{</mo>
+            <mrow>
+             <mi>X</mi>
+             <mo>,</mo>
+             <mi>Y</mi>
+             <mo>,</mo>
+             <mi>Z</mi>
+             <mo>;</mo>
+             <mn>0</mn>
+            </mrow>
+            <mo stretchy="true">}</mo>
+           </mrow>
+          </mrow>
+          <mo stretchy="true">|</mo>
+         </mrow>
+         <mrow>
+          <mo stretchy="true">|</mo>
+          <mrow>
+           <msub>
+            <mrow>
+             <mi>f</mi>
+            </mrow>
+            <mrow>
+             <mi>t</mi>
+             <mi>r</mi>
+             <mi>u</mi>
+             <mi>e</mi>
+            </mrow>
+           </msub>
+           <mrow>
+            <mo stretchy="true">{</mo>
+            <mrow>
+             <mi>X</mi>
+             <mo>,</mo>
+             <mi>Y</mi>
+             <mo>,</mo>
+             <mi>Z</mi>
+             <mo>;</mo>
+             <mn>0</mn>
+            </mrow>
+            <mo stretchy="true">}</mo>
+           </mrow>
+          </mrow>
+          <mo stretchy="true">|</mo>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mtd>
+     </mtr>
+    </mtable>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_50833_Article_Equ14.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

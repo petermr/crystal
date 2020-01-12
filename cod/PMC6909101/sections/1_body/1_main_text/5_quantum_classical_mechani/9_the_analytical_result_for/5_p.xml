@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0565">Methods for calculating the contour integral in 
+ <xref rid="fd135" ref-type="disp-formula">Eq. (135)</xref> are similar to those applied in the standard theory of many-phonon transitions (Ref. [
+ <xref rid="bib72" ref-type="bibr">72</xref>]). In 
+ <xref rid="fd135" ref-type="disp-formula">Eq. (135)</xref>, the generating function 
+ <inline-formula>
+  <math id="M468" altimg="si349.svg">
+   <mrow>
+    <mi>R</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd131" ref-type="disp-formula">Eq. (131)</xref>) is exponential with respect to the variable 
+ <inline-formula>
+  <math id="M469" altimg="si350.svg">
+   <mrow>
+    <mi>w</mi>
+   </mrow>
+  </math>
+ </inline-formula>, while the generating function 
+ <inline-formula>
+  <math id="M470" altimg="si351.svg">
+   <mrow>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd132" ref-type="disp-formula">Eq. (132)</xref>) is a power function in 
+ <inline-formula>
+  <math id="M471" altimg="si350.svg">
+   <mrow>
+    <mi>w</mi>
+   </mrow>
+  </math>
+ </inline-formula>. Consequently, in a greater in modulus thermal effect 
+ <inline-formula>
+  <math id="M472" altimg="si352.svg">
+   <mrow>
+    <mi>ℏ</mi>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, when the phonon frequencies
+ <disp-formula id="fd136">
+  <label>(136)</label>
+  <math id="M473" altimg="si353.svg" alttext="Equation 136.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+      <mo>,</mo>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mo linebreak="badbreak">&lt;</mo>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mn>12</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>we can put 
+ <inline-formula>
+  <math id="M474" altimg="si354.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> equal to zero in quantity 
+ <inline-formula>
+  <math id="M475" altimg="si355.svg">
+   <mrow>
+    <msup>
+     <mrow>
+      <mi>w</mi>
+     </mrow>
+     <mrow>
+      <mo>±</mo>
+      <msub>
+       <mrow>
+        <mi>ω</mi>
+       </mrow>
+       <mrow>
+        <mi>l</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>, which appears in 
+ <inline-formula>
+  <math id="M476" altimg="si351.svg">
+   <mrow>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>w</mi>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+ <xref rid="fn15" ref-type="fn">15</xref> Thus, 
+ <inline-formula>
+  <math id="M477" altimg="si32.svg">
+   <mrow>
+    <mi>P</mi>
+   </mrow>
+  </math>
+ </inline-formula> is not now dependent on 
+ <inline-formula>
+  <math id="M478" altimg="si350.svg">
+   <mrow>
+    <mi>w</mi>
+   </mrow>
+  </math>
+ </inline-formula>, and in 
+ <xref rid="fd135" ref-type="disp-formula">Eq. (135)</xref> it can be brought outside the integral character in the point 
+ <inline-formula>
+  <math id="M479" altimg="si356.svg">
+   <mrow>
+    <mi>w</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mn>1</mn>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib79" ref-type="bibr">79</xref>]:
+ <disp-formula id="fd137">
+  <label>(137)</label>
+  <math id="M480" altimg="si357.svg" alttext="Equation 137.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msubsup>
+     <mrow>
+      <mi>c</mi>
+     </mrow>
+     <mrow>
+      <mn>12</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <msup>
+     <mrow>
+      <mrow>
+       <mo stretchy="true">|</mo>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>G</mi>
+         </mrow>
+         <mrow>
+          <mtext>E</mtext>
+         </mrow>
+        </msup>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+          <mo>;</mo>
+          <mi>L</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mo stretchy="true">|</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msup>
+    <mi>P</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mover accent="true">
+         <mi>m</mi>
+         <mo>¯</mo>
+        </mover>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mo>;</mo>
+      <mi>u</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>v</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mi>exp</mi>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mo>−</mo>
+        <mi>t</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo>,</mo>
+      <mi>w</mi>
+      <mo linebreak="badbreak">=</mo>
+      <mn>1</mn>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mi>i</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">∮</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>d</mi>
+        <mi>w</mi>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>w</mi>
+         </mrow>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>ω</mi>
+           </mrow>
+           <mrow>
+            <mn>12</mn>
+           </mrow>
+          </msub>
+          <mo linebreak="badbreak">+</mo>
+          <mn>1</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+      <mi>R</mi>
+      <mrow>
+       <mo stretchy="true">[</mo>
+       <mrow>
+        <msub>
+         <mrow>
+          <mover accent="true">
+           <mi>m</mi>
+           <mo>¯</mo>
+          </mover>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+         </mrow>
+        </msub>
+        <mo>;</mo>
+        <mi>u</mi>
+        <mo linebreak="badbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>v</mi>
+        <mo linebreak="goodbreak">=</mo>
+        <mi>exp</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mo>−</mo>
+          <mi>t</mi>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+        <mo>,</mo>
+        <mi>w</mi>
+       </mrow>
+       <mo stretchy="true">]</mo>
+      </mrow>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>As for the free vibrating DRGs, the comparison of natural frequencies at different geometry parameters obtained by the simulation and calculation are shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f010">Figure 10</xref>a. Their relative errors at different geometry parameters are shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f010">Figure 10</xref>b. Here, the relative error of the simulation results (
+ <italic>f
+  <sub>s</sub>
+ </italic>) and the calculation results (
+ <italic>f
+  <sub>c</sub>
+ </italic>) is calculated by 
+ <disp-formula id="FD67-micromachines-10-00181">
+  <label>(66)</label>
+  <math id="mm73">
+   <mrow>
+    <mrow>
+     <mi>e</mi>
+     <mi>r</mi>
+     <mi>r</mi>
+     <mi>o</mi>
+     <mi>r</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>s</mi>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>f</mi>
+        <mi>c</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>s</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>×</mo>
+     <mn>100</mn>
+     <mo>%</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">In the following it will be important that the polarisation dependence of the first-order Raman scattering intensity by a phonon mode spanned by one or more orthogonal components 
+ <italic>α</italic> is given by a simple prefactor 
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}$$\end{document}</tex-math>
+   <math id="M14">
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Λ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">in</mi>
+      <mo>,</mo>
+      <mi mathvariant="normal">out</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45782_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> given by the sum of the squared moduli of the corresponding Raman tensors 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${({R}_{\alpha })}_{ij}$$\end{document}</tex-math>
+   <math id="M16">
+    <msub>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <msub>
+       <mrow>
+        <mi>R</mi>
+       </mrow>
+       <mrow>
+        <mi>α</mi>
+       </mrow>
+      </msub>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+      <mi>j</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_45782_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, contracted by the incoming and outgoing photon polarisation vectors 
+ <bold>e</bold>
+ <sub>
+  <italic>in</italic>
+ </sub>, 
+ <bold>e</bold>
+ <sub>
+  <italic>out</italic>
+ </sub>, as follows
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${{\rm{\Lambda }}}_{{\rm{in}},{\rm{out}}}=\sum _{\alpha }\,|{{\bf{e}}}_{{\rm{in}}}{R}_{\alpha }{{\bf{e}}}_{{\rm{out}}}{|}^{2}.$$\end{document}</tex-math>
+   <math id="M18" display="block">
+    <msub>
+     <mrow>
+      <mi mathvariant="normal">Λ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">in</mi>
+      <mo>,</mo>
+      <mi mathvariant="normal">out</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mrow>
+     <munder>
+      <mo>∑</mo>
+      <mi>α</mi>
+     </munder>
+    </mrow>
+    <mspace width=".1em"/>
+    <mo stretchy="false">|</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">e</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">in</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">e</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">out</mi>
+     </mrow>
+    </msub>
+    <msup>
+     <mrow>
+      <mo stretchy="false">|</mo>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_45782_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

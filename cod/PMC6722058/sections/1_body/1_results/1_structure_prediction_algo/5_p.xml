@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">3. N complete interface structures are created from the possible interface atom positions by a restricted random multi-start selection process as described in Algorithms 2–4 (Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">1</xref>). The restrictions are based on simple rules of chemistry related to coordination, atomic distances and local conformations (Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">2</xref> and Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>). The process starts by adding randomly picked interface atoms, from the list generated in step 2, first into specified local conformations such as linear SR–Au/Ag–SR arrangements resembling a part of protecting SR-(Au/Ag-SR)
+ <sub>n</sub> (
+ <italic>n</italic> = 1, 2) units (Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref>). The protecting units are the main components forming the gold-thiolate interface structure in many known thiolate-protected gold clusters. For protected Ag-clusters, more than one local structural arrangement is possible with respect to SR–Ag–SR angles because of the more flexible Ag–S coordination compared to gold (see Fig. 
+ <xref rid="Fig2" ref-type="fig">2</xref> and Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">3</xref>). In the case diphosphines, the specified local conformation is a pair of phosphorus atoms, for which the P–P distance is restricted based on the connecting organic group between the phosphine ends of the molecule. Next, single thiolates or single phosphines will be used to fill the remaining free metal surface if necessary. The selection process ends when there are no valid points left in the list of possible interface atom positions. All selected interface atom coordinates form one potential model structure. The total number of generated model structures should be set large enough to overcome the challenges of a non-guided stochastic process to represent all relevant overall interface conformations.
+</p>

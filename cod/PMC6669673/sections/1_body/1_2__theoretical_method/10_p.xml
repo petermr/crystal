@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the 3
+ <italic>N</italic>-fold integral of Equation (3), although the integrand is of the same form as required by Equation (5), it may not be positive definite or have no minimum at the origin. Letting 
+ <inline-formula>
+  <math id="mm54">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>q</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msup>
+     <mo>=</mo>
+     <mo>{</mo>
+     <msub>
+      <mi>q</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>,</mo>
+     <msub>
+      <mi>q</mi>
+      <mn>2</mn>
+     </msub>
+     <mo>…</mo>
+     <msub>
+      <mi>q</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msub>
+     <mo>}</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> be the coordinates of particles in the state of the lowest potential energy 
+ <inline-formula>
+  <math id="mm55">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, we introduce a function: 
+ <disp-formula id="FD15-nanomaterials-09-00978">
+  <label>(13)</label>
+  <math id="mm56">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mo>′</mo>
+       </msup>
+       <msup>
+        <mrow/>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>U</mi>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>N</mi>
+        </mrow>
+       </msup>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+     <mo>−</mo>
+     <msub>
+      <mi>U</mi>
+      <mn>0</mn>
+     </msub>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> with 
+ <inline-formula>
+  <math id="mm57">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>x</mi>
+      <mi>i</mi>
+      <mo>′</mo>
+     </msubsup>
+     <mo>=</mo>
+     <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+     </msub>
+     <mo>−</mo>
+     <msub>
+      <mi>q</mi>
+      <mi>i</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. By inserting Equation (13) into Equation (3), we obtain: 
+ <disp-formula id="FD16-nanomaterials-09-00978">
+  <label>(14)</label>
+  <math id="mm58">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mo mathsize="small">∫</mo>
+     <msup>
+      <mi>x</mi>
+      <mrow>
+       <mn>3</mn>
+       <mi>N</mi>
+      </mrow>
+     </msup>
+     <mi>exp</mi>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msup>
+        <mi>U</mi>
+        <mo>′</mo>
+       </msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mrow>
+         <msup>
+          <mi>x</mi>
+          <mo>′</mo>
+         </msup>
+         <msup>
+          <mrow/>
+          <mrow>
+           <mn>3</mn>
+           <mi>N</mi>
+          </mrow>
+         </msup>
+         <mo>,</mo>
+         <msup>
+          <mi>X</mi>
+          <mrow>
+           <mn>3</mn>
+           <mi>M</mi>
+          </mrow>
+         </msup>
+        </mrow>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </mrow>
+      <mo stretchy="false">]</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

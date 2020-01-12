@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>At any temperature, MSQs can also couple to crystal vibrations and this constitutes another important decoherence mechanism, which becomes more important as thermal energy is increased (Escalera-Moreno et al., 
+ <xref rid="B8" ref-type="bibr">2018</xref>). There also exists a characteristic timescale to evaluate how long information can survive in the form of quantum superposition between two energy levels before the vibration bath make it collapse. This is the so-called spin-lattice relaxation time 
+ <italic>T</italic>
+ <sub>1</sub> (Schweiger and Jeschke, 
+ <xref rid="B21" ref-type="bibr">2001</xref>), which is also routinely determined via EPR but its estimate is hard to calculate on paper and should be addressed in a future work (Liddle and van Slageren, 
+ <xref rid="B15" ref-type="bibr">2015</xref>; Escalera-Moreno et al., 
+ <xref rid="B10" ref-type="bibr">2017</xref>). In this case, the out-of-plane magnetization 
+ <italic>M</italic>
+ <sub>∥</sub>(
+ <italic>t</italic>) of the sample is measured as a function of time 
+ <italic>t</italic> by means of inversion or saturation recovery experiments. Then, 
+ <italic>T</italic>
+ <sub>1</sub> is extracted by fitting the plot 
+ <italic>M</italic>
+ <sub>∥</sub>(
+ <italic>t</italic>) vs. 
+ <italic>t</italic> to a function proportional to 1−exp(−
+ <italic>t</italic>/
+ <italic>T</italic>
+ <sub>1</sub>). At 
+ <italic>T</italic> = 6 K, the measurements at each one of the seven transitions in 
+ <xref ref-type="fig" rid="F2">Figure 2</xref> led to 
+ <italic>T</italic>
+ <sub>1</sub> values around 2.5 μs as reported elsewhere (Jenkins et al., 
+ <xref rid="B13" ref-type="bibr">2017</xref>). Note that this timescale is close to 
+ <italic>T</italic>
+ <sub>
+  <italic>m</italic>
+ </sub>, which suggests that lattice vibrations might be considered as another potential source of decoherence. Due to the relatively low working temperature, the vibrational states involved might be low in energy such as those from long-wavelength phonon modes and low-frequency molecular vibrations. In fact, the latter can be significantly coupled even if they are moderately populated at low temperature as found in a different molecular system (Escalera-Moreno et al., 
+ <xref rid="B10" ref-type="bibr">2017</xref>). Since the spin-vibration coupling Hamiltonians are proportional to derivatives of the anisotropy parameters respect to distortion coordinates, the relevant vibrational modes to focus on may be found among those producing significant variations in these parameters. As mentioned, the computation of these evolutions involve many point calculations that can be computationally demanding and should be worked out elsewhere. Higher energy modes might play a very limited role not significant at all because of their negligible thermal population.
+</p>

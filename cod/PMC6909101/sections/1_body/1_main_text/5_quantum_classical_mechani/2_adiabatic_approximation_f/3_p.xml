@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0240">In the adiabatic approximation, the solution of the Schrödinger equation
+ <disp-formula id="fd20">
+  <label>(20)</label>
+  <math id="M100" altimg="si85.svg" alttext="Equation 20.">
+   <mrow>
+    <mtext>H </mtext>
+    <mi>Ψ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mi>Ψ</mi>
+   </mrow>
+  </math>
+ </disp-formula>for the system “electron + environment” is sought in the form
+ <disp-formula id="fd21">
+  <label>(21)</label>
+  <math id="M101" altimg="si86.svg" alttext="Equation 21.">
+   <mrow>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">=</mo>
+    <mtext> </mtext>
+    <mi>ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext> </mtext>
+    <mi>Φ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>(compare with 
+ <xref rid="fd7" ref-type="disp-formula">Eq. (7)</xref> in Section 
+ <xref rid="sec2.3" ref-type="sec">2.3</xref>), where the electron 
+ <inline-formula>
+  <math id="M102" altimg="si87.svg">
+   <mrow>
+    <mi>ψ</mi>
+   </mrow>
+  </math>
+ </inline-formula>-function satisfies the Schrödinger equation
+ <disp-formula id="fd22">
+  <label>(22)</label>
+  <math id="M103" altimg="si88.svg" alttext="Equation 22.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>ℏ</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <mi>μ</mi>
+       </mrow>
+      </mfrac>
+      <msub>
+       <mrow>
+        <mi>Δ</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>U</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <msub>
+       <mrow>
+        <mi>U</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msub>
+      <mrow>
+       <mo stretchy="true">(</mo>
+       <mrow>
+        <mi mathvariant="bold">q</mi>
+        <mo linebreak="badbreak">−</mo>
+        <mi mathvariant="bold">L</mi>
+       </mrow>
+       <mo stretchy="true">)</mo>
+      </mrow>
+      <mo linebreak="badbreak">+</mo>
+      <munder>
+       <mo movablelimits="false">∑</mo>
+       <mrow>
+        <mi>ι</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>U</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <mi mathvariant="bold">q</mi>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mi>ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mi>E</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">Calculations of the electronic structure, total energies and structural parameters for all phases of hurlbutite were performed in the framework of the DFT using the Vienna ab initio simulation package
+ <sup>
+  <xref ref-type="bibr" rid="CR52">52</xref>,
+  <xref ref-type="bibr" rid="CR53">53</xref>
+ </sup>. The interaction between ions and electrons were described using the projector augmented-wave method
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>,
+  <xref ref-type="bibr" rid="CR55">55</xref>
+ </sup> through recommended potentials for Ca, Be, P and O. A plane-wave basis set cutoff energy was set to 600 eV. The generalized gradient approximation (GGA) in the Perdew–Burke–Ernzerhof (PBE)
+ <sup>
+  <xref ref-type="bibr" rid="CR56">56</xref>
+ </sup> parametrization was selected to treat the exchange and correlation effects. PBE-GGA belongs to the so-called semilocal DFT functionals, which are known to slightly underestimate bonding strength in solids and significantly underestimate band gaps in semicinductors and insulators. However, it is numerically efficient and provides accuracy, which is sufficient for the purposes of the present study. The integration over the Brillouin zone was performed using a gamma-centered mesh with a k-points grid 6 × 6 × 6. All the calculations were carried out using the Gaussian smearing with a broadening of 
+ <italic>σ</italic> = 0.05 eV. All properties were calculated at a given volumes (pressures) after the ion positions and cell shape were relaxed to achieve forces action on ions smaller then 10
+ <sup>−2</sup> eV/Å and hydrostatic conditions: |
+ <italic>p</italic> − 
+ <italic>p</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>|, |
+ <italic>p</italic> − 
+ <italic>p</italic>
+ <sub>
+  <italic>y</italic>
+ </sub>|, |
+ <italic>p</italic> − 
+ <italic>p</italic>
+ <sub>
+  <italic>z</italic>
+ </sub>| &lt; 0.5 kbar.
+</p>

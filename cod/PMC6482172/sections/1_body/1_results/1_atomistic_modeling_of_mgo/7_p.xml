@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par11">To avoid any limitation which might be due to the geometric effect of dipole dislocations in a periodic setup, we have also used an alternate geometrical configuration, i.e., x = [
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{1}$$\end{document}</tex-math>
+   <math id="M16">
+    <mover accent="true">
+     <mn>1</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>12], y = [1
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{1}$$\end{document}</tex-math>
+   <math id="M18">
+    <mover accent="true">
+     <mn>1</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>1], and z = [110] (see Fig. 
+ <xref rid="Fig1" ref-type="fig">1a</xref>) labeled “configuration 2” in Table 
+ <xref rid="Tab1" ref-type="table">1</xref>, to study the behavior of a vacancy at site 3. Indeed, in this different geometric setup, the dislocation jogs are observed for both the O and Mg cases after annealing, indicating that the vacancy in this configuration dissociated. A typical dislocation jog-pair, as observed after the MD simulation where the screw dislocation contains an oxygen vacancy, is shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref> with atomistic detail. The jog step height is 
+ <italic>a</italic>
+ <sub>0</sub>/4[
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{1}$$\end{document}</tex-math>
+   <math id="M20">
+    <mover accent="true">
+     <mn>1</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>10] or one half of the Burgers vector length. We note that in Ovito visualization
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>, since only the fcc lattice of one species such as O or Mg is shown, the jog height is mistakenly amplified by a factor of two, to be 
+ <italic>a</italic>
+ <sub>0</sub>/2[
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\bar{1}$$\end{document}</tex-math>
+   <math id="M22">
+    <mover accent="true">
+     <mn>1</mn>
+     <mo>¯</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>10], or full Burgers vector length. This result will have an impact on the elasticity modeling in the later part of the paper.
+</p>

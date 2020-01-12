@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par17">Interestingly, the gap between two triplet bands is topologically nontrivial. This can be easily understood by neglecting pair creation and annihilation terms in Eq. (
+ <xref rid="Equ1" ref-type="">1</xref>), which do not alter topological properties as we discuss later. Equation (
+ <xref rid="Equ1" ref-type="">1</xref>) is now reduced to a simple form:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M53">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{H}}\sim \mathop {\sum}\limits_{\mathbf{k}} {\left( {t_{ + ,{\mathbf{k}}}^{\dagger ,1}t_{ + ,{\mathbf{k}}}^{\dagger ,2}} \right)} {\cal{M}}_{\mathbf{k}}^\prime \left( {\begin{array}{*{20}{c}} {t_{ + ,{\mathbf{k}}}^1} \\ {t_{ + ,{\mathbf{k}}}^2} \end{array}} \right),$$\end{document}</tex-math>
+   <math id="M54">
+    <mi mathvariant="script">H</mi>
+    <mo>~</mo>
+    <munder>
+     <mrow>
+      <mo>∑</mo>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+    </munder>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mo>+</mo>
+        <mo>,</mo>
+        <mi mathvariant="bold">k</mi>
+       </mrow>
+       <mrow>
+        <mo>†</mo>
+        <mo>,</mo>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mo>+</mo>
+        <mo>,</mo>
+        <mi mathvariant="bold">k</mi>
+       </mrow>
+       <mrow>
+        <mo>†</mo>
+        <mo>,</mo>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+    <msubsup>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mo>′</mo>
+     </mrow>
+    </msubsup>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mo>+</mo>
+           <mo>,</mo>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mn>1</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>t</mi>
+          </mrow>
+          <mrow>
+           <mo>+</mo>
+           <mo>,</mo>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>with a 2 × 2 matrix
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M55">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\cal{M}}_{\mathbf{k}}^\prime = \left( {\begin{array}{*{20}{c}} J &amp; {\Lambda _{\mathbf{k}}} \\ {\Lambda _{\mathbf{k}}^ \ast } &amp; J \end{array}} \right) = J{\mathbf{1}} + {\mathbf{d}}\cdot {\bf{\sigma }},$$\end{document}</tex-math>
+   <math id="M56">
+    <msubsup>
+     <mrow>
+      <mi mathvariant="script">M</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">k</mi>
+     </mrow>
+     <mrow>
+      <mo>′</mo>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mtable>
+       <mtr>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+        <mtd columnalign="center">
+         <msub>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+         </msub>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd columnalign="center">
+         <msubsup>
+          <mrow>
+           <mi>Λ</mi>
+          </mrow>
+          <mrow>
+           <mi mathvariant="bold">k</mi>
+          </mrow>
+          <mrow>
+           <mo>*</mo>
+          </mrow>
+         </msubsup>
+        </mtd>
+        <mtd columnalign="center">
+         <mi>J</mi>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mfenced>
+    <mo>=</mo>
+    <mi>J</mi>
+    <mi mathvariant="bold">1</mi>
+    <mo>+</mo>
+    <mi mathvariant="bold">d</mi>
+    <mo>⋅</mo>
+    <mi mathvariant="bold">σ</mi>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41467_2019_10091_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <bold>d</bold> and 
+ <bold>σ</bold> represent a pseudomagnetic field, 
+ <bold>d</bold> = (ReΛ
+ <sub>
+  <bold>k</bold>
+ </sub>, −ImΛ
+ <sub>
+  <bold>k</bold>
+ </sub>, 0) and a Pauli matrix, respectively. The matrix leads to the eigenenergy 
+ <italic>E</italic>
+ <sub>
+  <bold>k</bold>
+ </sub> = 
+ <italic>J</italic> ± |
+ <bold>d</bold>| = 
+ <italic>J</italic> ± |Λ
+ <sub>
+  <bold>k</bold>
+ </sub>|. Thus, to open the energy gap between the two modes, a necessary condition is that |Λ
+ <sub>
+  <bold>k</bold>
+ </sub>| &gt; 0 for all 
+ <bold>k</bold>, which requires interchain couplings to be weaker than the average of intrachain couplings, 
+ <inline-formula id="IEq24">
+  <alternatives>
+   <tex-math id="M57">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$|J^{\mathrm{A}} + J^{{\mathrm{A}}\prime }|/2 &gt; |J^{\mathrm{B}}|$$\end{document}</tex-math>
+   <math id="M58">
+    <mo>∣</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+     </mrow>
+    </msup>
+    <mo>+</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+      <mo>′</mo>
+     </mrow>
+    </msup>
+    <mo>∣</mo>
+    <mo>∕</mo>
+    <mn>2</mn>
+    <mo>&gt;</mo>
+    <mo>∣</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">B</mi>
+     </mrow>
+    </msup>
+    <mo>∣</mo>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq24.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, and bond alternation along each chain, 
+ <inline-formula id="IEq25">
+  <alternatives>
+   <tex-math id="M59">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$J^{\mathrm{A}} \ne J^{{\mathrm{A}}\prime }$$\end{document}</tex-math>
+   <math id="M60">
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+     </mrow>
+    </msup>
+    <mo>≠</mo>
+    <msup>
+     <mrow>
+      <mi>J</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">A</mi>
+      <mo>′</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_10091_Article_IEq25.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

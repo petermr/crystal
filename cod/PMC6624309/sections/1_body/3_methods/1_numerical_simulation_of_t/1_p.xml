@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">The 2D 
+ <italic>PT</italic>-symmetric PC considered in this paper is composed of gain/loss materials in water (
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M45">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rho }_{0}=1000\,kg/{m}^{3}$$\end{document}</tex-math>
+   <math id="M46">
+    <msub>
+     <mrow>
+      <mi>ρ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>1000</mn>
+    <mspace width=".25em"/>
+    <mi>k</mi>
+    <mi>g</mi>
+    <mo>/</mo>
+    <msup>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mn>3</mn>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M47">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\nu }_{0}=1490\,m/s$$\end{document}</tex-math>
+   <math id="M48">
+    <msub>
+     <mrow>
+      <mi>ν</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>1490</mn>
+    <mspace width=".25em"/>
+    <mi>m</mi>
+    <mo>/</mo>
+    <mi>s</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). Both the gain and loss materials are soft rubber (
+ <inline-formula id="IEq20">
+  <alternatives>
+   <tex-math id="M49">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rho }_{L(G)}=950\,kg/{m}^{3}$$\end{document}</tex-math>
+   <math id="M50">
+    <msub>
+     <mrow>
+      <mi>ρ</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mo stretchy="false">(</mo>
+      <mi>G</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>950</mn>
+    <mspace width=".25em"/>
+    <mi>k</mi>
+    <mi>g</mi>
+    <mo>/</mo>
+    <msup>
+     <mrow>
+      <mi>m</mi>
+     </mrow>
+     <mn>3</mn>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq20.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>), but their longitudinal wave velocities are distinguished by positive and negative imaginary parts (
+ <inline-formula id="IEq21">
+  <alternatives>
+   <tex-math id="M51">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\nu }_{L(G)}=1550\times (1\pm \alpha i)m/s$$\end{document}</tex-math>
+   <math id="M52">
+    <msub>
+     <mrow>
+      <mi>ν</mi>
+     </mrow>
+     <mrow>
+      <mi>L</mi>
+      <mo stretchy="false">(</mo>
+      <mi>G</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mn>1550</mn>
+    <mo>×</mo>
+    <mo stretchy="false">(</mo>
+    <mn>1</mn>
+    <mo>±</mo>
+    <mi>α</mi>
+    <mi>i</mi>
+    <mo stretchy="false">)</mo>
+    <mi>m</mi>
+    <mo>/</mo>
+    <mi>s</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_46467_Article_IEq21.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>). To simplify the calculation process in our case, we ignore the shear modulus in rubber because it does not significantly affect the essential physics of the system. The z direction in this 
+ <italic>PT</italic> system is infinitely long, and the acoustic waves propagate along the x direction. Throughout this paper, the finite-element method (FEM) based on the software COMSOL Multiphysics 5.3a is employed for the simulations. The calculations of the band structure are performed with the super cell method. For Fig. 
+ <xref rid="Fig3" ref-type="fig">3(a)</xref>, the background pressure field of plane waves is used, and periodic boundary conditions are imposed to the upper and lower boundaries to simplify the structure and reduce the amount of calculation without losing accuracy. Each strip of the pressure pattern in Fig. 
+ <xref rid="Fig6" ref-type="fig">6(b)</xref> is independently calculated. Perfectly matched layers (PMLs) are also used in Fig. 
+ <xref rid="Fig7" ref-type="fig">7(c)</xref> to eliminate the reflected waves by the outer boundaries.
+</p>

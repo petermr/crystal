@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Based on the analysis of the previous section, the simplest form of a fitting function for the drag coefficient at fixed temperature, pressure, and dislocation character angle which captures its velocity dependence in the small 
+ <italic>v</italic> as well as in the asymptotic regime 
+ <inline-formula>
+  <math id="mm132">
+   <mrow>
+    <mrow>
+     <mi>v</mi>
+     <mo>→</mo>
+     <msub>
+      <mi>v</mi>
+      <mi mathvariant="normal">c</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is given by 
+ <disp-formula id="FD6-materials-12-00948">
+  <label>(6)</label>
+  <math id="mm133">
+   <mrow>
+    <mtable displaystyle="true">
+     <mtr>
+      <mtd>
+       <mrow>
+        <mi>B</mi>
+        <mo>(</mo>
+        <mi>ϑ</mi>
+        <mo>)</mo>
+       </mrow>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>≈</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>0</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>−</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>1</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mi>x</mi>
+        <mo>+</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>2</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mfenced separators="" open="(" close=")">
+         <mfrac>
+          <mn>1</mn>
+          <msup>
+           <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <msup>
+             <mi>x</mi>
+             <mn>2</mn>
+            </msup>
+            <mo>)</mo>
+           </mrow>
+           <mrow>
+            <mn>3</mn>
+            <mo>/</mo>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mfrac>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mfenced>
+        <mspace width="0.166667em"/>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mi>x</mi>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>=</mo>
+        <mfrac>
+         <mi>v</mi>
+         <mrow>
+          <msub>
+           <mi>v</mi>
+           <mi>c</mi>
+          </msub>
+          <mrow>
+           <mo>(</mo>
+           <mi>ϑ</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <msub>
+         <mi>β</mi>
+         <mi mathvariant="normal">T</mi>
+        </msub>
+        <mfrac>
+         <msub>
+          <mi>c</mi>
+          <mi mathvariant="normal">T</mi>
+         </msub>
+         <mrow>
+          <msub>
+           <mi>v</mi>
+           <mi>c</mi>
+          </msub>
+          <mrow>
+           <mo>(</mo>
+           <mi>ϑ</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo>.</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

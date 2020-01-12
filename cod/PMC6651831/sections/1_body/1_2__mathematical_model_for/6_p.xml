@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In a transverse thermoelectric material, heat flux and electrical current flow perpendicular to each other. Based on 
+ <xref ref-type="fig" rid="materials-12-02049-f002">Figure 2</xref>, we assume the electrical current flows in the y-direction and heat flux flows in the z-direction. The transverse thermoelectric figure of merit is defined as 
+ <inline-formula>
+  <math id="mm20">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi mathvariant="normal">Z</mi>
+      <mrow>
+       <mi>trans</mi>
+      </mrow>
+     </msub>
+     <mi mathvariant="normal">T</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msubsup>
+        <mi>S</mi>
+        <mrow>
+         <mi>z</mi>
+         <mi>y</mi>
+        </mrow>
+        <mn>2</mn>
+       </msubsup>
+       <mi mathvariant="normal">T</mi>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>ρ</mi>
+        <mrow>
+         <mi>y</mi>
+         <mi>y</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>λ</mi>
+        <mrow>
+         <mi>z</mi>
+         <mi>z</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> [
+ <xref rid="B10-materials-12-02049" ref-type="bibr">10</xref>,
+ <xref rid="B27-materials-12-02049" ref-type="bibr">27</xref>], where 
+ <italic>S
+  <sub>zy</sub>
+ </italic> is the transverse Seebeck coefficient, 
+ <italic>ρ
+  <sub>yy</sub>
+ </italic> is electrical resistivity in the y-direction, 
+ <italic>λ
+  <sub>zz</sub>
+ </italic> is thermal conductivity in the z-direction, T is the operating temperature. The term 
+ <italic>S
+  <sub>zy</sub>
+ </italic>, 
+ <italic>ρ
+  <sub>yy</sub>
+ </italic>, and 
+ <italic>λ
+  <sub>zz</sub>
+ </italic> values can be calculated using Equation (1) to Equation (3).
+</p>

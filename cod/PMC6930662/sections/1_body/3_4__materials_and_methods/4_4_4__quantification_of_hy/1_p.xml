@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The length of the hydrogen bond 
+ <italic>l</italic>
+ <sub>HB</sub> is considered as a separation between the hydrogen and oxygen atoms of the amide groups from the neighboring stars in the stack applying the structural definitions of the bond suggested by Luzar and Chandler [
+ <xref rid="B80-molecules-24-04387" ref-type="bibr">80</xref>]. The close contacts 
+ <italic>l</italic>
+ <sub>CC</sub> are defined in terms of the sum of the specified atomic radii. Finally, the dipole moments 
+ <inline-formula>
+  <math id="mm107">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mi mathvariant="normal">N</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> of the stars and stacks with 
+ <italic>N</italic>≤ 8 are calculated using density functional theory with M06-L/aug-cc-pVTZ hybrid functional, as justified by Zawada et al. for hydrogen-bonded molecular chains [
+ <xref rid="B81-molecules-24-04387" ref-type="bibr">81</xref>]. For comparison and for larger aggregates, the point-like charges on atoms from PCFF parametrization are used to calculate the normalized dipole moments as 
+ <inline-formula>
+  <math id="mm108">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mi mathvariant="normal">N</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>/
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mi>max</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm110">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mi>max</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is the maximal value of the dipole molecule of the stack with 
+ <italic>N</italic> = 20. All the aforementioned properties are analyzed using the Forcite module of BIOVIA Materials Studio [
+ <xref rid="B70-molecules-24-04387" ref-type="bibr">70</xref>].
+</p>

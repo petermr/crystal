@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The pressure-dependent average PL lifetime 〈τ〉 is also shown in 
+ <xref rid="F3" ref-type="fig">Fig. 3C</xref> (red circle), which is calculated from 〈τ〉 = (
+ <italic>A</italic>
+ <sub>1</sub>τ
+ <sub>1</sub> + 
+ <italic>A</italic>
+ <sub>2</sub>τ
+ <sub>2</sub>)/(
+ <italic>A</italic>
+ <sub>1</sub> + 
+ <italic>A</italic>
+ <sub>2</sub>), where τ
+ <sub>1</sub>, τ
+ <sub>2</sub>, 
+ <italic>A</italic>
+ <sub>1</sub>, and 
+ <italic>A</italic>
+ <sub>2</sub> are lifetime and amplitude of the two exponential components (see fig. S8 and table S1). Other than α that presents a plateau at 0 to 3.5 GPa, 〈τ〉 monotonously decreases until the PL fully quenches. The pressure dependence of α can be fitted (blue dash line in 
+ <xref rid="F3" ref-type="fig">Fig. 3C</xref>) by the following relationship
+ <disp-formula id="E1">
+  <math id="m1">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">α</mi>
+     <mo>=</mo>
+     <mfrac>
+      <msub>
+       <mi mathvariant="normal">α</mi>
+       <mn>0</mn>
+      </msub>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <msup>
+        <mi mathvariant="italic">ae</mi>
+        <mrow>
+         <mo>−</mo>
+         <mi mathvariant="normal">λ</mi>
+         <mo>/</mo>
+         <mi>P</mi>
+        </mrow>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+  <label>(1)</label>
+ </disp-formula>where α
+ <sub>0</sub> is the initial intensity coefficient without pressure and 
+ <italic>a</italic> and λ are fitting parameters. The relationship is a modified Arrhenius-like phenomenological model to describe the pressure-induced changes in the optical response. While 
+ <italic>a</italic> = τ
+ <sub>r</sub>/τ
+ <sub>nr</sub> relates to the competition between nonradiative and radiative recombination channels at infinitely great pressure, λ, with the units of pressure, can approximately evaluate the transition from semiconductor (radiative)– to metal (nonradiative)–like behavior. By fitting α
+ <sub>0</sub> versus pressure, we obtain 
+ <italic>a</italic> = (4.37 ± 1.12) × 10
+ <sup>6</sup> and λ = (53.7 ± 8.2) GPa. The value of λ is in the typical pressure range where the metalization takes place for halide perovskite (
+ <xref rid="R21" ref-type="bibr">
+  <italic>21</italic>
+ </xref>). Using the parameters, we can obtain the relative quantum yield of (PEA)
+ <sub>2</sub>PbI
+ <sub>4</sub> (η
+ <sub>r</sub>) under the applied pressure. Since quantum yield η is proportional to the PL intensity coefficient α, we have the relationship between relative (η
+ <sub>r</sub>) and initial zero-pressure quantum yield (η
+ <sub>0</sub>): η
+ <sub>r</sub> = η/η
+ <sub>0</sub> = α/α
+ <sub>0</sub>. Hence, the pressure dependence of relative quantum yield is η
+ <sub>r</sub> = 1/(1 + 
+ <italic>ae</italic>
+ <sup>−λ/
+  <italic>P</italic>
+ </sup>).
+</p>

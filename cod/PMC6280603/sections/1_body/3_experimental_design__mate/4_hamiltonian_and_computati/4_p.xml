@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0065">The summation over all atom pairs 
+ <italic>ij</italic> and 
+ <bold>g</bold> lattice vectors excludes the self- interaction contribution (
+ <italic>i</italic> = 
+ <italic>j</italic>) for every 
+ <bold>g</bold>. The parameters 
+ <italic>C</italic>
+ <sub>
+  <italic>6</italic>
+ </sub>
+ <sup>
+  <italic>i</italic>
+ </sup> represent the dispersion coefficient for the atom 
+ <italic>i</italic>, 
+ <italic>R</italic>
+ <sub>
+  <italic>ij,</italic>
+  <bold>g</bold>
+ </sub> is the interatomic distance between atom 
+ <italic>i</italic> in the reference cell and atom 
+ <italic>j</italic> in the neighbouring cells at distance |
+ <bold>g</bold>| and 
+ <italic>s</italic>
+ <sub>
+  <italic>6</italic>
+ </sub> is a functional-dependent scaling factor. The function 
+ <italic>f</italic>
+ <sub>
+  <italic>dump</italic>
+ </sub> is used to dump the energy correction to avoid double counting of short-range contributions to the energy and depends on the sum of atomic van der Waals radii and on a steepness parameter (
+ <italic>d</italic> = 20). Due to the molecular nature of the DFT + D2 scheme, which tends to overestimate cohesive energy in solid crystals, the original B3LYP + D parameters where modified, setting 
+ <italic>s</italic>
+ <sub>
+  <italic>6</italic>
+ </sub> to 1, 
+ <italic>R</italic>
+ <sub>
+  <italic>vdw</italic>
+ </sub>(H) to 1.30 and the heavier atom van der Waals radii were scaled by a factor 1.05 (B3LYP-D* approach) 
+ <xref rid="bib12" ref-type="bibr">[12]</xref>, 
+ <xref rid="bib13" ref-type="bibr">[13]</xref>, 
+ <xref rid="bib14" ref-type="bibr">[14]</xref>, 
+ <xref rid="bib15" ref-type="bibr">[15]</xref>, 
+ <xref rid="bib16" ref-type="bibr">[16]</xref>, 
+ <xref rid="bib17" ref-type="bibr">[17]</xref>.
+</p>

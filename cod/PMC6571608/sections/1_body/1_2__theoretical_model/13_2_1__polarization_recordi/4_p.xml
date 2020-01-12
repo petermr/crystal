@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Then the azimuth 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and ellipticity 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">ρ</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> distributions of resulting light field can be determined by:
+ <disp-formula id="FD11-polymers-11-00861">
+  <label>(11)</label>
+  <math id="mm79">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi mathvariant="sans-serif">ψ</mi>
+      <mo stretchy="false">(</mo>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+      <mo>,</mo>
+      <mi>t</mi>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mfrac>
+       <mn>1</mn>
+       <mn>2</mn>
+      </mfrac>
+      <mo>⋅</mo>
+      <mi>a</mi>
+      <mi>r</mi>
+      <mi>c</mi>
+      <mi>t</mi>
+      <mi>g</mi>
+      <mrow>
+       <mo>(</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mn>2</mn>
+          <mo>⋅</mo>
+          <mi>Re</mi>
+          <mrow>
+           <mo>[</mo>
+           <mrow>
+            <mi mathvariant="sans-serif">μ</mi>
+            <mo stretchy="false">(</mo>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo>,</mo>
+            <mi>t</mi>
+            <mo stretchy="false">)</mo>
+           </mrow>
+           <mo>]</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>1</mn>
+          <mo>−</mo>
+          <msup>
+           <mrow>
+            <mrow>
+             <mo>|</mo>
+             <mrow>
+              <mi mathvariant="sans-serif">μ</mi>
+              <mo stretchy="false">(</mo>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>r</mi>
+              </mstyle>
+              <mo>,</mo>
+              <mi>t</mi>
+              <mo stretchy="false">)</mo>
+             </mrow>
+             <mo>|</mo>
+            </mrow>
+           </mrow>
+           <mn>2</mn>
+          </msup>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo>)</mo>
+      </mrow>
+     </mrow>
+     <mrow>
+      <mo>,</mo>
+      <mo> </mo>
+      <mspace linebreak="newline"/>
+      <mi mathvariant="sans-serif">ρ</mi>
+      <msup>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mi>t</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>=</mo>
+      <mfrac>
+       <mrow>
+        <mn>1</mn>
+        <mo>−</mo>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo>[</mo>
+           <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>4</mn>
+            <mo>⋅</mo>
+            <mrow>
+             <mrow>
+              <msup>
+               <mrow>
+                <mi>Im</mi>
+               </mrow>
+               <mn>2</mn>
+              </msup>
+              <mrow>
+               <mo>[</mo>
+               <mrow>
+                <mi mathvariant="sans-serif">μ</mi>
+                <mo stretchy="false">(</mo>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+                <mo>,</mo>
+                <mi>t</mi>
+                <mo stretchy="false">)</mo>
+               </mrow>
+               <mo>]</mo>
+              </mrow>
+             </mrow>
+             <mo>/</mo>
+             <mrow>
+              <msup>
+               <mrow>
+                <mrow>
+                 <mo>(</mo>
+                 <mrow>
+                  <mn>1</mn>
+                  <mo>−</mo>
+                  <msup>
+                   <mrow>
+                    <mrow>
+                     <mo>|</mo>
+                     <mrow>
+                      <mi mathvariant="sans-serif">μ</mi>
+                      <mo stretchy="false">(</mo>
+                      <mstyle mathvariant="bold" mathsize="normal">
+                       <mi>r</mi>
+                      </mstyle>
+                      <mo>,</mo>
+                      <mi>t</mi>
+                      <mo stretchy="false">)</mo>
+                     </mrow>
+                     <mo>|</mo>
+                    </mrow>
+                   </mrow>
+                   <mn>2</mn>
+                  </msup>
+                 </mrow>
+                 <mo>)</mo>
+                </mrow>
+               </mrow>
+               <mn>2</mn>
+              </msup>
+             </mrow>
+            </mrow>
+           </mrow>
+           <mo>]</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>0.5</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+        <mo>+</mo>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo>[</mo>
+           <mrow>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mn>4</mn>
+            <mo>⋅</mo>
+            <mrow>
+             <mrow>
+              <msup>
+               <mrow>
+                <mi>Im</mi>
+               </mrow>
+               <mn>2</mn>
+              </msup>
+              <mrow>
+               <mo>[</mo>
+               <mrow>
+                <mi mathvariant="sans-serif">μ</mi>
+                <mo stretchy="false">(</mo>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+                <mo>,</mo>
+                <mi>t</mi>
+                <mo stretchy="false">)</mo>
+               </mrow>
+               <mo>]</mo>
+              </mrow>
+             </mrow>
+             <mo>/</mo>
+             <mrow>
+              <msup>
+               <mrow>
+                <mrow>
+                 <mo>(</mo>
+                 <mrow>
+                  <mn>1</mn>
+                  <mo>−</mo>
+                  <msup>
+                   <mrow>
+                    <mrow>
+                     <mo>|</mo>
+                     <mrow>
+                      <mi mathvariant="sans-serif">μ</mi>
+                      <mo stretchy="false">(</mo>
+                      <mstyle mathvariant="bold" mathsize="normal">
+                       <mi>r</mi>
+                      </mstyle>
+                      <mo>,</mo>
+                      <mi>t</mi>
+                      <mo stretchy="false">)</mo>
+                     </mrow>
+                     <mo>|</mo>
+                    </mrow>
+                   </mrow>
+                   <mn>2</mn>
+                  </msup>
+                 </mrow>
+                 <mo>)</mo>
+                </mrow>
+               </mrow>
+               <mn>2</mn>
+              </msup>
+             </mrow>
+            </mrow>
+           </mrow>
+           <mo>]</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>0.5</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+      <mo>,</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

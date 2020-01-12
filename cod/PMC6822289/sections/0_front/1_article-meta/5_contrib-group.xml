@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contrib-group>
+ <contrib contrib-type="author" id="ath1">
+  <name>
+   <surname>Ongari</surname>
+   <given-names>Daniele</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath2">
+  <name>
+   <surname>Yakutovich</surname>
+   <given-names>Aliaksandr V.</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" id="ath3">
+  <name>
+   <surname>Talirz</surname>
+   <given-names>Leopold</given-names>
+  </name>
+  <xref rid="aff1" ref-type="aff">†</xref>
+  <xref rid="aff2" ref-type="aff">‡</xref>
+ </contrib>
+ <contrib contrib-type="author" corresp="yes" id="ath4">
+  <name>
+   <surname>Smit</surname>
+   <given-names>Berend</given-names>
+  </name>
+  <xref rid="cor1" ref-type="other">*</xref>
+  <xref rid="aff1" ref-type="aff">†</xref>
+ </contrib>
+ <aff id="aff1">
+  <label>†</label>Laboratory of Molecular Simulation (LSMO), Institut des Sciences et Ingénierie Chimiques, 
+  <institution>École Polytechnique Fédérale de Lausanne (EPFL)</institution>, Rue de l’Industrie 17, Sion, CH-1951 Valais, 
+  <country>Switzerland</country>
+ </aff>
+ <aff id="aff2">
+  <label>‡</label>Theory and Simulation of Materials (THEOS), Faculté des Sciences et Techniques de l’Ingénieur, 
+  <institution>École Polytechnique Fédérale de Lausanne</institution>, CH-1015 Lausanne, 
+  <country>Switzerland</country>
+ </aff>
+</contrib-group>

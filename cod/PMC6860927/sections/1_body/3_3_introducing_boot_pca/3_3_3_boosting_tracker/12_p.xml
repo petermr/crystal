@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p specific-use="line">4. The final strong classifier is defined as: 
+ <disp-formula id="pone.0225041.e006">
+  <alternatives>
+   <graphic xlink:href="pone.0225041.e006.jpg" id="pone.0225041.e006g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M6">
+    <mrow>
+     <mi>H</mi>
+     <mo>(</mo>
+     <mi>x</mi>
+     <mo>)</mo>
+     <mo>=</mo>
+     <mtext>sign</mtext>
+     <mo>(</mo>
+     <msubsup>
+      <mo>∑</mo>
+      <mrow>
+       <mi>t</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mrow>
+       <mi>T</mi>
+      </mrow>
+     </msubsup>
+     <msub>
+      <mi>α</mi>
+      <mi>t</mi>
+     </msub>
+     <msub>
+      <mi>h</mi>
+      <mi>t</mi>
+     </msub>
+     <mo>(</mo>
+     <mi>x</mi>
+     <mo>)</mo>
+     <mo>)</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula>
+</p>

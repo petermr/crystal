@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0575">as a result, we have optical absorption 
+ <inline-formula>
+  <math id="M487" altimg="si284.svg">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula>, which is entirely expressed in elementary functions [
+ <xref rid="bib10" ref-type="bibr">10</xref>, 
+ <xref rid="bib11" ref-type="bibr">11</xref>, 
+ <xref rid="bib12" ref-type="bibr">12</xref>, 
+ <xref rid="bib79" ref-type="bibr">79</xref>]:
+ <disp-formula id="fd141">
+  <label>(141)</label>
+  <math id="M488" altimg="si364.svg" alttext="Equation 141.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mspace width="0.25em"/>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>Y</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd142">
+  <label>(142)</label>
+  <math id="M489" altimg="si365.svg" alttext="Equation 142.">
+   <mrow>
+    <mi>Y</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <mi>ln</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>ω</mi>
+        <mi>τ</mi>
+        <mtext> sinh </mtext>
+        <msub>
+         <mrow>
+          <mi>β</mi>
+         </mrow>
+         <mrow>
+          <mi>T</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>4</mn>
+        <mi>π</mi>
+        <mtext> cosh </mtext>
+        <mi>t</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+     <mrow>
+      <mi>ω</mi>
+      <mi>τ</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mtext>coth </mtext>
+      <msub>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">−</mo>
+      <mfrac>
+       <mrow>
+        <mtext>cosh </mtext>
+        <mi>t</mi>
+       </mrow>
+       <mrow>
+        <mtext>sinh </mtext>
+        <msub>
+         <mrow>
+          <mi>β</mi>
+         </mrow>
+         <mrow>
+          <mi>T</mi>
+         </mrow>
+        </msub>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+       </mrow>
+      </msub>
+      <mo linebreak="badbreak">−</mo>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi>ω</mi>
+      <mi>τ</mi>
+      <mtext> </mtext>
+      <mi>Θ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <mtext>sinh </mtext>
+      <msub>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+      <mi>ω</mi>
+      <mi>τ</mi>
+      <mtext> </mtext>
+      <msup>
+       <mrow>
+        <mi>Θ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mtext>cosh </mtext>
+      <mi>t</mi>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd143">
+  <label>(143)</label>
+  <math id="M490" altimg="si366.svg" alttext="Equation 143.">
+   <mrow>
+    <mn>1</mn>
+    <mo linebreak="badbreak">&lt;</mo>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mi>ω</mi>
+      <mi>τ</mi>
+      <mtext> </mtext>
+      <mi>Θ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">≤</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mtext>cosh </mtext>
+      <mi>t</mi>
+     </mrow>
+     <mrow>
+      <mi>ω</mi>
+      <mi>τ</mi>
+      <mtext> sinh </mtext>
+      <msub>
+       <mrow>
+        <mi>β</mi>
+       </mrow>
+       <mrow>
+        <mi>T</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where
+ <disp-formula id="fd144">
+  <label>(144)</label>
+  <math id="M491" altimg="si367.svg" alttext="Equation 144.">
+   <mrow>
+    <mi>t</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ω</mi>
+      <msub>
+       <mrow>
+        <mi>τ</mi>
+       </mrow>
+       <mrow>
+        <mtext>e</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mfrac>
+       <mrow>
+        <mi>A</mi>
+        <mi>C</mi>
+        <mo linebreak="badbreak">+</mo>
+        <mi>B</mi>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mi>A</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">+</mo>
+        <msup>
+         <mrow>
+          <mi>B</mi>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>Θ</mi>
+        <mrow>
+         <mo stretchy="true">(</mo>
+         <mrow>
+          <mi>Θ</mi>
+          <mo linebreak="badbreak">−</mo>
+          <mn>1</mn>
+         </mrow>
+         <mo stretchy="true">)</mo>
+        </mrow>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mi>Θ</mi>
+            <mo linebreak="badbreak">−</mo>
+            <mn>1</mn>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">+</mo>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mrow>
+             <mrow>
+              <mi>Θ</mi>
+             </mrow>
+             <mo linebreak="badbreak">/</mo>
+             <mrow>
+              <msub>
+               <mrow>
+                <mi>θ</mi>
+               </mrow>
+               <mrow>
+                <mn>0</mn>
+               </mrow>
+              </msub>
+             </mrow>
+            </mrow>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+      </mfrac>
+      <mo linebreak="badbreak">+</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <msup>
+         <mrow>
+          <msub>
+           <mrow>
+            <mi>θ</mi>
+           </mrow>
+           <mrow>
+            <mn>0</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+        <mo linebreak="badbreak">+</mo>
+        <mn>1</mn>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd145">
+  <label>(145)</label>
+  <math id="M492" altimg="si368.svg" alttext="Equation 145.">
+   <mrow>
+    <mrow>
+     <mo stretchy="true">|</mo>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>θ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mo stretchy="true">|</mo>
+    </mrow>
+    <mo linebreak="goodbreak">&gt;</mo>
+    <mo linebreak="badbreak">&gt;</mo>
+    <mfrac>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>J</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd146">
+  <label>(146)</label>
+  <math id="M493" altimg="si369.svg" alttext="Equation 146.">
+   <mrow>
+    <mi>θ</mi>
+    <mo linebreak="badbreak">≡</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>τ</mi>
+       </mrow>
+       <mrow>
+        <mtext>e</mtext>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>L</mi>
+      <mtext> </mtext>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <msqrt>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mn>2</mn>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+    <mspace width="0.25em"/>
+    <mi>Θ</mi>
+    <mo linebreak="goodbreak">≡</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mi>τ</mi>
+       <mo>′</mo>
+      </msup>
+     </mrow>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">≡</mo>
+    <mfrac>
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>τ</mi>
+       </mrow>
+       <mrow>
+        <mn>0</mn>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="fd147">
+  <label>(147)</label>
+  <math id="M494" altimg="si370.svg" alttext="Equation 147.">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mtext>e</mtext>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>L</mi>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mrow>
+         <mrow>
+          <mn>2</mn>
+          <msub>
+           <mrow>
+            <mi>J</mi>
+           </mrow>
+           <mrow>
+            <mn>1</mn>
+           </mrow>
+          </msub>
+         </mrow>
+         <mo linebreak="badbreak">/</mo>
+         <mrow>
+          <mi>m</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <mi>τ</mi>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <msup>
+     <mi>τ</mi>
+     <mo>′</mo>
+    </msup>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+    </mfrac>
+    <mo>,</mo>
+    <mspace width="0.25em"/>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

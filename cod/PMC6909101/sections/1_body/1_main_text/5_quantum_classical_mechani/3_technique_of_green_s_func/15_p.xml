@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0380">Here, in contrast to 
+ <xref rid="fd25" ref-type="disp-formula">Eq. (25)</xref>, 
+ <inline-formula>
+  <math id="M180" altimg="si94.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi>p</mi>
+       <mo>˜</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> are some, so far arbitrary, constants. Then
+ <disp-formula id="fd55">
+  <label>(55)</label>
+  <math id="M181" altimg="si154.svg" alttext="Equation 55.">
+   <mrow>
+    <mtext>H</mtext>
+    <mo linebreak="badbreak">−</mo>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mo linebreak="badbreak">−</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>ℏ</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+      <mi>μ</mi>
+     </mrow>
+    </mfrac>
+    <msub>
+     <mrow>
+      <mi>Δ</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+    </msub>
+    <mo linebreak="badbreak">+</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <msub>
+     <mrow>
+      <mi>U</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo linebreak="badbreak">−</mo>
+      <mi mathvariant="bold">L</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">+</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mtext> </mtext>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>p</mi>
+        <mo>˜</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo linebreak="goodbreak">+</mo>
+    <mfrac>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mfrac>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <mi>ℏ</mi>
+     <msub>
+      <mrow>
+       <mi>ω</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msubsup>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+        <mrow>
+         <mn>2</mn>
+        </mrow>
+       </msubsup>
+       <mo linebreak="badbreak">−</mo>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mrow>
+           <mo>∂</mo>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msup>
+        </mrow>
+        <mrow>
+         <mo>∂</mo>
+         <msubsup>
+          <mrow>
+           <mi>p</mi>
+          </mrow>
+          <mrow>
+           <mi>ι</mi>
+          </mrow>
+          <mrow>
+           <mn>2</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>and the solution of the homogeneous 
+ <xref rid="fd45" ref-type="disp-formula">Eq. (45)</xref>,
+ <disp-formula id="fd56">
+  <label>(56)</label>
+  <math id="M182" altimg="si155.svg" alttext="Equation 56.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mi>ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <msub>
+     <mrow>
+      <mi>Φ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>corresponds to the lack of interaction of the electron with the vibrations of the nuclei. In other words, the nuclei vibrate as if there were no electron in the condensed medium, and the motion of the electron occurs as if the nuclei were immovably fixed in their equilibrium positions. Thus, the solution 
+ <inline-formula>
+  <math id="M183" altimg="si156.svg">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi mathvariant="bold">q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> does not correspond to either the electron-transfer state or many-phonon transitions in general. Therefore, it must be excluded from the general solution 
+ <xref rid="fd54" ref-type="disp-formula">(54)</xref> as describing an unphysical state. Consequently, the state of electron transfer is determined by the solution [
+ <xref rid="bib79" ref-type="bibr">79</xref>].
+ <disp-formula id="fd57">
+  <label>(57)</label>
+  <math id="M184" altimg="si157.svg" alttext="Equation 57.">
+   <mrow>
+    <mi>Ψ</mi>
+    <mo linebreak="badbreak">=</mo>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+    <mtext> </mtext>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mtext> </mtext>
+    <mrow>
+     <mover accent="true">
+      <mi>Ψ</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

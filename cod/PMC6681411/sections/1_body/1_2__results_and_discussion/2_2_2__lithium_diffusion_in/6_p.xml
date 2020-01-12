@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From the MSD vs. 
+ <italic>t</italic> curve, the diffusion coefficient, 
+ <italic>D</italic>, can be calculated as follows:
+ <disp-formula id="FD4-molecules-24-02667">
+  <label>(4)</label>
+  <math id="mm28">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>D</mi>
+      <mi>c</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi>d</mi>
+      </mrow>
+     </mfrac>
+     <munder>
+      <mrow>
+       <mi>lim</mi>
+      </mrow>
+      <mrow>
+       <mi>t</mi>
+       <mo>→</mo>
+       <mo>∞</mo>
+      </mrow>
+     </munder>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mi>d</mi>
+        <mrow>
+         <mi>d</mi>
+         <mi>t</mi>
+        </mrow>
+       </mfrac>
+       <mi>M</mi>
+       <mi>S</mi>
+       <mi>D</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD5-molecules-24-02667">
+  <label>(5)</label>
+  <math id="mm29">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>D</mi>
+      <mi>c</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <mn>2</mn>
+       <mi>d</mi>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mi>M</mi>
+         <mi>S</mi>
+         <mi>D</mi>
+        </mrow>
+        <mi>t</mi>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm30">
+   <mrow>
+    <mi>d</mi>
+   </mrow>
+  </math>
+ </inline-formula> indicates the dimension of the system [
+ <xref rid="B28-molecules-24-02667" ref-type="bibr">28</xref>,
+ <xref rid="B29-molecules-24-02667" ref-type="bibr">29</xref>]. Equation (4) reduces to Equation (5) if the time dependence of MSD is approximately linear, which holds true in most cases. Thus, Equation (5) is also widely used in the literature to calculate the diffusion coefficient [
+ <xref rid="B29-molecules-24-02667" ref-type="bibr">29</xref>,
+ <xref rid="B31-molecules-24-02667" ref-type="bibr">31</xref>]. The calculated value of the Li
+ <sup>+</sup> diffusion coefficient by using Equation (5) is 
+ <inline-formula>
+  <math id="mm31">
+   <mrow>
+    <mrow>
+     <mn>3.13</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>5</mn>
+      </mrow>
+     </msup>
+     <mi>c</mi>
+     <msup>
+      <mi>m</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>/</mo>
+     <mi>s</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which is higher than that of the Li
+ <sup>+</sup> ion calculated for Li
+ <sub>5</sub>YPS
+ <sub>4</sub>Cl
+ <sub>2</sub> (~
+ <inline-formula>
+  <math id="mm32">
+   <mrow>
+    <mrow>
+     <mn>2.5</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>6</mn>
+      </mrow>
+     </msup>
+     <mi>c</mi>
+     <msup>
+      <mi>m</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>/</mo>
+     <mi>s</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) at 500 K [
+ <xref rid="B29-molecules-24-02667" ref-type="bibr">29</xref>]. The Li ion conductivity can be estimated by the Nernst–Einstein relation [
+ <xref rid="B29-molecules-24-02667" ref-type="bibr">29</xref>]:
+ <disp-formula id="FD6-molecules-24-02667">
+  <label>(6)</label>
+  <math id="mm33">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">σ</mi>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mi>ρ</mi>
+       <msup>
+        <mi>z</mi>
+        <mn>2</mn>
+       </msup>
+       <msup>
+        <mi>F</mi>
+        <mn>2</mn>
+       </msup>
+       <mi>D</mi>
+      </mrow>
+      <mrow>
+       <mi>R</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm34">
+   <mrow>
+    <mi>ρ</mi>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <italic>R</italic>, and 
+ <italic>F</italic> represent the molar density of Li in the unit cell, gas constant (8.314 J∙mol
+ <sup>−1</sup>∙K
+ <sup>−1</sup>), and the Faraday’s constant (96,485 C∙mol
+ <sup>−1</sup>), respectively. 
+ <italic>z</italic> is the charge number of Li, 
+ <italic>z</italic> = +1. According to the MSD, the Li conductivity for the current simulated system was calculated to be 708 mS/cm at 500 K.
+</p>

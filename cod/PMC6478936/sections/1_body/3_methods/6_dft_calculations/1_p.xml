@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par41">Electronic structure calculations were performed using the Vienna 
+ <italic>ab initio</italic> simulation package (VASP)
+ <sup>
+  <xref ref-type="bibr" rid="CR62">62</xref>,
+  <xref ref-type="bibr" rid="CR63">63</xref>
+ </sup>, which is based on density functional theory (DFT) and plane wave basis sets. Projector-augmented waves (PAW)
+ <sup>
+  <xref ref-type="bibr" rid="CR64">64</xref>
+ </sup> were used and contributions of correlation and exchange were treated in the generalized-gradient approximation (GGA) as described by Perdew, Burke, and Ernzerhof
+ <sup>
+  <xref ref-type="bibr" rid="CR65">65</xref>
+ </sup>. An energy cutoff at 500 eV and dense 
+ <italic>k</italic>-point samplings ensured well-converged structures and smooth density-of-states. Chemical bonding was analysed using the Crystal Orbital Hamilton Population (COHP) method
+ <sup>
+  <xref ref-type="bibr" rid="CR66">66</xref>
+ </sup> after projecting of the PAW eigenstates basis onto localized LCAO (linear combination of atomic orbitals) crystal orbitals using the program LOBSTER
+ <sup>
+  <xref ref-type="bibr" rid="CR67">67</xref>,
+  <xref ref-type="bibr" rid="CR68">68</xref>
+ </sup>. The Bader analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup> implemented by Henkelman et al.
+ <sup>
+  <xref ref-type="bibr" rid="CR69">69</xref>
+ </sup> was used to extract charges from the electron density distribution.
+</p>

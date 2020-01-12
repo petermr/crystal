@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In the more general semi-isotropic case considered here, this latter cancellation cannot occur because now we have divergences at 
+ <inline-formula>
+  <math id="mm119">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mi mathvariant="normal">c</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>ϑ</mi>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, whereas the kinematic terms in 
+ <inline-formula>
+  <math id="mm120">
+   <mrow>
+    <mo>Γ</mo>
+   </mrow>
+  </math>
+ </inline-formula> coming from the phonons only know about 
+ <inline-formula>
+  <math id="mm121">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">T</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm122">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">L</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula>. Similarly, the cancellation leading to the milder divergence of the pure screw dislocation in the isotropic limit is indeed special to the strictly isotropic case: For an isotropic screw dislocation, 
+ <inline-formula>
+  <math id="mm123">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">S</mi>
+     <mspace width="-0.166667em"/>
+     <mo>·</mo>
+     <mspace width="-0.166667em"/>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mi>b</mi>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+     <mo>→</mo>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mn>0</mn>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm124">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">K</mi>
+     <mspace width="-0.166667em"/>
+     <mo>·</mo>
+     <mspace width="-0.166667em"/>
+     <mover accent="true">
+      <mrow>
+       <mspace width="0.0pt"/>
+       <mi>b</mi>
+      </mrow>
+      <mo>→</mo>
+     </mover>
+     <mo>∼</mo>
+     <mfenced separators="" open="(" close=")">
+      <mn>0</mn>
+      <mo>,</mo>
+      <mn>0</mn>
+      <mo>,</mo>
+      <msqrt>
+       <mrow>
+        <mn>1</mn>
+        <mo>−</mo>
+        <msubsup>
+         <mi>β</mi>
+         <mrow>
+          <mi mathvariant="normal">T</mi>
+         </mrow>
+         <mn>2</mn>
+        </msubsup>
+       </mrow>
+      </msqrt>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm125">
+   <mrow>
+    <mrow>
+     <msup>
+      <mrow>
+       <mo>(</mo>
+       <mi>n</mi>
+       <mi>n</mi>
+       <mo>)</mo>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo>∼</mo>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>−</mo>
+      <msubsup>
+       <mi>β</mi>
+       <mrow>
+        <mi mathvariant="normal">T</mi>
+       </mrow>
+       <mn>2</mn>
+      </msubsup>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> within Equation (
+ <xref ref-type="disp-formula" rid="FD3-materials-12-00948">3</xref>) yield the milder divergence noted above. Finally, one must also not forget that edge and screw dislocations decouple only in the isotropic limit, but not in general, which is why mixed dislocations cannot be represented as superpositions of edge and screw in “real” crystals.
+</p>

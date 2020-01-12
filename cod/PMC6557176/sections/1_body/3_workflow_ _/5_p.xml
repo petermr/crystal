@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Independently of the input data type – static, azimuthal sample rotations, different detector positions (including merged/stitched images) – several data evaluation routines, 
+ <italic>e.g.</italic> cuts and integrations along specific reciprocal-space directions, crystal phase analysis, intensity corrections, fitting of peak positions, transformation to powder-like patterns 
+ <italic>etc.</italic>, are available. Moreover, 
+ <italic>GIDVis</italic> can easily be used directly during measurements, 
+ <italic>e.g.</italic> to support sample alignment by extraction of height scans and rocking curves from two-dimensional intensity data, which can be directly evaluated further for the correct sample position, similar to what is done with a point detector. Because of the real-time data conversion to reciprocal space, 
+ <italic>GIDVis</italic> can also be used to monitor the measurement results, 
+ <italic>e.g.</italic> to make decisions on the optimum incident angle.
+</p>

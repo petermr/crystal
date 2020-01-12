@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For a piece of silicene sheet of 336 Si atoms on the (111) surface of an Ag substrate with 2640 Ag atoms located in perfect fcc lattices (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f005">Figure 5</xref>a), the Tersoff potential was employed to describe the interactions between Si atoms with the parameters taken from [
+ <xref rid="B36-nanomaterials-09-00978" ref-type="bibr">36</xref>], and the interaction between the Si atoms and the Ag atoms as described by a Morse pairwise function [
+ <xref rid="B52-nanomaterials-09-00978" ref-type="bibr">52</xref>]. The system was cooled down to 0.01 K by a damping method [
+ <xref rid="B43-nanomaterials-09-00978" ref-type="bibr">43</xref>,
+ <xref rid="B44-nanomaterials-09-00978" ref-type="bibr">44</xref>] to determine the lowest energy 
+ <inline-formula>
+  <math id="mm104">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the most stable structure. Although 
+ <inline-formula>
+  <math id="mm105">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>…</mo>
+       <msubsup>
+        <mi>x</mi>
+        <mi>i</mi>
+        <mo>′</mo>
+       </msubsup>
+       <mo>…</mo>
+       <mn>0</mn>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> felt by an atom 
+ <italic>i</italic> located at the edges of the silicene sheet should be different from the one felt by an atom in the center region, the edge atoms are much fewer than the center atoms, so we only calculated 
+ <inline-formula>
+  <math id="mm106">
+   <mrow>
+    <msup>
+     <mi>U</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> felt by a center atom (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f005">Figure 5</xref>b) to determine the effective length 
+ <inline-formula>
+  <math id="mm107">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>x</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm108">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>y</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and 
+ <inline-formula>
+  <math id="mm109">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>L</mi>
+      <mi>z</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, and the configuration integral approximates to: 
+ <disp-formula id="FD22-nanomaterials-09-00978">
+  <label>(20)</label>
+  <math id="mm110">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msub>
+        <mi>L</mi>
+        <mi>x</mi>
+       </msub>
+       <msub>
+        <mi>L</mi>
+        <mi>y</mi>
+       </msub>
+       <msub>
+        <mi>L</mi>
+        <mi>z</mi>
+       </msub>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mi>N</mi>
+     </msup>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> according to Equation (2) and 
+ <inline-formula>
+  <math id="mm111">
+   <mrow>
+    <mrow>
+     <mi>E</mi>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mo>∂</mo>
+      <mrow>
+       <mo>∂</mo>
+       <mi>β</mi>
+      </mrow>
+     </mfrac>
+     <mi>ln</mi>
+     <mi>Z</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, the internal energy (
+ <inline-formula>
+  <math id="mm112">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>E</mi>
+      <mrow>
+       <mi>P</mi>
+       <mi>F</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) can be obtained through Equation (19) with 
+ <inline-formula>
+  <math id="mm113">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <mi>T</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 0.1 K.
+</p>

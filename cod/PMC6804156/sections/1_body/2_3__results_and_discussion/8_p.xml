@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <xref ref-type="fig" rid="materials-12-03275-f003">Figure 3</xref>d displays PL decay curves of Rb
+ <sub>2</sub>Bi(PO
+ <sub>4</sub>)(MoO
+ <sub>4</sub>) specimens doped with 1% and 100% Eu
+ <sup>3+</sup>. Samples were excited at 393.5 nm whereas the emission was monitored at 615 nm. Both PL decay curves are linear, indicating that there is only one mechanism of the excited 
+ <sup>5</sup>D
+ <sub>0</sub> level depopulation. Besides, both PL decay curves are also nearly the same indicating similar PL lifetime values. This turned out to be true when the single exponential decay function was used to extract the PL lifetime values from the experimental data:
+ <disp-formula id="FD2-materials-12-03275">
+  <label>(2)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>I</mi>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mo>+</mo>
+     <mi>B</mi>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mi>t</mi>
+        <mi>τ</mi>
+       </mfrac>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

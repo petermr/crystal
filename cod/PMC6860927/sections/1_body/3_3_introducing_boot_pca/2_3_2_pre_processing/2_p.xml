@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In BooT-PCA, we use two filters to reduce the noise level in the detector hit map, first, a median filter (size: 7×7) followed by a Gaussian filter (size: 7×7). The median filter computes the median of all the pixels inside a specified area and replaces the central element with the median value. A Gaussian filter assigns a weighted average to each pixel from a Gaussian distribution of surrounding pixel intensities. The filter size was selected after a careful manual optimization process. The noise reduction procedure may need to be adjusted, based on measurement conditions, more information on the adjustment criteria can be found in Ref. [
+ <xref rid="pone.0225041.ref037" ref-type="bibr">37</xref>].
+</p>

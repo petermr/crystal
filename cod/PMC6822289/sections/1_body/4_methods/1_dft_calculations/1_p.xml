@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>DFT calculations were performed using the Perdew–Burke–Ernzerhof (PBE) exchange-correlation functional
+ <sup>
+  <xref ref-type="bibr" rid="ref39">39</xref>
+ </sup> with DFT-D3(BJ) dispersion corrections.
+ <sup>
+  <xref ref-type="bibr" rid="ref40">40</xref>
+ </sup> The Quickstep code of the CP2K package was used,
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> employing GTH pseudopotentials,
+ <sup>
+  <xref ref-type="bibr" rid="ref42">42</xref>
+ </sup> DZVP-MOLOPT-SR contracted Gaussian basis sets, and an auxiliary plane wave basis set. The plane waves cutoff is set to 600 Ry cutoff, and these are mapped on a 4-level multigrid, with relative cutoff of 50 Ry and progression factor of 3. The orbital transformation (OT) method was used, and if a band gap &lt;0.1 eV was found, the calculation was rerun from scratch using Broyden diagonalization and Thomas–Fermi smearing at 300 K.
+</p>

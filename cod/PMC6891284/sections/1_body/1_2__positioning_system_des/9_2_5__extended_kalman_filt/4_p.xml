@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Assuming that the state formula is a linear function and the measurement formula is a nonlinear function, and that the state estimation value 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and estimated error covariance matrix 
+ <inline-formula>
+  <math id="mm96">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>P</mi>
+      <mrow>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at time 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <mrow>
+     <mi>k</mi>
+     <mo>−</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> have been obtained, the steps of the first-order EKF filtering fusion algorithm are as follows.
+</p>

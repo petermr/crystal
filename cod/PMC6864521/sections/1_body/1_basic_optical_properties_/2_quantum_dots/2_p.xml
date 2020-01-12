@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The term “quantum dot” has been given to spherical (or quasi‐spherical in case of wurtzite materials such as CdSe) semiconductor nanocrystals because they exhibit quantum confinement effect, for nanoparticles with radii smaller than the Bohr radius of the bulk exciton.
+ <xref rid="advs1374-bib-0001" ref-type="ref">1</xref> At that point, the bandgap of the QDs becomes size‐dependent, increasing with a decreasing radius due to the increased interaction energy between the hole and the electron. As an example, when the radius of CdSe QDs decreases from 4.15 to 0.60 nm, the photon energy of the first absorbance peak, 
+ <italic>E</italic>
+ <sub>12</sub>, increases from 1.88 to 3.02 eV (the bandgap energy of bulk CdSe is 
+ <italic>E</italic>
+ <sub>g</sub> = 1.7 eV), and the emission color changes from red to blue.
+ <xref rid="advs1374-bib-0011" ref-type="ref">11</xref> The most basic relationship between the band gap of a QD 
+ <italic>E</italic>
+ <sub>gQD</sub> and its radius, 
+ <italic>R</italic> is based on the effective mass approximation and includes the Coulomb interaction, as given by the so‐called “Brus equation”:
+ <xref rid="advs1374-bib-0012" ref-type="ref">12</xref>
+ <disp-formula id="advs1374-disp-0001">
+  <label>(1)</label>
+  <math id="nlm-math-1">
+   <mrow>
+    <msub>
+     <mi>E</mi>
+     <mrow>
+      <mi mathvariant="normal">gQD</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mfenced>
+      <mi>R</mi>
+     </mfenced>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+     <mi>E</mi>
+     <mi mathvariant="normal">g</mi>
+    </msub>
+    <mo>+</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mrow>
+      <msup>
+       <mi>R</mi>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+    </mfrac>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>m</mi>
+          <mi mathvariant="normal">o</mi>
+         </msub>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>m</mi>
+          <mi mathvariant="normal">e</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+       <mo>+</mo>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>m</mi>
+          <mi mathvariant="normal">o</mi>
+         </msub>
+        </mrow>
+        <mrow>
+         <msub>
+          <mi>m</mi>
+          <mi mathvariant="normal">h</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mi>h</mi>
+       <mn>2</mn>
+      </msup>
+      <msubsup>
+       <mi>α</mi>
+       <mrow>
+        <mi>n</mi>
+        <mo>,</mo>
+        <mi>l</mi>
+       </mrow>
+       <mn>2</mn>
+      </msubsup>
+     </mrow>
+     <mrow>
+      <mn>8</mn>
+      <msup>
+       <mi>π</mi>
+       <mn>2</mn>
+      </msup>
+      <msub>
+       <mi>m</mi>
+       <mi mathvariant="normal">o</mi>
+      </msub>
+     </mrow>
+    </mfrac>
+    <mo>−</mo>
+    <mfrac>
+     <mn>1</mn>
+     <mi>R</mi>
+    </mfrac>
+    <mrow>
+     <mfenced>
+      <mrow>
+       <mfrac>
+        <mrow>
+         <mn>1.8</mn>
+         <msup>
+          <mi>e</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mrow>
+         <mn>4</mn>
+         <mi>π</mi>
+         <msub>
+          <mi>ε</mi>
+          <mi>o</mi>
+         </msub>
+         <msub>
+          <mi>ε</mi>
+          <mi>r</mi>
+         </msub>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mfenced>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>E</italic>
+ <sub>g</sub> is the bulk band gap energy, 
+ <italic>h</italic> is Plank's constant, 
+ <italic>m
+  <sub>o</sub>
+ </italic> is the rest mass of an electron, 
+ <italic>m</italic>
+ <sub>e</sub> and 
+ <italic>m</italic>
+ <sub>h</sub> are the effective masses of electrons in the conduction band and holes in the valence band, respectively, and α
+ <sub>
+  <italic>n</italic>,
+  <italic>l</italic>
+ </sub> is a dimensionless series that takes discrete values. A simple illustration of the size dependence of the electronic structure of prototypical CdSe QDs, together with their band gap dependence on average radius of QDs resulting in different colors of emitting light is given in 
+ <bold>Figure</bold>
+ <xref rid="advs1374-fig-0001" ref-type="fig">
+  <bold>1</bold>
+ </xref>.
+</p>

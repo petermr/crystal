@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig9">
+ <label>Figure 9</label>
+ <caption>
+  <p>Results of local structure analysis using ML-LSA and conventional order parameter with (
+   <bold>a</bold>) 
+   <italic>N</italic> = 27 (the reference), (
+   <bold>b</bold>) 
+   <italic>N</italic> = 4, (
+   <bold>c</bold>) 
+   <italic>N</italic> = 8, (
+   <bold>d</bold>) 
+   <italic>N</italic> = 12, (
+   <bold>e</bold>) local McMillan order parameter 
+   <italic>T</italic> with the parameter 
+   <italic>d</italic> = 3.0 and (
+   <bold>f</bold>) local Onsager order parameter 
+   <italic>S</italic>. For 
+   <italic>N</italic> = 27, 17120 of the 62204 mesogens are in nematic-like structures. In contrast to Fig. 
+   <xref rid="Fig8" ref-type="fig">8</xref>, the classification of local structures was significantly improved. The clear alignments of smectic-like layers of blue-colored particles were visually acquired, while loose parallel alignments of nematic-like layers of red-colored particles were also seen. For 
+   <italic>N</italic> = 4, the four-feature ML model was used based on the results for monodomain systems. The visualized structure contains many small domains that do not correspond to the reference condition. For 
+   <italic>N</italic> = 8, the two-feature ML model was used. The small domains observed with 
+   <italic>N</italic> = 4 are less visible. For 
+   <italic>N</italic> = 12, the one-feature ML model was used. The domain shapes are quite similar to those of the reference structure. The local McMillan order parameter 
+   <italic>T</italic> achieved the adequacy similar to the two feature model with 
+   <italic>N</italic> = 8. The local Onsager order parameter 
+   <italic>S</italic> could not distinguish local structures properly. Definitions of the above order parameters are shown in the Supporting Information.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2019_51238_Fig9_HTML" id="d29e2069" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

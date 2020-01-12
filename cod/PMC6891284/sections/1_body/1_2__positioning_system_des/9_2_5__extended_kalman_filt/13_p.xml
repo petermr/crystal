@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In practice, there are many obstacles in the working environment of the delivery robot. The environment must be a non-line-of-sight (NLOS) environment. NLOS errors will cause interference, diffraction, and other phenomena that affect the UWB signal. Hence, there are errors in the time difference between reference nodes receiving the signal. Therefore, we assume that the indoor environment of the experimental platform does not change and that the obstacles in the environment are all of the same material so that the NLOS error can be regarded as a fixed constant. Then, the distance formula is rewritten as 
+ <disp-formula id="FD41-sensors-19-04980">
+  <label>(37)</label>
+  <math id="mm127">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>d</mi>
+      <mrow>
+       <mn>0</mn>
+       <mo>,</mo>
+       <mi>i</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mover accent="true">
+         <mi>d</mi>
+         <mo stretchy="false">^</mo>
+        </mover>
+        <mrow>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>−</mo>
+       <msub>
+        <mi>b</mi>
+        <mrow>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <msub>
+        <mi>a</mi>
+        <mrow>
+         <mn>0</mn>
+         <mo>,</mo>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>−</mo>
+     <mi>J</mi>
+     <mo>⋅</mo>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>N</mi>
+       <mi>L</mi>
+       <mi>O</mi>
+       <mi>S</mi>
+      </mrow>
+     </msub>
+     <mo>,</mo>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mi>S</mi>
+         <mi>N</mi>
+         <mi>R</mi>
+         <mo>≥</mo>
+         <msub>
+          <mi>T</mi>
+          <mrow>
+           <mi>S</mi>
+           <mi>N</mi>
+           <mi>R</mi>
+          </mrow>
+         </msub>
+         <mo>,</mo>
+         <mi>J</mi>
+         <mo>=</mo>
+         <mn>0</mn>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mi>S</mi>
+         <mi>N</mi>
+         <mi>R</mi>
+         <mo>≤</mo>
+         <msub>
+          <mi>T</mi>
+          <mrow>
+           <mi>S</mi>
+           <mi>N</mi>
+           <mi>R</mi>
+          </mrow>
+         </msub>
+         <mo>,</mo>
+         <mi>J</mi>
+         <mo>=</mo>
+         <mn>1</mn>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm128">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>v</mi>
+      <mrow>
+       <mi>N</mi>
+       <mi>L</mi>
+       <mi>O</mi>
+       <mi>S</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the 
+ <italic>NLOS</italic> error constant in the indoor environment. The signal-to-noise ratio (SNR) is the ratio between the signal received by the mobile nodes and the system noise, while 
+ <inline-formula>
+  <math id="mm129">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>T</mi>
+      <mrow>
+       <mi>S</mi>
+       <mi>N</mi>
+       <mi>R</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the ranging condition determination threshold. The UWB positioning system used in this experiment employs the TDOA positioning algorithm. To ensure accurate calculation of the arrival time difference, the algorithm must ensure that the reference nodes of the UWB positioning system are at the same height. As shown in 
+ <xref ref-type="fig" rid="sensors-19-04980-f006">Figure 6</xref>, reference node A is the origin of the coordinate system, the line connecting reference node B and reference node C is the 
+ <italic>X</italic>-axis, and the line connecting reference node A and reference node C is the 
+ <italic>Y</italic>-axis. The 
+ <italic>Z</italic>-axis direction is perpendicular to the horizontal plane formed by the reference nodes A, B, and C.
+</p>

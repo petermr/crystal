@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In our MD simulations, the calculations were carried out with the 
+ <italic>NPT</italic> ensemble. The time step length and cutoff distance of vdW interaction were set to 0.5 fs and 12 Å, respectively. In order to ensure that all the edge lengths of the cell were at the least twice cutoff distance, a bulk supercell of a 5 × 2 × 3 crystallographic unit cell was used. All structure relaxations were performed for 100 ps from 0 to 20 GPa at 300 K. After equilibration at each pressure, atomic configurations were recorded every 1000th step, and the last 20 000 step trajectories were gathered. By statistical average, we obtained the mean lattice parameters, atom coordinates, volume, center of mass, etc. In addition, a gaseous molecular structure was also optimized with the FF. All calculations in this part were implemented in the LAMMPS program.
+</p>

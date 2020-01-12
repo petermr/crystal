@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An alternative strategy to spatially arrange many copies of a given spin qubit is to design a magnetic molecule whose energy scheme allows defining more than one qubit in it. The implementation of 
+ <italic>n</italic> qubits requires 2
+ <sup>
+  <italic>n</italic>
+ </sup> isolated energy levels and, importantly, the transition between each pair of energy levels must be addressable and distinguishable from the rest. Thus, it would be possible to perform a given quantum algorithm by using a single-molecule. In other words, the molecule itself becomes an autonomous and independent quantum processor. This is precisely what has recently been proposed on a Gd
+ <sup>III</sup>-based magnetic polyoxometalate (POM), namely [Gd(H
+ <sub>2</sub>O)P
+ <sub>5</sub>W
+ <sub>30</sub>O
+ <sub>110</sub>]
+ <sup>12−</sup>, hereafter referred to as 
+ <bold>1</bold> (Jenkins et al., 
+ <xref rid="B13" ref-type="bibr">2017</xref>). This molecule consists in a single Gd
+ <sup>III</sup> ion entrapped inside a POM cage, whose ligand distribution (ten oxygen atoms and one apical water molecule H
+ <sub>2</sub>O) results in a 5-fold geometry around the magnetic ion, see 
+ <xref ref-type="fig" rid="F1">Figure 1</xref>. The Gd-O distance between Gd
+ <sup>III</sup> and the oxygen atom of H
+ <sub>2</sub>O is 2.259 Å, which is compatible with a coordination bond. Its low-lying energy scheme consists in the eight isolated levels of the ground 
+ <italic>J</italic> = 7/2 multiplet, see 
+ <xref ref-type="fig" rid="F2">Figure 2</xref>, and thus allows defining three qubits (
+ <italic>n</italic> = 3) that can be entangled by means of Electron Paramagnetic Resonance (EPR) spectroscopy (Schweiger and Jeschke, 
+ <xref rid="B21" ref-type="bibr">2001</xref>; Baldoví et al., 
+ <xref rid="B2" ref-type="bibr">2013a</xref>). In this technique, microwave radiation pulses of a precise length are used to drive transitions between pairs of spin energy levels. A quantum algorithm is thus performed by a proper pulse sequence. As a matter of fact, there exist simple algorithms exactly involving three qubits, which could be implemented on 
+ <bold>1</bold> such as one of the Shor's quantum error correction codes (Shor, 
+ <xref rid="B23" ref-type="bibr">1995</xref>; Baldoví et al., 
+ <xref rid="B3" ref-type="bibr">2015</xref>).
+</p>

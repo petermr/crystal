@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par14">Recently, 2D ferroelectric SnTe with high Curie temperature has been observed
+ <sup>
+  <xref ref-type="bibr" rid="CR35">35</xref>,
+  <xref ref-type="bibr" rid="CR36">36</xref>
+ </sup>. This material comprises two sheets of alternating Sn and Te atoms, where the in-plane ferroelectric polarization—arising from the relative offset of Sn and Te sublattices—breaks the inversion symmetry. Its space group is 
+ <italic>Pmn</italic>2
+ <sub>1</sub> with 
+ <italic>C</italic>
+ <sub>2v</sub> crystallographic point group, where we choose the polarization direction as the 
+ <italic>z</italic> axis, while the direction normal to the 2D thin film is taken as the 
+ <italic>y</italic> axis (see Fig. 
+ <xref rid="Fig4" ref-type="fig">4b</xref>). In Fig. 
+ <xref rid="Fig4" ref-type="fig">4a</xref> we show the band structure around the X point, where four non-degenerate bands are found along the symmetry lines Σ (X → U) and Δ (X → Γ), merging in two two-fold degenerate bands at the time-reversal invariant point X, labeled as 
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde{\mathrm{X}}}_2$$\end{document}</tex-math>
+   <math id="M28">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi mathvariant="normal">X</mi>
+       </mrow>
+       <mo>~</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde{\mathrm{X}}}_5$$\end{document}</tex-math>
+   <math id="M30">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi mathvariant="normal">X</mi>
+       </mrow>
+       <mo>~</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>5</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> and 
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde{\mathrm{X}}}_3$$\end{document}</tex-math>
+   <math id="M32">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi mathvariant="normal">X</mi>
+       </mrow>
+       <mo>~</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde{\mathrm{X}}}_4$$\end{document}</tex-math>
+   <math id="M34">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi mathvariant="normal">X</mi>
+       </mrow>
+       <mo>~</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>4</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, respectively. Along the Σ symmetry line, all components of spin polarization vanish, thus realizing the BSVSP effect. On the other hand, the bands along the Δ symmetry line are fully spin polarized along the 
+ <italic>y</italic> axis, as expected for a unidirectional Rashba effect, being the bands spin-polarization perpendicular to both 
+ <bold>k</bold> and ferroelectric polarization. This can be explained by looking at the little groups of the two symmetry lines, following our previous analysis. Along symmetry line Σ, the little point group is 
+ <italic>C</italic>
+ <sub>2v</sub>, which is non-pseudo-polar. Therefore, the net spin polarizations vanish. Since the little point group of Δ symmetry line is the pseudo-polar 
+ <italic>C</italic>
+ <sub>s</sub>, a non-zero spin polarization is allowed along this line. We further construct wave functions using representation theory to prove the vanishing spin polarizations along the symmetry line Σ (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">6</xref>). A minimal 
+ <italic>k</italic>·
+ <italic>p</italic> model can be written for the valence top bands around X, which reads as 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$H = - \Delta \tau _y\sigma _y - \alpha _B\left( {k_z\tau _z\sigma _x - k_x\tau _z\sigma _z} \right) + \beta _Rk_x\tau _0\sigma _y + \alpha _Rk_x\tau _y\sigma _0$$\end{document}</tex-math>
+   <math id="M36">
+    <mi>H</mi>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>τ</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>σ</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <mo>−</mo>
+      <msub>
+       <mrow>
+        <mi>k</mi>
+       </mrow>
+       <mrow>
+        <mi>x</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>τ</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+      <msub>
+       <mrow>
+        <mi>σ</mi>
+       </mrow>
+       <mrow>
+        <mi>z</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </mfenced>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>β</mi>
+     </mrow>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+     <mrow>
+      <mi>R</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 2
+ <italic>Δ</italic> is the SOC induced splitting at X, 
+ <italic>α</italic>
+ <sub>B</sub> (
+ <italic>α</italic>
+ <sub>R</sub> and 
+ <italic>β</italic>
+ <sub>R</sub>) measure the strength of BSVSP (Rashba-like effect), 
+ <italic>σ</italic> and 
+ <italic>τ</italic> are Pauli matrices representing the spin and pseudospin degrees of freedom, respectively (the latter spanning the two-dimensional single-valued representation 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\tilde{\mathrm{X}}}_1$$\end{document}</tex-math>
+   <math id="M38">
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mrow>
+        <mi mathvariant="normal">X</mi>
+       </mrow>
+       <mo>~</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">6</xref>). The 
+ <italic>k</italic>·
+ <italic>p</italic> model also predicts the BSVSP effect.
+</p>

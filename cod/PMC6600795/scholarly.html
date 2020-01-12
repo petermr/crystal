@@ -1,0 +1,856 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head> <style type="text/css">
+         	     		 
+         	    a                          {background : #ffffff; }
+         	    article                    {border-style : dotted; border-width : 2px; }
+         		 	
+         		 	div                        {background : #ffffcc;}
+         		 	div.abstract-title         {font-weight : bold ; font-size : 16pt;}
+         		 	div.ack                    {border-style : solid ; border-color : red; margin
+         : 2em; }
+         		 	div.article-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.boxed-text             {margin : 5em; border-style : solid;}
+         		 	div.contrib-group          {margin : 1em; }
+         		 	div.fig                    {border-style : solid; border-width : 2px; margin :
+         2em; }
+         		 	div.funding                {font-weight : bold ; font-size : 16pt;}
+         		 	div.given-names            {font-style : italic;}
+         		 	div.intro                  {border-style : inset; margin : 5px;}
+         		 	div.introduction           {border-style : inset; margin : 5px;}
+         		 	div.journal-meta           {border-style : solid; border-width : 1 pt; margin
+         1em;}
+         		 	div.journal-title-group    {background : #ffeeee;}
+         		 	div.article-title          {font-weight : bold ; font-size : 18pt;}
+         		 	div.kwd                    {font-style : italic}
+         		 	div.meta-name              {font-weight : bold ; font-size : 16pt;}
+         		 	div.name                   {font-weight : bold;}
+         		 	div.alt-title              {font-style : italic; font-size : 12px;}
+         		 	
+         		 	div.sec                    {border : 2px; margin 5px; padding 2px;}
+         		 	div.title                  {font-family : courier; font-weight : bold;
+         		 	                            font-size : 16pt; margin : 5px;}
+         		 	
+         		 	div.materials_methods      {border-style : double; margin : 5px; }
+         		 	div.methods                {border-style : double; margin : 5px; }
+         		 	
+         		 	div.results                {border-style : solid; margin : 5px;}
+         		 	div.background             {border-style : dotted; margin : 5px;}
+         		 	
+         		 	div.discussion             {border-style : groove; margin : 5px;}
+         		 	div.conclusion             {border-style : ridge; margin : 5px;}
+         		 	div.conclusions             {border-style : ridge; margin : 5px;}
+         		 	div.supplementary-material {border-style : inset; margin : 5px;}
+         		 	div.abbreviations          {border-style : double; border-color : red; margin
+         : 5px;}
+         		 	div.competinginterests     {border-style : double; border-color : blue; margin
+         : 5px;}
+         		 	div.acknowledgements       {border-style : double; border-color : green; margin
+         : 5px;}
+         		 	div.authors_contributions   {border-style : double; border-color : purple; margin
+         : 5px;}
+         		 	
+         		 	div.publisher              {border-style : outset; margin : 5px;}
+         		 	div.fn-type-conflict       {background : #f88; }
+         		 	div.fn-type-con            {background : #ddf; }
+         		 	div.fn-type-other          {background : #ddd; }
+         		 	
+         		 	div.unknown                {background : #ffd;
+         									 	  border-style : solid;
+         									 	  border-width : 1px;
+         									 	  padding : 2 px;}
+         		 	  
+         	    table                      {background : #ffffdd;}
+         		 	tr                         {background : #ddddff; padding : 1px;}
+         		 	
+         		 	span                       {background : #ffcccc;}
+         		 	
+         		 	span.citation-author       {font-family : helvetica; background : #ffeeee;}
+         		 	span.collab                {background : #ddffff; }
+         		 	span.comment               {font-family : courier; font-size : 6px; background
+         : #ffaaff;}
+         		 	span.contrib               {background : #ffffff;}
+         		 	span.corresp               {background : #ddffdd; }
+         		 	span.doi                   {background : #ffffff;}
+         		 	span.email                 {font-family : courier; }
+         		 	span.etal                  {font-style : italic;}
+         		 	span.fpage                 {font-family : courier;}
+         		 	span.given-names           {background : #ffffff;}
+         		 	span.iso-abbrev            {background : #ffffff;}
+         		 	span.issn-epub             {background : #ffffff;}
+         		 	span.issn-ppub             {background : #ffffff;}
+         		 	span.journal-title         {background : #ffffff;}
+         		 	span.lpage                 {font-family : courier;}
+         		 	span.mixed-article-title   {font-style : italic ;}
+         		 	span.nlm-ta                {background : #ffffff;}
+         		 	span.pmc                   {background : #ffffff;}
+         		 	span.pmcid                 {background : #ffffff;}
+         		 	span.pmid                  {background : #ffffff;}
+         		 	span.publisher             {background : #ffffff;}
+         		 	span.publisher-id          {background : #ffffff;}
+         		 	span.publisher-name        {background : #ffffff;}
+         		 	span.source                {background : #ffffff;}
+         		 	span.subject               {background : #ffffff;}
+         		 	span.surname               {background : #ffffff;}
+         		 	span.volume                {font-family : courier; font-weight : bold;}
+         		 	span.year                  {font-family : courier ; font-style : italic;}
+         			
+      </style> </head> <body> <div class="front" title="front"> <div class="journal-meta" tagx="journal-meta" title="journal-meta"> <span class="nlm-ta" title="nlm-ta">Materials (Basel)</span> <span class="iso-abbrev" title="iso-abbrev">Materials (Basel)</span> <span class="publisher-id" title="publisher-id">materials</span> <div class="journal-title-group" tagx="journal-title-group" title="journal-title-group"> <span class="journal-title" tagx="journal-title" title="journal-title">Materials</span> </div> <span class="issn-epub" tagx="issn" title="issn-epub">1996-1944</span> <div class="publisher" tagx="publisher" title="publisher"> <span class="publisher-name" tagx="publisher-name" title="publisher-name">MDPI</span> </div> </div> <div class="article-meta" tagx="article-meta" title="article-meta"> <span class="pmcid" title="pmcid"> pmcid: <a href="http://www.ncbi.nlm.nih.gov/pubmed/6600795">6600795</a> </span> <span class="doi" title="doi"> doi: <a href="https://dx.doi.org/10.3390/ma12111804">10.3390/ma12111804</a> </span> <span class="publisher-id" title="publisher-id">materials-12-01804</span> <div class="article-categories" title="article-categories">
+: <span class="subject" title="subject">Article</span> </div> <div class="title-group"> <div class="article-title" title="article-title">
+Determination of Displacement Fields at the Sub-Nanometric Scale</div> </div> <div class="contrib-group" title="contrib-group"> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">Cesar A.</span> </span> <a href="#af1-materials-12-01804">1</a> </span> <span class="contrib" title="contrib"> <span class="contrib-id" tagx="contrib-id" title="contrib-id">https://orcid.org/0000-0002-9128-2917</span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">Federico M.</span> </span> <a href="#af2-materials-12-01804">2</a> </span> <span class="contrib" title="contrib"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">Luciano</span> </span> <a href="#af3-materials-12-01804">3</a> <a href="#c1-materials-12-01804">*</a> </span> </div> <span class="citation_author_institution" id="af1-materials-12-01804">[1], <span class="email" tagx="email" title="email">sciammarella@iit.edu</span> </span> <span class="citation_author_institution" id="af2-materials-12-01804">[2], <span class="email" tagx="email" title="email">sciammarella@niu.edu</span> </span> <span class="citation_author_institution" id="af3-materials-12-01804">[3], </span> <div class="author-notes" title="author-notes"> <div class="corresp" title="corresp"> <span class="label" tagx="label" title="label">*</span>Correspondence: <span class="email" tagx="email" title="email">luciano.lamberti@poliba.it</span>; Tel.: +39-080-5962774 </div> </div> <span class="pub-date-epub" title="pub-date-epub">epub: <span>2019-6-6</span> </span> <span class="pub-date-collection" title="pub-date-collection">collection: <span>2019-6</span> </span> <span class="volume" tagx="volume" title="volume">12</span> <span class="issue" tagx="issue" title="issue">11</span> <span class="elocation-id" tagx="elocation-id" title="elocation-id">1804</span> <span class="history" title="history"> <span class="received" title="received">received: 2019-4-30</span> <span class="accepted" title="accepted">accepted: 2019-5-29</span> </span> <div class="permissions"> <span class="copyright" title="copyright">(C) , <span class="copyright-year" tagx="copyright-year" title="copyright-year">2019</span> </span> <span class="license" title="license"> <span class="license-p" title="license-p">Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license ( <a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>). </span> </span> </div> <div class="abstract" title="abstract"> <div class="abstract-title" title="abstract-title">
+Abstract</div> <p>Macroscopic behavior of materials depends on interactions of atoms and molecules at nanometer/sub-nanometer scale. Experimental mechanics (EM) can be used for assessing relationships between the macro world and the atomic realm. Theoretical models developed at nanometric and sub-nanometric scales may be verified using EM techniques with the final goal of deriving comprehensive but manageable models. Recently, the authors have carried out studies on EM determination of displacements and their derivatives at the macro and microscopic scales. Here, these techniques were applied to the analysis of high-resolution transmission electron microscopy patterns of a crystalline array containing dislocations. Utilizing atomic positions as carriers of information and comparing undeformed and deformed configurations of observed area, displacements and their derivatives, as well as stresses, have been obtained in the Eulerian description of deformed crystal. Two approaches are introduced. The first establishes an analogy between the basic crystalline structure and a 120° strain gage rosette. The other relies on the fact that, if displacement information along three directions is available, it is possible to reconstruct the displacement field; all necessary equations are provided in the paper. Remarkably, the validity of the Cauchy-Born conjecture is proven to be correct within the range of observed deformations. </p> </div> <div class="kwd-group"> <div class="kwd" title="kwd">
+sub-nanometric continuum kinematic fields</div> <div class="kwd" title="kwd">
+strain fields</div> <div class="kwd" title="kwd">
+dislocations</div> <div class="kwd" title="kwd">
+4HSiC crystals</div> </div> </div> </div> <div class="body" title="body"> <div class="intro" title="intro"> <div class="title" tagx="title" title="title">
+1. Introduction</div> <p>Recently the authors [ <a href="#B1-materials-12-01804">1</a>, <a href="#B2-materials-12-01804">2</a>, <a href="#B3-materials-12-01804">3</a>, <a href="#B4-materials-12-01804">4</a>] have carried out studies on the experimental mechanics determination of displacements and their derivatives at the macro and microscopic scales. Both fields were compared using the concept of representative volume element (RVE). In this paper, basic approaches to continuum mechanics are extended to the sub-nanometric level. Mechanics of materials covers multiple scale problems, depending on the type of the issues that are investigated. At each level exists an RVE that provides answers to posed questions. One very important relationship in the multiscale level analysis is the connection of the macro-analysis with the discontinuous nature of matter. Since the 19th century, efforts have been made to relate the macro-behavior of materials with the interactions between atoms and molecules. It was Augustin Louis Cauchy [ <a href="#B5-materials-12-01804">5</a>] the first author that introduced a mathematical model connecting the behavior of solids with their atomic structure. This initial analysis of the relationship between the continuum assumption and the discontinuous nature of solids is currently known as Cauchy-Born rule [ <a href="#B6-materials-12-01804">6</a>]. In the current form, the Cauchy-Born rule states that for small strains the position of atoms in a deformed crystalline medium can be predicted by the kinematics and dynamics of continuum mechanics in the range of small deformations and rotations. As it is going to be shown later on in this paper, the analysis of the relationship between atom positions and continuum displacement fields can be handled by extending Cauchy-Born rule from the small rotations and deformations to the range of deformations and rotations observed in crystalline metals. A very important role in this development is the concept of dislocation. Interestingly, this concept was introduced from a purely mathematical point of view, analyzing the unicity of the displacement function in the kinematics of the continuum. Volterra [ <a href="#B7-materials-12-01804">7</a>] in 1907 introduced the concept of dislocation, and later it was extended by Somigliana [ <a href="#B8-materials-12-01804">8</a>] and Love [ <a href="#B9-materials-12-01804">9</a>]. Volterra developed a geometrical type of dislocation that today is utilized in the mechanics of fracture, mode 1 utilized fracture mechanics. This abstract mathematical concept was adopted in the field of mechanics of materials to explain discrepancies between theoretical predictions and experimental measurements of the strength of crystals, by Taylor [ <a href="#B10-materials-12-01804">10</a>], Orowan [ <a href="#B11-materials-12-01804">11</a>], Polanyi [ <a href="#B12-materials-12-01804">12</a>] and Nabarro [ <a href="#B13-materials-12-01804">13</a>]. A new discipline was thus developed [ <a href="#B14-materials-12-01804">14</a>], the mathematical theory of dislocations that analyzes the interactions of the inner components of matter in the processes of deformation beyond the kinematics of small deformations and rotations of continuum mechanics. A considerable amount of literature has been developed to deal with the relationship between the discrete nature of matter and the continuum approach [ <a href="#B15-materials-12-01804">15</a>, <a href="#B16-materials-12-01804">16</a>, <a href="#B17-materials-12-01804">17</a>, <a href="#B18-materials-12-01804">18</a>, <a href="#B19-materials-12-01804">19</a>, <a href="#B20-materials-12-01804">20</a>]. </p> <p>In order to validate the theoretical foundation of the concept of dislocations, it is necessary to have experimental verification of the existence of dislocations in crystalline arrays. This experimental evidence of dislocations in crystalline structures came in the 1960s thanks to the advancement in imaging technology. Images of edge dislocations in a crystalline structure were obtained through X-ray photogrammetry, using X-rays recordings and an optical reconstruction. In the 1970s, transmission electron microscopy provided a powerful tool to observe the structure and the deformations of crystalline matter. TEM techniques have been progressively improved over the years. Just to limit the survey to the last 15 years, References [ <a href="#B21-materials-12-01804">21</a>, <a href="#B22-materials-12-01804">22</a>, <a href="#B23-materials-12-01804">23</a>, <a href="#B24-materials-12-01804">24</a>, <a href="#B25-materials-12-01804">25</a>, <a href="#B26-materials-12-01804">26</a>, <a href="#B27-materials-12-01804">27</a>] report interesting examples of applications of TEM techniques to the detection of dislocations, assessment of strain and stress fields in crystals, nanowires and other nano-structures as well as attempts to improve the resolution of TEM patterns. </p> <p>This paper utilizes the methodology described in References [ <a href="#B1-materials-12-01804">1</a>, <a href="#B2-materials-12-01804">2</a>, <a href="#B3-materials-12-01804">3</a>, <a href="#B4-materials-12-01804">4</a>] applied to images generated by high-resolution transmission electron microscopy (HRTEM). It will be proven possible to extract information from HRTEM patterns using the same methodology developed for moiré and speckle patterns in the field of visible optics. The experimentally observed atom configurations in the HRTEM images are utilized to draw important conclusions on the kinematics of crystalline arrays. This is a critical work, which enables a deeper understanding of the behavior of materials and can lead in the future to the prediction of failure at much earlier stages in the life cycle of a material. This may result in preventative measures as well as provide new guidelines in the manufacturing of metals. </p> </div> <div class="2.analysisofhrtemimages" title="sec"> <div class="title" tagx="title" title="title">
+2. Analysis of HRTEM Images</div> <p>Analyzing the atomic structure is possible because the HRTEM images and the images obtained by interference microscopes [ <a href="#B28-materials-12-01804">28</a>] are similar. An ideally plane wave electron beam interacts with the crystalline structure and produces an image at the image plane. The image of the microscope is a scalar field of gray levels resulting from the recording by the microscope sensor of the arriving electromagnetic magnetic wavefronts. The arriving signal is a phasor <b>E</b>(r)e <sup>ϕ(r)</sup>, where <b>E</b>(r) is the amplitude and ϕ(r) is the phase, and the sensor only records the amplitude. The image intensity distribution of gray levels is a function of the microscope contrast transfer function [ <a href="#B29-materials-12-01804">29</a>]. This function defines the spatial resolution of the microscope. The spatial resolution of the gray levels depends on the instrument properties and on the coherence of the illuminating electron beam. The levels of gray are recorded by a raster of sensors similar to the sensors utilized in electronic cameras. Hence, image resolution depends on sensor size similarly to the case of electronic cameras. The experimentally measured distribution of gray levels can be corrected via software by modifying the contrast transfer function. This is equivalent to correcting optical transfer function in visible optics. The gray level density distribution is a 2D function since it corresponds to images captured on a plane. Maximum observed gray level densities occur at regions where the maximum electronic density is located. In turn, maximum electronic densities take place at the atomic nuclei. As such, observed gray level distributions can be utilized as tools to define atomic positions in 2-D. </p> <p>Another important factor of image formation in transmission microscopes is the thickness of the specimens. Absorption of electrons in the crystal limits thickness of observed crystal specimens [ <a href="#B28-materials-12-01804">28</a>]. Electrons absorption is a function of the applied voltages and results in allowable thicknesses on the order of nanometers. In the images analyzed in this paper, the thickness of the specimen was on the order of 10 nm and the number of atomic planes in the specimen was approximately 30. The depth of focus of the electron microscope was large enough that some 3D features at different depths may appear in the 2D image [ <a href="#B28-materials-12-01804">28</a>]. </p> <p>Another observation concerning the spatial resolution of the 2D image is that in place of utilizing the spatial resolution predicted by the optical analysis of the microscope, the spatial definition criteria proposed in Reference [ <a href="#B28-materials-12-01804">28</a>] was adopted. Accordingly, spatial resolution is defined by the measurable minimum distances in the HRTEM image plane. The concept of minimum distance requires some additional explanation. The electron microscope image that was analyzed in this paper [ <a href="#B30-materials-12-01804">30</a>] was obtained with an HRTEM JEOL 4000 EX-TEM (JEOL USA Inc., Peabody, MA, USA) operating at 400 KeV [ <a href="#B31-materials-12-01804">31</a>]. The electron wavelength at this voltage was 0.00193 nm, i.e., on the order of 0.002 nm. According to the criteria of HRTM [ <a href="#B28-materials-12-01804">28</a>], with this wavelength of 0.002 nm, one should be able to measure distances of the order of 0.001 nm. However, the HRTEM JEOL 4000EX-TEM used for recording the image has a maximum classical spatial resolution of 0.14 nm [ <a href="#B31-materials-12-01804">31</a>], two orders of magnitude larger than the theoretical value. This rating is a consequence of the aberrations of the microscope that lead to the above calibrated resolution of the microscope. This is the reason that the "minimum distance that can be measured" criterion was introduced in Reference [ <a href="#B28-materials-12-01804">28</a>] as a definition for spatial resolution. For the same reason mentioned in Reference [ <a href="#B28-materials-12-01804">28</a>], the same criterion was applied in this paper. The bicubic spline interpolation of the images was utilized to increase the spatial resolution of the images. </p> </div> <div class="methods" title="methods"> <div class="title" tagx="title" title="title">
+3. Methods for Measuring Deformations in Crystals</div> <p>We will briefly give a description of the methodology utilized in this study to measure displacements in crystals caused by applied loads. More details will be given later, while at this point the main ideas only will be introduced. A detailed description of the applied methods implies a preceding description of the selected crystal specimen. </p> <p>In experimental mechanics techniques that measure displacements and derivatives of displacements, two basic approaches are utilized. One approach is the direct measurements of distances changes through strain gages methods. The other approach is to apply tagged carriers, either deterministic or random carriers and through optical means create images of the carriers in a reference condition, and in a loaded condition. Then, the changes in the field are computed by the difference between reference configuration and loaded configuration. The scalar fields of gray levels are transformed in vectorial fields corresponding to deformations by either optical correlation generating fringes in the case of deterministic signals (moiré fringes) or by numerical correlation in the case of discrete image correlation (DIC). </p> <p>In the analysis of a crystal, we have a deterministic signal, the crystal structure in the undeformed condition, and then the deformed structure caused by a loading process. The microscope produces an image of the atom positions in both configurations. It is possible to use also two approaches, measuring changes of distances in the crystalline configuration, utilizing basic parameters of the crystal atoms or a field approach applying fringe analysis techniques (for example, [ <a href="#B1-materials-12-01804">1</a>, <a href="#B2-materials-12-01804">2</a>, <a href="#B3-materials-12-01804">3</a>, <a href="#B4-materials-12-01804">4</a>]). In the present study, the authors have selected a specimen to analyze a crystal that contained dislocations and experience deformations under the state of residual stresses produced by the presence of dislocations. The specimen was a thin crystal wafer of about 10 nm thickness under a state of plane-residual-stresses. </p> </div> <div class="4.the4hsiccrystal" title="sec"> <div class="title" tagx="title" title="title">
+4. The 4HSiC Crystal</div> <p>To understand the meaning of the analyzed images, it is necessary to deal with the crystallographic description of the observed crystal. In earlier publications, the authors [ <a href="#B32-materials-12-01804">32</a>, <a href="#B33-materials-12-01804">33</a>, <a href="#B34-materials-12-01804">34</a>] included some of the material reviewed in this section. </p> <p>To obtain the images analyzed in this paper, two inches wafers were grown by vapor deposition oriented along the plane (0001) within ±0.5° of a SiC crystal. KOH etching at 500 °C or 510 °C was done on the Si (0001) faces of the wafers. Etch pits were observed by using a Nomarski interferometry while X-rays were used for observing the orientation of each pit array. </p> <p>The most common SiC polytypes have four and six SiC bi-layers to define unit cell repeating distance along c-axis [0001] directions. <a href="#materials-12-01804-f001">Figure 1</a> shows the ACAB sequence of 4HSiC crystal. The sequence is relative as radii of regions corresponding to each atom share the same magnitude. Hence, relative positions depend on possible geometrical arrangements of spheres. <a href="#materials-12-01804-f001">Figure 1</a>a shows the arrangement denoted by the letter A, which assumes a sequence to be started by a Si atom. Stacking arrangement is sketched in <a href="#materials-12-01804-f001">Figure 1</a>b while <a href="#materials-12-01804-f001">Figure 1</a>c shows a perspective of the three initial layers. </p> <p> <a href="#materials-12-01804-f002">Figure 2</a>a shows an optical micrograph of the etch pit bands —(0001) face— of a 4HSiC wafer. Bands run along directions &amp;lt;11 <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mo_UNKNOWN">
+-</div> </div> </div> </div> </div> </span>0&amp;gt; revealing the presence of threading edge dislocations. The theoretical structure of a SiC hexagonal polytype with a <sub>1</sub> = a <sub>2</sub> = a <sub>3</sub> is shown in <a href="#materials-12-01804-f002">Figure 2</a>b. </p> <p> <a href="#materials-12-01804-f002">Figure 2</a> shows the threading edge dislocation created by the cooling of SiC crystal. A misoriented crystal grew because of the presence of this dislocation (see <a href="#materials-12-01804-f002">Figure 2</a>a). The high energy concentration in that region led to creating slip bands that caused the atomic plane to slide as shown in <a href="#materials-12-01804-f003">Figure 3</a>a. The dislocation movement resulted in the generation of two extra half planes indicated by the black dots in <a href="#materials-12-01804-f003">Figure 3</a>c to reduce the energy in the unit cell. This allowed crystal structure to be stabilized. </p> <p> <a href="#materials-12-01804-f003">Figure 3</a>c is the positive of a negative where the recorded levels of gray of maximum electron density are transformed back to recorded intensities. The dots have been added in the figure to indicate the presence of additional planes within the atomic arrangement. <a href="#materials-12-01804-f003">Figure 3</a> presents the optical micrograph of <a href="#materials-12-01804-f002">Figure 2</a>a together with an electron microscope image of an etch pit ( <a href="#materials-12-01804-f003">Figure 3</a>b) and an HRTEM image around a threading dislocation in the array (see <a href="#materials-12-01804-f003">Figure 3</a>c). <a href="#materials-12-01804-f003">Figure 3</a>d shows that Burgers vectors of edge dislocations are of the type a/3 <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+&amp;lt;</div> <div class="mn_UNKNOWN">
+11</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mo_UNKNOWN">
+−</div> </div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+&amp;gt;</div> </div> </div> </div> </span>; <b>a</b> is the 4HSiC lattice parameter vector. </p> <div class="4.1.recoveryofthedisplacementinformationfromthetmimage" title="sec"> <div class="title" tagx="title" title="title">
+4.1. Recovery of the Displacement Information from the TM Image</div> <p>In order to analyze the image content of the 2D rendering of the 3D stack of <a href="#materials-12-01804-f001">Figure 1</a>, one can relate <a href="#materials-12-01804-f004">Figure 4</a>, the intensity distribution of the 2D image, with the hexagonal elementary cell. </p> <p>It can be concluded from visual inspection that the image of the atomic layer ( <a href="#materials-12-01804-f004">Figure 4</a>a), where the red circles are the atomic radii, is connected to the atomic arrangement of <a href="#materials-12-01804-f004">Figure 4</a>b. </p> <p>A small squared region containing the elementary cell was cropped from the original image ( <a href="#materials-12-01804-f003">Figure 3</a>c), far from the dislocation region. Bicubic spline interpolation of pixels was performed to obtain the scale of <a href="#materials-12-01804-f005">Figure 5</a>a. The red circles in the figure correspond to spheres of radius r = a/2 = 0.3073/2 = 0.1537 nm, one half of the SiC’s lattice parameter a = 0.3073 nm at 300 K. Using this parameter, the corresponding hexagon connecting centers of spheres can be sketched. </p> </div> <div class="4.2.studyofthechangesinelementarycellparameterinthedislocationregion" title="sec"> <div class="title" tagx="title" title="title">
+4.2. Study of the Changes in Elementary Cell Parameter in the Dislocation Region</div> <p> <a href="#materials-12-01804-f005">Figure 5</a>a illustrates the positions of crystallographic axes in the HRTEM pattern. Red dots correspond to the two extra atomic rows. <a href="#materials-12-01804-f005">Figure 5</a>b schematically represents the dislocation region, including the position of the two edge dislocations generated by extra atomic planes. Deformation analysis of elementary cells relies on the idealization of a 3-D atomic array formed by superposing identical 2-D atomic arrays stacked in the vertical direction. Since this stack may change over depth because of the sequence shown in <a href="#materials-12-01804-f001">Figure 1</a> based in the covalent bonding of Si and C atoms, the present analysis is limited to the 2-D array. </p> <p>The role of Fourier transform (FT) in recovering displacement information from gray levels recorded by a 2D sensor is discussed in detail in References [ <a href="#B1-materials-12-01804">1</a>, <a href="#B2-materials-12-01804">2</a>, <a href="#B3-materials-12-01804">3</a>, <a href="#B4-materials-12-01804">4</a>]. The FT provides the components of projected displacement vectors corresponding to Cartesian coordinates x and y. This process requires the introduction of two orthogonal carriers in the case of Cartesian coordinates [ <a href="#B1-materials-12-01804">1</a>, <a href="#B2-materials-12-01804">2</a>, <a href="#B3-materials-12-01804">3</a>, <a href="#B4-materials-12-01804">4</a>] that provide two projected displacements vectors that added give the final displacement vector. Due to the hexagonal structure of the crystal, the carriers are aligned in three different directions. It is necessary to point out that in 2D the tensors associated with the displacement field can be obtained if information on displacement in three different directions is provided. </p> <p> <a href="#materials-12-01804-f006">Figure 6</a> shows the FFT of the crystal’s HRTEM pattern of <a href="#materials-12-01804-f003">Figure 3</a>c. The direction f <sub>x</sub> represents the family of crystallographic directions a1 = [1000] (see <a href="#materials-12-01804-f005">Figure 5</a>a). The scale of <a href="#materials-12-01804-f006">Figure 6</a> is S <sub>f</sub> = (0.0111) 1/nm per pixel. <a href="#materials-12-01804-f006">Figure 6</a> gives a statistical spatial average of frequency changes of elementary cells in the analyzed region. This means that <a href="#materials-12-01804-f006">Figure 6</a> is a graphical representation of the ensemble of the spatial frequencies of the RVE of the observed area. The hexagon shown in <a href="#materials-12-01804-f006">Figure 6</a> represents the average amplitude of <b>a</b> = 3.073 Å at 300 K. The changes in hexagon’s corners positions with respect to the average position indicated in <a href="#materials-12-01804-f006">Figure 6</a> reflect distortions of elementary cells caused by dislocations. <a href="#materials-12-01804-f004">Figure 4</a> represents the elementary undeformed cell for which the atomic vector <b>a</b> is constant. The <b>a</b> vector reflects the spatial configuration of atomic bonds binding together atoms. Since atoms continuously oscillate under thermal excitation at the T temperature, <b>a</b> is a statistical average over time. <a href="#materials-12-01804-f006">Figure 6</a> shows that the <b>a</b> vector is modified by the deformations caused by the dislocations. In the 2-D analysis, changes experienced by the elementary cell can be analyzed by superposing different changes in dimension and orientation of <b>a</b>. </p> <p>In <a href="#materials-12-01804-f006">Figure 6</a>b, there are indicated the versors corresponding to the geometrical orientation of the crystalline rows that correspond to the spatial changes introduced in the image of <a href="#materials-12-01804-f003">Figure 3</a>c by rotating the image in such a way that corresponds to the orientation shown in <a href="#materials-12-01804-f004">Figure 4</a>. </p> <p>The hexagon corresponding to the undeformed crystal is equilateral, meaning that all the sides have the same length, and it is also equiangular, meaning that the vertex angles are equal. In the display of the FFT in <a href="#materials-12-01804-f006">Figure 6</a>a, the increase in the levels of red of the pixels indicate the predominant frequencies in the analyzed image. <a href="#materials-12-01804-f006">Figure 6</a> represents the ensemble of all the hexagons present in the analyzed image. The levels of intensity of the pixels represent the predominant shapes. It is possible to see that the main deviations from the original shape are of the order of a small number of pixels of lesser intensity (fewer in number). Therefore, applying the concept of ergodicity, we can represent the ensemble averages by the configurations shown in <a href="#materials-12-01804-f007">Figure 7</a>. </p> <p>A graphical interpretation of this observation is given in <a href="#materials-12-01804-f007">Figure 7</a>. <a href="#materials-12-01804-f007">Figure 7</a>a represents the basic unit cell. <a href="#materials-12-01804-f007">Figure 7</a>b shows an expansion of the basic unit cell; this means that the parameter <b>a</b> of the undeformed unit cell has been expanded to become a unit cell representing an isotropic point of the strain and stress field. The opposite of these conditions is the contraction of the parameter <b>a</b>. <a href="#materials-12-01804-f007">Figure 7</a>c shows another possible change of the unit cell, the parameter <b>a</b> <sub>1d</sub> &amp;gt; <b>a</b> <sub>1</sub>, where the subscript "d" has been added to indicate the deformed condition and <b>a</b> <sub>1d</sub> &amp;gt; <b>a</b> <sub>2d</sub> = <b>a</b> <sub>3d</sub> <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+≥</div> </div> </div> </span> <b>a</b> <sub>2</sub> = <b>a</b> <sub>3</sub>. Finally, <a href="#materials-12-01804-f007">Figure 7</a>d shows the other alternative, <b>a</b> <sub>1d</sub> &amp;lt; <b>a</b> <sub>2d</sub> = <b>a</b> <sub>3d</sub> <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+≥</div> </div> </div> </span> <b>a</b> <sub>2</sub> = <b>a</b> <sub>3</sub>. These different alternatives cover all possible states of the 2D plane strain conditions. </p> <p>The experimental observations presented above confirm the validity of the Cauchy-Born rule expressed as ensemble configuration in the sense of representative volume rule applied to continuum kinematics. </p> </div> </div> <div class="5.euleriancoordinatesexpressionofcauchy-bornrule" title="sec"> <div class="title" tagx="title" title="title">
+5. Eulerian Coordinates Expression of Cauchy-Born Rule</div> <p>As mentioned before, the elementary cell provides a system of reference along three directions that can be utilized as a strain gage rosette [ <a href="#B35-materials-12-01804">35</a>]. We will develop the necessary expressions for analyzing the deformation of elementary cells by equating them to three arms rosettes. </p> <p> <a href="#materials-12-01804-f008">Figure 8</a> shows the basic reference system including versors <b>a <sub>i</sub> </b>(I = 1,2,3). Positions of atoms in the deformed configuration in the hexagonal configurations can be described by a vectorial equation: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(1)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mo_UNKNOWN">
+=</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>Displacement components along versors <b>a <sub>1</sub> </b>, <b>a <sub>2</sub> </b> and <b>a <sub>3</sub> </b> define actual sizes and orientations in Cartesian coordinates of parameters of the axes of a general local hexagon. Equation (1) corresponds to the main directions shown in <a href="#materials-12-01804-f006">Figure 6</a>b. This figure provides the ensemble averages of the changes of frequencies of the main axis of the hexagon of the basic cell. The highest intensities in the corners of the hexagon of <a href="#materials-12-01804-f006">Figure 6</a>a indicate the most predominant configurations that are around the theoretical parameter a = 3.073 Å of the SiC at 300 K. The length and angles of the vectors <b>a <sub>i</sub> </b> change, but these relative of changes of the parameters <b>a</b> are small quantities and the ensemble averages can be represented by the shapes indicated in <a href="#materials-12-01804-f007">Figure 7</a>. </p> <p>We can consider the 2D tensor of the derivatives in Cartesian coordinates [ <a href="#B2-materials-12-01804">2</a>], </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(2)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mi_UNKNOWN">
+J</div> <div class="mo_UNKNOWN">
+]</div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>Then taking the symmetric component of this tensor [ <a href="#B4-materials-12-01804">4</a>], </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(3)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+J</div> <div class="mi_UNKNOWN">
+s</div> </div> <div class="mo_UNKNOWN">
+]</div> <div class="mo_UNKNOWN">
+=</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mtd_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>We can rotate the above tensor along the directions of the three versors <b>a <sub>i</sub> </b>, </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(4)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+{</div> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+cos</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+sin</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mi_UNKNOWN">
+cos</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mi_UNKNOWN">
+sin</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+cos</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+sin</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mi_UNKNOWN">
+cos</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mi_UNKNOWN">
+sin</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+cos</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+sin</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> <div class="mi_UNKNOWN">
+cos</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> <div class="mi_UNKNOWN">
+sin</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+a</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>From Equation (4), we obtain principal derivatives with respect to coordinate system x-y as well as the corresponding orientation of principal directions: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(5)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+{</div> <div class="mtable_UNKNOWN"> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> <div class="mtr_UNKNOWN"> <div class="mtd_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(6)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+tan</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+θ</div> <div class="mo_UNKNOWN">
+=</div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>It should be noted that the above relationships define the Eulerian description of deformed crystal. The adopted reference system is attached to the crystal structure. </p> <p>We have the equivalent of a three-elements rosette with arms at 0°, 120° and 240°. Calling <b>e <sub>1</sub> </b>, <b>e <sub>2</sub> </b> and <b>e <sub>3</sub> </b> the axes of the rosette, principal derivatives of displacement fields are determined as a function of measured derivatives along rosette axes, Equation (7): </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(7)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+x</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+,</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+x</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mo_UNKNOWN">
+ </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+ </div> <div class="mo_UNKNOWN">
+±</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mo_UNKNOWN">
+ </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> </div> </div> </div> where x <sub>1</sub> and x <sub>2</sub> are the coordinate axes, e <sub>1</sub>≡x <sub>1</sub> and the x <sub>2</sub>-axis is orthogonal to x <sub>1</sub>. <p /> <p>Principal directions of derivatives are determined as: </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(8)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+θ</div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+arctg</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+{</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msqrt_UNKNOWN"> <div class="mn_UNKNOWN">
+3</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> </div> <div class="mo_UNKNOWN">
+}</div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> </div> <div class="6.elementarycellanalysis" title="sec"> <div class="title" tagx="title" title="title">
+6. Elementary Cell Analysis</div> <p>After the development of the equations corresponding to the rosette analysis, it is interesting to analyze the obtained results shown in <a href="#materials-12-01804-f009">Figure 9</a>a,b. The cell shown in <a href="#materials-12-01804-f009">Figure 9</a>a is within the tension region of stress distribution generated by the dislocation. The axis <b>a <sub>1</sub> </b> is oriented in the crystallographic direction [1000]. Green lines limit the influence region of each atom and are no longer circles but ellipses. These lines fit the configuration of the elementary cell, which is contained in an ellipse very closely similar to the shapes of the green ellipses defining equilibrium positions of atoms. These ellipses are similar to those that in classical continuum kinematics define principal strains. The computed principal strains are: <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+1</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> = 0.0501, <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> = 0.0487, where the upper script "E" indicates the Eulerian strain. The principal direction <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+1</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> lays along crystallographic direction [1000] while the other principal direction <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> is perpendicular to it. Similar results were obtained using numerical methods based on molecular dynamics for the analysis of homogeneous states of deformation [ <a href="#B17-materials-12-01804">17</a>]. In 3-D, it can be assumed that the original spheres of <a href="#materials-12-01804-f004">Figure 4</a> become ellipsoids. Since initial isotropy of the field of one atom is broken, each elementary cell behaves as an anisotropic crystal (similar to photoelasticity). </p> <p> <a href="#materials-12-01804-f009">Figure 9</a>b shows an elementary cell of the compression region. Principal strains are as follows: <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+1</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> = −0.02550, coinciding with the direction [1000], and <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> </div> </div> </span> = −0.0260, perpendicular to this direction. Interestingly, in the tension region, inter-atomic distances (black area) are more evident than for compression region. This reflects the asymmetry of the inter-atomic potential. </p> </div> <div class="7.elementarycellstresses" title="sec"> <div class="title" tagx="title" title="title">
+7. Elementary Cell Stresses</div> <p>Applying the 120° rosette equations, principal strains at the level of elementary cell are determined. From measured principal values and utilizing mechanical properties of SiC, it is possible to compute principal stresses. The following values have been adopted, modulus of elasticity E = 402 GPa and Poisson’s ratio ν= 0.18. Applying the plane stress equations, </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(9)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+σ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+E</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+ν</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+1</div> </div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+ν</div> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+E</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(10)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+σ</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mi_UNKNOWN">
+E</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msup_UNKNOWN"> <div class="mi_UNKNOWN">
+ν</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+[</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mi_UNKNOWN">
+ν</div> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+p</div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mi_UNKNOWN">
+E</div> </div> </div> <div class="mo_UNKNOWN">
+]</div> </div> </div> </div> </div> </div> we obtained the results given in <a href="#materials-12-01804-t001">Table 1</a>. <p /> <p>It is possible to see that the two fields, away from the dislocation, have states of almost constant isotropic stresses. The principal stress σ <sub>p1</sub> is directed as [1000] while σ <sub>p2</sub> is perpendicular to it. </p> </div> <div class="8.fullfieldextensionofcontinuumkinematics" title="sec"> <div class="title" tagx="title" title="title">
+8. Full Field Extension of Continuum Kinematics</div> <p>In <a href="#sec4-materials-12-01804">Section 4</a>, it has been mentioned that the two approaches adopted in this paper to extract displacement information were the analysis of the elementary crystalline cell and a field approach. This section is devoted to the development of the second approach. <a href="#materials-12-01804-f010">Figure 10</a> is obtained from <a href="#materials-12-01804-f006">Figure 6</a>a, filtering selected orders at the corner of the hexagon and computing the inverse FFT. A system of three fringe patterns at 120° of each other is obtained and in <a href="#materials-12-01804-f010">Figure 10</a> the wrapped phase patterns are plotted. </p> <p>The orientation of the fringes in the space has been changed because the direction <b>e</b> <sub>1</sub> has been made horizontal. As mentioned before, three systems of fringes at orientation 120° to each other can be extracted from the FFT of <a href="#materials-12-01804-f006">Figure 6</a>a: this configuration is the equivalent of the three-arm rosette in the elementary cell analysis extended to the full field. The interpretation of the procedure to extract information from these patterns changes depends on adopted paths. One can follow the traditional interpretation based on the Cartesian coordinate system of reference. From the patterns of <a href="#materials-12-01804-f010">Figure 10</a>, it is possible to obtain the necessary derivatives for getting components of the <b>J</b> tensor, Equation (2). Then, by utilizing Equations (2) through (8), one can compute the Euler-Almansi strain tensor components in the Eulerian description of the deformed continuum using in 2D the coordinate system x-y-z, </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(11)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(12)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mi_UNKNOWN">
+y</div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msqrt_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="mn_UNKNOWN">
+2</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> <div class="mo_UNKNOWN">
++</div> <div class="msup_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(13)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+xy</div> </div> <div class="mi_UNKNOWN">
+E</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mi_UNKNOWN">
+arcsin</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
++</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+u</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> <div class="mo_UNKNOWN">
+−</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+x</div> </div> </div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+v</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="mi_UNKNOWN">
+y</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mi_UNKNOWN">
+x</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+(</div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+ </div> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mi_UNKNOWN">
+y</div> <div class="mi_UNKNOWN">
+E</div> </div> </div> <div class="mo_UNKNOWN">
+)</div> </div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>There is another alternative procedure based on the analysis of the hexagonal structure of the crystal, analyzing how this structure changes at different locations based on the changes of the parameters, a <sub>i</sub>, with I = 1, 2, 3. This procedure utilizes the continuum approach but follows the changes of the hexagonal structure in the field. To describe this alternative analysis, we will start with the image of the dislocation shown in <a href="#materials-12-01804-f003">Figure 3</a>c and further illustrated in <a href="#materials-12-01804-f005">Figure 5</a>a,b, see <a href="#materials-12-01804-f011">Figure 11</a>. </p> <p>In <a href="#materials-12-01804-f011">Figure 11</a>, the black dots represent the two extra rows of atoms. The next row of atoms that follows the end of the dislocation rows shows a bright area where the position of the atoms is not well defined. The blue area that follows this row outlines a region where the light intensities indicate a cavity, area where there is not a discernible atomic structure. <a href="#materials-12-01804-f012">Figure 12</a>a summarizes the preceding analysis; the yellow dots correspond to atoms that are under compression, the parameters <b>a</b> <sub>i</sub> are reduced. The region including green circles is under tension as shown in <a href="#materials-12-01804-f009">Figure 9</a>a: parameters <b>a</b> <sub>i</sub> are increased. The region indicated as shear region corresponds to cases shown in <a href="#materials-12-01804-f007">Figure 7</a>c,d. </p> <p>The moiré fringe pattern phases of <a href="#materials-12-01804-f010">Figure 10</a> provide important information concerning the atomic arrangement. The kinematics of the continuum that is implicit in the isothetic lines (moiré fringes) can be utilized to determine inter-atomic spaces by means of digital moiré. </p> <p>The concept of directional derivatives is used in this approach to the interpretation of patterns. The patterns of <a href="#materials-12-01804-f010">Figure 10</a>a through <a href="#materials-12-01804-f010">Figure 10</a>c are obtained from the FFT shown in <a href="#materials-12-01804-f006">Figure 6</a>a. <a href="#materials-12-01804-f010">Figure 10</a>a corresponds to the direction <b>e</b> <sub>1</sub>, <a href="#materials-12-01804-f010">Figure 10</a>b corresponds to the direction <b>e</b> <sub>2</sub> and <a href="#materials-12-01804-f010">Figure 10</a>c to the direction <b>e</b> <sub>3</sub>. The fringes of the direction <b>e</b> <sub>1</sub> do not contain a singularity, it is necessary to remember that the dislocations in fringe patterns do not necessarily overlap with a physical dislocation. The directions <b>e</b> <sub>2</sub> and <b>e</b> <sub>3</sub> show fringe dislocations that overlap with the physical dislocation. The pattern of <a href="#materials-12-01804-f010">Figure 10</a>b displays the dislocation in coincidence with the direction of the physical dislocation. The fringes display displacements that are orthogonal to their directions and the directional derivatives display the rate of change of the displacements providing information on the deformation taking place in the corresponding directions. We are dealing with carrier fringes that correspond to the atomic arrangement, in this case, the pitch in the outlined directions is the distance <b>a</b> = 3.073 Å. To obtain the phases corresponding to the displacements from the phases displayed in <a href="#materials-12-01804-f010">Figure 10</a>, it is necessary to subtract the phase of the undeformed carrier. Finally, through the differentiation of the patterns, one obtains the derivatives in the corresponding directions. Since we are dealing with a Eulerian representation and the local rotations are negligible, the directional derivatives provide the Eulerian strains, </p><div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(14)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+1</div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+1</div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(15)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+2</div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+2</div> </div> </div> </div> </div> </div> </div> </div> <div class="disp-formula" title="disp-formula"> <span class="label" tagx="label" title="label">(16)</span> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="msubsup_UNKNOWN"> <div class="mi_UNKNOWN">
+ε</div> <div class="mn_UNKNOWN">
+3</div> <div class="mi_UNKNOWN">
+E</div> </div> <div class="mo_UNKNOWN">
+=</div> <div class="mfrac_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+u</div> <div class="mrow_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+∂</div> <div class="msub_UNKNOWN"> <div class="mi_UNKNOWN">
+e</div> <div class="mn_UNKNOWN">
+3</div> </div> </div> </div> <div class="mo_UNKNOWN">
+.</div> </div> </div> </div> </div> <p /> <p>These derivatives provide the changes in <b>a</b> <sub>1</sub> and <b>a</b> <sub>2</sub> and <b>a</b> <sub>3</sub>. <a href="#materials-12-01804-f013">Figure 13</a>a shows the level lines of the derivative ∂u <sub>e2</sub>/∂e <sub>2</sub>. <a href="#materials-12-01804-f013">Figure 13</a>b shows the image of the dislocation area. <a href="#materials-12-01804-f013">Figure 13</a>c gives the level lines of the derivative ∂u <sub>e3</sub>/∂e <sub>3</sub>. </p> <p>The level lines of derivative ∂u <sub>e1</sub>/∂e <sub>1</sub> are almost constant in the field of view. Looking at <a href="#materials-12-01804-f013">Figure 13</a> and making a correlation between the image and the derivative plots, it is possible to visualize the connection between the rosette approach that was analyzed before and the fringe pattern approach. From the hexagon outlined in <a href="#materials-12-01804-f013">Figure 13</a> and from the directional derivatives, we obtain ∂u <sub>e2</sub>/∂e <sub>2</sub> = 0.219 and ∂u <sub>e3</sub>/∂e <sub>3</sub> = −0.229. </p> <p> <a href="#materials-12-01804-f014">Figure 14</a>a shows the hexagon corresponding to the area of the dislocation edge showing a biaxial state of compression. The corresponding principal stresses can be computed as σ <sub>p1</sub> = −108 MPa and σ <sub>p2</sub> = −111.4 MPa. </p> <p> <a href="#materials-12-01804-f014">Figure 14</a>b shows the stress field of the normal stresses σ <sub>xx,</sub> corresponding to aluminum, the material of the example for a Volterra’s type of dislocation [ <a href="#B37-materials-12-01804">37</a>]. It is interesting to observe that the distribution of stress levels for the Volterra’s type of dislocation is similar to the strain levels of the directional derivatives shown in <a href="#materials-12-01804-f013">Figure 13</a>. One has in the neighborhood of the dislocation a half-plane that is compressed and the other half plane that is in tension. One solution corresponds to the Eulerian description and the deformations cannot be considered belonging to the region of small rotations and deformations. The other solution corresponds to the Lagrangian representation for infinitesimal deformation. Equilibrium conditions and geometry define displacement fields. Interestingly, application of Cauchy-Born rule as a homogenization technique gives a displacement field whose derivatives indicate the presence of a dislocation, thus merging with the theory of elasticity modeling of an edge dislocation. </p> <p> <a href="#materials-12-01804-f012">Figure 12</a> and <a href="#materials-12-01804-f013">Figure 13</a> contain another interesting piece of information on atomic arrangements. <a href="#materials-12-01804-f012">Figure 12</a>b shows the packing of rigid magnetic spheres [ <a href="#B36-materials-12-01804">36</a>]. However, the model of attracting rigid spheres used in crystallography literature to illustrate the concept of dislocation is misleading. In fact, this visualization does not describe the actual field of atomic arrangement for an edge dislocation. Atoms evidently cannot be modeled as rigid spheres: a cavity in the dislocation region of rigid spheres is about 6.5r <sub>o</sub> large, where r <sub>0</sub> represents the atomic radius, in this case, r <sub>o</sub> = <b>a</b>/2 = 1.537 Å. In the actual dislocation, the depth is roughly about 4.736 Å, this is equivalent to 3.08r <sub>o</sub>, or about one half of the predicted value by the model of the rigid spheres. Indeed, the region near dislocations is not a cavity in the strict sense: in fact, the image reveals the presence of some electron density in the cavity. Cavities generated by the presence of crystalline structural defects have an interesting property that makes their presence experimentally detectable. Due to the low electronic density, if positrons are sent to this cavity, an electron and a positron form a pair. Since this pair is not stable, it decays into two γ-rays. Using a γ-rays detector, it is possible to count the number of events, which can be used for measuring the number of cavities present in a specimen [ <a href="#B38-materials-12-01804">38</a>]. </p> </div> <div class="discussion" title="discussion"> <div class="title" tagx="title" title="title">
+9. Discussion and Conclusions</div> <p>This paper is concerned with the utilization of state-of-the-art experimental mechanics methods to extend the concept of RVE volume of continuum mechanics at the atomic configuration level. Changes in the atomic configuration take place when the atomic equilibrium state is altered. These changes manifest themselves in the moiré patterns that can be obtained utilizing the material atoms as carriers of information. The work presented in this paper started with the purpose of getting experimental evidence supporting the Cauchy-Born conjecture on the relationship between changes in atomic configuration and continuum mechanics solutions as homogenizing functions of these changes in RVE volume of the crystalline material. This problem has two aspects, the kinematics of the continuum, a description of the motion of a medium, which has been analyzed in this paper. The other facet of the problem is the dynamics of the motion, not addressed in this paper. The presence of dislocations in a crystalline medium is the experimental approach used to get connections between Continuum Mechanics phenomenological description of the deformation of solids and the basic configuration changes occurring at the level of crystalline organization. Two approaches are utilized, the first is to take advantage of the hexagonal configuration of the basic unit cell of the material, SiC. An analogy between the basic unitary crystalline and a 120° rosette is established. This analogy is based on the fact that <a href="#materials-12-01804-f006">Figure 6</a>a indicates that the majority of the elements present in the region of interest are distributed around the ideal hexagon. Basic changes in the configuration are monitored and they are observed in the compression area and in the tension areas of the specimen. </p> <p>The second approach is based on the moiré patterns obtained by filtering <a href="#materials-12-01804-f006">Figure 6</a>. A dual path in the analysis of the fringes has been introduced. Directional derivatives provide information concerning the elementary cell configuration. This approach yielded the configuration of an elementary cell adjacent to dislocations, <a href="#materials-12-01804-f013">Figure 13</a>. The other approach is to take advantage of the fact that if one has displacement information along three directions one can reconstruct the displacement field; all the necessary equations are provided in the paper. </p> <p>The validity of the Cauchy-Born conjecture has been proven to be correct. How far in the deformation range this assertion is correct? The digital moiré applied to the dislocation area shows that, in the sense of RVE, continuum mechanics variables can be utilized to predict actual dislocation kinematic variables. In conclusion, continuum mechanics is a powerful tool that can predict in the statistical sense, as a homogenization tool, the behavior of a metal crystalline structure under general deformation conditions. </p> </div> </div> <div class="back" title="back"> <div class="title" tagx="title" title="title">
+Author Contributions</div> <p>All authors equally contributed to all phases leading to the preparation of the manuscript.</p> <div class="title" tagx="title" title="title">
+Funding</div> <p>This research received no external funding.</p> <div class="title" tagx="title" title="title">
+Conflicts of Interest</div> <p>The authors declare no conflict of interest.</p> <div class="references">
+References</div> <div tag="ref-list"> <ul> <div class="title" tagx="title" title="title">
+References</div> <li tag="ref"> <a name="B1-materials-12-01804" /> <span class="label" tagx="label" title="label">1.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Basic models supporting experimental mechanics of deformations, geometrical representations, connections among different techniques </span> <span class="source" tagx="source" title="source">Meccanica</span> <span class="year" tagx="year" title="year">2015</span> <span class="volume" tagx="volume" title="volume">50</span> <span class="fpage" tagx="fpage" title="fpage">367</span> <span class="lpage" tagx="lpage" title="lpage">387</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1007/s11012-013-9867-8">10.1007/s11012-013-9867-8</a> </span> </span> </li> <li tag="ref"> <a name="B2-materials-12-01804" /> <span class="label" tagx="label" title="label">2.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Mathematical models utilized in the retrieval of displacement information encoded in fringe patterns </span> <span class="source" tagx="source" title="source">Opt. Laser Eng.</span> <span class="year" tagx="year" title="year">2016</span> <span class="volume" tagx="volume" title="volume">77</span> <span class="fpage" tagx="fpage" title="fpage">100</span> <span class="lpage" tagx="lpage" title="lpage">111</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.optlaseng.2015.07.014">10.1016/j.optlaseng.2015.07.014</a> </span> </span> </li> <li tag="ref"> <a name="B3-materials-12-01804" /> <span class="label" tagx="label" title="label">3.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Generalization of the Poincare sphere to process 2D displacement signals</span> <span class="source" tagx="source" title="source">Opt. Laser Eng.</span> <span class="year" tagx="year" title="year">2017</span> <span class="volume" tagx="volume" title="volume">93</span> <span class="fpage" tagx="fpage" title="fpage">114</span> <span class="lpage" tagx="lpage" title="lpage">127</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.optlaseng.2017.01.015">10.1016/j.optlaseng.2017.01.015</a> </span> </span> </li> <li tag="ref"> <a name="B4-materials-12-01804" /> <span class="label" tagx="label" title="label">4.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Determination of displacements and their derivatives from 3D fringe patterns via extended monogenic phasor method </span> <span class="source" tagx="source" title="source">Opt. Laser Eng.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">104</span> <span class="fpage" tagx="fpage" title="fpage">117</span> <span class="lpage" tagx="lpage" title="lpage">125</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.optlaseng.2017.09.026">10.1016/j.optlaseng.2017.09.026</a> </span> </span> </li> <li tag="ref"> <a name="B5-materials-12-01804" /> <span class="label" tagx="label" title="label">5.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Cauchy</span> <span class="given-names" tagx="given-names" title="given-names">A.L.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">De la pression ou tension dans un système des points matériels. Sur l’équilibre et le mouvement d’un système de points matériels sollicités par des forces d’attraction ou de répulsion mutuelle. Sur l’équilibre et le mouvement intérieur des corps considérés comme masses continues </span> <span class="source" tagx="source" title="source">Cauchy Augustin-Louis, Ouvres Complétés, Tomes 20-21</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Gauthier-Villars et fils</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Paris, France</span> <span class="year" tagx="year" title="year">1828</span> <span class="fpage" tagx="fpage" title="fpage">1882</span> <span class="lpage" tagx="lpage" title="lpage">1938</span> </span> </li> <li tag="ref"> <a name="B6-materials-12-01804" /> <span class="label" tagx="label" title="label">6.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Born</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Atomtheorie Des Festen Zustandes [Dynamik der Kristallgitter]</span> <span class="source" tagx="source" title="source">Fortschritte der Mathematischen Wessenschaften</span> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Taubner</span> <span class="given-names" tagx="given-names" title="given-names">G.B.</span> </span> </span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Vieweg-Teubner Verlag</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Berlin, Germany</span> <span class="year" tagx="year" title="year">1923</span> </span> </li> <li tag="ref"> <a name="B7-materials-12-01804" /> <span class="label" tagx="label" title="label">7.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Volterra</span> <span class="given-names" tagx="given-names" title="given-names">V.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Sur l’équilibre des corps élastiques multiplement connexes</span> <span class="source" tagx="source" title="source">Ann. Sci. éc. Norm. Supér.</span> <span class="year" tagx="year" title="year">1907</span> <span class="volume" tagx="volume" title="volume">3</span> <span class="fpage" tagx="fpage" title="fpage">401</span> <span class="lpage" tagx="lpage" title="lpage">517</span> <span class="pub-id"> <a href="https://dx.doi.org/10.24033/asens.583">10.24033/asens.583</a> </span> </span> </li> <li tag="ref"> <a name="B8-materials-12-01804" /> <span class="label" tagx="label" title="label">8.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Somigliana</span> <span class="given-names" tagx="given-names" title="given-names">C.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Sulla teoria delle distorsioni elastiche</span> <span class="source" tagx="source" title="source">Rendiconti dell’Accademia dei Lincei</span> <span class="year" tagx="year" title="year">1914</span> <span class="volume" tagx="volume" title="volume">23</span> <span class="fpage" tagx="fpage" title="fpage">463</span> <span class="lpage" tagx="lpage" title="lpage">472</span> </span> </li> <li tag="ref"> <a name="B9-materials-12-01804" /> <span class="label" tagx="label" title="label">9.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Love</span> <span class="given-names" tagx="given-names" title="given-names">A.E.H.</span> </span> </span> <span class="source" tagx="source" title="source">A Treatise on the Mathematical Theory of Elasticity</span> <span class="edition" tagx="edition" title="edition">4th ed.</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Dover Publications</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">New York, NY, USA</span> <span class="year" tagx="year" title="year">2011</span> </span> </li> <li tag="ref"> <a name="B10-materials-12-01804" /> <span class="label" tagx="label" title="label">10.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Taylor</span> <span class="given-names" tagx="given-names" title="given-names">G.I.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Mechanism of plastic deformation of crystals: Part I—Theoretical, Part II—Comparison with observations </span> <span class="source" tagx="source" title="source">Proc. Royal Soc. A</span> <span class="year" tagx="year" title="year">1934</span> <span class="volume" tagx="volume" title="volume">145</span> <span class="fpage" tagx="fpage" title="fpage">362</span> <span class="lpage" tagx="lpage" title="lpage">404</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1098/rspa.1934.0106">10.1098/rspa.1934.0106</a> </span> </span> </li> <li tag="ref"> <a name="B11-materials-12-01804" /> <span class="label" tagx="label" title="label">11.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Orowan</span> <span class="given-names" tagx="given-names" title="given-names">E.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Zur Kristallpastizität III</span> <span class="source" tagx="source" title="source">Z. Phys.</span> <span class="year" tagx="year" title="year">1934</span> <span class="volume" tagx="volume" title="volume">89</span> <span class="fpage" tagx="fpage" title="fpage">634</span> <span class="lpage" tagx="lpage" title="lpage">659</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1007/BF01341480">10.1007/BF01341480</a> </span> </span> </li> <li tag="ref"> <a name="B12-materials-12-01804" /> <span class="label" tagx="label" title="label">12.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Polanyii</span> <span class="given-names" tagx="given-names" title="given-names">M.Z.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Über eine art gitterstörung, die einen kristall plastisch machen könnte</span> <span class="source" tagx="source" title="source">Z. Phys.</span> <span class="year" tagx="year" title="year">1934</span> <span class="volume" tagx="volume" title="volume">50</span> <span class="fpage" tagx="fpage" title="fpage">660</span> <span class="lpage" tagx="lpage" title="lpage">664</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1007/BF01341481">10.1007/BF01341481</a> </span> </span> </li> <li tag="ref"> <a name="B13-materials-12-01804" /> <span class="label" tagx="label" title="label">13.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Nabarro</span> <span class="given-names" tagx="given-names" title="given-names">F.R.N.</span> </span> </span> <span class="source" tagx="source" title="source">Theory of Crystal Dislocations</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Dover Publications</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">New York, NY, USA</span> <span class="year" tagx="year" title="year">1987</span> </span> </li> <li tag="ref"> <a name="B14-materials-12-01804" /> <span class="label" tagx="label" title="label">14.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lardner</span> <span class="given-names" tagx="given-names" title="given-names">R.W.</span> </span> </span> <span class="source" tagx="source" title="source">Mathematical Theory of Dislocations and Fracture</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">University of Toronto Press</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Toronto, ON, Canada</span> <span class="year" tagx="year" title="year">1974</span> </span> </li> <li tag="ref"> <a name="B15-materials-12-01804" /> <span class="label" tagx="label" title="label">15.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Wagner</span> <span class="given-names" tagx="given-names" title="given-names">G.J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Liu</span> <span class="given-names" tagx="given-names" title="given-names">W.K.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Coupling of atomistic and continuum simulations using a bridging scale decomposition</span> <span class="source" tagx="source" title="source">J. Comput. Phys.</span> <span class="year" tagx="year" title="year">2003</span> <span class="volume" tagx="volume" title="volume">190</span> <span class="fpage" tagx="fpage" title="fpage">249</span> <span class="lpage" tagx="lpage" title="lpage">274</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/S0021-9991(03)00273-0">10.1016/S0021-9991(03)00273-0</a> </span> </span> </li> <li tag="ref"> <a name="B16-materials-12-01804" /> <span class="label" tagx="label" title="label">16.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tadmor</span> <span class="given-names" tagx="given-names" title="given-names">E.B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Philips</span> <span class="given-names" tagx="given-names" title="given-names">R.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ortiz</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Hierarchical modeling in the mechanics of materials</span> <span class="source" tagx="source" title="source">Int. J. Solids Struct.</span> <span class="year" tagx="year" title="year">2000</span> <span class="volume" tagx="volume" title="volume">37</span> <span class="fpage" tagx="fpage" title="fpage">379</span> <span class="lpage" tagx="lpage" title="lpage">389</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/S0020-7683(99)00095-5">10.1016/S0020-7683(99)00095-5</a> </span> </span> </li> <li tag="ref"> <a name="B17-materials-12-01804" /> <span class="label" tagx="label" title="label">17.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Steinmann</span> <span class="given-names" tagx="given-names" title="given-names">P.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Elizondo</span> <span class="given-names" tagx="given-names" title="given-names">A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sunyk</span> <span class="given-names" tagx="given-names" title="given-names">R.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Studies of validity of the Cauchy-Born rule by direct comparison of continuum and atomistic modeling </span> <span class="source" tagx="source" title="source">Model. Simul. Mater. Sci. Eng.</span> <span class="year" tagx="year" title="year">2007</span> <span class="volume" tagx="volume" title="volume">15</span> <span class="fpage" tagx="fpage" title="fpage">271</span> <span class="lpage" tagx="lpage" title="lpage">283</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1088/0965-0393/15/1/S21">10.1088/0965-0393/15/1/S21</a> </span> </span> </li> <li tag="ref"> <a name="B18-materials-12-01804" /> <span class="label" tagx="label" title="label">18.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Shenoy</span> <span class="given-names" tagx="given-names" title="given-names">V.D.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Miller</span> <span class="given-names" tagx="given-names" title="given-names">R.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tadmor</span> <span class="given-names" tagx="given-names" title="given-names">E.B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Rodney</span> <span class="given-names" tagx="given-names" title="given-names">D.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Philips</span> <span class="given-names" tagx="given-names" title="given-names">R.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ortiz</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">An adaptive finite element approach to atomic-scale mechanics-the quasicontinuum model</span> <span class="source" tagx="source" title="source">J. Mech. Phys. Solids</span> <span class="year" tagx="year" title="year">1999</span> <span class="volume" tagx="volume" title="volume">47</span> <span class="fpage" tagx="fpage" title="fpage">611</span> <span class="lpage" tagx="lpage" title="lpage">642</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/S0022-5096(98)00051-9">10.1016/S0022-5096(98)00051-9</a> </span> </span> </li> <li tag="ref"> <a name="B19-materials-12-01804" /> <span class="label" tagx="label" title="label">19.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Arroyo</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Belytschko</span> <span class="given-names" tagx="given-names" title="given-names">T.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">An atomistic-based finite deformation membrane for single layer crystalline films</span> <span class="source" tagx="source" title="source">J. Mech. Phys. Solids</span> <span class="year" tagx="year" title="year">2002</span> <span class="volume" tagx="volume" title="volume">50</span> <span class="fpage" tagx="fpage" title="fpage">1941</span> <span class="lpage" tagx="lpage" title="lpage">1977</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/S0022-5096(02)00002-9">10.1016/S0022-5096(02)00002-9</a> </span> </span> </li> <li tag="ref"> <a name="B20-materials-12-01804" /> <span class="label" tagx="label" title="label">20.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Clayton</span> <span class="given-names" tagx="given-names" title="given-names">J.D.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Chung</span> <span class="given-names" tagx="given-names" title="given-names">P.W.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">An atomistic-to-continuum framework for nonlinear crystal mechanics based on asymptotic homogenization </span> <span class="source" tagx="source" title="source">J. Mech. Phys. Solids</span> <span class="year" tagx="year" title="year">2006</span> <span class="volume" tagx="volume" title="volume">54</span> <span class="fpage" tagx="fpage" title="fpage">1604</span> <span class="lpage" tagx="lpage" title="lpage">1639</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.jmps.2006.02.004">10.1016/j.jmps.2006.02.004</a> </span> </span> </li> <li tag="ref"> <a name="B21-materials-12-01804" /> <span class="label" tagx="label" title="label">21.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hytch</span> <span class="given-names" tagx="given-names" title="given-names">M.J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Putaux</span> <span class="given-names" tagx="given-names" title="given-names">J.L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Penisson</span> <span class="given-names" tagx="given-names" title="given-names">J.M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Measurement of the displacement field of dislocations to 0.03A° by electron microscopy</span> <span class="source" tagx="source" title="source">Nature</span> <span class="year" tagx="year" title="year">2003</span> <span class="volume" tagx="volume" title="volume">423</span> <span class="fpage" tagx="fpage" title="fpage">270</span> <span class="lpage" tagx="lpage" title="lpage">273</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1038/nature01638">10.1038/nature01638</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/12748637">12748637</a> </span> </span> </li> <li tag="ref"> <a name="B22-materials-12-01804" /> <span class="label" tagx="label" title="label">22.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhao</span> <span class="given-names" tagx="given-names" title="given-names">C.W.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Xing</span> <span class="given-names" tagx="given-names" title="given-names">Y.M.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhou</span> <span class="given-names" tagx="given-names" title="given-names">C.E.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Bai</span> <span class="given-names" tagx="given-names" title="given-names">P.C.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Experimental examination of displacement and strain fields in an edge dislocation core </span> <span class="source" tagx="source" title="source">Acta Mater.</span> <span class="year" tagx="year" title="year">2008</span> <span class="volume" tagx="volume" title="volume">56</span> <span class="fpage" tagx="fpage" title="fpage">2570</span> <span class="lpage" tagx="lpage" title="lpage">2575</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.actamat.2008.01.045">10.1016/j.actamat.2008.01.045</a> </span> </span> </li> <li tag="ref"> <a name="B23-materials-12-01804" /> <span class="label" tagx="label" title="label">23.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hüe</span> <span class="given-names" tagx="given-names" title="given-names">F.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hÿtch</span> <span class="given-names" tagx="given-names" title="given-names">M.J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Bender</span> <span class="given-names" tagx="given-names" title="given-names">B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Houdellier</span> <span class="given-names" tagx="given-names" title="given-names">F.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Claverie</span> <span class="given-names" tagx="given-names" title="given-names">A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Direct mapping of strain in a strained silicon transistor by High-Resolution Electron Microscopy </span> <span class="source" tagx="source" title="source">Phys. Rev. Lett.</span> <span class="year" tagx="year" title="year">2008</span> <span class="volume" tagx="volume" title="volume">100</span> <span class="fpage" tagx="fpage" title="fpage">156602</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1103/PhysRevLett.100.156602">10.1103/PhysRevLett.100.156602</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/18518137">18518137</a> </span> </span> </li> <li tag="ref"> <a name="B24-materials-12-01804" /> <span class="label" tagx="label" title="label">24.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Hytch</span> <span class="given-names" tagx="given-names" title="given-names">M.J.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Minor</span> <span class="given-names" tagx="given-names" title="given-names">A.M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Observing and measuring strain in nanostructures and devices with transmission electron microscopy </span> <span class="source" tagx="source" title="source">MRS Bull.</span> <span class="year" tagx="year" title="year">2014</span> <span class="volume" tagx="volume" title="volume">39</span> <span class="fpage" tagx="fpage" title="fpage">138</span> <span class="lpage" tagx="lpage" title="lpage">146</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1557/mrs.2014.4">10.1557/mrs.2014.4</a> </span> </span> </li> <li tag="ref"> <a name="B25-materials-12-01804" /> <span class="label" tagx="label" title="label">25.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Legros</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">In situ mechanical TEM: Seeing and measuring under stress with electrons</span> <span class="source" tagx="source" title="source">C. R. Phys.</span> <span class="year" tagx="year" title="year">2014</span> <span class="volume" tagx="volume" title="volume">15</span> <span class="fpage" tagx="fpage" title="fpage">224</span> <span class="lpage" tagx="lpage" title="lpage">240</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.crhy.2014.02.002">10.1016/j.crhy.2014.02.002</a> </span> </span> </li> <li tag="ref"> <a name="B26-materials-12-01804" /> <span class="label" tagx="label" title="label">26.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lopatin</span> <span class="given-names" tagx="given-names" title="given-names">S.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Cheng</span> <span class="given-names" tagx="given-names" title="given-names">B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Liu</span> <span class="given-names" tagx="given-names" title="given-names">W.T.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Tsai</span> <span class="given-names" tagx="given-names" title="given-names">M.L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">He</span> <span class="given-names" tagx="given-names" title="given-names">J.H.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Chuvilin</span> <span class="given-names" tagx="given-names" title="given-names">A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Optimization of monochromated TEM for ultimate resolution imaging and ultrahigh-resolution electron energy loss spectroscopy </span> <span class="source" tagx="source" title="source">Ultramicroscopy</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">184</span> <span class="fpage" tagx="fpage" title="fpage">109</span> <span class="lpage" tagx="lpage" title="lpage">115</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1016/j.ultramic.2017.08.016">10.1016/j.ultramic.2017.08.016</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/28886488">28886488</a> </span> </span> </li> <li tag="ref"> <a name="B27-materials-12-01804" /> <span class="label" tagx="label" title="label">27.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhang</span> <span class="given-names" tagx="given-names" title="given-names">C.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Kvashnin</span> <span class="given-names" tagx="given-names" title="given-names">D.G.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Bourgeois</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Fernando</span> <span class="given-names" tagx="given-names" title="given-names">J.F.S.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Firestein</span> <span class="given-names" tagx="given-names" title="given-names">K.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sorokin</span> <span class="given-names" tagx="given-names" title="given-names">P.B.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Fukata</span> <span class="given-names" tagx="given-names" title="given-names">N.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Golberg</span> <span class="given-names" tagx="given-names" title="given-names">D.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Mechanical, electrical, and crystallographic property dynamics of bent and strained Ge/Si core–shell nanowires as revealed by in situ Transmission Electron Microscopy </span> <span class="source" tagx="source" title="source">Nano Lett.</span> <span class="year" tagx="year" title="year">2018</span> <span class="volume" tagx="volume" title="volume">18</span> <span class="fpage" tagx="fpage" title="fpage">7238</span> <span class="lpage" tagx="lpage" title="lpage">7246</span> <span class="pub-id"> <a href="https://dx.doi.org/10.1021/acs.nanolett.8b03398">10.1021/acs.nanolett.8b03398</a> </span> <span class="pub-id"> <a href="http://www.ncbi.nlm.nih.gov/pubmed/30346785">30346785</a> </span> </span> </li> <li tag="ref"> <a name="B28-materials-12-01804" /> <span class="label" tagx="label" title="label">28.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Williams</span> <span class="given-names" tagx="given-names" title="given-names">D.R.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Barry Carter</span> <span class="given-names" tagx="given-names" title="given-names">C.</span> </span> </span> <span class="source" tagx="source" title="source">Transmission Electron Microscopy, a Textbook for Materials Science</span> <span class="edition" tagx="edition" title="edition">2nd ed.</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Springer</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">New York, NY, USA</span> <span class="year" tagx="year" title="year">2009</span> </span> </li> <li tag="ref"> <a name="B29-materials-12-01804" /> <span class="label" tagx="label" title="label">29.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Boreman</span> <span class="given-names" tagx="given-names" title="given-names">G.D.</span> </span> </span> <span class="source" tagx="source" title="source">Modulation Transfer Function in Optical and Electro-optical Systems</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">SPIE Press</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Bellingham, WA, USA</span> <span class="year" tagx="year" title="year">2001</span> </span> </li> <li tag="ref"> <a name="B30-materials-12-01804" /> <span class="label" tagx="label" title="label">30.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Ha</span> <span class="given-names" tagx="given-names" title="given-names">S.Y.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Nuhfer</span> <span class="given-names" tagx="given-names" title="given-names">N.T.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">De Graef</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Rohrer</span> <span class="given-names" tagx="given-names" title="given-names">G.S.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Skowronski</span> <span class="given-names" tagx="given-names" title="given-names">M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Origin of threading dislocation arrays in SiC boules grown by PVT</span> <span class="source" tagx="source" title="source">Mater. Sci. Forum</span> <span class="year" tagx="year" title="year">2000</span> <span class="volume" tagx="volume" title="volume">338–342</span> <span class="fpage" tagx="fpage" title="fpage">477</span> <span class="lpage" tagx="lpage" title="lpage">480</span> <span class="pub-id"> <a href="https://dx.doi.org/10.4028/www.scientific.net/MSF.338-342.477">10.4028/www.scientific.net/MSF.338-342.477</a> </span> </span> </li> <li tag="ref"> <a name="B31-materials-12-01804" /> <span class="label" tagx="label" title="label">31.</span> <span class="element-citation'"> <span class="person-group'"> <span class="collab'">collab: JEOL USA</span> </span> <span class="mixed-article-title" title="mixed-article-title">Transmission Electron Microscopes</span> <span class="comment">Available online: <a href="http://www.jeolusa.com">http://www.jeolusa.com</a> </span> <span class="date-in-citation" tagx="date-in-citation" title="date-in-citation">(accessed on 26 April 2019)</span> </span> </li> <li tag="ref"> <a name="B32-materials-12-01804" /> <span class="label" tagx="label" title="label">32.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">F.M.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Measurement of deformations at the sub-nanometric level</span> <span class="source" tagx="source" title="source">Proceedings of the NANOMEC06 Symposium on Materials Science &amp;amp; Materials Mechanics at the Nanoscale </span> <span class="conf-loc" tagx="conf-loc" title="conf-loc">Bari, Italy</span> <span class="conf-date" tagx="conf-date" title="conf-date">19–23 November 2006</span> </span> </li> <li tag="ref"> <a name="B33-materials-12-01804" /> <span class="label" tagx="label" title="label">33.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">F.M.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Processing of a HRTEM image pattern to analyse an edge dislocation</span> <span class="source" tagx="source" title="source">Experimental Analysis of Nano and Engineering Materials and Structures</span> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Gouts</span> <span class="given-names" tagx="given-names" title="given-names">E.E.</span> </span> </span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Springer</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Dordrecht, The Netherlands</span> <span class="year" tagx="year" title="year">2007</span> </span> </li> <li tag="ref"> <a name="B34-materials-12-01804" /> <span class="label" tagx="label" title="label">34.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">F.M.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Lamberti</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Experimental Nano mechanics: A look at edge dislocations in 4HSiC crystals</span> <span class="source" tagx="source" title="source">Proceedings of the Materials Science and Technology Conference and Exhibition (MS&amp;amp;T’07)</span> <span class="conf-loc" tagx="conf-loc" title="conf-loc">Detroit, MI, USA</span> <span class="conf-date" tagx="conf-date" title="conf-date">16–20 September 2007</span> </span> </li> <li tag="ref"> <a name="B35-materials-12-01804" /> <span class="label" tagx="label" title="label">35.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">F.M.</span> </span> </span> <span class="source" tagx="source" title="source">Experimental Mechanics of Solids</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">John Wiley &amp;amp; Sons</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Chichester, UK</span> <span class="year" tagx="year" title="year">2012</span> </span> </li> <li tag="ref"> <a name="B36-materials-12-01804" /> <span class="label" tagx="label" title="label">36.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Subramaniam</span> <span class="given-names" tagx="given-names" title="given-names">A.</span> </span> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Balani</span> <span class="given-names" tagx="given-names" title="given-names">K.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Crystal imperfections dislocations</span> <span class="source" tagx="source" title="source">Materials Science and Engineering (MSE)</span> <span class="comment">Chapter 5b</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">Indian Institute of Technology</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Kanpur, India</span> <span class="year" tagx="year" title="year">2013</span> <span class="comment">Available online: <a href="http://home.iitk.ac.in/~anandh/E-book">http://home.iitk.ac.in/~anandh/E-book</a> </span> <span class="date-in-citation" tagx="date-in-citation" title="date-in-citation">(accessed on 26 April 2019)</span> </span> </li> <li tag="ref"> <a name="B37-materials-12-01804" /> <span class="label" tagx="label" title="label">37.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Zhegilei</span> <span class="given-names" tagx="given-names" title="given-names">L.</span> </span> </span> <span class="source" tagx="source" title="source">MSE 6020: Defects and Microstructure in Materials</span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">University of Virginia</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Charlottesville, VA, USA</span> <span class="year" tagx="year" title="year">2015</span> </span> </li> <li tag="ref"> <a name="B38-materials-12-01804" /> <span class="label" tagx="label" title="label">38.</span> <span class="element-citation'"> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Sciammarella</span> <span class="given-names" tagx="given-names" title="given-names">C.A.</span> </span> </span> <span class="mixed-article-title" title="mixed-article-title">Positron annihilation spectroscopy for life assessment of super alloys</span> <span class="source" tagx="source" title="source">Proceedings for the NDE for Damage Assessment Workshop</span> <span class="person-group'"> <span class="name" tagx="name" title="name"> <span class="surname" tagx="surname" title="surname">Viswathnathan</span> <span class="given-names" tagx="given-names" title="given-names">R.</span> </span> </span> <span class="publisher-name" tagx="publisher-name" title="publisher-name">EPRI TR-110291</span> <span class="publisher-loc" tagx="publisher-loc" title="publisher-loc">Chicago, IL, USA</span> <span class="year" tagx="year" title="year">1998</span> </span> </li> </ul> </div> </div> <div class="floats-group" title="floats-group"> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 1</span> </a> </div>   <p>( <b>a</b>) Stacking sequence ACAB of 4HSiC crystal: red dots indicate the position of the following atomic layer shown in ( <b>b</b>) at layers C and B; ( <b>c</b>) 3D perspective of three initial layers. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 2</span> </a> </div>   <p>( <b>a</b>) Optical micrograph of etch pitch bands —(0001) face—of a 4HSiC wafer with bands along directions &amp;lt;11 <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mo_UNKNOWN">
+-</div> </div> </div> </div> </div> </span>0&amp;gt;; ( <b>b</b>) theoretical structure of SiC hexagonal polytype with a <sub>1</sub> = a <sub>2</sub> = a <sub>3</sub>. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 3</span> </a> </div>   <p>Dislocation gliding in the <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+&amp;lt;</div> <div class="mn_UNKNOWN">
+11</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mo_UNKNOWN">
+−</div> </div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+&amp;gt;</div> <div class="mo_UNKNOWN">
+{</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+1</div> <div class="mo_UNKNOWN">
+−</div> </div> <div class="mn_UNKNOWN">
+100</div> <div class="mo_UNKNOWN">
+}</div> </div> </div> </div> </span> slip system during post-growth cooling: ( <b>a</b>) Optical micrograph; ( <b>b</b>) electron microscope image of red circled region; ( <b>c</b>) HRTEM pattern of crystal (dark dots correspond to extra-atomic planes); ( <b>d</b>) theoretical structure of the SiC crystal with a <sub>1</sub> = a <sub>2</sub> = a <sub>3</sub> and dislocation’s Burgers vector oriented as a <sub>3</sub>. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 4</span> </a> </div>   <p>( <b>a</b>) Elementary cell of hexagonal packing identified in the HRTEM pattern resembling theoretical structure shown in ( <b>b</b>). </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 5</span> </a> </div>   <p>( <b>a</b>) Crystallographic directions <span class="inline-formula" title="inline-formula"> <div class="math_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mrow_UNKNOWN"> <div class="mo_UNKNOWN">
+&amp;lt;</div> <div class="mn_UNKNOWN">
+11</div> <div class="mover_UNKNOWN"> <div class="mn_UNKNOWN">
+2</div> <div class="mo_UNKNOWN">
+−</div> </div> <div class="mn_UNKNOWN">
+0</div> <div class="mo_UNKNOWN">
+&amp;gt;</div> </div> </div> </div> </span> ≡ <b>a</b> <sub>2</sub>; ( <b>b</b>) Schematic representation of atomic positions in the neighborhood of edge dislocations (yellow dots are clarified later in the article). </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 6</span> </a> </div>   <p>( <b>a</b>) FFT of the HRTEM pattern shown in <a href="#materials-12-01804-f006">Figure 6</a>a; ( <b>b</b>) reference system related to FFT. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 7</span> </a> </div>   <p>( <b>a</b>) Fundamental 4HSiC cell; ( <b>b</b>) original cell; ( <b>c</b>) elongated cell along the vertical direction (blue line); ( <b>d</b>) shortened cell along the vertical direction. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 8</span> </a> </div>   <p>Relationship between displacement derivatives measured along three different versors.</p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 9</span> </a> </div>   <p>Elementary cells in the tension region ( <b>a</b>) and compression region ( <b>b</b>) of <a href="#materials-12-01804-f005">Figure 5</a>c and <a href="#materials-12-01804-f006">Figure 6</a>a. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 10</span> </a> </div>   <p>Wrapped phases of fringes corresponding to crystal structure: ( <b>a</b>) <b>e</b> <sub>1</sub>; ( <b>b</b>) <b>e</b> <sub>2</sub>; ( <b>c</b>) <b>e</b> <sub>3</sub>. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 11</span> </a> </div>   <p>Enlargement of <a href="#materials-12-01804-f003">Figure 3</a>c showing the dislocation region. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 12</span> </a> </div>   <p>( <b>a</b>) Locations of atoms in the crystal region with the dislocation; ( <b>b</b>) simulation of the presence of a dislocation using magnetic spheres [ <a href="#B36-materials-12-01804">36</a>]. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 13</span> </a> </div>   <p>( <b>a</b>) Level lines of derivative ∂u <sub>e2</sub>/∂e <sub>2</sub>; ( <b>b</b>) dislocation area; ( <b>c</b>) level lines of derivative ∂u <sub>e3</sub>/∂e <sub>3</sub>. The spatial scale is Å. </p>   </div> <div class="fig" title="fig"> <div class="figure" title="figure"> <a href="http://doi.org/"> <span class="label" tagx="label" title="label">Figure 14</span> </a> </div>   <p>( <b>a</b>) Representative hexagon at the dislocation edge; ( <b>b</b>) typical stress distribution σ <sub>xx</sub> for a Volterra’s type dislocation [ <a href="#B37-materials-12-01804">37</a>]. The peak tensile stress (red) is 5 GPa; the peak compressive stress (blue) is −5 GPa. </p>   </div> <div class="table-wrap_UNKNOWN">
+materials-12-01804-t001_Table 1 <span class="label" tagx="label" title="label">Table 1</span>  <p>Principal stresses computed for the deformed crystal.</p>  <table> <thead> <tr> <th /> <th>Tension (MPa)</th> <th>Compression (MPa)</th> </tr> </thead> <tbody> <tr> <td>σ <sub>p1</sub> </td> <td>23.00</td> <td>−12.52</td> </tr> <tr> <td>σ <sub>p2</sub> </td> <td>22.87</td> <td>−12.69</td> </tr> </tbody> </table> </div> </div>  </body></html>

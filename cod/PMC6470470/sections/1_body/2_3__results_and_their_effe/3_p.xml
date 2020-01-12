@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Hence, better fits to the drag coefficient from phonon wind for a dislocation of fixed character angle 
+ <inline-formula>
+  <math id="mm145">
+   <mrow>
+    <mi>ϑ</mi>
+   </mrow>
+  </math>
+ </inline-formula> are achieved using the function 
+ <disp-formula id="FD7-materials-12-00948">
+  <label>(7)</label>
+  <math id="mm146">
+   <mrow>
+    <mtable displaystyle="true">
+     <mtr>
+      <mtd columnalign="right">
+       <mrow>
+        <mi>B</mi>
+        <mo>(</mo>
+        <mi>ϑ</mi>
+        <mo>)</mo>
+       </mrow>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>≈</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>0</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mo>−</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>1</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mi>x</mi>
+        <mo>+</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>2</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mfenced separators="" open="(" close=")">
+         <mfrac>
+          <mn>1</mn>
+          <msqrt>
+           <mrow>
+            <mn>1</mn>
+            <mo>−</mo>
+            <msup>
+             <mi>x</mi>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+          </msqrt>
+         </mfrac>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mfenced>
+        <mo>+</mo>
+        <msub>
+         <mi>C</mi>
+         <mn>3</mn>
+        </msub>
+        <mrow>
+         <mo>(</mo>
+         <mi>ϑ</mi>
+         <mo>)</mo>
+        </mrow>
+        <mfenced separators="" open="(" close=")">
+         <mfrac>
+          <mn>1</mn>
+          <msup>
+           <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <msup>
+             <mi>x</mi>
+             <mn>2</mn>
+            </msup>
+            <mo>)</mo>
+           </mrow>
+           <mrow>
+            <mn>3</mn>
+            <mo>/</mo>
+            <mn>2</mn>
+           </mrow>
+          </msup>
+         </mfrac>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mfenced>
+        <mspace width="0.166667em"/>
+        <mo>,</mo>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd columnalign="right">
+       <mi>x</mi>
+      </mtd>
+      <mtd columnalign="left">
+       <mrow>
+        <mo>=</mo>
+        <mfrac>
+         <mi>v</mi>
+         <mrow>
+          <msub>
+           <mi>v</mi>
+           <mi>c</mi>
+          </msub>
+          <mrow>
+           <mo>(</mo>
+           <mi>ϑ</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+        <mo>=</mo>
+        <msub>
+         <mi>β</mi>
+         <mi mathvariant="normal">T</mi>
+        </msub>
+        <mfrac>
+         <msub>
+          <mi>c</mi>
+          <mi mathvariant="normal">T</mi>
+         </msub>
+         <mrow>
+          <msub>
+           <mi>v</mi>
+           <mi>c</mi>
+          </msub>
+          <mrow>
+           <mo>(</mo>
+           <mi>ϑ</mi>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo>.</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

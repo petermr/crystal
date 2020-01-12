@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A quantitative analysis was performed considering the number density of pillars over the VAN film surface. To obtain the number of pillars from the simulation results, pillar areas under 5 nm
+ <sup>2</sup> were neglected, considering that it represents monomers on the surface. 
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref>a,b show the comparison of the number density between KMCS and experimental results, respectively, as a function of the different substrate temperatures for a 20 Hz deposition rate and the different deposition rates for a substrate temperature of 800 °C. The KMCS results show good qualitative agreement with respect to the evolution of pillar density upon changes in synthesis parameters, with a difference of a factor of 100. This difference is caused by the 
+ <italic>E</italic>
+ <sub>s</sub> values used in the KMC simulation. For the standard simulation, 
+ <italic>E</italic>
+ <sub>s</sub> = 1.0 eV was used, which generates good results for a low computational cost. Decreasing the value of 
+ <italic>E</italic>
+ <sub>s</sub> (
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref>b) allows more hops of the adatoms between consecutive pulses, yielding number density values closer to those in experiments, but with significantly longer computational times. Extrapolating KMCS number densities for different 
+ <italic>E</italic>
+ <sub>s</sub> values from 
+ <xref rid="fig5" ref-type="fig">Figure 
+  <xref rid="fig5" ref-type="fig">5</xref>
+ </xref>b to the experimental number density of 7.6 × 10
+ <sup>–5</sup> nm
+ <sup>–2</sup> for a 50 Hz deposition rate, an 
+ <italic>E</italic>
+ <sub>s</sub> value of 0.38 eV is calculated, resulting in an estimated increase of computational time for the KMC simulation of 2 orders of magnitude.
+</p>

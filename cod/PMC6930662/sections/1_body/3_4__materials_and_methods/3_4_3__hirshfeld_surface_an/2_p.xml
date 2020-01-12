@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The Hirshfeld surface is a three-dimensional isosurface effectively determining the volume of the molecule in the crystal. The surface itself is defined so that for each point on this surface, one-half of the electron density is due to the spherically averaged noninteracting atoms comprising the molecule, and the other half is due to those comprising the rest of the crystal [
+ <xref rid="B66-molecules-24-04387" ref-type="bibr">66</xref>]. The quantity which is mapped onto the surface is 
+ <inline-formula>
+  <math id="mm97">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mi>norm</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (normalized contact distance), which is the negative or positive sum of 
+ <inline-formula>
+  <math id="mm98">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mi mathvariant="normal">i</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <msub>
+     <mi>d</mi>
+     <mi mathvariant="normal">e</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> when the contacts are shorter or longer than the sum of the van der Waals radii of the interacting atoms, respectively:
+ <disp-formula id="FD2-molecules-24-04387">
+  <label>(2)</label>
+  <math id="mm100">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>d</mi>
+      <mi>norm</mi>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi>d</mi>
+        <mi mathvariant="normal">i</mi>
+       </msub>
+       <mo>−</mo>
+       <msubsup>
+        <mi>r</mi>
+        <mi mathvariant="normal">i</mi>
+        <mi>vdW</mi>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+      <msubsup>
+       <mi>r</mi>
+       <mi mathvariant="normal">i</mi>
+       <mi>vdW</mi>
+      </msubsup>
+     </mfrac>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mo>(</mo>
+       <msub>
+        <mi>d</mi>
+        <mi mathvariant="normal">e</mi>
+       </msub>
+       <mo>−</mo>
+       <msubsup>
+        <mi>r</mi>
+        <mi mathvariant="normal">e</mi>
+        <mi>vdW</mi>
+       </msubsup>
+       <mo>)</mo>
+      </mrow>
+      <msubsup>
+       <mi>r</mi>
+       <mi mathvariant="normal">e</mi>
+       <mi>vdW</mi>
+      </msubsup>
+     </mfrac>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

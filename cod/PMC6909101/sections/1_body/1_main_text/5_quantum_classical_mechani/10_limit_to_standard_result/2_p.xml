@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0615">The limiting transition from the optical absorption 
+ <inline-formula>
+  <math id="M575" altimg="si284.svg">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> given by Eqs. 
+ <xref rid="fd141" ref-type="disp-formula">(141)</xref>, 
+ <xref rid="fd142" ref-type="disp-formula">(142)</xref>, 
+ <xref rid="fd143" ref-type="disp-formula">(143)</xref>, 
+ <xref rid="fd144" ref-type="disp-formula">(144)</xref>, 
+ <xref rid="fd145" ref-type="disp-formula">(145)</xref>, 
+ <xref rid="fd146" ref-type="disp-formula">(146)</xref>, 
+ <xref rid="fd147" ref-type="disp-formula">(147)</xref>, 
+ <xref rid="fd148" ref-type="disp-formula">(148)</xref>, 
+ <xref rid="fd149" ref-type="disp-formula">(149)</xref>, 
+ <xref rid="fd150" ref-type="disp-formula">(150)</xref>, 
+ <xref rid="fd151" ref-type="disp-formula">(151)</xref>, 
+ <xref rid="fd152" ref-type="disp-formula">(152)</xref>, 
+ <xref rid="fd153" ref-type="disp-formula">(153)</xref>, 
+ <xref rid="fd154" ref-type="disp-formula">(154)</xref>, 
+ <xref rid="fd155" ref-type="disp-formula">(155)</xref>, 
+ <xref rid="fd156" ref-type="disp-formula">(156)</xref>, 
+ <xref rid="fd157" ref-type="disp-formula">(157)</xref>, 
+ <xref rid="fd158" ref-type="disp-formula">(158)</xref>, and 
+ <xref rid="fd96" ref-type="disp-formula">(96)</xref> to the corresponding result given by the standard many-phonon theory [
+ <xref rid="bib72" ref-type="bibr">72</xref>] can be 
+ <italic>a priory</italic> implemented by tending the dozy-chaos energy 
+ <inline-formula>
+  <math id="M576" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> to either zero or infinity,
+ <xref rid="fn16" ref-type="fn">16</xref> but the quantity 
+ <inline-formula>
+  <math id="M577" altimg="si284.svg">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> turns out to be infinity for 
+ <inline-formula>
+  <math id="M578" altimg="si429.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula> and zero for 
+ <inline-formula>
+  <math id="M579" altimg="si430.svg">
+   <mrow>
+    <mi>γ</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+    <mi>∞</mi>
+   </mrow>
+  </math>
+ </inline-formula>. The physical meaning of 
+ <inline-formula>
+  <math id="M580" altimg="si431.svg">
+   <mrow>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>γ</mi>
+      <mo linebreak="badbreak">→</mo>
+      <mn>0</mn>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+    <mi>∞</mi>
+   </mrow>
+  </math>
+ </inline-formula> beyond the adiabatic approximation is interpreted as a consequence of the incomparability of masses of the electron and its environmental nuclei (see Section 
+ <xref rid="sec2.4.3" ref-type="sec">2.4.3</xref>). The physical meaning of 
+ <inline-formula>
+  <math id="M581" altimg="si432.svg">
+   <mrow>
+    <mi>K</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>γ</mi>
+      <mo linebreak="badbreak">→</mo>
+      <mi>∞</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fig4" ref-type="fig">Fig. 4</xref> in Section 
+ <xref rid="sec2.6" ref-type="sec">2.6</xref> below) is determined by the failure of electron transitions coupled to nuclear reorganizations when in the transient state the motion of nuclei is absolutely chaotic (random), hat is, when in the electron–nuclear system the internal friction is infinite. Given this, we can remove 
+ <inline-formula>
+  <math id="M582" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> from Eqs. 
+ <xref rid="fd141" ref-type="disp-formula">(141)</xref>, 
+ <xref rid="fd142" ref-type="disp-formula">(142)</xref>, 
+ <xref rid="fd143" ref-type="disp-formula">(143)</xref>, 
+ <xref rid="fd144" ref-type="disp-formula">(144)</xref>, 
+ <xref rid="fd145" ref-type="disp-formula">(145)</xref>, 
+ <xref rid="fd146" ref-type="disp-formula">(146)</xref>, 
+ <xref rid="fd147" ref-type="disp-formula">(147)</xref>, 
+ <xref rid="fd148" ref-type="disp-formula">(148)</xref>, 
+ <xref rid="fd149" ref-type="disp-formula">(149)</xref>, 
+ <xref rid="fd150" ref-type="disp-formula">(150)</xref>, 
+ <xref rid="fd151" ref-type="disp-formula">(151)</xref>, 
+ <xref rid="fd152" ref-type="disp-formula">(152)</xref>, 
+ <xref rid="fd153" ref-type="disp-formula">(153)</xref>, 
+ <xref rid="fd154" ref-type="disp-formula">(154)</xref>, 
+ <xref rid="fd155" ref-type="disp-formula">(155)</xref>, 
+ <xref rid="fd156" ref-type="disp-formula">(156)</xref>, 
+ <xref rid="fd157" ref-type="disp-formula">(157)</xref>, 
+ <xref rid="fd158" ref-type="disp-formula">(158)</xref>, and 
+ <xref rid="fd96" ref-type="disp-formula">(96)</xref> and get the standard result by tending 
+ <inline-formula>
+  <math id="M583" altimg="si2.svg">
+   <mrow>
+    <mi>γ</mi>
+   </mrow>
+  </math>
+ </inline-formula> to infinity in the equation for 
+ <inline-formula>
+  <math id="M584" altimg="si433.svg">
+   <mrow>
+    <mi>t</mi>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="M585" altimg="si434.svg">
+   <mrow>
+    <mi>t</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">→</mo>
+    <mn>0</mn>
+   </mrow>
+  </math>
+ </inline-formula>; 
+ <xref rid="fig3" ref-type="fig">Fig. 3</xref>, where 
+ <inline-formula>
+  <math id="M586" altimg="si435.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>θ</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">=</mo>
+    <mrow>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> under 
+ <xref rid="fd146" ref-type="disp-formula">Eq. (146)</xref>) and to zero in 
+ <inline-formula>
+  <math id="M587" altimg="si436.svg">
+   <mrow>
+    <msubsup>
+     <mrow>
+      <mi>K</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+     </mrow>
+    </msubsup>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd162" ref-type="disp-formula">Eq. (162)</xref>). The standard type equation for 
+ <inline-formula>
+  <math id="M588" altimg="si284.svg">
+   <mrow>
+    <mi>K</mi>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <inline-formula>
+  <math id="M589" altimg="si437.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mtext>B</mtext>
+     </mrow>
+    </msub>
+    <mi>T</mi>
+    <mo linebreak="goodbreak" linebreakstyle="after">&gt;</mo>
+    <mrow>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>ω</mi>
+     </mrow>
+     <mo>/</mo>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) is thus obtained [
+ <xref rid="bib11" ref-type="bibr">11</xref>]:
+ <disp-formula id="fd163">
+  <label>(163)</label>
+  <math id="M590" altimg="si438.svg" alttext="Equation 163.">
+   <mrow>
+    <mi>K</mi>
+    <mo linebreak="badbreak">=</mo>
+    <mfrac>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mi>ℏ</mi>
+     </mrow>
+     <mrow>
+      <msqrt>
+       <mrow>
+        <mn>4</mn>
+        <mi>π</mi>
+        <msub>
+         <mrow>
+          <mi>λ</mi>
+         </mrow>
+         <mrow>
+          <mtext>r</mtext>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mtext>B</mtext>
+         </mrow>
+        </msub>
+        <mi>T</mi>
+       </mrow>
+      </msqrt>
+     </mrow>
+    </mfrac>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <mn>2</mn>
+        <mi>L</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mi>exp</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mo>−</mo>
+      <mfrac>
+       <mrow>
+        <msup>
+         <mrow>
+          <mrow>
+           <mo stretchy="true">(</mo>
+           <mrow>
+            <mi>Δ</mi>
+            <mo linebreak="badbreak">−</mo>
+            <msub>
+             <mrow>
+              <mi>λ</mi>
+             </mrow>
+             <mrow>
+              <mtext>r</mtext>
+             </mrow>
+            </msub>
+           </mrow>
+           <mo stretchy="true">)</mo>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mn>2</mn>
+         </mrow>
+        </msup>
+       </mrow>
+       <mrow>
+        <mn>4</mn>
+        <msub>
+         <mrow>
+          <mi>λ</mi>
+         </mrow>
+         <mrow>
+          <mtext>r</mtext>
+         </mrow>
+        </msub>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mtext>B</mtext>
+         </mrow>
+        </msub>
+        <mi>T</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mtext>,</mtext>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <inline-formula>
+  <math id="M591" altimg="si439.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>λ</mi>
+     </mrow>
+     <mrow>
+      <mtext>r</mtext>
+     </mrow>
+    </msub>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mn>2</mn>
+    <mi>E</mi>
+   </mrow>
+  </math>
+ </inline-formula>. A formula of this type was obtained by Marcus in his electron-transfer model [
+ <xref rid="bib87" ref-type="bibr">87</xref>, 
+ <xref rid="bib88" ref-type="bibr">88</xref>, 
+ <xref rid="bib89" ref-type="bibr">89</xref>, 
+ <xref rid="bib90" ref-type="bibr">90</xref>, 
+ <xref rid="bib91" ref-type="bibr">91</xref>, 
+ <xref rid="bib92" ref-type="bibr">92</xref>] and is often called the Marcus formula, and the energy 
+ <inline-formula>
+  <math id="M592" altimg="si440.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>λ</mi>
+     </mrow>
+     <mrow>
+      <mtext>r</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> is called the reorganization energy of Marcus. Similar and more general formulas were previously obtained in the theory of many-phonon transitions (see Refs. [
+ <xref rid="bib65" ref-type="bibr">65</xref>, 
+ <xref rid="bib72" ref-type="bibr">72</xref>]) for optical transitions by Huang and Rhys [
+ <xref rid="bib93" ref-type="bibr">93</xref>] and Pekar [
+ <xref rid="bib73" ref-type="bibr">73</xref>, 
+ <xref rid="bib74" ref-type="bibr">74</xref>, 
+ <xref rid="bib86" ref-type="bibr">86</xref>] (see also Lax [
+ <xref rid="bib94" ref-type="bibr">94</xref>] and Krivoglaz and Pekar [
+ <xref rid="bib76" ref-type="bibr">76</xref>]) and for nonradiative transitions by Huang and Rhys [
+ <xref rid="bib93" ref-type="bibr">93</xref>] and Krivoglaz [
+ <xref rid="bib77" ref-type="bibr">77</xref>].
+</p>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par20">Not only all encountered Voronoi cells were identified, but also several properties derived from them were defined as attributes. For example, attribute 
+ <italic>f</italic>5 was defined as the number of 5-edged cell faces. Along our study, 48 different attributes were found in the structures gathered from the MMC simulation runs. Table 
+ <xref rid="Tab2" ref-type="table">2</xref> provides a list of them. The Voronoi tessellation of the computational box containing 2000 atoms was performed for 18672 saved MMC configurations and the 48 topological attributes were calculated. Configurations from the green points in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref> inset were not included. Each of the 48 attributes was found a certain number of times in a given configuration, which defined its frequency of occurrence. These occurrence frequencies were entered in a data table of 18672 rows by 48 columns. Therefore, the dataset spanned a 48-dimensional space.
+</p>

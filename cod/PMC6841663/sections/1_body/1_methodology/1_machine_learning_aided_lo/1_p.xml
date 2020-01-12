@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">ML is a powerful technique for analyses such as classification, interpolation, and regression. To find out unknown information, ML is generally applied without prior knowledge. To describe some potential characteristics of the data, a set of numerical values called a “descriptor” is defined and used. The descriptor should capture the characteristics of the data for the specific problem. Figure 
+ <xref rid="Fig1" ref-type="fig">1</xref> shows a conceptual image of ML-LSA. In this study, we defined order parameters as structure descriptors, and defined an array 
+ <italic>D</italic>
+ <sub>s</sub> as the set of order parameters. To define this structure descriptor, eleven equations related to modified or developed order parameters were employed: the local Onsager order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>
+ </sup>
+ <italic>S</italic>; local McMillan order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup>
+ <italic>T</italic>; bond order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR42">42</xref>
+ </sup>
+ <italic>Q</italic>; common neighborhood parameters
+ <sup>
+  <xref ref-type="bibr" rid="CR43">43</xref>
+ </sup>
+ <italic>A</italic>, 
+ <italic>P</italic>, and 
+ <italic>M</italic>; bond angle analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR44">44</xref>
+ </sup>
+ <italic>B</italic>; centrosymmetry parameter analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR45">45</xref>
+ </sup>
+ <italic>C</italic>; neighbor distance analysis
+ <sup>
+  <xref ref-type="bibr" rid="CR46">46</xref>
+ </sup>
+ <italic>D</italic>; angular Fourier-series-like parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR47">47</xref>,
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>
+ <italic>F</italic>; and the angle histogram analysis parameter 
+ <italic>H</italic> (details of each order parameter are given in the Supporting Information). Importantly, the exact form of each order parameter changes with the setting of variables such as the number of neighboring particles (see Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref> in Supporting Information). These variables ensure that the order parameters have different sensitivities for describing the characteristics of the data. Therefore, we individually counted and labeled the order parameters given by the same equation but different variables. Using this labeling rule, the number of order parameters increased to almost 1,600,000 (see Table 
+ <xref rid="MOESM1" ref-type="media">S1</xref> in Supporting Information). The set of order parameters was merged to form the array of structure descriptors 
+ <italic>D</italic>
+ <sub>s</sub>. To classify the local structure of quenched LCP trajectories, we performed three ML steps. Firstly, each component of the structure descriptor (i.e., each order parameter) was calculated for well-established single-domain nematic- and smectic-like trajectories of LCP systems. Note that the order parameters were calculated for each mesogen particle 
+ <italic>i</italic> to show the local structure around 
+ <italic>i</italic>. The structure descriptor for each particle was labeled as either “nematic-like” or “smectic-like” for a supervised classification done at the next step. Next, to obtain the ML model for each order parameter, a supervised classification was performed using the random forest technique
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>
+ </sup>. Note that the ML model (or the hypothesis) is a certain function that strongly resembles the target function, which is expected to clearly express a certain proposition. More specifically, each obtained ML model can be expected to describe well the characteristics of each order parameter for detecting nematic- or smectic-like structures. Thus, when the ML model performs well, the classification accuracy for distinguishing between single-domain nematic- and smectic-like structures becomes high. Finally, we applied the above ML model to classify the local structures of quenched LCP trajectories. Quenched trajectories themselves are extremely hard to use to obtain ML model because of the complex mixture of nematic- and smectic-like local structures. Thus the ML model determined from well-established single-domain trajectories were used, and mainly evaluated from comparison with several conventional classification methods.
+</p>

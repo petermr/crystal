@@ -1,0 +1,358 @@
+{
+  "id": [
+    "31684722"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31684722"
+  ],
+  "pmcid": [
+    "PMC6891803"
+  ],
+  "doi": [
+    "10.1021/acsami.9b15025"
+  ],
+  "title": [
+    "Morphology Evolution during Lithium-Based Vertically Aligned Nanocomposite Growth."
+  ],
+  "authorString": [
+    "Cunha DM, Vos CM, Hendriks TA, Singh DP, Huijben M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cunha DM"
+          ],
+          "firstName": [
+            "Daniel M"
+          ],
+          "lastName": [
+            "Cunha"
+          ],
+          "initials": [
+            "DM"
+          ],
+          "affiliation": [
+            "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Vos CM"
+          ],
+          "firstName": [
+            "Chris M"
+          ],
+          "lastName": [
+            "Vos"
+          ],
+          "initials": [
+            "CM"
+          ],
+          "affiliation": [
+            "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Hendriks TA"
+          ],
+          "firstName": [
+            "Theodoor A"
+          ],
+          "lastName": [
+            "Hendriks"
+          ],
+          "initials": [
+            "TA"
+          ],
+          "affiliation": [
+            "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Singh DP"
+          ],
+          "firstName": [
+            "Deepak P"
+          ],
+          "lastName": [
+            "Singh"
+          ],
+          "initials": [
+            "DP"
+          ],
+          "affiliation": [
+            "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+          ]
+        },
+        {
+          "fullName": [
+            "Huijben M"
+          ],
+          "firstName": [
+            "Mark"
+          ],
+          "lastName": [
+            "Huijben"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8175-6958",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-8175-6958",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "47"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2885762"
+      ],
+      "dateOfPublication": [
+        "2019 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "ACS applied materials & interfaces"
+          ],
+          "ISOAbbreviation": [
+            "ACS Appl Mater Interfaces"
+          ],
+          "medlineAbbreviation": [
+            "ACS Appl Mater Interfaces"
+          ],
+          "NLMid": [
+            "101504991"
+          ],
+          "ISSN": [
+            "1944-8244"
+          ],
+          "ESSN": [
+            "1944-8252"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "44444-44450"
+  ],
+  "abstractText": [
+    "Ceramic-based nanocomposites are a rapidly evolving research area as they are currently being used in a wide range of applications. Epitaxial vertically aligned nanocomposites (VANs) offer promising advantages over conventional planar multilayers as key functionalities are tailored by the strong coupling at their vertical interfaces. However, limited knowledge exists of which material systems are compatible in composite films and which types of structures are optimal for a given functionality. No lithium-based VANs have yet been explored for energy storage, while 3D solid-state batteries offer great promise for enhanced energy and power densities. Although solid-on-solid kinetic Monte Carlo simulation (KMCS) models of VAN growth have previously been developed, phase separation was forced into the systems by limiting hopping directions and/or tuning the activation energies for hopping. Here, we study the influence of the temperature and deposition rate on the morphology evolution of lithium-based VANs, consisting of a promising LiMn2O4 cathode and a Li0.5La0.5TiO3 electrolyte, by applying a KMCS model with activation energies for hopping obtained experimentally and with minimum restrictions for hopping directions. Although the model considers only the kinetic processes away from thermodynamic equilibrium, which would determine the final shape of the pillars within the matrix, the trends in pillar size and distribution within the simulated VANs are in good agreement with experiments. This provides an elegant tool to predict the growth of VAN materials as the experimental activation energies and higher degrees of freedom for hopping result in a more realistic and low computational cost model to obtain accurate simulations of VAN materials."
+  ],
+  "affiliation": [
+    "MESA+ Institute for Nanotechnology , University of Twente , 7500 AE Enschede , Overijssel , Netherlands."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Self-assembly",
+        "Nanocomposites",
+        "Pulsed Laser Deposition",
+        "Lithium Battery",
+        "Kinetic Monte Carlo Simulation"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1021/acsami.9b15025"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6891803"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6891803?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2019-12-02"
+  ],
+  "dateOfCreation": [
+    "2019-11-06"
+  ],
+  "firstIndexDate": [
+    "2019-11-06"
+  ],
+  "fullTextReceivedDate": [
+    "2019-12-07"
+  ],
+  "dateOfRevision": [
+    "2019-12-09"
+  ],
+  "electronicPublicationDate": [
+    "2019-11-13"
+  ],
+  "firstPublicationDate": [
+    "2019-11-13"
+  ]
+}

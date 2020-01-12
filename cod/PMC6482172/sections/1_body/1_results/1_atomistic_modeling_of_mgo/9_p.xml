@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par13">During the present work, we find that proper treatment of the stress state of the computational supercell plays an important role in the atomistic modeling study of jog formation. In our previous work
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>, the correction to the plastic strain during the introduction of the dislocation dipole in the supercell was not applied. We will consider the effect here. Given a screw dislocation with two jog pairs of separation length 
+ <italic>w</italic>, and jog height 
+ <italic>h</italic>, from the Peach-Koehler force on dislocations,
+ <disp-formula id="Equ2">
+  <label>2</label>
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\bf{f}}=(\sigma \cdot {\bf{b}})\times \xi $$\end{document}</tex-math>
+   <math id="M24" display="block">
+    <mi mathvariant="bold">f</mi>
+    <mo>=</mo>
+    <mo stretchy="false">(</mo>
+    <mi>σ</mi>
+    <mo>⋅</mo>
+    <mi mathvariant="bold">b</mi>
+    <mo stretchy="false">)</mo>
+    <mo>×</mo>
+    <mi>ξ</mi>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ2.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>σ</italic> is the stress, 
+ <bold>b</bold> is the Burgers vector, and 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\xi $$\end{document}</tex-math>
+   <math id="M26">
+    <mi>ξ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_42926_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is a unit vector along the dislocation line direction. The energy change due to the stress is then, in scalar form,
+ <disp-formula id="Equ3">
+  <label>3</label>
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\rm{\Delta }}E=\sigma bwh$$\end{document}</tex-math>
+   <math id="M28" display="block">
+    <mi mathvariant="normal">Δ</mi>
+    <mi>E</mi>
+    <mo>=</mo>
+    <mi>σ</mi>
+    <mi>b</mi>
+    <mi>w</mi>
+    <mi>h</mi>
+   </math>
+   <graphic xlink:href="41598_2019_42926_Article_Equ3.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>The energy in Eq. (
+ <xref rid="Equ3" ref-type="">3</xref>) is conventionally termed “stress migration” energy since it represents the work done (and thus the energy reduction) by stress when the dislocation segment moves during the jog formation process.
+</p>

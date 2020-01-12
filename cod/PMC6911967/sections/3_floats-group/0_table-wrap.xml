@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="undtbl1">
+ <caption>
+  <p>Specifications Table</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <tbody>
+   <tr>
+    <td>Subject</td>
+    <td>Surfaces and Interfaces</td>
+   </tr>
+   <tr>
+    <td>Specific subject area</td>
+    <td>Atomistic first principles calculation</td>
+   </tr>
+   <tr>
+    <td>Type of data</td>
+    <td>Structural Data: atomic model coordinates in XYZ format and respective translation vectors.
+     <break/>Figures: atomic models and related calculated STM images
+    </td>
+   </tr>
+   <tr>
+    <td>How data were acquired</td>
+    <td>The data were acquired by means of first-principles density functional theory calculations. The calculations were carried out using the pseudopotential [
+     <xref rid="bib4" ref-type="bibr">4</xref>] density functional theory SIESTA code [
+     <xref rid="bib5" ref-type="bibr">5</xref>] (version 4.1) within the local density approximation to the exchange and correlation interactions between electrons [
+     <xref rid="bib6" ref-type="bibr">6</xref>]. The valence states were expressed as linear combinations of the Sankey-Niklewski-type numerical atomic orbitals [
+     <xref rid="bib5" ref-type="bibr">5</xref>]. The constant-current STM images were produced based on the Tersoff-Hamann approximation [
+     <xref rid="bib7" ref-type="bibr">7</xref>] using the eigenvalues and eigenfunctions of the Kohn-Sham equation [
+     <xref rid="bib8" ref-type="bibr">8</xref>] for a relaxed atomic structure. The WSxM software was used to process the calculated STM images [
+     <xref rid="bib9" ref-type="bibr">9</xref>].
+    </td>
+   </tr>
+   <tr>
+    <td>Data format</td>
+    <td>Raw</td>
+   </tr>
+   <tr>
+    <td>Parameters for data collection</td>
+    <td>Standard bulk-optimized DZP functions [
+     <xref rid="bib5" ref-type="bibr">5</xref>] were assigned for all species for relaxing the structure. The surface-optimized DZP basis set (cut-off radii for s-, p-, and d-orbitals are Rs = 9 Bohr, Rpd = 11 Bohr for Si) was used for STM image calculations [
+     <xref rid="bib10" ref-type="bibr">10</xref>]. Plane-wave cut-off for the grid is 200 Ry. Monkhorst-Pack k-point grids [
+     <xref rid="bib11" ref-type="bibr">11</xref>]: 2 × 2 × 1 for (1 1 0)-(5 × 8) and 
+     <italic>c</italic>(8 × 10), 1 × 4 × 1 for (1 1 0)-(16 × 2), and 2 × 4 × 1 for (17 15 1)-(2 × 1). Force tolerance: 0.01 eV/Å.
+    </td>
+   </tr>
+   <tr>
+    <td>Description of data collection</td>
+    <td>The atomic structures reported here were obtained using the standard hydrogenated-slab first-principles density functional theory calculations. Calculated bulk Si lattice constant was 5.42 Å.</td>
+   </tr>
+   <tr>
+    <td>Data source location</td>
+    <td>Institution: A.V. Rzhanov Institute of Semiconductor Physics
+     <break/>City/Town/Region: Novosibirsk
+     <break/>Country: Russia
+    </td>
+   </tr>
+   <tr>
+    <td>Data accessibility</td>
+    <td>With the article</td>
+   </tr>
+   <tr>
+    <td>Related research article</td>
+    <td>R.A. Zhachuk, A.A. Shklyaev
+     <break/>Universal building block for (1 1 0)-family silicon and germanium surfaces
+     <break/>Applied Surface Science 494 (2019) 46-50
+     <break/>
+     <ext-link ext-link-type="doi" xlink:href="10.1016/j.apsusc.2019.07.144" id="intref0010" xmlns:xlink="http://www.w3.org/1999/xlink">https://doi.org/10.1016/j.apsusc.2019.07.144</ext-link>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

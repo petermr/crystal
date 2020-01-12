@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>All atomistic simulations of the adsorption of Na
+ <sup>+</sup>, K
+ <sup>+</sup>, Mg
+ <sup>2+</sup>, Cl
+ <sup>–</sup>, and SO
+ <sub>4</sub>
+ <sup>2–</sup> on the surfaces of zabuyelite were executed within the framework of the dispersion-corrected density functional theory (DFT-D3) method, as implemented in the Vienna ab initio Simulation Package (VASP). The VASP code calculates the lowest-energy configuration (ground state) of a material by structural energy minimization through atom reassembly, movement, and rotation. The lowest-energy configuration is satisfied when the residual Hellman-Feynman force on the relaxed atom reaches 0.01 eV/Å. Additionally, to obtain an accuracy of the interiterative energy change of 10
+ <sup>–6</sup> eV, the kinetic energy cutoff for the plane-wave basis was set to 600 eV. The initial zabuyelite cell parameters were taken from the work of Idemoto et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref28">28</xref>
+ </sup> A Monkhorst–Pack K-point mesh of 3 × 5 × 4 and 3 × 5 × 1 has been used to describe the Brillouin zone of the bulk and surface calculations, respectively. The Monkhorst–Pack scheme ensures homogeneous distribution of the sampling K-points within the Brillouin zone, and the columns and rows of the K-points are parallel to the reciprocal lattice vectors.
+ <sup>
+  <xref ref-type="bibr" rid="ref29">29</xref>
+ </sup>
+</p>

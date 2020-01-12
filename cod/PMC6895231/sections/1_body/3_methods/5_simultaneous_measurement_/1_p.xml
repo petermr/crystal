@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par43">One of the most critical steps which needed to be solved in SAROM is achievement of high speed of polarization measurements. For this purpose, we designed and constructed a Raman setup without moving parts, capable to illuminate the sample with multiple laser beams at different laser polarizations and simultaneously detect Raman scattering beams at multiple analyzer orientations (Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">8</xref>). The working principle of the simultaneous measurement with nine polarized Raman channels is schematically shown in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">7b</xref>. Before starting the optical design having such complicated structure, we performed test measurements in a ‘traditional’ polarized Raman microscope layout
+ <sup>
+  <xref ref-type="bibr" rid="CR41">41</xref>
+ </sup> in order to find the minimum number of polarization measurements required for obtaining valid crystal orientations (Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). The ‘traditional’ optical setup can acquire one polarized Raman spectrum per measurement
+ <sup>
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>. Therefore, it requires a set of sequential measurements with different combinations of incident laser polarization angle 
+ <italic>ψ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> and analyzer angle 
+ <italic>ψ</italic>
+ <sub>
+  <italic>s</italic>
+ </sub>. In order to get more flexibility in the definition of incident laser/analyzer orientation we slightly modified the common used Porto notations
+ <sup>
+  <xref ref-type="bibr" rid="CR54">54</xref>
+ </sup> for the back scattering on-axis and off-axis measurement configuration to the following form: 
+ <italic>z</italic>(
+ <italic>ψ</italic>
+ <sub>
+  <italic>I</italic>
+ </sub>, 
+ <italic>ψ</italic>
+ <sub>
+  <italic>s</italic>
+ </sub>)
+ <inline-formula id="IEq4">
+  <alternatives>
+   <tex-math id="M7">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tilde z$$\end{document}</tex-math>
+   <math id="M8">
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq4.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

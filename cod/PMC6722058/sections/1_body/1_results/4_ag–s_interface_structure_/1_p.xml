@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par19">The main difference when predicting Ag–S interface as compared to predicting Au-S interface is to allow more flexible coordination of the metal atoms to thiolates. The selected parameters for protected Ag-clusters can be seen in Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">4</xref>. For validating the prediction of Ag–S interface structures we selected four known protected Ag-clusters: Ag
+ <sub>23</sub>(SR)
+ <sub>18</sub>(PPh
+ <sub>3</sub>)
+ <sub>8</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>
+ </sup>), Ag
+ <sub>44</sub>(SR)
+ <sub>30</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>), Ag
+ <sub>78</sub>(SR)
+ <sub>42</sub>(DPPP)
+ <sub>6</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>), and Ag
+ <sub>211</sub>Cl(SR)
+ <sub>71</sub>(PPh
+ <sub>3</sub>)
+ <sub>6</sub> (ref. 
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>). For these clusters most of the ligands on the surface are thiolates, but also phosphines, diphosphines and one halide are included. The single halide is omitted in the prediction. Our approach to predict the interfaces with mixed ligands is to predict first the positions of the ligands that are in majority and then to continue by predicting the other ligands, in this case phosphines and diphosphines. For all test systems, 9216 model clusters were generated during a single run. The prediction was done twice for the largest Ag
+ <sub>211</sub>Cl(SR)
+ <sub>71</sub>(PPh3)
+ <sub>6</sub> cluster by combining the S-atom positions of 20 best structures of the first run to the set of possible S-atom positions for the second run, similarly to the two largest Au-clusters discussed above. The correctly positioned atoms were determined by requiring that four out of five nearest neighbors metal atom indices must be correct for all interface atoms as compared to the true structure. This criterion is different than in Au–S interfaces due to the enriched bonding configurations on Ag–S interface, for which taking into account only two nearest neighbors would not be enough.
+</p>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par21">In this Section, we numerically explore the dynamics of Eq. (
+ <xref rid="Equ2" ref-type="">2</xref>) for a suspension of 
+ <italic>N</italic> interacting active particles in a two-dimensional box of size 
+ <italic>L</italic> with periodic boundary conditions. We implement the Euler-Maruyama algorithm
+ <sup>
+  <xref ref-type="bibr" rid="CR72">72</xref>
+ </sup> using both ABP and AOUP active forces, given by Eqs. (
+ <xref rid="Equ3" ref-type="">3</xref>) and (
+ <xref rid="Equ4" ref-type="">4</xref>), respectively. We choose a soft-core potential of the GEM-
+ <italic>α</italic> type with 
+ <italic>α</italic> = 3, which displays the cluster-crystal aggregation phase in the passive case (
+ <italic>U</italic>
+ <sub>0</sub> = 0) at sufficiently low temperature and large enough particle density
+ <sup>
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>. Throughout this paper we take 
+ <italic>R</italic>/
+ <italic>L</italic> = 10
+ <sup>−1</sup>, 
+ <italic>γ</italic> = 1 and 
+ <italic>ε</italic> = 1. Since for several active systems of interest the effective diffusion due to the active forces is much larger than the one due to the thermal diffusion, hereafter we fix 
+ <italic>T</italic> = (
+ <italic>U</italic>
+ <sub>0</sub>
+ <sup>2</sup>
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub>/
+ <italic>γ</italic>)10
+ <sup>−4</sup>.
+</p>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0190">Substituting 
+ <xref rid="fd7" ref-type="disp-formula">Eq. (7)</xref> into the stationary Schrӧdinger equation
+ <disp-formula id="fd8">
+  <label>(8)</label>
+  <math id="M64" altimg="si54.svg" alttext="Equation 8.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>H</mi>
+      <mo>ˆ</mo>
+     </mover>
+    </mrow>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <mi>E</mi>
+    <mi>Ψ</mi>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>q</mi>
+      <mo>,</mo>
+      <mi>p</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+    <mo>,</mo>
+   </mrow>
+  </math>
+ </disp-formula>where the Hamiltonian 
+ <inline-formula>
+  <math id="M65" altimg="si45.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>H</mi>
+     <mo>ˆ</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula> is given by 
+ <xref rid="fd6" ref-type="disp-formula">Eq. (6)</xref>, we obtain
+ <disp-formula id="fd9">
+  <label>(9)</label>
+  <math id="M66" altimg="si55.svg" alttext="Equation 9.">
+   <mrow>
+    <mi>ϕ</mi>
+    <mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>T</mi>
+        <mo>ˆ</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>e</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mi>ψ</mi>
+    <mtext> </mtext>
+    <mo linebreak="badbreak">+</mo>
+    <mtext> </mtext>
+    <mrow>
+     <msub>
+      <mrow>
+       <mover accent="true">
+        <mi>T</mi>
+        <mo>ˆ</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>N</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mi>ψ</mi>
+    <mi>ϕ</mi>
+    <mtext> </mtext>
+    <mo linebreak="goodbreak">+</mo>
+    <mtext> </mtext>
+    <mi>U</mi>
+    <mi>ψ</mi>
+    <mi>ϕ</mi>
+    <mtext> </mtext>
+    <mo linebreak="goodbreak">=</mo>
+    <mtext> </mtext>
+    <mi>E</mi>
+    <mi>ψ</mi>
+    <mi>ϕ</mi>
+    <mo>.</mo>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

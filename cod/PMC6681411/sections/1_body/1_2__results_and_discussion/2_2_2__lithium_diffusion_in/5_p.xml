@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To further study the different behaviors of Li and Al in LiAl
+ <sub>2</sub>(OH)
+ <sub>6</sub>Cl during the heating process, the mean square displacement (MSD) of Li and Al at 500 K were calculated and are presented in 
+ <xref ref-type="fig" rid="molecules-24-02667-f005">Figure 5</xref>. MSD is defined as [
+ <xref rid="B28-molecules-24-02667" ref-type="bibr">28</xref>]:
+ <disp-formula id="FD3-molecules-24-02667">
+  <label>(3)</label>
+  <math id="mm25">
+   <mrow>
+    <mrow>
+     <mi>M</mi>
+     <mi>S</mi>
+     <mi>D</mi>
+     <mo>=</mo>
+     <mfrac bevelled="true">
+      <mn>1</mn>
+      <mi>N</mi>
+     </mfrac>
+     <mo>&lt;</mo>
+     <msubsup>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∑</mo>
+      </mstyle>
+      <mrow>
+       <mi>i</mi>
+       <mo>=</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi>N</mi>
+     </msubsup>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>|</mo>
+        <mrow>
+         <msubsup>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <msubsup>
+          <mi>r</mi>
+          <mi>i</mi>
+          <mi>c</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo>&gt;</mo>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>N</italic> represents the number of type-
+ <italic>c</italic> atoms in the system, while 
+ <inline-formula>
+  <math id="mm26">
+   <mrow>
+    <mrow>
+     <mo>&lt;</mo>
+     <mi>A</mi>
+     <mo>&gt;</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> denotes the ensemble average of a physical quantity, 
+ <inline-formula>
+  <math id="mm27">
+   <mrow>
+    <mi>A</mi>
+   </mrow>
+  </math>
+ </inline-formula>. As it is known that the timescale of the Li diffusion process is of the order of picoseconds, it can be analyzed by MD simulations. It can be seen from 
+ <xref ref-type="fig" rid="molecules-24-02667-f005">Figure 5</xref> that the Li atoms show a larger dynamics than the Al atoms. This can be explained by the heavier mass and higher charge of Al compared to Li. Within larger time intervals, the values of MSD increase with time as observed in [
+ <xref rid="B28-molecules-24-02667" ref-type="bibr">28</xref>]. In many kinds of lithium superionic conductors, e.g., Li
+ <sub>3</sub>Y(PSO
+ <sub>4</sub>)
+ <sub>2</sub>, Li
+ <sub>5</sub>PSO
+ <sub>4</sub>Cl
+ <sub>2</sub> [
+ <xref rid="B29-molecules-24-02667" ref-type="bibr">29</xref>], and Li
+ <sub>7</sub>P
+ <sub>3</sub>S
+ <sub>11</sub> [
+ <xref rid="B30-molecules-24-02667" ref-type="bibr">30</xref>], an open site due to Li
+ <sup>+</sup> diffusion is found to be occupied by another Li
+ <sup>+</sup> within 10 ps.
+</p>

@@ -1,0 +1,421 @@
+{
+  "id": [
+    "31058873"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31058873"
+  ],
+  "pmcid": [
+    "PMC6539467"
+  ],
+  "doi": [
+    "10.3390/molecules24091731"
+  ],
+  "title": [
+    "Exploring Accuracy Limits of Predictions of the 1H NMR Chemical Shielding Anisotropy in the Solid State."
+  ],
+  "authorString": [
+    "Czernek J, Brus J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Czernek J"
+          ],
+          "firstName": [
+            "Jiří"
+          ],
+          "lastName": [
+            "Czernek"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute of Macromolecular Chemistry, Czech Academy of Sciences, Heyrovsky Square 2, 16206 Prague, Czech Republic. czernek@imc.cas.cz."
+          ]
+        },
+        {
+          "fullName": [
+            "Brus J"
+          ],
+          "firstName": [
+            "Jiří"
+          ],
+          "lastName": [
+            "Brus"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Institute of Macromolecular Chemistry, Czech Academy of Sciences, Heyrovsky Square 2, 16206 Prague, Czech Republic. brus@imc.cas.cz."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "24"
+      ],
+      "journalIssueId": [
+        "2812525"
+      ],
+      "dateOfPublication": [
+        "2019 May"
+      ],
+      "monthOfPublication": [
+        "5"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-05-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Molecules (Basel, Switzerland)"
+          ],
+          "ISOAbbreviation": [
+            "Molecules"
+          ],
+          "medlineAbbreviation": [
+            "Molecules"
+          ],
+          "NLMid": [
+            "100964009"
+          ],
+          "ISSN": [
+            "1420-3049"
+          ],
+          "ESSN": [
+            "1420-3049"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "abstractText": [
+    "The 1H chemical shielding anisotropy (CSA) is an NMR parameter that is exquisitely sensitive to the local environment of protons in crystalline systems, but it is difficult to obtain it experimentally due to the need to concomitantly suppress other anisotropic interactions in the solid-state NMR (SSNMR) pulse sequences. The SSNMR measurements of the 1H CSA are particularly challenging if the fast magic-angle-spinning (MAS) is applied. It is thus important to confront the results of both the single-crystal (SC) and fast-MAS experiments with their theoretical counterparts. Here the plane-waves (PW) DFT calculations have been carried out using two functionals in order to precisely characterize the structures and the 1H NMR chemical shielding tensors (CSTs) of the solid forms of maleic, malonic, and citric acids, and of L-histidine hydrochloride monohydrate. The level of agreement between the PW DFT and either SC or fast-MAS SSNMR 1H CSA data has been critically compared. It has been found that for the eigenvalues of the 1H CSTs provided by the fast-MAS measurements, an accuracy limit of current PW DFT predictions is about two ppm in terms of the standard deviation of the linear regression model, and sources of this error have been thoroughly discussed."
+  ],
+  "affiliation": [
+    "Institute of Macromolecular Chemistry, Czech Academy of Sciences, Heyrovsky Square 2, 16206 Prague, Czech Republic. czernek@imc.cas.cz."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "LO1507 POLYMAT"
+          ],
+          "agency": [
+            "Ministerstvo Školství, Mládeže a Tělovýchovy"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Citric Acid"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Histidine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Linear Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Anisotropy"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proton Magnetic Resonance Spectroscopy"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Gipaw",
+        "Mas Nmr",
+        "Chemical Shielding Anisotropy",
+        "Plane-waves Dft"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Protons"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Histidine"
+          ],
+          "registryNumber": [
+            "4QD397987E"
+          ]
+        },
+        {
+          "name": [
+            "Citric Acid"
+          ],
+          "registryNumber": [
+            "2968PHW8QP"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6539467?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6539467"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.3390/molecules24091731"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2019-08-28"
+  ],
+  "dateOfCreation": [
+    "2019-05-07"
+  ],
+  "firstIndexDate": [
+    "2019-05-08"
+  ],
+  "fullTextReceivedDate": [
+    "2019-06-06"
+  ],
+  "dateOfRevision": [
+    "2019-08-28"
+  ],
+  "electronicPublicationDate": [
+    "2019-05-03"
+  ],
+  "firstPublicationDate": [
+    "2019-05-03"
+  ]
+}

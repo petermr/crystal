@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl1" position="float">
+ <label>Table 1</label>
+ <caption>
+  <title>Structural Parameters Optimized at the DFT and FF Levels</title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="left"/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center">structural parameters</th>
+    <th style="border:none;" align="center" char=".">DFT</th>
+    <th style="border:none;" align="center" char=".">FF</th>
+    <th style="border:none;" align="center" char=".">Δ(FF–DFT)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td colspan="4" style="border:none;" align="center">
+     <bold>Bond Lengths (Å)</bold>
+    </td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(C1–C2)</td>
+    <td style="border:none;" align="char" char=".">1.419</td>
+    <td style="border:none;" align="char" char=".">1.402</td>
+    <td style="border:none;" align="char" char=".">–0.018</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(C2–N3)</td>
+    <td style="border:none;" align="char" char=".">1.308</td>
+    <td style="border:none;" align="char" char=".">1.323</td>
+    <td style="border:none;" align="char" char=".">0.016</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(C1–N12)</td>
+    <td style="border:none;" align="char" char=".">1.371</td>
+    <td style="border:none;" align="char" char=".">1.391</td>
+    <td style="border:none;" align="char" char=".">0.020</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(C1–N14)</td>
+    <td style="border:none;" align="char" char=".">1.325</td>
+    <td style="border:none;" align="char" char=".">1.345</td>
+    <td style="border:none;" align="char" char=".">0.020</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(C2–N6)</td>
+    <td style="border:none;" align="char" char=".">1.459</td>
+    <td style="border:none;" align="char" char=".">1.464</td>
+    <td style="border:none;" align="char" char=".">0.005</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(N14–H19)</td>
+    <td style="border:none;" align="char" char=".">1.015</td>
+    <td style="border:none;" align="char" char=".">1.025</td>
+    <td style="border:none;" align="char" char=".">0.010</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(N14–H18)</td>
+    <td style="border:none;" align="char" char=".">1.010</td>
+    <td style="border:none;" align="char" char=".">1.022</td>
+    <td style="border:none;" align="char" char=".">0.013</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(N6–O8)</td>
+    <td style="border:none;" align="char" char=".">1.233</td>
+    <td style="border:none;" align="char" char=".">1.224</td>
+    <td style="border:none;" align="char" char=".">–0.009</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(N6–O7)</td>
+    <td style="border:none;" align="char" char=".">1.206</td>
+    <td style="border:none;" align="char" char=".">1.221</td>
+    <td style="border:none;" align="char" char=".">0.015</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">B(N12–O13)</td>
+    <td style="border:none;" align="char" char=".">1.290</td>
+    <td style="border:none;" align="char" char=".">1.275</td>
+    <td style="border:none;" align="char" char=".">–0.015</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">ME</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">0.006</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">RMSE</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">0.015</td>
+   </tr>
+   <tr>
+    <td colspan="4" style="border:none;" align="center">
+     <bold>Angles (deg)</bold>
+    </td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(H18–N14–H19)</td>
+    <td style="border:none;" align="char" char=".">126.0</td>
+    <td style="border:none;" align="char" char=".">127.8</td>
+    <td style="border:none;" align="char" char=".">1.8</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C2–C1–N12)</td>
+    <td style="border:none;" align="char" char=".">116.2</td>
+    <td style="border:none;" align="char" char=".">116.1</td>
+    <td style="border:none;" align="char" char=".">–0.1</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–N12–C5)</td>
+    <td style="border:none;" align="char" char=".">122.0</td>
+    <td style="border:none;" align="char" char=".">122.5</td>
+    <td style="border:none;" align="char" char=".">0.5</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(N3–C2–N6)</td>
+    <td style="border:none;" align="char" char=".">116.3</td>
+    <td style="border:none;" align="char" char=".">116.8</td>
+    <td style="border:none;" align="char" char=".">0.5</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C2–C1–N14)</td>
+    <td style="border:none;" align="char" char=".">129.5</td>
+    <td style="border:none;" align="char" char=".">130.2</td>
+    <td style="border:none;" align="char" char=".">0.7</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–N14–H19)</td>
+    <td style="border:none;" align="char" char=".">115.4</td>
+    <td style="border:none;" align="char" char=".">113.9</td>
+    <td style="border:none;" align="char" char=".">–1.5</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–N14–H18)</td>
+    <td style="border:none;" align="char" char=".">118.6</td>
+    <td style="border:none;" align="char" char=".">118.3</td>
+    <td style="border:none;" align="char" char=".">–0.3</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C2–N3–C4)</td>
+    <td style="border:none;" align="char" char=".">119.5</td>
+    <td style="border:none;" align="char" char=".">121.3</td>
+    <td style="border:none;" align="char" char=".">1.9</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(N12–C1–N14)</td>
+    <td style="border:none;" align="char" char=".">114.3</td>
+    <td style="border:none;" align="char" char=".">113.7</td>
+    <td style="border:none;" align="char" char=".">–0.6</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–C2–N3)</td>
+    <td style="border:none;" align="char" char=".">123.1</td>
+    <td style="border:none;" align="char" char=".">122.0</td>
+    <td style="border:none;" align="char" char=".">–1.1</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(O7–N6–O8)</td>
+    <td style="border:none;" align="char" char=".">125.0</td>
+    <td style="border:none;" align="char" char=".">123.3</td>
+    <td style="border:none;" align="char" char=".">–1.6</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C2–N6–O7)</td>
+    <td style="border:none;" align="char" char=".">118.5</td>
+    <td style="border:none;" align="char" char=".">119.3</td>
+    <td style="border:none;" align="char" char=".">0.8</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C2–N6–O8)</td>
+    <td style="border:none;" align="char" char=".">116.5</td>
+    <td style="border:none;" align="char" char=".">117.3</td>
+    <td style="border:none;" align="char" char=".">0.8</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–C2–N6)</td>
+    <td style="border:none;" align="char" char=".">120.6</td>
+    <td style="border:none;" align="char" char=".">121.2</td>
+    <td style="border:none;" align="char" char=".">0.6</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">A(C1–N12–O13)</td>
+    <td style="border:none;" align="char" char=".">119.0</td>
+    <td style="border:none;" align="char" char=".">118.8</td>
+    <td style="border:none;" align="char" char=".">–0.3</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">ME</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">0.1</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="left">RMSE</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">1.0</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

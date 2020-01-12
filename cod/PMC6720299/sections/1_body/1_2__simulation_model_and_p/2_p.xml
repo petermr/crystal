@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Periodic boundary conditions were used in 
+ <italic>x</italic>, 
+ <italic>y</italic> and 
+ <italic>z</italic> directions. The embedded atom method (EAM) potential was used for NiAl, as described previously, and the potential proposed was constructed using experimental data and a large set of ab initio structural energies [
+ <xref rid="B17-materials-12-02508" ref-type="bibr">17</xref>]. The time step was set to be 1 fs. Creep simulation was performed using an isothermal–isobaric (NPT) ensemble with zero pressure in both 
+ <italic>x</italic> and 
+ <italic>y</italic> directions, and a constant tensile stress was applied to the 
+ <italic>z</italic> direction controlled by the Parrinello–Rahman method [
+ <xref rid="B18-materials-12-02508" ref-type="bibr">18</xref>]. The simulation time of nanocrystalline NiAl models was 200 ps using the same relaxation and loading method. All simulations were carried out at high temperature. The Large-Scale Atomic/Molecular Massively Parallel Simulator (LAMMPS) MD code [
+ <xref rid="B19-materials-12-02508" ref-type="bibr">19</xref>] and Ovito visualization tool [
+ <xref rid="B20-materials-12-02508" ref-type="bibr">20</xref>] were used for atomistic simulations. The atomic configurations and their evolution were analyzed by a centro-symmetry parameter (CSP) in order to provide the details of microstructure evolution during creep simulation in nanocrystalline NiAl models [
+ <xref rid="B21-materials-12-02508" ref-type="bibr">21</xref>]. The radial distribution function was used to reflect the degrees of amorphization in the three models. The dislocation extraction algorithm (DXA) was used to reveal the dislocation density of the three models [
+ <xref rid="B22-materials-12-02508" ref-type="bibr">22</xref>]. The number of vacancies was calculated at different time steps of the creep deformation process, simulated by Wigner–Seitz defect analysis [
+ <xref rid="B23-materials-12-02508" ref-type="bibr">23</xref>]. The mean square displacement (MSD) was calculated to obtain the values regarding atomic diffusion [
+ <xref rid="B24-materials-12-02508" ref-type="bibr">24</xref>].
+</p>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>AXCCA constitutes a general approach to describe and analyze the angular anisotropy of the diffraction patterns. This can be advantageous in the case of complex systems, where angular anisotropy is present on different length scales, or when the scattering signal needs to be averaged over many diffraction patterns for better statistics [
+ <xref rid="B7-materials-12-03464" ref-type="bibr">7</xref>]. The basic element of AXCCA is the two-point angular cross-correlation function (CCF), which is defined as Equation (9):
+ <disp-formula id="FD9-materials-12-03464">
+  <label>(9)</label>
+  <math id="mm92">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>C</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <munderover>
+      <mstyle mathsize="140%" displaystyle="true">
+       <mo>∫</mo>
+      </mstyle>
+      <mrow>
+       <mo>−</mo>
+       <mi>π</mi>
+      </mrow>
+      <mi>π</mi>
+     </munderover>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>,</mo>
+       <mi>φ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>I</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>,</mo>
+       <mi>φ</mi>
+       <mo>+</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>d</mi>
+     <mi>φ</mi>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm93">
+   <mrow>
+    <mrow>
+     <mo>−</mo>
+     <mi>π</mi>
+     <mo>≤</mo>
+     <mi mathvariant="sans-serif">Δ</mi>
+     <mo>&lt;</mo>
+     <mi mathvariant="sans-serif">π</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the angular variable [
+ <xref rid="B50-materials-12-03464" ref-type="bibr">50</xref>,
+ <xref rid="B51-materials-12-03464" ref-type="bibr">51</xref>]. In the simplest case, when the orientational order in the system is characterized by a single length scale, one may consider 
+ <inline-formula>
+  <math id="mm94">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>C</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>≡</mo>
+     <mover accent="true">
+      <mi>C</mi>
+      <mo stretchy="false">^</mo>
+     </mover>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi>q</mi>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">Δ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. However, the CCF can also be evaluated for 
+ <inline-formula>
+  <math id="mm95">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>q</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>≠</mo>
+     <msub>
+      <mi>q</mi>
+      <mn>2</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for the cases where angular correlations between two different length scales are studied. We should also note that AXCCA is not limited to the two-point CCF, and in some cases consideration of three- and higher order CCFs is required [
+ <xref rid="B38-materials-12-03464" ref-type="bibr">38</xref>].
+</p>

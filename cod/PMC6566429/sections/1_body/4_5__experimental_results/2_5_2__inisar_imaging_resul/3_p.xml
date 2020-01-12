@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>To overcome the drawbacks in SA InISAR imaging, radar echoes with a relative large rotation angle are needed. 
+ <xref ref-type="fig" rid="sensors-19-02330-f012">Figure 12</xref> shows the ISAR imaging results with 20° rotation angle. The ISAR images are displayed in log-magnitude and the dynamic range is 25 dB. Since the rotation rate of target has been estimated, the CBP algorithm is directly adapt to produce the ISAR images. Compared to 
+ <xref ref-type="fig" rid="sensors-19-02330-f010">Figure 10</xref>, the detailed information of the airplane model is more abundant, the scattering intensity is more uniform, and the resolution in cross-range is higher in 
+ <xref ref-type="fig" rid="sensors-19-02330-f012">Figure 12</xref>. The final InISAR imaging results with 20° rotation angle are shown as 
+ <xref ref-type="fig" rid="sensors-19-02330-f013">Figure 13</xref>. Comparing with the SA InISAR imaging results, the LA InISAR imaging results are closer to the real imaging target. The key parts in the A380 model such as engine, wing and vertical fin can be clearly identified, which can greatly enhance the probability of target recognition. The algorithm reconstruction time of this InISAR imaging experiment with 20° rotation angle is 3.266 s.
+</p>

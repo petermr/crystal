@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par2">Recent advances in computer power and simulation techniques make it possible to perform large-scale molecular simulations of macromolecules. However, analysis of the resulting complex mesoscopic structures from microscopic information is a non-trivial and challenging task, especially for amorphous, glassy, liquid-crystalline, and quenched materials. For mass point or spherical particle systems, several analysis methods that focus on the arrangement of particles have been widely accepted
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>
+ </sup>. These methods are based on particle coordinates and can classify many types of molecular forms, such as liquid, solid, body-centered cubic, face-centered cubic, hexagonal close-packed, and vacancy structures. These have been applied to many different problems: classifying the phases of Lennard–Jones (LJ) systems
+ <sup>
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup> or water systems
+ <sup>
+  <xref ref-type="bibr" rid="CR3">3</xref>
+ </sup>, drawing the phase diagram of confined LJ systems
+ <sup>
+  <xref ref-type="bibr" rid="CR4">4</xref>
+ </sup>, observing the crystal nucleation of molten Cu
+ <sup>
+  <xref ref-type="bibr" rid="CR5">5</xref>
+ </sup>, observing the spontaneous nucleation and growth of methane hydrate
+ <sup>
+  <xref ref-type="bibr" rid="CR6">6</xref>
+ </sup>, and detecting the vacancy and interstice of many types of molecular structures
+ <sup>
+  <xref ref-type="bibr" rid="CR7">7</xref>–
+  <xref ref-type="bibr" rid="CR9">9</xref>
+ </sup>. For anisotropic rigid particle systems such as liquid crystals, however, the above analyses are not easy because of the additional orientational degrees of freedom. For instance, the aspect ratio of the mesogenic ellipsoids, which is determined for specific problems and therefore user-dependent (i.e., by changing the chemical architecture of mesogens in experiments), significantly affects the structures and phases of the system. Difficulties in predicting the structures and phases prior to the simulations preclude preliminary development of specific order parameters that classify the system structure. For bulk liquid crystalline systems, classification of phases is not difficult because of a good performance of well-established order parameters such as Onsager order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR10">10</xref>
+ </sup> and McMillan order parameter
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>
+ </sup>. For complex systems with nonuniform local structures of liquid crystals, however, it is non-trivial whether the above order parameters maintain their performance or not. Therefore, it is desirable to develop a systematic and automatic classification method that does not require prior knowledge of the structures. Recently, Spelling and co-workers demonstrated how machine learning (ML) can be applied to discovering interesting areas of parameter space which are closely related to characteristic colloidal structures
+ <sup>
+  <xref ref-type="bibr" rid="CR12">12</xref>
+ </sup>. Carrasquilla and co-workers demonstrated that ML using the convolutional neural network (NN) can detect topological phases that cannot be classified by conventional order parameters
+ <sup>
+  <xref ref-type="bibr" rid="CR13">13</xref>
+ </sup>. VanNieuwenburg and co-workers proposed a ML approach to find phase transitions from the performance of the NN after training it with deliberately incorrectly labeled data
+ <sup>
+  <xref ref-type="bibr" rid="CR14">14</xref>
+ </sup>. Rodriguez and co-workers propose an unsupervised approach based on diffusion maps that learns topological phase transitions from raw data without the need of manual feature engineering
+ <sup>
+  <xref ref-type="bibr" rid="CR15">15</xref>
+ </sup>. Walters and co-workers demonstrated supervised machine learning can classify topological defects in a two dimensional confined liquid crystal system
+ <sup>
+  <xref ref-type="bibr" rid="CR16">16</xref>
+ </sup>.
+</p>

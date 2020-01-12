@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par38">Normalization factors were only calculated for the 
+ <italic>Scanner B</italic>. The method described by Bailey et al. [
+ <xref ref-type="bibr" rid="CR19">19</xref>] was adapted for this purpose in the following manner. Six data sets were acquired from six angular positions of the plane. The goal was to extract the LORs that were almost orthogonal to the plane source at each position. We extracted 16 almost orthogonal views per position. Therefore, all views were covered because there were 96 views in total. The extracted views were assembled to build a complete 3D sinogram. The symmetric views and axial positions were added together to increase the statistics per sinogram bins. The average number of counts per sinogram bin was about 1000. This gives a statistical error of ~ 3.2%. The bin values were then inverted to calculate the normalization factors. The sinograms were trimmed to 160 tangential positions to remove bins out of the desired FOV.
+</p>

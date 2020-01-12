@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>So the kinetic energy 
+ <italic>T
+  <sup>r</sup>
+ </italic> can be expressed as 
+ <disp-formula id="FD16-micromachines-10-00181">
+  <label>(16)</label>
+  <math id="mm18">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msup>
+        <mi>T</mi>
+        <mi>r</mi>
+       </msup>
+      </mtd>
+      <mtd>
+       <mo>=</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <mrow>
+         <msubsup>
+          <mo>∫</mo>
+          <mn>0</mn>
+          <mrow>
+           <mn>2</mn>
+           <mi>π</mi>
+          </mrow>
+         </msubsup>
+         <mrow>
+          <mi>ρ</mi>
+          <mi>h</mi>
+          <mi>b</mi>
+          <mi>r</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <msup>
+             <mrow>
+              <mrow>
+               <mo>(</mo>
+               <mrow>
+                <mfrac>
+                 <mrow>
+                  <mo>∂</mo>
+                  <mi>u</mi>
+                 </mrow>
+                 <mrow>
+                  <mo>∂</mo>
+                  <mi>t</mi>
+                 </mrow>
+                </mfrac>
+               </mrow>
+               <mo>)</mo>
+              </mrow>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+            <mo>+</mo>
+            <msup>
+             <mrow>
+              <mrow>
+               <mo>(</mo>
+               <mrow>
+                <mfrac>
+                 <mrow>
+                  <mo>∂</mo>
+                  <mi>v</mi>
+                 </mrow>
+                 <mrow>
+                  <mo>∂</mo>
+                  <mi>t</mi>
+                 </mrow>
+                </mfrac>
+               </mrow>
+               <mo>)</mo>
+              </mrow>
+             </mrow>
+             <mn>2</mn>
+            </msup>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mstyle>
+       <mi>d</mi>
+       <mi>θ</mi>
+       <mo>=</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <munderover>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mn>3</mn>
+        </munderover>
+        <mrow>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>3</mn>
+          </munderover>
+          <mrow>
+           <msubsup>
+            <mover accent="true">
+             <mi>p</mi>
+             <mo>˙</mo>
+            </mover>
+            <mi>i</mi>
+            <mi>r</mi>
+           </msubsup>
+           <msubsup>
+            <mover accent="true">
+             <mi>p</mi>
+             <mo>˙</mo>
+            </mover>
+            <mi>i</mi>
+            <mi>r</mi>
+           </msubsup>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mstyle>
+       <mstyle displaystyle="true">
+        <mrow>
+         <msubsup>
+          <mo>∫</mo>
+          <mn>0</mn>
+          <mrow>
+           <mn>2</mn>
+           <mi>π</mi>
+          </mrow>
+         </msubsup>
+         <mrow>
+          <mi>ρ</mi>
+          <mi>h</mi>
+          <mi>b</mi>
+          <mi>r</mi>
+          <mrow>
+           <mo>(</mo>
+           <mrow>
+            <msub>
+             <mi>ψ</mi>
+             <mi>i</mi>
+            </msub>
+            <msub>
+             <mi>ψ</mi>
+             <mi>j</mi>
+            </msub>
+            <mo>+</mo>
+            <msub>
+             <mi>φ</mi>
+             <mi>i</mi>
+            </msub>
+            <msub>
+             <mi>φ</mi>
+             <mi>j</mi>
+            </msub>
+           </mrow>
+           <mo>)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mstyle>
+       <mi>d</mi>
+       <mi>θ</mi>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd/>
+      <mtd>
+       <mo>=</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <mstyle displaystyle="true">
+        <munderover>
+         <mo>∑</mo>
+         <mrow>
+          <mi>i</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mn>3</mn>
+        </munderover>
+        <mrow>
+         <mstyle displaystyle="true">
+          <munderover>
+           <mo>∑</mo>
+           <mrow>
+            <mi>j</mi>
+            <mo>=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>3</mn>
+          </munderover>
+          <mrow>
+           <msubsup>
+            <mi>m</mi>
+            <mrow>
+             <mi>i</mi>
+             <mi>j</mi>
+            </mrow>
+            <mi>r</mi>
+           </msubsup>
+           <msubsup>
+            <mover accent="true">
+             <mi>p</mi>
+             <mo>˙</mo>
+            </mover>
+            <mi>i</mi>
+            <mi>r</mi>
+           </msubsup>
+           <msubsup>
+            <mover accent="true">
+             <mi>p</mi>
+             <mo>˙</mo>
+            </mover>
+            <mi>j</mi>
+            <mi>r</mi>
+           </msubsup>
+          </mrow>
+         </mstyle>
+        </mrow>
+       </mstyle>
+       <mo>=</mo>
+       <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+       </mfrac>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˙</mo>
+         </mover>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+       </msup>
+       <msup>
+        <mrow/>
+        <mi>T</mi>
+       </msup>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>m</mi>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+       </msup>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˙</mo>
+         </mover>
+        </mstyle>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>r</mi>
+        </mstyle>
+       </msup>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula> where, 
+ <italic>ρ</italic> is density of the material and mass matrix 
+ <bold>m
+  <sup>r</sup>
+ </bold> can be expressed as
+</p>

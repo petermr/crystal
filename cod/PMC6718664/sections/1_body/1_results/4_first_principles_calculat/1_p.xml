@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">In order to unveil the mechanism for the reversible phase transformation between layered and spinel-like structure, we utilized first-principles calculations for the migration barrier of Mn ions from an octahedral geometry in MnO
+ <sub>6</sub> layer to a tetrahedral geometry in Na layer
+ <sup>
+  <xref ref-type="bibr" rid="CR1">1</xref>, 
+  <xref ref-type="bibr" rid="CR2">2</xref>
+ </sup>. First of all, it was impossible to theoretically incorporate Na ions into the spinel structure by assuming that Na ions occupy the alkali ion sites of Li-based spinel structures, due to the larger 
+ <italic>d</italic>-spacing of sodium-incorporating materials. Hence, it is difficult for Na-bir without any crystal water (similar to O3-Na
+ <sub>
+  <italic>x</italic>
+ </sub>MnO
+ <sub>2</sub>) to form a stable tetrahedral geometry even if Mn ions migrate to the Na layer as shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4a</xref>. Because of the wide slab-to-slab separation, the tetrahedral Mn fails to share any oxygen with adjacent MnO
+ <sub>6</sub> layer and the migration energy reaches ~3.3 eV, meaning that the spinel-like structure is difficult to be formed in Na-bir without crystal water. Herein, our computational model was based on O3-Na
+ <sub>0.25</sub>MnO
+ <sub>2</sub>, consisting of 3 Na, 12 Mn, and 24 O atoms. For Na-bir with crystal water, we assumed the Na-birs with 0.5 and 0.08 mol crystal waters, which each correspond to two crystal waters in every single Na layer and one crystal water in every 3 Na layers to investigate the dependency of migration energy on the contents of crystal water in the Na layer, as shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4b, c</xref>. These all Na-birs showed lower migration energy than the crystal water-free Na-bir, implying that tetrahedral Mn is coordinated by the oxygen of crystal water instead of that of neighboring MnO
+ <sub>6</sub> slab and thus the reversible phase transformation of Na-bir is closely associated with the metastable spinel-like phase, the formation of which is facilitated by the interaction between Mn ions and crystal water. However, a relatively higher migration barrier (~2.35 eV) of Mn ions was obtained for Na-bir with 0.5 mol of H
+ <sub>2</sub>O (Fig. 
+ <xref rid="Fig4" ref-type="fig">4b</xref>), where too high content of crystal water seems to interfere with and hinder the formation of the spinel-like phase. On the other hand, Na-bir with 0.08 mol of H
+ <sub>2</sub>O has a lower migration barrier (~1.5 eV), which enables the formation of spinel-like structure as represented in Fig. 
+ <xref rid="Fig4" ref-type="fig">4c, d</xref>. To determine the optimum amount of crystal water for this reversible phase transformation, we additionally calculated the migration energy barrier of Mn ion in Na-birs with 0.17 and 0.25 mol of crystal waters as shown in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">18</xref>. Both of Na-birs also allowed the migration of Mn ions to the Na layer in the same way as that with 0.08 mol of crystal water. Due to the large separation between MnO
+ <sub>6</sub> slabs in Na-bir, the interlayer interactions of both Na birs tend to commonly weaken during the migration of Mn ion in the same way as for the Na-bir with 0.08 mol of crystal water; in all three structures, their Mn migration energies just reach a similar value of about 1.5 eV. Recent study on Mn migration in birnessite structures reported by Yang et al. also indicates that the crystal water mitigates the higher migration barrier of Mn ion and facilitate the spinel-to-layered phase transformation
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Hence, it is apparent that an appropriate amount of crystal water can facilitate the formation of the spinel-like phase while preventing the irreversible formation of the stable spinel phase (MnO
+ <sub>6</sub>) where oxygen ions from adjacent MnO
+ <sub>6</sub> slabs coordinate the tetrahedral Mn. This reversible phase transformation between the layered and spinel-like structure of partially dehydrated Na-bir are schematically illustrated in Fig. 
+ <xref rid="Fig4" ref-type="fig">4e</xref> based on experimental and first-principle calculation results. In addition, we explore whether it is possible for Mn ions to migrate to the location of Na ions in Na layer from the tetrahedral site formed with crystal water. As shown in Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">19</xref>, the migrated Mn ion could not generate an octahedron with adjacent oxygen ions due to the elongated 
+ <italic>d</italic>-spacing between Mn layers from the co-existence of crystal water and Na ion. This indicates that Mn ion in the original octahedral site of Mn layer is likely to migrate to the tetrahedral site formed by the crystal water, but it is hard to migrate to the octahedral site in Na layer, underscoring the reversible layered-to-spinel phase transformation observed in this work. Also, the formation of spinel-like phase helps to attain higher stability by preventing the extraction of crystal water. Supplementary Fig. 
+ <xref rid="MOESM1" ref-type="media">20</xref>, Supplementary Table 
+ <xref rid="MOESM1" ref-type="media">3</xref>, and Supplementary Notes 
+ <xref rid="MOESM1" ref-type="media">10</xref>, 
+ <xref rid="MOESM1" ref-type="media">11</xref> demonstrate that the extraction energy of crystal water between Mn layers is much lower than that of the crystal water bonded to the migrated Mn ions underscoring that the crystal water in partially dehydrated Na-bir is much more stable than that in hydrated Na-bir. This observation again supports the reason why partially dehydrated Na-bir can present high stability and capacity retention after 100 cycle.
+</p>

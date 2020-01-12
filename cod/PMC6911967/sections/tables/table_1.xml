@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap position="float" id="tbl1">
+ <label>Table 1</label>
+ <caption>
+  <p>List of shared files with atomic coordinates with descriptions.</p>
+ </caption>
+ <alt-text id="alttext0050">Table 1</alt-text>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Surface</th>
+    <th>Model</th>
+    <th>Filename</th>
+    <th colspan="4">Translation vectors (Å)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td rowspan="4">Si(1 1 0)-(16 × 2)</td>
+    <td>ATI</td>
+    <td>Si(110)-16x2-ATI.xyz</td>
+    <td>V1</td>
+    <td>50.067815</td>
+    <td>2.212705</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>THTR (pos.)</td>
+    <td>Si(110)-16x2-THTR+.xyz</td>
+    <td>V2</td>
+    <td>0.0</td>
+    <td>13.276234</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>THTR (neg.)</td>
+    <td>Si(110)-16x2-THTR-.xyz</td>
+    <td rowspan="2">V3</td>
+    <td rowspan="2">0.0</td>
+    <td rowspan="2">0.0</td>
+    <td rowspan="2">30.0</td>
+   </tr>
+   <tr>
+    <td>UBB</td>
+    <td>Si(110)-16x2-UBB.xyz</td>
+   </tr>
+   <tr>
+    <td rowspan="3">Si(17 15 1)-(2 × 1)</td>
+    <td rowspan="3">UBB</td>
+    <td rowspan="3">Si(17151)-2x1-UBB.xyz</td>
+    <td>V1</td>
+    <td>25.107138</td>
+    <td>7.7445</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V2</td>
+    <td>0.0</td>
+    <td>13.276234</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V3</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>30.0</td>
+   </tr>
+   <tr>
+    <td rowspan="3">Si(1 1 0)-(5 × 8)</td>
+    <td rowspan="3">UBB</td>
+    <td rowspan="3">Si(110)-5x8-UBB.xyz</td>
+    <td>V1</td>
+    <td>–15.6462</td>
+    <td>22.1271</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V2</td>
+    <td>25.034</td>
+    <td>17.7017</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V3</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>30.0</td>
+   </tr>
+   <tr>
+    <td rowspan="3">Si(1 1 0)-
+     <italic>c</italic>(8 × 10)
+    </td>
+    <td rowspan="3">UBB</td>
+    <td rowspan="3">Si(110)-c(8 × 10)-UBB.xyz</td>
+    <td>V1</td>
+    <td>3.1292</td>
+    <td>–30.9779</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V2</td>
+    <td>28.1631</td>
+    <td>–13.2762</td>
+    <td>0.0</td>
+   </tr>
+   <tr>
+    <td>V3</td>
+    <td>0.0</td>
+    <td>0.0</td>
+    <td>30.0</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

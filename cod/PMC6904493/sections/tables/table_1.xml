@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>For α-plutonium, the atomic volume, V, and bulk modulus, B, for DFT calculations assuming the experimental
+   <sup>
+    <xref ref-type="bibr" rid="CR16">16</xref>
+   </sup> or the optimized theoretical
+   <sup>
+    <xref ref-type="bibr" rid="CR24">24</xref>
+   </sup> α structure. ΔE is the relative energy. Experimental data are from ref. 
+   <sup>
+    <xref ref-type="bibr" rid="CR27">27</xref>–
+    <xref ref-type="bibr" rid="CR29">29</xref>
+   </sup>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Method</th>
+    <th>Structure</th>
+    <th>V (Å
+     <sup>3</sup>)
+    </th>
+    <th>B (GPa)</th>
+    <th>ΔE (mRy/atom)</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>DFT
+     <sup>
+      <xref ref-type="bibr" rid="CR16">16</xref>
+     </sup>
+    </td>
+    <td>Experimental</td>
+    <td>20.3</td>
+    <td>50</td>
+    <td>1</td>
+   </tr>
+   <tr>
+    <td>DFT
+     <sup>
+      <xref ref-type="bibr" rid="CR24">24</xref>
+     </sup>
+    </td>
+    <td>Theoretical</td>
+    <td>19.7</td>
+    <td>70</td>
+    <td>0</td>
+   </tr>
+   <tr>
+    <td>Expt</td>
+    <td>n/a</td>
+    <td>20.0–20.4</td>
+    <td>37–66</td>
+    <td>n/a</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

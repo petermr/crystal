@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>Summary of experimentally observed mobility (
+   <italic>μ</italic>
+   <sub>
+    <italic>exp</italic>
+   </sub>) and theoretically estimated mobility (
+   <italic>μ</italic>
+   <sub>
+    <italic>th</italic>
+   </sub>) in two-terminal (2T) and three-terminal (3T) devices.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th/>
+    <th>
+     <italic>μ</italic>
+     <sub>
+      <italic>exp</italic>
+     </sub>
+     <break/>(
+     <italic>cm</italic>
+     <sup>2</sup>/
+     <italic>Vs</italic>)
+    </th>
+    <th>
+     <italic>μ</italic>
+     <sub>
+      <italic>th</italic>
+     </sub>
+     <break/>(
+     <italic>cm</italic>
+     <sup>2</sup>/
+     <italic>Vs</italic>)
+    </th>
+    <th>Mechanism of
+     <break/>charge transport
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>2T</td>
+    <td/>
+    <td>1.21 × 10
+     <sup>−5</sup>
+    </td>
+    <td>4.45 × 10
+     <sup>−5</sup>
+    </td>
+    <td>Hopping</td>
+   </tr>
+   <tr>
+    <td>3T</td>
+    <td>−ve 
+     <italic>VDS</italic>
+    </td>
+    <td>0.32</td>
+    <td>1.84</td>
+    <td>Hopping</td>
+   </tr>
+   <tr>
+    <td>(OFET)</td>
+    <td>+ve 
+     <italic>V</italic>
+     <sub>
+      <italic>DS</italic>
+     </sub>
+    </td>
+    <td>48.34</td>
+    <td>55.52</td>
+    <td>Band</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Based on this property, we design a non-Hermitian acoustic flat lens to focus on the acoustic plane wave. Figure 
+ <xref rid="Fig7" ref-type="fig">7(a)</xref> shows the schematic diagram of the flat lens, which offers more possibilities for controlling the geometric freedom of metamaterials. The hyperboloidal phase profile along the y direction is used to realize acoustic point focusing at a distance 
+ <italic>f</italic> from the structure. For a given focal length 
+ <italic>f</italic>, the positions of phase shift 
+ <italic>ϕ</italic>(
+ <italic>y</italic>) in the y direction must satisfy the equation:
+ <disp-formula id="Equ5">
+  <label>5</label>
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi (y)=k\cdot \overline{AB}=\frac{2\pi }{\lambda }(\sqrt{{y}^{2}+{f}^{2}}-f).$$\end{document}</tex-math>
+   <math id="M40" display="block">
+    <mi>φ</mi>
+    <mo stretchy="false">(</mo>
+    <mi>y</mi>
+    <mo stretchy="false">)</mo>
+    <mo>=</mo>
+    <mi>k</mi>
+    <mo>⋅</mo>
+    <mover accent="true">
+     <mrow>
+      <mi>A</mi>
+      <mi>B</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">¯</mo>
+     </mrow>
+    </mover>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+     </mrow>
+     <mi>λ</mi>
+    </mfrac>
+    <mo stretchy="false">(</mo>
+    <msqrt>
+     <mrow>
+      <msup>
+       <mrow>
+        <mi>y</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+      <mo>+</mo>
+      <msup>
+       <mrow>
+        <mi>f</mi>
+       </mrow>
+       <mn>2</mn>
+      </msup>
+     </mrow>
+    </msqrt>
+    <mo>−</mo>
+    <mi>f</mi>
+    <mo stretchy="false">)</mo>
+    <mo>.</mo>
+   </math>
+   <graphic xlink:href="41598_2019_46467_Article_Equ5.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

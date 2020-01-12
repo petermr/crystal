@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A new computer tool which calculates the site-symmetry induced representations of layer groups, called 
+ <italic>LSITESYM</italic>, has recently been implemented on the Bilbao Crystallographic Server. Like the rest of the programs on the server, this new tool is freely available and can be accessed via user-friendly web interfaces. The algorithm of 
+ <italic>LSITESYM</italic>, based on the site-symmetry method applied to layer groups, is an extension of the algorithm used in the program 
+ <italic>SITESYM</italic> for ordinary space groups. The group–subgroup relation between layer and space groups 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi88.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> is fundamental for the development of the procedure for layer groups. On the basis of the isomorphism between the layer 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi90.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> and the factor group 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi95.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, it is possible to establish a simple connection between the Wyckoff positions, 
+ <bold>k</bold> vectors and irreps of 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi1.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula> and 
+ <inline-formula>
+  <inline-graphic xlink:href="j-52-01214-efi90.jpg" mimetype="image" mime-subtype="gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </inline-formula>, which is essential to calculate the site-symmetry induced representations of layer groups.
+</p>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par9">In this work, we employ our in-house MMC implementation
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>
+ </sup>. The MMC algorithm allows calculation of system properties averages at a temperature T by performing an importance sampling of the system states with energy 
+ <italic>E</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> and probability 
+ <italic>P</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> = 
+ <italic>exp</italic>(−
+ <italic>E</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>/
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub>
+ <italic>T</italic>)/
+ <italic>Q</italic>. Here, 
+ <italic>k</italic>
+ <sub>
+  <italic>B</italic>
+ </sub> is the Boltzmann constant and 
+ <italic>Q</italic> is the partition function of the system. Each sampled state is a configuration of the system given by the coordinates of all atoms composing the system. The generated sequence of samples are linked through a Markov chain that requires ratios of probabilities between two consecutive samples for transitioning between them. Thus, the algorithm eliminates the need of calculating the partition function 
+ <italic>Q</italic>. The acceptance or rejection for transitioning from state 
+ <italic>i</italic> to state 
+ <italic>j</italic> is given by min(1, 
+ <italic>P</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>/
+ <italic>P</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>). We used the isobaric-isothermal (NPT) version of the MMC
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>.
+</p>

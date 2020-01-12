@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The unknown point is calculated as follows:
+ <disp-formula id="FD18-sensors-19-04980">
+  <label>(16)</label>
+  <math id="mm67">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>1</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>1</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>=</mo>
+       <msub>
+        <mi>d</mi>
+        <mn>1</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>2</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>2</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>=</mo>
+       <msub>
+        <mi>d</mi>
+        <mn>2</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>3</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>x</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>+</mo>
+       <msup>
+        <mrow>
+         <mo stretchy="false">(</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>3</mn>
+         </msub>
+         <mo>−</mo>
+         <msub>
+          <mi>y</mi>
+          <mn>0</mn>
+         </msub>
+         <mo stretchy="false">)</mo>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>=</mo>
+       <msub>
+        <mi>d</mi>
+        <mn>3</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

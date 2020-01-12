@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par18">Positron emission tomography (PET) allows quantitative imaging of the radiotracer’s distribution inside the object under study. There is a strong demand in pre-clinical PET imaging for accurate reconstruction procedure to acquire quantitative images of high spatial resolution. Iterative image reconstruction methods are especially of interest as they yield accurate quantitative images [
+ <xref ref-type="bibr" rid="CR1">1</xref>]. They can incorporate physical effects of the system into the reconstruction model and enhance the spatial resolution [
+ <xref ref-type="bibr" rid="CR2">2</xref>]. One of the fundamental components in iterative reconstruction algorithms is the system matrix which models the scanner response [
+ <xref ref-type="bibr" rid="CR3">3</xref>, 
+ <xref ref-type="bibr" rid="CR4">4</xref>]. Different methods have been developed to derive the system matrix. One method is to measure a point source located in different positions in the scanner field of view (FOV) [
+ <xref ref-type="bibr" rid="CR5">5</xref>]. Another approach is to obtain the system matrix using Monte Carlo simulation [
+ <xref ref-type="bibr" rid="CR6">6</xref>, 
+ <xref ref-type="bibr" rid="CR7">7</xref>]. Such simulations can include both geometrical and physical properties of the system but they are computationally challenging. An alternative is to analytically calculate the line of intersection between image voxels and lines of response (LOR) [
+ <xref ref-type="bibr" rid="CR8">8</xref>]. In the analytical approach, the system matrix can be decomposed into different components to take into account various resolution-degrading effects [
+ <xref ref-type="bibr" rid="CR9">9</xref>, 
+ <xref ref-type="bibr" rid="CR10">10</xref>], as follows:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ q= NLXf+s+r $$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mi>q</mi>
+    <mo>=</mo>
+    <mtext mathvariant="italic">NLXf</mtext>
+    <mo>+</mo>
+    <mi>s</mi>
+    <mo>+</mo>
+    <mi>r</mi>
+   </math>
+   <graphic xlink:href="40658_2019_248_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Define the coupling matrix as 
+ <bold>C</bold>
+ <italic>
+  <sub>i</sub>
+ </italic>, it can be expressed as 
+ <disp-formula id="FD37-micromachines-10-00181">
+  <label>(37)</label>
+  <math id="mm39">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>C</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <msub>
+        <mi>θ</mi>
+        <mi>T</mi>
+       </msub>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>P</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

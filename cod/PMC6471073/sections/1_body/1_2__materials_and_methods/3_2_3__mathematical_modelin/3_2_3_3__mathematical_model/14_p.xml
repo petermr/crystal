@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Take coupling Equation (43) into the uncoupled dynamic equation of the level-1 substructure (30), we can obtain the coupled dynamic equation of the level-1 substructure:
+ <disp-formula id="FD44-micromachines-10-00181">
+  <label>(44)</label>
+  <math id="mm50">
+   <mrow>
+    <mrow>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>M</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mover accent="true">
+        <mi>Q</mi>
+        <mo>¨</mo>
+       </mover>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>+</mo>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>K</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <msub>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>Q</mi>
+      </mstyle>
+      <mi>i</mi>
+     </msub>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

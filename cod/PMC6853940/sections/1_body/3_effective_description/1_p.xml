@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">In this Section, we elaborate an effective description of the dynamics of the system in the cluster-crystal phase by separating the dynamics of the single particle from the dynamics of the clusters. This has already been done for equilibrium hard-core passive repulsive particles in
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup> and is based on the fact that the typical distance between clusters remains approximately constant. As commented before, such assumption holds also in the presence of the active force (see the movie in Supplementary Information). These observations allow us to separate the effective dynamics of the single particle from the effective dynamics of the clusters. In particular, the effective equations for the 
+ <italic>i</italic>-th particle in the 
+ <italic>j</italic>-th cluster reads
+ <disp-formula id="Equ7">
+  <label>7</label>
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\gamma {\dot{{\bf{x}}}}_{i}^{(j)}={{\boldsymbol{F}}}_{eff}({{\bf{x}}}_{i}^{(j)}-{{\bf{R}}}^{(j)})+\gamma {{\bf{f}}}_{i}^{(j)}+\sqrt{2\gamma T}{{\boldsymbol{\eta }}}_{i}^{(j)},$$\end{document}</tex-math>
+   <math id="M30" display="block">
+    <mi>γ</mi>
+    <msubsup>
+     <mrow>
+      <mover accent="true">
+       <mi mathvariant="bold">x</mi>
+       <mo mathvariant="bold">˙</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>j</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold-italic">F</mi>
+     </mrow>
+     <mrow>
+      <mi>e</mi>
+      <mi>f</mi>
+      <mi>f</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="false">(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi mathvariant="bold">x</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>j</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </msubsup>
+      <mo>−</mo>
+      <msup>
+       <mrow>
+        <mi mathvariant="bold">R</mi>
+       </mrow>
+       <mrow>
+        <mo stretchy="false">(</mo>
+        <mi>j</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+      </msup>
+     </mrow>
+     <mo stretchy="false">)</mo>
+    </mrow>
+    <mo>+</mo>
+    <mi>γ</mi>
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold">f</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>j</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+    <mo>+</mo>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <mi>γ</mi>
+      <mi>T</mi>
+     </mrow>
+    </msqrt>
+    <msubsup>
+     <mrow>
+      <mi mathvariant="bold-italic">η</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mi>j</mi>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </msubsup>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ7.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

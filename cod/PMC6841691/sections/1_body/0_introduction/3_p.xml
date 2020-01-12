@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par4">With the advent of computer simulations techniques such as molecular dynamics (MD) simulations, Monte Carlo (MC) simulations, density functional theory (DFT) based electronic structure calculations, researchers nowadays are trying to obtain the nanometer level real structure and the bulk lattice structures of HEAs using simulation techniques
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>,
+  <xref ref-type="bibr" rid="CR20">20</xref>–
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup>. These are mainly used to simulate growth of HEA thin films by MD
+ <sup>
+  <xref ref-type="bibr" rid="CR21">21</xref>
+ </sup>, average structure stability and non-equilibrium mechanics by DFT and MD
+ <sup>
+  <xref ref-type="bibr" rid="CR11">11</xref>,
+  <xref ref-type="bibr" rid="CR20">20</xref>
+ </sup>, diffusivity in amorphous liquid HEAs by ab-initio MD (AIMD)
+ <sup>
+  <xref ref-type="bibr" rid="CR22">22</xref>
+ </sup> etc. These DFT and MD simulation methods are severely limited by the timescale of picosecond and nanosecond level; and lengthscales by few hundreds and few million atoms, respectively. So, much about the nanostructure morphology, SRO/ SRC in the bulk nanostructure and related properties cannot be investigated by using simple DFT and MD. To overcome this difficulty of dealing with tiny lengthscale and timescales involved in DFT and MD techniques, some accelerated dynamics techniques were developed in combination with Monte Carlo based MD (MC/MD) techniques
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. It was generally found that the different types of hybrid sequential or mixed MC/MD techniques can accelerate the dynamics by a factor of 10
+ <sup>7</sup>, which would transform the dynamics timescale of MD simulation from the nanosecond/ microsecond to the more practical and realistic seconds timescale
+ <sup>
+  <xref ref-type="bibr" rid="CR23">23</xref>
+ </sup>. Inspired by these MC/MD methodologies, ab-initio based MC/MD simulations were tried on HEAs for the theoretical investigation of SRO/ SRC effects, prediction of equilibrium intermetallic phases and limited information about lattice distortion effects by Widom 
+ <italic>et al</italic>. in recent years
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. Refractory HEAs like MoNbTaW, NbTiVZr and CrMoNbV systems were investigated in literature by MC/MD techniques, but the simulation system had just a handful of 128–256 atoms, spanning for around 1–2 nm in length-scale
+ <sup>
+  <xref ref-type="bibr" rid="CR24">24</xref>,
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>. This did not provide ample scope of doing proper structural and morphological studies even at the nanometer scale because the DFT based energy calculations took significant amount of computation time at each step of MC/MD. There is a lack of literature in which classical MD based technique has been used in MC/MD based approach for HEAs, by which many thousands of atoms with tens of nanometer long system sizes could be simulated for their local real structure evolution.
+</p>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The system was cooled below 0.01 K by a damping method [
+ <xref rid="B43-nanomaterials-09-00978" ref-type="bibr">43</xref>,
+ <xref rid="B44-nanomaterials-09-00978" ref-type="bibr">44</xref>] to determine the lowest energy 
+ <inline-formula>
+  <math id="mm84">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>U</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the most stable structure. According to the configuration (
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f002">Figure 2</xref>a,c), the C atoms were divided into a center group and an edge group, and for each of the atoms with different surroundings, one of its coordinates (such as 
+ <inline-formula>
+  <math id="mm85">
+   <mrow>
+    <msup>
+     <mi>x</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula>) was changed step by step with an interval of 0.001 Å, while its 
+ <inline-formula>
+  <math id="mm86">
+   <mrow>
+    <msup>
+     <mi>y</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm87">
+   <mrow>
+    <msup>
+     <mi>z</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> coordinates and all other atoms were kept fixed to record 
+ <inline-formula>
+  <math id="mm88">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>U</mi>
+      <mo>′</mo>
+     </msup>
+     <mrow>
+      <mo stretchy="false">(</mo>
+      <mrow>
+       <mn>0</mn>
+       <mo>…</mo>
+       <msubsup>
+        <mi>x</mi>
+        <mi>i</mi>
+        <mo>′</mo>
+       </msubsup>
+       <mo>…</mo>
+       <mn>0</mn>
+       <mo>,</mo>
+       <msup>
+        <mi>X</mi>
+        <mrow>
+         <mn>3</mn>
+         <mi>M</mi>
+        </mrow>
+       </msup>
+      </mrow>
+      <mo stretchy="false">)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, as shown in 
+ <xref ref-type="fig" rid="nanomaterials-09-00978-f002">Figure 2</xref>b and d for graphene and γ-graphyne, respectively. 
+ <inline-formula>
+  <math id="mm89">
+   <mrow>
+    <msup>
+     <mi>U</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> for the center atom is indeed different from that of the edge atoms, and for the same atom, 
+ <inline-formula>
+  <math id="mm90">
+   <mrow>
+    <msup>
+     <mi>U</mi>
+     <mo>′</mo>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> along one coordinate axis is also different from that along the other two, so the configuration integral was calculated as: 
+ <disp-formula id="FD20-nanomaterials-09-00978">
+  <label>(18)</label>
+  <math id="mm91">
+   <mrow>
+    <mrow>
+     <mi mathvariant="normal">Q</mi>
+     <mo>=</mo>
+     <msup>
+      <mi>e</mi>
+      <mrow>
+       <mo>−</mo>
+       <mi>β</mi>
+       <msub>
+        <mi>U</mi>
+        <mn>0</mn>
+       </msub>
+      </mrow>
+     </msup>
+     <mrow>
+      <mo stretchy="false">[</mo>
+      <mrow>
+       <msubsup>
+        <mi>L</mi>
+        <mi>X</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>Y</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>Z</mi>
+        <mn>1</mn>
+       </msubsup>
+       <msup>
+        <mo stretchy="false">]</mo>
+        <mrow>
+         <mi>N</mi>
+         <mn>1</mn>
+        </mrow>
+       </msup>
+       <mo>·</mo>
+      </mrow>
+      <mo stretchy="false">[</mo>
+     </mrow>
+     <msubsup>
+      <mi>L</mi>
+      <mi>X</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msubsup>
+      <mi>L</mi>
+      <mi>Y</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msubsup>
+      <mi>L</mi>
+      <mi>Z</mi>
+      <mn>2</mn>
+     </msubsup>
+     <msup>
+      <mo stretchy="false">]</mo>
+      <mrow>
+       <mi>N</mi>
+       <mn>2</mn>
+      </mrow>
+     </msup>
+     <mo>·</mo>
+     <msup>
+      <mrow>
+       <mo stretchy="false">[</mo>
+       <msubsup>
+        <mi>L</mi>
+        <mi>X</mi>
+        <mn>3</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>Y</mi>
+        <mn>3</mn>
+       </msubsup>
+       <msubsup>
+        <mi>L</mi>
+        <mi>Z</mi>
+        <mn>3</mn>
+       </msubsup>
+       <mo stretchy="false">]</mo>
+      </mrow>
+      <mrow>
+       <mi>N</mi>
+       <mn>3</mn>
+      </mrow>
+     </msup>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

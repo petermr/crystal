@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>First-principles DFT calculations have been performed using Quantum ESPRESSO (
+ <xref rid="R51" ref-type="bibr">
+  <italic>51</italic>
+ </xref>) and Vienna Ab initio Simulation Package (VASP) (
+ <xref rid="R52" ref-type="bibr">
+  <italic>52</italic>
+ </xref>, 
+ <xref rid="R53" ref-type="bibr">
+  <italic>53</italic>
+ </xref>). In Quantum ESPRESSO, the optimized norm-conserving Vanderbilt pseudopotentials (
+ <xref rid="R54" ref-type="bibr">
+  <italic>54</italic>
+ </xref>, 
+ <xref rid="R55" ref-type="bibr">
+  <italic>55</italic>
+ </xref>) were used. In VASP, the projector augmented wave method (
+ <xref rid="R56" ref-type="bibr">
+  <italic>56</italic>
+ </xref>) was used. The exchange and correlation effects were treated within the generalized gradient approximation (
+ <xref rid="R57" ref-type="bibr">
+  <italic>57</italic>
+ </xref>). The lattice constant and atomic coordinates were relaxed until the force on each atom was less than 0.001 eV/Å. For the calculation of bulk 
+ <bold>
+  <italic>T</italic>
+ </bold>
+ <sub>
+  <bold>
+   <italic>d</italic>
+  </bold>
+ </sub>-WTe
+ <sub>2</sub>, we used a 16 × 12 × 8 
+ <italic>k</italic>-point mesh in the irreducible Brillouin zone. Spin-orbit coupling was included in the electronic structure calculations. For the simulation of 
+ <bold>
+  <italic>T</italic>
+ </bold>
+ <sub>
+  <bold>
+   <italic>d</italic>
+  </bold>
+ </sub>-WTe
+ <sub>2</sub> with different distortion vectors, we used supercells (2 × 2√3 ) of a monolayer and a 
+ <italic>k</italic>-point mesh (12 by 8 by 1). We used the lattice constants and atomic positions of the supercells reported in (
+ <xref rid="R43" ref-type="bibr">
+  <italic>43</italic>
+ </xref>) as the initial input for the structure relaxation.
+</p>

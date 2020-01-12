@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">Spin polarizations along the Σ symmetry line projected on Sn and Te atoms are shown in Fig. 
+ <xref rid="Fig4" ref-type="fig">4b</xref>. For each atom, only the 
+ <italic>x</italic> component of the spin polarization does not vanish. This is rationalized by considering the site symmetries of Sn and Te atoms. The intersection of site symmetry groups (
+ <italic>C</italic>
+ <sub>s</sub>, comprising a 
+ <italic>M</italic>
+ <sub>
+  <italic>yz</italic>
+ </sub> mirror operation about the 
+ <italic>x</italic> = 0 plane) and little point group of Σ line (
+ <italic>C</italic>
+ <sub>2v</sub>) is 
+ <italic>C</italic>
+ <sub>s</sub> which is pseudo-polar. Therefore, there are spin polarizations on each atom. Only the 
+ <italic>x</italic> components survive as the glide reflection 
+ <italic>M</italic>
+ <sub>
+  <italic>yz</italic>
+ </sub> results in the zero 
+ <italic>y</italic> and 
+ <italic>z</italic> components. However, local spin polarizations projected on different Sn and Te atoms have the same values but opposite sign. They cancel each other so the total spin polarizations vanish. Furthermore, all local spin polarizations are reversed in the conjugate split band. This behavior can be regarded as “antiferromagnetism of a Bloch state”. The antiferromagnetic order satisfies the little space group symmetry of the high-symmetry line Σ. In 2D SnTe, the magnetic fields acting on different atoms of the same kind (e.g., Sn) are opposite in direction for the k-point along the X-U direction, resulting in a band splitting and a net vanishing spin polarization (since local magnetic moments for the same kind atom at different positions are opposite) (see Fig. 
+ <xref rid="Fig1" ref-type="fig">1b</xref> and Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">6</xref>). The presence of a staggered k-dependent magnetic field along the X-U direction clearly appears in the 
+ <italic>k</italic>·
+ <italic>p</italic> model restricted to the Σ line, which can be recast as 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M39">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$H = - \Delta \tau _y\sigma _y + B_x\left( k \right)\sigma _x$$\end{document}</tex-math>
+   <math id="M40">
+    <mi>H</mi>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>y</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+    </mfenced>
+    <msub>
+     <mrow>
+      <mi>σ</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, where 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M41">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$B_x(k) = - \tau _z\alpha _Bk_z$$\end{document}</tex-math>
+   <math id="M42">
+    <msub>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+     <mrow>
+      <mi>x</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>τ</mi>
+     </mrow>
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>α</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13197_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>.
+</p>

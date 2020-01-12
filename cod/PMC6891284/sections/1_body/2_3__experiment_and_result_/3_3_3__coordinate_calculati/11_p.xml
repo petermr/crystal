@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The final cumulative error comes from two sources. The first one is the floating-point error that is generated when calculating the heading angle from the formula. Considering the computing power of the main control chip, only two decimal places are reserved for each calculation of the heading angle. The heading angle is also obtained by accumulating the heading angle variations 
+ <inline-formula>
+  <math id="mm164">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> during the sampling period 
+ <inline-formula>
+  <math id="mm165">
+   <mrow>
+    <mrow>
+     <mi mathvariant="script">Δ</mi>
+     <mi>t</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, which will lead to greater errors. The second source is the accuracy error of the odometer itself and the measurement error during the experiment.
+</p>

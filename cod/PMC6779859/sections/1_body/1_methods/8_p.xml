@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The simulation of a given concentration below 100% implies to remove a proper number of Gd
+ <sup>III</sup> from the spherical cluster before calculating γ
+ <sub>
+  <italic>e</italic>
+ </sub>. Since the working concentration of the single crystal employed in the EPR experiments was 1%, this means that we need to remove 99 out of 100 Gd
+ <sup>III</sup> ions. For that purpose, we sweep all Gd
+ <sup>III</sup> ions and at each one we generate a random number 
+ <italic>x</italic> between 0 and 1. If 0 ≤ 
+ <italic>x</italic> &lt; 0.01, we save the ion position; otherwise, we drop it. This results in a random dilution that matches the desired concentration. Nonetheless, there does not exist of course a unique way to randomly distribute the Gd
+ <sup>III</sup> ions in the cluster to produce the given concentration. We thus generate several random dilutions all of them with the same concentration of 1%, and calculate γ
+ <sub>
+  <italic>e</italic>
+ </sub> at each one. Since all of these dilutions are equally likely to occur, we use the arithmetic mean 
+ <inline-formula>
+  <math id="M8">
+   <mover accent="false" class="mml-overline">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>γ</mi>
+      </mrow>
+      <mrow>
+       <mi>e</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo accent="true">¯</mo>
+   </mover>
+  </math>
+ </inline-formula> to determine 
+ <inline-formula>
+  <math id="M9">
+   <msubsup>
+    <mrow>
+     <mi>T</mi>
+    </mrow>
+    <mrow>
+     <mi>m</mi>
+    </mrow>
+    <mrow>
+     <mi>e</mi>
+    </mrow>
+   </msubsup>
+  </math>
+ </inline-formula> as 
+ <inline-formula>
+  <math id="M10">
+   <msubsup>
+    <mrow>
+     <mi>T</mi>
+    </mrow>
+    <mrow>
+     <mi>m</mi>
+    </mrow>
+    <mrow>
+     <mi>e</mi>
+    </mrow>
+   </msubsup>
+   <mo>=</mo>
+   <mn>2</mn>
+   <mi>ℏ</mi>
+   <mo>/</mo>
+   <mo>Δ</mo>
+   <mover accent="false" class="mml-overline">
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>γ</mi>
+      </mrow>
+      <mrow>
+       <mi>e</mi>
+      </mrow>
+     </msub>
+    </mrow>
+    <mo accent="true">¯</mo>
+   </mover>
+  </math>
+ </inline-formula>.
+</p>

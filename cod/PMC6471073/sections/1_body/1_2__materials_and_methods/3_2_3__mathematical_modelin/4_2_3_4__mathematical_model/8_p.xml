@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>So the number of linearly independent coupling equations between the adjacent level-1 substructures is 
+ <italic>N
+  <sub>r</sub>
+ </italic> (
+ <italic>N
+  <sub>r</sub>
+ </italic> = 3 in this paper). Then, once a level-1 substructure is added, number of the added independent generalized coordinates are 
+ <italic>N
+  <sub>in</sub>
+ </italic> ‒ 
+ <italic>N
+  <sub>r</sub>
+ </italic>. So the independent generalized coordinates of the whole sensing structure with 
+ <italic>n</italic> − 1 level-1 substructures can be expressed as 
+ <disp-formula id="FD52-micromachines-10-00181">
+  <label>(52)</label>
+  <math id="mm58">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mover accent="true">
+       <mi>Q</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+     </mstyle>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msub>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>Q</mi>
+            </mstyle>
+            <mn>1</mn>
+           </msub>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mn>2</mn>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mn>3</mn>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mo>⋯</mo>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>p</mi>
+            </mstyle>
+            <mrow>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>L</mi>
+            </mstyle>
+           </msubsup>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

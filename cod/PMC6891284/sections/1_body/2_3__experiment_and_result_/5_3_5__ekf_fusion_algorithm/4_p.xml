@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>From 
+ <xref rid="sensors-19-04980-t001" ref-type="table">Table 1</xref>, it can be seen that the position error of the EKF fusion algorithm is far less than using the IMU or UWB. In addition, the number of indoor people has little effect on the accuracy of the UWB and IMU integrated system. On the other hand, the accuracy of UWB alone is sensitive to the number of people in the room. As the number of people in the room increases, the accuracy of using UWB alone will be decreased. This also verified the effect of the human body on the UWB signal reception. From the table, it can also be seen that the number of people has little effect on the IMU, which is consistent with the characteristics of the IMU.
+</p>

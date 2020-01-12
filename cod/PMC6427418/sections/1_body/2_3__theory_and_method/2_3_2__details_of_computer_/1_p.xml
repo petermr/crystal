@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The size of the simulated samples has been equal to 
+ <inline-formula>
+  <math id="mm59">
+   <mrow>
+    <mrow>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> f.c.c. unit cells, i.e., 
+ <inline-formula>
+  <math id="mm60">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mo>=</mo>
+     <mn>864</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> spheres, 
+ <inline-formula>
+  <math id="mm61">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>N</mi>
+      <mi mathvariant="normal">L</mi>
+     </msub>
+     <mo>=</mo>
+     <mn>72</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> of which formed the inclusion. Thus, the concentration of the inclusion particles was 
+ <inline-formula>
+  <math id="mm62">
+   <mrow>
+    <mrow>
+     <mi>c</mi>
+     <mo>=</mo>
+     <mn>8.33</mn>
+     <mo>%</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. It has been verified that doubling or quadrupling the sample in the z-direction, what can be thought of as simulation of two- or four-unit supercells, influences the results at the order of the experimental error. The simulations have been mainly performed at pressure 
+ <inline-formula>
+  <math id="mm63">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>p</mi>
+      <mo>*</mo>
+     </msup>
+     <mo>=</mo>
+     <mi>β</mi>
+     <mi>p</mi>
+     <msup>
+      <mi>σ</mi>
+      <mn>3</mn>
+     </msup>
+     <mo>=</mo>
+     <mn>100</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. This value was selected to enable comparison between the new results with the ones obtained from earlier study on another model system [
+ <xref rid="B89-materials-12-00700" ref-type="bibr">89</xref>]. Although the selected pressure might seem high, it is worth mentioning that it is only by an order of magnitude higher than the pressure at which the system of HSs undergoes melting. Additionally, some results have been obtained for lower pressures. The elastic properties were studied for various diameters of particles inside the nanolayer ranging from 
+ <inline-formula>
+  <math id="mm64">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mn>0.95</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> to 
+ <inline-formula>
+  <math id="mm65">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mn>1.054</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The values of diameters were small enough to avoid melting of the system. The stability of the studied systems was verified by simulations of samples with doubled sizes respectively in each direction (
+ <inline-formula>
+  <math id="mm66">
+   <mrow>
+    <mrow>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>12</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm67">
+   <mrow>
+    <mrow>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm68">
+   <mrow>
+    <mrow>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) for selected diameters 
+ <inline-formula>
+  <math id="mm69">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mn>0.95</mn>
+     <mo>,</mo>
+     <mspace width="4pt"/>
+     <mn>1.025</mn>
+     <mo>,</mo>
+     <mspace width="4pt"/>
+     <mn>1.05</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The results of these simulations agree with the results for 
+ <inline-formula>
+  <math id="mm70">
+   <mrow>
+    <mrow>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> systems within the range of the experimental error. The results were compared with elastic properties of the cubic system of HSs (
+ <inline-formula>
+  <math id="mm71">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+     <mo>=</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) [
+ <xref rid="B16-materials-12-00700" ref-type="bibr">16</xref>]. The diameters of inclusion spheres were constant during individual simulations. For each value of the ratio 
+ <inline-formula>
+  <math id="mm72">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> ten independent simulations were conducted, each of the length equal to 
+ <inline-formula>
+  <math id="mm73">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mn>7</mn>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> MC cycles, of which the first 
+ <inline-formula>
+  <math id="mm74">
+   <mrow>
+    <msup>
+     <mn>10</mn>
+     <mn>6</mn>
+    </msup>
+   </mrow>
+  </math>
+ </inline-formula> cycles were discarded prior to calculations of physical quantities. The verifying simulations of larger systems have been conducted independently 20 times for each 
+ <inline-formula>
+  <math id="mm75">
+   <mrow>
+    <mrow>
+     <msup>
+      <mi>σ</mi>
+      <mo>′</mo>
+     </msup>
+     <mo>/</mo>
+     <mi>σ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and lasted 
+ <inline-formula>
+  <math id="mm76">
+   <mrow>
+    <mrow>
+     <mn>2</mn>
+     <mo>×</mo>
+     <msup>
+      <mn>10</mn>
+      <mn>7</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> MC cycles for 
+ <inline-formula>
+  <math id="mm77">
+   <mrow>
+    <mrow>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>12</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm78">
+   <mrow>
+    <mrow>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm79">
+   <mrow>
+    <mrow>
+     <mn>5</mn>
+     <mo>×</mo>
+     <msup>
+      <mn>10</mn>
+      <mn>7</mn>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> MC cycles for 
+ <inline-formula>
+  <math id="mm80">
+   <mrow>
+    <mrow>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>12</mn>
+     <mo>×</mo>
+     <mn>6</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> systems.
+</p>

@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par44">We performed test simulations and data fitting on the surface of monocrystalline Si wafers with surface planes (100), (110), and (111), respectively. It was determined that at least three differently polarized laser orientations and three analyzer orientations are required, with mandatory presence of off-axis channels. In total, we got nine combinations of polarization measurements which can be defined as 
+ <inline-formula id="IEq5">
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^1\,\psi _{_s}^1)\tilde z$$\end{document}</tex-math>
+   <math id="M10">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq5.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq6">
+  <alternatives>
+   <tex-math id="M11">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^1\,\psi _{_s}^2)\tilde z$$\end{document}</tex-math>
+   <math id="M12">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq6.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq7">
+  <alternatives>
+   <tex-math id="M13">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\psi _i^1\psi _s^{{\mathrm{off}} - {\mathrm{axis}}}} \right)\tilde z$$\end{document}</tex-math>
+   <math id="M14">
+    <mi>z</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">off</mi>
+        <mo>−</mo>
+        <mi mathvariant="normal">axis</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq7.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq8">
+  <alternatives>
+   <tex-math id="M15">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^2\,\psi _{_s}^1)\tilde z$$\end{document}</tex-math>
+   <math id="M16">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq8.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq9">
+  <alternatives>
+   <tex-math id="M17">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^2\,\psi _{_s}^2)\tilde z$$\end{document}</tex-math>
+   <math id="M18">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq9.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\psi _i^2\psi _s^{{\mathrm{off}} - {\mathrm{axis}}}} \right)\tilde z$$\end{document}</tex-math>
+   <math id="M20">
+    <mi>z</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">off</mi>
+        <mo>−</mo>
+        <mi mathvariant="normal">axis</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^3\,\psi _{_s}^1)\tilde z$$\end{document}</tex-math>
+   <math id="M22">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>3</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>1</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z(\psi _{_i}^3\,\psi _{_s}^2)\tilde z$$\end{document}</tex-math>
+   <math id="M24">
+    <mi>z</mi>
+    <mrow>
+     <mo>(</mo>
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>i</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>3</mn>
+       </mrow>
+      </msubsup>
+      <mspace width="0.25em"/>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <msub>
+         <mrow/>
+         <mrow>
+          <mi>s</mi>
+         </mrow>
+        </msub>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+       </mrow>
+      </msubsup>
+     </mrow>
+     <mo>)</mo>
+    </mrow>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq13">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$z\left( {\psi _i^3\psi _s^{{\mathrm{off}} - {\mathrm{axis}}}} \right)\tilde z$$\end{document}</tex-math>
+   <math id="M26">
+    <mi>z</mi>
+    <mfenced close=")" open="(" separators="">
+     <mrow>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>i</mi>
+       </mrow>
+       <mrow>
+        <mn>3</mn>
+       </mrow>
+      </msubsup>
+      <msubsup>
+       <mrow>
+        <mi>ψ</mi>
+       </mrow>
+       <mrow>
+        <mi>s</mi>
+       </mrow>
+       <mrow>
+        <mi mathvariant="normal">off</mi>
+        <mo>−</mo>
+        <mi mathvariant="normal">axis</mi>
+       </mrow>
+      </msubsup>
+     </mrow>
+    </mfenced>
+    <mover accent="true">
+     <mrow>
+      <mi>z</mi>
+     </mrow>
+     <mo>~</mo>
+    </mover>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq13.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. The angles 
+ <italic>ψ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, 
+ <italic>ψ</italic>
+ <sub>
+  <italic>s</italic>
+ </sub> generally can have different values, however in the case of Si analysis with 
+ <italic>O</italic>
+ <sub>
+  <italic>h</italic>
+ </sub> symmetry we used the following angles: 
+ <inline-formula id="IEq14">
+  <alternatives>
+   <tex-math id="M27">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi _i^1 = 0^\circ$$\end{document}</tex-math>
+   <math id="M28">
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq14.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq15">
+  <alternatives>
+   <tex-math id="M29">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi _i^2 = 45^\circ$$\end{document}</tex-math>
+   <math id="M30">
+    <msubsup>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mn>4</mn>
+    <msup>
+     <mrow>
+      <mn>5</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq15.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq16">
+  <alternatives>
+   <tex-math id="M31">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi _i^3 = 90^\circ$$\end{document}</tex-math>
+   <math id="M32">
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+     <mrow>
+      <mn>3</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mn>9</mn>
+    <msup>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq16.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq17">
+  <alternatives>
+   <tex-math id="M33">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi _s^1 = 0^\circ$$\end{document}</tex-math>
+   <math id="M34">
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mn>1</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq17.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq18">
+  <alternatives>
+   <tex-math id="M35">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\psi _s^2 = 90^\circ$$\end{document}</tex-math>
+   <math id="M36">
+    <msubsup>
+     <mrow>
+      <mi>ψ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mn>9</mn>
+    <msup>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq18.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>, 
+ <inline-formula id="IEq19">
+  <alternatives>
+   <tex-math id="M37">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\varphi _s^{{\mathrm{off}} - {\mathrm{axis}}} = 90^\circ$$\end{document}</tex-math>
+   <math id="M38">
+    <msubsup>
+     <mrow>
+      <mi>φ</mi>
+     </mrow>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mi mathvariant="normal">off</mi>
+      <mo>−</mo>
+      <mi mathvariant="normal">axis</mi>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <mn>9</mn>
+    <msup>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+     <mrow>
+      <mo>∘</mo>
+     </mrow>
+    </msup>
+   </math>
+   <inline-graphic xlink:href="41467_2019_13504_Article_IEq19.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. We chose these values as a result of optimization (see Supplementary Note 
+ <xref rid="MOESM1" ref-type="media">4</xref>, Table 
+ <xref rid="Tab1" ref-type="table">1</xref>). Simultaneously obtained experimental data in SAROM setup are shown in Supplementary Figs. 
+ <xref rid="MOESM1" ref-type="media">2</xref>–
+ <xref rid="MOESM1" ref-type="media">4</xref>. In general, our system can work at any 
+ <italic>ψ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>, 
+ <italic>ψ</italic>
+ <sub>
+  <italic>s</italic>
+ </sub> which can be beneficial for a specific crystal symmetry. If required, SAROM is capable to work with more than nine simultaneously acquired polarized channels. The actual number of channels is limited only by the optical design of the system and spectroscopic sensor dimensions.
+</p>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Whereas the geometric perturbations caused by placing the BCA crystal under pressure are easy to observe, a subtle computational analysis is required to determine the bond type and to illuminate the interplay between chemical bonds and the crystal packing
+ <sup>
+  <xref ref-type="bibr" rid="ref25">25</xref>
+ </sup> from the experimental electron density.
+ <sup>
+  <xref ref-type="bibr" rid="ref35">35</xref>
+ </sup> Several methods for analyzing electron charge densities have been proposed in the literature: topological analysis,
+ <sup>
+  <xref ref-type="bibr" rid="ref36">36</xref>
+ </sup> quantum crystallography,
+ <sup>
+  <xref ref-type="bibr" rid="ref37">37</xref>
+ </sup> and the use of molecular scalar fields.
+ <sup>
+  <xref ref-type="bibr" rid="ref38">38</xref>−
+  <xref ref-type="bibr" rid="ref40">40</xref>
+ </sup> Among the latter, the density overlap region indicator (DORI)
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> (derived from the single exponential decay detector (SEDD)
+ <sup>
+  <xref ref-type="bibr" rid="ref42">42</xref>
+ </sup>) is a specific and ideally suited example because it reveals both covalent and noncovalent interactions directly from the charge density, ρ(
+ <bold>r</bold>), (and its derivatives) that is accessible from experiment. DORI is defined as
+ <disp-formula id="eq1">
+  <graphic xlink:href="jz-2019-00220n_m001" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>1</label>
+ </disp-formula>where
+ <disp-formula id="eq2">
+  <graphic xlink:href="jz-2019-00220n_m002" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>2</label>
+ </disp-formula>Intuitively, DORI captures the deviations from the single-exponential behavior of the density in real space and reveals density overlaps between atomic shells, atoms, or molecules.
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> The regions of these overlapping charge densities can be directly interpreted as covalent bonds (if the regions lie between atoms) or noncovalent interactions (if the regions lie between molecules).
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>
+ </sup> Plotting the DORI values on the 0 to 1 scale leads to unambiguous representations of these overlaps, as shown in 
+ <xref rid="fig2" ref-type="fig">Figure 
+  <xref rid="fig2" ref-type="fig">2</xref>
+ </xref>.
+</p>

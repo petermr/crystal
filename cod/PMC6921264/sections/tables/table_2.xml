@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="tbl2" position="float">
+ <label>Table 2</label>
+ <caption>
+  <title>Structural Parameters, Bulk Modulus and Its Derivative of the LLM-105 Crystal from FF, DFT, and Experiments</title>
+ </caption>
+ <table frame="hsides" rules="groups" border="0">
+  <colgroup>
+   <col align="center"/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="char" char="."/>
+   <col align="center"/>
+  </colgroup>
+  <thead>
+   <tr>
+    <th style="border:none;" align="center"> </th>
+    <th style="border:none;" align="center" char=".">FF</th>
+    <th style="border:none;" align="center" char=".">LDA
+     <sup>
+      <xref ref-type="bibr" rid="ref14">14</xref>
+     </sup>
+    </th>
+    <th style="border:none;" align="center" char=".">PW91
+     <sup>
+      <xref ref-type="bibr" rid="ref14">14</xref>
+     </sup>
+    </th>
+    <th style="border:none;" align="center" char=".">PBE
+     <sup>
+      <xref ref-type="bibr" rid="ref17">17</xref>
+     </sup>
+    </th>
+    <th style="border:none;" align="center" char=".">PBE-D2
+     <sup>
+      <xref ref-type="bibr" rid="ref16">16</xref>
+     </sup>
+    </th>
+    <th style="border:none;" align="center">EXP
+     <sup>
+      <xref ref-type="bibr" rid="ref10">10</xref>,
+      <xref ref-type="bibr" rid="ref15">15</xref>,
+      <xref ref-type="bibr" rid="ref16">16</xref>,
+      <xref ref-type="bibr" rid="ref51">51</xref>,
+      <xref ref-type="bibr" rid="ref52">52</xref>
+     </sup>
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>a</italic> (Å)
+    </td>
+    <td style="border:none;" align="char" char=".">5.64</td>
+    <td style="border:none;" align="char" char=".">5.84</td>
+    <td style="border:none;" align="char" char=".">6.01</td>
+    <td style="border:none;" align="char" char=".">5.64</td>
+    <td style="border:none;" align="char" char=".">5.81</td>
+    <td style="border:none;" align="center">5.71–5.75</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>b</italic> (Å)
+    </td>
+    <td style="border:none;" align="char" char=".">15.55</td>
+    <td style="border:none;" align="char" char=".">15.58</td>
+    <td style="border:none;" align="char" char=".">18.28</td>
+    <td style="border:none;" align="char" char=".">15.96</td>
+    <td style="border:none;" align="char" char=".">16.05</td>
+    <td style="border:none;" align="center">15.60–15.87</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>c</italic> (Å)
+    </td>
+    <td style="border:none;" align="char" char=".">8.24</td>
+    <td style="border:none;" align="char" char=".">8.22</td>
+    <td style="border:none;" align="char" char=".">8.71</td>
+    <td style="border:none;" align="char" char=".">8.46</td>
+    <td style="border:none;" align="char" char=".">8.40</td>
+    <td style="border:none;" align="center">8.41–8.48</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">β (deg)</td>
+    <td style="border:none;" align="char" char=".">100.96</td>
+    <td style="border:none;" align="char" char=".">99.51</td>
+    <td style="border:none;" align="char" char=".">100.75</td>
+    <td style="border:none;" align="char" char=".">100.93</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">101.01–101.22</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>V</italic>
+     <sub>0</sub> (Å
+     <sup>3</sup>)
+    </td>
+    <td style="border:none;" align="char" char=".">711.00</td>
+    <td style="border:none;" align="char" char=".">737.24</td>
+    <td style="border:none;" align="char" char=".">939.20</td>
+    <td style="border:none;" align="char" char=".">747.38</td>
+    <td style="border:none;" align="char" char=".">769.51</td>
+    <td style="border:none;" align="center">746.21–750.08</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">center of mass</td>
+    <td style="border:none;" align="char" char=".">0.560</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">0.559</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center"> </td>
+    <td style="border:none;" align="char" char=".">0.869</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">0.867</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center"> </td>
+    <td style="border:none;" align="char" char=".">0.549</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">0.553</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">orient (deg)</td>
+    <td style="border:none;" align="char" char=".">145.65</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">145.65</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center"> </td>
+    <td style="border:none;" align="char" char=".">67.38</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">67.38</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center"> </td>
+    <td style="border:none;" align="char" char=".">114.38</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="center">114.38</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>B</italic>
+     <sub>0</sub>
+    </td>
+    <td style="border:none;" align="char" char=".">13.8</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">16.5</td>
+    <td style="border:none;" align="char" char=".">12.7</td>
+    <td style="border:none;" align="center">11.19–16.2</td>
+   </tr>
+   <tr>
+    <td style="border:none;" align="center">
+     <italic>B</italic>′
+    </td>
+    <td style="border:none;" align="char" char=".">11.7</td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char="."> </td>
+    <td style="border:none;" align="char" char=".">9.4</td>
+    <td style="border:none;" align="char" char=".">9.4</td>
+    <td style="border:none;" align="center">8.30–18.54</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0060">Van der Waals (dispersive) forces were included with the (DFT + D2) scheme 
+ <xref rid="bib11" ref-type="bibr">[11]</xref>, which adds the following contribution to the calculated DFT energy:
+ <disp-formula id="eq0010">
+  <label>(2)</label>
+  <math id="M18" altimg="si0005.gif" overflow="scroll">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mi>D</mi>
+      <mi>I</mi>
+      <mi>S</mi>
+      <mi>P</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>−</mo>
+    <msub>
+     <mrow>
+      <mi>s</mi>
+     </mrow>
+     <mrow>
+      <mn>6</mn>
+     </mrow>
+    </msub>
+    <mrow>
+     <munder>
+      <mo>∑</mo>
+      <mi mathvariant="bold">g</mi>
+     </munder>
+     <mrow>
+      <munder>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>≠</mo>
+        <mi>j</mi>
+       </mrow>
+      </munder>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>f</mi>
+        </mrow>
+        <mrow>
+         <mi>d</mi>
+         <mi>u</mi>
+         <mi>m</mi>
+         <mi>p</mi>
+        </mrow>
+       </msub>
+       <mrow>
+        <mo stretchy="true">(</mo>
+        <mrow>
+         <msubsup>
+          <mrow>
+           <mi>R</mi>
+          </mrow>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+           <mo>,</mo>
+           <mi mathvariant="bold">g</mi>
+          </mrow>
+          <mrow>
+           <mn>6</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+        <mo stretchy="true">)</mo>
+       </mrow>
+       <mfrac>
+        <mrow>
+         <msubsup>
+          <mrow>
+           <mi>C</mi>
+          </mrow>
+          <mrow>
+           <mn>6</mn>
+          </mrow>
+          <mrow>
+           <mi>i</mi>
+          </mrow>
+         </msubsup>
+         <msubsup>
+          <mrow>
+           <mi>C</mi>
+          </mrow>
+          <mrow>
+           <mn>6</mn>
+          </mrow>
+          <mrow>
+           <mi>j</mi>
+          </mrow>
+         </msubsup>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mrow>
+           <mi>R</mi>
+          </mrow>
+          <mrow>
+           <mi>i</mi>
+           <mi>j</mi>
+           <mo>,</mo>
+           <mi mathvariant="bold">g</mi>
+          </mrow>
+          <mrow>
+           <mn>6</mn>
+          </mrow>
+         </msubsup>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

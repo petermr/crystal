@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the duplication effect of diamond tool edge profile, researchers originally employed the circular arc or its simplification form, i.e., the parabola expression as the tool edge profile and established the surface topography model [
+ <xref rid="B20-micromachines-10-00288" ref-type="bibr">20</xref>,
+ <xref rid="B21-micromachines-10-00288" ref-type="bibr">21</xref>,
+ <xref rid="B22-micromachines-10-00288" ref-type="bibr">22</xref>]. On this condition, component in relation to the duplication effect of cutting edge profile can be expressed as 
+ <disp-formula id="FD1-micromachines-10-00288">
+  <label>(1)</label>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>R</mi>
+      <mrow>
+       <mrow>
+        <mtext>tew-wi</mtext>
+       </mrow>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>x</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <msub>
+      <mi>r</mi>
+      <mi mathvariant="sans-serif">ε</mi>
+     </msub>
+     <mo>−</mo>
+     <msqrt>
+      <mrow>
+       <msubsup>
+        <mi>r</mi>
+        <mi mathvariant="sans-serif">ε</mi>
+        <mn>2</mn>
+       </msubsup>
+       <mo>−</mo>
+       <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </msqrt>
+     <mo>≅</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mi>x</mi>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+      <mrow>
+       <mn>2</mn>
+       <msub>
+        <mi>r</mi>
+        <mi mathvariant="sans-serif">ε</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mo>−</mo>
+       <mfrac>
+        <mi>f</mi>
+        <mn>2</mn>
+       </mfrac>
+       <mo>≤</mo>
+       <mi>x</mi>
+       <mo>≤</mo>
+       <mfrac>
+        <mi>f</mi>
+        <mn>2</mn>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>R</italic>
+ <sub>tew-wi</sub>(
+ <italic>x</italic>) is the active tool edge profile in one feed rate (without consideration of the tool edge waviness); 
+ <italic>r</italic>
+ <sub>ε</sub> is the tool corner nose radius; and 
+ <italic>f</italic> is the feed rate per revolution. 
+</p>

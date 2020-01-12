@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The location of a PHC is followed from one timestep to the next by minimizing the sum of squared distances moved by each PHC (obeying the minimum image convention):
+ <disp-formula id="eqn5">
+  <label>5</label>
+  <graphic xlink:href="c8sc03033b-t8.jpg" id="ugt8" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>
+ <italic>i.e.</italic>, we assign the 48 PHCs on one side of the slab such that the sum of squared distances to the positions of the PHCs in the preceding timestep is minimized. The minimal sum was found using the Hungarian method.
+ <xref rid="cit51" ref-type="bibr">51</xref>
+</p>

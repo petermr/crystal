@@ -1,0 +1,334 @@
+{
+  "id": [
+    "31705002"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31705002"
+  ],
+  "pmcid": [
+    "PMC6841663"
+  ],
+  "doi": [
+    "10.1038/s41598-019-51238-1"
+  ],
+  "title": [
+    "Machine learning-aided analysis for complex local structure of liquid crystal polymers."
+  ],
+  "authorString": [
+    "Doi H, Takahashi KZ, Tagashira K, Fukuda JI, Aoyagi T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Doi H"
+          ],
+          "firstName": [
+            "Hideo"
+          ],
+          "lastName": [
+            "Doi"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Research Center for Computational Design of Advanced Functional Materials, National Institute of Advanced Industrial Science and Technology (AIST), Central 2, 1-1-1 Umezono, Tsukuba, Ibaraki, 305-8568, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Takahashi KZ"
+          ],
+          "firstName": [
+            "Kazuaki Z"
+          ],
+          "lastName": [
+            "Takahashi"
+          ],
+          "initials": [
+            "KZ"
+          ],
+          "affiliation": [
+            "Research Center for Computational Design of Advanced Functional Materials, National Institute of Advanced Industrial Science and Technology (AIST), Central 2, 1-1-1 Umezono, Tsukuba, Ibaraki, 305-8568, Japan. kazu.takahashi@aist.go.jp."
+          ]
+        },
+        {
+          "fullName": [
+            "Tagashira K"
+          ],
+          "firstName": [
+            "Kenji"
+          ],
+          "lastName": [
+            "Tagashira"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Research Association of High-Throughput Design and Development for Advanced Functional Materials, Central 2, 1-1-1 Umezono, Tsukuba, Ibaraki, 305-8568, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Fukuda JI"
+          ],
+          "firstName": [
+            "Jun-Ichi"
+          ],
+          "lastName": [
+            "Fukuda"
+          ],
+          "initials": [
+            "JI"
+          ],
+          "affiliation": [
+            "Department of Physics, Faculty of Science, Kyushu University, 744 Motooka, Nishi-ku, Fukuoka, Fukuoka, 819-0395, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Aoyagi T"
+          ],
+          "firstName": [
+            "Takeshi"
+          ],
+          "lastName": [
+            "Aoyagi"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Research Center for Computational Design of Advanced Functional Materials, National Institute of Advanced Industrial Science and Technology (AIST), Central 2, 1-1-1 Umezono, Tsukuba, Ibaraki, 305-8568, Japan."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2875678"
+      ],
+      "dateOfPublication": [
+        "2019 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Scientific reports"
+          ],
+          "ISOAbbreviation": [
+            "Sci Rep"
+          ],
+          "medlineAbbreviation": [
+            "Sci Rep"
+          ],
+          "NLMid": [
+            "101563288"
+          ],
+          "ISSN": [
+            "2045-2322"
+          ],
+          "ESSN": [
+            "2045-2322"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "16370"
+  ],
+  "abstractText": [
+    "Elucidation of mesoscopic structures of molecular systems is of considerable scientific and technological interest for the development and optimization of advanced materials. Molecular dynamics simulations are a promising means of revealing macroscopic physical properties of materials from a microscopic viewpoint, but analysis of the resulting complex mesoscopic structures from microscopic information is a non-trivial and challenging task. In this study, a Machine Learning-aided Local Structure Analyzer (ML-LSA) is developed to classify the complex local mesoscopic structures of molecules that have not only simple atomistic group units but also rigid anisotropic functional groups such as mesogens. The proposed ML-LSA is applied to classifying the local structures of liquid crystal polymer (LCP) systems, which are of considerable scientific and technological interest because of their potential for sensors and soft actuators. A machine learning (ML) model is constructed from small, and thus computationally less costly, monodomain LCP trajectories. The ML model can distinguish nematic- and smectic-like monodomain structures with high accuracy. The ML-LSA is applied to large, complex quenched LCP structures, and the complex local structures are successfully classified as either nematic- or smectic-like. Furthermore, the results of the ML-LSA suggest the best order parameter for distinguishing the two mesogenic structures. Our ML model enables automatic and systematic analysis of the mesogenic structures without prior knowledge, and thus can overcome the difficulty of manually determining the specific order parameter required for the classification of complex structures."
+  ],
+  "affiliation": [
+    "Research Center for Computational Design of Advanced Functional Materials, National Institute of Advanced Industrial Science and Technology (AIST), Central 2, 1-1-1 Umezono, Tsukuba, Ibaraki, 305-8568, Japan."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41598-019-51238-1"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6841663"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6841663?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasData": [
+    "N"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "doi"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2019-11-10"
+  ],
+  "firstIndexDate": [
+    "2019-11-10"
+  ],
+  "fullTextReceivedDate": [
+    "2019-11-16"
+  ],
+  "dateOfRevision": [
+    "2019-11-15"
+  ],
+  "electronicPublicationDate": [
+    "2019-11-08"
+  ],
+  "firstPublicationDate": [
+    "2019-11-08"
+  ]
+}

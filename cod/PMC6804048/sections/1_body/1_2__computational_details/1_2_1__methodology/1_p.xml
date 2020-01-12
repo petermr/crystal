@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>First principles calculations were completed using CASTEP (Cambridge Serial Total Energy Package) code [
+ <xref rid="B20-materials-12-03217" ref-type="bibr">20</xref>,
+ <xref rid="B21-materials-12-03217" ref-type="bibr">21</xref>,
+ <xref rid="B22-materials-12-03217" ref-type="bibr">22</xref>] as outlined in [
+ <xref rid="B11-materials-12-03217" ref-type="bibr">11</xref>]. The exchange correlation energy function was estimated by the generalised gradient approximation (GGA) of the Perdew–Wang functional (PW91) [
+ <xref rid="B23-materials-12-03217" ref-type="bibr">23</xref>]. Ultrasoft pseudopotentials [
+ <xref rid="B24-materials-12-03217" ref-type="bibr">24</xref>] were used for ion core and valence electron interactions. The electronic configurations for Nb, Ti, Sn, Al and Si are, respectively, Nb-4s
+ <sup>2</sup>4p
+ <sup>6</sup>4d
+ <sup>4</sup>5s
+ <sup>1</sup>, Ti-3s
+ <sup>2</sup>3p
+ <sup>6</sup>3d
+ <sup>2</sup>4s
+ <sup>2</sup>, Sn-5s
+ <sup>2</sup>5p
+ <sup>2</sup>, Al-3s
+ <sup>2</sup>3p
+ <sup>1</sup> and Si-3s
+ <sup>2</sup>3p
+ <sup>2</sup>. An energy cut-off of 550 eV was used. Convergence tests showed that it reduced the error in total energy to &lt;1 meV/atom. A Monkhorst–Pack k-point grid of 9 × 9 × 9 for integration over the Brillouin zone was used [
+ <xref rid="B25-materials-12-03217" ref-type="bibr">25</xref>]. Geometry optimisation was performed until the energy change per atom, maximum residual force, maximum atomic displacement and maximum stress were less than 1 × 10
+ <sup>−7</sup> eV, 1 × 10
+ <sup>−3</sup> eV/Å, 1 × 10
+ <sup>−4</sup> Å and 0.001 GPa, respectively [
+ <xref rid="B26-materials-12-03217" ref-type="bibr">26</xref>].
+</p>

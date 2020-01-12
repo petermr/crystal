@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>A similar method as described in the “
+ <xref rid="Sec2" ref-type="sec">Methods</xref>” section to determine magic formulas can be applied for the magic formulas describing the topological indices. Only here, the degrees of the polynomials are 7, 8, or 9, so their values for at least 10 consecutive 
+ <italic>n</italic>-values need to be computed. Then an interpolation problem of a higher degree gives the result. Since solving a linear system of size 10×10 with the symbolic toolbox requires some time, all the coefficients for the topological indices can be computed simultaneously using multiple right-hand sides to get the coefficients of all the polynomials.
+</p>

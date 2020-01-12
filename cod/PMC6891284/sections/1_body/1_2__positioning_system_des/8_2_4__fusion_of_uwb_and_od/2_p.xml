@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Compared with the odometer location method, the positioning error of the UWB positioning system does not increase with time. There is no accumulated error, but there are some random errors [
+ <xref rid="B9-sensors-19-04980" ref-type="bibr">9</xref>]. The fusion algorithm can fuse two positioning methods to exploit the advantages of both. Thus, it can guarantee positioning precision and improve system stability. The proposed fusion algorithm introduces a combined navigation technology based on a Kalman filter, i.e., it combines the odometer location method with ultra-wide band navigation technology through an optimal linear estimation algorithm. In other words, it mutually corrects these complementary technologies. Specifically, it ensures not only timely correction of the odometer location coordinates by addressing the coordinate drift but also effective modification of the ultra-wide band positioning by addressing the random errors and faults. Thus, the dynamic stability and accuracy of the system are improved considerably [
+ <xref rid="B14-sensors-19-04980" ref-type="bibr">14</xref>].
+</p>

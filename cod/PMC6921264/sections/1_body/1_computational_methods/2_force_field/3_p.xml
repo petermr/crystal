@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The initial molecular structure of LLM-105 (Cambridge Structural Database: refcode YEKQAG03) was obtained from the work by Liu et al.
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> After optimization with the PBE0/aug-cc-pVDZ
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>,
+  <xref ref-type="bibr" rid="ref34">34</xref>
+ </sup> level, more than 1000 dimer structures were generated randomly referring to the method introduced by refs (
+ <xref ref-type="bibr" rid="ref27">27</xref>) and (
+ <xref ref-type="bibr" rid="ref28">28</xref>). To obtain the accurate intermolecular energy, the combination with PBE0/aug-cc-pVDZ and exchange-hole dipole moment dispersion correction (XDM)
+ <sup>
+  <xref ref-type="bibr" rid="ref35">35</xref>−
+  <xref ref-type="bibr" rid="ref39">39</xref>
+ </sup> were employed. The XDM dispersion model has demonstrated good performance in sublimation enthalpies and absolute lattice energies of molecular crystals.
+ <sup>
+  <xref ref-type="bibr" rid="ref40">40</xref>
+ </sup> Moreover, some studies
+ <sup>
+  <xref ref-type="bibr" rid="ref41">41</xref>−
+  <xref ref-type="bibr" rid="ref43">43</xref>
+ </sup> obtained accurate energy ranking in the crystal-structure prediction of molecular crystals with the DFT–XDM method. As a whole, the FF form is similar with Amber FF.
+ <sup>
+  <xref ref-type="bibr" rid="ref44">44</xref>
+ </sup> The nonbonding interaction is expressed with the electrostatic and van der Waals (vdW) terms. As shown in 
+ <xref rid="eq1" ref-type="disp-formula">eq 
+  <xref rid="eq1" ref-type="disp-formula">1</xref>
+ </xref>, the point charge model and the vdW potential were chosen to describe the two terms, respectively. Instead of the Lennard-Jones (LJ) potential in Amber, the vdW interaction is expressed using the Buckingham (BKH) potential. This FF form has been applied to describe HMX by Smith and Bharadwaj.
+ <sup>
+  <xref ref-type="bibr" rid="ref20">20</xref>
+ </sup>
+ <disp-formula id="eq1">
+  <graphic xlink:href="ao9b02410_m001" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>1</label>
+ </disp-formula>where, 
+ <italic>q</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is the charge on atom 
+ <italic>i</italic>, and 
+ <italic>r</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> is the distance between atom 
+ <italic>i</italic> and 
+ <italic>j</italic>, 
+ <italic>A</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>, 
+ <italic>B</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>, and 
+ <italic>C</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub> are the parameters in the BKH potential. A revised electrostatic potential fitting charge (RESP) scheme was used to obtain the point charge.
+ <sup>
+  <xref ref-type="bibr" rid="ref45">45</xref>
+ </sup> RESP charges always show good agreement with the electrostatic component of the ab initio interaction energies. BKH has more reasonable short-range interactions and is more suitable to describe the EMs in high pressure. In order to obtain reasonable BKH parameters, the FIT potential parameters
+ <sup>
+  <xref ref-type="bibr" rid="ref46">46</xref>,
+  <xref ref-type="bibr" rid="ref47">47</xref>
+ </sup> were chosen for the initial values directly, and the fitting bounds were confined to be 0.9 and 1.1 times of the parameter. In addition, the least-square method was used to optimize the parameter referring to the dimer energies in the condition of constrained charge.
+</p>

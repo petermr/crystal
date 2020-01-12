@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The expression of the density of the space charge limited current is as follows:
+ <disp-formula id="FD2-materials-12-02657">
+  <label>(2)</label>
+  <math id="mm2">
+   <mrow>
+    <mrow>
+     <mi>J</mi>
+     <mo>=</mo>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mfrac>
+        <mn>9</mn>
+        <mn>8</mn>
+       </mfrac>
+       <msub>
+        <mi>ε</mi>
+        <mi>r</mi>
+       </msub>
+       <msub>
+        <mi>ε</mi>
+        <mn>0</mn>
+       </msub>
+       <mi>μ</mi>
+       <mfrac>
+        <mrow>
+         <msup>
+          <mi>U</mi>
+          <mn>2</mn>
+         </msup>
+        </mrow>
+        <mrow>
+         <msup>
+          <mi>d</mi>
+          <mn>3</mn>
+         </msup>
+        </mrow>
+       </mfrac>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mi>θ</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>where 
+ <italic>ε</italic>
+ <sub>0</sub> is the vacuum dielectric constant, 
+ <italic>ε
+  <sub>r</sub>
+ </italic> is the relative dielectric constant, 
+ <italic>μ</italic> is the permeability, 
+ <italic>d</italic> is the dielectric thickness, 
+ <italic>θ</italic> is the control parameter of the trap. 
+ <italic>Θ</italic> = 
+ <italic>n</italic>/(
+ <italic>n</italic> + 
+ <italic>n
+  <sub>t</sub>
+ </italic>), which is the ratio of the free carrier concentration to the total carrier concentration. 
+ <italic>n
+  <sub>t</sub>
+ </italic> is the trapped carrier concentration, and 
+ <italic>n</italic> is the free carrier concentration; since 
+ <italic>n
+  <sub>t</sub>
+ </italic> &gt;&gt; 
+ <italic>n</italic>, 
+ <italic>θ</italic> ≈ 
+ <italic>n</italic>/
+ <italic>n
+  <sub>t</sub>
+ </italic>, usually 
+ <italic>θ</italic>
+ <italic>≤</italic> 10
+ <sup>−7</sup> [
+ <xref rid="B24-materials-12-02657" ref-type="bibr">24</xref>].
+</p>

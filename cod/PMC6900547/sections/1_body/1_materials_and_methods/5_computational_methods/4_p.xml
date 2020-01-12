@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Minimum Energy Technique Applied to Dislocations, Interfaces and Surface Energies (METADISE) code
+ <sup>
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> was used to create (100), (
+ <span class="overline" xmlns="http://www.w3.org/1999/xhtml">1</span>01), and (110) surfaces from the bulk zabuyelite structure. The METADISE code ensures the creation of surfaces with zero dipole moment perpendicular to the surface plane.
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>
+ </sup> However, because of the adsorption of charged species, we have applied the Makov–Payne dipole correction perpendicular to the surface in all surface calculations, as implemented in the VASP code,
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> to ensure that there is no net charge or monopole/dipole perpendicular to the surfaces, which might otherwise affect the adsorption energetics and structures. The constructed surfaces were expressed in periodic slabs of thickness ≥10 Å to exclude interactions of surface rearrangement through the bulk. A vacuum of 15 Å was introduced in the 
+ <italic>z</italic>-direction to prevent interactions between two consecutive slabs. For each surface, freshly cleaved surfaces with different terminations along the same crystallographic direction were subjected to energy minimization to determine the surface stability. The lowest surface energy under dry conditions (γ
+ <sub>r,dry</sub>) calculated using eq 
+ <xref rid="eq1" ref-type="disp-formula">1</xref> was used to identify the most stable termination.
+ <disp-formula id="eq1">
+  <graphic xlink:href="cg9b00782_m001" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>1</label>
+ </disp-formula>Here 
+ <italic>E</italic>
+ <sub>surf</sub> is the energy of the relaxed slab, 
+ <italic>E</italic>
+ <sub>bulk</sub> is the energy of bulk Li
+ <sub>2</sub>CO
+ <sub>3</sub> calculated by optimizing the bulk structure, 
+ <italic>x</italic> is the equivalent number of the bulk Li
+ <sub>2</sub>CO
+ <sub>3</sub> units in the slab, and 2
+ <italic>A</italic> the surface areas of both exposed surfaces of the cleaved crystal. For each surface, the termination with the lowest surface energy is considered most stable and used in further investigations. To mimic the natural environment in which adsorption takes place, water was introduced to the top surfaces of zabuyelite considering both physisorbed and chemisorbed adsorption configurations. The chemisorbed structures are found to be generally thermodynamically more favorable/preferred over the physisorption structures. In most cases for water adsorption, even when the initial, guessed structure is placed at 5 Å above surface Li sites (physisorption), the water molecules move toward to surface sites forming chemisorbed structures during energy minimization. We, therefore, expect that physisorbed structures may only become feasible/stable at higher coverages (e.g., second layer of water). As only the top surface of the slab is hydrated, while the bottom surface remains “dry”, the additional energy due to hydration of the surface at the top of the slab must be separated from the energy of the nonhydrated surface at the bottom. From the dry surface energy obtained from eq 
+ <xref rid="eq1" ref-type="disp-formula">1</xref>, it is possible to calculate the wet surface energy (γ
+ <sub>wet</sub>) from the total energy of the hydrated slab as shown in eq 
+ <xref rid="eq2" ref-type="disp-formula">2</xref>.
+ <disp-formula id="eq2">
+  <graphic xlink:href="cg9b00782_m002" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>2</label>
+ </disp-formula>where 
+ <italic>nE</italic>
+ <sub>water</sub> is energy of a n water molecules in a vacuum, obtained in a cubic box of size 15 Å, considering a 1 × 1 × 1 Monkhorst–Pack K-points mesh. The initial adsorption geometries of the adsorbates (cations/anions) at the hydrated surfaces were generated manually and subsequently subjected to energy minimization in order to determine lowest-energy adsorption configurations. As the adsorption of cations/anions on the hydrated Li
+ <sub>2</sub>CO
+ <sub>3</sub> surfaces can change the surface energies and, therefore, modulate the equilibrium morphology, we have also calculated the surface energies of the surfaces after the cations/anions adsorption using eq 
+ <xref rid="eq3" ref-type="disp-formula">3</xref>.
+ <disp-formula id="eq3">
+  <graphic xlink:href="cg9b00782_m003" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>3</label>
+ </disp-formula>where 
+ <italic>E</italic>
+ <sub>wet-surf+
+  <italic>m</italic>(adsorbate)
+ </sub> is the total energy of the hydrated surface with 
+ <italic>m</italic> adsorbed cations/anions. The energy of all monatomic adsorbates was obtained from optimizing their bulk materials using 7 × 7 × 7 mesh of K-points. We constructed the equilibrium crystal morphology for dry and wet Li
+ <sub>2</sub>CO
+ <sub>3</sub> as well as those for Li
+ <sub>2</sub>CO
+ <sub>3</sub> after cations/anions adsorption using the calculated surface energies and the Wulff construction procedure.
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>
+ </sup> The GDIS software was employed for the construction of the equilibrium crystal morphology Li
+ <sub>2</sub>CO
+ <sub>3</sub>. To characterize the strength of adsorption of each adsorbate on the different surfaces of Li
+ <sub>2</sub>CO
+ <sub>3</sub>, we calculated the average energies of adsorption (
+ <italic>E</italic>
+ <sub>ads</sub>) using eq 
+ <xref rid="eq4" ref-type="disp-formula">4</xref>.
+ <disp-formula id="eq4">
+  <graphic xlink:href="cg9b00782_m004" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <label>4</label>
+ </disp-formula>By this definition, a negative value of 
+ <italic>E</italic>
+ <sub>ads</sub> corresponds to an exothermic and favorable adsorption process, whereas a positive value indicates an endothermic and unfavorable adsorption.
+</p>

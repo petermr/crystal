@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>In order to attest to the new morphology having Im3 symmetry, let us attempt to start with a generic test reflections for Im3 studied by Germer [
+ <xref rid="B40-polymers-11-01081" ref-type="bibr">40</xref>]. In his thesis, there are eight such cases to play with. The reflections with (
+ <italic>hkl</italic>) = (130) and (
+ <italic>hkl</italic>) = (132) are the first two to be taken. For simplification purposes, we turned off finite compressibility and took AB diblock copolymer with 
+ <inline-formula>
+  <math id="mm118">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>A</mi>
+     </msub>
+     <mo>=</mo>
+     <mn>0.4</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at 
+ <inline-formula>
+  <math id="mm119">
+   <mrow>
+    <mrow>
+     <mi>N</mi>
+     <mi>χ</mi>
+     <mo>=</mo>
+     <mn>14</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. Our trial with (132) reflection is given as: 
+ <disp-formula id="FD12-polymers-11-01081">
+  <label>(11)</label>
+  <math id="mm120">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <mi>ψ</mi>
+       <mo stretchy="false">(</mo>
+       <mover accent="true">
+        <mi>r</mi>
+        <mo stretchy="false">→</mo>
+       </mover>
+       <mo stretchy="false">)</mo>
+       <mo>=</mo>
+       <msub>
+        <mi>ψ</mi>
+        <mi>n</mi>
+       </msub>
+       <mo stretchy="false">[</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+       <mo>+</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mo>+</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+       <mo>−</mo>
+       <mo stretchy="false">(</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <mo>+</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+       <mo>+</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>6</mn>
+       <mi>π</mi>
+       <mi>x</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>2</mn>
+       <mi>π</mi>
+       <mi>y</mi>
+       <mo stretchy="false">]</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">[</mo>
+       <mn>4</mn>
+       <mi>π</mi>
+       <mi>z</mi>
+       <mo stretchy="false">]</mo>
+       <mo stretchy="false">)</mo>
+       <mo stretchy="false">]</mo>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm121">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ψ</mi>
+      <mi>n</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is a proper amplitude and the local composition for A block is taken as 
+ <inline-formula>
+  <math id="mm122">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>A</mi>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <msub>
+      <mi>ϕ</mi>
+      <mi>A</mi>
+     </msub>
+     <mo>+</mo>
+     <mi>ψ</mi>
+     <mo stretchy="false">(</mo>
+     <mover accent="true">
+      <mi>r</mi>
+      <mo stretchy="false">→</mo>
+     </mover>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. The contour plot for the generic surface in Equation (11) is shown in 
+ <xref ref-type="fig" rid="polymers-11-01081-f003">Figure 3</xref>a. The SCFT simulations for the copolymer melts were undertaken in a tentative periodic cubic box of 5 × 5 × 5
+ <inline-formula>
+  <math id="mm123">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>R</mi>
+      <mi>G</mi>
+      <mn>3</mn>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, considering the simulation box should be smaller than that in the compressible situation. The simulation box was discretized into 32
+ <sup>3</sup> lattice cells, and each chain contour was discretized into 40 + 60 segments for A and B blocks, respectively. The modified diffusion equation in Equation (3) along with Equations (4–6) were solved via the pseudospectral scheme [
+ <xref rid="B39-polymers-11-01081" ref-type="bibr">39</xref>]. The iteration at a given condition was continued until the incompressibility constraint (=
+ <inline-formula>
+  <math id="mm124">
+   <mrow>
+    <mrow>
+     <mstyle displaystyle="true">
+      <mo>∑</mo>
+      <mrow>
+       <msub>
+        <mi>ϕ</mi>
+        <mi>i</mi>
+       </msub>
+      </mrow>
+     </mstyle>
+     <mo>−</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>) was less than 
+ <inline-formula>
+  <math id="mm125">
+   <mrow>
+    <mrow>
+     <mn>2.5</mn>
+     <mo>×</mo>
+     <msup>
+      <mrow>
+       <mn>10</mn>
+      </mrow>
+      <mrow>
+       <mo>−</mo>
+       <mn>7</mn>
+      </mrow>
+     </msup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>. In the same computational environment, it took ~13 min per 1k iterations for incompressible AB copolymer melts, and about 8.5k iterations were necessary in this case to reach the target tolerance. As was seen in 
+ <xref ref-type="fig" rid="polymers-11-01081-f004">Figure 4</xref>, the simulation was found to yield exactly the same morphology given in 
+ <xref ref-type="fig" rid="polymers-11-01081-f001">Figure 1</xref> that we identify as 
+ <italic>Im3</italic> symmetry for the ABC copolymer. The periodicity or the lateral unit cell length 
+ <italic>c</italic> was obtained as 
+ <inline-formula>
+  <math id="mm126">
+   <mrow>
+    <mrow>
+     <mi>c</mi>
+     <mo>=</mo>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mo>/</mo>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>q</mi>
+      <mn>1</mn>
+     </msub>
+     <mo>/</mo>
+     <msqrt>
+      <mn>2</mn>
+     </msqrt>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> = 
+ <inline-formula>
+  <math id="mm127">
+   <mrow>
+    <mrow>
+     <mn>5</mn>
+     <msub>
+      <mi>R</mi>
+      <mi>G</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, as it should. The correlation function 
+ <inline-formula>
+  <math id="mm128">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>S</mi>
+      <mrow>
+       <mi>A</mi>
+       <mi>A</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>q</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> for A block is given in 
+ <xref ref-type="app" rid="app1-polymers-11-01081">Figure S1</xref> as a 
+ <xref ref-type="app" rid="app1-polymers-11-01081">Supplementary Material</xref>. It needs to be mentioned that our second trial with the initial density field generated using (130) reflection, whose contour plot is shown in 
+ <xref ref-type="fig" rid="polymers-11-01081-f003">Figure 3</xref>b, turns out that the evolved morphology was merely hexagonal P6/mm cylinders. 
+</p>

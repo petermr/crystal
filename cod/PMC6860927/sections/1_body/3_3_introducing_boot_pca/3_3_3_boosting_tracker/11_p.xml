@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p specific-use="line"> • Update, for 
+ <italic>i</italic> = 1, …, 
+ <italic>m</italic>: 
+ <disp-formula id="pone.0225041.e004">
+  <alternatives>
+   <graphic xlink:href="pone.0225041.e004.jpg" id="pone.0225041.e004g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M4">
+    <mrow>
+     <msub>
+      <mi>D</mi>
+      <mrow>
+       <mi>t</mi>
+       <mo>+</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo form="prefix" stretchy="false">(</mo>
+     <mi>i</mi>
+     <mo form="postfix" stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>D</mi>
+        <mi>t</mi>
+       </msub>
+       <mo form="prefix" stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo form="postfix" stretchy="false">)</mo>
+       <mi>e</mi>
+       <mi>x</mi>
+       <mi>p</mi>
+       <mo form="prefix" stretchy="false">(</mo>
+       <mo>−</mo>
+       <msub>
+        <mi>α</mi>
+        <mi>t</mi>
+       </msub>
+       <msub>
+        <mi>y</mi>
+        <mi>i</mi>
+       </msub>
+       <msub>
+        <mi>h</mi>
+        <mi>t</mi>
+       </msub>
+       <mo form="prefix" stretchy="false">(</mo>
+       <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+       </msub>
+       <mo form="postfix" stretchy="false">)</mo>
+       <mo form="postfix" stretchy="false">)</mo>
+      </mrow>
+      <msub>
+       <mi>Z</mi>
+       <mi>t</mi>
+      </msub>
+     </mfrac>
+    </mrow>
+   </math>
+  </alternatives>
+ </disp-formula> Where 
+ <italic>Z</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> is a normalization factor (chosen so that D
+ <sub>
+  <italic>t</italic>+1
+ </sub> will be a distribution) and 
+ <italic>α</italic>
+ <sub>
+  <italic>t</italic>
+ </sub> is weight for the learner, which is mathematically defined as 
+ <inline-formula id="pone.0225041.e005">
+  <alternatives>
+   <graphic xlink:href="pone.0225041.e005.jpg" id="pone.0225041.e005g" mimetype="image" position="anchor" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <math id="M5">
+    <mrow>
+     <mfrac>
+      <mn>1</mn>
+      <mn>2</mn>
+     </mfrac>
+     <mo>*</mo>
+     <mtext>ln</mtext>
+     <mo>(</mo>
+     <mfrac>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mi>ϵ</mi>
+      </mrow>
+      <mi>ϵ</mi>
+     </mfrac>
+     <mo>)</mo>
+    </mrow>
+   </math>
+  </alternatives>
+ </inline-formula>.
+</p>

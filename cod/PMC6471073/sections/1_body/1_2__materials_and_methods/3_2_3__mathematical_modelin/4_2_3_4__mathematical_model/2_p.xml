@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Level-1 substructures are assembled layer by layer to form the whole sensing structure, as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f002">Figure 2</xref>. The adjacent level-1 substructures have a common ring, which is the outer ring of the inner level-1 substructure; also it is the inner ring of the outer level-1 substructure, as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f007">Figure 7</xref>. So mass of the shared ring needs to be equally distributed to the adjacent two level-1 substructures, which can be achieved by defining the density of the shared rings as half of the original density of the material as shown in 
+ <xref ref-type="fig" rid="micromachines-10-00181-f007">Figure 7</xref>. After the density of shared rings is changed, Equation (31) should also be modified as 
+ <disp-formula id="FD46-micromachines-10-00181">
+  <label>(46)</label>
+  <math id="mm52">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msub>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>M</mi>
+        </mstyle>
+        <mrow>
+         <mn>0</mn>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>=</mo>
+       <mrow>
+        <mo>{</mo>
+        <mrow>
+         <mtable columnalign="left">
+          <mtr columnalign="left">
+           <mtd columnalign="left">
+            <mrow>
+             <mi>d</mi>
+             <mi>i</mi>
+             <mi>a</mi>
+             <mi>g</mi>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>i</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>A</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>B</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+             <mo>,</mo>
+            </mrow>
+           </mtd>
+           <mtd columnalign="left">
+            <mrow>
+             <mi>i</mi>
+             <mo>=</mo>
+             <mn>1</mn>
+            </mrow>
+           </mtd>
+          </mtr>
+          <mtr columnalign="left">
+           <mtd columnalign="left">
+            <mrow>
+             <mi>d</mi>
+             <mi>i</mi>
+             <mi>a</mi>
+             <mi>g</mi>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>i</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>A</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>B</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+             <mo>,</mo>
+            </mrow>
+           </mtd>
+           <mtd columnalign="left">
+            <mrow>
+             <mi>i</mi>
+             <mo>=</mo>
+             <mn>2</mn>
+             <mo>,</mo>
+             <mn>3</mn>
+             <mo>…</mo>
+             <mo>,</mo>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>2</mn>
+            </mrow>
+           </mtd>
+          </mtr>
+          <mtr columnalign="left">
+           <mtd columnalign="left">
+            <mrow>
+             <mi>d</mi>
+             <mi>i</mi>
+             <mi>a</mi>
+             <mi>g</mi>
+             <mrow>
+              <mo>(</mo>
+              <mrow>
+               <mfrac>
+                <mn>1</mn>
+                <mn>2</mn>
+               </mfrac>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>i</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mrow>
+                 <mi>i</mi>
+                 <mo>+</mo>
+                 <mn>1</mn>
+                </mrow>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>r</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>A</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+               <mo>,</mo>
+               <msubsup>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>m</mi>
+                </mstyle>
+                <mi>B</mi>
+                <mstyle mathvariant="bold" mathsize="normal">
+                 <mi>s</mi>
+                </mstyle>
+               </msubsup>
+              </mrow>
+              <mo>)</mo>
+             </mrow>
+             <mo>.</mo>
+            </mrow>
+           </mtd>
+           <mtd columnalign="left">
+            <mrow>
+             <mi>i</mi>
+             <mo>=</mo>
+             <mi>n</mi>
+             <mo>−</mo>
+             <mn>1</mn>
+            </mrow>
+           </mtd>
+          </mtr>
+         </mtable>
+        </mrow>
+       </mrow>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msub>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mrow>
+         <mn>0</mn>
+         <mi>i</mi>
+        </mrow>
+       </msub>
+       <mo>=</mo>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mi>d</mi>
+           <mi>i</mi>
+           <mi>a</mi>
+           <mi>g</mi>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <msubsup>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>k</mi>
+              </mstyle>
+              <mi>i</mi>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>r</mi>
+              </mstyle>
+             </msubsup>
+             <mo>,</mo>
+             <msubsup>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>k</mi>
+              </mstyle>
+              <mrow>
+               <mi>i</mi>
+               <mo>+</mo>
+               <mn>1</mn>
+              </mrow>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>r</mi>
+              </mstyle>
+             </msubsup>
+             <mo>,</mo>
+             <msubsup>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>k</mi>
+              </mstyle>
+              <mi>A</mi>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>s</mi>
+              </mstyle>
+             </msubsup>
+             <mo>,</mo>
+             <msubsup>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>k</mi>
+              </mstyle>
+              <mi>B</mi>
+              <mstyle mathvariant="bold" mathsize="normal">
+               <mi>s</mi>
+              </mstyle>
+             </msubsup>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+           <mo>,</mo>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mi>i</mi>
+           <mo>=</mo>
+           <mn>1</mn>
+           <mo>,</mo>
+           <mn>2</mn>
+           <mo>,</mo>
+           <mn>3</mn>
+           <mo>…</mo>
+           <mo>,</mo>
+           <mi>n</mi>
+           <mo>−</mo>
+           <mn>1</mn>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>By following the location of the PHCs, the mean squared displacement projected onto a direction 
+ <italic>x</italic> was calculated as
+ <disp-formula id="eqn6">
+  <label>6</label>MSD
+  <sub>
+   <italic>x</italic>
+  </sub>(
+  <italic>t</italic>) = ) = 〈||
+  <italic>x</italic>(
+  <italic>t</italic>) – 
+  <italic>x</italic>(0)|
+  <sup>2</sup>〉
+ </disp-formula>where 
+ <italic>x</italic> is, for example, [0001[combining macron]], and where 
+ <italic>x</italic>(
+ <italic>t</italic>) is the 
+ <italic>x</italic>-position of the PHC at time 
+ <italic>t</italic>, and the average , and the average 〈…〉 is taken over all time origins and all PHCs. The one-dimensional diffusion coefficient was then calculated as…, and the average 〈…〉 is taken over all time origins and all PHCs. The one-dimensional diffusion coefficient was then calculated as is taken over all time origins and all PHCs. The one-dimensional diffusion coefficient was then calculated as
+ <disp-formula id="eqn7">
+  <label>7</label>
+  <graphic xlink:href="c8sc03033b-t9.jpg" id="ugt9" position="float" orientation="portrait" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+ </disp-formula>Here, we use a trajectory generated in a constant temperature simulation to calculate 
+ <italic>D</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>. The employed Nosé–Hoover thermostat can affect the dynamics of molecules, and our calculated diffusion coefficients should thus be seen as more qualitative than quantitative.
+</p>

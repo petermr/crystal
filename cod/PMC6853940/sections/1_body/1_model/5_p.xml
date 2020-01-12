@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par16">The constant 
+ <italic>D</italic>
+ <sub>
+  <italic>r</italic>
+ </sub> is the rotational diffusion coefficient, while 
+ <italic>ξ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub> is a Gaussian white noise with zero average and correlations 〈
+ <italic>ξ</italic>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>t</italic>)
+ <italic>ξ</italic>
+ <sub>
+  <italic>j</italic>
+ </sub>(
+ <italic>t</italic>')〉 = 
+ <italic>δ</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>
+ <italic>δ</italic>(
+ <italic>t</italic> − 
+ <italic>t</italic>'). Instead, in the AOUP model 
+ <bold>f</bold>
+ <sub>
+  <italic>i</italic>
+ </sub> is a noise vector whose components evolve as independent Ornstein-Uhlenbeck processes:
+ <disp-formula id="Equ4">
+  <label>4</label>
+  <alternatives>
+   <tex-math id="M9">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\tau {\dot{{\bf{f}}}}_{i}=-{{\bf{f}}}_{i}+\sqrt{2{D}_{a}}{{\bf{w}}}_{i},$$\end{document}</tex-math>
+   <math id="M10" display="block">
+    <mi>τ</mi>
+    <msub>
+     <mrow>
+      <mover accent="true">
+       <mi mathvariant="bold">f</mi>
+       <mo mathvariant="bold">˙</mo>
+      </mover>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mo>−</mo>
+    <mspace width="-0.25em"/>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">f</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msqrt>
+     <mrow>
+      <mn>2</mn>
+      <msub>
+       <mrow>
+        <mi>D</mi>
+       </mrow>
+       <mrow>
+        <mi>a</mi>
+       </mrow>
+      </msub>
+     </mrow>
+    </msqrt>
+    <msub>
+     <mrow>
+      <mi mathvariant="bold">w</mi>
+     </mrow>
+     <mrow>
+      <mi>i</mi>
+     </mrow>
+    </msub>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_52420_Article_Equ4.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>τ</italic> is a correlation time, 
+ <italic>D</italic>
+ <sub>
+  <italic>a</italic>
+ </sub> an effective diffusion constant characterizing the active force, and 
+ <bold>w</bold>
+ <sub>
+  <italic>i</italic>
+ </sub> is a Gaussian white noise vector with zero averages and correlations 〈
+ <bold>w</bold>
+ <sub>
+  <italic>i</italic>
+ </sub>(
+ <italic>t</italic>)
+ <bold>w</bold>
+ <sub>
+  <italic>j</italic>
+ </sub>(
+ <italic>t</italic>')〉 = II
+ <italic>δ</italic>
+ <sub>
+  <italic>ij</italic>
+ </sub>
+ <italic>δ</italic>(
+ <italic>t</italic> − 
+ <italic>t</italic>'). We point out the relevance of the ratio, 
+ <italic>D</italic>
+ <sub>
+  <italic>a</italic>
+ </sub>/
+ <italic>τ</italic>, i.e. the variance of 
+ <bold>f</bold>
+ <sub>
+  <italic>i</italic>
+ </sub>, whose square root gives the typical average value of the active force norm.
+</p>

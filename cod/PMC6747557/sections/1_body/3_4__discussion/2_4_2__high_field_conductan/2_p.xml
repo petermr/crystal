@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>(1) For the Schottky effect, the current density is controlled by the carriers injected into the medium by thermal excitation. The formula is as follows:
+ <disp-formula id="FD6-materials-12-02657">
+  <label>(6)</label>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mi>j</mi>
+     <mo>=</mo>
+     <mi>A</mi>
+     <msup>
+      <mi>T</mi>
+      <mn>2</mn>
+     </msup>
+     <mo>·</mo>
+     <mi>exp</mi>
+     <mo stretchy="false">[</mo>
+     <mo>−</mo>
+     <mfrac>
+      <mrow>
+       <mi>φ</mi>
+       <mo>−</mo>
+       <msqrt>
+        <mrow>
+         <msup>
+          <mi>e</mi>
+          <mn>3</mn>
+         </msup>
+         <mi>E</mi>
+         <mo>/</mo>
+         <mn>4</mn>
+         <mi>π</mi>
+         <msub>
+          <mi>ε</mi>
+          <mn>0</mn>
+         </msub>
+         <msub>
+          <mi>ε</mi>
+          <mi>r</mi>
+         </msub>
+        </mrow>
+       </msqrt>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mi>T</mi>
+      </mrow>
+     </mfrac>
+     <mo stretchy="false">]</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ε</mi>
+      <mi>r</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the relative dielectric constant; 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>ε</mi>
+      <mn>0</mn>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the vacuum dielectric constant; 
+ <italic>A</italic> is the Richardson–Dushman constant; 
+ <inline-formula>
+  <math id="mm9">
+   <mrow>
+    <mi>φ</mi>
+   </mrow>
+  </math>
+ </inline-formula> is the work function of the metal.
+</p>

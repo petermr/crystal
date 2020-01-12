@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The binding energy (with respect to the Fermi energy 
+ <italic>E</italic>
+ <sub>F</sub>) is determined as in classical photoemission (
+ <italic>E</italic>
+ <sub>B</sub> = 
+ <italic>h</italic>ν − 
+ <italic>E</italic>
+ <sub>kin</sub> − Φ, where Φ is the work function) utilizing the relation 
+ <italic>E</italic>
+ <sub>kin</sub> = (1/2)
+ <italic>m</italic>
+ <sub>e</sub>(
+ <italic>L</italic>/τ)
+ <sup>2</sup> [where 
+ <italic>L</italic>, τ and 
+ <italic>m</italic>
+ <sub>e</sub> are as in equation (2)
+ <xref ref-type="disp-formula" rid="fd2"/>]. For absolute ToF measurements, τ can be referenced to the photon signal itself (which is visible in the ToF spectra). In practical work, the energy scale is calibrated by a few measurements with slightly different sample bias yielding d
+ <italic>E</italic>/dτ and observation of the Fermi edge providing the zero reference for 
+ <italic>E</italic>
+ <sub>B</sub>. The DLD records all counting events in the selected 
+ <italic>E</italic> − 
+ <italic>k</italic> region confined by the isochrone surface at 
+ <italic>E</italic>
+ <sub>F</sub> and the selected diameter of the 
+ <italic>k</italic>-region of interest. For each counting event the three coordinates (
+ <italic>x</italic>-position, 
+ <italic>y</italic>-position and arrival time τ) are registered and accumulated in the (
+ <italic>E</italic>
+ <sub>B</sub>,
+ <italic>k</italic>
+ <sub>
+  <italic>x</italic>
+ </sub>,
+ <italic>k</italic>
+ <sub>
+  <italic>y</italic>
+ </sub>)-voxels of a 3D data array. For visualization, either the full 3D object is displayed (for examples, see Chernov 
+ <italic>et al.</italic>, 2015
+ <xref ref-type="bibr" rid="bb7"> ▸</xref>) or sections can be cut along any plane (examples in Figs. 3, 4 and 5).
+</p>

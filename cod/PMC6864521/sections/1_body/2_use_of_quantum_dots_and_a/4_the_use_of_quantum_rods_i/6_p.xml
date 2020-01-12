@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Therefore, the absorption coefficient of the QR for the linearly polarized light will depend on the angle θ and can be derived as: 
+ <disp-formula id="advs1374-disp-0007">
+  <label>(7)</label>
+  <math id="nlm-math-9">
+   <mrow>
+    <msub>
+     <mi>μ</mi>
+     <mrow>
+      <mi>i</mi>
+      <mo>,</mo>
+      <mi mathvariant="normal">QR</mi>
+     </mrow>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <msup>
+       <mi>ε</mi>
+       <mrow>
+        <mo>′</mo>
+        <mo>′</mo>
+       </mrow>
+      </msup>
+      <msub>
+       <mrow/>
+       <mrow>
+        <mi mathvariant="normal">rod</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mo>⊥</mo>
+      </msub>
+      <mi>λ</mi>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mrow>
+       <mfenced open="|" close="|">
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mrow>
+           <mi mathvariant="normal">LF</mi>
+           <mo>,</mo>
+           <mi>c</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">cos</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mi>θ</mi>
+    <mo>+</mo>
+    <mfrac>
+     <mrow>
+      <mn>2</mn>
+      <mi>π</mi>
+      <mo> </mo>
+      <msup>
+       <mi>ε</mi>
+       <mrow>
+        <mo>′</mo>
+        <mo>′</mo>
+       </mrow>
+      </msup>
+      <msub>
+       <mrow/>
+       <mrow>
+        <mi mathvariant="normal">rod</mi>
+       </mrow>
+      </msub>
+     </mrow>
+     <mrow>
+      <msub>
+       <mi>n</mi>
+       <mo>∥</mo>
+      </msub>
+      <mi>λ</mi>
+     </mrow>
+    </mfrac>
+    <msup>
+     <mrow>
+      <mrow>
+       <mfenced open="|" close="|">
+        <mrow>
+         <msub>
+          <mi>f</mi>
+          <mrow>
+           <mi mathvariant="normal">LF</mi>
+           <mo>,</mo>
+           <mi>a</mi>
+          </mrow>
+         </msub>
+        </mrow>
+       </mfenced>
+      </mrow>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <msup>
+     <mrow>
+      <mi mathvariant="normal">sin</mi>
+     </mrow>
+     <mn>2</mn>
+    </msup>
+    <mi>θ</mi>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

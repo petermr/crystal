@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0425">So, according to 
+ <xref rid="fd60" ref-type="disp-formula">Eq. (60)</xref>, the parameter for the convergence of the Dyson series for the Green's function 
+ <inline-formula>
+  <math id="M226" altimg="si139.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mtext>H</mtext>
+     </mrow>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> (
+ <xref rid="fd50" ref-type="disp-formula">Eq. (50)</xref>) is
+ <disp-formula id="fd67">
+  <label>(67)</label>
+  <math id="M227" altimg="si182.svg" alttext="Equation 67.">
+   <mrow>
+    <mfrac>
+     <mrow>
+      <mi>ℏ</mi>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>γ</mi>
+     </mrow>
+    </mfrac>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mo linebreak="goodbreak">&lt;</mo>
+    <mn>1</mn>
+   </mrow>
+  </math>
+ </disp-formula>(for simplicity, we assume the vibrational frequency 
+ <inline-formula>
+  <math id="M228" altimg="si183.svg">
+   <mrow>
+    <mi>ω</mi>
+    <mmultiscripts>
+     <mrow>
+      <mo>=</mo>
+     </mrow>
+     <mprescripts/>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+     <none/>
+    </mmultiscripts>
+    <mtext>constant</mtext>
+    <mo linebreak="goodbreak" linebreakstyle="after">≡</mo>
+    <mi>ω</mi>
+   </mrow>
+  </math>
+ </inline-formula>). Therefore, the same parameter (
+ <xref rid="fd67" ref-type="disp-formula">Eq. (67)</xref>) ensures the convergence of the TDPT series (see Section 
+ <xref rid="sec2.2" ref-type="sec">2.2</xref>) for the amplitude of the quantum transitions 
+ <inline-formula>
+  <math id="M229" altimg="si184.svg">
+   <mrow>
+    <msub>
+     <mrow>
+      <mi>A</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>l</mi>
+     </mrow>
+    </msub>
+    <mrow>
+     <mo stretchy="true">(</mo>
+     <mrow>
+      <mi>t</mi>
+     </mrow>
+     <mo stretchy="true">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> (see 
+ <xref rid="fd2" ref-type="disp-formula">Eq. (2)</xref>), in which the initial (
+ <inline-formula>
+  <math id="M230" altimg="si185.svg">
+   <mrow>
+    <mi>l</mi>
+   </mrow>
+  </math>
+ </inline-formula>) and final (
+ <inline-formula>
+  <math id="M231" altimg="si186.svg">
+   <mrow>
+    <mi>f</mi>
+   </mrow>
+  </math>
+ </inline-formula>) states are determined by the regular wave functions previously obtained: the initial state — by the dynamic wave function according to 
+ <xref rid="fd63" ref-type="disp-formula">Eq. (63)</xref>, and the final state — by the wave function taken in the adiabatic approximation (
+ <xref rid="fd42" ref-type="disp-formula">Eq. (42)</xref>).
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fig id="Fig8">
+ <label>Figure 8</label>
+ <caption>
+  <p>Results of conventional particle-based local structure analyses. (
+   <bold>a</bold>) The centrosymmetry method with 12 neighboring particles. The particle colors gradually change from yellow to light blue with respect to the change in the centrosymmetry parameter from 3 to 4. (
+   <bold>b</bold>) The polyhedral template matching method with a 0.6 root-mean squared cutoff. The yellow color denotes a simple cubic structure, and the blue color represents other structures. (
+   <bold>c</bold>) The Voronoi atomic volume method implemented on Ovito. The particle colors gradually change from yellow to light blue as the volume of the Voronoi cells increases from 3 to 4. (
+   <bold>d</bold>) The Voronoi cell topology visualization and analysis toolkit (VoroTop). The pink color denotes a hexagonal close-packed structure, and the blue color represents other structures. None of the methods could distinguish any local structures of ellipsoidal rigid mesogenic systems.
+  </p>
+ </caption>
+ <graphic xlink:href="41598_2019_51238_Fig8_HTML" id="d29e1832" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+</fig>

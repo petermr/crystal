@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>
+ <italic>GIDVis</italic> is engineered using a very modular structure, allowing many different tasks to be carried out directly within a single program (automatic intensity extraction, structure data comparison or even a rudimentary structure viewer). For further demands, the modular structure means that 
+ <italic>GIDVis</italic> is highly adaptable and, more importantly, can be extended to even more specific needs. Interfaces to indexing routines using the diffraction pattern calculator (
+ <italic>DPC</italic>; Hailey 
+ <italic>et al.</italic>, 2014
+ <xref ref-type="bibr" rid="bb11"> ▸</xref>) or 
+ <italic>CRYSFIRE</italic> (Shirley, 2006
+ <xref ref-type="bibr" rid="bb33"> ▸</xref>) might be easily generated, as well as comparisons with literature structure data (
+ <italic>e.g.</italic> automatic structure searches). The model-fitting routines employing Gaussian fits implemented in 
+ <italic>GIDVis</italic> might be expanded using models suitable for SAXS and GISAXS (Hexemer &amp; Müller-Buschbaum, 2015
+ <xref ref-type="bibr" rid="bb14"> ▸</xref>; Schwartzkopf &amp; Roth, 2016
+ <xref ref-type="bibr" rid="bb32"> ▸</xref>). Other expansions could make corrections for multiple scattering effects in GIXD data available (Resel 
+ <italic>et al.</italic>, 2016
+ <xref ref-type="bibr" rid="bb24"> ▸</xref>) or handle dynamic diffraction effects in general to obtain more accurate peak intensity values and positions, as usually performed via the distorted-wave Born approximation (DWBA) (Daillant &amp; Alba, 2000
+ <xref ref-type="bibr" rid="bb7"> ▸</xref>; Lazzari, 2009
+ <xref ref-type="bibr" rid="bb19"> ▸</xref>).
+</p>

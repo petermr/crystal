@@ -1,0 +1,1638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Changes in the refractive index due to the photo-polymerization-diffusion recording mechanism can be found as the sum of the harmonics of the refractive indices:
+ <disp-formula id="FD26-polymers-11-00861">
+  <label>(25)</label>
+  <math id="mm134">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mi>n</mi>
+      <mi>p</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mi>n</mi>
+            <mi>i</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mi>p</mi>
+       </msub>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mi>m</mi>
+       </msup>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD27-polymers-11-00861">
+  <label>(26)</label>
+  <math id="mm135">
+   <mrow>
+    <mrow>
+     <mo>Δ</mo>
+     <msubsup>
+      <mi>n</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="bold">r</mi>
+     <mo>,</mo>
+     <mi>t</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>i</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msub>
+        <mrow>
+         <mrow>
+          <mrow>
+           <mo>Δ</mo>
+           <msubsup>
+            <mi>n</mi>
+            <mi>i</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi>t</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mrow>
+         <mi>l</mi>
+         <mi>c</mi>
+        </mrow>
+       </msub>
+       <mo>⋅</mo>
+       <mi>cos</mi>
+       <mo stretchy="false">(</mo>
+       <mi>i</mi>
+       <mo>⋅</mo>
+       <msup>
+        <mstyle mathvariant="bold" mathsize="normal">
+         <mi>K</mi>
+        </mstyle>
+        <mi>m</mi>
+       </msup>
+       <mo>⋅</mo>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo stretchy="false">)</mo>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm136">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>Δ</mo>
+         <msubsup>
+          <mi>n</mi>
+          <mi>i</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mi>p</mi>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm137">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>Δ</mo>
+         <msubsup>
+          <mi>n</mi>
+          <mi>i</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi>t</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–the corresponding harmonic amplitudes, which are found by solving system (21-23) similarly to [
+ <xref rid="B31-polymers-11-00861" ref-type="bibr">31</xref>]:
+ <disp-formula id="FD28-polymers-11-00861">
+  <label>(27)</label>
+  <math id="mm138">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <mo>Δ</mo>
+         <msubsup>
+          <mi>n</mi>
+          <mi>i</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi mathvariant="sans-serif">τ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mi>p</mi>
+     </msub>
+     <mo>=</mo>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mi>p</mi>
+     </msub>
+     <mo>⋅</mo>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>l</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msubsup>
+        <mi>a</mi>
+        <mrow>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>l</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mstyle>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msubsup>
+        <mi>A</mi>
+        <mrow>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>p</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mfrac>
+        <mrow>
+         <mi>exp</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mi mathvariant="sans-serif">λ</mi>
+            <mi>p</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo>)</mo>
+           </mrow>
+           <mo>⋅</mo>
+           <mi mathvariant="sans-serif">τ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mi mathvariant="sans-serif">λ</mi>
+          <mi>p</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD29-polymers-11-00861">
+  <label>(28)</label>
+  <math id="mm139">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mrow>
+        <mrow>
+         <msubsup>
+          <mi>n</mi>
+          <mi>i</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi mathvariant="sans-serif">τ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>|</mo>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mi mathvariant="sans-serif">δ</mi>
+     <msub>
+      <mi>n</mi>
+      <mrow>
+       <mi>l</mi>
+       <mi>c</mi>
+      </mrow>
+     </msub>
+     <mo>⋅</mo>
+     <msup>
+      <mi>i</mi>
+      <mn>2</mn>
+     </msup>
+     <mstyle displaystyle="true">
+      <munderover>
+       <mo>∑</mo>
+       <mrow>
+        <mi>p</mi>
+        <mo>=</mo>
+        <mn>0</mn>
+       </mrow>
+       <mi>H</mi>
+      </munderover>
+      <mrow>
+       <msubsup>
+        <mi>A</mi>
+        <mrow>
+         <mi>i</mi>
+         <mo>,</mo>
+         <mi>p</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+       <mfrac>
+        <mrow>
+         <mi>exp</mi>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <msubsup>
+            <mi mathvariant="sans-serif">λ</mi>
+            <mi>p</mi>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>r</mi>
+            </mstyle>
+            <mo>)</mo>
+           </mrow>
+           <mo>⋅</mo>
+           <mi mathvariant="sans-serif">τ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+        <mrow>
+         <msubsup>
+          <mi mathvariant="sans-serif">λ</mi>
+          <mi>p</mi>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mstyle mathvariant="bold" mathsize="normal">
+           <mi>r</mi>
+          </mstyle>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+       </mfrac>
+      </mrow>
+     </mstyle>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where functional dependences of 
+ <inline-formula>
+  <math id="mm140">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>A</mi>
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mi>p</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and 
+ <inline-formula>
+  <math id="mm141">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi mathvariant="sans-serif">λ</mi>
+      <mi>p</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="bold" mathsize="normal">
+       <mi>r</mi>
+      </mstyle>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> are introduced in Reference [
+ <xref rid="B39-polymers-11-00861" ref-type="bibr">39</xref>] and the following matrix of coefficients is presented:
+ <disp-formula id="FD30-polymers-11-00861">
+  <label>(29)</label>
+  <math id="mm142">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>a</mi>
+      <mrow>
+       <mi>i</mi>
+       <mo>,</mo>
+       <mi>l</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mo>−</mo>
+     <mrow>
+      <mo>{</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mn>2</mn>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mrow>
+             <mn>11</mn>
+            </mrow>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mn>2</mn>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>3</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mn>0</mn>
+         </mtd>
+         <mtd>
+          <mo>.</mo>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>2</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <msubsup>
+            <mi>e</mi>
+            <mn>1</mn>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>}</mo>
+     </mrow>
+     <mo>,</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm143">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mn>1</mn>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mn>2</mn>
+        <mi>k</mi>
+       </msup>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>b</mi>
+        <mi>m</mi>
+       </msup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mi>k</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <msubsup>
+            <mi>m</mi>
+            <mrow/>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>/</mo>
+       <mn>4</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm144">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mrow>
+       <mn>11</mn>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mn>2</mn>
+        <mi>k</mi>
+       </msup>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>b</mi>
+        <mi>m</mi>
+       </msup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>+</mo>
+       <mn>3</mn>
+       <mi>k</mi>
+       <mo stretchy="false">(</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+       <mo stretchy="false">)</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>[</mo>
+          <mrow>
+           <msubsup>
+            <mi>m</mi>
+            <mrow/>
+            <mi>m</mi>
+           </msubsup>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mstyle mathvariant="bold" mathsize="normal">
+              <mi>r</mi>
+             </mstyle>
+             <mo>,</mo>
+             <mi mathvariant="sans-serif">τ</mi>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+          <mo>]</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+       <mo>/</mo>
+       <mn>4</mn>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm145">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mn>2</mn>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mn>2</mn>
+        <mi>k</mi>
+       </msup>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>b</mi>
+        <mi>m</mi>
+       </msup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mfrac>
+      <mrow>
+       <mi>k</mi>
+       <msubsup>
+        <mi>m</mi>
+        <mrow/>
+        <mi>m</mi>
+       </msubsup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm146">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>e</mi>
+      <mn>3</mn>
+      <mi>m</mi>
+     </msubsup>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mstyle mathvariant="bold" mathsize="normal">
+        <mi>r</mi>
+       </mstyle>
+       <mo>,</mo>
+       <mi mathvariant="sans-serif">τ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msup>
+        <mn>2</mn>
+        <mi>k</mi>
+       </msup>
+      </mrow>
+      <mrow>
+       <msup>
+        <mi>b</mi>
+        <mi>m</mi>
+       </msup>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>,</mo>
+         <mi mathvariant="sans-serif">τ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+     </mfrac>
+     <mi>k</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo>−</mo>
+     <mn>1</mn>
+     <mo stretchy="false">)</mo>
+     <msup>
+      <mrow>
+       <mrow>
+        <mo>[</mo>
+        <mrow>
+         <msubsup>
+          <mi>m</mi>
+          <mrow/>
+          <mi>m</mi>
+         </msubsup>
+         <mrow>
+          <mo>(</mo>
+          <mrow>
+           <mstyle mathvariant="bold" mathsize="normal">
+            <mi>r</mi>
+           </mstyle>
+           <mo>,</mo>
+           <mi mathvariant="sans-serif">τ</mi>
+          </mrow>
+          <mo>)</mo>
+         </mrow>
+        </mrow>
+        <mo>]</mo>
+       </mrow>
+      </mrow>
+      <mn>2</mn>
+     </msup>
+     <mo>/</mo>
+     <mn>8</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, 
+ <inline-formula>
+  <math id="mm147">
+   <mrow>
+    <mrow>
+     <mi mathvariant="sans-serif">τ</mi>
+     <mo>=</mo>
+     <mrow>
+      <mi>t</mi>
+      <mo>/</mo>
+      <mrow>
+       <msubsup>
+        <mi>T</mi>
+        <mi>M</mi>
+        <mi>m</mi>
+       </msubsup>
+      </mrow>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–relative time; 
+ <inline-formula>
+  <math id="mm148">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>T</mi>
+      <mi>M</mi>
+      <mi>m</mi>
+     </msubsup>
+     <mo>=</mo>
+     <mfrac>
+      <mn>1</mn>
+      <mrow>
+       <msubsup>
+        <mi>D</mi>
+        <mrow>
+         <mi>M</mi>
+         <mi>n</mi>
+        </mrow>
+        <mi>m</mi>
+       </msubsup>
+       <mo>⋅</mo>
+       <msup>
+        <mrow>
+         <mrow>
+          <mo>|</mo>
+          <mrow>
+           <msubsup>
+            <mstyle mathvariant="bold" mathsize="normal">
+             <mi>K</mi>
+            </mstyle>
+            <mrow/>
+            <mi>m</mi>
+           </msubsup>
+          </mrow>
+          <mo>|</mo>
+         </mrow>
+        </mrow>
+        <mn>2</mn>
+       </msup>
+      </mrow>
+     </mfrac>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–characteristic time of monomer’s diffusion; 
+ <inline-formula>
+  <math id="mm149">
+   <mrow>
+    <mrow>
+     <msubsup>
+      <mi>D</mi>
+      <mrow>
+       <mi>M</mi>
+       <mi>n</mi>
+      </mrow>
+      <mi>m</mi>
+     </msubsup>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>–initial diffusion coefficient.
+</p>

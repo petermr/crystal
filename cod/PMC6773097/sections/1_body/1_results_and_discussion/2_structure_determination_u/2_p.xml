@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Because the crystal system of SSZ‐27 is monoclinic, none of the ED data sets had a completeness of more than 90 %, which is required for a good structure refinement. Therefore, to improve data completeness and redundancy, several data sets were merged. We performed hierarchical cluster analysis (HCA) on the fourteen data sets using the algorithm described by Giordano and co‐workers
+ <xref rid="anie201905049-bib-0021" ref-type="ref">21</xref> to find the optimal selection of data sets for merging. We have found this approach to be useful for dealing with large multi‐crystal ED data sets.
+ <xref rid="anie201905049-bib-0022" ref-type="ref">22</xref> The distance metric 
+ <italic>t</italic>, which defines the similarity between the data sets, is derived from the correlation coefficients of the common reflection intensities (
+ <math id="nlm-math-2">
+  <mrow>
+   <mi>C</mi>
+   <msub>
+    <mi>C</mi>
+    <mi>I</mi>
+   </msub>
+  </mrow>
+ </math> ) in pairs of data sets, and the “average” linkage method is used. The clusters can be visualized in a dendrogram (Figure 
+ <xref rid="anie201905049-fig-0004" ref-type="fig">4</xref> a), which facilitates finding a suitable cut distance, although finding the right value involved some trial and error. Finally, a cut distance 
+ <italic>t</italic>=0.32, equivalent to 
+ <math id="nlm-math-3">
+  <mrow>
+   <mi>C</mi>
+   <msub>
+    <mi>C</mi>
+    <mi>I</mi>
+   </msub>
+   <mo>=</mo>
+   <mn>0</mn>
+   <mo>.</mo>
+   <mn>95</mn>
+  </mrow>
+ </math> , was used. In our experience with HCA, clusters with 
+ <italic>t</italic>&lt;0.40 usually result in useful data sets. Herein, two clusters were obtained, where the largest cluster, consisting of 10 data sets (shown in red in Figure 
+ <xref rid="anie201905049-fig-0004" ref-type="fig">4</xref> a), comprised the highest data quality (assessed via 
+ <math id="nlm-math-4">
+  <mrow>
+   <mi>C</mi>
+   <msub>
+    <mi>C</mi>
+    <mrow>
+     <mn>1</mn>
+     <mo>/</mo>
+     <mn>2</mn>
+    </mrow>
+   </msub>
+  </mrow>
+ </math>
+ <xref rid="anie201905049-bib-0023" ref-type="ref">23</xref>) and completeness (Supporting Information Table S6). The scripts for cluster analysis are available online from 
+ <ext-link ext-link-type="uri" xlink:href="https://github.com/stefsmeets/edtools" xmlns:xlink="http://www.w3.org/1999/xlink">https://github.com/stefsmeets/edtools</ext-link>. 
+</p>

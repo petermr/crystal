@@ -1,0 +1,588 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.2 20190208//EN" "JATS-archivearticle1-mathml3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Angew Chem Int Ed Engl</journal-id><journal-id journal-id-type="iso-abbrev">Angew. Chem. Int. Ed. Engl</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-3773</journal-id><journal-id journal-id-type="publisher-id">ANIE</journal-id><journal-title-group><journal-title>Angewandte Chemie (International Ed. in English)</journal-title></journal-title-group><issn pub-type="ppub">1433-7851</issn><issn pub-type="epub">1521-3773</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">6773097</article-id><article-id pub-id-type="doi">10.1002/anie.201905049</article-id><article-id pub-id-type="publisher-id">ANIE201905049</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject><subj-group subj-group-type="heading"><subject>Zeolites</subject></subj-group></subj-group></article-categories><title-group><article-title>SSZ&#x02010;27: A Small&#x02010;Pore Zeolite with Large Heart&#x02010;Shaped Cavities Determined by Using Multi&#x02010;crystal Electron Diffraction</article-title></title-group><contrib-group><contrib id="anie201905049-cr-0001" contrib-type="author" corresp="yes"><name><surname>Smeets</surname><given-names>Stef</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5413-9038</contrib-id><xref ref-type="aff" rid="anie201905049-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="anie201905049-aff-0002">
+<sup>2</sup>
+</xref><address><email>s.smeets@tudelft.nl</email></address></contrib><contrib id="anie201905049-cr-0002" contrib-type="author" corresp="yes"><name><surname>Zones</surname><given-names>Stacey I.</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201905049-aff-0003">
+<sup>3</sup>
+</xref><address><email>sizo@chevron.com</email></address></contrib><contrib id="anie201905049-cr-0003" contrib-type="author"><name><surname>Xie</surname><given-names>Dan</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201905049-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201905049-cr-0004" contrib-type="author"><name><surname>Palatinus</surname><given-names>Luk&#x000e1;&#x00161;</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201905049-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="anie201905049-cr-0005" contrib-type="author"><name><surname>Pascual</surname><given-names>Jesus</given-names></name><xref ref-type="aff" rid="anie201905049-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201905049-cr-0006" contrib-type="author"><name><surname>Hwang</surname><given-names>Son&#x02010;Jong</given-names><prefix>Dr.</prefix></name><xref ref-type="aff" rid="anie201905049-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="anie201905049-cr-0007" contrib-type="author"><name><surname>Schmidt</surname><given-names>Joel E.</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0039-2863</contrib-id><xref ref-type="aff" rid="anie201905049-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="anie201905049-cr-0008" contrib-type="author"><name><surname>McCusker</surname><given-names>Lynne B.</given-names><prefix>Dr.</prefix></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0074-1733</contrib-id><xref ref-type="aff" rid="anie201905049-aff-0006">
+<sup>6</sup>
+</xref><xref ref-type="aff" rid="anie201905049-aff-0007">
+<sup>7</sup>
+</xref></contrib></contrib-group><aff id="anie201905049-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Materials and Environmental Chemistry</named-content>
+<institution>Stockholm University</institution>
+<named-content content-type="post-code">10691</named-content>
+<named-content content-type="city">Stockholm</named-content>
+<country country="SE">Sweden</country>
+</aff><aff id="anie201905049-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Kavli Institute of Nanoscience</named-content>
+<institution>Delft University of Technology</institution>
+<named-content content-type="post-code">2629</named-content>
+<named-content content-type="country-part">HZ</named-content>
+<named-content content-type="city">Delft</named-content>
+<country country="NL">The Netherlands</country>
+</aff><aff id="anie201905049-aff-0003">
+<label><sup>3</sup></label>
+<institution>Chevron Energy Technology Company</institution>
+<named-content content-type="city">Richmond</named-content>
+<named-content content-type="country-part">CA</named-content>
+<named-content content-type="post-code">94802</named-content>
+<country country="US">USA</country>
+</aff><aff id="anie201905049-aff-0004">
+<label><sup>4</sup></label>
+<institution>Institute of Physics of the Czech Academy of Sciences</institution>
+<named-content content-type="street">Na Slovance 2</named-content>
+<named-content content-type="city">Prague</named-content>
+<country country="CZ">Czech Republic</country>
+</aff><aff id="anie201905049-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Division of Chemistry and Chemical Engineering</named-content>
+<institution>California Institute of Technology</institution>
+<named-content content-type="city">Pasadena</named-content>
+<named-content content-type="country-part">CA</named-content>
+<named-content content-type="post-code">91125</named-content>
+<country country="US">USA</country>
+</aff><aff id="anie201905049-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Department of Materials</named-content>
+<institution>ETH Zurich</institution>
+<named-content content-type="street">Vladimir-Prelog-Weg 5</named-content>
+<named-content content-type="post-code">8093</named-content>
+<named-content content-type="city">Zurich</named-content>
+<country country="CH">Switzerland</country>
+</aff><aff id="anie201905049-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Department of Chemical Engineering</named-content>
+<institution>University of California, Santa Barbara</institution>
+<named-content content-type="city">CA</named-content>
+<named-content content-type="post-code">93106</named-content>
+<country country="US">USA</country>
+</aff><pub-date pub-type="epub"><day>21</day><month>8</month><year>2019</year></pub-date><pub-date pub-type="ppub"><day>09</day><month>9</month><year>2019</year></pub-date><volume>58</volume><issue>37</issue><issue-id pub-id-type="doi">10.1002/anie.v58.37</issue-id><issue-title content-type="special-issue-title">Science Forum 2019</issue-title><fpage>13080</fpage><lpage>13086</lpage><history><date date-type="received"><day>23</day><month>4</month><year>2019</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2019 Wiley&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2019 The Authors. Published by Wiley-VCH Verlag GmbH &#x00026; Co. KGaA.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:ANIE-58-13080.pdf"/><abstract><title>Abstract</title><p>The high&#x02010;silica zeolite SSZ&#x02010;27 was synthesized using one of the isomers of the organic structure&#x02010;directing agent that is known to produce the large&#x02010;pore zeolite SSZ&#x02010;26 (<bold>CON</bold>). The structure of the as&#x02010;synthesized form was solved using multi&#x02010;crystal electron diffraction data. Data were collected on eighteen crystals, and to obtain a high&#x02010;quality and complete data set for structure refinement, hierarchical cluster analysis was employed to select the data sets most suitable for merging. The framework structure of SSZ&#x02010;27 can be described as a combination of two types of cavities, one of which is shaped like a heart. The cavities are connected through shared 8&#x02010;ring windows to create straight channels that are linked together in pairs to form a one&#x02010;dimensional channel system. Once the framework structure was known, molecular modelling was used to find the best fitting isomer, and this, in turn, was isolated to improve the synthesis conditions for SSZ&#x02010;27.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="anie201905049-kwd-0001">zeolites</kwd><kwd id="anie201905049-kwd-0002">electron diffraction</kwd><kwd id="anie201905049-kwd-0003">SSZ-27</kwd><kwd id="anie201905049-kwd-0004">structure determination</kwd><kwd id="anie201905049-kwd-0005">structure-directing agents (SDAs)</kwd></kwd-group><funding-group><award-group><funding-source>Swiss National Science Foundation</funding-source><award-id>165282</award-id><award-id>177761</award-id></award-group><award-group><funding-source>Knut and Alice Wallenberg Foundation</funding-source><award-id>3DEM-NATUR</award-id></award-group><award-group><funding-source>National Science Foundation</funding-source><award-id>9724240</award-id><award-id>DMR-520565</award-id></award-group></funding-group><counts><fig-count count="10"/><table-count count="1"/><ref-count count="36"/><page-count count="7"/><word-count count="0"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>anie201905049</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>September 9, 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.6.9 mode:remove_FC converted:01.10.2019</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="anie201905049-self">S. Smeets, S. I. Zones, D. Xie, L. Palatinus, J. Pascual, S.-J. Hwang, J. E. Schmidt, L. B. McCusker, <italic>Angew. Chem. Int. Ed.</italic>
+<bold>2019</bold>, <italic>58</italic>, 13080.</mixed-citation>
+</p></notes></front><body><sec id="anie201905049-sec-0001"><title>Introduction</title><p>A number of novel high&#x02010;silica zeolite structures have been found through exploratory synthesis trials that combine an organic guest molecule, usually a quaternary ammonium compound, with a variety of synthetic conditions. We have recently described how the inorganic conditions chosen in the hydrothermal reaction can bias the crystalline product in terms of the sub&#x02010;units likely to occur in the zeolite structure.<xref rid="anie201905049-bib-0001" ref-type="ref">1</xref> For example, syntheses can be tuned or modified to produce zeolites with relatively moderate SiO<sub>2</sub>/Al<sub>2</sub>O<sub>3</sub> ratios (SAR) and small pores running multi&#x02010;dimensionally between cages (where the organic guest is found in the as&#x02010;synthesized zeolite). This is particularly relevant in the search for materials with high performance in DeNOx reactions in the SCR (selective catalytic reduction) components in diesel emission systems,<xref rid="anie201905049-bib-0002" ref-type="ref">2</xref> in which there is high interest in novel small&#x02010;pore zeolites. High hydroxide levels and the presence of one of a number of alicyclic ring derivatives produce zeolites yielding an optimum DeNOx catalyst once the counter ions have been exchanged with copper or iron cations. In the various zeolite framework types discovered over the last few decades,<xref rid="anie201905049-bib-0003" ref-type="ref">3</xref> there is a wide range of channel and cage architectures to choose from. A description of various unique zeolitic features with examples are given in Table&#x02005;S1 (Supporting Information).</p><p>Herein we explore how the synthesis of a diquaternary organic structure&#x02010;directing agent (SDA) results in different isomeric versions of the SDA, and how a small difference can lead to the formation of a different zeolite framework. Figure&#x02005;<xref rid="anie201905049-fig-0001" ref-type="fig">1</xref> shows the synthesis path that produces the isomers and their labelling from an earlier work.<xref rid="anie201905049-bib-0004" ref-type="ref">4</xref> Initially, we focused on the production of zeolite SSZ&#x02010;26 (<bold>CON</bold>) and showed that it could be made from two well&#x02010;described isomers (isomers&#x02005;I and&#x02005;III).<xref rid="anie201905049-bib-0004" ref-type="ref">4</xref> The concept for developing these isomers was to break the fit of an SDA into either 1)&#x02005;a cage accessed by smaller portals, or 2)&#x02005;a single large pore. A past study, juxtaposing the size of the SDA and the SAR conditions, shows a breakdown into 5&#x02005;types of zeolite products.<xref rid="anie201905049-bib-0005" ref-type="ref">5</xref> At the time, we succeeded in creating a material with intersecting pores. In fact, this was the first discovery of a zeolite (SSZ&#x02010;26) with both large&#x02010; and medium&#x02010;sized pores.<xref rid="anie201905049-bib-0006" ref-type="ref">6</xref> During the course of the synthesis explorations for SSZ&#x02010;26, we occasionally encountered a different product. Early microporosity studies on the impurity phase, which we termed SSZ&#x02010;27, indicated that it had only small pores and selective hydrocarbon uptake. At the time, these materials were not of much developmental interest for catalysis or for separations, so further characterization of SSZ&#x02010;27 was not pursued. However, interest in small pore zeolites has recently taken a dramatic upward turn. We therefore revisited the synthesis of SSZ&#x02010;27, and show here that the conformation of one of the isolated isomers of the diquaternary SDA (isomer&#x02005;III) is such that it fits particularly well into one of the cavities of SSZ&#x02010;27. Here we present the reaction conditions and modelling results that led to the synthesis of SSZ&#x02010;27 and to an understanding of how it forms, and its structure determination from electron diffraction data.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Synthesis scheme to make the diquaternary ammonium isomers used in SSZ&#x02010;26 (<bold>CON</bold>) and their labelling. Isomer&#x02005;III is used in the synthesis of SSZ&#x02010;27.</p></caption><graphic id="nlm-graphic-3" xlink:href="ANIE-58-13080-g001"/></fig></sec><sec id="anie201905049-sec-0002"><title>Results and Discussion</title><sec id="anie201905049-sec-0003"><title>Synthesis</title><p>Our point of departure was the synthesis of the diquaternary SDA, shown in Figure&#x02005;<xref rid="anie201905049-fig-0001" ref-type="fig">1</xref>. The concept was to build on the established organic synthesis chemistry of Ginsberg and others<xref rid="anie201905049-bib-0007" ref-type="ref">7</xref>, <xref rid="anie201905049-bib-0008" ref-type="ref">8</xref> to build fused molecules called propellanes. In this way we could make derivatives that might promote the construction of channels in the zeolite framework that would extend in more than one direction. We could convert the resulting dione to a di&#x02010;tertiary amine in one step using the Leuckart reaction.<xref rid="anie201905049-bib-0009" ref-type="ref">9</xref> These diamines can then be quaternized using methyl iodide. Note that in the formation of the diamine, the isomeric possibilities (there are&#x02005;3 at this step) are fixed. Individual isomers were recovered by selective recrystallization methods and their structures determined using single&#x02010;crystal X&#x02010;ray diffraction data.<xref rid="anie201905049-bib-0004" ref-type="ref">4</xref>
+</p><p>For the zeolite synthesis, we used a set of inorganic component ratios consistent with earlier work on high silica zeolites like ZSM&#x02010;5 (<bold>MFI</bold>), where a reduced hydroxide to silica ratio was needed to create structures rich in 5&#x02010;ring sub&#x02010;units. An important finding proved to be the need to reduce the alkali content while retaining the amount of hydroxide, and this was achieved by replacing the alkali cations with the quaternary ammonium centres. This change reduces the intrusion of high&#x02010;silica zeolite competitors such as Mordenite and Magadiite, which require sodium in the synthesis.<xref rid="anie201905049-bib-0010" ref-type="ref">10</xref> As we were exploring the synthesis conditions for SSZ&#x02010;26, we occasionally encountered SSZ&#x02010;27 as a by&#x02010;product. SSZ&#x02010;27 formed well&#x02010;defined homogenous crystals (Figure&#x02005;<xref rid="anie201905049-fig-0002" ref-type="fig">2</xref>). A comparison of the X&#x02010;ray powder diffraction patterns for SSZ&#x02010;26 and SSZ&#x02010;27 is shown in Figure&#x02005;<xref rid="anie201905049-fig-0002" ref-type="fig">2</xref>. Experimental details of the SDA and zeolite synthesis can be found in the Supporting Information.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>XRPD pattern for SSZ&#x02010;26 (<bold>CON</bold>) and SSZ&#x02010;27, both as&#x02010;synthesized. The inset shows an SEM image of as&#x02010;synthesized SSZ&#x02010;27. Note that the SSZ&#x02010;27 sample shown may contain an SSZ&#x02010;26 impurity (see text).</p></caption><graphic id="nlm-graphic-5" xlink:href="ANIE-58-13080-g002"/></fig></sec><sec id="anie201905049-sec-0004"><title>Structure Determination using Electron Diffraction Data</title><p>Preliminary characterizations of SSZ&#x02010;27 using XRPD revealed several unindexed peaks, which were identified as coming from quartz and SSZ&#x02010;26 (<bold>CON</bold>) impurity phases (Supporting Information). In view of the fact that obtaining a pure sample of SSZ&#x02010;27 was proving to be difficult (more on this below), we opted to collect electron diffraction (ED) data using the continuous rotation method,<xref rid="anie201905049-bib-0011" ref-type="ref">11</xref>, <xref rid="anie201905049-bib-0012" ref-type="ref">12</xref> which offers a combination of fast acquisition times and high data completeness, because all of reciprocal space is sampled. We used a recently developed crystal tracking routine to ensure that the crystal stayed in the electron beam during rotation<xref rid="anie201905049-bib-0013" ref-type="ref">13</xref> implemented in the software Instamatic.<xref rid="anie201905049-bib-0014" ref-type="ref">14</xref> This makes it easier to collect data with high rotation ranges, and at the same time enables more accurate integration of the reflection intensities for structure refinement. Diffraction data were collected on eighteen isolated crystals between 200 and 1000&#x02005;nm in size over three sessions (Supporting information Table&#x02005;S2 and Figure&#x02005;S2). Unit cell determination, indexing, and intensity integration were performed using XDS<xref rid="anie201905049-bib-0015" ref-type="ref">15</xref> (Supporting information Tables&#x02005;S4 and S5). The patterns of fourteen crystals could be indexed with very similar unit cells, with mean lattice parameters of <italic>a</italic>=24.12(14)&#x02005;&#x000c5;, <italic>b</italic>=13.81(6)&#x02005;&#x000c5;, <italic>c</italic>=25.07(10)&#x02005;&#x000c5;, <italic>&#x003b2;</italic>=115.19(18)&#x000b0; in space group <mml:math id="nlm-math-1"><mml:mrow><mml:mi>C</mml:mi><mml:mn>2</mml:mn><mml:mo>/</mml:mo><mml:mi>m</mml:mi></mml:mrow></mml:math>
+, matching the unit cell found for SSZ&#x02010;27 in our preliminary XRPD assessment (Supporting Information). The cell parameters of SSZ&#x02010;27 were optimized using the synchrotron XRPD data and the Pawley<xref rid="anie201905049-bib-0016" ref-type="ref">16</xref> profile&#x02010;fitting routine in TOPAS&#x02005;5,<xref rid="anie201905049-bib-0017" ref-type="ref">17</xref> yielding a good profile fit with <italic>a</italic>=23.29&#x02005;&#x000c5;, <italic>b</italic>=13.37&#x02005;&#x000c5;, <italic>c</italic>=24.38&#x02005;&#x000c5;, <italic>&#x003b2;</italic>=114.23&#x000b0;. Several of the fourteen ED data sets could be used for structure determination using the programs FOCUS<xref rid="anie201905049-bib-0018" ref-type="ref">18</xref>, <xref rid="anie201905049-bib-0019" ref-type="ref">19</xref> and SHELXT,<xref rid="anie201905049-bib-0020" ref-type="ref">20</xref> revealing the framework structure of SSZ&#x02010;27 (Figure&#x02005;<xref rid="anie201905049-fig-0003" ref-type="fig">3</xref>&#x02009;a). The remaining four crystals had a unit cell matching SSZ&#x02010;26 (<bold>CON</bold>). A detailed characterization of the SSZ&#x02010;26 crystals can be found in the Supporting Information.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>a)&#x02005;Schematic representation of the crystal structure of SSZ&#x02010;27 with the heart&#x02010;shaped cavities (50T) in green, and the 42T cavities in blue. Each 42T cavity connects four heart&#x02010;shaped cavities through 8&#x02010;ring windows, forming one&#x02010;dimensional channels along the <italic>y</italic>&#x02010;axis. Red lines indicate the direction of a pair of 8&#x02010;ring straight channels. The 8&#x02010;ring channels are linked through the 42T cavities. The heart&#x02010;shaped cavities can be viewed as large side pockets. Views of the framework structure along the b)&#x02005;<italic>x</italic>&#x02010; and c)&#x02005;<italic>z</italic>&#x02010;axes showing the ADPs at 50&#x02009;% probability. Red&#x02005;Si, blue&#x02005;O.</p></caption><graphic id="nlm-graphic-7" xlink:href="ANIE-58-13080-g003"/></fig><p>Because the crystal system of SSZ&#x02010;27 is monoclinic, none of the ED data sets had a completeness of more than 90&#x02009;%, which is required for a good structure refinement. Therefore, to improve data completeness and redundancy, several data sets were merged. We performed hierarchical cluster analysis (HCA) on the fourteen data sets using the algorithm described by Giordano and co&#x02010;workers<xref rid="anie201905049-bib-0021" ref-type="ref">21</xref> to find the optimal selection of data sets for merging. We have found this approach to be useful for dealing with large multi&#x02010;crystal ED data sets.<xref rid="anie201905049-bib-0022" ref-type="ref">22</xref> The distance metric <italic>t</italic>, which defines the similarity between the data sets, is derived from the correlation coefficients of the common reflection intensities (<mml:math id="nlm-math-2"><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mi>I</mml:mi></mml:msub></mml:mrow></mml:math>
+) in pairs of data sets, and the &#x0201c;average&#x0201d; linkage method is used. The clusters can be visualized in a dendrogram (Figure&#x02005;<xref rid="anie201905049-fig-0004" ref-type="fig">4</xref>&#x02009;a), which facilitates finding a suitable cut distance, although finding the right value involved some trial and error. Finally, a cut distance <italic>t</italic>=0.32, equivalent to <mml:math id="nlm-math-3"><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mi>I</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>.</mml:mo><mml:mn>95</mml:mn></mml:mrow></mml:math>
+, was used. In our experience with HCA, clusters with <italic>t</italic>&#x0003c;0.40 usually result in useful data sets. Herein, two clusters were obtained, where the largest cluster, consisting of 10&#x02005;data sets (shown in red in Figure&#x02005;<xref rid="anie201905049-fig-0004" ref-type="fig">4</xref>&#x02009;a), comprised the highest data quality (assessed via <mml:math id="nlm-math-4"><mml:mrow><mml:mi>C</mml:mi><mml:msub><mml:mi>C</mml:mi><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math>
+<xref rid="anie201905049-bib-0023" ref-type="ref">23</xref>) and completeness (Supporting Information Table&#x02005;S6). The scripts for cluster analysis are available online from <ext-link ext-link-type="uri" xlink:href="https://github.com/stefsmeets/edtools">https://github.com/stefsmeets/edtools</ext-link>.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>a)&#x02005;Dendrogram showing the correlation between the SSZ&#x02010;27 data sets (crystals S1&#x02013;S14) corresponding to the data shown in Table&#x02005;S4 (Supporting Information). The cut distance set at 0.32 is represented by the horizontal line. Two clusters (green, red) can be identified. b)&#x02005;<mml:math id="nlm-math-5"><mml:msqrt><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi mathvariant="normal">o</mml:mi><mml:mi mathvariant="normal">b</mml:mi><mml:mi mathvariant="normal">s</mml:mi></mml:mrow></mml:msub></mml:msqrt></mml:math>
+vs. <mml:math id="nlm-math-6"><mml:msqrt><mml:msub><mml:mi>I</mml:mi><mml:mrow><mml:mi mathvariant="normal">c</mml:mi><mml:mi mathvariant="normal">a</mml:mi><mml:mi mathvariant="normal">l</mml:mi><mml:mi mathvariant="normal">c</mml:mi></mml:mrow></mml:msub></mml:msqrt></mml:math>
+plot for the refinement of SSZ&#x02010;27. The refinement details can be found in Table&#x02005;S7 (Supporting Information).</p></caption><graphic id="nlm-graphic-9" xlink:href="ANIE-58-13080-g004"/></fig><p>The ten data sets belonging to the largest cluster were merged using XSCALE<xref rid="anie201905049-bib-0015" ref-type="ref">15</xref> and structure refinement was initiated using the lattice parameters obtained from the XRPD data, reasoning that these would be more accurate than those obtained from ED data. Indeed, this immediately resulted in more reasonable average Si&#x02212;O bond lengths. Restraints on the Si&#x02212;O distances and O&#x02010;Si&#x02010;O angles were not necessary. The atomic displacement parameters (ADPs) for all framework atoms were refined anisotropically. In the final stages of the refinement, the SWAT instruction was introduced to model the diffuse species in the channels (such as, the SDA, residual water, Na<sup>+</sup>). This instruction suppresses the contribution from the strong, low&#x02010;angle reflections where the contribution of extra&#x02010;framework species is strongest. This significantly reduced the <italic>R</italic>1 value, and resulted in more meaningful shapes for the ADPs (Figure&#x02005;<xref rid="anie201905049-fig-0003" ref-type="fig">3</xref>&#x02009;b,c). The refinement of the framework structure of SSZ&#x02010;27 converged with <italic>R1</italic>=0.178, <italic>wR2</italic>=0.486, and <italic>S</italic>=1.47 (Figure&#x02005;<xref rid="anie201905049-fig-0004" ref-type="fig">4</xref>&#x02009;b). Crystallographic details and the geometry of the zeolite framework are summarized in the Supporting information (Tables&#x02005;S6&#x02013;S8).</p><p>Recently, we showed that physically meaningful anisotropic ADPs can be obtained from ED data, provided these are of sufficiently high quality.<xref rid="anie201905049-bib-0013" ref-type="ref">13</xref> ADPs are known to act as a &#x0201c;fudge factor&#x0201d; for poor quality data. For this reason, they are often refined isotropically or their physical meaning is ignored. In the case of SSZ&#x02010;27, the anisotropic refinement of the ADPs was stable without the addition of restraints and their values are physically sensible (Figure&#x02005;<xref rid="anie201905049-fig-0003" ref-type="fig">3</xref>&#x02009;b,c). They are slightly elongated along the <italic>z</italic>&#x02010;direction, which we attribute to lower data redundancy along this direction. The ADPs of the O&#x02005;atoms are slightly larger than those for Si, and elongated in the direction perpendicular to the plane formed by the Si&#x02010;O&#x02010;Si bonds. The fact that reliable ADPs can be obtained for submicron&#x02010;sized crystals from ED data may open up new possibilities for studying the atomic vibrations or static disorder in zeolites that do not grow large enough for X&#x02010;ray single&#x02010;crystal analysis. Finally, we attempted to find the position of the SDA from the ED data. To do so, the SWAT instruction was removed, and a difference map generated. Although the difference map clearly revealed two large clouds of residual electrostatic potential (Supporting Information Figure&#x02005;S3), refinement of the SDA in the heart&#x02010;shaped cavity was not stable, so we had to conclude that the data do not support refinement of the SDA at this stage (see also the Supporting information).</p></sec><sec id="anie201905049-sec-0005"><title>Framework Structure</title><p>The structure analysis confirmed that SSZ&#x02010;27 is indeed a small pore zeolite. As mentioned earlier, the data also revealed the presence of a small, but noticeable amount of SSZ&#x02010;26. The framework structure of SSZ&#x02010;27 is characterized by two types of cavities (Figure&#x02005;<xref rid="anie201905049-fig-0005" ref-type="fig">5</xref>&#x02009;a,b). The larger, heart&#x02010;shaped cavity consists of 50 T&#x02010;atoms ([8<sup>2</sup>6<sup>10</sup>5<sup>10</sup>4<sup>6</sup>]), and has two 8&#x02010;ring windows with free dimensions of 3.6&#x000d7;5.5&#x02005;&#x000c5; (Supporting Information Figure&#x02005;S4), which are shared with a smaller cavity of 42 T&#x02010;atoms ([8<sup>4</sup>6<sup>8</sup>4<sup>6</sup>]). Each 42T cavity, delimited by a 14&#x02010;ring perpendicular to the <italic>z</italic>&#x02010;axis, connects four heart&#x02010;shaped cavities together. Figure&#x02005;<xref rid="anie201905049-fig-0006" ref-type="fig">6</xref> shows the orientation of the heart&#x02010;shaped cavities with respect to the 42T cavities and the layer they form in the <italic>xz</italic>&#x02010;plane. Each layer is shifted by (<mml:math id="nlm-math-7"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
+, <mml:math id="nlm-math-8"><mml:mrow><mml:mn>1</mml:mn><mml:mo>/</mml:mo><mml:mn>2</mml:mn></mml:mrow></mml:math>
+, 0) with respect to the adjacent one. SSZ&#x02010;27 has a one&#x02010;dimensional channel system. A pair of linked straight 8&#x02010;ring channels runs along the <italic>y</italic>&#x02010;axis, alternating between single 42T and two heart&#x02010;shaped cavities. The heart&#x02010;shaped cavities can be viewed as large side&#x02010;pockets. This means that despite this being a small&#x02010;pore zeolite, the internal volume is relatively large (Figure&#x02005;<xref rid="anie201905049-fig-0003" ref-type="fig">3</xref>).
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Schematic representation of a)&#x02005;the small 42T cavity, b)&#x02005;the heart&#x02010;shaped cavity observed in SSZ&#x02010;27, and c)&#x02005;the heart&#x02010;shaped cavity observed in ITQ&#x02010;55. The differences between the heart&#x02010;shaped cavities are highlighted in green.</p></caption><graphic id="nlm-graphic-11" xlink:href="ANIE-58-13080-g005"/></fig><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Schematic representation of the framework structure of SSZ&#x02010;27 along the <italic>y</italic>&#x02010;axis showing the arrangement of the heart&#x02010;shaped and 42T cavities in the <italic>xz</italic>&#x02010;plane. The structure can be described in terms of layers that stack along the <italic>y</italic>&#x02010;axis, where pink depicts the <italic>y</italic>=0.50&#x000b1;0.25 layer and blue the <italic>y</italic>=1.00&#x000b1;0.25 layer. The layers are connected via 8&#x02010;rings that connect each 42T cavity with 4&#x02005;heart&#x02010;shaped cavities in the adjacent layers, forming 1D channels running parallel to the <italic>y</italic>&#x02010;axis. O&#x02005;atoms are omitted for clarity.</p></caption><graphic id="nlm-graphic-13" xlink:href="ANIE-58-13080-g006"/></fig><p>Another small&#x02010;pore zeolite with a slightly different heart&#x02010;shaped cavity was reported recently by Bereciartua and co&#x02010;workers.<xref rid="anie201905049-bib-0024" ref-type="ref">24</xref> The framework structure of this zeolite, ITQ&#x02010;55, consists of heart&#x02010;shaped cavities exclusively. These 48 T&#x02010;atom cavities ([8<sup>3</sup>6<sup>8</sup>5<sup>8</sup>4<sup>9</sup>]) are interconnected via three shared 8&#x02010;ring windows forming a 2&#x02010;dimensional channel system. The difference between the ITQ&#x02010;55 and SSZ&#x02010;27 heart&#x02010;shaped cavities is that two 4&#x02010;rings and one 8&#x02010;ring in the ITQ&#x02010;55 cavity are replaced by two 6&#x02010;rings and two 5&#x02010;rings in SSZ&#x02010;27 (Figure&#x02005;<xref rid="anie201905049-fig-0005" ref-type="fig">5</xref>&#x02009;b,&#x02009;c). Furthermore, the 8&#x02010;ring openings in ITQ&#x02010;55 appear to be more restricted (free dimensions: 2.1&#x000d7;5.8&#x02005;&#x000c5; and 3.4&#x000d7;5.3&#x02005;&#x000c5;) than those in SSZ&#x02010;27 (3.6&#x000d7;5.5&#x02005;&#x000c5;; Supporting Information Figure&#x02005;S5).</p><p>To our knowledge, the <bold>EEI</bold>
+<xref rid="anie201905049-bib-0025" ref-type="ref">25</xref>, <xref rid="anie201905049-bib-0026" ref-type="ref">26</xref> framework type is the only one besides that of SSZ&#x02010;27 with small pores, a one&#x02010;dimensional channel system, and large side pockets. In our previous experiments, SSZ&#x02010;45 (<bold>EEI</bold>) showed a surprisingly low N<sub>2</sub> microporosity (0.056&#x02005;cm<sup>3</sup>&#x02009;g<sup>&#x02212;1</sup>),<xref rid="anie201905049-bib-0026" ref-type="ref">26</xref> which appeared to be limited by the fact that the connection between the cavities involves two 8&#x02010;rings (i.e. forms a short channel) and is relatively rigid. In contrast, the micropore volume of 0.14&#x02005;cm<sup>3</sup>&#x02009;g<sup>&#x02212;1</sup> found for SSZ&#x02010;27 is much more in line with what is expected for a zeolite (Supporting Information Figure&#x02005;S1). We suspect that the pore configuration consisting of only a single 8&#x02010;ring window connecting the large cavities allows for much more efficient diffusion.</p></sec><sec id="anie201905049-sec-0006"><title>Molecular Modelling and the Location of the SDA</title><p>The molecular modelling results show that the SDA is located exclusively in the heart&#x02010;shaped cavity, which fits around the SDA (isomer&#x02005;III) like a glove (Figure&#x02005;<xref rid="anie201905049-fig-0007" ref-type="fig">7</xref>). At a maximum occupancy of 0.5 on a position of mirror symmetry, there is one SDA (with two possible orientations) per heart&#x02010;shaped cavity, or four (8 N<sup>+</sup>) per unit cell. Based on elemental analyses (Supporting Information Table&#x02005;S12), the Si:Al ratio of the framework was estimated to be 14.5, which translates to 7.5 Al per unit cell, so the charge from the SDA balances that of the framework nicely. This would indicate that there are no additional organic cations in the 42T cavity, where the second cloud of residual electrostatic potential was found, and that is consistent with the fact that the cavity is too small to accommodate an SDA cation. On the other hand, the elemental analysis also indicates the presence of a small amount of residual Na<sup>+</sup> (approximately 1.0 per cell), which could be located in the 42T cavity with an occupancy of 0.5. This may indicate that the SDA is not fully occupied, which we have observed before.<xref rid="anie201905049-bib-0027" ref-type="ref">27</xref>, <xref rid="anie201905049-bib-0028" ref-type="ref">28</xref>, <xref rid="anie201905049-bib-0029" ref-type="ref">29</xref> The rest of the 42T cavity is probably filled with residual water.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Modelling fit and energetics for a)&#x02005;isomer&#x02005;I (&#x02212;3.66&#x02005;kJ/Mol), b)&#x02005;isomer&#x02005;II (&#x02212;3.31&#x02005;kJ/Mol), and c)&#x02005;isomer&#x02005;III (&#x02212;8.95&#x02005;kJ/Mol) in the heart&#x02010;shaped cavities of SSZ&#x02010;27. d)&#x02005;close&#x02010;up view of isomer&#x02005;III. Grey&#x02005;C, white&#x02005;H, blue&#x02005;N.</p></caption><graphic id="nlm-graphic-15" xlink:href="ANIE-58-13080-g007"/></fig><p>It has been observed experimentally,<xref rid="anie201905049-bib-0030" ref-type="ref">30</xref> and predicted computationally<xref rid="anie201905049-bib-0031" ref-type="ref">31</xref> that the SDA can direct the location of Al in aluminosilicates. We have previously observed this for borosilicates, in which B&#x02005;atoms are preferentially located in close proximity to the N<sup>+</sup> centre in the SDA.<xref rid="anie201905049-bib-0027" ref-type="ref">27</xref>, <xref rid="anie201905049-bib-0031" ref-type="ref">31</xref> In SSZ&#x02010;27, the SDA appears to be located exclusively in the heart&#x02010;shaped cavity, which suggests that the Al is likely to be at the surface of this cavity too. We hypothesize that this means that all the active sites are accessible in the side pockets created by the heart&#x02010;shaped cavities, whereas the main straight channels are relatively free of active sites, and this might reduce the potential for blockage.</p></sec><sec id="anie201905049-sec-0007"><title>NMR Spectroscopy</title><p>Figure&#x02005;<xref rid="anie201905049-fig-0008" ref-type="fig">8</xref> shows the <sup>13</sup>C MAS NMR spectra for the as&#x02010;made products in runs to make SSZ&#x02010;26 (with isomer&#x02005;I) and SSZ&#x02010;27 (with isomer&#x02005;III). Also shown are the spectra for the two separate isomers (I and&#x02005;III) in the crystalline solid state and in solution. There are clear differences in the <sup>13</sup>C MAS NMR spectra of the two isomers, but in both cases the lines become broader and less distinctive when they are entrapped in the SSZ&#x02010;26 and SSZ&#x02010;27 framework structures. Note that the <sup>13</sup>C resonances in the crystalline solid are more complicated than those in solution phase,<xref rid="anie201905049-bib-0004" ref-type="ref">4</xref> especially for peaks in the 35&#x02013;45&#x02005;ppm region for isomer&#x02005;I and the 45&#x02013;65&#x02005;ppm region for isomer&#x02005;III. The change may be attributed to the generation of less symmetric crystalline stacking of molecules during solidification. Therefore, the <sup>13</sup>C&#x02005;NMR spectra of the two zeolites do not provide a clear view of the structural difference between the isomers. However, <sup>13</sup>C cross&#x02010;polarization MAS (CPMAS) spectra in Figure&#x02005;<xref rid="anie201905049-fig-0008" ref-type="fig">8</xref>&#x02009;c differentiate resonances of methylene carbons in the 5&#x02010;membered rings (30&#x02013;45&#x02005;ppm) as well as the methyl groups.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>
+<sup>13</sup>C MAS NMR spectra for a)&#x02005;SSZ&#x02010;26 (red), isomer&#x02005;I in the solid state (blue) and in water (black), b)&#x02005;SSZ&#x02010;27 (red), isomer&#x02005;III in the solid state (blue) and in water (black). c)&#x02005;<sup>13</sup>C CPMAS&#x02010;NMR (0.5&#x02005;ms cross&#x02010;polarization contact time) spectra for SSZ&#x02010;26 and SSZ&#x02010;27.</p></caption><graphic id="nlm-graphic-17" xlink:href="ANIE-58-13080-g008"/></fig><p>To unambiguously show which isomer was occluded inside the two frameworks we dissolved the crystalline samples of SSZ&#x02010;26 and SSZ&#x02010;27 with HF and extracted the organic material for <sup>1</sup>H&#x02005;NMR analysis. Besides a slight shift because of the acidic condition after dissolution with HF, the <sup>1</sup>H&#x02005;NMR spectra (Figure&#x02005;<xref rid="anie201905049-fig-0009" ref-type="fig">9</xref>) clearly demonstrate that the isomers recovered from SSZ&#x02010;26 and SSZ&#x02010;27 can be identified as I and III, respectively. This proves that both samples contain only a single isomer, and that no interconversion occurred during zeolite synthesis and crystallization.
+</p><fig fig-type="Figure" xml:lang="en" id="anie201905049-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>Liquid&#x02010;phase <sup>1</sup>H&#x02005;NMR spectra for a)&#x02005;pure isomers&#x02005;I and&#x02005;III, and b)&#x02005;organic compounds extracted after dissolution of SSZ&#x02010;26 and SSZ&#x02010;27.</p></caption><graphic id="nlm-graphic-19" xlink:href="ANIE-58-13080-g009"/></fig><p>On the other hand, the ED structure analysis clearly showed that SSZ&#x02010;26 is a minor component in the SSZ&#x02010;27 sample studied. Additional modelling studies (Supporting information Table&#x02005;S13 and Figure&#x02005;S9) show that while isomer&#x02005;I significantly favours the formation of SSZ&#x02010;26 (&#x02212;7.6&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> Si) over SSZ&#x02010;27 (&#x02212;3.66&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> Si), isomer&#x02005;III only favors SSZ&#x02010;27 slightly (&#x02212;8.95&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> Si) over SSZ&#x02010;26 (&#x02212;8.18&#x02005;kJ&#x02009;mol<sup>&#x02212;1</sup> Si). Then it is perhaps not surprising that some SSZ&#x02010;26 formed in the presence of isomer&#x02005;III, albeit more slowly than SSZ&#x02010;27. Of course, the chemical environment of isomer&#x02005;III in SSZ&#x02010;26 will be slightly different from that in SSZ&#x02010;27 and this will contribute to the breadth of the <sup>13</sup>C&#x02005;NMR signals, making a definitive interpretation of the NMR spectra difficult. Additional NMR studies using nuclear Overhauser effect spectroscopy (NOESY) to better probe the details of the SDA within the zeolite are planned.</p></sec><sec id="anie201905049-sec-0008"><title>Additional Synthesis Studies</title><p>In an attempt to confirm the indications of the energy calculations that isomer&#x02005;I favors the formation of SSZ&#x02010;26 and isomer&#x02005;III SSZ&#x02010;27 experimentally, we performed a set of synthesis experiments where the two isomers (I and III) were used individually with and without seeding (Table&#x02005;<xref rid="anie201905049-tbl-0001" ref-type="table">1</xref>). It can be seen that in the case of isomer&#x02005;III, which shows the favourable space&#x02010;filling (Figure&#x02005;<xref rid="anie201905049-fig-0007" ref-type="fig">7</xref>), SSZ&#x02010;27 crystallizes. The formation is even faster if there is seeding with SSZ&#x02010;27. In contrast, the other two experiments yield no SSZ&#x02010;27 and eventually form SSZ&#x02010;26 after a much longer run period (4&#x02013;5 times longer). In the process of determining the crystallization requisites for reproducing the synthesis of SSZ&#x02010;27, we found that higher temperatures (170&#x02009;&#x000b0;C) favoured SSZ&#x02010;27 over SSZ&#x02010;26. The latter is typically made at 160&#x02009;&#x000b0;C. While the zeolite synthesis literature does describe some examples of crystallization of relatively open structures at higher temperatures, the general trend in crystallization is to produce open, metastable structures at short reaction times and lower temperatures and then zeolites with progressively higher framework density (sometimes through structure transformation<xref rid="anie201905049-bib-0033" ref-type="ref">33</xref>) at longer reaction times and higher temperatures. The void volumes in zeolite structures have an inverse relationship to framework density, and the framework structure of SSZ&#x02010;26, which crystallizes at the lower temperature, is in fact more open than that of SSZ&#x02010;27.
+</p><table-wrap id="anie201905049-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Crystallization selectivity for the use of 2&#x02005;SDA isomers.</p></caption><table frame="hsides" rules="groups"><col span="1"/><col span="1"/><col span="1"/><col span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th valign="top" rowspan="1" colspan="1">Run</th><th valign="top" rowspan="1" colspan="1">Isomer</th><th valign="top" rowspan="1" colspan="1">Seeded?</th><th valign="top" rowspan="1" colspan="1">Result</th></tr></thead><tbody valign="top"><tr><td valign="top" rowspan="1" colspan="1">
+<bold>1</bold>
+</td><td valign="top" rowspan="1" colspan="1">III</td><td valign="top" rowspan="1" colspan="1">Yes</td><td valign="top" rowspan="1" colspan="1">Good (SSZ&#x02010;27 formed)</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<bold>2</bold>
+</td><td valign="top" rowspan="1" colspan="1">III</td><td valign="top" rowspan="1" colspan="1">No</td><td valign="top" rowspan="1" colspan="1">Slower crystallization of SSZ&#x02010;27</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<bold>3</bold>
+</td><td valign="top" rowspan="1" colspan="1">I</td><td valign="top" rowspan="1" colspan="1">Yes</td><td valign="top" rowspan="1" colspan="1">No SSZ&#x02010;27, eventually SSZ&#x02010;26</td></tr><tr><td valign="top" rowspan="1" colspan="1">
+<bold>4</bold>
+</td><td valign="top" rowspan="1" colspan="1">I</td><td valign="top" rowspan="1" colspan="1">No</td><td valign="top" rowspan="1" colspan="1">No SSZ&#x02010;27, eventually SSZ&#x02010;26 (slower than in run&#x02005;<bold>3</bold>)</td></tr></tbody></table><permissions><copyright-holder>Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA</copyright-holder></permissions></table-wrap><p>Returning to the theme advanced in the introduction, alicyclic derivatized ring structures provide good guest molecules for the formation of cage&#x02010;based zeolites under the right synthetic conditions. The zeolite SSZ&#x02010;13 (<bold>CHA</bold>) was first discovered with a derivative of the polycyclic hydrocarbon, adamantane.<xref rid="anie201905049-bib-0034" ref-type="ref">34</xref> Similarly, a very large number of piperidine ring derivatives will make SSZ&#x02010;35 (<bold>STF</bold>).<xref rid="anie201905049-bib-0035" ref-type="ref">35</xref> The underlying aim in the synthesis was to produce guest molecules that have axes long enough to extend along the channels of a zeolite. This is true for the <italic>anti</italic>,<italic>anti</italic> isomeric derivative (isomer&#x02005;I) and, in fact, SSZ&#x02010;26 is the only zeolite made with this SDA. However, once both trimethyl ammonium groups have <italic>syn</italic>,<italic>syn</italic> configurations (isomer&#x02005;III), it is as though the molecule is beginning to fold in on itself to produce more of a cage structure. This was well&#x02010;illustrated in our previous work to produce a triquaternary imidazolium derivative off a central benzene ring, where the imidazolium charged groups folded in on themselves to stabilize the sizable cage of the small pore zeolite <bold>LTA</bold>.<xref rid="anie201905049-bib-0036" ref-type="ref">36</xref>
+</p></sec></sec><sec id="anie201905049-sec-0009"><title>Conclusion</title><p>Synthesis highlights in this work are that subtle changes in the rigid organo&#x02010;cation (SDA) stereochemistry can lead to entirely different zeolite (host lattice) structures as the framework develops around the guest molecule. In turn, as we continue to increase our database of known zeolite structures, and understand the spatial orientation of the guest SDA molecules in the lattice, our ability to create new pairings improves. That is, we can predict what type of host environment can accommodate the guest and in which orientation. Molecular modelling of the type seen herein can be used effectively to check on the feasibility of the orientation of the SDA in a prospective lattice. In addition, our understanding of how the inorganic conditions of a zeolite synthesis bias the potential for specific sub&#x02010;units in the developing structure provide another parameter in model building for creating space for a guest. The resurgence of discoveries related to ABC&#x02010;6 zeolites, small&#x02010;pore products with larger cages that host the organo&#x02010;cations, are a good example. The SSZ&#x02010;27 zeolite, rich in 5&#x02010;&#x02005;and 6&#x02010;ring subunits (which typically requires a higher Si/Al synthesis regime) is found to have a good spatial consistency with one particular SDA isomer, and then yields a highly unusual framework structure.</p><p>At the same time, developments in electron diffraction methodology, both hardware and software, have reached a point where high&#x02010;quality data can be collected routinely on a large number of crystals. As the XRPD data were insufficient for structure refinement, ED data were collected on eighteen crystals, four of which belonged to an SSZ&#x02010;26 impurity phase, corroborating our conclusions from the molecular modelling studies that SSZ&#x02010;26 forms equally well using all three isomers. The other fourteen crystals belonged to the SSZ&#x02010;27 phase. Key to this study is the application of hierarchical cluster analysis that leads to an optimal selection of data sets for structure refinement. This, in turn, helps to obtain more reliable and precise atomic coordinates of the framework, but also to get a handle on the atomic displacements of the atoms. The fact that physically meaningful atomic displacement parameters can be obtained from submicron&#x02010;sized crystals opens up new possibilities for studying atomic motion (e.g. internal vibrations) and disorder (static or dynamic). The framework structure that emerged for SSZ&#x02010;27 is that of a small&#x02010;pore zeolite with a one&#x02010;dimensional channel system connecting heart&#x02010;shaped cavities with smaller cavities through 8&#x02010;rings. Through molecular modelling, we were able to establish that the SDA is located exclusively in the heart&#x02010;shaped cavity. It is assumed that the other cavity contains water.</p></sec><sec sec-type="COI-statement" id="anie201905049-sec-0011"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><p>As a service to our authors and readers, this journal provides supporting information supplied by the authors. Such materials are peer reviewed and may be re&#x02010;organized for online delivery, but are not copy&#x02010;edited or typeset. Technical support issues arising from supporting information (other than missing files) should be addressed to the authors.</p></supplementary-material><supplementary-material content-type="local-data"><caption><p>Supplementary</p></caption><media xlink:href="ANIE-58-13080-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="anie201905049-sec-0010"><title>Acknowledgements</title><p>We thank Chevron Energy Technology Company for support and the continued interest in new zeolite materials from Dr. Robert Saxton and Dr. Georgie Scheuerman. We thank Dr. Ana Pinar and Dr. Antonio Cervellino for the powder diffraction measurements on the Materials Science Beamline at the SLS in Villigen, Switzerland and Dr. Kelvin Stone for help with measurements at the 2&#x02010;1 Powder Diffraction Beamline at the SSRL in Stanford (CA), US. We thank Kaustav Chaudhuri for the SEM images. This work was supported by the Swiss National Science Foundation (award numbers 165282 &#x00026; 177761). The electron diffraction experiments were supported by the Knut and Alice Wallenberg Foundation (3DEM&#x02010;NATUR). The NMR facility at the California Institute of Technology was supported by the National Science Foundation (NSF) under Grant Number 9724240 and partially supported by the MRSEC Program of the NSF under Award Number DMR&#x02010;520565.</p></ack><ref-list><ref id="anie201905049-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="anie201905049-cit-0001">
+<string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <source xml:lang="en">Microporous Mesoporous Mater.</source>
+<year>2011</year>, <volume>144</volume>, <fpage>1</fpage>&#x02013;<lpage>8</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="anie201905049-cit-0002">
+<string-name>
+<given-names>F.</given-names>
+<surname>Gao</surname>
+</string-name>, <string-name>
+<given-names>J. H.</given-names>
+<surname>Kwak</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Szanyi</surname>
+</string-name>, <string-name>
+<given-names>C. H. F.</given-names>
+<surname>Peden</surname>
+</string-name>, <source xml:lang="en">Top. Catal.</source>
+<year>2013</year>, <volume>56</volume>, <fpage>1441</fpage>&#x02013;<lpage>1459</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0003"><label>3</label><mixed-citation publication-type="book" id="anie201905049-cit-0003">
+<string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>D. H.</given-names>
+<surname>Olson</surname>
+</string-name>, <source xml:lang="en">Atlas of Zeolite Framework Types</source>, <publisher-name>Elsevier</publisher-name>, <publisher-loc>Amsterdam</publisher-loc>, <year>2007</year>.</mixed-citation></ref><ref id="anie201905049-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="anie201905049-cit-0004">
+<string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>M. M.</given-names>
+<surname>Olmstead</surname>
+</string-name>, <string-name>
+<given-names>D. S.</given-names>
+<surname>Santilli</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>1992</year>, <volume>114</volume>, <fpage>4195</fpage>&#x02013;<lpage>4201</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="anie201905049-cit-0005">
+<string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <source xml:lang="en">Microporous Mater.</source>
+<year>1994</year>, <volume>2</volume>, <fpage>281</fpage>&#x02013;<lpage>287</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="anie201905049-cit-0006">
+<string-name>
+<given-names>R. F.</given-names>
+<surname>Lobo</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Pan</surname>
+</string-name>, <string-name>
+<given-names>I.</given-names>
+<surname>Chan</surname>
+</string-name>, <string-name>
+<given-names>H.-X.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>R. C.</given-names>
+<surname>Medrud</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>P. A.</given-names>
+<surname>Crozier</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Davis</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>1993</year>, <volume>262</volume>, <fpage>1543</fpage>&#x02013;<lpage>1546</lpage>.<pub-id pub-id-type="pmid">17829383</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="anie201905049-cit-0007">
+<string-name>
+<given-names>S.</given-names>
+<surname>Bhanumati</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Ashkenazi</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Migdal</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Ginsburg</surname>
+</string-name>, <source xml:lang="en">Helv. Chim. Acta</source>
+<year>1983</year>, <volume>66</volume>, <fpage>2703</fpage>&#x02013;<lpage>2706</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="anie201905049-cit-0008">
+<string-name>
+<given-names>G.</given-names>
+<surname>Kubiak</surname>
+</string-name>, <string-name>
+<given-names>J. M.</given-names>
+<surname>Cook</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Weiss</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem.</source>
+<year>1984</year>, <volume>49</volume>, <fpage>561</fpage>&#x02013;<lpage>564</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="anie201905049-cit-0009">
+<string-name>
+<given-names>R. D.</given-names>
+<surname>Bach</surname>
+</string-name>, <source xml:lang="en">J. Org. Chem.</source>
+<year>1968</year>, <volume>33</volume>, <fpage>1647</fpage>&#x02013;<lpage>1649</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0010"><label>10</label><mixed-citation publication-type="book" id="anie201905049-cit-0010">
+<string-name>
+<given-names>M. E.</given-names>
+<surname>Davis</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name> in <source xml:lang="en">Synthesis of Porous Materials: Zeolites, Clays and Nanostructures</source>, <publisher-name>Marcel Dekker</publisher-name>, <publisher-loc>New York</publisher-loc>, <year>1997</year>, pp.&#x02005;<fpage>1</fpage>&#x02013;<lpage>34</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0011"><label>11</label><mixed-citation publication-type="book" id="anie201905049-cit-0011">
+<string-name>
+<given-names>U. W.</given-names>
+<surname>Arndt</surname>
+</string-name>, <string-name>
+<given-names>A. J.</given-names>
+<surname>Wonacott</surname>
+</string-name>, <source xml:lang="en">Rotation Method in Crystallography</source>, <publisher-name>North-Holland</publisher-name>, <publisher-loc>Amsterdam</publisher-loc>, <year>1977</year>.</mixed-citation></ref><ref id="anie201905049-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="anie201905049-cit-0012">
+<string-name>
+<given-names>I.</given-names>
+<surname>Nederlof</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>van&#x02005;Genderen</surname>
+</string-name>, <string-name>
+<given-names>Y.-W.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name>
+<given-names>J. P.</given-names>
+<surname>Abrahams</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. D</source>
+<year>2013</year>, <volume>69</volume>, <fpage>1223</fpage>&#x02013;<lpage>1230</lpage>.<pub-id pub-id-type="pmid">23793148</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="anie201905049-cit-0013">
+<string-name>
+<given-names>M. O.</given-names>
+<surname>Cichocka</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>&#x000c5;ngstr&#x000f6;m</surname>
+</string-name>, <string-name>
+<given-names>B.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zou</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2018</year>, <volume>51</volume>, <fpage>1652</fpage>&#x02013;<lpage>1661</lpage>.<pub-id pub-id-type="pmid">30546290</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0014"><label>14</label><mixed-citation publication-type="miscellaneous" id="anie201905049-cit-0014">S. Smeets, B. Wang, M.&#x02005;O. Cichocka, J. &#x000c5;ngstr&#x000f6;m, W. Wan, <italic>Instamatic 1.0</italic>, Zenodo, https://dx.doi.org/10.5281/zenodo.1090388, <bold>2018</bold>.</mixed-citation></ref><ref id="anie201905049-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="anie201905049-cit-0015">
+<string-name>
+<given-names>W.</given-names>
+<surname>Kabsch</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. D</source>
+<year>2010</year>, <volume>66</volume>, <fpage>125</fpage>&#x02013;<lpage>132</lpage>.<pub-id pub-id-type="pmid">20124692</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="anie201905049-cit-0016">
+<string-name>
+<given-names>G. S.</given-names>
+<surname>Pawley</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>1981</year>, <volume>14</volume>, <fpage>357</fpage>&#x02013;<lpage>361</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="anie201905049-cit-0017">
+<string-name>
+<given-names>A. A.</given-names>
+<surname>Coelho</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2018</year>, <volume>51</volume>, <fpage>210</fpage>&#x02013;<lpage>218</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="anie201905049-cit-0018">
+<string-name>
+<given-names>R. W.</given-names>
+<surname>Grosse-Kunstleve</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>1999</year>, <volume>32</volume>, <fpage>536</fpage>&#x02013;<lpage>542</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="anie201905049-cit-0019">
+<string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Mugnaioli</surname>
+</string-name>, <string-name>
+<given-names>U.</given-names>
+<surname>Kolb</surname>
+</string-name>, <source xml:lang="en">J. Appl. Crystallogr.</source>
+<year>2013</year>, <volume>46</volume>, <fpage>1017</fpage>&#x02013;<lpage>1023</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="anie201905049-cit-0020">
+<string-name>
+<given-names>G. M.</given-names>
+<surname>Sheldrick</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. A</source>
+<year>2015</year>, <volume>71</volume>, <fpage>3</fpage>&#x02013;<lpage>8</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="anie201905049-cit-0021">
+<string-name>
+<given-names>R.</given-names>
+<surname>Giordano</surname>
+</string-name>, <string-name>
+<given-names>R. M. F.</given-names>
+<surname>Leal</surname>
+</string-name>, <string-name>
+<given-names>G. P.</given-names>
+<surname>Bourenkov</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>McSweeney</surname>
+</string-name>, <string-name>
+<given-names>A. N.</given-names>
+<surname>Popov</surname>
+</string-name>, <source xml:lang="en">Acta Crystallogr. Sect. D</source>
+<year>2012</year>, <volume>68</volume>, <fpage>649</fpage>&#x02013;<lpage>658</lpage>.<pub-id pub-id-type="pmid">22683787</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0022"><label>22</label><mixed-citation publication-type="miscellaneous" id="anie201905049-cit-0022">B. Wang, X. Zou, S. Smeets, <italic>IUCrJ</italic>
+<bold>2019</bold>, <italic>6</italic>, <pub-id pub-id-type="doi">10.1107/S2052252519007681</pub-id>.</mixed-citation></ref><ref id="anie201905049-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="anie201905049-cit-0023">
+<string-name>
+<given-names>P. A.</given-names>
+<surname>Karplus</surname>
+</string-name>, <string-name>
+<given-names>K.</given-names>
+<surname>Diederichs</surname>
+</string-name>, <source xml:lang="en">Science</source>
+<year>2012</year>, <volume>336</volume>, <fpage>1030</fpage>&#x02013;<lpage>1033</lpage>.<pub-id pub-id-type="pmid">22628654</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="anie201905049-cit-0024">
+<string-name>
+<given-names>P. J.</given-names>
+<surname>Bereciartua</surname>
+</string-name>, <string-name>
+<given-names>&#x000c1;.</given-names>
+<surname>Cant&#x000ed;n</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Corma</surname>
+</string-name>, <string-name>
+<given-names>J. L.</given-names>
+<surname>Jord&#x000e1;</surname>
+</string-name>, <string-name>
+<given-names>M.</given-names>
+<surname>Palomino</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Rey</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Valencia</surname>
+</string-name>, <string-name>
+<given-names>E. W.</given-names>
+<surname>Corcoran</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Kortunov</surname>
+</string-name>, <string-name>
+<given-names>P. I.</given-names>
+<surname>Ravikovitch</surname>
+</string-name>, et&#x02005;al., <source xml:lang="en">Science</source>
+<year>2017</year>, <volume>358</volume>, <fpage>1068</fpage>&#x02013;<lpage>1071</lpage>.<pub-id pub-id-type="pmid">29170235</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="anie201905049-cit-0025">
+<string-name>
+<given-names>S.</given-names>
+<surname>Zanardi</surname>
+</string-name>, <string-name>
+<given-names>R.</given-names>
+<surname>Millini</surname>
+</string-name>, <string-name>
+<given-names>F.</given-names>
+<surname>Frigerio</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Belloni</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Cruciani</surname>
+</string-name>, <string-name>
+<given-names>G.</given-names>
+<surname>Bellussi</surname>
+</string-name>, <string-name>
+<given-names>A.</given-names>
+<surname>Carati</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Rizzo</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Montanari</surname>
+</string-name>, <source xml:lang="en">Microporous Mesoporous Mater.</source>
+<year>2011</year>, <volume>143</volume>, <fpage>6</fpage>&#x02013;<lpage>13</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="anie201905049-cit-0026">
+<string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>J. A.</given-names>
+<surname>Thompson</surname>
+</string-name>, <string-name>
+<given-names>H. S.</given-names>
+<surname>Lacheen</surname>
+</string-name>, <string-name>
+<given-names>H.-M.</given-names>
+<surname>Huang</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2014</year>, <volume>26</volume>, <fpage>3909</fpage>&#x02013;<lpage>3913</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="anie201905049-cit-0027">
+<string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Elomari</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2016</year>, <volume>138</volume>, <fpage>7099</fpage>&#x02013;<lpage>7106</lpage>.<pub-id pub-id-type="pmid">27181421</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="anie201905049-cit-0028">
+<string-name>
+<given-names>J. H.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Davis</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2016</year>, <volume>28</volume>, <fpage>6250</fpage>&#x02013;<lpage>6259</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="anie201905049-cit-0029">
+<string-name>
+<given-names>M. O.</given-names>
+<surname>Cichocka</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Lorgouilloux</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>Su</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Wan</surname>
+</string-name>, <string-name>
+<given-names>P.</given-names>
+<surname>Caullet</surname>
+</string-name>, <string-name>
+<given-names>N.</given-names>
+<surname>Bats</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>J.-L.</given-names>
+<surname>Paillaud</surname>
+</string-name>, <string-name>
+<given-names>X.</given-names>
+<surname>Zou</surname>
+</string-name>, <source xml:lang="en">Cryst. Growth Des.</source>
+<year>2018</year>, <volume>18</volume>, <fpage>2441</fpage>&#x02013;<lpage>2451</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="anie201905049-cit-0030">
+<string-name>
+<given-names>A. B.</given-names>
+<surname>Pinar</surname>
+</string-name>, <string-name>
+<given-names>L.</given-names>
+<surname>G&#x000f3;mez-Hortig&#x000fc;ela</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>J.</given-names>
+<surname>P&#x000e9;rez-Pariente</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2013</year>, <volume>25</volume>, <fpage>3654</fpage>&#x02013;<lpage>3661</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="anie201905049-cit-0031">
+<string-name>
+<given-names>K.</given-names>
+<surname>Muraoka</surname>
+</string-name>, <string-name>
+<given-names>W.</given-names>
+<surname>Chaikittisilp</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Yanaba</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Yoshikawa</surname>
+</string-name>, <string-name>
+<given-names>T.</given-names>
+<surname>Okubo</surname>
+</string-name>, <source xml:lang="en">Angew. Chem. Int. Ed.</source>
+<year>2018</year>, <volume>57</volume>, <fpage>3742</fpage>&#x02013;<lpage>3746</lpage>;</mixed-citation><mixed-citation publication-type="journal" id="anie201905049-cit-0032">
+<source xml:lang="en">Angew. Chem.</source>
+<year>2018</year>, <volume>130</volume>, <fpage>3804</fpage>&#x02013;<lpage>3808</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="anie201905049-cit-0033">
+<string-name>
+<given-names>S.</given-names>
+<surname>Smeets</surname>
+</string-name>, <string-name>
+<given-names>L. B.</given-names>
+<surname>McCusker</surname>
+</string-name>, <string-name>
+<given-names>C.</given-names>
+<surname>Baerlocher</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>C.-Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2015</year>, <volume>137</volume>, <fpage>2015</fpage>&#x02013;<lpage>2020</lpage>.<pub-id pub-id-type="pmid">25607643</pub-id></mixed-citation></ref><ref id="anie201905049-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="anie201905049-cit-0034">
+<string-name>
+<given-names>S.</given-names>
+<surname>Goel</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>E.</given-names>
+<surname>Iglesia</surname>
+</string-name>, <source xml:lang="en">Chem. Mater.</source>
+<year>2015</year>, <volume>27</volume>, <fpage>2056</fpage>&#x02013;<lpage>2066</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0034"><label>34</label><mixed-citation publication-type="miscellaneous" id="anie201905049-cit-0035">&#x0201c;Zeolite SSZ-13 and Its Method of Preparation&#x0201d;: <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, U.S. Patent 4,544,538 A, <year>1985</year>.</mixed-citation></ref><ref id="anie201905049-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="anie201905049-cit-0036">
+<string-name>
+<given-names>P.</given-names>
+<surname>Wagner</surname>
+</string-name>, <string-name>
+<given-names>Y.</given-names>
+<surname>Nakagawa</surname>
+</string-name>, <string-name>
+<given-names>G. S.</given-names>
+<surname>Lee</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Davis</surname>
+</string-name>, <string-name>
+<given-names>S.</given-names>
+<surname>Elomari</surname>
+</string-name>, <string-name>
+<given-names>R. C.</given-names>
+<surname>Medrud</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <source xml:lang="en">J. Am. Chem. Soc.</source>
+<year>2000</year>, <volume>122</volume>, <fpage>263</fpage>&#x02013;<lpage>273</lpage>.</mixed-citation></ref><ref id="anie201905049-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="anie201905049-cit-0037">
+<string-name>
+<given-names>J. E.</given-names>
+<surname>Schmidt</surname>
+</string-name>, <string-name>
+<given-names>S. I.</given-names>
+<surname>Zones</surname>
+</string-name>, <string-name>
+<given-names>D.</given-names>
+<surname>Xie</surname>
+</string-name>, <string-name>
+<given-names>M. E.</given-names>
+<surname>Davis</surname>
+</string-name>, <source xml:lang="en">Microporous Mesoporous Mater.</source>
+<year>2014</year>, <volume>200</volume>, <fpage>132</fpage>&#x02013;<lpage>139</lpage>.</mixed-citation></ref></ref-list></back></article>

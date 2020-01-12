@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>For the surface topography in the radial direction, researchers have made great effort on the influence of vibration, and for simplification, the vibration is considered as the relative movement between the diamond tool tip and the workpiece surface [
+ <xref rid="B66-micromachines-10-00288" ref-type="bibr">66</xref>,
+ <xref rid="B67-micromachines-10-00288" ref-type="bibr">67</xref>]. According to the specific expressions of the vibration component, investigations on the vibration in the surface topography model can be divided into three categories, i.e., the mono-frequency vibration, multi-frequency vibration and multi-direction frequency. For the mono- and multi-frequency vibration condition, only the vibration in the height direction, i.e., 
+ <italic>z</italic>-axis is discussed since it is the sensitive direction of vibration impact according to the previous findings [
+ <xref rid="B68-micromachines-10-00288" ref-type="bibr">68</xref>,
+ <xref rid="B69-micromachines-10-00288" ref-type="bibr">69</xref>]. The influence of mono-frequency vibration is originally studied, and on this condition a ratio 
+ <italic>r</italic>
+ <sub>z-n</sub> between the vibration frequency (
+ <italic>f
+  <sub>z</sub>
+ </italic>) and the spindle rotation frequency (
+ <italic>f</italic>
+ <sub>n</sub>) is always defined as [
+ <xref rid="B70-micromachines-10-00288" ref-type="bibr">70</xref>,
+ <xref rid="B71-micromachines-10-00288" ref-type="bibr">71</xref>] 
+ <disp-formula id="FD6-micromachines-10-00288">
+  <label>(6)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>r</mi>
+      <mrow>
+       <mi>z</mi>
+       <mo>−</mo>
+       <mi mathvariant="normal">n</mi>
+      </mrow>
+     </msub>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi>z</mi>
+       </msub>
+      </mrow>
+      <mrow>
+       <msub>
+        <mi>f</mi>
+        <mi mathvariant="normal">n</mi>
+       </msub>
+      </mrow>
+     </mfrac>
+     <mo>=</mo>
+     <mo>Δ</mo>
+     <mo>+</mo>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where the value of 
+ <inline-formula>
+  <math id="mm13">
+   <mrow>
+    <mo>Δ</mo>
+   </mrow>
+  </math>
+ </inline-formula> is 0 or the positive integer; 
+ <italic>ε</italic> is a decimal fraction and in the range of −0.5 to 0.5. Hence, the phase shift 
+ <inline-formula>
+  <math id="mm14">
+   <mrow>
+    <mi>ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula> after one revolution is therefore expressed as [
+ <xref rid="B72-micromachines-10-00288" ref-type="bibr">72</xref>] 
+ <disp-formula id="FD7-micromachines-10-00288">
+  <label>(7)</label>
+  <math id="mm15">
+   <mrow>
+    <mrow>
+     <mi>ϕ</mi>
+     <mo>=</mo>
+     <mn>2</mn>
+     <mi>π</mi>
+     <mi>ε</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

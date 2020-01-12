@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Given the initial coordinates, velocities, and accelerations of all the atoms at time 
+ <italic>t</italic>, these parameters can be calculated by Velocity–Verlet algorithm [
+ <xref rid="B36-nanomaterials-09-01617" ref-type="bibr">36</xref>] at time 
+ <italic>t</italic> + Δ
+ <italic>t</italic>, 
+ <disp-formula id="FD4-nanomaterials-09-01617">
+  <label>(4)</label>
+  <math id="mm4">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mo>{</mo>
+      <mtable columnalign="left">
+       <mtr>
+        <mtd>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>+</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>=</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>+</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>v</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+         <mo>+</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+         </mfrac>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>a</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>Δ</mo>
+         <msup>
+          <mi>t</mi>
+          <mn>2</mn>
+         </msup>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>v</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>+</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>=</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>v</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>+</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>a</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+        </mtd>
+       </mtr>
+       <mtr>
+        <mtd>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>a</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>+</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+         <mo>)</mo>
+         <mo>=</mo>
+         <mo>−</mo>
+         <mfrac>
+          <mn>1</mn>
+          <mi>m</mi>
+         </mfrac>
+         <mo>∇</mo>
+         <mi>U</mi>
+         <mo>(</mo>
+         <mstyle mathvariant="bold" mathsize="normal">
+          <mi>r</mi>
+         </mstyle>
+         <mo>(</mo>
+         <mi>t</mi>
+         <mo>+</mo>
+         <mo>Δ</mo>
+         <mi>t</mi>
+         <mrow>
+          <mo>)</mo>
+          <mo>)</mo>
+         </mrow>
+        </mtd>
+       </mtr>
+      </mtable>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where Δ
+ <italic>t</italic> is time step, 
+ <bold>r</bold> is coordinate vector, 
+ <bold>v</bold> is velocity vector, 
+ <bold>a</bold> is acceleration vector, and 
+ <italic>m</italic> is mass of an atom.
+</p>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The most stable structures (91 structures) were then used as starting points for computationally time-consuming periodic electronic structure calculations. DFT-d calculations were carried out with the CASTEP v6.1. plane wave code
+ <sup>
+  <xref ref-type="bibr" rid="ref28">28</xref>
+ </sup> using the Perdew–Burke–Ernzerhof (PBE) generalized gradient approximation (GGA) exchange-correlation density functional
+ <sup>
+  <xref ref-type="bibr" rid="ref29">29</xref>
+ </sup> and ultrasoft pseudopotentials,
+ <sup>
+  <xref ref-type="bibr" rid="ref30">30</xref>
+ </sup> with the addition of the Tkatchenko and Scheffler (TS)
+ <sup>
+  <xref ref-type="bibr" rid="ref31">31</xref>
+ </sup> or Grimme 06 (D2)
+ <sup>
+  <xref ref-type="bibr" rid="ref32">32</xref>
+ </sup> semiempirical dispersion corrections. For more details, see 
+ <ext-link ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.cgd.9b00857/suppl_file/cg9b00857_si_001.pdf" xmlns:xlink="http://www.w3.org/1999/xlink">section 1 of the Supporting Information</ext-link>. The crystallographic tool PLATON
+ <sup>
+  <xref ref-type="bibr" rid="ref33">33</xref>
+ </sup> was used in various steps to find the space group symmetry after unconstrained optimizations and to check for convergence to higher symmetries.
+</p>

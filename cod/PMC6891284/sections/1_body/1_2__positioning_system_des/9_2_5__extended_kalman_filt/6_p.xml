@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>(1) Apply Taylor expansion to the nonlinear measurement formula 
+ <inline-formula>
+  <math id="mm99">
+   <mrow>
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at 
+ <inline-formula>
+  <math id="mm100">
+   <mrow>
+    <mrow>
+     <msub>
+      <mrow>
+       <mover>
+        <mi mathvariant="normal">x</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+      </mrow>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and keep the first item of the formula. Thus, we can obtain 
+ <disp-formula id="FD31-sensors-19-04980">
+  <label>(27)</label>
+  <math id="mm101">
+   <mrow>
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>≈</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>h</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>h</mi>
+        <mi>T</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo>|</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>=</mo>
+       <msub>
+        <mover accent="true">
+         <mi>x</mi>
+         <mo stretchy="false">^</mo>
+        </mover>
+        <mrow>
+         <mi>k</mi>
+         <mo>/</mo>
+         <mi>k</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+     </msub>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>−</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+ <disp-formula id="FD32-sensors-19-04980">
+  <label>(28)</label>
+  <math id="mm102">
+   <mrow>
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mi>x</mi>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mi>H</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo stretchy="false">(</mo>
+     <mi>x</mi>
+     <mo>−</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <inline-formula>
+  <math id="mm103">
+   <mrow>
+    <mrow>
+     <mi>H</mi>
+     <mo stretchy="false">(</mo>
+     <msub>
+      <mover accent="true">
+       <mi>x</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+      <mrow>
+       <mi>k</mi>
+       <mo>/</mo>
+       <mi>k</mi>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msub>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mfrac>
+      <mrow>
+       <mo>∂</mo>
+       <mi>h</mi>
+      </mrow>
+      <mrow>
+       <mo>∂</mo>
+       <msup>
+        <mi>x</mi>
+        <mi>T</mi>
+       </msup>
+      </mrow>
+     </mfrac>
+     <msub>
+      <mo>|</mo>
+      <mrow>
+       <mi>x</mi>
+       <mo>=</mo>
+       <msub>
+        <mover accent="true">
+         <mi>x</mi>
+         <mo stretchy="false">^</mo>
+        </mover>
+        <mrow>
+         <mi>k</mi>
+         <mo>/</mo>
+         <mi>k</mi>
+         <mo>−</mo>
+         <mn>1</mn>
+        </mrow>
+       </msub>
+      </mrow>
+     </msub>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> is the Jacobian matrix of 
+ <inline-formula>
+  <math id="mm104">
+   <mrow>
+    <mrow>
+     <mi>h</mi>
+     <mo stretchy="false">(</mo>
+     <mi mathvariant="normal">x</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>.
+</p>

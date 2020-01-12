@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>With the interference of the various random noise, the output of pressure sensor is usually disordered and unreliable models often occur if directly using the original output for modeling. Therefore, EMD is used to remove the noise from the original signals, which decompose the original output into some specific components with different frequency bands. Considering environmental factors, the relationship between output signal and acceleration is not usually linear. The acceleration-induced effects of a pressure sensor can be modeled using an ARX model [
+ <xref rid="B20-sensors-19-01052" ref-type="bibr">20</xref>]:
+ <disp-formula id="FD10-sensors-19-01052">
+  <label>(10)</label>
+  <math id="mm12">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>d</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mi>y</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>B</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>d</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mi>ε</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> or using an autoregressive moving average model (ARMAX) model:
+ <disp-formula id="FD11-sensors-19-01052">
+  <label>(11)</label>
+  <math id="mm13">
+   <mrow>
+    <mrow>
+     <mi>A</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>d</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mi>y</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+     <mo>=</mo>
+     <mi>B</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>d</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mi>u</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+     <mo>+</mo>
+     <mi>C</mi>
+     <mo stretchy="false">(</mo>
+     <msup>
+      <mi>d</mi>
+      <mrow>
+       <mo>−</mo>
+       <mn>1</mn>
+      </mrow>
+     </msup>
+     <mo stretchy="false">)</mo>
+     <mi>ε</mi>
+     <mo stretchy="false">(</mo>
+     <mi>k</mi>
+     <mo stretchy="false">)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>u</italic>(
+ <italic>k</italic>) represents the input measured acceleration, 
+ <italic>y</italic>(
+ <italic>k</italic>) represents the output pressure, 
+ <italic> ε</italic>(
+ <italic>k</italic>) is the random white noise, 
+ <italic>n</italic> is the model order, and 
+ <italic>d</italic>
+ <sup>−1</sup> is the backward shift operator, i.e., 
+ <disp-formula id="FD12-sensors-19-01052">
+  <label>(12)</label>
+  <math id="mm14">
+   <mrow>
+    <mrow>
+     <mrow>
+      <mi>A</mi>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <msub>
+       <mi>a</mi>
+       <mn>1</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <msub>
+       <mi>a</mi>
+       <mn>2</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <msub>
+       <mi>a</mi>
+       <mi>n</mi>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mi>n</mi>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <mo>,</mo>
+      <mo> </mo>
+      <mi>B</mi>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <msub>
+       <mi>b</mi>
+       <mn>1</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <msub>
+       <mi>b</mi>
+       <mn>2</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <msub>
+       <mi>b</mi>
+       <mi>n</mi>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mi>n</mi>
+       </mrow>
+      </msup>
+     </mrow>
+     <mrow>
+      <mo>,</mo>
+      <mo> </mo>
+      <mi>C</mi>
+      <mo stretchy="false">(</mo>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo stretchy="false">)</mo>
+      <mo>=</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <msub>
+       <mi>c</mi>
+       <mn>1</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <msub>
+       <mi>c</mi>
+       <mn>2</mn>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+       </mrow>
+      </msup>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>+</mo>
+      <msub>
+       <mi>c</mi>
+       <mi>n</mi>
+      </msub>
+      <msup>
+       <mi>d</mi>
+       <mrow>
+        <mo>−</mo>
+        <mi>n</mi>
+       </mrow>
+      </msup>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par8">Currently, the science community employing atomistic simulations for researching condensed phases of materials in thermal equilibrium recur primarily to Molecular Dynamics (MD) and Metropolis Monte Carlo (MMC)
+ <sup>
+  <xref ref-type="bibr" rid="CR25">25</xref>
+ </sup>, two extensively used methods. Across time, atomistic simulations have become popular because of the research investments to produce software packages that automate the multitude of algorithms needed in these simulations. The increase in popularity of MD over MMC has been driven by the ease to computer parallelize the algorithms for solving the MD underlying ordinary differential equations. On the contrary, implementing Markov Chain Monte Carlo methods have faced the bottleneck of the intrinsically serial Markov chain process
+ <sup>
+  <xref ref-type="bibr" rid="CR26">26</xref>
+ </sup>. Over time, novel computational techniques have been developed commensurate with the advances of computer hardware resulting in several MMC packages
+ <sup>
+  <xref ref-type="bibr" rid="CR27">27</xref>–
+  <xref ref-type="bibr" rid="CR29">29</xref>
+ </sup>.
+</p>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Different mechanisms dominate dislocation drag in different regimes. However, at temperatures comparable to or higher than the Debye temperature and at high stress (leading to dislocation velocities in the range 
+ <inline-formula>
+  <math id="mm6">
+   <mrow>
+    <mrow>
+     <mn>0.01</mn>
+     <mo>≲</mo>
+     <mi>v</mi>
+     <mo>/</mo>
+     <msub>
+      <mi>c</mi>
+      <mi mathvariant="normal">S</mi>
+     </msub>
+     <mo>&lt;</mo>
+     <mn>1</mn>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula>, where 
+ <inline-formula>
+  <math id="mm7">
+   <mrow>
+    <msub>
+     <mi>c</mi>
+     <mi mathvariant="normal">S</mi>
+    </msub>
+   </mrow>
+  </math>
+ </inline-formula> denotes the lowest shear wave speed corresponding to the direction of dislocation glide), phonons scattering off dislocations (commonly referred to as “phonon wind”) constitutes the dominating effect. The lower end of this range is known as the “viscous” regime where 
+ <inline-formula>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mi>B</mi>
+     <mo>(</mo>
+     <mi>v</mi>
+     <mo>)</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> at given temperature and pressure is known to be roughly constant. However, with increasing stress and thus increasing dislocation velocity, 
+ <italic>B</italic> exhibits a non-linear velocity dependence. This is seen in numerous molecular dynamics (MD) simulations (see e.g., [
+ <xref rid="B8-materials-12-00948" ref-type="bibr">8</xref>,
+ <xref rid="B9-materials-12-00948" ref-type="bibr">9</xref>,
+ <xref rid="B10-materials-12-00948" ref-type="bibr">10</xref>,
+ <xref rid="B11-materials-12-00948" ref-type="bibr">11</xref>,
+ <xref rid="B12-materials-12-00948" ref-type="bibr">12</xref>] and references therein), but also within the recent theoretical framework in Refs. [
+ <xref rid="B13-materials-12-00948" ref-type="bibr">13</xref>,
+ <xref rid="B14-materials-12-00948" ref-type="bibr">14</xref>].
+</p>

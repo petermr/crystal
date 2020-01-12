@@ -1,0 +1,678 @@
+{
+  "id": [
+    "31337758"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "31337758"
+  ],
+  "pmcid": [
+    "PMC6650423"
+  ],
+  "doi": [
+    "10.1038/s41467-019-11200-1"
+  ],
+  "title": [
+    "Diagonal nematicity in the pseudogap phase of HgBa2CuO4+δ."
+  ],
+  "authorString": [
+    "Murayama H, Sato Y, Kurihara R, Kasahara S, Mizukami Y, Kasahara Y, Uchiyama H, Yamamoto A, Moon EG, Cai J, Freyermuth J, Greven M, Shibauchi T, Matsuda Y."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Murayama H"
+          ],
+          "firstName": [
+            "H"
+          ],
+          "lastName": [
+            "Murayama"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Sato Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Sato"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9209-2437",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Kurihara R"
+          ],
+          "firstName": [
+            "R"
+          ],
+          "lastName": [
+            "Kurihara"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Kasahara S"
+          ],
+          "firstName": [
+            "S"
+          ],
+          "lastName": [
+            "Kasahara"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-6007-9617",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Mizukami Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Mizukami"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3881-331X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Advanced Materials Science, University of Tokyo, Chiba, 277-8561, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Kasahara Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Kasahara"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Uchiyama H"
+          ],
+          "firstName": [
+            "H"
+          ],
+          "lastName": [
+            "Uchiyama"
+          ],
+          "initials": [
+            "H"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8138-9393",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Materials Dynamics Laboratory, RIKEN SPring-8 Center, 1-1-1 Kouto, Sayo, Hyogo, 679-5148, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Yamamoto A"
+          ],
+          "firstName": [
+            "A"
+          ],
+          "lastName": [
+            "Yamamoto"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Graduate School of Engineering and Science, Shibaura Institute of Technology, 3-7-5 Toyosu, Koto-ku, Tokyo, 135-8584, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Moon EG"
+          ],
+          "firstName": [
+            "E-G"
+          ],
+          "lastName": [
+            "Moon"
+          ],
+          "initials": [
+            "EG"
+          ],
+          "affiliation": [
+            "Department of Physics, Korea Advanced Institute of Science and Technology, Daejeon, 305-701, Korea."
+          ]
+        },
+        {
+          "fullName": [
+            "Cai J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Cai"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4721-8459",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Physics and Astronomy, University of Minnesota, Minneapolis, MN, 55455, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Freyermuth J"
+          ],
+          "firstName": [
+            "J"
+          ],
+          "lastName": [
+            "Freyermuth"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "School of Physics and Astronomy, University of Minnesota, Minneapolis, MN, 55455, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Greven M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Greven"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "School of Physics and Astronomy, University of Minnesota, Minneapolis, MN, 55455, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Shibauchi T"
+          ],
+          "firstName": [
+            "T"
+          ],
+          "lastName": [
+            "Shibauchi"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5831-4924",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Advanced Materials Science, University of Tokyo, Chiba, 277-8561, Japan."
+          ]
+        },
+        {
+          "fullName": [
+            "Matsuda Y"
+          ],
+          "firstName": [
+            "Y"
+          ],
+          "lastName": [
+            "Matsuda"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9947-9418",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan. matsuda@scphys.kyoto-u.ac.jp."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4721-8459",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9947-9418",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3881-331X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5831-4924",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8138-9393",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9209-2437",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6007-9617",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2833191"
+      ],
+      "dateOfPublication": [
+        "2019 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2019"
+      ],
+      "printPublicationDate": [
+        "2019-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature communications"
+          ],
+          "ISOAbbreviation": [
+            "Nat Commun"
+          ],
+          "medlineAbbreviation": [
+            "Nat Commun"
+          ],
+          "NLMid": [
+            "101528555"
+          ],
+          "ISSN": [
+            "2041-1723"
+          ],
+          "ESSN": [
+            "2041-1723"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2019"
+  ],
+  "pageInfo": [
+    "3282"
+  ],
+  "abstractText": [
+    "The pseudogap phenomenon in the cuprates is arguably the most mysterious puzzle in the field of high-temperature superconductivity. The tetragonal cuprate HgBa2CuO4+δ, with only one CuO2 layer per primitive cell, is an ideal system to tackle this puzzle. Here, we measure the magnetic susceptibility anisotropy within the CuO2 plane with exceptionally high-precision magnetic torque experiments. Our key finding is that a distinct two-fold in-plane anisotropy sets in below the pseudogap temperature T*, which provides thermodynamic evidence for a nematic phase transition with broken four-fold symmetry. Surprisingly, the nematic director orients along the diagonal direction of the CuO2 square lattice, in sharp contrast to the bond nematicity along the Cu-O-Cu direction. Another remarkable feature is that the enhancement of the diagonal nematicity with decreasing temperature is suppressed around the temperature at which short-range charge-density-wave formation occurs. Our result suggests a competing relationship between diagonal nematic and charge-density-wave order in HgBa2CuO4+δ."
+  ],
+  "affiliation": [
+    "Department of Physics, Kyoto University, Kyoto, 606-8502, Japan."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "research-article",
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "18H01177"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "15H05852"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "2017R1C1B2009176"
+          ],
+          "agency": [
+            "National Research Foundation of Korea (NRF)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "16K13837"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "18H05227"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "DE-SC-0016371"
+          ],
+          "agency": [
+            "U.S. Department of Energy (DOE)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "25220710"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "15H03688"
+          ],
+          "agency": [
+            "MEXT | Japan Society for the Promotion of Science (JSPS)"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "https://doi.org/10.1038/s41467-019-11200-1"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6650423"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC6650423?pdf=render"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasData": [
+    "Y"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "authMan": [
+    "N"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "nihAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2019-07-25"
+  ],
+  "firstIndexDate": [
+    "2019-07-28"
+  ],
+  "fullTextReceivedDate": [
+    "2019-07-28"
+  ],
+  "dateOfRevision": [
+    "2019-09-23"
+  ],
+  "electronicPublicationDate": [
+    "2019-07-23"
+  ],
+  "firstPublicationDate": [
+    "2019-07-23"
+  ]
+}

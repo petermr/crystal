@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Herein, the relative movement between the diamond tool and workpiece surface in the height direction, i.e., the infeed direction is expressed as a mono-frequency harmonic equation corresponding to the phase shift [
+ <xref rid="B73-micromachines-10-00288" ref-type="bibr">73</xref>] 
+ <disp-formula id="FD8-micromachines-10-00288">
+  <label>(8)</label>
+  <math id="mm16">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>z</mi>
+      <mi mathvariant="normal">v</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mi>sin</mi>
+     <mrow>
+      <mo>(</mo>
+      <mrow>
+       <mn>2</mn>
+       <mi>π</mi>
+       <msub>
+        <mi>f</mi>
+        <mi>z</mi>
+       </msub>
+       <mi>t</mi>
+       <mo>−</mo>
+       <mi>ϕ</mi>
+      </mrow>
+      <mo>)</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula> where 
+ <italic>A</italic> is the amplitude of the mono-frequency vibration. Furthermore, the tool locus projected on the 
+ <italic>x-z</italic> plane (the feed direction is always configured as the 
+ <italic>x</italic>-axis) can be expressed as in terms of the phase shift (
+ <inline-formula>
+  <math id="mm17">
+   <mrow>
+    <mi>ϕ</mi>
+   </mrow>
+  </math>
+ </inline-formula>) and feed rate (
+ <italic>f</italic>) as [
+ <xref rid="B74-micromachines-10-00288" ref-type="bibr">74</xref>] 
+ <disp-formula id="FD9-micromachines-10-00288">
+  <label>(9)</label>
+  <math id="mm18">
+   <mrow>
+    <mrow>
+     <msub>
+      <mi>z</mi>
+      <mi>f</mi>
+     </msub>
+     <mrow>
+      <mo>(</mo>
+      <mi>x</mi>
+      <mo>)</mo>
+     </mrow>
+     <mo>=</mo>
+     <mi>A</mi>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mn>1</mn>
+       <mo>−</mo>
+       <mi>cos</mi>
+       <mrow>
+        <mo>(</mo>
+        <mrow>
+         <mfrac>
+          <mi>x</mi>
+          <mi>f</mi>
+         </mfrac>
+         <mi>ϕ</mi>
+        </mrow>
+        <mo>)</mo>
+       </mrow>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

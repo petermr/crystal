@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par10">At 0 K, the 
+ <italic>η</italic>-Al
+ <sub>41</sub>Sm
+ <sub>5</sub> phase is 0.051 eV/atom unstable with respect to phase separation into the Al
+ <sub>3</sub>Sm phase and pure Al. To investigate the effects of finite temperatures, we calculated the Gibbs free energy energy within the quasi-harmonic approximation using the Phonopy package
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>. At a fixed volume, the Holmoltz free energy under the harmonic approximation is given by
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M19">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$F={E}_{0}+{k}_{B}T\sum _{nk}\,\mathrm{ln}[2\,\sinh \,\frac{\hslash {\omega }_{n}(k)}{2{k}_{B}T}],$$\end{document}</tex-math>
+   <math id="M20" display="block">
+    <mi>F</mi>
+    <mo>=</mo>
+    <msub>
+     <mrow>
+      <mi>E</mi>
+     </mrow>
+     <mrow>
+      <mn>0</mn>
+     </mrow>
+    </msub>
+    <mo>+</mo>
+    <msub>
+     <mrow>
+      <mi>k</mi>
+     </mrow>
+     <mrow>
+      <mi>B</mi>
+     </mrow>
+    </msub>
+    <mi>T</mi>
+    <mrow>
+     <munder>
+      <mo>∑</mo>
+      <mrow>
+       <mi>n</mi>
+       <mi>k</mi>
+      </mrow>
+     </munder>
+    </mrow>
+    <mspace width=".25em"/>
+    <mi>ln</mi>
+    <mrow>
+     <mo stretchy="true">[</mo>
+     <mrow>
+      <mn>2</mn>
+      <mspace width=".25em"/>
+      <mi>sinh</mi>
+      <mspace width=".10em"/>
+      <mfrac>
+       <mrow>
+        <mi>ℏ</mi>
+        <msub>
+         <mrow>
+          <mi>ω</mi>
+         </mrow>
+         <mrow>
+          <mi>n</mi>
+         </mrow>
+        </msub>
+        <mo stretchy="false">(</mo>
+        <mi>k</mi>
+        <mo stretchy="false">)</mo>
+       </mrow>
+       <mrow>
+        <mn>2</mn>
+        <msub>
+         <mrow>
+          <mi>k</mi>
+         </mrow>
+         <mrow>
+          <mi>B</mi>
+         </mrow>
+        </msub>
+        <mi>T</mi>
+       </mrow>
+      </mfrac>
+     </mrow>
+     <mo stretchy="true">]</mo>
+    </mrow>
+    <mo>,</mo>
+   </math>
+   <graphic xlink:href="41598_2019_43079_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>where 
+ <italic>E</italic>
+ <sub>0</sub> is the zero-temperature total energy from VASP calculation, and 
+ <inline-formula id="IEq10">
+  <alternatives>
+   <tex-math id="M21">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${\omega }_{n}(k)$$\end{document}</tex-math>
+   <math id="M22">
+    <msub>
+     <mrow>
+      <mi>ω</mi>
+     </mrow>
+     <mrow>
+      <mi>n</mi>
+     </mrow>
+    </msub>
+    <mo stretchy="false">(</mo>
+    <mi>k</mi>
+    <mo stretchy="false">)</mo>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq10.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> is the phonon spectrum. To account for thermal expansion, the phonon spectrum is calculated at various volumes, and the Gibbs free energy 
+ <italic>G</italic> is obtained by minimizing 
+ <italic>F</italic> with respect to the volume
+ <sup>
+  <xref ref-type="bibr" rid="CR18">18</xref>
+ </sup>. In Fig. 
+ <xref rid="Fig5" ref-type="fig">5(a)</xref>, we first show the phonon density of states of the 
+ <italic>η</italic>-Al
+ <sub>41</sub>Sm
+ <sub>5</sub> phase at 0 K. No negative phonon modes were observed, indicating that the 
+ <italic>η</italic>-Al
+ <sub>41</sub>Sm
+ <sub>5</sub> phase is mechanically stable. In Fig. 
+ <xref rid="Fig5" ref-type="fig">5(b)</xref>, we plot the formation Gibbs free energy, referenced to fcc-Al and Al
+ <sub>3</sub>Sm, as a function of temperature, where one can see that the 
+ <italic>η</italic>-Al
+ <sub>41</sub>Sm
+ <sub>5</sub> phase remains unstable w.r.t. Al and Al
+ <sub>3</sub>Sm (
+ <inline-formula id="IEq11">
+  <alternatives>
+   <tex-math id="M23">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${G}_{form} &gt; 0$$\end{document}</tex-math>
+   <math id="M24">
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>o</mi>
+      <mi>r</mi>
+      <mi>m</mi>
+     </mrow>
+    </msub>
+    <mo>&gt;</mo>
+    <mn>0</mn>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq11.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>) for the entire temperature range of the devitrification process. However, 
+ <inline-formula id="IEq12">
+  <alternatives>
+   <tex-math id="M25">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$${G}_{form}$$\end{document}</tex-math>
+   <math id="M26">
+    <msub>
+     <mrow>
+      <mi>G</mi>
+     </mrow>
+     <mrow>
+      <mi>f</mi>
+      <mi>o</mi>
+      <mi>r</mi>
+      <mi>m</mi>
+     </mrow>
+    </msub>
+   </math>
+   <inline-graphic xlink:href="41598_2019_43079_Article_IEq12.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula> decreases with the temperature, showing that it becomes more stable as temperature increases. It should be noted that our calculation did not fully address the aharmonicity in the system, which can have non-negligible effects at higher temperatures. Approaches that can deal with such effects, such as the thermodynamic-integration method
+ <sup>
+  <xref ref-type="bibr" rid="CR19">19</xref>
+ </sup>, are much more demanding computationally, and are rarely applied at the ab-initio level. Meanwhile, we believe that more accurate calculations will not change the marginally unstable nature of the 
+ <italic>η</italic>-phase.
+</p>

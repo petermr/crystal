@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="p0375">In the simplest case, we have Hamiltonian 
+ <xref rid="fd19" ref-type="disp-formula">(19)</xref>, which was already used by us earlier in considering the Born-Oppenheimer adiabatic approximation. We choose the operator 
+ <inline-formula>
+  <math id="M178" altimg="si95.svg">
+   <mrow>
+    <mover accent="true">
+     <mi>U</mi>
+     <mo>˜</mo>
+    </mover>
+   </mrow>
+  </math>
+ </inline-formula>, that figures in our method of Green's functions, in the form of the operator 
+ <xref rid="fd25" ref-type="disp-formula">(25)</xref>, which we used earlier (Section 
+ <xref rid="sec2.4.1" ref-type="sec">2.4.1</xref>) in the Born-Oppenheimer method:
+ <disp-formula id="fd25a">
+  <label>(25a)</label>
+  <math id="M179" altimg="si153.svg" alttext="Equation 25a.">
+   <mrow>
+    <mrow>
+     <mover accent="true">
+      <mi>U</mi>
+      <mo>˜</mo>
+     </mover>
+    </mrow>
+    <mo linebreak="badbreak">=</mo>
+    <munder>
+     <mo movablelimits="false">∑</mo>
+     <mrow>
+      <mi>ι</mi>
+     </mrow>
+    </munder>
+    <mrow>
+     <msub>
+      <mrow>
+       <mi>U</mi>
+      </mrow>
+      <mrow>
+       <mi>ι</mi>
+      </mrow>
+     </msub>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <mi mathvariant="bold">q</mi>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+     <mrow>
+      <mo stretchy="true">(</mo>
+      <mrow>
+       <msub>
+        <mrow>
+         <mi>p</mi>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+       <mo linebreak="badbreak">−</mo>
+       <msub>
+        <mrow>
+         <mover accent="true">
+          <mi>p</mi>
+          <mo>˜</mo>
+         </mover>
+        </mrow>
+        <mrow>
+         <mi>ι</mi>
+        </mrow>
+       </msub>
+      </mrow>
+      <mo stretchy="true">)</mo>
+     </mrow>
+    </mrow>
+    <mtext>.</mtext>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

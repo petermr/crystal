@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="nanomaterials-09-01251-t002" orientation="portrait" position="float">
+ <object-id pub-id-type="pii">nanomaterials-09-01251-t002_Table 2</object-id>
+ <label>Table 2</label>
+ <caption>
+  <p>The experimental 
+   <italic>h</italic>
+   <sub>50%</sub> (cm) values and the initiation time of the shock reaction 
+   <italic>t
+    <sub>initiation</sub>
+   </italic> (fs) of the 11 EMs studied. The strength of the trigger bond 
+   <bold>
+    <italic>S
+     <sub>trigger</sub>
+    </italic>
+   </bold> (kcal/mol), the temperature 
+   <italic>T
+    <sub>initiation</sub>
+   </italic> (K) and the temperature rising rate 
+   <italic>TRR</italic> (K/fs) for each crystal are also given for the study of the mechanism of the shock reaction initiation.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"> </th>
+    <th colspan="7" align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1">
+     <italic>h</italic>
+     <sub>50%</sub>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>S
+      <sub>trigger</sub>
+     </italic>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>t
+      <sub>initiation</sub>
+     </italic>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>T
+      <sub>initiation</sub>
+     </italic>
+    </th>
+    <th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">
+     <italic>TRR</italic>
+    </th>
+   </tr>
+   <tr>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EMs</th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 1
+     <break/>[
+     <xref rid="B4-nanomaterials-09-01251" ref-type="bibr">4</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 2
+     <break/>[
+     <xref rid="B27-nanomaterials-09-01251" ref-type="bibr">27</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 3
+     <break/>[
+     <xref rid="B28-nanomaterials-09-01251" ref-type="bibr">28</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 4
+     <break/>[
+     <xref rid="B5-nanomaterials-09-01251" ref-type="bibr">5</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 5
+     <break/>[
+     <xref rid="B3-nanomaterials-09-01251" ref-type="bibr">3</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 6
+     <break/>[
+     <xref rid="B32-nanomaterials-09-01251" ref-type="bibr">32</xref>]
+    </th>
+    <th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Expt 7
+     <break/>[
+     <xref rid="B26-nanomaterials-09-01251" ref-type="bibr">26</xref>]
+    </th>
+    <th colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Current Calculation</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>Sensitive</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">BTF</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">50</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">21</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">42</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">103.6</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2246</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">21.7</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>Insensitive</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">TATB</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&gt;320</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">125</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">&gt;1000.0</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">754</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.8</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>Pure</bold>
+     <bold>CL-20</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">ε-polymorph</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">29</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">47</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">12–21</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">13</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">112</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">145.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1431</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">9.8</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">γ-polymorph</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">112</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">138.0</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1600</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">11.6</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">β-polymorph</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">14</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">111</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">139.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1149</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.2</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">ζ-polymorph</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">110</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">116.9</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1048</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">9.0</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">
+     <bold>CL-20 cocrystal</bold>
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CL-20/H
+     <sub>2</sub>O
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">16</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">113</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">174.4</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1484</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.5</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CL-20/TNT</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">99</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">30</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">112</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">181.8</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1464</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.1</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CL-20/DNB</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">55</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">111</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">174.6</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1400</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">8.0</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" rowspan="1" colspan="1">CL-20/NMP/H
+     <sub>2</sub>O
+    </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">112</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">115</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">204.3</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">1074</td>
+    <td align="center" valign="middle" rowspan="1" colspan="1">5.3</td>
+   </tr>
+   <tr>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">CL-20/HMX</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">55</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"> </td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">112</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">156.9</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1377</td>
+    <td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8.8</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Taking the coupling Equation (55) into the uncoupled dynamic equation of the whole sensing structure (47), we can get the coupled dynamic equation of the whole sensing structure:
+ <disp-formula id="FD57-micromachines-10-00181">
+  <label>(56)</label>
+  <math id="mm63">
+   <mrow>
+    <mrow>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>M</mi>
+      <mover accent="true">
+       <mover accent="true">
+        <mi>Q</mi>
+        <mo stretchy="false">^</mo>
+       </mover>
+       <mo>¨</mo>
+      </mover>
+     </mstyle>
+     <mo>+</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mi>K</mi>
+      <mover accent="true">
+       <mi>Q</mi>
+       <mo stretchy="false">^</mo>
+      </mover>
+     </mstyle>
+     <mo>=</mo>
+     <mstyle mathvariant="bold" mathsize="normal">
+      <mn>0</mn>
+     </mstyle>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

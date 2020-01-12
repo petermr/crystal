@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>An electron density map was calculated by molecular replacement using Phaser (
+ <xref rid="B17" ref-type="bibr">17</xref>) in PHENIX (
+ <xref rid="B18" ref-type="bibr">18</xref>) using the three helices of the 
+ <italic>B. subtilis xpt</italic> guanine riboswitch (GR) RNA (P1 nucleotides (nt) 15–21 and 75–81, P2 nt 25–31 and 39–45, P3 nt 54–59 and 67–72) as a starting model (PDB ID: 4FE5), excluding all non-helical linker regions (J1/2, L2, J2/3, L3, J3/1). Model refinement was initiated by replacing the sequence of the GR helices with that of 
+ <italic>env1</italic> using Coot (
+ <xref rid="B19" ref-type="bibr">19</xref>), followed by refinement in PHENIX. Further rounds of iterative model building and refinement were performed in which the rest of the RNA model was built, the ligand placed within the binding pocket and finally solvent molecules were placed. Standard approaches to reduce model bias in molecular replacement were employed throughout electron density map calculation and model building (
+ <xref rid="B20" ref-type="bibr">20</xref>,
+ <xref rid="B21" ref-type="bibr">21</xref>). The final model statistics are provided in 
+ <xref ref-type="supplementary-material" rid="sup1">Supplementary Table S2</xref>.
+</p>

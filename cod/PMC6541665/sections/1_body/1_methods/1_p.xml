@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par15">The GaN LED epiwafer with an emission wavelength of 460 nm was grown by metal–organic chemical vapor deposition (MOCVD) on a c-plane sapphire substrate. The LED structure consists of a 2-μm-thick undoped GaN layer, a 2.0-μm-thick Si-doped n-type GaN cladding layer, six periods of InGaN/GaN multiple quantum wells (MQW), a 25-nm-thick Mg-doped p-AlGaN electron blocking layer, and a 0.2-μm-thick Mg-doped p-type GaN cladding layer. The Ni/Ag/Ni/Pt layers for ohmic contact layer and reflector were deposited onto the LED via electron beam evaporating system. Three different emission angle mini FC-LED (mini-LED) structures used in this study were fabricated by film transfer technique and molded chip scale package (CSP) method, with a detailed comparison: 120° mini-CSPLED, 150°mini-CSPLED, and 180°mini-CSPLED, as shown in Fig. 
+ <xref rid="Fig1" ref-type="fig">1</xref>. The 120° mini-CSPLED structure has a protective layer on all four sides of the chip and a transparent layer on the light emission surface. The 150° mini-CSPLED structure has a transparent layer on the side and the light emission surface of the chip. The 180° mini-CSPLED structure has a transparent layer on the side and the light emission on the chip surface, with a diffusion reflective layer covered onto the topmost layer. Where the material source of the transparent layer is the TiO
+ <sub>2</sub>/silicone resin nanocomposite, both the thick protective layer and the thin diffusion reflective layer are the TiO
+ <sub>2</sub> powders. QD films were fabricated using CdSe/ZnS core-shell QDs as the material source. The green-emission (~ 525 nm) and red-emission (~ 617 nm) CdSe/ZnS core-shell QDs were mixed with polymethylmethacrylate (PMMA) to prepare various QD film thicknesses, in which the QD film optical characteristics can be found in Additional file 
+ <xref rid="MOESM1" ref-type="media">1</xref>: Figure S1. These QD films were fabricated as a color converter onto a LED chip (
+ <italic>λ</italic> = 450 nm) to obtain white light devices. Figure 
+ <xref rid="Fig2" ref-type="fig">2</xref> displays the BLU structure (18 mm × 18 mm), which consists of 3 × 3 square-shaped mini-LED array, diffusion plate, QD films, and two prism films. The mini-LED array was mounted onto a circuit board with a chip size of 20 mil ×20 mil and a pitch length of 5.1 mm. The effective optical distance (OD), by considering between chip and diffusion plate, is set as 2.5 mm in order to obtain good spatial uniformity. Figure 
+ <xref rid="Fig3" ref-type="fig">3</xref> shows a blue mini LED array to excite QD films of different thicknesses (for instance, 60-μm-, 90-μm-, and 150-μm-thick QD films) to obtain a white planar light source. The brightness uniformity of the entire panel is evaluated as shown in Fig. 
+ <xref rid="Fig3" ref-type="fig">3</xref> by measuring brightness in five points, L1–L5, located on the panel. The BLU brightness uniformity in this study is expressed by the following formula:
+ <disp-formula id="Equ1">
+  <label>1</label>
+  <alternatives>
+   <tex-math id="M1">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$ \mathrm{Brightness}\ \mathrm{uniformity}=\frac{\mathrm{L}1+\mathrm{L}2+\mathrm{L}3+\mathrm{L}4+\mathrm{L}5}{5} $$\end{document}</tex-math>
+   <math id="M2" display="block">
+    <mtext>Brightness uniformity</mtext>
+    <mo>=</mo>
+    <mfrac>
+     <mrow>
+      <mi mathvariant="normal">L</mi>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mi mathvariant="normal">L</mi>
+      <mn>2</mn>
+      <mo>+</mo>
+      <mi mathvariant="normal">L</mi>
+      <mn>3</mn>
+      <mo>+</mo>
+      <mi mathvariant="normal">L</mi>
+      <mn>4</mn>
+      <mo>+</mo>
+      <mi mathvariant="normal">L</mi>
+      <mn>5</mn>
+     </mrow>
+     <mn>5</mn>
+    </mfrac>
+   </math>
+   <graphic xlink:href="11671_2019_2993_Article_Equ1.gif" position="anchor" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </disp-formula>
+</p>

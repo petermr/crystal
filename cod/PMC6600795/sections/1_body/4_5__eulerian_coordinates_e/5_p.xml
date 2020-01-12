@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>Then taking the symmetric component of this tensor [
+ <xref rid="B4-materials-12-01804" ref-type="bibr">4</xref>], 
+ <disp-formula id="FD3-materials-12-01804">
+  <label>(3)</label>
+  <math id="mm8">
+   <mrow>
+    <mrow>
+     <mo stretchy="false">[</mo>
+     <msub>
+      <mi mathvariant="normal">J</mi>
+      <mi>s</mi>
+     </msub>
+     <mo stretchy="false">]</mo>
+     <mo>=</mo>
+     <mrow>
+      <mo>[</mo>
+      <mrow>
+       <mtable>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">u</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi>x</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+           </mfrac>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">u</mi>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">y</mi>
+              </mrow>
+             </mfrac>
+             <mo>+</mo>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">v</mi>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <mi>x</mi>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+        </mtr>
+        <mtr>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mn>1</mn>
+            <mn>2</mn>
+           </mfrac>
+           <mrow>
+            <mo>(</mo>
+            <mrow>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">u</mi>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">y</mi>
+              </mrow>
+             </mfrac>
+             <mo>+</mo>
+             <mfrac>
+              <mrow>
+               <mo>∂</mo>
+               <mi mathvariant="normal">v</mi>
+              </mrow>
+              <mrow>
+               <mo>∂</mo>
+               <mi>x</mi>
+              </mrow>
+             </mfrac>
+            </mrow>
+            <mo>)</mo>
+           </mrow>
+          </mrow>
+         </mtd>
+         <mtd>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">v</mi>
+            </mrow>
+            <mrow>
+             <mo>∂</mo>
+             <mi mathvariant="normal">y</mi>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mtd>
+        </mtr>
+       </mtable>
+      </mrow>
+      <mo>]</mo>
+     </mrow>
+     <mo>.</mo>
+    </mrow>
+   </mrow>
+  </math>
+ </disp-formula>
+</p>

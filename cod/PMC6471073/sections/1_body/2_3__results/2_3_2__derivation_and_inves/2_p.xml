@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The simplified motion equations of the DRG dynamic system can be expressed by [
+ <xref rid="B11-micromachines-10-00181" ref-type="bibr">11</xref>,
+ <xref rid="B12-micromachines-10-00181" ref-type="bibr">12</xref>] 
+ <disp-formula id="FD68-micromachines-10-00181">
+  <label>(67)</label>
+  <math id="mm74">
+   <mrow>
+    <mtable columnalign="left">
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mover accent="true">
+         <mi>q</mi>
+         <mo>¨</mo>
+        </mover>
+        <mn>1</mn>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>ω</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mi>Q</mi>
+       </mfrac>
+       <msub>
+        <mover accent="true">
+         <mi>q</mi>
+         <mo>˙</mo>
+        </mover>
+        <mn>1</mn>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>ω</mi>
+        <mn>0</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+       <msub>
+        <mi>q</mi>
+        <mn>1</mn>
+       </msub>
+       <mo>=</mo>
+       <msub>
+        <mi>F</mi>
+        <mn>0</mn>
+       </msub>
+       <mi>sin</mi>
+       <mo stretchy="false">(</mo>
+       <msub>
+        <mi>ω</mi>
+        <mn>0</mn>
+       </msub>
+       <mi>t</mi>
+       <mo stretchy="false">)</mo>
+      </mtd>
+     </mtr>
+     <mtr>
+      <mtd>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mover accent="true">
+         <mi>q</mi>
+         <mo>¨</mo>
+        </mover>
+        <mn>2</mn>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <mfrac>
+        <mrow>
+         <msub>
+          <mi>ω</mi>
+          <mn>0</mn>
+         </msub>
+        </mrow>
+        <mi>Q</mi>
+       </mfrac>
+       <msub>
+        <mover accent="true">
+         <mi>q</mi>
+         <mo>˙</mo>
+        </mover>
+        <mn>2</mn>
+       </msub>
+       <mo>+</mo>
+       <msub>
+        <mi>m</mi>
+        <mrow>
+         <mi>e</mi>
+         <mi>f</mi>
+         <mi>f</mi>
+        </mrow>
+       </msub>
+       <msub>
+        <mi>ω</mi>
+        <mn>0</mn>
+       </msub>
+       <msup>
+        <mrow/>
+        <mn>2</mn>
+       </msup>
+       <msub>
+        <mi>q</mi>
+        <mn>2</mn>
+       </msub>
+       <mo>=</mo>
+       <mn>2</mn>
+       <mi>γ</mi>
+       <msub>
+        <mi mathvariant="sans-serif">Ω</mi>
+        <mi>z</mi>
+       </msub>
+       <mover accent="true">
+        <mi>x</mi>
+        <mo>˙</mo>
+       </mover>
+      </mtd>
+     </mtr>
+    </mtable>
+   </mrow>
+  </math>
+ </disp-formula> where, 
+ <italic>q</italic>
+ <sub>1</sub> and 
+ <italic>q</italic>
+ <sub>2</sub> are the generalized displacement of the two normalized 
+ <italic>n</italic> = 2 flexural modes of DRG, which are separated by 45 degrees in Cartesian coordinates. 
+ <italic>m
+  <sub>eff</sub>
+ </italic> is the effective mass, 
+ <italic>γ</italic> is the Coriolis mass, 
+ <italic>ω</italic>
+ <sub>0</sub> is the angular resonant frequency, 
+ <italic>Ω
+  <sub>z</sub>
+ </italic> is the applied angular rate, and 
+ <italic>F</italic>
+ <sub>0</sub> is the amplitude of the driving force. 
+ <italic>Q</italic> is proportional to the inverse of total energy dissipated. Many dissipation mechanisms contribute to the total energy dissipation, such as thermoelastic dissipation (TED), anchor loss, air damping, etc. [
+ <xref rid="B35-micromachines-10-00181" ref-type="bibr">35</xref>]. Therefore it is difficult to mathematically model the Q factor of DRGs, and this will be studied in our future work. In this study, the effects of the geometry parameters on the lumped mass-spring system parameters, including the effective mass, Coriolis mass, natural frequency, and angular gain, are investigated.
+</p>

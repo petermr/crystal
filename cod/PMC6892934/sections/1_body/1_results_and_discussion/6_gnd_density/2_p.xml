@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p id="Par29">Details of the GND density computation can be found elsewhere
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>. Here, the GND density 
+ <bold>
+  <italic>ρ</italic>
+ </bold> was computed using the L2 optimisation technique
+ <sup>
+  <xref ref-type="bibr" rid="CR48">48</xref>
+ </sup>, which minimizes the sum of squares of dislocation densities i.e. 
+ <inline-formula id="IEq30">
+  <alternatives>
+   <tex-math id="M67">\documentclass[12pt]{minimal} \usepackage{amsmath} \usepackage{wasysym} \usepackage{amsfonts} \usepackage{amssymb} \usepackage{amsbsy} \usepackage{mathrsfs} \usepackage{upgreek} \setlength{\oddsidemargin}{-69pt} \begin{document}$$\sum _{j}\,{\rho }_{j}^{2}={{\boldsymbol{\rho }}}^{T}.{\boldsymbol{\rho }}$$\end{document}</tex-math>
+   <math id="M68">
+    <munder>
+     <mo>∑</mo>
+     <mi>j</mi>
+    </munder>
+    <mspace width=".25em"/>
+    <msubsup>
+     <mrow>
+      <mi>ρ</mi>
+     </mrow>
+     <mrow>
+      <mi>j</mi>
+     </mrow>
+     <mrow>
+      <mn>2</mn>
+     </mrow>
+    </msubsup>
+    <mo>=</mo>
+    <msup>
+     <mrow>
+      <mi mathvariant="bold-italic">ρ</mi>
+     </mrow>
+     <mi>T</mi>
+    </msup>
+    <mo>.</mo>
+    <mi mathvariant="bold-italic">ρ</mi>
+   </math>
+   <inline-graphic xlink:href="41598_2019_54753_Article_IEq30.gif" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </alternatives>
+ </inline-formula>. Previous work showed that L2, while mathematically simpler, can reliably predict the sum of GND densities over all slip systems
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>. We assume, consistent with the CPFE calculations, that deformation in bcc tungsten is accommodated by dislocations with a/2 &lt;111&gt; Burgers’ vector gliding on {110} planes
+ <sup>
+  <xref ref-type="bibr" rid="CR49">49</xref>,
+  <xref ref-type="bibr" rid="CR50">50</xref>
+ </sup> (list of Burgers’ vector and line directions considered can be found elsewhere
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>). Furthermore, we assume dislocations to be of either pure edge (with &lt;112&gt; line directions) or pure screw type (with &lt;111&gt; line directions), resulting in 16 dislocation types in total
+ <sup>
+  <xref ref-type="bibr" rid="CR34">34</xref>
+ </sup>.
+</p>

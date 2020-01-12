@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>The improved odometer positioning method combines the IMU, which can accurately reflect the heading angle, and the odometer, which calculates the heading angle with a small error. It can obtain better coordinates in the case of long-duration and long-distance operation. However, the IMU data are susceptible to interference and large fluctuations. Hence, the independent use of the improved odometer positioning method is not reliable.</p>

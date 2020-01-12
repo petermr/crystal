@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab2">
+ <label>Table 2</label>
+ <caption>
+  <p>Comparison of different WLEDs fabricated by perovskite</p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th>Ref.</th>
+    <th>LED chip</th>
+    <th>Red component</th>
+    <th>Green component</th>
+    <th>Blue component</th>
+    <th>PL intensity, working time</th>
+    <th>Current
+     <break/>(mA)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>1</td>
+    <td>Blue LED</td>
+    <td>CsPb (Br/I)
+     <sub>3</sub>
+    </td>
+    <td>CsPbBr
+     <sub>3</sub>
+    </td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>10 h, 83%</td>
+    <td>20</td>
+   </tr>
+   <tr>
+    <td>2</td>
+    <td>UV LED</td>
+    <td colspan="2">2.7% Ce/9.1% Mn co-doped CsPbCl
+     <sub>1.8</sub>Br
+     <sub>1.2</sub>
+    </td>
+    <td>UV
+     <break/>LED
+    </td>
+    <td>20 h, 89%</td>
+    <td>15</td>
+   </tr>
+   <tr>
+    <td>3</td>
+    <td>Blue LED</td>
+    <td>Mn
+     <sup>2+</sup>-doped CsPb (Cl
+     <sub>0.5</sub>Br
+     <sub>0.5</sub>)
+     <sub>3</sub>
+    </td>
+    <td>CsPbBr
+     <sub>3</sub>
+    </td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>24 h, 96%</td>
+    <td>20</td>
+   </tr>
+   <tr>
+    <td>4</td>
+    <td>UV LED</td>
+    <td>CsPb (Br
+     <sub>0.4</sub>I
+     <sub>0.6</sub>)
+     <sub>3</sub>
+    </td>
+    <td>CsPb (Br
+     <sub>0.8</sub>I
+     <sub>0.2</sub>)
+     <sub>3</sub>
+    </td>
+    <td>UV
+     <break/>LED
+    </td>
+    <td>100 h, 73%</td>
+    <td>15</td>
+   </tr>
+   <tr>
+    <td>5</td>
+    <td>UV LED</td>
+    <td>CsPbI
+     <sub>3</sub>
+    </td>
+    <td>CsPb (Br/I)
+     <sub>3</sub>
+    </td>
+    <td>CsPbBr
+     <sub>3</sub>
+    </td>
+    <td>30 h, 83.5%</td>
+    <td>15</td>
+   </tr>
+   <tr>
+    <td>6</td>
+    <td>Blue LED</td>
+    <td>CSAN:Eu
+     <sup>2+</sup>-EC
+    </td>
+    <td>CsPbBr
+     <sub>3</sub>-EC
+    </td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>30 min, 80%</td>
+    <td>20</td>
+   </tr>
+   <tr>
+    <td>7</td>
+    <td>Blue LED</td>
+    <td>K
+     <sub>2</sub>SiF
+     <sub>6</sub>:Mn
+     <sup>4+</sup>
+     <break/>phosphors
+    </td>
+    <td>CsPbBr
+     <sub>3</sub>
+    </td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>13 h, 96%</td>
+    <td>6</td>
+   </tr>
+   <tr>
+    <td>8</td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>CaAlSiN
+     <sub>3</sub>:Eu
+     <sup>2+</sup>
+    </td>
+    <td>CsPb
+     <sub>0.64</sub>Sn
+     <sub>0.36</sub>Br
+     <sub>3</sub>
+    </td>
+    <td>Blue
+     <break/>LED
+    </td>
+    <td>50 h, 97%</td>
+    <td>15</td>
+   </tr>
+   <tr>
+    <td>This work</td>
+    <td>UV LED</td>
+    <td>Mn-doped CsPbCl
+     <sub>3</sub>
+    </td>
+    <td>–</td>
+    <td>Bi-doped Cs
+     <sub>2</sub>SnCl
+     <sub>6</sub>
+    </td>
+    <td>50 h, 99%
+     <break/>100 h, 97%
+    </td>
+    <td>15</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

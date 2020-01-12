@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table-wrap id="Tab1">
+ <label>Table 1</label>
+ <caption>
+  <p>The SMA Parameters for atomic pairs K-K
+   <sup>
+    <xref ref-type="bibr" rid="CR8">8</xref>
+   </sup>, Na-Na
+   <sup>
+    <xref ref-type="bibr" rid="CR8">8</xref>
+   </sup>, and Na-K
+   <sup>
+    <xref ref-type="bibr" rid="CR16">16</xref>
+   </sup>.
+  </p>
+ </caption>
+ <table frame="hsides" rules="groups">
+  <thead>
+   <tr>
+    <th/>
+    <th>
+     <italic>ζ</italic>
+     <sub>0</sub> (eV)
+    </th>
+    <th>
+     <italic>ε</italic>
+     <sub>0</sub> (eV)
+    </th>
+    <th>
+     <italic>p</italic>
+    </th>
+    <th>
+     <italic>q</italic>
+    </th>
+    <th>
+     <italic>r</italic>
+     <sub>0</sub> (nm)
+    </th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td>Na</td>
+    <td>0.29113</td>
+    <td>0.015955</td>
+    <td>10.13</td>
+    <td>1.30</td>
+    <td>0.3698949</td>
+   </tr>
+   <tr>
+    <td>K</td>
+    <td>0.26259</td>
+    <td>0.020545</td>
+    <td>10.58</td>
+    <td>1.34</td>
+    <td>0.4367299</td>
+   </tr>
+   <tr>
+    <td>NaK</td>
+    <td>0.27649</td>
+    <td>0.018105</td>
+    <td>10.35</td>
+    <td>1.32</td>
+    <td>0.4150866</td>
+   </tr>
+  </tbody>
+ </table>
+</table-wrap>

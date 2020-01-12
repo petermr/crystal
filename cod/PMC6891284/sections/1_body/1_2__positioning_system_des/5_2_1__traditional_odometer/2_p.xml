@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p>It is assumed that the trajectory of the food delivery robot is a segment of an arc, and if the rotation speed of the food delivery robot is zero, which means that the speeds of the left and right wheels are equal, the trajectory of movement of the robot is a straight line. Assume that the two-wheel distance of the food delivery robot is 
+ <inline-formula>
+  <math id="mm1">
+   <mrow>
+    <mrow>
+     <mn>2</mn>
+     <mi>L</mi>
+    </mrow>
+   </mrow>
+  </math>
+ </inline-formula> and the center of its movement mechanism (the center of the two rounds of connection) is point p. After a certian time, the robot moves to point p’, and the arc lengths of the left and right wheels increase, as shown in 
+ <xref ref-type="fig" rid="sensors-19-04980-f002">Figure 2</xref>.
+</p>
